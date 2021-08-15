@@ -1,32 +1,25 @@
 <template>
   <div class="container"> 
-    {{CharacterName}}
-    {{charclass}}
-    {{charicon}}
-    <div>
-    char description
-    {{description}}
-    <breaktrought />
-    <ascension />
-    </div>
+    Breaktrought
+    <ul v-for="index in brk" :key="index">
+    <li>{{index}}</li>
+
+    </ul>
   </div>
 </template>
 
 <script>
-import breaktrought from './breaktrought.vue'
-import ascension from './ascension.vue'
+
 
 export default {
 
-  name: 'Character_dash',
-  components:{
-    breaktrought,
-    ascension
-  },
+  name: 'breaktrought',
+
   data: function() {
     return {
       description:"first",
-      charData:null
+      charData:null,
+      brk:['one','two','three','four','five','six']
     }
   },
   props: {

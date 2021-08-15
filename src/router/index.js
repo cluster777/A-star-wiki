@@ -1,14 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import character from '../App.vue'
+import character from '../character.vue'
 const routes = [
   {
-    path: '/char',
+    path: '/',
+    redirect:'/sinsa',
     name: 'char',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: character
+  },
+  {
+    path:'/:name',
+    name:'chardirect',
+    component:character
   }
 ]
 
