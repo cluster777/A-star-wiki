@@ -36,7 +36,7 @@ export default {
     element_sub: String,
     faction: String,
     char_image: String,
-    char_rarity: String
+    char_rarity: Number 
   }
 }
 </script>

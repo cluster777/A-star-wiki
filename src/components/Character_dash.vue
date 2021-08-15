@@ -11,8 +11,15 @@
 </template>
 
 <script>
+import { useRoute } from 'vue-router';
+
 export default {
-  name: 'ChainCombo',
+  setup(){
+    const route = useRoute()
+    const charname = route.params
+    return charname,route
+  },
+  name: 'Character_dash',
   data: function() {
     return {
       description:"first",
@@ -22,16 +29,9 @@ export default {
   props: {
     msg: String
   },
-  methods:{
-    OnChainChange(value){
-      console.log(value)
-      if(value==1){
-        this.description="first"
-      }
-      else if(value==2){
-        this.description="second"
-      }
-      else this.description="third"
+  methods: {
+    retcharname(){
+      console.log(this.charname)
     }
   }
 }
