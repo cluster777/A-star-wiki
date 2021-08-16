@@ -1,7 +1,8 @@
 <template>
   <div class="image">
     <!-- put char picture here andd.... their char icon yeah-->
-    
+    {{charimage}}
+    {{charicon}}
   </div>
 </template>
 

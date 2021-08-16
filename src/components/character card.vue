@@ -19,7 +19,7 @@
     </div>
     <div>
       <!--rarity line-->
-      {{this.char_rarity}}
+      <hr v-bind="options" :class=colorClass>
     </div>
     <div>
       {{this.char_name}}
@@ -37,12 +37,45 @@ export default {
     faction: String,
     char_image: String,
     char_rarity: Number 
+  },
+  computed:{
+    colorClass(){
+      if(this.char_rarity==6){
+        return 'red'
+      }
+      else if(this.char_rarity==5){
+        return 'yellow'
+      }
+      else if(this.char_rarity==4){
+        return 'purple'
+      }
+      else if(this.char_rarity==3){
+        return 'blue'
+      }
+      return 'blue'
+    }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+hr{
+  height:2px
+}
+.blue{
+  background-color:#187cf5 ;
+}
+.purple{
+  background-color:#a600ff ;
+}
+.yellow{
+  background-color: #ffbb00;
+}
+.red{
+  background-color:#f5341b ;
+}
 .container{
   border-style: solid;
   width: 10%;

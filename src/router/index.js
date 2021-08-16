@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import character from '../character.vue'
+import character from '../views/character.vue'
 const routes = [
   {
     path: '/',

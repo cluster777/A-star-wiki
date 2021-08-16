@@ -84,7 +84,7 @@ export default {
     }
   },
   props: {
-    msg: String
+    CharacterName:String
   },
   methods: {
     OnEquipLVChange(){

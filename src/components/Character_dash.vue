@@ -2,7 +2,7 @@
   <div class="container"> 
     {{CharacterName}}
     {{charclass}}
-    {{charicon}}
+    {{charfaction}}
     <div>
     char description
     {{description}}
