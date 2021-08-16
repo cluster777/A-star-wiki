@@ -3,7 +3,7 @@
   <div class="clearfix"></div>
   
   <CharSelector  v-show="this.active" :CharacterData="[{char_name: 'sinsa',element_main: 'fire',element_sub: 'thunder',faction: 'rediesel',char_image: 'placeholder',char_rarity: 6},{char_name: 'faust',element_main: 'fire',element_sub: 'water',faction: 'True Order',char_image: 'placeholder',char_rarity: 5},{char_name: 'alice',element_main: 'fire',element_sub: 'nill',faction: 'Northland',char_image: 'placeholder',char_rarity: 4}]"/>
-  <CharacterImage />
+  <CharacterImage :CharacterName=charname />
   <div class=sidebar>
     
     <Characterdash :CharacterName=charname />
