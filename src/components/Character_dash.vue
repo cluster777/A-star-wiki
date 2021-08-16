@@ -1,5 +1,5 @@
 <template>
-  <div class="container"> 
+  <div class="containerz"> 
     {{CharacterName}}
     {{charclass}}
     {{charfaction}}
@@ -7,21 +7,19 @@
     char description
     {{description}}
     <breaktrought />
-    <ascension />
     </div>
   </div>
 </template>
 
 <script>
 import breaktrought from './breaktrought.vue'
-import ascension from './ascension.vue'
+
 
 export default {
 
   name: 'Character_dash',
   components:{
-    breaktrought,
-    ascension
+    breaktrought
   },
   data: function() {
     return {
@@ -37,16 +35,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.Chain{
-  width:100%;
-  height:10%;
-  background-color: aqua;
-}
-.Chain input{
-  float:left;
-}
-.container{
+
+.containerz{
   border-style: solid;
-  width: 40%;
+  width: 99%;
 }
 </style>

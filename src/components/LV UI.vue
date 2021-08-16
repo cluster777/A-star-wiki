@@ -9,7 +9,7 @@
         :value=i-1
         v-on:click="OnAscensionChange(i-1)"/>
     </div>
-
+    <div class=clearfix />
     <div>
         <div>
           LV
@@ -18,21 +18,23 @@
               v-bind="options"
                   :max=sliderMax
               />
+          {{this.sliderVal}}
           <div>
               <!--float it to the right-->
-              {{this.sliderVal}}
+              
           </div>
 
         </div>
     </div>
-    <div>
+    <div v-show="true">
       <div class="slidecontainer">
           Trust
           <input v-model=trust
               type=range min=0  max=10 step=1/>
+          {{this.trust}}
           <div>
               <!--float it to the right-->
-              {{this.trust}}
+              
           </div>
           <div>
             att:{{this.trust*6}} def:{{this.trust*3}} HP:{{this.trust*30}}
@@ -47,9 +49,10 @@
               type=range min=1  max=10 step=1
               @input="OnEquipLVChange"
               />
+          {{this.equiplv}}
           <div>
               <!--float it to the right-->
-              {{this.equiplv}}
+              
                att:{{this.equipatt}} def:{{this.equipdef}} HP:{{this.equiphp}} multiplier:{{this.equipmult}}<br>
                {{this.equipDescription}}
           </div>
@@ -160,6 +163,11 @@ export default {
 }
 .container{
   border-style: solid;
-  width: 40%;
+  width: 99%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>

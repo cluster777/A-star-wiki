@@ -7,6 +7,7 @@
         :value=i
         v-on:click="OnChainChange(i)"/>
     </div>
+    <div class=clearfix />
     <content>
         {{description}}
     </content>
@@ -53,6 +54,11 @@ export default {
 }
 .container{
   border-style: solid;
-  width: 40%;
+  width: 99%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>

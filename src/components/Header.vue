@@ -1,7 +1,8 @@
 <template>
-  <div class="container"> 
+  <div class="containerx"> 
+    <div class=tittle>
       Page title pls
-    <!-- header header-->
+    </div>
     <navbar />
   </div>
 </template>
@@ -20,16 +21,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.Chain{
-  width:100%;
-  height:10%;
-  background-color: aqua;
-}
-.Chain input{
-  float:left;
-}
-.container{
+.containerx{
   border-style: solid;
-  width: 40%;
+  width: 100%;
+  overflow: auto;
 }
+.tittle{
+  float:left
+
+}
+
 </style>

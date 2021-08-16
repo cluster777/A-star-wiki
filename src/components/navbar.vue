@@ -1,27 +1,39 @@
 <template>
-  <div class="container"> 
-      here we go this is navbar
+  <div class="container" > 
+      <button value=char v-on:click="showcharacterselector()" > test </button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  methods:{
+    getParent(name){
+      let p = this.$parent;
+      while(typeof p !== 'undefined'){
+        if(p.$options.name == name) {
+          return p;
+        }else {
+          p = p.$parent;
+        }
+      }
+      return false;
+    },
+    showcharacterselector(){
+      this.getParent('character').ActiveChange()
+    }
+  }
+
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.Chain{
-  width:100%;
-  height:10%;
-  background-color: aqua;
-}
-.Chain input{
-  float:left;
-}
-.container{
-  border-style: solid;
-  width: 40%;
-}
+  
+  .container{
+    float:left
+
+  }
+
 </style>

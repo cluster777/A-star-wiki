@@ -28,6 +28,6 @@ export default {
 }
 .container{
   border-style: solid;
-  width: 40%;
+  width: 100%;
 }
 </style>
