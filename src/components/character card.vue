@@ -5,24 +5,36 @@
       <!--the image and icon container-->
       <div>
         <!-- char image full width full height -->
-        {{this.char_image}}
+        <img class="mainchar" 
+          :src="'/character_card/'+this.char_name+'.png'" v-bind:alt="pic">
+        <div class="element">
+          <!-- element float it left -->
+          <img class="icon" 
+            :src="'/universal/'+this.element_main+'.png'" v-bind:alt="pic"><br>
+          
+          <img v-show="this.element_sub!='x'" class="icon" 
+            :src="'/universal/'+this.element_sub+'.png'" v-bind:alt="pic">
+          
+        </div>
+        <div class="detail">
+          <!--float it right-->
+          <img class="icon main-detail" 
+            :src="'/universal/type_'+this.class+'.png'" v-bind:alt="pic"><br>
+          <img v-show="this.faction!='legendary'" class="icon sub-detail" 
+            :src="'/universal/'+this.faction+'.png'" v-bind:alt="pic">
+          
+        </div>
       </div>
-      <div>
-        <!-- element float it left -->
-        {{this.element_main}}
-        {{this.element_sub}}
-      </div>
-      <div>
-        <!--float it right-->
-        {{this.faction}}
-      </div>
+      
     </div>
-    <div>
+    <div class=bottom-detail>
+      <div>
       <!--rarity line-->
-      <hr v-bind="options" :class=colorClass>
-    </div>
-    <div>
-      {{this.char_name}}
+        <hr v-bind="options" :class=colorClass>
+      </div>
+      <div>
+        {{this.char_name}}
+      </div>  
     </div>
   </div>
 </template>
@@ -35,6 +47,7 @@ export default {
     element_main: String,
     element_sub: String,
     faction: String,
+    class:String,
     char_image: String,
     char_rarity: Number 
   },
@@ -78,6 +91,36 @@ hr{
 }
 .container{
   border-style: solid;
-  width: 10%;
+  width: 100%;
+  position: relative;
+}
+.icon{
+  width:20px;
+  height:20px;
+
+}
+.mainchar{
+  position: fixed;
+  width:90px;
+  height:90px;
+  z-index:2;
+}
+.element{
+  position:fixed;
+  float:left;
+  z-index: 10;
+}
+.detail{
+  position: absolute;
+  float: right;
+  right:0;
+  top:0;
+  z-index: 10;
+}
+.bottom-detail{
+  margin-top: 95px;
+  bottom: 0;
+  left:0;
+  right:0;
 }
 </style>
