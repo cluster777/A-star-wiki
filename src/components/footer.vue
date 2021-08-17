@@ -27,7 +27,10 @@ export default {
   float:left;
 }
 .container{
-  border-style: solid;
+  background-color: rgb(31, 31, 31);
+
   width: 100%;
+  overflow: auto;
+  padding:20px;
 }
 </style>

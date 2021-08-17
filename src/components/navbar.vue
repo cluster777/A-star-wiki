@@ -32,6 +32,7 @@ export default {
 <style scoped>
   
   .container{
+    background-color: rgb(83, 78, 78);
     float:left
 
   }

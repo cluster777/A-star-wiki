@@ -22,9 +22,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .containerx{
-  border-style: solid;
+  background-color: rgb(31, 31, 31);
   width: 100%;
   overflow: auto;
+  padding:20px;
 }
 .tittle{
   float:left

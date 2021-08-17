@@ -162,6 +162,7 @@ export default {
   width: 100%; /* Width of the outside container */
 }
 .container{
+  background-color: rgb(83, 78, 78);
   border-style: solid;
   width: 99%;
 }

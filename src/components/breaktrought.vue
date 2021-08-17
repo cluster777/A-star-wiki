@@ -32,6 +32,7 @@ export default {
 <style scoped>
 
 .container{
+  background-color: rgb(83, 78, 78);
   border-style: solid;
   margin:5px
 }

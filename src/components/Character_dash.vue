@@ -37,6 +37,7 @@ export default {
 <style scoped>
 
 .containerz{
+  background-color: rgb(83, 78, 78);
   border-style: solid;
   width: 99%;
 }

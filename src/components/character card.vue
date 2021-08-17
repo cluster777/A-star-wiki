@@ -20,7 +20,7 @@
           <!--float it right-->
           <img class="icon main-detail" 
             :src="'/universal/type_'+this.class+'.png'" v-bind:alt="pic"><br>
-          <img v-show="this.faction!='legendary'" class="icon sub-detail" 
+          <img v-show="this.faction!='silent hunter'" class="icon sub-detail" 
             :src="'/universal/'+this.faction+'.png'" v-bind:alt="pic">
           
         </div>
@@ -75,7 +75,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 hr{
-  height:2px
+  height:2px;
+  margin-bottom: 0px;
 }
 .blue{
   background-color:#187cf5 ;
@@ -93,34 +94,40 @@ hr{
   border-style: solid;
   width: 100%;
   position: relative;
+  background-color: darkgray;
 }
 .icon{
   width:20px;
   height:20px;
-
+  background-color: black;
 }
 .mainchar{
   position: fixed;
-  width:90px;
-  height:90px;
+  width:80px;
+  height:80px;
+  padding:5px;
   z-index:2;
 }
 .element{
-  position:fixed;
+  position:absolute;
+  top:5px;
+  left:5px;
   float:left;
   z-index: 10;
 }
 .detail{
   position: absolute;
   float: right;
-  right:0;
-  top:0;
+  right:5px;
+  top:5px;
   z-index: 10;
 }
 .bottom-detail{
-  margin-top: 95px;
+  margin-top: 88px;
   bottom: 0;
   left:0;
   right:0;
+  text-align: center;
+  padding-bottom: 5px ;
 }
 </style>

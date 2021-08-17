@@ -1,19 +1,39 @@
 <template>
   <div  class=overlay>
-    <button value=char v-on:click="showcharacterselector()" > test </button>
-    <div v-for="field in CharacterData" :key="field" class="grid-container">
-      <!--all char goes here with v-for char-->
-      <div class="grid-item">
-        <CharCard v-bind="options"
-          :char_name=field.char_name 
-          :element_main=field.element_main
-          :element_sub=field.element_sub
-          :faction=field.faction
-          :class=field.class
-          :char_rarity=field.char_rarity
-          v-on:click="goto(field.char_name)"
-          
-        />
+    <div class="middle-box">
+      <div class=headclose>
+        <button value=char v-on:click="showcharacterselector()" class="button-close" > X </button>
+      </div>
+      <div>
+        <!--filter goes here-->
+        <div class=filterbox>
+          rarity
+          <div></div>
+        </div>
+        <div class=filterbox>
+          element_main
+          <div></div>
+        </div>
+        <div class=filterbox>
+          faction
+          <div></div>
+        </div>
+
+      </div>
+      <div v-for="field in CharacterData" :key="field" class="grid-container">
+        <!--all char goes here with v-for char-->
+        <div class="grid-item">
+          <CharCard v-bind="options"
+            :char_name=field.char_name 
+            :element_main=field.element_main
+            :element_sub=field.element_sub
+            :faction=field.faction
+            :class=field.class
+            :char_rarity=field.char_rarity
+            v-on:click="goto(field.char_name)"
+            
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -64,19 +84,45 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.85); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+ /* Add a pointer on hover */
 }
 .grid-container {
   display: grid;
+  margin-top: 10px;
+  background-color: red;
   gap: 5px;
-  grid-auto-rows: 140px;
+  grid-auto-rows: 130px;
 }
 .grid-item{
   height:150px;
   width:90px;
   padding: 10px;
+  background-color: blue;
 }
-
+.filterbox{
+  background-color: red;
+  margin:5px;
+  margin-top:10px;
+}
+.middle-box{
+  position: relative;
+  width:70%;
+  height: 95%;
+  align-content: center;
+  background-color: green;
+  margin:auto;
+  margin-top: 20px;
+}
+.headclose{
+  padding-bottom:20px;
+}
+.button-close{
+  background-color: green;
+  border:none;
+  
+  position:absolute;
+  right:0;
+}
 </style>

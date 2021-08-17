@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainbody">
     <!--header and nav thanks-->
     
     <!-- In this single page, without router-view, views cannot render -->
@@ -21,7 +21,17 @@ export default {
 <style>
 Header{
   height:10%;
+}
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
 
+}
+body {
+  background-color: rgb(83, 78, 78);
+  color:whitesmoke
 }
 Footer{
   height:10%;
