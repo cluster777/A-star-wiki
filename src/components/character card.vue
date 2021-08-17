@@ -92,6 +92,7 @@ hr{
 }
 .container{
   border-style: solid;
+  border-color: darkgrey ;
   width: 100%;
   position: relative;
   background-color: darkgray;

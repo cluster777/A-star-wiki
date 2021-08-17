@@ -1,5 +1,5 @@
 <template>
-  <div  class=overlay>
+  <div  class=overlay v-on:click.self="this.$parent.ActiveChange()">
     <div class="middle-box">
       <div class=headclose>
         <button value=char v-on:click="showcharacterselector()" class="button-close" > X </button>
@@ -91,6 +91,8 @@ export default {
 .grid-container {
   display: grid;
   margin-top: 10px;
+  grid-gap: 10px;
+  grid-auto-columns: 90px; 
   background-color: red;
   gap: 5px;
   grid-auto-rows: 130px;
