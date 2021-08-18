@@ -89,7 +89,9 @@ export default {
  /* Add a pointer on hover */
 }
 .grid-container {
-  display: grid;
+  flex: auto auto auto;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 10px;
   grid-gap: 10px;
   grid-auto-columns: 90px; 
@@ -127,4 +129,5 @@ export default {
   position:absolute;
   right:0;
 }
+
 </style>

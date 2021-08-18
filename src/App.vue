@@ -22,12 +22,10 @@ export default {
 Header{
   height:10%;
 }
-body, html {
-  padding: 0;
-  margin: 0;
+html, body, #app {
+  height: 100%;
   width: 100%;
-  min-height: 100%;
-
+  margin: 0;
 }
 body {
   background-color: rgb(83, 78, 78);

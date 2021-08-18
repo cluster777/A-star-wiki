@@ -8,9 +8,16 @@
         v-on:click="OnChainChange(i)"/>
     </div>
     <div class=clearfix />
-    <content>
-        {{description}}
-    </content>
+    <div class="content">
+      
+        <div class="description">
+          {{description}}
+        </div>
+        <div class="AoE">
+          <img :src="'/universal/type_detonator.png'" class="image"/>
+        </div>
+        <div class=clearfix />
+    </div>
     
   </div>
 </template>
@@ -20,16 +27,12 @@ export default {
   name: 'ChainCombo',
   data: function() {
     return {
-      description:"first",
+      description:"first"
 
     }
   },
-  props: {
-    msg: String
-  },
   methods:{
     OnChainChange(value){
-      console.log(value)
       if(value==1){
         this.description="first"
       }
@@ -53,13 +56,34 @@ export default {
   float:left;
 }
 .container{
-  background-color: rgb(83, 78, 78);
-  border-style: solid;
+  background-color: rgb(48, 44, 44);;
+
   width: 99%;
+}
+h4{
+  margin:0;
+}
+.content{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:15px;
+  padding-right:15px ;
+  
+}
+.description{
+  float:left;
+  width: 80%;
+}
+.AoE{
+  float:right;
+  border-style: solid;
+
+  width:100px
 }
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+
 </style>
