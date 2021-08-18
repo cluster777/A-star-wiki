@@ -1,0 +1,37 @@
+{
+	"charname":"sinsa",
+	"element_main":"fire",
+	"element_sub":"thunder",
+	"faction":"rediesel wrench",
+	"symbol":"",
+	"class":"detonator",
+	"active_skill":{
+		"name":"Sinsa Shaterstrike",
+		"icon":"",
+        "cooldown":3,
+		"description":"Selects 1 tile from the 4 tiles in a cross shape around you and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage).",
+		"AoE":""
+	},
+	"breaktrought":{
+		"description":["HP increased by 300.","DEF increased by 40.","Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.","Increased by 300+5%Basic max HP.","Increased by 40+5%Basic DEF.","Active Skill Enhancement: Increases skill damage by 200%. Damage taken by the enemy nearest to Sinsa is tripled."] 
+	},
+	"equipment":{ 
+		"name":"Rediesel Wrench",
+		"icon":"",  
+		"description":"it is said that this oversized wrench was used by the first chief of rediesel wrench, and that only those who can wield it with ease are qualified to become the chief. The hard hammerhead combined with Sinsa's power makes it capable of smashing anything.",
+		"effect":["Normal attacks can hit diagonally. Diagonal normal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF, lasting for 1 round.","Normal attacks can hit diagonally. Diagonal normal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF, lasting for 1 round.","Normal attacks can hit diagonally. Diagonal normal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF, lasting for 1 round.","Normal attacks can hit diagonally. Diagonal normal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF, lasting for 1 round."]
+	},
+	"base_stat":{ 
+		"stat":[{"att":548,"def":227,"hp":1958},{"att":898,"def":344,"hp":3051},
+                {"att":1003,"def":379,"hp":3348},{"att":1591,"def":575,"hp":5186},
+                {"att":1753,"def":629,"hp":5621},{"att":2307,"def":815,"hp":7353},
+                {"att":2540,"def":887,"hp":7976},{"att":3136,"def":1086,"hp":9838}]  
+	},
+	"chaincombo":{
+		"name" :"Splatterfire",
+		"icon":"",
+		"description":["Deals 160% damage to 12 tiles in a diamond shape.","Deals 165% damage to 16 tiles in a radial shape.","Deals 165% damage to enemies in a radial shape to the maximum range."],
+        "cost":[4,9,13],
+		"AoE":["","",""]
+    }
+}

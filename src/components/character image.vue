@@ -2,21 +2,27 @@
   <div class="container">
     <!-- put char picture here andd.... their char icon yeah-->
     <img class=image 
-    :src="'/character/' + CharacterName + '.png'" v-bind:alt="pic">
+    :src=charimage v-bind:alt="pic">
     <img class=icon
-    :src="'/universal/type_' + 'detonator' + '.png'" v-bind:alt="pic">
+    :src=charsymbol v-bind:alt="pic">
   </div>
 </template>
 
 <script>
-
+//need character symbol
 export default {
   name: 'CharImage',
-
   props: {
     CharacterName: String
+  },
+  data:function(){
+    return{
+      charimage:require('@/assets/character/' + this.CharacterName + '.png'),
+      charsymbol:require('@/assets/universal/type_' + 'detonator' + '.png')
+    }
+
   }
-}
+}  
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

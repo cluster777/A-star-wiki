@@ -41,12 +41,12 @@
 
 <script>
 import CharCard from './character card.vue'
-import charlist from 'D:/project/gacha-web/gacha-web/public/json/charlist.json'
+
 export default {
   name: 'CharSelector',
   data: function() {
     return{
-      CharacterData:charlist
+      CharacterData:require('@/assets/json/charlist.json')
     }
   },
   components:{

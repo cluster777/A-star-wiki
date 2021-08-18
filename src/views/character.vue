@@ -36,9 +36,10 @@ export default {
       // `this` points to the vm instance
       const route = useRoute()
       console.log(route.params.name)
+      //this.$state.chardata=require{'@/assets/json/'+charname+'.json'}
       return route.params.name
     }
-  
+    
   },
   data:function(){
     return{
@@ -58,6 +59,7 @@ export default {
   methods:{
     ActiveChange(){
       this.active=!this.active
+      this.$state.chardata=require('@/assets/json/'+this.charname+'.json')
     }
   }
 }

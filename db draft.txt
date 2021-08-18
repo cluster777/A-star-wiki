@@ -25,37 +25,37 @@ character:
 		AoE[max 3]
 
 character database template
-character{
-	charname
-	element_main
-	element_sub
-	faction
-	symbol
-	class
-	active_skill{
-		name
-		icon
-		description
-		AoE //will name it soon
+{
+	"charname":
+	"element_main":
+	"element_sub":
+	"faction":
+	"symbol":
+	"class":
+	"active_skill":{
+		"name":
+		"icon":
+		"description":
+		"AoE": //will name it soon
 	}
-	breaktrought{
-		description[] //description1 ,description2,....
+	"breaktrought":{
+		"description":[] //description1 ,description2,....
 	}
-	equipment(lv1-10){
-		name
-		icon
-		hp att def//{a,b,c}atau a[] b[] c[]
-		description
-		effect[] //description1 ,description2,....
+	"equipment":{ //lv1-10
+		"name":
+		"icon":
+		"stat":[]   //{a,b,c},{a,b,c},... atau a[a,a,a,...] b[b,b,b,...] c[c,c,c,...] 
+		"description":
+		"effect":[]     //description1 ,description2,....
 	}
-	base_stat[40+50+60+80(456)]{
-		hp att def [230] antara  //{a,b,c}atau a[] b[] c[]
+	"base_stat":{ //idea collect min max value
+		"stat":[]  //{a,b,c}atau a[] b[] c[]
 	}
-	chaincombo{
-		name 
-		icon
-		description[]//description1 ,description2,....
-		AoE[] //will name it soon
+	"chaincombo":{
+		"name" :
+		"icon":
+		"description":[]//description1 ,description2,....
+		"AoE":[] //will name it soon
 	}
 }
 character listing template

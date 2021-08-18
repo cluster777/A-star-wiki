@@ -6,22 +6,22 @@
       <div>
         <!-- char image full width full height -->
         <img class="mainchar" 
-          :src="'/character_card/'+this.char_name+'.png'" v-bind:alt="pic">
+          :src=charcard v-bind:alt="pic">
         <div class="element">
           <!-- element float it left -->
           <img class="icon" 
-            :src="'/universal/'+this.element_main+'.png'" v-bind:alt="pic"><br>
+            :src=element_main_image v-bind:alt="pic"><br>
           
           <img v-show="this.element_sub!='x'" class="icon" 
-            :src="'/universal/'+this.element_sub+'.png'" v-bind:alt="pic">
+            :src=element_sub_image v-bind:alt="pic">
           
         </div>
         <div class="detail">
           <!--float it right-->
           <img class="icon main-detail" 
-            :src="'/universal/type_'+this.class+'.png'" v-bind:alt="pic"><br>
+            :src=class_image v-bind:alt="pic"><br>
           <img v-show="this.faction!='silent hunter'" class="icon sub-detail" 
-            :src="'/universal/'+this.faction+'.png'" v-bind:alt="pic">
+            :src=faction_image v-bind:alt="pic">
           
         </div>
       </div>
@@ -50,6 +50,15 @@ export default {
     class:String,
     char_image: String,
     char_rarity: Number 
+  },
+  data:function(){
+    return{
+      charcard:require('@/assets/character_card/'+this.char_name+'.png'),
+      element_main_image:require('@/assets/universal/'+this.element_main+'.png'),
+      element_sub_image:require('@/assets/universal/'+this.element_sub+'.png'),
+      faction_image:require('@/assets/universal/'+this.faction+'.png'),
+      class_image:require('@/assets/universal/type_'+this.class+'.png'),
+    }
   },
   computed:{
     colorClass(){
