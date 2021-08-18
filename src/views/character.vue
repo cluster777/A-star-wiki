@@ -2,7 +2,7 @@
   <Header />
   <div class="clearfix"></div>
   
-  <CharSelector  v-show="this.active" :CharacterData="[{char_name: 'frostfire',element_main: 'fire',element_sub: 'fire',faction: 'silent hunter',class:'sniper',char_rarity: 6},{char_name: 'sinsa',element_main: 'fire',element_sub: 'thunder',faction: 'rediesel wrench',class:'detonator',char_rarity: 6},{char_name: 'faust',element_main: 'fire',element_sub: 'frost',faction: 'True Order',class:'converter',char_rarity: 5},{char_name: 'alice',element_main: 'fire',element_sub: 'x',faction: 'Northland',class:'support',char_rarity: 4}]"/>
+  <CharSelector  v-show="this.active" />
   <CharacterImage :CharacterName=charname />
   <div class=sidebar>
     
@@ -66,13 +66,25 @@ export default {
 <style>
 .sidebar{
   float:right;
-  width:45%;
-  height:80%;
+  width:30%;
+  height:50%;
+  margin-top:0px;
   margin-right:10px;
+  padding:10px;
 }
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+@media only screen and (max-width: 900px) {
+  .sidebar{
+  float:left;
+  width:98%;
+  height:50%;
+  margin-top:0px;
+  margin-right:30px;
+  padding:10px;
+  }
 }
 </style>

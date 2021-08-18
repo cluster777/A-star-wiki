@@ -32,8 +32,17 @@ export default {
 <style scoped>
 
 .container{
-  background-color: rgb(83, 78, 78);
-  border-style: solid;
-  margin:5px
+  background-color: rgb(48, 44, 44);
+
+  margin:10px
+}
+.container li{
+  margin:0px;
+  padding: 0px;
+}
+.container ul{
+  margin-top:0px;
+  margin-bottom: 5px;
+  padding-left: 20px;
 }
 </style>

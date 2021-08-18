@@ -1,10 +1,11 @@
 <template>
   <div class="containerz"> 
-    {{CharacterName}}
-    {{charclass}}
-    {{charfaction}}
-    <div>
-    char description
+    <h2>{{CharacterName}}</h2>
+    <hr>
+    <img class="faction-icon" :src="'/universal/rediesel wrench.png'" />
+
+    <img class="class-icon" :src="'/universal/type_detonator.png'">
+    <div class="content-description">
     {{description}}
     <breaktrought />
     </div>
@@ -37,8 +38,44 @@ export default {
 <style scoped>
 
 .containerz{
+  position:relative;
   background-color: rgb(48, 44, 44);
-  border-style: solid;
+
   width: 99%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top:0px;
 }
+.containerz h2{
+  padding-top: 20px ;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.containerz hr{
+  margin-top:30px;
+}
+.class-icon{
+  position:absolute;
+   background-color: rgb(48, 44, 44);
+  border-style: solid;
+  right:10px;
+  top:10px;
+  width:80px;
+  height:80px;
+}
+.faction-icon{
+  position: absolute;
+  border-style: solid;
+  background-color:rgb(48, 44, 44) ;
+  top:50px;
+  width: 30px;
+  height:30px;
+  left :20px ;
+}
+.content-description{
+  padding-left:10px;
+  margin-top:5px;
+
+}
+
 </style>

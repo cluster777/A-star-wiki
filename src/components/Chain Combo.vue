@@ -57,7 +57,7 @@ export default {
 }
 .container{
   background-color: rgb(48, 44, 44);;
-
+  margin-bottom: 10px;
   width: 99%;
 }
 h4{

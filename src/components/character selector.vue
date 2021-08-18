@@ -41,10 +41,13 @@
 
 <script>
 import CharCard from './character card.vue'
+import charlist from 'D:/project/gacha-web/gacha-web/public/json/charlist.json'
 export default {
   name: 'CharSelector',
-  props: {
-    CharacterData
+  data: function() {
+    return{
+      CharacterData:charlist
+    }
   },
   components:{
     CharCard
@@ -77,6 +80,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .overlay {
+  overflow: scroll;
   position: fixed; /* Sit on top of the page content */
   width: 100%; /* Full width (cover the whole page) */
   height: 100%; /* Full height (cover the whole page) */
@@ -88,25 +92,16 @@ export default {
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
  /* Add a pointer on hover */
 }
-.grid-container {
-  flex: auto auto auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  grid-gap: 10px;
-  grid-auto-columns: 90px; 
-  background-color: red;
-  gap: 5px;
-  grid-auto-rows: 130px;
-}
+
 .grid-item{
+  float:left;
   height:150px;
   width:90px;
   padding: 10px;
-  background-color: blue;
+  background-color: rgb(83, 78, 78);
 }
 .filterbox{
-  background-color: red;
+  background-color: rgb(31, 31, 31);;
   margin:5px;
   margin-top:10px;
 }
@@ -115,7 +110,7 @@ export default {
   width:70%;
   height: 95%;
   align-content: center;
-  background-color: green;
+  background-color: rgb(83, 78, 78);
   margin:auto;
   margin-top: 20px;
 }
@@ -123,7 +118,7 @@ export default {
   padding-bottom:20px;
 }
 .button-close{
-  background-color: green;
+  background-color: rgb(83, 78, 78);
   border:none;
   
   position:absolute;

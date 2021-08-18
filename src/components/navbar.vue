@@ -1,6 +1,6 @@
 <template>
   <div class="container" > 
-      <button value=char v-on:click="showcharacterselector()" > test </button>
+      <button value=char v-on:click="showcharacterselector()" > Character </button>
   </div>
 </template>
 
@@ -32,9 +32,15 @@ export default {
 <style scoped>
   
   .container{
-    background-color: rgb(83, 78, 78);
-    float:left
+    display: inline;
 
+    margin-left: 20px;
+    
+  }
+  button{
+    background-color: rgb(43, 43, 190);
+    border-style: none;
+    color:whitesmoke;
   }
 
 </style>

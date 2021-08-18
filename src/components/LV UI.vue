@@ -11,7 +11,7 @@
     </div>
     <div class=clearfix />
     <div>
-        <div>
+        <div class="slidecontainer">
           LV
           <input v-model=sliderVal 
               type=range min=1  step=1
@@ -36,21 +36,21 @@
               <!--float it to the right-->
               
           </div>
-          <div>
+          <div v-show="false">
             att:{{this.trust*6}} def:{{this.trust*3}} HP:{{this.trust*30}}
           </div>
 
         </div>
     </div>
     <div v-show="equip">
-        <div>
+        <div class="slidecontainer">
           Equip
           <input v-model=equiplv 
               type=range min=1  max=10 step=1
               @input="OnEquipLVChange"
               />
           {{this.equiplv}}
-          <div>
+          <div v-show="false">
               <!--float it to the right-->
               
                att:{{this.equipatt}} def:{{this.equipdef}} HP:{{this.equiphp}} multiplier:{{this.equipmult}}<br>
@@ -59,12 +59,12 @@
 
         </div>
     </div>
-    <content>
+    <div class="contentx">
         <!--affected by other selector-->
         attack  :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*6+ this.equipatt}}<br>
         defense :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*3+ this.equipdef}}<br>
         HP      :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*30+ this.equiphp}}<br>
-    </content>
+    </div>
 
   </div>
 </template>
@@ -159,12 +159,17 @@ export default {
   float:left;
 }
 .slidecontainer {
-  width: 100%; /* Width of the outside container */
+  padding-left: 20px;
+  padding-top: 5px ;
+  padding-bottom:10px;
 }
 .container{
   background-color: rgb(48, 44, 44);
-  border-style: solid;
+  
   width: 99%;
+}
+.contentx{
+  padding: 20px;
 }
 .clearfix::after {
   content: "";
