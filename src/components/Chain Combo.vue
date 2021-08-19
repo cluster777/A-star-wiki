@@ -25,12 +25,18 @@
 <script>
 export default {
   name: 'ChainCombo',
-  data: function() {
-    return {
-      description:"first"
-
-    }
+  props: {
+    CharacterName: String
   },
+   data: function() {
+    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
+    return{
+      name:chardata.chaincombo.name,
+      ActiveDescription:chardata.chaincombo.description,
+      cost:chardata.chaincombo.cost,
+      AoE:chardata.chaincombo.AoE //should be require(@/assets/universal/AoEname.png)
+    }
+   },
   methods:{
     OnChainChange(value){
       if(value==1){

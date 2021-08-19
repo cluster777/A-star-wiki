@@ -66,7 +66,6 @@ export default {
     },
     goto(name){
 
-      console.log(name)
       this.getParent('character').ActiveChange()
       this.$router.push({ path: `/${name}` })
     },

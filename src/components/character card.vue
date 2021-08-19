@@ -53,7 +53,7 @@ export default {
   },
   data:function(){
     return{
-      charcard:require('@/assets/character_card/'+this.char_name+'.png'),
+      charcard:require(`@/assets/character_card/${this.char_name}.png`),
       element_main_image:require('@/assets/universal/'+this.element_main+'.png'),
       element_sub_image:require('@/assets/universal/'+this.element_sub+'.png'),
       faction_image:require('@/assets/universal/'+this.faction+'.png'),

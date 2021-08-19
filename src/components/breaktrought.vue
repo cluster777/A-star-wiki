@@ -1,8 +1,9 @@
 <template>
   <div class="container"> 
-    Breaktrought
-    <ul v-for="index in brk" :key="index">
-    <li>{{index}}</li>
+    <h4>Breaktrought</h4>
+    <hr>
+    <ul v-for="item in breaktrought.description" :key="item">
+      <li>{{item}}</li>
 
     </ul>
   </div>
@@ -17,13 +18,11 @@ export default {
 
   data: function() {
     return {
-      description:"first",
-      charData:null,
-      brk:['one','two','three','four','five','six']
+      description:"first"
     }
   },
   props: {
-    CharacterName: String
+    breaktrought: Object
   }
 }
 </script>
@@ -40,9 +39,19 @@ export default {
   margin:0px;
   padding: 0px;
 }
+.container h4{
+  margin:0px;
+  padding: 0px;
+}
+.container hr{
+  margin:0px;
+  padding: 0px;
+  background-color: red;
+}
 .container ul{
   margin-top:0px;
   margin-bottom: 5px;
   padding-left: 20px;
+  
 }
 </style>

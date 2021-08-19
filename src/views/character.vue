@@ -3,14 +3,14 @@
   <div class="clearfix"></div>
   
   <CharSelector  v-show="this.active" />
-  <CharacterImage :CharacterName=charname />
+  <CharacterImage :CharacterName=charname :key=charname />
   <div class=sidebar>
     
-    <Characterdash :CharacterName=charname />
+    <Characterdash :CharacterName=charname :key=charname />
     
-    <ActiveSkill ActiveDescription="yeah" ActiveArea="vueee" />
+    <ActiveSkill :CharacterName=charname :key=charname />
     
-    <chain-combo/>
+    <chain-combo :CharacterName=charname :key=charname />
     
     <LV :CharacterName=charname />
   </div>
@@ -36,6 +36,7 @@ export default {
       // `this` points to the vm instance
       const route = useRoute()
       console.log(route.params.name)
+      this.$emit('onCharnameChange',route.params.name)
       //this.$state.chardata=require{'@/assets/json/'+charname+'.json'}
       return route.params.name
     }

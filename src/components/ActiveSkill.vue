@@ -3,15 +3,15 @@
   <div class="container">
     
     <div class="content">
-    
+      {{name}} <div class=cd>CD:{{CD}}</div><hr>
       <div class="description">
-        Active Skill<br>
+        
         {{ActiveDescription}}
       </div>
       <div class=clearfix />
-      <div class="AoE">
-        <img :src="'/universal/type_detonator.png'" class="image"/>
-      </div>
+      <!--<div class="AoE">
+        <img v-show=false :src=AoE class="image"/>
+      </div>-->
       <div class=clearfix />
     </div>
     
@@ -22,9 +22,17 @@
 export default {
   name: 'ActiveSkill',
   props: {
-    ActiveDescription: String,
-    ActiveArea:String
-  }
+    CharacterName: String
+  },
+   data: function() {
+    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
+    return{
+      name:chardata.active_skill.name,
+      ActiveDescription:chardata.active_skill.description,
+      CD:chardata.active_skill.cooldown,
+      AoE:chardata.AoE //should be require(@/assets/universal/AoEname.png)
+    }
+   }
 }
 </script>
 
@@ -41,16 +49,30 @@ export default {
   padding-bottom:10px;
   padding-left:15px;
   padding-right:15px ;
-  
+  width: 80%;
 }
 .description{
   float:left;
-  width: 80%;
+  width: 100%;
+}
+.container hr{
+  margin:0px;
+  padding: 0px;
+  background-color: red;
+  height:1px;
 }
 .AoE{
   float:right;
   border-style: solid;
 
   width:100px
+}
+.cd{
+  float:right;
+  background-color: rgb(77, 74, 74);
+}
+.preemptive{
+  float:right;
+  background-color: rgb(77, 74, 74);
 }
 </style>

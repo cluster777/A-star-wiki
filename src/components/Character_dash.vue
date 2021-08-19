@@ -1,13 +1,13 @@
 <template>
   <div class="containerz"> 
-    <h2>{{CharacterName}}</h2>
+    <h2>{{chardata.charname}}</h2>
     <hr>
-    <img class="faction-icon" :src="'/universal/rediesel wrench.png'" />
+    <img class="faction-icon" :src=charfaction />
 
-    <img class="class-icon" :src="'/universal/type_detonator.png'">
+    <img class="class-icon" :src=charclass>
     <div class="content-description">
     {{description}}
-    <breaktrought />
+    <breaktrought :breaktrought=chardata.breaktrought :key=CharacterName />
     </div>
   </div>
 </template>
@@ -22,15 +22,21 @@ export default {
   components:{
     breaktrought
   },
-  data: function() {
-    return {
-      description:"first",
-      charData:null
-    }
-  },
   props: {
     CharacterName: String
+  },
+  data: function() {
+    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
+    console.log(chardata.charname)
+    return {
+      description:"first",
+      chardata,
+      charfaction:require('@/assets/universal/' + chardata.faction + '.png'),
+      charclass:require('@/assets/universal/type_' + chardata.class + '.png'),
+
+    }
   }
+  
 }
 </script>
 

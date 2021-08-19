@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" >
     <!-- put char picture here andd.... their char icon yeah-->
     <img class=image 
     :src=charimage v-bind:alt="pic">
@@ -10,6 +10,7 @@
 
 <script>
 //need character symbol
+
 export default {
   name: 'CharImage',
   props: {
@@ -18,9 +19,22 @@ export default {
   data:function(){
     return{
       charimage:require('@/assets/character/' + this.CharacterName + '.png'),
-      charsymbol:require('@/assets/universal/type_' + 'detonator' + '.png')
+      chardata:require('@/assets/json/' + this.CharacterName + '.json'),
+      charsymbol:require('@/assets/universal/type_' + 'detonator' + '.png'),
+
     }
 
+  },
+  methods:{
+    imageupdate(value){
+      console.log(value)
+      import(`@/assets/json/${value}.json`).then((module) => {
+        this.test.value = module.default
+      })
+    this.charimage=require('@/assets/character/' + value + '.png')
+    this.charsymbol=require('@/assets/universal/type_' + 'detonator' + '.png')
+    }
+    
   }
 }  
 </script>

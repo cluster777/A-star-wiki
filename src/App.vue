@@ -4,7 +4,7 @@
     
     <!-- In this single page, without router-view, views cannot render -->
     
-    <router-view />
+    <router-view  />
     <!--me me me footer-->
     
   </div>
@@ -12,9 +12,9 @@
 
 <script>
 
-
 export default {
   name: 'app'
+
 }
 </script>
 
