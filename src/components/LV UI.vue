@@ -30,14 +30,14 @@
       <div class="slidecontainer">
           Trust
           <input v-model=trust
-              type=range min=0  max=10 step=1/>
+              type=range min=1  max=10 step=1/>
           {{this.trust}}
           <div>
               <!--float it to the right-->
               
           </div>
           <div v-show="false">
-            att:{{this.trust*6}} def:{{this.trust*3}} HP:{{this.trust*30}}
+            att:{{this.trust_stat[this.trust-1].att}} def:{{this.trust_stat[this.trust-1].def}} HP:{{this.trust_stat[this.trust-1].hp}}
           </div>
 
         </div>
@@ -61,9 +61,9 @@
     </div>
     <div class="contentx">
         <!--affected by other selector-->
-        attack  :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*6+ this.equipatt}}<br>
-        defense :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*3+ this.equipdef}}<br>
-        HP      :{{this.sliderVal*10 +this.ascensionVal*200+ this.trust*30+ this.equiphp}}<br>
+        attack  :{{totalatt}}<br>
+        defense :{{totaldef}}<br>
+        HP      :{{totalhp}}<br>
     </div>
 
   </div>
@@ -73,9 +73,15 @@
 export default {
   name: 'LV',
   data: function() {
+    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
+    //console.log('@/assets/json/'+chardata.rarity+'equip.json')
     return {
+      base_stat:chardata.base_stat.stat,
+      equipment:chardata.equipment,
+      equip_stat:require('@/assets/json/'+chardata.rarity+'equip.json'),
+      trust_stat:require('@/assets/json/'+'trust.json'),
       ascensionVal: 0,
-      trust:0,
+      trust:1,
       sliderVal: 1,
       sliderMax: 40,
       equiplv:0,
@@ -88,6 +94,65 @@ export default {
   },
   props: {
     CharacterName:String
+  },
+  computed:{
+    totalatt(){
+      var stat_min=this.base_stat[this.ascensionVal*2+0]
+      var stat_max=this.base_stat[this.ascensionVal*2+1]
+      var ascension_gap=80
+      if(this.ascensionVal==0){
+            ascension_gap=40
+        }
+        else if(this.ascensionVal==1){
+            ascension_gap=50
+        }
+        else if(this.ascensionVal==2){
+            ascension_gap=60
+        }
+        else {
+            ascension_gap=80
+        }
+      
+      return (stat_min.att+ Math.floor((stat_max.att-stat_min.att)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].att+ this.equipatt
+    },
+    totaldef(){
+      var stat_min=this.base_stat[this.ascensionVal*2+0]
+      var stat_max=this.base_stat[this.ascensionVal*2+1]
+      var ascension_gap=80
+      if(this.ascensionVal==0){
+            ascension_gap=40
+        }
+        else if(this.ascensionVal==1){
+            ascension_gap=50
+        }
+        else if(this.ascensionVal==2){
+            ascension_gap=60
+        }
+        else {
+            ascension_gap=80
+        }
+      
+      return (stat_min.def+ Math.floor((stat_max.def-stat_min.def)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].def+ this.equipdef
+    },
+    totalhp(){
+      var stat_min=this.base_stat[this.ascensionVal*2+0]
+      var stat_max=this.base_stat[this.ascensionVal*2+1]
+      var ascension_gap=80
+      if(this.ascensionVal==0){
+            ascension_gap=40
+        }
+        else if(this.ascensionVal==1){
+            ascension_gap=50
+        }
+        else if(this.ascensionVal==2){
+            ascension_gap=60
+        }
+        else {
+            ascension_gap=80
+        }
+      
+      return (stat_min.hp+ Math.floor((stat_max.hp-stat_min.hp)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].hp+ this.equiphp
+    }
   },
   methods: {
     OnEquipLVChange(){
@@ -104,9 +169,9 @@ export default {
         this.equipmult=0;
       }
       else{
-        this.equipatt=this.equiplv*10;
-        this.equipdef=this.equiplv*10;
-        this.equiphp=this.equiplv*10;
+        this.equipatt=this.equip_stat[this.equiplv-1].att;
+        this.equipdef=this.equip_stat[this.equiplv-1].def;
+        this.equiphp=this.equip_stat[this.equiplv-1].hp;
       }
 
     },

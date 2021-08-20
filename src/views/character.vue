@@ -12,7 +12,7 @@
     
     <chain-combo :CharacterName=charname :key=charname />
     
-    <LV :CharacterName=charname />
+    <LV :CharacterName=charname :key=charname />
   </div>
   <div class="clearfix"></div>
   <Footer/>

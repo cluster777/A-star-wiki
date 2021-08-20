@@ -4,13 +4,15 @@
     <div v-for="i in 3" :key="i" class="Chain">
         
         <input type=button v-bind="options"
-        :value=i
+        :value=cost[i-1]
         v-on:click="OnChainChange(i)"/>
     </div>
     <div class=clearfix />
     <div class="content">
       
         <div class="description">
+          {{name}}
+          <hr>
           {{description}}
         </div>
         <div class="AoE">
@@ -34,18 +36,19 @@ export default {
       name:chardata.chaincombo.name,
       ActiveDescription:chardata.chaincombo.description,
       cost:chardata.chaincombo.cost,
-      AoE:chardata.chaincombo.AoE //should be require(@/assets/universal/AoEname.png)
+      AoE:chardata.chaincombo.AoE,
+      description:chardata.chaincombo.description[0] //should be require(@/assets/universal/AoEname.png)
     }
    },
   methods:{
     OnChainChange(value){
       if(value==1){
-        this.description="first"
+        this.description=this.ActiveDescription[0]
       }
       else if(value==2){
-        this.description="second"
+        this.description=this.ActiveDescription[1]
       }
-      else this.description="third"
+      else this.description=this.ActiveDescription[2]
     }
   }
 }
@@ -78,7 +81,7 @@ h4{
 }
 .description{
   float:left;
-  width: 80%;
+  width: 50%;
 }
 .AoE{
   float:right;

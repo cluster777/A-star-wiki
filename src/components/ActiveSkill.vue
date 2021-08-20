@@ -30,7 +30,7 @@ export default {
       name:chardata.active_skill.name,
       ActiveDescription:chardata.active_skill.description,
       CD:chardata.active_skill.cooldown,
-      AoE:chardata.AoE //should be require(@/assets/universal/AoEname.png)
+      AoE:chardata.active_skill.AoE //should be require(@/assets/universal/AoEname.png)
     }
    }
 }
