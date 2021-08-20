@@ -24,7 +24,7 @@ Header{
 }
 html, body, #app {
   height: 100%;
-  width: 100%;
+  width: 98%;
   margin: 0;
 }
 body {
