@@ -27,10 +27,10 @@ export default {
    data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
-      name:chardata.active_skill.name,
-      ActiveDescription:chardata.active_skill.description,
-      CD:chardata.active_skill.cooldown,
-      AoE:chardata.active_skill.AoE //should be require(@/assets/universal/AoEname.png)
+      name:"placeholder",
+      ActiveDescription:chardata.skill.description[0],
+      CD:chardata.skill.cd
+      //AoE:chardata.skill.AoE //should be require(@/assets/universal/AoEname.png)
     }
    }
 }

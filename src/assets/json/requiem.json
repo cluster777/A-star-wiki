@@ -1,0 +1,606 @@
+{
+      "name": "Requiem",
+      "faction": "silent hunter",
+      "element_main": "Thunder",
+      "element_sub": "Thunder",
+      "rarity": "6",
+      "class": "Detonator",
+      "skill": {
+            "name": "",
+            "cd": "10 Vis",
+            "description": [
+                  "Costs 10 Vis and clears the remaining Vis to deal 150% damage to all enemies. The damage increases by 15% for every 1 Vis cleared."
+            ]
+      },
+      "equip": {
+            "name": "Banner of Discipline",
+            "passive": "Calming Roar",
+            "description": [
+                  [
+                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "4",
+                              "description": "Deals 160% damage to 12 tiles in a diamond shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 175% damage to 16 tiles in a radial shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+                        },
+                        {
+                              "cost": "12",
+                              "description": "Deals 180% damage to 2 surrounding clusters. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 300.",
+            "DEF increased by 40.",
+            "Equipment Skill Enhancement: When an Active Skill kills 1 enemy, gains 2 Vis.",
+            "Increased by 300+5%Basic max HP.",
+            "Increased by 40+5%Basic DEF.",
+            "Active Skill Enhancement: For every 1 Vis cleared, this damage ignores 1% of the target's DEF."
+      ],
+      "ascension": [],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 2920,
+                        "def": 1015,
+                        "hp": 7859
+                  },
+                  {
+                        "att": 2928,
+                        "def": 1018,
+                        "hp": 7879
+                  },
+                  {
+                        "att": 2936,
+                        "def": 1021,
+                        "hp": 7900
+                  },
+                  {
+                        "att": 2944,
+                        "def": 1023,
+                        "hp": 7920
+                  },
+                  {
+                        "att": 2951,
+                        "def": 1026,
+                        "hp": 7940
+                  },
+                  {
+                        "att": 2959,
+                        "def": 1029,
+                        "hp": 7961
+                  },
+                  {
+                        "att": 2967,
+                        "def": 1031,
+                        "hp": 7981
+                  },
+                  {
+                        "att": 2975,
+                        "def": 1034,
+                        "hp": 8001
+                  },
+                  {
+                        "att": 2982,
+                        "def": 1037,
+                        "hp": 8021
+                  },
+                  {
+                        "att": 2990,
+                        "def": 1039,
+                        "hp": 8042
+                  },
+                  {
+                        "att": 2998,
+                        "def": 1042,
+                        "hp": 8062
+                  },
+                  {
+                        "att": 3006,
+                        "def": 1045,
+                        "hp": 8082
+                  },
+                  {
+                        "att": 3014,
+                        "def": 1047,
+                        "hp": 8102
+                  },
+                  {
+                        "att": 3021,
+                        "def": 1050,
+                        "hp": 8123
+                  },
+                  {
+                        "att": 3029,
+                        "def": 1053,
+                        "hp": 8143
+                  },
+                  {
+                        "att": 3037,
+                        "def": 1055,
+                        "hp": 8163
+                  },
+                  {
+                        "att": 3045,
+                        "def": 1058,
+                        "hp": 8184
+                  },
+                  {
+                        "att": 3053,
+                        "def": 1061,
+                        "hp": 8204
+                  },
+                  {
+                        "att": 3060,
+                        "def": 1063,
+                        "hp": 8224
+                  },
+                  {
+                        "att": 3068,
+                        "def": 1066,
+                        "hp": 8244
+                  },
+                  {
+                        "att": 3076,
+                        "def": 1069,
+                        "hp": 8265
+                  },
+                  {
+                        "att": 3084,
+                        "def": 1071,
+                        "hp": 8285
+                  },
+                  {
+                        "att": 3091,
+                        "def": 1074,
+                        "hp": 8305
+                  },
+                  {
+                        "att": 3099,
+                        "def": 1077,
+                        "hp": 8325
+                  },
+                  {
+                        "att": 3107,
+                        "def": 1079,
+                        "hp": 8346
+                  },
+                  {
+                        "att": 3115,
+                        "def": 1082,
+                        "hp": 8366
+                  },
+                  {
+                        "att": 3123,
+                        "def": 1085,
+                        "hp": 8386
+                  },
+                  {
+                        "att": 3130,
+                        "def": 1087,
+                        "hp": 8407
+                  },
+                  {
+                        "att": 3138,
+                        "def": 1090,
+                        "hp": 8427
+                  },
+                  {
+                        "att": 3146,
+                        "def": 1093,
+                        "hp": 8447
+                  },
+                  {
+                        "att": 2920,
+                        "def": 1015,
+                        "hp": 7859
+                  },
+                  {
+                        "att": 2928,
+                        "def": 1018,
+                        "hp": 7879
+                  },
+                  {
+                        "att": 2936,
+                        "def": 1021,
+                        "hp": 7900
+                  },
+                  {
+                        "att": 2944,
+                        "def": 1023,
+                        "hp": 7920
+                  },
+                  {
+                        "att": 2951,
+                        "def": 1026,
+                        "hp": 7940
+                  },
+                  {
+                        "att": 2959,
+                        "def": 1029,
+                        "hp": 7961
+                  },
+                  {
+                        "att": 2967,
+                        "def": 1031,
+                        "hp": 7981
+                  },
+                  {
+                        "att": 2975,
+                        "def": 1034,
+                        "hp": 8001
+                  },
+                  {
+                        "att": 2982,
+                        "def": 1037,
+                        "hp": 8021
+                  },
+                  {
+                        "att": 2990,
+                        "def": 1039,
+                        "hp": 8042
+                  },
+                  {
+                        "att": 2998,
+                        "def": 1042,
+                        "hp": 8062
+                  },
+                  {
+                        "att": 3006,
+                        "def": 1045,
+                        "hp": 8082
+                  },
+                  {
+                        "att": 3014,
+                        "def": 1047,
+                        "hp": 8102
+                  },
+                  {
+                        "att": 3021,
+                        "def": 1050,
+                        "hp": 8123
+                  },
+                  {
+                        "att": 3029,
+                        "def": 1053,
+                        "hp": 8143
+                  },
+                  {
+                        "att": 3037,
+                        "def": 1055,
+                        "hp": 8163
+                  },
+                  {
+                        "att": 3045,
+                        "def": 1058,
+                        "hp": 8184
+                  },
+                  {
+                        "att": 3053,
+                        "def": 1061,
+                        "hp": 8204
+                  },
+                  {
+                        "att": 3060,
+                        "def": 1063,
+                        "hp": 8224
+                  },
+                  {
+                        "att": 3068,
+                        "def": 1066,
+                        "hp": 8244
+                  },
+                  {
+                        "att": 3076,
+                        "def": 1069,
+                        "hp": 8265
+                  },
+                  {
+                        "att": 3084,
+                        "def": 1071,
+                        "hp": 8285
+                  },
+                  {
+                        "att": 3091,
+                        "def": 1074,
+                        "hp": 8305
+                  },
+                  {
+                        "att": 3099,
+                        "def": 1077,
+                        "hp": 8325
+                  },
+                  {
+                        "att": 3107,
+                        "def": 1079,
+                        "hp": 8346
+                  },
+                  {
+                        "att": 3115,
+                        "def": 1082,
+                        "hp": 8366
+                  },
+                  {
+                        "att": 3123,
+                        "def": 1085,
+                        "hp": 8386
+                  },
+                  {
+                        "att": 3130,
+                        "def": 1087,
+                        "hp": 8407
+                  },
+                  {
+                        "att": 3138,
+                        "def": 1090,
+                        "hp": 8427
+                  },
+                  {
+                        "att": 3146,
+                        "def": 1093,
+                        "hp": 8447
+                  },
+                  {
+                        "att": 3154,
+                        "def": 1095,
+                        "hp": 8467
+                  },
+                  {
+                        "att": 3162,
+                        "def": 1098,
+                        "hp": 8488
+                  },
+                  {
+                        "att": 3169,
+                        "def": 1101,
+                        "hp": 8508
+                  },
+                  {
+                        "att": 3177,
+                        "def": 1103,
+                        "hp": 8528
+                  },
+                  {
+                        "att": 3185,
+                        "def": 1106,
+                        "hp": 8548
+                  },
+                  {
+                        "att": 3193,
+                        "def": 1109,
+                        "hp": 8569
+                  },
+                  {
+                        "att": 3201,
+                        "def": 1111,
+                        "hp": 8589
+                  },
+                  {
+                        "att": 3208,
+                        "def": 1114,
+                        "hp": 8609
+                  },
+                  {
+                        "att": 3216,
+                        "def": 1117,
+                        "hp": 8630
+                  },
+                  {
+                        "att": 3224,
+                        "def": 1119,
+                        "hp": 8650
+                  },
+                  {
+                        "att": 3232,
+                        "def": 1122,
+                        "hp": 8670
+                  },
+                  {
+                        "att": 3239,
+                        "def": 1125,
+                        "hp": 8690
+                  },
+                  {
+                        "att": 3247,
+                        "def": 1127,
+                        "hp": 8711
+                  },
+                  {
+                        "att": 3255,
+                        "def": 1130,
+                        "hp": 8731
+                  },
+                  {
+                        "att": 3263,
+                        "def": 1133,
+                        "hp": 8751
+                  },
+                  {
+                        "att": 3271,
+                        "def": 1135,
+                        "hp": 8771
+                  },
+                  {
+                        "att": 3278,
+                        "def": 1138,
+                        "hp": 8792
+                  },
+                  {
+                        "att": 3286,
+                        "def": 1141,
+                        "hp": 8812
+                  },
+                  {
+                        "att": 3294,
+                        "def": 1143,
+                        "hp": 8832
+                  },
+                  {
+                        "att": 3302,
+                        "def": 1146,
+                        "hp": 8853
+                  },
+                  {
+                        "att": 3310,
+                        "def": 1149,
+                        "hp": 8873
+                  },
+                  {
+                        "att": 3317,
+                        "def": 1151,
+                        "hp": 8893
+                  },
+                  {
+                        "att": 3325,
+                        "def": 1154,
+                        "hp": 8913
+                  },
+                  {
+                        "att": 3333,
+                        "def": 1157,
+                        "hp": 8934
+                  },
+                  {
+                        "att": 3341,
+                        "def": 1159,
+                        "hp": 8954
+                  },
+                  {
+                        "att": 3348,
+                        "def": 1162,
+                        "hp": 8974
+                  },
+                  {
+                        "att": 3356,
+                        "def": 1165,
+                        "hp": 8994
+                  },
+                  {
+                        "att": 3364,
+                        "def": 1167,
+                        "hp": 9015
+                  },
+                  {
+                        "att": 3372,
+                        "def": 1170,
+                        "hp": 9035
+                  },
+                  {
+                        "att": 3380,
+                        "def": 1173,
+                        "hp": 9055
+                  },
+                  {
+                        "att": 3387,
+                        "def": 1175,
+                        "hp": 9076
+                  },
+                  {
+                        "att": 3395,
+                        "def": 1178,
+                        "hp": 9096
+                  },
+                  {
+                        "att": 3403,
+                        "def": 1181,
+                        "hp": 9116
+                  },
+                  {
+                        "att": 3411,
+                        "def": 1183,
+                        "hp": 9136
+                  },
+                  {
+                        "att": 3419,
+                        "def": 1186,
+                        "hp": 9157
+                  },
+                  {
+                        "att": 3426,
+                        "def": 1189,
+                        "hp": 9177
+                  },
+                  {
+                        "att": 3434,
+                        "def": 1191,
+                        "hp": 9197
+                  },
+                  {
+                        "att": 3442,
+                        "def": 1194,
+                        "hp": 9217
+                  },
+                  {
+                        "att": 3450,
+                        "def": 1197,
+                        "hp": 9238
+                  },
+                  {
+                        "att": 3457,
+                        "def": 1199,
+                        "hp": 9258
+                  },
+                  {
+                        "att": 3465,
+                        "def": 1202,
+                        "hp": 9278
+                  },
+                  {
+                        "att": 3473,
+                        "def": 1205,
+                        "hp": 9299
+                  },
+                  {
+                        "att": 3481,
+                        "def": 1207,
+                        "hp": 9319
+                  },
+                  {
+                        "att": 3489,
+                        "def": 1210,
+                        "hp": 9339
+                  },
+                  {
+                        "att": 3496,
+                        "def": 1213,
+                        "hp": 9359
+                  },
+                  {
+                        "att": 3504,
+                        "def": 1215,
+                        "hp": 9380
+                  },
+                  {
+                        "att": 3512,
+                        "def": 1218,
+                        "hp": 9400
+                  },
+                  {
+                        "att": 3520,
+                        "def": 1221,
+                        "hp": 9420
+                  },
+                  {
+                        "att": 3528,
+                        "def": 1223,
+                        "hp": 9440
+                  },
+                  {
+                        "att": 3535,
+                        "def": 1226,
+                        "hp": 9461
+                  }
+            ]
+      }
+}

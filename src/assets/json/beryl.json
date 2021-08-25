@@ -1,0 +1,1153 @@
+{
+      "name": "Beryl",
+      "faction": "True Order",
+      "element_main": "Forest",
+      "element_sub": "Fire",
+      "rarity": "6",
+      "class": "Detonator",
+      "skill": {
+            "name": "",
+            "cd": "3 Turn",
+            "description": [
+                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x.",
+                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location.",
+                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location."
+            ]
+      },
+      "equip": {
+            "name": "Crystallus Camellias",
+            "passive": "Crystal Touch",
+            "description": [
+                  [
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+                  ],
+                  [
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+                  ],
+                  [
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "3",
+                              "description": "Deals 145% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "13",
+                              "description": "Deals 165% damage to 16 tiles in a radial shape."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "3",
+                              "description": "Deals 145% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "13",
+                              "description": "Deals 165% damage to 16 tiles in a radial shape."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "3",
+                              "description": "Deals 145% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "13",
+                              "description": "Deals 165% damage to 16 tiles in a radial shape."
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 300.",
+            "DEF increased by 40.",
+            "Active Skill Enhancement: Increases Active Skill damage by 50%.",
+            "Increased by 300+5%Basic max HP.",
+            "Increased by 40+5%Basic DEF.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Forest Potion I",
+                        "Forest Flare Powder",
+                        "Ancient Scroll",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+            },
+            {
+                  "material": [
+                        "Forest Flare Rock",
+                        "Forest Crystal Shard",
+                        "Ancient Book",
+                        "Nightium"
+                  ],
+                  "type": "Active Skill",
+                  "before": "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x.",
+                  "after": "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location."
+            },
+            {
+                  "material": [
+                        "Forest Crystal Cluster",
+                        "Forest Potion II",
+                        "Ancient Book",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF).",
+                  "after": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 618,
+                        "def": 268,
+                        "hp": 1799
+                  },
+                  {
+                        "att": 630,
+                        "def": 273,
+                        "hp": 1829
+                  },
+                  {
+                        "att": 641,
+                        "def": 277,
+                        "hp": 1859
+                  },
+                  {
+                        "att": 653,
+                        "def": 282,
+                        "hp": 1889
+                  },
+                  {
+                        "att": 664,
+                        "def": 287,
+                        "hp": 1919
+                  },
+                  {
+                        "att": 676,
+                        "def": 291,
+                        "hp": 1949
+                  },
+                  {
+                        "att": 688,
+                        "def": 296,
+                        "hp": 1979
+                  },
+                  {
+                        "att": 699,
+                        "def": 300,
+                        "hp": 2009
+                  },
+                  {
+                        "att": 711,
+                        "def": 305,
+                        "hp": 2039
+                  },
+                  {
+                        "att": 722,
+                        "def": 309,
+                        "hp": 2069
+                  },
+                  {
+                        "att": 734,
+                        "def": 314,
+                        "hp": 2099
+                  },
+                  {
+                        "att": 746,
+                        "def": 319,
+                        "hp": 2129
+                  },
+                  {
+                        "att": 757,
+                        "def": 323,
+                        "hp": 2159
+                  },
+                  {
+                        "att": 769,
+                        "def": 328,
+                        "hp": 2189
+                  },
+                  {
+                        "att": 780,
+                        "def": 332,
+                        "hp": 2219
+                  },
+                  {
+                        "att": 792,
+                        "def": 337,
+                        "hp": 2249
+                  },
+                  {
+                        "att": 804,
+                        "def": 341,
+                        "hp": 2279
+                  },
+                  {
+                        "att": 815,
+                        "def": 346,
+                        "hp": 2309
+                  },
+                  {
+                        "att": 827,
+                        "def": 351,
+                        "hp": 2339
+                  },
+                  {
+                        "att": 838,
+                        "def": 355,
+                        "hp": 2369
+                  },
+                  {
+                        "att": 850,
+                        "def": 360,
+                        "hp": 2399
+                  },
+                  {
+                        "att": 862,
+                        "def": 364,
+                        "hp": 2429
+                  },
+                  {
+                        "att": 873,
+                        "def": 369,
+                        "hp": 2459
+                  },
+                  {
+                        "att": 885,
+                        "def": 373,
+                        "hp": 2489
+                  },
+                  {
+                        "att": 896,
+                        "def": 378,
+                        "hp": 2519
+                  },
+                  {
+                        "att": 908,
+                        "def": 383,
+                        "hp": 2549
+                  },
+                  {
+                        "att": 919,
+                        "def": 387,
+                        "hp": 2579
+                  },
+                  {
+                        "att": 931,
+                        "def": 392,
+                        "hp": 2609
+                  },
+                  {
+                        "att": 943,
+                        "def": 396,
+                        "hp": 2639
+                  },
+                  {
+                        "att": 954,
+                        "def": 401,
+                        "hp": 2669
+                  },
+                  {
+                        "att": 1059,
+                        "def": 437,
+                        "hp": 2957
+                  },
+                  {
+                        "att": 1073,
+                        "def": 442,
+                        "hp": 2994
+                  },
+                  {
+                        "att": 1088,
+                        "def": 448,
+                        "hp": 3032
+                  },
+                  {
+                        "att": 1102,
+                        "def": 454,
+                        "hp": 3069
+                  },
+                  {
+                        "att": 1117,
+                        "def": 459,
+                        "hp": 3107
+                  },
+                  {
+                        "att": 1131,
+                        "def": 465,
+                        "hp": 3144
+                  },
+                  {
+                        "att": 1146,
+                        "def": 471,
+                        "hp": 3182
+                  },
+                  {
+                        "att": 1160,
+                        "def": 477,
+                        "hp": 3219
+                  },
+                  {
+                        "att": 1175,
+                        "def": 482,
+                        "hp": 3257
+                  },
+                  {
+                        "att": 1189,
+                        "def": 488,
+                        "hp": 3294
+                  },
+                  {
+                        "att": 1204,
+                        "def": 494,
+                        "hp": 3332
+                  },
+                  {
+                        "att": 1218,
+                        "def": 500,
+                        "hp": 3369
+                  },
+                  {
+                        "att": 1233,
+                        "def": 505,
+                        "hp": 3407
+                  },
+                  {
+                        "att": 1247,
+                        "def": 511,
+                        "hp": 3445
+                  },
+                  {
+                        "att": 1262,
+                        "def": 517,
+                        "hp": 3482
+                  },
+                  {
+                        "att": 1276,
+                        "def": 522,
+                        "hp": 3520
+                  },
+                  {
+                        "att": 1291,
+                        "def": 528,
+                        "hp": 3557
+                  },
+                  {
+                        "att": 1305,
+                        "def": 534,
+                        "hp": 3595
+                  },
+                  {
+                        "att": 1320,
+                        "def": 540,
+                        "hp": 3632
+                  },
+                  {
+                        "att": 1334,
+                        "def": 545,
+                        "hp": 3670
+                  },
+                  {
+                        "att": 1349,
+                        "def": 551,
+                        "hp": 3707
+                  },
+                  {
+                        "att": 1363,
+                        "def": 557,
+                        "hp": 3745
+                  },
+                  {
+                        "att": 1378,
+                        "def": 562,
+                        "hp": 3782
+                  },
+                  {
+                        "att": 1392,
+                        "def": 568,
+                        "hp": 3820
+                  },
+                  {
+                        "att": 1407,
+                        "def": 574,
+                        "hp": 3857
+                  },
+                  {
+                        "att": 1421,
+                        "def": 580,
+                        "hp": 3895
+                  },
+                  {
+                        "att": 1436,
+                        "def": 585,
+                        "hp": 3932
+                  },
+                  {
+                        "att": 1450,
+                        "def": 591,
+                        "hp": 3970
+                  },
+                  {
+                        "att": 1465,
+                        "def": 597,
+                        "hp": 4007
+                  },
+                  {
+                        "att": 1479,
+                        "def": 602,
+                        "hp": 4045
+                  },
+                  {
+                        "att": 1494,
+                        "def": 608,
+                        "hp": 4082
+                  },
+                  {
+                        "att": 1508,
+                        "def": 614,
+                        "hp": 4120
+                  },
+                  {
+                        "att": 1523,
+                        "def": 620,
+                        "hp": 4157
+                  },
+                  {
+                        "att": 1537,
+                        "def": 625,
+                        "hp": 4195
+                  },
+                  {
+                        "att": 1552,
+                        "def": 631,
+                        "hp": 4232
+                  },
+                  {
+                        "att": 1566,
+                        "def": 637,
+                        "hp": 4270
+                  },
+                  {
+                        "att": 1581,
+                        "def": 642,
+                        "hp": 4307
+                  },
+                  {
+                        "att": 1595,
+                        "def": 648,
+                        "hp": 4345
+                  },
+                  {
+                        "att": 1610,
+                        "def": 654,
+                        "hp": 4382
+                  },
+                  {
+                        "att": 1624,
+                        "def": 660,
+                        "hp": 4420
+                  },
+                  {
+                        "att": 1785,
+                        "def": 714,
+                        "hp": 4848
+                  },
+                  {
+                        "att": 1796,
+                        "def": 718,
+                        "hp": 4876
+                  },
+                  {
+                        "att": 1807,
+                        "def": 722,
+                        "hp": 4904
+                  },
+                  {
+                        "att": 1818,
+                        "def": 727,
+                        "hp": 4932
+                  },
+                  {
+                        "att": 1828,
+                        "def": 731,
+                        "hp": 4961
+                  },
+                  {
+                        "att": 1839,
+                        "def": 735,
+                        "hp": 4989
+                  },
+                  {
+                        "att": 1850,
+                        "def": 740,
+                        "hp": 5017
+                  },
+                  {
+                        "att": 1861,
+                        "def": 744,
+                        "hp": 5045
+                  },
+                  {
+                        "att": 1872,
+                        "def": 748,
+                        "hp": 5073
+                  },
+                  {
+                        "att": 1883,
+                        "def": 752,
+                        "hp": 5101
+                  },
+                  {
+                        "att": 1894,
+                        "def": 757,
+                        "hp": 5129
+                  },
+                  {
+                        "att": 1905,
+                        "def": 761,
+                        "hp": 5158
+                  },
+                  {
+                        "att": 1915,
+                        "def": 765,
+                        "hp": 5186
+                  },
+                  {
+                        "att": 1926,
+                        "def": 770,
+                        "hp": 5214
+                  },
+                  {
+                        "att": 1937,
+                        "def": 774,
+                        "hp": 5242
+                  },
+                  {
+                        "att": 1948,
+                        "def": 778,
+                        "hp": 5270
+                  },
+                  {
+                        "att": 1959,
+                        "def": 783,
+                        "hp": 5298
+                  },
+                  {
+                        "att": 1970,
+                        "def": 787,
+                        "hp": 5326
+                  },
+                  {
+                        "att": 1981,
+                        "def": 791,
+                        "hp": 5354
+                  },
+                  {
+                        "att": 1992,
+                        "def": 795,
+                        "hp": 5383
+                  },
+                  {
+                        "att": 2002,
+                        "def": 800,
+                        "hp": 5411
+                  },
+                  {
+                        "att": 2013,
+                        "def": 804,
+                        "hp": 5439
+                  },
+                  {
+                        "att": 2024,
+                        "def": 808,
+                        "hp": 5467
+                  },
+                  {
+                        "att": 2035,
+                        "def": 813,
+                        "hp": 5495
+                  },
+                  {
+                        "att": 2046,
+                        "def": 817,
+                        "hp": 5523
+                  },
+                  {
+                        "att": 2057,
+                        "def": 821,
+                        "hp": 5551
+                  },
+                  {
+                        "att": 2068,
+                        "def": 825,
+                        "hp": 5580
+                  },
+                  {
+                        "att": 2078,
+                        "def": 830,
+                        "hp": 5608
+                  },
+                  {
+                        "att": 2089,
+                        "def": 834,
+                        "hp": 5636
+                  },
+                  {
+                        "att": 2100,
+                        "def": 838,
+                        "hp": 5664
+                  },
+                  {
+                        "att": 2111,
+                        "def": 843,
+                        "hp": 5692
+                  },
+                  {
+                        "att": 2122,
+                        "def": 847,
+                        "hp": 5720
+                  },
+                  {
+                        "att": 2133,
+                        "def": 851,
+                        "hp": 5748
+                  },
+                  {
+                        "att": 2144,
+                        "def": 855,
+                        "hp": 5776
+                  },
+                  {
+                        "att": 2155,
+                        "def": 860,
+                        "hp": 5805
+                  },
+                  {
+                        "att": 2165,
+                        "def": 864,
+                        "hp": 5833
+                  },
+                  {
+                        "att": 2176,
+                        "def": 868,
+                        "hp": 5861
+                  },
+                  {
+                        "att": 2187,
+                        "def": 873,
+                        "hp": 5889
+                  },
+                  {
+                        "att": 2198,
+                        "def": 877,
+                        "hp": 5917
+                  },
+                  {
+                        "att": 2209,
+                        "def": 881,
+                        "hp": 5945
+                  },
+                  {
+                        "att": 2220,
+                        "def": 885,
+                        "hp": 5973
+                  },
+                  {
+                        "att": 2231,
+                        "def": 890,
+                        "hp": 6002
+                  },
+                  {
+                        "att": 2242,
+                        "def": 894,
+                        "hp": 6030
+                  },
+                  {
+                        "att": 2252,
+                        "def": 898,
+                        "hp": 6058
+                  },
+                  {
+                        "att": 2263,
+                        "def": 903,
+                        "hp": 6086
+                  },
+                  {
+                        "att": 2274,
+                        "def": 907,
+                        "hp": 6114
+                  },
+                  {
+                        "att": 2285,
+                        "def": 911,
+                        "hp": 6142
+                  },
+                  {
+                        "att": 2296,
+                        "def": 915,
+                        "hp": 6170
+                  },
+                  {
+                        "att": 2307,
+                        "def": 920,
+                        "hp": 6199
+                  },
+                  {
+                        "att": 2318,
+                        "def": 924,
+                        "hp": 6227
+                  },
+                  {
+                        "att": 2550,
+                        "def": 997,
+                        "hp": 6845
+                  },
+                  {
+                        "att": 2557,
+                        "def": 1000,
+                        "hp": 6864
+                  },
+                  {
+                        "att": 2564,
+                        "def": 1003,
+                        "hp": 6883
+                  },
+                  {
+                        "att": 2572,
+                        "def": 1005,
+                        "hp": 6902
+                  },
+                  {
+                        "att": 2579,
+                        "def": 1008,
+                        "hp": 6920
+                  },
+                  {
+                        "att": 2586,
+                        "def": 1011,
+                        "hp": 6939
+                  },
+                  {
+                        "att": 2593,
+                        "def": 1014,
+                        "hp": 6958
+                  },
+                  {
+                        "att": 2601,
+                        "def": 1017,
+                        "hp": 6977
+                  },
+                  {
+                        "att": 2608,
+                        "def": 1020,
+                        "hp": 6995
+                  },
+                  {
+                        "att": 2615,
+                        "def": 1023,
+                        "hp": 7014
+                  },
+                  {
+                        "att": 2622,
+                        "def": 1025,
+                        "hp": 7033
+                  },
+                  {
+                        "att": 2630,
+                        "def": 1028,
+                        "hp": 7052
+                  },
+                  {
+                        "att": 2637,
+                        "def": 1031,
+                        "hp": 7070
+                  },
+                  {
+                        "att": 2644,
+                        "def": 1034,
+                        "hp": 7089
+                  },
+                  {
+                        "att": 2651,
+                        "def": 1037,
+                        "hp": 7108
+                  },
+                  {
+                        "att": 2659,
+                        "def": 1040,
+                        "hp": 7127
+                  },
+                  {
+                        "att": 2666,
+                        "def": 1043,
+                        "hp": 7146
+                  },
+                  {
+                        "att": 2673,
+                        "def": 1046,
+                        "hp": 7164
+                  },
+                  {
+                        "att": 2680,
+                        "def": 1048,
+                        "hp": 7183
+                  },
+                  {
+                        "att": 2688,
+                        "def": 1051,
+                        "hp": 7202
+                  },
+                  {
+                        "att": 2695,
+                        "def": 1054,
+                        "hp": 7221
+                  },
+                  {
+                        "att": 2702,
+                        "def": 1057,
+                        "hp": 7239
+                  },
+                  {
+                        "att": 2709,
+                        "def": 1060,
+                        "hp": 7258
+                  },
+                  {
+                        "att": 2717,
+                        "def": 1063,
+                        "hp": 7277
+                  },
+                  {
+                        "att": 2724,
+                        "def": 1066,
+                        "hp": 7296
+                  },
+                  {
+                        "att": 2731,
+                        "def": 1068,
+                        "hp": 7314
+                  },
+                  {
+                        "att": 2738,
+                        "def": 1071,
+                        "hp": 7333
+                  },
+                  {
+                        "att": 2746,
+                        "def": 1074,
+                        "hp": 7352
+                  },
+                  {
+                        "att": 2753,
+                        "def": 1077,
+                        "hp": 7371
+                  },
+                  {
+                        "att": 2760,
+                        "def": 1080,
+                        "hp": 7389
+                  },
+                  {
+                        "att": 2767,
+                        "def": 1083,
+                        "hp": 7408
+                  },
+                  {
+                        "att": 2775,
+                        "def": 1086,
+                        "hp": 7427
+                  },
+                  {
+                        "att": 2782,
+                        "def": 1088,
+                        "hp": 7446
+                  },
+                  {
+                        "att": 2789,
+                        "def": 1091,
+                        "hp": 7464
+                  },
+                  {
+                        "att": 2796,
+                        "def": 1094,
+                        "hp": 7483
+                  },
+                  {
+                        "att": 2804,
+                        "def": 1097,
+                        "hp": 7502
+                  },
+                  {
+                        "att": 2811,
+                        "def": 1100,
+                        "hp": 7521
+                  },
+                  {
+                        "att": 2818,
+                        "def": 1103,
+                        "hp": 7539
+                  },
+                  {
+                        "att": 2825,
+                        "def": 1106,
+                        "hp": 7558
+                  },
+                  {
+                        "att": 2833,
+                        "def": 1108,
+                        "hp": 7577
+                  },
+                  {
+                        "att": 2840,
+                        "def": 1111,
+                        "hp": 7596
+                  },
+                  {
+                        "att": 2847,
+                        "def": 1114,
+                        "hp": 7614
+                  },
+                  {
+                        "att": 2854,
+                        "def": 1117,
+                        "hp": 7633
+                  },
+                  {
+                        "att": 2862,
+                        "def": 1120,
+                        "hp": 7652
+                  },
+                  {
+                        "att": 2869,
+                        "def": 1123,
+                        "hp": 7671
+                  },
+                  {
+                        "att": 2876,
+                        "def": 1126,
+                        "hp": 7689
+                  },
+                  {
+                        "att": 2883,
+                        "def": 1128,
+                        "hp": 7708
+                  },
+                  {
+                        "att": 2891,
+                        "def": 1131,
+                        "hp": 7727
+                  },
+                  {
+                        "att": 2898,
+                        "def": 1134,
+                        "hp": 7746
+                  },
+                  {
+                        "att": 2905,
+                        "def": 1137,
+                        "hp": 7764
+                  },
+                  {
+                        "att": 2912,
+                        "def": 1140,
+                        "hp": 7783
+                  },
+                  {
+                        "att": 2920,
+                        "def": 1143,
+                        "hp": 7802
+                  },
+                  {
+                        "att": 2927,
+                        "def": 1146,
+                        "hp": 7821
+                  },
+                  {
+                        "att": 2934,
+                        "def": 1148,
+                        "hp": 7840
+                  },
+                  {
+                        "att": 2941,
+                        "def": 1151,
+                        "hp": 7858
+                  },
+                  {
+                        "att": 2949,
+                        "def": 1154,
+                        "hp": 7877
+                  },
+                  {
+                        "att": 2956,
+                        "def": 1157,
+                        "hp": 7896
+                  },
+                  {
+                        "att": 2963,
+                        "def": 1160,
+                        "hp": 7915
+                  },
+                  {
+                        "att": 2970,
+                        "def": 1163,
+                        "hp": 7933
+                  },
+                  {
+                        "att": 2977,
+                        "def": 1166,
+                        "hp": 7952
+                  },
+                  {
+                        "att": 2985,
+                        "def": 1168,
+                        "hp": 7971
+                  },
+                  {
+                        "att": 2992,
+                        "def": 1171,
+                        "hp": 7990
+                  },
+                  {
+                        "att": 2999,
+                        "def": 1174,
+                        "hp": 8008
+                  },
+                  {
+                        "att": 3006,
+                        "def": 1177,
+                        "hp": 8027
+                  },
+                  {
+                        "att": 3014,
+                        "def": 1180,
+                        "hp": 8046
+                  },
+                  {
+                        "att": 3021,
+                        "def": 1183,
+                        "hp": 8065
+                  },
+                  {
+                        "att": 3028,
+                        "def": 1186,
+                        "hp": 8083
+                  },
+                  {
+                        "att": 3035,
+                        "def": 1188,
+                        "hp": 8102
+                  },
+                  {
+                        "att": 3043,
+                        "def": 1191,
+                        "hp": 8121
+                  },
+                  {
+                        "att": 3050,
+                        "def": 1194,
+                        "hp": 8140
+                  },
+                  {
+                        "att": 3057,
+                        "def": 1197,
+                        "hp": 8158
+                  },
+                  {
+                        "att": 3064,
+                        "def": 1200,
+                        "hp": 8177
+                  },
+                  {
+                        "att": 3072,
+                        "def": 1203,
+                        "hp": 8196
+                  },
+                  {
+                        "att": 3079,
+                        "def": 1206,
+                        "hp": 8215
+                  },
+                  {
+                        "att": 3086,
+                        "def": 1208,
+                        "hp": 8233
+                  },
+                  {
+                        "att": 3093,
+                        "def": 1211,
+                        "hp": 8252
+                  },
+                  {
+                        "att": 3101,
+                        "def": 1214,
+                        "hp": 8271
+                  },
+                  {
+                        "att": 3108,
+                        "def": 1217,
+                        "hp": 8290
+                  },
+                  {
+                        "att": 3115,
+                        "def": 1220,
+                        "hp": 8308
+                  },
+                  {
+                        "att": 3122,
+                        "def": 1223,
+                        "hp": 8327
+                  }
+            ]
+      }
+}

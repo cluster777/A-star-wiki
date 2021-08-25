@@ -1,6 +1,6 @@
 <template>
   <div class="containerz"> 
-    <h2>{{chardata.charname}}</h2>
+    <h2>{{chardata.name}}</h2>
     <hr>
     <img class="faction-icon" :src=charfaction />
 

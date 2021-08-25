@@ -20,7 +20,7 @@ export default {
     return{
       charimage:require('@/assets/character/' + this.CharacterName + '.png'),
       chardata:require('@/assets/json/' + this.CharacterName + '.json'),
-      charsymbol:require('@/assets/universal/type_' + 'detonator' + '.png'),
+      charsymbol:require('@/assets/universal/type_' + 'Detonator' + '.png'),
 
     }
 
@@ -32,7 +32,7 @@ export default {
         this.test.value = module.default
       })
     this.charimage=require('@/assets/character/' + value + '.png')
-    this.charsymbol=require('@/assets/universal/type_' + 'detonator' + '.png')
+    this.charsymbol=require('@/assets/universal/type_' + 'Detonator' + '.png')
     }
     
   }

@@ -1,0 +1,715 @@
+{
+      "name": "Tiny One",
+      "faction": "Rediesel Wrench",
+      "element_main": "Fire",
+      "element_sub": "null",
+      "rarity": "3",
+      "class": "Converter",
+      "skill": {
+            "name": "",
+            "cd": "2 Turn",
+            "description": [
+                  "Converts 1 traversable tile to a Red Prism tile.",
+                  "Converts 1 traversable tile to a Red Prism tile."
+            ]
+      },
+      "equip": {
+            "name": "Spotlight",
+            "passive": "Spotlight",
+            "description": [
+                  [
+                        "Tiny One's Normal Attack damage increases by 20% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 20% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 50% for this round after using an Active Skill."
+                  ],
+                  [
+                        "Tiny One's Normal Attack damage increases by 20% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 20% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 30% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 40% for this round after using an Active Skill.",
+                        "Tiny One's Normal Attack damage increases by 50% for this round after using an Active Skill."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 165% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 180% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 200.",
+            "DEF increased by 25.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+            "",
+            "",
+            ""
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Fire Potion I",
+                        "Fire Flare Powder",
+                        "Rediesel Extract",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Tiny One's Normal Attack damage increases by 50% for this round after using an Active Skill."
+            },
+            {
+                  "material": [
+                        "Fire Flare Rock",
+                        "Fire Crystal Shard",
+                        "Rediesel Concentrate",
+                        "Nightium"
+                  ],
+                  "type": "Chain Combo",
+                  "before": "Deals 150% damage to 1 surrounding cluster.",
+                  "after": "Deals 165% damage to 1 surrounding cluster."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 466,
+                        "def": 152,
+                        "hp": 1365
+                  },
+                  {
+                        "att": 472,
+                        "def": 154,
+                        "hp": 1382
+                  },
+                  {
+                        "att": 478,
+                        "def": 156,
+                        "hp": 1399
+                  },
+                  {
+                        "att": 484,
+                        "def": 158,
+                        "hp": 1416
+                  },
+                  {
+                        "att": 490,
+                        "def": 161,
+                        "hp": 1433
+                  },
+                  {
+                        "att": 496,
+                        "def": 163,
+                        "hp": 1449
+                  },
+                  {
+                        "att": 502,
+                        "def": 165,
+                        "hp": 1466
+                  },
+                  {
+                        "att": 508,
+                        "def": 167,
+                        "hp": 1483
+                  },
+                  {
+                        "att": 514,
+                        "def": 169,
+                        "hp": 1500
+                  },
+                  {
+                        "att": 520,
+                        "def": 171,
+                        "hp": 1516
+                  },
+                  {
+                        "att": 526,
+                        "def": 173,
+                        "hp": 1533
+                  },
+                  {
+                        "att": 532,
+                        "def": 175,
+                        "hp": 1550
+                  },
+                  {
+                        "att": 537,
+                        "def": 177,
+                        "hp": 1567
+                  },
+                  {
+                        "att": 543,
+                        "def": 180,
+                        "hp": 1584
+                  },
+                  {
+                        "att": 549,
+                        "def": 182,
+                        "hp": 1600
+                  },
+                  {
+                        "att": 555,
+                        "def": 184,
+                        "hp": 1617
+                  },
+                  {
+                        "att": 561,
+                        "def": 186,
+                        "hp": 1634
+                  },
+                  {
+                        "att": 567,
+                        "def": 188,
+                        "hp": 1651
+                  },
+                  {
+                        "att": 573,
+                        "def": 190,
+                        "hp": 1668
+                  },
+                  {
+                        "att": 579,
+                        "def": 192,
+                        "hp": 1684
+                  },
+                  {
+                        "att": 585,
+                        "def": 194,
+                        "hp": 1701
+                  },
+                  {
+                        "att": 591,
+                        "def": 196,
+                        "hp": 1718
+                  },
+                  {
+                        "att": 597,
+                        "def": 198,
+                        "hp": 1735
+                  },
+                  {
+                        "att": 603,
+                        "def": 201,
+                        "hp": 1751
+                  },
+                  {
+                        "att": 609,
+                        "def": 203,
+                        "hp": 1768
+                  },
+                  {
+                        "att": 615,
+                        "def": 205,
+                        "hp": 1785
+                  },
+                  {
+                        "att": 621,
+                        "def": 207,
+                        "hp": 1802
+                  },
+                  {
+                        "att": 627,
+                        "def": 209,
+                        "hp": 1819
+                  },
+                  {
+                        "att": 633,
+                        "def": 211,
+                        "hp": 1835
+                  },
+                  {
+                        "att": 639,
+                        "def": 213,
+                        "hp": 1852
+                  },
+                  {
+                        "att": 726,
+                        "def": 246,
+                        "hp": 2083
+                  },
+                  {
+                        "att": 734,
+                        "def": 248,
+                        "hp": 2104
+                  },
+                  {
+                        "att": 741,
+                        "def": 251,
+                        "hp": 2125
+                  },
+                  {
+                        "att": 749,
+                        "def": 254,
+                        "hp": 2146
+                  },
+                  {
+                        "att": 756,
+                        "def": 256,
+                        "hp": 2167
+                  },
+                  {
+                        "att": 764,
+                        "def": 259,
+                        "hp": 2188
+                  },
+                  {
+                        "att": 771,
+                        "def": 262,
+                        "hp": 2209
+                  },
+                  {
+                        "att": 778,
+                        "def": 264,
+                        "hp": 2230
+                  },
+                  {
+                        "att": 786,
+                        "def": 267,
+                        "hp": 2251
+                  },
+                  {
+                        "att": 793,
+                        "def": 270,
+                        "hp": 2272
+                  },
+                  {
+                        "att": 801,
+                        "def": 272,
+                        "hp": 2293
+                  },
+                  {
+                        "att": 808,
+                        "def": 275,
+                        "hp": 2314
+                  },
+                  {
+                        "att": 816,
+                        "def": 277,
+                        "hp": 2335
+                  },
+                  {
+                        "att": 823,
+                        "def": 280,
+                        "hp": 2356
+                  },
+                  {
+                        "att": 831,
+                        "def": 283,
+                        "hp": 2377
+                  },
+                  {
+                        "att": 838,
+                        "def": 285,
+                        "hp": 2398
+                  },
+                  {
+                        "att": 846,
+                        "def": 288,
+                        "hp": 2419
+                  },
+                  {
+                        "att": 853,
+                        "def": 291,
+                        "hp": 2440
+                  },
+                  {
+                        "att": 860,
+                        "def": 293,
+                        "hp": 2461
+                  },
+                  {
+                        "att": 868,
+                        "def": 296,
+                        "hp": 2482
+                  },
+                  {
+                        "att": 875,
+                        "def": 298,
+                        "hp": 2503
+                  },
+                  {
+                        "att": 883,
+                        "def": 301,
+                        "hp": 2524
+                  },
+                  {
+                        "att": 890,
+                        "def": 304,
+                        "hp": 2544
+                  },
+                  {
+                        "att": 898,
+                        "def": 306,
+                        "hp": 2565
+                  },
+                  {
+                        "att": 905,
+                        "def": 309,
+                        "hp": 2586
+                  },
+                  {
+                        "att": 913,
+                        "def": 312,
+                        "hp": 2607
+                  },
+                  {
+                        "att": 920,
+                        "def": 314,
+                        "hp": 2628
+                  },
+                  {
+                        "att": 927,
+                        "def": 317,
+                        "hp": 2649
+                  },
+                  {
+                        "att": 935,
+                        "def": 320,
+                        "hp": 2670
+                  },
+                  {
+                        "att": 942,
+                        "def": 322,
+                        "hp": 2691
+                  },
+                  {
+                        "att": 950,
+                        "def": 325,
+                        "hp": 2712
+                  },
+                  {
+                        "att": 957,
+                        "def": 327,
+                        "hp": 2733
+                  },
+                  {
+                        "att": 965,
+                        "def": 330,
+                        "hp": 2754
+                  },
+                  {
+                        "att": 972,
+                        "def": 333,
+                        "hp": 2775
+                  },
+                  {
+                        "att": 980,
+                        "def": 335,
+                        "hp": 2796
+                  },
+                  {
+                        "att": 987,
+                        "def": 338,
+                        "hp": 2817
+                  },
+                  {
+                        "att": 995,
+                        "def": 341,
+                        "hp": 2838
+                  },
+                  {
+                        "att": 1002,
+                        "def": 343,
+                        "hp": 2859
+                  },
+                  {
+                        "att": 1009,
+                        "def": 346,
+                        "hp": 2880
+                  },
+                  {
+                        "att": 1017,
+                        "def": 348,
+                        "hp": 2901
+                  },
+                  {
+                        "att": 1153,
+                        "def": 395,
+                        "hp": 3237
+                  },
+                  {
+                        "att": 1158,
+                        "def": 397,
+                        "hp": 3253
+                  },
+                  {
+                        "att": 1164,
+                        "def": 399,
+                        "hp": 3268
+                  },
+                  {
+                        "att": 1169,
+                        "def": 401,
+                        "hp": 3284
+                  },
+                  {
+                        "att": 1175,
+                        "def": 403,
+                        "hp": 3300
+                  },
+                  {
+                        "att": 1180,
+                        "def": 405,
+                        "hp": 3315
+                  },
+                  {
+                        "att": 1186,
+                        "def": 407,
+                        "hp": 3331
+                  },
+                  {
+                        "att": 1192,
+                        "def": 409,
+                        "hp": 3347
+                  },
+                  {
+                        "att": 1197,
+                        "def": 411,
+                        "hp": 3363
+                  },
+                  {
+                        "att": 1203,
+                        "def": 413,
+                        "hp": 3378
+                  },
+                  {
+                        "att": 1208,
+                        "def": 415,
+                        "hp": 3394
+                  },
+                  {
+                        "att": 1214,
+                        "def": 417,
+                        "hp": 3410
+                  },
+                  {
+                        "att": 1220,
+                        "def": 419,
+                        "hp": 3426
+                  },
+                  {
+                        "att": 1225,
+                        "def": 421,
+                        "hp": 3441
+                  },
+                  {
+                        "att": 1231,
+                        "def": 423,
+                        "hp": 3457
+                  },
+                  {
+                        "att": 1236,
+                        "def": 425,
+                        "hp": 3473
+                  },
+                  {
+                        "att": 1242,
+                        "def": 427,
+                        "hp": 3488
+                  },
+                  {
+                        "att": 1248,
+                        "def": 429,
+                        "hp": 3504
+                  },
+                  {
+                        "att": 1253,
+                        "def": 431,
+                        "hp": 3520
+                  },
+                  {
+                        "att": 1259,
+                        "def": 433,
+                        "hp": 3536
+                  },
+                  {
+                        "att": 1264,
+                        "def": 435,
+                        "hp": 3551
+                  },
+                  {
+                        "att": 1270,
+                        "def": 437,
+                        "hp": 3567
+                  },
+                  {
+                        "att": 1275,
+                        "def": 439,
+                        "hp": 3583
+                  },
+                  {
+                        "att": 1281,
+                        "def": 441,
+                        "hp": 3599
+                  },
+                  {
+                        "att": 1287,
+                        "def": 443,
+                        "hp": 3614
+                  },
+                  {
+                        "att": 1292,
+                        "def": 445,
+                        "hp": 3630
+                  },
+                  {
+                        "att": 1298,
+                        "def": 447,
+                        "hp": 3646
+                  },
+                  {
+                        "att": 1303,
+                        "def": 449,
+                        "hp": 3662
+                  },
+                  {
+                        "att": 1309,
+                        "def": 451,
+                        "hp": 3677
+                  },
+                  {
+                        "att": 1315,
+                        "def": 453,
+                        "hp": 3693
+                  },
+                  {
+                        "att": 1320,
+                        "def": 455,
+                        "hp": 3709
+                  },
+                  {
+                        "att": 1326,
+                        "def": 457,
+                        "hp": 3724
+                  },
+                  {
+                        "att": 1331,
+                        "def": 459,
+                        "hp": 3740
+                  },
+                  {
+                        "att": 1337,
+                        "def": 461,
+                        "hp": 3756
+                  },
+                  {
+                        "att": 1343,
+                        "def": 463,
+                        "hp": 3772
+                  },
+                  {
+                        "att": 1348,
+                        "def": 465,
+                        "hp": 3787
+                  },
+                  {
+                        "att": 1354,
+                        "def": 467,
+                        "hp": 3803
+                  },
+                  {
+                        "att": 1359,
+                        "def": 468,
+                        "hp": 3819
+                  },
+                  {
+                        "att": 1365,
+                        "def": 470,
+                        "hp": 3835
+                  },
+                  {
+                        "att": 1370,
+                        "def": 472,
+                        "hp": 3850
+                  },
+                  {
+                        "att": 1376,
+                        "def": 474,
+                        "hp": 3866
+                  },
+                  {
+                        "att": 1382,
+                        "def": 476,
+                        "hp": 3882
+                  },
+                  {
+                        "att": 1387,
+                        "def": 478,
+                        "hp": 3897
+                  },
+                  {
+                        "att": 1393,
+                        "def": 480,
+                        "hp": 3913
+                  },
+                  {
+                        "att": 1398,
+                        "def": 482,
+                        "hp": 3929
+                  },
+                  {
+                        "att": 1404,
+                        "def": 484,
+                        "hp": 3945
+                  },
+                  {
+                        "att": 1410,
+                        "def": 486,
+                        "hp": 3960
+                  },
+                  {
+                        "att": 1415,
+                        "def": 488,
+                        "hp": 3976
+                  },
+                  {
+                        "att": 1421,
+                        "def": 490,
+                        "hp": 3992
+                  },
+                  {
+                        "att": 1426,
+                        "def": 492,
+                        "hp": 4008
+                  }
+            ]
+      }
+}

@@ -4,7 +4,7 @@ import character from '../views/character.vue'
 const routes = [
   {
     path: '/',
-    redirect:'/sinsa',
+    redirect:'/Sinsa',
     name: 'char',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

@@ -1,0 +1,1153 @@
+{
+      "name": "Kuma & Pengy",
+      "faction": "Independent",
+      "element_main": "Water",
+      "element_sub": "null",
+      "rarity": "4",
+      "class": "Detonator",
+      "skill": {
+            "name": "",
+            "cd": "3 Turn",
+            "description": [
+                  "Deals 250% damage to 9 tiles in a square shape centered on 1 selected tile.",
+                  "Deals 250% damage to 13 tiles in a diamond shape centered on 1 selected tile.",
+                  "Deals 250% damage to 13 tiles in a diamond shape centered on 1 selected tile. Converts 2 enemy-occupied tile to Blue within the area of attack."
+            ]
+      },
+      "equip": {
+            "name": "Ulna Staff & Rocket Shell",
+            "passive": "Polar Drill",
+            "description": [
+                  [
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 20%."
+                  ],
+                  [
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 20%."
+                  ],
+                  [
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 5%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 10%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 15%.",
+                        "Increases the team's Max HP by 20%."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 165% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 165% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 165% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 200.",
+            "Increased by 25+5%Basic DEF.",
+            "Increased by 200+5%Basic max HP.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+            "",
+            ""
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Water Flare Silt",
+                        "Water Crystal Dust",
+                        "Tales of Survival",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Increases the team's Max HP by 20%."
+            },
+            {
+                  "material": [
+                        "Water Crystal",
+                        "Water Potion I",
+                        "Survival 101",
+                        "Nightium"
+                  ],
+                  "type": "Active Skill",
+                  "before": "Deals 250% damage to 9 tiles in a square shape centered on 1 selected tile.",
+                  "after": "Deals 250% damage to 13 tiles in a diamond shape centered on 1 selected tile."
+            },
+            {
+                  "material": [
+                        "Water Potion III",
+                        "Water Flare Rock",
+                        "Survivalpedia",
+                        "Nightium"
+                  ],
+                  "type": "Active Skill",
+                  "before": "Deals 250% damage to 13 tiles in a diamond shape centered on 1 selected tile.",
+                  "after": "Deals 250% damage to 13 tiles in a diamond shape centered on 1 selected tile. Converts 2 enemy-occupied tile to Blue within the area of attack."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 554,
+                        "def": 207,
+                        "hp": 2046
+                  },
+                  {
+                        "att": 565,
+                        "def": 211,
+                        "hp": 2081
+                  },
+                  {
+                        "att": 575,
+                        "def": 214,
+                        "hp": 2115
+                  },
+                  {
+                        "att": 585,
+                        "def": 218,
+                        "hp": 2150
+                  },
+                  {
+                        "att": 596,
+                        "def": 222,
+                        "hp": 2184
+                  },
+                  {
+                        "att": 606,
+                        "def": 226,
+                        "hp": 2218
+                  },
+                  {
+                        "att": 616,
+                        "def": 229,
+                        "hp": 2253
+                  },
+                  {
+                        "att": 626,
+                        "def": 233,
+                        "hp": 2287
+                  },
+                  {
+                        "att": 637,
+                        "def": 237,
+                        "hp": 2322
+                  },
+                  {
+                        "att": 647,
+                        "def": 240,
+                        "hp": 2356
+                  },
+                  {
+                        "att": 657,
+                        "def": 244,
+                        "hp": 2390
+                  },
+                  {
+                        "att": 668,
+                        "def": 248,
+                        "hp": 2425
+                  },
+                  {
+                        "att": 678,
+                        "def": 251,
+                        "hp": 2459
+                  },
+                  {
+                        "att": 688,
+                        "def": 255,
+                        "hp": 2494
+                  },
+                  {
+                        "att": 698,
+                        "def": 259,
+                        "hp": 2528
+                  },
+                  {
+                        "att": 709,
+                        "def": 262,
+                        "hp": 2562
+                  },
+                  {
+                        "att": 719,
+                        "def": 266,
+                        "hp": 2597
+                  },
+                  {
+                        "att": 729,
+                        "def": 270,
+                        "hp": 2631
+                  },
+                  {
+                        "att": 740,
+                        "def": 273,
+                        "hp": 2666
+                  },
+                  {
+                        "att": 750,
+                        "def": 277,
+                        "hp": 2700
+                  },
+                  {
+                        "att": 760,
+                        "def": 281,
+                        "hp": 2734
+                  },
+                  {
+                        "att": 770,
+                        "def": 284,
+                        "hp": 2769
+                  },
+                  {
+                        "att": 781,
+                        "def": 288,
+                        "hp": 2803
+                  },
+                  {
+                        "att": 791,
+                        "def": 292,
+                        "hp": 2838
+                  },
+                  {
+                        "att": 801,
+                        "def": 296,
+                        "hp": 2872
+                  },
+                  {
+                        "att": 812,
+                        "def": 299,
+                        "hp": 2906
+                  },
+                  {
+                        "att": 822,
+                        "def": 303,
+                        "hp": 2941
+                  },
+                  {
+                        "att": 832,
+                        "def": 307,
+                        "hp": 2975
+                  },
+                  {
+                        "att": 843,
+                        "def": 310,
+                        "hp": 3010
+                  },
+                  {
+                        "att": 853,
+                        "def": 314,
+                        "hp": 3044
+                  },
+                  {
+                        "att": 946,
+                        "def": 349,
+                        "hp": 3307
+                  },
+                  {
+                        "att": 959,
+                        "def": 353,
+                        "hp": 3350
+                  },
+                  {
+                        "att": 971,
+                        "def": 358,
+                        "hp": 3393
+                  },
+                  {
+                        "att": 984,
+                        "def": 362,
+                        "hp": 3436
+                  },
+                  {
+                        "att": 997,
+                        "def": 367,
+                        "hp": 3479
+                  },
+                  {
+                        "att": 1010,
+                        "def": 372,
+                        "hp": 3522
+                  },
+                  {
+                        "att": 1023,
+                        "def": 376,
+                        "hp": 3565
+                  },
+                  {
+                        "att": 1036,
+                        "def": 381,
+                        "hp": 3608
+                  },
+                  {
+                        "att": 1049,
+                        "def": 385,
+                        "hp": 3651
+                  },
+                  {
+                        "att": 1061,
+                        "def": 390,
+                        "hp": 3694
+                  },
+                  {
+                        "att": 1074,
+                        "def": 395,
+                        "hp": 3737
+                  },
+                  {
+                        "att": 1087,
+                        "def": 399,
+                        "hp": 3780
+                  },
+                  {
+                        "att": 1100,
+                        "def": 404,
+                        "hp": 3823
+                  },
+                  {
+                        "att": 1113,
+                        "def": 408,
+                        "hp": 3866
+                  },
+                  {
+                        "att": 1126,
+                        "def": 413,
+                        "hp": 3909
+                  },
+                  {
+                        "att": 1139,
+                        "def": 418,
+                        "hp": 3952
+                  },
+                  {
+                        "att": 1152,
+                        "def": 422,
+                        "hp": 3995
+                  },
+                  {
+                        "att": 1164,
+                        "def": 427,
+                        "hp": 4038
+                  },
+                  {
+                        "att": 1177,
+                        "def": 431,
+                        "hp": 4081
+                  },
+                  {
+                        "att": 1190,
+                        "def": 436,
+                        "hp": 4124
+                  },
+                  {
+                        "att": 1203,
+                        "def": 441,
+                        "hp": 4167
+                  },
+                  {
+                        "att": 1216,
+                        "def": 445,
+                        "hp": 4210
+                  },
+                  {
+                        "att": 1229,
+                        "def": 450,
+                        "hp": 4253
+                  },
+                  {
+                        "att": 1242,
+                        "def": 454,
+                        "hp": 4296
+                  },
+                  {
+                        "att": 1254,
+                        "def": 459,
+                        "hp": 4339
+                  },
+                  {
+                        "att": 1267,
+                        "def": 464,
+                        "hp": 4382
+                  },
+                  {
+                        "att": 1280,
+                        "def": 468,
+                        "hp": 4425
+                  },
+                  {
+                        "att": 1293,
+                        "def": 473,
+                        "hp": 4468
+                  },
+                  {
+                        "att": 1306,
+                        "def": 478,
+                        "hp": 4511
+                  },
+                  {
+                        "att": 1319,
+                        "def": 482,
+                        "hp": 4554
+                  },
+                  {
+                        "att": 1332,
+                        "def": 487,
+                        "hp": 4597
+                  },
+                  {
+                        "att": 1345,
+                        "def": 491,
+                        "hp": 4640
+                  },
+                  {
+                        "att": 1357,
+                        "def": 496,
+                        "hp": 4683
+                  },
+                  {
+                        "att": 1370,
+                        "def": 501,
+                        "hp": 4726
+                  },
+                  {
+                        "att": 1383,
+                        "def": 505,
+                        "hp": 4769
+                  },
+                  {
+                        "att": 1396,
+                        "def": 510,
+                        "hp": 4812
+                  },
+                  {
+                        "att": 1409,
+                        "def": 514,
+                        "hp": 4855
+                  },
+                  {
+                        "att": 1422,
+                        "def": 519,
+                        "hp": 4898
+                  },
+                  {
+                        "att": 1435,
+                        "def": 524,
+                        "hp": 4941
+                  },
+                  {
+                        "att": 1447,
+                        "def": 528,
+                        "hp": 4984
+                  },
+                  {
+                        "att": 1587,
+                        "def": 577,
+                        "hp": 5356
+                  },
+                  {
+                        "att": 1597,
+                        "def": 580,
+                        "hp": 5388
+                  },
+                  {
+                        "att": 1606,
+                        "def": 584,
+                        "hp": 5421
+                  },
+                  {
+                        "att": 1616,
+                        "def": 587,
+                        "hp": 5453
+                  },
+                  {
+                        "att": 1626,
+                        "def": 590,
+                        "hp": 5485
+                  },
+                  {
+                        "att": 1635,
+                        "def": 594,
+                        "hp": 5517
+                  },
+                  {
+                        "att": 1645,
+                        "def": 597,
+                        "hp": 5550
+                  },
+                  {
+                        "att": 1655,
+                        "def": 601,
+                        "hp": 5582
+                  },
+                  {
+                        "att": 1664,
+                        "def": 604,
+                        "hp": 5614
+                  },
+                  {
+                        "att": 1674,
+                        "def": 608,
+                        "hp": 5646
+                  },
+                  {
+                        "att": 1684,
+                        "def": 611,
+                        "hp": 5678
+                  },
+                  {
+                        "att": 1693,
+                        "def": 615,
+                        "hp": 5711
+                  },
+                  {
+                        "att": 1703,
+                        "def": 618,
+                        "hp": 5743
+                  },
+                  {
+                        "att": 1713,
+                        "def": 622,
+                        "hp": 5775
+                  },
+                  {
+                        "att": 1722,
+                        "def": 625,
+                        "hp": 5807
+                  },
+                  {
+                        "att": 1732,
+                        "def": 628,
+                        "hp": 5840
+                  },
+                  {
+                        "att": 1741,
+                        "def": 632,
+                        "hp": 5872
+                  },
+                  {
+                        "att": 1751,
+                        "def": 635,
+                        "hp": 5904
+                  },
+                  {
+                        "att": 1761,
+                        "def": 639,
+                        "hp": 5936
+                  },
+                  {
+                        "att": 1770,
+                        "def": 642,
+                        "hp": 5969
+                  },
+                  {
+                        "att": 1780,
+                        "def": 646,
+                        "hp": 6001
+                  },
+                  {
+                        "att": 1790,
+                        "def": 649,
+                        "hp": 6033
+                  },
+                  {
+                        "att": 1799,
+                        "def": 653,
+                        "hp": 6065
+                  },
+                  {
+                        "att": 1809,
+                        "def": 656,
+                        "hp": 6098
+                  },
+                  {
+                        "att": 1819,
+                        "def": 660,
+                        "hp": 6130
+                  },
+                  {
+                        "att": 1828,
+                        "def": 663,
+                        "hp": 6162
+                  },
+                  {
+                        "att": 1838,
+                        "def": 666,
+                        "hp": 6194
+                  },
+                  {
+                        "att": 1848,
+                        "def": 670,
+                        "hp": 6227
+                  },
+                  {
+                        "att": 1857,
+                        "def": 673,
+                        "hp": 6259
+                  },
+                  {
+                        "att": 1867,
+                        "def": 677,
+                        "hp": 6291
+                  },
+                  {
+                        "att": 1877,
+                        "def": 680,
+                        "hp": 6323
+                  },
+                  {
+                        "att": 1886,
+                        "def": 684,
+                        "hp": 6356
+                  },
+                  {
+                        "att": 1896,
+                        "def": 687,
+                        "hp": 6388
+                  },
+                  {
+                        "att": 1905,
+                        "def": 691,
+                        "hp": 6420
+                  },
+                  {
+                        "att": 1915,
+                        "def": 694,
+                        "hp": 6452
+                  },
+                  {
+                        "att": 1925,
+                        "def": 698,
+                        "hp": 6485
+                  },
+                  {
+                        "att": 1934,
+                        "def": 701,
+                        "hp": 6517
+                  },
+                  {
+                        "att": 1944,
+                        "def": 704,
+                        "hp": 6549
+                  },
+                  {
+                        "att": 1954,
+                        "def": 708,
+                        "hp": 6581
+                  },
+                  {
+                        "att": 1963,
+                        "def": 711,
+                        "hp": 6614
+                  },
+                  {
+                        "att": 1973,
+                        "def": 715,
+                        "hp": 6646
+                  },
+                  {
+                        "att": 1983,
+                        "def": 718,
+                        "hp": 6678
+                  },
+                  {
+                        "att": 1992,
+                        "def": 722,
+                        "hp": 6710
+                  },
+                  {
+                        "att": 2002,
+                        "def": 725,
+                        "hp": 6743
+                  },
+                  {
+                        "att": 2012,
+                        "def": 729,
+                        "hp": 6775
+                  },
+                  {
+                        "att": 2021,
+                        "def": 732,
+                        "hp": 6807
+                  },
+                  {
+                        "att": 2031,
+                        "def": 736,
+                        "hp": 6839
+                  },
+                  {
+                        "att": 2041,
+                        "def": 739,
+                        "hp": 6872
+                  },
+                  {
+                        "att": 2050,
+                        "def": 742,
+                        "hp": 6904
+                  },
+                  {
+                        "att": 2060,
+                        "def": 746,
+                        "hp": 6936
+                  },
+                  {
+                        "att": 2256,
+                        "def": 813,
+                        "hp": 7468
+                  },
+                  {
+                        "att": 2263,
+                        "def": 816,
+                        "hp": 7489
+                  },
+                  {
+                        "att": 2269,
+                        "def": 818,
+                        "hp": 7511
+                  },
+                  {
+                        "att": 2276,
+                        "def": 820,
+                        "hp": 7532
+                  },
+                  {
+                        "att": 2282,
+                        "def": 822,
+                        "hp": 7554
+                  },
+                  {
+                        "att": 2288,
+                        "def": 825,
+                        "hp": 7575
+                  },
+                  {
+                        "att": 2295,
+                        "def": 827,
+                        "hp": 7597
+                  },
+                  {
+                        "att": 2301,
+                        "def": 829,
+                        "hp": 7618
+                  },
+                  {
+                        "att": 2308,
+                        "def": 832,
+                        "hp": 7640
+                  },
+                  {
+                        "att": 2314,
+                        "def": 834,
+                        "hp": 7661
+                  },
+                  {
+                        "att": 2321,
+                        "def": 836,
+                        "hp": 7683
+                  },
+                  {
+                        "att": 2327,
+                        "def": 839,
+                        "hp": 7704
+                  },
+                  {
+                        "att": 2333,
+                        "def": 841,
+                        "hp": 7726
+                  },
+                  {
+                        "att": 2340,
+                        "def": 843,
+                        "hp": 7747
+                  },
+                  {
+                        "att": 2346,
+                        "def": 845,
+                        "hp": 7769
+                  },
+                  {
+                        "att": 2353,
+                        "def": 848,
+                        "hp": 7790
+                  },
+                  {
+                        "att": 2359,
+                        "def": 850,
+                        "hp": 7812
+                  },
+                  {
+                        "att": 2366,
+                        "def": 852,
+                        "hp": 7833
+                  },
+                  {
+                        "att": 2372,
+                        "def": 855,
+                        "hp": 7855
+                  },
+                  {
+                        "att": 2379,
+                        "def": 857,
+                        "hp": 7876
+                  },
+                  {
+                        "att": 2385,
+                        "def": 859,
+                        "hp": 7898
+                  },
+                  {
+                        "att": 2391,
+                        "def": 862,
+                        "hp": 7919
+                  },
+                  {
+                        "att": 2398,
+                        "def": 864,
+                        "hp": 7941
+                  },
+                  {
+                        "att": 2404,
+                        "def": 866,
+                        "hp": 7962
+                  },
+                  {
+                        "att": 2411,
+                        "def": 868,
+                        "hp": 7984
+                  },
+                  {
+                        "att": 2417,
+                        "def": 871,
+                        "hp": 8005
+                  },
+                  {
+                        "att": 2424,
+                        "def": 873,
+                        "hp": 8027
+                  },
+                  {
+                        "att": 2430,
+                        "def": 875,
+                        "hp": 8048
+                  },
+                  {
+                        "att": 2436,
+                        "def": 878,
+                        "hp": 8070
+                  },
+                  {
+                        "att": 2443,
+                        "def": 880,
+                        "hp": 8091
+                  },
+                  {
+                        "att": 2449,
+                        "def": 882,
+                        "hp": 8113
+                  },
+                  {
+                        "att": 2456,
+                        "def": 885,
+                        "hp": 8134
+                  },
+                  {
+                        "att": 2462,
+                        "def": 887,
+                        "hp": 8156
+                  },
+                  {
+                        "att": 2469,
+                        "def": 889,
+                        "hp": 8177
+                  },
+                  {
+                        "att": 2475,
+                        "def": 891,
+                        "hp": 8199
+                  },
+                  {
+                        "att": 2481,
+                        "def": 894,
+                        "hp": 8220
+                  },
+                  {
+                        "att": 2488,
+                        "def": 896,
+                        "hp": 8241
+                  },
+                  {
+                        "att": 2494,
+                        "def": 898,
+                        "hp": 8263
+                  },
+                  {
+                        "att": 2501,
+                        "def": 901,
+                        "hp": 8284
+                  },
+                  {
+                        "att": 2507,
+                        "def": 903,
+                        "hp": 8306
+                  },
+                  {
+                        "att": 2514,
+                        "def": 905,
+                        "hp": 8327
+                  },
+                  {
+                        "att": 2520,
+                        "def": 908,
+                        "hp": 8349
+                  },
+                  {
+                        "att": 2526,
+                        "def": 910,
+                        "hp": 8370
+                  },
+                  {
+                        "att": 2533,
+                        "def": 912,
+                        "hp": 8392
+                  },
+                  {
+                        "att": 2539,
+                        "def": 915,
+                        "hp": 8413
+                  },
+                  {
+                        "att": 2546,
+                        "def": 917,
+                        "hp": 8435
+                  },
+                  {
+                        "att": 2552,
+                        "def": 919,
+                        "hp": 8456
+                  },
+                  {
+                        "att": 2559,
+                        "def": 921,
+                        "hp": 8478
+                  },
+                  {
+                        "att": 2565,
+                        "def": 924,
+                        "hp": 8499
+                  },
+                  {
+                        "att": 2571,
+                        "def": 926,
+                        "hp": 8521
+                  },
+                  {
+                        "att": 2578,
+                        "def": 928,
+                        "hp": 8542
+                  },
+                  {
+                        "att": 2584,
+                        "def": 931,
+                        "hp": 8564
+                  },
+                  {
+                        "att": 2591,
+                        "def": 933,
+                        "hp": 8585
+                  },
+                  {
+                        "att": 2597,
+                        "def": 935,
+                        "hp": 8607
+                  },
+                  {
+                        "att": 2604,
+                        "def": 938,
+                        "hp": 8628
+                  },
+                  {
+                        "att": 2610,
+                        "def": 940,
+                        "hp": 8650
+                  },
+                  {
+                        "att": 2617,
+                        "def": 942,
+                        "hp": 8671
+                  },
+                  {
+                        "att": 2623,
+                        "def": 944,
+                        "hp": 8693
+                  },
+                  {
+                        "att": 2629,
+                        "def": 947,
+                        "hp": 8714
+                  },
+                  {
+                        "att": 2636,
+                        "def": 949,
+                        "hp": 8736
+                  },
+                  {
+                        "att": 2642,
+                        "def": 951,
+                        "hp": 8757
+                  },
+                  {
+                        "att": 2649,
+                        "def": 954,
+                        "hp": 8779
+                  },
+                  {
+                        "att": 2655,
+                        "def": 956,
+                        "hp": 8800
+                  },
+                  {
+                        "att": 2662,
+                        "def": 958,
+                        "hp": 8822
+                  },
+                  {
+                        "att": 2668,
+                        "def": 961,
+                        "hp": 8843
+                  },
+                  {
+                        "att": 2674,
+                        "def": 963,
+                        "hp": 8865
+                  },
+                  {
+                        "att": 2681,
+                        "def": 965,
+                        "hp": 8886
+                  },
+                  {
+                        "att": 2687,
+                        "def": 967,
+                        "hp": 8908
+                  },
+                  {
+                        "att": 2694,
+                        "def": 970,
+                        "hp": 8929
+                  },
+                  {
+                        "att": 2700,
+                        "def": 972,
+                        "hp": 8951
+                  },
+                  {
+                        "att": 2707,
+                        "def": 974,
+                        "hp": 8972
+                  },
+                  {
+                        "att": 2713,
+                        "def": 977,
+                        "hp": 8994
+                  },
+                  {
+                        "att": 2719,
+                        "def": 979,
+                        "hp": 9015
+                  },
+                  {
+                        "att": 2726,
+                        "def": 981,
+                        "hp": 9037
+                  },
+                  {
+                        "att": 2732,
+                        "def": 984,
+                        "hp": 9058
+                  },
+                  {
+                        "att": 2739,
+                        "def": 986,
+                        "hp": 9080
+                  },
+                  {
+                        "att": 2745,
+                        "def": 988,
+                        "hp": 9101
+                  },
+                  {
+                        "att": 2752,
+                        "def": 991,
+                        "hp": 9123
+                  },
+                  {
+                        "att": 2758,
+                        "def": 993,
+                        "hp": 9144
+                  },
+                  {
+                        "att": 2764,
+                        "def": 995,
+                        "hp": 9166
+                  }
+            ]
+      }
+}

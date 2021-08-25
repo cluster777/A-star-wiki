@@ -1,0 +1,1153 @@
+{
+      "name": "Rabbie",
+      "faction": "Rediesel Wrench",
+      "element_main": "Thunder",
+      "element_sub": "null",
+      "rarity": "4",
+      "class": "Support",
+      "skill": {
+            "name": "",
+            "cd": "3 Turn",
+            "description": [
+                  "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
+                  "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back.",
+                  "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
+            ]
+      },
+      "equip": {
+            "name": "Modified Drill",
+            "passive": "Rabbie Drill",
+            "description": [
+                  [
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+                  ],
+                  [
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+                  ],
+                  [
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 155% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 155% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 155% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 200.",
+            "Increased by 25+5%Basic DEF.",
+            "Increased by 200+5%Basic max HP.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+            "",
+            ""
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Thunder Crystal Shard",
+                        "Thunder Essence",
+                        "Rediesel Extract",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+            },
+            {
+                  "material": [
+                        "Thunder Potion II",
+                        "Thunder Flare Silt",
+                        "Rediesel Concentrate",
+                        "Nightium"
+                  ],
+                  "type": "Active Skill",
+                  "before": "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
+                  "after": "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
+            },
+            {
+                  "material": [
+                        "Thunder Flare Tile",
+                        "Thunder Crystal",
+                        "Rediesel Essence",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF).",
+                  "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 510,
+                        "def": 209,
+                        "hp": 1592
+                  },
+                  {
+                        "att": 520,
+                        "def": 212,
+                        "hp": 1618
+                  },
+                  {
+                        "att": 530,
+                        "def": 215,
+                        "hp": 1644
+                  },
+                  {
+                        "att": 540,
+                        "def": 219,
+                        "hp": 1669
+                  },
+                  {
+                        "att": 550,
+                        "def": 222,
+                        "hp": 1695
+                  },
+                  {
+                        "att": 561,
+                        "def": 225,
+                        "hp": 1720
+                  },
+                  {
+                        "att": 571,
+                        "def": 229,
+                        "hp": 1746
+                  },
+                  {
+                        "att": 581,
+                        "def": 232,
+                        "hp": 1772
+                  },
+                  {
+                        "att": 591,
+                        "def": 235,
+                        "hp": 1797
+                  },
+                  {
+                        "att": 601,
+                        "def": 239,
+                        "hp": 1823
+                  },
+                  {
+                        "att": 611,
+                        "def": 242,
+                        "hp": 1848
+                  },
+                  {
+                        "att": 621,
+                        "def": 245,
+                        "hp": 1874
+                  },
+                  {
+                        "att": 631,
+                        "def": 249,
+                        "hp": 1899
+                  },
+                  {
+                        "att": 641,
+                        "def": 252,
+                        "hp": 1925
+                  },
+                  {
+                        "att": 651,
+                        "def": 255,
+                        "hp": 1951
+                  },
+                  {
+                        "att": 661,
+                        "def": 259,
+                        "hp": 1976
+                  },
+                  {
+                        "att": 672,
+                        "def": 262,
+                        "hp": 2002
+                  },
+                  {
+                        "att": 682,
+                        "def": 265,
+                        "hp": 2027
+                  },
+                  {
+                        "att": 692,
+                        "def": 269,
+                        "hp": 2053
+                  },
+                  {
+                        "att": 702,
+                        "def": 272,
+                        "hp": 2078
+                  },
+                  {
+                        "att": 712,
+                        "def": 275,
+                        "hp": 2104
+                  },
+                  {
+                        "att": 722,
+                        "def": 278,
+                        "hp": 2130
+                  },
+                  {
+                        "att": 732,
+                        "def": 282,
+                        "hp": 2155
+                  },
+                  {
+                        "att": 742,
+                        "def": 285,
+                        "hp": 2181
+                  },
+                  {
+                        "att": 752,
+                        "def": 288,
+                        "hp": 2206
+                  },
+                  {
+                        "att": 762,
+                        "def": 292,
+                        "hp": 2232
+                  },
+                  {
+                        "att": 772,
+                        "def": 295,
+                        "hp": 2257
+                  },
+                  {
+                        "att": 783,
+                        "def": 298,
+                        "hp": 2283
+                  },
+                  {
+                        "att": 793,
+                        "def": 302,
+                        "hp": 2309
+                  },
+                  {
+                        "att": 803,
+                        "def": 305,
+                        "hp": 2334
+                  },
+                  {
+                        "att": 905,
+                        "def": 339,
+                        "hp": 2606
+                  },
+                  {
+                        "att": 918,
+                        "def": 343,
+                        "hp": 2638
+                  },
+                  {
+                        "att": 931,
+                        "def": 348,
+                        "hp": 2670
+                  },
+                  {
+                        "att": 943,
+                        "def": 352,
+                        "hp": 2702
+                  },
+                  {
+                        "att": 956,
+                        "def": 356,
+                        "hp": 2734
+                  },
+                  {
+                        "att": 968,
+                        "def": 360,
+                        "hp": 2766
+                  },
+                  {
+                        "att": 981,
+                        "def": 364,
+                        "hp": 2798
+                  },
+                  {
+                        "att": 994,
+                        "def": 368,
+                        "hp": 2830
+                  },
+                  {
+                        "att": 1006,
+                        "def": 373,
+                        "hp": 2862
+                  },
+                  {
+                        "att": 1019,
+                        "def": 377,
+                        "hp": 2894
+                  },
+                  {
+                        "att": 1031,
+                        "def": 381,
+                        "hp": 2926
+                  },
+                  {
+                        "att": 1044,
+                        "def": 385,
+                        "hp": 2958
+                  },
+                  {
+                        "att": 1057,
+                        "def": 389,
+                        "hp": 2990
+                  },
+                  {
+                        "att": 1069,
+                        "def": 393,
+                        "hp": 3022
+                  },
+                  {
+                        "att": 1082,
+                        "def": 397,
+                        "hp": 3054
+                  },
+                  {
+                        "att": 1095,
+                        "def": 402,
+                        "hp": 3086
+                  },
+                  {
+                        "att": 1107,
+                        "def": 406,
+                        "hp": 3118
+                  },
+                  {
+                        "att": 1120,
+                        "def": 410,
+                        "hp": 3150
+                  },
+                  {
+                        "att": 1132,
+                        "def": 414,
+                        "hp": 3182
+                  },
+                  {
+                        "att": 1145,
+                        "def": 418,
+                        "hp": 3214
+                  },
+                  {
+                        "att": 1158,
+                        "def": 422,
+                        "hp": 3246
+                  },
+                  {
+                        "att": 1170,
+                        "def": 427,
+                        "hp": 3278
+                  },
+                  {
+                        "att": 1183,
+                        "def": 431,
+                        "hp": 3310
+                  },
+                  {
+                        "att": 1195,
+                        "def": 435,
+                        "hp": 3341
+                  },
+                  {
+                        "att": 1208,
+                        "def": 439,
+                        "hp": 3373
+                  },
+                  {
+                        "att": 1221,
+                        "def": 443,
+                        "hp": 3405
+                  },
+                  {
+                        "att": 1233,
+                        "def": 447,
+                        "hp": 3437
+                  },
+                  {
+                        "att": 1246,
+                        "def": 452,
+                        "hp": 3469
+                  },
+                  {
+                        "att": 1258,
+                        "def": 456,
+                        "hp": 3501
+                  },
+                  {
+                        "att": 1271,
+                        "def": 460,
+                        "hp": 3533
+                  },
+                  {
+                        "att": 1284,
+                        "def": 464,
+                        "hp": 3565
+                  },
+                  {
+                        "att": 1296,
+                        "def": 468,
+                        "hp": 3597
+                  },
+                  {
+                        "att": 1309,
+                        "def": 472,
+                        "hp": 3629
+                  },
+                  {
+                        "att": 1322,
+                        "def": 476,
+                        "hp": 3661
+                  },
+                  {
+                        "att": 1334,
+                        "def": 481,
+                        "hp": 3693
+                  },
+                  {
+                        "att": 1347,
+                        "def": 485,
+                        "hp": 3725
+                  },
+                  {
+                        "att": 1359,
+                        "def": 489,
+                        "hp": 3757
+                  },
+                  {
+                        "att": 1372,
+                        "def": 493,
+                        "hp": 3789
+                  },
+                  {
+                        "att": 1385,
+                        "def": 497,
+                        "hp": 3821
+                  },
+                  {
+                        "att": 1397,
+                        "def": 501,
+                        "hp": 3853
+                  },
+                  {
+                        "att": 1547,
+                        "def": 555,
+                        "hp": 4257
+                  },
+                  {
+                        "att": 1556,
+                        "def": 558,
+                        "hp": 4281
+                  },
+                  {
+                        "att": 1566,
+                        "def": 561,
+                        "hp": 4305
+                  },
+                  {
+                        "att": 1575,
+                        "def": 564,
+                        "hp": 4329
+                  },
+                  {
+                        "att": 1585,
+                        "def": 567,
+                        "hp": 4353
+                  },
+                  {
+                        "att": 1594,
+                        "def": 570,
+                        "hp": 4377
+                  },
+                  {
+                        "att": 1603,
+                        "def": 573,
+                        "hp": 4401
+                  },
+                  {
+                        "att": 1613,
+                        "def": 576,
+                        "hp": 4425
+                  },
+                  {
+                        "att": 1622,
+                        "def": 579,
+                        "hp": 4449
+                  },
+                  {
+                        "att": 1632,
+                        "def": 583,
+                        "hp": 4473
+                  },
+                  {
+                        "att": 1641,
+                        "def": 586,
+                        "hp": 4497
+                  },
+                  {
+                        "att": 1651,
+                        "def": 589,
+                        "hp": 4521
+                  },
+                  {
+                        "att": 1660,
+                        "def": 592,
+                        "hp": 4545
+                  },
+                  {
+                        "att": 1670,
+                        "def": 595,
+                        "hp": 4569
+                  },
+                  {
+                        "att": 1679,
+                        "def": 598,
+                        "hp": 4593
+                  },
+                  {
+                        "att": 1689,
+                        "def": 601,
+                        "hp": 4617
+                  },
+                  {
+                        "att": 1698,
+                        "def": 604,
+                        "hp": 4641
+                  },
+                  {
+                        "att": 1708,
+                        "def": 608,
+                        "hp": 4665
+                  },
+                  {
+                        "att": 1717,
+                        "def": 611,
+                        "hp": 4689
+                  },
+                  {
+                        "att": 1726,
+                        "def": 614,
+                        "hp": 4713
+                  },
+                  {
+                        "att": 1736,
+                        "def": 617,
+                        "hp": 4737
+                  },
+                  {
+                        "att": 1745,
+                        "def": 620,
+                        "hp": 4761
+                  },
+                  {
+                        "att": 1755,
+                        "def": 623,
+                        "hp": 4785
+                  },
+                  {
+                        "att": 1764,
+                        "def": 626,
+                        "hp": 4808
+                  },
+                  {
+                        "att": 1774,
+                        "def": 629,
+                        "hp": 4832
+                  },
+                  {
+                        "att": 1783,
+                        "def": 632,
+                        "hp": 4856
+                  },
+                  {
+                        "att": 1793,
+                        "def": 636,
+                        "hp": 4880
+                  },
+                  {
+                        "att": 1802,
+                        "def": 639,
+                        "hp": 4904
+                  },
+                  {
+                        "att": 1812,
+                        "def": 642,
+                        "hp": 4928
+                  },
+                  {
+                        "att": 1821,
+                        "def": 645,
+                        "hp": 4952
+                  },
+                  {
+                        "att": 1830,
+                        "def": 648,
+                        "hp": 4976
+                  },
+                  {
+                        "att": 1840,
+                        "def": 651,
+                        "hp": 5000
+                  },
+                  {
+                        "att": 1849,
+                        "def": 654,
+                        "hp": 5024
+                  },
+                  {
+                        "att": 1859,
+                        "def": 657,
+                        "hp": 5048
+                  },
+                  {
+                        "att": 1868,
+                        "def": 661,
+                        "hp": 5072
+                  },
+                  {
+                        "att": 1878,
+                        "def": 664,
+                        "hp": 5096
+                  },
+                  {
+                        "att": 1887,
+                        "def": 667,
+                        "hp": 5120
+                  },
+                  {
+                        "att": 1897,
+                        "def": 670,
+                        "hp": 5144
+                  },
+                  {
+                        "att": 1906,
+                        "def": 673,
+                        "hp": 5168
+                  },
+                  {
+                        "att": 1916,
+                        "def": 676,
+                        "hp": 5192
+                  },
+                  {
+                        "att": 1925,
+                        "def": 679,
+                        "hp": 5216
+                  },
+                  {
+                        "att": 1935,
+                        "def": 682,
+                        "hp": 5240
+                  },
+                  {
+                        "att": 1944,
+                        "def": 685,
+                        "hp": 5264
+                  },
+                  {
+                        "att": 1953,
+                        "def": 689,
+                        "hp": 5288
+                  },
+                  {
+                        "att": 1963,
+                        "def": 692,
+                        "hp": 5312
+                  },
+                  {
+                        "att": 1972,
+                        "def": 695,
+                        "hp": 5336
+                  },
+                  {
+                        "att": 1982,
+                        "def": 698,
+                        "hp": 5360
+                  },
+                  {
+                        "att": 1991,
+                        "def": 701,
+                        "hp": 5384
+                  },
+                  {
+                        "att": 2001,
+                        "def": 704,
+                        "hp": 5408
+                  },
+                  {
+                        "att": 2010,
+                        "def": 707,
+                        "hp": 5432
+                  },
+                  {
+                        "att": 2232,
+                        "def": 774,
+                        "hp": 6018
+                  },
+                  {
+                        "att": 2238,
+                        "def": 776,
+                        "hp": 6034
+                  },
+                  {
+                        "att": 2244,
+                        "def": 779,
+                        "hp": 6050
+                  },
+                  {
+                        "att": 2250,
+                        "def": 781,
+                        "hp": 6066
+                  },
+                  {
+                        "att": 2257,
+                        "def": 783,
+                        "hp": 6082
+                  },
+                  {
+                        "att": 2263,
+                        "def": 785,
+                        "hp": 6098
+                  },
+                  {
+                        "att": 2269,
+                        "def": 787,
+                        "hp": 6114
+                  },
+                  {
+                        "att": 2276,
+                        "def": 789,
+                        "hp": 6130
+                  },
+                  {
+                        "att": 2282,
+                        "def": 791,
+                        "hp": 6146
+                  },
+                  {
+                        "att": 2288,
+                        "def": 793,
+                        "hp": 6162
+                  },
+                  {
+                        "att": 2295,
+                        "def": 795,
+                        "hp": 6178
+                  },
+                  {
+                        "att": 2301,
+                        "def": 797,
+                        "hp": 6194
+                  },
+                  {
+                        "att": 2307,
+                        "def": 799,
+                        "hp": 6210
+                  },
+                  {
+                        "att": 2314,
+                        "def": 801,
+                        "hp": 6226
+                  },
+                  {
+                        "att": 2320,
+                        "def": 803,
+                        "hp": 6242
+                  },
+                  {
+                        "att": 2326,
+                        "def": 806,
+                        "hp": 6258
+                  },
+                  {
+                        "att": 2332,
+                        "def": 808,
+                        "hp": 6274
+                  },
+                  {
+                        "att": 2339,
+                        "def": 810,
+                        "hp": 6290
+                  },
+                  {
+                        "att": 2345,
+                        "def": 812,
+                        "hp": 6306
+                  },
+                  {
+                        "att": 2351,
+                        "def": 814,
+                        "hp": 6322
+                  },
+                  {
+                        "att": 2358,
+                        "def": 816,
+                        "hp": 6338
+                  },
+                  {
+                        "att": 2364,
+                        "def": 818,
+                        "hp": 6354
+                  },
+                  {
+                        "att": 2370,
+                        "def": 820,
+                        "hp": 6370
+                  },
+                  {
+                        "att": 2377,
+                        "def": 822,
+                        "hp": 6386
+                  },
+                  {
+                        "att": 2383,
+                        "def": 824,
+                        "hp": 6402
+                  },
+                  {
+                        "att": 2389,
+                        "def": 826,
+                        "hp": 6418
+                  },
+                  {
+                        "att": 2395,
+                        "def": 828,
+                        "hp": 6434
+                  },
+                  {
+                        "att": 2402,
+                        "def": 830,
+                        "hp": 6449
+                  },
+                  {
+                        "att": 2408,
+                        "def": 833,
+                        "hp": 6465
+                  },
+                  {
+                        "att": 2414,
+                        "def": 835,
+                        "hp": 6481
+                  },
+                  {
+                        "att": 2421,
+                        "def": 837,
+                        "hp": 6497
+                  },
+                  {
+                        "att": 2427,
+                        "def": 839,
+                        "hp": 6513
+                  },
+                  {
+                        "att": 2433,
+                        "def": 841,
+                        "hp": 6529
+                  },
+                  {
+                        "att": 2440,
+                        "def": 843,
+                        "hp": 6545
+                  },
+                  {
+                        "att": 2446,
+                        "def": 845,
+                        "hp": 6561
+                  },
+                  {
+                        "att": 2452,
+                        "def": 847,
+                        "hp": 6577
+                  },
+                  {
+                        "att": 2459,
+                        "def": 849,
+                        "hp": 6593
+                  },
+                  {
+                        "att": 2465,
+                        "def": 851,
+                        "hp": 6609
+                  },
+                  {
+                        "att": 2471,
+                        "def": 853,
+                        "hp": 6625
+                  },
+                  {
+                        "att": 2477,
+                        "def": 855,
+                        "hp": 6641
+                  },
+                  {
+                        "att": 2484,
+                        "def": 858,
+                        "hp": 6657
+                  },
+                  {
+                        "att": 2490,
+                        "def": 860,
+                        "hp": 6673
+                  },
+                  {
+                        "att": 2496,
+                        "def": 862,
+                        "hp": 6689
+                  },
+                  {
+                        "att": 2503,
+                        "def": 864,
+                        "hp": 6705
+                  },
+                  {
+                        "att": 2509,
+                        "def": 866,
+                        "hp": 6721
+                  },
+                  {
+                        "att": 2515,
+                        "def": 868,
+                        "hp": 6737
+                  },
+                  {
+                        "att": 2522,
+                        "def": 870,
+                        "hp": 6753
+                  },
+                  {
+                        "att": 2528,
+                        "def": 872,
+                        "hp": 6769
+                  },
+                  {
+                        "att": 2534,
+                        "def": 874,
+                        "hp": 6785
+                  },
+                  {
+                        "att": 2541,
+                        "def": 876,
+                        "hp": 6801
+                  },
+                  {
+                        "att": 2547,
+                        "def": 878,
+                        "hp": 6817
+                  },
+                  {
+                        "att": 2553,
+                        "def": 880,
+                        "hp": 6833
+                  },
+                  {
+                        "att": 2559,
+                        "def": 882,
+                        "hp": 6849
+                  },
+                  {
+                        "att": 2566,
+                        "def": 885,
+                        "hp": 6865
+                  },
+                  {
+                        "att": 2572,
+                        "def": 887,
+                        "hp": 6881
+                  },
+                  {
+                        "att": 2578,
+                        "def": 889,
+                        "hp": 6897
+                  },
+                  {
+                        "att": 2585,
+                        "def": 891,
+                        "hp": 6913
+                  },
+                  {
+                        "att": 2591,
+                        "def": 893,
+                        "hp": 6929
+                  },
+                  {
+                        "att": 2597,
+                        "def": 895,
+                        "hp": 6945
+                  },
+                  {
+                        "att": 2604,
+                        "def": 897,
+                        "hp": 6961
+                  },
+                  {
+                        "att": 2610,
+                        "def": 899,
+                        "hp": 6977
+                  },
+                  {
+                        "att": 2616,
+                        "def": 901,
+                        "hp": 6993
+                  },
+                  {
+                        "att": 2623,
+                        "def": 903,
+                        "hp": 7009
+                  },
+                  {
+                        "att": 2629,
+                        "def": 905,
+                        "hp": 7025
+                  },
+                  {
+                        "att": 2635,
+                        "def": 907,
+                        "hp": 7041
+                  },
+                  {
+                        "att": 2641,
+                        "def": 909,
+                        "hp": 7057
+                  },
+                  {
+                        "att": 2648,
+                        "def": 912,
+                        "hp": 7073
+                  },
+                  {
+                        "att": 2654,
+                        "def": 914,
+                        "hp": 7089
+                  },
+                  {
+                        "att": 2660,
+                        "def": 916,
+                        "hp": 7105
+                  },
+                  {
+                        "att": 2667,
+                        "def": 918,
+                        "hp": 7121
+                  },
+                  {
+                        "att": 2673,
+                        "def": 920,
+                        "hp": 7137
+                  },
+                  {
+                        "att": 2679,
+                        "def": 922,
+                        "hp": 7153
+                  },
+                  {
+                        "att": 2686,
+                        "def": 924,
+                        "hp": 7169
+                  },
+                  {
+                        "att": 2692,
+                        "def": 926,
+                        "hp": 7185
+                  },
+                  {
+                        "att": 2698,
+                        "def": 928,
+                        "hp": 7201
+                  },
+                  {
+                        "att": 2704,
+                        "def": 930,
+                        "hp": 7217
+                  },
+                  {
+                        "att": 2711,
+                        "def": 932,
+                        "hp": 7233
+                  },
+                  {
+                        "att": 2717,
+                        "def": 934,
+                        "hp": 7249
+                  },
+                  {
+                        "att": 2723,
+                        "def": 937,
+                        "hp": 7265
+                  },
+                  {
+                        "att": 2730,
+                        "def": 939,
+                        "hp": 7281
+                  }
+            ]
+      }
+}

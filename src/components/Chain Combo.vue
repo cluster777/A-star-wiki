@@ -4,7 +4,7 @@
     <div v-for="i in 3" :key="i" class="Chain">
         
         <input type=button v-bind="options"
-        :value=cost[i-1]
+        :value=detail[i-1].cost
         v-on:click="OnChainChange(i)"/>
     </div>
     <div class=clearfix />
@@ -16,7 +16,7 @@
           {{description}}
         </div>
         <div class="AoE">
-          <img :src="'/universal/type_detonator.png'" class="image"/>
+          <img :src="'/universal/type_Detonator.png'" class="image"/>
         </div>
         <div class=clearfix />
     </div>
@@ -33,22 +33,21 @@ export default {
    data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
-      name:chardata.chaincombo.name,
-      ActiveDescription:chardata.chaincombo.description,
-      cost:chardata.chaincombo.cost,
-      AoE:chardata.chaincombo.AoE,
-      description:chardata.chaincombo.description[0] //should be require(@/assets/universal/AoEname.png)
+      name:chardata.chain.name,
+      detail:chardata.chain.detail[0],
+      //AoE:chardata.chain.detail.AoE,
+      description:chardata.chain.detail[0][0].description //should be require(@/assets/universal/AoEname.png)
     }
    },
   methods:{
     OnChainChange(value){
       if(value==1){
-        this.description=this.ActiveDescription[0]
+        this.description=this.detail[0].description
       }
       else if(value==2){
-        this.description=this.ActiveDescription[1]
+        this.description=this.detail[1].description
       }
-      else this.description=this.ActiveDescription[2]
+      else this.description=this.detail[2].description
     }
   }
 }

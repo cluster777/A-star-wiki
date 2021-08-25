@@ -60,7 +60,6 @@ export default {
   methods:{
     ActiveChange(){
       this.active=!this.active
-      this.$state.chardata=require('@/assets/json/'+this.charname+'.json')
     }
   }
 }

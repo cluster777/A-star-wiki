@@ -35,6 +35,7 @@
           />
         </div>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </template>
@@ -123,5 +124,9 @@ export default {
   position:absolute;
   right:0;
 }
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>

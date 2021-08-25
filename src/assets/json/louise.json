@@ -1,0 +1,1153 @@
+{
+      "name": "Louise",
+      "faction": "Northland",
+      "element_main": "Forest",
+      "element_sub": "Forest",
+      "rarity": "5",
+      "class": "Support",
+      "skill": {
+            "name": "",
+            "cd": "4 Turn",
+            "description": [
+                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
+            ]
+      },
+      "equip": {
+            "name": "Prophecy & Fairy Tale",
+            "passive": "Thunderclap",
+            "description": [
+                  [
+                        "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+                        "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
+                  ],
+                  [
+                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+                  ],
+                  [
+                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+                        "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "11",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "11",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": "8",
+                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "11",
+                              "description": "Deals 170% damage to 16 tiles in a radial shape."
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 250.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+            "Increased by 250+5%Basic max HP.",
+            "Increased by 30+5%Basic DEF.",
+            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+            ""
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Forest Potion I",
+                        "Forest Flare Powder",
+                        "Pine Dew",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
+            },
+            {
+                  "material": [
+                        "Forest Flare Rock",
+                        "Forest Crystal Shard",
+                        "Pine Frost",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%.",
+                  "after": "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+            },
+            {
+                  "material": [
+                        "Forest Crystal Cluster",
+                        "Forest Potion II",
+                        "Tear of Pine",
+                        "Nightium"
+                  ],
+                  "type": "Active Skill",
+                  "before": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+                  "after": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 501,
+                        "def": 228,
+                        "hp": 1732
+                  },
+                  {
+                        "att": 511,
+                        "def": 231,
+                        "hp": 1761
+                  },
+                  {
+                        "att": 521,
+                        "def": 235,
+                        "hp": 1789
+                  },
+                  {
+                        "att": 531,
+                        "def": 238,
+                        "hp": 1818
+                  },
+                  {
+                        "att": 541,
+                        "def": 242,
+                        "hp": 1847
+                  },
+                  {
+                        "att": 552,
+                        "def": 245,
+                        "hp": 1875
+                  },
+                  {
+                        "att": 562,
+                        "def": 249,
+                        "hp": 1904
+                  },
+                  {
+                        "att": 572,
+                        "def": 252,
+                        "hp": 1932
+                  },
+                  {
+                        "att": 582,
+                        "def": 256,
+                        "hp": 1961
+                  },
+                  {
+                        "att": 592,
+                        "def": 259,
+                        "hp": 1990
+                  },
+                  {
+                        "att": 602,
+                        "def": 263,
+                        "hp": 2018
+                  },
+                  {
+                        "att": 612,
+                        "def": 266,
+                        "hp": 2047
+                  },
+                  {
+                        "att": 622,
+                        "def": 269,
+                        "hp": 2075
+                  },
+                  {
+                        "att": 632,
+                        "def": 273,
+                        "hp": 2104
+                  },
+                  {
+                        "att": 642,
+                        "def": 276,
+                        "hp": 2133
+                  },
+                  {
+                        "att": 652,
+                        "def": 280,
+                        "hp": 2161
+                  },
+                  {
+                        "att": 663,
+                        "def": 283,
+                        "hp": 2190
+                  },
+                  {
+                        "att": 673,
+                        "def": 287,
+                        "hp": 2219
+                  },
+                  {
+                        "att": 683,
+                        "def": 290,
+                        "hp": 2247
+                  },
+                  {
+                        "att": 693,
+                        "def": 294,
+                        "hp": 2276
+                  },
+                  {
+                        "att": 703,
+                        "def": 297,
+                        "hp": 2304
+                  },
+                  {
+                        "att": 713,
+                        "def": 301,
+                        "hp": 2333
+                  },
+                  {
+                        "att": 723,
+                        "def": 304,
+                        "hp": 2362
+                  },
+                  {
+                        "att": 733,
+                        "def": 308,
+                        "hp": 2390
+                  },
+                  {
+                        "att": 743,
+                        "def": 311,
+                        "hp": 2419
+                  },
+                  {
+                        "att": 753,
+                        "def": 315,
+                        "hp": 2447
+                  },
+                  {
+                        "att": 764,
+                        "def": 318,
+                        "hp": 2476
+                  },
+                  {
+                        "att": 774,
+                        "def": 321,
+                        "hp": 2505
+                  },
+                  {
+                        "att": 784,
+                        "def": 325,
+                        "hp": 2533
+                  },
+                  {
+                        "att": 794,
+                        "def": 328,
+                        "hp": 2562
+                  },
+                  {
+                        "att": 896,
+                        "def": 363,
+                        "hp": 2848
+                  },
+                  {
+                        "att": 909,
+                        "def": 367,
+                        "hp": 2883
+                  },
+                  {
+                        "att": 922,
+                        "def": 371,
+                        "hp": 2919
+                  },
+                  {
+                        "att": 934,
+                        "def": 376,
+                        "hp": 2955
+                  },
+                  {
+                        "att": 947,
+                        "def": 380,
+                        "hp": 2991
+                  },
+                  {
+                        "att": 959,
+                        "def": 384,
+                        "hp": 3026
+                  },
+                  {
+                        "att": 972,
+                        "def": 389,
+                        "hp": 3062
+                  },
+                  {
+                        "att": 985,
+                        "def": 393,
+                        "hp": 3098
+                  },
+                  {
+                        "att": 997,
+                        "def": 397,
+                        "hp": 3134
+                  },
+                  {
+                        "att": 1010,
+                        "def": 402,
+                        "hp": 3169
+                  },
+                  {
+                        "att": 1023,
+                        "def": 406,
+                        "hp": 3205
+                  },
+                  {
+                        "att": 1035,
+                        "def": 410,
+                        "hp": 3241
+                  },
+                  {
+                        "att": 1048,
+                        "def": 415,
+                        "hp": 3277
+                  },
+                  {
+                        "att": 1060,
+                        "def": 419,
+                        "hp": 3312
+                  },
+                  {
+                        "att": 1073,
+                        "def": 423,
+                        "hp": 3348
+                  },
+                  {
+                        "att": 1086,
+                        "def": 428,
+                        "hp": 3384
+                  },
+                  {
+                        "att": 1098,
+                        "def": 432,
+                        "hp": 3420
+                  },
+                  {
+                        "att": 1111,
+                        "def": 436,
+                        "hp": 3455
+                  },
+                  {
+                        "att": 1123,
+                        "def": 441,
+                        "hp": 3491
+                  },
+                  {
+                        "att": 1136,
+                        "def": 445,
+                        "hp": 3527
+                  },
+                  {
+                        "att": 1149,
+                        "def": 449,
+                        "hp": 3563
+                  },
+                  {
+                        "att": 1161,
+                        "def": 454,
+                        "hp": 3598
+                  },
+                  {
+                        "att": 1174,
+                        "def": 458,
+                        "hp": 3634
+                  },
+                  {
+                        "att": 1187,
+                        "def": 462,
+                        "hp": 3670
+                  },
+                  {
+                        "att": 1199,
+                        "def": 467,
+                        "hp": 3706
+                  },
+                  {
+                        "att": 1212,
+                        "def": 471,
+                        "hp": 3741
+                  },
+                  {
+                        "att": 1224,
+                        "def": 475,
+                        "hp": 3777
+                  },
+                  {
+                        "att": 1237,
+                        "def": 480,
+                        "hp": 3813
+                  },
+                  {
+                        "att": 1250,
+                        "def": 484,
+                        "hp": 3849
+                  },
+                  {
+                        "att": 1262,
+                        "def": 488,
+                        "hp": 3884
+                  },
+                  {
+                        "att": 1275,
+                        "def": 493,
+                        "hp": 3920
+                  },
+                  {
+                        "att": 1287,
+                        "def": 497,
+                        "hp": 3956
+                  },
+                  {
+                        "att": 1300,
+                        "def": 501,
+                        "hp": 3992
+                  },
+                  {
+                        "att": 1313,
+                        "def": 506,
+                        "hp": 4027
+                  },
+                  {
+                        "att": 1325,
+                        "def": 510,
+                        "hp": 4063
+                  },
+                  {
+                        "att": 1338,
+                        "def": 515,
+                        "hp": 4099
+                  },
+                  {
+                        "att": 1351,
+                        "def": 519,
+                        "hp": 4135
+                  },
+                  {
+                        "att": 1363,
+                        "def": 523,
+                        "hp": 4170
+                  },
+                  {
+                        "att": 1376,
+                        "def": 528,
+                        "hp": 4206
+                  },
+                  {
+                        "att": 1388,
+                        "def": 532,
+                        "hp": 4242
+                  },
+                  {
+                        "att": 1548,
+                        "def": 585,
+                        "hp": 4669
+                  },
+                  {
+                        "att": 1557,
+                        "def": 588,
+                        "hp": 4696
+                  },
+                  {
+                        "att": 1567,
+                        "def": 592,
+                        "hp": 4722
+                  },
+                  {
+                        "att": 1576,
+                        "def": 595,
+                        "hp": 4749
+                  },
+                  {
+                        "att": 1586,
+                        "def": 598,
+                        "hp": 4776
+                  },
+                  {
+                        "att": 1595,
+                        "def": 601,
+                        "hp": 4803
+                  },
+                  {
+                        "att": 1605,
+                        "def": 605,
+                        "hp": 4830
+                  },
+                  {
+                        "att": 1614,
+                        "def": 608,
+                        "hp": 4856
+                  },
+                  {
+                        "att": 1624,
+                        "def": 611,
+                        "hp": 4883
+                  },
+                  {
+                        "att": 1633,
+                        "def": 614,
+                        "hp": 4910
+                  },
+                  {
+                        "att": 1642,
+                        "def": 618,
+                        "hp": 4937
+                  },
+                  {
+                        "att": 1652,
+                        "def": 621,
+                        "hp": 4964
+                  },
+                  {
+                        "att": 1661,
+                        "def": 624,
+                        "hp": 4991
+                  },
+                  {
+                        "att": 1671,
+                        "def": 627,
+                        "hp": 5017
+                  },
+                  {
+                        "att": 1680,
+                        "def": 631,
+                        "hp": 5044
+                  },
+                  {
+                        "att": 1690,
+                        "def": 634,
+                        "hp": 5071
+                  },
+                  {
+                        "att": 1699,
+                        "def": 637,
+                        "hp": 5098
+                  },
+                  {
+                        "att": 1709,
+                        "def": 640,
+                        "hp": 5125
+                  },
+                  {
+                        "att": 1718,
+                        "def": 644,
+                        "hp": 5151
+                  },
+                  {
+                        "att": 1728,
+                        "def": 647,
+                        "hp": 5178
+                  },
+                  {
+                        "att": 1737,
+                        "def": 650,
+                        "hp": 5205
+                  },
+                  {
+                        "att": 1747,
+                        "def": 653,
+                        "hp": 5232
+                  },
+                  {
+                        "att": 1756,
+                        "def": 657,
+                        "hp": 5259
+                  },
+                  {
+                        "att": 1765,
+                        "def": 660,
+                        "hp": 5286
+                  },
+                  {
+                        "att": 1775,
+                        "def": 663,
+                        "hp": 5312
+                  },
+                  {
+                        "att": 1784,
+                        "def": 666,
+                        "hp": 5339
+                  },
+                  {
+                        "att": 1794,
+                        "def": 670,
+                        "hp": 5366
+                  },
+                  {
+                        "att": 1803,
+                        "def": 673,
+                        "hp": 5393
+                  },
+                  {
+                        "att": 1813,
+                        "def": 676,
+                        "hp": 5420
+                  },
+                  {
+                        "att": 1822,
+                        "def": 679,
+                        "hp": 5446
+                  },
+                  {
+                        "att": 1832,
+                        "def": 683,
+                        "hp": 5473
+                  },
+                  {
+                        "att": 1841,
+                        "def": 686,
+                        "hp": 5500
+                  },
+                  {
+                        "att": 1851,
+                        "def": 689,
+                        "hp": 5527
+                  },
+                  {
+                        "att": 1860,
+                        "def": 692,
+                        "hp": 5554
+                  },
+                  {
+                        "att": 1870,
+                        "def": 696,
+                        "hp": 5580
+                  },
+                  {
+                        "att": 1879,
+                        "def": 699,
+                        "hp": 5607
+                  },
+                  {
+                        "att": 1888,
+                        "def": 702,
+                        "hp": 5634
+                  },
+                  {
+                        "att": 1898,
+                        "def": 705,
+                        "hp": 5661
+                  },
+                  {
+                        "att": 1907,
+                        "def": 709,
+                        "hp": 5688
+                  },
+                  {
+                        "att": 1917,
+                        "def": 712,
+                        "hp": 5715
+                  },
+                  {
+                        "att": 1926,
+                        "def": 715,
+                        "hp": 5741
+                  },
+                  {
+                        "att": 1936,
+                        "def": 718,
+                        "hp": 5768
+                  },
+                  {
+                        "att": 1945,
+                        "def": 722,
+                        "hp": 5795
+                  },
+                  {
+                        "att": 1955,
+                        "def": 725,
+                        "hp": 5822
+                  },
+                  {
+                        "att": 1964,
+                        "def": 728,
+                        "hp": 5849
+                  },
+                  {
+                        "att": 1974,
+                        "def": 731,
+                        "hp": 5875
+                  },
+                  {
+                        "att": 1983,
+                        "def": 735,
+                        "hp": 5902
+                  },
+                  {
+                        "att": 1993,
+                        "def": 738,
+                        "hp": 5929
+                  },
+                  {
+                        "att": 2002,
+                        "def": 741,
+                        "hp": 5956
+                  },
+                  {
+                        "att": 2011,
+                        "def": 744,
+                        "hp": 5983
+                  },
+                  {
+                        "att": 2243,
+                        "def": 817,
+                        "hp": 6601
+                  },
+                  {
+                        "att": 2249,
+                        "def": 819,
+                        "hp": 6618
+                  },
+                  {
+                        "att": 2255,
+                        "def": 821,
+                        "hp": 6636
+                  },
+                  {
+                        "att": 2262,
+                        "def": 823,
+                        "hp": 6654
+                  },
+                  {
+                        "att": 2268,
+                        "def": 825,
+                        "hp": 6672
+                  },
+                  {
+                        "att": 2274,
+                        "def": 827,
+                        "hp": 6690
+                  },
+                  {
+                        "att": 2281,
+                        "def": 830,
+                        "hp": 6708
+                  },
+                  {
+                        "att": 2287,
+                        "def": 832,
+                        "hp": 6726
+                  },
+                  {
+                        "att": 2293,
+                        "def": 834,
+                        "hp": 6744
+                  },
+                  {
+                        "att": 2300,
+                        "def": 836,
+                        "hp": 6761
+                  },
+                  {
+                        "att": 2306,
+                        "def": 838,
+                        "hp": 6779
+                  },
+                  {
+                        "att": 2312,
+                        "def": 840,
+                        "hp": 6797
+                  },
+                  {
+                        "att": 2318,
+                        "def": 843,
+                        "hp": 6815
+                  },
+                  {
+                        "att": 2325,
+                        "def": 845,
+                        "hp": 6833
+                  },
+                  {
+                        "att": 2331,
+                        "def": 847,
+                        "hp": 6851
+                  },
+                  {
+                        "att": 2337,
+                        "def": 849,
+                        "hp": 6869
+                  },
+                  {
+                        "att": 2344,
+                        "def": 851,
+                        "hp": 6887
+                  },
+                  {
+                        "att": 2350,
+                        "def": 853,
+                        "hp": 6905
+                  },
+                  {
+                        "att": 2356,
+                        "def": 856,
+                        "hp": 6922
+                  },
+                  {
+                        "att": 2363,
+                        "def": 858,
+                        "hp": 6940
+                  },
+                  {
+                        "att": 2369,
+                        "def": 860,
+                        "hp": 6958
+                  },
+                  {
+                        "att": 2375,
+                        "def": 862,
+                        "hp": 6976
+                  },
+                  {
+                        "att": 2382,
+                        "def": 864,
+                        "hp": 6994
+                  },
+                  {
+                        "att": 2388,
+                        "def": 866,
+                        "hp": 7012
+                  },
+                  {
+                        "att": 2394,
+                        "def": 869,
+                        "hp": 7030
+                  },
+                  {
+                        "att": 2400,
+                        "def": 871,
+                        "hp": 7048
+                  },
+                  {
+                        "att": 2407,
+                        "def": 873,
+                        "hp": 7065
+                  },
+                  {
+                        "att": 2413,
+                        "def": 875,
+                        "hp": 7083
+                  },
+                  {
+                        "att": 2419,
+                        "def": 877,
+                        "hp": 7101
+                  },
+                  {
+                        "att": 2426,
+                        "def": 879,
+                        "hp": 7119
+                  },
+                  {
+                        "att": 2432,
+                        "def": 882,
+                        "hp": 7137
+                  },
+                  {
+                        "att": 2438,
+                        "def": 884,
+                        "hp": 7155
+                  },
+                  {
+                        "att": 2445,
+                        "def": 886,
+                        "hp": 7173
+                  },
+                  {
+                        "att": 2451,
+                        "def": 888,
+                        "hp": 7191
+                  },
+                  {
+                        "att": 2457,
+                        "def": 890,
+                        "hp": 7208
+                  },
+                  {
+                        "att": 2464,
+                        "def": 892,
+                        "hp": 7226
+                  },
+                  {
+                        "att": 2470,
+                        "def": 895,
+                        "hp": 7244
+                  },
+                  {
+                        "att": 2476,
+                        "def": 897,
+                        "hp": 7262
+                  },
+                  {
+                        "att": 2482,
+                        "def": 899,
+                        "hp": 7280
+                  },
+                  {
+                        "att": 2489,
+                        "def": 901,
+                        "hp": 7298
+                  },
+                  {
+                        "att": 2495,
+                        "def": 903,
+                        "hp": 7316
+                  },
+                  {
+                        "att": 2501,
+                        "def": 905,
+                        "hp": 7334
+                  },
+                  {
+                        "att": 2508,
+                        "def": 908,
+                        "hp": 7351
+                  },
+                  {
+                        "att": 2514,
+                        "def": 910,
+                        "hp": 7369
+                  },
+                  {
+                        "att": 2520,
+                        "def": 912,
+                        "hp": 7387
+                  },
+                  {
+                        "att": 2527,
+                        "def": 914,
+                        "hp": 7405
+                  },
+                  {
+                        "att": 2533,
+                        "def": 916,
+                        "hp": 7423
+                  },
+                  {
+                        "att": 2539,
+                        "def": 918,
+                        "hp": 7441
+                  },
+                  {
+                        "att": 2546,
+                        "def": 921,
+                        "hp": 7459
+                  },
+                  {
+                        "att": 2552,
+                        "def": 923,
+                        "hp": 7477
+                  },
+                  {
+                        "att": 2558,
+                        "def": 925,
+                        "hp": 7494
+                  },
+                  {
+                        "att": 2564,
+                        "def": 927,
+                        "hp": 7512
+                  },
+                  {
+                        "att": 2571,
+                        "def": 929,
+                        "hp": 7530
+                  },
+                  {
+                        "att": 2577,
+                        "def": 931,
+                        "hp": 7548
+                  },
+                  {
+                        "att": 2583,
+                        "def": 934,
+                        "hp": 7566
+                  },
+                  {
+                        "att": 2590,
+                        "def": 936,
+                        "hp": 7584
+                  },
+                  {
+                        "att": 2596,
+                        "def": 938,
+                        "hp": 7602
+                  },
+                  {
+                        "att": 2602,
+                        "def": 940,
+                        "hp": 7620
+                  },
+                  {
+                        "att": 2609,
+                        "def": 942,
+                        "hp": 7637
+                  },
+                  {
+                        "att": 2615,
+                        "def": 945,
+                        "hp": 7655
+                  },
+                  {
+                        "att": 2621,
+                        "def": 947,
+                        "hp": 7673
+                  },
+                  {
+                        "att": 2628,
+                        "def": 949,
+                        "hp": 7691
+                  },
+                  {
+                        "att": 2634,
+                        "def": 951,
+                        "hp": 7709
+                  },
+                  {
+                        "att": 2640,
+                        "def": 953,
+                        "hp": 7727
+                  },
+                  {
+                        "att": 2646,
+                        "def": 955,
+                        "hp": 7745
+                  },
+                  {
+                        "att": 2653,
+                        "def": 958,
+                        "hp": 7763
+                  },
+                  {
+                        "att": 2659,
+                        "def": 960,
+                        "hp": 7780
+                  },
+                  {
+                        "att": 2665,
+                        "def": 962,
+                        "hp": 7798
+                  },
+                  {
+                        "att": 2672,
+                        "def": 964,
+                        "hp": 7816
+                  },
+                  {
+                        "att": 2678,
+                        "def": 966,
+                        "hp": 7834
+                  },
+                  {
+                        "att": 2684,
+                        "def": 968,
+                        "hp": 7852
+                  },
+                  {
+                        "att": 2691,
+                        "def": 971,
+                        "hp": 7870
+                  },
+                  {
+                        "att": 2697,
+                        "def": 973,
+                        "hp": 7888
+                  },
+                  {
+                        "att": 2703,
+                        "def": 975,
+                        "hp": 7906
+                  },
+                  {
+                        "att": 2710,
+                        "def": 977,
+                        "hp": 7924
+                  },
+                  {
+                        "att": 2716,
+                        "def": 979,
+                        "hp": 7941
+                  },
+                  {
+                        "att": 2722,
+                        "def": 981,
+                        "hp": 7959
+                  },
+                  {
+                        "att": 2728,
+                        "def": 984,
+                        "hp": 7977
+                  },
+                  {
+                        "att": 2735,
+                        "def": 986,
+                        "hp": 7995
+                  },
+                  {
+                        "att": 2741,
+                        "def": 988,
+                        "hp": 8013
+                  }
+            ]
+      }
+}

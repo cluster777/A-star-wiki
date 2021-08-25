@@ -12,7 +12,7 @@
           <img class="icon" 
             :src=element_main_image v-bind:alt="pic"><br>
           
-          <img v-show="this.element_sub!='x'" class="icon" 
+          <img v-show="this.element_sub!='null'" class="icon" 
             :src=element_sub_image v-bind:alt="pic">
           
         </div>

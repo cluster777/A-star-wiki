@@ -1,0 +1,715 @@
+{
+      "name": "Pepi",
+      "faction": "Independent",
+      "element_main": "Fire",
+      "element_sub": "null",
+      "rarity": "3",
+      "class": "Converter",
+      "skill": {
+            "name": "",
+            "cd": "0 Turn",
+            "description": [
+                  "Moves to any tile within 1 surrounding cluster around the unit.",
+                  "Moves to any tile within 1 surrounding cluster around the unit."
+            ]
+      },
+      "equip": {
+            "name": "Delicate Feathers",
+            "passive": "Restless Grace",
+            "description": [
+                  [
+                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+                  ],
+                  [
+                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+                        "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "2",
+                              "description": "Deals 150% damage to 1 surrounding cluster."
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        },
+                        {
+                              "cost": null,
+                              "description": ""
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 200.",
+            "DEF increased by 25.",
+            "Chain Combo Enhancement: Unlocks the 2nd Chain Combo.",
+            "",
+            "",
+            ""
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Fire Crystal Shard",
+                        "Fire Essence",
+                        "Tales of Survival",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+            },
+            {
+                  "material": [
+                        "Fire Potion II",
+                        "Fire Flare Silt",
+                        "Survival 101",
+                        "Nightium"
+                  ],
+                  "type": "Keyword",
+                  "before": "",
+                  "after": ""
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 555,
+                        "def": 230,
+                        "hp": 1664
+                  },
+                  {
+                        "att": 565,
+                        "def": 234,
+                        "hp": 1686
+                  },
+                  {
+                        "att": 575,
+                        "def": 237,
+                        "hp": 1709
+                  },
+                  {
+                        "att": 584,
+                        "def": 240,
+                        "hp": 1731
+                  },
+                  {
+                        "att": 594,
+                        "def": 243,
+                        "hp": 1754
+                  },
+                  {
+                        "att": 604,
+                        "def": 246,
+                        "hp": 1776
+                  },
+                  {
+                        "att": 614,
+                        "def": 250,
+                        "hp": 1799
+                  },
+                  {
+                        "att": 624,
+                        "def": 253,
+                        "hp": 1821
+                  },
+                  {
+                        "att": 634,
+                        "def": 256,
+                        "hp": 1844
+                  },
+                  {
+                        "att": 644,
+                        "def": 259,
+                        "hp": 1867
+                  },
+                  {
+                        "att": 653,
+                        "def": 262,
+                        "hp": 1889
+                  },
+                  {
+                        "att": 663,
+                        "def": 266,
+                        "hp": 1912
+                  },
+                  {
+                        "att": 673,
+                        "def": 269,
+                        "hp": 1934
+                  },
+                  {
+                        "att": 683,
+                        "def": 272,
+                        "hp": 1957
+                  },
+                  {
+                        "att": 693,
+                        "def": 275,
+                        "hp": 1979
+                  },
+                  {
+                        "att": 703,
+                        "def": 278,
+                        "hp": 2002
+                  },
+                  {
+                        "att": 713,
+                        "def": 281,
+                        "hp": 2024
+                  },
+                  {
+                        "att": 722,
+                        "def": 285,
+                        "hp": 2047
+                  },
+                  {
+                        "att": 732,
+                        "def": 288,
+                        "hp": 2069
+                  },
+                  {
+                        "att": 742,
+                        "def": 291,
+                        "hp": 2092
+                  },
+                  {
+                        "att": 752,
+                        "def": 294,
+                        "hp": 2115
+                  },
+                  {
+                        "att": 762,
+                        "def": 297,
+                        "hp": 2137
+                  },
+                  {
+                        "att": 772,
+                        "def": 301,
+                        "hp": 2160
+                  },
+                  {
+                        "att": 782,
+                        "def": 304,
+                        "hp": 2182
+                  },
+                  {
+                        "att": 791,
+                        "def": 307,
+                        "hp": 2205
+                  },
+                  {
+                        "att": 801,
+                        "def": 310,
+                        "hp": 2227
+                  },
+                  {
+                        "att": 811,
+                        "def": 313,
+                        "hp": 2250
+                  },
+                  {
+                        "att": 821,
+                        "def": 317,
+                        "hp": 2272
+                  },
+                  {
+                        "att": 831,
+                        "def": 320,
+                        "hp": 2295
+                  },
+                  {
+                        "att": 841,
+                        "def": 323,
+                        "hp": 2317
+                  },
+                  {
+                        "att": 943,
+                        "def": 357,
+                        "hp": 2586
+                  },
+                  {
+                        "att": 955,
+                        "def": 361,
+                        "hp": 2614
+                  },
+                  {
+                        "att": 968,
+                        "def": 365,
+                        "hp": 2642
+                  },
+                  {
+                        "att": 980,
+                        "def": 369,
+                        "hp": 2670
+                  },
+                  {
+                        "att": 992,
+                        "def": 373,
+                        "hp": 2698
+                  },
+                  {
+                        "att": 1005,
+                        "def": 377,
+                        "hp": 2727
+                  },
+                  {
+                        "att": 1017,
+                        "def": 381,
+                        "hp": 2755
+                  },
+                  {
+                        "att": 1029,
+                        "def": 385,
+                        "hp": 2783
+                  },
+                  {
+                        "att": 1042,
+                        "def": 389,
+                        "hp": 2811
+                  },
+                  {
+                        "att": 1054,
+                        "def": 393,
+                        "hp": 2839
+                  },
+                  {
+                        "att": 1066,
+                        "def": 397,
+                        "hp": 2867
+                  },
+                  {
+                        "att": 1079,
+                        "def": 401,
+                        "hp": 2896
+                  },
+                  {
+                        "att": 1091,
+                        "def": 405,
+                        "hp": 2924
+                  },
+                  {
+                        "att": 1103,
+                        "def": 409,
+                        "hp": 2952
+                  },
+                  {
+                        "att": 1116,
+                        "def": 413,
+                        "hp": 2980
+                  },
+                  {
+                        "att": 1128,
+                        "def": 417,
+                        "hp": 3008
+                  },
+                  {
+                        "att": 1140,
+                        "def": 421,
+                        "hp": 3037
+                  },
+                  {
+                        "att": 1153,
+                        "def": 425,
+                        "hp": 3065
+                  },
+                  {
+                        "att": 1165,
+                        "def": 429,
+                        "hp": 3093
+                  },
+                  {
+                        "att": 1177,
+                        "def": 433,
+                        "hp": 3121
+                  },
+                  {
+                        "att": 1190,
+                        "def": 437,
+                        "hp": 3149
+                  },
+                  {
+                        "att": 1202,
+                        "def": 441,
+                        "hp": 3177
+                  },
+                  {
+                        "att": 1214,
+                        "def": 445,
+                        "hp": 3206
+                  },
+                  {
+                        "att": 1227,
+                        "def": 449,
+                        "hp": 3234
+                  },
+                  {
+                        "att": 1239,
+                        "def": 453,
+                        "hp": 3262
+                  },
+                  {
+                        "att": 1251,
+                        "def": 456,
+                        "hp": 3290
+                  },
+                  {
+                        "att": 1264,
+                        "def": 460,
+                        "hp": 3318
+                  },
+                  {
+                        "att": 1276,
+                        "def": 464,
+                        "hp": 3347
+                  },
+                  {
+                        "att": 1288,
+                        "def": 468,
+                        "hp": 3375
+                  },
+                  {
+                        "att": 1301,
+                        "def": 472,
+                        "hp": 3403
+                  },
+                  {
+                        "att": 1313,
+                        "def": 476,
+                        "hp": 3431
+                  },
+                  {
+                        "att": 1325,
+                        "def": 480,
+                        "hp": 3459
+                  },
+                  {
+                        "att": 1338,
+                        "def": 484,
+                        "hp": 3487
+                  },
+                  {
+                        "att": 1350,
+                        "def": 488,
+                        "hp": 3516
+                  },
+                  {
+                        "att": 1362,
+                        "def": 492,
+                        "hp": 3544
+                  },
+                  {
+                        "att": 1375,
+                        "def": 496,
+                        "hp": 3572
+                  },
+                  {
+                        "att": 1387,
+                        "def": 500,
+                        "hp": 3600
+                  },
+                  {
+                        "att": 1399,
+                        "def": 504,
+                        "hp": 3628
+                  },
+                  {
+                        "att": 1412,
+                        "def": 508,
+                        "hp": 3656
+                  },
+                  {
+                        "att": 1424,
+                        "def": 512,
+                        "hp": 3685
+                  },
+                  {
+                        "att": 1573,
+                        "def": 565,
+                        "hp": 4086
+                  },
+                  {
+                        "att": 1582,
+                        "def": 568,
+                        "hp": 4107
+                  },
+                  {
+                        "att": 1592,
+                        "def": 571,
+                        "hp": 4128
+                  },
+                  {
+                        "att": 1601,
+                        "def": 574,
+                        "hp": 4149
+                  },
+                  {
+                        "att": 1610,
+                        "def": 577,
+                        "hp": 4170
+                  },
+                  {
+                        "att": 1619,
+                        "def": 580,
+                        "hp": 4191
+                  },
+                  {
+                        "att": 1629,
+                        "def": 583,
+                        "hp": 4213
+                  },
+                  {
+                        "att": 1638,
+                        "def": 586,
+                        "hp": 4234
+                  },
+                  {
+                        "att": 1647,
+                        "def": 589,
+                        "hp": 4255
+                  },
+                  {
+                        "att": 1656,
+                        "def": 592,
+                        "hp": 4276
+                  },
+                  {
+                        "att": 1666,
+                        "def": 595,
+                        "hp": 4297
+                  },
+                  {
+                        "att": 1675,
+                        "def": 598,
+                        "hp": 4318
+                  },
+                  {
+                        "att": 1684,
+                        "def": 601,
+                        "hp": 4339
+                  },
+                  {
+                        "att": 1693,
+                        "def": 604,
+                        "hp": 4361
+                  },
+                  {
+                        "att": 1703,
+                        "def": 607,
+                        "hp": 4382
+                  },
+                  {
+                        "att": 1712,
+                        "def": 610,
+                        "hp": 4403
+                  },
+                  {
+                        "att": 1721,
+                        "def": 613,
+                        "hp": 4424
+                  },
+                  {
+                        "att": 1730,
+                        "def": 616,
+                        "hp": 4445
+                  },
+                  {
+                        "att": 1739,
+                        "def": 619,
+                        "hp": 4466
+                  },
+                  {
+                        "att": 1749,
+                        "def": 622,
+                        "hp": 4487
+                  },
+                  {
+                        "att": 1758,
+                        "def": 625,
+                        "hp": 4508
+                  },
+                  {
+                        "att": 1767,
+                        "def": 628,
+                        "hp": 4530
+                  },
+                  {
+                        "att": 1776,
+                        "def": 631,
+                        "hp": 4551
+                  },
+                  {
+                        "att": 1786,
+                        "def": 634,
+                        "hp": 4572
+                  },
+                  {
+                        "att": 1795,
+                        "def": 637,
+                        "hp": 4593
+                  },
+                  {
+                        "att": 1804,
+                        "def": 640,
+                        "hp": 4614
+                  },
+                  {
+                        "att": 1813,
+                        "def": 643,
+                        "hp": 4635
+                  },
+                  {
+                        "att": 1823,
+                        "def": 646,
+                        "hp": 4656
+                  },
+                  {
+                        "att": 1832,
+                        "def": 649,
+                        "hp": 4678
+                  },
+                  {
+                        "att": 1841,
+                        "def": 652,
+                        "hp": 4699
+                  },
+                  {
+                        "att": 1850,
+                        "def": 655,
+                        "hp": 4720
+                  },
+                  {
+                        "att": 1860,
+                        "def": 658,
+                        "hp": 4741
+                  },
+                  {
+                        "att": 1869,
+                        "def": 661,
+                        "hp": 4762
+                  },
+                  {
+                        "att": 1878,
+                        "def": 664,
+                        "hp": 4783
+                  },
+                  {
+                        "att": 1887,
+                        "def": 667,
+                        "hp": 4804
+                  },
+                  {
+                        "att": 1897,
+                        "def": 670,
+                        "hp": 4826
+                  },
+                  {
+                        "att": 1906,
+                        "def": 673,
+                        "hp": 4847
+                  },
+                  {
+                        "att": 1915,
+                        "def": 676,
+                        "hp": 4868
+                  },
+                  {
+                        "att": 1924,
+                        "def": 679,
+                        "hp": 4889
+                  },
+                  {
+                        "att": 1934,
+                        "def": 682,
+                        "hp": 4910
+                  },
+                  {
+                        "att": 1943,
+                        "def": 685,
+                        "hp": 4931
+                  },
+                  {
+                        "att": 1952,
+                        "def": 688,
+                        "hp": 4952
+                  },
+                  {
+                        "att": 1961,
+                        "def": 691,
+                        "hp": 4973
+                  },
+                  {
+                        "att": 1971,
+                        "def": 694,
+                        "hp": 4995
+                  },
+                  {
+                        "att": 1980,
+                        "def": 697,
+                        "hp": 5016
+                  },
+                  {
+                        "att": 1989,
+                        "def": 700,
+                        "hp": 5037
+                  },
+                  {
+                        "att": 1998,
+                        "def": 703,
+                        "hp": 5058
+                  },
+                  {
+                        "att": 2008,
+                        "def": 706,
+                        "hp": 5079
+                  },
+                  {
+                        "att": 2017,
+                        "def": 709,
+                        "hp": 5100
+                  },
+                  {
+                        "att": 2026,
+                        "def": 712,
+                        "hp": 5121
+                  }
+            ]
+      }
+}
