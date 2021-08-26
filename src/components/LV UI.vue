@@ -74,7 +74,7 @@ export default {
   name: 'LV',
   data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-    //console.log('@/assets/json/'+chardata.rarity+'equip.json')
+    console.log(chardata)
     return {
       base_stat:chardata.base_stat.stat,
       equipment:chardata.equipment,
@@ -83,7 +83,7 @@ export default {
       ascensionVal: 0,
       trust:1,
       sliderVal: 1,
-      sliderMax: 40,
+      sliderMax: 30,
       equiplv:0,
       equipatt:0,
       equipdef:0,
@@ -97,61 +97,55 @@ export default {
   },
   computed:{
     totalatt(){
-      var stat_min=this.base_stat[this.ascensionVal*2+0]
-      var stat_max=this.base_stat[this.ascensionVal*2+1]
-      var ascension_gap=80
-      if(this.ascensionVal==0){
-            ascension_gap=40
+      var ascension_gap=0
+        if(Number(this.ascensionVal)==0){
+              ascension_gap=0
         }
-        else if(this.ascensionVal==1){
-            ascension_gap=50
+        else if(Number(this.ascensionVal)==1){
+              ascension_gap=30
         }
-        else if(this.ascensionVal==2){
-            ascension_gap=60
+        else if(Number(this.ascensionVal)==2){
+              ascension_gap=70
         }
         else {
-            ascension_gap=80
+              ascension_gap=120
         }
-      
-      return (stat_min.att+ Math.floor((stat_max.att-stat_min.att)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].att+ this.equipatt
-    },
+
+        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].att+ this.trust_stat[this.trust-1].att+ this.equipatt
+      },
     totaldef(){
-      var stat_min=this.base_stat[this.ascensionVal*2+0]
-      var stat_max=this.base_stat[this.ascensionVal*2+1]
-      var ascension_gap=80
-      if(this.ascensionVal==0){
-            ascension_gap=40
+        var ascension_gap=0
+        if(Number(this.ascensionVal)==0){
+              ascension_gap=0
         }
-        else if(this.ascensionVal==1){
-            ascension_gap=50
+        else if(Number(this.ascensionVal)==1){
+              ascension_gap=30
         }
-        else if(this.ascensionVal==2){
-            ascension_gap=60
+        else if(Number(this.ascensionVal)==2){
+              ascension_gap=70
         }
         else {
-            ascension_gap=80
+              ascension_gap=120
         }
-      
-      return (stat_min.def+ Math.floor((stat_max.def-stat_min.def)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].def+ this.equipdef
-    },
+
+        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].def+ this.trust_stat[this.trust-1].def+ this.equipdef
+      },
     totalhp(){
-      var stat_min=this.base_stat[this.ascensionVal*2+0]
-      var stat_max=this.base_stat[this.ascensionVal*2+1]
-      var ascension_gap=80
-      if(this.ascensionVal==0){
-            ascension_gap=40
+      var ascension_gap=0
+      if(Number(this.ascensionVal)==0){
+            ascension_gap=0
         }
-        else if(this.ascensionVal==1){
-            ascension_gap=50
+        else if(Number(this.ascensionVal)==1){
+            ascension_gap=30
         }
-        else if(this.ascensionVal==2){
-            ascension_gap=60
+        else if(Number(this.ascensionVal)==2){
+            ascension_gap=70
         }
         else {
-            ascension_gap=80
+            ascension_gap=120
         }
-      
-      return (stat_min.hp+ Math.floor((stat_max.hp-stat_min.hp)*this.sliderVal/ascension_gap))+ this.trust_stat[this.trust-1].hp+ this.equiphp
+
+      return this.base_stat[ascension_gap+Number(this.sliderVal)-1].hp+ this.trust_stat[this.trust-1].hp+ this.equiphp
     }
   },
   methods: {
@@ -191,17 +185,18 @@ export default {
           console.log("show equipment UI")
           this.equip=true;
         }
+        this.sliderVal=1;
         this.ascensionVal=value;
         console.log(value)
-        this.sliderVal=1;
+        
         if(value==0){
-            this.sliderMax=40
+            this.sliderMax=30
         }
         else if(value==1){
-            this.sliderMax=50
+            this.sliderMax=40
         }
         else if(value==2){
-            this.sliderMax=60
+            this.sliderMax=50
         }
         else {
             this.sliderMax=80

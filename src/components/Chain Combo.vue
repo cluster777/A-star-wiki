@@ -33,7 +33,7 @@ export default {
    data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
-      name:chardata.chain.name,
+      name:"placeholder",//chardata.chain.name,
       detail:chardata.chain.detail[0],
       //AoE:chardata.chain.detail.AoE,
       description:chardata.chain.detail[0][0].description //should be require(@/assets/universal/AoEname.png)
@@ -67,6 +67,10 @@ export default {
   background-color: rgb(48, 44, 44);;
   margin-bottom: 10px;
   width: 99%;
+}
+hr{
+  margin-top: 2px;
+  margin-bottom:5px;
 }
 h4{
   margin:0;

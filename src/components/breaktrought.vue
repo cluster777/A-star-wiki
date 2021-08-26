@@ -2,7 +2,7 @@
   <div class="container"> 
     <h4>Breaktrought</h4>
     <hr>
-    <ul v-for="item in breaktrought.description" :key="item">
+    <ul v-for="item in breaktrought" :key="item">
       <li>{{item}}</li>
 
     </ul>
