@@ -51,7 +51,8 @@ export default {
   margin-left: 10px;
 }
 .image{
-  width:100%
+  width:100%;
+  height:100vh
 }
 .icon{
   position: absolute;

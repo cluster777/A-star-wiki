@@ -24,8 +24,10 @@ Header{
 }
 html, body, #app {
   height: 100%;
-  width: 98%;
+  width: 100%;
   margin: 0;
+  overflow: auto;
+  overflow-x: hidden;
 }
 body {
   background-color: rgb(83, 78, 78);

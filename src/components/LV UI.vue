@@ -75,21 +75,32 @@ export default {
   data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     console.log(chardata)
+    var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false
+    if(chardata.faction=="silent hunter"){
+      sm=80
+      elv=1
+      ett=30
+      edf=10
+      ehp=50
+      asc=3
+      eq=true
+    }
     return {
       base_stat:chardata.base_stat.stat,
+      faction:chardata.faction,
       equipment:chardata.equipment,
       equip_stat:require('@/assets/json/'+chardata.rarity+'equip.json'),
       trust_stat:require('@/assets/json/'+'trust.json'),
-      ascensionVal: 0,
+      ascensionVal: asc,
       trust:1,
       sliderVal: 1,
-      sliderMax: 30,
-      equiplv:0,
-      equipatt:0,
-      equipdef:0,
-      equiphp:0,
-      equipmult:0,
-      equip:false
+      sliderMax: sm,
+      equiplv:elv,
+      equipatt:ett,
+      equipdef:edf,
+      equiphp:ehp,
+      //equipmult:0,
+      equip:eq
     }
   },
   props: {
@@ -98,7 +109,8 @@ export default {
   computed:{
     totalatt(){
       var ascension_gap=0
-        if(Number(this.ascensionVal)==0){
+        if(this.faction=='silent hunter') ascension_gap=0
+        else if(Number(this.ascensionVal)==0){
               ascension_gap=0
         }
         else if(Number(this.ascensionVal)==1){
@@ -111,11 +123,12 @@ export default {
               ascension_gap=120
         }
 
-        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].att+ this.trust_stat[this.trust-1].att+ this.equipatt
+        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].att+ this.trust_stat[this.trust-1].att+ this.equipatt-65
       },
     totaldef(){
         var ascension_gap=0
-        if(Number(this.ascensionVal)==0){
+        if(this.faction=='silent hunter') ascension_gap=0
+        else if(Number(this.ascensionVal)==0){
               ascension_gap=0
         }
         else if(Number(this.ascensionVal)==1){
@@ -128,24 +141,25 @@ export default {
               ascension_gap=120
         }
 
-        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].def+ this.trust_stat[this.trust-1].def+ this.equipdef
+        return this.base_stat[ascension_gap+Number(this.sliderVal)-1].def+ this.trust_stat[this.trust-1].def+ this.equipdef-30
       },
     totalhp(){
       var ascension_gap=0
-      if(Number(this.ascensionVal)==0){
-            ascension_gap=0
-        }
-        else if(Number(this.ascensionVal)==1){
-            ascension_gap=30
-        }
-        else if(Number(this.ascensionVal)==2){
-            ascension_gap=70
-        }
-        else {
-            ascension_gap=120
-        }
+      if(this.faction=='silent hunter') ascension_gap=0
+      else if(Number(this.ascensionVal)==0){
+          ascension_gap=0
+      }
+      else if(Number(this.ascensionVal)==1){
+          ascension_gap=30
+      }
+      else if(Number(this.ascensionVal)==2){
+          ascension_gap=70
+      }
+      else {
+          ascension_gap=120
+      }
 
-      return this.base_stat[ascension_gap+Number(this.sliderVal)-1].hp+ this.trust_stat[this.trust-1].hp+ this.equiphp
+      return this.base_stat[ascension_gap+Number(this.sliderVal)-1].hp+ this.trust_stat[this.trust-1].hp+ this.equiphp-300
     }
   },
   methods: {
@@ -170,6 +184,7 @@ export default {
 
     },
     OnAscensionChange(value){
+        if(this.faction=='silent hunter')return
         if(this.ascensionVal!=0){
           if(value==0){
             this.equiplv=0;
@@ -225,7 +240,7 @@ export default {
 }
 .container{
   background-color: rgb(48, 44, 44);
-  
+  margin-bottom: 10px;
   width: 99%;
 }
 .contentx{

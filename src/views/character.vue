@@ -69,10 +69,12 @@ export default {
 .sidebar{
   float:right;
   width:30%;
-  height:50%;
+  height:100vh;
   margin-top:0px;
-  margin-right:10px;
-  padding:10px;
+  margin-right:0px;
+  padding:0;
+  overflow:scroll;
+  overflow-x:hidden;
 }
 .clearfix::after {
   content: "";
@@ -83,10 +85,12 @@ export default {
   .sidebar{
   float:left;
   width:98%;
-  height:50%;
+  height:auto;
   margin-top:0px;
-  margin-right:30px;
+  margin-right:0px;
+  margin-left: 15px;
   padding:10px;
+  overflow:visible;
   }
 }
 </style>

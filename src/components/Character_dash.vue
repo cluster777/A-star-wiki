@@ -2,7 +2,7 @@
   <div class="containerz"> 
     <h2>{{chardata.name}}</h2>
     <hr>
-    <img class="faction-icon" :src=charfaction />
+    <img v-show="this.faction!='silent hunter'" class="faction-icon" :src=charfaction />
 
     <img class="class-icon" :src=charclass>
     <div class="content-description">
@@ -31,6 +31,7 @@ export default {
     return {
       description:"first",
       chardata,
+      faction:chardata.faction,
       charfaction:require('@/assets/universal/' + chardata.faction + '.png'),
       charclass:require('@/assets/universal/type_' + chardata.class + '.png'),
 
