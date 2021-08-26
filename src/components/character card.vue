@@ -107,14 +107,14 @@ hr{
   background-color: darkgray;
 }
 .icon{
-  width:20px;
-  height:20px;
+  width:15px;
+  height:15px;
   background-color: black;
 }
 .mainchar{
   position: absolute;
-  width:80px;
-  height:80px;
+  width:60px;
+  height:60px;
   padding:5px;
   z-index:2;
 }
@@ -133,11 +133,14 @@ hr{
   z-index: 10;
 }
 .bottom-detail{
-  margin-top: 88px;
+  margin-top: 65px;
+  height: 30px;
   bottom: 0;
   left:0;
   right:0;
   text-align: center;
   padding-bottom: 5px ;
+  overflow: hidden;
 }
+
 </style>

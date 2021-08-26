@@ -20,19 +20,21 @@
         </div>
 
       </div>
-      <div v-for="field in CharacterData" :key="field" class="grid-container">
-        <!--all char goes here with v-for char-->
-        <div class="grid-item">
-          <CharCard v-bind="options"
-            :char_name=field.char_name 
-            :element_main=field.element_main
-            :element_sub=field.element_sub
-            :faction=field.faction
-            :class=field.class
-            :char_rarity=field.char_rarity
-            v-on:click="goto(field.char_name)"
-            
-          />
+      <div class="grid-container">
+        <div v-for="field in CharacterData" :key="field" class="grid-item">
+          <!--all char goes here with v-for char-->
+          <div >
+            <CharCard v-bind="options"
+              :char_name=field.char_name 
+              :element_main=field.element_main
+              :element_sub=field.element_sub
+              :faction=field.faction
+              :class=field.class
+              :char_rarity=field.char_rarity
+              v-on:click="goto(field.char_name)"
+              
+            />
+          </div>
         </div>
       </div>
       <div class="clearfix"></div>
@@ -92,12 +94,19 @@ export default {
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
  /* Add a pointer on hover */
 }
-
+.grid-container{
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(83, 78, 78);
+  padding-bottom: 20px;
+}
 .grid-item{
-  float:left;
-  height:150px;
-  width:90px;
-  padding: 10px;
+  height:95px;
+  width:70px;
+  padding: 8px;
   background-color: rgb(83, 78, 78);
 }
 .filterbox{
@@ -116,6 +125,7 @@ export default {
 }
 .headclose{
   padding-bottom:20px;
+  
 }
 .button-close{
   background-color: rgb(83, 78, 78);

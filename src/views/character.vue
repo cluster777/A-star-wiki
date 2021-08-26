@@ -38,7 +38,7 @@ export default {
       console.log(route.params.name)
       this.$emit('onCharnameChange',route.params.name)
       //this.$state.chardata=require{'@/assets/json/'+charname+'.json'}
-      return route.params.name
+      return route.params.name.toLowerCase()
     }
     
   },
