@@ -3,11 +3,17 @@
     <!-- and image container -->
 
         <!--rank select-->
-    <div v-for="i in 4" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
+    <div v-for="i in 3" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
         <input type=button v-bind="options"
         :value=i-1
         v-on:click="OnAscensionChange(i-1)"/>
+    </div>
+    <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
+        
+        <input type=button v-bind="options"
+        :value=3
+        v-on:click="OnAscensionChange(3)"/>
     </div>
     <div class=clearfix />
     <div>
@@ -84,10 +90,12 @@ export default {
       ehp=50
       asc=3
       eq=true
+      //silent hunter equip is different need fix
     }
 
     return {
       base_stat:chardata.base_stat.stat,
+      rarity:Number(chardata.rarity),
       faction:chardata.faction,
       equipment:chardata.equipment,
       equip_stat:require('@/assets/json/'+chardata.rarity+'equip.json'),

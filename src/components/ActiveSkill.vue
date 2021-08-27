@@ -1,7 +1,13 @@
 <template>
   
   <div class="container">
-    
+    <div v-for="i in [1,2,3]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
+        
+        <input type=button v-bind="options"
+        :value=i
+        v-on:click="OnAscensionChange(i-1)"/>
+    </div>
+    <div class="clearfix" />
     <div class="content">
       {{name}} <div class=cd>CD:{{CD}}</div><hr>
       <div class="description">
@@ -28,9 +34,16 @@ export default {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
       name:"placeholder",
+      detail:chardata.skill.description,
       ActiveDescription:chardata.skill.description[0],
       CD:chardata.skill.cd
       //AoE:chardata.skill.AoE //should be require(@/assets/universal/AoEname.png)
+    }
+   },
+   methods:{
+     OnAscensionChange(asc){
+      this.ActiveDescription=this.detail[asc]
+
     }
    }
 }
@@ -60,6 +73,19 @@ export default {
   padding: 0px;
   background-color: red;
   height:1px;
+}
+.ascension{
+  width:50%;
+  height:10%;
+  background-color: aqua;
+}
+.ascension input{
+  float:left
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .AoE{
   float:right;

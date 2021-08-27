@@ -4,8 +4,14 @@
     <div v-for="i in 3" :key="i" class="Chain">
         
         <input type=button v-bind="options"
-        :value=detail[i-1].cost
+        :value=detail[0][i-1].cost
         v-on:click="OnChainChange(i)"/>
+    </div>
+    <div v-for="i in [3,2,1]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
+        
+        <input type=button v-bind="options"
+        :value=i
+        v-on:click="OnAscensionChange(i-1)"/>
     </div>
     <div class=clearfix />
     <div class="content">
@@ -16,7 +22,7 @@
           {{description}}
         </div>
         <div class="AoE">
-          <img :src="'/universal/type_Detonator.png'" class="image"/>
+          <img :src="require('@/assets/universal/type_' + 'Detonator' + '.png')" class="image"/>
         </div>
         <div class=clearfix />
     </div>
@@ -33,21 +39,24 @@ export default {
    data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
-      name:"placeholder",//chardata.chain.name,
-      detail:chardata.chain.detail[0],
+      faction:chardata.faction,
+      name:"placeholder",
+      detail:chardata.chain.detail,
       //AoE:chardata.chain.detail.AoE,
-      description:chardata.chain.detail[0][0].description //should be require(@/assets/universal/AoEname.png)
+      description:chardata.chain.detail[0][0].description,
+      val:0,
+      ascension:0
     }
    },
   methods:{
     OnChainChange(value){
-      if(value==1){
-        this.description=this.detail[0].description
-      }
-      else if(value==2){
-        this.description=this.detail[1].description
-      }
-      else this.description=this.detail[2].description
+      this.val=value
+      this.description=this.detail[this.ascension][value].description
+    },
+    OnAscensionChange(asc){
+      this.ascension=asc
+      this.description=this.detail[asc][this.val].description
+
     }
   }
 }
@@ -62,6 +71,14 @@ export default {
 }
 .Chain input{
   float:left;
+}
+.ascension{
+  width:50%;
+  height:10%;
+  background-color: aqua;
+}
+.ascension input{
+  float:right
 }
 .container{
   background-color: rgb(48, 44, 44);;
