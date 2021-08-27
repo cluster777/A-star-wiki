@@ -3,7 +3,7 @@
     <!-- and image container -->
 
         <!--rank select-->
-    <div v-for="i in 4" :key="i" class="ascension">
+    <div v-for="i in 4" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
         <input type=button v-bind="options"
         :value=i-1
@@ -85,6 +85,7 @@ export default {
       asc=3
       eq=true
     }
+
     return {
       base_stat:chardata.base_stat.stat,
       faction:chardata.faction,

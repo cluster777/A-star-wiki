@@ -11,7 +11,7 @@
     <ActiveSkill :CharacterName=charname :key=charname />
     
     <chain-combo :CharacterName=charname :key=charname />
-    
+    <equipment :CharacterName=charname :key=charname />
     <LV :CharacterName=charname :key=charname />
   </div>
   <div class="clearfix"></div>
@@ -27,6 +27,7 @@ import ActiveSkill from '../components/ActiveSkill.vue'
 import CharSelector from '../components/character selector.vue'
 import Characterdash from '../components/Character_dash.vue'
 import CharacterImage from '../components/character image.vue'
+import equipment from '../components/equipment.vue'
 import { useRoute } from 'vue-router';
 export default {
   name: 'character',
@@ -55,7 +56,8 @@ export default {
     ChainCombo,
     CharSelector,
     Characterdash,
-    ActiveSkill
+    ActiveSkill,
+    equipment
   },
   methods:{
     ActiveChange(){
