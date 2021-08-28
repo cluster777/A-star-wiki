@@ -7,11 +7,17 @@
         :value=i
         v-on:click="OnChainChange(i-1)"/>
     </div>
-    <div v-for="i in [3,2,1]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
+    <div v-for="i in [0,1,2]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
-        <input type=button v-bind="options"
-        :value=i
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"/>
+    </div>
+    <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
+        
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + 3 + '.png')"
+        v-on:click="OnAscensionChange(3)"/>
     </div>
     <div class=clearfix />
     <div class="content">
@@ -38,6 +44,7 @@ export default {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     console.log(chardata.equip.description)
     return{
+      rarity:Number(chardata.rarity),
       faction:chardata.faction,
       name:chardata.equip.name,
       passive:chardata.equip.passive,
@@ -70,12 +77,17 @@ export default {
   background-color: aqua;
 }
 .ascension{
-  width:50%;
+  width:100%;
   height:10%;
-  background-color: aqua;
+  background-color: rgb(48, 44, 44);
 }
-.ascension input{
-  float:right
+.ascension img{
+  width: 30px;
+  height: 20px;
+  margin-left:10px;
+  float:left;
+  border-style: solid;
+  border-width: 1px;
 }
 .Chain input{
   float:left;

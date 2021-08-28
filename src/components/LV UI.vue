@@ -3,16 +3,16 @@
     <!-- and image container -->
 
         <!--rank select-->
-    <div v-for="i in 3" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
+    <div v-for="i in [0,1,2]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
-        <input type=button v-bind="options"
-        :value=i-1
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"/>
     </div>
     <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
         
-        <input type=button v-bind="options"
-        :value=3
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(3)"/>
     </div>
     <div class=clearfix />
@@ -237,10 +237,15 @@ export default {
 .ascension{
   width:100%;
   height:10%;
-  background-color: aqua;
+  background-color: rgb(48, 44, 44);
 }
-.ascension input{
+.ascension img{
+  width: 30px;
+  height: 20px;
+  margin-left:10px;
   float:left;
+  border-style: solid;
+  border-width: 1px;
 }
 .slidecontainer {
   padding-left: 20px;
