@@ -5,21 +5,21 @@
         
         <input type=button v-bind="options"
         :value=detail[0][i-1].cost
-        v-on:click="OnChainChange(i)"/>
+        v-on:click="OnChainChange(i-1)"/>
     </div>
     <div v-for="i in [1,2]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
-        v-show="i==1 || this.ascensiondesc[i-1].type=='Chain Combo'" />
+        v-show="i==1 || selectorstate(i-1)" />
     </div>
     <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
-        v-show="this.rarity>3 &&( this.ascensiondesc[2].type=='Chain Combo')"/>
+        v-show="selectorstate(2)"/>
     </div>
     <div class=clearfix />
     <div class="content">
@@ -67,6 +67,11 @@ export default {
       this.ascension=asc
       this.description=this.detail[asc][this.val].description
 
+    },
+    selectorstate(i){
+      if (this.faction=='silent hunter' && this.rarity==3) return false
+      else if(typeof this.ascensiondesc[i] !== 'undefined' &&( this.ascensiondesc[i].type=='Chain Combo')) return true
+      return false
     }
   }
 }

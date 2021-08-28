@@ -6,14 +6,14 @@
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
-        v-show="i==1 || this.ascensiondesc[i-1].type=='Active Skill'" />
+        v-show="i==1 || selectorstate(i-1)" />
     </div>
     <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
-        v-show="this.rarity>3 &&( this.ascensiondesc[2].type=='Active Skill')" />
+        v-show="selectorstate(2)" />
     </div>
     <div class="clearfix" />
     <div class="content">
@@ -54,7 +54,11 @@ export default {
    methods:{
      OnAscensionChange(asc){
       this.ActiveDescription=this.detail[asc]
-
+    },
+    selectorstate(i){
+      if (this.faction=='silent hunter' && this.rarity==3) return false
+      else if(typeof this.ascensiondesc[i] !== 'undefined' &&( this.ascensiondesc[i].type=='Active Skill')) return true
+      else return false
     }
    }
 }
