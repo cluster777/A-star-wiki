@@ -11,13 +11,15 @@
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
-        v-on:click="OnAscensionChange(i-1)"/>
+        v-on:click="OnAscensionChange(i-1)"
+        v-show="i==1 || this.ascensiondesc[i-1].type=='Chain Combo'" />
     </div>
-    <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
+    <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
-        v-on:click="OnAscensionChange(3)"/>
+        v-on:click="OnAscensionChange(2)"
+        v-show="this.rarity>3 &&( this.ascensiondesc[2].type=='Chain Combo')"/>
     </div>
     <div class=clearfix />
     <div class="content">
@@ -45,6 +47,7 @@ export default {
    data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
+      ascensiondesc:chardata.ascension,
       rarity:Number(chardata.rarity),
       faction:chardata.faction,
       name:"placeholder",
