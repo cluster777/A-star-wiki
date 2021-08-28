@@ -7,7 +7,7 @@
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
-        v-on:click="OnAscensionChange(i-1)"/>
+        v-on:click="OnAscensionChange(i)"/>
     </div>
     <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
         
