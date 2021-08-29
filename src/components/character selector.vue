@@ -67,11 +67,41 @@ export default {
   name: 'CharSelector',
   data: function() {
     return{
-      CharacterData:require('@/assets/json/charlist.json')
+      CharacterData:require('@/assets/json/charlist.json'),
+      rarity:[false,false,false,false],
+      ele_main:[false,false,false,false],
+      ele_sub:[false,false,false,false],
+      faction:[false,false,false,false,false,false,false,false],
     }
   },
   components:{
     CharCard
+  },
+  computed:{
+    rare(){
+      for (let i=0;i<4;i++){
+        if (this.rarity[i])return true 
+      }
+      return false
+    },
+    eMain(){
+      for (let i=0;i<4;i++){
+        if (this.ele_main[i])return true 
+      }
+      return false
+    },
+    eSub(){
+      for (let i=0;i<4;i++){
+        if (this.ele_sub[i])return true
+      } 
+      return false
+    },
+    fact(){
+      for (let i=0;i<8;i++){
+        if (this.faction[i])return true 
+      }
+      return false
+    }
   },
   methods:{
     getParent(name){
@@ -86,8 +116,81 @@ export default {
       return false;
     },
     filter(dat){
-      console.log(dat.char_name)
-      return true
+      var r,f,m,s
+
+      if(this.rare) r=this.rarity[Number(dat.rarity)-3]
+      else r=true
+      if(this.eMain){
+        switch(dat.element_main){
+          case "Fire":
+            m=this.ele_main[0]
+            break;
+          case "Water":
+            m=this.ele_main[1]
+            break;
+          case "Thunder":
+            m=this.ele_main[2]
+            break;
+          case "Forest":
+            m=this.ele_main[3]
+            break;
+          default:
+            m=false
+        }
+      }
+      else m=true
+      if(this.eSub){
+        switch(dat.element_sub){
+          case "Fire":
+            s=this.ele_sub[0]
+            break;
+          case "Water":
+            s=this.ele_sub[1]
+            break;
+          case "Thunder":
+            s=this.ele_sub[2]
+            break;
+          case "Forest":
+            s=this.ele_sub[3]
+            break;
+          default:
+            s=false
+        }
+      }
+      else s=true
+      if(this.fact){
+        switch(dat.faction){
+          case "Illumina Federation":    
+            f=this.faction[0]
+            break;
+          case "Lumopolis":
+            f=this.faction[1]
+            break;
+          case "Umbraton":
+            f=this.faction[2]
+            break;
+          case "True Order":
+            f=this.faction[3]
+            break;
+          case "Northland":
+            f=this.faction[4]
+            break;
+          case "Rediesel Wrench":
+            f=this.faction[5]
+            break;
+          case "Independent":
+            f=this.faction[6]
+            break;
+          case "silent hunter":
+            f=this.faction[7]
+            break;
+          default:
+            f=false
+        }
+      }
+      else f=true
+      
+      return (r && f && m && s)
     },
     goto(name){
 
