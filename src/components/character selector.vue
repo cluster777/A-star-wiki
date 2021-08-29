@@ -11,7 +11,9 @@
           <div v-for="rare in [3,4,5,6]" :key=rare class="raritySelect">
             
             <img :src="require('@/assets/universal/'+rare+'star.png')"
-              class=/>
+              :class="{active :this.filter_rarity==rare}"
+              v-on:click="rarityChange(rare)"
+              />
           </div>
         </div>
         <div class="clearfix" />
@@ -19,12 +21,16 @@
           <p>element main</p>
           <div v-for="ele in ['Fire','Water','Thunder','Forest']" :key=ele class="elementSelect">
             <img :src="require('@/assets/universal/'+ele+'.png')"
-              class=/>
+              :class="{active :this.filter_main==ele}"
+              v-on:click="eleMainChange(ele)"
+              />
           </div>
           <p>element sub</p>
           <div v-for="ele in ['Fire','Water','Thunder','Forest']" :key=ele class="elementSelect">
             <img :src="require('@/assets/universal/'+ele+'.png')"
-              class=/>
+              :class="{active :this.filter_sub==ele}"
+              v-on:click="eleSubChange(ele)"
+              />
           </div>
         </div>
         <div class="clearfix" />
@@ -32,7 +38,9 @@
           <p>faction</p>
           <div v-for="fact in ['Illumina Federation','Lumopolis','Umbraton','True Order','Northland','Rediesel Wrench','Independent','silent hunter']" :key=fact class="factionSelect">
             <img :src="require('@/assets/universal/'+fact+'.png')"
-              class=/>
+              :class="{active :this.filter_faction==fact}"
+              v-on:click="factionChange(fact)"
+            />
           </div>
         </div>
         <div class="clearfix" />
@@ -49,7 +57,6 @@
               :class=field.class
               :char_rarity=field.char_rarity
               v-on:click="goto(field.char_name)"
-              v-show="filter(field)"
               
             />
           </div>
@@ -67,7 +74,12 @@ export default {
   name: 'CharSelector',
   data: function() {
     return{
-      CharacterData:require('@/assets/json/charlist.json')
+      char_all:require('@/assets/json/charlist.json'),
+      CharacterData:require('@/assets/json/charlist.json'),
+      filter_main:'',
+      filter_sub:'',
+      filter_faction:'',
+      filter_rarity:''
     }
   },
   components:{
@@ -85,9 +97,41 @@ export default {
       }
       return false;
     },
-    filter(dat){
-      console.log(dat.char_name)
-      return true
+    filter(){
+      var dat=this.char_all
+      if(this.filter_faction!='')dat=dat.filter(char => char.faction==this.filter_faction)
+      if(this.filter_sub!='')dat=dat.filter(char => char.element_sub==this.filter_sub)
+      if(this.filter_main!='')dat=dat.filter(char => char.element_main==this.filter_main)
+      if(this.filter_rarity!='')dat=dat.filter(char => char.char_rarity==this.filter_rarity)
+      this.CharacterData=dat
+    },
+    eleMainChange(ele){
+      if(this.filter_main==ele){
+        this.filter_main=''
+      }
+      else this.filter_main=ele
+      this.filter()
+    },
+    eleSubChange(ele){
+      if(this.filter_sub==ele){
+        this.filter_sub=''
+      }
+      else this.filter_sub=ele
+      this.filter()
+    },
+    factionChange(ele){
+      if(this.filter_faction==ele){
+        this.filter_faction=''
+      }
+      else this.filter_faction=ele
+      this.filter()
+    },
+    rarityChange(ele){
+      if(this.filter_rarity==ele){
+        this.filter_rarity=''
+      }
+      else this.filter_rarity=ele
+      this.filter()
     },
     goto(name){
 
@@ -193,6 +237,9 @@ export default {
   clear: both;
   display: table;
 }
+.active{
+    background-color: rgb(208, 255, 0);
+  }
 @media only screen and (max-width: 900px) {
   .middle-box{
   position: relative;
@@ -232,5 +279,6 @@ export default {
   margin:5px;
   margin-top:10px;
   }
+  
 }
 </style>
