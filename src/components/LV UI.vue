@@ -80,7 +80,7 @@ export default {
   name: 'LV',
   data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-    console.log(chardata)
+
     var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false
     if(chardata.faction=="silent hunter"){
       sm=80

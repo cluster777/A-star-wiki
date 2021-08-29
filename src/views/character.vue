@@ -89,9 +89,9 @@ export default {
   width:98%;
   height:auto;
   margin-top:0px;
-  margin-right:0px;
-  margin-left: 15px;
-  padding:10px;
+  margin-right:auto;
+  margin-left: 5px;
+  padding:0px;
   overflow:visible;
   }
 }

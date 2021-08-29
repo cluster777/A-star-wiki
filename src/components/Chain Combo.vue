@@ -86,6 +86,9 @@ export default {
 }
 .Chain input{
   float:left;
+  width: 30px;
+  height: 20px;
+  margin-left:10px;
 }
 .ascension{
   width:100%;

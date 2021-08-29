@@ -142,5 +142,43 @@ hr{
   padding-bottom: 5px ;
   overflow: hidden;
 }
+@media only screen and (max-width: 900px) {
+  .icon{
+  width:12px;
+  height:12px;
+  background-color: black;
+}
+.mainchar{
+  position: absolute;
+  width:40px;
+  height:40px;
+  padding:3px;
+  z-index:2;
+}
+.element{
+  position:absolute;
+  top:2px;
+  left:5px;
 
+  z-index: 10;
+}
+.detail{
+  position: absolute;
+
+  right:5px;
+  top:2px;
+
+  z-index: 10;
+}
+.bottom-detail{
+  margin-top: 40px;
+  height: 30px;
+  bottom: 0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding-bottom: 5px ;
+  overflow: hidden;
+}
+}
 </style>

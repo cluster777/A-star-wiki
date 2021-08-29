@@ -6,19 +6,36 @@
       </div>
       <div>
         <!--filter goes here-->
-        <div class=filterbox>
-          rarity
-          <div></div>
+        <div class=filterbox >
+          <p >rarity</p>
+          <div v-for="rare in [3,4,5,6]" :key=rare class="raritySelect">
+            
+            <img :src="require('@/assets/universal/'+rare+'star.png')"
+              class=/>
+          </div>
         </div>
+        <div class="clearfix" />
         <div class=filterbox>
-          element_main
-          <div></div>
+          <p>element main</p>
+          <div v-for="ele in ['Fire','Water','Thunder','Forest']" :key=ele class="elementSelect">
+            <img :src="require('@/assets/universal/'+ele+'.png')"
+              class=/>
+          </div>
+          <p>element sub</p>
+          <div v-for="ele in ['Fire','Water','Thunder','Forest']" :key=ele class="elementSelect">
+            <img :src="require('@/assets/universal/'+ele+'.png')"
+              class=/>
+          </div>
         </div>
+        <div class="clearfix" />
         <div class=filterbox>
-          faction
-          <div></div>
+          <p>faction</p>
+          <div v-for="fact in ['Illumina Federation','Lumopolis','Umbraton','True Order','Northland','Rediesel Wrench','Independent','silent hunter']" :key=fact class="factionSelect">
+            <img :src="require('@/assets/universal/'+fact+'.png')"
+              class=/>
+          </div>
         </div>
-
+        <div class="clearfix" />
       </div>
       <div class="grid-container">
         <div v-for="field in CharacterData" :key="field" class="grid-item">
@@ -32,6 +49,7 @@
               :class=field.class
               :char_rarity=field.char_rarity
               v-on:click="goto(field.char_name)"
+              v-show="filter(field)"
               
             />
           </div>
@@ -66,6 +84,10 @@ export default {
         }
       }
       return false;
+    },
+    filter(dat){
+      console.log(dat.char_name)
+      return true
     },
     goto(name){
 
@@ -103,6 +125,37 @@ export default {
   background-color: rgb(83, 78, 78);
   padding-bottom: 20px;
 }
+.raritySelect img{
+  margin-top: 5px;
+  height:20px;
+  float:left;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 5px;
+}
+.elementSelect img{
+  margin-top: 5px;
+  height:20px;
+  width:20px;
+  float:left;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 5px;
+}
+.factionSelect img{
+  height:30px;
+  width:30px;
+  float:left;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 5px;
+}
+.filterbox p{
+  padding-top: 7px;
+  padding-left: 10px;
+  float: left;
+  margin:0px;
+}
 .grid-item{
   height:95px;
   width:70px;
@@ -110,6 +163,7 @@ export default {
   background-color: rgb(83, 78, 78);
 }
 .filterbox{
+  padding-bottom: 35px;
   background-color: rgb(31, 31, 31);;
   margin:5px;
   margin-top:10px;
@@ -138,5 +192,45 @@ export default {
   content: "";
   clear: both;
   display: table;
+}
+@media only screen and (max-width: 900px) {
+  .middle-box{
+  position: relative;
+  width:80%;
+  height: 95%;
+  align-content: center;
+  background-color: rgb(83, 78, 78);
+  margin:auto;
+  margin-top: 20px;
+  }
+  .grid-item{
+  height:70px;
+  width:50px;
+  padding: 8px;
+  background-color: rgb(83, 78, 78);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .middle-box{
+  position: relative;
+  width:80%;
+  height: 95%;
+  align-content: center;
+  background-color: rgb(83, 78, 78);
+  margin:auto;
+  margin-top: 20px;
+  }
+  .grid-item{
+  height:70px;
+  width:50px;
+  padding: 8px;
+  background-color: rgb(83, 78, 78);
+  }
+  .filterbox{
+  padding-bottom: 80px;
+  background-color: rgb(31, 31, 31);;
+  margin:5px;
+  margin-top:10px;
+  }
 }
 </style>

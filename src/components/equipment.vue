@@ -98,6 +98,9 @@ export default {
 }
 .Chain input{
   float:left;
+  width: 30px;
+  height: 20px;
+  margin-left:10px;
 }
 .container{
   background-color: rgb(48, 44, 44);;
