@@ -44,6 +44,9 @@
           </div>
         </div>
         <div class="clearfix" />
+        <div >
+          <input type=button value="Clear Filter" class="filterClear" v-on:click="clearSelect()"/>
+        </div>
       </div>
       <div class="grid-container">
         <div v-for="field in CharacterData" :key="field" class="grid-item">
@@ -131,6 +134,13 @@ export default {
         this.filter_rarity=''
       }
       else this.filter_rarity=ele
+      this.filter()
+    },
+    clearSelect(){
+      this.filter_rarity=''
+      this.filter_faction=''
+      this.filter_sub=''
+      this.filter_main=''
       this.filter()
     },
     goto(name){
@@ -240,6 +250,11 @@ export default {
 .active{
     background-color: rgb(208, 255, 0);
   }
+.filterClear{
+  background-color: red;
+  margin-left: 20px;
+  color:white;
+}
 @media only screen and (max-width: 900px) {
   .middle-box{
   position: relative;

@@ -24,7 +24,9 @@
               v-bind="options"
                   :max=sliderMax
               />
-          {{this.sliderVal}}
+          {{sliderVal}}
+          <input type=button value='<' v-on:click="this.sliderVal>1 ? this.sliderVal--:this.sliderVal" />
+          <input type=button value='>' v-on:click="this.sliderVal<this.sliderMax ? this.sliderVal++:this.sliderVal" />
           <div>
               <!--float it to the right-->
               
@@ -37,7 +39,9 @@
           Trust
           <input v-model=trust
               type=range min=1  max=10 step=1/>
-          {{this.trust}}
+          {{trust}}
+          <input type=button value='<' v-on:click="this.trust>1 ? this.trust--:this.trust" />
+          <input type=button value='>' v-on:click="this.trust<10 ? this.trust++:this.trust" />
           <div>
               <!--float it to the right-->
               
@@ -55,7 +59,9 @@
               type=range min=1  max=10 step=1
               @input="OnEquipLVChange"
               />
-          {{this.equiplv}}
+          {{equiplv}}
+          <input type=button value='<' v-on:click="this.equiplv>1 ? this.equiplv--:this.equiplv" />
+          <input type=button value='>' v-on:click="this.equiplv<10 ? this.equiplv++:this.equiplv" />
           <div v-show="false">
               <!--float it to the right-->
               
@@ -173,12 +179,6 @@ export default {
   },
   methods: {
     OnEquipLVChange(){
-      if(this.equiplv<3 && this.equiplv>0){
-        this.equipDescription="first"
-      }
-      else if(this.equiplv>=3 && this.equiplv<6)this.equipDescription="second"
-      else if(this.equiplv>=6 && this.equiplv<10)this.equipDescription="third"
-      else if(this.equiplv==10)this.equipDescription="fourth"
       if(this.equiplv==0){
         this.equipatt=0;
         this.equipdef=0;
@@ -190,7 +190,6 @@ export default {
         this.equipdef=this.equip_stat[this.equiplv-1].def;
         this.equiphp=this.equip_stat[this.equiplv-1].hp;
       }
-
     },
     OnAscensionChange(value){
         if(this.faction=='silent hunter')return
@@ -264,5 +263,8 @@ export default {
   content: "";
   clear: both;
   display: table;
+}
+.numberInput{
+  width:30px;
 }
 </style>
