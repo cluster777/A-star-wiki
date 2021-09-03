@@ -6,14 +6,16 @@
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
-        v-show="i==1 || selectorstate(i-1)" />
+        v-show="i==1 || selectorstate(i-1)" 
+        :class="{active :this.ascension==i-1}" />
     </div>
-    <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
+    <div class="ascension" v-if="this.faction=='silent hunter' || this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
-        v-show="selectorstate(2)" />
+        v-show="selectorstate(2)"
+        :class="{active :this.ascension==2}" />
     </div>
     <div class="clearfix" />
     <div class="content">
@@ -42,21 +44,24 @@ export default {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     console.log(chardata.ascension)
     return{
+      faction:chardata.faction,
       ascensiondesc:chardata.ascension,
       rarity:Number(chardata.rarity),
       name:"placeholder",
       detail:chardata.skill.description,
       ActiveDescription:chardata.skill.description[0],
-      CD:chardata.skill.cd
+      CD:chardata.skill.cd,
+      ascension:0
       //AoE:chardata.skill.AoE //should be require(@/assets/universal/AoEname.png)
     }
    },
    methods:{
      OnAscensionChange(asc){
+      this.ascension=asc
       this.ActiveDescription=this.detail[asc]
     },
     selectorstate(i){
-      if (this.faction=='silent hunter' && this.rarity==3) return false
+      if (this.faction=='silent hunter' || this.rarity==3) return false
       else if(typeof this.ascensiondesc[i] !== 'undefined' &&( this.ascensiondesc[i].type=='Active Skill')) return true
       else return false
     }
@@ -107,6 +112,9 @@ export default {
   clear: both;
   display: table;
 }
+.active{
+    background-color: rgb(208, 255, 0);
+  }
 .AoE{
   float:right;
   border-style: solid;

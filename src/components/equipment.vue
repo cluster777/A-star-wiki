@@ -5,21 +5,24 @@
         
         <input type=button v-bind="options"
         :value=i
-        v-on:click="OnChainChange(i-1)"/>
+        v-on:click="OnChainChange(i-1)"
+        :class="{active :this.val==i-1}" />
     </div>
     <div v-for="i in [1,2]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
-        v-show="i==1 || selectorstate(i-1)" />
+        v-show="i==1 || selectorstate(i-1)" 
+        :class="{active :this.ascension==i-1}" />
     </div>
     <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
-        v-show="selectorstate(2)"/>
+        v-show="selectorstate(2)"
+        :class="{active :this.ascension==2}" />
     </div>
     <div class=clearfix />
     <div class="content">
@@ -136,5 +139,7 @@ h4{
   clear: both;
   display: table;
 }
-
+.active{
+    background-color: rgb(208, 255, 0);
+  }
 </style>
