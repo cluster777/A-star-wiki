@@ -89,7 +89,7 @@ export default {
   data: function() {
     var chardata=require('@/assets/json/' + this.CharacterName + '.json')
 
-    var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false
+    var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false,eqname=chardata.rarity
     if(chardata.faction=="silent hunter"){
       sm=80
       elv=1
@@ -98,6 +98,7 @@ export default {
       ehp=50
       asc=3
       eq=true
+      eqname='6S'
       //silent hunter equip is different need fix
     }
 
@@ -106,7 +107,7 @@ export default {
       rarity:Number(chardata.rarity),
       faction:chardata.faction,
       equipment:chardata.equipment,
-      equip_stat:require('@/assets/json/'+chardata.rarity+'equip.json'),
+      equip_stat:require('@/assets/json/'+eqname+'equip.json'),
       trust_stat:require('@/assets/json/'+'trust.json'),
       ascensionVal: asc,
       trust:1,
