@@ -58,7 +58,7 @@ export default {
     },
     ascensionChange(value){
       this.ascension=value
-      if(value==1)this.charimage=require('@/assets/character/' + this.CharacterName + '.png')
+      if(value==0)this.charimage=require('@/assets/character/' + this.CharacterName + '.png')
       else this.charimage=require('@/assets/character/' + this.CharacterName + '3.png')
     }
     
@@ -110,6 +110,15 @@ export default {
     width: 100%;
     float: left;
     margin-left: 10px;
+  }
+  .image{
+  width:100vw;
+  height:auto;
+  max-width: 100vw;
+  }
+  .selector img{
+  width: 40px;
+  
   }
 }
 </style>
