@@ -1,10 +1,31 @@
 <template>
   <div class="container" >
     <!-- put char picture here andd.... their char icon yeah-->
-    <img class=image 
-    :src=charimage v-bind:alt="pic">
     <img class=icon
     :src=charsymbol v-bind:alt="pic">
+    <img class=image 
+    :src=charimage v-bind:alt="pic">
+    <div class="selector" v-if="this.chardata.faction!='silent hunter'">
+      <div>
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + 0 + '.png')" 
+        v-on:click="ascensionChange(0)" 
+        :class="{active:this.ascension==0}"/>
+      </div>
+      <div v-if="this.chardata.rarity!='3'">
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + 3 + '.png')" 
+        v-on:click="ascensionChange(3)"
+        :class="{active:this.ascension==3}"/>
+      </div>
+    </div>
+    <div class="selector" v-else>
+      <div>
+        <img type=button v-bind="options"
+        :src="require('@/assets/universal/A' + 3 + '.png')" 
+        :class="{active:this.ascension==0}"/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,9 +39,10 @@ export default {
   },
   data:function(){
     return{
+      ascension:0,
       charimage:require('@/assets/character/' + this.CharacterName + '.png'),
       chardata:require('@/assets/json/' + this.CharacterName + '.json'),
-      charsymbol:require('@/assets/universal/type_' + 'Detonator' + '.png'),
+      charsymbol:require('@/assets/icon/' + this.CharacterName + '.png'),
 
     }
 
@@ -33,6 +55,11 @@ export default {
       })
     this.charimage=require('@/assets/character/' + value + '.png')
     this.charsymbol=require('@/assets/universal/type_' + 'Detonator' + '.png')
+    },
+    ascensionChange(value){
+      this.ascension=value
+      if(value==1)this.charimage=require('@/assets/character/' + this.CharacterName + '.png')
+      else this.charimage=require('@/assets/character/' + this.CharacterName + '3.png')
     }
     
   }
@@ -51,15 +78,29 @@ export default {
   margin-left: 10px;
 }
 .image{
-  width:100%;
-  max-height: 100vh;
+  width:auto;
+  height:100vh;
+  max-width: 100vw;
 }
 .icon{
   position: absolute;
-  top:0px;
+  top:10px;
   left:0px;
-  width:20%;
+  width:30%;
 }
+.selector{
+  position: absolute;
+  top:50%;
+  left:0px;
+  background-color: rgb(48, 44, 44);
+}
+.selector img{
+  width: 50px;
+  
+}
+.active{
+    background-color: rgb(208, 255, 0);
+  }
 @media only screen and (max-width: 900px) {
   .container{
     position: relative;
