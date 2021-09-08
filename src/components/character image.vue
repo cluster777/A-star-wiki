@@ -73,20 +73,20 @@ export default {
   background-color: rgb(83, 78, 78);
 
   height: 80%;
-  width: 60%;
+  width: 68.5%;
   float: left;
   margin-left: 10px;
 }
 .image{
-  width:auto;
-  height:100vh;
-  max-width: 100vw;
+  width:100%;
+  height:auto;
+  max-height:100vh;
+  z-index: 10;
 }
 .icon{
   position: absolute;
-  top:10px;
-  left:0px;
-  width:30%;
+  width:20%;
+  z-index: 0;
 }
 .selector{
   position: absolute;
