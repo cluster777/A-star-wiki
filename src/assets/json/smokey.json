@@ -1,0 +1,1153 @@
+{
+      "name": "Smokey",
+      "faction": "Umbraton",
+      "element_main": "Fire",
+      "element_sub": "Water",
+      "rarity": "6",
+      "class": "Converter",
+      "skill": {
+            "name": "",
+            "cd": "3 Turn",
+            "description": [
+                  "Teleports to any tile within 2 surrounding clusters, dealing 300% damage to 2 surrounding clusters of the target location, and resets all non-Red tiles within the area of attack.",
+                  "Teleports to any tile within 2 surrounding clusters, dealing 300% damage to 2 surrounding clusters of the target location, and resets all non-Red tiles within the area of attack.",
+                  "Teleports to any tile within 2 surrounding clusters, dealing 300% damage to 2 surrounding clusters of the target location, and resets all non-Red tiles within the area of attack."
+            ]
+      },
+      "equip": {
+            "name": "Manticore Crest",
+            "passive": "Manticore Flames",
+            "description": [
+                  [
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 40% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 40% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK.",
+                        "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK."
+                  ],
+                  [
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 40% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 40% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage."
+                  ],
+                  [
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 40% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 40% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 60% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 80% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                        "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 100% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage."
+                  ]
+            ]
+      },
+      "chain": {
+            "name": "",
+            "detail": [
+                  [
+                        {
+                              "cost": "4",
+                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 16 tiles in a splatter shape."
+                        },
+                        {
+                              "cost": "12",
+                              "description": "Deals 160% damage to 2 surrounding clusters."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "4",
+                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 16 tiles in a splatter shape."
+                        },
+                        {
+                              "cost": "12",
+                              "description": "Deals 160% damage to 2 surrounding clusters."
+                        }
+                  ],
+                  [
+                        {
+                              "cost": "4",
+                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
+                        },
+                        {
+                              "cost": "9",
+                              "description": "Deals 160% damage to 16 tiles in a splatter shape."
+                        },
+                        {
+                              "cost": "12",
+                              "description": "Deals 160% damage to 2 surrounding clusters."
+                        }
+                  ]
+            ]
+      },
+      "breaktrought": [
+            "HP increased by 300.",
+            "DEF increased by 40.",
+            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+            "Increased by 300+5%Basic max HP.",
+            "Increased by 40+5%Basic DEF.",
+            "Active Skill Enhancement: Increases Active Skill damage by 50%."
+      ],
+      "ascension": [
+            {
+                  "material": [
+                        "Fire Crystal Shard",
+                        "Fire Flare Powder",
+                        "Destiny Champagne I",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "",
+                  "after": "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK."
+            },
+            {
+                  "material": [
+                        "Fire Flare Rock",
+                        "Fire Potion I",
+                        "Destiny Champagne II",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "Smokey triggers Manticore's Kiss the first time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK.",
+                  "after": "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage."
+            },
+            {
+                  "material": [
+                        "Fire Potion III",
+                        "Fire Crystal",
+                        "Destiny Champagne III",
+                        "Nightium"
+                  ],
+                  "type": "Equipment",
+                  "before": "Smokey triggers Manticore's Kiss each time she attacks each enemy with an Active Skill or Chain Combo, dealing additional DEF-ignoring damage equal to 100% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage.",
+                  "after": "Smokey triggers Manticore's Kiss each time she attacks an enemy with an Active Skill or Chain Combo, or the first time she hits them with a Basic Attack each round, dealing additional DEF-ignoring damage equal to 100% ATK. This effect decreases when triggered repeatedly, down to a minimum of 20% of its initial damage."
+            }
+      ],
+      "base_stat": {
+            "stat": [
+                  {
+                        "att": 541,
+                        "def": 204,
+                        "hp": 1679
+                  },
+                  {
+                        "att": 551,
+                        "def": 207,
+                        "hp": 1705
+                  },
+                  {
+                        "att": 561,
+                        "def": 210,
+                        "hp": 1731
+                  },
+                  {
+                        "att": 571,
+                        "def": 213,
+                        "hp": 1757
+                  },
+                  {
+                        "att": 581,
+                        "def": 216,
+                        "hp": 1783
+                  },
+                  {
+                        "att": 591,
+                        "def": 220,
+                        "hp": 1809
+                  },
+                  {
+                        "att": 601,
+                        "def": 223,
+                        "hp": 1836
+                  },
+                  {
+                        "att": 612,
+                        "def": 226,
+                        "hp": 1862
+                  },
+                  {
+                        "att": 622,
+                        "def": 229,
+                        "hp": 1888
+                  },
+                  {
+                        "att": 632,
+                        "def": 232,
+                        "hp": 1914
+                  },
+                  {
+                        "att": 642,
+                        "def": 236,
+                        "hp": 1940
+                  },
+                  {
+                        "att": 652,
+                        "def": 239,
+                        "hp": 1966
+                  },
+                  {
+                        "att": 662,
+                        "def": 242,
+                        "hp": 1992
+                  },
+                  {
+                        "att": 672,
+                        "def": 245,
+                        "hp": 2018
+                  },
+                  {
+                        "att": 682,
+                        "def": 248,
+                        "hp": 2044
+                  },
+                  {
+                        "att": 692,
+                        "def": 252,
+                        "hp": 2070
+                  },
+                  {
+                        "att": 702,
+                        "def": 255,
+                        "hp": 2096
+                  },
+                  {
+                        "att": 712,
+                        "def": 258,
+                        "hp": 2122
+                  },
+                  {
+                        "att": 722,
+                        "def": 261,
+                        "hp": 2149
+                  },
+                  {
+                        "att": 732,
+                        "def": 265,
+                        "hp": 2175
+                  },
+                  {
+                        "att": 742,
+                        "def": 268,
+                        "hp": 2201
+                  },
+                  {
+                        "att": 753,
+                        "def": 271,
+                        "hp": 2227
+                  },
+                  {
+                        "att": 763,
+                        "def": 274,
+                        "hp": 2253
+                  },
+                  {
+                        "att": 773,
+                        "def": 277,
+                        "hp": 2279
+                  },
+                  {
+                        "att": 783,
+                        "def": 281,
+                        "hp": 2305
+                  },
+                  {
+                        "att": 793,
+                        "def": 284,
+                        "hp": 2331
+                  },
+                  {
+                        "att": 803,
+                        "def": 287,
+                        "hp": 2357
+                  },
+                  {
+                        "att": 813,
+                        "def": 290,
+                        "hp": 2383
+                  },
+                  {
+                        "att": 823,
+                        "def": 293,
+                        "hp": 2409
+                  },
+                  {
+                        "att": 833,
+                        "def": 297,
+                        "hp": 2435
+                  },
+                  {
+                        "att": 936,
+                        "def": 331,
+                        "hp": 2718
+                  },
+                  {
+                        "att": 948,
+                        "def": 335,
+                        "hp": 2751
+                  },
+                  {
+                        "att": 961,
+                        "def": 339,
+                        "hp": 2783
+                  },
+                  {
+                        "att": 973,
+                        "def": 343,
+                        "hp": 2816
+                  },
+                  {
+                        "att": 986,
+                        "def": 347,
+                        "hp": 2848
+                  },
+                  {
+                        "att": 999,
+                        "def": 351,
+                        "hp": 2881
+                  },
+                  {
+                        "att": 1011,
+                        "def": 355,
+                        "hp": 2914
+                  },
+                  {
+                        "att": 1024,
+                        "def": 359,
+                        "hp": 2946
+                  },
+                  {
+                        "att": 1036,
+                        "def": 363,
+                        "hp": 2979
+                  },
+                  {
+                        "att": 1049,
+                        "def": 367,
+                        "hp": 3011
+                  },
+                  {
+                        "att": 1061,
+                        "def": 371,
+                        "hp": 3044
+                  },
+                  {
+                        "att": 1074,
+                        "def": 375,
+                        "hp": 3077
+                  },
+                  {
+                        "att": 1087,
+                        "def": 379,
+                        "hp": 3109
+                  },
+                  {
+                        "att": 1099,
+                        "def": 383,
+                        "hp": 3142
+                  },
+                  {
+                        "att": 1112,
+                        "def": 387,
+                        "hp": 3174
+                  },
+                  {
+                        "att": 1124,
+                        "def": 391,
+                        "hp": 3207
+                  },
+                  {
+                        "att": 1137,
+                        "def": 395,
+                        "hp": 3240
+                  },
+                  {
+                        "att": 1150,
+                        "def": 399,
+                        "hp": 3272
+                  },
+                  {
+                        "att": 1162,
+                        "def": 403,
+                        "hp": 3305
+                  },
+                  {
+                        "att": 1175,
+                        "def": 407,
+                        "hp": 3337
+                  },
+                  {
+                        "att": 1187,
+                        "def": 411,
+                        "hp": 3370
+                  },
+                  {
+                        "att": 1200,
+                        "def": 415,
+                        "hp": 3403
+                  },
+                  {
+                        "att": 1213,
+                        "def": 419,
+                        "hp": 3435
+                  },
+                  {
+                        "att": 1225,
+                        "def": 423,
+                        "hp": 3468
+                  },
+                  {
+                        "att": 1238,
+                        "def": 427,
+                        "hp": 3500
+                  },
+                  {
+                        "att": 1250,
+                        "def": 431,
+                        "hp": 3533
+                  },
+                  {
+                        "att": 1263,
+                        "def": 435,
+                        "hp": 3566
+                  },
+                  {
+                        "att": 1275,
+                        "def": 439,
+                        "hp": 3598
+                  },
+                  {
+                        "att": 1288,
+                        "def": 443,
+                        "hp": 3631
+                  },
+                  {
+                        "att": 1301,
+                        "def": 447,
+                        "hp": 3663
+                  },
+                  {
+                        "att": 1313,
+                        "def": 451,
+                        "hp": 3696
+                  },
+                  {
+                        "att": 1326,
+                        "def": 455,
+                        "hp": 3729
+                  },
+                  {
+                        "att": 1338,
+                        "def": 459,
+                        "hp": 3761
+                  },
+                  {
+                        "att": 1351,
+                        "def": 463,
+                        "hp": 3794
+                  },
+                  {
+                        "att": 1364,
+                        "def": 467,
+                        "hp": 3826
+                  },
+                  {
+                        "att": 1376,
+                        "def": 471,
+                        "hp": 3859
+                  },
+                  {
+                        "att": 1389,
+                        "def": 475,
+                        "hp": 3892
+                  },
+                  {
+                        "att": 1401,
+                        "def": 479,
+                        "hp": 3924
+                  },
+                  {
+                        "att": 1414,
+                        "def": 483,
+                        "hp": 3957
+                  },
+                  {
+                        "att": 1426,
+                        "def": 487,
+                        "hp": 3989
+                  },
+                  {
+                        "att": 1586,
+                        "def": 540,
+                        "hp": 4414
+                  },
+                  {
+                        "att": 1595,
+                        "def": 543,
+                        "hp": 4438
+                  },
+                  {
+                        "att": 1605,
+                        "def": 546,
+                        "hp": 4463
+                  },
+                  {
+                        "att": 1614,
+                        "def": 549,
+                        "hp": 4487
+                  },
+                  {
+                        "att": 1624,
+                        "def": 552,
+                        "hp": 4512
+                  },
+                  {
+                        "att": 1633,
+                        "def": 555,
+                        "hp": 4536
+                  },
+                  {
+                        "att": 1643,
+                        "def": 558,
+                        "hp": 4560
+                  },
+                  {
+                        "att": 1652,
+                        "def": 561,
+                        "hp": 4585
+                  },
+                  {
+                        "att": 1661,
+                        "def": 564,
+                        "hp": 4609
+                  },
+                  {
+                        "att": 1671,
+                        "def": 567,
+                        "hp": 4634
+                  },
+                  {
+                        "att": 1680,
+                        "def": 570,
+                        "hp": 4658
+                  },
+                  {
+                        "att": 1690,
+                        "def": 573,
+                        "hp": 4683
+                  },
+                  {
+                        "att": 1699,
+                        "def": 576,
+                        "hp": 4707
+                  },
+                  {
+                        "att": 1709,
+                        "def": 579,
+                        "hp": 4732
+                  },
+                  {
+                        "att": 1718,
+                        "def": 582,
+                        "hp": 4756
+                  },
+                  {
+                        "att": 1727,
+                        "def": 585,
+                        "hp": 4781
+                  },
+                  {
+                        "att": 1737,
+                        "def": 588,
+                        "hp": 4805
+                  },
+                  {
+                        "att": 1746,
+                        "def": 591,
+                        "hp": 4829
+                  },
+                  {
+                        "att": 1756,
+                        "def": 594,
+                        "hp": 4854
+                  },
+                  {
+                        "att": 1765,
+                        "def": 597,
+                        "hp": 4878
+                  },
+                  {
+                        "att": 1775,
+                        "def": 600,
+                        "hp": 4903
+                  },
+                  {
+                        "att": 1784,
+                        "def": 603,
+                        "hp": 4927
+                  },
+                  {
+                        "att": 1794,
+                        "def": 606,
+                        "hp": 4952
+                  },
+                  {
+                        "att": 1803,
+                        "def": 609,
+                        "hp": 4976
+                  },
+                  {
+                        "att": 1812,
+                        "def": 612,
+                        "hp": 5001
+                  },
+                  {
+                        "att": 1822,
+                        "def": 615,
+                        "hp": 5025
+                  },
+                  {
+                        "att": 1831,
+                        "def": 618,
+                        "hp": 5049
+                  },
+                  {
+                        "att": 1841,
+                        "def": 621,
+                        "hp": 5074
+                  },
+                  {
+                        "att": 1850,
+                        "def": 624,
+                        "hp": 5098
+                  },
+                  {
+                        "att": 1860,
+                        "def": 627,
+                        "hp": 5123
+                  },
+                  {
+                        "att": 1869,
+                        "def": 630,
+                        "hp": 5147
+                  },
+                  {
+                        "att": 1878,
+                        "def": 633,
+                        "hp": 5172
+                  },
+                  {
+                        "att": 1888,
+                        "def": 637,
+                        "hp": 5196
+                  },
+                  {
+                        "att": 1897,
+                        "def": 640,
+                        "hp": 5221
+                  },
+                  {
+                        "att": 1907,
+                        "def": 643,
+                        "hp": 5245
+                  },
+                  {
+                        "att": 1916,
+                        "def": 646,
+                        "hp": 5270
+                  },
+                  {
+                        "att": 1926,
+                        "def": 649,
+                        "hp": 5294
+                  },
+                  {
+                        "att": 1935,
+                        "def": 652,
+                        "hp": 5318
+                  },
+                  {
+                        "att": 1945,
+                        "def": 655,
+                        "hp": 5343
+                  },
+                  {
+                        "att": 1954,
+                        "def": 658,
+                        "hp": 5367
+                  },
+                  {
+                        "att": 1963,
+                        "def": 661,
+                        "hp": 5392
+                  },
+                  {
+                        "att": 1973,
+                        "def": 664,
+                        "hp": 5416
+                  },
+                  {
+                        "att": 1982,
+                        "def": 667,
+                        "hp": 5441
+                  },
+                  {
+                        "att": 1992,
+                        "def": 670,
+                        "hp": 5465
+                  },
+                  {
+                        "att": 2001,
+                        "def": 673,
+                        "hp": 5490
+                  },
+                  {
+                        "att": 2011,
+                        "def": 676,
+                        "hp": 5514
+                  },
+                  {
+                        "att": 2020,
+                        "def": 679,
+                        "hp": 5538
+                  },
+                  {
+                        "att": 2030,
+                        "def": 682,
+                        "hp": 5563
+                  },
+                  {
+                        "att": 2039,
+                        "def": 685,
+                        "hp": 5587
+                  },
+                  {
+                        "att": 2048,
+                        "def": 688,
+                        "hp": 5612
+                  },
+                  {
+                        "att": 2280,
+                        "def": 760,
+                        "hp": 6228
+                  },
+                  {
+                        "att": 2286,
+                        "def": 762,
+                        "hp": 6244
+                  },
+                  {
+                        "att": 2292,
+                        "def": 764,
+                        "hp": 6261
+                  },
+                  {
+                        "att": 2299,
+                        "def": 766,
+                        "hp": 6277
+                  },
+                  {
+                        "att": 2305,
+                        "def": 768,
+                        "hp": 6293
+                  },
+                  {
+                        "att": 2311,
+                        "def": 770,
+                        "hp": 6310
+                  },
+                  {
+                        "att": 2317,
+                        "def": 772,
+                        "hp": 6326
+                  },
+                  {
+                        "att": 2324,
+                        "def": 774,
+                        "hp": 6342
+                  },
+                  {
+                        "att": 2330,
+                        "def": 776,
+                        "hp": 6358
+                  },
+                  {
+                        "att": 2336,
+                        "def": 778,
+                        "hp": 6375
+                  },
+                  {
+                        "att": 2343,
+                        "def": 780,
+                        "hp": 6391
+                  },
+                  {
+                        "att": 2349,
+                        "def": 782,
+                        "hp": 6407
+                  },
+                  {
+                        "att": 2355,
+                        "def": 784,
+                        "hp": 6424
+                  },
+                  {
+                        "att": 2361,
+                        "def": 786,
+                        "hp": 6440
+                  },
+                  {
+                        "att": 2368,
+                        "def": 788,
+                        "hp": 6456
+                  },
+                  {
+                        "att": 2374,
+                        "def": 790,
+                        "hp": 6473
+                  },
+                  {
+                        "att": 2380,
+                        "def": 792,
+                        "hp": 6489
+                  },
+                  {
+                        "att": 2387,
+                        "def": 794,
+                        "hp": 6505
+                  },
+                  {
+                        "att": 2393,
+                        "def": 796,
+                        "hp": 6521
+                  },
+                  {
+                        "att": 2399,
+                        "def": 798,
+                        "hp": 6538
+                  },
+                  {
+                        "att": 2406,
+                        "def": 800,
+                        "hp": 6554
+                  },
+                  {
+                        "att": 2412,
+                        "def": 802,
+                        "hp": 6570
+                  },
+                  {
+                        "att": 2418,
+                        "def": 804,
+                        "hp": 6587
+                  },
+                  {
+                        "att": 2424,
+                        "def": 806,
+                        "hp": 6603
+                  },
+                  {
+                        "att": 2431,
+                        "def": 808,
+                        "hp": 6619
+                  },
+                  {
+                        "att": 2437,
+                        "def": 810,
+                        "hp": 6636
+                  },
+                  {
+                        "att": 2443,
+                        "def": 812,
+                        "hp": 6652
+                  },
+                  {
+                        "att": 2450,
+                        "def": 814,
+                        "hp": 6668
+                  },
+                  {
+                        "att": 2456,
+                        "def": 816,
+                        "hp": 6684
+                  },
+                  {
+                        "att": 2462,
+                        "def": 818,
+                        "hp": 6701
+                  },
+                  {
+                        "att": 2468,
+                        "def": 820,
+                        "hp": 6717
+                  },
+                  {
+                        "att": 2475,
+                        "def": 822,
+                        "hp": 6733
+                  },
+                  {
+                        "att": 2481,
+                        "def": 824,
+                        "hp": 6750
+                  },
+                  {
+                        "att": 2487,
+                        "def": 826,
+                        "hp": 6766
+                  },
+                  {
+                        "att": 2494,
+                        "def": 828,
+                        "hp": 6782
+                  },
+                  {
+                        "att": 2500,
+                        "def": 830,
+                        "hp": 6799
+                  },
+                  {
+                        "att": 2506,
+                        "def": 832,
+                        "hp": 6815
+                  },
+                  {
+                        "att": 2512,
+                        "def": 834,
+                        "hp": 6831
+                  },
+                  {
+                        "att": 2519,
+                        "def": 836,
+                        "hp": 6847
+                  },
+                  {
+                        "att": 2525,
+                        "def": 838,
+                        "hp": 6864
+                  },
+                  {
+                        "att": 2531,
+                        "def": 840,
+                        "hp": 6880
+                  },
+                  {
+                        "att": 2538,
+                        "def": 842,
+                        "hp": 6896
+                  },
+                  {
+                        "att": 2544,
+                        "def": 844,
+                        "hp": 6913
+                  },
+                  {
+                        "att": 2550,
+                        "def": 846,
+                        "hp": 6929
+                  },
+                  {
+                        "att": 2557,
+                        "def": 848,
+                        "hp": 6945
+                  },
+                  {
+                        "att": 2563,
+                        "def": 850,
+                        "hp": 6962
+                  },
+                  {
+                        "att": 2569,
+                        "def": 852,
+                        "hp": 6978
+                  },
+                  {
+                        "att": 2575,
+                        "def": 854,
+                        "hp": 6994
+                  },
+                  {
+                        "att": 2582,
+                        "def": 856,
+                        "hp": 7010
+                  },
+                  {
+                        "att": 2588,
+                        "def": 858,
+                        "hp": 7027
+                  },
+                  {
+                        "att": 2594,
+                        "def": 860,
+                        "hp": 7043
+                  },
+                  {
+                        "att": 2601,
+                        "def": 862,
+                        "hp": 7059
+                  },
+                  {
+                        "att": 2607,
+                        "def": 864,
+                        "hp": 7076
+                  },
+                  {
+                        "att": 2613,
+                        "def": 866,
+                        "hp": 7092
+                  },
+                  {
+                        "att": 2619,
+                        "def": 868,
+                        "hp": 7108
+                  },
+                  {
+                        "att": 2626,
+                        "def": 870,
+                        "hp": 7125
+                  },
+                  {
+                        "att": 2632,
+                        "def": 872,
+                        "hp": 7141
+                  },
+                  {
+                        "att": 2638,
+                        "def": 874,
+                        "hp": 7157
+                  },
+                  {
+                        "att": 2645,
+                        "def": 876,
+                        "hp": 7173
+                  },
+                  {
+                        "att": 2651,
+                        "def": 878,
+                        "hp": 7190
+                  },
+                  {
+                        "att": 2657,
+                        "def": 880,
+                        "hp": 7206
+                  },
+                  {
+                        "att": 2664,
+                        "def": 882,
+                        "hp": 7222
+                  },
+                  {
+                        "att": 2670,
+                        "def": 884,
+                        "hp": 7239
+                  },
+                  {
+                        "att": 2676,
+                        "def": 886,
+                        "hp": 7255
+                  },
+                  {
+                        "att": 2682,
+                        "def": 888,
+                        "hp": 7271
+                  },
+                  {
+                        "att": 2689,
+                        "def": 890,
+                        "hp": 7288
+                  },
+                  {
+                        "att": 2695,
+                        "def": 892,
+                        "hp": 7304
+                  },
+                  {
+                        "att": 2701,
+                        "def": 894,
+                        "hp": 7320
+                  },
+                  {
+                        "att": 2708,
+                        "def": 896,
+                        "hp": 7336
+                  },
+                  {
+                        "att": 2714,
+                        "def": 898,
+                        "hp": 7353
+                  },
+                  {
+                        "att": 2720,
+                        "def": 900,
+                        "hp": 7369
+                  },
+                  {
+                        "att": 2726,
+                        "def": 902,
+                        "hp": 7385
+                  },
+                  {
+                        "att": 2733,
+                        "def": 904,
+                        "hp": 7402
+                  },
+                  {
+                        "att": 2739,
+                        "def": 906,
+                        "hp": 7418
+                  },
+                  {
+                        "att": 2745,
+                        "def": 908,
+                        "hp": 7434
+                  },
+                  {
+                        "att": 2752,
+                        "def": 910,
+                        "hp": 7451
+                  },
+                  {
+                        "att": 2758,
+                        "def": 912,
+                        "hp": 7467
+                  },
+                  {
+                        "att": 2764,
+                        "def": 914,
+                        "hp": 7483
+                  },
+                  {
+                        "att": 2770,
+                        "def": 916,
+                        "hp": 7499
+                  },
+                  {
+                        "att": 2777,
+                        "def": 918,
+                        "hp": 7516
+                  }
+            ]
+      }
+}

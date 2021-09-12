@@ -85,6 +85,7 @@ export default {
 <style scoped>
 hr{
   height:2px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .blue{
@@ -133,6 +134,7 @@ hr{
   z-index: 10;
 }
 .bottom-detail{
+  background-color: rgb(94, 90, 90);
   margin-top: 65px;
   height: 30px;
   bottom: 0;
@@ -141,6 +143,7 @@ hr{
   text-align: center;
   padding-bottom: 5px ;
   overflow: hidden;
+  line-height: 80%;
 }
 @media only screen and (max-width: 900px) {
   .icon{
@@ -171,6 +174,7 @@ hr{
   z-index: 10;
 }
 .bottom-detail{
+  background-color: rgb(94, 90, 90);
   margin-top: 40px;
   height: 30px;
   bottom: 0;
