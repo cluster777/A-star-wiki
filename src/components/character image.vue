@@ -10,20 +10,20 @@
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 0 + '.png')" 
         v-on:click="ascensionChange(0)" 
-        :class="{active:this.ascension==0}"/>
+        :class="{active :this.ascension==0, inactive:this.ascension!=0}"/>
       </div>
       <div v-if="this.chardata.rarity!='3'">
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')" 
         v-on:click="ascensionChange(3)"
-        :class="{active:this.ascension==3}"/>
+        :class="{active :this.ascension==3, inactive:this.ascension!=3}"/>
       </div>
     </div>
     <div class="selector" v-else>
       <div>
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')" 
-        :class="{active:this.ascension==0}"/>
+        :class="{active :this.ascension==0, inactive:this.ascension!=0}"/>
       </div>
     </div>
   </div>
@@ -100,7 +100,10 @@ export default {
 }
 .active{
     background-color: rgb(208, 255, 0);
-  }
+}
+.inactive{
+   background-color:rgb(48, 44, 44) ;
+}
 @media only screen and (max-width: 900px) {
   .container{
     position: relative;

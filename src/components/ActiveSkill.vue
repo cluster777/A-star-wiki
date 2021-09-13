@@ -7,7 +7,7 @@
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
         v-show="i==1 || selectorstate(i-1)" 
-        :class="{active :this.ascension==i-1}" />
+        :class="{active :this.ascension==i-1, inactive:this.ascension!=i-1}" />
     </div>
     <div class="ascension" v-if="this.faction=='silent hunter' || this.rarity>3">
         
@@ -15,7 +15,7 @@
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
         v-show="selectorstate(2)"
-        :class="{active :this.ascension==2}" />
+        :class="{active :this.ascension==2, inactive:this.ascension!=2}" />
     </div>
     <div class="clearfix" />
     <div class="content">
@@ -78,7 +78,7 @@ export default {
   width: 99%;
 }
 .content{
-  padding-top:10px;
+  padding-top:0px;
   padding-bottom:10px;
   padding-left:15px;
   padding-right:15px ;
@@ -100,12 +100,14 @@ export default {
   background-color: rgb(48, 44, 44);
 }
 .ascension img{
-  width: 30px;
-  height: 20px;
+  width: 45px;
+  height: 30px;
   margin-left:10px;
   float:left;
-  border-style: solid;
-  border-width: 1px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: rgb(73, 69, 69);
+  border-width: 3px;
 }
 .clearfix::after {
   content: "";
@@ -113,8 +115,11 @@ export default {
   display: table;
 }
 .active{
-    background-color: rgb(208, 255, 0);
+    border-color: rgb(208, 255, 0);
   }
+.inactive{
+  border-color:rgb(48, 44, 44) ;
+}
 .AoE{
   float:right;
   border-style: solid;

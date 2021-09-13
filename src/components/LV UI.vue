@@ -8,14 +8,14 @@
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i)"
-        :class="{active :this.ascensionVal==i}" />
+        :class="{active :this.ascensionVal==i, inactive:this.ascensionVal!=i}" />
     </div>
     <div class="ascension" v-show="this.faction!='silent hunter' && this.rarity>3">
         
         <img type=button v-bind="options"
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(3)"
-        :class="{active :this.ascensionVal==3}" />
+        :class="{active :this.ascensionVal==3, inactive:this.ascensionVal!=3}" />
     </div>
     <div class=clearfix />
     <div>
@@ -242,12 +242,14 @@ export default {
   background-color: rgb(48, 44, 44);
 }
 .ascension img{
-  width: 30px;
-  height: 20px;
+  width: 45px;
+  height: 30px;
   margin-left:10px;
   float:left;
-  border-style: solid;
-  border-width: 1px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: rgb(73, 69, 69);
+  border-width: 3px;
 }
 .slidecontainer {
   padding-left: 20px;
@@ -271,6 +273,9 @@ export default {
   width:30px;
 }
 .active{
-    background-color: rgb(208, 255, 0);
-  }
+    border-bottom-color: rgb(208, 255, 0);
+}
+.inactive{
+   border-bottom-color:rgb(48, 44, 44) ;
+}
 </style>

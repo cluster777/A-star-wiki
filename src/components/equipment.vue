@@ -86,24 +86,32 @@ export default {
   height:10%;
   background-color: aqua;
 }
+.Chain input{
+  float:left;
+  padding: 8px;
+  padding-left:10px;
+  padding-right: 10px;
+  margin-left:5px;
+  border-style:none;
+  border-bottom-style: solid;
+  background-color:rgb(100, 94, 94) ;
+  border-width: 3px;
+  color:whitesmoke;
+}
 .ascension{
   width:100%;
   height:10%;
   background-color: rgb(48, 44, 44);
 }
 .ascension img{
-  width: 30px;
-  height: 20px;
+  width: 45px;
+  height: 30px;
   margin-left:10px;
   float:left;
-  border-style: solid;
-  border-width: 1px;
-}
-.Chain input{
-  float:left;
-  width: 30px;
-  height: 20px;
-  margin-left:10px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: rgb(73, 69, 69);
+  border-width: 3px;
 }
 .container{
   background-color: rgb(48, 44, 44);;
@@ -140,6 +148,9 @@ h4{
   display: table;
 }
 .active{
-    background-color: rgb(208, 255, 0);
-  }
+    border-bottom-color: rgb(208, 255, 0);
+}
+.inactive{
+   border-bottom-color:rgb(48, 44, 44) ;
+}
 </style>

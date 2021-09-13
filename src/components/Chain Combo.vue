@@ -7,7 +7,7 @@
         :value=detail[0][i-1].cost
         v-on:click="OnChainChange(i-1)"
         v-show="this.detail[0][i-1].cost!=null"
-        :class="{active :this.val==i-1}" />
+        :class="{active :this.val==i-1,inactive :this.val!=i-1}" />
     </div>
     <div v-for="i in [1,2]" :key="i" class="ascension" v-show="this.faction!='silent hunter'">
         
@@ -15,7 +15,7 @@
         :src="require('@/assets/universal/A' + i + '.png')"
         v-on:click="OnAscensionChange(i-1)"
         v-show="i==1 || selectorstate(i-1)"
-        :class="{active :this.ascension==i-1}" />
+        :class="{active :this.ascension==i-1, inactive:this.ascension!=i-1}" />
     </div>
     <div class="ascension" v-if="this.faction!='silent hunter' && this.rarity>3">
         
@@ -23,7 +23,7 @@
         :src="require('@/assets/universal/A' + 3 + '.png')"
         v-on:click="OnAscensionChange(2)"
         v-show="selectorstate(2)"
-        :class="{active :this.ascension==2}" />
+        :class="{active :this.ascension==2, inactive:this.ascension!=2}" />
     </div>
     <div class=clearfix />
     <div class="content">
@@ -87,13 +87,19 @@ export default {
 .Chain{
   width:100%;
   height:10%;
-  background-color: aqua;
 }
 .Chain input{
   float:left;
-  width: 30px;
-  height: 20px;
-  margin-left:10px;
+  padding: 8px;
+  margin-left:5px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom:7px;
+  border-style:none;
+  border-bottom-style: solid;
+  border-width: 3px;
+  background-color:rgb(100, 94, 94) ;
+  color:whitesmoke;
 }
 .ascension{
   width:100%;
@@ -101,12 +107,13 @@ export default {
   background-color: rgb(48, 44, 44);
 }
 .ascension img{
-  width: 30px;
-  height: 20px;
+  width: 45px;
+  height: 30px;
   margin-left:10px;
   float:left;
-  border-style: solid;
-  border-width: 1px;
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: rgb(73, 69, 69);
 }
 .container{
   background-color: rgb(48, 44, 44);;
@@ -143,6 +150,9 @@ h4{
   display: table;
 }
 .active{
-    background-color: rgb(208, 255, 0);
-  }
+    border-bottom-color: rgb(208, 255, 0);
+}
+.inactive{
+   border-bottom-color:rgb(48, 44, 44) ;
+}
 </style>
