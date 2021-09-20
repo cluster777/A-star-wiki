@@ -44,9 +44,11 @@
           </div>
         </div>
         <div class="clearfix" />
-        <div >
-          <input type=button value="Clear Filter" class="filterClear" v-on:click="clearSelect()"/>
+        <div class="final-filter">
+          Name:<input type=text v-model=name_filter v-on:input=filter() />
         </div>
+      <div>
+        <input type=button value="Clear Filter" class="filterClear" v-on:click="clearSelect()"/></div>
       </div>
       <div class="grid-container">
         <div v-for="field in CharacterData" :key="field" class="grid-item">
@@ -79,6 +81,7 @@ export default {
     return{
       char_all:require('@/assets/json/charlist.json'),
       CharacterData:require('@/assets/json/charlist.json'),
+      name_filter:'',
       filter_main:'',
       filter_sub:'',
       filter_faction:'',
@@ -102,6 +105,7 @@ export default {
     },
     filter(){
       var dat=this.char_all
+      if(this.name_filter!='')dat=dat.filter(char => char.char_name.toLowerCase().includes(this.name_filter))
       if(this.filter_faction!='')dat=dat.filter(char => char.faction==this.filter_faction)
       if(this.filter_sub!='')dat=dat.filter(char => char.element_sub==this.filter_sub)
       if(this.filter_main!='')dat=dat.filter(char => char.element_main==this.filter_main)
@@ -146,7 +150,7 @@ export default {
     goto(name){
 
       this.getParent('character').ActiveChange()
-      this.$router.push({ path: `/${name}` })
+      this.$router.push({ path: `/character/${name}` })
     },
     showcharacterselector(){
       this.getParent('character').ActiveChange()
@@ -248,12 +252,20 @@ export default {
   display: table;
 }
 .active{
-    background-color: rgb(208, 255, 0);
-  }
+    border-bottom-color: rgb(208, 255, 0);
+}
+.inactive{
+   border-bottom-color:rgb(48, 44, 44) ;
+}
 .filterClear{
   background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 20px;
   color:white;
+}
+.final-filter{
+  margin-left: 20px;
 }
 @media only screen and (max-width: 900px) {
   .middle-box{

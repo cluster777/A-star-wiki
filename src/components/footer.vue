@@ -1,6 +1,10 @@
 <template>
   <div class="container"> 
-      Made by Cluster777 and friends
+      Alchemy Stars™ & Alchemy Stars: Aurora Blast™ are registered trademarks of Tibet Yonghang Management Partnership Enterprise (l.p.)
+      <br>
+      Images, audio and data: ©Tencent Games ©TourDogStudio
+      <br>
+      This website is made for educational and research purpose by: cluster777
     <!-- footer footer-->
 
   </div>

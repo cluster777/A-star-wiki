@@ -1,8 +1,5 @@
 <template>
   <div class="containerx"> 
-    <div class=tittle>
-      Page title pls
-    </div>
     <navbar />
   </div>
 </template>
