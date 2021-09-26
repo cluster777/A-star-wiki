@@ -1,22 +1,26 @@
 <template>
-  <div v-if="dataReady">
+  <div v-if="state.ready">
     <Header />
     <div class="clearfix"></div>
     
     <CharSelector  v-show="this.active" />
-    <CharacterImage :chardata=chardata :key=chardata />
+    <CharacterImage :chardata=state.test :key=state.test />
     <div class=sidebar>
       
-      <Characterdash :chardata=chardata :key=chardata />
+      <Characterdash :chardata=state.test :key=state.test />
       
-      <ActiveSkill :chardata=chardata :key=chardata />
+      <ActiveSkill :chardata=state.test :key=state.test />
       
-      <chain-combo :chardata=chardata :key=chardata />
-      <equipment :chardata=chardata :key=chardata />
-      <LV :chardata=chardata :key=chardata />
+      <chain-combo :chardata=state.test :key=state.test />
+      <equipment :chardata=state.test :key=state.test />
+      <LV :chardata=state.test :key=state.test />
     </div>
     <div class="clearfix"></div>
     <Footer/>
+  </div>
+  <div v-else>
+    {{chardata}}
+    whatever this is requiem
   </div>
 </template>
 
@@ -32,22 +36,42 @@ import CharacterImage from '../components/character image.vue'
 import equipment from '../components/equipment.vue'
 
 import { useRoute } from 'vue-router'
+import {  onMounted,  reactive, watch } from '@vue/runtime-core'
 
 
 export default {
-  async mounted(){
+  setup(){
+    const state = reactive({
+      test: null,
+      ready:false
+    });
     const route=useRoute()
-    const response = await import('@/assets/json/' + route.params.name.toLowerCase() + '.json')
-    this.chardata= await response;
-    console.log(this.chardata)
-    this.dataReady=true
+    const getdata= async () =>{
+      const response = await import('@/assets/json/' + route.params.name.toLowerCase() + '.json')
+      state.test= await response;
+      console.log(state.test)
+      state.ready=true
+    }
+    watch(
+      () => route.params.name,
+      () => {
+        getdata()
+        console.log("watched")
+      }
+    )
+    onMounted(async () => {
+      getdata()
+      console.log("mounted")
+    });
+    return{
+      state
+    }
   },
   name: 'character',
+
   data:function(){
     return{
-      dataReady:false,
       active:false,
-      chardata:{}
     } 
   },
   components: {
@@ -62,7 +86,7 @@ export default {
     equipment
   },
   methods:{
-    ActiveChange(){
+    ActiveChange(){ 
       this.active=!this.active
     }
   }
