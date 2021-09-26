@@ -1,13 +1,15 @@
 <template>
-  <div class="mainbody">
-    <!--header and nav thanks-->
-    
-    <!-- In this single page, without router-view, views cannot render -->
-    
-    <router-view  />
-    <!--me me me footer-->
-    
-  </div>
+  <Suspense>
+    <div class="mainbody">
+      <!--header and nav thanks-->
+      
+      <!-- In this single page, without router-view, views cannot render -->
+      
+      <router-view  />
+      <!--me me me footer-->
+      
+    </div>
+  </Suspense>
 </template>
 
 <script>

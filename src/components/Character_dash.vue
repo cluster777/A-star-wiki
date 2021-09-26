@@ -23,17 +23,14 @@ export default {
     breaktrought
   },
   props: {
-    CharacterName: String
+    chardata: Object
   },
   data: function() {
-    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-    console.log(chardata.charname)
     return {
       description:"first",
-      chardata,
-      faction:chardata.faction,
-      charfaction:require('@/assets/universal/' + chardata.faction + '.png'),
-      charclass:require('@/assets/universal/type_' + chardata.class + '.png'),
+      faction:this.chardata.faction,
+      charfaction:require('@/assets/universal/' + this.chardata.faction + '.png'),
+      charclass:require('@/assets/universal/type_' + this.chardata.class + '.png'),
 
     }
   }

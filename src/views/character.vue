@@ -1,21 +1,24 @@
 <template>
-  <Header />
-  <div class="clearfix"></div>
-  
-  <CharSelector  v-show="this.active" />
-  <CharacterImage :CharacterName=charname :key=charname />
-  <div class=sidebar>
+  <div>
+    {{chardata.res}}
+    <Header />
+    <div class="clearfix"></div>
     
-    <Characterdash :CharacterName=charname :key=charname />
-    
-    <ActiveSkill :CharacterName=charname :key=charname />
-    
-    <chain-combo :CharacterName=charname :key=charname />
-    <equipment :CharacterName=charname :key=charname />
-    <LV :CharacterName=charname :key=charname />
+    <CharSelector  v-show="this.active" />
+    <CharacterImage :chardata=chardata :key=chardata.name />
+    <div class=sidebar>
+      
+      <Characterdash :chardata=chardata :key=chardata.name />
+      
+      <ActiveSkill :chardata=chardata :key=chardata.name />
+      
+      <chain-combo :chardata=chardata :key=chardata.name />
+      <equipment :chardata=chardata :key=chardata.name />
+      <LV :chardata=chardata :key=chardata.name />
+    </div>
+    <div class="clearfix"></div>
+    <Footer/>
   </div>
-  <div class="clearfix"></div>
-  <Footer/>
 </template>
 
 <script>
@@ -28,21 +31,17 @@ import CharSelector from '../components/character selector.vue'
 import Characterdash from '../components/Character_dash.vue'
 import CharacterImage from '../components/character image.vue'
 import equipment from '../components/equipment.vue'
-import { useRoute } from 'vue-router';
+import { reactive } from '@vue/reactivity'
 export default {
-  name: 'character',
-  computed: {
-    // a computed getter
-    charname() {
-      // `this` points to the vm instance
-      const route = useRoute()
-      console.log(route.params.name)
-      this.$emit('onCharnameChange',route.params.name)
-      //this.$state.chardata=require{'@/assets/json/'+charname+'.json'}
-      return route.params.name.toLowerCase()
+  async setup(){
+    const state=reactive({res:null})
+    state.res=await import('@/assets/json/' + 'sinsa' + '.json')
+    console.log(state.res)
+    return{
+      chardata:state.res
     }
-    
   },
+  name: 'character',
   data:function(){
     return{
       active:false

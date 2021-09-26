@@ -38,19 +38,17 @@
 export default {
   name: 'ActiveSkill',
   props: {
-    CharacterName: String
+    chardata: Object
   },
    data: function() {
-    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-    console.log(chardata.ascension)
     return{
-      faction:chardata.faction,
-      ascensiondesc:chardata.ascension,
-      rarity:Number(chardata.rarity),
+      faction:this.chardata.faction,
+      ascensiondesc:this.chardata.ascension,
+      rarity:Number(this.chardata.rarity),
       name:"placeholder",
-      detail:chardata.skill.description,
-      ActiveDescription:chardata.skill.description[0],
-      CD:chardata.skill.cd,
+      detail:this.chardata.skill.description,
+      ActiveDescription:this.chardata.skill.description[0],
+      CD:this.chardata.skill.cd,
       ascension:0
       //AoE:chardata.skill.AoE //should be require(@/assets/universal/AoEname.png)
     }

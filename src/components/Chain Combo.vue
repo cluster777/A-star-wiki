@@ -46,19 +46,17 @@
 export default {
   name: 'ChainCombo',
   props: {
-    CharacterName: String
+    chardata: Object
   },
    data: function() {
-    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-    console.log(chardata.chain.detail)
     return{
-      ascensiondesc:chardata.ascension,
-      rarity:Number(chardata.rarity),
-      faction:chardata.faction,
+      ascensiondesc:this.chardata.ascension,
+      rarity:Number(this.chardata.rarity),
+      faction:this.chardata.faction,
       name:"placeholder",
-      detail:chardata.chain.detail,
+      detail:this.chardata.chain.detail,
       //AoE:chardata.chain.detail.AoE,
-      description:chardata.chain.detail[0][0].description,
+      description:this.chardata.chain.detail[0][0].description,
       val:0,
       ascension:0
     }

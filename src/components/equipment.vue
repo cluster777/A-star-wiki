@@ -43,19 +43,18 @@
 export default {
   name: 'Equipment',
   props: {
-    CharacterName: String
+    chardata: Object
   },
    data: function() {
-    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
     return{
-      ascensiondesc:chardata.ascension,
-      rarity:Number(chardata.rarity),
-      faction:chardata.faction,
-      name:chardata.equip.name,
-      passive:chardata.equip.passive,
-      detail:chardata.equip.description,
+      ascensiondesc:this.chardata.ascension,
+      rarity:Number(this.chardata.rarity),
+      faction:this.chardata.faction,
+      name:this.chardata.equip.name,
+      passive:this.chardata.equip.passive,
+      detail:this.chardata.equip.description,
       //AoE:chardata.chain.detail.AoE,
-      description:chardata.equip.description[0][0],
+      description:this.chardata.equip.description[0][0],
       ascension:0,
       val:0
     }

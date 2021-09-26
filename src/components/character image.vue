@@ -35,14 +35,13 @@
 export default {
   name: 'CharImage',
   props: {
-    CharacterName: String
+    chardata: Object
   },
   data:function(){
     return{
       ascension:0,
-      charimage:require('@/assets/character/' + this.CharacterName + '.png'),
-      chardata:require('@/assets/json/' + this.CharacterName + '.json'),
-      charsymbol:require('@/assets/icon/' + this.CharacterName + '.png'),
+      charimage:require('@/assets/character/' + this.chardata.name.toLowerCase() + '.png'),
+      charsymbol:require('@/assets/icon/' + this.chardata.name.toLowerCase() + '.png'),
 
     }
 

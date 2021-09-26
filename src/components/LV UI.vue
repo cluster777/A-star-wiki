@@ -86,11 +86,12 @@
 <script>
 export default {
   name: 'LV',
+  props: {
+    chardata:Object
+  },
   data: function() {
-    var chardata=require('@/assets/json/' + this.CharacterName + '.json')
-
-    var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false,eqname=chardata.rarity
-    if(chardata.faction=="silent hunter"){
+    var sm=30,elv=0,ett=0,edf=0,ehp=0,asc=0,eq=false,eqname=this.chardata.rarity
+    if(this.chardata.faction=="silent hunter"){
       sm=80
       elv=1
       ett=30
@@ -103,10 +104,10 @@ export default {
     }
 
     return {
-      base_stat:chardata.base_stat.stat,
-      rarity:Number(chardata.rarity),
-      faction:chardata.faction,
-      equipment:chardata.equipment,
+      base_stat:this.chardata.base_stat.stat,
+      rarity:Number(this.chardata.rarity),
+      faction:this.chardata.faction,
+      equipment:this.chardata.equipment,
       equip_stat:require('@/assets/json/'+eqname+'equip.json'),
       trust_stat:require('@/assets/json/'+'trust.json'),
       ascensionVal: asc,
@@ -121,9 +122,7 @@ export default {
       equip:eq
     }
   },
-  props: {
-    CharacterName:String
-  },
+  
   computed:{
     totalatt(){
       var ascension_gap=0
