@@ -1,20 +1,19 @@
 <template>
-  <div>
-    {{chardata.res}}
+  <div v-if="dataReady">
     <Header />
     <div class="clearfix"></div>
     
     <CharSelector  v-show="this.active" />
-    <CharacterImage :chardata=chardata :key=chardata.name />
+    <CharacterImage :chardata=chardata :key=chardata />
     <div class=sidebar>
       
-      <Characterdash :chardata=chardata :key=chardata.name />
+      <Characterdash :chardata=chardata :key=chardata />
       
-      <ActiveSkill :chardata=chardata :key=chardata.name />
+      <ActiveSkill :chardata=chardata :key=chardata />
       
-      <chain-combo :chardata=chardata :key=chardata.name />
-      <equipment :chardata=chardata :key=chardata.name />
-      <LV :chardata=chardata :key=chardata.name />
+      <chain-combo :chardata=chardata :key=chardata />
+      <equipment :chardata=chardata :key=chardata />
+      <LV :chardata=chardata :key=chardata />
     </div>
     <div class="clearfix"></div>
     <Footer/>
@@ -31,20 +30,24 @@ import CharSelector from '../components/character selector.vue'
 import Characterdash from '../components/Character_dash.vue'
 import CharacterImage from '../components/character image.vue'
 import equipment from '../components/equipment.vue'
-import { reactive } from '@vue/reactivity'
+
+import { useRoute } from 'vue-router'
+
+
 export default {
-  async setup(){
-    const state=reactive({res:null})
-    state.res=await import('@/assets/json/' + 'sinsa' + '.json')
-    console.log(state.res)
-    return{
-      chardata:state.res
-    }
+  async mounted(){
+    const route=useRoute()
+    const response = await import('@/assets/json/' + route.params.name.toLowerCase() + '.json')
+    this.chardata= await response;
+    console.log(this.chardata)
+    this.dataReady=true
   },
   name: 'character',
   data:function(){
     return{
-      active:false
+      dataReady:false,
+      active:false,
+      chardata:{}
     } 
   },
   components: {

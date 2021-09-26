@@ -57,8 +57,8 @@ export default {
     },
     ascensionChange(value){
       this.ascension=value
-      if(value==0)this.charimage=require('@/assets/character/' + this.CharacterName + '.png')
-      else this.charimage=require('@/assets/character/' + this.CharacterName + '3.png')
+      if(value==0)this.charimage=require('@/assets/character/' + this.chardata.name.toLowerCase() + '.png')
+      else this.charimage=require('@/assets/character/' + this.chardata.name.toLowerCase() + '3.png')
     }
     
   }

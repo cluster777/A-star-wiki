@@ -1,5 +1,5 @@
 <template>
-  <Suspense>
+
     <div class="mainbody">
       <!--header and nav thanks-->
       
@@ -9,7 +9,7 @@
       <!--me me me footer-->
       
     </div>
-  </Suspense>
+
 </template>
 
 <script>
