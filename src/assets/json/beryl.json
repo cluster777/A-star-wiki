@@ -10,8 +10,8 @@
             "cd": "3 Turn",
             "description": [
                   "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x.",
-                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location.",
-                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location."
+                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt, up to 160%. After using Active Skills, and when entering Aurora Time, marks the current position. If a triggered Equipment Skill generates crystals this round, the Equipment Skill is triggered 1 time at the marked position.",
+                  "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt, up to 160%. After using Active Skills, and when entering Aurora Time, marks the current position. If a triggered Equipment Skill generates crystals this round, the Equipment Skill is triggered 1 time at the marked position."
             ]
       },
       "equip": {
@@ -43,16 +43,16 @@
                         "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
                   ],
                   [
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF).",
-                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 25% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 30% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 35% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles.",
+                        "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles."
                   ]
             ]
       },
@@ -61,43 +61,43 @@
             "detail": [
                   [
                         {
-                              "cost": "3",
+                              "cost": "2",
                               "description": "Deals 145% damage to 1 surrounding cluster."
                         },
                         {
-                              "cost": "9",
+                              "cost": "8",
                               "description": "Deals 160% damage to 12 tiles in a diamond shape."
                         },
                         {
-                              "cost": "13",
+                              "cost": "11",
                               "description": "Deals 165% damage to 16 tiles in a radial shape."
                         }
                   ],
                   [
                         {
-                              "cost": "3",
+                              "cost": "2",
                               "description": "Deals 145% damage to 1 surrounding cluster."
                         },
                         {
-                              "cost": "9",
+                              "cost": "8",
                               "description": "Deals 160% damage to 12 tiles in a diamond shape."
                         },
                         {
-                              "cost": "13",
+                              "cost": "11",
                               "description": "Deals 165% damage to 16 tiles in a radial shape."
                         }
                   ],
                   [
                         {
-                              "cost": "3",
+                              "cost": "2",
                               "description": "Deals 145% damage to 1 surrounding cluster."
                         },
                         {
-                              "cost": "9",
+                              "cost": "8",
                               "description": "Deals 160% damage to 12 tiles in a diamond shape."
                         },
                         {
-                              "cost": "13",
+                              "cost": "11",
                               "description": "Deals 165% damage to 16 tiles in a radial shape."
                         }
                   ]
@@ -132,7 +132,7 @@
                   ],
                   "type": "Active Skill",
                   "before": "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x.",
-                  "after": "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt. Damage can multiply by up to 1.6x. Marks the current position after this skill is cast. If the Equipment Skill triggered this round generates crystals, the Equipment Skill is also triggered 1 time at the marked location."
+                  "after": "Deals 250% damage to all enemies on the screen 1 time. The fewer the number of enemies on the board, the greater the damage dealt, up to 160%. After using Active Skills, and when entering Aurora Time, marks the current position. If a triggered Equipment Skill generates crystals this round, the Equipment Skill is triggered 1 time at the marked position."
             },
             {
                   "material": [
@@ -143,7 +143,7 @@
                   ],
                   "type": "Equipment",
                   "before": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated in 1 surrounding cluster around her for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF).",
-                  "after": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated on tiles within her Chain Combo range for 1 round. When enemies touch her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF)."
+                  "after": "Before the enemy takes action, if Beryl has launched a Chain Combo this round, crystals are generated along the tiles in her Chain Combo span and will remain there for 1 round. When enemies come in contact with her crystals, they take damage equal to 40% of Beryl's ATK (this damage ignores DEF). After connecting 10 tiles, crystal damage increases by 100% for each additional tile over 10, up to a maximum of 15 tiles."
             }
       ],
       "base_stat": {

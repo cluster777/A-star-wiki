@@ -9,9 +9,9 @@
             "name": "",
             "cd": "1 Preemptive Turn",
             "description": [
-                  "Teleports to any location in an L-shape from its current position (1 tile horizontally and 2 files vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.",
-                  "Teleports to any location in an L-shape from its current position (1 tile horizontally and 2 files vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.After using an Active Skill, Chain Combo range increases by 1 cluster this round.",
-                  "Teleports to any location in an L-shape from its current position (1 tile horizontally and 2 files vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.After using an Active Skill, Chain Combo range increases by 1 cluster this round."
+                  "Teleports to any location in an L-shape from the current position (1 tile horizontally and 2 tiles vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.",
+                  "Teleports to any location in an L-shape from the current position (1 tile horizontally and 2 tiles vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location. After using an Active Skill, Chain Combo range increases by 1 cluster this round.",
+                  "Teleports to any location in an L-shape from the current position (1 tile horizontally and 2 tiles vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location. After using an Active Skill, Chain Combo range increases by 1 cluster this round."
             ]
       },
       "equip": {
@@ -105,7 +105,7 @@
       },
       "breaktrought": [
             "HP increased by 250.",
-            "Active Skill Enhancement: After using an Active Skill, Chain Combos can attack all enemies in range this round.",
+            "Active Skill Enhancement: After using an Active Skill, Chain Combos are effective against all enemies within range in this round.",
             "Increased by 250+5%Basic max HP.",
             "Increased by 30+5%Basic DEF.",
             "Active Skill Enhancement: Can use Active Skill one more time after only hitting 1 enemy (can only be triggered once per round).",
@@ -131,8 +131,8 @@
                         "Nightium"
                   ],
                   "type": "Active Skill",
-                  "before": "Teleports to any location in an L-shape from its current position (1 tile horizontally and 2 files vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.",
-                  "after": "Teleports to any location in an L-shape from its current position (1 tile horizontally and 2 files vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.After using an Active Skill, Chain Combo range increases by 1 cluster this round."
+                  "before": "Teleports to any location in an L-shape from the current position (1 tile horizontally and 2 tiles vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location.",
+                  "after": "Teleports to any location in an L-shape from the current position (1 tile horizontally and 2 tiles vertically or 1 tile vertically and 2 tiles horizontally), dealing 150% damage to 1 surrounding cluster of the target location. After using an Active Skill, Chain Combo range increases by 1 cluster this round."
             },
             {
                   "material": [
