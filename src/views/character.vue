@@ -3,7 +3,7 @@
     <Header />
     <div class="clearfix"></div>
     
-    <CharSelector  v-show="this.active" />
+    
     <CharacterImage :chardata=state.test :key=state.test />
     <div class=sidebar>
       
@@ -30,7 +30,6 @@ import Header from '../components/Header.vue'
 import LV from '../components/LV UI.vue'
 import ChainCombo from '../components/Chain Combo.vue'
 import ActiveSkill from '../components/ActiveSkill.vue'
-import CharSelector from '../components/character selector.vue'
 import Characterdash from '../components/Character_dash.vue'
 import CharacterImage from '../components/character image.vue'
 import equipment from '../components/equipment.vue'
@@ -80,7 +79,6 @@ export default {
     LV,
     CharacterImage,
     ChainCombo,
-    CharSelector,
     Characterdash,
     ActiveSkill,
     equipment

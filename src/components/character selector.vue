@@ -1,5 +1,5 @@
 <template>
-  <div  class=overlay v-on:click.self="this.$parent.ActiveChange()">
+  <div  class=overlay v-on:click.self="this.$parent.activeChange()">
     <div class="middle-box">
       <div class=headclose>
         <button value=char v-on:click="showcharacterselector()" class="button-close" > X </button>
@@ -92,17 +92,6 @@ export default {
     CharCard
   },
   methods:{
-    getParent(name){
-      let p = this.$parent;
-      while(typeof p !== 'undefined'){
-        if(p.$options.name == name) {
-          return p;
-        }else {
-          p = p.$parent;
-        }
-      }
-      return false;
-    },
     filter(){
       var dat=this.char_all
       if(this.name_filter!='')dat=dat.filter(char => char.char_name.toLowerCase().includes(this.name_filter))
@@ -149,11 +138,11 @@ export default {
     },
     goto(name){
 
-      this.getParent('character').ActiveChange()
+      this.$parent.activeChange()
       this.$router.push({ path: `/character/${name}` })
     },
     showcharacterselector(){
-      this.getParent('character').ActiveChange()
+      this.$parent.activeChange()
     }
   }
 }

@@ -4,7 +4,10 @@
     <div class="clearfix"></div>
     
     <div class=sidebar>
-
+        <div v-on:click="goto('home')">Home</div>
+        <div>Item</div>
+        <div v-on:click="goto('drop/stage')">by Stage</div>
+        <div v-on:click="goto('drop/item')">by Item</div>
     </div>
     <div class="clearfix"></div>
     <Footer/>
@@ -20,12 +23,17 @@ export default {
         Footer,
         Header
     },
+    methods:{
+        goto(name){
+            this.$router.push({ path: `/statistic/${name}` })
+        }
+    }
 }
 </script>
 
 <style>
 .sidebar{
-  float:right;
+  float:left;
   width:30%;
   height:100vh;
   margin-top:0px;

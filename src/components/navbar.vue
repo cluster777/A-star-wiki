@@ -1,30 +1,29 @@
 <template>
   <div class="container" > 
-      <button value=char v-on:click="showcharacterselector()" > Character </button>
-      <button value=Stats v-on:click="Navigate('statistic')">Statistic</button>
+      <button value=char v-on:click="activeChange()" > Character </button>
+      <button value=Stats v-on:click="navigate('statistic')">Statistic</button>
   </div>
+  <CharSelector  v-show="this.active" />
 </template>
 
 <script>
+import CharSelector from './character selector.vue'
 export default {
   name: 'Navbar',
+  data: function(){
+    return{
+      active:false
+    }
+  },
+  components:{
+    CharSelector
+  },
   methods:{
-    getParent(name){
-      let p = this.$parent;
-      while(typeof p !== 'undefined'){
-        if(p.$options.name == name) {
-          return p;
-        }else {
-          p = p.$parent;
-        }
-      }
-      return false;
-    },
     navigate(pathName){
       this.$router.push({ path: `/`+pathName })
     },
-    showcharacterselector(){
-      this.getParent('character').ActiveChange()
+    activeChange(){
+      this.active=!this.active
     }
   }
 
