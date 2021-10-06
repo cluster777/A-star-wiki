@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import character from '../views/character.vue'
+import statistic from '../views/Statistic.vue'
 const routes = [
   {
     path: '/',
@@ -15,6 +16,11 @@ const routes = [
     path:'/character/:name',
     name:'chardirect',
     component:character
+  },
+  {
+    path:'/statistic',
+    name:'statisticPage',
+    component:statistic
   }
 ]
 

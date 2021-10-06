@@ -1,6 +1,7 @@
 <template>
   <div class="container" > 
       <button value=char v-on:click="showcharacterselector()" > Character </button>
+      <button value=Stats v-on:click="Navigate('statistic')">Statistic</button>
   </div>
 </template>
 
@@ -18,6 +19,9 @@ export default {
         }
       }
       return false;
+    },
+    navigate(pathName){
+      this.$router.push({ path: `/`+pathName })
     },
     showcharacterselector(){
       this.getParent('character').ActiveChange()
