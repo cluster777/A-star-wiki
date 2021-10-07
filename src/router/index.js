@@ -20,7 +20,29 @@ const routes = [
   {
     path:'/statistic',
     name:'statisticPage',
-    component:statistic
+    component:statistic,
+    children:[
+      {
+        path: '',
+        name: 'statisticHome',
+        component: statisticHome
+      },
+      {
+        path: 'stage',
+        name: 'statisticByStage',
+        component: statisticStage
+      },
+      {
+        path: 'drop',
+        name: 'statisticByDrop',
+        component: statisticDrop
+      },
+      {
+        path: ':itemName',
+        name: 'StatisticItem',
+        component: statisticItem
+      },
+    ]
   }
 ]
 

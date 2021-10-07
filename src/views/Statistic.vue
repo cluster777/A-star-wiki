@@ -6,8 +6,8 @@
     <div class=sidebar>
         <div v-on:click="goto('home')">Home</div>
         <div>Item</div>
-        <div v-on:click="goto('drop/stage')">by Stage</div>
-        <div v-on:click="goto('drop/item')">by Item</div>
+        <div v-on:click="goto('statistic/stage')">by Stage</div>
+        <div v-on:click="goto('statistic/item')">by Item</div>
     </div>
     <div class="clearfix"></div>
     <Footer/>
