@@ -2,6 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import character from '../views/character.vue'
 import statistic from '../views/Statistic.vue'
+import statisticHome from '../components/statisticHome.vue'
+import statisticByStage from '../components/statisticByStage.vue'
+import statisticStage from '../components/statisticStage.vue'
+import statisticByItem from '../components/statisticByItem.vue'
+import statisticItem from '../components/statisticItem.vue'
 const routes = [
   {
     path: '/',
@@ -28,17 +33,22 @@ const routes = [
         component: statisticHome
       },
       {
-        path: 'stage',
+        path: 'Stage',
         name: 'statisticByStage',
+        component: statisticByStage
+      },
+      {
+        path: 'Stage/:stageName',
+        name: 'statisticStage',
         component: statisticStage
       },
       {
-        path: 'drop',
-        name: 'statisticByDrop',
-        component: statisticDrop
+        path: 'item',
+        name: 'statisticByItem',
+        component: statisticByItem
       },
       {
-        path: ':itemName',
+        path: 'item/:itemName',
         name: 'StatisticItem',
         component: statisticItem
       },

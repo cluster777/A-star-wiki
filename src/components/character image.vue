@@ -72,7 +72,7 @@ export default {
   background-color: rgb(83, 78, 78);
 
   height: 80%;
-  width: 68.5%;
+  width: 58.5%;
   float: left;
   margin-left: 10px;
 }
