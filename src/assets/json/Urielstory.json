@@ -1,0 +1,964 @@
+{
+ "title": "Karmic Flames",
+ "header": "Although she can control flames, Uriel is often quite pessimistic. Can you bring her warmth?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, is there something you want to say?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... no, it won't make a difference anyway..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Why is she like this again? She was just about to say it. I'll ask her again...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, Uriel, you looked like you wanted to say something but decided not to. Why?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Why? A lot of things in the world have no explanations."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "It's just whether I want to say or not, which is all up to me, not you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... uh..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Also, it won't make a difference anyway."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Is it going to bring warmth to the world? Or is it going to bring that all-destructive fire of nothingness?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uriel is acting this way again... pessimistic all the time. Looks like she's not going to open up.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I think I need to say something...)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "You have to cheer up!",
+     "link": "1"
+    },
+    {
+     "text": "It's warm here.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Cheer up? Why? You're going to supervise me?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Like how you make that poor Dove work overtime?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "It doesn't matter though... I've never worked a day in my life..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aren't you one of the Guardians of Lumopolis?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh... that, I guess... but it's also meaningless..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... well... I give up..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Anyway, thank you."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Whenever I see someone working hard, I stop entertaining foolish ideas."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But in the end, the world is still cold. Maybe I should return to my happy place..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You think it's very cold outside?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Warmth, oh! Warmth! Engine!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh! Navigator, what are you doing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uriel... even though her chest is burning, her hands are very cold.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What has she been through... I must...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come! It's here!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The Lumina Grid? Why did you bring me here?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Also, let go of my hand please."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh! Uriel! I'm sorry!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Don't be shy, emotions are fleeting, they don't mean a thing in the end..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, your hands are very cold."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh, that's probably because of the flame burning in my chest."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Maybe it absorbed all the heat from my body..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then come take a look at this."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The engine of the Colossus, what incredible Lumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Though I'm not an Aurorian, and I don't know how to direct this Energy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think it'll help you if you stand next to it."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is... fire! When..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... I don't know! How did you catch on fire..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Help me!",
+     "link": "4"
+    },
+    {
+     "text": "Uriel, careful!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Huh? What do you mean?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, the world might be cold, but it's warm in the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just found out about this. He was cold for the past seventeen years, but he became warmer recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not just because the engine started, it's also because of your arrival."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You made this place an actual home, a warm and cozy home."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Home? Then what am I to you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? I haven't thought much about this."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Then am I your big sister? Or little sister..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She seems to have... cheered up a bit?)"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Anyway, thank you."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Whenever I see someone working hard, I stop entertaining foolish ideas."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But in the end, the world is still cold. Maybe I should return to my happy place..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You think it's very cold outside?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Warmth, oh! Warmth! Engine!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh! Navigator, what are you doing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uriel... even though her chest is burning, her hands are very cold.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What has she been through... I must...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come! It's here!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The Lumina Grid? Why did you bring me here?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Also, let go of my hand please."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh! Uriel! I'm sorry!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Don't be shy, emotions are fleeting, they don't mean a thing in the end..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, your hands are very cold."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh, that's probably because of the flame burning in my chest."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Maybe it absorbed all the heat from my body..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then come take a look at this."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The engine of the Colossus, what incredible Lumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Though I'm not an Aurorian, and I don't know how to direct this Energy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think it'll help you if you stand next to it."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is... fire! When..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... I don't know! How did you catch on fire..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Help me!",
+     "link": "4"
+    },
+    {
+     "text": "Uriel, careful!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Anyway, thank you."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Whenever I see someone working hard, I stop entertaining foolish ideas."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But in the end, the world is still cold. Maybe I should return to my happy place..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You think it's very cold outside?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Warmth, oh! Warmth! Engine!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh! Navigator, what are you doing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uriel... even though her chest is burning, her hands are very cold.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What has she been through... I must...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come! It's here!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The Lumina Grid? Why did you bring me here?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Also, let go of my hand please."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh! Uriel! I'm sorry!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Don't be shy, emotions are fleeting, they don't mean a thing in the end..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, your hands are very cold."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Oh, that's probably because of the flame burning in my chest."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Maybe it absorbed all the heat from my body..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then come take a look at this."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The engine of the Colossus, what incredible Lumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Though I'm not an Aurorian, and I don't know how to direct this Energy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think it'll help you if you stand next to it."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is... fire! When..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... I don't know! How did you catch on fire..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Help me!",
+     "link": "4"
+    },
+    {
+     "text": "Uriel, careful!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Don't worry, they aren't going to hurt you. After all, I'm here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Everything is going to perish..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Maybe this is not a bad ending."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel\u2014"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But, it's fine now. You aren't hurt, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I was just joking with you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine then. This is the first time you've joked with me."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Thank you... Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, why didn't you speak your mind?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Navigator, why are you so patient with me even after I've brushed you off?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You dragged me here to the Lumina Grid, so what exactly am I to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You are an important ally.",
+     "link": "7"
+    },
+    {
+     "text": "You are my angel.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Huh? Navigator, aren't you afraid? Aren't you worried the fire will burn you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This fire... is not going to hurt you, is it?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You guessed it?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You are saying that because you know I'm the one controlling the fire, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I, I wasn't thinking about that. I panicked, but remembering that you were my friend..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But, it's fine now. You aren't hurt, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I was just joking with you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine then. This is the first time you've joked with me."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Thank you... Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, why didn't you speak your mind?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Navigator, why are you so patient with me even after I've brushed you off?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You dragged me here to the Lumina Grid, so what exactly am I to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You are an important ally.",
+     "link": "7"
+    },
+    {
+     "text": "You are my angel.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "But, it's fine now. You aren't hurt, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I was just joking with you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine then. This is the first time you've joked with me."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Thank you... Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, why didn't you speak your mind?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Navigator, why are you so patient with me even after I've brushed you off?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You dragged me here to the Lumina Grid, so what exactly am I to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You are an important ally.",
+     "link": "7"
+    },
+    {
+     "text": "You are my angel.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Ally... I also have important allies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? Who are they?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "But is that how you see me? Just an important ally..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Regardless, Uriel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you feel cold again, come see the engine with me. You will feel better."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Yea, there's so much Lumina here. Can it warm her up as well?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The Soul in the Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Soul in the Cage? Who's that?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I, nothing. Forget it, sorry."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, are there others like you? Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, I know!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "D... Don't tell Gabriel it was me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? It's her? Why?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry! Uriel!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You have to swear it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I won't tell Gabriel! Please don't burn me!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But why did you say her Soul needed warmth..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Gabriel..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Without the Cage, she'd be the most dangerous of the four of us."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "That Cage. Even though it appears to have her under control, I think she's the one controlling the Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... don't really understand."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "During that Encounter of Angels, she used the Cage to serve her purpose. Although the intention was good..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels? What's that?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Ah. I didn't mean to say that. Words are like fleeting flames, you should forget them once they've disappeared."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I heard it..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... heard it... so what..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Even if I explained it to you. Then what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There you go again... But I don't think you are just depressed. I think you are avoiding the question on purpose."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "What's the point of answering you anyway?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fine. Well, you are feeling better now, that's all that matters."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Uriel:",
+     "dialogue": "Angel?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your hand is cold, but you bring warmth and hope. Nihilism doesn't suit you."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I get it now... The warmth you've been talking about..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The feeling of bringing other people warmth..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Regardless, Uriel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you feel cold again, come see the engine with me. You will feel better."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Yea, there's so much Lumina here. Can it warm her up as well?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "The Soul in the Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Soul in the Cage? Who's that?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "I, nothing. Forget it, sorry."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel, are there others like you? Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, I know!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "D... Don't tell Gabriel it was me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? It's her? Why?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry! Uriel!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "You have to swear it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I won't tell Gabriel! Please don't burn me!"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But why did you say her Soul needed warmth..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Gabriel..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Without the Cage, she'd be the most dangerous of the four of us."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "That Cage. Even though it appears to have her under control, I think she's the one controlling the Cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... don't really understand."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "During that Encounter of Angels, she used the Cage to serve her purpose. Although the intention was good..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels? What's that?"
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Ah. I didn't mean to say that. Words are like fleeting flames, you should forget them once they've disappeared."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I heard it..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Uh... heard it... so what..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uriel..."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "Even if I explained it to you. Then what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There you go again... But I don't think you are just depressed. I think you are avoiding the question on purpose."
+    },
+    {
+     "char": "Uriel:",
+     "dialogue": "What's the point of answering you anyway?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fine. Well, you are feeling better now, that's all that matters."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

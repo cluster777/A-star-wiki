@@ -1,715 +1,865 @@
 {
-      "name": "Korgon",
-      "faction": "Independent",
-      "element_main": "Water",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back.",
-                  "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back. Knocked back enemies suffer 10% reduced DEF."
-            ]
-      },
-      "equip": {
-            "name": "Shark Tooth Bat",
-            "passive": "Pantherlike",
-            "description": [
-                  [
-                        "Increases Chain Combo damage by 10%.",
-                        "Increases Chain Combo damage by 10%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 40%."
-                  ],
-                  [
-                        "Increases Chain Combo damage by 10%.",
-                        "Increases Chain Combo damage by 10%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 20%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 30%.",
-                        "Increases Chain Combo damage by 40%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 140% damage to 8 tiles in an X shape."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 140% damage to enemies in an X shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 140% damage to 8 tiles in an X shape."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 140% damage to enemies in an X shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Flare Silt",
-                        "Water Essence",
-                        "Tales of Survival",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Chain Combo damage by 40%."
-            },
-            {
-                  "material": [
-                        "Water Potion II",
-                        "Water Crystal Shard",
-                        "Survival 101",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back.",
-                  "after": "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back. Knocked back enemies suffer 10% reduced DEF."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 569,
-                        "def": 223,
-                        "hp": 1721
-                  },
-                  {
-                        "att": 579,
-                        "def": 226,
-                        "hp": 1746
-                  },
-                  {
-                        "att": 589,
-                        "def": 230,
-                        "hp": 1771
-                  },
-                  {
-                        "att": 600,
-                        "def": 233,
-                        "hp": 1795
-                  },
-                  {
-                        "att": 610,
-                        "def": 237,
-                        "hp": 1820
-                  },
-                  {
-                        "att": 620,
-                        "def": 240,
-                        "hp": 1845
-                  },
-                  {
-                        "att": 630,
-                        "def": 244,
-                        "hp": 1870
-                  },
-                  {
-                        "att": 640,
-                        "def": 247,
-                        "hp": 1895
-                  },
-                  {
-                        "att": 650,
-                        "def": 251,
-                        "hp": 1920
-                  },
-                  {
-                        "att": 661,
-                        "def": 254,
-                        "hp": 1945
-                  },
-                  {
-                        "att": 671,
-                        "def": 258,
-                        "hp": 1970
-                  },
-                  {
-                        "att": 681,
-                        "def": 261,
-                        "hp": 1995
-                  },
-                  {
-                        "att": 691,
-                        "def": 265,
-                        "hp": 2020
-                  },
-                  {
-                        "att": 701,
-                        "def": 268,
-                        "hp": 2045
-                  },
-                  {
-                        "att": 711,
-                        "def": 272,
-                        "hp": 2070
-                  },
-                  {
-                        "att": 721,
-                        "def": 275,
-                        "hp": 2095
-                  },
-                  {
-                        "att": 732,
-                        "def": 279,
-                        "hp": 2120
-                  },
-                  {
-                        "att": 742,
-                        "def": 282,
-                        "hp": 2145
-                  },
-                  {
-                        "att": 752,
-                        "def": 286,
-                        "hp": 2170
-                  },
-                  {
-                        "att": 762,
-                        "def": 289,
-                        "hp": 2194
-                  },
-                  {
-                        "att": 772,
-                        "def": 293,
-                        "hp": 2219
-                  },
-                  {
-                        "att": 782,
-                        "def": 296,
-                        "hp": 2244
-                  },
-                  {
-                        "att": 793,
-                        "def": 300,
-                        "hp": 2269
-                  },
-                  {
-                        "att": 803,
-                        "def": 303,
-                        "hp": 2294
-                  },
-                  {
-                        "att": 813,
-                        "def": 307,
-                        "hp": 2319
-                  },
-                  {
-                        "att": 823,
-                        "def": 310,
-                        "hp": 2344
-                  },
-                  {
-                        "att": 833,
-                        "def": 314,
-                        "hp": 2369
-                  },
-                  {
-                        "att": 843,
-                        "def": 317,
-                        "hp": 2394
-                  },
-                  {
-                        "att": 853,
-                        "def": 321,
-                        "hp": 2419
-                  },
-                  {
-                        "att": 864,
-                        "def": 324,
-                        "hp": 2444
-                  },
-                  {
-                        "att": 966,
-                        "def": 359,
-                        "hp": 2715
-                  },
-                  {
-                        "att": 979,
-                        "def": 363,
-                        "hp": 2746
-                  },
-                  {
-                        "att": 992,
-                        "def": 367,
-                        "hp": 2777
-                  },
-                  {
-                        "att": 1004,
-                        "def": 372,
-                        "hp": 2809
-                  },
-                  {
-                        "att": 1017,
-                        "def": 376,
-                        "hp": 2840
-                  },
-                  {
-                        "att": 1030,
-                        "def": 380,
-                        "hp": 2871
-                  },
-                  {
-                        "att": 1042,
-                        "def": 385,
-                        "hp": 2902
-                  },
-                  {
-                        "att": 1055,
-                        "def": 389,
-                        "hp": 2933
-                  },
-                  {
-                        "att": 1068,
-                        "def": 393,
-                        "hp": 2964
-                  },
-                  {
-                        "att": 1081,
-                        "def": 398,
-                        "hp": 2996
-                  },
-                  {
-                        "att": 1093,
-                        "def": 402,
-                        "hp": 3027
-                  },
-                  {
-                        "att": 1106,
-                        "def": 407,
-                        "hp": 3058
-                  },
-                  {
-                        "att": 1119,
-                        "def": 411,
-                        "hp": 3089
-                  },
-                  {
-                        "att": 1131,
-                        "def": 415,
-                        "hp": 3120
-                  },
-                  {
-                        "att": 1144,
-                        "def": 420,
-                        "hp": 3151
-                  },
-                  {
-                        "att": 1157,
-                        "def": 424,
-                        "hp": 3183
-                  },
-                  {
-                        "att": 1169,
-                        "def": 428,
-                        "hp": 3214
-                  },
-                  {
-                        "att": 1182,
-                        "def": 433,
-                        "hp": 3245
-                  },
-                  {
-                        "att": 1195,
-                        "def": 437,
-                        "hp": 3276
-                  },
-                  {
-                        "att": 1207,
-                        "def": 441,
-                        "hp": 3307
-                  },
-                  {
-                        "att": 1220,
-                        "def": 446,
-                        "hp": 3338
-                  },
-                  {
-                        "att": 1233,
-                        "def": 450,
-                        "hp": 3370
-                  },
-                  {
-                        "att": 1246,
-                        "def": 455,
-                        "hp": 3401
-                  },
-                  {
-                        "att": 1258,
-                        "def": 459,
-                        "hp": 3432
-                  },
-                  {
-                        "att": 1271,
-                        "def": 463,
-                        "hp": 3463
-                  },
-                  {
-                        "att": 1284,
-                        "def": 468,
-                        "hp": 3494
-                  },
-                  {
-                        "att": 1296,
-                        "def": 472,
-                        "hp": 3526
-                  },
-                  {
-                        "att": 1309,
-                        "def": 476,
-                        "hp": 3557
-                  },
-                  {
-                        "att": 1322,
-                        "def": 481,
-                        "hp": 3588
-                  },
-                  {
-                        "att": 1334,
-                        "def": 485,
-                        "hp": 3619
-                  },
-                  {
-                        "att": 1347,
-                        "def": 489,
-                        "hp": 3650
-                  },
-                  {
-                        "att": 1360,
-                        "def": 494,
-                        "hp": 3681
-                  },
-                  {
-                        "att": 1372,
-                        "def": 498,
-                        "hp": 3713
-                  },
-                  {
-                        "att": 1385,
-                        "def": 503,
-                        "hp": 3744
-                  },
-                  {
-                        "att": 1398,
-                        "def": 507,
-                        "hp": 3775
-                  },
-                  {
-                        "att": 1410,
-                        "def": 511,
-                        "hp": 3806
-                  },
-                  {
-                        "att": 1423,
-                        "def": 516,
-                        "hp": 3837
-                  },
-                  {
-                        "att": 1436,
-                        "def": 520,
-                        "hp": 3868
-                  },
-                  {
-                        "att": 1449,
-                        "def": 524,
-                        "hp": 3900
-                  },
-                  {
-                        "att": 1461,
-                        "def": 529,
-                        "hp": 3931
-                  },
-                  {
-                        "att": 1611,
-                        "def": 582,
-                        "hp": 4334
-                  },
-                  {
-                        "att": 1620,
-                        "def": 585,
-                        "hp": 4358
-                  },
-                  {
-                        "att": 1630,
-                        "def": 589,
-                        "hp": 4381
-                  },
-                  {
-                        "att": 1639,
-                        "def": 592,
-                        "hp": 4404
-                  },
-                  {
-                        "att": 1649,
-                        "def": 595,
-                        "hp": 4428
-                  },
-                  {
-                        "att": 1658,
-                        "def": 598,
-                        "hp": 4451
-                  },
-                  {
-                        "att": 1668,
-                        "def": 602,
-                        "hp": 4474
-                  },
-                  {
-                        "att": 1677,
-                        "def": 605,
-                        "hp": 4498
-                  },
-                  {
-                        "att": 1687,
-                        "def": 608,
-                        "hp": 4521
-                  },
-                  {
-                        "att": 1696,
-                        "def": 612,
-                        "hp": 4545
-                  },
-                  {
-                        "att": 1706,
-                        "def": 615,
-                        "hp": 4568
-                  },
-                  {
-                        "att": 1715,
-                        "def": 618,
-                        "hp": 4591
-                  },
-                  {
-                        "att": 1725,
-                        "def": 621,
-                        "hp": 4615
-                  },
-                  {
-                        "att": 1735,
-                        "def": 625,
-                        "hp": 4638
-                  },
-                  {
-                        "att": 1744,
-                        "def": 628,
-                        "hp": 4661
-                  },
-                  {
-                        "att": 1754,
-                        "def": 631,
-                        "hp": 4685
-                  },
-                  {
-                        "att": 1763,
-                        "def": 634,
-                        "hp": 4708
-                  },
-                  {
-                        "att": 1773,
-                        "def": 638,
-                        "hp": 4732
-                  },
-                  {
-                        "att": 1782,
-                        "def": 641,
-                        "hp": 4755
-                  },
-                  {
-                        "att": 1792,
-                        "def": 644,
-                        "hp": 4778
-                  },
-                  {
-                        "att": 1801,
-                        "def": 648,
-                        "hp": 4802
-                  },
-                  {
-                        "att": 1811,
-                        "def": 651,
-                        "hp": 4825
-                  },
-                  {
-                        "att": 1820,
-                        "def": 654,
-                        "hp": 4848
-                  },
-                  {
-                        "att": 1830,
-                        "def": 657,
-                        "hp": 4872
-                  },
-                  {
-                        "att": 1839,
-                        "def": 661,
-                        "hp": 4895
-                  },
-                  {
-                        "att": 1849,
-                        "def": 664,
-                        "hp": 4919
-                  },
-                  {
-                        "att": 1858,
-                        "def": 667,
-                        "hp": 4942
-                  },
-                  {
-                        "att": 1868,
-                        "def": 670,
-                        "hp": 4965
-                  },
-                  {
-                        "att": 1877,
-                        "def": 674,
-                        "hp": 4989
-                  },
-                  {
-                        "att": 1887,
-                        "def": 677,
-                        "hp": 5012
-                  },
-                  {
-                        "att": 1896,
-                        "def": 680,
-                        "hp": 5036
-                  },
-                  {
-                        "att": 1906,
-                        "def": 684,
-                        "hp": 5059
-                  },
-                  {
-                        "att": 1915,
-                        "def": 687,
-                        "hp": 5082
-                  },
-                  {
-                        "att": 1925,
-                        "def": 690,
-                        "hp": 5106
-                  },
-                  {
-                        "att": 1934,
-                        "def": 693,
-                        "hp": 5129
-                  },
-                  {
-                        "att": 1944,
-                        "def": 697,
-                        "hp": 5152
-                  },
-                  {
-                        "att": 1953,
-                        "def": 700,
-                        "hp": 5176
-                  },
-                  {
-                        "att": 1963,
-                        "def": 703,
-                        "hp": 5199
-                  },
-                  {
-                        "att": 1972,
-                        "def": 706,
-                        "hp": 5223
-                  },
-                  {
-                        "att": 1982,
-                        "def": 710,
-                        "hp": 5246
-                  },
-                  {
-                        "att": 1992,
-                        "def": 713,
-                        "hp": 5269
-                  },
-                  {
-                        "att": 2001,
-                        "def": 716,
-                        "hp": 5293
-                  },
-                  {
-                        "att": 2011,
-                        "def": 720,
-                        "hp": 5316
-                  },
-                  {
-                        "att": 2020,
-                        "def": 723,
-                        "hp": 5339
-                  },
-                  {
-                        "att": 2030,
-                        "def": 726,
-                        "hp": 5363
-                  },
-                  {
-                        "att": 2039,
-                        "def": 729,
-                        "hp": 5386
-                  },
-                  {
-                        "att": 2049,
-                        "def": 733,
-                        "hp": 5410
-                  },
-                  {
-                        "att": 2058,
-                        "def": 736,
-                        "hp": 5433
-                  },
-                  {
-                        "att": 2068,
-                        "def": 739,
-                        "hp": 5456
-                  },
-                  {
-                        "att": 2077,
-                        "def": 742,
-                        "hp": 5480
-                  }
-            ]
-      }
+ "name": "Korgon",
+ "faction": "Independent",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Support",
+ "skill": {
+  "name": "Bloody Devour",
+  "cd": "2 Turn",
+  "description": [
+   "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back.",
+   "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back. Knocked back enemies suffer 10% reduced DEF."
+  ]
+ },
+ "equip": {
+  "name": "Shark Tooth Bat",
+  "passive": "Pantherlike",
+  "description": [
+   [
+    "Increases Chain Combo damage by 10%.",
+    "Increases Chain Combo damage by 10%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 40%."
+   ],
+   [
+    "Increases Chain Combo damage by 10%.",
+    "Increases Chain Combo damage by 10%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 20%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 30%.",
+    "Increases Chain Combo damage by 40%."
+   ]
+  ],
+  "introduction": "These two modified bats are similar in length to ordinary bats, but their circular saw blade greatly enhances their lethality, whether they're used for hacking or swinging."
+ },
+ "chain": {
+  "name": "Mass Rend",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 140% damage to 8 tiles in an X shape."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 140% damage to enemies in an X shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 140% damage to 8 tiles in an X shape."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 140% damage to enemies in an X shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Flare Silt",
+    "Water Essence",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Chain Combo damage by 40%."
+  },
+  {
+   "material": [
+    "Water Potion II",
+    "Water Crystal Shard",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back.",
+   "after": "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back. Knocked back enemies suffer 10% reduced DEF."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 569,
+    "def": 223,
+    "hp": 1721
+   },
+   {
+    "att": 579,
+    "def": 226,
+    "hp": 1746
+   },
+   {
+    "att": 589,
+    "def": 230,
+    "hp": 1771
+   },
+   {
+    "att": 600,
+    "def": 233,
+    "hp": 1795
+   },
+   {
+    "att": 610,
+    "def": 237,
+    "hp": 1820
+   },
+   {
+    "att": 620,
+    "def": 240,
+    "hp": 1845
+   },
+   {
+    "att": 630,
+    "def": 244,
+    "hp": 1870
+   },
+   {
+    "att": 640,
+    "def": 247,
+    "hp": 1895
+   },
+   {
+    "att": 650,
+    "def": 251,
+    "hp": 1920
+   },
+   {
+    "att": 661,
+    "def": 254,
+    "hp": 1945
+   },
+   {
+    "att": 671,
+    "def": 258,
+    "hp": 1970
+   },
+   {
+    "att": 681,
+    "def": 261,
+    "hp": 1995
+   },
+   {
+    "att": 691,
+    "def": 265,
+    "hp": 2020
+   },
+   {
+    "att": 701,
+    "def": 268,
+    "hp": 2045
+   },
+   {
+    "att": 711,
+    "def": 272,
+    "hp": 2070
+   },
+   {
+    "att": 721,
+    "def": 275,
+    "hp": 2095
+   },
+   {
+    "att": 732,
+    "def": 279,
+    "hp": 2120
+   },
+   {
+    "att": 742,
+    "def": 282,
+    "hp": 2145
+   },
+   {
+    "att": 752,
+    "def": 286,
+    "hp": 2170
+   },
+   {
+    "att": 762,
+    "def": 289,
+    "hp": 2194
+   },
+   {
+    "att": 772,
+    "def": 293,
+    "hp": 2219
+   },
+   {
+    "att": 782,
+    "def": 296,
+    "hp": 2244
+   },
+   {
+    "att": 793,
+    "def": 300,
+    "hp": 2269
+   },
+   {
+    "att": 803,
+    "def": 303,
+    "hp": 2294
+   },
+   {
+    "att": 813,
+    "def": 307,
+    "hp": 2319
+   },
+   {
+    "att": 823,
+    "def": 310,
+    "hp": 2344
+   },
+   {
+    "att": 833,
+    "def": 314,
+    "hp": 2369
+   },
+   {
+    "att": 843,
+    "def": 317,
+    "hp": 2394
+   },
+   {
+    "att": 853,
+    "def": 321,
+    "hp": 2419
+   },
+   {
+    "att": 864,
+    "def": 324,
+    "hp": 2444
+   },
+   {
+    "att": 966,
+    "def": 359,
+    "hp": 2715
+   },
+   {
+    "att": 979,
+    "def": 363,
+    "hp": 2746
+   },
+   {
+    "att": 992,
+    "def": 367,
+    "hp": 2777
+   },
+   {
+    "att": 1004,
+    "def": 372,
+    "hp": 2809
+   },
+   {
+    "att": 1017,
+    "def": 376,
+    "hp": 2840
+   },
+   {
+    "att": 1030,
+    "def": 380,
+    "hp": 2871
+   },
+   {
+    "att": 1042,
+    "def": 385,
+    "hp": 2902
+   },
+   {
+    "att": 1055,
+    "def": 389,
+    "hp": 2933
+   },
+   {
+    "att": 1068,
+    "def": 393,
+    "hp": 2964
+   },
+   {
+    "att": 1081,
+    "def": 398,
+    "hp": 2996
+   },
+   {
+    "att": 1093,
+    "def": 402,
+    "hp": 3027
+   },
+   {
+    "att": 1106,
+    "def": 407,
+    "hp": 3058
+   },
+   {
+    "att": 1119,
+    "def": 411,
+    "hp": 3089
+   },
+   {
+    "att": 1131,
+    "def": 415,
+    "hp": 3120
+   },
+   {
+    "att": 1144,
+    "def": 420,
+    "hp": 3151
+   },
+   {
+    "att": 1157,
+    "def": 424,
+    "hp": 3183
+   },
+   {
+    "att": 1169,
+    "def": 428,
+    "hp": 3214
+   },
+   {
+    "att": 1182,
+    "def": 433,
+    "hp": 3245
+   },
+   {
+    "att": 1195,
+    "def": 437,
+    "hp": 3276
+   },
+   {
+    "att": 1207,
+    "def": 441,
+    "hp": 3307
+   },
+   {
+    "att": 1220,
+    "def": 446,
+    "hp": 3338
+   },
+   {
+    "att": 1233,
+    "def": 450,
+    "hp": 3370
+   },
+   {
+    "att": 1246,
+    "def": 455,
+    "hp": 3401
+   },
+   {
+    "att": 1258,
+    "def": 459,
+    "hp": 3432
+   },
+   {
+    "att": 1271,
+    "def": 463,
+    "hp": 3463
+   },
+   {
+    "att": 1284,
+    "def": 468,
+    "hp": 3494
+   },
+   {
+    "att": 1296,
+    "def": 472,
+    "hp": 3526
+   },
+   {
+    "att": 1309,
+    "def": 476,
+    "hp": 3557
+   },
+   {
+    "att": 1322,
+    "def": 481,
+    "hp": 3588
+   },
+   {
+    "att": 1334,
+    "def": 485,
+    "hp": 3619
+   },
+   {
+    "att": 1347,
+    "def": 489,
+    "hp": 3650
+   },
+   {
+    "att": 1360,
+    "def": 494,
+    "hp": 3681
+   },
+   {
+    "att": 1372,
+    "def": 498,
+    "hp": 3713
+   },
+   {
+    "att": 1385,
+    "def": 503,
+    "hp": 3744
+   },
+   {
+    "att": 1398,
+    "def": 507,
+    "hp": 3775
+   },
+   {
+    "att": 1410,
+    "def": 511,
+    "hp": 3806
+   },
+   {
+    "att": 1423,
+    "def": 516,
+    "hp": 3837
+   },
+   {
+    "att": 1436,
+    "def": 520,
+    "hp": 3868
+   },
+   {
+    "att": 1449,
+    "def": 524,
+    "hp": 3900
+   },
+   {
+    "att": 1461,
+    "def": 529,
+    "hp": 3931
+   },
+   {
+    "att": 1611,
+    "def": 582,
+    "hp": 4334
+   },
+   {
+    "att": 1620,
+    "def": 585,
+    "hp": 4358
+   },
+   {
+    "att": 1630,
+    "def": 589,
+    "hp": 4381
+   },
+   {
+    "att": 1639,
+    "def": 592,
+    "hp": 4404
+   },
+   {
+    "att": 1649,
+    "def": 595,
+    "hp": 4428
+   },
+   {
+    "att": 1658,
+    "def": 598,
+    "hp": 4451
+   },
+   {
+    "att": 1668,
+    "def": 602,
+    "hp": 4474
+   },
+   {
+    "att": 1677,
+    "def": 605,
+    "hp": 4498
+   },
+   {
+    "att": 1687,
+    "def": 608,
+    "hp": 4521
+   },
+   {
+    "att": 1696,
+    "def": 612,
+    "hp": 4545
+   },
+   {
+    "att": 1706,
+    "def": 615,
+    "hp": 4568
+   },
+   {
+    "att": 1715,
+    "def": 618,
+    "hp": 4591
+   },
+   {
+    "att": 1725,
+    "def": 621,
+    "hp": 4615
+   },
+   {
+    "att": 1735,
+    "def": 625,
+    "hp": 4638
+   },
+   {
+    "att": 1744,
+    "def": 628,
+    "hp": 4661
+   },
+   {
+    "att": 1754,
+    "def": 631,
+    "hp": 4685
+   },
+   {
+    "att": 1763,
+    "def": 634,
+    "hp": 4708
+   },
+   {
+    "att": 1773,
+    "def": 638,
+    "hp": 4732
+   },
+   {
+    "att": 1782,
+    "def": 641,
+    "hp": 4755
+   },
+   {
+    "att": 1792,
+    "def": 644,
+    "hp": 4778
+   },
+   {
+    "att": 1801,
+    "def": 648,
+    "hp": 4802
+   },
+   {
+    "att": 1811,
+    "def": 651,
+    "hp": 4825
+   },
+   {
+    "att": 1820,
+    "def": 654,
+    "hp": 4848
+   },
+   {
+    "att": 1830,
+    "def": 657,
+    "hp": 4872
+   },
+   {
+    "att": 1839,
+    "def": 661,
+    "hp": 4895
+   },
+   {
+    "att": 1849,
+    "def": 664,
+    "hp": 4919
+   },
+   {
+    "att": 1858,
+    "def": 667,
+    "hp": 4942
+   },
+   {
+    "att": 1868,
+    "def": 670,
+    "hp": 4965
+   },
+   {
+    "att": 1877,
+    "def": 674,
+    "hp": 4989
+   },
+   {
+    "att": 1887,
+    "def": 677,
+    "hp": 5012
+   },
+   {
+    "att": 1896,
+    "def": 680,
+    "hp": 5036
+   },
+   {
+    "att": 1906,
+    "def": 684,
+    "hp": 5059
+   },
+   {
+    "att": 1915,
+    "def": 687,
+    "hp": 5082
+   },
+   {
+    "att": 1925,
+    "def": 690,
+    "hp": 5106
+   },
+   {
+    "att": 1934,
+    "def": 693,
+    "hp": 5129
+   },
+   {
+    "att": 1944,
+    "def": 697,
+    "hp": 5152
+   },
+   {
+    "att": 1953,
+    "def": 700,
+    "hp": 5176
+   },
+   {
+    "att": 1963,
+    "def": 703,
+    "hp": 5199
+   },
+   {
+    "att": 1972,
+    "def": 706,
+    "hp": 5223
+   },
+   {
+    "att": 1982,
+    "def": 710,
+    "hp": 5246
+   },
+   {
+    "att": 1992,
+    "def": 713,
+    "hp": 5269
+   },
+   {
+    "att": 2001,
+    "def": 716,
+    "hp": 5293
+   },
+   {
+    "att": 2011,
+    "def": 720,
+    "hp": 5316
+   },
+   {
+    "att": 2020,
+    "def": 723,
+    "hp": 5339
+   },
+   {
+    "att": 2030,
+    "def": 726,
+    "hp": 5363
+   },
+   {
+    "att": 2039,
+    "def": 729,
+    "hp": 5386
+   },
+   {
+    "att": 2049,
+    "def": 733,
+    "hp": 5410
+   },
+   {
+    "att": 2058,
+    "def": 736,
+    "hp": 5433
+   },
+   {
+    "att": 2068,
+    "def": 739,
+    "hp": 5456
+   },
+   {
+    "att": 2077,
+    "def": 742,
+    "hp": 5480
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Korgon",
+     "Sork & Bekk"
+    ],
+    "chat": [
+     {
+      "character": "Korgon:",
+      "text": "Hey pal, you look like someone who loves swimming!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) I could say the same for you! So you know how to swim?"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Hahaha! You kidding? I was practically born doing the breast-stroke!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) Then why don't we have a friendly little contest?"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) Chirp! What are you two going on about? I'm standing here too, you know!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Oh, my bad! I didn't realize there was a third fella here!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "You look so cute, too!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) C-Cute?! Take a look at my gun! Still think I'm cute?!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Aww, you're even cuter when you throw a tantrum! Hahaha!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) Agreed. She can be somewhat cute every now and then, once you get to know her."
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) Chirp! You're on the same side now?! Your brains must be waterlogged!!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "See that guy who looks like a sharkhead over there? That's Korgon. He comes from a small town called Sharkfang Island.He's said to be irritable, but we realized after hanging out with him that he's not that scary, despite the two long saws that he waves around. He's actually quite good-tempered and is surprisingly reasonable. We accidentally knocked into each other once, and he apologized before I did! But when he smiles... his sharp white teeth look like they're ready to take a chunk out of you...Whenever he comes here, Korgon always says that he is here on behalf of Sharkfang Island to make deals, negotiate, or bring messages for someone, then he stays here for a while. I presume that he just wants to stay on the Colossus and secretly practice his vegetarian cooking skills... After all, there's a lot of rebuilding to do on Sharkfang Island, and it looks like hard work. Maybe Korgon just wants needs to take an occasional break sometimes.\u2014\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Boss, have you ever been to Umbraton? It's a chaotic place unlike here where we have order. Fortunately, my previous boss runs that place, so at least there are some rules and people won't just draw their weapons whenever they quarrel. That was why I stayed there for a few years, earning some money while paying off my debts. Well, when I see those suffering in Umbraton, especially... young kids who lost their families and were forced to wander, dying to survive in a dog-eat-dog world... kids who were just like me.Boss of the Colossus, you must have guessed. I lost my parents in the Second Darkover Crisis. My family was living a happy life by the river when a group of wandering Eclipsites destroyed Sharkfang Island! Although I managed to survive, I could only wander aimlessly.As I have now returned to my hometown and started to rebuild it, I am determined to not let history repeat itself... Damn those Eclipsites."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "Istvan was my boss back in Umbraton. The reconstruction of Sharkfang Island would not have been possible if it weren't for him.I believe that I have told you that my family was killed by bandits. To survive, I wandered for many years, protecting myself from Eclipsites and other vagrants like me the entire time. After all, they had nothing to lose as well and would do anything to survive...Fortunately, I survived those years. After I heard that the Second Darkover Crisis had ended, I tried to return to my hometown, only to run into a group of Eclipsites... If Istvan hadn't saved me, I probably would have died on my way home and become one of those unlucky soldiers who die from stray bullets still flying after the war ends.When I woke up, I realized Istvan had saved me, and so I owed him my life. That was why I chose to follow him back to Umbraton..."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "I was born on Sharkfang Island, and basically, all the residents there are mutant sharkheads like me. We see each other every day, so we don't find each other scary at all. As I had never seen anyone unlike us, I even thought that everyone else in the world was shark heads like us! Hahaha!Although I look fierce, I must tell you that I detest violence the most! Hmm? Well, even though I make a living by robbing, I have my principles. I never rob those the poor who are kind. Those cursed nobles and rich people are in the most capable position to be kind, but the contempt they have for the poor makes me sick.Although the Eclipsites are our greatest threat right now, without Istvan, Umbraton will eventually become the same as what it's like up there."
+  }
+ ],
+ "voice": [
+  "Sharkfang Island may be small, but it belongs to me, not to Lumopolis or Illumina.",
+  "The only rule of Umbraton is that there are no rules. They're really a violent bunch...",
+  "Rebuild Sharkfang Island!",
+  "If I meet the boss of the Eclipsites, I'll welcome them with my saw.",
+  "Umbraton would have eventually become a maelstrom of violence if not for Istvan.",
+  "It's thanks to the Cloudrover Guild that I could rebuild my hometown, but the lady boss is a really unscrupulous merchant...",
+  "For my favorite vegetable soup, tamarind juice, and unleavened bread!",
+  "Those who vent with meaningless violence are the most hateful. Maybe those people became the Eclipsites!",
+  "It can actually fly! These ancient things are so amazing!",
+  "I thought this is my break time... Alright, alright, I get it...",
+  "Let me brush off the cat hairs on me then I'll flash you a smile and say cheese. Told you, I'm a complete pacifist.",
+  "Sorry, I have to go. Bye!",
+  "Is that all they got?",
+  "Lacerate!",
+  "Get ready to be cut!",
+  "This can be considered proper defense now.",
+  "Haha! Good, it's the New Year again!",
+  "Is this the cat-lovers club?",
+  "My saws! They're rotating even faster than before!",
+  "Tear our enemies apart!",
+  "Ah! An unexpected break\u2014should I chill for a bit? Boss, I've got a litter of cats at my place. If you don't mind, would you like to join me?",
+  "I wish I'll never have to use this power.",
+  "Alchemy Stars? What's that...",
+  "Stop nagging, bro! You're just as annoying as Connolly's pipes...",
+  "The violence in Umbraton follows its own rules, which is different from the \"fair games\" the people above play. Shadow Wolf also said that before. Well, whatever.",
+  "I hate violence, but I don't mind breaking the jaw of any scum who sells Blacohol to a minor!",
+  "I used to muck around in Umbraton too, but I've left those stormy days behind me. Now, all I want is to rebuild my hometown.",
+  "Sharkfang Island is my hometown, I won't let the Eclipsites destroy it.",
+  "We've been through hardships together; what are we if not brothers? Shall we find a cat to pet?",
+  "You must stop me when I act impulsively! Crushing someone's jaw is not that big a deal, but that's not the case when it comes to making too many enemies!",
+  "I like cats, but I don't like cats that look like middle-aged men, okay? So, don't make me go on an operation with that guy again.",
+  "There's more to fighting in life...",
+  "Boss, have you seen my cat? It's a little timid and I don't know where it's hiding at.",
+  "Do you want some shark tooth powder as seasoning? I just got a new batch and there's plenty more.",
+  "It's so boring doing nothing... If only I have a cat...",
+  "Oh, you saw my teeth? Didn't mean to scare you, sorry.",
+  "I think it's time for the cats to get some exercise!",
+  "What should I have for supper? French fries or capuns?",
+  "Whoa! The Boss of the Colossus! It's quite crowded here! Is there going to be a fight? No way, this is my first day here!",
+  "I feel like you've misunderstood what cute is.",
+  "Hmm... It feels quite expensive. I'll take it for now.",
+  "Hey! Do you also like this too?! Oh, no, forget it...",
+  "Oh! I can give this to my cat! Thanks!",
+  "Rotate!",
+  "Shred everything into pieces!",
+  "I hope the cats managed to hide in time\u2014",
+  "Don't make trouble or I'll come for you! Especially don't touch my children or else... Mimi, don't be afraid, come to papa!",
+  "Don't be surprised when you see me. Many people in my hometown have a shark head like me! But that was before the Eclipsites infiltrated the border... *Sighs*",
+  "Who? Who pushed me?!"
+ ],
+ "skins": [],
+ "description": "It's a terrifying shark even when it smiles! He is the protector of a small settlement, and despite the ferocious, fearsome exterior, he is actually a very gentle cat-lover.",
+ "realName": "Korgon",
+ "nickname": "Whirling Shark",
+ "gender": "Male",
+ "height": "5'10\"",
+ "birthday": "April 1",
+ "birthplace": "Sharkfang Island",
+ "style": "Spinning Saw"
 }

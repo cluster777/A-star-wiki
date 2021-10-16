@@ -1,0 +1,704 @@
+[
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Looking for me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's not a big deal..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Got it, let's talk when we meet."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I haven't said anything yet..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...As expected of you!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I haven't said anything yet..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Well, in any case, I'll help if it's solvable, and if it's not, there's nothing I can do, really."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You have a point..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "I'm at the Cafe, come look for me right away."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Remember to be neat."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "...As expected of you!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "I just don't want to waste time here."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You have a point..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "I'm at the Cafe, come look for me right away."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Remember to be neat."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Navigator, do you know what a white tulip means in floriography?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Floriography? What's that?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm sorry, I really don't know..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why are you keeping quiet?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm sorry, I really don't know..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Fine, I forgive you."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "After all, you've lived alone for such a long time..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Let me tell you then."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Floriography refers to the meaning that has been attributed to flowers."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Then a white tulip symbolizes..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "It's an Eternal Blessing."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is that so... I really learned something."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Sometimes you should balance your knowledge and learn about arts and social sciences instead of just immersing yourself in science and engineering."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "... Sigh, I might have given you a flower if you had answered me correctly..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why are you keeping quiet?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Sigh, as expected..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "As expected?"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "I know you have lived alone for a long time, so there are probably many things you don't understand."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Let me tell you then."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Floriography refers to the meaning that has been attributed to flowers."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Then a white tulip symbolizes..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "It's an Eternal Blessing."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is that so... I really learned something."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Sometimes you should balance your knowledge and learn about arts and social sciences instead of just immersing yourself in science and engineering."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "... Sigh, I might have given you a flower if you had answered me correctly..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Not surprised to see YOU here..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, p-please, no need to be so cold! Especially since it's the first time we've met..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Fair enough, I suppose."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I can sense the perfunctory tone everywhere..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "I am Nikinis, guardian of Lake Mirror. The person in the mirror is my older sister."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "There, satisfied now?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I-In the mirror...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Your sister...?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I-In the mirror...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Yes, the girl in the mirror."
+     },
+     {
+      "name": "Navigator:",
+      "content": "There's... someone in the mirror?"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "How was I unclear in any way? Don't make me say it a third time..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry! My bad... Everything is crystal clear now!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "If that's the case, then take me to my room. I require rest."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right away...!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Your sister...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Correct. My sister lives in the mirror."
+     },
+     {
+      "name": "Navigator:",
+      "content": "H-How could someone live in a mirror?"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "How was I unclear in any way? Don't make me say it a third time..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry! My bad... Everything is crystal clear now!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "If that's the case, then take me to my room. I require rest."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right away...!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Is this the power I seek? It's nothing like what I imagined..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "What did you imagine...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "But you're already very strong, Nikinis!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "What did you imagine...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "I was expecting... Something stronger..."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "Strong enough to help my sister escape the mirror."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry if I'm being rude by asking, Nikinis, but I'm still very curious. Your sister..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What do you mean when you say she lives on the other side of the mirror?"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "It's a curse. My sister has been sealed away inside the mirror."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "But someday, I'm certain we will be reunited."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm certain of it, too! I look forward to meeting her!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "I can't believe I accidentally let you console me like that."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Don't you dare look down on me!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "In any case, I should thank you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "But you're already very strong, Nikinis!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nikinis:",
+      "content": "Not enough... I need to be even stronger if I want to see my sister again."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry if I'm being rude by asking, Nikinis, but I'm still very curious. Your sister..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What do you mean when you say she lives on the other side of the mirror?"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "It's a curse. My sister has been sealed away inside the mirror."
+     },
+     {
+      "name": "Nikinis:",
+      "content": "But someday, I'm certain we will be reunited."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm certain of it, too! I look forward to meeting her!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "I can't believe I accidentally let you console me like that."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Don't you dare look down on me!"
+     },
+     {
+      "name": "Nikinis:",
+      "content": "In any case, I should thank you."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Shall we spend this afternoon together..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm? What do you mean?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "You don't have anything better to do now anyway."
+   },
+   {
+    "name": "Navigator:",
+    "content": "... Does lunch count?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "What I mean is..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is...?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Forget it. It isn't important."
+   },
+   {
+    "name": "Navigator:",
+    "content": "???"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "The flowers I sent you... Are you taking good care of them?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I water them every day, just like you showed me."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Glad to hear it. I have a few more things lying around here somewhere..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You call this \"a few more things\"?!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Good evening... Seems like you haven't rested yet."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Nikinis."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not yet, do you need anything?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "The Colossus is so dry at night..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "My skin, my lips... they're losing moistness... I can practically feel the wrinkles forming."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "...Sis would feel the same, right?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "So... Could you please send more fireflies to keep my room at a reasonable humidity?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Of course, if it's not convenient for you, just forget it about it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't think anyone's ever brought this up before..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "So... Will it be a problem?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, no, it's fine! I'll tell the fireflies to come by."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Thank you... Sweet dreams."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Where are you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Nikinis. I'm in my room."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is there anything I can do for you? You sound like..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "The lilies I was going to give you have withered."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Whenever the Colossus lands or takes off, its internal temperature and humidity affect the flowers growing here."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "According to my observations, this is the third time now. The lilies always wither at the night after the Colossus has landed or taken off."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Uh, is there anything we can do about it?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "...I'm just letting you know. I have nothing else to do right now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sorry... I'll tell the fireflies to take special care about this."
+   },
+   {
+    "name": "Navigator:",
+    "content": "The temperature and humidity of the Colossus... Consider it's done."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Well, that's fine, then."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Goodbye, and rest well."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nikinis:",
+    "content": "Forget it if you're about to take a break..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Evening. I'm not heading to bed just yet."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's wrong, Nikinis?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "This is the first time I've ever felt like this..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Felt like what?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Hmm... The Colossus smells so clean today... and so comforting..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "I'm quite sure it's not the scent of flowers, but somehow it's soothing."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "I... I want to know what that smell is."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah... I see."
+   },
+   {
+    "name": "Navigator:",
+    "content": "The Colossus went pass over a forest today."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I asked the fireflies to open all the windows..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "So... it's probably the smell of trees?"
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Indeed... It has been so long since I smelled the scent of nature..."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Thank you. Sleeping amidst this natural aroma would be a nice experience."
+   },
+   {
+    "name": "Nikinis:",
+    "content": "Well then, please go to sleep early. I wish you dreams more beautiful than the finest flowers."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

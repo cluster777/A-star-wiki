@@ -1,1153 +1,1327 @@
 {
-      "name": "Joanie Boom",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "Deals 200% damage to 2 surrounding clusters and resets all non-Red tiles within the area of attack. There is a small chance to generate Red tiles."
-            ]
-      },
-      "equip": {
-            "name": "Homemade Bomb",
-            "passive": "Sticky Incendiary Rounds",
-            "description": [
-                  [
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 12% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 12% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round."
-                  ],
-                  [
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
-                  ],
-                  [
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
-                        "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Flare Powder",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Potion I",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round.",
-                  "after": "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
-            },
-            {
-                  "material": [
-                        "Fire Potion III",
-                        "Fire Crystal",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "after": "Deals 200% damage to 2 surrounding clusters and resets all non-Red tiles within the area of attack. There is a small chance to generate Red tiles."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 527,
-                        "def": 206,
-                        "hp": 1584
-                  },
-                  {
-                        "att": 537,
-                        "def": 209,
-                        "hp": 1607
-                  },
-                  {
-                        "att": 547,
-                        "def": 212,
-                        "hp": 1631
-                  },
-                  {
-                        "att": 556,
-                        "def": 215,
-                        "hp": 1655
-                  },
-                  {
-                        "att": 566,
-                        "def": 218,
-                        "hp": 1678
-                  },
-                  {
-                        "att": 576,
-                        "def": 222,
-                        "hp": 1702
-                  },
-                  {
-                        "att": 586,
-                        "def": 225,
-                        "hp": 1725
-                  },
-                  {
-                        "att": 596,
-                        "def": 228,
-                        "hp": 1749
-                  },
-                  {
-                        "att": 606,
-                        "def": 231,
-                        "hp": 1772
-                  },
-                  {
-                        "att": 616,
-                        "def": 234,
-                        "hp": 1796
-                  },
-                  {
-                        "att": 626,
-                        "def": 238,
-                        "hp": 1819
-                  },
-                  {
-                        "att": 636,
-                        "def": 241,
-                        "hp": 1843
-                  },
-                  {
-                        "att": 645,
-                        "def": 244,
-                        "hp": 1866
-                  },
-                  {
-                        "att": 655,
-                        "def": 247,
-                        "hp": 1890
-                  },
-                  {
-                        "att": 665,
-                        "def": 251,
-                        "hp": 1913
-                  },
-                  {
-                        "att": 675,
-                        "def": 254,
-                        "hp": 1937
-                  },
-                  {
-                        "att": 685,
-                        "def": 257,
-                        "hp": 1960
-                  },
-                  {
-                        "att": 695,
-                        "def": 260,
-                        "hp": 1984
-                  },
-                  {
-                        "att": 705,
-                        "def": 263,
-                        "hp": 2008
-                  },
-                  {
-                        "att": 715,
-                        "def": 267,
-                        "hp": 2031
-                  },
-                  {
-                        "att": 724,
-                        "def": 270,
-                        "hp": 2055
-                  },
-                  {
-                        "att": 734,
-                        "def": 273,
-                        "hp": 2078
-                  },
-                  {
-                        "att": 744,
-                        "def": 276,
-                        "hp": 2102
-                  },
-                  {
-                        "att": 754,
-                        "def": 280,
-                        "hp": 2125
-                  },
-                  {
-                        "att": 764,
-                        "def": 283,
-                        "hp": 2149
-                  },
-                  {
-                        "att": 774,
-                        "def": 286,
-                        "hp": 2172
-                  },
-                  {
-                        "att": 784,
-                        "def": 289,
-                        "hp": 2196
-                  },
-                  {
-                        "att": 794,
-                        "def": 292,
-                        "hp": 2219
-                  },
-                  {
-                        "att": 804,
-                        "def": 296,
-                        "hp": 2243
-                  },
-                  {
-                        "att": 813,
-                        "def": 299,
-                        "hp": 2266
-                  },
-                  {
-                        "att": 916,
-                        "def": 333,
-                        "hp": 2536
-                  },
-                  {
-                        "att": 928,
-                        "def": 337,
-                        "hp": 2565
-                  },
-                  {
-                        "att": 940,
-                        "def": 341,
-                        "hp": 2595
-                  },
-                  {
-                        "att": 953,
-                        "def": 345,
-                        "hp": 2624
-                  },
-                  {
-                        "att": 965,
-                        "def": 349,
-                        "hp": 2653
-                  },
-                  {
-                        "att": 978,
-                        "def": 353,
-                        "hp": 2683
-                  },
-                  {
-                        "att": 990,
-                        "def": 357,
-                        "hp": 2712
-                  },
-                  {
-                        "att": 1002,
-                        "def": 361,
-                        "hp": 2742
-                  },
-                  {
-                        "att": 1015,
-                        "def": 365,
-                        "hp": 2771
-                  },
-                  {
-                        "att": 1027,
-                        "def": 369,
-                        "hp": 2801
-                  },
-                  {
-                        "att": 1039,
-                        "def": 373,
-                        "hp": 2830
-                  },
-                  {
-                        "att": 1052,
-                        "def": 377,
-                        "hp": 2859
-                  },
-                  {
-                        "att": 1064,
-                        "def": 381,
-                        "hp": 2889
-                  },
-                  {
-                        "att": 1076,
-                        "def": 385,
-                        "hp": 2918
-                  },
-                  {
-                        "att": 1089,
-                        "def": 389,
-                        "hp": 2948
-                  },
-                  {
-                        "att": 1101,
-                        "def": 393,
-                        "hp": 2977
-                  },
-                  {
-                        "att": 1113,
-                        "def": 397,
-                        "hp": 3006
-                  },
-                  {
-                        "att": 1126,
-                        "def": 401,
-                        "hp": 3036
-                  },
-                  {
-                        "att": 1138,
-                        "def": 405,
-                        "hp": 3065
-                  },
-                  {
-                        "att": 1150,
-                        "def": 409,
-                        "hp": 3095
-                  },
-                  {
-                        "att": 1163,
-                        "def": 413,
-                        "hp": 3124
-                  },
-                  {
-                        "att": 1175,
-                        "def": 417,
-                        "hp": 3154
-                  },
-                  {
-                        "att": 1187,
-                        "def": 421,
-                        "hp": 3183
-                  },
-                  {
-                        "att": 1200,
-                        "def": 425,
-                        "hp": 3212
-                  },
-                  {
-                        "att": 1212,
-                        "def": 429,
-                        "hp": 3242
-                  },
-                  {
-                        "att": 1225,
-                        "def": 433,
-                        "hp": 3271
-                  },
-                  {
-                        "att": 1237,
-                        "def": 437,
-                        "hp": 3301
-                  },
-                  {
-                        "att": 1249,
-                        "def": 441,
-                        "hp": 3330
-                  },
-                  {
-                        "att": 1262,
-                        "def": 445,
-                        "hp": 3360
-                  },
-                  {
-                        "att": 1274,
-                        "def": 449,
-                        "hp": 3389
-                  },
-                  {
-                        "att": 1286,
-                        "def": 453,
-                        "hp": 3418
-                  },
-                  {
-                        "att": 1299,
-                        "def": 457,
-                        "hp": 3448
-                  },
-                  {
-                        "att": 1311,
-                        "def": 462,
-                        "hp": 3477
-                  },
-                  {
-                        "att": 1323,
-                        "def": 466,
-                        "hp": 3507
-                  },
-                  {
-                        "att": 1336,
-                        "def": 470,
-                        "hp": 3536
-                  },
-                  {
-                        "att": 1348,
-                        "def": 474,
-                        "hp": 3565
-                  },
-                  {
-                        "att": 1360,
-                        "def": 478,
-                        "hp": 3595
-                  },
-                  {
-                        "att": 1373,
-                        "def": 482,
-                        "hp": 3624
-                  },
-                  {
-                        "att": 1385,
-                        "def": 486,
-                        "hp": 3654
-                  },
-                  {
-                        "att": 1397,
-                        "def": 490,
-                        "hp": 3683
-                  },
-                  {
-                        "att": 1547,
-                        "def": 543,
-                        "hp": 4085
-                  },
-                  {
-                        "att": 1556,
-                        "def": 546,
-                        "hp": 4107
-                  },
-                  {
-                        "att": 1565,
-                        "def": 549,
-                        "hp": 4129
-                  },
-                  {
-                        "att": 1575,
-                        "def": 552,
-                        "hp": 4151
-                  },
-                  {
-                        "att": 1584,
-                        "def": 555,
-                        "hp": 4173
-                  },
-                  {
-                        "att": 1593,
-                        "def": 558,
-                        "hp": 4195
-                  },
-                  {
-                        "att": 1602,
-                        "def": 561,
-                        "hp": 4218
-                  },
-                  {
-                        "att": 1612,
-                        "def": 564,
-                        "hp": 4240
-                  },
-                  {
-                        "att": 1621,
-                        "def": 567,
-                        "hp": 4262
-                  },
-                  {
-                        "att": 1630,
-                        "def": 570,
-                        "hp": 4284
-                  },
-                  {
-                        "att": 1639,
-                        "def": 573,
-                        "hp": 4306
-                  },
-                  {
-                        "att": 1649,
-                        "def": 576,
-                        "hp": 4328
-                  },
-                  {
-                        "att": 1658,
-                        "def": 579,
-                        "hp": 4350
-                  },
-                  {
-                        "att": 1667,
-                        "def": 582,
-                        "hp": 4372
-                  },
-                  {
-                        "att": 1676,
-                        "def": 585,
-                        "hp": 4394
-                  },
-                  {
-                        "att": 1686,
-                        "def": 588,
-                        "hp": 4416
-                  },
-                  {
-                        "att": 1695,
-                        "def": 591,
-                        "hp": 4438
-                  },
-                  {
-                        "att": 1704,
-                        "def": 594,
-                        "hp": 4460
-                  },
-                  {
-                        "att": 1713,
-                        "def": 597,
-                        "hp": 4482
-                  },
-                  {
-                        "att": 1723,
-                        "def": 600,
-                        "hp": 4504
-                  },
-                  {
-                        "att": 1732,
-                        "def": 603,
-                        "hp": 4526
-                  },
-                  {
-                        "att": 1741,
-                        "def": 606,
-                        "hp": 4548
-                  },
-                  {
-                        "att": 1751,
-                        "def": 609,
-                        "hp": 4571
-                  },
-                  {
-                        "att": 1760,
-                        "def": 612,
-                        "hp": 4593
-                  },
-                  {
-                        "att": 1769,
-                        "def": 615,
-                        "hp": 4615
-                  },
-                  {
-                        "att": 1778,
-                        "def": 618,
-                        "hp": 4637
-                  },
-                  {
-                        "att": 1788,
-                        "def": 621,
-                        "hp": 4659
-                  },
-                  {
-                        "att": 1797,
-                        "def": 624,
-                        "hp": 4681
-                  },
-                  {
-                        "att": 1806,
-                        "def": 627,
-                        "hp": 4703
-                  },
-                  {
-                        "att": 1815,
-                        "def": 630,
-                        "hp": 4725
-                  },
-                  {
-                        "att": 1825,
-                        "def": 633,
-                        "hp": 4747
-                  },
-                  {
-                        "att": 1834,
-                        "def": 636,
-                        "hp": 4769
-                  },
-                  {
-                        "att": 1843,
-                        "def": 639,
-                        "hp": 4791
-                  },
-                  {
-                        "att": 1852,
-                        "def": 642,
-                        "hp": 4813
-                  },
-                  {
-                        "att": 1862,
-                        "def": 645,
-                        "hp": 4835
-                  },
-                  {
-                        "att": 1871,
-                        "def": 648,
-                        "hp": 4857
-                  },
-                  {
-                        "att": 1880,
-                        "def": 651,
-                        "hp": 4879
-                  },
-                  {
-                        "att": 1889,
-                        "def": 654,
-                        "hp": 4901
-                  },
-                  {
-                        "att": 1899,
-                        "def": 657,
-                        "hp": 4924
-                  },
-                  {
-                        "att": 1908,
-                        "def": 660,
-                        "hp": 4946
-                  },
-                  {
-                        "att": 1917,
-                        "def": 663,
-                        "hp": 4968
-                  },
-                  {
-                        "att": 1927,
-                        "def": 666,
-                        "hp": 4990
-                  },
-                  {
-                        "att": 1936,
-                        "def": 669,
-                        "hp": 5012
-                  },
-                  {
-                        "att": 1945,
-                        "def": 672,
-                        "hp": 5034
-                  },
-                  {
-                        "att": 1954,
-                        "def": 675,
-                        "hp": 5056
-                  },
-                  {
-                        "att": 1964,
-                        "def": 678,
-                        "hp": 5078
-                  },
-                  {
-                        "att": 1973,
-                        "def": 681,
-                        "hp": 5100
-                  },
-                  {
-                        "att": 1982,
-                        "def": 684,
-                        "hp": 5122
-                  },
-                  {
-                        "att": 1991,
-                        "def": 687,
-                        "hp": 5144
-                  },
-                  {
-                        "att": 2001,
-                        "def": 690,
-                        "hp": 5166
-                  },
-                  {
-                        "att": 2222,
-                        "def": 757,
-                        "hp": 5751
-                  },
-                  {
-                        "att": 2228,
-                        "def": 759,
-                        "hp": 5766
-                  },
-                  {
-                        "att": 2234,
-                        "def": 761,
-                        "hp": 5780
-                  },
-                  {
-                        "att": 2240,
-                        "def": 763,
-                        "hp": 5795
-                  },
-                  {
-                        "att": 2247,
-                        "def": 766,
-                        "hp": 5810
-                  },
-                  {
-                        "att": 2253,
-                        "def": 768,
-                        "hp": 5825
-                  },
-                  {
-                        "att": 2259,
-                        "def": 770,
-                        "hp": 5839
-                  },
-                  {
-                        "att": 2265,
-                        "def": 772,
-                        "hp": 5854
-                  },
-                  {
-                        "att": 2271,
-                        "def": 774,
-                        "hp": 5869
-                  },
-                  {
-                        "att": 2277,
-                        "def": 776,
-                        "hp": 5883
-                  },
-                  {
-                        "att": 2284,
-                        "def": 778,
-                        "hp": 5898
-                  },
-                  {
-                        "att": 2290,
-                        "def": 780,
-                        "hp": 5913
-                  },
-                  {
-                        "att": 2296,
-                        "def": 782,
-                        "hp": 5927
-                  },
-                  {
-                        "att": 2302,
-                        "def": 784,
-                        "hp": 5942
-                  },
-                  {
-                        "att": 2308,
-                        "def": 786,
-                        "hp": 5957
-                  },
-                  {
-                        "att": 2314,
-                        "def": 788,
-                        "hp": 5972
-                  },
-                  {
-                        "att": 2321,
-                        "def": 790,
-                        "hp": 5986
-                  },
-                  {
-                        "att": 2327,
-                        "def": 792,
-                        "hp": 6001
-                  },
-                  {
-                        "att": 2333,
-                        "def": 794,
-                        "hp": 6016
-                  },
-                  {
-                        "att": 2339,
-                        "def": 796,
-                        "hp": 6030
-                  },
-                  {
-                        "att": 2345,
-                        "def": 798,
-                        "hp": 6045
-                  },
-                  {
-                        "att": 2352,
-                        "def": 800,
-                        "hp": 6060
-                  },
-                  {
-                        "att": 2358,
-                        "def": 802,
-                        "hp": 6075
-                  },
-                  {
-                        "att": 2364,
-                        "def": 804,
-                        "hp": 6089
-                  },
-                  {
-                        "att": 2370,
-                        "def": 806,
-                        "hp": 6104
-                  },
-                  {
-                        "att": 2376,
-                        "def": 808,
-                        "hp": 6119
-                  },
-                  {
-                        "att": 2382,
-                        "def": 810,
-                        "hp": 6133
-                  },
-                  {
-                        "att": 2389,
-                        "def": 812,
-                        "hp": 6148
-                  },
-                  {
-                        "att": 2395,
-                        "def": 814,
-                        "hp": 6163
-                  },
-                  {
-                        "att": 2401,
-                        "def": 816,
-                        "hp": 6178
-                  },
-                  {
-                        "att": 2407,
-                        "def": 818,
-                        "hp": 6192
-                  },
-                  {
-                        "att": 2413,
-                        "def": 820,
-                        "hp": 6207
-                  },
-                  {
-                        "att": 2419,
-                        "def": 822,
-                        "hp": 6222
-                  },
-                  {
-                        "att": 2426,
-                        "def": 824,
-                        "hp": 6236
-                  },
-                  {
-                        "att": 2432,
-                        "def": 826,
-                        "hp": 6251
-                  },
-                  {
-                        "att": 2438,
-                        "def": 828,
-                        "hp": 6266
-                  },
-                  {
-                        "att": 2444,
-                        "def": 830,
-                        "hp": 6280
-                  },
-                  {
-                        "att": 2450,
-                        "def": 832,
-                        "hp": 6295
-                  },
-                  {
-                        "att": 2456,
-                        "def": 834,
-                        "hp": 6310
-                  },
-                  {
-                        "att": 2463,
-                        "def": 836,
-                        "hp": 6325
-                  },
-                  {
-                        "att": 2469,
-                        "def": 838,
-                        "hp": 6339
-                  },
-                  {
-                        "att": 2475,
-                        "def": 840,
-                        "hp": 6354
-                  },
-                  {
-                        "att": 2481,
-                        "def": 842,
-                        "hp": 6369
-                  },
-                  {
-                        "att": 2487,
-                        "def": 844,
-                        "hp": 6383
-                  },
-                  {
-                        "att": 2494,
-                        "def": 846,
-                        "hp": 6398
-                  },
-                  {
-                        "att": 2500,
-                        "def": 848,
-                        "hp": 6413
-                  },
-                  {
-                        "att": 2506,
-                        "def": 850,
-                        "hp": 6428
-                  },
-                  {
-                        "att": 2512,
-                        "def": 852,
-                        "hp": 6442
-                  },
-                  {
-                        "att": 2518,
-                        "def": 854,
-                        "hp": 6457
-                  },
-                  {
-                        "att": 2524,
-                        "def": 856,
-                        "hp": 6472
-                  },
-                  {
-                        "att": 2531,
-                        "def": 858,
-                        "hp": 6486
-                  },
-                  {
-                        "att": 2537,
-                        "def": 860,
-                        "hp": 6501
-                  },
-                  {
-                        "att": 2543,
-                        "def": 862,
-                        "hp": 6516
-                  },
-                  {
-                        "att": 2549,
-                        "def": 864,
-                        "hp": 6531
-                  },
-                  {
-                        "att": 2555,
-                        "def": 866,
-                        "hp": 6545
-                  },
-                  {
-                        "att": 2561,
-                        "def": 868,
-                        "hp": 6560
-                  },
-                  {
-                        "att": 2568,
-                        "def": 870,
-                        "hp": 6575
-                  },
-                  {
-                        "att": 2574,
-                        "def": 872,
-                        "hp": 6589
-                  },
-                  {
-                        "att": 2580,
-                        "def": 874,
-                        "hp": 6604
-                  },
-                  {
-                        "att": 2586,
-                        "def": 876,
-                        "hp": 6619
-                  },
-                  {
-                        "att": 2592,
-                        "def": 878,
-                        "hp": 6633
-                  },
-                  {
-                        "att": 2599,
-                        "def": 880,
-                        "hp": 6648
-                  },
-                  {
-                        "att": 2605,
-                        "def": 882,
-                        "hp": 6663
-                  },
-                  {
-                        "att": 2611,
-                        "def": 884,
-                        "hp": 6678
-                  },
-                  {
-                        "att": 2617,
-                        "def": 886,
-                        "hp": 6692
-                  },
-                  {
-                        "att": 2623,
-                        "def": 888,
-                        "hp": 6707
-                  },
-                  {
-                        "att": 2629,
-                        "def": 890,
-                        "hp": 6722
-                  },
-                  {
-                        "att": 2636,
-                        "def": 892,
-                        "hp": 6736
-                  },
-                  {
-                        "att": 2642,
-                        "def": 894,
-                        "hp": 6751
-                  },
-                  {
-                        "att": 2648,
-                        "def": 896,
-                        "hp": 6766
-                  },
-                  {
-                        "att": 2654,
-                        "def": 898,
-                        "hp": 6781
-                  },
-                  {
-                        "att": 2660,
-                        "def": 900,
-                        "hp": 6795
-                  },
-                  {
-                        "att": 2666,
-                        "def": 902,
-                        "hp": 6810
-                  },
-                  {
-                        "att": 2673,
-                        "def": 904,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2679,
-                        "def": 906,
-                        "hp": 6839
-                  },
-                  {
-                        "att": 2685,
-                        "def": 908,
-                        "hp": 6854
-                  },
-                  {
-                        "att": 2691,
-                        "def": 910,
-                        "hp": 6869
-                  },
-                  {
-                        "att": 2697,
-                        "def": 912,
-                        "hp": 6884
-                  },
-                  {
-                        "att": 2704,
-                        "def": 914,
-                        "hp": 6898
-                  },
-                  {
-                        "att": 2710,
-                        "def": 916,
-                        "hp": 6913
-                  }
-            ]
-      }
+ "name": "Joanie Boom",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Converter",
+ "skill": {
+  "name": "No Survivors",
+  "cd": "2 Turn",
+  "description": [
+   "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "Deals 200% damage to 2 surrounding clusters and resets all non-Red tiles within the area of attack. There is a small chance to generate Red tiles."
+  ]
+ },
+ "equip": {
+  "name": "Homemade Bomb",
+  "passive": "Sticky Incendiary Rounds",
+  "description": [
+   [
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 12% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 12% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 15% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 18% for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round."
+   ],
+   [
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
+   ],
+   [
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 12% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 15% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 18% Burn for 2 rounds. All stacks are cleared at the start of the round.",
+    "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
+   ]
+  ],
+  "introduction": "Joanie Boom has always been fascinated with explosions, and after joining the Rediesel Wrenches, this passion became even more intense. Every time she fights, she uses all kinds of her own carefully-crafted bombs to blast away the Eclipsites with fierce explosions and fearsome flames. In her opinion, there is nothing more wonderful in the world than a good bomb."
+ },
+ "chain": {
+  "name": "Nitro Dynamite",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Flare Powder",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Potion I",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants 1 stack of Stickiness Mark at the start of each round. Each stack increases the chance of Chain Combo inflicting  Burn by 20% for 2 rounds. All stacks are cleared at the start of the round.",
+   "after": "Grants 1 stack of Stickiness Mark at the start of each round and upon using an Active Skill. Each stack increases the chance of Chain Combo inflicting 20% Burn for 2 rounds. All stacks are cleared at the start of the round."
+  },
+  {
+   "material": [
+    "Fire Potion III",
+    "Fire Crystal",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "after": "Deals 200% damage to 2 surrounding clusters and resets all non-Red tiles within the area of attack. There is a small chance to generate Red tiles."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 527,
+    "def": 206,
+    "hp": 1584
+   },
+   {
+    "att": 537,
+    "def": 209,
+    "hp": 1607
+   },
+   {
+    "att": 547,
+    "def": 212,
+    "hp": 1631
+   },
+   {
+    "att": 556,
+    "def": 215,
+    "hp": 1655
+   },
+   {
+    "att": 566,
+    "def": 218,
+    "hp": 1678
+   },
+   {
+    "att": 576,
+    "def": 222,
+    "hp": 1702
+   },
+   {
+    "att": 586,
+    "def": 225,
+    "hp": 1725
+   },
+   {
+    "att": 596,
+    "def": 228,
+    "hp": 1749
+   },
+   {
+    "att": 606,
+    "def": 231,
+    "hp": 1772
+   },
+   {
+    "att": 616,
+    "def": 234,
+    "hp": 1796
+   },
+   {
+    "att": 626,
+    "def": 238,
+    "hp": 1819
+   },
+   {
+    "att": 636,
+    "def": 241,
+    "hp": 1843
+   },
+   {
+    "att": 645,
+    "def": 244,
+    "hp": 1866
+   },
+   {
+    "att": 655,
+    "def": 247,
+    "hp": 1890
+   },
+   {
+    "att": 665,
+    "def": 251,
+    "hp": 1913
+   },
+   {
+    "att": 675,
+    "def": 254,
+    "hp": 1937
+   },
+   {
+    "att": 685,
+    "def": 257,
+    "hp": 1960
+   },
+   {
+    "att": 695,
+    "def": 260,
+    "hp": 1984
+   },
+   {
+    "att": 705,
+    "def": 263,
+    "hp": 2008
+   },
+   {
+    "att": 715,
+    "def": 267,
+    "hp": 2031
+   },
+   {
+    "att": 724,
+    "def": 270,
+    "hp": 2055
+   },
+   {
+    "att": 734,
+    "def": 273,
+    "hp": 2078
+   },
+   {
+    "att": 744,
+    "def": 276,
+    "hp": 2102
+   },
+   {
+    "att": 754,
+    "def": 280,
+    "hp": 2125
+   },
+   {
+    "att": 764,
+    "def": 283,
+    "hp": 2149
+   },
+   {
+    "att": 774,
+    "def": 286,
+    "hp": 2172
+   },
+   {
+    "att": 784,
+    "def": 289,
+    "hp": 2196
+   },
+   {
+    "att": 794,
+    "def": 292,
+    "hp": 2219
+   },
+   {
+    "att": 804,
+    "def": 296,
+    "hp": 2243
+   },
+   {
+    "att": 813,
+    "def": 299,
+    "hp": 2266
+   },
+   {
+    "att": 916,
+    "def": 333,
+    "hp": 2536
+   },
+   {
+    "att": 928,
+    "def": 337,
+    "hp": 2565
+   },
+   {
+    "att": 940,
+    "def": 341,
+    "hp": 2595
+   },
+   {
+    "att": 953,
+    "def": 345,
+    "hp": 2624
+   },
+   {
+    "att": 965,
+    "def": 349,
+    "hp": 2653
+   },
+   {
+    "att": 978,
+    "def": 353,
+    "hp": 2683
+   },
+   {
+    "att": 990,
+    "def": 357,
+    "hp": 2712
+   },
+   {
+    "att": 1002,
+    "def": 361,
+    "hp": 2742
+   },
+   {
+    "att": 1015,
+    "def": 365,
+    "hp": 2771
+   },
+   {
+    "att": 1027,
+    "def": 369,
+    "hp": 2801
+   },
+   {
+    "att": 1039,
+    "def": 373,
+    "hp": 2830
+   },
+   {
+    "att": 1052,
+    "def": 377,
+    "hp": 2859
+   },
+   {
+    "att": 1064,
+    "def": 381,
+    "hp": 2889
+   },
+   {
+    "att": 1076,
+    "def": 385,
+    "hp": 2918
+   },
+   {
+    "att": 1089,
+    "def": 389,
+    "hp": 2948
+   },
+   {
+    "att": 1101,
+    "def": 393,
+    "hp": 2977
+   },
+   {
+    "att": 1113,
+    "def": 397,
+    "hp": 3006
+   },
+   {
+    "att": 1126,
+    "def": 401,
+    "hp": 3036
+   },
+   {
+    "att": 1138,
+    "def": 405,
+    "hp": 3065
+   },
+   {
+    "att": 1150,
+    "def": 409,
+    "hp": 3095
+   },
+   {
+    "att": 1163,
+    "def": 413,
+    "hp": 3124
+   },
+   {
+    "att": 1175,
+    "def": 417,
+    "hp": 3154
+   },
+   {
+    "att": 1187,
+    "def": 421,
+    "hp": 3183
+   },
+   {
+    "att": 1200,
+    "def": 425,
+    "hp": 3212
+   },
+   {
+    "att": 1212,
+    "def": 429,
+    "hp": 3242
+   },
+   {
+    "att": 1225,
+    "def": 433,
+    "hp": 3271
+   },
+   {
+    "att": 1237,
+    "def": 437,
+    "hp": 3301
+   },
+   {
+    "att": 1249,
+    "def": 441,
+    "hp": 3330
+   },
+   {
+    "att": 1262,
+    "def": 445,
+    "hp": 3360
+   },
+   {
+    "att": 1274,
+    "def": 449,
+    "hp": 3389
+   },
+   {
+    "att": 1286,
+    "def": 453,
+    "hp": 3418
+   },
+   {
+    "att": 1299,
+    "def": 457,
+    "hp": 3448
+   },
+   {
+    "att": 1311,
+    "def": 462,
+    "hp": 3477
+   },
+   {
+    "att": 1323,
+    "def": 466,
+    "hp": 3507
+   },
+   {
+    "att": 1336,
+    "def": 470,
+    "hp": 3536
+   },
+   {
+    "att": 1348,
+    "def": 474,
+    "hp": 3565
+   },
+   {
+    "att": 1360,
+    "def": 478,
+    "hp": 3595
+   },
+   {
+    "att": 1373,
+    "def": 482,
+    "hp": 3624
+   },
+   {
+    "att": 1385,
+    "def": 486,
+    "hp": 3654
+   },
+   {
+    "att": 1397,
+    "def": 490,
+    "hp": 3683
+   },
+   {
+    "att": 1547,
+    "def": 543,
+    "hp": 4085
+   },
+   {
+    "att": 1556,
+    "def": 546,
+    "hp": 4107
+   },
+   {
+    "att": 1565,
+    "def": 549,
+    "hp": 4129
+   },
+   {
+    "att": 1575,
+    "def": 552,
+    "hp": 4151
+   },
+   {
+    "att": 1584,
+    "def": 555,
+    "hp": 4173
+   },
+   {
+    "att": 1593,
+    "def": 558,
+    "hp": 4195
+   },
+   {
+    "att": 1602,
+    "def": 561,
+    "hp": 4218
+   },
+   {
+    "att": 1612,
+    "def": 564,
+    "hp": 4240
+   },
+   {
+    "att": 1621,
+    "def": 567,
+    "hp": 4262
+   },
+   {
+    "att": 1630,
+    "def": 570,
+    "hp": 4284
+   },
+   {
+    "att": 1639,
+    "def": 573,
+    "hp": 4306
+   },
+   {
+    "att": 1649,
+    "def": 576,
+    "hp": 4328
+   },
+   {
+    "att": 1658,
+    "def": 579,
+    "hp": 4350
+   },
+   {
+    "att": 1667,
+    "def": 582,
+    "hp": 4372
+   },
+   {
+    "att": 1676,
+    "def": 585,
+    "hp": 4394
+   },
+   {
+    "att": 1686,
+    "def": 588,
+    "hp": 4416
+   },
+   {
+    "att": 1695,
+    "def": 591,
+    "hp": 4438
+   },
+   {
+    "att": 1704,
+    "def": 594,
+    "hp": 4460
+   },
+   {
+    "att": 1713,
+    "def": 597,
+    "hp": 4482
+   },
+   {
+    "att": 1723,
+    "def": 600,
+    "hp": 4504
+   },
+   {
+    "att": 1732,
+    "def": 603,
+    "hp": 4526
+   },
+   {
+    "att": 1741,
+    "def": 606,
+    "hp": 4548
+   },
+   {
+    "att": 1751,
+    "def": 609,
+    "hp": 4571
+   },
+   {
+    "att": 1760,
+    "def": 612,
+    "hp": 4593
+   },
+   {
+    "att": 1769,
+    "def": 615,
+    "hp": 4615
+   },
+   {
+    "att": 1778,
+    "def": 618,
+    "hp": 4637
+   },
+   {
+    "att": 1788,
+    "def": 621,
+    "hp": 4659
+   },
+   {
+    "att": 1797,
+    "def": 624,
+    "hp": 4681
+   },
+   {
+    "att": 1806,
+    "def": 627,
+    "hp": 4703
+   },
+   {
+    "att": 1815,
+    "def": 630,
+    "hp": 4725
+   },
+   {
+    "att": 1825,
+    "def": 633,
+    "hp": 4747
+   },
+   {
+    "att": 1834,
+    "def": 636,
+    "hp": 4769
+   },
+   {
+    "att": 1843,
+    "def": 639,
+    "hp": 4791
+   },
+   {
+    "att": 1852,
+    "def": 642,
+    "hp": 4813
+   },
+   {
+    "att": 1862,
+    "def": 645,
+    "hp": 4835
+   },
+   {
+    "att": 1871,
+    "def": 648,
+    "hp": 4857
+   },
+   {
+    "att": 1880,
+    "def": 651,
+    "hp": 4879
+   },
+   {
+    "att": 1889,
+    "def": 654,
+    "hp": 4901
+   },
+   {
+    "att": 1899,
+    "def": 657,
+    "hp": 4924
+   },
+   {
+    "att": 1908,
+    "def": 660,
+    "hp": 4946
+   },
+   {
+    "att": 1917,
+    "def": 663,
+    "hp": 4968
+   },
+   {
+    "att": 1927,
+    "def": 666,
+    "hp": 4990
+   },
+   {
+    "att": 1936,
+    "def": 669,
+    "hp": 5012
+   },
+   {
+    "att": 1945,
+    "def": 672,
+    "hp": 5034
+   },
+   {
+    "att": 1954,
+    "def": 675,
+    "hp": 5056
+   },
+   {
+    "att": 1964,
+    "def": 678,
+    "hp": 5078
+   },
+   {
+    "att": 1973,
+    "def": 681,
+    "hp": 5100
+   },
+   {
+    "att": 1982,
+    "def": 684,
+    "hp": 5122
+   },
+   {
+    "att": 1991,
+    "def": 687,
+    "hp": 5144
+   },
+   {
+    "att": 2001,
+    "def": 690,
+    "hp": 5166
+   },
+   {
+    "att": 2222,
+    "def": 757,
+    "hp": 5751
+   },
+   {
+    "att": 2228,
+    "def": 759,
+    "hp": 5766
+   },
+   {
+    "att": 2234,
+    "def": 761,
+    "hp": 5780
+   },
+   {
+    "att": 2240,
+    "def": 763,
+    "hp": 5795
+   },
+   {
+    "att": 2247,
+    "def": 766,
+    "hp": 5810
+   },
+   {
+    "att": 2253,
+    "def": 768,
+    "hp": 5825
+   },
+   {
+    "att": 2259,
+    "def": 770,
+    "hp": 5839
+   },
+   {
+    "att": 2265,
+    "def": 772,
+    "hp": 5854
+   },
+   {
+    "att": 2271,
+    "def": 774,
+    "hp": 5869
+   },
+   {
+    "att": 2277,
+    "def": 776,
+    "hp": 5883
+   },
+   {
+    "att": 2284,
+    "def": 778,
+    "hp": 5898
+   },
+   {
+    "att": 2290,
+    "def": 780,
+    "hp": 5913
+   },
+   {
+    "att": 2296,
+    "def": 782,
+    "hp": 5927
+   },
+   {
+    "att": 2302,
+    "def": 784,
+    "hp": 5942
+   },
+   {
+    "att": 2308,
+    "def": 786,
+    "hp": 5957
+   },
+   {
+    "att": 2314,
+    "def": 788,
+    "hp": 5972
+   },
+   {
+    "att": 2321,
+    "def": 790,
+    "hp": 5986
+   },
+   {
+    "att": 2327,
+    "def": 792,
+    "hp": 6001
+   },
+   {
+    "att": 2333,
+    "def": 794,
+    "hp": 6016
+   },
+   {
+    "att": 2339,
+    "def": 796,
+    "hp": 6030
+   },
+   {
+    "att": 2345,
+    "def": 798,
+    "hp": 6045
+   },
+   {
+    "att": 2352,
+    "def": 800,
+    "hp": 6060
+   },
+   {
+    "att": 2358,
+    "def": 802,
+    "hp": 6075
+   },
+   {
+    "att": 2364,
+    "def": 804,
+    "hp": 6089
+   },
+   {
+    "att": 2370,
+    "def": 806,
+    "hp": 6104
+   },
+   {
+    "att": 2376,
+    "def": 808,
+    "hp": 6119
+   },
+   {
+    "att": 2382,
+    "def": 810,
+    "hp": 6133
+   },
+   {
+    "att": 2389,
+    "def": 812,
+    "hp": 6148
+   },
+   {
+    "att": 2395,
+    "def": 814,
+    "hp": 6163
+   },
+   {
+    "att": 2401,
+    "def": 816,
+    "hp": 6178
+   },
+   {
+    "att": 2407,
+    "def": 818,
+    "hp": 6192
+   },
+   {
+    "att": 2413,
+    "def": 820,
+    "hp": 6207
+   },
+   {
+    "att": 2419,
+    "def": 822,
+    "hp": 6222
+   },
+   {
+    "att": 2426,
+    "def": 824,
+    "hp": 6236
+   },
+   {
+    "att": 2432,
+    "def": 826,
+    "hp": 6251
+   },
+   {
+    "att": 2438,
+    "def": 828,
+    "hp": 6266
+   },
+   {
+    "att": 2444,
+    "def": 830,
+    "hp": 6280
+   },
+   {
+    "att": 2450,
+    "def": 832,
+    "hp": 6295
+   },
+   {
+    "att": 2456,
+    "def": 834,
+    "hp": 6310
+   },
+   {
+    "att": 2463,
+    "def": 836,
+    "hp": 6325
+   },
+   {
+    "att": 2469,
+    "def": 838,
+    "hp": 6339
+   },
+   {
+    "att": 2475,
+    "def": 840,
+    "hp": 6354
+   },
+   {
+    "att": 2481,
+    "def": 842,
+    "hp": 6369
+   },
+   {
+    "att": 2487,
+    "def": 844,
+    "hp": 6383
+   },
+   {
+    "att": 2494,
+    "def": 846,
+    "hp": 6398
+   },
+   {
+    "att": 2500,
+    "def": 848,
+    "hp": 6413
+   },
+   {
+    "att": 2506,
+    "def": 850,
+    "hp": 6428
+   },
+   {
+    "att": 2512,
+    "def": 852,
+    "hp": 6442
+   },
+   {
+    "att": 2518,
+    "def": 854,
+    "hp": 6457
+   },
+   {
+    "att": 2524,
+    "def": 856,
+    "hp": 6472
+   },
+   {
+    "att": 2531,
+    "def": 858,
+    "hp": 6486
+   },
+   {
+    "att": 2537,
+    "def": 860,
+    "hp": 6501
+   },
+   {
+    "att": 2543,
+    "def": 862,
+    "hp": 6516
+   },
+   {
+    "att": 2549,
+    "def": 864,
+    "hp": 6531
+   },
+   {
+    "att": 2555,
+    "def": 866,
+    "hp": 6545
+   },
+   {
+    "att": 2561,
+    "def": 868,
+    "hp": 6560
+   },
+   {
+    "att": 2568,
+    "def": 870,
+    "hp": 6575
+   },
+   {
+    "att": 2574,
+    "def": 872,
+    "hp": 6589
+   },
+   {
+    "att": 2580,
+    "def": 874,
+    "hp": 6604
+   },
+   {
+    "att": 2586,
+    "def": 876,
+    "hp": 6619
+   },
+   {
+    "att": 2592,
+    "def": 878,
+    "hp": 6633
+   },
+   {
+    "att": 2599,
+    "def": 880,
+    "hp": 6648
+   },
+   {
+    "att": 2605,
+    "def": 882,
+    "hp": 6663
+   },
+   {
+    "att": 2611,
+    "def": 884,
+    "hp": 6678
+   },
+   {
+    "att": 2617,
+    "def": 886,
+    "hp": 6692
+   },
+   {
+    "att": 2623,
+    "def": 888,
+    "hp": 6707
+   },
+   {
+    "att": 2629,
+    "def": 890,
+    "hp": 6722
+   },
+   {
+    "att": 2636,
+    "def": 892,
+    "hp": 6736
+   },
+   {
+    "att": 2642,
+    "def": 894,
+    "hp": 6751
+   },
+   {
+    "att": 2648,
+    "def": 896,
+    "hp": 6766
+   },
+   {
+    "att": 2654,
+    "def": 898,
+    "hp": 6781
+   },
+   {
+    "att": 2660,
+    "def": 900,
+    "hp": 6795
+   },
+   {
+    "att": 2666,
+    "def": 902,
+    "hp": 6810
+   },
+   {
+    "att": 2673,
+    "def": 904,
+    "hp": 6825
+   },
+   {
+    "att": 2679,
+    "def": 906,
+    "hp": 6839
+   },
+   {
+    "att": 2685,
+    "def": 908,
+    "hp": 6854
+   },
+   {
+    "att": 2691,
+    "def": 910,
+    "hp": 6869
+   },
+   {
+    "att": 2697,
+    "def": 912,
+    "hp": 6884
+   },
+   {
+    "att": 2704,
+    "def": 914,
+    "hp": 6898
+   },
+   {
+    "att": 2710,
+    "def": 916,
+    "hp": 6913
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   },
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Joanie Boom",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Joanie Boom:",
+      "text": "Bang bang bang bang!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Shut up! Can you quiet down? Can't you see I'm doing research?"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Doing research? What about? Explosives?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yes! Researching how to blow you up into the sky!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Hahahaha! Then there's no need for you to research. I can do that myself!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "A lunatic, then. Whatever, it's a waste of time talking to you."
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "As long as my nitric acid explosives are used, with the right equivalent..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "... Nitric acid? Equivalent? Sounds professional."
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "And some lovely candies..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Candies? What are those? They don't look like candies! Is it some kind of synthetic thing I haven't seen before?"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Then light the fuse..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Wait! Don't light it yet. Tell me what it's made of, I need to study it!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Bang, and into the sky I go!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "*Bang!*"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Hey! Don't bang into the sky yet! Tell me what that candy thing is!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Actually, we had heard many rumors about Joanie Boom before she came here. She seems to have come here to search for the most powerful bomb material in the world. She's completely obsessed with explosions, and I heard it is because she wants to bomb a certain city? Hold on, who approved her access? Was it me?!Never mind. What we're currently worried about is what we should call her... Ms. Boom? Ms. Joanie? There seems to be some discrepancy between her name and her file info. I think it was her code name that was changed later, so I guess her surname Pence is what she doesn't want to be mentioned. Wait a minute, in that case, why did she write that in the file? She could have written something else if she wanted to conceal it or prevent others from mentioning it. I wonder what goes on in that head of hers? Sorry, I'm just a little confused...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hey! Yo! New partner! This gunpowder genius is here to introduce herself to you!It is such an exciting and adventurous experience to live in the desert as you never know when you'll be attacked by unknown creatures. You'll even encounter super-strong opponents! But that just means you can fight back and show no mercy! Sometimes I get so high that I get caught up in the blast of my explosions too, but you won't believe how much fun it is! This continued until I encountered a group of Eclipsites. When I was happily blowing things up, I saw a giant lizard and almost thought it was an Eclipsite!I later learned that I almost blew up the nest of Rediesel Wrench! Hahaha! I get along quite well with the people there, so I decided to rest and spend some time with them. The boss let me join without any hesitation. That felt so good!Oh right, I completely forgot to introduce myself. I'll get to that next time!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "What do I usually blow up? Everything! Everything that disgusts me or is troublesome should just disappear, especially those hypocrites as I find them even more annoying than the Eclipsites! I hate them!You mean on the battlefield? The enemy, of course! Especially those Eclipsites who don't know what they're up against. It would be a waste to not blow them all up! There's no game more exciting than this one where I get to blow up Eclipsites!I was involved in some sort of defensive battle in the Dunes when I first discovered this game. It was also then that I met Rediesel Wrench. Hmph, they looked down on me at first, thinking I was a vagrant, but they immediately asked me to join them after they saw how I dropped my bombs, even though I nearly destroyed their home, haha!Unfortunately, there haven't been many Eclipsites for me to bomb since that large battle a few years ago. In that battle, there were way too many Eclipsites to count. I could just throw a bomb here and there to watch them get blown sky high!!! You wouldn't believe how happy I was!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "When I was at Undercity 66, I had a friend called... what was she called? Ah, yes, Royce! I remember that she was always the second in command. I wasn't interested in becoming friends with her at first, but she kept pestering me about exchanging notes on ways to make our bombs stronger. Well, her talk about bombs certainly caught my attention! It didn't take long until we became friends!I was too easily excited when I heard anyone talk about blowing stuffs up back then, hahaha! She egged me on to test the sturdiness of a certain building, and in the end, I blew it up as I hummed a tune to myself! My school suspended me after I blew that place up!Hey, I was scolded quite harshly by my parents for that, but I get such a rush when I think about blowing stuff up! Hahaha! Do you want to try it too?"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Pence? Pence is my surname. Oh, haven't I told you? It isn't important anyway! I was kind of like a lady back then, but life was incredibly boring as everything was the same every day. It's much more interesting now because I can blow up anything I want to! So, I had a whim\u2014I wanted to go to other places because there was nothing left for me to bomb in Undercity 66!I had a massive fight with my parents because of this. My father said I wouldn't be allowed to use my surname if I left as I'd bring further shame to the family. So what? I won't use it then! I haven't used it at all since I left. I don't use it, but it's not like I'm using it if it's just written in the file, right? Hahahaha!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "At Rediesel, people can go for joyrides every day and pick up all kinds of food in the desert.",
+  "Oh, I buried some treasures before I left Illumina. I wonder if they've been found...",
+  "Blow it up!",
+  "You get a bomb! BOOM! You get a bomb! BOOM! Everybody gets a bomb!",
+  "Honcho likes to bring people around to pick up trash and bring back lots of research materials!",
+  "Tiny One and I always sort trash together... Wait, or was it trophy sorting as she calls it?",
+  "The jingling and clanging metals, the blasting explosions, and the popping Pop Rocks!",
+  "I can't stand a quiet life with no sound. Let's make some noise!",
+  "I know! Colossus looks so easy to dismantle. One well-placed charge and it'll crumble.",
+  "Guess which one of my hands is holding a bomb? Duh! Both of them of course.",
+  "Here I come! I'll get the party started!",
+  "My hair's burnt... Boo-hoo...",
+  "Nicely done! This is a great firework show!",
+  "Boom! Fizz! Boom!",
+  "Reduced to ashes! Shalalala \u266a",
+  "We can start the countdown now!",
+  "New year celebration is all about blowing things up!",
+  "Let's roll!",
+  "New formula!",
+  "We can have a fireworks show now! Wheee! It's super exciting!",
+  "Now who will be the lucky one to get sent into the sky?",
+  "If I don't do something, I'm going to be bored out of my mind. Can I go play with Tiny One?",
+  "Power -to the MAX!",
+  "Alchemy Stars! Boom!",
+  "Wanna try some pop rocks? Everyone in the Science Division loves this flavor. Oh, sorry, I gave you the wrong one. These are explosives.",
+  "Have you ever seen fireworks? Humph! I make idiots who mess with me blow up like an H-bomb.",
+  "Explosions are romantic! Can't you understand that? Well, you simply don't understand the spirit of a young lady!",
+  "Fireworks... They're so pretty! Don't you wish you could just BE a firework?! Don't worry. I'm an expert at this!",
+  "I'm thinking about concocting some new ones... Tiny One said the red ones are good. What color do you prefer when it blooms?",
+  "My dear friend, did you drop this gold bomb? This silver bomb? Or this pack of ordinary bombs? Actually, you can keep them all!",
+  "Aren't pop rocks great? These in-the-mouth explosions are just as wonderful as any other explosions!",
+  "Is there anything you want to blow up lately? Size doesn't matter. It can be a watermelon, a building, or maybe Lumopolis?",
+  "Whoa! How did you just appear out of nowhere like that? Yikes! I thought my heart was gonna explode...",
+  "Iced soda is nice, and iced nitroglycerin is great as well! Hmm, they seem to coincide.",
+  "Smell it! There's a sweet scent to this special bomb. Don't worry\u2014smelling it won't make it explode.",
+  "Bring your goggles and backpack. Pack up your stuffs. Let's have some fun!",
+  "You're back on the team! Why don't we set off a few fireworks to celebrate? Oh, crumbs! It's already lit.",
+  "You up? I've put a lot of gadgets on your bedside table. Did you not see them?",
+  "You're back just in time! Want some sandworms? They're cold tossed! Mmm... and they smell great!",
+  "Are you going to bed? Want me to play you some bedtime crackles? It'll help you sleep well!",
+  "Nice to meet you! I'm Joanie Boom. Take that bomb I just put in your pocket as a welcome gift.",
+  "Not bad!",
+  "Very nice! Let's blow another one up!",
+  "This is so much fun! I'm so happy!",
+  "This is awesome! I'm gonna put it away for now!",
+  "Let the explosion be grand!",
+  "Burn and bloom in the sky!",
+  "I'll show you the best fireworks ever!",
+  "Once I almost blew up the home base of Rediesel Wrench... Whoa... Relax! It was just an accident. Although I kinda liked the way it turned out...",
+  "Boring stuffs? Annoying fellas? Just blow them all up! Wouldn't you agree?",
+  "I'm from the saltpeter vein, and I was in charge of some specialized research. I could be a great help to everyone! Actually, I'm still doing the same thing\u2014blowing stuff up!!",
+  "Here, one bomb for each of you."
+ ],
+ "skins": [],
+ "description": "A little girl fascinated with explosions, who gets unusually excited when something detonates. Such madness is a ticket to Rediesel Wrench. As a Rediesel, she spends all her time studying explosives and couldn't care less if her life is ever in danger...",
+ "realName": "Joanie Boom",
+ "nickname": "Sugar Nitro",
+ "gender": "Female",
+ "height": "4'11''",
+ "birthday": "April 5",
+ "birthplace": "Undercity 66",
+ "style": "Rediesel Bomb"
 }

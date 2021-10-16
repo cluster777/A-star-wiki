@@ -1,1153 +1,1311 @@
 {
-      "name": "Schwartz",
-      "faction": "Lumopolis",
-      "element_main": "Thunder",
-      "element_sub": "Thunder",
-      "rarity": "5",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Deals 300% plus 10% of target's current HP in damage to all enemies.",
-                  "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%.",
-                  "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%."
-            ]
-      },
-      "equip": {
-            "name": "Sovereign's Blade",
-            "passive": "Shield of Radiance",
-            "description": [
-                  [
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
-                  ],
-                  [
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
-                        "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
-                  ],
-                  [
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
-                        "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted)."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Executes non-boss enemies below 10% HP.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Potion I",
-                        "Thunder Crystal Dust",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal",
-                        "Thunder Flare Silt",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 300% plus 10% of target's current HP in damage to all enemies.",
-                  "after": "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%."
-            },
-            {
-                  "material": [
-                        "Thunder Flare Tile",
-                        "Thunder Potion II",
-                        "Daybreak Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed.",
-                  "after": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted)."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 511,
-                        "def": 197,
-                        "hp": 1537
-                  },
-                  {
-                        "att": 521,
-                        "def": 200,
-                        "hp": 1568
-                  },
-                  {
-                        "att": 531,
-                        "def": 203,
-                        "hp": 1599
-                  },
-                  {
-                        "att": 542,
-                        "def": 206,
-                        "hp": 1630
-                  },
-                  {
-                        "att": 552,
-                        "def": 209,
-                        "hp": 1661
-                  },
-                  {
-                        "att": 563,
-                        "def": 212,
-                        "hp": 1692
-                  },
-                  {
-                        "att": 573,
-                        "def": 215,
-                        "hp": 1723
-                  },
-                  {
-                        "att": 583,
-                        "def": 218,
-                        "hp": 1754
-                  },
-                  {
-                        "att": 594,
-                        "def": 220,
-                        "hp": 1785
-                  },
-                  {
-                        "att": 604,
-                        "def": 223,
-                        "hp": 1816
-                  },
-                  {
-                        "att": 615,
-                        "def": 226,
-                        "hp": 1847
-                  },
-                  {
-                        "att": 625,
-                        "def": 229,
-                        "hp": 1878
-                  },
-                  {
-                        "att": 635,
-                        "def": 232,
-                        "hp": 1909
-                  },
-                  {
-                        "att": 646,
-                        "def": 235,
-                        "hp": 1940
-                  },
-                  {
-                        "att": 656,
-                        "def": 238,
-                        "hp": 1971
-                  },
-                  {
-                        "att": 667,
-                        "def": 241,
-                        "hp": 2002
-                  },
-                  {
-                        "att": 677,
-                        "def": 244,
-                        "hp": 2033
-                  },
-                  {
-                        "att": 687,
-                        "def": 247,
-                        "hp": 2064
-                  },
-                  {
-                        "att": 698,
-                        "def": 250,
-                        "hp": 2095
-                  },
-                  {
-                        "att": 708,
-                        "def": 252,
-                        "hp": 2126
-                  },
-                  {
-                        "att": 719,
-                        "def": 255,
-                        "hp": 2157
-                  },
-                  {
-                        "att": 729,
-                        "def": 258,
-                        "hp": 2188
-                  },
-                  {
-                        "att": 740,
-                        "def": 261,
-                        "hp": 2219
-                  },
-                  {
-                        "att": 750,
-                        "def": 264,
-                        "hp": 2250
-                  },
-                  {
-                        "att": 760,
-                        "def": 267,
-                        "hp": 2281
-                  },
-                  {
-                        "att": 771,
-                        "def": 270,
-                        "hp": 2312
-                  },
-                  {
-                        "att": 781,
-                        "def": 273,
-                        "hp": 2343
-                  },
-                  {
-                        "att": 792,
-                        "def": 276,
-                        "hp": 2374
-                  },
-                  {
-                        "att": 802,
-                        "def": 279,
-                        "hp": 2405
-                  },
-                  {
-                        "att": 812,
-                        "def": 282,
-                        "hp": 2436
-                  },
-                  {
-                        "att": 910,
-                        "def": 315,
-                        "hp": 2704
-                  },
-                  {
-                        "att": 923,
-                        "def": 319,
-                        "hp": 2743
-                  },
-                  {
-                        "att": 936,
-                        "def": 323,
-                        "hp": 2782
-                  },
-                  {
-                        "att": 949,
-                        "def": 326,
-                        "hp": 2820
-                  },
-                  {
-                        "att": 962,
-                        "def": 330,
-                        "hp": 2859
-                  },
-                  {
-                        "att": 975,
-                        "def": 333,
-                        "hp": 2898
-                  },
-                  {
-                        "att": 988,
-                        "def": 337,
-                        "hp": 2937
-                  },
-                  {
-                        "att": 1001,
-                        "def": 341,
-                        "hp": 2975
-                  },
-                  {
-                        "att": 1015,
-                        "def": 344,
-                        "hp": 3014
-                  },
-                  {
-                        "att": 1028,
-                        "def": 348,
-                        "hp": 3053
-                  },
-                  {
-                        "att": 1041,
-                        "def": 352,
-                        "hp": 3092
-                  },
-                  {
-                        "att": 1054,
-                        "def": 355,
-                        "hp": 3130
-                  },
-                  {
-                        "att": 1067,
-                        "def": 359,
-                        "hp": 3169
-                  },
-                  {
-                        "att": 1080,
-                        "def": 363,
-                        "hp": 3208
-                  },
-                  {
-                        "att": 1093,
-                        "def": 366,
-                        "hp": 3246
-                  },
-                  {
-                        "att": 1106,
-                        "def": 370,
-                        "hp": 3285
-                  },
-                  {
-                        "att": 1119,
-                        "def": 373,
-                        "hp": 3324
-                  },
-                  {
-                        "att": 1132,
-                        "def": 377,
-                        "hp": 3363
-                  },
-                  {
-                        "att": 1145,
-                        "def": 381,
-                        "hp": 3401
-                  },
-                  {
-                        "att": 1158,
-                        "def": 384,
-                        "hp": 3440
-                  },
-                  {
-                        "att": 1171,
-                        "def": 388,
-                        "hp": 3479
-                  },
-                  {
-                        "att": 1184,
-                        "def": 392,
-                        "hp": 3518
-                  },
-                  {
-                        "att": 1197,
-                        "def": 395,
-                        "hp": 3556
-                  },
-                  {
-                        "att": 1210,
-                        "def": 399,
-                        "hp": 3595
-                  },
-                  {
-                        "att": 1223,
-                        "def": 403,
-                        "hp": 3634
-                  },
-                  {
-                        "att": 1236,
-                        "def": 406,
-                        "hp": 3672
-                  },
-                  {
-                        "att": 1249,
-                        "def": 410,
-                        "hp": 3711
-                  },
-                  {
-                        "att": 1262,
-                        "def": 414,
-                        "hp": 3750
-                  },
-                  {
-                        "att": 1275,
-                        "def": 417,
-                        "hp": 3789
-                  },
-                  {
-                        "att": 1288,
-                        "def": 421,
-                        "hp": 3827
-                  },
-                  {
-                        "att": 1301,
-                        "def": 424,
-                        "hp": 3866
-                  },
-                  {
-                        "att": 1314,
-                        "def": 428,
-                        "hp": 3905
-                  },
-                  {
-                        "att": 1327,
-                        "def": 432,
-                        "hp": 3943
-                  },
-                  {
-                        "att": 1340,
-                        "def": 435,
-                        "hp": 3982
-                  },
-                  {
-                        "att": 1353,
-                        "def": 439,
-                        "hp": 4021
-                  },
-                  {
-                        "att": 1366,
-                        "def": 443,
-                        "hp": 4060
-                  },
-                  {
-                        "att": 1379,
-                        "def": 446,
-                        "hp": 4098
-                  },
-                  {
-                        "att": 1392,
-                        "def": 450,
-                        "hp": 4137
-                  },
-                  {
-                        "att": 1405,
-                        "def": 454,
-                        "hp": 4176
-                  },
-                  {
-                        "att": 1418,
-                        "def": 457,
-                        "hp": 4215
-                  },
-                  {
-                        "att": 1563,
-                        "def": 510,
-                        "hp": 4604
-                  },
-                  {
-                        "att": 1572,
-                        "def": 513,
-                        "hp": 4633
-                  },
-                  {
-                        "att": 1582,
-                        "def": 515,
-                        "hp": 4662
-                  },
-                  {
-                        "att": 1592,
-                        "def": 518,
-                        "hp": 4691
-                  },
-                  {
-                        "att": 1602,
-                        "def": 521,
-                        "hp": 4720
-                  },
-                  {
-                        "att": 1611,
-                        "def": 524,
-                        "hp": 4749
-                  },
-                  {
-                        "att": 1621,
-                        "def": 526,
-                        "hp": 4778
-                  },
-                  {
-                        "att": 1631,
-                        "def": 529,
-                        "hp": 4807
-                  },
-                  {
-                        "att": 1641,
-                        "def": 532,
-                        "hp": 4836
-                  },
-                  {
-                        "att": 1650,
-                        "def": 535,
-                        "hp": 4865
-                  },
-                  {
-                        "att": 1660,
-                        "def": 537,
-                        "hp": 4894
-                  },
-                  {
-                        "att": 1670,
-                        "def": 540,
-                        "hp": 4923
-                  },
-                  {
-                        "att": 1680,
-                        "def": 543,
-                        "hp": 4952
-                  },
-                  {
-                        "att": 1690,
-                        "def": 545,
-                        "hp": 4981
-                  },
-                  {
-                        "att": 1699,
-                        "def": 548,
-                        "hp": 5010
-                  },
-                  {
-                        "att": 1709,
-                        "def": 551,
-                        "hp": 5039
-                  },
-                  {
-                        "att": 1719,
-                        "def": 554,
-                        "hp": 5068
-                  },
-                  {
-                        "att": 1729,
-                        "def": 556,
-                        "hp": 5097
-                  },
-                  {
-                        "att": 1738,
-                        "def": 559,
-                        "hp": 5126
-                  },
-                  {
-                        "att": 1748,
-                        "def": 562,
-                        "hp": 5155
-                  },
-                  {
-                        "att": 1758,
-                        "def": 565,
-                        "hp": 5184
-                  },
-                  {
-                        "att": 1768,
-                        "def": 567,
-                        "hp": 5213
-                  },
-                  {
-                        "att": 1777,
-                        "def": 570,
-                        "hp": 5243
-                  },
-                  {
-                        "att": 1787,
-                        "def": 573,
-                        "hp": 5272
-                  },
-                  {
-                        "att": 1797,
-                        "def": 575,
-                        "hp": 5301
-                  },
-                  {
-                        "att": 1807,
-                        "def": 578,
-                        "hp": 5330
-                  },
-                  {
-                        "att": 1816,
-                        "def": 581,
-                        "hp": 5359
-                  },
-                  {
-                        "att": 1826,
-                        "def": 584,
-                        "hp": 5388
-                  },
-                  {
-                        "att": 1836,
-                        "def": 586,
-                        "hp": 5417
-                  },
-                  {
-                        "att": 1846,
-                        "def": 589,
-                        "hp": 5446
-                  },
-                  {
-                        "att": 1855,
-                        "def": 592,
-                        "hp": 5475
-                  },
-                  {
-                        "att": 1865,
-                        "def": 595,
-                        "hp": 5504
-                  },
-                  {
-                        "att": 1875,
-                        "def": 597,
-                        "hp": 5533
-                  },
-                  {
-                        "att": 1885,
-                        "def": 600,
-                        "hp": 5562
-                  },
-                  {
-                        "att": 1894,
-                        "def": 603,
-                        "hp": 5591
-                  },
-                  {
-                        "att": 1904,
-                        "def": 605,
-                        "hp": 5620
-                  },
-                  {
-                        "att": 1914,
-                        "def": 608,
-                        "hp": 5649
-                  },
-                  {
-                        "att": 1924,
-                        "def": 611,
-                        "hp": 5678
-                  },
-                  {
-                        "att": 1934,
-                        "def": 614,
-                        "hp": 5707
-                  },
-                  {
-                        "att": 1943,
-                        "def": 616,
-                        "hp": 5736
-                  },
-                  {
-                        "att": 1953,
-                        "def": 619,
-                        "hp": 5765
-                  },
-                  {
-                        "att": 1963,
-                        "def": 622,
-                        "hp": 5794
-                  },
-                  {
-                        "att": 1973,
-                        "def": 625,
-                        "hp": 5823
-                  },
-                  {
-                        "att": 1982,
-                        "def": 627,
-                        "hp": 5852
-                  },
-                  {
-                        "att": 1992,
-                        "def": 630,
-                        "hp": 5881
-                  },
-                  {
-                        "att": 2002,
-                        "def": 633,
-                        "hp": 5910
-                  },
-                  {
-                        "att": 2012,
-                        "def": 636,
-                        "hp": 5940
-                  },
-                  {
-                        "att": 2021,
-                        "def": 638,
-                        "hp": 5969
-                  },
-                  {
-                        "att": 2031,
-                        "def": 641,
-                        "hp": 5998
-                  },
-                  {
-                        "att": 2041,
-                        "def": 644,
-                        "hp": 6027
-                  },
-                  {
-                        "att": 2247,
-                        "def": 711,
-                        "hp": 6586
-                  },
-                  {
-                        "att": 2254,
-                        "def": 712,
-                        "hp": 6605
-                  },
-                  {
-                        "att": 2260,
-                        "def": 714,
-                        "hp": 6625
-                  },
-                  {
-                        "att": 2267,
-                        "def": 716,
-                        "hp": 6644
-                  },
-                  {
-                        "att": 2273,
-                        "def": 718,
-                        "hp": 6663
-                  },
-                  {
-                        "att": 2280,
-                        "def": 720,
-                        "hp": 6683
-                  },
-                  {
-                        "att": 2286,
-                        "def": 721,
-                        "hp": 6702
-                  },
-                  {
-                        "att": 2293,
-                        "def": 723,
-                        "hp": 6722
-                  },
-                  {
-                        "att": 2299,
-                        "def": 725,
-                        "hp": 6741
-                  },
-                  {
-                        "att": 2306,
-                        "def": 727,
-                        "hp": 6760
-                  },
-                  {
-                        "att": 2312,
-                        "def": 729,
-                        "hp": 6780
-                  },
-                  {
-                        "att": 2319,
-                        "def": 731,
-                        "hp": 6799
-                  },
-                  {
-                        "att": 2325,
-                        "def": 732,
-                        "hp": 6818
-                  },
-                  {
-                        "att": 2332,
-                        "def": 734,
-                        "hp": 6838
-                  },
-                  {
-                        "att": 2338,
-                        "def": 736,
-                        "hp": 6857
-                  },
-                  {
-                        "att": 2345,
-                        "def": 738,
-                        "hp": 6876
-                  },
-                  {
-                        "att": 2351,
-                        "def": 740,
-                        "hp": 6896
-                  },
-                  {
-                        "att": 2358,
-                        "def": 741,
-                        "hp": 6915
-                  },
-                  {
-                        "att": 2364,
-                        "def": 743,
-                        "hp": 6935
-                  },
-                  {
-                        "att": 2371,
-                        "def": 745,
-                        "hp": 6954
-                  },
-                  {
-                        "att": 2377,
-                        "def": 747,
-                        "hp": 6973
-                  },
-                  {
-                        "att": 2384,
-                        "def": 749,
-                        "hp": 6993
-                  },
-                  {
-                        "att": 2391,
-                        "def": 751,
-                        "hp": 7012
-                  },
-                  {
-                        "att": 2397,
-                        "def": 752,
-                        "hp": 7031
-                  },
-                  {
-                        "att": 2404,
-                        "def": 754,
-                        "hp": 7051
-                  },
-                  {
-                        "att": 2410,
-                        "def": 756,
-                        "hp": 7070
-                  },
-                  {
-                        "att": 2417,
-                        "def": 758,
-                        "hp": 7089
-                  },
-                  {
-                        "att": 2423,
-                        "def": 760,
-                        "hp": 7109
-                  },
-                  {
-                        "att": 2430,
-                        "def": 761,
-                        "hp": 7128
-                  },
-                  {
-                        "att": 2436,
-                        "def": 763,
-                        "hp": 7148
-                  },
-                  {
-                        "att": 2443,
-                        "def": 765,
-                        "hp": 7167
-                  },
-                  {
-                        "att": 2449,
-                        "def": 767,
-                        "hp": 7186
-                  },
-                  {
-                        "att": 2456,
-                        "def": 769,
-                        "hp": 7206
-                  },
-                  {
-                        "att": 2462,
-                        "def": 771,
-                        "hp": 7225
-                  },
-                  {
-                        "att": 2469,
-                        "def": 772,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2475,
-                        "def": 774,
-                        "hp": 7264
-                  },
-                  {
-                        "att": 2482,
-                        "def": 776,
-                        "hp": 7283
-                  },
-                  {
-                        "att": 2488,
-                        "def": 778,
-                        "hp": 7302
-                  },
-                  {
-                        "att": 2495,
-                        "def": 780,
-                        "hp": 7322
-                  },
-                  {
-                        "att": 2501,
-                        "def": 782,
-                        "hp": 7341
-                  },
-                  {
-                        "att": 2508,
-                        "def": 783,
-                        "hp": 7360
-                  },
-                  {
-                        "att": 2514,
-                        "def": 785,
-                        "hp": 7380
-                  },
-                  {
-                        "att": 2521,
-                        "def": 787,
-                        "hp": 7399
-                  },
-                  {
-                        "att": 2527,
-                        "def": 789,
-                        "hp": 7419
-                  },
-                  {
-                        "att": 2534,
-                        "def": 791,
-                        "hp": 7438
-                  },
-                  {
-                        "att": 2540,
-                        "def": 792,
-                        "hp": 7457
-                  },
-                  {
-                        "att": 2547,
-                        "def": 794,
-                        "hp": 7477
-                  },
-                  {
-                        "att": 2553,
-                        "def": 796,
-                        "hp": 7496
-                  },
-                  {
-                        "att": 2560,
-                        "def": 798,
-                        "hp": 7515
-                  },
-                  {
-                        "att": 2566,
-                        "def": 800,
-                        "hp": 7535
-                  },
-                  {
-                        "att": 2573,
-                        "def": 802,
-                        "hp": 7554
-                  },
-                  {
-                        "att": 2579,
-                        "def": 803,
-                        "hp": 7573
-                  },
-                  {
-                        "att": 2586,
-                        "def": 805,
-                        "hp": 7593
-                  },
-                  {
-                        "att": 2592,
-                        "def": 807,
-                        "hp": 7612
-                  },
-                  {
-                        "att": 2599,
-                        "def": 809,
-                        "hp": 7632
-                  },
-                  {
-                        "att": 2605,
-                        "def": 811,
-                        "hp": 7651
-                  },
-                  {
-                        "att": 2612,
-                        "def": 812,
-                        "hp": 7670
-                  },
-                  {
-                        "att": 2618,
-                        "def": 814,
-                        "hp": 7690
-                  },
-                  {
-                        "att": 2625,
-                        "def": 816,
-                        "hp": 7709
-                  },
-                  {
-                        "att": 2631,
-                        "def": 818,
-                        "hp": 7728
-                  },
-                  {
-                        "att": 2638,
-                        "def": 820,
-                        "hp": 7748
-                  },
-                  {
-                        "att": 2644,
-                        "def": 822,
-                        "hp": 7767
-                  },
-                  {
-                        "att": 2651,
-                        "def": 823,
-                        "hp": 7786
-                  },
-                  {
-                        "att": 2657,
-                        "def": 825,
-                        "hp": 7806
-                  },
-                  {
-                        "att": 2664,
-                        "def": 827,
-                        "hp": 7825
-                  },
-                  {
-                        "att": 2670,
-                        "def": 829,
-                        "hp": 7845
-                  },
-                  {
-                        "att": 2677,
-                        "def": 831,
-                        "hp": 7864
-                  },
-                  {
-                        "att": 2683,
-                        "def": 832,
-                        "hp": 7883
-                  },
-                  {
-                        "att": 2690,
-                        "def": 834,
-                        "hp": 7903
-                  },
-                  {
-                        "att": 2696,
-                        "def": 836,
-                        "hp": 7922
-                  },
-                  {
-                        "att": 2703,
-                        "def": 838,
-                        "hp": 7941
-                  },
-                  {
-                        "att": 2709,
-                        "def": 840,
-                        "hp": 7961
-                  },
-                  {
-                        "att": 2716,
-                        "def": 842,
-                        "hp": 7980
-                  },
-                  {
-                        "att": 2722,
-                        "def": 843,
-                        "hp": 7999
-                  },
-                  {
-                        "att": 2729,
-                        "def": 845,
-                        "hp": 8019
-                  },
-                  {
-                        "att": 2735,
-                        "def": 847,
-                        "hp": 8038
-                  },
-                  {
-                        "att": 2742,
-                        "def": 849,
-                        "hp": 8058
-                  },
-                  {
-                        "att": 2748,
-                        "def": 851,
-                        "hp": 8077
-                  },
-                  {
-                        "att": 2755,
-                        "def": 852,
-                        "hp": 8096
-                  },
-                  {
-                        "att": 2761,
-                        "def": 854,
-                        "hp": 8116
-                  }
-            ]
-      }
+ "name": "Schwartz",
+ "faction": "Lumopolis",
+ "element_main": "Thunder",
+ "element_sub": "Thunder",
+ "rarity": "5",
+ "class": "Sniper",
+ "skill": {
+  "name": "Imperial Thunder",
+  "cd": "3 Turn",
+  "description": [
+   "Deals 300% plus 10% of target's current HP in damage to all enemies.",
+   "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%.",
+   "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%."
+  ]
+ },
+ "equip": {
+  "name": "Sovereign's Blade",
+  "passive": "Shield of Radiance",
+  "description": [
+   [
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
+   ],
+   [
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed.",
+    "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
+   ],
+   [
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 3% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 4% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 5% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted).",
+    "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted)."
+   ]
+  ],
+  "introduction": "An heirloom of the Schwartz family, this huge sword, known as the Sovereign's Blade, looks more like a symbol of power than an actual weapon. When Schwartz uses it, it summons an array of light blades that surround Schwartz like glowing stars and follow his orders."
+ },
+ "chain": {
+  "name": "Righteous Might",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Executes non-boss enemies below 10% HP.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Potion I",
+    "Thunder Crystal Dust",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed."
+  },
+  {
+   "material": [
+    "Thunder Crystal",
+    "Thunder Flare Silt",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 300% plus 10% of target's current HP in damage to all enemies.",
+   "after": "Deals 300% plus 10% of target's current HP in damage to all enemies. Damage dealt by Active Skill increases with Schwartz's DEF, up to 5%."
+  },
+  {
+   "material": [
+    "Thunder Flare Tile",
+    "Thunder Potion II",
+    "Daybreak Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed.",
+   "after": "Increases Schwartz's DEF by 6% for every Thunder or Lumopolis Aurorian deployed (also increases ATK for an amount equal to DEF granted)."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 511,
+    "def": 197,
+    "hp": 1537
+   },
+   {
+    "att": 521,
+    "def": 200,
+    "hp": 1568
+   },
+   {
+    "att": 531,
+    "def": 203,
+    "hp": 1599
+   },
+   {
+    "att": 542,
+    "def": 206,
+    "hp": 1630
+   },
+   {
+    "att": 552,
+    "def": 209,
+    "hp": 1661
+   },
+   {
+    "att": 563,
+    "def": 212,
+    "hp": 1692
+   },
+   {
+    "att": 573,
+    "def": 215,
+    "hp": 1723
+   },
+   {
+    "att": 583,
+    "def": 218,
+    "hp": 1754
+   },
+   {
+    "att": 594,
+    "def": 220,
+    "hp": 1785
+   },
+   {
+    "att": 604,
+    "def": 223,
+    "hp": 1816
+   },
+   {
+    "att": 615,
+    "def": 226,
+    "hp": 1847
+   },
+   {
+    "att": 625,
+    "def": 229,
+    "hp": 1878
+   },
+   {
+    "att": 635,
+    "def": 232,
+    "hp": 1909
+   },
+   {
+    "att": 646,
+    "def": 235,
+    "hp": 1940
+   },
+   {
+    "att": 656,
+    "def": 238,
+    "hp": 1971
+   },
+   {
+    "att": 667,
+    "def": 241,
+    "hp": 2002
+   },
+   {
+    "att": 677,
+    "def": 244,
+    "hp": 2033
+   },
+   {
+    "att": 687,
+    "def": 247,
+    "hp": 2064
+   },
+   {
+    "att": 698,
+    "def": 250,
+    "hp": 2095
+   },
+   {
+    "att": 708,
+    "def": 252,
+    "hp": 2126
+   },
+   {
+    "att": 719,
+    "def": 255,
+    "hp": 2157
+   },
+   {
+    "att": 729,
+    "def": 258,
+    "hp": 2188
+   },
+   {
+    "att": 740,
+    "def": 261,
+    "hp": 2219
+   },
+   {
+    "att": 750,
+    "def": 264,
+    "hp": 2250
+   },
+   {
+    "att": 760,
+    "def": 267,
+    "hp": 2281
+   },
+   {
+    "att": 771,
+    "def": 270,
+    "hp": 2312
+   },
+   {
+    "att": 781,
+    "def": 273,
+    "hp": 2343
+   },
+   {
+    "att": 792,
+    "def": 276,
+    "hp": 2374
+   },
+   {
+    "att": 802,
+    "def": 279,
+    "hp": 2405
+   },
+   {
+    "att": 812,
+    "def": 282,
+    "hp": 2436
+   },
+   {
+    "att": 910,
+    "def": 315,
+    "hp": 2704
+   },
+   {
+    "att": 923,
+    "def": 319,
+    "hp": 2743
+   },
+   {
+    "att": 936,
+    "def": 323,
+    "hp": 2782
+   },
+   {
+    "att": 949,
+    "def": 326,
+    "hp": 2820
+   },
+   {
+    "att": 962,
+    "def": 330,
+    "hp": 2859
+   },
+   {
+    "att": 975,
+    "def": 333,
+    "hp": 2898
+   },
+   {
+    "att": 988,
+    "def": 337,
+    "hp": 2937
+   },
+   {
+    "att": 1001,
+    "def": 341,
+    "hp": 2975
+   },
+   {
+    "att": 1015,
+    "def": 344,
+    "hp": 3014
+   },
+   {
+    "att": 1028,
+    "def": 348,
+    "hp": 3053
+   },
+   {
+    "att": 1041,
+    "def": 352,
+    "hp": 3092
+   },
+   {
+    "att": 1054,
+    "def": 355,
+    "hp": 3130
+   },
+   {
+    "att": 1067,
+    "def": 359,
+    "hp": 3169
+   },
+   {
+    "att": 1080,
+    "def": 363,
+    "hp": 3208
+   },
+   {
+    "att": 1093,
+    "def": 366,
+    "hp": 3246
+   },
+   {
+    "att": 1106,
+    "def": 370,
+    "hp": 3285
+   },
+   {
+    "att": 1119,
+    "def": 373,
+    "hp": 3324
+   },
+   {
+    "att": 1132,
+    "def": 377,
+    "hp": 3363
+   },
+   {
+    "att": 1145,
+    "def": 381,
+    "hp": 3401
+   },
+   {
+    "att": 1158,
+    "def": 384,
+    "hp": 3440
+   },
+   {
+    "att": 1171,
+    "def": 388,
+    "hp": 3479
+   },
+   {
+    "att": 1184,
+    "def": 392,
+    "hp": 3518
+   },
+   {
+    "att": 1197,
+    "def": 395,
+    "hp": 3556
+   },
+   {
+    "att": 1210,
+    "def": 399,
+    "hp": 3595
+   },
+   {
+    "att": 1223,
+    "def": 403,
+    "hp": 3634
+   },
+   {
+    "att": 1236,
+    "def": 406,
+    "hp": 3672
+   },
+   {
+    "att": 1249,
+    "def": 410,
+    "hp": 3711
+   },
+   {
+    "att": 1262,
+    "def": 414,
+    "hp": 3750
+   },
+   {
+    "att": 1275,
+    "def": 417,
+    "hp": 3789
+   },
+   {
+    "att": 1288,
+    "def": 421,
+    "hp": 3827
+   },
+   {
+    "att": 1301,
+    "def": 424,
+    "hp": 3866
+   },
+   {
+    "att": 1314,
+    "def": 428,
+    "hp": 3905
+   },
+   {
+    "att": 1327,
+    "def": 432,
+    "hp": 3943
+   },
+   {
+    "att": 1340,
+    "def": 435,
+    "hp": 3982
+   },
+   {
+    "att": 1353,
+    "def": 439,
+    "hp": 4021
+   },
+   {
+    "att": 1366,
+    "def": 443,
+    "hp": 4060
+   },
+   {
+    "att": 1379,
+    "def": 446,
+    "hp": 4098
+   },
+   {
+    "att": 1392,
+    "def": 450,
+    "hp": 4137
+   },
+   {
+    "att": 1405,
+    "def": 454,
+    "hp": 4176
+   },
+   {
+    "att": 1418,
+    "def": 457,
+    "hp": 4215
+   },
+   {
+    "att": 1563,
+    "def": 510,
+    "hp": 4604
+   },
+   {
+    "att": 1572,
+    "def": 513,
+    "hp": 4633
+   },
+   {
+    "att": 1582,
+    "def": 515,
+    "hp": 4662
+   },
+   {
+    "att": 1592,
+    "def": 518,
+    "hp": 4691
+   },
+   {
+    "att": 1602,
+    "def": 521,
+    "hp": 4720
+   },
+   {
+    "att": 1611,
+    "def": 524,
+    "hp": 4749
+   },
+   {
+    "att": 1621,
+    "def": 526,
+    "hp": 4778
+   },
+   {
+    "att": 1631,
+    "def": 529,
+    "hp": 4807
+   },
+   {
+    "att": 1641,
+    "def": 532,
+    "hp": 4836
+   },
+   {
+    "att": 1650,
+    "def": 535,
+    "hp": 4865
+   },
+   {
+    "att": 1660,
+    "def": 537,
+    "hp": 4894
+   },
+   {
+    "att": 1670,
+    "def": 540,
+    "hp": 4923
+   },
+   {
+    "att": 1680,
+    "def": 543,
+    "hp": 4952
+   },
+   {
+    "att": 1690,
+    "def": 545,
+    "hp": 4981
+   },
+   {
+    "att": 1699,
+    "def": 548,
+    "hp": 5010
+   },
+   {
+    "att": 1709,
+    "def": 551,
+    "hp": 5039
+   },
+   {
+    "att": 1719,
+    "def": 554,
+    "hp": 5068
+   },
+   {
+    "att": 1729,
+    "def": 556,
+    "hp": 5097
+   },
+   {
+    "att": 1738,
+    "def": 559,
+    "hp": 5126
+   },
+   {
+    "att": 1748,
+    "def": 562,
+    "hp": 5155
+   },
+   {
+    "att": 1758,
+    "def": 565,
+    "hp": 5184
+   },
+   {
+    "att": 1768,
+    "def": 567,
+    "hp": 5213
+   },
+   {
+    "att": 1777,
+    "def": 570,
+    "hp": 5243
+   },
+   {
+    "att": 1787,
+    "def": 573,
+    "hp": 5272
+   },
+   {
+    "att": 1797,
+    "def": 575,
+    "hp": 5301
+   },
+   {
+    "att": 1807,
+    "def": 578,
+    "hp": 5330
+   },
+   {
+    "att": 1816,
+    "def": 581,
+    "hp": 5359
+   },
+   {
+    "att": 1826,
+    "def": 584,
+    "hp": 5388
+   },
+   {
+    "att": 1836,
+    "def": 586,
+    "hp": 5417
+   },
+   {
+    "att": 1846,
+    "def": 589,
+    "hp": 5446
+   },
+   {
+    "att": 1855,
+    "def": 592,
+    "hp": 5475
+   },
+   {
+    "att": 1865,
+    "def": 595,
+    "hp": 5504
+   },
+   {
+    "att": 1875,
+    "def": 597,
+    "hp": 5533
+   },
+   {
+    "att": 1885,
+    "def": 600,
+    "hp": 5562
+   },
+   {
+    "att": 1894,
+    "def": 603,
+    "hp": 5591
+   },
+   {
+    "att": 1904,
+    "def": 605,
+    "hp": 5620
+   },
+   {
+    "att": 1914,
+    "def": 608,
+    "hp": 5649
+   },
+   {
+    "att": 1924,
+    "def": 611,
+    "hp": 5678
+   },
+   {
+    "att": 1934,
+    "def": 614,
+    "hp": 5707
+   },
+   {
+    "att": 1943,
+    "def": 616,
+    "hp": 5736
+   },
+   {
+    "att": 1953,
+    "def": 619,
+    "hp": 5765
+   },
+   {
+    "att": 1963,
+    "def": 622,
+    "hp": 5794
+   },
+   {
+    "att": 1973,
+    "def": 625,
+    "hp": 5823
+   },
+   {
+    "att": 1982,
+    "def": 627,
+    "hp": 5852
+   },
+   {
+    "att": 1992,
+    "def": 630,
+    "hp": 5881
+   },
+   {
+    "att": 2002,
+    "def": 633,
+    "hp": 5910
+   },
+   {
+    "att": 2012,
+    "def": 636,
+    "hp": 5940
+   },
+   {
+    "att": 2021,
+    "def": 638,
+    "hp": 5969
+   },
+   {
+    "att": 2031,
+    "def": 641,
+    "hp": 5998
+   },
+   {
+    "att": 2041,
+    "def": 644,
+    "hp": 6027
+   },
+   {
+    "att": 2247,
+    "def": 711,
+    "hp": 6586
+   },
+   {
+    "att": 2254,
+    "def": 712,
+    "hp": 6605
+   },
+   {
+    "att": 2260,
+    "def": 714,
+    "hp": 6625
+   },
+   {
+    "att": 2267,
+    "def": 716,
+    "hp": 6644
+   },
+   {
+    "att": 2273,
+    "def": 718,
+    "hp": 6663
+   },
+   {
+    "att": 2280,
+    "def": 720,
+    "hp": 6683
+   },
+   {
+    "att": 2286,
+    "def": 721,
+    "hp": 6702
+   },
+   {
+    "att": 2293,
+    "def": 723,
+    "hp": 6722
+   },
+   {
+    "att": 2299,
+    "def": 725,
+    "hp": 6741
+   },
+   {
+    "att": 2306,
+    "def": 727,
+    "hp": 6760
+   },
+   {
+    "att": 2312,
+    "def": 729,
+    "hp": 6780
+   },
+   {
+    "att": 2319,
+    "def": 731,
+    "hp": 6799
+   },
+   {
+    "att": 2325,
+    "def": 732,
+    "hp": 6818
+   },
+   {
+    "att": 2332,
+    "def": 734,
+    "hp": 6838
+   },
+   {
+    "att": 2338,
+    "def": 736,
+    "hp": 6857
+   },
+   {
+    "att": 2345,
+    "def": 738,
+    "hp": 6876
+   },
+   {
+    "att": 2351,
+    "def": 740,
+    "hp": 6896
+   },
+   {
+    "att": 2358,
+    "def": 741,
+    "hp": 6915
+   },
+   {
+    "att": 2364,
+    "def": 743,
+    "hp": 6935
+   },
+   {
+    "att": 2371,
+    "def": 745,
+    "hp": 6954
+   },
+   {
+    "att": 2377,
+    "def": 747,
+    "hp": 6973
+   },
+   {
+    "att": 2384,
+    "def": 749,
+    "hp": 6993
+   },
+   {
+    "att": 2391,
+    "def": 751,
+    "hp": 7012
+   },
+   {
+    "att": 2397,
+    "def": 752,
+    "hp": 7031
+   },
+   {
+    "att": 2404,
+    "def": 754,
+    "hp": 7051
+   },
+   {
+    "att": 2410,
+    "def": 756,
+    "hp": 7070
+   },
+   {
+    "att": 2417,
+    "def": 758,
+    "hp": 7089
+   },
+   {
+    "att": 2423,
+    "def": 760,
+    "hp": 7109
+   },
+   {
+    "att": 2430,
+    "def": 761,
+    "hp": 7128
+   },
+   {
+    "att": 2436,
+    "def": 763,
+    "hp": 7148
+   },
+   {
+    "att": 2443,
+    "def": 765,
+    "hp": 7167
+   },
+   {
+    "att": 2449,
+    "def": 767,
+    "hp": 7186
+   },
+   {
+    "att": 2456,
+    "def": 769,
+    "hp": 7206
+   },
+   {
+    "att": 2462,
+    "def": 771,
+    "hp": 7225
+   },
+   {
+    "att": 2469,
+    "def": 772,
+    "hp": 7244
+   },
+   {
+    "att": 2475,
+    "def": 774,
+    "hp": 7264
+   },
+   {
+    "att": 2482,
+    "def": 776,
+    "hp": 7283
+   },
+   {
+    "att": 2488,
+    "def": 778,
+    "hp": 7302
+   },
+   {
+    "att": 2495,
+    "def": 780,
+    "hp": 7322
+   },
+   {
+    "att": 2501,
+    "def": 782,
+    "hp": 7341
+   },
+   {
+    "att": 2508,
+    "def": 783,
+    "hp": 7360
+   },
+   {
+    "att": 2514,
+    "def": 785,
+    "hp": 7380
+   },
+   {
+    "att": 2521,
+    "def": 787,
+    "hp": 7399
+   },
+   {
+    "att": 2527,
+    "def": 789,
+    "hp": 7419
+   },
+   {
+    "att": 2534,
+    "def": 791,
+    "hp": 7438
+   },
+   {
+    "att": 2540,
+    "def": 792,
+    "hp": 7457
+   },
+   {
+    "att": 2547,
+    "def": 794,
+    "hp": 7477
+   },
+   {
+    "att": 2553,
+    "def": 796,
+    "hp": 7496
+   },
+   {
+    "att": 2560,
+    "def": 798,
+    "hp": 7515
+   },
+   {
+    "att": 2566,
+    "def": 800,
+    "hp": 7535
+   },
+   {
+    "att": 2573,
+    "def": 802,
+    "hp": 7554
+   },
+   {
+    "att": 2579,
+    "def": 803,
+    "hp": 7573
+   },
+   {
+    "att": 2586,
+    "def": 805,
+    "hp": 7593
+   },
+   {
+    "att": 2592,
+    "def": 807,
+    "hp": 7612
+   },
+   {
+    "att": 2599,
+    "def": 809,
+    "hp": 7632
+   },
+   {
+    "att": 2605,
+    "def": 811,
+    "hp": 7651
+   },
+   {
+    "att": 2612,
+    "def": 812,
+    "hp": 7670
+   },
+   {
+    "att": 2618,
+    "def": 814,
+    "hp": 7690
+   },
+   {
+    "att": 2625,
+    "def": 816,
+    "hp": 7709
+   },
+   {
+    "att": 2631,
+    "def": 818,
+    "hp": 7728
+   },
+   {
+    "att": 2638,
+    "def": 820,
+    "hp": 7748
+   },
+   {
+    "att": 2644,
+    "def": 822,
+    "hp": 7767
+   },
+   {
+    "att": 2651,
+    "def": 823,
+    "hp": 7786
+   },
+   {
+    "att": 2657,
+    "def": 825,
+    "hp": 7806
+   },
+   {
+    "att": 2664,
+    "def": 827,
+    "hp": 7825
+   },
+   {
+    "att": 2670,
+    "def": 829,
+    "hp": 7845
+   },
+   {
+    "att": 2677,
+    "def": 831,
+    "hp": 7864
+   },
+   {
+    "att": 2683,
+    "def": 832,
+    "hp": 7883
+   },
+   {
+    "att": 2690,
+    "def": 834,
+    "hp": 7903
+   },
+   {
+    "att": 2696,
+    "def": 836,
+    "hp": 7922
+   },
+   {
+    "att": 2703,
+    "def": 838,
+    "hp": 7941
+   },
+   {
+    "att": 2709,
+    "def": 840,
+    "hp": 7961
+   },
+   {
+    "att": 2716,
+    "def": 842,
+    "hp": 7980
+   },
+   {
+    "att": 2722,
+    "def": 843,
+    "hp": 7999
+   },
+   {
+    "att": 2729,
+    "def": 845,
+    "hp": 8019
+   },
+   {
+    "att": 2735,
+    "def": 847,
+    "hp": 8038
+   },
+   {
+    "att": 2742,
+    "def": 849,
+    "hp": 8058
+   },
+   {
+    "att": 2748,
+    "def": 851,
+    "hp": 8077
+   },
+   {
+    "att": 2755,
+    "def": 852,
+    "hp": 8096
+   },
+   {
+    "att": 2761,
+    "def": 854,
+    "hp": 8116
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Schwartz",
+     "Istvan"
+    ],
+    "chat": [
+     {
+      "character": "Schwartz:",
+      "text": "I've heard there are some new drinks on sale in Umbraton right now."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "Your collection is about to become even more interesting."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Why the sudden interest in alcohol?"
+     },
+     {
+      "character": "Istvan:",
+      "text": "Well, as they say... Fine wine for my friends, bullets for my enemies."
+     },
+     {
+      "character": "Istvan:",
+      "text": "When you come with the drinks, don't bring any Eclipsites with you."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Otherwise, I can't guarantee whether it will be wine or bullets waiting to greet you."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "You think I'd bring Eclipsites back with me?"
+     },
+     {
+      "character": "Istvan:",
+      "text": "Maybe not you."
+     },
+     {
+      "character": "Istvan:",
+      "text": "I don't know, maybe there are people in Lumopolis who like to associate with Eclipsites..."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "Hmm... You seem to be very concerned about Lumopolis..."
+     },
+     {
+      "character": "Istvan:",
+      "text": "And you're not?"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Schwartz is a man with a powerful background.Lumopolis is a city that is built on Azurite, just like the Colossus, and the Schwartz Family is respected by the masses as the ruler of this city. But as they say, it's lonely at the top, and we've heard many rumors about the Schwartz Family. Moreover, the peace of Lumopolis isn't safeguarded by those soldiers in shiny armor but by its ability to soar into the sky. Therefore, Lumopolis is sensitive to anything that can fly. That explains why Schwartz tried everything he could to visit here... After all, the ruler of Lumopolis almost never leaves the city, but he actually came to our Colossus as a guest. The reason he gave for the visit was to improve our relationship... Say, doesn't he realize how obvious that reason is?Fortunately, we are currently not Lumopolis' enemy because the Eclipsites threaten all Aurorians. So, regardless of what Schwartz is planning, the doors of the Colossus will temporarily open for him. After all, we might need to employ his help sometime.\u2014Vice."
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Are you the temporary master of the Colossus? Good, young and promising. I assume you already know my identity. I am Duke Schwartz, the governor of Lumopolis.The ancient Aurorians discovered an island that could only be called a miracle on the chaotic continent. They built Lumopolis with their own hands and their faith constantly explored various paths of development and made different classes assume different responsibilities. They competed against one another to further their interests, almost tearing the city apart, and suffered huge losses when they were ravaged by the Eclipsites... Order has now returned to Lumopolis, but a new crisis looms on the horizon.What I want to tell you is that the ancestors of the Schwartz Family experienced all the history of Lumopolis that I have just shared with you. I am the heir to their beliefs, as well as the governor of the city. The new master of the Colossus, what you need to know is that I am here to see what you will bring to Lumopolis and this continent..."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "Lumopolis was built to uphold order, but the order can also become obsolete and tainted. According to the records of the establishment of Lumopolis, the nobles once wanted to expand the city's territory and conquer the surrounding lands. But as time passed, they lost themselves in the hierarchy brought about by order, while their conservatism made them old men. These seemed to be indications of the future of Lumopolis... When the first Darkover Crisis happened, the Elder Council and Dawn Academy were ravaged by the Eclipsites. It was until then did they finally realize that they needed a more clear-minded governor to maintain the order of Lumopolis.However, in just more than ten years since the crisis, they have already forgotten about their greatest enemy\u2014the Eclipsites. They have also forgotten their responsibilities because they are too busy blindly protecting their positions... They have forgotten that it is our people who support the continued existence of Lumopolis. That is the greatest danger and the very thing I worry about."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "Lumopolis already faces difficulties from the inside and the outside. I don't want to make any excuses for my negligence as the City Lord.Lumopolis suffered heavy losses after that war, and my heart still aches for the countless sacrifices caused by the war.However, some nobles are intoxicated by their luxurious life and can't wake up to reality. They should know that the common people are the core of Lumopolis. They have forgotten their duties and only remember the temporary extravagance brought by their status. My opposition can only curb their behaviors temporarily out of fear, but this is not a long-term solution.I am grateful to the Queen who rules that frozen land. She sent me an envoy representing a contract in the critical moment, which means that I have the support of Northland. There is no doubt that the Queen has extraordinary judgment, amazing decision-making ability, and also taught Carleen well. Therefore, I look forward to a city burgeoning with changes."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "I once experienced a stable and happy life for several years. That was when I still lived with my wife and daughters. During those years, Lumopolis was going through a time of unprecedented stability and fresh power.As the governor of Lumopolis, I loved this city as deeply as I loved my wife. Young navigator, I don't think you understand. I have guarded this city for decades, and I have sworn by my family that Lumopolis will always be blessed by the Aurora. My conscience has been clear for these few decades.The only thing I feel guilty about is my inability to protect the peace of my own family despite having such power.I don't know what to do anymore. Even Carleen is unhappy with me... As someone who can control this Colossus, can you, if it's possible, share your insights with me?"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Whatever happens, I will protect Lumopolis, because she's part of my family.",
+  "A good defender hides his forces from the enemy. This is the strategy of the Illumina Federation\u2014to defend and counterattack.",
+  "White Night up high.",
+  "The Eclipse is a dreadful adversary, but it will ultimately fall before the might of Lumopolis.",
+  "Carleen needs to work harder if she is to be taken under my wing. This is her destiny.",
+  "Istvan should know I'm watching him, too... That makes the two of us.",
+  "Order is the cornerstone of civilization, and family is the basic unit here. There is no country without it.",
+  "There's nothing more foolish than pointless arguments. Timely action\u2014this is what's convincing.",
+  "The hugeness of the Colossus... Perhaps we should set up a special place to accommodate it.",
+  "Hmm... This core is really interesting.",
+  "I have no obligation to help you with this Colossus. Let it be a chance to worship, and I'll try to keep my patience.",
+  "All those failures will one day become the marks of glory.",
+  "I am the commander! Why would we lose?",
+  "The Sovereign's Blade!",
+  "Lumopolis! Please protect us!",
+  "I can take it one more time\u2014",
+  "Let's spare the words... Go celebrate!",
+  "Go to war with me.",
+  "White Night up high.",
+  "You are always welcome at Lumopolis when you're in need.",
+  "Lumopolis guides all beings.",
+  "Supplies, shipping, personnel deployment, visibility, route, planning... A complete mess, just as expected.",
+  "Interesting.",
+  "Alchemy Stars.",
+  "Lumopolis, where our beliefs are preserved, will never fall! No matter how many more Darkover Crises are upon us!",
+  "No hierarchy, no social order... How to manage this place? Through bonds and restraints? Well, let's wait and see.",
+  "Lumopolis is a nova under Aurora, an eternal harbor. You will never understand the feelings I have for her.",
+  "Experiencing the kindness and harmony of this place, I feel a little nostalgic. I miss the time of peace, the time with Joshua... when we didn't have to be constantly vigilant...",
+  "My children... If they decide to make the vow, I only hope that you can take such responsibility. Should you fail, I'll crush you.",
+  "The supreme ruler sometimes has to resort to wrath but at the same time show benevolence and virtue.",
+  "Know thyself and know thy enemy, lest you wind up as an ignorant fool. You're getting better, but you still have a long way to go.",
+  "Rediesel Wrench and Illumina are hidden dangers, but the Eclipse... I'm sorry, but there are some information I can't share with you yet.",
+  "Is this Colossus in your head? You seem to have exactly the same constitution as her. What a wicked fate that has pulled us all into this vortex of chaos...",
+  "Words are like the wind, but they can be sharp swords as well... Why resort to military force when you can defeat your enemies with the power of words?",
+  "Winners need not explain their victories, and losers shouldn't make excuses.",
+  "Sometimes the ultimate form of shrewdness is when you have to conceal it.",
+  "They say you can talk to it. Can I also...?",
+  "Welcome back, Colossus Master.",
+  "A person who can harness such a gargantuan being must be extraordinary.",
+  "No need to see to everything yourself. Leave it to me.",
+  "A proper introduction is a sign of good manners\u2014I am Duke Schwartz, the ruler of Lumopolis. We should have a lot to talk about.",
+  "Thank you for the gift. Forgive me for not returning the favor.",
+  "This... is priceless.",
+  "What a precious gift... The Schwartz family accepts it.",
+  "I will pass it on to my descendants as a family treasure.",
+  "Take your epitaph!",
+  "I will shake every star!!",
+  "Let's begin!",
+  "You'll probably never hear the entire story of the origin of Lumopolis, noble factions, and the secrets of the Schwartz family.",
+  "I have spent my whole life trying to keep Lumopolis prosperous... Not for myself, but for the people. Believe it or not.",
+  "Joshua, Carleen, and... Never mind... We're gonna miss everything if we lament on.",
+  "I haven't fought a battle in person for such a long time!"
+ ],
+ "skins": [],
+ "description": "The Governor of Lumopolis and its current ruler, whose position and status put him far above the rest. Such success is not without its costs, and loneliness is his constant companion. Nevertheless, Schwartz spends countless hours maintaining order in Lumopolis, and always strives to do his best while never letting his guard down.",
+ "realName": "Schwartz",
+ "nickname": "The Sovereign of Lumos",
+ "gender": "Male",
+ "height": "6'1\"",
+ "birthday": "November 5",
+ "birthplace": "Lumopolis",
+ "style": "Sovereign's Blade, Shield of the Capital"
 }

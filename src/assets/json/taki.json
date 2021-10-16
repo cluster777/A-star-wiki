@@ -1,1153 +1,1315 @@
 {
-      "name": "Taki",
-      "faction": "Umbraton",
-      "element_main": "Fire",
-      "element_sub": "Forest",
-      "rarity": "5",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile).",
-                  "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage.",
-                  "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage."
-            ]
-      },
-      "equip": {
-            "name": "Serrated Blade: Ender of All",
-            "passive": "Burn Mark",
-            "description": [
-                  [
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
-                  ],
-                  [
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
-                  ],
-                  [
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
-                        "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: The selected tiles are converted to Red Enhanced Tiles.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Flare Silt",
-                        "Fire Essence",
-                        "Destiny Champagne I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
-            },
-            {
-                  "material": [
-                        "Fire Potion II",
-                        "Fire Crystal Shard",
-                        "Destiny Champagne II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile).",
-                  "after": "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage."
-            },
-            {
-                  "material": [
-                        "Fire Crystal Cluster",
-                        "Fire Flare Rock",
-                        "Destiny Champagne III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%.",
-                  "after": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 514,
-                        "def": 207,
-                        "hp": 1687
-                  },
-                  {
-                        "att": 524,
-                        "def": 211,
-                        "hp": 1717
-                  },
-                  {
-                        "att": 534,
-                        "def": 214,
-                        "hp": 1746
-                  },
-                  {
-                        "att": 544,
-                        "def": 218,
-                        "hp": 1776
-                  },
-                  {
-                        "att": 554,
-                        "def": 221,
-                        "hp": 1805
-                  },
-                  {
-                        "att": 565,
-                        "def": 225,
-                        "hp": 1835
-                  },
-                  {
-                        "att": 575,
-                        "def": 228,
-                        "hp": 1864
-                  },
-                  {
-                        "att": 585,
-                        "def": 232,
-                        "hp": 1894
-                  },
-                  {
-                        "att": 595,
-                        "def": 236,
-                        "hp": 1923
-                  },
-                  {
-                        "att": 605,
-                        "def": 239,
-                        "hp": 1953
-                  },
-                  {
-                        "att": 615,
-                        "def": 243,
-                        "hp": 1982
-                  },
-                  {
-                        "att": 625,
-                        "def": 246,
-                        "hp": 2012
-                  },
-                  {
-                        "att": 635,
-                        "def": 250,
-                        "hp": 2041
-                  },
-                  {
-                        "att": 645,
-                        "def": 253,
-                        "hp": 2071
-                  },
-                  {
-                        "att": 655,
-                        "def": 257,
-                        "hp": 2100
-                  },
-                  {
-                        "att": 665,
-                        "def": 261,
-                        "hp": 2130
-                  },
-                  {
-                        "att": 676,
-                        "def": 264,
-                        "hp": 2159
-                  },
-                  {
-                        "att": 686,
-                        "def": 268,
-                        "hp": 2189
-                  },
-                  {
-                        "att": 696,
-                        "def": 271,
-                        "hp": 2218
-                  },
-                  {
-                        "att": 706,
-                        "def": 275,
-                        "hp": 2248
-                  },
-                  {
-                        "att": 716,
-                        "def": 279,
-                        "hp": 2277
-                  },
-                  {
-                        "att": 726,
-                        "def": 282,
-                        "hp": 2307
-                  },
-                  {
-                        "att": 736,
-                        "def": 286,
-                        "hp": 2336
-                  },
-                  {
-                        "att": 746,
-                        "def": 289,
-                        "hp": 2366
-                  },
-                  {
-                        "att": 756,
-                        "def": 293,
-                        "hp": 2395
-                  },
-                  {
-                        "att": 766,
-                        "def": 296,
-                        "hp": 2425
-                  },
-                  {
-                        "att": 776,
-                        "def": 300,
-                        "hp": 2454
-                  },
-                  {
-                        "att": 787,
-                        "def": 304,
-                        "hp": 2484
-                  },
-                  {
-                        "att": 797,
-                        "def": 307,
-                        "hp": 2513
-                  },
-                  {
-                        "att": 807,
-                        "def": 311,
-                        "hp": 2543
-                  },
-                  {
-                        "att": 904,
-                        "def": 345,
-                        "hp": 2810
-                  },
-                  {
-                        "att": 917,
-                        "def": 350,
-                        "hp": 2847
-                  },
-                  {
-                        "att": 930,
-                        "def": 354,
-                        "hp": 2884
-                  },
-                  {
-                        "att": 942,
-                        "def": 359,
-                        "hp": 2920
-                  },
-                  {
-                        "att": 955,
-                        "def": 363,
-                        "hp": 2957
-                  },
-                  {
-                        "att": 967,
-                        "def": 368,
-                        "hp": 2994
-                  },
-                  {
-                        "att": 980,
-                        "def": 372,
-                        "hp": 3031
-                  },
-                  {
-                        "att": 993,
-                        "def": 376,
-                        "hp": 3068
-                  },
-                  {
-                        "att": 1005,
-                        "def": 381,
-                        "hp": 3105
-                  },
-                  {
-                        "att": 1018,
-                        "def": 385,
-                        "hp": 3142
-                  },
-                  {
-                        "att": 1030,
-                        "def": 390,
-                        "hp": 3179
-                  },
-                  {
-                        "att": 1043,
-                        "def": 394,
-                        "hp": 3216
-                  },
-                  {
-                        "att": 1056,
-                        "def": 399,
-                        "hp": 3252
-                  },
-                  {
-                        "att": 1068,
-                        "def": 403,
-                        "hp": 3289
-                  },
-                  {
-                        "att": 1081,
-                        "def": 408,
-                        "hp": 3326
-                  },
-                  {
-                        "att": 1094,
-                        "def": 412,
-                        "hp": 3363
-                  },
-                  {
-                        "att": 1106,
-                        "def": 417,
-                        "hp": 3400
-                  },
-                  {
-                        "att": 1119,
-                        "def": 421,
-                        "hp": 3437
-                  },
-                  {
-                        "att": 1131,
-                        "def": 426,
-                        "hp": 3474
-                  },
-                  {
-                        "att": 1144,
-                        "def": 430,
-                        "hp": 3511
-                  },
-                  {
-                        "att": 1157,
-                        "def": 435,
-                        "hp": 3547
-                  },
-                  {
-                        "att": 1169,
-                        "def": 439,
-                        "hp": 3584
-                  },
-                  {
-                        "att": 1182,
-                        "def": 444,
-                        "hp": 3621
-                  },
-                  {
-                        "att": 1194,
-                        "def": 448,
-                        "hp": 3658
-                  },
-                  {
-                        "att": 1207,
-                        "def": 452,
-                        "hp": 3695
-                  },
-                  {
-                        "att": 1220,
-                        "def": 457,
-                        "hp": 3732
-                  },
-                  {
-                        "att": 1232,
-                        "def": 461,
-                        "hp": 3769
-                  },
-                  {
-                        "att": 1245,
-                        "def": 466,
-                        "hp": 3806
-                  },
-                  {
-                        "att": 1257,
-                        "def": 470,
-                        "hp": 3842
-                  },
-                  {
-                        "att": 1270,
-                        "def": 475,
-                        "hp": 3879
-                  },
-                  {
-                        "att": 1283,
-                        "def": 479,
-                        "hp": 3916
-                  },
-                  {
-                        "att": 1295,
-                        "def": 484,
-                        "hp": 3953
-                  },
-                  {
-                        "att": 1308,
-                        "def": 488,
-                        "hp": 3990
-                  },
-                  {
-                        "att": 1321,
-                        "def": 493,
-                        "hp": 4027
-                  },
-                  {
-                        "att": 1333,
-                        "def": 497,
-                        "hp": 4064
-                  },
-                  {
-                        "att": 1346,
-                        "def": 502,
-                        "hp": 4101
-                  },
-                  {
-                        "att": 1358,
-                        "def": 506,
-                        "hp": 4138
-                  },
-                  {
-                        "att": 1371,
-                        "def": 511,
-                        "hp": 4174
-                  },
-                  {
-                        "att": 1384,
-                        "def": 515,
-                        "hp": 4211
-                  },
-                  {
-                        "att": 1396,
-                        "def": 520,
-                        "hp": 4248
-                  },
-                  {
-                        "att": 1541,
-                        "def": 573,
-                        "hp": 4636
-                  },
-                  {
-                        "att": 1550,
-                        "def": 576,
-                        "hp": 4663
-                  },
-                  {
-                        "att": 1560,
-                        "def": 580,
-                        "hp": 4691
-                  },
-                  {
-                        "att": 1569,
-                        "def": 583,
-                        "hp": 4719
-                  },
-                  {
-                        "att": 1579,
-                        "def": 586,
-                        "hp": 4746
-                  },
-                  {
-                        "att": 1588,
-                        "def": 590,
-                        "hp": 4774
-                  },
-                  {
-                        "att": 1597,
-                        "def": 593,
-                        "hp": 4802
-                  },
-                  {
-                        "att": 1607,
-                        "def": 596,
-                        "hp": 4829
-                  },
-                  {
-                        "att": 1616,
-                        "def": 600,
-                        "hp": 4857
-                  },
-                  {
-                        "att": 1626,
-                        "def": 603,
-                        "hp": 4885
-                  },
-                  {
-                        "att": 1635,
-                        "def": 606,
-                        "hp": 4912
-                  },
-                  {
-                        "att": 1645,
-                        "def": 610,
-                        "hp": 4940
-                  },
-                  {
-                        "att": 1654,
-                        "def": 613,
-                        "hp": 4968
-                  },
-                  {
-                        "att": 1664,
-                        "def": 616,
-                        "hp": 4995
-                  },
-                  {
-                        "att": 1673,
-                        "def": 620,
-                        "hp": 5023
-                  },
-                  {
-                        "att": 1683,
-                        "def": 623,
-                        "hp": 5051
-                  },
-                  {
-                        "att": 1692,
-                        "def": 627,
-                        "hp": 5078
-                  },
-                  {
-                        "att": 1702,
-                        "def": 630,
-                        "hp": 5106
-                  },
-                  {
-                        "att": 1711,
-                        "def": 633,
-                        "hp": 5134
-                  },
-                  {
-                        "att": 1720,
-                        "def": 637,
-                        "hp": 5161
-                  },
-                  {
-                        "att": 1730,
-                        "def": 640,
-                        "hp": 5189
-                  },
-                  {
-                        "att": 1739,
-                        "def": 643,
-                        "hp": 5217
-                  },
-                  {
-                        "att": 1749,
-                        "def": 647,
-                        "hp": 5244
-                  },
-                  {
-                        "att": 1758,
-                        "def": 650,
-                        "hp": 5272
-                  },
-                  {
-                        "att": 1768,
-                        "def": 653,
-                        "hp": 5300
-                  },
-                  {
-                        "att": 1777,
-                        "def": 657,
-                        "hp": 5327
-                  },
-                  {
-                        "att": 1787,
-                        "def": 660,
-                        "hp": 5355
-                  },
-                  {
-                        "att": 1796,
-                        "def": 663,
-                        "hp": 5383
-                  },
-                  {
-                        "att": 1806,
-                        "def": 667,
-                        "hp": 5410
-                  },
-                  {
-                        "att": 1815,
-                        "def": 670,
-                        "hp": 5438
-                  },
-                  {
-                        "att": 1824,
-                        "def": 673,
-                        "hp": 5466
-                  },
-                  {
-                        "att": 1834,
-                        "def": 677,
-                        "hp": 5493
-                  },
-                  {
-                        "att": 1843,
-                        "def": 680,
-                        "hp": 5521
-                  },
-                  {
-                        "att": 1853,
-                        "def": 684,
-                        "hp": 5549
-                  },
-                  {
-                        "att": 1862,
-                        "def": 687,
-                        "hp": 5576
-                  },
-                  {
-                        "att": 1872,
-                        "def": 690,
-                        "hp": 5604
-                  },
-                  {
-                        "att": 1881,
-                        "def": 694,
-                        "hp": 5632
-                  },
-                  {
-                        "att": 1891,
-                        "def": 697,
-                        "hp": 5659
-                  },
-                  {
-                        "att": 1900,
-                        "def": 700,
-                        "hp": 5687
-                  },
-                  {
-                        "att": 1910,
-                        "def": 704,
-                        "hp": 5715
-                  },
-                  {
-                        "att": 1919,
-                        "def": 707,
-                        "hp": 5742
-                  },
-                  {
-                        "att": 1929,
-                        "def": 710,
-                        "hp": 5770
-                  },
-                  {
-                        "att": 1938,
-                        "def": 714,
-                        "hp": 5798
-                  },
-                  {
-                        "att": 1947,
-                        "def": 717,
-                        "hp": 5825
-                  },
-                  {
-                        "att": 1957,
-                        "def": 720,
-                        "hp": 5853
-                  },
-                  {
-                        "att": 1966,
-                        "def": 724,
-                        "hp": 5880
-                  },
-                  {
-                        "att": 1976,
-                        "def": 727,
-                        "hp": 5908
-                  },
-                  {
-                        "att": 1985,
-                        "def": 730,
-                        "hp": 5936
-                  },
-                  {
-                        "att": 1995,
-                        "def": 734,
-                        "hp": 5963
-                  },
-                  {
-                        "att": 2004,
-                        "def": 737,
-                        "hp": 5991
-                  },
-                  {
-                        "att": 2211,
-                        "def": 804,
-                        "hp": 6550
-                  },
-                  {
-                        "att": 2217,
-                        "def": 807,
-                        "hp": 6568
-                  },
-                  {
-                        "att": 2223,
-                        "def": 809,
-                        "hp": 6586
-                  },
-                  {
-                        "att": 2229,
-                        "def": 811,
-                        "hp": 6605
-                  },
-                  {
-                        "att": 2236,
-                        "def": 813,
-                        "hp": 6623
-                  },
-                  {
-                        "att": 2242,
-                        "def": 816,
-                        "hp": 6642
-                  },
-                  {
-                        "att": 2248,
-                        "def": 818,
-                        "hp": 6660
-                  },
-                  {
-                        "att": 2255,
-                        "def": 820,
-                        "hp": 6679
-                  },
-                  {
-                        "att": 2261,
-                        "def": 822,
-                        "hp": 6697
-                  },
-                  {
-                        "att": 2267,
-                        "def": 825,
-                        "hp": 6716
-                  },
-                  {
-                        "att": 2274,
-                        "def": 827,
-                        "hp": 6734
-                  },
-                  {
-                        "att": 2280,
-                        "def": 829,
-                        "hp": 6752
-                  },
-                  {
-                        "att": 2286,
-                        "def": 831,
-                        "hp": 6771
-                  },
-                  {
-                        "att": 2293,
-                        "def": 833,
-                        "hp": 6789
-                  },
-                  {
-                        "att": 2299,
-                        "def": 836,
-                        "hp": 6808
-                  },
-                  {
-                        "att": 2305,
-                        "def": 838,
-                        "hp": 6826
-                  },
-                  {
-                        "att": 2311,
-                        "def": 840,
-                        "hp": 6845
-                  },
-                  {
-                        "att": 2318,
-                        "def": 842,
-                        "hp": 6863
-                  },
-                  {
-                        "att": 2324,
-                        "def": 845,
-                        "hp": 6881
-                  },
-                  {
-                        "att": 2330,
-                        "def": 847,
-                        "hp": 6900
-                  },
-                  {
-                        "att": 2337,
-                        "def": 849,
-                        "hp": 6918
-                  },
-                  {
-                        "att": 2343,
-                        "def": 851,
-                        "hp": 6937
-                  },
-                  {
-                        "att": 2349,
-                        "def": 854,
-                        "hp": 6955
-                  },
-                  {
-                        "att": 2356,
-                        "def": 856,
-                        "hp": 6974
-                  },
-                  {
-                        "att": 2362,
-                        "def": 858,
-                        "hp": 6992
-                  },
-                  {
-                        "att": 2368,
-                        "def": 860,
-                        "hp": 7011
-                  },
-                  {
-                        "att": 2374,
-                        "def": 863,
-                        "hp": 7029
-                  },
-                  {
-                        "att": 2381,
-                        "def": 865,
-                        "hp": 7047
-                  },
-                  {
-                        "att": 2387,
-                        "def": 867,
-                        "hp": 7066
-                  },
-                  {
-                        "att": 2393,
-                        "def": 869,
-                        "hp": 7084
-                  },
-                  {
-                        "att": 2400,
-                        "def": 871,
-                        "hp": 7103
-                  },
-                  {
-                        "att": 2406,
-                        "def": 874,
-                        "hp": 7121
-                  },
-                  {
-                        "att": 2412,
-                        "def": 876,
-                        "hp": 7140
-                  },
-                  {
-                        "att": 2419,
-                        "def": 878,
-                        "hp": 7158
-                  },
-                  {
-                        "att": 2425,
-                        "def": 880,
-                        "hp": 7177
-                  },
-                  {
-                        "att": 2431,
-                        "def": 883,
-                        "hp": 7195
-                  },
-                  {
-                        "att": 2438,
-                        "def": 885,
-                        "hp": 7213
-                  },
-                  {
-                        "att": 2444,
-                        "def": 887,
-                        "hp": 7232
-                  },
-                  {
-                        "att": 2450,
-                        "def": 889,
-                        "hp": 7250
-                  },
-                  {
-                        "att": 2456,
-                        "def": 892,
-                        "hp": 7269
-                  },
-                  {
-                        "att": 2463,
-                        "def": 894,
-                        "hp": 7287
-                  },
-                  {
-                        "att": 2469,
-                        "def": 896,
-                        "hp": 7306
-                  },
-                  {
-                        "att": 2475,
-                        "def": 898,
-                        "hp": 7324
-                  },
-                  {
-                        "att": 2482,
-                        "def": 901,
-                        "hp": 7342
-                  },
-                  {
-                        "att": 2488,
-                        "def": 903,
-                        "hp": 7361
-                  },
-                  {
-                        "att": 2494,
-                        "def": 905,
-                        "hp": 7379
-                  },
-                  {
-                        "att": 2501,
-                        "def": 907,
-                        "hp": 7398
-                  },
-                  {
-                        "att": 2507,
-                        "def": 909,
-                        "hp": 7416
-                  },
-                  {
-                        "att": 2513,
-                        "def": 912,
-                        "hp": 7435
-                  },
-                  {
-                        "att": 2520,
-                        "def": 914,
-                        "hp": 7453
-                  },
-                  {
-                        "att": 2526,
-                        "def": 916,
-                        "hp": 7472
-                  },
-                  {
-                        "att": 2532,
-                        "def": 918,
-                        "hp": 7490
-                  },
-                  {
-                        "att": 2538,
-                        "def": 921,
-                        "hp": 7508
-                  },
-                  {
-                        "att": 2545,
-                        "def": 923,
-                        "hp": 7527
-                  },
-                  {
-                        "att": 2551,
-                        "def": 925,
-                        "hp": 7545
-                  },
-                  {
-                        "att": 2557,
-                        "def": 927,
-                        "hp": 7564
-                  },
-                  {
-                        "att": 2564,
-                        "def": 930,
-                        "hp": 7582
-                  },
-                  {
-                        "att": 2570,
-                        "def": 932,
-                        "hp": 7601
-                  },
-                  {
-                        "att": 2576,
-                        "def": 934,
-                        "hp": 7619
-                  },
-                  {
-                        "att": 2583,
-                        "def": 936,
-                        "hp": 7638
-                  },
-                  {
-                        "att": 2589,
-                        "def": 939,
-                        "hp": 7656
-                  },
-                  {
-                        "att": 2595,
-                        "def": 941,
-                        "hp": 7674
-                  },
-                  {
-                        "att": 2602,
-                        "def": 943,
-                        "hp": 7693
-                  },
-                  {
-                        "att": 2608,
-                        "def": 945,
-                        "hp": 7711
-                  },
-                  {
-                        "att": 2614,
-                        "def": 947,
-                        "hp": 7730
-                  },
-                  {
-                        "att": 2620,
-                        "def": 950,
-                        "hp": 7748
-                  },
-                  {
-                        "att": 2627,
-                        "def": 952,
-                        "hp": 7767
-                  },
-                  {
-                        "att": 2633,
-                        "def": 954,
-                        "hp": 7785
-                  },
-                  {
-                        "att": 2639,
-                        "def": 956,
-                        "hp": 7803
-                  },
-                  {
-                        "att": 2646,
-                        "def": 959,
-                        "hp": 7822
-                  },
-                  {
-                        "att": 2652,
-                        "def": 961,
-                        "hp": 7840
-                  },
-                  {
-                        "att": 2658,
-                        "def": 963,
-                        "hp": 7859
-                  },
-                  {
-                        "att": 2665,
-                        "def": 965,
-                        "hp": 7877
-                  },
-                  {
-                        "att": 2671,
-                        "def": 968,
-                        "hp": 7896
-                  },
-                  {
-                        "att": 2677,
-                        "def": 970,
-                        "hp": 7914
-                  },
-                  {
-                        "att": 2683,
-                        "def": 972,
-                        "hp": 7933
-                  },
-                  {
-                        "att": 2690,
-                        "def": 974,
-                        "hp": 7951
-                  },
-                  {
-                        "att": 2696,
-                        "def": 977,
-                        "hp": 7969
-                  },
-                  {
-                        "att": 2702,
-                        "def": 979,
-                        "hp": 7988
-                  },
-                  {
-                        "att": 2709,
-                        "def": 981,
-                        "hp": 8006
-                  }
-            ]
-      }
+ "name": "Taki",
+ "faction": "Umbraton",
+ "element_main": "Fire",
+ "element_sub": "Forest",
+ "rarity": "5",
+ "class": "Detonator",
+ "skill": {
+  "name": "Dragonscorch",
+  "cd": "3 Turn",
+  "description": [
+   "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile).",
+   "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage.",
+   "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage."
+  ]
+ },
+ "equip": {
+  "name": "Serrated Blade: Ender of All",
+  "passive": "Burn Mark",
+  "description": [
+   [
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
+   ],
+   [
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
+   ],
+   [
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 3%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 5%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 7%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%.",
+    "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%."
+   ]
+  ],
+  "introduction": "This serrated blade may look plain, but it is highly compatible with Taki and can guide the power of flames in Taki's body."
+ },
+ "chain": {
+  "name": "Fatal Flame",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: The selected tiles are converted to Red Enhanced Tiles.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Flare Silt",
+    "Fire Essence",
+    "Destiny Champagne I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%."
+  },
+  {
+   "material": [
+    "Fire Potion II",
+    "Fire Crystal Shard",
+    "Destiny Champagne II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile).",
+   "after": "Launches searing flames toward the selected tile that erupt in a cross-shaped area and deals 400% damage (deals 80% damage to enemies on both sides of the selected tile). Applies Burn Marks to targets before dealing damage."
+  },
+  {
+   "material": [
+    "Fire Crystal Cluster",
+    "Fire Flare Rock",
+    "Destiny Champagne III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%.",
+   "after": "At the start of each round, applies a Burn Mark to the enemy with the highest percentage of HP, increasing all damage Taki deals to the target by 10%. Each time an enemy afflicted with Burn Mark is eliminated, Taki's ATK increases by 3%, up to a maximum of 15%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 514,
+    "def": 207,
+    "hp": 1687
+   },
+   {
+    "att": 524,
+    "def": 211,
+    "hp": 1717
+   },
+   {
+    "att": 534,
+    "def": 214,
+    "hp": 1746
+   },
+   {
+    "att": 544,
+    "def": 218,
+    "hp": 1776
+   },
+   {
+    "att": 554,
+    "def": 221,
+    "hp": 1805
+   },
+   {
+    "att": 565,
+    "def": 225,
+    "hp": 1835
+   },
+   {
+    "att": 575,
+    "def": 228,
+    "hp": 1864
+   },
+   {
+    "att": 585,
+    "def": 232,
+    "hp": 1894
+   },
+   {
+    "att": 595,
+    "def": 236,
+    "hp": 1923
+   },
+   {
+    "att": 605,
+    "def": 239,
+    "hp": 1953
+   },
+   {
+    "att": 615,
+    "def": 243,
+    "hp": 1982
+   },
+   {
+    "att": 625,
+    "def": 246,
+    "hp": 2012
+   },
+   {
+    "att": 635,
+    "def": 250,
+    "hp": 2041
+   },
+   {
+    "att": 645,
+    "def": 253,
+    "hp": 2071
+   },
+   {
+    "att": 655,
+    "def": 257,
+    "hp": 2100
+   },
+   {
+    "att": 665,
+    "def": 261,
+    "hp": 2130
+   },
+   {
+    "att": 676,
+    "def": 264,
+    "hp": 2159
+   },
+   {
+    "att": 686,
+    "def": 268,
+    "hp": 2189
+   },
+   {
+    "att": 696,
+    "def": 271,
+    "hp": 2218
+   },
+   {
+    "att": 706,
+    "def": 275,
+    "hp": 2248
+   },
+   {
+    "att": 716,
+    "def": 279,
+    "hp": 2277
+   },
+   {
+    "att": 726,
+    "def": 282,
+    "hp": 2307
+   },
+   {
+    "att": 736,
+    "def": 286,
+    "hp": 2336
+   },
+   {
+    "att": 746,
+    "def": 289,
+    "hp": 2366
+   },
+   {
+    "att": 756,
+    "def": 293,
+    "hp": 2395
+   },
+   {
+    "att": 766,
+    "def": 296,
+    "hp": 2425
+   },
+   {
+    "att": 776,
+    "def": 300,
+    "hp": 2454
+   },
+   {
+    "att": 787,
+    "def": 304,
+    "hp": 2484
+   },
+   {
+    "att": 797,
+    "def": 307,
+    "hp": 2513
+   },
+   {
+    "att": 807,
+    "def": 311,
+    "hp": 2543
+   },
+   {
+    "att": 904,
+    "def": 345,
+    "hp": 2810
+   },
+   {
+    "att": 917,
+    "def": 350,
+    "hp": 2847
+   },
+   {
+    "att": 930,
+    "def": 354,
+    "hp": 2884
+   },
+   {
+    "att": 942,
+    "def": 359,
+    "hp": 2920
+   },
+   {
+    "att": 955,
+    "def": 363,
+    "hp": 2957
+   },
+   {
+    "att": 967,
+    "def": 368,
+    "hp": 2994
+   },
+   {
+    "att": 980,
+    "def": 372,
+    "hp": 3031
+   },
+   {
+    "att": 993,
+    "def": 376,
+    "hp": 3068
+   },
+   {
+    "att": 1005,
+    "def": 381,
+    "hp": 3105
+   },
+   {
+    "att": 1018,
+    "def": 385,
+    "hp": 3142
+   },
+   {
+    "att": 1030,
+    "def": 390,
+    "hp": 3179
+   },
+   {
+    "att": 1043,
+    "def": 394,
+    "hp": 3216
+   },
+   {
+    "att": 1056,
+    "def": 399,
+    "hp": 3252
+   },
+   {
+    "att": 1068,
+    "def": 403,
+    "hp": 3289
+   },
+   {
+    "att": 1081,
+    "def": 408,
+    "hp": 3326
+   },
+   {
+    "att": 1094,
+    "def": 412,
+    "hp": 3363
+   },
+   {
+    "att": 1106,
+    "def": 417,
+    "hp": 3400
+   },
+   {
+    "att": 1119,
+    "def": 421,
+    "hp": 3437
+   },
+   {
+    "att": 1131,
+    "def": 426,
+    "hp": 3474
+   },
+   {
+    "att": 1144,
+    "def": 430,
+    "hp": 3511
+   },
+   {
+    "att": 1157,
+    "def": 435,
+    "hp": 3547
+   },
+   {
+    "att": 1169,
+    "def": 439,
+    "hp": 3584
+   },
+   {
+    "att": 1182,
+    "def": 444,
+    "hp": 3621
+   },
+   {
+    "att": 1194,
+    "def": 448,
+    "hp": 3658
+   },
+   {
+    "att": 1207,
+    "def": 452,
+    "hp": 3695
+   },
+   {
+    "att": 1220,
+    "def": 457,
+    "hp": 3732
+   },
+   {
+    "att": 1232,
+    "def": 461,
+    "hp": 3769
+   },
+   {
+    "att": 1245,
+    "def": 466,
+    "hp": 3806
+   },
+   {
+    "att": 1257,
+    "def": 470,
+    "hp": 3842
+   },
+   {
+    "att": 1270,
+    "def": 475,
+    "hp": 3879
+   },
+   {
+    "att": 1283,
+    "def": 479,
+    "hp": 3916
+   },
+   {
+    "att": 1295,
+    "def": 484,
+    "hp": 3953
+   },
+   {
+    "att": 1308,
+    "def": 488,
+    "hp": 3990
+   },
+   {
+    "att": 1321,
+    "def": 493,
+    "hp": 4027
+   },
+   {
+    "att": 1333,
+    "def": 497,
+    "hp": 4064
+   },
+   {
+    "att": 1346,
+    "def": 502,
+    "hp": 4101
+   },
+   {
+    "att": 1358,
+    "def": 506,
+    "hp": 4138
+   },
+   {
+    "att": 1371,
+    "def": 511,
+    "hp": 4174
+   },
+   {
+    "att": 1384,
+    "def": 515,
+    "hp": 4211
+   },
+   {
+    "att": 1396,
+    "def": 520,
+    "hp": 4248
+   },
+   {
+    "att": 1541,
+    "def": 573,
+    "hp": 4636
+   },
+   {
+    "att": 1550,
+    "def": 576,
+    "hp": 4663
+   },
+   {
+    "att": 1560,
+    "def": 580,
+    "hp": 4691
+   },
+   {
+    "att": 1569,
+    "def": 583,
+    "hp": 4719
+   },
+   {
+    "att": 1579,
+    "def": 586,
+    "hp": 4746
+   },
+   {
+    "att": 1588,
+    "def": 590,
+    "hp": 4774
+   },
+   {
+    "att": 1597,
+    "def": 593,
+    "hp": 4802
+   },
+   {
+    "att": 1607,
+    "def": 596,
+    "hp": 4829
+   },
+   {
+    "att": 1616,
+    "def": 600,
+    "hp": 4857
+   },
+   {
+    "att": 1626,
+    "def": 603,
+    "hp": 4885
+   },
+   {
+    "att": 1635,
+    "def": 606,
+    "hp": 4912
+   },
+   {
+    "att": 1645,
+    "def": 610,
+    "hp": 4940
+   },
+   {
+    "att": 1654,
+    "def": 613,
+    "hp": 4968
+   },
+   {
+    "att": 1664,
+    "def": 616,
+    "hp": 4995
+   },
+   {
+    "att": 1673,
+    "def": 620,
+    "hp": 5023
+   },
+   {
+    "att": 1683,
+    "def": 623,
+    "hp": 5051
+   },
+   {
+    "att": 1692,
+    "def": 627,
+    "hp": 5078
+   },
+   {
+    "att": 1702,
+    "def": 630,
+    "hp": 5106
+   },
+   {
+    "att": 1711,
+    "def": 633,
+    "hp": 5134
+   },
+   {
+    "att": 1720,
+    "def": 637,
+    "hp": 5161
+   },
+   {
+    "att": 1730,
+    "def": 640,
+    "hp": 5189
+   },
+   {
+    "att": 1739,
+    "def": 643,
+    "hp": 5217
+   },
+   {
+    "att": 1749,
+    "def": 647,
+    "hp": 5244
+   },
+   {
+    "att": 1758,
+    "def": 650,
+    "hp": 5272
+   },
+   {
+    "att": 1768,
+    "def": 653,
+    "hp": 5300
+   },
+   {
+    "att": 1777,
+    "def": 657,
+    "hp": 5327
+   },
+   {
+    "att": 1787,
+    "def": 660,
+    "hp": 5355
+   },
+   {
+    "att": 1796,
+    "def": 663,
+    "hp": 5383
+   },
+   {
+    "att": 1806,
+    "def": 667,
+    "hp": 5410
+   },
+   {
+    "att": 1815,
+    "def": 670,
+    "hp": 5438
+   },
+   {
+    "att": 1824,
+    "def": 673,
+    "hp": 5466
+   },
+   {
+    "att": 1834,
+    "def": 677,
+    "hp": 5493
+   },
+   {
+    "att": 1843,
+    "def": 680,
+    "hp": 5521
+   },
+   {
+    "att": 1853,
+    "def": 684,
+    "hp": 5549
+   },
+   {
+    "att": 1862,
+    "def": 687,
+    "hp": 5576
+   },
+   {
+    "att": 1872,
+    "def": 690,
+    "hp": 5604
+   },
+   {
+    "att": 1881,
+    "def": 694,
+    "hp": 5632
+   },
+   {
+    "att": 1891,
+    "def": 697,
+    "hp": 5659
+   },
+   {
+    "att": 1900,
+    "def": 700,
+    "hp": 5687
+   },
+   {
+    "att": 1910,
+    "def": 704,
+    "hp": 5715
+   },
+   {
+    "att": 1919,
+    "def": 707,
+    "hp": 5742
+   },
+   {
+    "att": 1929,
+    "def": 710,
+    "hp": 5770
+   },
+   {
+    "att": 1938,
+    "def": 714,
+    "hp": 5798
+   },
+   {
+    "att": 1947,
+    "def": 717,
+    "hp": 5825
+   },
+   {
+    "att": 1957,
+    "def": 720,
+    "hp": 5853
+   },
+   {
+    "att": 1966,
+    "def": 724,
+    "hp": 5880
+   },
+   {
+    "att": 1976,
+    "def": 727,
+    "hp": 5908
+   },
+   {
+    "att": 1985,
+    "def": 730,
+    "hp": 5936
+   },
+   {
+    "att": 1995,
+    "def": 734,
+    "hp": 5963
+   },
+   {
+    "att": 2004,
+    "def": 737,
+    "hp": 5991
+   },
+   {
+    "att": 2211,
+    "def": 804,
+    "hp": 6550
+   },
+   {
+    "att": 2217,
+    "def": 807,
+    "hp": 6568
+   },
+   {
+    "att": 2223,
+    "def": 809,
+    "hp": 6586
+   },
+   {
+    "att": 2229,
+    "def": 811,
+    "hp": 6605
+   },
+   {
+    "att": 2236,
+    "def": 813,
+    "hp": 6623
+   },
+   {
+    "att": 2242,
+    "def": 816,
+    "hp": 6642
+   },
+   {
+    "att": 2248,
+    "def": 818,
+    "hp": 6660
+   },
+   {
+    "att": 2255,
+    "def": 820,
+    "hp": 6679
+   },
+   {
+    "att": 2261,
+    "def": 822,
+    "hp": 6697
+   },
+   {
+    "att": 2267,
+    "def": 825,
+    "hp": 6716
+   },
+   {
+    "att": 2274,
+    "def": 827,
+    "hp": 6734
+   },
+   {
+    "att": 2280,
+    "def": 829,
+    "hp": 6752
+   },
+   {
+    "att": 2286,
+    "def": 831,
+    "hp": 6771
+   },
+   {
+    "att": 2293,
+    "def": 833,
+    "hp": 6789
+   },
+   {
+    "att": 2299,
+    "def": 836,
+    "hp": 6808
+   },
+   {
+    "att": 2305,
+    "def": 838,
+    "hp": 6826
+   },
+   {
+    "att": 2311,
+    "def": 840,
+    "hp": 6845
+   },
+   {
+    "att": 2318,
+    "def": 842,
+    "hp": 6863
+   },
+   {
+    "att": 2324,
+    "def": 845,
+    "hp": 6881
+   },
+   {
+    "att": 2330,
+    "def": 847,
+    "hp": 6900
+   },
+   {
+    "att": 2337,
+    "def": 849,
+    "hp": 6918
+   },
+   {
+    "att": 2343,
+    "def": 851,
+    "hp": 6937
+   },
+   {
+    "att": 2349,
+    "def": 854,
+    "hp": 6955
+   },
+   {
+    "att": 2356,
+    "def": 856,
+    "hp": 6974
+   },
+   {
+    "att": 2362,
+    "def": 858,
+    "hp": 6992
+   },
+   {
+    "att": 2368,
+    "def": 860,
+    "hp": 7011
+   },
+   {
+    "att": 2374,
+    "def": 863,
+    "hp": 7029
+   },
+   {
+    "att": 2381,
+    "def": 865,
+    "hp": 7047
+   },
+   {
+    "att": 2387,
+    "def": 867,
+    "hp": 7066
+   },
+   {
+    "att": 2393,
+    "def": 869,
+    "hp": 7084
+   },
+   {
+    "att": 2400,
+    "def": 871,
+    "hp": 7103
+   },
+   {
+    "att": 2406,
+    "def": 874,
+    "hp": 7121
+   },
+   {
+    "att": 2412,
+    "def": 876,
+    "hp": 7140
+   },
+   {
+    "att": 2419,
+    "def": 878,
+    "hp": 7158
+   },
+   {
+    "att": 2425,
+    "def": 880,
+    "hp": 7177
+   },
+   {
+    "att": 2431,
+    "def": 883,
+    "hp": 7195
+   },
+   {
+    "att": 2438,
+    "def": 885,
+    "hp": 7213
+   },
+   {
+    "att": 2444,
+    "def": 887,
+    "hp": 7232
+   },
+   {
+    "att": 2450,
+    "def": 889,
+    "hp": 7250
+   },
+   {
+    "att": 2456,
+    "def": 892,
+    "hp": 7269
+   },
+   {
+    "att": 2463,
+    "def": 894,
+    "hp": 7287
+   },
+   {
+    "att": 2469,
+    "def": 896,
+    "hp": 7306
+   },
+   {
+    "att": 2475,
+    "def": 898,
+    "hp": 7324
+   },
+   {
+    "att": 2482,
+    "def": 901,
+    "hp": 7342
+   },
+   {
+    "att": 2488,
+    "def": 903,
+    "hp": 7361
+   },
+   {
+    "att": 2494,
+    "def": 905,
+    "hp": 7379
+   },
+   {
+    "att": 2501,
+    "def": 907,
+    "hp": 7398
+   },
+   {
+    "att": 2507,
+    "def": 909,
+    "hp": 7416
+   },
+   {
+    "att": 2513,
+    "def": 912,
+    "hp": 7435
+   },
+   {
+    "att": 2520,
+    "def": 914,
+    "hp": 7453
+   },
+   {
+    "att": 2526,
+    "def": 916,
+    "hp": 7472
+   },
+   {
+    "att": 2532,
+    "def": 918,
+    "hp": 7490
+   },
+   {
+    "att": 2538,
+    "def": 921,
+    "hp": 7508
+   },
+   {
+    "att": 2545,
+    "def": 923,
+    "hp": 7527
+   },
+   {
+    "att": 2551,
+    "def": 925,
+    "hp": 7545
+   },
+   {
+    "att": 2557,
+    "def": 927,
+    "hp": 7564
+   },
+   {
+    "att": 2564,
+    "def": 930,
+    "hp": 7582
+   },
+   {
+    "att": 2570,
+    "def": 932,
+    "hp": 7601
+   },
+   {
+    "att": 2576,
+    "def": 934,
+    "hp": 7619
+   },
+   {
+    "att": 2583,
+    "def": 936,
+    "hp": 7638
+   },
+   {
+    "att": 2589,
+    "def": 939,
+    "hp": 7656
+   },
+   {
+    "att": 2595,
+    "def": 941,
+    "hp": 7674
+   },
+   {
+    "att": 2602,
+    "def": 943,
+    "hp": 7693
+   },
+   {
+    "att": 2608,
+    "def": 945,
+    "hp": 7711
+   },
+   {
+    "att": 2614,
+    "def": 947,
+    "hp": 7730
+   },
+   {
+    "att": 2620,
+    "def": 950,
+    "hp": 7748
+   },
+   {
+    "att": 2627,
+    "def": 952,
+    "hp": 7767
+   },
+   {
+    "att": 2633,
+    "def": 954,
+    "hp": 7785
+   },
+   {
+    "att": 2639,
+    "def": 956,
+    "hp": 7803
+   },
+   {
+    "att": 2646,
+    "def": 959,
+    "hp": 7822
+   },
+   {
+    "att": 2652,
+    "def": 961,
+    "hp": 7840
+   },
+   {
+    "att": 2658,
+    "def": 963,
+    "hp": 7859
+   },
+   {
+    "att": 2665,
+    "def": 965,
+    "hp": 7877
+   },
+   {
+    "att": 2671,
+    "def": 968,
+    "hp": 7896
+   },
+   {
+    "att": 2677,
+    "def": 970,
+    "hp": 7914
+   },
+   {
+    "att": 2683,
+    "def": 972,
+    "hp": 7933
+   },
+   {
+    "att": 2690,
+    "def": 974,
+    "hp": 7951
+   },
+   {
+    "att": 2696,
+    "def": 977,
+    "hp": 7969
+   },
+   {
+    "att": 2702,
+    "def": 979,
+    "hp": 7988
+   },
+   {
+    "att": 2709,
+    "def": 981,
+    "hp": 8006
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Taki",
+     "Dayna"
+    ],
+    "chat": [
+     {
+      "character": "Taki:",
+      "text": "I brought that thing you wanted."
+     },
+     {
+      "character": "Dayna:",
+      "text": "Oh? That was fast."
+     },
+     {
+      "character": "Taki:",
+      "text": "Of course. Who do you think I am?"
+     },
+     {
+      "character": "Taki:",
+      "text": "It takes real skills to run this business!"
+     },
+     {
+      "character": "Dayna:",
+      "text": "All right, let's see it."
+     },
+     {
+      "character": "Taki:",
+      "text": "Hey, we got rules, you know. Not until I see the money."
+     },
+     {
+      "character": "Dayna:",
+      "text": "Of course I know the rules, but I have the right to inspect the goods first."
+     },
+     {
+      "character": "Taki:",
+      "text": "Fine. You get a second and that's it, you hear?"
+     },
+     {
+      "character": "Taki:",
+      "text": "See."
+     },
+     {
+      "character": "Dayna:",
+      "text": "What the... That's literally just a second!"
+     },
+     {
+      "character": "Taki:",
+      "text": "That's what I told you. Now pay up!"
+     },
+     {
+      "character": "Dayna:",
+      "text": "You're just as bad as Sheol, that crooked merchant!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Umbraton Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Mr. Taki is the well-known owner of the Odd Jobs in Umbraton. I heard that he and his Odd Jobs could do anything, and he always has a solution no matter what request is made... Although I think that sounds a little exaggerated, the look of admiration on the face of %s tells me someone is deeply convinced. He has been following Mr. Sheol around recently, asking him if he would accept the request to investigate his life... %s is too naive. How could an ordinary Aurorian know about matters concerning the Caelestites? Even the omnipotent Odd Jobs can't possibly have any clues.Not to mention\u2014is it possible %s doesn't know that the Odd Jobs charges fees to complete requests?!\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Kid, you seem to have a lot of questions for me. I must first remind you that this is the Odd Jobs. I might not answer your questions about my affairs, and I might consider your questions about anything else as a request... What do you think? Of course there're fees! Do you think I run a charity?!Anyhow, there's a bar or something on your Colossus, right? I went there, but it didn't have any wine that I particularly liked. How about this? Let's make a trade. You get me the wine I want to drink, and I'll accept your request for free in exchange. What do you think? Too difficult? There are too many people who can't hold their liquor on the Colossus? Geez! How troublesome... Forget it, as long as there's wine to drink.Is that everything? We'll talk another time if that's it. I want to rest now."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "My eyes? No, I'm not injured, it's just that there's something special about the color of my pupils... Each pupil has a different color. You aren't afraid of that? Hah! True, this isn't the Far East. You must know, different colored pupils are a symbol of bad luck in my hometown. I suffered quite a bit because of them when I was a kid, haha... Look at you. Are you worried about me? I didn't expect that, kid. But I'm not to be trifled with. I fought back against everyone who bullied me! Judging from your reaction, you don't believe me? Kid, do you want a taste of my fists... Wait, you find something else unbelievable instead? Ah! You mean you couldn't believe that people really did swear at me because my pupils were of different colors.Kid, you're too young. There are many things you can't imagine in this world. Humans inherently reject everything different. Fortunately, things are different here and in Umbraton. Although I don't care about how people see me, who doesn't want to live more comfortably? Isn't that right, kid?"
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "You were looking for me? I'm alright, but today is the day I maintain my serrated blade. You can wait a little longer if you don't mind... Speaking of it, this isn't the weapon I first use. Did I ever tell you I used to be skilled at using a katana? Since we are on this subject, I guess it's time to take a walk down memory lane.At that time, I got in a lot of trouble everywhere to survive, and I was often beaten up by others. I originally wanted to find a master to learn how to fight to protect myself, but my master initially thought I was a rebellious brat who could not be disciplined... Well, I admit that's true, but it had nothing to do with my sincerity for finding a master, right? Anyway, later on... Maybe it was due to my persistence, my master promised me he would teach me how to use a katana if I could challenge and defeat him in three years. I'm sure you know what happened. In the end, he agreed to accept me as a disciple, even though I know he went easy on me on purpose...I am still a rebellious guy to this day, but I will never forget my master's teachings from back then. I really want to fight him again if he is still around. I wonder if he will be satisfied with the person I am today..."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "I originally opened the Odd Jobs to investigate the gemstone necklace my parents left me... It's the one around my neck. Kid, you probably don't know, but this necklace is the source of my strength! When I was bullied as a child, I relied on its power to beat my opponents to the ground! I was very different back then. I was thin and short, with scrawny arms and legs. If not for this necklace, I would have been the one beaten on the ground! That was when I started to pay attention to it. I've been wearing it since I could remember. If it wasn't for the events from that time, I would have continued to think it was just a nice-looking, ordinary gem.I have collected countless gems over the years while running the Odd Jobs. Although they are all special in one way or another, none of them were like the one I carried. I grew increasingly curious about its secrets, as well as why my parents left this item to me. Later, I became an ally of Umbraton, and the condition I made was to get the Shadowlord to investigate the secret of this gem for me. The Shadowlord is mysterious and powerful. I'm sure I'll be one step closer to solving the mystery with his help.It's not like I have to know its secrets. I'm more curious about my birth and origin than this necklace itself..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Umbraton is a good place to gather intel, and no one there talks crap. I like it.",
+  "I'll join Rediesel Wrench after I find out the secrets of the necklace. I'm quite fond of those people.",
+  "The shadow is watching you.",
+  "A bunch of trash with absolutely no wits. They have no value to speak of.",
+  "Istvan is really good at managing Umbraton. It's rather peaceful here with him around.",
+  "I wonder how the little pink-haired girl is doing. Ah, to hell with it. I'm not gonna think about it.",
+  "Having booze to drink is enough for me in this lifetime.",
+  "There were a few part-timers here, but I fired them because they talked too much.",
+  "This bloke is too big. I can't even find my way around in here. And there are way too many identical rooms.",
+  "If you have something to say, just say it. Stop faffing about.",
+  "Want me to keep watch? Got it. The Odd Jobs does everything, doesn't it?",
+  "Defeated? It's part of everyday life.",
+  "It wasn't even difficult.",
+  "It's over.",
+  "Too slow!",
+  "It's time.",
+  "Happy New Year, kid. This discount coupon is for you.",
+  "Oh, we're doing this?",
+  "Humph, it was nothing but a child's play.",
+  "I'm getting closer... to finding out the secrets of the necklace.",
+  "Blood pumping... It's been a while since I've been this fired up!",
+  "Don't you have anything to do? Or are you really busy, kid?",
+  "Not bad.",
+  "Alchemy Stars.",
+  "Friends? What makes you think I need any of those? Though I did have one when I was a boy...",
+  "Of course there is a commission fee. How much? It depends on the contents.",
+  "Don't you think running an Odd Jobs is easy... I always have to host strange people, like that guy with a dog and the guy with tentacles.",
+  "My strength is definitely getting stronger, but I am still far from finding out the secret of the necklace.",
+  "No one at the Odd Jobs can work with you to save the world, so save your breath and stop looking.",
+  "There is no equality in this world. There is no equality where there are people.",
+  "You're a really weird kid, but I don't dislike you.",
+  "You're nothing like those brats in the Far East. What? It's unusual of me to compliment you, so just accept it.",
+  "Not many people in Umbraton are willing to build relationships with others. Everyone is held back by one thing or another, which makes it very hard for them to think about anything other than survival.",
+  "Enough. You've seen enough. Or do you want to try this?",
+  "Since you have so much free time, you should go do your own stuff.",
+  "I have to find out the secrets of this necklace as soon as possible.",
+  "You're in good spirit, kid. Wanna help me with my business? You'll get paid, of course.",
+  "How long are you going to sleep in, kid? You'd be off to work by now if you're with Odd Jobs!",
+  "Come on, have a drink with me. It's on me. You can have juice. I don't care.",
+  "You're a real tour de force, kid, still working so hard at this hour. Wanna have a drink with me?",
+  "Is there something you want to commission me to do, kid? It better not be anything trivial. There are only so many things the Odd Jobs can get done in a day, so I must be very selective.",
+  "Are you trying to bribe me?",
+  "I'll take it. Thank you.",
+  "You've got quite an eye for stuff.",
+  "This is\u2014! Thanks, kid.",
+  "Burn them all!",
+  "Incinerate everything!",
+  "Watch this!",
+  "The world is not very friendly to those who are different. Some are even treated badly just because of their looks, but it's a lot better here in Umbraton.",
+  "To this day, the time I spent in the Far East still feels like yesterday. The teachings of my master still echo in my mind, and there was this pink-haired girl whom I somehow care about.",
+  "This necklace... is something I've been carrying around since I could remember. It's a legacy from my parents and is also the source of my power. There are so many secrets behind it, but I don't know any of them.",
+  "I'm not used to leading a team."
+ ],
+ "skins": [],
+ "description": "The proprietor of Odd Jobs who traveled from the Far East, eventually settling in Umbraton. An ally of Istvan, he's a standoffish nonconformist who does things with the utmost efficiency.",
+ "realName": "Taki",
+ "nickname": "Dragonic Blade",
+ "gender": "Male",
+ "height": "6'2''",
+ "birthday": "August 2",
+ "birthplace": "Far East",
+ "style": "Serrated Blade, Dragonic Flame"
 }

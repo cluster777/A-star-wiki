@@ -1,0 +1,210 @@
+[
+ {
+  "start": [
+   {
+    "name": "Rabbie:",
+    "content": "Retreat! Retreat! Through my precise calculations, I have perfected the best escape route on the Colossus! Please follow Rabbie!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Retreat? We just boarded the Colossus and now you want to evacuate?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "It's only because I boarded this Colossus that I had to seriously consider potential escape routes. It pays to prepare!"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "If you think about it carefully, how else can we protect as many people as possible if the Colossus finds itself in a life-and-death situation?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "The only way to do this is to evaluate the risks and train in advance. You know what that means\u2014an escape drill!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So, where should we evacuate from the Colossus?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "First of all, it shouldn't be from up high. That wouldn't fly with the Aurorians who are afraid of heights."
+   },
+   {
+    "name": "Rabbie:",
+    "content": "Secondly, it's not safe to retreat from the sides, as this can cause crowding and eventual stampeding."
+   },
+   {
+    "name": "Rabbie:",
+    "content": "So the safest route is straight down!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Did you... dig a hole in the Colossus?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "That's not it!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, that's alright then..."
+   },
+   {
+    "name": "Rabbie:",
+    "content": "It's not a hole; it's an emergency exit!"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "I built three escape routes just in case, with three emergency exits leading from the Colossus\u2014enough to ensure the safety of everyone!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You mean, there are three holes in the Colossus!?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Rabbie:",
+    "content": "Navigator, are you there?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm in my room. What's the matter?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "I've made some new inventions. Can you help me test them out?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nothing dangerous, I hope..."
+   },
+   {
+    "name": "Rabbie:",
+    "content": "What do you mean? I assure you they're all very safe."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I hope so..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Rabbie:",
+    "content": "Knock knock, are you there?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Rabbie. What's up?"
+   },
+   {
+    "name": "Rabbie:",
+    "content": "I just asked the fireflies to send a part up to my room, but I haven't received it..."
+   },
+   {
+    "name": "Rabbie:",
+    "content": "Can you help me to check them out?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Certainly. Do you have any idea what the problem might be?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Do you think they could have lost it?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Maybe they couldn't find your room?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Do you think they could have lost it?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Rabbie:",
+      "content": "Hmm... I think they probably lost it! My room's so easy to find!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "It's the only room with a door covered with the latest optical camouflage technology!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "And there are loads of junk and plants outside to hide the door!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "Oh, no... I accidentally told you the secret of my room!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Rabbie, if your room is so hidden..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The fireflies probably can't find your room..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Maybe they couldn't find your room?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Rabbie:",
+      "content": "Hmm... I think they probably lost it! My room's so easy to find!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "It's the only room with a door covered with the latest optical camouflage technology!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "And there are loads of junk and plants outside to hide the door!"
+     },
+     {
+      "name": "Rabbie:",
+      "content": "Oh, no... I accidentally told you the secret of my room!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Rabbie, if your room is so hidden..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The fireflies probably can't find your room..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

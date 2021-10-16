@@ -1,0 +1,1366 @@
+{
+ "title": "The Golden Sandworm",
+ "header": "Taki has taken an odd request: to search for a golden sandworm. Together with him, you head to the Rediesel Desert, the sandworm motherland, hoping to find one of these elusive, priceless creatures... only to find that Brock has taken one and ground it into shiny, golden protein powder?!",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What's up, Taki?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I'll get straight to the point. Have you seen gold sandworms?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gold... sandworms?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Yes. Shining like gold, almost blinding under bright light..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That kind."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen sandworms, but not the gold kind."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I thought as much."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "If you've never seen it even with your Colossus, how am I going to find it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But why must you find this gold sandworm?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I do odd jobs."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Anybody with problems they can't solve will come to see me, no matter who they are."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "On the other hand, everyone who comes to see me has difficult problems..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "So any kind of bizarre, mind-numbing request is possible."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Such as tracking down a shiny gold sandworm?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Exactly! So, how about giving me a hand? I'll treat you to dinner in Umbraton."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "All right, let me think, where can we find a shiny gold sandworm..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Maybe the museum in Lumopolis?",
+     "link": "1"
+    },
+    {
+     "text": "Maybe Northland, where there are plenty of weird things?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Taki:",
+     "dialogue": "Ain't that a coincidence."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Guess who hired me for this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Who?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "An old Lumopolis noble who owns a private museum."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "It pays very well... What's with that look? Doing odd jobs is profitable!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "So, any ideas?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "You could say Rediesel Desert and it would still be better than that forsaken place."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just assumed you already searched Rediesel Desert..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You didn't? That should have been the first thing you think of when it comes to sandworms!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I didn't simply for that very reason."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "As someone who takes pride in taking odd jobs, I refuse to accept such an obvious option."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, even if it is too obvious, I still suggest you go to the Rediesel Desert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it is home to sandworms."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fine, since you put it that way, I guess I'll go take a look."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But for the record, you're the one who came up with that lame idea."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Excuses, excuses, you're the one who wants to go..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What did you say, kid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, I meant have a nice trip!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Me? You're coming too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Me?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Your idea so you lead the way."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't worry. You'll get a cut when we find it."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I'll tell Vice not to wake you up so early in the morning."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are we waiting for, then? Soroz, to the Rediesel Desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, it's a big desert... Where should we start?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hold it, you two!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't just jump out at people like that. That's dangerous!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Dangerous? Haha, I don't know the meaning of that word."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Tell me why you're sneaking around the desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're here to find a..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Watch what you say, Navigator!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't let that Rediesel idiot know we're looking for a shiny gold Sandworm!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Or he'll tell everyone."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That will draw competitors."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll say..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ha, so you took a gig looking for a shiny gold sandworm?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What, you heard everything?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yup, every word!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Shouldn't even bring it up if you didn't want it known. It ain't safe to whisper! You're such morons!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Can't believe I made the mistake of underestimating him..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hahahaha! I'd never make that kind of mistake!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Great, mocked by an idiot..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Getting mocked by Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a rare achievement. Nope, make that an impossible achievement."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Haha! But don't worry, I won't go blabbing about it everywhere!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Because I don't have to! It's just a shiny gold sandworm, not like no one's ever seen it before!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say, Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean you saw a shiny gold sandworm before?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Of course!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Impossible."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "My client told me it's the only one in all of Astra."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "He spent half of his life looking and still couldn't even get a glimpse."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "There's no way an idiot like you could lead us to it. Completely impossible!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What? Looking down on me again?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll show you! Come with me to my base!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Base?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah! Chop chop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not bad, Taki."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Ahem... It wouldn't hurt to try."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What's there to mumble about? Are you coming or not?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You're looking for gold sandworm, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Yes. Show us what you got."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "With such big talk, you better have it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What if I do have it? What are you going to do?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Well, first prove it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll prove it to you right now!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ta-da!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Th-this is!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See! This is what you're looking for, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "It is..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "How did you get it?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "How? On my usual 120-mile morning jog through the desert,"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I just picked it off the roadside."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "120 miles?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That's it?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fortune does favor the dumb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute, 120 miles a day? Never mind. I got another question, Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you put the worm in a mixer?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What, you can't tell?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Allow me to demonstrate!"
+    },
+    {
+     "char": "Navigator and Taki:",
+     "dialogue": "Hey!!!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See, this is why I put it in the machine!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "As a Rediesel Desert specialty, sandworms are full of protein and other nutrients."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You catch one, dry it, dehydrate it, and put it into a mixer."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So you get the best protein powder ever!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sandworm protein powder...?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That looks very delicious...",
+     "link": "4"
+    },
+    {
+     "text": "That looks very nutritious...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Taki:",
+     "dialogue": "I thought about that too. The things you can find in Northland..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But sandworms don't live there. Not even normal ones, let alone gold ones."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "It's cold enough to freeze your teeth off! Sandworms wouldn't be caught dead in the snow."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, maybe you'll find a frozen gold sandworm there."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I told you, there are none."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Do I have to tell you the humiliating story of being laughed at by Northlanders when I went up there to look?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "So, any ideas?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "You could say Rediesel Desert and it would still be better than that forsaken place."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just assumed you already searched Rediesel Desert..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You didn't? That should have been the first thing you think of when it comes to sandworms!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I didn't simply for that very reason."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "As someone who takes pride in taking odd jobs, I refuse to accept such an obvious option."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, even if it is too obvious, I still suggest you go to the Rediesel Desert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it is home to sandworms."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fine, since you put it that way, I guess I'll go take a look."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But for the record, you're the one who came up with that lame idea."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Excuses, excuses, you're the one who wants to go..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What did you say, kid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, I meant have a nice trip!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Me? You're coming too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Me?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Your idea so you lead the way."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't worry. You'll get a cut when we find it."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I'll tell Vice not to wake you up so early in the morning."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are we waiting for, then? Soroz, to the Rediesel Desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, it's a big desert... Where should we start?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hold it, you two!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't just jump out at people like that. That's dangerous!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Dangerous? Haha, I don't know the meaning of that word."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Tell me why you're sneaking around the desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're here to find a..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Watch what you say, Navigator!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't let that Rediesel idiot know we're looking for a shiny gold Sandworm!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Or he'll tell everyone."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That will draw competitors."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll say..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ha, so you took a gig looking for a shiny gold sandworm?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What, you heard everything?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yup, every word!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Shouldn't even bring it up if you didn't want it known. It ain't safe to whisper! You're such morons!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Can't believe I made the mistake of underestimating him..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hahahaha! I'd never make that kind of mistake!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Great, mocked by an idiot..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Getting mocked by Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a rare achievement. Nope, make that an impossible achievement."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Haha! But don't worry, I won't go blabbing about it everywhere!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Because I don't have to! It's just a shiny gold sandworm, not like no one's ever seen it before!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say, Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean you saw a shiny gold sandworm before?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Of course!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Impossible."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "My client told me it's the only one in all of Astra."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "He spent half of his life looking and still couldn't even get a glimpse."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "There's no way an idiot like you could lead us to it. Completely impossible!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What? Looking down on me again?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll show you! Come with me to my base!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Base?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah! Chop chop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not bad, Taki."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Ahem... It wouldn't hurt to try."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What's there to mumble about? Are you coming or not?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You're looking for gold sandworm, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Yes. Show us what you got."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "With such big talk, you better have it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What if I do have it? What are you going to do?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Well, first prove it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll prove it to you right now!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ta-da!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Th-this is!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See! This is what you're looking for, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "It is..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "How did you get it?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "How? On my usual 120-mile morning jog through the desert,"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I just picked it off the roadside."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "120 miles?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That's it?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fortune does favor the dumb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute, 120 miles a day? Never mind. I got another question, Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you put the worm in a mixer?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What, you can't tell?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Allow me to demonstrate!"
+    },
+    {
+     "char": "Navigator and Taki:",
+     "dialogue": "Hey!!!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See, this is why I put it in the machine!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "As a Rediesel Desert specialty, sandworms are full of protein and other nutrients."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You catch one, dry it, dehydrate it, and put it into a mixer."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So you get the best protein powder ever!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sandworm protein powder...?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That looks very delicious...",
+     "link": "4"
+    },
+    {
+     "text": "That looks very nutritious...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Taki:",
+     "dialogue": "You could say Rediesel Desert and it would still be better than that forsaken place."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just assumed you already searched Rediesel Desert..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You didn't? That should have been the first thing you think of when it comes to sandworms!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I didn't simply for that very reason."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "As someone who takes pride in taking odd jobs, I refuse to accept such an obvious option."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, even if it is too obvious, I still suggest you go to the Rediesel Desert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it is home to sandworms."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fine, since you put it that way, I guess I'll go take a look."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But for the record, you're the one who came up with that lame idea."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Excuses, excuses, you're the one who wants to go..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What did you say, kid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, I meant have a nice trip!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Me? You're coming too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Me?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Your idea so you lead the way."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't worry. You'll get a cut when we find it."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "I'll tell Vice not to wake you up so early in the morning."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are we waiting for, then? Soroz, to the Rediesel Desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, it's a big desert... Where should we start?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hold it, you two!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't just jump out at people like that. That's dangerous!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Dangerous? Haha, I don't know the meaning of that word."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Tell me why you're sneaking around the desert!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're here to find a..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Watch what you say, Navigator!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Don't let that Rediesel idiot know we're looking for a shiny gold Sandworm!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Or he'll tell everyone."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That will draw competitors."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll say..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ha, so you took a gig looking for a shiny gold sandworm?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What, you heard everything?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yup, every word!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Shouldn't even bring it up if you didn't want it known. It ain't safe to whisper! You're such morons!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Can't believe I made the mistake of underestimating him..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hahahaha! I'd never make that kind of mistake!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Great, mocked by an idiot..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Getting mocked by Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a rare achievement. Nope, make that an impossible achievement."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Haha! But don't worry, I won't go blabbing about it everywhere!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Because I don't have to! It's just a shiny gold sandworm, not like no one's ever seen it before!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say, Brock?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean you saw a shiny gold sandworm before?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Of course!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Impossible."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "My client told me it's the only one in all of Astra."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "He spent half of his life looking and still couldn't even get a glimpse."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "There's no way an idiot like you could lead us to it. Completely impossible!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What? Looking down on me again?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll show you! Come with me to my base!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Base?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah! Chop chop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not bad, Taki."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Ahem... It wouldn't hurt to try."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What's there to mumble about? Are you coming or not?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You're looking for gold sandworm, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Yes. Show us what you got."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "With such big talk, you better have it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What if I do have it? What are you going to do?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Well, first prove it."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I'll prove it to you right now!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ta-da!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Th-this is!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See! This is what you're looking for, right?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "It is..."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "How did you get it?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "How? On my usual 120-mile morning jog through the desert,"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I just picked it off the roadside."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "120 miles?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That's it?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Fortune does favor the dumb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute, 120 miles a day? Never mind. I got another question, Brock..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you put the worm in a mixer?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What, you can't tell?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Allow me to demonstrate!"
+    },
+    {
+     "char": "Navigator and Taki:",
+     "dialogue": "Hey!!!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "See, this is why I put it in the machine!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "As a Rediesel Desert specialty, sandworms are full of protein and other nutrients."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You catch one, dry it, dehydrate it, and put it into a mixer."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So you get the best protein powder ever!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sandworm protein powder...?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That looks very delicious...",
+     "link": "4"
+    },
+    {
+     "text": "That looks very nutritious...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Of course! My protein powder is the best!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on! That was the only gold sandworm in the whole land! You grind it up just like that?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So what? It's just a gold sandworm, isn't it?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It just took on another form and became the most nutritious protein powder ever."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Since it's the only gold sandworm in the world, the powder should be the only one containing gold powder in the world too!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Drinking it might even turn your muscle to gold!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Gold sandworm protein powder doesn't sound bad."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Forget it. Give me a scoop of that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute! Gold color doesn't mean it's made of gold!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Besides, didn't you come here to find the worm for your client?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But protein powder does help build muscle!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What Brock said made sense too. It is the only gold protein powder in the world made from the only gold sandworm in the world."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That's even harder to pass up than the job itself."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Perhaps it will fetch more money than what the client is willing to pay! Aren't you tempted?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You see a business opportunity in that, don't you?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah! Want a scoop too, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No thanks, I'll pass..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Of course! It's not just protein in there!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on! That was the only gold sandworm in the whole land! You grind it up just like that?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So what? It's just a gold sandworm, isn't it?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It just took on another form and became the most nutritious protein powder ever."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Since it's the only gold sandworm in the world, the powder should be the only one containing gold powder in the world too!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Drinking it might even turn your muscle to gold!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Gold sandworm protein powder doesn't sound bad."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Forget it. Give me a scoop of that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute! Gold color doesn't mean it's made of gold!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Besides, didn't you come here to find the worm for your client?"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "But protein powder does help build muscle!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "What Brock said made sense too. It is the only gold protein powder in the world made from the only gold sandworm in the world."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "That's even harder to pass up than the job itself."
+    },
+    {
+     "char": "Taki:",
+     "dialogue": "Perhaps it will fetch more money than what the client is willing to pay! Aren't you tempted?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You see a business opportunity in that, don't you?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah! Want a scoop too, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No thanks, I'll pass..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

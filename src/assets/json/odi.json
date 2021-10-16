@@ -1,1153 +1,1311 @@
 {
-      "name": "Odi",
-      "faction": "Rediesel Wrench",
-      "element_main": "Forest",
-      "element_sub": "Forest",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "Deals 400% damage to the enemies within 3 surrounding clusters and inflicts Slow for 2 rounds.",
-                  "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds.",
-                  "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds."
-            ]
-      },
-      "equip": {
-            "name": "Modified Cable",
-            "passive": "Self-driving Power",
-            "description": [
-                  [
-                        "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
-                  ],
-                  [
-                        "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
-                  ],
-                  [
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
-                        "Normal Attacks can attack enemies on a diagonal tile and have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Deals damage to all enemies.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Essence",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Forest Potion II",
-                        "Forest Crystal Shard",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 400% damage to the enemies within 3 surrounding clusters and inflicts Slow for 2 rounds.",
-                  "after": "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Forest Crystal Cluster",
-                        "Forest Flare Rock",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds.",
-                  "after": "Normal Attacks can attack enemies on a diagonal tile and have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 513,
-                        "def": 203,
-                        "hp": 1563
-                  },
-                  {
-                        "att": 523,
-                        "def": 206,
-                        "hp": 1588
-                  },
-                  {
-                        "att": 533,
-                        "def": 209,
-                        "hp": 1614
-                  },
-                  {
-                        "att": 542,
-                        "def": 212,
-                        "hp": 1640
-                  },
-                  {
-                        "att": 552,
-                        "def": 216,
-                        "hp": 1666
-                  },
-                  {
-                        "att": 562,
-                        "def": 219,
-                        "hp": 1691
-                  },
-                  {
-                        "att": 572,
-                        "def": 222,
-                        "hp": 1717
-                  },
-                  {
-                        "att": 582,
-                        "def": 226,
-                        "hp": 1743
-                  },
-                  {
-                        "att": 592,
-                        "def": 229,
-                        "hp": 1768
-                  },
-                  {
-                        "att": 602,
-                        "def": 232,
-                        "hp": 1794
-                  },
-                  {
-                        "att": 612,
-                        "def": 236,
-                        "hp": 1820
-                  },
-                  {
-                        "att": 622,
-                        "def": 239,
-                        "hp": 1846
-                  },
-                  {
-                        "att": 631,
-                        "def": 242,
-                        "hp": 1871
-                  },
-                  {
-                        "att": 641,
-                        "def": 245,
-                        "hp": 1897
-                  },
-                  {
-                        "att": 651,
-                        "def": 249,
-                        "hp": 1923
-                  },
-                  {
-                        "att": 661,
-                        "def": 252,
-                        "hp": 1948
-                  },
-                  {
-                        "att": 671,
-                        "def": 255,
-                        "hp": 1974
-                  },
-                  {
-                        "att": 681,
-                        "def": 259,
-                        "hp": 2000
-                  },
-                  {
-                        "att": 691,
-                        "def": 262,
-                        "hp": 2026
-                  },
-                  {
-                        "att": 701,
-                        "def": 265,
-                        "hp": 2051
-                  },
-                  {
-                        "att": 710,
-                        "def": 268,
-                        "hp": 2077
-                  },
-                  {
-                        "att": 720,
-                        "def": 272,
-                        "hp": 2103
-                  },
-                  {
-                        "att": 730,
-                        "def": 275,
-                        "hp": 2128
-                  },
-                  {
-                        "att": 740,
-                        "def": 278,
-                        "hp": 2154
-                  },
-                  {
-                        "att": 750,
-                        "def": 282,
-                        "hp": 2180
-                  },
-                  {
-                        "att": 760,
-                        "def": 285,
-                        "hp": 2206
-                  },
-                  {
-                        "att": 770,
-                        "def": 288,
-                        "hp": 2231
-                  },
-                  {
-                        "att": 780,
-                        "def": 291,
-                        "hp": 2257
-                  },
-                  {
-                        "att": 789,
-                        "def": 295,
-                        "hp": 2283
-                  },
-                  {
-                        "att": 799,
-                        "def": 298,
-                        "hp": 2308
-                  },
-                  {
-                        "att": 902,
-                        "def": 332,
-                        "hp": 2581
-                  },
-                  {
-                        "att": 914,
-                        "def": 336,
-                        "hp": 2613
-                  },
-                  {
-                        "att": 926,
-                        "def": 340,
-                        "hp": 2645
-                  },
-                  {
-                        "att": 939,
-                        "def": 345,
-                        "hp": 2677
-                  },
-                  {
-                        "att": 951,
-                        "def": 349,
-                        "hp": 2709
-                  },
-                  {
-                        "att": 963,
-                        "def": 353,
-                        "hp": 2741
-                  },
-                  {
-                        "att": 976,
-                        "def": 357,
-                        "hp": 2774
-                  },
-                  {
-                        "att": 988,
-                        "def": 361,
-                        "hp": 2806
-                  },
-                  {
-                        "att": 1001,
-                        "def": 365,
-                        "hp": 2838
-                  },
-                  {
-                        "att": 1013,
-                        "def": 369,
-                        "hp": 2870
-                  },
-                  {
-                        "att": 1025,
-                        "def": 373,
-                        "hp": 2902
-                  },
-                  {
-                        "att": 1038,
-                        "def": 377,
-                        "hp": 2934
-                  },
-                  {
-                        "att": 1050,
-                        "def": 382,
-                        "hp": 2966
-                  },
-                  {
-                        "att": 1062,
-                        "def": 386,
-                        "hp": 2999
-                  },
-                  {
-                        "att": 1075,
-                        "def": 390,
-                        "hp": 3031
-                  },
-                  {
-                        "att": 1087,
-                        "def": 394,
-                        "hp": 3063
-                  },
-                  {
-                        "att": 1099,
-                        "def": 398,
-                        "hp": 3095
-                  },
-                  {
-                        "att": 1112,
-                        "def": 402,
-                        "hp": 3127
-                  },
-                  {
-                        "att": 1124,
-                        "def": 406,
-                        "hp": 3159
-                  },
-                  {
-                        "att": 1136,
-                        "def": 410,
-                        "hp": 3191
-                  },
-                  {
-                        "att": 1149,
-                        "def": 414,
-                        "hp": 3224
-                  },
-                  {
-                        "att": 1161,
-                        "def": 419,
-                        "hp": 3256
-                  },
-                  {
-                        "att": 1173,
-                        "def": 423,
-                        "hp": 3288
-                  },
-                  {
-                        "att": 1186,
-                        "def": 427,
-                        "hp": 3320
-                  },
-                  {
-                        "att": 1198,
-                        "def": 431,
-                        "hp": 3352
-                  },
-                  {
-                        "att": 1210,
-                        "def": 435,
-                        "hp": 3384
-                  },
-                  {
-                        "att": 1223,
-                        "def": 439,
-                        "hp": 3416
-                  },
-                  {
-                        "att": 1235,
-                        "def": 443,
-                        "hp": 3449
-                  },
-                  {
-                        "att": 1248,
-                        "def": 447,
-                        "hp": 3481
-                  },
-                  {
-                        "att": 1260,
-                        "def": 452,
-                        "hp": 3513
-                  },
-                  {
-                        "att": 1272,
-                        "def": 456,
-                        "hp": 3545
-                  },
-                  {
-                        "att": 1285,
-                        "def": 460,
-                        "hp": 3577
-                  },
-                  {
-                        "att": 1297,
-                        "def": 464,
-                        "hp": 3609
-                  },
-                  {
-                        "att": 1309,
-                        "def": 468,
-                        "hp": 3642
-                  },
-                  {
-                        "att": 1322,
-                        "def": 472,
-                        "hp": 3674
-                  },
-                  {
-                        "att": 1334,
-                        "def": 476,
-                        "hp": 3706
-                  },
-                  {
-                        "att": 1346,
-                        "def": 480,
-                        "hp": 3738
-                  },
-                  {
-                        "att": 1359,
-                        "def": 484,
-                        "hp": 3770
-                  },
-                  {
-                        "att": 1371,
-                        "def": 489,
-                        "hp": 3802
-                  },
-                  {
-                        "att": 1383,
-                        "def": 493,
-                        "hp": 3834
-                  },
-                  {
-                        "att": 1543,
-                        "def": 546,
-                        "hp": 4239
-                  },
-                  {
-                        "att": 1552,
-                        "def": 549,
-                        "hp": 4263
-                  },
-                  {
-                        "att": 1561,
-                        "def": 552,
-                        "hp": 4287
-                  },
-                  {
-                        "att": 1570,
-                        "def": 555,
-                        "hp": 4311
-                  },
-                  {
-                        "att": 1580,
-                        "def": 558,
-                        "hp": 4335
-                  },
-                  {
-                        "att": 1589,
-                        "def": 561,
-                        "hp": 4359
-                  },
-                  {
-                        "att": 1598,
-                        "def": 564,
-                        "hp": 4383
-                  },
-                  {
-                        "att": 1607,
-                        "def": 567,
-                        "hp": 4407
-                  },
-                  {
-                        "att": 1617,
-                        "def": 570,
-                        "hp": 4431
-                  },
-                  {
-                        "att": 1626,
-                        "def": 574,
-                        "hp": 4456
-                  },
-                  {
-                        "att": 1635,
-                        "def": 577,
-                        "hp": 4480
-                  },
-                  {
-                        "att": 1645,
-                        "def": 580,
-                        "hp": 4504
-                  },
-                  {
-                        "att": 1654,
-                        "def": 583,
-                        "hp": 4528
-                  },
-                  {
-                        "att": 1663,
-                        "def": 586,
-                        "hp": 4552
-                  },
-                  {
-                        "att": 1672,
-                        "def": 589,
-                        "hp": 4576
-                  },
-                  {
-                        "att": 1682,
-                        "def": 592,
-                        "hp": 4600
-                  },
-                  {
-                        "att": 1691,
-                        "def": 595,
-                        "hp": 4624
-                  },
-                  {
-                        "att": 1700,
-                        "def": 598,
-                        "hp": 4648
-                  },
-                  {
-                        "att": 1709,
-                        "def": 601,
-                        "hp": 4673
-                  },
-                  {
-                        "att": 1719,
-                        "def": 604,
-                        "hp": 4697
-                  },
-                  {
-                        "att": 1728,
-                        "def": 607,
-                        "hp": 4721
-                  },
-                  {
-                        "att": 1737,
-                        "def": 611,
-                        "hp": 4745
-                  },
-                  {
-                        "att": 1746,
-                        "def": 614,
-                        "hp": 4769
-                  },
-                  {
-                        "att": 1756,
-                        "def": 617,
-                        "hp": 4793
-                  },
-                  {
-                        "att": 1765,
-                        "def": 620,
-                        "hp": 4817
-                  },
-                  {
-                        "att": 1774,
-                        "def": 623,
-                        "hp": 4841
-                  },
-                  {
-                        "att": 1783,
-                        "def": 626,
-                        "hp": 4865
-                  },
-                  {
-                        "att": 1793,
-                        "def": 629,
-                        "hp": 4890
-                  },
-                  {
-                        "att": 1802,
-                        "def": 632,
-                        "hp": 4914
-                  },
-                  {
-                        "att": 1811,
-                        "def": 635,
-                        "hp": 4938
-                  },
-                  {
-                        "att": 1821,
-                        "def": 638,
-                        "hp": 4962
-                  },
-                  {
-                        "att": 1830,
-                        "def": 641,
-                        "hp": 4986
-                  },
-                  {
-                        "att": 1839,
-                        "def": 644,
-                        "hp": 5010
-                  },
-                  {
-                        "att": 1848,
-                        "def": 648,
-                        "hp": 5034
-                  },
-                  {
-                        "att": 1858,
-                        "def": 651,
-                        "hp": 5058
-                  },
-                  {
-                        "att": 1867,
-                        "def": 654,
-                        "hp": 5082
-                  },
-                  {
-                        "att": 1876,
-                        "def": 657,
-                        "hp": 5107
-                  },
-                  {
-                        "att": 1885,
-                        "def": 660,
-                        "hp": 5131
-                  },
-                  {
-                        "att": 1895,
-                        "def": 663,
-                        "hp": 5155
-                  },
-                  {
-                        "att": 1904,
-                        "def": 666,
-                        "hp": 5179
-                  },
-                  {
-                        "att": 1913,
-                        "def": 669,
-                        "hp": 5203
-                  },
-                  {
-                        "att": 1922,
-                        "def": 672,
-                        "hp": 5227
-                  },
-                  {
-                        "att": 1932,
-                        "def": 675,
-                        "hp": 5251
-                  },
-                  {
-                        "att": 1941,
-                        "def": 678,
-                        "hp": 5275
-                  },
-                  {
-                        "att": 1950,
-                        "def": 682,
-                        "hp": 5299
-                  },
-                  {
-                        "att": 1959,
-                        "def": 685,
-                        "hp": 5324
-                  },
-                  {
-                        "att": 1969,
-                        "def": 688,
-                        "hp": 5348
-                  },
-                  {
-                        "att": 1978,
-                        "def": 691,
-                        "hp": 5372
-                  },
-                  {
-                        "att": 1987,
-                        "def": 694,
-                        "hp": 5396
-                  },
-                  {
-                        "att": 1996,
-                        "def": 697,
-                        "hp": 5420
-                  },
-                  {
-                        "att": 2228,
-                        "def": 769,
-                        "hp": 6006
-                  },
-                  {
-                        "att": 2234,
-                        "def": 771,
-                        "hp": 6022
-                  },
-                  {
-                        "att": 2240,
-                        "def": 773,
-                        "hp": 6038
-                  },
-                  {
-                        "att": 2246,
-                        "def": 775,
-                        "hp": 6054
-                  },
-                  {
-                        "att": 2252,
-                        "def": 777,
-                        "hp": 6070
-                  },
-                  {
-                        "att": 2259,
-                        "def": 779,
-                        "hp": 6086
-                  },
-                  {
-                        "att": 2265,
-                        "def": 781,
-                        "hp": 6102
-                  },
-                  {
-                        "att": 2271,
-                        "def": 783,
-                        "hp": 6119
-                  },
-                  {
-                        "att": 2277,
-                        "def": 785,
-                        "hp": 6135
-                  },
-                  {
-                        "att": 2283,
-                        "def": 788,
-                        "hp": 6151
-                  },
-                  {
-                        "att": 2289,
-                        "def": 790,
-                        "hp": 6167
-                  },
-                  {
-                        "att": 2296,
-                        "def": 792,
-                        "hp": 6183
-                  },
-                  {
-                        "att": 2302,
-                        "def": 794,
-                        "hp": 6199
-                  },
-                  {
-                        "att": 2308,
-                        "def": 796,
-                        "hp": 6215
-                  },
-                  {
-                        "att": 2314,
-                        "def": 798,
-                        "hp": 6231
-                  },
-                  {
-                        "att": 2320,
-                        "def": 800,
-                        "hp": 6247
-                  },
-                  {
-                        "att": 2326,
-                        "def": 802,
-                        "hp": 6263
-                  },
-                  {
-                        "att": 2333,
-                        "def": 804,
-                        "hp": 6279
-                  },
-                  {
-                        "att": 2339,
-                        "def": 806,
-                        "hp": 6295
-                  },
-                  {
-                        "att": 2345,
-                        "def": 808,
-                        "hp": 6311
-                  },
-                  {
-                        "att": 2351,
-                        "def": 810,
-                        "hp": 6328
-                  },
-                  {
-                        "att": 2357,
-                        "def": 812,
-                        "hp": 6344
-                  },
-                  {
-                        "att": 2364,
-                        "def": 814,
-                        "hp": 6360
-                  },
-                  {
-                        "att": 2370,
-                        "def": 816,
-                        "hp": 6376
-                  },
-                  {
-                        "att": 2376,
-                        "def": 818,
-                        "hp": 6392
-                  },
-                  {
-                        "att": 2382,
-                        "def": 820,
-                        "hp": 6408
-                  },
-                  {
-                        "att": 2388,
-                        "def": 822,
-                        "hp": 6424
-                  },
-                  {
-                        "att": 2394,
-                        "def": 825,
-                        "hp": 6440
-                  },
-                  {
-                        "att": 2401,
-                        "def": 827,
-                        "hp": 6456
-                  },
-                  {
-                        "att": 2407,
-                        "def": 829,
-                        "hp": 6472
-                  },
-                  {
-                        "att": 2413,
-                        "def": 831,
-                        "hp": 6488
-                  },
-                  {
-                        "att": 2419,
-                        "def": 833,
-                        "hp": 6504
-                  },
-                  {
-                        "att": 2425,
-                        "def": 835,
-                        "hp": 6520
-                  },
-                  {
-                        "att": 2431,
-                        "def": 837,
-                        "hp": 6536
-                  },
-                  {
-                        "att": 2438,
-                        "def": 839,
-                        "hp": 6553
-                  },
-                  {
-                        "att": 2444,
-                        "def": 841,
-                        "hp": 6569
-                  },
-                  {
-                        "att": 2450,
-                        "def": 843,
-                        "hp": 6585
-                  },
-                  {
-                        "att": 2456,
-                        "def": 845,
-                        "hp": 6601
-                  },
-                  {
-                        "att": 2462,
-                        "def": 847,
-                        "hp": 6617
-                  },
-                  {
-                        "att": 2468,
-                        "def": 849,
-                        "hp": 6633
-                  },
-                  {
-                        "att": 2475,
-                        "def": 851,
-                        "hp": 6649
-                  },
-                  {
-                        "att": 2481,
-                        "def": 853,
-                        "hp": 6665
-                  },
-                  {
-                        "att": 2487,
-                        "def": 855,
-                        "hp": 6681
-                  },
-                  {
-                        "att": 2493,
-                        "def": 857,
-                        "hp": 6697
-                  },
-                  {
-                        "att": 2499,
-                        "def": 860,
-                        "hp": 6713
-                  },
-                  {
-                        "att": 2506,
-                        "def": 862,
-                        "hp": 6729
-                  },
-                  {
-                        "att": 2512,
-                        "def": 864,
-                        "hp": 6745
-                  },
-                  {
-                        "att": 2518,
-                        "def": 866,
-                        "hp": 6762
-                  },
-                  {
-                        "att": 2524,
-                        "def": 868,
-                        "hp": 6778
-                  },
-                  {
-                        "att": 2530,
-                        "def": 870,
-                        "hp": 6794
-                  },
-                  {
-                        "att": 2536,
-                        "def": 872,
-                        "hp": 6810
-                  },
-                  {
-                        "att": 2543,
-                        "def": 874,
-                        "hp": 6826
-                  },
-                  {
-                        "att": 2549,
-                        "def": 876,
-                        "hp": 6842
-                  },
-                  {
-                        "att": 2555,
-                        "def": 878,
-                        "hp": 6858
-                  },
-                  {
-                        "att": 2561,
-                        "def": 880,
-                        "hp": 6874
-                  },
-                  {
-                        "att": 2567,
-                        "def": 882,
-                        "hp": 6890
-                  },
-                  {
-                        "att": 2573,
-                        "def": 884,
-                        "hp": 6906
-                  },
-                  {
-                        "att": 2580,
-                        "def": 886,
-                        "hp": 6922
-                  },
-                  {
-                        "att": 2586,
-                        "def": 888,
-                        "hp": 6938
-                  },
-                  {
-                        "att": 2592,
-                        "def": 890,
-                        "hp": 6954
-                  },
-                  {
-                        "att": 2598,
-                        "def": 892,
-                        "hp": 6970
-                  },
-                  {
-                        "att": 2604,
-                        "def": 894,
-                        "hp": 6987
-                  },
-                  {
-                        "att": 2611,
-                        "def": 897,
-                        "hp": 7003
-                  },
-                  {
-                        "att": 2617,
-                        "def": 899,
-                        "hp": 7019
-                  },
-                  {
-                        "att": 2623,
-                        "def": 901,
-                        "hp": 7035
-                  },
-                  {
-                        "att": 2629,
-                        "def": 903,
-                        "hp": 7051
-                  },
-                  {
-                        "att": 2635,
-                        "def": 905,
-                        "hp": 7067
-                  },
-                  {
-                        "att": 2641,
-                        "def": 907,
-                        "hp": 7083
-                  },
-                  {
-                        "att": 2648,
-                        "def": 909,
-                        "hp": 7099
-                  },
-                  {
-                        "att": 2654,
-                        "def": 911,
-                        "hp": 7115
-                  },
-                  {
-                        "att": 2660,
-                        "def": 913,
-                        "hp": 7131
-                  },
-                  {
-                        "att": 2666,
-                        "def": 915,
-                        "hp": 7147
-                  },
-                  {
-                        "att": 2672,
-                        "def": 917,
-                        "hp": 7163
-                  },
-                  {
-                        "att": 2678,
-                        "def": 919,
-                        "hp": 7179
-                  },
-                  {
-                        "att": 2685,
-                        "def": 921,
-                        "hp": 7196
-                  },
-                  {
-                        "att": 2691,
-                        "def": 923,
-                        "hp": 7212
-                  },
-                  {
-                        "att": 2697,
-                        "def": 925,
-                        "hp": 7228
-                  },
-                  {
-                        "att": 2703,
-                        "def": 927,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2709,
-                        "def": 929,
-                        "hp": 7260
-                  },
-                  {
-                        "att": 2715,
-                        "def": 932,
-                        "hp": 7276
-                  }
-            ]
-      }
+ "name": "Odi",
+ "faction": "Rediesel Wrench",
+ "element_main": "Forest",
+ "element_sub": "Forest",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Internal Struggle",
+  "cd": "4 Turn",
+  "description": [
+   "Deals 400% damage to the enemies within 3 surrounding clusters and inflicts Slow for 2 rounds.",
+   "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds.",
+   "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds."
+  ]
+ },
+ "equip": {
+  "name": "Modified Cable",
+  "passive": "Self-driving Power",
+  "description": [
+   [
+    "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
+   ],
+   [
+    "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
+   ],
+   [
+    "Normal Attacks can attack enemies on a diagonal tile and have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 20% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 40% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 55% chance of inflicting 1 stack of Poison for 2 rounds.",
+    "Normal Attacks can attack enemies on a diagonal tile and have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
+   ]
+  ],
+  "introduction": "Using the knowledge she gained in the Illumina Federation and her genius inspiration, Odi picked out a selection of useful materials from the Rediesel Wrench's hoard of booty, and gradually perfected a kind of large optical cable\u2014a strange weapon running on self-propelling energy that moves like a sandworm."
+ },
+ "chain": {
+  "name": "Internal Force",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 1 column and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 120% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns and inflicts 1 stack of Poison for 2 rounds."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Deals damage to all enemies.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Essence",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
+  },
+  {
+   "material": [
+    "Forest Potion II",
+    "Forest Crystal Shard",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 400% damage to the enemies within 3 surrounding clusters and inflicts Slow for 2 rounds.",
+   "after": "Deals 400% damage to enemies within 3 surrounding clusters and inflicts Slow for 2 rounds and 2 stacks of Poison for 2 rounds."
+  },
+  {
+   "material": [
+    "Forest Crystal Cluster",
+    "Forest Flare Rock",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Normal Attacks have a 70% chance of inflicting 1 stack of Poison for 2 rounds.",
+   "after": "Normal Attacks can attack enemies on a diagonal tile and have a 70% chance of inflicting 1 stack of Poison for 2 rounds."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 513,
+    "def": 203,
+    "hp": 1563
+   },
+   {
+    "att": 523,
+    "def": 206,
+    "hp": 1588
+   },
+   {
+    "att": 533,
+    "def": 209,
+    "hp": 1614
+   },
+   {
+    "att": 542,
+    "def": 212,
+    "hp": 1640
+   },
+   {
+    "att": 552,
+    "def": 216,
+    "hp": 1666
+   },
+   {
+    "att": 562,
+    "def": 219,
+    "hp": 1691
+   },
+   {
+    "att": 572,
+    "def": 222,
+    "hp": 1717
+   },
+   {
+    "att": 582,
+    "def": 226,
+    "hp": 1743
+   },
+   {
+    "att": 592,
+    "def": 229,
+    "hp": 1768
+   },
+   {
+    "att": 602,
+    "def": 232,
+    "hp": 1794
+   },
+   {
+    "att": 612,
+    "def": 236,
+    "hp": 1820
+   },
+   {
+    "att": 622,
+    "def": 239,
+    "hp": 1846
+   },
+   {
+    "att": 631,
+    "def": 242,
+    "hp": 1871
+   },
+   {
+    "att": 641,
+    "def": 245,
+    "hp": 1897
+   },
+   {
+    "att": 651,
+    "def": 249,
+    "hp": 1923
+   },
+   {
+    "att": 661,
+    "def": 252,
+    "hp": 1948
+   },
+   {
+    "att": 671,
+    "def": 255,
+    "hp": 1974
+   },
+   {
+    "att": 681,
+    "def": 259,
+    "hp": 2000
+   },
+   {
+    "att": 691,
+    "def": 262,
+    "hp": 2026
+   },
+   {
+    "att": 701,
+    "def": 265,
+    "hp": 2051
+   },
+   {
+    "att": 710,
+    "def": 268,
+    "hp": 2077
+   },
+   {
+    "att": 720,
+    "def": 272,
+    "hp": 2103
+   },
+   {
+    "att": 730,
+    "def": 275,
+    "hp": 2128
+   },
+   {
+    "att": 740,
+    "def": 278,
+    "hp": 2154
+   },
+   {
+    "att": 750,
+    "def": 282,
+    "hp": 2180
+   },
+   {
+    "att": 760,
+    "def": 285,
+    "hp": 2206
+   },
+   {
+    "att": 770,
+    "def": 288,
+    "hp": 2231
+   },
+   {
+    "att": 780,
+    "def": 291,
+    "hp": 2257
+   },
+   {
+    "att": 789,
+    "def": 295,
+    "hp": 2283
+   },
+   {
+    "att": 799,
+    "def": 298,
+    "hp": 2308
+   },
+   {
+    "att": 902,
+    "def": 332,
+    "hp": 2581
+   },
+   {
+    "att": 914,
+    "def": 336,
+    "hp": 2613
+   },
+   {
+    "att": 926,
+    "def": 340,
+    "hp": 2645
+   },
+   {
+    "att": 939,
+    "def": 345,
+    "hp": 2677
+   },
+   {
+    "att": 951,
+    "def": 349,
+    "hp": 2709
+   },
+   {
+    "att": 963,
+    "def": 353,
+    "hp": 2741
+   },
+   {
+    "att": 976,
+    "def": 357,
+    "hp": 2774
+   },
+   {
+    "att": 988,
+    "def": 361,
+    "hp": 2806
+   },
+   {
+    "att": 1001,
+    "def": 365,
+    "hp": 2838
+   },
+   {
+    "att": 1013,
+    "def": 369,
+    "hp": 2870
+   },
+   {
+    "att": 1025,
+    "def": 373,
+    "hp": 2902
+   },
+   {
+    "att": 1038,
+    "def": 377,
+    "hp": 2934
+   },
+   {
+    "att": 1050,
+    "def": 382,
+    "hp": 2966
+   },
+   {
+    "att": 1062,
+    "def": 386,
+    "hp": 2999
+   },
+   {
+    "att": 1075,
+    "def": 390,
+    "hp": 3031
+   },
+   {
+    "att": 1087,
+    "def": 394,
+    "hp": 3063
+   },
+   {
+    "att": 1099,
+    "def": 398,
+    "hp": 3095
+   },
+   {
+    "att": 1112,
+    "def": 402,
+    "hp": 3127
+   },
+   {
+    "att": 1124,
+    "def": 406,
+    "hp": 3159
+   },
+   {
+    "att": 1136,
+    "def": 410,
+    "hp": 3191
+   },
+   {
+    "att": 1149,
+    "def": 414,
+    "hp": 3224
+   },
+   {
+    "att": 1161,
+    "def": 419,
+    "hp": 3256
+   },
+   {
+    "att": 1173,
+    "def": 423,
+    "hp": 3288
+   },
+   {
+    "att": 1186,
+    "def": 427,
+    "hp": 3320
+   },
+   {
+    "att": 1198,
+    "def": 431,
+    "hp": 3352
+   },
+   {
+    "att": 1210,
+    "def": 435,
+    "hp": 3384
+   },
+   {
+    "att": 1223,
+    "def": 439,
+    "hp": 3416
+   },
+   {
+    "att": 1235,
+    "def": 443,
+    "hp": 3449
+   },
+   {
+    "att": 1248,
+    "def": 447,
+    "hp": 3481
+   },
+   {
+    "att": 1260,
+    "def": 452,
+    "hp": 3513
+   },
+   {
+    "att": 1272,
+    "def": 456,
+    "hp": 3545
+   },
+   {
+    "att": 1285,
+    "def": 460,
+    "hp": 3577
+   },
+   {
+    "att": 1297,
+    "def": 464,
+    "hp": 3609
+   },
+   {
+    "att": 1309,
+    "def": 468,
+    "hp": 3642
+   },
+   {
+    "att": 1322,
+    "def": 472,
+    "hp": 3674
+   },
+   {
+    "att": 1334,
+    "def": 476,
+    "hp": 3706
+   },
+   {
+    "att": 1346,
+    "def": 480,
+    "hp": 3738
+   },
+   {
+    "att": 1359,
+    "def": 484,
+    "hp": 3770
+   },
+   {
+    "att": 1371,
+    "def": 489,
+    "hp": 3802
+   },
+   {
+    "att": 1383,
+    "def": 493,
+    "hp": 3834
+   },
+   {
+    "att": 1543,
+    "def": 546,
+    "hp": 4239
+   },
+   {
+    "att": 1552,
+    "def": 549,
+    "hp": 4263
+   },
+   {
+    "att": 1561,
+    "def": 552,
+    "hp": 4287
+   },
+   {
+    "att": 1570,
+    "def": 555,
+    "hp": 4311
+   },
+   {
+    "att": 1580,
+    "def": 558,
+    "hp": 4335
+   },
+   {
+    "att": 1589,
+    "def": 561,
+    "hp": 4359
+   },
+   {
+    "att": 1598,
+    "def": 564,
+    "hp": 4383
+   },
+   {
+    "att": 1607,
+    "def": 567,
+    "hp": 4407
+   },
+   {
+    "att": 1617,
+    "def": 570,
+    "hp": 4431
+   },
+   {
+    "att": 1626,
+    "def": 574,
+    "hp": 4456
+   },
+   {
+    "att": 1635,
+    "def": 577,
+    "hp": 4480
+   },
+   {
+    "att": 1645,
+    "def": 580,
+    "hp": 4504
+   },
+   {
+    "att": 1654,
+    "def": 583,
+    "hp": 4528
+   },
+   {
+    "att": 1663,
+    "def": 586,
+    "hp": 4552
+   },
+   {
+    "att": 1672,
+    "def": 589,
+    "hp": 4576
+   },
+   {
+    "att": 1682,
+    "def": 592,
+    "hp": 4600
+   },
+   {
+    "att": 1691,
+    "def": 595,
+    "hp": 4624
+   },
+   {
+    "att": 1700,
+    "def": 598,
+    "hp": 4648
+   },
+   {
+    "att": 1709,
+    "def": 601,
+    "hp": 4673
+   },
+   {
+    "att": 1719,
+    "def": 604,
+    "hp": 4697
+   },
+   {
+    "att": 1728,
+    "def": 607,
+    "hp": 4721
+   },
+   {
+    "att": 1737,
+    "def": 611,
+    "hp": 4745
+   },
+   {
+    "att": 1746,
+    "def": 614,
+    "hp": 4769
+   },
+   {
+    "att": 1756,
+    "def": 617,
+    "hp": 4793
+   },
+   {
+    "att": 1765,
+    "def": 620,
+    "hp": 4817
+   },
+   {
+    "att": 1774,
+    "def": 623,
+    "hp": 4841
+   },
+   {
+    "att": 1783,
+    "def": 626,
+    "hp": 4865
+   },
+   {
+    "att": 1793,
+    "def": 629,
+    "hp": 4890
+   },
+   {
+    "att": 1802,
+    "def": 632,
+    "hp": 4914
+   },
+   {
+    "att": 1811,
+    "def": 635,
+    "hp": 4938
+   },
+   {
+    "att": 1821,
+    "def": 638,
+    "hp": 4962
+   },
+   {
+    "att": 1830,
+    "def": 641,
+    "hp": 4986
+   },
+   {
+    "att": 1839,
+    "def": 644,
+    "hp": 5010
+   },
+   {
+    "att": 1848,
+    "def": 648,
+    "hp": 5034
+   },
+   {
+    "att": 1858,
+    "def": 651,
+    "hp": 5058
+   },
+   {
+    "att": 1867,
+    "def": 654,
+    "hp": 5082
+   },
+   {
+    "att": 1876,
+    "def": 657,
+    "hp": 5107
+   },
+   {
+    "att": 1885,
+    "def": 660,
+    "hp": 5131
+   },
+   {
+    "att": 1895,
+    "def": 663,
+    "hp": 5155
+   },
+   {
+    "att": 1904,
+    "def": 666,
+    "hp": 5179
+   },
+   {
+    "att": 1913,
+    "def": 669,
+    "hp": 5203
+   },
+   {
+    "att": 1922,
+    "def": 672,
+    "hp": 5227
+   },
+   {
+    "att": 1932,
+    "def": 675,
+    "hp": 5251
+   },
+   {
+    "att": 1941,
+    "def": 678,
+    "hp": 5275
+   },
+   {
+    "att": 1950,
+    "def": 682,
+    "hp": 5299
+   },
+   {
+    "att": 1959,
+    "def": 685,
+    "hp": 5324
+   },
+   {
+    "att": 1969,
+    "def": 688,
+    "hp": 5348
+   },
+   {
+    "att": 1978,
+    "def": 691,
+    "hp": 5372
+   },
+   {
+    "att": 1987,
+    "def": 694,
+    "hp": 5396
+   },
+   {
+    "att": 1996,
+    "def": 697,
+    "hp": 5420
+   },
+   {
+    "att": 2228,
+    "def": 769,
+    "hp": 6006
+   },
+   {
+    "att": 2234,
+    "def": 771,
+    "hp": 6022
+   },
+   {
+    "att": 2240,
+    "def": 773,
+    "hp": 6038
+   },
+   {
+    "att": 2246,
+    "def": 775,
+    "hp": 6054
+   },
+   {
+    "att": 2252,
+    "def": 777,
+    "hp": 6070
+   },
+   {
+    "att": 2259,
+    "def": 779,
+    "hp": 6086
+   },
+   {
+    "att": 2265,
+    "def": 781,
+    "hp": 6102
+   },
+   {
+    "att": 2271,
+    "def": 783,
+    "hp": 6119
+   },
+   {
+    "att": 2277,
+    "def": 785,
+    "hp": 6135
+   },
+   {
+    "att": 2283,
+    "def": 788,
+    "hp": 6151
+   },
+   {
+    "att": 2289,
+    "def": 790,
+    "hp": 6167
+   },
+   {
+    "att": 2296,
+    "def": 792,
+    "hp": 6183
+   },
+   {
+    "att": 2302,
+    "def": 794,
+    "hp": 6199
+   },
+   {
+    "att": 2308,
+    "def": 796,
+    "hp": 6215
+   },
+   {
+    "att": 2314,
+    "def": 798,
+    "hp": 6231
+   },
+   {
+    "att": 2320,
+    "def": 800,
+    "hp": 6247
+   },
+   {
+    "att": 2326,
+    "def": 802,
+    "hp": 6263
+   },
+   {
+    "att": 2333,
+    "def": 804,
+    "hp": 6279
+   },
+   {
+    "att": 2339,
+    "def": 806,
+    "hp": 6295
+   },
+   {
+    "att": 2345,
+    "def": 808,
+    "hp": 6311
+   },
+   {
+    "att": 2351,
+    "def": 810,
+    "hp": 6328
+   },
+   {
+    "att": 2357,
+    "def": 812,
+    "hp": 6344
+   },
+   {
+    "att": 2364,
+    "def": 814,
+    "hp": 6360
+   },
+   {
+    "att": 2370,
+    "def": 816,
+    "hp": 6376
+   },
+   {
+    "att": 2376,
+    "def": 818,
+    "hp": 6392
+   },
+   {
+    "att": 2382,
+    "def": 820,
+    "hp": 6408
+   },
+   {
+    "att": 2388,
+    "def": 822,
+    "hp": 6424
+   },
+   {
+    "att": 2394,
+    "def": 825,
+    "hp": 6440
+   },
+   {
+    "att": 2401,
+    "def": 827,
+    "hp": 6456
+   },
+   {
+    "att": 2407,
+    "def": 829,
+    "hp": 6472
+   },
+   {
+    "att": 2413,
+    "def": 831,
+    "hp": 6488
+   },
+   {
+    "att": 2419,
+    "def": 833,
+    "hp": 6504
+   },
+   {
+    "att": 2425,
+    "def": 835,
+    "hp": 6520
+   },
+   {
+    "att": 2431,
+    "def": 837,
+    "hp": 6536
+   },
+   {
+    "att": 2438,
+    "def": 839,
+    "hp": 6553
+   },
+   {
+    "att": 2444,
+    "def": 841,
+    "hp": 6569
+   },
+   {
+    "att": 2450,
+    "def": 843,
+    "hp": 6585
+   },
+   {
+    "att": 2456,
+    "def": 845,
+    "hp": 6601
+   },
+   {
+    "att": 2462,
+    "def": 847,
+    "hp": 6617
+   },
+   {
+    "att": 2468,
+    "def": 849,
+    "hp": 6633
+   },
+   {
+    "att": 2475,
+    "def": 851,
+    "hp": 6649
+   },
+   {
+    "att": 2481,
+    "def": 853,
+    "hp": 6665
+   },
+   {
+    "att": 2487,
+    "def": 855,
+    "hp": 6681
+   },
+   {
+    "att": 2493,
+    "def": 857,
+    "hp": 6697
+   },
+   {
+    "att": 2499,
+    "def": 860,
+    "hp": 6713
+   },
+   {
+    "att": 2506,
+    "def": 862,
+    "hp": 6729
+   },
+   {
+    "att": 2512,
+    "def": 864,
+    "hp": 6745
+   },
+   {
+    "att": 2518,
+    "def": 866,
+    "hp": 6762
+   },
+   {
+    "att": 2524,
+    "def": 868,
+    "hp": 6778
+   },
+   {
+    "att": 2530,
+    "def": 870,
+    "hp": 6794
+   },
+   {
+    "att": 2536,
+    "def": 872,
+    "hp": 6810
+   },
+   {
+    "att": 2543,
+    "def": 874,
+    "hp": 6826
+   },
+   {
+    "att": 2549,
+    "def": 876,
+    "hp": 6842
+   },
+   {
+    "att": 2555,
+    "def": 878,
+    "hp": 6858
+   },
+   {
+    "att": 2561,
+    "def": 880,
+    "hp": 6874
+   },
+   {
+    "att": 2567,
+    "def": 882,
+    "hp": 6890
+   },
+   {
+    "att": 2573,
+    "def": 884,
+    "hp": 6906
+   },
+   {
+    "att": 2580,
+    "def": 886,
+    "hp": 6922
+   },
+   {
+    "att": 2586,
+    "def": 888,
+    "hp": 6938
+   },
+   {
+    "att": 2592,
+    "def": 890,
+    "hp": 6954
+   },
+   {
+    "att": 2598,
+    "def": 892,
+    "hp": 6970
+   },
+   {
+    "att": 2604,
+    "def": 894,
+    "hp": 6987
+   },
+   {
+    "att": 2611,
+    "def": 897,
+    "hp": 7003
+   },
+   {
+    "att": 2617,
+    "def": 899,
+    "hp": 7019
+   },
+   {
+    "att": 2623,
+    "def": 901,
+    "hp": 7035
+   },
+   {
+    "att": 2629,
+    "def": 903,
+    "hp": 7051
+   },
+   {
+    "att": 2635,
+    "def": 905,
+    "hp": 7067
+   },
+   {
+    "att": 2641,
+    "def": 907,
+    "hp": 7083
+   },
+   {
+    "att": 2648,
+    "def": 909,
+    "hp": 7099
+   },
+   {
+    "att": 2654,
+    "def": 911,
+    "hp": 7115
+   },
+   {
+    "att": 2660,
+    "def": 913,
+    "hp": 7131
+   },
+   {
+    "att": 2666,
+    "def": 915,
+    "hp": 7147
+   },
+   {
+    "att": 2672,
+    "def": 917,
+    "hp": 7163
+   },
+   {
+    "att": 2678,
+    "def": 919,
+    "hp": 7179
+   },
+   {
+    "att": 2685,
+    "def": 921,
+    "hp": 7196
+   },
+   {
+    "att": 2691,
+    "def": 923,
+    "hp": 7212
+   },
+   {
+    "att": 2697,
+    "def": 925,
+    "hp": 7228
+   },
+   {
+    "att": 2703,
+    "def": 927,
+    "hp": 7244
+   },
+   {
+    "att": 2709,
+    "def": 929,
+    "hp": 7260
+   },
+   {
+    "att": 2715,
+    "def": 932,
+    "hp": 7276
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Zoya",
+     "Odi"
+    ],
+    "chat": [
+     {
+      "character": "Zoya:",
+      "text": "\"Snarky Specter\"?"
+     },
+     {
+      "character": "Odi:",
+      "text": "\"Master Hiiro's the Best\"?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "So YOU'RE that foul-mouthed voice that's been clogging Illumina's comm channels with ads?"
+     },
+     {
+      "character": "Odi:",
+      "text": "And aren't YOU the one who forces everyone on comms to listen to how much you love your Legion Commander?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "I-It's only because you lot are so blind, that I have to try and teach you about Master Hiiro's greatness!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "The Rediesel Wrench, Umbraton, even Lumopolis... Everyone must know!"
+     },
+     {
+      "character": "Odi:",
+      "text": "Puh-lease, no one cares about your legion commander."
+     },
+     {
+      "character": "Odi:",
+      "text": "... Hang on, you've also broken into Lumopolis' comms channels?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yeah, you too?"
+     },
+     {
+      "character": "Odi:",
+      "text": "I just sent them a long message full of so many prohibited words, that it crashed the comms channel. They're probably scrambling to fix it right about now."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Hmm, at least we have this in common with each other..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Sinsa recommended an amazing mechanic to us, whom I was excited to know would be here soon. After all, the Colossus tends to break down often for unknown reasons, and it's problematic when there's no one around to fix it. But right from the start, the ground began to clutter with... cables? I didn't know there were such things on the Colossus! I moved closer to examine one and it suddenly squirmed like a sandworm, prompting me to jump straight back! I grabbed a communicator and started calling %s, but an unfamiliar voice came on the other end! I thought the Colossus was under invasion, and was about to send out an all-hands-on-deck order when the voice changed from provocation to rambling apologies before identifying herself as Odi, the mechanic that Sinsa had recommended... It's another person interested in the Colossus. Hmm, I've been saying that a lot lately, haven't I? \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hey, your Colossus has such a good setup! It has perfect communication devices and an amazing interior! This is much better than the one at Rediesel Wrench. I think I'll be coming here more often to play around... What's with that terrified expression? I won't take your Colossus apart. At most, I'll simply study the communication devices and the structure of the Bridge... Oh right, your Colossus is so well-decorated. You have no idea how lame everything looks in that one at Rediesel Wrench... Yes! Your Colossus can fly too! In that case, I also want to study the flying device. Maybe Tiny One and I will be able to work something out after I get back so that we can make the one at home fly as well...What are you so nervous about? I already promised that I would not demolish your Colossus. At most, I'll just take some parts with me to study!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "What? You want to know about this cable? It's a long story. Not sure if you know, but the oafs at Rediesel Wrench have really poor taste. I helped them set up premium equipment, but they said it was too troublesome and refused to touch it! They much preferred the simple, crude things made by the Tiny One to bash people's brains in with! I've given up making nice stuff for them. It's better to make something pretty for myself instead. I'm sure you know what passes for trophies at Rediesel Wrench--neither practical nor artistic! In the end, I found the cable on Bopper rather interesting, so I scrounged up tools to modify and reclaim it for my own purpose. Look at it now! What perfect shine, shade, and curves!What? You want to know where I got the tools? None of your business! All you need to know is I can handle all machines!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "My mind was blown when I first came to Rediesel Wrench! I couldn't believe it! Everything was shabby and tattered! I even wondered if their equipment was still functional! I didn't understand how they could use them so happily! After they heard that I liked to study machines, those men brought all their junk things to me like they were offering me their treasures... Although I was moved, I almost fainted!After that... After that, things turned out like this! I really couldn't stand all this junk, so I repaired everything I could, including vehicles, guns, robotic arms, and that tattered Colossus! How can anybody live in such a dump? Whew! I've finished complaining... Well, do you have anything that needs fixing? I can fix it for you as well."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I was amazing even before I went to Rediesel Wrench, and I was already a genius when I went to the academy in the Illumina!I was planning on going to Gannon City, but the Eclipsites ambushed me on the way! I wanted to contact the rescue squad in Illumina with my comm, but dialed the wrong frequency and got the Rediesel Wrench instead. Honestly, I still don't know how could that happen! Long story short, I was saved. I was only going to stay for a few days before leaving, but ended up having a good time with the fellows... In fact, I got along so well that I decided to stay.Don't you worry, though. Since I decided to stay here to help, I'll help you hack any device you want!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Why I joined the Rediesel Wrench? Can't be easily summarized, but I hung around long enough that I ended up staying.",
+  "How about some quests, preferably something like hacking the Illumina comm... What's there to be afraid of? Just finding bugs in the system for them.",
+  "We Rediesels have never been afraid of anyone!",
+  "I'll dismantle every Eclipsite I see until there's nothing left, not even dust!",
+  "Tell Brock to stay away from me. Scraps and his head are the only things I can't fix.",
+  "Tell him to try if he thinks he's that good! Look at how smug he is, even though Tiny One and I are doing all the fixing for Rediesels!",
+  "Okay, all of the installations are working. Go fetch me some high-calorie foods to replenish my energy.",
+  "Bugs are the worst, and if you throw in missing glasses... I'll just explode.",
+  "Huh, this Colossus of yours isn't junk at all... Everything's intact inside and it's fully functional! It has caught my eyes!",
+  "Is this all you've got to go on... Whoa, don't suddenly get up so close!",
+  "Yes, I'll hack all the comm channels in a 10-mile radius for you today... What? That's not necessary? But I'm already halfway done...",
+  "But... I can't get it to work, I can't!",
+  "Hah, just piles of scraps.",
+  "Freeze!",
+  "The attack worked?",
+  "Tell me, who's getting it this time?",
+  "Save it and see you next year!",
+  "Let's just charge.",
+  "Can that be done in seconds?",
+  "Isn't it just like usual... Improved, of course!",
+  "Make yourself useful... Yes, that's the textbook answer!",
+  "The cables are set and the comms checked. Pardon me for being blunt, everybody here is nothing but... What the... Why is it going haywire again? What's the bug this time?",
+  "Device upgraded, easy-peasy.",
+  "Alchemy Stars.",
+  "Holy crap, I want to hack those dumbass Rediesel Wrench heads for real! At least change Sandworms to normal breakfast!",
+  "Never estimate a tech personnel. If I wanted to, I could even turn the ground upside down... You can still fly? Well then, I'll break your wings off!",
+  "What's wrong with being short? Getting a little ballsy, are we? Ever seen tall but braindead morons before? Any Rediesel base is full of them!",
+  "My cable has its own power source. Check out the torque, it's folds better than the Sand Kraken out there.",
+  "Oh no, the cables got tangled up again, I'm so dead! Hmm... Why are you knocked downed? Hah! See? I told you you're in trouble!",
+  "Whose crappy comm channel is this? Yeah, I hacked it. Whatcha gonna do about it? Either track the signals back to me or shut the hell up!",
+  "Think having a Colossus makes you a big shot? Quit flexing and let's take it outside. I'll turn that into a pile of scrap metal!",
+  "Me, heartless? I kept reminding you to manage your time and motivating you to study hard, so you won't get bullied out there all the time!",
+  "I like you, good fella. I'm gonna teach you how to talk, so you don't get your butt handed to you in a diss-off.",
+  "Cooping up here reminds me of that lame lizard in Rediesel and that silly girl's complaints... What a headache.",
+  "They don't even writhe as well as my cables... How about a little more effort, fellas?",
+  "Those clowns on the team always ruin their equipment. There's no \"cherish\" in their dictionaries.",
+  "I knew you'd be back two minutes and fifteen seconds ago. This is the comm skills of a genius, see?",
+  "How do I stop this lousy colossus? Whoa, why is it shaking now?",
+  "What's the problem? I'll handle it, piece of cake... Oops, no I won't, you keep at it!",
+  "You're just in time, someone's yapping on the comm... That fella wants to fight you in Gannon City!",
+  "Just flaunt my name, Odi, from now on when someone decides to mess with your comm system. It'll scare the pants off them!",
+  "I can tell you're not good at picking out a gift.",
+  "I knew you would give me this.",
+  "I can tell you're...an expert in picking out a gift!",
+  "You're such a talent and you understand me the best!",
+  "Oops, the cable's going haywire again!",
+  "I can't get it to work! Huh? Did they just keel over themselves?",
+  "So what? Just mess them up.",
+  "There's nothing about mechanical parts that I can't fix. If there is, that must be a completely useless piece of junk!",
+  "Junk cars, junk guns, junk Rediesels... I lost count of how much junk I've fixed. Just turn whatever junk you got over to me.",
+  "I was raised on technology, civil exchanges, and tolerance... W-who's making trouble? I'll make them rue the day they were born!",
+  "Wait a sec, I'm supposed to lead!?"
+ ],
+ "skins": [],
+ "description": "A Rediesel Wrench tech personnel who is highly confident in her comm tech. She likes to complain and yell at others in the Comm Channel, but she gets flustered when there are problems.",
+ "realName": "Odi",
+ "nickname": "System Shock",
+ "gender": "Female",
+ "height": "5'0''",
+ "birthday": "August 2",
+ "birthplace": "Undercity 13",
+ "style": "Modified Cable, Self-Driving Power"
 }

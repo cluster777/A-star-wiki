@@ -1,1153 +1,1257 @@
 {
-      "name": "Lester",
-      "faction": "Independent",
-      "element_main": "Forest",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each when triggered and inflict 1 stack of Poison for 2 rounds.",
-                  "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds.",
-                  "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds."
-            ]
-      },
-      "equip": {
-            "name": "Wilderness Mustard Gas Cannister",
-            "passive": "Stinker",
-            "description": [
-                  [
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
-                  ],
-                  [
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
-                  ],
-                  [
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
-                        "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Essence",
-                        "Tales of Survival",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
-            },
-            {
-                  "material": [
-                        "Forest Potion II",
-                        "Forest Crystal Shard",
-                        "Survival 101",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each when triggered and inflict 1 stack of Poison for 2 rounds.",
-                  "after": "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Forest Crystal Cluster",
-                        "Forest Flare Rock",
-                        "Survivalpedia",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%.",
-                  "after": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 577,
-                        "def": 242,
-                        "hp": 1806
-                  },
-                  {
-                        "att": 589,
-                        "def": 246,
-                        "hp": 1835
-                  },
-                  {
-                        "att": 600,
-                        "def": 250,
-                        "hp": 1864
-                  },
-                  {
-                        "att": 612,
-                        "def": 254,
-                        "hp": 1893
-                  },
-                  {
-                        "att": 623,
-                        "def": 258,
-                        "hp": 1922
-                  },
-                  {
-                        "att": 635,
-                        "def": 262,
-                        "hp": 1951
-                  },
-                  {
-                        "att": 647,
-                        "def": 266,
-                        "hp": 1980
-                  },
-                  {
-                        "att": 658,
-                        "def": 270,
-                        "hp": 2009
-                  },
-                  {
-                        "att": 670,
-                        "def": 274,
-                        "hp": 2038
-                  },
-                  {
-                        "att": 681,
-                        "def": 278,
-                        "hp": 2067
-                  },
-                  {
-                        "att": 693,
-                        "def": 282,
-                        "hp": 2096
-                  },
-                  {
-                        "att": 705,
-                        "def": 286,
-                        "hp": 2125
-                  },
-                  {
-                        "att": 716,
-                        "def": 290,
-                        "hp": 2154
-                  },
-                  {
-                        "att": 728,
-                        "def": 294,
-                        "hp": 2183
-                  },
-                  {
-                        "att": 739,
-                        "def": 298,
-                        "hp": 2212
-                  },
-                  {
-                        "att": 751,
-                        "def": 301,
-                        "hp": 2241
-                  },
-                  {
-                        "att": 763,
-                        "def": 305,
-                        "hp": 2270
-                  },
-                  {
-                        "att": 774,
-                        "def": 309,
-                        "hp": 2299
-                  },
-                  {
-                        "att": 786,
-                        "def": 313,
-                        "hp": 2328
-                  },
-                  {
-                        "att": 797,
-                        "def": 317,
-                        "hp": 2357
-                  },
-                  {
-                        "att": 809,
-                        "def": 321,
-                        "hp": 2386
-                  },
-                  {
-                        "att": 821,
-                        "def": 325,
-                        "hp": 2415
-                  },
-                  {
-                        "att": 832,
-                        "def": 329,
-                        "hp": 2444
-                  },
-                  {
-                        "att": 844,
-                        "def": 333,
-                        "hp": 2473
-                  },
-                  {
-                        "att": 855,
-                        "def": 337,
-                        "hp": 2502
-                  },
-                  {
-                        "att": 867,
-                        "def": 341,
-                        "hp": 2531
-                  },
-                  {
-                        "att": 879,
-                        "def": 345,
-                        "hp": 2560
-                  },
-                  {
-                        "att": 890,
-                        "def": 349,
-                        "hp": 2589
-                  },
-                  {
-                        "att": 902,
-                        "def": 353,
-                        "hp": 2618
-                  },
-                  {
-                        "att": 913,
-                        "def": 357,
-                        "hp": 2647
-                  },
-                  {
-                        "att": 1018,
-                        "def": 391,
-                        "hp": 2923
-                  },
-                  {
-                        "att": 1032,
-                        "def": 396,
-                        "hp": 2959
-                  },
-                  {
-                        "att": 1047,
-                        "def": 401,
-                        "hp": 2996
-                  },
-                  {
-                        "att": 1061,
-                        "def": 406,
-                        "hp": 3032
-                  },
-                  {
-                        "att": 1076,
-                        "def": 411,
-                        "hp": 3068
-                  },
-                  {
-                        "att": 1090,
-                        "def": 416,
-                        "hp": 3104
-                  },
-                  {
-                        "att": 1105,
-                        "def": 421,
-                        "hp": 3141
-                  },
-                  {
-                        "att": 1119,
-                        "def": 426,
-                        "hp": 3177
-                  },
-                  {
-                        "att": 1134,
-                        "def": 431,
-                        "hp": 3213
-                  },
-                  {
-                        "att": 1148,
-                        "def": 436,
-                        "hp": 3249
-                  },
-                  {
-                        "att": 1163,
-                        "def": 441,
-                        "hp": 3286
-                  },
-                  {
-                        "att": 1177,
-                        "def": 446,
-                        "hp": 3322
-                  },
-                  {
-                        "att": 1192,
-                        "def": 450,
-                        "hp": 3358
-                  },
-                  {
-                        "att": 1206,
-                        "def": 455,
-                        "hp": 3394
-                  },
-                  {
-                        "att": 1221,
-                        "def": 460,
-                        "hp": 3431
-                  },
-                  {
-                        "att": 1235,
-                        "def": 465,
-                        "hp": 3467
-                  },
-                  {
-                        "att": 1250,
-                        "def": 470,
-                        "hp": 3503
-                  },
-                  {
-                        "att": 1264,
-                        "def": 475,
-                        "hp": 3539
-                  },
-                  {
-                        "att": 1279,
-                        "def": 480,
-                        "hp": 3576
-                  },
-                  {
-                        "att": 1293,
-                        "def": 485,
-                        "hp": 3612
-                  },
-                  {
-                        "att": 1308,
-                        "def": 490,
-                        "hp": 3648
-                  },
-                  {
-                        "att": 1322,
-                        "def": 495,
-                        "hp": 3684
-                  },
-                  {
-                        "att": 1337,
-                        "def": 500,
-                        "hp": 3721
-                  },
-                  {
-                        "att": 1351,
-                        "def": 505,
-                        "hp": 3757
-                  },
-                  {
-                        "att": 1366,
-                        "def": 510,
-                        "hp": 3793
-                  },
-                  {
-                        "att": 1380,
-                        "def": 514,
-                        "hp": 3829
-                  },
-                  {
-                        "att": 1395,
-                        "def": 519,
-                        "hp": 3866
-                  },
-                  {
-                        "att": 1409,
-                        "def": 524,
-                        "hp": 3902
-                  },
-                  {
-                        "att": 1424,
-                        "def": 529,
-                        "hp": 3938
-                  },
-                  {
-                        "att": 1438,
-                        "def": 534,
-                        "hp": 3974
-                  },
-                  {
-                        "att": 1453,
-                        "def": 539,
-                        "hp": 4011
-                  },
-                  {
-                        "att": 1467,
-                        "def": 544,
-                        "hp": 4047
-                  },
-                  {
-                        "att": 1482,
-                        "def": 549,
-                        "hp": 4083
-                  },
-                  {
-                        "att": 1496,
-                        "def": 554,
-                        "hp": 4119
-                  },
-                  {
-                        "att": 1511,
-                        "def": 559,
-                        "hp": 4156
-                  },
-                  {
-                        "att": 1525,
-                        "def": 564,
-                        "hp": 4192
-                  },
-                  {
-                        "att": 1540,
-                        "def": 569,
-                        "hp": 4228
-                  },
-                  {
-                        "att": 1554,
-                        "def": 573,
-                        "hp": 4264
-                  },
-                  {
-                        "att": 1569,
-                        "def": 578,
-                        "hp": 4301
-                  },
-                  {
-                        "att": 1583,
-                        "def": 583,
-                        "hp": 4337
-                  },
-                  {
-                        "att": 1734,
-                        "def": 637,
-                        "hp": 4744
-                  },
-                  {
-                        "att": 1745,
-                        "def": 641,
-                        "hp": 4771
-                  },
-                  {
-                        "att": 1756,
-                        "def": 644,
-                        "hp": 4798
-                  },
-                  {
-                        "att": 1767,
-                        "def": 648,
-                        "hp": 4826
-                  },
-                  {
-                        "att": 1778,
-                        "def": 652,
-                        "hp": 4853
-                  },
-                  {
-                        "att": 1789,
-                        "def": 655,
-                        "hp": 4880
-                  },
-                  {
-                        "att": 1799,
-                        "def": 659,
-                        "hp": 4907
-                  },
-                  {
-                        "att": 1810,
-                        "def": 663,
-                        "hp": 4934
-                  },
-                  {
-                        "att": 1821,
-                        "def": 667,
-                        "hp": 4961
-                  },
-                  {
-                        "att": 1832,
-                        "def": 670,
-                        "hp": 4989
-                  },
-                  {
-                        "att": 1843,
-                        "def": 674,
-                        "hp": 5016
-                  },
-                  {
-                        "att": 1854,
-                        "def": 678,
-                        "hp": 5043
-                  },
-                  {
-                        "att": 1865,
-                        "def": 681,
-                        "hp": 5070
-                  },
-                  {
-                        "att": 1876,
-                        "def": 685,
-                        "hp": 5097
-                  },
-                  {
-                        "att": 1886,
-                        "def": 689,
-                        "hp": 5125
-                  },
-                  {
-                        "att": 1897,
-                        "def": 692,
-                        "hp": 5152
-                  },
-                  {
-                        "att": 1908,
-                        "def": 696,
-                        "hp": 5179
-                  },
-                  {
-                        "att": 1919,
-                        "def": 700,
-                        "hp": 5206
-                  },
-                  {
-                        "att": 1930,
-                        "def": 703,
-                        "hp": 5233
-                  },
-                  {
-                        "att": 1941,
-                        "def": 707,
-                        "hp": 5261
-                  },
-                  {
-                        "att": 1952,
-                        "def": 711,
-                        "hp": 5288
-                  },
-                  {
-                        "att": 1963,
-                        "def": 714,
-                        "hp": 5315
-                  },
-                  {
-                        "att": 1973,
-                        "def": 718,
-                        "hp": 5342
-                  },
-                  {
-                        "att": 1984,
-                        "def": 722,
-                        "hp": 5369
-                  },
-                  {
-                        "att": 1995,
-                        "def": 726,
-                        "hp": 5396
-                  },
-                  {
-                        "att": 2006,
-                        "def": 729,
-                        "hp": 5424
-                  },
-                  {
-                        "att": 2017,
-                        "def": 733,
-                        "hp": 5451
-                  },
-                  {
-                        "att": 2028,
-                        "def": 737,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 2039,
-                        "def": 740,
-                        "hp": 5505
-                  },
-                  {
-                        "att": 2050,
-                        "def": 744,
-                        "hp": 5532
-                  },
-                  {
-                        "att": 2060,
-                        "def": 748,
-                        "hp": 5560
-                  },
-                  {
-                        "att": 2071,
-                        "def": 751,
-                        "hp": 5587
-                  },
-                  {
-                        "att": 2082,
-                        "def": 755,
-                        "hp": 5614
-                  },
-                  {
-                        "att": 2093,
-                        "def": 759,
-                        "hp": 5641
-                  },
-                  {
-                        "att": 2104,
-                        "def": 762,
-                        "hp": 5668
-                  },
-                  {
-                        "att": 2115,
-                        "def": 766,
-                        "hp": 5696
-                  },
-                  {
-                        "att": 2126,
-                        "def": 770,
-                        "hp": 5723
-                  },
-                  {
-                        "att": 2137,
-                        "def": 774,
-                        "hp": 5750
-                  },
-                  {
-                        "att": 2147,
-                        "def": 777,
-                        "hp": 5777
-                  },
-                  {
-                        "att": 2158,
-                        "def": 781,
-                        "hp": 5804
-                  },
-                  {
-                        "att": 2169,
-                        "def": 785,
-                        "hp": 5831
-                  },
-                  {
-                        "att": 2180,
-                        "def": 788,
-                        "hp": 5859
-                  },
-                  {
-                        "att": 2191,
-                        "def": 792,
-                        "hp": 5886
-                  },
-                  {
-                        "att": 2202,
-                        "def": 796,
-                        "hp": 5913
-                  },
-                  {
-                        "att": 2213,
-                        "def": 799,
-                        "hp": 5940
-                  },
-                  {
-                        "att": 2224,
-                        "def": 803,
-                        "hp": 5967
-                  },
-                  {
-                        "att": 2234,
-                        "def": 807,
-                        "hp": 5995
-                  },
-                  {
-                        "att": 2245,
-                        "def": 810,
-                        "hp": 6022
-                  },
-                  {
-                        "att": 2256,
-                        "def": 814,
-                        "hp": 6049
-                  },
-                  {
-                        "att": 2267,
-                        "def": 818,
-                        "hp": 6076
-                  },
-                  {
-                        "att": 2489,
-                        "def": 885,
-                        "hp": 6664
-                  },
-                  {
-                        "att": 2497,
-                        "def": 888,
-                        "hp": 6682
-                  },
-                  {
-                        "att": 2504,
-                        "def": 890,
-                        "hp": 6701
-                  },
-                  {
-                        "att": 2511,
-                        "def": 893,
-                        "hp": 6719
-                  },
-                  {
-                        "att": 2518,
-                        "def": 895,
-                        "hp": 6737
-                  },
-                  {
-                        "att": 2526,
-                        "def": 898,
-                        "hp": 6755
-                  },
-                  {
-                        "att": 2533,
-                        "def": 900,
-                        "hp": 6773
-                  },
-                  {
-                        "att": 2540,
-                        "def": 902,
-                        "hp": 6791
-                  },
-                  {
-                        "att": 2547,
-                        "def": 905,
-                        "hp": 6809
-                  },
-                  {
-                        "att": 2555,
-                        "def": 907,
-                        "hp": 6827
-                  },
-                  {
-                        "att": 2562,
-                        "def": 910,
-                        "hp": 6846
-                  },
-                  {
-                        "att": 2569,
-                        "def": 912,
-                        "hp": 6864
-                  },
-                  {
-                        "att": 2576,
-                        "def": 915,
-                        "hp": 6882
-                  },
-                  {
-                        "att": 2584,
-                        "def": 917,
-                        "hp": 6900
-                  },
-                  {
-                        "att": 2591,
-                        "def": 920,
-                        "hp": 6918
-                  },
-                  {
-                        "att": 2598,
-                        "def": 922,
-                        "hp": 6936
-                  },
-                  {
-                        "att": 2605,
-                        "def": 925,
-                        "hp": 6954
-                  },
-                  {
-                        "att": 2613,
-                        "def": 927,
-                        "hp": 6972
-                  },
-                  {
-                        "att": 2620,
-                        "def": 930,
-                        "hp": 6991
-                  },
-                  {
-                        "att": 2627,
-                        "def": 932,
-                        "hp": 7009
-                  },
-                  {
-                        "att": 2634,
-                        "def": 934,
-                        "hp": 7027
-                  },
-                  {
-                        "att": 2642,
-                        "def": 937,
-                        "hp": 7045
-                  },
-                  {
-                        "att": 2649,
-                        "def": 939,
-                        "hp": 7063
-                  },
-                  {
-                        "att": 2656,
-                        "def": 942,
-                        "hp": 7081
-                  },
-                  {
-                        "att": 2663,
-                        "def": 944,
-                        "hp": 7099
-                  },
-                  {
-                        "att": 2671,
-                        "def": 947,
-                        "hp": 7117
-                  },
-                  {
-                        "att": 2678,
-                        "def": 949,
-                        "hp": 7136
-                  },
-                  {
-                        "att": 2685,
-                        "def": 952,
-                        "hp": 7154
-                  },
-                  {
-                        "att": 2692,
-                        "def": 954,
-                        "hp": 7172
-                  },
-                  {
-                        "att": 2700,
-                        "def": 957,
-                        "hp": 7190
-                  },
-                  {
-                        "att": 2707,
-                        "def": 959,
-                        "hp": 7208
-                  },
-                  {
-                        "att": 2714,
-                        "def": 962,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2721,
-                        "def": 964,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2729,
-                        "def": 966,
-                        "hp": 7262
-                  },
-                  {
-                        "att": 2736,
-                        "def": 969,
-                        "hp": 7281
-                  },
-                  {
-                        "att": 2743,
-                        "def": 971,
-                        "hp": 7299
-                  },
-                  {
-                        "att": 2750,
-                        "def": 974,
-                        "hp": 7317
-                  },
-                  {
-                        "att": 2758,
-                        "def": 976,
-                        "hp": 7335
-                  },
-                  {
-                        "att": 2765,
-                        "def": 979,
-                        "hp": 7353
-                  },
-                  {
-                        "att": 2772,
-                        "def": 981,
-                        "hp": 7371
-                  },
-                  {
-                        "att": 2779,
-                        "def": 984,
-                        "hp": 7389
-                  },
-                  {
-                        "att": 2787,
-                        "def": 986,
-                        "hp": 7407
-                  },
-                  {
-                        "att": 2794,
-                        "def": 989,
-                        "hp": 7426
-                  },
-                  {
-                        "att": 2801,
-                        "def": 991,
-                        "hp": 7444
-                  },
-                  {
-                        "att": 2808,
-                        "def": 993,
-                        "hp": 7462
-                  },
-                  {
-                        "att": 2816,
-                        "def": 996,
-                        "hp": 7480
-                  },
-                  {
-                        "att": 2823,
-                        "def": 998,
-                        "hp": 7498
-                  },
-                  {
-                        "att": 2830,
-                        "def": 1001,
-                        "hp": 7516
-                  },
-                  {
-                        "att": 2837,
-                        "def": 1003,
-                        "hp": 7534
-                  },
-                  {
-                        "att": 2845,
-                        "def": 1006,
-                        "hp": 7552
-                  },
-                  {
-                        "att": 2852,
-                        "def": 1008,
-                        "hp": 7571
-                  },
-                  {
-                        "att": 2859,
-                        "def": 1011,
-                        "hp": 7589
-                  },
-                  {
-                        "att": 2866,
-                        "def": 1013,
-                        "hp": 7607
-                  },
-                  {
-                        "att": 2874,
-                        "def": 1016,
-                        "hp": 7625
-                  },
-                  {
-                        "att": 2881,
-                        "def": 1018,
-                        "hp": 7643
-                  },
-                  {
-                        "att": 2888,
-                        "def": 1021,
-                        "hp": 7661
-                  },
-                  {
-                        "att": 2895,
-                        "def": 1023,
-                        "hp": 7679
-                  },
-                  {
-                        "att": 2903,
-                        "def": 1025,
-                        "hp": 7697
-                  },
-                  {
-                        "att": 2910,
-                        "def": 1028,
-                        "hp": 7716
-                  },
-                  {
-                        "att": 2917,
-                        "def": 1030,
-                        "hp": 7734
-                  },
-                  {
-                        "att": 2924,
-                        "def": 1033,
-                        "hp": 7752
-                  },
-                  {
-                        "att": 2932,
-                        "def": 1035,
-                        "hp": 7770
-                  },
-                  {
-                        "att": 2939,
-                        "def": 1038,
-                        "hp": 7788
-                  },
-                  {
-                        "att": 2946,
-                        "def": 1040,
-                        "hp": 7806
-                  },
-                  {
-                        "att": 2953,
-                        "def": 1043,
-                        "hp": 7824
-                  },
-                  {
-                        "att": 2961,
-                        "def": 1045,
-                        "hp": 7842
-                  },
-                  {
-                        "att": 2968,
-                        "def": 1048,
-                        "hp": 7861
-                  },
-                  {
-                        "att": 2975,
-                        "def": 1050,
-                        "hp": 7879
-                  },
-                  {
-                        "att": 2982,
-                        "def": 1053,
-                        "hp": 7897
-                  },
-                  {
-                        "att": 2990,
-                        "def": 1055,
-                        "hp": 7915
-                  },
-                  {
-                        "att": 2997,
-                        "def": 1057,
-                        "hp": 7933
-                  },
-                  {
-                        "att": 3004,
-                        "def": 1060,
-                        "hp": 7951
-                  },
-                  {
-                        "att": 3011,
-                        "def": 1062,
-                        "hp": 7969
-                  },
-                  {
-                        "att": 3019,
-                        "def": 1065,
-                        "hp": 7987
-                  },
-                  {
-                        "att": 3026,
-                        "def": 1067,
-                        "hp": 8006
-                  },
-                  {
-                        "att": 3033,
-                        "def": 1070,
-                        "hp": 8024
-                  },
-                  {
-                        "att": 3040,
-                        "def": 1072,
-                        "hp": 8042
-                  },
-                  {
-                        "att": 3048,
-                        "def": 1075,
-                        "hp": 8060
-                  },
-                  {
-                        "att": 3055,
-                        "def": 1077,
-                        "hp": 8078
-                  },
-                  {
-                        "att": 3062,
-                        "def": 1080,
-                        "hp": 8096
-                  }
-            ]
-      }
+ "name": "Lester",
+ "faction": "Independent",
+ "element_main": "Forest",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Detonator",
+ "skill": {
+  "name": "Wild Snare",
+  "cd": "2 Turn",
+  "description": [
+   "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each when triggered and inflict 1 stack of Poison for 2 rounds.",
+   "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds.",
+   "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds."
+  ]
+ },
+ "equip": {
+  "name": "Wilderness Mustard Gas Cannister",
+  "passive": "Stinker",
+  "description": [
+   [
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
+   ],
+   [
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
+   ],
+   [
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 2%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 3%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 4%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison.",
+    "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison."
+   ]
+  ],
+  "introduction": "Lester was born with a bad body odor. That didn't erode her self-esteem but spurred her to make a special costume and collect her scent in gas cannisters that she throws to harm enemies."
+ },
+ "chain": {
+  "name": "Gas Fling",
+  "detail": [
+   [
+    {
+     "cost": "3",
+     "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "3",
+     "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "3",
+     "description": "Deals 135% damage to 8 tiles in an X shape and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to an X-shaped area up to maximum range and inflicts 1 stack of Poison for 2 rounds."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Essence",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%."
+  },
+  {
+   "material": [
+    "Forest Potion II",
+    "Forest Crystal Shard",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each when triggered and inflict 1 stack of Poison for 2 rounds.",
+   "after": "Selects 1 tile and places 1 mine in it and in adjacent 4 X-shaped tiles. The mines deal 190% damage each (double for the chosen tile) when triggered and inflict 1 stack of Poison for 2 rounds."
+  },
+  {
+   "material": [
+    "Forest Crystal Cluster",
+    "Forest Flare Rock",
+    "Survivalpedia",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%.",
+   "after": "When dealing damage to a Poisoned enemy, each stack of Poison increases the final damage by 5%. When an Active Skill or a Chain Combo hits a Poisoned target, the unit is inflicted with 1 extra stack of Poison."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 577,
+    "def": 242,
+    "hp": 1806
+   },
+   {
+    "att": 589,
+    "def": 246,
+    "hp": 1835
+   },
+   {
+    "att": 600,
+    "def": 250,
+    "hp": 1864
+   },
+   {
+    "att": 612,
+    "def": 254,
+    "hp": 1893
+   },
+   {
+    "att": 623,
+    "def": 258,
+    "hp": 1922
+   },
+   {
+    "att": 635,
+    "def": 262,
+    "hp": 1951
+   },
+   {
+    "att": 647,
+    "def": 266,
+    "hp": 1980
+   },
+   {
+    "att": 658,
+    "def": 270,
+    "hp": 2009
+   },
+   {
+    "att": 670,
+    "def": 274,
+    "hp": 2038
+   },
+   {
+    "att": 681,
+    "def": 278,
+    "hp": 2067
+   },
+   {
+    "att": 693,
+    "def": 282,
+    "hp": 2096
+   },
+   {
+    "att": 705,
+    "def": 286,
+    "hp": 2125
+   },
+   {
+    "att": 716,
+    "def": 290,
+    "hp": 2154
+   },
+   {
+    "att": 728,
+    "def": 294,
+    "hp": 2183
+   },
+   {
+    "att": 739,
+    "def": 298,
+    "hp": 2212
+   },
+   {
+    "att": 751,
+    "def": 301,
+    "hp": 2241
+   },
+   {
+    "att": 763,
+    "def": 305,
+    "hp": 2270
+   },
+   {
+    "att": 774,
+    "def": 309,
+    "hp": 2299
+   },
+   {
+    "att": 786,
+    "def": 313,
+    "hp": 2328
+   },
+   {
+    "att": 797,
+    "def": 317,
+    "hp": 2357
+   },
+   {
+    "att": 809,
+    "def": 321,
+    "hp": 2386
+   },
+   {
+    "att": 821,
+    "def": 325,
+    "hp": 2415
+   },
+   {
+    "att": 832,
+    "def": 329,
+    "hp": 2444
+   },
+   {
+    "att": 844,
+    "def": 333,
+    "hp": 2473
+   },
+   {
+    "att": 855,
+    "def": 337,
+    "hp": 2502
+   },
+   {
+    "att": 867,
+    "def": 341,
+    "hp": 2531
+   },
+   {
+    "att": 879,
+    "def": 345,
+    "hp": 2560
+   },
+   {
+    "att": 890,
+    "def": 349,
+    "hp": 2589
+   },
+   {
+    "att": 902,
+    "def": 353,
+    "hp": 2618
+   },
+   {
+    "att": 913,
+    "def": 357,
+    "hp": 2647
+   },
+   {
+    "att": 1018,
+    "def": 391,
+    "hp": 2923
+   },
+   {
+    "att": 1032,
+    "def": 396,
+    "hp": 2959
+   },
+   {
+    "att": 1047,
+    "def": 401,
+    "hp": 2996
+   },
+   {
+    "att": 1061,
+    "def": 406,
+    "hp": 3032
+   },
+   {
+    "att": 1076,
+    "def": 411,
+    "hp": 3068
+   },
+   {
+    "att": 1090,
+    "def": 416,
+    "hp": 3104
+   },
+   {
+    "att": 1105,
+    "def": 421,
+    "hp": 3141
+   },
+   {
+    "att": 1119,
+    "def": 426,
+    "hp": 3177
+   },
+   {
+    "att": 1134,
+    "def": 431,
+    "hp": 3213
+   },
+   {
+    "att": 1148,
+    "def": 436,
+    "hp": 3249
+   },
+   {
+    "att": 1163,
+    "def": 441,
+    "hp": 3286
+   },
+   {
+    "att": 1177,
+    "def": 446,
+    "hp": 3322
+   },
+   {
+    "att": 1192,
+    "def": 450,
+    "hp": 3358
+   },
+   {
+    "att": 1206,
+    "def": 455,
+    "hp": 3394
+   },
+   {
+    "att": 1221,
+    "def": 460,
+    "hp": 3431
+   },
+   {
+    "att": 1235,
+    "def": 465,
+    "hp": 3467
+   },
+   {
+    "att": 1250,
+    "def": 470,
+    "hp": 3503
+   },
+   {
+    "att": 1264,
+    "def": 475,
+    "hp": 3539
+   },
+   {
+    "att": 1279,
+    "def": 480,
+    "hp": 3576
+   },
+   {
+    "att": 1293,
+    "def": 485,
+    "hp": 3612
+   },
+   {
+    "att": 1308,
+    "def": 490,
+    "hp": 3648
+   },
+   {
+    "att": 1322,
+    "def": 495,
+    "hp": 3684
+   },
+   {
+    "att": 1337,
+    "def": 500,
+    "hp": 3721
+   },
+   {
+    "att": 1351,
+    "def": 505,
+    "hp": 3757
+   },
+   {
+    "att": 1366,
+    "def": 510,
+    "hp": 3793
+   },
+   {
+    "att": 1380,
+    "def": 514,
+    "hp": 3829
+   },
+   {
+    "att": 1395,
+    "def": 519,
+    "hp": 3866
+   },
+   {
+    "att": 1409,
+    "def": 524,
+    "hp": 3902
+   },
+   {
+    "att": 1424,
+    "def": 529,
+    "hp": 3938
+   },
+   {
+    "att": 1438,
+    "def": 534,
+    "hp": 3974
+   },
+   {
+    "att": 1453,
+    "def": 539,
+    "hp": 4011
+   },
+   {
+    "att": 1467,
+    "def": 544,
+    "hp": 4047
+   },
+   {
+    "att": 1482,
+    "def": 549,
+    "hp": 4083
+   },
+   {
+    "att": 1496,
+    "def": 554,
+    "hp": 4119
+   },
+   {
+    "att": 1511,
+    "def": 559,
+    "hp": 4156
+   },
+   {
+    "att": 1525,
+    "def": 564,
+    "hp": 4192
+   },
+   {
+    "att": 1540,
+    "def": 569,
+    "hp": 4228
+   },
+   {
+    "att": 1554,
+    "def": 573,
+    "hp": 4264
+   },
+   {
+    "att": 1569,
+    "def": 578,
+    "hp": 4301
+   },
+   {
+    "att": 1583,
+    "def": 583,
+    "hp": 4337
+   },
+   {
+    "att": 1734,
+    "def": 637,
+    "hp": 4744
+   },
+   {
+    "att": 1745,
+    "def": 641,
+    "hp": 4771
+   },
+   {
+    "att": 1756,
+    "def": 644,
+    "hp": 4798
+   },
+   {
+    "att": 1767,
+    "def": 648,
+    "hp": 4826
+   },
+   {
+    "att": 1778,
+    "def": 652,
+    "hp": 4853
+   },
+   {
+    "att": 1789,
+    "def": 655,
+    "hp": 4880
+   },
+   {
+    "att": 1799,
+    "def": 659,
+    "hp": 4907
+   },
+   {
+    "att": 1810,
+    "def": 663,
+    "hp": 4934
+   },
+   {
+    "att": 1821,
+    "def": 667,
+    "hp": 4961
+   },
+   {
+    "att": 1832,
+    "def": 670,
+    "hp": 4989
+   },
+   {
+    "att": 1843,
+    "def": 674,
+    "hp": 5016
+   },
+   {
+    "att": 1854,
+    "def": 678,
+    "hp": 5043
+   },
+   {
+    "att": 1865,
+    "def": 681,
+    "hp": 5070
+   },
+   {
+    "att": 1876,
+    "def": 685,
+    "hp": 5097
+   },
+   {
+    "att": 1886,
+    "def": 689,
+    "hp": 5125
+   },
+   {
+    "att": 1897,
+    "def": 692,
+    "hp": 5152
+   },
+   {
+    "att": 1908,
+    "def": 696,
+    "hp": 5179
+   },
+   {
+    "att": 1919,
+    "def": 700,
+    "hp": 5206
+   },
+   {
+    "att": 1930,
+    "def": 703,
+    "hp": 5233
+   },
+   {
+    "att": 1941,
+    "def": 707,
+    "hp": 5261
+   },
+   {
+    "att": 1952,
+    "def": 711,
+    "hp": 5288
+   },
+   {
+    "att": 1963,
+    "def": 714,
+    "hp": 5315
+   },
+   {
+    "att": 1973,
+    "def": 718,
+    "hp": 5342
+   },
+   {
+    "att": 1984,
+    "def": 722,
+    "hp": 5369
+   },
+   {
+    "att": 1995,
+    "def": 726,
+    "hp": 5396
+   },
+   {
+    "att": 2006,
+    "def": 729,
+    "hp": 5424
+   },
+   {
+    "att": 2017,
+    "def": 733,
+    "hp": 5451
+   },
+   {
+    "att": 2028,
+    "def": 737,
+    "hp": 5478
+   },
+   {
+    "att": 2039,
+    "def": 740,
+    "hp": 5505
+   },
+   {
+    "att": 2050,
+    "def": 744,
+    "hp": 5532
+   },
+   {
+    "att": 2060,
+    "def": 748,
+    "hp": 5560
+   },
+   {
+    "att": 2071,
+    "def": 751,
+    "hp": 5587
+   },
+   {
+    "att": 2082,
+    "def": 755,
+    "hp": 5614
+   },
+   {
+    "att": 2093,
+    "def": 759,
+    "hp": 5641
+   },
+   {
+    "att": 2104,
+    "def": 762,
+    "hp": 5668
+   },
+   {
+    "att": 2115,
+    "def": 766,
+    "hp": 5696
+   },
+   {
+    "att": 2126,
+    "def": 770,
+    "hp": 5723
+   },
+   {
+    "att": 2137,
+    "def": 774,
+    "hp": 5750
+   },
+   {
+    "att": 2147,
+    "def": 777,
+    "hp": 5777
+   },
+   {
+    "att": 2158,
+    "def": 781,
+    "hp": 5804
+   },
+   {
+    "att": 2169,
+    "def": 785,
+    "hp": 5831
+   },
+   {
+    "att": 2180,
+    "def": 788,
+    "hp": 5859
+   },
+   {
+    "att": 2191,
+    "def": 792,
+    "hp": 5886
+   },
+   {
+    "att": 2202,
+    "def": 796,
+    "hp": 5913
+   },
+   {
+    "att": 2213,
+    "def": 799,
+    "hp": 5940
+   },
+   {
+    "att": 2224,
+    "def": 803,
+    "hp": 5967
+   },
+   {
+    "att": 2234,
+    "def": 807,
+    "hp": 5995
+   },
+   {
+    "att": 2245,
+    "def": 810,
+    "hp": 6022
+   },
+   {
+    "att": 2256,
+    "def": 814,
+    "hp": 6049
+   },
+   {
+    "att": 2267,
+    "def": 818,
+    "hp": 6076
+   },
+   {
+    "att": 2489,
+    "def": 885,
+    "hp": 6664
+   },
+   {
+    "att": 2497,
+    "def": 888,
+    "hp": 6682
+   },
+   {
+    "att": 2504,
+    "def": 890,
+    "hp": 6701
+   },
+   {
+    "att": 2511,
+    "def": 893,
+    "hp": 6719
+   },
+   {
+    "att": 2518,
+    "def": 895,
+    "hp": 6737
+   },
+   {
+    "att": 2526,
+    "def": 898,
+    "hp": 6755
+   },
+   {
+    "att": 2533,
+    "def": 900,
+    "hp": 6773
+   },
+   {
+    "att": 2540,
+    "def": 902,
+    "hp": 6791
+   },
+   {
+    "att": 2547,
+    "def": 905,
+    "hp": 6809
+   },
+   {
+    "att": 2555,
+    "def": 907,
+    "hp": 6827
+   },
+   {
+    "att": 2562,
+    "def": 910,
+    "hp": 6846
+   },
+   {
+    "att": 2569,
+    "def": 912,
+    "hp": 6864
+   },
+   {
+    "att": 2576,
+    "def": 915,
+    "hp": 6882
+   },
+   {
+    "att": 2584,
+    "def": 917,
+    "hp": 6900
+   },
+   {
+    "att": 2591,
+    "def": 920,
+    "hp": 6918
+   },
+   {
+    "att": 2598,
+    "def": 922,
+    "hp": 6936
+   },
+   {
+    "att": 2605,
+    "def": 925,
+    "hp": 6954
+   },
+   {
+    "att": 2613,
+    "def": 927,
+    "hp": 6972
+   },
+   {
+    "att": 2620,
+    "def": 930,
+    "hp": 6991
+   },
+   {
+    "att": 2627,
+    "def": 932,
+    "hp": 7009
+   },
+   {
+    "att": 2634,
+    "def": 934,
+    "hp": 7027
+   },
+   {
+    "att": 2642,
+    "def": 937,
+    "hp": 7045
+   },
+   {
+    "att": 2649,
+    "def": 939,
+    "hp": 7063
+   },
+   {
+    "att": 2656,
+    "def": 942,
+    "hp": 7081
+   },
+   {
+    "att": 2663,
+    "def": 944,
+    "hp": 7099
+   },
+   {
+    "att": 2671,
+    "def": 947,
+    "hp": 7117
+   },
+   {
+    "att": 2678,
+    "def": 949,
+    "hp": 7136
+   },
+   {
+    "att": 2685,
+    "def": 952,
+    "hp": 7154
+   },
+   {
+    "att": 2692,
+    "def": 954,
+    "hp": 7172
+   },
+   {
+    "att": 2700,
+    "def": 957,
+    "hp": 7190
+   },
+   {
+    "att": 2707,
+    "def": 959,
+    "hp": 7208
+   },
+   {
+    "att": 2714,
+    "def": 962,
+    "hp": 7226
+   },
+   {
+    "att": 2721,
+    "def": 964,
+    "hp": 7244
+   },
+   {
+    "att": 2729,
+    "def": 966,
+    "hp": 7262
+   },
+   {
+    "att": 2736,
+    "def": 969,
+    "hp": 7281
+   },
+   {
+    "att": 2743,
+    "def": 971,
+    "hp": 7299
+   },
+   {
+    "att": 2750,
+    "def": 974,
+    "hp": 7317
+   },
+   {
+    "att": 2758,
+    "def": 976,
+    "hp": 7335
+   },
+   {
+    "att": 2765,
+    "def": 979,
+    "hp": 7353
+   },
+   {
+    "att": 2772,
+    "def": 981,
+    "hp": 7371
+   },
+   {
+    "att": 2779,
+    "def": 984,
+    "hp": 7389
+   },
+   {
+    "att": 2787,
+    "def": 986,
+    "hp": 7407
+   },
+   {
+    "att": 2794,
+    "def": 989,
+    "hp": 7426
+   },
+   {
+    "att": 2801,
+    "def": 991,
+    "hp": 7444
+   },
+   {
+    "att": 2808,
+    "def": 993,
+    "hp": 7462
+   },
+   {
+    "att": 2816,
+    "def": 996,
+    "hp": 7480
+   },
+   {
+    "att": 2823,
+    "def": 998,
+    "hp": 7498
+   },
+   {
+    "att": 2830,
+    "def": 1001,
+    "hp": 7516
+   },
+   {
+    "att": 2837,
+    "def": 1003,
+    "hp": 7534
+   },
+   {
+    "att": 2845,
+    "def": 1006,
+    "hp": 7552
+   },
+   {
+    "att": 2852,
+    "def": 1008,
+    "hp": 7571
+   },
+   {
+    "att": 2859,
+    "def": 1011,
+    "hp": 7589
+   },
+   {
+    "att": 2866,
+    "def": 1013,
+    "hp": 7607
+   },
+   {
+    "att": 2874,
+    "def": 1016,
+    "hp": 7625
+   },
+   {
+    "att": 2881,
+    "def": 1018,
+    "hp": 7643
+   },
+   {
+    "att": 2888,
+    "def": 1021,
+    "hp": 7661
+   },
+   {
+    "att": 2895,
+    "def": 1023,
+    "hp": 7679
+   },
+   {
+    "att": 2903,
+    "def": 1025,
+    "hp": 7697
+   },
+   {
+    "att": 2910,
+    "def": 1028,
+    "hp": 7716
+   },
+   {
+    "att": 2917,
+    "def": 1030,
+    "hp": 7734
+   },
+   {
+    "att": 2924,
+    "def": 1033,
+    "hp": 7752
+   },
+   {
+    "att": 2932,
+    "def": 1035,
+    "hp": 7770
+   },
+   {
+    "att": 2939,
+    "def": 1038,
+    "hp": 7788
+   },
+   {
+    "att": 2946,
+    "def": 1040,
+    "hp": 7806
+   },
+   {
+    "att": 2953,
+    "def": 1043,
+    "hp": 7824
+   },
+   {
+    "att": 2961,
+    "def": 1045,
+    "hp": 7842
+   },
+   {
+    "att": 2968,
+    "def": 1048,
+    "hp": 7861
+   },
+   {
+    "att": 2975,
+    "def": 1050,
+    "hp": 7879
+   },
+   {
+    "att": 2982,
+    "def": 1053,
+    "hp": 7897
+   },
+   {
+    "att": 2990,
+    "def": 1055,
+    "hp": 7915
+   },
+   {
+    "att": 2997,
+    "def": 1057,
+    "hp": 7933
+   },
+   {
+    "att": 3004,
+    "def": 1060,
+    "hp": 7951
+   },
+   {
+    "att": 3011,
+    "def": 1062,
+    "hp": 7969
+   },
+   {
+    "att": 3019,
+    "def": 1065,
+    "hp": 7987
+   },
+   {
+    "att": 3026,
+    "def": 1067,
+    "hp": 8006
+   },
+   {
+    "att": 3033,
+    "def": 1070,
+    "hp": 8024
+   },
+   {
+    "att": 3040,
+    "def": 1072,
+    "hp": 8042
+   },
+   {
+    "att": 3048,
+    "def": 1075,
+    "hp": 8060
+   },
+   {
+    "att": 3055,
+    "def": 1077,
+    "hp": 8078
+   },
+   {
+    "att": 3062,
+    "def": 1080,
+    "hp": 8096
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I was flabbergasted when I first met Ms. Lester. She was shrouded in biohazard gear from head to toe, with canisters hanging off her big tail. It was my first time seeing an Aurorian with demi-human blood. I think they called the creature a skunk? She might have a strange accent, but Ms. Lester was incredibly polite. According to her, she wanted to try different lines of work and happened to hear we were hiring, so she put in a request to come here. I'm fine with any skilled help joining the Colossus. %s's probably fine, too, other than feeling awkward being addressed as \"Sir\" by Ms. Lester. \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "How are you, sir? To be honest, this place gives me a good first impression, as opposed to before, everywhere I went, I had to put up with comments about my appearance, or being stared at all the time... No worries, I'm generally okay with that, even though it still feels somewhat awkward. I just hope it won't cause you any problems. My parents came from a special demi-human lineage. As you can tell, I resemble a skunk. Do you know what skunks are? Hmm, looks like you don't. I guess it's true that you've been in the Colossus for 17 years! Oh, it's all right if you don't. All you need to know is that it's a rather special animal! See the canisters on my tail? They all have a special purpose! Oh, I'm running late. I'll tell you more next time!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "This body odor of mine has brought me a lot of problems. I didn't have friends when I was young. Luckily, I never had low self-esteem. I thought I was better off alone and not cause any trouble. Don't you agree? It's all good, though, the only inconvenience is at work. Nobody wants to smell me, so out of desperation, I made myself a biohazard suit and a gas mask to cover myself up from head to toe. Huh? The canisters on my tail? Oh, I made them, too. I was thinking I shouldn't waste my natural-born gifts, so I canned up the stink gas just in case I got into a fight! Anyway, I don't mind that much anymore. If I have to admit one thing, that would be my get-up is probably too conspicuous... That's not a big deal, right?"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Did you know I was born in Umbraton? Despite that, and probably because of the odor problem, I got used to being alone. Not that many people there cared about me, anyway. I guess it's my demi-human blood that makes my nose exceptionally keen and sensitive to unusual smells. It wasn't long before I'd scour the outskirts of Umbraton for special scents. Yeah, other people saw me as crazy, but I was doing what I liked, so I didn't care what they thought. People said that I don't look like I'm from Umbraton, but so what? I don't think of myself as from Umbraton, either. I think it's cool to be a wandering mercenary, don't you think?"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "How long have I been doing this? I lost count, probably ever since I've been living alone. When you're young, you often chase after excitement and freedom. For someone like me who has no home, becoming a wandering mercenary is the perfect job. It gives me a living and I get to do what I like, so it fits me like a glove! However, even though I love it, I've been feeling fatigued lately, probably because the dangerous work is getting too much for me at an older age. So, I'm looking for a job that's not that perilous and still makes me money. I'm still young, you said? Well, maybe physically, but my mind's gone through a lot and I'm not as fearless as before. That's why I've been pondering about hitting my old pal Korgon for work. I heard he needs help with construction on the island, so I might be gone after this gig!"
+  }
+ ],
+ "voice": [
+  "I don't need to care about my status in Umbraton, so it isn't bad living here.",
+  "I've been to Illumina several times for business. It seems to be developing fast and the people there are friendly.",
+  "What would you like me to say?",
+  "I've been dealing with those things for almost two decades by now. I don't feel anything about them anymore. Where did they all come from anyway?",
+  "Mr. Penguin and Mr. Kuma can be entertaining when they get together. I could listen to their stand-up comedy every day.",
+  "Mr. Korgon is quite nice. I'm trying to decide whether or not to move to his island in the future.",
+  "I like dark and damp places and this set of gear meets my needs just right.",
+  "I still don't like being disturbed, especially when I'm at home.",
+  "Isn't this big fellow wonderful? Are you the only one in the world who can control the Colossus?",
+  "May I help you? Could we go somewhere shaded to talk?",
+  "On it. One moment, please.",
+  "There's too much difference between our strengths.",
+  "That was considered easy.",
+  "Take this.",
+  "What are you looking at?",
+  "I have a plan.",
+  "Happy New Year! It will soon be a whole lot of fun here.",
+  "On my way.",
+  "This feels nice. Thank you.",
+  "Then I can take on more commissions.",
+  "Limits are set to be broken.",
+  "Are you having a rest? I can use some rest as well.",
+  "I've become more adept in handling my business.",
+  "Alchemy Stars.",
+  "It's so spacious here. I don't think I'd ever see anything bigger than this for the rest of my life.",
+  "People in my line of business are particular about our reputation, so there's no need for you to worry.",
+  "I made this protective suit myself. I've added quite a few handy features to my design, in particular the ones that prevent scents from leaking.",
+  "Would you like me to give you a bottle of this stuff on my tail? It can help at critical moments but you'll need to handle it with care.",
+  "I'm getting a little tired of life as a mercenary. I've been thinking about changing my way of living but still don't have the slightest idea how.",
+  "It's too hard for someone like me to survive in this world. I'm just glad there are far more good people in Umbraton than I thought. You could say I was well taken care of.",
+  "The mask? I can't take it off. This whole set of gear is one unit. It won't work if any part of it is missing.",
+  "If you're considering long-term collaboration, I can give you a 20%-off discount. It's only natural to offer old clients some discounts.",
+  "Care to join me at my place sometime? It's a little small but rather comfortable to live in. It'll be nice to stay in a different environment for a change.",
+  "I saw two kids selling stuff on the black market the last time I went there. Seems like everyone's having a tough time these days.",
+  "I remember seeing a Caelestite or two when I was a kid. What a shame!",
+  "Please be careful, or you will be targeted immediately in Umbraton.",
+  "Hello, sir. What shall we do next?",
+  "Good morning. A beautiful day starts with a glass of milk.",
+  "Good evening. I bartered some gadgets from the black market. Care to have a look?",
+  "People as young as you should go to bed early... But I won't force you of course.",
+  "Greetings! I am always at your service.",
+  "It's very nice of you to do this.",
+  "I'm very flattered.",
+  "Nice stuff!",
+  "That's... I can't thank you enough.",
+  "Now's our chance!",
+  "You didn't want to pick a fight with a knife.",
+  "Have you got it?",
+  "Although we're all Aurorians, there are a lot of differences among individuals. I was troubled by my constitution for a very long time but I'm good with it now.",
+  "Speaking of impressive moments... What comes to mind is the time when Umbraton was under siege. I was 20 then, and I thought I was a goner.",
+  "I've been feeling a little out of my depth lately. My body may still be young, but my mentality... Maybe I should consider retiring. Mr. Korgon's place is not too bad an option.",
+  "Good. Let's do this."
+ ],
+ "skins": [],
+ "description": "Born with an animal body, she's a wandering mercenary who rants about everything.",
+ "realName": "Lester",
+ "nickname": "Agent Skunk",
+ "gender": "Female",
+ "height": "5'3\"",
+ "birthday": "March 12",
+ "birthplace": "Umbraton",
+ "style": "Mustard Gas Cannister"
 }

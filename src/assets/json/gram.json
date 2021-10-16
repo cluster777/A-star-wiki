@@ -1,1153 +1,1258 @@
 {
-      "name": "Gram",
-      "faction": "Illumina Federation",
-      "element_main": "Fire",
-      "element_sub": "Thunder",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "1 Preemptive Turn",
-            "description": [
-                  "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location.",
-                  "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster.",
-                  "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster."
-            ]
-      },
-      "equip": {
-            "name": "Punish and Perish",
-            "passive": "Raging Tiger",
-            "description": [
-                  [
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
-                  ],
-                  [
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
-                  ],
-                  [
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
-                        "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 8 tiles in a cross-shaped."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 180% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 8 tiles in a cross-shaped."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 180% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 8 tiles in a cross-shaped."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 180% damage to 16 tiles in a radial shape."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Increases Active Skill damage by 30%.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: If Active Skill was ready in the last round, the displacement range becomes 2 surrounding clusters."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Essence",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
-            },
-            {
-                  "material": [
-                        "Fire Potion II",
-                        "Fire Flare Silt",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location.",
-                  "after": "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster."
-            },
-            {
-                  "material": [
-                        "Fire Flare Tile",
-                        "Fire Crystal",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%.",
-                  "after": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 669,
-                        "def": 234,
-                        "hp": 2019
-                  },
-                  {
-                        "att": 682,
-                        "def": 238,
-                        "hp": 2051
-                  },
-                  {
-                        "att": 695,
-                        "def": 242,
-                        "hp": 2083
-                  },
-                  {
-                        "att": 708,
-                        "def": 246,
-                        "hp": 2114
-                  },
-                  {
-                        "att": 721,
-                        "def": 250,
-                        "hp": 2146
-                  },
-                  {
-                        "att": 734,
-                        "def": 254,
-                        "hp": 2178
-                  },
-                  {
-                        "att": 747,
-                        "def": 257,
-                        "hp": 2210
-                  },
-                  {
-                        "att": 760,
-                        "def": 261,
-                        "hp": 2241
-                  },
-                  {
-                        "att": 773,
-                        "def": 265,
-                        "hp": 2273
-                  },
-                  {
-                        "att": 786,
-                        "def": 269,
-                        "hp": 2305
-                  },
-                  {
-                        "att": 799,
-                        "def": 273,
-                        "hp": 2337
-                  },
-                  {
-                        "att": 812,
-                        "def": 277,
-                        "hp": 2368
-                  },
-                  {
-                        "att": 825,
-                        "def": 280,
-                        "hp": 2400
-                  },
-                  {
-                        "att": 838,
-                        "def": 284,
-                        "hp": 2432
-                  },
-                  {
-                        "att": 851,
-                        "def": 288,
-                        "hp": 2464
-                  },
-                  {
-                        "att": 864,
-                        "def": 292,
-                        "hp": 2495
-                  },
-                  {
-                        "att": 877,
-                        "def": 296,
-                        "hp": 2527
-                  },
-                  {
-                        "att": 890,
-                        "def": 300,
-                        "hp": 2559
-                  },
-                  {
-                        "att": 903,
-                        "def": 303,
-                        "hp": 2591
-                  },
-                  {
-                        "att": 916,
-                        "def": 307,
-                        "hp": 2622
-                  },
-                  {
-                        "att": 929,
-                        "def": 311,
-                        "hp": 2654
-                  },
-                  {
-                        "att": 942,
-                        "def": 315,
-                        "hp": 2686
-                  },
-                  {
-                        "att": 956,
-                        "def": 319,
-                        "hp": 2718
-                  },
-                  {
-                        "att": 969,
-                        "def": 323,
-                        "hp": 2749
-                  },
-                  {
-                        "att": 982,
-                        "def": 327,
-                        "hp": 2781
-                  },
-                  {
-                        "att": 995,
-                        "def": 330,
-                        "hp": 2813
-                  },
-                  {
-                        "att": 1008,
-                        "def": 334,
-                        "hp": 2845
-                  },
-                  {
-                        "att": 1021,
-                        "def": 338,
-                        "hp": 2876
-                  },
-                  {
-                        "att": 1034,
-                        "def": 342,
-                        "hp": 2908
-                  },
-                  {
-                        "att": 1047,
-                        "def": 346,
-                        "hp": 2940
-                  },
-                  {
-                        "att": 1153,
-                        "def": 381,
-                        "hp": 3230
-                  },
-                  {
-                        "att": 1169,
-                        "def": 385,
-                        "hp": 3269
-                  },
-                  {
-                        "att": 1186,
-                        "def": 390,
-                        "hp": 3309
-                  },
-                  {
-                        "att": 1202,
-                        "def": 395,
-                        "hp": 3349
-                  },
-                  {
-                        "att": 1218,
-                        "def": 400,
-                        "hp": 3388
-                  },
-                  {
-                        "att": 1235,
-                        "def": 405,
-                        "hp": 3428
-                  },
-                  {
-                        "att": 1251,
-                        "def": 409,
-                        "hp": 3468
-                  },
-                  {
-                        "att": 1267,
-                        "def": 414,
-                        "hp": 3507
-                  },
-                  {
-                        "att": 1283,
-                        "def": 419,
-                        "hp": 3547
-                  },
-                  {
-                        "att": 1300,
-                        "def": 424,
-                        "hp": 3587
-                  },
-                  {
-                        "att": 1316,
-                        "def": 429,
-                        "hp": 3626
-                  },
-                  {
-                        "att": 1332,
-                        "def": 433,
-                        "hp": 3666
-                  },
-                  {
-                        "att": 1349,
-                        "def": 438,
-                        "hp": 3706
-                  },
-                  {
-                        "att": 1365,
-                        "def": 443,
-                        "hp": 3746
-                  },
-                  {
-                        "att": 1381,
-                        "def": 448,
-                        "hp": 3785
-                  },
-                  {
-                        "att": 1397,
-                        "def": 453,
-                        "hp": 3825
-                  },
-                  {
-                        "att": 1414,
-                        "def": 457,
-                        "hp": 3865
-                  },
-                  {
-                        "att": 1430,
-                        "def": 462,
-                        "hp": 3904
-                  },
-                  {
-                        "att": 1446,
-                        "def": 467,
-                        "hp": 3944
-                  },
-                  {
-                        "att": 1463,
-                        "def": 472,
-                        "hp": 3984
-                  },
-                  {
-                        "att": 1479,
-                        "def": 477,
-                        "hp": 4023
-                  },
-                  {
-                        "att": 1495,
-                        "def": 481,
-                        "hp": 4063
-                  },
-                  {
-                        "att": 1511,
-                        "def": 486,
-                        "hp": 4103
-                  },
-                  {
-                        "att": 1528,
-                        "def": 491,
-                        "hp": 4142
-                  },
-                  {
-                        "att": 1544,
-                        "def": 496,
-                        "hp": 4182
-                  },
-                  {
-                        "att": 1560,
-                        "def": 501,
-                        "hp": 4222
-                  },
-                  {
-                        "att": 1577,
-                        "def": 505,
-                        "hp": 4261
-                  },
-                  {
-                        "att": 1593,
-                        "def": 510,
-                        "hp": 4301
-                  },
-                  {
-                        "att": 1609,
-                        "def": 515,
-                        "hp": 4341
-                  },
-                  {
-                        "att": 1626,
-                        "def": 520,
-                        "hp": 4381
-                  },
-                  {
-                        "att": 1642,
-                        "def": 525,
-                        "hp": 4420
-                  },
-                  {
-                        "att": 1658,
-                        "def": 529,
-                        "hp": 4460
-                  },
-                  {
-                        "att": 1674,
-                        "def": 534,
-                        "hp": 4500
-                  },
-                  {
-                        "att": 1691,
-                        "def": 539,
-                        "hp": 4539
-                  },
-                  {
-                        "att": 1707,
-                        "def": 544,
-                        "hp": 4579
-                  },
-                  {
-                        "att": 1723,
-                        "def": 549,
-                        "hp": 4619
-                  },
-                  {
-                        "att": 1740,
-                        "def": 553,
-                        "hp": 4658
-                  },
-                  {
-                        "att": 1756,
-                        "def": 558,
-                        "hp": 4698
-                  },
-                  {
-                        "att": 1772,
-                        "def": 563,
-                        "hp": 4738
-                  },
-                  {
-                        "att": 1788,
-                        "def": 568,
-                        "hp": 4777
-                  },
-                  {
-                        "att": 1951,
-                        "def": 621,
-                        "hp": 5207
-                  },
-                  {
-                        "att": 1963,
-                        "def": 625,
-                        "hp": 5237
-                  },
-                  {
-                        "att": 1975,
-                        "def": 629,
-                        "hp": 5267
-                  },
-                  {
-                        "att": 1987,
-                        "def": 632,
-                        "hp": 5296
-                  },
-                  {
-                        "att": 2000,
-                        "def": 636,
-                        "hp": 5326
-                  },
-                  {
-                        "att": 2012,
-                        "def": 639,
-                        "hp": 5356
-                  },
-                  {
-                        "att": 2024,
-                        "def": 643,
-                        "hp": 5386
-                  },
-                  {
-                        "att": 2036,
-                        "def": 647,
-                        "hp": 5416
-                  },
-                  {
-                        "att": 2048,
-                        "def": 650,
-                        "hp": 5445
-                  },
-                  {
-                        "att": 2061,
-                        "def": 654,
-                        "hp": 5475
-                  },
-                  {
-                        "att": 2073,
-                        "def": 657,
-                        "hp": 5505
-                  },
-                  {
-                        "att": 2085,
-                        "def": 661,
-                        "hp": 5535
-                  },
-                  {
-                        "att": 2097,
-                        "def": 665,
-                        "hp": 5564
-                  },
-                  {
-                        "att": 2109,
-                        "def": 668,
-                        "hp": 5594
-                  },
-                  {
-                        "att": 2122,
-                        "def": 672,
-                        "hp": 5624
-                  },
-                  {
-                        "att": 2134,
-                        "def": 676,
-                        "hp": 5654
-                  },
-                  {
-                        "att": 2146,
-                        "def": 679,
-                        "hp": 5683
-                  },
-                  {
-                        "att": 2158,
-                        "def": 683,
-                        "hp": 5713
-                  },
-                  {
-                        "att": 2171,
-                        "def": 686,
-                        "hp": 5743
-                  },
-                  {
-                        "att": 2183,
-                        "def": 690,
-                        "hp": 5773
-                  },
-                  {
-                        "att": 2195,
-                        "def": 694,
-                        "hp": 5803
-                  },
-                  {
-                        "att": 2207,
-                        "def": 697,
-                        "hp": 5832
-                  },
-                  {
-                        "att": 2219,
-                        "def": 701,
-                        "hp": 5862
-                  },
-                  {
-                        "att": 2232,
-                        "def": 704,
-                        "hp": 5892
-                  },
-                  {
-                        "att": 2244,
-                        "def": 708,
-                        "hp": 5922
-                  },
-                  {
-                        "att": 2256,
-                        "def": 712,
-                        "hp": 5951
-                  },
-                  {
-                        "att": 2268,
-                        "def": 715,
-                        "hp": 5981
-                  },
-                  {
-                        "att": 2281,
-                        "def": 719,
-                        "hp": 6011
-                  },
-                  {
-                        "att": 2293,
-                        "def": 722,
-                        "hp": 6041
-                  },
-                  {
-                        "att": 2305,
-                        "def": 726,
-                        "hp": 6070
-                  },
-                  {
-                        "att": 2317,
-                        "def": 730,
-                        "hp": 6100
-                  },
-                  {
-                        "att": 2329,
-                        "def": 733,
-                        "hp": 6130
-                  },
-                  {
-                        "att": 2342,
-                        "def": 737,
-                        "hp": 6160
-                  },
-                  {
-                        "att": 2354,
-                        "def": 740,
-                        "hp": 6189
-                  },
-                  {
-                        "att": 2366,
-                        "def": 744,
-                        "hp": 6219
-                  },
-                  {
-                        "att": 2378,
-                        "def": 748,
-                        "hp": 6249
-                  },
-                  {
-                        "att": 2391,
-                        "def": 751,
-                        "hp": 6279
-                  },
-                  {
-                        "att": 2403,
-                        "def": 755,
-                        "hp": 6309
-                  },
-                  {
-                        "att": 2415,
-                        "def": 758,
-                        "hp": 6338
-                  },
-                  {
-                        "att": 2427,
-                        "def": 762,
-                        "hp": 6368
-                  },
-                  {
-                        "att": 2439,
-                        "def": 766,
-                        "hp": 6398
-                  },
-                  {
-                        "att": 2452,
-                        "def": 769,
-                        "hp": 6428
-                  },
-                  {
-                        "att": 2464,
-                        "def": 773,
-                        "hp": 6457
-                  },
-                  {
-                        "att": 2476,
-                        "def": 776,
-                        "hp": 6487
-                  },
-                  {
-                        "att": 2488,
-                        "def": 780,
-                        "hp": 6517
-                  },
-                  {
-                        "att": 2500,
-                        "def": 784,
-                        "hp": 6547
-                  },
-                  {
-                        "att": 2513,
-                        "def": 787,
-                        "hp": 6576
-                  },
-                  {
-                        "att": 2525,
-                        "def": 791,
-                        "hp": 6606
-                  },
-                  {
-                        "att": 2537,
-                        "def": 794,
-                        "hp": 6636
-                  },
-                  {
-                        "att": 2549,
-                        "def": 798,
-                        "hp": 6666
-                  },
-                  {
-                        "att": 2783,
-                        "def": 870,
-                        "hp": 7286
-                  },
-                  {
-                        "att": 2791,
-                        "def": 873,
-                        "hp": 7305
-                  },
-                  {
-                        "att": 2799,
-                        "def": 875,
-                        "hp": 7325
-                  },
-                  {
-                        "att": 2807,
-                        "def": 878,
-                        "hp": 7345
-                  },
-                  {
-                        "att": 2815,
-                        "def": 880,
-                        "hp": 7365
-                  },
-                  {
-                        "att": 2823,
-                        "def": 882,
-                        "hp": 7385
-                  },
-                  {
-                        "att": 2831,
-                        "def": 885,
-                        "hp": 7405
-                  },
-                  {
-                        "att": 2840,
-                        "def": 887,
-                        "hp": 7424
-                  },
-                  {
-                        "att": 2848,
-                        "def": 890,
-                        "hp": 7444
-                  },
-                  {
-                        "att": 2856,
-                        "def": 892,
-                        "hp": 7464
-                  },
-                  {
-                        "att": 2864,
-                        "def": 894,
-                        "hp": 7484
-                  },
-                  {
-                        "att": 2872,
-                        "def": 897,
-                        "hp": 7504
-                  },
-                  {
-                        "att": 2880,
-                        "def": 899,
-                        "hp": 7524
-                  },
-                  {
-                        "att": 2888,
-                        "def": 902,
-                        "hp": 7544
-                  },
-                  {
-                        "att": 2897,
-                        "def": 904,
-                        "hp": 7563
-                  },
-                  {
-                        "att": 2905,
-                        "def": 906,
-                        "hp": 7583
-                  },
-                  {
-                        "att": 2913,
-                        "def": 909,
-                        "hp": 7603
-                  },
-                  {
-                        "att": 2921,
-                        "def": 911,
-                        "hp": 7623
-                  },
-                  {
-                        "att": 2929,
-                        "def": 914,
-                        "hp": 7643
-                  },
-                  {
-                        "att": 2937,
-                        "def": 916,
-                        "hp": 7663
-                  },
-                  {
-                        "att": 2945,
-                        "def": 918,
-                        "hp": 7682
-                  },
-                  {
-                        "att": 2954,
-                        "def": 921,
-                        "hp": 7702
-                  },
-                  {
-                        "att": 2962,
-                        "def": 923,
-                        "hp": 7722
-                  },
-                  {
-                        "att": 2970,
-                        "def": 926,
-                        "hp": 7742
-                  },
-                  {
-                        "att": 2978,
-                        "def": 928,
-                        "hp": 7762
-                  },
-                  {
-                        "att": 2986,
-                        "def": 930,
-                        "hp": 7782
-                  },
-                  {
-                        "att": 2994,
-                        "def": 933,
-                        "hp": 7801
-                  },
-                  {
-                        "att": 3002,
-                        "def": 935,
-                        "hp": 7821
-                  },
-                  {
-                        "att": 3011,
-                        "def": 938,
-                        "hp": 7841
-                  },
-                  {
-                        "att": 3019,
-                        "def": 940,
-                        "hp": 7861
-                  },
-                  {
-                        "att": 3027,
-                        "def": 942,
-                        "hp": 7881
-                  },
-                  {
-                        "att": 3035,
-                        "def": 945,
-                        "hp": 7901
-                  },
-                  {
-                        "att": 3043,
-                        "def": 947,
-                        "hp": 7921
-                  },
-                  {
-                        "att": 3051,
-                        "def": 950,
-                        "hp": 7940
-                  },
-                  {
-                        "att": 3059,
-                        "def": 952,
-                        "hp": 7960
-                  },
-                  {
-                        "att": 3068,
-                        "def": 954,
-                        "hp": 7980
-                  },
-                  {
-                        "att": 3076,
-                        "def": 957,
-                        "hp": 8000
-                  },
-                  {
-                        "att": 3084,
-                        "def": 959,
-                        "hp": 8020
-                  },
-                  {
-                        "att": 3092,
-                        "def": 962,
-                        "hp": 8040
-                  },
-                  {
-                        "att": 3100,
-                        "def": 964,
-                        "hp": 8059
-                  },
-                  {
-                        "att": 3108,
-                        "def": 966,
-                        "hp": 8079
-                  },
-                  {
-                        "att": 3116,
-                        "def": 969,
-                        "hp": 8099
-                  },
-                  {
-                        "att": 3125,
-                        "def": 971,
-                        "hp": 8119
-                  },
-                  {
-                        "att": 3133,
-                        "def": 974,
-                        "hp": 8139
-                  },
-                  {
-                        "att": 3141,
-                        "def": 976,
-                        "hp": 8159
-                  },
-                  {
-                        "att": 3149,
-                        "def": 978,
-                        "hp": 8179
-                  },
-                  {
-                        "att": 3157,
-                        "def": 981,
-                        "hp": 8198
-                  },
-                  {
-                        "att": 3165,
-                        "def": 983,
-                        "hp": 8218
-                  },
-                  {
-                        "att": 3174,
-                        "def": 986,
-                        "hp": 8238
-                  },
-                  {
-                        "att": 3182,
-                        "def": 988,
-                        "hp": 8258
-                  },
-                  {
-                        "att": 3190,
-                        "def": 990,
-                        "hp": 8278
-                  },
-                  {
-                        "att": 3198,
-                        "def": 993,
-                        "hp": 8298
-                  },
-                  {
-                        "att": 3206,
-                        "def": 995,
-                        "hp": 8317
-                  },
-                  {
-                        "att": 3214,
-                        "def": 998,
-                        "hp": 8337
-                  },
-                  {
-                        "att": 3222,
-                        "def": 1000,
-                        "hp": 8357
-                  },
-                  {
-                        "att": 3231,
-                        "def": 1002,
-                        "hp": 8377
-                  },
-                  {
-                        "att": 3239,
-                        "def": 1005,
-                        "hp": 8397
-                  },
-                  {
-                        "att": 3247,
-                        "def": 1007,
-                        "hp": 8417
-                  },
-                  {
-                        "att": 3255,
-                        "def": 1010,
-                        "hp": 8436
-                  },
-                  {
-                        "att": 3263,
-                        "def": 1012,
-                        "hp": 8456
-                  },
-                  {
-                        "att": 3271,
-                        "def": 1014,
-                        "hp": 8476
-                  },
-                  {
-                        "att": 3279,
-                        "def": 1017,
-                        "hp": 8496
-                  },
-                  {
-                        "att": 3288,
-                        "def": 1019,
-                        "hp": 8516
-                  },
-                  {
-                        "att": 3296,
-                        "def": 1022,
-                        "hp": 8536
-                  },
-                  {
-                        "att": 3304,
-                        "def": 1024,
-                        "hp": 8556
-                  },
-                  {
-                        "att": 3312,
-                        "def": 1026,
-                        "hp": 8575
-                  },
-                  {
-                        "att": 3320,
-                        "def": 1029,
-                        "hp": 8595
-                  },
-                  {
-                        "att": 3328,
-                        "def": 1031,
-                        "hp": 8615
-                  },
-                  {
-                        "att": 3336,
-                        "def": 1034,
-                        "hp": 8635
-                  },
-                  {
-                        "att": 3345,
-                        "def": 1036,
-                        "hp": 8655
-                  },
-                  {
-                        "att": 3353,
-                        "def": 1038,
-                        "hp": 8675
-                  },
-                  {
-                        "att": 3361,
-                        "def": 1041,
-                        "hp": 8694
-                  },
-                  {
-                        "att": 3369,
-                        "def": 1043,
-                        "hp": 8714
-                  },
-                  {
-                        "att": 3377,
-                        "def": 1046,
-                        "hp": 8734
-                  },
-                  {
-                        "att": 3385,
-                        "def": 1048,
-                        "hp": 8754
-                  },
-                  {
-                        "att": 3393,
-                        "def": 1051,
-                        "hp": 8774
-                  },
-                  {
-                        "att": 3402,
-                        "def": 1053,
-                        "hp": 8794
-                  },
-                  {
-                        "att": 3410,
-                        "def": 1055,
-                        "hp": 8814
-                  },
-                  {
-                        "att": 3418,
-                        "def": 1058,
-                        "hp": 8833
-                  },
-                  {
-                        "att": 3426,
-                        "def": 1060,
-                        "hp": 8853
-                  }
-            ]
-      }
+ "name": "Gram",
+ "faction": "Illumina Federation",
+ "element_main": "Fire",
+ "element_sub": "Thunder",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Disintegrate",
+  "cd": "1 Preemptive Turn",
+  "description": [
+   "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location.",
+   "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster.",
+   "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster."
+  ]
+ },
+ "equip": {
+  "name": "Punish and Perish",
+  "passive": "Raging Tiger",
+  "description": [
+   [
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
+   ],
+   [
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
+   ],
+   [
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.2%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.3%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.4%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP.",
+    "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP."
+   ]
+  ],
+  "introduction": "A powerful set of weapons that combines a broadsword, a revolver, and a fist blade. The broadsword delivers heavy slashes that can fell even the mightiest of foes; the revolver and fist blade are integrated into one to provide flexibility in battle by granting the user both a secondary melee weapon and a powerful projectile launcher."
+ },
+ "chain": {
+  "name": "Subdue",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 8 tiles in a cross-shaped."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 180% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 8 tiles in a cross-shaped."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 180% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 8 tiles in a cross-shaped."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 175% damage to 12 tiles in a diamond-shaped."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 180% damage to 16 tiles in a radial shape."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Increases Active Skill damage by 30%.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: If Active Skill was ready in the last round, the displacement range becomes 2 surrounding clusters."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Essence",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%."
+  },
+  {
+   "material": [
+    "Fire Potion II",
+    "Fire Flare Silt",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location.",
+   "after": "Teleports to any tile within 12 surrounding tiles in a diamond shape, dealing 150% damage to 20 surrounding tiles of the target location. Deals 1.5\u00d7 damage to the outer cluster."
+  },
+  {
+   "material": [
+    "Fire Flare Tile",
+    "Fire Crystal",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%.",
+   "after": "Can accumulate Fury. Each stack of Fury increases Gram's basic ATK by 0.5%. There is no limit to how much Fury can be gained from his Active Skill. This effect will be cleared at the end of each wave. For every stack cleared, Gram will recover for an amount equal to 5% of his Max HP."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 669,
+    "def": 234,
+    "hp": 2019
+   },
+   {
+    "att": 682,
+    "def": 238,
+    "hp": 2051
+   },
+   {
+    "att": 695,
+    "def": 242,
+    "hp": 2083
+   },
+   {
+    "att": 708,
+    "def": 246,
+    "hp": 2114
+   },
+   {
+    "att": 721,
+    "def": 250,
+    "hp": 2146
+   },
+   {
+    "att": 734,
+    "def": 254,
+    "hp": 2178
+   },
+   {
+    "att": 747,
+    "def": 257,
+    "hp": 2210
+   },
+   {
+    "att": 760,
+    "def": 261,
+    "hp": 2241
+   },
+   {
+    "att": 773,
+    "def": 265,
+    "hp": 2273
+   },
+   {
+    "att": 786,
+    "def": 269,
+    "hp": 2305
+   },
+   {
+    "att": 799,
+    "def": 273,
+    "hp": 2337
+   },
+   {
+    "att": 812,
+    "def": 277,
+    "hp": 2368
+   },
+   {
+    "att": 825,
+    "def": 280,
+    "hp": 2400
+   },
+   {
+    "att": 838,
+    "def": 284,
+    "hp": 2432
+   },
+   {
+    "att": 851,
+    "def": 288,
+    "hp": 2464
+   },
+   {
+    "att": 864,
+    "def": 292,
+    "hp": 2495
+   },
+   {
+    "att": 877,
+    "def": 296,
+    "hp": 2527
+   },
+   {
+    "att": 890,
+    "def": 300,
+    "hp": 2559
+   },
+   {
+    "att": 903,
+    "def": 303,
+    "hp": 2591
+   },
+   {
+    "att": 916,
+    "def": 307,
+    "hp": 2622
+   },
+   {
+    "att": 929,
+    "def": 311,
+    "hp": 2654
+   },
+   {
+    "att": 942,
+    "def": 315,
+    "hp": 2686
+   },
+   {
+    "att": 956,
+    "def": 319,
+    "hp": 2718
+   },
+   {
+    "att": 969,
+    "def": 323,
+    "hp": 2749
+   },
+   {
+    "att": 982,
+    "def": 327,
+    "hp": 2781
+   },
+   {
+    "att": 995,
+    "def": 330,
+    "hp": 2813
+   },
+   {
+    "att": 1008,
+    "def": 334,
+    "hp": 2845
+   },
+   {
+    "att": 1021,
+    "def": 338,
+    "hp": 2876
+   },
+   {
+    "att": 1034,
+    "def": 342,
+    "hp": 2908
+   },
+   {
+    "att": 1047,
+    "def": 346,
+    "hp": 2940
+   },
+   {
+    "att": 1153,
+    "def": 381,
+    "hp": 3230
+   },
+   {
+    "att": 1169,
+    "def": 385,
+    "hp": 3269
+   },
+   {
+    "att": 1186,
+    "def": 390,
+    "hp": 3309
+   },
+   {
+    "att": 1202,
+    "def": 395,
+    "hp": 3349
+   },
+   {
+    "att": 1218,
+    "def": 400,
+    "hp": 3388
+   },
+   {
+    "att": 1235,
+    "def": 405,
+    "hp": 3428
+   },
+   {
+    "att": 1251,
+    "def": 409,
+    "hp": 3468
+   },
+   {
+    "att": 1267,
+    "def": 414,
+    "hp": 3507
+   },
+   {
+    "att": 1283,
+    "def": 419,
+    "hp": 3547
+   },
+   {
+    "att": 1300,
+    "def": 424,
+    "hp": 3587
+   },
+   {
+    "att": 1316,
+    "def": 429,
+    "hp": 3626
+   },
+   {
+    "att": 1332,
+    "def": 433,
+    "hp": 3666
+   },
+   {
+    "att": 1349,
+    "def": 438,
+    "hp": 3706
+   },
+   {
+    "att": 1365,
+    "def": 443,
+    "hp": 3746
+   },
+   {
+    "att": 1381,
+    "def": 448,
+    "hp": 3785
+   },
+   {
+    "att": 1397,
+    "def": 453,
+    "hp": 3825
+   },
+   {
+    "att": 1414,
+    "def": 457,
+    "hp": 3865
+   },
+   {
+    "att": 1430,
+    "def": 462,
+    "hp": 3904
+   },
+   {
+    "att": 1446,
+    "def": 467,
+    "hp": 3944
+   },
+   {
+    "att": 1463,
+    "def": 472,
+    "hp": 3984
+   },
+   {
+    "att": 1479,
+    "def": 477,
+    "hp": 4023
+   },
+   {
+    "att": 1495,
+    "def": 481,
+    "hp": 4063
+   },
+   {
+    "att": 1511,
+    "def": 486,
+    "hp": 4103
+   },
+   {
+    "att": 1528,
+    "def": 491,
+    "hp": 4142
+   },
+   {
+    "att": 1544,
+    "def": 496,
+    "hp": 4182
+   },
+   {
+    "att": 1560,
+    "def": 501,
+    "hp": 4222
+   },
+   {
+    "att": 1577,
+    "def": 505,
+    "hp": 4261
+   },
+   {
+    "att": 1593,
+    "def": 510,
+    "hp": 4301
+   },
+   {
+    "att": 1609,
+    "def": 515,
+    "hp": 4341
+   },
+   {
+    "att": 1626,
+    "def": 520,
+    "hp": 4381
+   },
+   {
+    "att": 1642,
+    "def": 525,
+    "hp": 4420
+   },
+   {
+    "att": 1658,
+    "def": 529,
+    "hp": 4460
+   },
+   {
+    "att": 1674,
+    "def": 534,
+    "hp": 4500
+   },
+   {
+    "att": 1691,
+    "def": 539,
+    "hp": 4539
+   },
+   {
+    "att": 1707,
+    "def": 544,
+    "hp": 4579
+   },
+   {
+    "att": 1723,
+    "def": 549,
+    "hp": 4619
+   },
+   {
+    "att": 1740,
+    "def": 553,
+    "hp": 4658
+   },
+   {
+    "att": 1756,
+    "def": 558,
+    "hp": 4698
+   },
+   {
+    "att": 1772,
+    "def": 563,
+    "hp": 4738
+   },
+   {
+    "att": 1788,
+    "def": 568,
+    "hp": 4777
+   },
+   {
+    "att": 1951,
+    "def": 621,
+    "hp": 5207
+   },
+   {
+    "att": 1963,
+    "def": 625,
+    "hp": 5237
+   },
+   {
+    "att": 1975,
+    "def": 629,
+    "hp": 5267
+   },
+   {
+    "att": 1987,
+    "def": 632,
+    "hp": 5296
+   },
+   {
+    "att": 2000,
+    "def": 636,
+    "hp": 5326
+   },
+   {
+    "att": 2012,
+    "def": 639,
+    "hp": 5356
+   },
+   {
+    "att": 2024,
+    "def": 643,
+    "hp": 5386
+   },
+   {
+    "att": 2036,
+    "def": 647,
+    "hp": 5416
+   },
+   {
+    "att": 2048,
+    "def": 650,
+    "hp": 5445
+   },
+   {
+    "att": 2061,
+    "def": 654,
+    "hp": 5475
+   },
+   {
+    "att": 2073,
+    "def": 657,
+    "hp": 5505
+   },
+   {
+    "att": 2085,
+    "def": 661,
+    "hp": 5535
+   },
+   {
+    "att": 2097,
+    "def": 665,
+    "hp": 5564
+   },
+   {
+    "att": 2109,
+    "def": 668,
+    "hp": 5594
+   },
+   {
+    "att": 2122,
+    "def": 672,
+    "hp": 5624
+   },
+   {
+    "att": 2134,
+    "def": 676,
+    "hp": 5654
+   },
+   {
+    "att": 2146,
+    "def": 679,
+    "hp": 5683
+   },
+   {
+    "att": 2158,
+    "def": 683,
+    "hp": 5713
+   },
+   {
+    "att": 2171,
+    "def": 686,
+    "hp": 5743
+   },
+   {
+    "att": 2183,
+    "def": 690,
+    "hp": 5773
+   },
+   {
+    "att": 2195,
+    "def": 694,
+    "hp": 5803
+   },
+   {
+    "att": 2207,
+    "def": 697,
+    "hp": 5832
+   },
+   {
+    "att": 2219,
+    "def": 701,
+    "hp": 5862
+   },
+   {
+    "att": 2232,
+    "def": 704,
+    "hp": 5892
+   },
+   {
+    "att": 2244,
+    "def": 708,
+    "hp": 5922
+   },
+   {
+    "att": 2256,
+    "def": 712,
+    "hp": 5951
+   },
+   {
+    "att": 2268,
+    "def": 715,
+    "hp": 5981
+   },
+   {
+    "att": 2281,
+    "def": 719,
+    "hp": 6011
+   },
+   {
+    "att": 2293,
+    "def": 722,
+    "hp": 6041
+   },
+   {
+    "att": 2305,
+    "def": 726,
+    "hp": 6070
+   },
+   {
+    "att": 2317,
+    "def": 730,
+    "hp": 6100
+   },
+   {
+    "att": 2329,
+    "def": 733,
+    "hp": 6130
+   },
+   {
+    "att": 2342,
+    "def": 737,
+    "hp": 6160
+   },
+   {
+    "att": 2354,
+    "def": 740,
+    "hp": 6189
+   },
+   {
+    "att": 2366,
+    "def": 744,
+    "hp": 6219
+   },
+   {
+    "att": 2378,
+    "def": 748,
+    "hp": 6249
+   },
+   {
+    "att": 2391,
+    "def": 751,
+    "hp": 6279
+   },
+   {
+    "att": 2403,
+    "def": 755,
+    "hp": 6309
+   },
+   {
+    "att": 2415,
+    "def": 758,
+    "hp": 6338
+   },
+   {
+    "att": 2427,
+    "def": 762,
+    "hp": 6368
+   },
+   {
+    "att": 2439,
+    "def": 766,
+    "hp": 6398
+   },
+   {
+    "att": 2452,
+    "def": 769,
+    "hp": 6428
+   },
+   {
+    "att": 2464,
+    "def": 773,
+    "hp": 6457
+   },
+   {
+    "att": 2476,
+    "def": 776,
+    "hp": 6487
+   },
+   {
+    "att": 2488,
+    "def": 780,
+    "hp": 6517
+   },
+   {
+    "att": 2500,
+    "def": 784,
+    "hp": 6547
+   },
+   {
+    "att": 2513,
+    "def": 787,
+    "hp": 6576
+   },
+   {
+    "att": 2525,
+    "def": 791,
+    "hp": 6606
+   },
+   {
+    "att": 2537,
+    "def": 794,
+    "hp": 6636
+   },
+   {
+    "att": 2549,
+    "def": 798,
+    "hp": 6666
+   },
+   {
+    "att": 2783,
+    "def": 870,
+    "hp": 7286
+   },
+   {
+    "att": 2791,
+    "def": 873,
+    "hp": 7305
+   },
+   {
+    "att": 2799,
+    "def": 875,
+    "hp": 7325
+   },
+   {
+    "att": 2807,
+    "def": 878,
+    "hp": 7345
+   },
+   {
+    "att": 2815,
+    "def": 880,
+    "hp": 7365
+   },
+   {
+    "att": 2823,
+    "def": 882,
+    "hp": 7385
+   },
+   {
+    "att": 2831,
+    "def": 885,
+    "hp": 7405
+   },
+   {
+    "att": 2840,
+    "def": 887,
+    "hp": 7424
+   },
+   {
+    "att": 2848,
+    "def": 890,
+    "hp": 7444
+   },
+   {
+    "att": 2856,
+    "def": 892,
+    "hp": 7464
+   },
+   {
+    "att": 2864,
+    "def": 894,
+    "hp": 7484
+   },
+   {
+    "att": 2872,
+    "def": 897,
+    "hp": 7504
+   },
+   {
+    "att": 2880,
+    "def": 899,
+    "hp": 7524
+   },
+   {
+    "att": 2888,
+    "def": 902,
+    "hp": 7544
+   },
+   {
+    "att": 2897,
+    "def": 904,
+    "hp": 7563
+   },
+   {
+    "att": 2905,
+    "def": 906,
+    "hp": 7583
+   },
+   {
+    "att": 2913,
+    "def": 909,
+    "hp": 7603
+   },
+   {
+    "att": 2921,
+    "def": 911,
+    "hp": 7623
+   },
+   {
+    "att": 2929,
+    "def": 914,
+    "hp": 7643
+   },
+   {
+    "att": 2937,
+    "def": 916,
+    "hp": 7663
+   },
+   {
+    "att": 2945,
+    "def": 918,
+    "hp": 7682
+   },
+   {
+    "att": 2954,
+    "def": 921,
+    "hp": 7702
+   },
+   {
+    "att": 2962,
+    "def": 923,
+    "hp": 7722
+   },
+   {
+    "att": 2970,
+    "def": 926,
+    "hp": 7742
+   },
+   {
+    "att": 2978,
+    "def": 928,
+    "hp": 7762
+   },
+   {
+    "att": 2986,
+    "def": 930,
+    "hp": 7782
+   },
+   {
+    "att": 2994,
+    "def": 933,
+    "hp": 7801
+   },
+   {
+    "att": 3002,
+    "def": 935,
+    "hp": 7821
+   },
+   {
+    "att": 3011,
+    "def": 938,
+    "hp": 7841
+   },
+   {
+    "att": 3019,
+    "def": 940,
+    "hp": 7861
+   },
+   {
+    "att": 3027,
+    "def": 942,
+    "hp": 7881
+   },
+   {
+    "att": 3035,
+    "def": 945,
+    "hp": 7901
+   },
+   {
+    "att": 3043,
+    "def": 947,
+    "hp": 7921
+   },
+   {
+    "att": 3051,
+    "def": 950,
+    "hp": 7940
+   },
+   {
+    "att": 3059,
+    "def": 952,
+    "hp": 7960
+   },
+   {
+    "att": 3068,
+    "def": 954,
+    "hp": 7980
+   },
+   {
+    "att": 3076,
+    "def": 957,
+    "hp": 8000
+   },
+   {
+    "att": 3084,
+    "def": 959,
+    "hp": 8020
+   },
+   {
+    "att": 3092,
+    "def": 962,
+    "hp": 8040
+   },
+   {
+    "att": 3100,
+    "def": 964,
+    "hp": 8059
+   },
+   {
+    "att": 3108,
+    "def": 966,
+    "hp": 8079
+   },
+   {
+    "att": 3116,
+    "def": 969,
+    "hp": 8099
+   },
+   {
+    "att": 3125,
+    "def": 971,
+    "hp": 8119
+   },
+   {
+    "att": 3133,
+    "def": 974,
+    "hp": 8139
+   },
+   {
+    "att": 3141,
+    "def": 976,
+    "hp": 8159
+   },
+   {
+    "att": 3149,
+    "def": 978,
+    "hp": 8179
+   },
+   {
+    "att": 3157,
+    "def": 981,
+    "hp": 8198
+   },
+   {
+    "att": 3165,
+    "def": 983,
+    "hp": 8218
+   },
+   {
+    "att": 3174,
+    "def": 986,
+    "hp": 8238
+   },
+   {
+    "att": 3182,
+    "def": 988,
+    "hp": 8258
+   },
+   {
+    "att": 3190,
+    "def": 990,
+    "hp": 8278
+   },
+   {
+    "att": 3198,
+    "def": 993,
+    "hp": 8298
+   },
+   {
+    "att": 3206,
+    "def": 995,
+    "hp": 8317
+   },
+   {
+    "att": 3214,
+    "def": 998,
+    "hp": 8337
+   },
+   {
+    "att": 3222,
+    "def": 1000,
+    "hp": 8357
+   },
+   {
+    "att": 3231,
+    "def": 1002,
+    "hp": 8377
+   },
+   {
+    "att": 3239,
+    "def": 1005,
+    "hp": 8397
+   },
+   {
+    "att": 3247,
+    "def": 1007,
+    "hp": 8417
+   },
+   {
+    "att": 3255,
+    "def": 1010,
+    "hp": 8436
+   },
+   {
+    "att": 3263,
+    "def": 1012,
+    "hp": 8456
+   },
+   {
+    "att": 3271,
+    "def": 1014,
+    "hp": 8476
+   },
+   {
+    "att": 3279,
+    "def": 1017,
+    "hp": 8496
+   },
+   {
+    "att": 3288,
+    "def": 1019,
+    "hp": 8516
+   },
+   {
+    "att": 3296,
+    "def": 1022,
+    "hp": 8536
+   },
+   {
+    "att": 3304,
+    "def": 1024,
+    "hp": 8556
+   },
+   {
+    "att": 3312,
+    "def": 1026,
+    "hp": 8575
+   },
+   {
+    "att": 3320,
+    "def": 1029,
+    "hp": 8595
+   },
+   {
+    "att": 3328,
+    "def": 1031,
+    "hp": 8615
+   },
+   {
+    "att": 3336,
+    "def": 1034,
+    "hp": 8635
+   },
+   {
+    "att": 3345,
+    "def": 1036,
+    "hp": 8655
+   },
+   {
+    "att": 3353,
+    "def": 1038,
+    "hp": 8675
+   },
+   {
+    "att": 3361,
+    "def": 1041,
+    "hp": 8694
+   },
+   {
+    "att": 3369,
+    "def": 1043,
+    "hp": 8714
+   },
+   {
+    "att": 3377,
+    "def": 1046,
+    "hp": 8734
+   },
+   {
+    "att": 3385,
+    "def": 1048,
+    "hp": 8754
+   },
+   {
+    "att": 3393,
+    "def": 1051,
+    "hp": 8774
+   },
+   {
+    "att": 3402,
+    "def": 1053,
+    "hp": 8794
+   },
+   {
+    "att": 3410,
+    "def": 1055,
+    "hp": 8814
+   },
+   {
+    "att": 3418,
+    "def": 1058,
+    "hp": 8833
+   },
+   {
+    "att": 3426,
+    "def": 1060,
+    "hp": 8853
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Gram is a veteran who once fought valiantly for Illumina. Although he has long since traded in his position on the defensive line for a life behind a logistics desk, he can still fight and is willing to lend his skills in the war against the Eclipsites. This became blindingly apparent the first time he came to the Colossus.First of all, he circled the Colossus, inspecting it on the grounds of \"making sure that supplies have been allocated appropriately throughout the Colossus.\" Then, he began asking about the Colossus' mobility, carrying capacity, and how often it would travel to other places. Then the topic turned to \"how to fight Eclipsites.\" He eventually took out his weapons to show off, playing with his claymore and cleaning his gun, as if I hadn't already realized he was a decent fighter... In short, we now have another addition to our forces.By the way, don't be fooled by Gram's haggard veteran act. He may look like he doesn't take much seriously, but he is actually very shrewd. He identified the problem with our supply allocation system in the warehouse as soon as he arrived on the Colossus. Having him on our side will definitely prove worthwhile... After all, he has been a logistics manager for quite some time.\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Hi, %s! Many people see a retired veteran when they look at me, while in fact, I work in logistics, and I am very much active. Logistics soldiers are soldiers too, you know! We're also more than capable of fighting Eclipsites.Don't look at me like that. When I first became a soldier, I was a cook, responsible for simply starting fires and cooking. My culinary skills were honed during those years. I was young and full of spunk, and always dreamt of being transferred to a combat regiment. After my superior declined my application several times, I seized my chance and secretly sneaked aboard a patrol car. Unexpectedly, it belonged to a special forces team, and I drove around with them, patrolling the defensive line for several days...Returned to the barracks, I knew that I had violated orders\u2014I knew that I would be placed in prison. However, my commanding officer only assigned me a community service, making me responsible for the meals of the entire Undercity for three months. Although I worked my fingers to the bone every day for those three months, it felt good to be a soldier. And then, my commanding officer recommended that I join that same special forces team. I'll never forget what my officer said to me, \"You've found where you belong.\" So, I left my post as a cook and joined the Stone Force."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "After I joined the Stone Force, life became very different for me. The other members were just like me\u2014they loved fighting Eclipsites and were more or less a bunch of disobedient delinquents. Our combat style consisted of rapid support and attack, used specifically for dealing with all kinds of emergencies along the defensive line.There were countless Eclipsites out there, and we never knew when the next attack might come. Instead of simply defending the stronghold, we decided to take the initiative, patrolling along the defensive line to monitor advancing Eclipsites at all times.This approach required many patrols, and since we were short-handed, the number of soldiers in each patrol became very limited\u2014sometimes there were only two or three soldiers per unit, making them susceptible to being overwhelmed by Eclipsite swarms. In these situations, the force needed to take on the task of providing rapid specialized support and combat. Therefore, only the best of the best could join the force, and there were few soldiers who fitted the bill.If it hadn't been for that battle, the Stone Forces would still be fighting along the defensive line now, and I wouldn't have had to retire to a life of logistics."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "More than ten years ago, Undercity 24, positioned along the defensive line, was attacked. The Stone Force happened to be nearby at the time, so we headed straight there to provide backup.However, we didn't realize that it was a trap set by Eclipsites. They had encircled the Undercity for the express purpose of drawing out reinforcements and ambushing them, banking on the fact that Undercity 24 would send out a request for help. Originally, the Eclipsites had planned on ambushing a large squadron, however, they encountered us instead...And then began a battle that blotted out the very sky. The flames of war filled the air, and Eclipsites poured in from every direction, like a swarm of concentrated evil. We soon ran out of ammunition and had to fight hand-to-hand...Each member of the Stone Force was a legend in their own right, killing no less than a hundred Eclipsites before the swarm consumed them. But not even a million of those monsters were worthy of taking down my comrades-in-arms. Still, I watched them fall before my eyes, one by one. Even after all these years, I sometimes still wish I had died along with them that day... But I survived, and they died. That's war for you."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Fear not the want of life, for mine is also yours to live.I read that in a book in Gannon City. I've forgotten the title, but I'll never forget this quote.After the battle at Undercity 24, I returned to Gannon City. My wounds soon healed, but I couldn't get those images out of my head, those images of my friends dying before my eyes, one after the other. For a while, I couldn't fight at all. Whenever I saw those officers and soldiers, dressed in their uniforms and clutching their weapons all around me, I couldn't help but imagine them falling lifelessly in front of me. Even when Gannon was besieged... I could only bring myself to handle logistics work instead of fighting on the front line.But when the final battle began, something came over me. I charged headlong into the enemy formation. I wasn't being brave\u2014I just wanted to kill the last Eclipsite and die on the battlefield, so that I could meet my comrades again in the afterworld. But in the end, death didn't come for me.After that battle, I lost myself and applied to retire. Eventually, I ended up causing some trouble in Gannon City and was locked up. It was during that time that I saw this sentence in a book, which suddenly made me understand something. I shouldn't be living for me\u2014I should live on for those who sacrificed their lives. I should enjoy my life for their sake and continue to contribute however I can to the Illumina Federation.So, you see, the man standing before you is not just a retired soldier and logistics officer... I am the Stone Force."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Illumina thrives because every member adheres to their duty.",
+  "Humph, Lumopolis. Their soldiers are like sheep, not dissimilar to Eclipsites...",
+  "Splendor Illumina!",
+  "I just want to see their bodies piled up in front of me.",
+  "Trust in the Grand Marshal. She has always led us to victory.",
+  "Revy... Sometimes I can't tell whether it's a him or a her.",
+  "Logistics is vital! Nothing boosts morale like a hot meal!",
+  "Indulgence can defeat the strongest soldier. Go work out!",
+  "This thing's huge! I'm glad I'm not the one managing it!",
+  "I've been fighting longer than you've been alive. No, no, don't you worry about me!",
+  "You transferred me here? Well, the same thing happened when I retired. Fortunately, I'm used to it.",
+  "I'll watch your back! Now go!",
+  "Eclipsites are so weak these days.",
+  "This is just the beginning...",
+  "And this is the end!",
+  "Preparations are now in order!",
+  "Happy new year! I hope we get to fight together next year, too.",
+  "Let's go to work.",
+  "Now I'll show you some real skills!",
+  "I'll fight to the bitter end.",
+  "The Goddess of Victory smiles upon me!",
+  "It's not healthy just lounging around at the base all the time. But what can one do? Sharpen your knife, clean your gun, do some squats, even.",
+  "I feel young again.",
+  "Alchemy Stars!",
+  "Don't let today's failures get you down, you'll make it through in the end. Life's never easy when you're young, but you'll see it's nothing when you look back a decade later.",
+  "Muscles aching, eh? Have you been overdoing your training? I'll get you something good to eat this evening\u2014that should sort you out.",
+  "Ah... The folly of youth, rambunctious and self-righteous, thinking you're the savior of the day... But there's no harm in that.",
+  "You think I'm improving? Indeed, I've been practicing secretly. It seems to have paid off.",
+  "Don't be so skeptical of an old man's words\u2014I've seen more than you can imagine. The last time someone looked at me with those eyes... It was just before he fought his final battle.",
+  "No one harms my comrades! I won't let them forget it... I'll drill it into their thick skulls!",
+  "Make detailed plans for tactics, fight bravely in battles. As a commander, you should understand this well. That's all I have to say.",
+  "If you get too nervous in battle, just chat with your comrades and crack a few jokes. It'll help you to relax and allow you to fight to your full potential.",
+  "You commanded your troop well in your recent battles. It reminded me of my previous days in the Stone Force. There were people like you, even back then.",
+  "I may be retired, but I still train occasionally. No rest for the wicked, eh?",
+  "Good rest requires good food, and we get the best food here in logistics.",
+  "Tired? Take a break. That's your body saying it's time to rest.",
+  "Although you command a Colossus, you look like a logistics man...",
+  "Morning sets the tone for the day. Start your day right with a good morning routine.",
+  "Eat and relax when it gets late, and you'll have a better tomorrow.",
+  "Can't sleep? Work out and take a bath. Staying up all night is never the answer!",
+  "Relax! I'm retired now, so just call me Gram! Feel free to ask me anything about combat and logistics.",
+  "Hmm? Why did you give me this?",
+  "This is... Hmm. I'll take it.",
+  "Thank you. You have a keen eye.",
+  "Thank you! I promise to have your back!",
+  "Your time has come... Now!",
+  "Fire! Burn them to ashes!",
+  "Wait for that final moment!",
+  "Sometimes it's not bad being an ordinary logistics officer. Anyway, this is how I started in the army, and it's certainly much less disciplined.",
+  "The Stone Force... was defeated in a fierce battle more than a decade ago. When I think of my fallen comrades, I sometimes wish I had died instead of them.",
+  "Seeing my comrades died one by one, I once thought death was the answer for me, too. Fortunately, Brent's words gave me hope. Now, I live for those fallen heroes.",
+  "On me, everyone."
+ ],
+ "skins": [],
+ "description": "A veteran who once served on Illumina's defensive lines, he has since retired from active duty and now works in logistics. Tough on the outside, but soft on the inside, he is a dependable ally on the battlefield.",
+ "realName": "Gram",
+ "nickname": "Stonewall",
+ "gender": "Male",
+ "height": "6'6\"",
+ "birthday": "July 27",
+ "birthplace": "Undercity 24",
+ "style": "Stone Forces Combat"
 }

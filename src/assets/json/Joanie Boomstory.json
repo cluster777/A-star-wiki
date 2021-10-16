@@ -1,0 +1,1382 @@
+{
+ "title": "Eve's \"Bomb\"",
+ "header": "Why is Eve looking for things like gunpowder and sulfur in the middle of the night? What could she be up to?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "C-Can't you make it a little safer...?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "You still think it's too dangerous?! I can't make my explosions any smaller than this..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You have to! If Navigator finds out, he'll be so upset..."
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Ah, that guy's always upset. What's one more little thing?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "But since you said it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you two talking about? It looks pretty exciting..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Ah! W-What are you doing here?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was just passing by... But judging by the looks on your faces, I'd swear you were up to no good. What's going on here?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Ah, it's... Well, you see... *Mumbles*"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Girl stuff! We were talking about girl stuff!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Boys aren't allowed to know!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't think explosions are very good secrets, Eve..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Y-You must've misheard us! Anyways, it was nothing, and you shouldn't eavesdrop on other people!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where did she run off to... Also, I'm not an eavesdropper at all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did I mishear them? If they weren't talking about explosions, what did they say? \"Erosion\"? \"Corrosion\"?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, forget it... Someone like Eve would never get wrapped up in any of Joanie Boom's trouble..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I almost forgot the map we need for tomorrow is still in the storage room. Vice would go crazy if I didn't prepare it in advance..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? That shadow over there looks kinda familiar..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "This stuff... Isn't this that sulfur stuff you keep talking about, Joanie?... Someone's coming!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eve...?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Eeeeeek!...You... You scared the socks off of me!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "What are you doing here?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I came looking for something...",
+     "link": "1"
+    },
+    {
+     "text": "Would you believe me if I told you I came to catch you in the act?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you looking for something in here, too?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "No! I-I was just... Going for a walk!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In the storage room?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Er... Well, actually... I was looking for something, too..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, then let me help you look. I'm pretty familiar with this place, after all."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "No!!!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Er, I mean, no thank you! I just came to find some crafting supplies..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, we keep the crafting supplies pretty high on the shelves. Let me help you get them..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "N-No need! I already found it! I'll be going now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Do I have bad breath or something? Every time I see her, she keeps running away from me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although, I'm pretty sure I overheard even more bad news just now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Was it \"sulfur\" that I heard her say...? What's sulfur used for? I know I've heard about it before..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "J-Joanie Boom?! What kind of crazy bomb are you making now?!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Hey, don't make such a big deal about it! It's just a tiny experiment..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I have every reason to make a big deal out of it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't need you blasting any more holes through Soroz!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Fireflies work day and night on repairing Soroz, just to keep us airborne..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I came any later, our Colossus would have another new window..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, where do you find these materials...?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Where else but the storage room? Gunpowder, sulfur... You really keep this place nice and stocked!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?? I didn't even know we kept things like that in here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Argh, that's it! From this day forward, you are banned from setting foot in this room!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're way too much of a liability!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Tch..."
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "It seems I will need to add a passcode to the storage room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sulfur? I have a bad feeling about this..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's no way Joanie Boom could have tricked Eve into her schemes... I can't drop my guard around her, no matter what."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, those crafting materials are still here... Eve should be coming back for them soon!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Is the coast clear?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I'd better hurry... Joanie's probably getting impatient."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eve! You..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Waaaaah!"
+    },
+    {
+     "char": "A sack of gunpowder falls onto the floor.",
+     "dialogue": "You did come for this stuff."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I-I can explain..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "These aren't toys for kids to play with, Eve! Did Joanie Boom put you up to this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet she told you these were just harmless toys... So she sent you to get them because she's not allowed in here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it! Joanie Boom isn't that kind of person..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You're too naive. She's a repeat offender, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you're looking for something new and interesting, I can ask Vice to bring some from Illumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And if you want some new toys, we can ask Carleen..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In any case, you shouldn't believe anything Joanie Boom says!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you do, we might all be in danger!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it at all! It was me... I'm the one who's putting her up to it!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You asked her to make bombs?!",
+     "link": "4"
+    },
+    {
+     "text": "Did she tell you to say that?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "C-Catch me?! But I haven't done anything!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? I was only joking..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although... What are you doing here so late at night, Eve? Are you looking for something?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Ah! Yes... Yes, I am!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, then let me help you look. I'm pretty familiar with this place, after all."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "No!!!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Er, I mean, no thank you! I just came to find some crafting supplies..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, we keep the crafting supplies pretty high on the shelves. Let me help you get them..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "N-No need! I already found it! I'll be going now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Do I have bad breath or something? Every time I see her, she keeps running away from me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although, I'm pretty sure I overheard even more bad news just now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Was it \"sulfur\" that I heard her say...? What's sulfur used for? I know I've heard about it before..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "J-Joanie Boom?! What kind of crazy bomb are you making now?!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Hey, don't make such a big deal about it! It's just a tiny experiment..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I have every reason to make a big deal out of it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't need you blasting any more holes through Soroz!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Fireflies work day and night on repairing Soroz, just to keep us airborne..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I came any later, our Colossus would have another new window..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, where do you find these materials...?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Where else but the storage room? Gunpowder, sulfur... You really keep this place nice and stocked!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?? I didn't even know we kept things like that in here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Argh, that's it! From this day forward, you are banned from setting foot in this room!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're way too much of a liability!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Tch..."
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "It seems I will need to add a passcode to the storage room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sulfur? I have a bad feeling about this..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's no way Joanie Boom could have tricked Eve into her schemes... I can't drop my guard around her, no matter what."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, those crafting materials are still here... Eve should be coming back for them soon!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Is the coast clear?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I'd better hurry... Joanie's probably getting impatient."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eve! You..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Waaaaah!"
+    },
+    {
+     "char": "A sack of gunpowder falls onto the floor.",
+     "dialogue": "You did come for this stuff."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I-I can explain..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "These aren't toys for kids to play with, Eve! Did Joanie Boom put you up to this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet she told you these were just harmless toys... So she sent you to get them because she's not allowed in here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it! Joanie Boom isn't that kind of person..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You're too naive. She's a repeat offender, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you're looking for something new and interesting, I can ask Vice to bring some from Illumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And if you want some new toys, we can ask Carleen..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In any case, you shouldn't believe anything Joanie Boom says!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you do, we might all be in danger!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it at all! It was me... I'm the one who's putting her up to it!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You asked her to make bombs?!",
+     "link": "4"
+    },
+    {
+     "text": "Did she tell you to say that?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, then let me help you look. I'm pretty familiar with this place, after all."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "No!!!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Er, I mean, no thank you! I just came to find some crafting supplies..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, we keep the crafting supplies pretty high on the shelves. Let me help you get them..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "N-No need! I already found it! I'll be going now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Do I have bad breath or something? Every time I see her, she keeps running away from me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although, I'm pretty sure I overheard even more bad news just now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Was it \"sulfur\" that I heard her say...? What's sulfur used for? I know I've heard about it before..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "J-Joanie Boom?! What kind of crazy bomb are you making now?!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Hey, don't make such a big deal about it! It's just a tiny experiment..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I have every reason to make a big deal out of it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't need you blasting any more holes through Soroz!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Fireflies work day and night on repairing Soroz, just to keep us airborne..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I came any later, our Colossus would have another new window..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, where do you find these materials...?"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Where else but the storage room? Gunpowder, sulfur... You really keep this place nice and stocked!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?? I didn't even know we kept things like that in here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Argh, that's it! From this day forward, you are banned from setting foot in this room!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're way too much of a liability!"
+    },
+    {
+     "char": "Joanie Boom:",
+     "dialogue": "Tch..."
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "It seems I will need to add a passcode to the storage room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sulfur? I have a bad feeling about this..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's no way Joanie Boom could have tricked Eve into her schemes... I can't drop my guard around her, no matter what."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, those crafting materials are still here... Eve should be coming back for them soon!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Is the coast clear?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I'd better hurry... Joanie's probably getting impatient."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eve! You..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Waaaaah!"
+    },
+    {
+     "char": "A sack of gunpowder falls onto the floor.",
+     "dialogue": "You did come for this stuff."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I-I can explain..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "These aren't toys for kids to play with, Eve! Did Joanie Boom put you up to this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet she told you these were just harmless toys... So she sent you to get them because she's not allowed in here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it! Joanie Boom isn't that kind of person..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You're too naive. She's a repeat offender, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you're looking for something new and interesting, I can ask Vice to bring some from Illumina."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And if you want some new toys, we can ask Carleen..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In any case, you shouldn't believe anything Joanie Boom says!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you do, we might all be in danger!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not it at all! It was me... I'm the one who's putting her up to it!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You asked her to make bombs?!",
+     "link": "4"
+    },
+    {
+     "text": "Did she tell you to say that?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "No, not bombs! I would never ask Joanie to make something like that..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You nearly gave me a heart attack..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "We aren't doing anything dangerous!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I know you're a good girl, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there's nothing safe about making bombs, especially here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not just a risk to you and those around you, but the entire Colossus, as well."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "It's not a bomb..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's more, this isn't something a little kid like you should be handling, and... Huh?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I... I just wanted Joanie to help me make some fireworks for Dawn...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireworks... Why do you want to make those, all of a sudden?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Do you remember what I told you before, that I'm from Red-Eye Gorge?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Well, whenever there was a holiday in our village, we would set off fireworks to celebrate!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "On those holidays, we would sit with our families and eat snacks while we watched the fireworks!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Back then, I would sit in my parents' laps, and Sinsa would peel oranges for me to eat!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "All those pretty lights bursting in the night sky, then falling like thousands of shooting stars... I felt like making a wish on every one of them."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Those were happy times..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "So whenever I see fireworks, I remember all the smiling faces from back then."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It sounds like a wonderful time.",
+     "link": "7"
+    },
+    {
+     "text": "Sounds... Nice?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "No! Please stop accusing Joanie like that!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really can't believe it's you, though."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Of course it isn't me!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "No, wait... Let me explain!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "We aren't doing anything dangerous!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I know you're a good girl, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there's nothing safe about making bombs, especially here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not just a risk to you and those around you, but the entire Colossus, as well."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "It's not a bomb..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's more, this isn't something a little kid like you should be handling, and... Huh?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I... I just wanted Joanie to help me make some fireworks for Dawn...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireworks... Why do you want to make those, all of a sudden?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Do you remember what I told you before, that I'm from Red-Eye Gorge?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Well, whenever there was a holiday in our village, we would set off fireworks to celebrate!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "On those holidays, we would sit with our families and eat snacks while we watched the fireworks!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Back then, I would sit in my parents' laps, and Sinsa would peel oranges for me to eat!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "All those pretty lights bursting in the night sky, then falling like thousands of shooting stars... I felt like making a wish on every one of them."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Those were happy times..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "So whenever I see fireworks, I remember all the smiling faces from back then."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It sounds like a wonderful time.",
+     "link": "7"
+    },
+    {
+     "text": "Sounds... Nice?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I know you're a good girl, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there's nothing safe about making bombs, especially here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not just a risk to you and those around you, but the entire Colossus, as well."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "It's not a bomb..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's more, this isn't something a little kid like you should be handling, and... Huh?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I... I just wanted Joanie to help me make some fireworks for Dawn...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireworks... Why do you want to make those, all of a sudden?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Do you remember what I told you before, that I'm from Red-Eye Gorge?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Well, whenever there was a holiday in our village, we would set off fireworks to celebrate!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "On those holidays, we would sit with our families and eat snacks while we watched the fireworks!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Back then, I would sit in my parents' laps, and Sinsa would peel oranges for me to eat!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "All those pretty lights bursting in the night sky, then falling like thousands of shooting stars... I felt like making a wish on every one of them."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Those were happy times..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "So whenever I see fireworks, I remember all the smiling faces from back then."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It sounds like a wonderful time.",
+     "link": "7"
+    },
+    {
+     "text": "Sounds... Nice?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Fireworks bursting in the night sky\"... I'd love to see something like that, too."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Right? I knew no one could say no to fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You somehow convinced me."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Just trust me! I told Dawn about fireworks before, too!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Whenever she heard me talk about them, she always had this look of sadness and envy on her face..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But whenever I asked her about it, she would just tell me that it was nothing special..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I know she wants to see them, but she doesn't want to make me sad by bringing up the past..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But things are different now! You'll help me, right...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, when you give me that look..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "How could I say no?",
+     "link": "10"
+    },
+    {
+     "text": "I still have my reservations...",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "Just \"nice\"?! Have you ever seen fireworks? You would understand if you have!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Right? I knew no one could say no to fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You somehow convinced me."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Just trust me! I told Dawn about fireworks before, too!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Whenever she heard me talk about them, she always had this look of sadness and envy on her face..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But whenever I asked her about it, she would just tell me that it was nothing special..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I know she wants to see them, but she doesn't want to make me sad by bringing up the past..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But things are different now! You'll help me, right...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, when you give me that look..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "How could I say no?",
+     "link": "10"
+    },
+    {
+     "text": "I still have my reservations...",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You somehow convinced me."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Just trust me! I told Dawn about fireworks before, too!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Whenever she heard me talk about them, she always had this look of sadness and envy on her face..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But whenever I asked her about it, she would just tell me that it was nothing special..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I know she wants to see them, but she doesn't want to make me sad by bringing up the past..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But things are different now! You'll help me, right...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, when you give me that look..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "How could I say no?",
+     "link": "10"
+    },
+    {
+     "text": "I still have my reservations...",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright... As long as the Colossus isn't in any danger, I'll allow it. But you two need to be careful not to hurt yourselves!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Yay! We'll be careful, I promise! We already have a plan, too!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "R-Really...? Suddenly I'm starting to worry..."
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "That makes two of us."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, why make fireworks for Dawn?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Well... Dawn's my best friend, and she's always watching over me! Even during the worst part of our lives, she kept me warm and safe..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But when I think about it, I haven't done anything for her..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "So I thought this time, I'll give her the warmest thing I can think of!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "And so I went to ask Joanie for help, but she told me you banned her from the storage room... That's why I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's true, yeah..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "That's why I came here! To get whatever Joanie needs for fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Joanie's pretty dangerous, after all. She even recruited a kid to help her this time...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Correct me if I'm mistaken, but... Isn't Dawn blind?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's the point of making fireworks for her, if she can't even see them...?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I thought about that, too. I felt like it was just wishful thinking..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "And I worried that Dawn would think it was pointless, too..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But then, I thought... You shouldn't need to see something that makes everyone happy to feel the same way!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Sigh* Since you put it that way, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I wouldn't mind seeing Dawn happier if only just a little... But you need to be very careful!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Don't worry! Joanie and I already talked about it, and I promise we won't make any dangerous fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... You know, it would've been easier to just ask for my help in the first place. Why all the sneaking around?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "B-Because... I wanted to surprise Dawn."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I felt like if I told you, you would tell the others right away..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does Eve think of me that way?..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Also, we didn't want to disappoint anyone if we did a bad job... So we wanted to make sure everything was right before telling anyone!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't worry. Even without fireworks, I'm sure we have plenty of other ways to make Dawn happy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know a lot for your age, Eve..."
+    },
+    {
+     "char": "You reach out and pat Eve on the head.",
+     "dialogue": "Even so, I want this to be a big success... I won't fail!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I'll help, too!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't look at me like that! I promise I won't tell anyone!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, when are you planning on showing Dawn the fireworks?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't tell you yet!"
+    },
+    {
+     "char": "Eve holds a finger to her lips.",
+     "dialogue": "After all, it's still a big surprise!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You still think I'll tell, don't you...?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Maybe just a little..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though I'm still a little concerned... I trust you, Eve. I know you won't do anything dangerous!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Leave it to me! You're gonna be super surprised, too!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Eve:",
+     "dialogue": "I promise we won't hurt Soroz in any way! I swear!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Soroz isn't the only one in danger. Your safety is also important."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Sigh* I'm still a little worried, but since it's Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, why make fireworks for Dawn?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Well... Dawn's my best friend, and she's always watching over me! Even during the worst part of our lives, she kept me warm and safe..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But when I think about it, I haven't done anything for her..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "So I thought this time, I'll give her the warmest thing I can think of!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "And so I went to ask Joanie for help, but she told me you banned her from the storage room... That's why I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's true, yeah..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "That's why I came here! To get whatever Joanie needs for fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Joanie's pretty dangerous, after all. She even recruited a kid to help her this time...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Correct me if I'm mistaken, but... Isn't Dawn blind?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's the point of making fireworks for her, if she can't even see them...?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I thought about that, too. I felt like it was just wishful thinking..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "And I worried that Dawn would think it was pointless, too..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "But then, I thought... You shouldn't need to see something that makes everyone happy to feel the same way!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Sigh* Since you put it that way, Eve..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I wouldn't mind seeing Dawn happier if only just a little... But you need to be very careful!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Don't worry! Joanie and I already talked about it, and I promise we won't make any dangerous fireworks!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... You know, it would've been easier to just ask for my help in the first place. Why all the sneaking around?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "B-Because... I wanted to surprise Dawn."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I felt like if I told you, you would tell the others right away..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does Eve think of me that way?..."
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Also, we didn't want to disappoint anyone if we did a bad job... So we wanted to make sure everything was right before telling anyone!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't worry. Even without fireworks, I'm sure we have plenty of other ways to make Dawn happy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know a lot for your age, Eve..."
+    },
+    {
+     "char": "You reach out and pat Eve on the head.",
+     "dialogue": "Even so, I want this to be a big success... I won't fail!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "I'll help, too!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't look at me like that! I promise I won't tell anyone!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyways, when are you planning on showing Dawn the fireworks?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't tell you yet!"
+    },
+    {
+     "char": "Eve holds a finger to her lips.",
+     "dialogue": "After all, it's still a big surprise!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "You still think I'll tell, don't you...?"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Maybe just a little..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though I'm still a little concerned... I trust you, Eve. I know you won't do anything dangerous!"
+    },
+    {
+     "char": "Eve:",
+     "dialogue": "Leave it to me! You're gonna be super surprised, too!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

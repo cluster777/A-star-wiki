@@ -1,0 +1,164 @@
+[
+ {
+  "start": [
+   {
+    "name": "Pasolo:",
+    "content": "D-Do you like little donkeys, Navigator...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's... kind of an odd question."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "I-I'm sorry! P-Please let me explain..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "Y-You see... My paper pieces made a shape one day, and I thought it looked like a little donkey..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "Also, the donkey had a horn..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why would a little donkey have a horn?"
+   },
+   {
+    "name": "Pasolo:",
+    "content": "Ah, um..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "I-I think maybe it's where it keeps its soul..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I see. That's very much like you to say that, Pasolo."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "S-So... You think the soul is special too, right? Navigator?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes, of course."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes, of course."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Pasolo:",
+      "content": "I really wish I knew what your soul looks like, Navigator..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well now that you say it, I'm a little curious about it, too."
+     },
+     {
+      "name": "Pasolo:",
+      "content": "R-Really...? Then n-next time, I'll let you see it with your own eyes, Navigator..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "No problem."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm not."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Pasolo:",
+      "content": "I really wish I knew what your soul looks like, Navigator..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well now that you say it, I'm a little curious about it, too."
+     },
+     {
+      "name": "Pasolo:",
+      "content": "R-Really...? Then n-next time, I'll let you see it with your own eyes, Navigator..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "No problem."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Pasolo:",
+    "content": "G-Good afternoon, N-Navigator..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "I-I hope I'm n-not interrupting anything... S-Sorry if I am..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Pasolo."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Have you had lunch yet?"
+   },
+   {
+    "name": "Pasolo:",
+    "content": "N-Not yet..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "A-Actually, I came here to remind you to eat lunch, N-Navigator..."
+   },
+   {
+    "name": "Pasolo:",
+    "content": "I-If someone else already reminded you, j-j-just forget I said anything..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thanks for reminding me. You remember to eat regularly too, okay?"
+   },
+   {
+    "name": "Pasolo:",
+    "content": "I... I'll do my best to eat, Navigator!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Y-You really don't need to try so hard! It's just food..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

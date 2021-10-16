@@ -1,0 +1,986 @@
+{
+ "title": "The Burlap Sack",
+ "header": "After buying a large amount of counterfeit goods from Jomu, Brock is trying to find him and demand an explanation, only to get tricked into buying a strange, new product. Not even the Navigator could save him now...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "It's a huge sack, as tall as about one-and-a-half person, and as wide as two whole people lying horizontally.",
+     "dialogue": "(Uh, the Colossus isn't a recycling plant...)"
+    },
+    {
+     "char": "Brock tugs at the top of the sack and drags it over.",
+     "dialogue": "Hey, Navigator old pal, give me a hand here!!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Help you with... this big pile of stuff?",
+     "link": "1"
+    },
+    {
+     "text": "It's not heavy at all. Don't underestimate me, Brock.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Yeah, I could really use some help..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "No, wait, I can handle the weight."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Look!"
+    },
+    {
+     "char": "Brock rolls up his sleeves and pulls the sack again, but suddenly there's a loud \"CRACK\" sound.",
+     "dialogue": "Ow, ow, ow!!!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "That hurts!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I think I dislocated my elbow..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Is this the limits of my strength??"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "The more stubborn you are, the harder reality hits."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I wanted you to help me track Jomu down."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You know, that crook who's small as a clove of garlic, green as grass, with less conscience than a sandworm?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ever since he found the Colossus, he'd retreat here every time he had done something bad."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Your description of him is very accurate, Brock."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did he do to make you hate him this much?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I WANT A REFUND!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "He sold me a bunch of knockoffs!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Don't tell me they're all in this sack..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Square tires, car roof solar panels, a starlight roof, and front car flamethrower..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "All accessories for the convertible, none of them any good."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You bought all that to modify the car?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes! You know what's going on!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Me and my squad are on the search for the \"End of the Desert\"!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It's a spontaneous decision, but you only live once."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So I need a vehicle, which happens to be my sweet ride, Powerball!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I need it souped up for the long trek!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "My demands were simple: durable yet light, sick yet fast."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ample space without sacrificing appearance... All done at a low-cost."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Is that too much to ask??"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I wasn't even expecting much, but when making demands, might as well go all out!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You never know. What if all that was possible?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "There was a glint in Jomu's eyes after he heard my demands."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Oh, and here I thought you were going to make outrageous demands. They were more normal than I thought."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "\"I happen to have a lot of high-quality parts for anyone!\""
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "That's what he said."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It was all a load of baloney.",
+     "link": "4"
+    },
+    {
+     "text": "It was too late from the moment you said, \"Yes!\"",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Eh?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "This sack must weigh a ton! My arms feel like they're about to snap in half!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I should exaggerate even more.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's nothing. I can pull it with just my pinky."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Otherwise, how do you think the Colossus got out of the ground?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You can lift a Colossus? I thought only Sinsa had that kind of strength!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Who would have thought that the weak-looking Navigator was actually so strong!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Darn, I guess I've lost to you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Brock really is gullible...)"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Actually, I wanted you to help me track Jomu down."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You know, that crook who's small as a clove of garlic, green as grass, with less conscience than a sandworm?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ever since he found the Colossus, he'd retreat here every time he had done something bad."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your description of him is very accurate, Brock."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did he do to make you hate him this much?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I WANT A REFUND!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "He sold me a bunch of knockoffs!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't tell me they're all in this sack..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Square tires, car roof solar panels, a starlight roof, and front car flamethrower..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "All accessories for the convertible, none of them any good."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You bought all that to modify the car?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yes! You know what's going on!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Me and my squad are on the search for the \"End of the Desert\"!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It's a spontaneous decision, but you only live once."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So I need a vehicle, which happens to be my sweet ride, Powerball!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I need it souped up for the long trek!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "My demands were simple: durable yet light, sick yet fast."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ample space without sacrificing appearance... All done at a low-cost."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that too much to ask??"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I wasn't even expecting much, but when making demands, might as well go all out!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You never know. What if all that was possible?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "There was a glint in Jomu's eyes after he heard my demands."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, and here I thought you were going to make outrageous demands. They were more normal than I thought."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "\"I happen to have a lot of high-quality parts for anyone!\""
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "That's what he said."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It was all a load of baloney.",
+     "link": "4"
+    },
+    {
+     "text": "It was too late from the moment you said, \"Yes!\"",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Actually, I wanted you to help me track Jomu down."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You know, that crook who's small as a clove of garlic, green as grass, with less conscience than a sandworm?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ever since he found the Colossus, he'd retreat here every time he had done something bad."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your description of him is very accurate, Brock."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did he do to make you hate him this much?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I WANT A REFUND!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "He sold me a bunch of knockoffs!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't tell me they're all in this sack..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Square tires, car roof solar panels, a starlight roof, and front car flamethrower..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "All accessories for the convertible, none of them any good."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You bought all that to modify the car?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Yes! You know what's going on!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Me and my squad are on the search for the \"End of the Desert\"!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It's a spontaneous decision, but you only live once."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So I need a vehicle, which happens to be my sweet ride, Powerball!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I need it souped up for the long trek!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "My demands were simple: durable yet light, sick yet fast."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Ample space without sacrificing appearance... All done at a low-cost."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that too much to ask??"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I wasn't even expecting much, but when making demands, might as well go all out!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "You never know. What if all that was possible?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "There was a glint in Jomu's eyes after he heard my demands."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, and here I thought you were going to make outrageous demands. They were more normal than I thought."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "\"I happen to have a lot of high-quality parts for anyone!\""
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "That's what he said."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It was all a load of baloney.",
+     "link": "4"
+    },
+    {
+     "text": "It was too late from the moment you said, \"Yes!\"",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "Baloney? Like Bologna sausage? Is that some sort of lunch meat? Is it edible?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It'll take a huge bite out of your wallet. That's for sure."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "But what I actually got was garbage!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Take the square tires. They have a lot of traction but wear out the butts of everyone in the car."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "The solar panel turned the car into an oven. I've never sweated so much before!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Then there's that \"starlight roof\"... Oh my god!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "He wanted to charge me 13,000 Nightium for it! Highway robbery!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Jomu then said, \"Don't sweat it, my dear Brock, we have a substitute.\""
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "A substitute of black canvas, white rocks, and glue! When the motor started running it sounded like raining hail!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How spectacular."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Even worse is the so-called collapsible tent for expanding the interior."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It promised to fold out to a tent with a bed, but it didn't stay up and just collapsed."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It doesn't do anything but collect sand like a dozer."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "And as for the flamethrower..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I imagined how cool it would be to drive a speeding car that spewed fire out front!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I didn't think that the headwind would be so much stronger than the flame."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "The flame blew back and scorched the headlight, then started a chain reaction that blew up the car!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Luckily, I jumped out in time before the explosion."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Then I read the \"User Notes\" Jomu gave me. The last line read..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Later, I kept pestering Tiny One and Odi, promising to plant a hundred trees in the desert for them to fix the car."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "After it was fixed, I dragged all the parts I bought here."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I swear I'll settle this with Jomu!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Hey, if it ain't my dear Navigator, and Brock too!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Remember to look me up for anything you need."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hey, Jomu."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Get back here!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Whoa, perhaps you need something for stress and anger management?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "I got just the cure! Check this out. I call it Panacea. It'll put your blood pressure right back to normal and soothe your mind!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "For only 400 Nightium!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bogus."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Definitely bogus."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Come on now, where's the trust between us!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Look at everything in this bag, and you want to talk about trust?!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "That big bag..."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Rats, still not working."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "It was too lofty a goal to fulfill, and I should have turned down the order."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "But I saw your hopeful eyes and just couldn't bring myself to tell the truth."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "All I could do was gather the expensive parts and offer them to you at low prices."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Why does it feel like it's my fault now?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Wait a minute, I'm not going to get tricked by you again!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "How can this be your fault?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Forcing unrealistic demands never ends well. I think both you and I both understand that now."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "However, my pride as a merchant is on the line so I must fulfill at least one of your demands."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Like what?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "You wanted super durable headlights, right?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "But you said it was too expensive. 3000 Nightium, what a rip-off, am I right?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "So I'm giving you a deal for something just as good for only 2000 Nightium!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Oh boy, Brock is about to be scammed by Jomu again. Got to help him out.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, Brock..."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, hey, dear Navigator."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Excuse my rudeness for ignoring you the whole time!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Would you like to check out the quality goods I got with me? Everything from decors to condiments!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That glint in his eyes... He's trying to get me to back off!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's all right. Take care of Brock first..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So what do I get for 2000 Nightium?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "For 2000 Nightium, you can get... Neon Paint!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "It will not only make your car look brand new, but the glow will shine like the stars at night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(A can of spray paint costs almost as much as headlights? Ridiculous...)"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Heeeey!!! That sounds siiicckkk!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What other cool things can the neon paint do?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, more than you can imagine!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(A moment of silence for Brock's wallet.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Brock:",
+     "dialogue": "I didn't say that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say, then?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I told him I got money, and lots of it!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I can afford whatever he could offer me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sometimes I feel like you truly need a guardian angel..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "But what I actually got was garbage!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Take the square tires. They have a lot of traction but wear out the butts of everyone in the car."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "The solar panel turned the car into an oven. I've never sweated so much before!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Then there's that \"starlight roof\"... Oh my god!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "He wanted to charge me 13,000 Nightium for it! Highway robbery!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Jomu then said, \"Don't sweat it, my dear Brock, we have a substitute.\""
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "A substitute of black canvas, white rocks, and glue! When the motor started running it sounded like raining hail!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How spectacular."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Even worse is the so-called collapsible tent for expanding the interior."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It promised to fold out to a tent with a bed, but it didn't stay up and just collapsed."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "It doesn't do anything but collect sand like a dozer."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "And as for the flamethrower..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I imagined how cool it would be to drive a speeding car that spewed fire out front!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I didn't think that the headwind would be so much stronger than the flame."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "The flame blew back and scorched the headlight, then started a chain reaction that blew up the car!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Luckily, I jumped out in time before the explosion."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Then I read the \"User Notes\" Jomu gave me. The last line read..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Later, I kept pestering Tiny One and Odi, promising to plant a hundred trees in the desert for them to fix the car."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "After it was fixed, I dragged all the parts I bought here."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "I swear I'll settle this with Jomu!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Hey, if it ain't my dear Navigator, and Brock too!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Remember to look me up for anything you need."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Hey, Jomu."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Get back here!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Whoa, perhaps you need something for stress and anger management?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "I got just the cure! Check this out. I call it Panacea. It'll put your blood pressure right back to normal and soothe your mind!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "For only 400 Nightium!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bogus."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Definitely bogus."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Come on now, where's the trust between us!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Look at everything in this bag, and you want to talk about trust?!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "That big bag..."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Rats, still not working."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "It was too lofty a goal to fulfill, and I should have turned down the order."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "But I saw your hopeful eyes and just couldn't bring myself to tell the truth."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "All I could do was gather the expensive parts and offer them to you at low prices."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Why does it feel like it's my fault now?"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Wait a minute, I'm not going to get tricked by you again!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "How can this be your fault?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Forcing unrealistic demands never ends well. I think both you and I both understand that now."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "However, my pride as a merchant is on the line so I must fulfill at least one of your demands."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Like what?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "You wanted super durable headlights, right?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "But you said it was too expensive. 3000 Nightium, what a rip-off, am I right?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "So I'm giving you a deal for something just as good for only 2000 Nightium!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Oh boy, Brock is about to be scammed by Jomu again. Got to help him out.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, Brock..."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, hey, dear Navigator."
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Excuse my rudeness for ignoring you the whole time!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Would you like to check out the quality goods I got with me? Everything from decors to condiments!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That glint in his eyes... He's trying to get me to back off!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's all right. Take care of Brock first..."
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "So what do I get for 2000 Nightium?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "For 2000 Nightium, you can get... Neon Paint!"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "It will not only make your car look brand new, but the glow will shine like the stars at night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(A can of spray paint costs almost as much as headlights? Ridiculous...)"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "Heeeey!!! That sounds siiicckkk!"
+    },
+    {
+     "char": "Brock:",
+     "dialogue": "What other cool things can the neon paint do?"
+    },
+    {
+     "char": "Jomu:",
+     "dialogue": "Oh, more than you can imagine!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(A moment of silence for Brock's wallet.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

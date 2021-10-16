@@ -1,0 +1,194 @@
+[
+ {
+  "start": [
+   {
+    "name": "Alice:",
+    "content": "How come you have no ears, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "What? I got ears!"
+   },
+   {
+    "name": "Alice:",
+    "content": "I mean the long ones."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not everyone has long ears."
+   },
+   {
+    "name": "Alice:",
+    "content": "I see. I was wondering why people would stare at my ears."
+   },
+   {
+    "name": "Alice:",
+    "content": "Some would even like to touch them. What do you think of my ears, Navigator?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I think they're cute."
+   },
+   {
+    "name": "Navigator:",
+    "content": "They're kind of unusual..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I think they're cute."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Alice:",
+      "content": "So you're fine with them!"
+     },
+     {
+      "name": "Alice:",
+      "content": "Good, good."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "They're kind of unusual..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Alice:",
+      "content": "Is that what you think, Navigator?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, no, I meant that as in \"unique.\""
+     },
+     {
+      "name": "Alice:",
+      "content": "So you're fine with them!"
+     },
+     {
+      "name": "Alice:",
+      "content": "Good, good."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Alice:",
+    "content": "Are you awake, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes, I'm up. What can I do for you?"
+   },
+   {
+    "name": "Alice:",
+    "content": "Do you want to hang out with me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sorry, I have to pilot the Colossus..."
+   },
+   {
+    "name": "Alice:",
+    "content": "I see... What a shame."
+   },
+   {
+    "name": "Alice:",
+    "content": "I was looking forward to another continental cruise."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What is that?!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Alice:",
+    "content": "Good evening."
+   },
+   {
+    "name": "Alice:",
+    "content": "Hey, Navigator, do you have any good bedtime stories to tell?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm... Let me think."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Once, there was a little Caelestite girl named Ada..."
+   },
+   {
+    "name": "Alice:",
+    "content": "I know! That's Ada and the Colossus, right?"
+   },
+   {
+    "name": "Alice:",
+    "content": "I've read that one before!"
+   },
+   {
+    "name": "Alice:",
+    "content": "It's about a new Navigator and her mini-Colossus, and they are traveling all over the world!"
+   },
+   {
+    "name": "Alice:",
+    "content": "They're so cool! I've always wanted to be like Ada and travel the world, all my life!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You sure have read a lot of books, Alice..."
+   },
+   {
+    "name": "Alice:",
+    "content": "Thank you, Navigator!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, but... I haven't done anything..."
+   },
+   {
+    "name": "Alice:",
+    "content": "Yeah, but you reminded me of my favorite story!"
+   },
+   {
+    "name": "Alice:",
+    "content": "Now I can go to bed feeling even happier!"
+   },
+   {
+    "name": "Alice:",
+    "content": "Good night, Navigator!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night, Alice."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

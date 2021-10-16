@@ -1,0 +1,1378 @@
+{
+ "title": "A Bone of Contention",
+ "header": "You accidentally break one of Allura's precious pieces, but her reaction is not quite as you expected...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Take a look, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, is this part of your collection? It looks cracked..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Yeah! The last time you came to my room, after you left..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "For some reason, this happened to my antler skull."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Look."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "A big crack runs down the middle of the skull from top to bottom, and there's a big chunk missing from the center."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The volume of the missing chunk in the center is exactly 4.3524 cubic centimeters."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "In other words... It's in bad shape, but it can still be fixed."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "As far as the reason goes, I think this could only have been done by someone who has the means to enter my room."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The person in question is currently within 1 meter of my position... 0.85 meters, if I had to guess."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "A shame that it is so close. At this range, my pistol's accuracy might be slightly off because of it..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Now then, Navigator... Do you have any idea who the culprit is?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Now that you mention it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I might have bumped into something in your room the last time I was on patrol..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But something suddenly came up on the Bridge, so I didn't have time to see what it was."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm really sorry, Allura."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is there anything I can do to make things up to you?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Oh? You were quite quick to confess, but if you really mean what you say... you could hand over Soroz to me."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Something as precious as a Colossus... it has always been at the top of my list of things to collect."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That seems a little steep!!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I was only joking. Besides, this skull isn't particularly valuable."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I really am sorry..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Let me help you find something new for your collection!",
+     "link": "1"
+    },
+    {
+     "text": "Let me fix your antler skull for you!",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Rather than find something new, why not help me fix it instead?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Hmm... Yes, that would work, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not really... I just want to do my best to make things right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So just leave it to me, Allura! I should fix my own mistakes."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "As expected from the Navigator. Would you like some help with your first antique repair? I won't even charge you for it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... Could I maybe borrow some books about this stuff from you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really don't know much about antique restoration, to be honest..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Of course! Take whatever you think might help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are your books part of your collection too, Allura? There are so many..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, these books right at the front... What are they about?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Antique-Lovers and Success: A Guide to a Better Life\"... \"Antiquing: The Best Hobby a Man Could Have\"... \"The Benefits of Having an Antique Collector Friend\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Thank goodness, the rest of these are all regular books on antiquing..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...Aha! Found it! This one called \"Theories on Large Animal Skull Restoration\" should be exactly what I'm looking for!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "You want to borrow that one? It might be a little dense for a beginner, you know?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have full confidence in your comprehension skills, but if you run into anything you don't understand, feel free to ask me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Got it! Thanks for the book, Allura!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll get started on my research right away!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I'm looking forward to seeing your work."
+    },
+    {
+     "char": "One day later...",
+     "dialogue": "The book says to stretch first... and to clearly visualize the skull's original state prior to breaking..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Crap! I snapped it in half!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The book says to use a latex-based glue to put the skull back together..."
+    },
+    {
+     "char": "Two days later...",
+     "dialogue": "Even though it tells me what kind of material to use, it doesn't tell me how much to use..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But how hard could it be, really? Let's just try it out first..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "M-My fingers are stuck to the bowl now..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Finally... I'm free!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... It feels good to be able to move my fingers again."
+    },
+    {
+     "char": "Finally, after trying everything to pry my fingers from the bowl...",
+     "dialogue": "I should go ask Allura for help before I make an even bigger mess of things..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Allura...? Your precious antler skull... It's in this bag."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're already done? Impressive!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "N-Not quite... Sorry...",
+     "link": "4"
+    },
+    {
+     "text": "Sorry, but the damage is even worse now...",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Really? All by yourself?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah! Here, let me give it a shot..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "You really are full of surprises today."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not really... I just want to do my best to make things right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So just leave it to me, Allura! I should fix my own mistakes."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "As expected from the Navigator. Would you like some help with your first antique repair? I won't even charge you for it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... Could I maybe borrow some books about this stuff from you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really don't know much about antique restoration, to be honest..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Of course! Take whatever you think might help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are your books part of your collection too, Allura? There are so many..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, these books right at the front... What are they about?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Antique-Lovers and Success: A Guide to a Better Life\"... \"Antiquing: The Best Hobby a Man Could Have\"... \"The Benefits of Having an Antique Collector Friend\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Thank goodness, the rest of these are all regular books on antiquing..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...Aha! Found it! This one called \"Theories on Large Animal Skull Restoration\" should be exactly what I'm looking for!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "You want to borrow that one? It might be a little dense for a beginner, you know?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have full confidence in your comprehension skills, but if you run into anything you don't understand, feel free to ask me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Got it! Thanks for the book, Allura!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll get started on my research right away!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I'm looking forward to seeing your work."
+    },
+    {
+     "char": "One day later...",
+     "dialogue": "The book says to stretch first... and to clearly visualize the skull's original state prior to breaking..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Crap! I snapped it in half!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The book says to use a latex-based glue to put the skull back together..."
+    },
+    {
+     "char": "Two days later...",
+     "dialogue": "Even though it tells me what kind of material to use, it doesn't tell me how much to use..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But how hard could it be, really? Let's just try it out first..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "M-My fingers are stuck to the bowl now..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Finally... I'm free!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... It feels good to be able to move my fingers again."
+    },
+    {
+     "char": "Finally, after trying everything to pry my fingers from the bowl...",
+     "dialogue": "I should go ask Allura for help before I make an even bigger mess of things..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Allura...? Your precious antler skull... It's in this bag."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're already done? Impressive!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "N-Not quite... Sorry...",
+     "link": "4"
+    },
+    {
+     "text": "Sorry, but the damage is even worse now...",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Not really... I just want to do my best to make things right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So just leave it to me, Allura! I should fix my own mistakes."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "As expected from the Navigator. Would you like some help with your first antique repair? I won't even charge you for it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... Could I maybe borrow some books about this stuff from you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really don't know much about antique restoration, to be honest..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Of course! Take whatever you think might help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are your books part of your collection too, Allura? There are so many..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, these books right at the front... What are they about?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Antique-Lovers and Success: A Guide to a Better Life\"... \"Antiquing: The Best Hobby a Man Could Have\"... \"The Benefits of Having an Antique Collector Friend\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Thank goodness, the rest of these are all regular books on antiquing..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...Aha! Found it! This one called \"Theories on Large Animal Skull Restoration\" should be exactly what I'm looking for!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "You want to borrow that one? It might be a little dense for a beginner, you know?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have full confidence in your comprehension skills, but if you run into anything you don't understand, feel free to ask me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Got it! Thanks for the book, Allura!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll get started on my research right away!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I'm looking forward to seeing your work."
+    },
+    {
+     "char": "One day later...",
+     "dialogue": "The book says to stretch first... and to clearly visualize the skull's original state prior to breaking..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Crap! I snapped it in half!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The book says to use a latex-based glue to put the skull back together..."
+    },
+    {
+     "char": "Two days later...",
+     "dialogue": "Even though it tells me what kind of material to use, it doesn't tell me how much to use..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But how hard could it be, really? Let's just try it out first..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "M-My fingers are stuck to the bowl now..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Finally... I'm free!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... It feels good to be able to move my fingers again."
+    },
+    {
+     "char": "Finally, after trying everything to pry my fingers from the bowl...",
+     "dialogue": "I should go ask Allura for help before I make an even bigger mess of things..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Allura...? Your precious antler skull... It's in this bag."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're already done? Impressive!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "N-Not quite... Sorry...",
+     "link": "4"
+    },
+    {
+     "text": "Sorry, but the damage is even worse now...",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I need your help, after all... I don't think I can do it just by following the book's instructions..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Don't worry about it. Restoring a damaged antique like this is difficult to begin with."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Just being able to understand the first step is an impressive accomplishment for a beginner, as it is."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, you want to try and fix it together?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, of course! I'd love to learn a little more about this stuff, too!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The reason you failed is that you didn't pay enough attention to the smaller details."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "First of all, you missed the cleaning step. Any dirt or contaminants on the surface of the skull will prevent the glue from sticking properly."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Second, when using latex glue..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The point of contact between the skull and the fillings is what needs to be glued, not the crack itself after putting a piece in place."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Also, when using plaster to reinforce your repair work, it's better to use a small amount multiple times, rather than a large amount all at once."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Ensure that each application of plaster is brushed on evenly, to make it harder and prevent cracks and chips."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "See? The antler skull is more or less fixed now."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The downside is that after restoration, you'll inevitably find places where your repairs are not perfect."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have already seen a few small gaps, roughly 0.028 centimeters in width..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "0.028 centimeters?! You can see something like that with just your naked eyes?!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "These tiny gaps can only be repaired by applying a second coat of plaster after the first coat completely dries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You really are a professional when it comes to antiques, Allura!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It's nothing, really. However, for antiques like this one, which are usually lost during wars, they are better off..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Better off...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Better off making me some money instead."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Didn't you say this antique isn't very valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Er, I mean..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "By adding them to my collection and showing them to the world, I can preserve their research value."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's very noble of you.",
+     "link": "6"
+    },
+    {
+     "text": "That's just like you, Allura.",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Just being able to understand the first step is an impressive accomplishment for a beginner, as it is."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, you want to try and fix it together?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, of course! I'd love to learn a little more about this stuff, too!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The reason you failed is that you didn't pay enough attention to the smaller details."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "First of all, you missed the cleaning step. Any dirt or contaminants on the surface of the skull will prevent the glue from sticking properly."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Second, when using latex glue..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The point of contact between the skull and the fillings is what needs to be glued, not the crack itself after putting a piece in place."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Also, when using plaster to reinforce your repair work, it's better to use a small amount multiple times, rather than a large amount all at once."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Ensure that each application of plaster is brushed on evenly, to make it harder and prevent cracks and chips."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "See? The antler skull is more or less fixed now."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The downside is that after restoration, you'll inevitably find places where your repairs are not perfect."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have already seen a few small gaps, roughly 0.028 centimeters in width..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "0.028 centimeters?! You can see something like that with just your naked eyes?!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "These tiny gaps can only be repaired by applying a second coat of plaster after the first coat completely dries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You really are a professional when it comes to antiques, Allura!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It's nothing, really. However, for antiques like this one, which are usually lost during wars, they are better off..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Better off...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Better off making me some money instead."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Didn't you say this antique isn't very valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Er, I mean..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "By adding them to my collection and showing them to the world, I can preserve their research value."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's very noble of you.",
+     "link": "6"
+    },
+    {
+     "text": "That's just like you, Allura.",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "I knew you would agree."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Now then, once it's finished drying off, I'll invite you to take a look at the fruits of our labor."
+    },
+    {
+     "char": "A few days later...",
+     "dialogue": "Ah! I just remembered..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I still haven't given Allura her book back!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should make sure it's still okay before I give it back."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, I made such a mess of things last time... I might have spilled something on it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right! Let's start from page one... Page thirty-three..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And the last page... There! Exactly like the day I borrowed it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, what's this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Afterword...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Complete and intact antler skulls in the modern era have become almost nonexistent, due to the fact that the majority of these specimens were destroyed during the war.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As such, it is our duty to protect these precious artifacts to the best of our abilities.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Reports indicate that the best-preserved antler skull specimen is currently in the hands of a wealthy Umbraton collector...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As a result, this citizen of Umbraton, knowingly or otherwise, is sitting on a veritable fortune.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "!!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I can't believe I ruined such a priceless artifact!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allura never once held me accountable for it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No wonder she mentioned using it to make money that day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I gotta apologize to her right away! I have to!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Navigator? You're still early. The plaster hasn't finished drying yet."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Allura... Look at the book! It says right here that antler skull is extremely valuable! I... I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm really, really sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This could have earned you a fortune before I broke it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't be...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Can't be what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you keep apologizing to me all the time because you realized I'm still trying to find a way to add Soroz to my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "That sincere and apologetic attitude... Are you trying to dissuade me from taking the Colossus for my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It can't be."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I've been so careful with my planning... I even considered finding a way to shrink the Colossus to make it work! Could I have truly been discovered?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that I think of it, compared to a Colossus... Wouldn't a Caelestite be even more valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Maybe capturing the Caelestite was the right decision, after all... I'm sure that people in Umbraton, they need a Caelestite, too."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Hmm... Transporting a live specimen presents many other challenges, though... How should I properly take you back with me, I wonder?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I can't imagine you'll come along peacefully, right?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "This is tricky... I suppose I'll just have to take the Colossus, after all. What do you say?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Is it just me... or is Allura just trying to get me to turn her down?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand, but sorry. The Colossus is still not up for negotiation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even so, I promise to do my best to help you find even more priceless treasures and artifacts for your collection!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sounds good to me."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, do we have a deal then?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Yeah!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "I never would have guessed you understood me so well."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Now then, once it's finished drying off, I'll invite you to take a look at the fruits of our labor."
+    },
+    {
+     "char": "A few days later...",
+     "dialogue": "Ah! I just remembered..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I still haven't given Allura her book back!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should make sure it's still okay before I give it back."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, I made such a mess of things last time... I might have spilled something on it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right! Let's start from page one... Page thirty-three..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And the last page... There! Exactly like the day I borrowed it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, what's this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Afterword...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Complete and intact antler skulls in the modern era have become almost nonexistent, due to the fact that the majority of these specimens were destroyed during the war.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As such, it is our duty to protect these precious artifacts to the best of our abilities.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Reports indicate that the best-preserved antler skull specimen is currently in the hands of a wealthy Umbraton collector...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As a result, this citizen of Umbraton, knowingly or otherwise, is sitting on a veritable fortune.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "!!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I can't believe I ruined such a priceless artifact!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allura never once held me accountable for it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No wonder she mentioned using it to make money that day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I gotta apologize to her right away! I have to!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Navigator? You're still early. The plaster hasn't finished drying yet."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Allura... Look at the book! It says right here that antler skull is extremely valuable! I... I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm really, really sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This could have earned you a fortune before I broke it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't be...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Can't be what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you keep apologizing to me all the time because you realized I'm still trying to find a way to add Soroz to my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "That sincere and apologetic attitude... Are you trying to dissuade me from taking the Colossus for my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It can't be."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I've been so careful with my planning... I even considered finding a way to shrink the Colossus to make it work! Could I have truly been discovered?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that I think of it, compared to a Colossus... Wouldn't a Caelestite be even more valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Maybe capturing the Caelestite was the right decision, after all... I'm sure that people in Umbraton, they need a Caelestite, too."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Hmm... Transporting a live specimen presents many other challenges, though... How should I properly take you back with me, I wonder?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I can't imagine you'll come along peacefully, right?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "This is tricky... I suppose I'll just have to take the Colossus, after all. What do you say?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Is it just me... or is Allura just trying to get me to turn her down?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand, but sorry. The Colossus is still not up for negotiation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even so, I promise to do my best to help you find even more priceless treasures and artifacts for your collection!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sounds good to me."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, do we have a deal then?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Yeah!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Now then, once it's finished drying off, I'll invite you to take a look at the fruits of our labor."
+    },
+    {
+     "char": "A few days later...",
+     "dialogue": "Ah! I just remembered..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I still haven't given Allura her book back!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should make sure it's still okay before I give it back."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, I made such a mess of things last time... I might have spilled something on it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right! Let's start from page one... Page thirty-three..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And the last page... There! Exactly like the day I borrowed it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, what's this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Afterword...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Complete and intact antler skulls in the modern era have become almost nonexistent, due to the fact that the majority of these specimens were destroyed during the war.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As such, it is our duty to protect these precious artifacts to the best of our abilities.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Reports indicate that the best-preserved antler skull specimen is currently in the hands of a wealthy Umbraton collector...\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"As a result, this citizen of Umbraton, knowingly or otherwise, is sitting on a veritable fortune.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "!!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I can't believe I ruined such a priceless artifact!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allura never once held me accountable for it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No wonder she mentioned using it to make money that day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I gotta apologize to her right away! I have to!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Navigator? You're still early. The plaster hasn't finished drying yet."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Allura... Look at the book! It says right here that antler skull is extremely valuable! I... I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm really, really sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This could have earned you a fortune before I broke it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't be...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Can't be what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you keep apologizing to me all the time because you realized I'm still trying to find a way to add Soroz to my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "That sincere and apologetic attitude... Are you trying to dissuade me from taking the Colossus for my collection?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It can't be."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I've been so careful with my planning... I even considered finding a way to shrink the Colossus to make it work! Could I have truly been discovered?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that I think of it, compared to a Colossus... Wouldn't a Caelestite be even more valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Maybe capturing the Caelestite was the right decision, after all... I'm sure that people in Umbraton, they need a Caelestite, too."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Hmm... Transporting a live specimen presents many other challenges, though... How should I properly take you back with me, I wonder?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I can't imagine you'll come along peacefully, right?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "This is tricky... I suppose I'll just have to take the Colossus, after all. What do you say?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Is it just me... or is Allura just trying to get me to turn her down?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand, but sorry. The Colossus is still not up for negotiation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even so, I promise to do my best to help you find even more priceless treasures and artifacts for your collection!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sounds good to me."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, do we have a deal then?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Yeah!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Allura:",
+     "dialogue": "Don't worry about it. Restoring a damaged antique like this is difficult to begin with."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Just being able to understand the first step is an impressive accomplishment for a beginner, as it is."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "So, you want to try and fix it together?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, of course! I'd love to learn a little more about this stuff, too!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The reason you failed is that you didn't pay enough attention to the smaller details."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "First of all, you missed the cleaning step. Any dirt or contaminants on the surface of the skull will prevent the glue from sticking properly."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Second, when using latex glue..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The point of contact between the skull and the fillings is what needs to be glued, not the crack itself after putting a piece in place."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Also, when using plaster to reinforce your repair work, it's better to use a small amount multiple times, rather than a large amount all at once."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Ensure that each application of plaster is brushed on evenly, to make it harder and prevent cracks and chips."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "See? The antler skull is more or less fixed now."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "The downside is that after restoration, you'll inevitably find places where your repairs are not perfect."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "I have already seen a few small gaps, roughly 0.028 centimeters in width..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "0.028 centimeters?! You can see something like that with just your naked eyes?!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "These tiny gaps can only be repaired by applying a second coat of plaster after the first coat completely dries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You really are a professional when it comes to antiques, Allura!"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "It's nothing, really. However, for antiques like this one, which are usually lost during wars, they are better off..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Better off...?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Better off making me some money instead."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Didn't you say this antique isn't very valuable?"
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "Er, I mean..."
+    },
+    {
+     "char": "Allura:",
+     "dialogue": "By adding them to my collection and showing them to the world, I can preserve their research value."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's very noble of you.",
+     "link": "6"
+    },
+    {
+     "text": "That's just like you, Allura.",
+     "link": "7"
+    }
+   ]
+  }
+ ]
+}

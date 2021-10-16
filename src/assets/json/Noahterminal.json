@@ -1,0 +1,534 @@
+[
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "I heard that you need my help!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm working on some data issues..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Rather than saying that I need your help, it's more like I can't survive without your help."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm working on some data issues..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "I think Noah understands this type of thing better than I do."
+     },
+     {
+      "name": "Noah:",
+      "content": "Just leave it to me! I know everything!"
+     },
+     {
+      "name": "Noah:",
+      "content": "What's wrong?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, I don't think I can explain it in a message..."
+     },
+     {
+      "name": "Noah:",
+      "content": "I understand!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Then let's meet in the rec room!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Rather than saying that I need your help, it's more like I can't survive without your help."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "So, this is something that only I can help you with!"
+     },
+     {
+      "name": "Noah:",
+      "content": "What's wrong?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, I don't think I can explain it in a message..."
+     },
+     {
+      "name": "Noah:",
+      "content": "I understand!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Then let's meet in the rec room!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "Knock knock! Let me knock your door and listen to your voice."
+   },
+   {
+    "name": "Noah:",
+    "content": "Do you want to build a snowman?"
+   },
+   {
+    "name": "Noah:",
+    "content": "Are you there? If you are, you should say it out loud. You can give a shout or just move a bit."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm already moving. Wait, I thought you can't see?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'll shout then: Arghhhhhh! Is that okay?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm already moving. Wait, I thought you can't see?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "I can sense it! You sound energetic!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, why are you here?"
+     },
+     {
+      "name": "Noah:",
+      "content": "Do you want to build another snowman?"
+     }
+    ],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Okay, let's build a snowman together."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What do you mean by again?"
+     }
+    ]
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Okay, let's build a snowman together."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "But I was worried you couldn't come out again."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What exactly happened?"
+     },
+     {
+      "name": "Noah:",
+      "content": "I've prepared a gift for you! There are all sorts of large and small snowmen, and sweet snowflakes as well!"
+     },
+     {
+      "name": "Noah:",
+      "content": "But there are so many snowmen outside your door that I can barely knock on your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Doesn't that mean... My door is blocked?!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Yes! Ehe!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "What do you mean by again?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "It's because I've already built a lot of snowmen outside your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What exactly happened?"
+     },
+     {
+      "name": "Noah:",
+      "content": "I've prepared a gift for you! There are all sorts of large and small snowmen, and sweet snowflakes as well!"
+     },
+     {
+      "name": "Noah:",
+      "content": "But there are so many snowmen outside your door that I can barely knock on your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Doesn't that mean... My door is blocked?!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Yes! Ehe!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'll shout then: Arghhhhhh! Is that okay?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "Haha! You're so interesting!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, why are you here?"
+     },
+     {
+      "name": "Noah:",
+      "content": "Do you want to build another snowman?"
+     }
+    ],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Okay, let's build a snowman together."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What do you mean by again?"
+     }
+    ]
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Okay, let's build a snowman together."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "But I was worried you couldn't come out again."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What exactly happened?"
+     },
+     {
+      "name": "Noah:",
+      "content": "I've prepared a gift for you! There are all sorts of large and small snowmen, and sweet snowflakes as well!"
+     },
+     {
+      "name": "Noah:",
+      "content": "But there are so many snowmen outside your door that I can barely knock on your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Doesn't that mean... My door is blocked?!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Yes! Ehe!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "What do you mean by again?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "It's because I've already built a lot of snowmen outside your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What exactly happened?"
+     },
+     {
+      "name": "Noah:",
+      "content": "I've prepared a gift for you! There are all sorts of large and small snowmen, and sweet snowflakes as well!"
+     },
+     {
+      "name": "Noah:",
+      "content": "But there are so many snowmen outside your door that I can barely knock on your door."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Doesn't that mean... My door is blocked?!"
+     },
+     {
+      "name": "Noah:",
+      "content": "Yes! Ehe!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "Yo, Navigator! Nice to meet ya!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Gah!... Oh, it's you, Noah! You scared me just now..."
+   },
+   {
+    "name": "Noah:",
+    "content": "Hee-hee! I hear you're pretty incredible, Navigator!"
+   },
+   {
+    "name": "Noah:",
+    "content": "I've also heard your Colossus is just like my Ice Sword!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ice Sword...? Your weapon?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "That... Doesn't really make sense."
+   },
+   {
+    "name": "Navigator:",
+    "content": "So the only similarity is that they both fly?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "That... Doesn't really make sense."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "Sure it does! I fly around on my Ice Sword, just like you! \"Shoom!\""
+     },
+     {
+      "name": "Navigator:",
+      "content": "W-Wait! What the heck is \"shoom\"...?"
+     },
+     {
+      "name": "Noah:",
+      "content": "It's the sound I make when I fly! Watch!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Come again?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hang on! You're not going to fly around the Colossus, are you?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't know what an Ice Sword is, but it might be dangerous for the Colossus..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So please, come back down!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "So the only similarity is that they both fly?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Noah:",
+      "content": "Yep! Just like that, I can \"shoom\" straight into the sky!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "W-Wait! What the heck is \"shoom\"...?"
+     },
+     {
+      "name": "Noah:",
+      "content": "It's the sound I make when I fly! Watch!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Come again?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hang on! You're not going to fly around the Colossus, are you?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't know what an Ice Sword is, but it might be dangerous for the Colossus..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So please, come back down!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "Hey Navigator, you awake yet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm on my way to get some breakfast. Want to join me?"
+   },
+   {
+    "name": "Noah:",
+    "content": "Yeah! I was just gonna ask you the same!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "It sure is cold today!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? I thought you can't feel the temperature?"
+   },
+   {
+    "name": "Noah:",
+    "content": "Someone taught me this! They said that if I start a conversation by talking about the weather, I'll get to know the other person really quickly!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That makes sense... But it's very hot today..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Noah:",
+    "content": "Good afternoon! Wanna go on an adventure with me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Noah. What kind of adventure did you have in mind?"
+   },
+   {
+    "name": "Noah:",
+    "content": "Noah wants to build a huge ice slide inside the Colossus!"
+   },
+   {
+    "name": "Noah:",
+    "content": "Then, uh... we can slide down it!"
+   },
+   {
+    "name": "Noah:",
+    "content": "When I build my slide, can we play together?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure! As long as you don't wreck the Colossus."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

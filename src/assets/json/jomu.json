@@ -1,715 +1,938 @@
 {
-      "name": "Jomu",
-      "faction": "Rediesel Wrench",
-      "element_main": "Forest",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "0 Turn",
-            "description": [
-                  "Deals 150% damage to 1 surrounding cluster. Damage is increased to 150% if there is only 1 enemy.",
-                  "Deals 150% damage to 1 surrounding cluster. Damage is increased to 200% if there is only 1 enemy."
-            ]
-      },
-      "equip": {
-            "name": "Sundry Knife",
-            "passive": "Performer",
-            "description": [
-                  [
-                        "Increases Chain Combo damage by 20% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 20% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 50% when the Active Skill is ready."
-                  ],
-                  [
-                        "Increases Chain Combo damage by 20% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 20% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 30% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 40% when the Active Skill is ready.",
-                        "Increases Chain Combo damage by 50% when the Active Skill is ready."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 140% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 140% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Removes Active Skill cooldown if the target is killed with the skill.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Essence",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Chain Combo damage by 50% when the Active Skill is ready."
-            },
-            {
-                  "material": [
-                        "Forest Potion II",
-                        "Forest Crystal Shard",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 150% damage to 1 surrounding cluster. Damage is increased to 150% if there is only 1 enemy.",
-                  "after": "Deals 150% damage to 1 surrounding cluster. Damage is increased to 200% if there is only 1 enemy."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 611,
-                        "def": 249,
-                        "hp": 1836
-                  },
-                  {
-                        "att": 622,
-                        "def": 253,
-                        "hp": 1865
-                  },
-                  {
-                        "att": 633,
-                        "def": 257,
-                        "hp": 1894
-                  },
-                  {
-                        "att": 644,
-                        "def": 261,
-                        "hp": 1922
-                  },
-                  {
-                        "att": 655,
-                        "def": 265,
-                        "hp": 1951
-                  },
-                  {
-                        "att": 666,
-                        "def": 268,
-                        "hp": 1980
-                  },
-                  {
-                        "att": 677,
-                        "def": 272,
-                        "hp": 2008
-                  },
-                  {
-                        "att": 688,
-                        "def": 276,
-                        "hp": 2037
-                  },
-                  {
-                        "att": 699,
-                        "def": 280,
-                        "hp": 2066
-                  },
-                  {
-                        "att": 710,
-                        "def": 284,
-                        "hp": 2094
-                  },
-                  {
-                        "att": 721,
-                        "def": 287,
-                        "hp": 2123
-                  },
-                  {
-                        "att": 732,
-                        "def": 291,
-                        "hp": 2151
-                  },
-                  {
-                        "att": 743,
-                        "def": 295,
-                        "hp": 2180
-                  },
-                  {
-                        "att": 754,
-                        "def": 299,
-                        "hp": 2209
-                  },
-                  {
-                        "att": 765,
-                        "def": 303,
-                        "hp": 2237
-                  },
-                  {
-                        "att": 776,
-                        "def": 306,
-                        "hp": 2266
-                  },
-                  {
-                        "att": 787,
-                        "def": 310,
-                        "hp": 2295
-                  },
-                  {
-                        "att": 798,
-                        "def": 314,
-                        "hp": 2323
-                  },
-                  {
-                        "att": 809,
-                        "def": 318,
-                        "hp": 2352
-                  },
-                  {
-                        "att": 820,
-                        "def": 322,
-                        "hp": 2381
-                  },
-                  {
-                        "att": 831,
-                        "def": 325,
-                        "hp": 2409
-                  },
-                  {
-                        "att": 842,
-                        "def": 329,
-                        "hp": 2438
-                  },
-                  {
-                        "att": 853,
-                        "def": 333,
-                        "hp": 2467
-                  },
-                  {
-                        "att": 864,
-                        "def": 337,
-                        "hp": 2495
-                  },
-                  {
-                        "att": 875,
-                        "def": 341,
-                        "hp": 2524
-                  },
-                  {
-                        "att": 886,
-                        "def": 345,
-                        "hp": 2553
-                  },
-                  {
-                        "att": 897,
-                        "def": 348,
-                        "hp": 2581
-                  },
-                  {
-                        "att": 908,
-                        "def": 352,
-                        "hp": 2610
-                  },
-                  {
-                        "att": 919,
-                        "def": 356,
-                        "hp": 2639
-                  },
-                  {
-                        "att": 930,
-                        "def": 360,
-                        "hp": 2667
-                  },
-                  {
-                        "att": 1034,
-                        "def": 395,
-                        "hp": 2943
-                  },
-                  {
-                        "att": 1047,
-                        "def": 399,
-                        "hp": 2979
-                  },
-                  {
-                        "att": 1061,
-                        "def": 404,
-                        "hp": 3015
-                  },
-                  {
-                        "att": 1075,
-                        "def": 409,
-                        "hp": 3051
-                  },
-                  {
-                        "att": 1089,
-                        "def": 414,
-                        "hp": 3086
-                  },
-                  {
-                        "att": 1102,
-                        "def": 418,
-                        "hp": 3122
-                  },
-                  {
-                        "att": 1116,
-                        "def": 423,
-                        "hp": 3158
-                  },
-                  {
-                        "att": 1130,
-                        "def": 428,
-                        "hp": 3194
-                  },
-                  {
-                        "att": 1143,
-                        "def": 433,
-                        "hp": 3230
-                  },
-                  {
-                        "att": 1157,
-                        "def": 437,
-                        "hp": 3265
-                  },
-                  {
-                        "att": 1171,
-                        "def": 442,
-                        "hp": 3301
-                  },
-                  {
-                        "att": 1185,
-                        "def": 447,
-                        "hp": 3337
-                  },
-                  {
-                        "att": 1198,
-                        "def": 452,
-                        "hp": 3373
-                  },
-                  {
-                        "att": 1212,
-                        "def": 456,
-                        "hp": 3409
-                  },
-                  {
-                        "att": 1226,
-                        "def": 461,
-                        "hp": 3444
-                  },
-                  {
-                        "att": 1240,
-                        "def": 466,
-                        "hp": 3480
-                  },
-                  {
-                        "att": 1253,
-                        "def": 471,
-                        "hp": 3516
-                  },
-                  {
-                        "att": 1267,
-                        "def": 475,
-                        "hp": 3552
-                  },
-                  {
-                        "att": 1281,
-                        "def": 480,
-                        "hp": 3588
-                  },
-                  {
-                        "att": 1295,
-                        "def": 485,
-                        "hp": 3624
-                  },
-                  {
-                        "att": 1308,
-                        "def": 490,
-                        "hp": 3659
-                  },
-                  {
-                        "att": 1322,
-                        "def": 495,
-                        "hp": 3695
-                  },
-                  {
-                        "att": 1336,
-                        "def": 499,
-                        "hp": 3731
-                  },
-                  {
-                        "att": 1349,
-                        "def": 504,
-                        "hp": 3767
-                  },
-                  {
-                        "att": 1363,
-                        "def": 509,
-                        "hp": 3803
-                  },
-                  {
-                        "att": 1377,
-                        "def": 514,
-                        "hp": 3838
-                  },
-                  {
-                        "att": 1391,
-                        "def": 518,
-                        "hp": 3874
-                  },
-                  {
-                        "att": 1404,
-                        "def": 523,
-                        "hp": 3910
-                  },
-                  {
-                        "att": 1418,
-                        "def": 528,
-                        "hp": 3946
-                  },
-                  {
-                        "att": 1432,
-                        "def": 533,
-                        "hp": 3982
-                  },
-                  {
-                        "att": 1446,
-                        "def": 537,
-                        "hp": 4018
-                  },
-                  {
-                        "att": 1459,
-                        "def": 542,
-                        "hp": 4053
-                  },
-                  {
-                        "att": 1473,
-                        "def": 547,
-                        "hp": 4089
-                  },
-                  {
-                        "att": 1487,
-                        "def": 552,
-                        "hp": 4125
-                  },
-                  {
-                        "att": 1501,
-                        "def": 556,
-                        "hp": 4161
-                  },
-                  {
-                        "att": 1514,
-                        "def": 561,
-                        "hp": 4197
-                  },
-                  {
-                        "att": 1528,
-                        "def": 566,
-                        "hp": 4232
-                  },
-                  {
-                        "att": 1542,
-                        "def": 571,
-                        "hp": 4268
-                  },
-                  {
-                        "att": 1555,
-                        "def": 575,
-                        "hp": 4304
-                  },
-                  {
-                        "att": 1569,
-                        "def": 580,
-                        "hp": 4340
-                  },
-                  {
-                        "att": 1720,
-                        "def": 634,
-                        "hp": 4747
-                  },
-                  {
-                        "att": 1730,
-                        "def": 637,
-                        "hp": 4774
-                  },
-                  {
-                        "att": 1740,
-                        "def": 641,
-                        "hp": 4800
-                  },
-                  {
-                        "att": 1750,
-                        "def": 645,
-                        "hp": 4827
-                  },
-                  {
-                        "att": 1761,
-                        "def": 648,
-                        "hp": 4854
-                  },
-                  {
-                        "att": 1771,
-                        "def": 652,
-                        "hp": 4881
-                  },
-                  {
-                        "att": 1781,
-                        "def": 655,
-                        "hp": 4908
-                  },
-                  {
-                        "att": 1792,
-                        "def": 659,
-                        "hp": 4935
-                  },
-                  {
-                        "att": 1802,
-                        "def": 662,
-                        "hp": 4962
-                  },
-                  {
-                        "att": 1812,
-                        "def": 666,
-                        "hp": 4989
-                  },
-                  {
-                        "att": 1823,
-                        "def": 670,
-                        "hp": 5015
-                  },
-                  {
-                        "att": 1833,
-                        "def": 673,
-                        "hp": 5042
-                  },
-                  {
-                        "att": 1843,
-                        "def": 677,
-                        "hp": 5069
-                  },
-                  {
-                        "att": 1853,
-                        "def": 680,
-                        "hp": 5096
-                  },
-                  {
-                        "att": 1864,
-                        "def": 684,
-                        "hp": 5123
-                  },
-                  {
-                        "att": 1874,
-                        "def": 687,
-                        "hp": 5150
-                  },
-                  {
-                        "att": 1884,
-                        "def": 691,
-                        "hp": 5177
-                  },
-                  {
-                        "att": 1895,
-                        "def": 695,
-                        "hp": 5203
-                  },
-                  {
-                        "att": 1905,
-                        "def": 698,
-                        "hp": 5230
-                  },
-                  {
-                        "att": 1915,
-                        "def": 702,
-                        "hp": 5257
-                  },
-                  {
-                        "att": 1926,
-                        "def": 705,
-                        "hp": 5284
-                  },
-                  {
-                        "att": 1936,
-                        "def": 709,
-                        "hp": 5311
-                  },
-                  {
-                        "att": 1946,
-                        "def": 712,
-                        "hp": 5338
-                  },
-                  {
-                        "att": 1956,
-                        "def": 716,
-                        "hp": 5365
-                  },
-                  {
-                        "att": 1967,
-                        "def": 720,
-                        "hp": 5391
-                  },
-                  {
-                        "att": 1977,
-                        "def": 723,
-                        "hp": 5418
-                  },
-                  {
-                        "att": 1987,
-                        "def": 727,
-                        "hp": 5445
-                  },
-                  {
-                        "att": 1998,
-                        "def": 730,
-                        "hp": 5472
-                  },
-                  {
-                        "att": 2008,
-                        "def": 734,
-                        "hp": 5499
-                  },
-                  {
-                        "att": 2018,
-                        "def": 737,
-                        "hp": 5526
-                  },
-                  {
-                        "att": 2029,
-                        "def": 741,
-                        "hp": 5553
-                  },
-                  {
-                        "att": 2039,
-                        "def": 745,
-                        "hp": 5579
-                  },
-                  {
-                        "att": 2049,
-                        "def": 748,
-                        "hp": 5606
-                  },
-                  {
-                        "att": 2059,
-                        "def": 752,
-                        "hp": 5633
-                  },
-                  {
-                        "att": 2070,
-                        "def": 755,
-                        "hp": 5660
-                  },
-                  {
-                        "att": 2080,
-                        "def": 759,
-                        "hp": 5687
-                  },
-                  {
-                        "att": 2090,
-                        "def": 762,
-                        "hp": 5714
-                  },
-                  {
-                        "att": 2101,
-                        "def": 766,
-                        "hp": 5741
-                  },
-                  {
-                        "att": 2111,
-                        "def": 770,
-                        "hp": 5768
-                  },
-                  {
-                        "att": 2121,
-                        "def": 773,
-                        "hp": 5794
-                  },
-                  {
-                        "att": 2132,
-                        "def": 777,
-                        "hp": 5821
-                  },
-                  {
-                        "att": 2142,
-                        "def": 780,
-                        "hp": 5848
-                  },
-                  {
-                        "att": 2152,
-                        "def": 784,
-                        "hp": 5875
-                  },
-                  {
-                        "att": 2162,
-                        "def": 787,
-                        "hp": 5902
-                  },
-                  {
-                        "att": 2173,
-                        "def": 791,
-                        "hp": 5929
-                  },
-                  {
-                        "att": 2183,
-                        "def": 795,
-                        "hp": 5956
-                  },
-                  {
-                        "att": 2193,
-                        "def": 798,
-                        "hp": 5982
-                  },
-                  {
-                        "att": 2204,
-                        "def": 802,
-                        "hp": 6009
-                  },
-                  {
-                        "att": 2214,
-                        "def": 805,
-                        "hp": 6036
-                  },
-                  {
-                        "att": 2224,
-                        "def": 809,
-                        "hp": 6063
-                  }
-            ]
-      }
+ "name": "Jomu",
+ "faction": "Rediesel Wrench",
+ "element_main": "Forest",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Detonator",
+ "skill": {
+  "name": "Jomu Wind Up Slam",
+  "cd": "0 Turn",
+  "description": [
+   "Deals 150% damage to 1 surrounding cluster. Damage is increased to 150% if there is only 1 enemy.",
+   "Deals 150% damage to 1 surrounding cluster. Damage is increased to 200% if there is only 1 enemy."
+  ]
+ },
+ "equip": {
+  "name": "Sundry Knife",
+  "passive": "Performer",
+  "description": [
+   [
+    "Increases Chain Combo damage by 20% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 20% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 50% when the Active Skill is ready."
+   ],
+   [
+    "Increases Chain Combo damage by 20% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 20% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 30% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 40% when the Active Skill is ready.",
+    "Increases Chain Combo damage by 50% when the Active Skill is ready."
+   ]
+  ],
+  "introduction": "Jomu's blade, stored in a cargo container. Lightweight and easy to both wield and carry. After years of experience, Jomu knows exactly how to use it to maximize his strength and wreak havoc on the battlefield."
+ },
+ "chain": {
+  "name": "Roaming Blade",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 140% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 140% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Removes Active Skill cooldown if the target is killed with the skill.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Essence",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Chain Combo damage by 50% when the Active Skill is ready."
+  },
+  {
+   "material": [
+    "Forest Potion II",
+    "Forest Crystal Shard",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 150% damage to 1 surrounding cluster. Damage is increased to 150% if there is only 1 enemy.",
+   "after": "Deals 150% damage to 1 surrounding cluster. Damage is increased to 200% if there is only 1 enemy."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 611,
+    "def": 249,
+    "hp": 1836
+   },
+   {
+    "att": 622,
+    "def": 253,
+    "hp": 1865
+   },
+   {
+    "att": 633,
+    "def": 257,
+    "hp": 1894
+   },
+   {
+    "att": 644,
+    "def": 261,
+    "hp": 1922
+   },
+   {
+    "att": 655,
+    "def": 265,
+    "hp": 1951
+   },
+   {
+    "att": 666,
+    "def": 268,
+    "hp": 1980
+   },
+   {
+    "att": 677,
+    "def": 272,
+    "hp": 2008
+   },
+   {
+    "att": 688,
+    "def": 276,
+    "hp": 2037
+   },
+   {
+    "att": 699,
+    "def": 280,
+    "hp": 2066
+   },
+   {
+    "att": 710,
+    "def": 284,
+    "hp": 2094
+   },
+   {
+    "att": 721,
+    "def": 287,
+    "hp": 2123
+   },
+   {
+    "att": 732,
+    "def": 291,
+    "hp": 2151
+   },
+   {
+    "att": 743,
+    "def": 295,
+    "hp": 2180
+   },
+   {
+    "att": 754,
+    "def": 299,
+    "hp": 2209
+   },
+   {
+    "att": 765,
+    "def": 303,
+    "hp": 2237
+   },
+   {
+    "att": 776,
+    "def": 306,
+    "hp": 2266
+   },
+   {
+    "att": 787,
+    "def": 310,
+    "hp": 2295
+   },
+   {
+    "att": 798,
+    "def": 314,
+    "hp": 2323
+   },
+   {
+    "att": 809,
+    "def": 318,
+    "hp": 2352
+   },
+   {
+    "att": 820,
+    "def": 322,
+    "hp": 2381
+   },
+   {
+    "att": 831,
+    "def": 325,
+    "hp": 2409
+   },
+   {
+    "att": 842,
+    "def": 329,
+    "hp": 2438
+   },
+   {
+    "att": 853,
+    "def": 333,
+    "hp": 2467
+   },
+   {
+    "att": 864,
+    "def": 337,
+    "hp": 2495
+   },
+   {
+    "att": 875,
+    "def": 341,
+    "hp": 2524
+   },
+   {
+    "att": 886,
+    "def": 345,
+    "hp": 2553
+   },
+   {
+    "att": 897,
+    "def": 348,
+    "hp": 2581
+   },
+   {
+    "att": 908,
+    "def": 352,
+    "hp": 2610
+   },
+   {
+    "att": 919,
+    "def": 356,
+    "hp": 2639
+   },
+   {
+    "att": 930,
+    "def": 360,
+    "hp": 2667
+   },
+   {
+    "att": 1034,
+    "def": 395,
+    "hp": 2943
+   },
+   {
+    "att": 1047,
+    "def": 399,
+    "hp": 2979
+   },
+   {
+    "att": 1061,
+    "def": 404,
+    "hp": 3015
+   },
+   {
+    "att": 1075,
+    "def": 409,
+    "hp": 3051
+   },
+   {
+    "att": 1089,
+    "def": 414,
+    "hp": 3086
+   },
+   {
+    "att": 1102,
+    "def": 418,
+    "hp": 3122
+   },
+   {
+    "att": 1116,
+    "def": 423,
+    "hp": 3158
+   },
+   {
+    "att": 1130,
+    "def": 428,
+    "hp": 3194
+   },
+   {
+    "att": 1143,
+    "def": 433,
+    "hp": 3230
+   },
+   {
+    "att": 1157,
+    "def": 437,
+    "hp": 3265
+   },
+   {
+    "att": 1171,
+    "def": 442,
+    "hp": 3301
+   },
+   {
+    "att": 1185,
+    "def": 447,
+    "hp": 3337
+   },
+   {
+    "att": 1198,
+    "def": 452,
+    "hp": 3373
+   },
+   {
+    "att": 1212,
+    "def": 456,
+    "hp": 3409
+   },
+   {
+    "att": 1226,
+    "def": 461,
+    "hp": 3444
+   },
+   {
+    "att": 1240,
+    "def": 466,
+    "hp": 3480
+   },
+   {
+    "att": 1253,
+    "def": 471,
+    "hp": 3516
+   },
+   {
+    "att": 1267,
+    "def": 475,
+    "hp": 3552
+   },
+   {
+    "att": 1281,
+    "def": 480,
+    "hp": 3588
+   },
+   {
+    "att": 1295,
+    "def": 485,
+    "hp": 3624
+   },
+   {
+    "att": 1308,
+    "def": 490,
+    "hp": 3659
+   },
+   {
+    "att": 1322,
+    "def": 495,
+    "hp": 3695
+   },
+   {
+    "att": 1336,
+    "def": 499,
+    "hp": 3731
+   },
+   {
+    "att": 1349,
+    "def": 504,
+    "hp": 3767
+   },
+   {
+    "att": 1363,
+    "def": 509,
+    "hp": 3803
+   },
+   {
+    "att": 1377,
+    "def": 514,
+    "hp": 3838
+   },
+   {
+    "att": 1391,
+    "def": 518,
+    "hp": 3874
+   },
+   {
+    "att": 1404,
+    "def": 523,
+    "hp": 3910
+   },
+   {
+    "att": 1418,
+    "def": 528,
+    "hp": 3946
+   },
+   {
+    "att": 1432,
+    "def": 533,
+    "hp": 3982
+   },
+   {
+    "att": 1446,
+    "def": 537,
+    "hp": 4018
+   },
+   {
+    "att": 1459,
+    "def": 542,
+    "hp": 4053
+   },
+   {
+    "att": 1473,
+    "def": 547,
+    "hp": 4089
+   },
+   {
+    "att": 1487,
+    "def": 552,
+    "hp": 4125
+   },
+   {
+    "att": 1501,
+    "def": 556,
+    "hp": 4161
+   },
+   {
+    "att": 1514,
+    "def": 561,
+    "hp": 4197
+   },
+   {
+    "att": 1528,
+    "def": 566,
+    "hp": 4232
+   },
+   {
+    "att": 1542,
+    "def": 571,
+    "hp": 4268
+   },
+   {
+    "att": 1555,
+    "def": 575,
+    "hp": 4304
+   },
+   {
+    "att": 1569,
+    "def": 580,
+    "hp": 4340
+   },
+   {
+    "att": 1720,
+    "def": 634,
+    "hp": 4747
+   },
+   {
+    "att": 1730,
+    "def": 637,
+    "hp": 4774
+   },
+   {
+    "att": 1740,
+    "def": 641,
+    "hp": 4800
+   },
+   {
+    "att": 1750,
+    "def": 645,
+    "hp": 4827
+   },
+   {
+    "att": 1761,
+    "def": 648,
+    "hp": 4854
+   },
+   {
+    "att": 1771,
+    "def": 652,
+    "hp": 4881
+   },
+   {
+    "att": 1781,
+    "def": 655,
+    "hp": 4908
+   },
+   {
+    "att": 1792,
+    "def": 659,
+    "hp": 4935
+   },
+   {
+    "att": 1802,
+    "def": 662,
+    "hp": 4962
+   },
+   {
+    "att": 1812,
+    "def": 666,
+    "hp": 4989
+   },
+   {
+    "att": 1823,
+    "def": 670,
+    "hp": 5015
+   },
+   {
+    "att": 1833,
+    "def": 673,
+    "hp": 5042
+   },
+   {
+    "att": 1843,
+    "def": 677,
+    "hp": 5069
+   },
+   {
+    "att": 1853,
+    "def": 680,
+    "hp": 5096
+   },
+   {
+    "att": 1864,
+    "def": 684,
+    "hp": 5123
+   },
+   {
+    "att": 1874,
+    "def": 687,
+    "hp": 5150
+   },
+   {
+    "att": 1884,
+    "def": 691,
+    "hp": 5177
+   },
+   {
+    "att": 1895,
+    "def": 695,
+    "hp": 5203
+   },
+   {
+    "att": 1905,
+    "def": 698,
+    "hp": 5230
+   },
+   {
+    "att": 1915,
+    "def": 702,
+    "hp": 5257
+   },
+   {
+    "att": 1926,
+    "def": 705,
+    "hp": 5284
+   },
+   {
+    "att": 1936,
+    "def": 709,
+    "hp": 5311
+   },
+   {
+    "att": 1946,
+    "def": 712,
+    "hp": 5338
+   },
+   {
+    "att": 1956,
+    "def": 716,
+    "hp": 5365
+   },
+   {
+    "att": 1967,
+    "def": 720,
+    "hp": 5391
+   },
+   {
+    "att": 1977,
+    "def": 723,
+    "hp": 5418
+   },
+   {
+    "att": 1987,
+    "def": 727,
+    "hp": 5445
+   },
+   {
+    "att": 1998,
+    "def": 730,
+    "hp": 5472
+   },
+   {
+    "att": 2008,
+    "def": 734,
+    "hp": 5499
+   },
+   {
+    "att": 2018,
+    "def": 737,
+    "hp": 5526
+   },
+   {
+    "att": 2029,
+    "def": 741,
+    "hp": 5553
+   },
+   {
+    "att": 2039,
+    "def": 745,
+    "hp": 5579
+   },
+   {
+    "att": 2049,
+    "def": 748,
+    "hp": 5606
+   },
+   {
+    "att": 2059,
+    "def": 752,
+    "hp": 5633
+   },
+   {
+    "att": 2070,
+    "def": 755,
+    "hp": 5660
+   },
+   {
+    "att": 2080,
+    "def": 759,
+    "hp": 5687
+   },
+   {
+    "att": 2090,
+    "def": 762,
+    "hp": 5714
+   },
+   {
+    "att": 2101,
+    "def": 766,
+    "hp": 5741
+   },
+   {
+    "att": 2111,
+    "def": 770,
+    "hp": 5768
+   },
+   {
+    "att": 2121,
+    "def": 773,
+    "hp": 5794
+   },
+   {
+    "att": 2132,
+    "def": 777,
+    "hp": 5821
+   },
+   {
+    "att": 2142,
+    "def": 780,
+    "hp": 5848
+   },
+   {
+    "att": 2152,
+    "def": 784,
+    "hp": 5875
+   },
+   {
+    "att": 2162,
+    "def": 787,
+    "hp": 5902
+   },
+   {
+    "att": 2173,
+    "def": 791,
+    "hp": 5929
+   },
+   {
+    "att": 2183,
+    "def": 795,
+    "hp": 5956
+   },
+   {
+    "att": 2193,
+    "def": 798,
+    "hp": 5982
+   },
+   {
+    "att": 2204,
+    "def": 802,
+    "hp": 6009
+   },
+   {
+    "att": 2214,
+    "def": 805,
+    "hp": 6036
+   },
+   {
+    "att": 2224,
+    "def": 809,
+    "hp": 6063
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   },
+   {
+    "name": "Backpacker",
+    "effect": "When deployed to the Resource Station, increases the Carrier's production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Jomu",
+     "Amy"
+    ],
+    "chat": [
+     {
+      "character": "Jomu:",
+      "text": "Lady Knight, are you interested in the \u2013Knight's Guide\u2013?"
+     },
+     {
+      "character": "Amy:",
+      "text": "Huh? What's that?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "It's a handbook specially written by the noblest and bravest knights, for knight initiates."
+     },
+     {
+      "character": "Jomu:",
+      "text": "It's full of valuable experience, honest guidance, and rare autographs of the land's most renowned knights."
+     },
+     {
+      "character": "Jomu:",
+      "text": "So, how about it? Wanna buy a copy?"
+     },
+     {
+      "character": "Amy:",
+      "text": "I want to... But it must be really expensive, right?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "Ah... Well, for a lovely young lady such as yourself, of course I'd be willing to offer a discount."
+     },
+     {
+      "character": "Jomu:",
+      "text": "The original price is 9,998 Nightium... but it's only 9,997 Nightium for you!"
+     },
+     {
+      "character": "Amy:",
+      "text": "I saw this book in the Lumopolis Library... It was only priced at 35 Nightium."
+     },
+     {
+      "character": "Jomu:",
+      "text": "Huh? You've... seen it before?"
+     },
+     {
+      "character": "Amy:",
+      "text": "Wait, I get it now... You unscrupulous charlatan! I'll arrest you in the name of the knight's code!"
+     },
+     {
+      "character": "Jomu:",
+      "text": "I'm out of here!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Jomu",
+     "Kleken"
+    ],
+    "chat": [
+     {
+      "character": "Jomu:",
+      "text": "Now then, my friend, how would you like to see something truly amazing?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "Found in the furthest reaches of the Rediesel Desert, I present to you... A sandworm coin!"
+     },
+     {
+      "character": "Kleken:",
+      "text": "A sandworm coin? I've never heard of anything like that..."
+     },
+     {
+      "character": "Jomu:",
+      "text": "And for good reason, too! There is but a single one of these in all of Astra!"
+     },
+     {
+      "character": "Jomu:",
+      "text": "It would lose even more value, if the whole world had known of it."
+     },
+     {
+      "character": "Kleken:",
+      "text": "Is that so? So how much is it worth?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "That all depends on how sincere you are about it, my friend."
+     },
+     {
+      "character": "Kleken:",
+      "text": "Ha... Hahaha! Putting your faith in my sincerity isn't something I'd do."
+     },
+     {
+      "character": "Kleken:",
+      "text": "If I told you I absolutely, positively, 100% did not want it, would you still sell it to me?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "Please, my friend. I can see how you truly feel!"
+     },
+     {
+      "character": "Jomu:",
+      "text": "For this beautiful, one-of-a-kind sandworm coin that I'm practically giving away... I only ask for a modest 5,556 Nightium. Do we have a deal?"
+     },
+     {
+      "character": "Kleken:",
+      "text": "No problem, here you go."
+     },
+     {
+      "character": "Jomu:",
+      "text": "Wonderful!"
+     },
+     {
+      "character": "Kleken:",
+      "text": "(Wait a minute... This coin... It's just a flat rock!)"
+     },
+     {
+      "character": "Jomu:",
+      "text": "(Hang on... This money... It's counterfeit!)"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Although we really do need more combat power right now, and this person who called himself Jomu has promised to fight for us, he looks really suspicious to me!I seem to have heard him whisper something like: \"Someone who owns such a big airship must be rich\" when he was moving away from us. What a huge misunderstanding. The truth is, this Colossus isn't our private property, and we are not as rich as he thinks... However, %s had on such an interesting expression asked by the other party to pay. Naturally, I've done all the introducing I needed to, and I think our new leader should take care of the other things personally.I also have some doubts. As a businessman, I really wonder how he makes money if he sets such outrageous prices for his goods? Would anyone really pay 50,000 gold for a roll of cloth? It even looks like someone had used that cloth before! Unbelievable!\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "As expected of my dear boss! I think you're really awesome for owning such a big airship! Wait, are you saying the airship isn't yours? And you aren't rich? Oh my goodness! Boss, you're the humblest person I've ever met. Don't worry, I get it, we shouldn't flaunt wealth.I started working for the guild a long time ago. I assure you that I have a professional sales attitude, know everything you need to know about my goods, and have the best after-sales service you'll ever get. These goods are all great value for your money, and I've collected all of them in anticipation of meeting you. I decided to follow you from the moment we met. Have you heard of service consumption before? It's simple, you just have to give me a hundred gold whenever you feel great. For example, you smiled happily when I helped you help others today, right? Please settle the purchase cost and the service fee at one go."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "My dear boss, I apologize for the prior misunderstanding. It turns out the Colossus isn't your private property. No wonder I always found you to be different from those chubby merchants... It doesn't matter though. Given your identity, it's a piece of cake to line your pockets with money. I believe you know the importance of money. You need it to buy the resources you need in life, a house to live in, the time of others, life-saving medicines, the opportunities to prolong the lives of your relatives, and even ways to stay away from wars. Gold is still very useful even in times of war. The reasons mentioned above are the values of money that I know of. It's something that allowed me to spend more time with my mother.If you need me to, I am more than happy to share with you ways in which you can make money from others. The first thing you need to do is to find someone that looks wealthy. It would be best if this person is a jerk. After that, you need to find out what they like and prepare products with high-profit margins... As for the rest, you'll find out after I get my consulting fee."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "What's wrong, my dear boss? You're curious about why I like money so much?Do you even have to ask? You can do so much more compared to the poor. What? Money can't buy true love? My naive boss, what you said has some truth in it, but you must be careful of the temptation of money. In the face of money, sincerity might not come first. Hey, why are you looking at me like that? Although I like money a lot, I can still distinguish between good and evil. This Colossus you control is always with you, right? I once had two partners who were like that, but maybe such bonds shouldn't exist in times of war. A money-grubber, betrayed by money itself. How ridiculous.You don't get it? It doesn't matter if you don't get it as I've told you everything I need to say. And I won't charge you this time."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Rediesel Wrench is so popular! This undeveloped market is filling my pockets every day!",
+  "Those truth-seekers really don't understand the idea that \"what is free costs the most\"? How pathetic.",
+  "Pay up!",
+  "Whole bunch of freeloaders... Do they even know the merits of money?",
+  "A good skill is valuable, so I make sure that I have a good relationship with her, of course!",
+  "A non-animal pretending to be an animal with an animal head? Unbelievable!",
+  "Let me introduce myself. I love cute animals, money, and things that are priceless.",
+  "Inquiry order received. Let me answer you: I resent greed.",
+  "I can tell by my merchant's eye that this powerful Colossus dignifies you, and must be expensive!",
+  "Rediesel snacks, iguana-on-a-stick... One for you?",
+  "Dear Boss, for a hundred thousand gold, I'll be your little puppy. I'd love to show you how my tail waggles if I could!",
+  "Awww, don't be sad, how about I give you a little discount...",
+  "Here's the bill for the victory!",
+  "Look here, Boss!",
+  "Now, that's a nice blade!",
+  "A fierce attack? Coming right up!",
+  "Happy New Year! That'll be ten thousand gold!",
+  "By the Boss' orders!",
+  "It's all for my dear Boss, of course!",
+  "Sales skills equal profits.",
+  "Time is money... But as long as I am with my dear Boss, I know you will reimburse me!",
+  "More to earn!",
+  "Alchemy Stars!",
+  "Oh, darn it. Boss, your smile pierces my soul! Please take out your wallet and show everyone how lucky I am to be serving you, Boss!",
+  "Dear Boss, the animals are extremely adorable, definitely worthy of your money! I only wish I could be the Boss' puppy in my next life!",
+  "Come check out what I have in my backpack! If they're not to your satisfaction, I can also sell you my time for today, for only this amount, Boss!",
+  "Come see me if you need anything. I am no longer someone powerless. Whether it's weapons and shields, I'll always offer you a fair price!",
+  "Hundred Nightium turn my head; thousand Nightium open my mouth; ten thousand Nightium... Oh, how I love you so. All at a fair price, no worries.",
+  "Dear Boss, don't mind me being a chatterbox. It's only because I couldn't contain my love for you, especially when you're paying!",
+  "Boss, your kindness truly moves me. I hope I can always be by your side, especially when Boss wants to buy, buy, and buy!",
+  "There's nothing much I can offer you for free except for my undying loyalty. This I can promise!",
+  "Boss, service fee, ordering fee, miss-you-fee... Time to pay up!",
+  "Another good haul! What should I sell and to whom next?",
+  "Hm? I sense something... is it small animals? No! It's still money!",
+  "Boss! You're finally back! I've been properly billing while you were away!",
+  "Morning, Boss! What a beautiful day. Let me show you yesterday's bill.",
+  "Boss, want a meal? Some snacks? Or some entertainment?",
+  "Boss, why don't you go lie down a bit, or the numbers will start adding up again.",
+  "Haha! A new boss is here! Dear Boss, what can I get you? I have everything money can afford!",
+  "Maybe you'll give me something more valuable the next time?",
+  "Boss' smile is more valuable than this gift.",
+  "This is truly too valuable. How I wish for more of it from you!",
+  "Boss, thanks for always reminding me that I can't put a price on our friendship.",
+  "Pay me Boss, and I'll bite whoever you ask me to!",
+  "Discounted attacks! No refunds!",
+  "Do you have my money ready?",
+  "Beware, money stirs up evil... But I'm not like that, so you don't need to worry when paying me.",
+  "Get a puppy if you're lonely. Different from people, animals are so much less complex... Or you can just keep me!",
+  "Everyone pays, no one gets away\u266a"
+ ],
+ "skins": [],
+ "description": "A merchant from Rediesel Wrench. A typical money-grabbing trader, he never passes up an opportunity to turn a profit... Even when faced with some tough tasks, his short knife usually does the trick.",
+ "realName": "Jomu",
+ "nickname": "Swaggerwood",
+ "gender": "Male",
+ "height": "5'3''",
+ "birthday": "June 3",
+ "birthplace": "Scorpion Desert",
+ "style": "Item"
 }

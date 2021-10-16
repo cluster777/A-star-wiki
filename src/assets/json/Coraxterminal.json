@@ -1,0 +1,176 @@
+[
+ {
+  "start": [
+   {
+    "name": "Corax:",
+    "content": "Thank you for the new room!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Dr. Corax! Did you find it suitable?"
+   },
+   {
+    "name": "Corax:",
+    "content": "It's nice, except the restroom is a bit distant..."
+   },
+   {
+    "name": "Corax:",
+    "content": "And another thing, please don't call me Doctor."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, sorry."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is the restroom not close? I thought it was two doors down..."
+   },
+   {
+    "name": "Corax:",
+    "content": "Not very distant, but it's not convenient going back and forth."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Why do you need to go back and forth?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Was it something in the lunch you ate?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why do you need to go back and forth?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Corax:",
+      "content": "Because I have to."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But why would you wash your hands so often?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Was it something in the lunch you ate?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Corax:",
+      "content": "What are you talking about? I went to wash my hands."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But why would you wash your hands so often?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Corax:",
+    "content": "Hey, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Corax? This is a surprise..."
+   },
+   {
+    "name": "Corax:",
+    "content": "What, not excited to see me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Of course, I am..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I just never hear from you, is all."
+   },
+   {
+    "name": "Corax:",
+    "content": "You're right, I'm not a big fan of chatting through messages."
+   },
+   {
+    "name": "Corax:",
+    "content": "I just came by because I wanted to say thanks."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Thanks for what?"
+   },
+   {
+    "name": "Corax:",
+    "content": "For keeping the Colossus so clean and hygienic."
+   },
+   {
+    "name": "Corax:",
+    "content": "I'm sure it's all thanks to you and the hard work you put into it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're welcome, but actually..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Most of the credit should go to the Fireflies for cleaning the Colossus so well."
+   },
+   {
+    "name": "Corax:",
+    "content": "Speaking of the little buggers..."
+   },
+   {
+    "name": "Corax:",
+    "content": "Is there any way you can have them wash off with disinfectant before they start cleaning?"
+   },
+   {
+    "name": "Corax:",
+    "content": "Some people might feel uncomfortable if they don't clean themselves first, you know?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... I'll think about it. Thanks for the suggestion."
+   },
+   {
+    "name": "Corax:",
+    "content": "If you're serious about it, I'm willing to do it for you for free."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Th-That won't be necessary..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

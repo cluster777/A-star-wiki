@@ -1,0 +1,970 @@
+{
+ "title": "Testimonial Note",
+ "header": "As a witness, Jane watches all in silence, but without realizing everyone around her is also a witness to her heart of gold under a cold exterior.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Jane:",
+     "dialogue": "Sort by time first, then by faction."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Istvan Gang's files should be placed on top of Cloudrover Guild's trade intel..."
+    },
+    {
+     "char": "Jane is organizing files. The black briefcase she always carries with her is by the side, slightly open.",
+     "dialogue": "(Seems like a file fell out!)"
+    },
+    {
+     "char": "Files stuffed in it were bitten and torn up by the darkness of the briefcase's opening, as if they mistakenly entered a black hole.",
+     "dialogue": "Umbraton has been dealing with Illumina more and more recently. There's a ton of information about it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Jane didn't seem to notice, I should go help her...)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Pick up file",
+     "link": "1"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Jane, your file fell onto the floor, a... will."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Signed by Istvan..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?! The will of the Shadowlord?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Thank you, Navigator. No wonder the count was off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I didn't mean to read the file..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Don't worry about it. It's not a secret in Umbraton anyway."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "This has already existed since the Shadowlord assumed the position."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "He and death keep each other company. To him, the end is inevitable..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "It could happen at any time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I never expected the effortless Shadowlord to be so pessimistic about life..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "No, it's not pessimism but being realistic."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm, is that what you think? I didn't take you to be someone who'd make comments about other people."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "You're right, I shouldn't make comments. As a Witness, I just need to witness."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "But when I talk to you, I speak my mind without realizing it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Witness\"?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "It's my job."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "My main responsibility involves faithfully recording everything that happens."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "From factional changes and astronomical alternations to gossips and daily happenings."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I receive a lot of information, but I manage to always keep calm, rational and objective."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Also, sometimes I would get paid to help Sheol record Cloudrover Guild's loans and transactions."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "It's my side business."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sounds complicated."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Basically, I collect and process intel."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "If there's something that you'd like to know, I can tell you if they're innocuous."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "They have given me permission, so you don't have to worry."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Would like to know Vice's height",
+     "link": "2"
+    },
+    {
+     "text": "Would like to know Carleen's birthday",
+     "link": "3"
+    },
+    {
+     "text": "Would like to know Jane's information",
+     "link": "4"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Jane:",
+     "dialogue": "\"Vice, Co-Expedition Captain.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Born in the Illumina Federation, Lieutenant.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Her height is the standard 160 cm.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "By the way, Vice is 10 kg heavier than Carleen, mainly because she has a powerful tail."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just short answer questions, but I received too much information."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've also compiled intel on Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"The Navigator of Colossus - Navigator. Race: Caelestite.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Born with poor combat skills but is able to operate Colossus through sensing light path.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Has a rich inner world and is good at grasping the contradiction and focus of things.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Tends to push self, frequently overworked.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Oh yea, you have a habit of writing diaries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Is it possible for me to read your diary?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "A good Witness should learn from other people's recorded experiences."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "No problem",
+     "link": "6"
+    },
+    {
+     "text": "It's kind of...",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Jane:",
+     "dialogue": "\"Carleen, Captain of the Guardians of Lumopolis Gardens, second daughter of the Lord of Lumopolis.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Impartial and upright, she abhors evil and whole-heartedly believes in the existence of absolute justice.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Her birthday is on July 31.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "By the way, Carleen is 161cm, 1cm taller than Vice."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just short answer questions, but I received too much information."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've also compiled intel on Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"The Navigator of Colossus - Navigator. Race: Caelestite.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Born with poor combat skills but is able to operate Colossus through sensing light path.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Has a rich inner world and is good at grasping the contradiction and focus of things.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Tends to push self, frequently overworked.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Oh yea, you have a habit of writing diaries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Is it possible for me to read your diary?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "A good Witness should learn from other people's recorded experiences."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "No problem",
+     "link": "6"
+    },
+    {
+     "text": "It's kind of...",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Jane:",
+     "dialogue": "\"Jane, Umbraton's Witness, neutral and objective at all times.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"In a partnership with Istvan, and in an employment relationship with Sheol.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Suits and black briefcases are her hallmarks.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "By the way, the Chest of Mammon is just a regular chest, it's different from those coffins and white suitcases with monsters."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "... Who knew Navigator would be interested in me, I'm surprised."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just short answer questions, but I received too much information."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've also compiled intel on Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"The Navigator of Colossus - Navigator. Race: Caelestite.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Born with poor combat skills but is able to operate Colossus through sensing light path.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Has a rich inner world and is good at grasping the contradiction and focus of things.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Tends to push self, frequently overworked.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Oh yea, you have a habit of writing diaries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Is it possible for me to read your diary?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "A good Witness should learn from other people's recorded experiences."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "No problem",
+     "link": "6"
+    },
+    {
+     "text": "It's kind of...",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just short answer questions, but I received too much information."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've also compiled intel on Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"The Navigator of Colossus - Navigator. Race: Caelestite.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Born with poor combat skills but is able to operate Colossus through sensing light path.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Has a rich inner world and is good at grasping the contradiction and focus of things.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Tends to push self, frequently overworked.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Oh yea, you have a habit of writing diaries."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Is it possible for me to read your diary?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "A good Witness should learn from other people's recorded experiences."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "No problem",
+     "link": "6"
+    },
+    {
+     "text": "It's kind of...",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Jane:",
+     "dialogue": "They are your private records, yet you agreed to my request."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Navigator, you are kinder than I thought."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "In return, I'll show you my diary next time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Hand the diary to Jane*"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "... There are some study notes in it too."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Seems that Navigator has not stopped learning about the outside world even when living in the Colossus."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "These personal thoughts... are sometimes confused, but oftentimes hopeful."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "And the style is... readable while it paints a vivid picture."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Who knew Jane's so good at showering compliments? I think I might be blushing.)"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Are these your comment on everyone?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Connolly is both gentle and strong...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Hydrad looks scary but his actions are always heartwarming.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Leona is very mysterious, powerful, and has a unique personality...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Jane...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry Jane, that's not what I think..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "It's OK, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "You just faithfully recorded your thoughts, which is to be respected. It's not going to hurt me."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Plus, from the moment I chose to be a calm and rational Witness, I was prepared to keep a distance from people."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Thank you for your help. That's it for today."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've organized my files, we shall meet again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Jane, wait..."
+    },
+    {
+     "char": "A small note falls out of the diary.",
+     "dialogue": "Sorry, your note. This..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Actually, I've been meaning to thank you for what happened when the Colossus had that power outage."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Soroz was out of power, and Colossus suddenly plunged into darkness..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I didn't go repair Colossus right away."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's true. My records say \"Colossus had a power outage, Navigator was nervous.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I was alone in my room, and felt a little depressed, hesitant and lonely."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know why I felt like that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe I came to the realization that it wasn't easy leaving the place I've always stayed at."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Everyone feels like that sometimes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "But, somehow Hydrad's bottle rolled into my room."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That blue bottle that was giving off a dim glow made me feel better."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hydrad and the noisy Shadow Wolf appeared afterwards, immediately lifting my spirits."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Hydrad, a kind loner.\" Actually, he's very perceptive and good at sensing the atmosphere."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Not just Hydrad, you as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Capable of observing everything that's happening around you, even the slightest nuance, then silently reaching out with a helping hand."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's Jane who threw Hydrad's bottle into my room to lure him there, wasn't it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did Navigator see me?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I see. I'm not the only Witness. Everyone around me is also a Witness..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I seem to have a better understanding of who I am now."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Thank you, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Can I take this note with me? It's... very important to me."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Sure."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I know what you desire now. The Witness will note it."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Then see you next time, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Jane, wait! You dropped something!"
+    },
+    {
+     "char": "Jane is about to leave but another file falls out of the black briefcase.",
+     "dialogue": "There are too many files. The Chest of Mammon can't hold them all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, this one. The will of the Lord of Lumopolis."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "What? The Lord of Lumopolis wrote a will as well?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "No, I can't get my hands on his will, of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Shadowlord wrote this. It's obviously a prank."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "The Shadowlord has a... fun side to him? I'm overwhelmed by surprises today."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I'll tell you another intel then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Lord of Lumopolis is actually younger than the Shadowlord, and is a handsome guy without the beard."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "He looks like this... see?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Huh?!"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I was also shocked when I found out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But only a little shocked. I'm a professional Witness, after all."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "That's too much information. Let me digest them slowly..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Looks like it's not easy being an unbiased Witness."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Embarrassing..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Indeed. If there's no price, my request would be a rude demand."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I'll also share my diary with you in the future."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Hand the diary to Jane*"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "... There are some study notes in it too."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Seems that Navigator has not stopped learning about the outside world even when living in the Colossus."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "These personal thoughts... are sometimes confused, but oftentimes hopeful."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "And the style is... readable while it paints a vivid picture."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Who knew Jane's so good at showering compliments? I think I might be blushing.)"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Are these your comment on everyone?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Connolly is both gentle and strong...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Hydrad looks scary but his actions are always heartwarming.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Leona is very mysterious, powerful, and has a unique personality...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "\"Jane...\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry Jane, that's not what I think..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "It's OK, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "You just faithfully recorded your thoughts, which is to be respected. It's not going to hurt me."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Plus, from the moment I chose to be a calm and rational Witness, I was prepared to keep a distance from people."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Thank you for your help. That's it for today."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I've organized my files, we shall meet again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Jane, wait..."
+    },
+    {
+     "char": "A small note falls out of the diary.",
+     "dialogue": "Sorry, your note. This..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Actually, I've been meaning to thank you for what happened when the Colossus had that power outage."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Soroz was out of power, and Colossus suddenly plunged into darkness..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I didn't go repair Colossus right away."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's true. My records say \"Colossus had a power outage, Navigator was nervous.\""
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I was alone in my room, and felt a little depressed, hesitant and lonely."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know why I felt like that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe I came to the realization that it wasn't easy leaving the place I've always stayed at."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Everyone feels like that sometimes."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "But, somehow Hydrad's bottle rolled into my room."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That blue bottle that was giving off a dim glow made me feel better."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hydrad and the noisy Shadow Wolf appeared afterwards, immediately lifting my spirits."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Hydrad, a kind loner.\" Actually, he's very perceptive and good at sensing the atmosphere."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Not just Hydrad, you as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Capable of observing everything that's happening around you, even the slightest nuance, then silently reaching out with a helping hand."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's Jane who threw Hydrad's bottle into my room to lure him there, wasn't it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did Navigator see me?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I see. I'm not the only Witness. Everyone around me is also a Witness..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I seem to have a better understanding of who I am now."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Thank you, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Can I take this note with me? It's... very important to me."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Sure."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I know what you desire now. The Witness will note it."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Then see you next time, Navigator."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Jane, wait! You dropped something!"
+    },
+    {
+     "char": "Jane is about to leave but another file falls out of the black briefcase.",
+     "dialogue": "There are too many files. The Chest of Mammon can't hold them all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, this one. The will of the Lord of Lumopolis."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "What? The Lord of Lumopolis wrote a will as well?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "No, I can't get my hands on his will, of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Shadowlord wrote this. It's obviously a prank."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "The Shadowlord has a... fun side to him? I'm overwhelmed by surprises today."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I'll tell you another intel then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Lord of Lumopolis is actually younger than the Shadowlord, and is a handsome guy without the beard."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "He looks like this... see?"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Huh?!"
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "I was also shocked when I found out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But only a little shocked. I'm a professional Witness, after all."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "That's too much information. Let me digest them slowly..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Looks like it's not easy being an unbiased Witness."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,932 @@
+[
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "What are you doing?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Inspecting the Colossus."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, I'm on the Bridge."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Inspecting the Colossus."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Can I come too?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What's the matter? Are you bored?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Yeah, I think so."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So... any bright ideas to get rid of your boredom?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Well, yeah."
+     },
+     {
+      "name": "Revy:",
+      "content": "We're chatting, aren't we?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Sure, I'm on the Bridge."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "I see..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What's the matter? Are you bored?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Yeah, I think so."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So... any bright ideas to get rid of your boredom?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Well, yeah."
+     },
+     {
+      "name": "Revy:",
+      "content": "We're chatting, aren't we?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Off to inspect the Colossus again, you are?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yeah. It's my job."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not really... I was planning on going a little later..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yeah. It's my job."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Seems like you're working all the time."
+     },
+     {
+      "name": "Revy:",
+      "content": "That's why I took the liberty of doing your inspection for you today, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "The Colossus' fireflies are all hard at work now."
+     },
+     {
+      "name": "Revy:",
+      "content": "The lift has been activated 87 times."
+     },
+     {
+      "name": "Revy:",
+      "content": "People have been through the Bridge, 4 of them, coming and going."
+     },
+     {
+      "name": "Revy:",
+      "content": "Everything is running normal, they do."
+     },
+     {
+      "name": "Revy:",
+      "content": "Please hang out with me for a bit, you can."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Th-That's amazing, Revy!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So what do you want to do?"
+     },
+     {
+      "name": "Revy:",
+      "content": "I want to fight."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...That's not allowed on the Colossus!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Not really... I was planning on going a little later..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Looks like this is a set routine for you every day."
+     },
+     {
+      "name": "Revy:",
+      "content": "That's why I took the liberty of doing your inspection for you today, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "The Colossus' fireflies are all hard at work now."
+     },
+     {
+      "name": "Revy:",
+      "content": "The lift has been activated 87 times."
+     },
+     {
+      "name": "Revy:",
+      "content": "People have been through the Bridge, 4 of them, coming and going."
+     },
+     {
+      "name": "Revy:",
+      "content": "Everything is running normal, they do."
+     },
+     {
+      "name": "Revy:",
+      "content": "Please hang out with me for a bit, you can."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Th-That's amazing, Revy!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So what do you want to do?"
+     },
+     {
+      "name": "Revy:",
+      "content": "I want to fight."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...That's not allowed on the Colossus!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Here come I am!"
+   },
+   {
+    "name": "Revy:",
+    "content": "Super-strong I am, and I'm Revy."
+   },
+   {
+    "name": "Revy:",
+    "content": "That pilot guy, make sure you have a place to store my weapon! You do!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... I think so?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Cool."
+   },
+   {
+    "name": "Revy:",
+    "content": "A bunch of strange people onboard, I heard."
+   },
+   {
+    "name": "Revy:",
+    "content": "Wonder who's stronger, me or them?"
+   },
+   {
+    "name": "Revy:",
+    "content": "If you think they're stronger, where can I go to find out once and for all?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Alter-Blade is the best to kill Eclipsites and look cool, it is! Have you seen it before?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're stronger! And the main thing is that..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "We do not start any fights in or on the Colossus..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Making that clicking noise again, my sword..."
+   },
+   {
+    "name": "Revy:",
+    "content": "That means it's gotten even stronger."
+   },
+   {
+    "name": "Revy:",
+    "content": "I mean, it was already strong to begin with."
+   },
+   {
+    "name": "Revy:",
+    "content": "So when's the next battle? I can't wait!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I actually wish I could fight a little less..."
+   },
+   {
+    "name": "Revy:",
+    "content": "Scared, you are?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, I just think fighting is so painful. It always is..."
+   },
+   {
+    "name": "Revy:",
+    "content": "Fight more or fight less, it doesn't matter. Don't be scared, here I am, getting stronger!"
+   },
+   {
+    "name": "Revy:",
+    "content": "Also, I can protect you, I will!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not just me, but everyone who needs protection."
+   },
+   {
+    "name": "Revy:",
+    "content": "Then, protect everyone who needs protection, like you said..."
+   },
+   {
+    "name": "Revy:",
+    "content": "Now, try a few rounds, let me!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Like I've also said, no fighting allowed on the Colossus."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "I've gotten even stronger, for sure, I have!"
+   },
+   {
+    "name": "Revy:",
+    "content": "I like to go to the front line! Smash the enemies down, I can!"
+   },
+   {
+    "name": "Revy:",
+    "content": "But following your commands isn't all that bad, either..."
+   },
+   {
+    "name": "Revy:",
+    "content": "What a shame, we can't charge at the enemy together."
+   },
+   {
+    "name": "Revy:",
+    "content": "If you had a choice to command from afar or lead the charge, which would you choose?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I think I'd still prefer commanding from the rear."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'd choose to charge right in..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I think I'd still prefer commanding from the rear."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "That way, I can assess the battlefield more clearly, and help everyone out."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about you, Revy? Would you ever want to command from the sidelines?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Nah. Lead the charge, always! I was born to it, I am!"
+     },
+     {
+      "name": "Revy:",
+      "content": "Not to mention, I've gotten stronger than ever!"
+     },
+     {
+      "name": "Revy:",
+      "content": "Can we fight now? Just want to show you my power, I do!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not a chance! Don't even think about it!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'd choose to charge right in..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "I have never experienced that kind of freeing feeling of defeating the enemy with my own hands."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about you, Revy? Would you ever want to command from the sidelines?"
+     },
+     {
+      "name": "Revy:",
+      "content": "Nah. Lead the charge, always! I was born to it, I am!"
+     },
+     {
+      "name": "Revy:",
+      "content": "Not to mention, I've gotten stronger than ever!"
+     },
+     {
+      "name": "Revy:",
+      "content": "Can we fight now? Just want to show you my power, I do!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not a chance! Don't even think about it!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "The alarm went off this morning..."
+   },
+   {
+    "name": "Revy:",
+    "content": "So I shut it off."
+   },
+   {
+    "name": "Navigator:",
+    "content": "M-Morning, Revy..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is that why you were late?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Yep! And after that, I hid the alarm clock."
+   },
+   {
+    "name": "Revy:",
+    "content": "That way, I have an excuse for the lateness."
+   },
+   {
+    "name": "Revy:",
+    "content": "Only 23 minutes late! Not bad, huh?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's something, I guess..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Morning. Hungry. Need food."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning. You haven't eaten breakfast yet?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Streamlining speech, and practicing action description, I am."
+   },
+   {
+    "name": "Revy:",
+    "content": "Seeing you. I should say good morning."
+   },
+   {
+    "name": "Revy:",
+    "content": "If hungry. Eat spicy snacks."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's... a little too streamlined."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Eat lunch at the right time!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Working on another plan, Revy?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Yep! I'm a good soldier, I am. So I look towards the future."
+   },
+   {
+    "name": "Navigator:",
+    "content": "So where is this coming from?"
+   },
+   {
+    "name": "Revy:",
+    "content": "You haven't eaten lunch, have you?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Not yet, no."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Prepare to eat."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Not yet, no."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "You haven't grabbed your lunch yet, have you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "H-How'd you know?"
+     },
+     {
+      "name": "Revy:",
+      "content": "I accidentally dropped mine on the floor earlier."
+     },
+     {
+      "name": "Revy:",
+      "content": "So I ate yours, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "All gone!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Why do I feel so hungry, all of a sudden...?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Prepare to eat."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "You haven't grabbed your lunch yet, have you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "H-How'd you know?"
+     },
+     {
+      "name": "Revy:",
+      "content": "I accidentally dropped mine on the floor earlier."
+     },
+     {
+      "name": "Revy:",
+      "content": "So I ate yours, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "All gone!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Why do I feel so hungry, all of a sudden...?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Good afternoon, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon."
+   },
+   {
+    "name": "Revy:",
+    "content": "Just now, a very desert-style dish, I tried. It hit the spot!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh? That's nice, Revy..."
+   },
+   {
+    "name": "Revy:",
+    "content": "Jealous? Wanna try a bite?"
+   },
+   {
+    "name": "Revy:",
+    "content": "It's called Spicy Sandworm Surprise, or something like that..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I-Is that so...? Thanks, but I think I'll pass..."
+   },
+   {
+    "name": "Revy:",
+    "content": "What a pity."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Afternoon."
+   },
+   {
+    "name": "Revy:",
+    "content": "For the last few days, my cooking was insanely good, I did."
+   },
+   {
+    "name": "Revy:",
+    "content": "After dealing with a few failed experiments, a true master chef I am now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What kind of experiments?"
+   },
+   {
+    "name": "Revy:",
+    "content": "Colossus specialty: homemade spicy set!"
+   },
+   {
+    "name": "Revy:",
+    "content": "Only three bottles of different spicy-flavoring in one set!"
+   },
+   {
+    "name": "Revy:",
+    "content": "Wanna try it? It'll blow your mind, I promise."
+   },
+   {
+    "name": "Navigator:",
+    "content": "A-Actually, I'm feeling really full right now..."
+   },
+   {
+    "name": "Revy:",
+    "content": "Fine, next time then."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Off to bed. Good night!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night."
+   },
+   {
+    "name": "Revy:",
+    "content": "Why are you still up?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I was just getting ready to go to bed when I replied to you."
+   },
+   {
+    "name": "Revy:",
+    "content": "Why are you still up?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Because I was replying to your last message!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm getting ready for bed now!"
+   },
+   {
+    "name": "Revy:",
+    "content": "Why are you still up?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not replying to that. Good night, Revey."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "You asleep yet?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Almost."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Still working."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Almost."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Oh. In that case, I'm going to bed."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...I thought you needed something."
+     },
+     {
+      "name": "Revy:",
+      "content": "Not at all."
+     },
+     {
+      "name": "Revy:",
+      "content": "I simply wanted to know Caelestite's daily routine, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "Bye!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Bye."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Still working."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Oh. In that case, I'm going to bed."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...I thought you needed something."
+     },
+     {
+      "name": "Revy:",
+      "content": "Not at all."
+     },
+     {
+      "name": "Revy:",
+      "content": "I simply wanted to know Caelestite's daily routine, I did."
+     },
+     {
+      "name": "Revy:",
+      "content": "Bye!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Bye."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Revy:",
+    "content": "Too many... Too much..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What is it, Revy?"
+   },
+   {
+    "name": "Revy:",
+    "content": "You've sliced up a lot of those Eclipsites maggots recently, even more than me... Yes, much, much more than me!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Erm... Right."
+   },
+   {
+    "name": "Revy:",
+    "content": "1, 2, 3, 4, 5... It's really too many, too much. I lost count."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "It's okay, just don't count. You, erm, sliced up a lot, too."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I haven't been counting, anyway. Let's just say we sliced up about the same amount!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "It's okay, just don't count. You, erm, sliced up a lot, too."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Yes! I'll persist in my patrol, then!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's the spirit, Revy!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I haven't been counting, anyway. Let's just say we sliced up about the same amount!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Revy:",
+      "content": "Yes! I'll persist in my patrol, then!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's the spirit, Revy!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

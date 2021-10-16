@@ -1,1153 +1,1319 @@
 {
-      "name": "Louise",
-      "faction": "Northland",
-      "element_main": "Forest",
-      "element_sub": "Forest",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
-                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
-                  "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
-            ]
-      },
-      "equip": {
-            "name": "Prophecy & Fairy Tale",
-            "passive": "Thunderclap",
-            "description": [
-                  [
-                        "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
-                        "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
-                  ],
-                  [
-                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
-                  ],
-                  [
-                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
-                        "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 170% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 170% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 170% damage to 16 tiles in a radial shape."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Potion I",
-                        "Forest Flare Powder",
-                        "Pine Dew",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
-            },
-            {
-                  "material": [
-                        "Forest Flare Rock",
-                        "Forest Crystal Shard",
-                        "Pine Frost",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%.",
-                  "after": "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Forest Crystal Cluster",
-                        "Forest Potion II",
-                        "Tear of Pine",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
-                  "after": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 501,
-                        "def": 228,
-                        "hp": 1732
-                  },
-                  {
-                        "att": 511,
-                        "def": 231,
-                        "hp": 1761
-                  },
-                  {
-                        "att": 521,
-                        "def": 235,
-                        "hp": 1789
-                  },
-                  {
-                        "att": 531,
-                        "def": 238,
-                        "hp": 1818
-                  },
-                  {
-                        "att": 541,
-                        "def": 242,
-                        "hp": 1847
-                  },
-                  {
-                        "att": 552,
-                        "def": 245,
-                        "hp": 1875
-                  },
-                  {
-                        "att": 562,
-                        "def": 249,
-                        "hp": 1904
-                  },
-                  {
-                        "att": 572,
-                        "def": 252,
-                        "hp": 1932
-                  },
-                  {
-                        "att": 582,
-                        "def": 256,
-                        "hp": 1961
-                  },
-                  {
-                        "att": 592,
-                        "def": 259,
-                        "hp": 1990
-                  },
-                  {
-                        "att": 602,
-                        "def": 263,
-                        "hp": 2018
-                  },
-                  {
-                        "att": 612,
-                        "def": 266,
-                        "hp": 2047
-                  },
-                  {
-                        "att": 622,
-                        "def": 269,
-                        "hp": 2075
-                  },
-                  {
-                        "att": 632,
-                        "def": 273,
-                        "hp": 2104
-                  },
-                  {
-                        "att": 642,
-                        "def": 276,
-                        "hp": 2133
-                  },
-                  {
-                        "att": 652,
-                        "def": 280,
-                        "hp": 2161
-                  },
-                  {
-                        "att": 663,
-                        "def": 283,
-                        "hp": 2190
-                  },
-                  {
-                        "att": 673,
-                        "def": 287,
-                        "hp": 2219
-                  },
-                  {
-                        "att": 683,
-                        "def": 290,
-                        "hp": 2247
-                  },
-                  {
-                        "att": 693,
-                        "def": 294,
-                        "hp": 2276
-                  },
-                  {
-                        "att": 703,
-                        "def": 297,
-                        "hp": 2304
-                  },
-                  {
-                        "att": 713,
-                        "def": 301,
-                        "hp": 2333
-                  },
-                  {
-                        "att": 723,
-                        "def": 304,
-                        "hp": 2362
-                  },
-                  {
-                        "att": 733,
-                        "def": 308,
-                        "hp": 2390
-                  },
-                  {
-                        "att": 743,
-                        "def": 311,
-                        "hp": 2419
-                  },
-                  {
-                        "att": 753,
-                        "def": 315,
-                        "hp": 2447
-                  },
-                  {
-                        "att": 764,
-                        "def": 318,
-                        "hp": 2476
-                  },
-                  {
-                        "att": 774,
-                        "def": 321,
-                        "hp": 2505
-                  },
-                  {
-                        "att": 784,
-                        "def": 325,
-                        "hp": 2533
-                  },
-                  {
-                        "att": 794,
-                        "def": 328,
-                        "hp": 2562
-                  },
-                  {
-                        "att": 896,
-                        "def": 363,
-                        "hp": 2848
-                  },
-                  {
-                        "att": 909,
-                        "def": 367,
-                        "hp": 2883
-                  },
-                  {
-                        "att": 922,
-                        "def": 371,
-                        "hp": 2919
-                  },
-                  {
-                        "att": 934,
-                        "def": 376,
-                        "hp": 2955
-                  },
-                  {
-                        "att": 947,
-                        "def": 380,
-                        "hp": 2991
-                  },
-                  {
-                        "att": 959,
-                        "def": 384,
-                        "hp": 3026
-                  },
-                  {
-                        "att": 972,
-                        "def": 389,
-                        "hp": 3062
-                  },
-                  {
-                        "att": 985,
-                        "def": 393,
-                        "hp": 3098
-                  },
-                  {
-                        "att": 997,
-                        "def": 397,
-                        "hp": 3134
-                  },
-                  {
-                        "att": 1010,
-                        "def": 402,
-                        "hp": 3169
-                  },
-                  {
-                        "att": 1023,
-                        "def": 406,
-                        "hp": 3205
-                  },
-                  {
-                        "att": 1035,
-                        "def": 410,
-                        "hp": 3241
-                  },
-                  {
-                        "att": 1048,
-                        "def": 415,
-                        "hp": 3277
-                  },
-                  {
-                        "att": 1060,
-                        "def": 419,
-                        "hp": 3312
-                  },
-                  {
-                        "att": 1073,
-                        "def": 423,
-                        "hp": 3348
-                  },
-                  {
-                        "att": 1086,
-                        "def": 428,
-                        "hp": 3384
-                  },
-                  {
-                        "att": 1098,
-                        "def": 432,
-                        "hp": 3420
-                  },
-                  {
-                        "att": 1111,
-                        "def": 436,
-                        "hp": 3455
-                  },
-                  {
-                        "att": 1123,
-                        "def": 441,
-                        "hp": 3491
-                  },
-                  {
-                        "att": 1136,
-                        "def": 445,
-                        "hp": 3527
-                  },
-                  {
-                        "att": 1149,
-                        "def": 449,
-                        "hp": 3563
-                  },
-                  {
-                        "att": 1161,
-                        "def": 454,
-                        "hp": 3598
-                  },
-                  {
-                        "att": 1174,
-                        "def": 458,
-                        "hp": 3634
-                  },
-                  {
-                        "att": 1187,
-                        "def": 462,
-                        "hp": 3670
-                  },
-                  {
-                        "att": 1199,
-                        "def": 467,
-                        "hp": 3706
-                  },
-                  {
-                        "att": 1212,
-                        "def": 471,
-                        "hp": 3741
-                  },
-                  {
-                        "att": 1224,
-                        "def": 475,
-                        "hp": 3777
-                  },
-                  {
-                        "att": 1237,
-                        "def": 480,
-                        "hp": 3813
-                  },
-                  {
-                        "att": 1250,
-                        "def": 484,
-                        "hp": 3849
-                  },
-                  {
-                        "att": 1262,
-                        "def": 488,
-                        "hp": 3884
-                  },
-                  {
-                        "att": 1275,
-                        "def": 493,
-                        "hp": 3920
-                  },
-                  {
-                        "att": 1287,
-                        "def": 497,
-                        "hp": 3956
-                  },
-                  {
-                        "att": 1300,
-                        "def": 501,
-                        "hp": 3992
-                  },
-                  {
-                        "att": 1313,
-                        "def": 506,
-                        "hp": 4027
-                  },
-                  {
-                        "att": 1325,
-                        "def": 510,
-                        "hp": 4063
-                  },
-                  {
-                        "att": 1338,
-                        "def": 515,
-                        "hp": 4099
-                  },
-                  {
-                        "att": 1351,
-                        "def": 519,
-                        "hp": 4135
-                  },
-                  {
-                        "att": 1363,
-                        "def": 523,
-                        "hp": 4170
-                  },
-                  {
-                        "att": 1376,
-                        "def": 528,
-                        "hp": 4206
-                  },
-                  {
-                        "att": 1388,
-                        "def": 532,
-                        "hp": 4242
-                  },
-                  {
-                        "att": 1548,
-                        "def": 585,
-                        "hp": 4669
-                  },
-                  {
-                        "att": 1557,
-                        "def": 588,
-                        "hp": 4696
-                  },
-                  {
-                        "att": 1567,
-                        "def": 592,
-                        "hp": 4722
-                  },
-                  {
-                        "att": 1576,
-                        "def": 595,
-                        "hp": 4749
-                  },
-                  {
-                        "att": 1586,
-                        "def": 598,
-                        "hp": 4776
-                  },
-                  {
-                        "att": 1595,
-                        "def": 601,
-                        "hp": 4803
-                  },
-                  {
-                        "att": 1605,
-                        "def": 605,
-                        "hp": 4830
-                  },
-                  {
-                        "att": 1614,
-                        "def": 608,
-                        "hp": 4856
-                  },
-                  {
-                        "att": 1624,
-                        "def": 611,
-                        "hp": 4883
-                  },
-                  {
-                        "att": 1633,
-                        "def": 614,
-                        "hp": 4910
-                  },
-                  {
-                        "att": 1642,
-                        "def": 618,
-                        "hp": 4937
-                  },
-                  {
-                        "att": 1652,
-                        "def": 621,
-                        "hp": 4964
-                  },
-                  {
-                        "att": 1661,
-                        "def": 624,
-                        "hp": 4991
-                  },
-                  {
-                        "att": 1671,
-                        "def": 627,
-                        "hp": 5017
-                  },
-                  {
-                        "att": 1680,
-                        "def": 631,
-                        "hp": 5044
-                  },
-                  {
-                        "att": 1690,
-                        "def": 634,
-                        "hp": 5071
-                  },
-                  {
-                        "att": 1699,
-                        "def": 637,
-                        "hp": 5098
-                  },
-                  {
-                        "att": 1709,
-                        "def": 640,
-                        "hp": 5125
-                  },
-                  {
-                        "att": 1718,
-                        "def": 644,
-                        "hp": 5151
-                  },
-                  {
-                        "att": 1728,
-                        "def": 647,
-                        "hp": 5178
-                  },
-                  {
-                        "att": 1737,
-                        "def": 650,
-                        "hp": 5205
-                  },
-                  {
-                        "att": 1747,
-                        "def": 653,
-                        "hp": 5232
-                  },
-                  {
-                        "att": 1756,
-                        "def": 657,
-                        "hp": 5259
-                  },
-                  {
-                        "att": 1765,
-                        "def": 660,
-                        "hp": 5286
-                  },
-                  {
-                        "att": 1775,
-                        "def": 663,
-                        "hp": 5312
-                  },
-                  {
-                        "att": 1784,
-                        "def": 666,
-                        "hp": 5339
-                  },
-                  {
-                        "att": 1794,
-                        "def": 670,
-                        "hp": 5366
-                  },
-                  {
-                        "att": 1803,
-                        "def": 673,
-                        "hp": 5393
-                  },
-                  {
-                        "att": 1813,
-                        "def": 676,
-                        "hp": 5420
-                  },
-                  {
-                        "att": 1822,
-                        "def": 679,
-                        "hp": 5446
-                  },
-                  {
-                        "att": 1832,
-                        "def": 683,
-                        "hp": 5473
-                  },
-                  {
-                        "att": 1841,
-                        "def": 686,
-                        "hp": 5500
-                  },
-                  {
-                        "att": 1851,
-                        "def": 689,
-                        "hp": 5527
-                  },
-                  {
-                        "att": 1860,
-                        "def": 692,
-                        "hp": 5554
-                  },
-                  {
-                        "att": 1870,
-                        "def": 696,
-                        "hp": 5580
-                  },
-                  {
-                        "att": 1879,
-                        "def": 699,
-                        "hp": 5607
-                  },
-                  {
-                        "att": 1888,
-                        "def": 702,
-                        "hp": 5634
-                  },
-                  {
-                        "att": 1898,
-                        "def": 705,
-                        "hp": 5661
-                  },
-                  {
-                        "att": 1907,
-                        "def": 709,
-                        "hp": 5688
-                  },
-                  {
-                        "att": 1917,
-                        "def": 712,
-                        "hp": 5715
-                  },
-                  {
-                        "att": 1926,
-                        "def": 715,
-                        "hp": 5741
-                  },
-                  {
-                        "att": 1936,
-                        "def": 718,
-                        "hp": 5768
-                  },
-                  {
-                        "att": 1945,
-                        "def": 722,
-                        "hp": 5795
-                  },
-                  {
-                        "att": 1955,
-                        "def": 725,
-                        "hp": 5822
-                  },
-                  {
-                        "att": 1964,
-                        "def": 728,
-                        "hp": 5849
-                  },
-                  {
-                        "att": 1974,
-                        "def": 731,
-                        "hp": 5875
-                  },
-                  {
-                        "att": 1983,
-                        "def": 735,
-                        "hp": 5902
-                  },
-                  {
-                        "att": 1993,
-                        "def": 738,
-                        "hp": 5929
-                  },
-                  {
-                        "att": 2002,
-                        "def": 741,
-                        "hp": 5956
-                  },
-                  {
-                        "att": 2011,
-                        "def": 744,
-                        "hp": 5983
-                  },
-                  {
-                        "att": 2243,
-                        "def": 817,
-                        "hp": 6601
-                  },
-                  {
-                        "att": 2249,
-                        "def": 819,
-                        "hp": 6618
-                  },
-                  {
-                        "att": 2255,
-                        "def": 821,
-                        "hp": 6636
-                  },
-                  {
-                        "att": 2262,
-                        "def": 823,
-                        "hp": 6654
-                  },
-                  {
-                        "att": 2268,
-                        "def": 825,
-                        "hp": 6672
-                  },
-                  {
-                        "att": 2274,
-                        "def": 827,
-                        "hp": 6690
-                  },
-                  {
-                        "att": 2281,
-                        "def": 830,
-                        "hp": 6708
-                  },
-                  {
-                        "att": 2287,
-                        "def": 832,
-                        "hp": 6726
-                  },
-                  {
-                        "att": 2293,
-                        "def": 834,
-                        "hp": 6744
-                  },
-                  {
-                        "att": 2300,
-                        "def": 836,
-                        "hp": 6761
-                  },
-                  {
-                        "att": 2306,
-                        "def": 838,
-                        "hp": 6779
-                  },
-                  {
-                        "att": 2312,
-                        "def": 840,
-                        "hp": 6797
-                  },
-                  {
-                        "att": 2318,
-                        "def": 843,
-                        "hp": 6815
-                  },
-                  {
-                        "att": 2325,
-                        "def": 845,
-                        "hp": 6833
-                  },
-                  {
-                        "att": 2331,
-                        "def": 847,
-                        "hp": 6851
-                  },
-                  {
-                        "att": 2337,
-                        "def": 849,
-                        "hp": 6869
-                  },
-                  {
-                        "att": 2344,
-                        "def": 851,
-                        "hp": 6887
-                  },
-                  {
-                        "att": 2350,
-                        "def": 853,
-                        "hp": 6905
-                  },
-                  {
-                        "att": 2356,
-                        "def": 856,
-                        "hp": 6922
-                  },
-                  {
-                        "att": 2363,
-                        "def": 858,
-                        "hp": 6940
-                  },
-                  {
-                        "att": 2369,
-                        "def": 860,
-                        "hp": 6958
-                  },
-                  {
-                        "att": 2375,
-                        "def": 862,
-                        "hp": 6976
-                  },
-                  {
-                        "att": 2382,
-                        "def": 864,
-                        "hp": 6994
-                  },
-                  {
-                        "att": 2388,
-                        "def": 866,
-                        "hp": 7012
-                  },
-                  {
-                        "att": 2394,
-                        "def": 869,
-                        "hp": 7030
-                  },
-                  {
-                        "att": 2400,
-                        "def": 871,
-                        "hp": 7048
-                  },
-                  {
-                        "att": 2407,
-                        "def": 873,
-                        "hp": 7065
-                  },
-                  {
-                        "att": 2413,
-                        "def": 875,
-                        "hp": 7083
-                  },
-                  {
-                        "att": 2419,
-                        "def": 877,
-                        "hp": 7101
-                  },
-                  {
-                        "att": 2426,
-                        "def": 879,
-                        "hp": 7119
-                  },
-                  {
-                        "att": 2432,
-                        "def": 882,
-                        "hp": 7137
-                  },
-                  {
-                        "att": 2438,
-                        "def": 884,
-                        "hp": 7155
-                  },
-                  {
-                        "att": 2445,
-                        "def": 886,
-                        "hp": 7173
-                  },
-                  {
-                        "att": 2451,
-                        "def": 888,
-                        "hp": 7191
-                  },
-                  {
-                        "att": 2457,
-                        "def": 890,
-                        "hp": 7208
-                  },
-                  {
-                        "att": 2464,
-                        "def": 892,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2470,
-                        "def": 895,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2476,
-                        "def": 897,
-                        "hp": 7262
-                  },
-                  {
-                        "att": 2482,
-                        "def": 899,
-                        "hp": 7280
-                  },
-                  {
-                        "att": 2489,
-                        "def": 901,
-                        "hp": 7298
-                  },
-                  {
-                        "att": 2495,
-                        "def": 903,
-                        "hp": 7316
-                  },
-                  {
-                        "att": 2501,
-                        "def": 905,
-                        "hp": 7334
-                  },
-                  {
-                        "att": 2508,
-                        "def": 908,
-                        "hp": 7351
-                  },
-                  {
-                        "att": 2514,
-                        "def": 910,
-                        "hp": 7369
-                  },
-                  {
-                        "att": 2520,
-                        "def": 912,
-                        "hp": 7387
-                  },
-                  {
-                        "att": 2527,
-                        "def": 914,
-                        "hp": 7405
-                  },
-                  {
-                        "att": 2533,
-                        "def": 916,
-                        "hp": 7423
-                  },
-                  {
-                        "att": 2539,
-                        "def": 918,
-                        "hp": 7441
-                  },
-                  {
-                        "att": 2546,
-                        "def": 921,
-                        "hp": 7459
-                  },
-                  {
-                        "att": 2552,
-                        "def": 923,
-                        "hp": 7477
-                  },
-                  {
-                        "att": 2558,
-                        "def": 925,
-                        "hp": 7494
-                  },
-                  {
-                        "att": 2564,
-                        "def": 927,
-                        "hp": 7512
-                  },
-                  {
-                        "att": 2571,
-                        "def": 929,
-                        "hp": 7530
-                  },
-                  {
-                        "att": 2577,
-                        "def": 931,
-                        "hp": 7548
-                  },
-                  {
-                        "att": 2583,
-                        "def": 934,
-                        "hp": 7566
-                  },
-                  {
-                        "att": 2590,
-                        "def": 936,
-                        "hp": 7584
-                  },
-                  {
-                        "att": 2596,
-                        "def": 938,
-                        "hp": 7602
-                  },
-                  {
-                        "att": 2602,
-                        "def": 940,
-                        "hp": 7620
-                  },
-                  {
-                        "att": 2609,
-                        "def": 942,
-                        "hp": 7637
-                  },
-                  {
-                        "att": 2615,
-                        "def": 945,
-                        "hp": 7655
-                  },
-                  {
-                        "att": 2621,
-                        "def": 947,
-                        "hp": 7673
-                  },
-                  {
-                        "att": 2628,
-                        "def": 949,
-                        "hp": 7691
-                  },
-                  {
-                        "att": 2634,
-                        "def": 951,
-                        "hp": 7709
-                  },
-                  {
-                        "att": 2640,
-                        "def": 953,
-                        "hp": 7727
-                  },
-                  {
-                        "att": 2646,
-                        "def": 955,
-                        "hp": 7745
-                  },
-                  {
-                        "att": 2653,
-                        "def": 958,
-                        "hp": 7763
-                  },
-                  {
-                        "att": 2659,
-                        "def": 960,
-                        "hp": 7780
-                  },
-                  {
-                        "att": 2665,
-                        "def": 962,
-                        "hp": 7798
-                  },
-                  {
-                        "att": 2672,
-                        "def": 964,
-                        "hp": 7816
-                  },
-                  {
-                        "att": 2678,
-                        "def": 966,
-                        "hp": 7834
-                  },
-                  {
-                        "att": 2684,
-                        "def": 968,
-                        "hp": 7852
-                  },
-                  {
-                        "att": 2691,
-                        "def": 971,
-                        "hp": 7870
-                  },
-                  {
-                        "att": 2697,
-                        "def": 973,
-                        "hp": 7888
-                  },
-                  {
-                        "att": 2703,
-                        "def": 975,
-                        "hp": 7906
-                  },
-                  {
-                        "att": 2710,
-                        "def": 977,
-                        "hp": 7924
-                  },
-                  {
-                        "att": 2716,
-                        "def": 979,
-                        "hp": 7941
-                  },
-                  {
-                        "att": 2722,
-                        "def": 981,
-                        "hp": 7959
-                  },
-                  {
-                        "att": 2728,
-                        "def": 984,
-                        "hp": 7977
-                  },
-                  {
-                        "att": 2735,
-                        "def": 986,
-                        "hp": 7995
-                  },
-                  {
-                        "att": 2741,
-                        "def": 988,
-                        "hp": 8013
-                  }
-            ]
-      }
+ "name": "Louise",
+ "faction": "Northland",
+ "element_main": "Forest",
+ "element_sub": "Forest",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Wonderland Tales",
+  "cd": "4 Turn",
+  "description": [
+   "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+   "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+   "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
+  ]
+ },
+ "equip": {
+  "name": "Prophecy & Fairy Tale",
+  "passive": "Thunderclap",
+  "description": [
+   [
+    "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 30% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 40% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 50% of Louise's Max HP and increases her DEF by 100%.",
+    "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
+   ],
+   [
+    "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+   ],
+   [
+    "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 30% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 40% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 50% of Louise's Max HP and increases her DEF by 50% for 2 rounds.",
+    "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+   ]
+  ],
+  "introduction": "Louise's \"Pocket Magic\" can create all kinds of things, but they all eventually disappear. Only this fairy tale book remains today. Believing it contains magical power, she took it with her, and sure enough, it actually began to enhance her inner power."
+ },
+ "chain": {
+  "name": "Thundersheet",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 170% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 170% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 170% damage to 16 tiles in a radial shape."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Potion I",
+    "Forest Flare Powder",
+    "Pine Dew",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%."
+  },
+  {
+   "material": [
+    "Forest Flare Rock",
+    "Forest Crystal Shard",
+    "Pine Frost",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When triggering Aurora Time, the team's HP immediately recovers by 60% of Louise's Max HP and increases her DEF by 100%.",
+   "after": "When triggering Aurora Time, immediately recovers the team's HP by 60% of Louise's Max HP and increases her DEF by 50% for 2 rounds."
+  },
+  {
+   "material": [
+    "Forest Crystal Cluster",
+    "Forest Potion II",
+    "Tear of Pine",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 70% of Louise's ATK.",
+   "after": "When used, a Forest Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Forest Aurorians is equal to 85% of Louise's ATK."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 501,
+    "def": 228,
+    "hp": 1732
+   },
+   {
+    "att": 511,
+    "def": 231,
+    "hp": 1761
+   },
+   {
+    "att": 521,
+    "def": 235,
+    "hp": 1789
+   },
+   {
+    "att": 531,
+    "def": 238,
+    "hp": 1818
+   },
+   {
+    "att": 541,
+    "def": 242,
+    "hp": 1847
+   },
+   {
+    "att": 552,
+    "def": 245,
+    "hp": 1875
+   },
+   {
+    "att": 562,
+    "def": 249,
+    "hp": 1904
+   },
+   {
+    "att": 572,
+    "def": 252,
+    "hp": 1932
+   },
+   {
+    "att": 582,
+    "def": 256,
+    "hp": 1961
+   },
+   {
+    "att": 592,
+    "def": 259,
+    "hp": 1990
+   },
+   {
+    "att": 602,
+    "def": 263,
+    "hp": 2018
+   },
+   {
+    "att": 612,
+    "def": 266,
+    "hp": 2047
+   },
+   {
+    "att": 622,
+    "def": 269,
+    "hp": 2075
+   },
+   {
+    "att": 632,
+    "def": 273,
+    "hp": 2104
+   },
+   {
+    "att": 642,
+    "def": 276,
+    "hp": 2133
+   },
+   {
+    "att": 652,
+    "def": 280,
+    "hp": 2161
+   },
+   {
+    "att": 663,
+    "def": 283,
+    "hp": 2190
+   },
+   {
+    "att": 673,
+    "def": 287,
+    "hp": 2219
+   },
+   {
+    "att": 683,
+    "def": 290,
+    "hp": 2247
+   },
+   {
+    "att": 693,
+    "def": 294,
+    "hp": 2276
+   },
+   {
+    "att": 703,
+    "def": 297,
+    "hp": 2304
+   },
+   {
+    "att": 713,
+    "def": 301,
+    "hp": 2333
+   },
+   {
+    "att": 723,
+    "def": 304,
+    "hp": 2362
+   },
+   {
+    "att": 733,
+    "def": 308,
+    "hp": 2390
+   },
+   {
+    "att": 743,
+    "def": 311,
+    "hp": 2419
+   },
+   {
+    "att": 753,
+    "def": 315,
+    "hp": 2447
+   },
+   {
+    "att": 764,
+    "def": 318,
+    "hp": 2476
+   },
+   {
+    "att": 774,
+    "def": 321,
+    "hp": 2505
+   },
+   {
+    "att": 784,
+    "def": 325,
+    "hp": 2533
+   },
+   {
+    "att": 794,
+    "def": 328,
+    "hp": 2562
+   },
+   {
+    "att": 896,
+    "def": 363,
+    "hp": 2848
+   },
+   {
+    "att": 909,
+    "def": 367,
+    "hp": 2883
+   },
+   {
+    "att": 922,
+    "def": 371,
+    "hp": 2919
+   },
+   {
+    "att": 934,
+    "def": 376,
+    "hp": 2955
+   },
+   {
+    "att": 947,
+    "def": 380,
+    "hp": 2991
+   },
+   {
+    "att": 959,
+    "def": 384,
+    "hp": 3026
+   },
+   {
+    "att": 972,
+    "def": 389,
+    "hp": 3062
+   },
+   {
+    "att": 985,
+    "def": 393,
+    "hp": 3098
+   },
+   {
+    "att": 997,
+    "def": 397,
+    "hp": 3134
+   },
+   {
+    "att": 1010,
+    "def": 402,
+    "hp": 3169
+   },
+   {
+    "att": 1023,
+    "def": 406,
+    "hp": 3205
+   },
+   {
+    "att": 1035,
+    "def": 410,
+    "hp": 3241
+   },
+   {
+    "att": 1048,
+    "def": 415,
+    "hp": 3277
+   },
+   {
+    "att": 1060,
+    "def": 419,
+    "hp": 3312
+   },
+   {
+    "att": 1073,
+    "def": 423,
+    "hp": 3348
+   },
+   {
+    "att": 1086,
+    "def": 428,
+    "hp": 3384
+   },
+   {
+    "att": 1098,
+    "def": 432,
+    "hp": 3420
+   },
+   {
+    "att": 1111,
+    "def": 436,
+    "hp": 3455
+   },
+   {
+    "att": 1123,
+    "def": 441,
+    "hp": 3491
+   },
+   {
+    "att": 1136,
+    "def": 445,
+    "hp": 3527
+   },
+   {
+    "att": 1149,
+    "def": 449,
+    "hp": 3563
+   },
+   {
+    "att": 1161,
+    "def": 454,
+    "hp": 3598
+   },
+   {
+    "att": 1174,
+    "def": 458,
+    "hp": 3634
+   },
+   {
+    "att": 1187,
+    "def": 462,
+    "hp": 3670
+   },
+   {
+    "att": 1199,
+    "def": 467,
+    "hp": 3706
+   },
+   {
+    "att": 1212,
+    "def": 471,
+    "hp": 3741
+   },
+   {
+    "att": 1224,
+    "def": 475,
+    "hp": 3777
+   },
+   {
+    "att": 1237,
+    "def": 480,
+    "hp": 3813
+   },
+   {
+    "att": 1250,
+    "def": 484,
+    "hp": 3849
+   },
+   {
+    "att": 1262,
+    "def": 488,
+    "hp": 3884
+   },
+   {
+    "att": 1275,
+    "def": 493,
+    "hp": 3920
+   },
+   {
+    "att": 1287,
+    "def": 497,
+    "hp": 3956
+   },
+   {
+    "att": 1300,
+    "def": 501,
+    "hp": 3992
+   },
+   {
+    "att": 1313,
+    "def": 506,
+    "hp": 4027
+   },
+   {
+    "att": 1325,
+    "def": 510,
+    "hp": 4063
+   },
+   {
+    "att": 1338,
+    "def": 515,
+    "hp": 4099
+   },
+   {
+    "att": 1351,
+    "def": 519,
+    "hp": 4135
+   },
+   {
+    "att": 1363,
+    "def": 523,
+    "hp": 4170
+   },
+   {
+    "att": 1376,
+    "def": 528,
+    "hp": 4206
+   },
+   {
+    "att": 1388,
+    "def": 532,
+    "hp": 4242
+   },
+   {
+    "att": 1548,
+    "def": 585,
+    "hp": 4669
+   },
+   {
+    "att": 1557,
+    "def": 588,
+    "hp": 4696
+   },
+   {
+    "att": 1567,
+    "def": 592,
+    "hp": 4722
+   },
+   {
+    "att": 1576,
+    "def": 595,
+    "hp": 4749
+   },
+   {
+    "att": 1586,
+    "def": 598,
+    "hp": 4776
+   },
+   {
+    "att": 1595,
+    "def": 601,
+    "hp": 4803
+   },
+   {
+    "att": 1605,
+    "def": 605,
+    "hp": 4830
+   },
+   {
+    "att": 1614,
+    "def": 608,
+    "hp": 4856
+   },
+   {
+    "att": 1624,
+    "def": 611,
+    "hp": 4883
+   },
+   {
+    "att": 1633,
+    "def": 614,
+    "hp": 4910
+   },
+   {
+    "att": 1642,
+    "def": 618,
+    "hp": 4937
+   },
+   {
+    "att": 1652,
+    "def": 621,
+    "hp": 4964
+   },
+   {
+    "att": 1661,
+    "def": 624,
+    "hp": 4991
+   },
+   {
+    "att": 1671,
+    "def": 627,
+    "hp": 5017
+   },
+   {
+    "att": 1680,
+    "def": 631,
+    "hp": 5044
+   },
+   {
+    "att": 1690,
+    "def": 634,
+    "hp": 5071
+   },
+   {
+    "att": 1699,
+    "def": 637,
+    "hp": 5098
+   },
+   {
+    "att": 1709,
+    "def": 640,
+    "hp": 5125
+   },
+   {
+    "att": 1718,
+    "def": 644,
+    "hp": 5151
+   },
+   {
+    "att": 1728,
+    "def": 647,
+    "hp": 5178
+   },
+   {
+    "att": 1737,
+    "def": 650,
+    "hp": 5205
+   },
+   {
+    "att": 1747,
+    "def": 653,
+    "hp": 5232
+   },
+   {
+    "att": 1756,
+    "def": 657,
+    "hp": 5259
+   },
+   {
+    "att": 1765,
+    "def": 660,
+    "hp": 5286
+   },
+   {
+    "att": 1775,
+    "def": 663,
+    "hp": 5312
+   },
+   {
+    "att": 1784,
+    "def": 666,
+    "hp": 5339
+   },
+   {
+    "att": 1794,
+    "def": 670,
+    "hp": 5366
+   },
+   {
+    "att": 1803,
+    "def": 673,
+    "hp": 5393
+   },
+   {
+    "att": 1813,
+    "def": 676,
+    "hp": 5420
+   },
+   {
+    "att": 1822,
+    "def": 679,
+    "hp": 5446
+   },
+   {
+    "att": 1832,
+    "def": 683,
+    "hp": 5473
+   },
+   {
+    "att": 1841,
+    "def": 686,
+    "hp": 5500
+   },
+   {
+    "att": 1851,
+    "def": 689,
+    "hp": 5527
+   },
+   {
+    "att": 1860,
+    "def": 692,
+    "hp": 5554
+   },
+   {
+    "att": 1870,
+    "def": 696,
+    "hp": 5580
+   },
+   {
+    "att": 1879,
+    "def": 699,
+    "hp": 5607
+   },
+   {
+    "att": 1888,
+    "def": 702,
+    "hp": 5634
+   },
+   {
+    "att": 1898,
+    "def": 705,
+    "hp": 5661
+   },
+   {
+    "att": 1907,
+    "def": 709,
+    "hp": 5688
+   },
+   {
+    "att": 1917,
+    "def": 712,
+    "hp": 5715
+   },
+   {
+    "att": 1926,
+    "def": 715,
+    "hp": 5741
+   },
+   {
+    "att": 1936,
+    "def": 718,
+    "hp": 5768
+   },
+   {
+    "att": 1945,
+    "def": 722,
+    "hp": 5795
+   },
+   {
+    "att": 1955,
+    "def": 725,
+    "hp": 5822
+   },
+   {
+    "att": 1964,
+    "def": 728,
+    "hp": 5849
+   },
+   {
+    "att": 1974,
+    "def": 731,
+    "hp": 5875
+   },
+   {
+    "att": 1983,
+    "def": 735,
+    "hp": 5902
+   },
+   {
+    "att": 1993,
+    "def": 738,
+    "hp": 5929
+   },
+   {
+    "att": 2002,
+    "def": 741,
+    "hp": 5956
+   },
+   {
+    "att": 2011,
+    "def": 744,
+    "hp": 5983
+   },
+   {
+    "att": 2243,
+    "def": 817,
+    "hp": 6601
+   },
+   {
+    "att": 2249,
+    "def": 819,
+    "hp": 6618
+   },
+   {
+    "att": 2255,
+    "def": 821,
+    "hp": 6636
+   },
+   {
+    "att": 2262,
+    "def": 823,
+    "hp": 6654
+   },
+   {
+    "att": 2268,
+    "def": 825,
+    "hp": 6672
+   },
+   {
+    "att": 2274,
+    "def": 827,
+    "hp": 6690
+   },
+   {
+    "att": 2281,
+    "def": 830,
+    "hp": 6708
+   },
+   {
+    "att": 2287,
+    "def": 832,
+    "hp": 6726
+   },
+   {
+    "att": 2293,
+    "def": 834,
+    "hp": 6744
+   },
+   {
+    "att": 2300,
+    "def": 836,
+    "hp": 6761
+   },
+   {
+    "att": 2306,
+    "def": 838,
+    "hp": 6779
+   },
+   {
+    "att": 2312,
+    "def": 840,
+    "hp": 6797
+   },
+   {
+    "att": 2318,
+    "def": 843,
+    "hp": 6815
+   },
+   {
+    "att": 2325,
+    "def": 845,
+    "hp": 6833
+   },
+   {
+    "att": 2331,
+    "def": 847,
+    "hp": 6851
+   },
+   {
+    "att": 2337,
+    "def": 849,
+    "hp": 6869
+   },
+   {
+    "att": 2344,
+    "def": 851,
+    "hp": 6887
+   },
+   {
+    "att": 2350,
+    "def": 853,
+    "hp": 6905
+   },
+   {
+    "att": 2356,
+    "def": 856,
+    "hp": 6922
+   },
+   {
+    "att": 2363,
+    "def": 858,
+    "hp": 6940
+   },
+   {
+    "att": 2369,
+    "def": 860,
+    "hp": 6958
+   },
+   {
+    "att": 2375,
+    "def": 862,
+    "hp": 6976
+   },
+   {
+    "att": 2382,
+    "def": 864,
+    "hp": 6994
+   },
+   {
+    "att": 2388,
+    "def": 866,
+    "hp": 7012
+   },
+   {
+    "att": 2394,
+    "def": 869,
+    "hp": 7030
+   },
+   {
+    "att": 2400,
+    "def": 871,
+    "hp": 7048
+   },
+   {
+    "att": 2407,
+    "def": 873,
+    "hp": 7065
+   },
+   {
+    "att": 2413,
+    "def": 875,
+    "hp": 7083
+   },
+   {
+    "att": 2419,
+    "def": 877,
+    "hp": 7101
+   },
+   {
+    "att": 2426,
+    "def": 879,
+    "hp": 7119
+   },
+   {
+    "att": 2432,
+    "def": 882,
+    "hp": 7137
+   },
+   {
+    "att": 2438,
+    "def": 884,
+    "hp": 7155
+   },
+   {
+    "att": 2445,
+    "def": 886,
+    "hp": 7173
+   },
+   {
+    "att": 2451,
+    "def": 888,
+    "hp": 7191
+   },
+   {
+    "att": 2457,
+    "def": 890,
+    "hp": 7208
+   },
+   {
+    "att": 2464,
+    "def": 892,
+    "hp": 7226
+   },
+   {
+    "att": 2470,
+    "def": 895,
+    "hp": 7244
+   },
+   {
+    "att": 2476,
+    "def": 897,
+    "hp": 7262
+   },
+   {
+    "att": 2482,
+    "def": 899,
+    "hp": 7280
+   },
+   {
+    "att": 2489,
+    "def": 901,
+    "hp": 7298
+   },
+   {
+    "att": 2495,
+    "def": 903,
+    "hp": 7316
+   },
+   {
+    "att": 2501,
+    "def": 905,
+    "hp": 7334
+   },
+   {
+    "att": 2508,
+    "def": 908,
+    "hp": 7351
+   },
+   {
+    "att": 2514,
+    "def": 910,
+    "hp": 7369
+   },
+   {
+    "att": 2520,
+    "def": 912,
+    "hp": 7387
+   },
+   {
+    "att": 2527,
+    "def": 914,
+    "hp": 7405
+   },
+   {
+    "att": 2533,
+    "def": 916,
+    "hp": 7423
+   },
+   {
+    "att": 2539,
+    "def": 918,
+    "hp": 7441
+   },
+   {
+    "att": 2546,
+    "def": 921,
+    "hp": 7459
+   },
+   {
+    "att": 2552,
+    "def": 923,
+    "hp": 7477
+   },
+   {
+    "att": 2558,
+    "def": 925,
+    "hp": 7494
+   },
+   {
+    "att": 2564,
+    "def": 927,
+    "hp": 7512
+   },
+   {
+    "att": 2571,
+    "def": 929,
+    "hp": 7530
+   },
+   {
+    "att": 2577,
+    "def": 931,
+    "hp": 7548
+   },
+   {
+    "att": 2583,
+    "def": 934,
+    "hp": 7566
+   },
+   {
+    "att": 2590,
+    "def": 936,
+    "hp": 7584
+   },
+   {
+    "att": 2596,
+    "def": 938,
+    "hp": 7602
+   },
+   {
+    "att": 2602,
+    "def": 940,
+    "hp": 7620
+   },
+   {
+    "att": 2609,
+    "def": 942,
+    "hp": 7637
+   },
+   {
+    "att": 2615,
+    "def": 945,
+    "hp": 7655
+   },
+   {
+    "att": 2621,
+    "def": 947,
+    "hp": 7673
+   },
+   {
+    "att": 2628,
+    "def": 949,
+    "hp": 7691
+   },
+   {
+    "att": 2634,
+    "def": 951,
+    "hp": 7709
+   },
+   {
+    "att": 2640,
+    "def": 953,
+    "hp": 7727
+   },
+   {
+    "att": 2646,
+    "def": 955,
+    "hp": 7745
+   },
+   {
+    "att": 2653,
+    "def": 958,
+    "hp": 7763
+   },
+   {
+    "att": 2659,
+    "def": 960,
+    "hp": 7780
+   },
+   {
+    "att": 2665,
+    "def": 962,
+    "hp": 7798
+   },
+   {
+    "att": 2672,
+    "def": 964,
+    "hp": 7816
+   },
+   {
+    "att": 2678,
+    "def": 966,
+    "hp": 7834
+   },
+   {
+    "att": 2684,
+    "def": 968,
+    "hp": 7852
+   },
+   {
+    "att": 2691,
+    "def": 971,
+    "hp": 7870
+   },
+   {
+    "att": 2697,
+    "def": 973,
+    "hp": 7888
+   },
+   {
+    "att": 2703,
+    "def": 975,
+    "hp": 7906
+   },
+   {
+    "att": 2710,
+    "def": 977,
+    "hp": 7924
+   },
+   {
+    "att": 2716,
+    "def": 979,
+    "hp": 7941
+   },
+   {
+    "att": 2722,
+    "def": 981,
+    "hp": 7959
+   },
+   {
+    "att": 2728,
+    "def": 984,
+    "hp": 7977
+   },
+   {
+    "att": 2735,
+    "def": 986,
+    "hp": 7995
+   },
+   {
+    "att": 2741,
+    "def": 988,
+    "hp": 8013
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Louise",
+     "Noah"
+    ],
+    "chat": [
+     {
+      "character": "Louise:",
+      "text": "Today's story is a cute fairy tale, all the way from Northland!"
+     },
+     {
+      "character": "Noah:",
+      "text": "I wanna hear, I wanna hear!"
+     },
+     {
+      "character": "Louise:",
+      "text": "Once upon a time, there was a lonely little boy. Every day, he wished for a friend."
+     },
+     {
+      "character": "Noah:",
+      "text": "I like friends, too!"
+     },
+     {
+      "character": "Louise:",
+      "text": "One day, he came across a little girl who had gotten lost."
+     },
+     {
+      "character": "Louise:",
+      "text": "The boy begged the little girl to stay, and so she did."
+     },
+     {
+      "character": "Noah:",
+      "text": "They're just like us!"
+     },
+     {
+      "character": "Louise:",
+      "text": "But in Northland, children who lose their way... Turn into ice sculptures."
+     },
+     {
+      "character": "Louise:",
+      "text": "The next day, the little girl was nowhere to be seen. All that was left was an ice sculpture..."
+     },
+     {
+      "character": "Noah:",
+      "text": "That's so sad..."
+     },
+     {
+      "character": "Louise:",
+      "text": "And so, the little boy could only keep playing with the ice sculptures in the forest."
+     },
+     {
+      "character": "Noah:",
+      "text": "Well, at least she can keep him company..."
+     },
+     {
+      "character": "Louise:",
+      "text": "But when the sun comes out... The ice will melt, and the kids will be free to play again."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Northland Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "It was a small house made of candy that people wanted to take a bite of. Finally, we heard a loud creak and saw tears rolling down the cheeks of those who tried\u2014the candy house was actually made of hardwood.After we apologized, knocked on the door politely, and showed that we came in peace, the owner of the candy house opened the door and warmly invited us to enter and stay for a while.The owner of the candy house, Louise Carlisle, is a sincere and lovely little girl. She listened attentively when we told her the tales of our adventures, and she would even make notebooks appear magically to record what we said. Now, she seemed very interested in the stories that took place at the Colossus. When she looked at me with her passionate and innocent gaze, I decided that I'd let her join us anyhow.\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hello! You're the protagonist of the new chapter of the Deep Blue Tales! I knew who you were since I first saw you! You're... Um... You're that light-headed guy, right? I even know that you'll ask me why I'm traveling alone. What? You weren't going to? Well, why don't you ask me that now?I brought up my request to go traveling myself, although our beautiful Queen might have hinted at me a little. The truth is that I've read the storybooks in the house many times, and it's time to leave to find more stories on the continent. So, after I made my intentions known, my kind-hearted nanny, Lita, supported my decision, and our beautiful Queen gave me her blessings. She also gave me these wings of protection to help me get started, so I'm not afraid of anything!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "It isn't often that I get such a long break. Let's play a game.Ta-da! We're playing a random lottery game. First, we'll take a big box out of the \"pocket world\", then we'll take out a piece of candy, a train, and a small book, all of which are the same size, put them all into a box, and give them a good shake. Guess what will fall out of the box?I'll tell you a story about me if you guess it right, but I'll tell you a story about you if you guess wrong, okay? This is a traditional activity here. As for the stories of yourself that I can tell you, the Queen said that if it's the protagonist of the Deep Blue Tales, I can reveal just a tiny bit of the story. After all, the Northland gave us this gift to help us avoid the crisis and overcome our difficulties!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Something was different about Lita that day. Instead of bringing me milk and candies, she told me that her papa had died with tears in her eyes. What does it mean to be dead? Does it mean he has gone somewhere far away like mama? But I knew about this a long time ago because Deep Blue had already told me! Mama and papa seem to be someplace really far away, and they can only come back to visit me once in a while. Deep Blue also told me that like mama, maybe papa won't be coming back anymore...I'm a little sad\u2014just a little bit! But I know that just like the Queen, papa is protecting the Northland! He said that he and mama love me, so I will record everything down earnestly until the day he comes back to me!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "The Queen said that I have to tell her immediately if the main character of the prophecy has a new story! But the book always comes and goes on its own whims. I have no say over it!I don't know how come the book appeared. It was in my dream when I was young, and it was there when I woke up! After that, I wrote all the fairy tales I dreamed into the book, but all those stories have sad endings, which I did not wish for. But by my count, it's been a long time since it last appeared. I should dream of a new story when it comes back again. Hopefully, it will be a beautiful story about dreams!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "The Northland, like the forests in fairy tales, has all kinds of mythical beings living in them.",
+  "Hmm... I've never been to any other places, but I know about the underground cottage in the story!",
+  "It's created by the end of winter.",
+  "They've also appeared in the story, the black seawater that makes its way here bit by bit!",
+  "Little Noah is so cute! Even fairy tales feature her. I read you that, didn't I?",
+  "My sister always staring quietly into the mirror, like the White Narcissus in the story.",
+  "Fairy tales, candy, candy wrappers, homemade gingerbread house... I like a lot of things!",
+  "Hmm... I don't like things I can't describe. Neither can I record them, nor can I talk about them.",
+  "The colossi are more akin to the giant dragons in fairy tales. They're unlike any of the dragons I've ever met!",
+  "Let me teach you some magic? Let's first make a box appear, then put some candies in it.",
+  "Hi! Are you here for a bedtime story? We've got \"Little Snowman and Twelve Stars\", \"The Elf's Cottage\", \"The Dragon's Child!\" and many others! Which one is your cup of tea?",
+  "Urgh! This is not fun...",
+  "Awesome!! I can write about it in my story!",
+  "We must cherish books!",
+  "Vandalism is forbidden!",
+  "Elves! For the glory of Her Majesty the Queen!",
+  "Happy New Year!",
+  "Materials for a new story!",
+  "It's happening! It's happening! The big parade is about to begin!",
+  "Come and join this amazing journey!",
+  "Everyone's wishes are written in fairy tales!",
+  "Remove that pile of firewood. All sources of fire are prohibited here! Huh? I don't care! It's. Just. Prohibited!",
+  "My pocket is almost full!",
+  "Alchemy, Stars.",
+  "What is it? Upset again? Look! A bunny has come to comfort you. Feeling better now?",
+  "I've been taking care of a little world that has always been neglected. Perhaps one day the strength of that world would become the key to saving us.",
+  "You're neither careful nor responsible... Do you think you'd as an adult by just growing tall and growing a beard? You're wrong!",
+  "The Pocket World has grown increasingly restless, causing harm to people around it whenever there's a distraction! The Queen told me that I must put in more effort and learn to control this power!",
+  "My candy box is going to turn into my enemy's coffin soon. My power is so scary! Oh, dear...",
+  "There will be more fairy tales in this world, which will be more full of life from everyone's dreams! Just like this newly created one carrying our journey!",
+  "Elves work for Her Majesty the Queen, and it is my duty to record the stories of the Northland. Wanna have a peek?",
+  "I am building a candy cottage. What flavor do you think the window should be? This is a custom of the Northland.",
+  "Are you asking for my opinion?! I thought you only think of me as a child... I'm so moved!",
+  "Would you like to see some magic? Look, what's here in my pocket... Ta-da! Candy!",
+  "What kind of elf do you want to be? I can portray you the way you like in the story!",
+  "Pick an item from my pocket and give it to someone you cherish!",
+  "Welcome back! You must be tired. Have some candies to fuel up!",
+  "Whoa\u2014Good morning. I think I dreamed of a candy ship yesterday... You?",
+  "Let's go to a warm place where we could sit, have candies, and read stories.",
+  "Huh? What is it? You can't sleep? Would you like a bedtime story?",
+  "You look like you've been through a lot. Would you mind if I make you the protagonist of my story? It may become a bestseller in the Northland!",
+  "Have you forgotten? I'm a creator!",
+  "Why don't I also conjure something up for you in return?",
+  "This is something I can't create! Thank you so much!",
+  "Wow! I'm so happy! Thank you! Thank you! Thank you!",
+  "To the realm of fairy tales!",
+  "It is again the beginning of a wonderful dream!",
+  "Let's wreak some havoc!!",
+  "Nanny Lita is the only family I have left. She often tells me stories from my childhood. They were so dangerous. I was so close to losing my life!",
+  "Mom and dad are always on faraway journeys. I heard they've gone somewhere far. Yeah, they're going to climb over the frozen snowy mountain. I wonder if they're going to meet any ice elves.",
+  "Chapters that shouldn't appear in fairy tales should be deleted... The fairy tales always end nicely, so should our story. All's gonna end well!",
+  "Gather round, elf squad!"
+ ],
+ "skins": [],
+ "description": "Hailing from Northland, she always wears a smile on her face, one that is full of optimism and hope for the future. After traveling south, she spares no effort in maintaining her positive attitude towards life, enriching the lives of many by creating fairy tale after wonderful fairy tale for them.",
+ "realName": "Louise",
+ "nickname": "Fairy Tale Girl",
+ "gender": "Female",
+ "height": "4'9\"",
+ "birthday": "December 25",
+ "birthplace": "Northland",
+ "style": "Pocket Magic"
 }

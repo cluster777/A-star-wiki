@@ -1,1153 +1,1327 @@
 {
-      "name": "Connolly",
-      "faction": "Umbraton",
-      "element_main": "Water",
-      "element_sub": "Forest",
-      "rarity": "6",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "5 Turn",
-            "description": [
-                  "Deals 400% damage to enemies within 3 surrounding clusters.",
-                  "Deals 400% damage to enemies within 3 surrounding clusters.",
-                  "Deals 400% damage to enemies within 3 surrounding clusters."
-            ]
-      },
-      "equip": {
-            "name": "Seed of the Infernal Sea",
-            "passive": "Thorns of Torment",
-            "description": [
-                  [
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
-                  ],
-                  [
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
-                  ],
-                  [
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
-                        "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Skill is effective to all enemies."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Crystal Shard",
-                        "Water Essence",
-                        "Destiny Champagne I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
-            },
-            {
-                  "material": [
-                        "Water Potion II",
-                        "Water Flare Silt",
-                        "Destiny Champagne II",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "Deals 155% damage to 2 enemies within 3 surrounding clusters.",
-                  "after": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
-            },
-            {
-                  "material": [
-                        "Water Flare Tile",
-                        "Water Crystal",
-                        "Destiny Champagne III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
-                  "after": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 598,
-                        "def": 207,
-                        "hp": 1677
-                  },
-                  {
-                        "att": 611,
-                        "def": 211,
-                        "hp": 1709
-                  },
-                  {
-                        "att": 623,
-                        "def": 215,
-                        "hp": 1741
-                  },
-                  {
-                        "att": 636,
-                        "def": 218,
-                        "hp": 1773
-                  },
-                  {
-                        "att": 649,
-                        "def": 222,
-                        "hp": 1805
-                  },
-                  {
-                        "att": 661,
-                        "def": 226,
-                        "hp": 1837
-                  },
-                  {
-                        "att": 674,
-                        "def": 229,
-                        "hp": 1869
-                  },
-                  {
-                        "att": 686,
-                        "def": 233,
-                        "hp": 1901
-                  },
-                  {
-                        "att": 699,
-                        "def": 237,
-                        "hp": 1933
-                  },
-                  {
-                        "att": 712,
-                        "def": 241,
-                        "hp": 1965
-                  },
-                  {
-                        "att": 724,
-                        "def": 244,
-                        "hp": 1997
-                  },
-                  {
-                        "att": 737,
-                        "def": 248,
-                        "hp": 2029
-                  },
-                  {
-                        "att": 749,
-                        "def": 252,
-                        "hp": 2060
-                  },
-                  {
-                        "att": 762,
-                        "def": 255,
-                        "hp": 2092
-                  },
-                  {
-                        "att": 775,
-                        "def": 259,
-                        "hp": 2124
-                  },
-                  {
-                        "att": 787,
-                        "def": 263,
-                        "hp": 2156
-                  },
-                  {
-                        "att": 800,
-                        "def": 266,
-                        "hp": 2188
-                  },
-                  {
-                        "att": 812,
-                        "def": 270,
-                        "hp": 2220
-                  },
-                  {
-                        "att": 825,
-                        "def": 274,
-                        "hp": 2252
-                  },
-                  {
-                        "att": 838,
-                        "def": 278,
-                        "hp": 2284
-                  },
-                  {
-                        "att": 850,
-                        "def": 281,
-                        "hp": 2316
-                  },
-                  {
-                        "att": 863,
-                        "def": 285,
-                        "hp": 2348
-                  },
-                  {
-                        "att": 875,
-                        "def": 289,
-                        "hp": 2380
-                  },
-                  {
-                        "att": 888,
-                        "def": 292,
-                        "hp": 2412
-                  },
-                  {
-                        "att": 901,
-                        "def": 296,
-                        "hp": 2443
-                  },
-                  {
-                        "att": 913,
-                        "def": 300,
-                        "hp": 2475
-                  },
-                  {
-                        "att": 926,
-                        "def": 304,
-                        "hp": 2507
-                  },
-                  {
-                        "att": 938,
-                        "def": 307,
-                        "hp": 2539
-                  },
-                  {
-                        "att": 951,
-                        "def": 311,
-                        "hp": 2571
-                  },
-                  {
-                        "att": 963,
-                        "def": 315,
-                        "hp": 2603
-                  },
-                  {
-                        "att": 1069,
-                        "def": 349,
-                        "hp": 2863
-                  },
-                  {
-                        "att": 1085,
-                        "def": 354,
-                        "hp": 2903
-                  },
-                  {
-                        "att": 1101,
-                        "def": 359,
-                        "hp": 2943
-                  },
-                  {
-                        "att": 1116,
-                        "def": 363,
-                        "hp": 2983
-                  },
-                  {
-                        "att": 1132,
-                        "def": 368,
-                        "hp": 3023
-                  },
-                  {
-                        "att": 1148,
-                        "def": 372,
-                        "hp": 3062
-                  },
-                  {
-                        "att": 1164,
-                        "def": 377,
-                        "hp": 3102
-                  },
-                  {
-                        "att": 1179,
-                        "def": 382,
-                        "hp": 3142
-                  },
-                  {
-                        "att": 1195,
-                        "def": 386,
-                        "hp": 3182
-                  },
-                  {
-                        "att": 1211,
-                        "def": 391,
-                        "hp": 3222
-                  },
-                  {
-                        "att": 1227,
-                        "def": 396,
-                        "hp": 3262
-                  },
-                  {
-                        "att": 1242,
-                        "def": 400,
-                        "hp": 3302
-                  },
-                  {
-                        "att": 1258,
-                        "def": 405,
-                        "hp": 3342
-                  },
-                  {
-                        "att": 1274,
-                        "def": 410,
-                        "hp": 3382
-                  },
-                  {
-                        "att": 1290,
-                        "def": 414,
-                        "hp": 3422
-                  },
-                  {
-                        "att": 1305,
-                        "def": 419,
-                        "hp": 3461
-                  },
-                  {
-                        "att": 1321,
-                        "def": 423,
-                        "hp": 3501
-                  },
-                  {
-                        "att": 1337,
-                        "def": 428,
-                        "hp": 3541
-                  },
-                  {
-                        "att": 1353,
-                        "def": 433,
-                        "hp": 3581
-                  },
-                  {
-                        "att": 1368,
-                        "def": 437,
-                        "hp": 3621
-                  },
-                  {
-                        "att": 1384,
-                        "def": 442,
-                        "hp": 3661
-                  },
-                  {
-                        "att": 1400,
-                        "def": 447,
-                        "hp": 3701
-                  },
-                  {
-                        "att": 1416,
-                        "def": 451,
-                        "hp": 3741
-                  },
-                  {
-                        "att": 1431,
-                        "def": 456,
-                        "hp": 3781
-                  },
-                  {
-                        "att": 1447,
-                        "def": 461,
-                        "hp": 3821
-                  },
-                  {
-                        "att": 1463,
-                        "def": 465,
-                        "hp": 3860
-                  },
-                  {
-                        "att": 1479,
-                        "def": 470,
-                        "hp": 3900
-                  },
-                  {
-                        "att": 1494,
-                        "def": 474,
-                        "hp": 3940
-                  },
-                  {
-                        "att": 1510,
-                        "def": 479,
-                        "hp": 3980
-                  },
-                  {
-                        "att": 1526,
-                        "def": 484,
-                        "hp": 4020
-                  },
-                  {
-                        "att": 1542,
-                        "def": 488,
-                        "hp": 4060
-                  },
-                  {
-                        "att": 1557,
-                        "def": 493,
-                        "hp": 4100
-                  },
-                  {
-                        "att": 1573,
-                        "def": 498,
-                        "hp": 4140
-                  },
-                  {
-                        "att": 1589,
-                        "def": 502,
-                        "hp": 4180
-                  },
-                  {
-                        "att": 1605,
-                        "def": 507,
-                        "hp": 4220
-                  },
-                  {
-                        "att": 1620,
-                        "def": 512,
-                        "hp": 4259
-                  },
-                  {
-                        "att": 1636,
-                        "def": 516,
-                        "hp": 4299
-                  },
-                  {
-                        "att": 1652,
-                        "def": 521,
-                        "hp": 4339
-                  },
-                  {
-                        "att": 1668,
-                        "def": 525,
-                        "hp": 4379
-                  },
-                  {
-                        "att": 1683,
-                        "def": 530,
-                        "hp": 4419
-                  },
-                  {
-                        "att": 1835,
-                        "def": 584,
-                        "hp": 4789
-                  },
-                  {
-                        "att": 1847,
-                        "def": 587,
-                        "hp": 4819
-                  },
-                  {
-                        "att": 1859,
-                        "def": 590,
-                        "hp": 4849
-                  },
-                  {
-                        "att": 1870,
-                        "def": 594,
-                        "hp": 4879
-                  },
-                  {
-                        "att": 1882,
-                        "def": 597,
-                        "hp": 4909
-                  },
-                  {
-                        "att": 1894,
-                        "def": 601,
-                        "hp": 4939
-                  },
-                  {
-                        "att": 1906,
-                        "def": 604,
-                        "hp": 4969
-                  },
-                  {
-                        "att": 1918,
-                        "def": 608,
-                        "hp": 4998
-                  },
-                  {
-                        "att": 1930,
-                        "def": 611,
-                        "hp": 5028
-                  },
-                  {
-                        "att": 1941,
-                        "def": 615,
-                        "hp": 5058
-                  },
-                  {
-                        "att": 1953,
-                        "def": 618,
-                        "hp": 5088
-                  },
-                  {
-                        "att": 1965,
-                        "def": 622,
-                        "hp": 5118
-                  },
-                  {
-                        "att": 1977,
-                        "def": 625,
-                        "hp": 5148
-                  },
-                  {
-                        "att": 1989,
-                        "def": 629,
-                        "hp": 5178
-                  },
-                  {
-                        "att": 2000,
-                        "def": 632,
-                        "hp": 5208
-                  },
-                  {
-                        "att": 2012,
-                        "def": 636,
-                        "hp": 5238
-                  },
-                  {
-                        "att": 2024,
-                        "def": 639,
-                        "hp": 5268
-                  },
-                  {
-                        "att": 2036,
-                        "def": 643,
-                        "hp": 5298
-                  },
-                  {
-                        "att": 2048,
-                        "def": 646,
-                        "hp": 5328
-                  },
-                  {
-                        "att": 2059,
-                        "def": 650,
-                        "hp": 5358
-                  },
-                  {
-                        "att": 2071,
-                        "def": 653,
-                        "hp": 5388
-                  },
-                  {
-                        "att": 2083,
-                        "def": 657,
-                        "hp": 5417
-                  },
-                  {
-                        "att": 2095,
-                        "def": 660,
-                        "hp": 5447
-                  },
-                  {
-                        "att": 2107,
-                        "def": 663,
-                        "hp": 5477
-                  },
-                  {
-                        "att": 2118,
-                        "def": 667,
-                        "hp": 5507
-                  },
-                  {
-                        "att": 2130,
-                        "def": 670,
-                        "hp": 5537
-                  },
-                  {
-                        "att": 2142,
-                        "def": 674,
-                        "hp": 5567
-                  },
-                  {
-                        "att": 2154,
-                        "def": 677,
-                        "hp": 5597
-                  },
-                  {
-                        "att": 2166,
-                        "def": 681,
-                        "hp": 5627
-                  },
-                  {
-                        "att": 2177,
-                        "def": 684,
-                        "hp": 5657
-                  },
-                  {
-                        "att": 2189,
-                        "def": 688,
-                        "hp": 5687
-                  },
-                  {
-                        "att": 2201,
-                        "def": 691,
-                        "hp": 5717
-                  },
-                  {
-                        "att": 2213,
-                        "def": 695,
-                        "hp": 5747
-                  },
-                  {
-                        "att": 2225,
-                        "def": 698,
-                        "hp": 5777
-                  },
-                  {
-                        "att": 2237,
-                        "def": 702,
-                        "hp": 5806
-                  },
-                  {
-                        "att": 2248,
-                        "def": 705,
-                        "hp": 5836
-                  },
-                  {
-                        "att": 2260,
-                        "def": 709,
-                        "hp": 5866
-                  },
-                  {
-                        "att": 2272,
-                        "def": 712,
-                        "hp": 5896
-                  },
-                  {
-                        "att": 2284,
-                        "def": 716,
-                        "hp": 5926
-                  },
-                  {
-                        "att": 2296,
-                        "def": 719,
-                        "hp": 5956
-                  },
-                  {
-                        "att": 2307,
-                        "def": 723,
-                        "hp": 5986
-                  },
-                  {
-                        "att": 2319,
-                        "def": 726,
-                        "hp": 6016
-                  },
-                  {
-                        "att": 2331,
-                        "def": 730,
-                        "hp": 6046
-                  },
-                  {
-                        "att": 2343,
-                        "def": 733,
-                        "hp": 6076
-                  },
-                  {
-                        "att": 2355,
-                        "def": 736,
-                        "hp": 6106
-                  },
-                  {
-                        "att": 2366,
-                        "def": 740,
-                        "hp": 6136
-                  },
-                  {
-                        "att": 2378,
-                        "def": 743,
-                        "hp": 6166
-                  },
-                  {
-                        "att": 2390,
-                        "def": 747,
-                        "hp": 6195
-                  },
-                  {
-                        "att": 2402,
-                        "def": 750,
-                        "hp": 6225
-                  },
-                  {
-                        "att": 2414,
-                        "def": 754,
-                        "hp": 6255
-                  },
-                  {
-                        "att": 2637,
-                        "def": 821,
-                        "hp": 6785
-                  },
-                  {
-                        "att": 2644,
-                        "def": 824,
-                        "hp": 6805
-                  },
-                  {
-                        "att": 2652,
-                        "def": 826,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2660,
-                        "def": 828,
-                        "hp": 6845
-                  },
-                  {
-                        "att": 2668,
-                        "def": 830,
-                        "hp": 6865
-                  },
-                  {
-                        "att": 2676,
-                        "def": 833,
-                        "hp": 6885
-                  },
-                  {
-                        "att": 2684,
-                        "def": 835,
-                        "hp": 6905
-                  },
-                  {
-                        "att": 2692,
-                        "def": 837,
-                        "hp": 6925
-                  },
-                  {
-                        "att": 2699,
-                        "def": 840,
-                        "hp": 6945
-                  },
-                  {
-                        "att": 2707,
-                        "def": 842,
-                        "hp": 6965
-                  },
-                  {
-                        "att": 2715,
-                        "def": 844,
-                        "hp": 6985
-                  },
-                  {
-                        "att": 2723,
-                        "def": 847,
-                        "hp": 7005
-                  },
-                  {
-                        "att": 2731,
-                        "def": 849,
-                        "hp": 7025
-                  },
-                  {
-                        "att": 2739,
-                        "def": 851,
-                        "hp": 7045
-                  },
-                  {
-                        "att": 2747,
-                        "def": 854,
-                        "hp": 7065
-                  },
-                  {
-                        "att": 2755,
-                        "def": 856,
-                        "hp": 7085
-                  },
-                  {
-                        "att": 2762,
-                        "def": 858,
-                        "hp": 7104
-                  },
-                  {
-                        "att": 2770,
-                        "def": 861,
-                        "hp": 7124
-                  },
-                  {
-                        "att": 2778,
-                        "def": 863,
-                        "hp": 7144
-                  },
-                  {
-                        "att": 2786,
-                        "def": 865,
-                        "hp": 7164
-                  },
-                  {
-                        "att": 2794,
-                        "def": 868,
-                        "hp": 7184
-                  },
-                  {
-                        "att": 2802,
-                        "def": 870,
-                        "hp": 7204
-                  },
-                  {
-                        "att": 2810,
-                        "def": 872,
-                        "hp": 7224
-                  },
-                  {
-                        "att": 2818,
-                        "def": 874,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2825,
-                        "def": 877,
-                        "hp": 7264
-                  },
-                  {
-                        "att": 2833,
-                        "def": 879,
-                        "hp": 7284
-                  },
-                  {
-                        "att": 2841,
-                        "def": 881,
-                        "hp": 7304
-                  },
-                  {
-                        "att": 2849,
-                        "def": 884,
-                        "hp": 7324
-                  },
-                  {
-                        "att": 2857,
-                        "def": 886,
-                        "hp": 7344
-                  },
-                  {
-                        "att": 2865,
-                        "def": 888,
-                        "hp": 7364
-                  },
-                  {
-                        "att": 2873,
-                        "def": 891,
-                        "hp": 7384
-                  },
-                  {
-                        "att": 2881,
-                        "def": 893,
-                        "hp": 7404
-                  },
-                  {
-                        "att": 2888,
-                        "def": 895,
-                        "hp": 7424
-                  },
-                  {
-                        "att": 2896,
-                        "def": 898,
-                        "hp": 7444
-                  },
-                  {
-                        "att": 2904,
-                        "def": 900,
-                        "hp": 7464
-                  },
-                  {
-                        "att": 2912,
-                        "def": 902,
-                        "hp": 7484
-                  },
-                  {
-                        "att": 2920,
-                        "def": 905,
-                        "hp": 7503
-                  },
-                  {
-                        "att": 2928,
-                        "def": 907,
-                        "hp": 7523
-                  },
-                  {
-                        "att": 2936,
-                        "def": 909,
-                        "hp": 7543
-                  },
-                  {
-                        "att": 2944,
-                        "def": 912,
-                        "hp": 7563
-                  },
-                  {
-                        "att": 2951,
-                        "def": 914,
-                        "hp": 7583
-                  },
-                  {
-                        "att": 2959,
-                        "def": 916,
-                        "hp": 7603
-                  },
-                  {
-                        "att": 2967,
-                        "def": 919,
-                        "hp": 7623
-                  },
-                  {
-                        "att": 2975,
-                        "def": 921,
-                        "hp": 7643
-                  },
-                  {
-                        "att": 2983,
-                        "def": 923,
-                        "hp": 7663
-                  },
-                  {
-                        "att": 2991,
-                        "def": 925,
-                        "hp": 7683
-                  },
-                  {
-                        "att": 2999,
-                        "def": 928,
-                        "hp": 7703
-                  },
-                  {
-                        "att": 3006,
-                        "def": 930,
-                        "hp": 7723
-                  },
-                  {
-                        "att": 3014,
-                        "def": 932,
-                        "hp": 7743
-                  },
-                  {
-                        "att": 3022,
-                        "def": 935,
-                        "hp": 7763
-                  },
-                  {
-                        "att": 3030,
-                        "def": 937,
-                        "hp": 7783
-                  },
-                  {
-                        "att": 3038,
-                        "def": 939,
-                        "hp": 7803
-                  },
-                  {
-                        "att": 3046,
-                        "def": 942,
-                        "hp": 7823
-                  },
-                  {
-                        "att": 3054,
-                        "def": 944,
-                        "hp": 7843
-                  },
-                  {
-                        "att": 3062,
-                        "def": 946,
-                        "hp": 7863
-                  },
-                  {
-                        "att": 3069,
-                        "def": 949,
-                        "hp": 7883
-                  },
-                  {
-                        "att": 3077,
-                        "def": 951,
-                        "hp": 7902
-                  },
-                  {
-                        "att": 3085,
-                        "def": 953,
-                        "hp": 7922
-                  },
-                  {
-                        "att": 3093,
-                        "def": 956,
-                        "hp": 7942
-                  },
-                  {
-                        "att": 3101,
-                        "def": 958,
-                        "hp": 7962
-                  },
-                  {
-                        "att": 3109,
-                        "def": 960,
-                        "hp": 7982
-                  },
-                  {
-                        "att": 3117,
-                        "def": 963,
-                        "hp": 8002
-                  },
-                  {
-                        "att": 3125,
-                        "def": 965,
-                        "hp": 8022
-                  },
-                  {
-                        "att": 3132,
-                        "def": 967,
-                        "hp": 8042
-                  },
-                  {
-                        "att": 3140,
-                        "def": 970,
-                        "hp": 8062
-                  },
-                  {
-                        "att": 3148,
-                        "def": 972,
-                        "hp": 8082
-                  },
-                  {
-                        "att": 3156,
-                        "def": 974,
-                        "hp": 8102
-                  },
-                  {
-                        "att": 3164,
-                        "def": 976,
-                        "hp": 8122
-                  },
-                  {
-                        "att": 3172,
-                        "def": 979,
-                        "hp": 8142
-                  },
-                  {
-                        "att": 3180,
-                        "def": 981,
-                        "hp": 8162
-                  },
-                  {
-                        "att": 3188,
-                        "def": 983,
-                        "hp": 8182
-                  },
-                  {
-                        "att": 3195,
-                        "def": 986,
-                        "hp": 8202
-                  },
-                  {
-                        "att": 3203,
-                        "def": 988,
-                        "hp": 8222
-                  },
-                  {
-                        "att": 3211,
-                        "def": 990,
-                        "hp": 8242
-                  },
-                  {
-                        "att": 3219,
-                        "def": 993,
-                        "hp": 8262
-                  },
-                  {
-                        "att": 3227,
-                        "def": 995,
-                        "hp": 8282
-                  },
-                  {
-                        "att": 3235,
-                        "def": 997,
-                        "hp": 8301
-                  },
-                  {
-                        "att": 3243,
-                        "def": 1000,
-                        "hp": 8321
-                  },
-                  {
-                        "att": 3251,
-                        "def": 1002,
-                        "hp": 8341
-                  },
-                  {
-                        "att": 3258,
-                        "def": 1004,
-                        "hp": 8361
-                  }
-            ]
-      }
+ "name": "Connolly",
+ "faction": "Umbraton",
+ "element_main": "Water",
+ "element_sub": "Forest",
+ "rarity": "6",
+ "class": "Sniper",
+ "skill": {
+  "name": "Sonata of Abyss",
+  "cd": "5 Turn",
+  "description": [
+   "Deals 400% damage to enemies within 3 surrounding clusters.",
+   "Deals 400% damage to enemies within 3 surrounding clusters.",
+   "Deals 400% damage to enemies within 3 surrounding clusters."
+  ]
+ },
+ "equip": {
+  "name": "Seed of the Infernal Sea",
+  "passive": "Thorns of Torment",
+  "description": [
+   [
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
+   ],
+   [
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
+   ],
+   [
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 5%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 10%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 15%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks.",
+    "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks."
+   ]
+  ],
+  "introduction": "This clarinet was left to Connolly by her parents. She spent her lonely childhood practicing on this clarinet, eventually awakening the power hidden within her. From the clarinet emerged tentacled monsters known as Antons. Antons follow Connolly's every command, attacking or entangling her enemies."
+ },
+ "chain": {
+  "name": "Concerto of Dread",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 3 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to 4 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Skill is effective to all enemies."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Crystal Shard",
+    "Water Essence",
+    "Destiny Champagne I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks."
+  },
+  {
+   "material": [
+    "Water Potion II",
+    "Water Flare Silt",
+    "Destiny Champagne II",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "Deals 155% damage to 2 enemies within 3 surrounding clusters.",
+   "after": "Deals 155% damage to 2 enemies within 3 surrounding clusters. +5% Chain Combo damage per mark on a target."
+  },
+  {
+   "material": [
+    "Water Flare Tile",
+    "Water Crystal",
+    "Destiny Champagne III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Using the Active Skill clears all stacks.",
+   "after": "Gains 1 stack of Shiver Mark when using a Chain Combo, up to 5 stacks. Each stack increases Active Skill damage by 20%. Using an Active Skill inflicts Fright on a number of enemies equivalent to the number of stacks for 1 round. Activating the Active Skill does not clear stacks."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 598,
+    "def": 207,
+    "hp": 1677
+   },
+   {
+    "att": 611,
+    "def": 211,
+    "hp": 1709
+   },
+   {
+    "att": 623,
+    "def": 215,
+    "hp": 1741
+   },
+   {
+    "att": 636,
+    "def": 218,
+    "hp": 1773
+   },
+   {
+    "att": 649,
+    "def": 222,
+    "hp": 1805
+   },
+   {
+    "att": 661,
+    "def": 226,
+    "hp": 1837
+   },
+   {
+    "att": 674,
+    "def": 229,
+    "hp": 1869
+   },
+   {
+    "att": 686,
+    "def": 233,
+    "hp": 1901
+   },
+   {
+    "att": 699,
+    "def": 237,
+    "hp": 1933
+   },
+   {
+    "att": 712,
+    "def": 241,
+    "hp": 1965
+   },
+   {
+    "att": 724,
+    "def": 244,
+    "hp": 1997
+   },
+   {
+    "att": 737,
+    "def": 248,
+    "hp": 2029
+   },
+   {
+    "att": 749,
+    "def": 252,
+    "hp": 2060
+   },
+   {
+    "att": 762,
+    "def": 255,
+    "hp": 2092
+   },
+   {
+    "att": 775,
+    "def": 259,
+    "hp": 2124
+   },
+   {
+    "att": 787,
+    "def": 263,
+    "hp": 2156
+   },
+   {
+    "att": 800,
+    "def": 266,
+    "hp": 2188
+   },
+   {
+    "att": 812,
+    "def": 270,
+    "hp": 2220
+   },
+   {
+    "att": 825,
+    "def": 274,
+    "hp": 2252
+   },
+   {
+    "att": 838,
+    "def": 278,
+    "hp": 2284
+   },
+   {
+    "att": 850,
+    "def": 281,
+    "hp": 2316
+   },
+   {
+    "att": 863,
+    "def": 285,
+    "hp": 2348
+   },
+   {
+    "att": 875,
+    "def": 289,
+    "hp": 2380
+   },
+   {
+    "att": 888,
+    "def": 292,
+    "hp": 2412
+   },
+   {
+    "att": 901,
+    "def": 296,
+    "hp": 2443
+   },
+   {
+    "att": 913,
+    "def": 300,
+    "hp": 2475
+   },
+   {
+    "att": 926,
+    "def": 304,
+    "hp": 2507
+   },
+   {
+    "att": 938,
+    "def": 307,
+    "hp": 2539
+   },
+   {
+    "att": 951,
+    "def": 311,
+    "hp": 2571
+   },
+   {
+    "att": 963,
+    "def": 315,
+    "hp": 2603
+   },
+   {
+    "att": 1069,
+    "def": 349,
+    "hp": 2863
+   },
+   {
+    "att": 1085,
+    "def": 354,
+    "hp": 2903
+   },
+   {
+    "att": 1101,
+    "def": 359,
+    "hp": 2943
+   },
+   {
+    "att": 1116,
+    "def": 363,
+    "hp": 2983
+   },
+   {
+    "att": 1132,
+    "def": 368,
+    "hp": 3023
+   },
+   {
+    "att": 1148,
+    "def": 372,
+    "hp": 3062
+   },
+   {
+    "att": 1164,
+    "def": 377,
+    "hp": 3102
+   },
+   {
+    "att": 1179,
+    "def": 382,
+    "hp": 3142
+   },
+   {
+    "att": 1195,
+    "def": 386,
+    "hp": 3182
+   },
+   {
+    "att": 1211,
+    "def": 391,
+    "hp": 3222
+   },
+   {
+    "att": 1227,
+    "def": 396,
+    "hp": 3262
+   },
+   {
+    "att": 1242,
+    "def": 400,
+    "hp": 3302
+   },
+   {
+    "att": 1258,
+    "def": 405,
+    "hp": 3342
+   },
+   {
+    "att": 1274,
+    "def": 410,
+    "hp": 3382
+   },
+   {
+    "att": 1290,
+    "def": 414,
+    "hp": 3422
+   },
+   {
+    "att": 1305,
+    "def": 419,
+    "hp": 3461
+   },
+   {
+    "att": 1321,
+    "def": 423,
+    "hp": 3501
+   },
+   {
+    "att": 1337,
+    "def": 428,
+    "hp": 3541
+   },
+   {
+    "att": 1353,
+    "def": 433,
+    "hp": 3581
+   },
+   {
+    "att": 1368,
+    "def": 437,
+    "hp": 3621
+   },
+   {
+    "att": 1384,
+    "def": 442,
+    "hp": 3661
+   },
+   {
+    "att": 1400,
+    "def": 447,
+    "hp": 3701
+   },
+   {
+    "att": 1416,
+    "def": 451,
+    "hp": 3741
+   },
+   {
+    "att": 1431,
+    "def": 456,
+    "hp": 3781
+   },
+   {
+    "att": 1447,
+    "def": 461,
+    "hp": 3821
+   },
+   {
+    "att": 1463,
+    "def": 465,
+    "hp": 3860
+   },
+   {
+    "att": 1479,
+    "def": 470,
+    "hp": 3900
+   },
+   {
+    "att": 1494,
+    "def": 474,
+    "hp": 3940
+   },
+   {
+    "att": 1510,
+    "def": 479,
+    "hp": 3980
+   },
+   {
+    "att": 1526,
+    "def": 484,
+    "hp": 4020
+   },
+   {
+    "att": 1542,
+    "def": 488,
+    "hp": 4060
+   },
+   {
+    "att": 1557,
+    "def": 493,
+    "hp": 4100
+   },
+   {
+    "att": 1573,
+    "def": 498,
+    "hp": 4140
+   },
+   {
+    "att": 1589,
+    "def": 502,
+    "hp": 4180
+   },
+   {
+    "att": 1605,
+    "def": 507,
+    "hp": 4220
+   },
+   {
+    "att": 1620,
+    "def": 512,
+    "hp": 4259
+   },
+   {
+    "att": 1636,
+    "def": 516,
+    "hp": 4299
+   },
+   {
+    "att": 1652,
+    "def": 521,
+    "hp": 4339
+   },
+   {
+    "att": 1668,
+    "def": 525,
+    "hp": 4379
+   },
+   {
+    "att": 1683,
+    "def": 530,
+    "hp": 4419
+   },
+   {
+    "att": 1835,
+    "def": 584,
+    "hp": 4789
+   },
+   {
+    "att": 1847,
+    "def": 587,
+    "hp": 4819
+   },
+   {
+    "att": 1859,
+    "def": 590,
+    "hp": 4849
+   },
+   {
+    "att": 1870,
+    "def": 594,
+    "hp": 4879
+   },
+   {
+    "att": 1882,
+    "def": 597,
+    "hp": 4909
+   },
+   {
+    "att": 1894,
+    "def": 601,
+    "hp": 4939
+   },
+   {
+    "att": 1906,
+    "def": 604,
+    "hp": 4969
+   },
+   {
+    "att": 1918,
+    "def": 608,
+    "hp": 4998
+   },
+   {
+    "att": 1930,
+    "def": 611,
+    "hp": 5028
+   },
+   {
+    "att": 1941,
+    "def": 615,
+    "hp": 5058
+   },
+   {
+    "att": 1953,
+    "def": 618,
+    "hp": 5088
+   },
+   {
+    "att": 1965,
+    "def": 622,
+    "hp": 5118
+   },
+   {
+    "att": 1977,
+    "def": 625,
+    "hp": 5148
+   },
+   {
+    "att": 1989,
+    "def": 629,
+    "hp": 5178
+   },
+   {
+    "att": 2000,
+    "def": 632,
+    "hp": 5208
+   },
+   {
+    "att": 2012,
+    "def": 636,
+    "hp": 5238
+   },
+   {
+    "att": 2024,
+    "def": 639,
+    "hp": 5268
+   },
+   {
+    "att": 2036,
+    "def": 643,
+    "hp": 5298
+   },
+   {
+    "att": 2048,
+    "def": 646,
+    "hp": 5328
+   },
+   {
+    "att": 2059,
+    "def": 650,
+    "hp": 5358
+   },
+   {
+    "att": 2071,
+    "def": 653,
+    "hp": 5388
+   },
+   {
+    "att": 2083,
+    "def": 657,
+    "hp": 5417
+   },
+   {
+    "att": 2095,
+    "def": 660,
+    "hp": 5447
+   },
+   {
+    "att": 2107,
+    "def": 663,
+    "hp": 5477
+   },
+   {
+    "att": 2118,
+    "def": 667,
+    "hp": 5507
+   },
+   {
+    "att": 2130,
+    "def": 670,
+    "hp": 5537
+   },
+   {
+    "att": 2142,
+    "def": 674,
+    "hp": 5567
+   },
+   {
+    "att": 2154,
+    "def": 677,
+    "hp": 5597
+   },
+   {
+    "att": 2166,
+    "def": 681,
+    "hp": 5627
+   },
+   {
+    "att": 2177,
+    "def": 684,
+    "hp": 5657
+   },
+   {
+    "att": 2189,
+    "def": 688,
+    "hp": 5687
+   },
+   {
+    "att": 2201,
+    "def": 691,
+    "hp": 5717
+   },
+   {
+    "att": 2213,
+    "def": 695,
+    "hp": 5747
+   },
+   {
+    "att": 2225,
+    "def": 698,
+    "hp": 5777
+   },
+   {
+    "att": 2237,
+    "def": 702,
+    "hp": 5806
+   },
+   {
+    "att": 2248,
+    "def": 705,
+    "hp": 5836
+   },
+   {
+    "att": 2260,
+    "def": 709,
+    "hp": 5866
+   },
+   {
+    "att": 2272,
+    "def": 712,
+    "hp": 5896
+   },
+   {
+    "att": 2284,
+    "def": 716,
+    "hp": 5926
+   },
+   {
+    "att": 2296,
+    "def": 719,
+    "hp": 5956
+   },
+   {
+    "att": 2307,
+    "def": 723,
+    "hp": 5986
+   },
+   {
+    "att": 2319,
+    "def": 726,
+    "hp": 6016
+   },
+   {
+    "att": 2331,
+    "def": 730,
+    "hp": 6046
+   },
+   {
+    "att": 2343,
+    "def": 733,
+    "hp": 6076
+   },
+   {
+    "att": 2355,
+    "def": 736,
+    "hp": 6106
+   },
+   {
+    "att": 2366,
+    "def": 740,
+    "hp": 6136
+   },
+   {
+    "att": 2378,
+    "def": 743,
+    "hp": 6166
+   },
+   {
+    "att": 2390,
+    "def": 747,
+    "hp": 6195
+   },
+   {
+    "att": 2402,
+    "def": 750,
+    "hp": 6225
+   },
+   {
+    "att": 2414,
+    "def": 754,
+    "hp": 6255
+   },
+   {
+    "att": 2637,
+    "def": 821,
+    "hp": 6785
+   },
+   {
+    "att": 2644,
+    "def": 824,
+    "hp": 6805
+   },
+   {
+    "att": 2652,
+    "def": 826,
+    "hp": 6825
+   },
+   {
+    "att": 2660,
+    "def": 828,
+    "hp": 6845
+   },
+   {
+    "att": 2668,
+    "def": 830,
+    "hp": 6865
+   },
+   {
+    "att": 2676,
+    "def": 833,
+    "hp": 6885
+   },
+   {
+    "att": 2684,
+    "def": 835,
+    "hp": 6905
+   },
+   {
+    "att": 2692,
+    "def": 837,
+    "hp": 6925
+   },
+   {
+    "att": 2699,
+    "def": 840,
+    "hp": 6945
+   },
+   {
+    "att": 2707,
+    "def": 842,
+    "hp": 6965
+   },
+   {
+    "att": 2715,
+    "def": 844,
+    "hp": 6985
+   },
+   {
+    "att": 2723,
+    "def": 847,
+    "hp": 7005
+   },
+   {
+    "att": 2731,
+    "def": 849,
+    "hp": 7025
+   },
+   {
+    "att": 2739,
+    "def": 851,
+    "hp": 7045
+   },
+   {
+    "att": 2747,
+    "def": 854,
+    "hp": 7065
+   },
+   {
+    "att": 2755,
+    "def": 856,
+    "hp": 7085
+   },
+   {
+    "att": 2762,
+    "def": 858,
+    "hp": 7104
+   },
+   {
+    "att": 2770,
+    "def": 861,
+    "hp": 7124
+   },
+   {
+    "att": 2778,
+    "def": 863,
+    "hp": 7144
+   },
+   {
+    "att": 2786,
+    "def": 865,
+    "hp": 7164
+   },
+   {
+    "att": 2794,
+    "def": 868,
+    "hp": 7184
+   },
+   {
+    "att": 2802,
+    "def": 870,
+    "hp": 7204
+   },
+   {
+    "att": 2810,
+    "def": 872,
+    "hp": 7224
+   },
+   {
+    "att": 2818,
+    "def": 874,
+    "hp": 7244
+   },
+   {
+    "att": 2825,
+    "def": 877,
+    "hp": 7264
+   },
+   {
+    "att": 2833,
+    "def": 879,
+    "hp": 7284
+   },
+   {
+    "att": 2841,
+    "def": 881,
+    "hp": 7304
+   },
+   {
+    "att": 2849,
+    "def": 884,
+    "hp": 7324
+   },
+   {
+    "att": 2857,
+    "def": 886,
+    "hp": 7344
+   },
+   {
+    "att": 2865,
+    "def": 888,
+    "hp": 7364
+   },
+   {
+    "att": 2873,
+    "def": 891,
+    "hp": 7384
+   },
+   {
+    "att": 2881,
+    "def": 893,
+    "hp": 7404
+   },
+   {
+    "att": 2888,
+    "def": 895,
+    "hp": 7424
+   },
+   {
+    "att": 2896,
+    "def": 898,
+    "hp": 7444
+   },
+   {
+    "att": 2904,
+    "def": 900,
+    "hp": 7464
+   },
+   {
+    "att": 2912,
+    "def": 902,
+    "hp": 7484
+   },
+   {
+    "att": 2920,
+    "def": 905,
+    "hp": 7503
+   },
+   {
+    "att": 2928,
+    "def": 907,
+    "hp": 7523
+   },
+   {
+    "att": 2936,
+    "def": 909,
+    "hp": 7543
+   },
+   {
+    "att": 2944,
+    "def": 912,
+    "hp": 7563
+   },
+   {
+    "att": 2951,
+    "def": 914,
+    "hp": 7583
+   },
+   {
+    "att": 2959,
+    "def": 916,
+    "hp": 7603
+   },
+   {
+    "att": 2967,
+    "def": 919,
+    "hp": 7623
+   },
+   {
+    "att": 2975,
+    "def": 921,
+    "hp": 7643
+   },
+   {
+    "att": 2983,
+    "def": 923,
+    "hp": 7663
+   },
+   {
+    "att": 2991,
+    "def": 925,
+    "hp": 7683
+   },
+   {
+    "att": 2999,
+    "def": 928,
+    "hp": 7703
+   },
+   {
+    "att": 3006,
+    "def": 930,
+    "hp": 7723
+   },
+   {
+    "att": 3014,
+    "def": 932,
+    "hp": 7743
+   },
+   {
+    "att": 3022,
+    "def": 935,
+    "hp": 7763
+   },
+   {
+    "att": 3030,
+    "def": 937,
+    "hp": 7783
+   },
+   {
+    "att": 3038,
+    "def": 939,
+    "hp": 7803
+   },
+   {
+    "att": 3046,
+    "def": 942,
+    "hp": 7823
+   },
+   {
+    "att": 3054,
+    "def": 944,
+    "hp": 7843
+   },
+   {
+    "att": 3062,
+    "def": 946,
+    "hp": 7863
+   },
+   {
+    "att": 3069,
+    "def": 949,
+    "hp": 7883
+   },
+   {
+    "att": 3077,
+    "def": 951,
+    "hp": 7902
+   },
+   {
+    "att": 3085,
+    "def": 953,
+    "hp": 7922
+   },
+   {
+    "att": 3093,
+    "def": 956,
+    "hp": 7942
+   },
+   {
+    "att": 3101,
+    "def": 958,
+    "hp": 7962
+   },
+   {
+    "att": 3109,
+    "def": 960,
+    "hp": 7982
+   },
+   {
+    "att": 3117,
+    "def": 963,
+    "hp": 8002
+   },
+   {
+    "att": 3125,
+    "def": 965,
+    "hp": 8022
+   },
+   {
+    "att": 3132,
+    "def": 967,
+    "hp": 8042
+   },
+   {
+    "att": 3140,
+    "def": 970,
+    "hp": 8062
+   },
+   {
+    "att": 3148,
+    "def": 972,
+    "hp": 8082
+   },
+   {
+    "att": 3156,
+    "def": 974,
+    "hp": 8102
+   },
+   {
+    "att": 3164,
+    "def": 976,
+    "hp": 8122
+   },
+   {
+    "att": 3172,
+    "def": 979,
+    "hp": 8142
+   },
+   {
+    "att": 3180,
+    "def": 981,
+    "hp": 8162
+   },
+   {
+    "att": 3188,
+    "def": 983,
+    "hp": 8182
+   },
+   {
+    "att": 3195,
+    "def": 986,
+    "hp": 8202
+   },
+   {
+    "att": 3203,
+    "def": 988,
+    "hp": 8222
+   },
+   {
+    "att": 3211,
+    "def": 990,
+    "hp": 8242
+   },
+   {
+    "att": 3219,
+    "def": 993,
+    "hp": 8262
+   },
+   {
+    "att": 3227,
+    "def": 995,
+    "hp": 8282
+   },
+   {
+    "att": 3235,
+    "def": 997,
+    "hp": 8301
+   },
+   {
+    "att": 3243,
+    "def": 1000,
+    "hp": 8321
+   },
+   {
+    "att": 3251,
+    "def": 1002,
+    "hp": 8341
+   },
+   {
+    "att": 3258,
+    "def": 1004,
+    "hp": 8361
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Connolly",
+     "Chloe"
+    ],
+    "chat": [
+     {
+      "character": "Connolly:",
+      "text": "This song... I think I've got it down."
+     },
+     {
+      "character": "Connolly:",
+      "text": "Now, let's try playing the whole thing..."
+     },
+     {
+      "character": "Connolly:",
+      "text": "*Plays*"
+     },
+     {
+      "character": "Chloe:",
+      "text": "That melody..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "I feel so peaceful just listening to it..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "Chloe... Y-You're such an amazing musician!"
+     },
+     {
+      "character": "Connolly:",
+      "text": "Huh? Y-You mean me?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "N-Not even close! I was only practicing a little..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "But I can feel the emotion in your playing, Chloe..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "Just being able to express yourself like that through music... Is amazing enough, as it is!"
+     },
+     {
+      "character": "Connolly:",
+      "text": "... Really?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "I've always wanted to tell you... That I'm a huge fan of your clarinet playing too, Connolly..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "... Huh? R-Really?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "Really! Maybe we could... Play together sometime? I-If that's okay?"
+     },
+     {
+      "character": "Chloe:",
+      "text": "I... I would be honored!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Umbraton Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "You'll hardly ever notice Connolly is there, so much that you could say she is invisible.Don't be deceived by her timid, harmless appearance, though. The screech she makes would give you more than a headache in a fight.She is from Umbraton, but has no gang affiliations. Perhaps hometown is the only thing she has in common with fellow Umbratoners here. She did say she thought this is a nice community like a dormitory, but still missing a touch of living... Which is a cafe, by her admission. Coincidentally, she said she worked in a cafe in Umbraton and is here for \"business study\" purposes. When asked, she would nod and reply, \"Yes, I'm doing it right now!\" Then scurry to a corner and mull over whatever... I don't get her at all.\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "This clarinet is the only thing left for me by my parents. I can't remember what they look like... I only remember my mother's voice.It was on a dark night, when I had almost fallen asleep, that I heard my mother tell me that this clarinet would be my friend from now on. After a period of time, my father and mother never came again, and I was passed on from relative to relative... I didn't have any luggage or clothes; all I had was this clarinet...Oh, I said that much again? Aren't you tired of listening to me?In short, this clarinet is actually my first friend, and it helped me make more friends...Ahem, I better go do more study... Let's resume later."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "You can't see them? Oh right, I'm the only one who can see them. They are my only friends...Hey, I'm not crazy, so don't look at me strangely like that... These water creatures have been with me for a long time now.I was born in Lumopolis. Although I heard I was born in a noble family, I didn't feel that way. Later on, I lived with my relatives because my parents had to go out to work. I lived in a small room since I was a child, and I rarely went out... because they refused to let me go out. My only company was this clarinet, so I played it and played it. Sometimes I'm afraid to play it loudly because I feared I would be disturbing others for being too noisy. So, I pretended to play it and pretended that there was sound.Over time, it really did make sounds! The door of that small room opened, and they came in to chat with me. I was quite terrified at first\u2014not of them because they didn't have malicious intentions. I was afraid that they would be discovered by my relatives...Oh! I said too much again. In short, they came often to keep me company. T-that's all."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I am very grateful to my aunt. Although she was very harsh on me, she also raised me well... If it wasn't because my cousin slandered my parents, I would have tried to continue to endure everything... At that time, Anton\u2014those friends of mine\u2014could sense that I was sad and became even angrier than me.They asked me to play my clarinet and clamored about teaching my cousin a lesson. So, I tried responding to them... But they actually appeared! They even knocked my cousin out for me! Although I couldn't stay at my aunt's house after that, I felt more at ease with Anton than l did at her house...You see, this is what they look like. Don't you think they are quite soft and lovely?"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I wanted to ask Grandma Sophia for help after I left my aunt's house... However, thinking about my aunt and cousin, I felt that I should not bring trouble to Grandma Sophia, so I was constantly in hiding. But one day, my cousin actually caused trouble at the cafe I worked at.I felt really guilty at that time... I rushed over there, only to see that person appear like a god and save Grandma Sophia. After that... I came here as you probably know. Not only can Anton protect me now, but he can also protect Grandma Sophia and everyone else...I can do all these things now, so I want to help everyone as much as possible. Although I'm still a little clumsy and still cause trouble now and then... but... I'll definitely become an independent person one day!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Under the shadow of Azurite, Umbraton is a blend of order and chaos... The exact reason it is all-inclusive.",
+  "- Boring.- No fun.- All fakes.- Hmm...",
+  "The shadow is watching...",
+  "Those... scary things... I don't ever wanna see them again. Not ever...",
+  "Dayna can't take bitter coffee... but she still orders it every time. I always sneak in some cream for her.",
+  "Warm milk plus three sugar cubes... This one is for Robyn. She's always quiet like a kitten.",
+  "- The chocolate desserts in the fridge always seem to quietly vanish for no reason. Why is that?- Nom, nom, nom. It is so yummy.",
+  "- A long long time ago, there was a cafe...- Yelp!- Huh? I'm not even telling a ghost story!",
+  "It's so big... It can actually fit quite a few Holiday Cafes and... so many people...",
+  "I'm sorry... Anton didn't mean it... I didn't mean it either...",
+  "E-everyone said I'm suited to do this. Is that true? Why does it feel like more eyes are now on me...",
+  "I'm sorry... so should I just go back and stay in a corner...",
+  "Did we really win? I can't believe it...",
+  "So scary...",
+  "Together with family...",
+  "I... I heard them!",
+  "Happy New Year...",
+  "Anton, we've gotta go for it...",
+  "You actually trust me that much...",
+  "Haunted? No, it couldn't be, I'm the one who summoned it!",
+  "Suffering and grief will eventually... be relieved by music.",
+  "It's kind of a weird tone... Not that it brings up bad feelings or anything. Rather, it's reassuring. It won't send people to the hospital again, will it? Here we go.",
+  "I obviously had no intention to become stronger...",
+  "Al-Alchemy Stars.",
+  "Oh... Will I be able to work up the courage to say hi to people? Hey, not really saying hi! Please stop tapping me!!",
+  "Is there any dark corner where I can stay with myself on the Colossus... I don't want to be found by anyone. I haven't completed that stuff yet...",
+  "I do mind here... What? Oh, I'm... I'm sorry! I was just wandering around...",
+  "Everyone gets scared... If I get to shake my fear someday, I may be able to learn about Anton's secrets...",
+  "I'm hearing it again, Anton's whisper! Woah! why are you leaning so close to me? I didn't mean to summon you...",
+  "- Connolly.- Poor, fragile Connolly. Don't be afraid. Do you hear us?- Listen to our voices. We'll keep you company.- Such... tender darkness. I'm no longer alone...",
+  "You... you asked me... who... I was talking to just now? But... they... they're right here...",
+  "Well... Anton likes it very much, too... Looks like you're trustworthy...",
+  "I always think... that if I'm with you, I won't ever feel scared again no matter where I go. So... could... could you come closer?",
+  "I received... help from that person... So were Dayna, Robyn, and Hydrad...",
+  "Anton's special skill... is putting people to sleep. I'm suddenly feeling really sleepy...",
+  "It's... too bright. It's blinding... No, oh no, I've got to return to the corner...",
+  "Hey! You... You're back?! Nothing, nothing...",
+  "- Shh! Connolly's still sleeping!- It's almost time to open the shop though. Is it really wise not to wake her?",
+  "- Connolly, come play dominos with me!- Anton, I'm working... Oh, there's a customer!",
+  "Ordering coffee at this hour? Es-Espresso? Someone's gonna find it difficult to sleep tonight...",
+  "Uh, I seem to be lost! No, it's not like that. I'm Connolly. This is Anton and its... relatives... I assume?",
+  "... You... you shouldn't have...",
+  "Wow! Are all these gifts for Connolly?",
+  "Really!? Can I really have this!?",
+  "Here... here's your c-coffee. To return your favor.",
+  "Gadzooks! I'm so sorry!",
+  "Anton, pay attention to your strength!",
+  "Blow? Now?!",
+  "Its name is Anton. Its name is also Anton... I was also confused at first, but if you listen carefully, you'll notice that they sound slightly different.",
+  "My parents. I wish I could see them again and tell them I can properly talk to Anton now. This clarinet that I've received as a gift has also been preserved carefully...",
+  "Grandma. I wish grandma could be here as well... Huh? That person? I can do without him. I-I can't look him in the eye! And it's not because I'm a wuss. Anton can't either! None of us can!",
+  "Let me reluctantly lead all of you!"
+ ],
+ "skins": [],
+ "description": "A kind-hearted girl who is rumored to be born into a declining noble family. Though she lives in Umbraton, she's almost painfully shy... She manages to keep her foothold in the tumultuous Umbraton thanks to her clarinet and her unique ability to manipulate water creatures.",
+ "realName": "Connolly",
+ "nickname": "Aqua Song",
+ "gender": "Female",
+ "height": "5'5''",
+ "birthday": "January 30",
+ "birthplace": "Lumopolis",
+ "style": "Dimensional Sound, Aqua Form"
 }

@@ -1,0 +1,270 @@
+[
+ {
+  "start": [
+   {
+    "name": "Lester:",
+    "content": "Greetings, and good morning!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning, Lester! You seem full of energy today!"
+   },
+   {
+    "name": "Lester:",
+    "content": "Not really, I was just showing politeness."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, is that so..."
+   },
+   {
+    "name": "Lester:",
+    "content": "Of course it is! Say, don't you think it's way too bright inside your Colossus?"
+   },
+   {
+    "name": "Lester:",
+    "content": "I had to use all of my stuff to block the window, just so I could create some semblance of dark around here!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh... Have you been having trouble sleeping?"
+   },
+   {
+    "name": "Lester:",
+    "content": "That's right! I only managed to get a few winks of sleep after all that trouble. Now, if you'll excuse me, I'm going to try and get a few more..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "O-Okay..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Lester:",
+    "content": "Have you eaten anything for lunch yet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I have."
+   },
+   {
+    "name": "Lester:",
+    "content": "You know, from where I come. When we ask someone if they've eaten yet, we aren't just asking about your meal..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Th-Then how should I respond...?"
+   },
+   {
+    "name": "Lester:",
+    "content": "On top of telling me whether you've eaten, you're also supposed to tell me what you're up to."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh... I was just about to go lie down for a bit..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I-Is that good enough of a response for you?"
+   },
+   {
+    "name": "Lester:",
+    "content": "Oho? You catch on pretty quickly!"
+   },
+   {
+    "name": "Lester:",
+    "content": "Very well, then! Get plenty of rest, I'll beat it now!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Oh, I get it. You're saying goodbye, right?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Lester:",
+    "content": "Good evening, sir."
+   },
+   {
+    "name": "Lester:",
+    "content": "Can you help me with something?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Lester. What is it?"
+   },
+   {
+    "name": "Lester:",
+    "content": "It's like this, Navigator. If I'm able to do a job for a Caelestite, the folks back home will probably think I'm famous or something!"
+   },
+   {
+    "name": "Lester:",
+    "content": "I will have a steady flow of jobs in line, then! Plenty of good and safe ones, too! So that I can earn the pay without risking too much!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Er... Okay..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Maybe some other time?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Er... Okay..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "So how can I help?"
+     },
+     {
+      "name": "Lester:",
+      "content": "Look, it's really easy! Just take one of the bottles on my tail, and that's it!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Uh... Okay?"
+     },
+     {
+      "name": "Lester:",
+      "content": "So you agree to it? Great, I'll deliver this right away!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sure, I'll just wait for you to deliver it before I go to bed..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Lester?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Where'd you go? Don't tell me you fell asleep?!"
+     },
+     {
+      "name": "Lester:",
+      "content": "Uh-oh... Had an accident, sorry! I'll deliver it to you next time!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What's going on...? This smell?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Wh-What is this awful stench?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It looks like... the smell is coming from your room!"
+     },
+     {
+      "name": "Lester:",
+      "content": "It's fine, it's fine! I just sort of... Knocked this thing over, that's all!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Urgh... I think I'm about to pass out..."
+     },
+     {
+      "name": "Lester:",
+      "content": "Huh? Pass out? Oh don't worry, it isn't lethal or anything. You'll wake up in a day or so!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Maybe some other time?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "I... Don't really have any jobs for other people to do right now."
+     },
+     {
+      "name": "Lester:",
+      "content": "Aw, c'mon! Don't turn me down, please!"
+     },
+     {
+      "name": "Lester:",
+      "content": "Look, it's really easy! Just take one of the bottles on my tail, and that's it!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Uh... Okay?"
+     },
+     {
+      "name": "Lester:",
+      "content": "So you agree to it? Great, I'll deliver this right away!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sure, I'll just wait for you to deliver it before I go to bed..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Lester?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Where'd you go? Don't tell me you fell asleep?!"
+     },
+     {
+      "name": "Lester:",
+      "content": "Uh-oh... Had an accident, sorry! I'll deliver it to you next time!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What's going on...? This smell?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Wh-What is this awful stench?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It looks like... the smell is coming from your room!"
+     },
+     {
+      "name": "Lester:",
+      "content": "It's fine, it's fine! I just sort of... Knocked this thing over, that's all!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Urgh... I think I'm about to pass out..."
+     },
+     {
+      "name": "Lester:",
+      "content": "Huh? Pass out? Oh don't worry, it isn't lethal or anything. You'll wake up in a day or so!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

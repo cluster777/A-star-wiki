@@ -1,0 +1,936 @@
+{
+ "title": "A Dangerous Horn",
+ "header": "To improve her relationship with the others aboard the Colossus, Ophina has begun rigorously training herself to allow other people to touch her horn. In order to make progress, she needs a helping hand from the Navigator.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What's the matter, Ophina? Seems like you have something to say."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "No, it's not that bad, just..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just what?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I know it's probably weird to ask you for this kind of favor, but..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "After thinking about it, no one else will do but you, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I'll see what I can do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why don't you tell me what it is?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I-I'd like to get along well with everyone in the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Get along with others?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I think you're already doing that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah, Louise, even Nikinis and Bethlehem, they all like you."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "We've known each other since Northland, so they don't count."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahhh, I understand. You're trying to overcome your shyness, right? In that case, I can help anytime."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Really?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course. Why don't we get started now?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Introduce her to Vice",
+     "link": "1"
+    },
+    {
+     "text": "Make self-introduction",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Let's start with Vice. She is very friendly and should warm up to you quickly."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Shakes head*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... No?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Nods*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's still too much."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is there an easier solution?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Sobs* I'm sorry, Navigator..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "D-Don't cry! If your Northland buddies see me now, I'll be frozen in ice for the night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There must be another way. Any ideas?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Another way..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Maybe it could work if you touch my horns."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Horns? You mean the horns on your head?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. I hate it when strangers touch them, but I'm fine when it's someone I know well."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "As long as I can fight that feeling, maybe..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's it? Seems a bit random, but..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I think it's hard for me to communicate with others because I'm too timid."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "If I can overcome my shyness..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Still sounds a bit strange, but somehow makes a little sense, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you sure you want me to help, though? I think there are others on the Colossus who can do a better job than I can."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "You'll do! I know you're a good person, Navigator."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I would need more time to open up to someone else."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She seems so sure. No use trying to argue.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay then, ready?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Ready!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Touch big crystal horns",
+     "link": "4"
+    },
+    {
+     "text": "Touch head",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "As you can see, I am Navigator, master of this Colossus. And you?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I-I'm... I'm from..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Ophi... Northland... North... Green Pine?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Ugh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's still too much."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is there an easier solution?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Sobs* I'm sorry, Navigator..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "D-Don't cry! If your Northland buddies see me now, I'll be frozen in ice for the night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There must be another way. Any ideas?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Another way..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Maybe it could work if you touch my horns."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Horns? You mean the horns on your head?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. I hate it when strangers touch them, but I'm fine when it's someone I know well."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "As long as I can fight that feeling, maybe..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's it? Seems a bit random, but..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I think it's hard for me to communicate with others because I'm too timid."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "If I can overcome my shyness..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Still sounds a bit strange, but somehow makes a little sense, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you sure you want me to help, though? I think there are others on the Colossus who can do a better job than I can."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "You'll do! I know you're a good person, Navigator."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I would need more time to open up to someone else."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She seems so sure. No use trying to argue.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay then, ready?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Ready!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Touch big crystal horns",
+     "link": "4"
+    },
+    {
+     "text": "Touch head",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's still too much."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is there an easier solution?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Sobs* I'm sorry, Navigator..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "D-Don't cry! If your Northland buddies see me now, I'll be frozen in ice for the night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There must be another way. Any ideas?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Another way..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Maybe it could work if you touch my horns."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Horns? You mean the horns on your head?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. I hate it when strangers touch them, but I'm fine when it's someone I know well."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "As long as I can fight that feeling, maybe..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's it? Seems a bit random, but..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I think it's hard for me to communicate with others because I'm too timid."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "If I can overcome my shyness..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Still sounds a bit strange, but somehow makes a little sense, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you sure you want me to help, though? I think there are others on the Colossus who can do a better job than I can."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "You'll do! I know you're a good person, Navigator."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I would need more time to open up to someone else."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She seems so sure. No use trying to argue.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay then, ready?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Ready!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Touch big crystal horns",
+     "link": "4"
+    },
+    {
+     "text": "Touch head",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ophina:",
+     "dialogue": "Oh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Touch carefully*"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Oh, oh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She's starting to react badly...)"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Sorry, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That was close! Good thing I got out of the way!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "What are you doing, Navigator?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Why did that kid charge at me all of sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I dragged the Navigator over..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "We're practicing how to handle strangers!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Handle strangers?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, practicing how to get along with strangers!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Specifically, with others on the Colossus."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I see. I thought we had a problem on our hands."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "So, Ophina is trying to learn how to make friends?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. But it's been too long since the last time I talked with anyone outside Northland... I get tongue-tied speaking to someone new."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "No problem! You just need practice."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "If you don't mind, I'll take you to see a few people now."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "But, but..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "It's not smart to practice here. How about we get something to eat first, like ice cream?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "We can also invite Noah and a few others. How's that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's a good idea.",
+     "link": "7"
+    },
+    {
+     "text": "Invite me too.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ophina:",
+     "dialogue": "Na-Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It still didn't feel right with the horns, so I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you okay, Ophina?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Oh!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Her face is bright red.)"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Sorry, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That was close! Good thing I got out of the way!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "What are you doing, Navigator?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Why did that kid charge at me all of sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I dragged the Navigator over..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "We're practicing how to handle strangers!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Handle strangers?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, practicing how to get along with strangers!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Specifically, with others on the Colossus."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I see. I thought we had a problem on our hands."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "So, Ophina is trying to learn how to make friends?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. But it's been too long since the last time I talked with anyone outside Northland... I get tongue-tied speaking to someone new."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "No problem! You just need practice."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "If you don't mind, I'll take you to see a few people now."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "But, but..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "It's not smart to practice here. How about we get something to eat first, like ice cream?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "We can also invite Noah and a few others. How's that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's a good idea.",
+     "link": "7"
+    },
+    {
+     "text": "Invite me too.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ophina:",
+     "dialogue": "Sorry, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That was close! Good thing I got out of the way!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "What are you doing, Navigator?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Why did that kid charge at me all of sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I dragged the Navigator over..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "We're practicing how to handle strangers!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Handle strangers?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, practicing how to get along with strangers!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Specifically, with others on the Colossus."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I see. I thought we had a problem on our hands."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "So, Ophina is trying to learn how to make friends?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Yes. But it's been too long since the last time I talked with anyone outside Northland... I get tongue-tied speaking to someone new."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "No problem! You just need practice."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "If you don't mind, I'll take you to see a few people now."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "But, but..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "It's not smart to practice here. How about we get something to eat first, like ice cream?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "We can also invite Noah and a few others. How's that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's a good idea.",
+     "link": "7"
+    },
+    {
+     "text": "Invite me too.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "That sounds much better than practicing with me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knew we should've come to Vice first."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I spent 17 years all by myself, so I'm probably not qualified to teach anyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that fine with you, Ophina?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Uh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Believe in yourself! It's always tough at the beginning, but once you get over that first hurdle, it'll be much easier."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Okay..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Very well! Let's go!"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Oh, okay..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Hey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What?)"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Excuse me."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Are you okay, little girl?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I'm fine..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Good. I'm very sorry. It won't happen again."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Come on, let's go, Ophina."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Sobs* I'm sorry, Navigator, I'll fix the wall when I get a chance..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The wall?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess Ophina did not react well after bumping into someone.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Let me see here...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's completely destroyed!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I would've been done for if I didn't get out of the way!)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a great idea. Can I tag along, too?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since Ophina came to me first so I should see it through."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that fine with you, Ophina?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Uh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Believe in yourself! It's always tough at the beginning, but once you get over that first hurdle, it'll be much easier."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Okay..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Very well! Let's go!"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Oh, okay..."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "Hey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What?)"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Excuse me."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Are you okay, little girl?"
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "I'm fine..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Good. I'm very sorry. It won't happen again."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Come on, let's go, Ophina."
+    },
+    {
+     "char": "Ophina:",
+     "dialogue": "*Sobs* I'm sorry, Navigator, I'll fix the wall when I get a chance..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The wall?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess Ophina did not react well after bumping into someone.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Let me see here...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's completely destroyed!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I would've been done for if I didn't get out of the way!)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

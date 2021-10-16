@@ -1,0 +1,1140 @@
+{
+ "title": "Dusk Arts",
+ "header": "Gabriel's \"Slow and steady wins the race\" confuses you, but it's good to take a break every now and then.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's sunny today. Great for relaxing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, indeed."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "That's why I invited you here."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "I heard you've been quite...restless recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Restless? What does that mean?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It means it feels as if there's a fire in you. The kind that can't be extinguished."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I drink a lot of water, 8 glasses per day..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "The fire is just an analogy. The point is that you always seem to be in a hurry..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In a hurry?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Yeah, that's just the vibe I got."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You're very curious, always trying to get to the bottom of things... Kinda like a sponge."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sponge?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Yea, absorbing all knowledge fervently. I'm afraid you'll burn yourself out if you keep doing that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's because I was underground for 17 years and don't know anything."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Besides, I wanna learn more about the Eclipsites because they..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Yeah, you're right. You are looking to take revenge on them after all."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "But still, don't stress yourself out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... I guess you're right. It's a good thing that I have loads of allies and know a lot more about the Eclipsites now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just a bunch of unintelligent creatures, merely tools. We should be seeking out the one behind them."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Navigator, am I your ally?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "You are.",
+     "link": "1"
+    },
+    {
+     "text": "You're an important ally to me.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "My ally..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What's an ally to you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Someone who fights with me against the Eclipsites."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "That's it?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "But, Navigator, there are many things you shouldn't jump the gun on."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You'd better take a break when it's necessary. Sometimes haste makes waste."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Haste makes waste\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm still baffled. Are you speaking from experience, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "I am. Just let things take their course. Everything will work out in the end."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I just wish I could be as composed as you are. Maybe I need to be more cosmopolitan."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Everyone grows. There's no hurry."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, sun's up! Wanna do something interesting with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-something interesting?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Here, come into my bird cage."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... Can I?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course. I'm the one inviting you. Are you refusing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not at all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although it's a cage, it's surprisingly spacious inside, and the cushion's really soft.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... It feels so nice rocking like this."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's comfortable, isn't it? I often hang my cage here and just rock the day away."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This gentle rocking can soothe your mind."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "With the Colossus high up in the sky and the panoramic view from the bridge, I can sit here all day without ever getting bored."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've got yourself a good spot."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Enjoy the view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, Gabriel, the clouds look lovely, don't they?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "They do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you invite me to enjoy the view here, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm? It's nice, isn't it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, it is.",
+     "link": "4"
+    },
+    {
+     "text": "The view is gorgeous. Thank you!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "Why am I important?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I'm not quite sure why. I just feel that way."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "But, Navigator, there are many things you shouldn't jump the gun on."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You'd better take a break when it's necessary. Sometimes haste makes waste."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Haste makes waste\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm still baffled. Are you speaking from experience, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "I am. Just let things take their course. Everything will work out in the end."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I just wish I could be as composed as you are. Maybe I need to be more cosmopolitan."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Everyone grows. There's no hurry."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, sun's up! Wanna do something interesting with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-something interesting?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Here, come into my bird cage."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... Can I?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course. I'm the one inviting you. Are you refusing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not at all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although it's a cage, it's surprisingly spacious inside, and the cushion's really soft.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... It feels so nice rocking like this."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's comfortable, isn't it? I often hang my cage here and just rock the day away."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This gentle rocking can soothe your mind."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "With the Colossus high up in the sky and the panoramic view from the bridge, I can sit here all day without ever getting bored."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've got yourself a good spot."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Enjoy the view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, Gabriel, the clouds look lovely, don't they?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "They do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you invite me to enjoy the view here, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm? It's nice, isn't it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, it is.",
+     "link": "4"
+    },
+    {
+     "text": "The view is gorgeous. Thank you!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "But, Navigator, there are many things you shouldn't jump the gun on."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You'd better take a break when it's necessary. Sometimes haste makes waste."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Haste makes waste\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm still baffled. Are you speaking from experience, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "I am. Just let things take their course. Everything will work out in the end."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I just wish I could be as composed as you are. Maybe I need to be more cosmopolitan."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Everyone grows. There's no hurry."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, sun's up! Wanna do something interesting with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-something interesting?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Here, come into my bird cage."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... Can I?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course. I'm the one inviting you. Are you refusing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not at all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although it's a cage, it's surprisingly spacious inside, and the cushion's really soft.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... It feels so nice rocking like this."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's comfortable, isn't it? I often hang my cage here and just rock the day away."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This gentle rocking can soothe your mind."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "With the Colossus high up in the sky and the panoramic view from the bridge, I can sit here all day without ever getting bored."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've got yourself a good spot."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Enjoy the view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, Gabriel, the clouds look lovely, don't they?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "They do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you invite me to enjoy the view here, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm? It's nice, isn't it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, it is.",
+     "link": "4"
+    },
+    {
+     "text": "The view is gorgeous. Thank you!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "It seems like you don't enjoy a leisurely break."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I guess so."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Maybe I have been wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyhow, I do appreciate you trying to get me some rest."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Navigator, we still have a long way to go, and it's not going to end so easily..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "So it is necessary for you to rest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Looks like you're quite unaccustomed to being laid back. Would you like to play a game with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A game?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "A very fun game."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure. What is it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice told me quite a few interesting games, like poker and chess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, and I'm really good at hide-and-seek!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You seem quite experienced. Let's begin, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, why are you making that noise?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm, it's not even spinning that fast."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "This game is really popular. Michael and the other ladies love it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Stop right there! Stop..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What, you want to quit?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No! Stop! Please!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Oh, okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "One Gabriel, two Gabriels..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Ah... Vice did say that this is usually a sign that you're about to faint!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why do you look so calm, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Me? I'm used to it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No way... You must've sneaked out. I'm pretty sure I saw you outside of the cage!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course! How else could I have turned the cage?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're different today, Gabriel. You're more energetic than usual."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What kind of person do I strike you as usually?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Steady.",
+     "link": "7"
+    },
+    {
+     "text": "You're like a gentle older sister.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "Glad you like it. I just thought you must be tired since you've been busy all the time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's nice to take a break occasionally. But..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "But you still prefer being busy, don't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyhow, I do appreciate you trying to get me some rest."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Navigator, we still have a long way to go, and it's not going to end so easily..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "So it is necessary for you to rest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Looks like you're quite unaccustomed to being laid back. Would you like to play a game with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A game?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "A very fun game."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure. What is it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice told me quite a few interesting games, like poker and chess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, and I'm really good at hide-and-seek!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You seem quite experienced. Let's begin, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, why are you making that noise?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm, it's not even spinning that fast."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "This game is really popular. Michael and the other ladies love it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Stop right there! Stop..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What, you want to quit?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No! Stop! Please!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Oh, okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "One Gabriel, two Gabriels..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Ah... Vice did say that this is usually a sign that you're about to faint!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why do you look so calm, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Me? I'm used to it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No way... You must've sneaked out. I'm pretty sure I saw you outside of the cage!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course! How else could I have turned the cage?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're different today, Gabriel. You're more energetic than usual."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What kind of person do I strike you as usually?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Steady.",
+     "link": "7"
+    },
+    {
+     "text": "You're like a gentle older sister.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyhow, I do appreciate you trying to get me some rest."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Navigator, we still have a long way to go, and it's not going to end so easily..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "So it is necessary for you to rest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Looks like you're quite unaccustomed to being laid back. Would you like to play a game with me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A game?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "A very fun game."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure. What is it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice told me quite a few interesting games, like poker and chess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, and I'm really good at hide-and-seek!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You seem quite experienced. Let's begin, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hey, why are you making that noise?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Hmm, it's not even spinning that fast."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gabriel!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "This game is really popular. Michael and the other ladies love it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Stop right there! Stop..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What, you want to quit?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No! Stop! Please!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Oh, okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "One Gabriel, two Gabriels..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Ah... Vice did say that this is usually a sign that you're about to faint!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why do you look so calm, Gabriel?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Me? I'm used to it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No way... You must've sneaked out. I'm pretty sure I saw you outside of the cage!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Of course! How else could I have turned the cage?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're different today, Gabriel. You're more energetic than usual."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "What kind of person do I strike you as usually?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Steady.",
+     "link": "7"
+    },
+    {
+     "text": "You're like a gentle older sister.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "That sounds a bit old..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, sorry! I didn't mean it that way."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's okay. You're not the first one describing me so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you seem so different today. Did anything good happen?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's because I'm relieved."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Relieved? Why do you say so?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Because I completed my mission."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "The Four Angels have finally become the Four Angels, not just four individual angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not quite following..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You know, us, the Four Angels!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Raphael, Uriel, Michael, andme."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "We formed a team only six months ago."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... Then what do you mean by four individual angels?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Back then, we didn't work well together. We wouldn't even swing together in my bird cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you just said they all love it..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "That was after the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Yes. We only started working as a real team following the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you tell me about it?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "The view is really wonderful today..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Let's just quietly enjoy it together, doing nothing else."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uh-oh. She doesn't want to tell me about it.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Never mind. It's not good to force her.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Like she said, haste makes waste. There's plenty of time for me to ask.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right. The view is amazing..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gabriel:",
+     "dialogue": "You mean I'm good at taking care of people?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah. I feel reassured and safe around you."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Aw, thank you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you seem so different today. Did anything good happen?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "It's because I'm relieved."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Relieved? Why do you say so?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Because I completed my mission."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "The Four Angels have finally become the Four Angels, not just four individual angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not quite following..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "You know, us, the Four Angels!"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Raphael, Uriel, Michael, andme."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "We formed a team only six months ago."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... Then what do you mean by four individual angels?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Back then, we didn't work well together. We wouldn't even swing together in my bird cage..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you just said they all love it..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "That was after the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Yes. We only started working as a real team following the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you tell me about it?"
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "The view is really wonderful today..."
+    },
+    {
+     "char": "Gabriel:",
+     "dialogue": "Let's just quietly enjoy it together, doing nothing else."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Uh-oh. She doesn't want to tell me about it.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Never mind. It's not good to force her.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Like she said, haste makes waste. There's plenty of time for me to ask.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right. The view is amazing..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

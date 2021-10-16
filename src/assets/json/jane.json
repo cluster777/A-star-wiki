@@ -1,1153 +1,1336 @@
 {
-      "name": "Jane",
-      "faction": "Umbraton",
-      "element_main": "Water",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "1 Turn",
-            "description": [
-                  "Deals 150% damage to the enemy with the lowest HP percentage.",
-                  "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill",
-                  "Deals 150% damage to the enemy with the lowest HP percentage. Grants a Witness Mark. Each stack of the Witness Mark increases the ATK of Water Aurorians by 1%. Removes Active Skill cooldown if the target is killed with the skill"
-            ]
-      },
-      "equip": {
-            "name": "Chest of Mammon",
-            "passive": "Greedy Judgment",
-            "description": [
-                  [
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
-                  ],
-                  [
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
-                  ],
-                  [
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
-                        "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Potion I",
-                        "Water Flare Powder",
-                        "Destiny Champagne I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
-            },
-            {
-                  "material": [
-                        "Water Flare Rock",
-                        "Water Crystal Shard",
-                        "Destiny Champagne II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 150% damage to the enemy with the lowest HP percentage.",
-                  "after": "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill"
-            },
-            {
-                  "material": [
-                        "Water Crystal Cluster",
-                        "Water Potion II",
-                        "Destiny Champagne III",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill",
-                  "after": "Deals 150% damage to the enemy with the lowest HP percentage. Grants a Witness Mark. Each stack of the Witness Mark increases the ATK of Water Aurorians by 1%. Removes Active Skill cooldown if the target is killed with the skill"
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 577,
-                        "def": 248,
-                        "hp": 1715
-                  },
-                  {
-                        "att": 589,
-                        "def": 252,
-                        "hp": 1742
-                  },
-                  {
-                        "att": 600,
-                        "def": 256,
-                        "hp": 1769
-                  },
-                  {
-                        "att": 612,
-                        "def": 260,
-                        "hp": 1796
-                  },
-                  {
-                        "att": 623,
-                        "def": 264,
-                        "hp": 1823
-                  },
-                  {
-                        "att": 635,
-                        "def": 268,
-                        "hp": 1850
-                  },
-                  {
-                        "att": 647,
-                        "def": 272,
-                        "hp": 1877
-                  },
-                  {
-                        "att": 658,
-                        "def": 276,
-                        "hp": 1904
-                  },
-                  {
-                        "att": 670,
-                        "def": 280,
-                        "hp": 1931
-                  },
-                  {
-                        "att": 681,
-                        "def": 284,
-                        "hp": 1958
-                  },
-                  {
-                        "att": 693,
-                        "def": 289,
-                        "hp": 1985
-                  },
-                  {
-                        "att": 705,
-                        "def": 293,
-                        "hp": 2012
-                  },
-                  {
-                        "att": 716,
-                        "def": 297,
-                        "hp": 2039
-                  },
-                  {
-                        "att": 728,
-                        "def": 301,
-                        "hp": 2066
-                  },
-                  {
-                        "att": 739,
-                        "def": 305,
-                        "hp": 2093
-                  },
-                  {
-                        "att": 751,
-                        "def": 309,
-                        "hp": 2120
-                  },
-                  {
-                        "att": 763,
-                        "def": 313,
-                        "hp": 2147
-                  },
-                  {
-                        "att": 774,
-                        "def": 317,
-                        "hp": 2174
-                  },
-                  {
-                        "att": 786,
-                        "def": 321,
-                        "hp": 2201
-                  },
-                  {
-                        "att": 797,
-                        "def": 325,
-                        "hp": 2228
-                  },
-                  {
-                        "att": 809,
-                        "def": 330,
-                        "hp": 2255
-                  },
-                  {
-                        "att": 821,
-                        "def": 334,
-                        "hp": 2281
-                  },
-                  {
-                        "att": 832,
-                        "def": 338,
-                        "hp": 2308
-                  },
-                  {
-                        "att": 844,
-                        "def": 342,
-                        "hp": 2335
-                  },
-                  {
-                        "att": 855,
-                        "def": 346,
-                        "hp": 2362
-                  },
-                  {
-                        "att": 867,
-                        "def": 350,
-                        "hp": 2389
-                  },
-                  {
-                        "att": 879,
-                        "def": 354,
-                        "hp": 2416
-                  },
-                  {
-                        "att": 890,
-                        "def": 358,
-                        "hp": 2443
-                  },
-                  {
-                        "att": 902,
-                        "def": 362,
-                        "hp": 2470
-                  },
-                  {
-                        "att": 913,
-                        "def": 366,
-                        "hp": 2497
-                  },
-                  {
-                        "att": 1018,
-                        "def": 402,
-                        "hp": 2771
-                  },
-                  {
-                        "att": 1032,
-                        "def": 407,
-                        "hp": 2805
-                  },
-                  {
-                        "att": 1047,
-                        "def": 412,
-                        "hp": 2838
-                  },
-                  {
-                        "att": 1061,
-                        "def": 417,
-                        "hp": 2872
-                  },
-                  {
-                        "att": 1076,
-                        "def": 422,
-                        "hp": 2906
-                  },
-                  {
-                        "att": 1090,
-                        "def": 427,
-                        "hp": 2939
-                  },
-                  {
-                        "att": 1105,
-                        "def": 432,
-                        "hp": 2973
-                  },
-                  {
-                        "att": 1119,
-                        "def": 437,
-                        "hp": 3007
-                  },
-                  {
-                        "att": 1134,
-                        "def": 443,
-                        "hp": 3041
-                  },
-                  {
-                        "att": 1148,
-                        "def": 448,
-                        "hp": 3074
-                  },
-                  {
-                        "att": 1163,
-                        "def": 453,
-                        "hp": 3108
-                  },
-                  {
-                        "att": 1177,
-                        "def": 458,
-                        "hp": 3142
-                  },
-                  {
-                        "att": 1192,
-                        "def": 463,
-                        "hp": 3175
-                  },
-                  {
-                        "att": 1206,
-                        "def": 468,
-                        "hp": 3209
-                  },
-                  {
-                        "att": 1221,
-                        "def": 473,
-                        "hp": 3243
-                  },
-                  {
-                        "att": 1235,
-                        "def": 478,
-                        "hp": 3277
-                  },
-                  {
-                        "att": 1250,
-                        "def": 483,
-                        "hp": 3310
-                  },
-                  {
-                        "att": 1264,
-                        "def": 489,
-                        "hp": 3344
-                  },
-                  {
-                        "att": 1279,
-                        "def": 494,
-                        "hp": 3378
-                  },
-                  {
-                        "att": 1293,
-                        "def": 499,
-                        "hp": 3411
-                  },
-                  {
-                        "att": 1308,
-                        "def": 504,
-                        "hp": 3445
-                  },
-                  {
-                        "att": 1322,
-                        "def": 509,
-                        "hp": 3479
-                  },
-                  {
-                        "att": 1337,
-                        "def": 514,
-                        "hp": 3512
-                  },
-                  {
-                        "att": 1351,
-                        "def": 519,
-                        "hp": 3546
-                  },
-                  {
-                        "att": 1366,
-                        "def": 524,
-                        "hp": 3580
-                  },
-                  {
-                        "att": 1380,
-                        "def": 530,
-                        "hp": 3614
-                  },
-                  {
-                        "att": 1395,
-                        "def": 535,
-                        "hp": 3647
-                  },
-                  {
-                        "att": 1409,
-                        "def": 540,
-                        "hp": 3681
-                  },
-                  {
-                        "att": 1424,
-                        "def": 545,
-                        "hp": 3715
-                  },
-                  {
-                        "att": 1438,
-                        "def": 550,
-                        "hp": 3748
-                  },
-                  {
-                        "att": 1453,
-                        "def": 555,
-                        "hp": 3782
-                  },
-                  {
-                        "att": 1467,
-                        "def": 560,
-                        "hp": 3816
-                  },
-                  {
-                        "att": 1482,
-                        "def": 565,
-                        "hp": 3850
-                  },
-                  {
-                        "att": 1496,
-                        "def": 571,
-                        "hp": 3883
-                  },
-                  {
-                        "att": 1511,
-                        "def": 576,
-                        "hp": 3917
-                  },
-                  {
-                        "att": 1525,
-                        "def": 581,
-                        "hp": 3951
-                  },
-                  {
-                        "att": 1540,
-                        "def": 586,
-                        "hp": 3984
-                  },
-                  {
-                        "att": 1554,
-                        "def": 591,
-                        "hp": 4018
-                  },
-                  {
-                        "att": 1569,
-                        "def": 596,
-                        "hp": 4052
-                  },
-                  {
-                        "att": 1583,
-                        "def": 601,
-                        "hp": 4085
-                  },
-                  {
-                        "att": 1734,
-                        "def": 655,
-                        "hp": 4491
-                  },
-                  {
-                        "att": 1745,
-                        "def": 659,
-                        "hp": 4516
-                  },
-                  {
-                        "att": 1756,
-                        "def": 663,
-                        "hp": 4541
-                  },
-                  {
-                        "att": 1767,
-                        "def": 667,
-                        "hp": 4567
-                  },
-                  {
-                        "att": 1778,
-                        "def": 670,
-                        "hp": 4592
-                  },
-                  {
-                        "att": 1789,
-                        "def": 674,
-                        "hp": 4617
-                  },
-                  {
-                        "att": 1799,
-                        "def": 678,
-                        "hp": 4642
-                  },
-                  {
-                        "att": 1810,
-                        "def": 682,
-                        "hp": 4668
-                  },
-                  {
-                        "att": 1821,
-                        "def": 686,
-                        "hp": 4693
-                  },
-                  {
-                        "att": 1832,
-                        "def": 690,
-                        "hp": 4718
-                  },
-                  {
-                        "att": 1843,
-                        "def": 694,
-                        "hp": 4744
-                  },
-                  {
-                        "att": 1854,
-                        "def": 697,
-                        "hp": 4769
-                  },
-                  {
-                        "att": 1865,
-                        "def": 701,
-                        "hp": 4794
-                  },
-                  {
-                        "att": 1876,
-                        "def": 705,
-                        "hp": 4819
-                  },
-                  {
-                        "att": 1886,
-                        "def": 709,
-                        "hp": 4845
-                  },
-                  {
-                        "att": 1897,
-                        "def": 713,
-                        "hp": 4870
-                  },
-                  {
-                        "att": 1908,
-                        "def": 717,
-                        "hp": 4895
-                  },
-                  {
-                        "att": 1919,
-                        "def": 720,
-                        "hp": 4921
-                  },
-                  {
-                        "att": 1930,
-                        "def": 724,
-                        "hp": 4946
-                  },
-                  {
-                        "att": 1941,
-                        "def": 728,
-                        "hp": 4971
-                  },
-                  {
-                        "att": 1952,
-                        "def": 732,
-                        "hp": 4996
-                  },
-                  {
-                        "att": 1963,
-                        "def": 736,
-                        "hp": 5022
-                  },
-                  {
-                        "att": 1973,
-                        "def": 740,
-                        "hp": 5047
-                  },
-                  {
-                        "att": 1984,
-                        "def": 743,
-                        "hp": 5072
-                  },
-                  {
-                        "att": 1995,
-                        "def": 747,
-                        "hp": 5097
-                  },
-                  {
-                        "att": 2006,
-                        "def": 751,
-                        "hp": 5123
-                  },
-                  {
-                        "att": 2017,
-                        "def": 755,
-                        "hp": 5148
-                  },
-                  {
-                        "att": 2028,
-                        "def": 759,
-                        "hp": 5173
-                  },
-                  {
-                        "att": 2039,
-                        "def": 763,
-                        "hp": 5199
-                  },
-                  {
-                        "att": 2050,
-                        "def": 767,
-                        "hp": 5224
-                  },
-                  {
-                        "att": 2060,
-                        "def": 770,
-                        "hp": 5249
-                  },
-                  {
-                        "att": 2071,
-                        "def": 774,
-                        "hp": 5274
-                  },
-                  {
-                        "att": 2082,
-                        "def": 778,
-                        "hp": 5300
-                  },
-                  {
-                        "att": 2093,
-                        "def": 782,
-                        "hp": 5325
-                  },
-                  {
-                        "att": 2104,
-                        "def": 786,
-                        "hp": 5350
-                  },
-                  {
-                        "att": 2115,
-                        "def": 790,
-                        "hp": 5376
-                  },
-                  {
-                        "att": 2126,
-                        "def": 793,
-                        "hp": 5401
-                  },
-                  {
-                        "att": 2137,
-                        "def": 797,
-                        "hp": 5426
-                  },
-                  {
-                        "att": 2147,
-                        "def": 801,
-                        "hp": 5451
-                  },
-                  {
-                        "att": 2158,
-                        "def": 805,
-                        "hp": 5477
-                  },
-                  {
-                        "att": 2169,
-                        "def": 809,
-                        "hp": 5502
-                  },
-                  {
-                        "att": 2180,
-                        "def": 813,
-                        "hp": 5527
-                  },
-                  {
-                        "att": 2191,
-                        "def": 816,
-                        "hp": 5553
-                  },
-                  {
-                        "att": 2202,
-                        "def": 820,
-                        "hp": 5578
-                  },
-                  {
-                        "att": 2213,
-                        "def": 824,
-                        "hp": 5603
-                  },
-                  {
-                        "att": 2224,
-                        "def": 828,
-                        "hp": 5628
-                  },
-                  {
-                        "att": 2234,
-                        "def": 832,
-                        "hp": 5654
-                  },
-                  {
-                        "att": 2245,
-                        "def": 836,
-                        "hp": 5679
-                  },
-                  {
-                        "att": 2256,
-                        "def": 839,
-                        "hp": 5704
-                  },
-                  {
-                        "att": 2267,
-                        "def": 843,
-                        "hp": 5729
-                  },
-                  {
-                        "att": 2489,
-                        "def": 911,
-                        "hp": 6316
-                  },
-                  {
-                        "att": 2497,
-                        "def": 913,
-                        "hp": 6333
-                  },
-                  {
-                        "att": 2504,
-                        "def": 916,
-                        "hp": 6350
-                  },
-                  {
-                        "att": 2511,
-                        "def": 919,
-                        "hp": 6367
-                  },
-                  {
-                        "att": 2518,
-                        "def": 921,
-                        "hp": 6384
-                  },
-                  {
-                        "att": 2526,
-                        "def": 924,
-                        "hp": 6401
-                  },
-                  {
-                        "att": 2533,
-                        "def": 926,
-                        "hp": 6417
-                  },
-                  {
-                        "att": 2540,
-                        "def": 929,
-                        "hp": 6434
-                  },
-                  {
-                        "att": 2547,
-                        "def": 931,
-                        "hp": 6451
-                  },
-                  {
-                        "att": 2555,
-                        "def": 934,
-                        "hp": 6468
-                  },
-                  {
-                        "att": 2562,
-                        "def": 936,
-                        "hp": 6485
-                  },
-                  {
-                        "att": 2569,
-                        "def": 939,
-                        "hp": 6502
-                  },
-                  {
-                        "att": 2576,
-                        "def": 942,
-                        "hp": 6519
-                  },
-                  {
-                        "att": 2584,
-                        "def": 944,
-                        "hp": 6535
-                  },
-                  {
-                        "att": 2591,
-                        "def": 947,
-                        "hp": 6552
-                  },
-                  {
-                        "att": 2598,
-                        "def": 949,
-                        "hp": 6569
-                  },
-                  {
-                        "att": 2605,
-                        "def": 952,
-                        "hp": 6586
-                  },
-                  {
-                        "att": 2613,
-                        "def": 954,
-                        "hp": 6603
-                  },
-                  {
-                        "att": 2620,
-                        "def": 957,
-                        "hp": 6620
-                  },
-                  {
-                        "att": 2627,
-                        "def": 960,
-                        "hp": 6637
-                  },
-                  {
-                        "att": 2634,
-                        "def": 962,
-                        "hp": 6653
-                  },
-                  {
-                        "att": 2642,
-                        "def": 965,
-                        "hp": 6670
-                  },
-                  {
-                        "att": 2649,
-                        "def": 967,
-                        "hp": 6687
-                  },
-                  {
-                        "att": 2656,
-                        "def": 970,
-                        "hp": 6704
-                  },
-                  {
-                        "att": 2663,
-                        "def": 972,
-                        "hp": 6721
-                  },
-                  {
-                        "att": 2671,
-                        "def": 975,
-                        "hp": 6738
-                  },
-                  {
-                        "att": 2678,
-                        "def": 977,
-                        "hp": 6755
-                  },
-                  {
-                        "att": 2685,
-                        "def": 980,
-                        "hp": 6771
-                  },
-                  {
-                        "att": 2692,
-                        "def": 983,
-                        "hp": 6788
-                  },
-                  {
-                        "att": 2700,
-                        "def": 985,
-                        "hp": 6805
-                  },
-                  {
-                        "att": 2707,
-                        "def": 988,
-                        "hp": 6822
-                  },
-                  {
-                        "att": 2714,
-                        "def": 990,
-                        "hp": 6839
-                  },
-                  {
-                        "att": 2721,
-                        "def": 993,
-                        "hp": 6856
-                  },
-                  {
-                        "att": 2729,
-                        "def": 995,
-                        "hp": 6873
-                  },
-                  {
-                        "att": 2736,
-                        "def": 998,
-                        "hp": 6889
-                  },
-                  {
-                        "att": 2743,
-                        "def": 1001,
-                        "hp": 6906
-                  },
-                  {
-                        "att": 2750,
-                        "def": 1003,
-                        "hp": 6923
-                  },
-                  {
-                        "att": 2758,
-                        "def": 1006,
-                        "hp": 6940
-                  },
-                  {
-                        "att": 2765,
-                        "def": 1008,
-                        "hp": 6957
-                  },
-                  {
-                        "att": 2772,
-                        "def": 1011,
-                        "hp": 6974
-                  },
-                  {
-                        "att": 2779,
-                        "def": 1013,
-                        "hp": 6990
-                  },
-                  {
-                        "att": 2787,
-                        "def": 1016,
-                        "hp": 7007
-                  },
-                  {
-                        "att": 2794,
-                        "def": 1018,
-                        "hp": 7024
-                  },
-                  {
-                        "att": 2801,
-                        "def": 1021,
-                        "hp": 7041
-                  },
-                  {
-                        "att": 2808,
-                        "def": 1024,
-                        "hp": 7058
-                  },
-                  {
-                        "att": 2816,
-                        "def": 1026,
-                        "hp": 7075
-                  },
-                  {
-                        "att": 2823,
-                        "def": 1029,
-                        "hp": 7092
-                  },
-                  {
-                        "att": 2830,
-                        "def": 1031,
-                        "hp": 7108
-                  },
-                  {
-                        "att": 2837,
-                        "def": 1034,
-                        "hp": 7125
-                  },
-                  {
-                        "att": 2845,
-                        "def": 1036,
-                        "hp": 7142
-                  },
-                  {
-                        "att": 2852,
-                        "def": 1039,
-                        "hp": 7159
-                  },
-                  {
-                        "att": 2859,
-                        "def": 1041,
-                        "hp": 7176
-                  },
-                  {
-                        "att": 2866,
-                        "def": 1044,
-                        "hp": 7193
-                  },
-                  {
-                        "att": 2874,
-                        "def": 1047,
-                        "hp": 7210
-                  },
-                  {
-                        "att": 2881,
-                        "def": 1049,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2888,
-                        "def": 1052,
-                        "hp": 7243
-                  },
-                  {
-                        "att": 2895,
-                        "def": 1054,
-                        "hp": 7260
-                  },
-                  {
-                        "att": 2903,
-                        "def": 1057,
-                        "hp": 7277
-                  },
-                  {
-                        "att": 2910,
-                        "def": 1059,
-                        "hp": 7294
-                  },
-                  {
-                        "att": 2917,
-                        "def": 1062,
-                        "hp": 7311
-                  },
-                  {
-                        "att": 2924,
-                        "def": 1065,
-                        "hp": 7328
-                  },
-                  {
-                        "att": 2932,
-                        "def": 1067,
-                        "hp": 7344
-                  },
-                  {
-                        "att": 2939,
-                        "def": 1070,
-                        "hp": 7361
-                  },
-                  {
-                        "att": 2946,
-                        "def": 1072,
-                        "hp": 7378
-                  },
-                  {
-                        "att": 2953,
-                        "def": 1075,
-                        "hp": 7395
-                  },
-                  {
-                        "att": 2961,
-                        "def": 1077,
-                        "hp": 7412
-                  },
-                  {
-                        "att": 2968,
-                        "def": 1080,
-                        "hp": 7429
-                  },
-                  {
-                        "att": 2975,
-                        "def": 1082,
-                        "hp": 7446
-                  },
-                  {
-                        "att": 2982,
-                        "def": 1085,
-                        "hp": 7462
-                  },
-                  {
-                        "att": 2990,
-                        "def": 1088,
-                        "hp": 7479
-                  },
-                  {
-                        "att": 2997,
-                        "def": 1090,
-                        "hp": 7496
-                  },
-                  {
-                        "att": 3004,
-                        "def": 1093,
-                        "hp": 7513
-                  },
-                  {
-                        "att": 3011,
-                        "def": 1095,
-                        "hp": 7530
-                  },
-                  {
-                        "att": 3019,
-                        "def": 1098,
-                        "hp": 7547
-                  },
-                  {
-                        "att": 3026,
-                        "def": 1100,
-                        "hp": 7564
-                  },
-                  {
-                        "att": 3033,
-                        "def": 1103,
-                        "hp": 7580
-                  },
-                  {
-                        "att": 3040,
-                        "def": 1105,
-                        "hp": 7597
-                  },
-                  {
-                        "att": 3048,
-                        "def": 1108,
-                        "hp": 7614
-                  },
-                  {
-                        "att": 3055,
-                        "def": 1111,
-                        "hp": 7631
-                  },
-                  {
-                        "att": 3062,
-                        "def": 1113,
-                        "hp": 7648
-                  }
-            ]
-      }
+ "name": "Jane",
+ "faction": "Umbraton",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Detonator",
+ "skill": {
+  "name": "Final Spectator",
+  "cd": "1 Turn",
+  "description": [
+   "Deals 150% damage to the enemy with the lowest HP percentage.",
+   "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill",
+   "Deals 150% damage to the enemy with the lowest HP percentage. Grants a Witness Mark. Each stack of the Witness Mark increases the ATK of Water Aurorians by 1%. Removes Active Skill cooldown if the target is killed with the skill"
+  ]
+ },
+ "equip": {
+  "name": "Chest of Mammon",
+  "passive": "Greedy Judgment",
+  "description": [
+   [
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
+   ],
+   [
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
+   ],
+   [
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 15% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 12% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 9% HP lost by the enemy.",
+    "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
+   ]
+  ],
+  "introduction": "Jane's suitcase is full of all kinds of files and materials, such as the secrets of Umbraton, the struggles between the most notorious gangs, secret agreements drafted by the nation's higher-ups, and more. According to Jane herself, this is the true source of her strength."
+ },
+ "chain": {
+  "name": "Intercept",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Potion I",
+    "Water Flare Powder",
+    "Destiny Champagne I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When an Active Skill deals damage to an enemy, increases the final damage by 10% for every 6% HP lost by the enemy."
+  },
+  {
+   "material": [
+    "Water Flare Rock",
+    "Water Crystal Shard",
+    "Destiny Champagne II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 150% damage to the enemy with the lowest HP percentage.",
+   "after": "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill"
+  },
+  {
+   "material": [
+    "Water Crystal Cluster",
+    "Water Potion II",
+    "Destiny Champagne III",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 150% damage to the enemy with the lowest HP percentage. Removes Active Skill cooldown if the target is killed with the skill",
+   "after": "Deals 150% damage to the enemy with the lowest HP percentage. Grants a Witness Mark. Each stack of the Witness Mark increases the ATK of Water Aurorians by 1%. Removes Active Skill cooldown if the target is killed with the skill"
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 577,
+    "def": 248,
+    "hp": 1715
+   },
+   {
+    "att": 589,
+    "def": 252,
+    "hp": 1742
+   },
+   {
+    "att": 600,
+    "def": 256,
+    "hp": 1769
+   },
+   {
+    "att": 612,
+    "def": 260,
+    "hp": 1796
+   },
+   {
+    "att": 623,
+    "def": 264,
+    "hp": 1823
+   },
+   {
+    "att": 635,
+    "def": 268,
+    "hp": 1850
+   },
+   {
+    "att": 647,
+    "def": 272,
+    "hp": 1877
+   },
+   {
+    "att": 658,
+    "def": 276,
+    "hp": 1904
+   },
+   {
+    "att": 670,
+    "def": 280,
+    "hp": 1931
+   },
+   {
+    "att": 681,
+    "def": 284,
+    "hp": 1958
+   },
+   {
+    "att": 693,
+    "def": 289,
+    "hp": 1985
+   },
+   {
+    "att": 705,
+    "def": 293,
+    "hp": 2012
+   },
+   {
+    "att": 716,
+    "def": 297,
+    "hp": 2039
+   },
+   {
+    "att": 728,
+    "def": 301,
+    "hp": 2066
+   },
+   {
+    "att": 739,
+    "def": 305,
+    "hp": 2093
+   },
+   {
+    "att": 751,
+    "def": 309,
+    "hp": 2120
+   },
+   {
+    "att": 763,
+    "def": 313,
+    "hp": 2147
+   },
+   {
+    "att": 774,
+    "def": 317,
+    "hp": 2174
+   },
+   {
+    "att": 786,
+    "def": 321,
+    "hp": 2201
+   },
+   {
+    "att": 797,
+    "def": 325,
+    "hp": 2228
+   },
+   {
+    "att": 809,
+    "def": 330,
+    "hp": 2255
+   },
+   {
+    "att": 821,
+    "def": 334,
+    "hp": 2281
+   },
+   {
+    "att": 832,
+    "def": 338,
+    "hp": 2308
+   },
+   {
+    "att": 844,
+    "def": 342,
+    "hp": 2335
+   },
+   {
+    "att": 855,
+    "def": 346,
+    "hp": 2362
+   },
+   {
+    "att": 867,
+    "def": 350,
+    "hp": 2389
+   },
+   {
+    "att": 879,
+    "def": 354,
+    "hp": 2416
+   },
+   {
+    "att": 890,
+    "def": 358,
+    "hp": 2443
+   },
+   {
+    "att": 902,
+    "def": 362,
+    "hp": 2470
+   },
+   {
+    "att": 913,
+    "def": 366,
+    "hp": 2497
+   },
+   {
+    "att": 1018,
+    "def": 402,
+    "hp": 2771
+   },
+   {
+    "att": 1032,
+    "def": 407,
+    "hp": 2805
+   },
+   {
+    "att": 1047,
+    "def": 412,
+    "hp": 2838
+   },
+   {
+    "att": 1061,
+    "def": 417,
+    "hp": 2872
+   },
+   {
+    "att": 1076,
+    "def": 422,
+    "hp": 2906
+   },
+   {
+    "att": 1090,
+    "def": 427,
+    "hp": 2939
+   },
+   {
+    "att": 1105,
+    "def": 432,
+    "hp": 2973
+   },
+   {
+    "att": 1119,
+    "def": 437,
+    "hp": 3007
+   },
+   {
+    "att": 1134,
+    "def": 443,
+    "hp": 3041
+   },
+   {
+    "att": 1148,
+    "def": 448,
+    "hp": 3074
+   },
+   {
+    "att": 1163,
+    "def": 453,
+    "hp": 3108
+   },
+   {
+    "att": 1177,
+    "def": 458,
+    "hp": 3142
+   },
+   {
+    "att": 1192,
+    "def": 463,
+    "hp": 3175
+   },
+   {
+    "att": 1206,
+    "def": 468,
+    "hp": 3209
+   },
+   {
+    "att": 1221,
+    "def": 473,
+    "hp": 3243
+   },
+   {
+    "att": 1235,
+    "def": 478,
+    "hp": 3277
+   },
+   {
+    "att": 1250,
+    "def": 483,
+    "hp": 3310
+   },
+   {
+    "att": 1264,
+    "def": 489,
+    "hp": 3344
+   },
+   {
+    "att": 1279,
+    "def": 494,
+    "hp": 3378
+   },
+   {
+    "att": 1293,
+    "def": 499,
+    "hp": 3411
+   },
+   {
+    "att": 1308,
+    "def": 504,
+    "hp": 3445
+   },
+   {
+    "att": 1322,
+    "def": 509,
+    "hp": 3479
+   },
+   {
+    "att": 1337,
+    "def": 514,
+    "hp": 3512
+   },
+   {
+    "att": 1351,
+    "def": 519,
+    "hp": 3546
+   },
+   {
+    "att": 1366,
+    "def": 524,
+    "hp": 3580
+   },
+   {
+    "att": 1380,
+    "def": 530,
+    "hp": 3614
+   },
+   {
+    "att": 1395,
+    "def": 535,
+    "hp": 3647
+   },
+   {
+    "att": 1409,
+    "def": 540,
+    "hp": 3681
+   },
+   {
+    "att": 1424,
+    "def": 545,
+    "hp": 3715
+   },
+   {
+    "att": 1438,
+    "def": 550,
+    "hp": 3748
+   },
+   {
+    "att": 1453,
+    "def": 555,
+    "hp": 3782
+   },
+   {
+    "att": 1467,
+    "def": 560,
+    "hp": 3816
+   },
+   {
+    "att": 1482,
+    "def": 565,
+    "hp": 3850
+   },
+   {
+    "att": 1496,
+    "def": 571,
+    "hp": 3883
+   },
+   {
+    "att": 1511,
+    "def": 576,
+    "hp": 3917
+   },
+   {
+    "att": 1525,
+    "def": 581,
+    "hp": 3951
+   },
+   {
+    "att": 1540,
+    "def": 586,
+    "hp": 3984
+   },
+   {
+    "att": 1554,
+    "def": 591,
+    "hp": 4018
+   },
+   {
+    "att": 1569,
+    "def": 596,
+    "hp": 4052
+   },
+   {
+    "att": 1583,
+    "def": 601,
+    "hp": 4085
+   },
+   {
+    "att": 1734,
+    "def": 655,
+    "hp": 4491
+   },
+   {
+    "att": 1745,
+    "def": 659,
+    "hp": 4516
+   },
+   {
+    "att": 1756,
+    "def": 663,
+    "hp": 4541
+   },
+   {
+    "att": 1767,
+    "def": 667,
+    "hp": 4567
+   },
+   {
+    "att": 1778,
+    "def": 670,
+    "hp": 4592
+   },
+   {
+    "att": 1789,
+    "def": 674,
+    "hp": 4617
+   },
+   {
+    "att": 1799,
+    "def": 678,
+    "hp": 4642
+   },
+   {
+    "att": 1810,
+    "def": 682,
+    "hp": 4668
+   },
+   {
+    "att": 1821,
+    "def": 686,
+    "hp": 4693
+   },
+   {
+    "att": 1832,
+    "def": 690,
+    "hp": 4718
+   },
+   {
+    "att": 1843,
+    "def": 694,
+    "hp": 4744
+   },
+   {
+    "att": 1854,
+    "def": 697,
+    "hp": 4769
+   },
+   {
+    "att": 1865,
+    "def": 701,
+    "hp": 4794
+   },
+   {
+    "att": 1876,
+    "def": 705,
+    "hp": 4819
+   },
+   {
+    "att": 1886,
+    "def": 709,
+    "hp": 4845
+   },
+   {
+    "att": 1897,
+    "def": 713,
+    "hp": 4870
+   },
+   {
+    "att": 1908,
+    "def": 717,
+    "hp": 4895
+   },
+   {
+    "att": 1919,
+    "def": 720,
+    "hp": 4921
+   },
+   {
+    "att": 1930,
+    "def": 724,
+    "hp": 4946
+   },
+   {
+    "att": 1941,
+    "def": 728,
+    "hp": 4971
+   },
+   {
+    "att": 1952,
+    "def": 732,
+    "hp": 4996
+   },
+   {
+    "att": 1963,
+    "def": 736,
+    "hp": 5022
+   },
+   {
+    "att": 1973,
+    "def": 740,
+    "hp": 5047
+   },
+   {
+    "att": 1984,
+    "def": 743,
+    "hp": 5072
+   },
+   {
+    "att": 1995,
+    "def": 747,
+    "hp": 5097
+   },
+   {
+    "att": 2006,
+    "def": 751,
+    "hp": 5123
+   },
+   {
+    "att": 2017,
+    "def": 755,
+    "hp": 5148
+   },
+   {
+    "att": 2028,
+    "def": 759,
+    "hp": 5173
+   },
+   {
+    "att": 2039,
+    "def": 763,
+    "hp": 5199
+   },
+   {
+    "att": 2050,
+    "def": 767,
+    "hp": 5224
+   },
+   {
+    "att": 2060,
+    "def": 770,
+    "hp": 5249
+   },
+   {
+    "att": 2071,
+    "def": 774,
+    "hp": 5274
+   },
+   {
+    "att": 2082,
+    "def": 778,
+    "hp": 5300
+   },
+   {
+    "att": 2093,
+    "def": 782,
+    "hp": 5325
+   },
+   {
+    "att": 2104,
+    "def": 786,
+    "hp": 5350
+   },
+   {
+    "att": 2115,
+    "def": 790,
+    "hp": 5376
+   },
+   {
+    "att": 2126,
+    "def": 793,
+    "hp": 5401
+   },
+   {
+    "att": 2137,
+    "def": 797,
+    "hp": 5426
+   },
+   {
+    "att": 2147,
+    "def": 801,
+    "hp": 5451
+   },
+   {
+    "att": 2158,
+    "def": 805,
+    "hp": 5477
+   },
+   {
+    "att": 2169,
+    "def": 809,
+    "hp": 5502
+   },
+   {
+    "att": 2180,
+    "def": 813,
+    "hp": 5527
+   },
+   {
+    "att": 2191,
+    "def": 816,
+    "hp": 5553
+   },
+   {
+    "att": 2202,
+    "def": 820,
+    "hp": 5578
+   },
+   {
+    "att": 2213,
+    "def": 824,
+    "hp": 5603
+   },
+   {
+    "att": 2224,
+    "def": 828,
+    "hp": 5628
+   },
+   {
+    "att": 2234,
+    "def": 832,
+    "hp": 5654
+   },
+   {
+    "att": 2245,
+    "def": 836,
+    "hp": 5679
+   },
+   {
+    "att": 2256,
+    "def": 839,
+    "hp": 5704
+   },
+   {
+    "att": 2267,
+    "def": 843,
+    "hp": 5729
+   },
+   {
+    "att": 2489,
+    "def": 911,
+    "hp": 6316
+   },
+   {
+    "att": 2497,
+    "def": 913,
+    "hp": 6333
+   },
+   {
+    "att": 2504,
+    "def": 916,
+    "hp": 6350
+   },
+   {
+    "att": 2511,
+    "def": 919,
+    "hp": 6367
+   },
+   {
+    "att": 2518,
+    "def": 921,
+    "hp": 6384
+   },
+   {
+    "att": 2526,
+    "def": 924,
+    "hp": 6401
+   },
+   {
+    "att": 2533,
+    "def": 926,
+    "hp": 6417
+   },
+   {
+    "att": 2540,
+    "def": 929,
+    "hp": 6434
+   },
+   {
+    "att": 2547,
+    "def": 931,
+    "hp": 6451
+   },
+   {
+    "att": 2555,
+    "def": 934,
+    "hp": 6468
+   },
+   {
+    "att": 2562,
+    "def": 936,
+    "hp": 6485
+   },
+   {
+    "att": 2569,
+    "def": 939,
+    "hp": 6502
+   },
+   {
+    "att": 2576,
+    "def": 942,
+    "hp": 6519
+   },
+   {
+    "att": 2584,
+    "def": 944,
+    "hp": 6535
+   },
+   {
+    "att": 2591,
+    "def": 947,
+    "hp": 6552
+   },
+   {
+    "att": 2598,
+    "def": 949,
+    "hp": 6569
+   },
+   {
+    "att": 2605,
+    "def": 952,
+    "hp": 6586
+   },
+   {
+    "att": 2613,
+    "def": 954,
+    "hp": 6603
+   },
+   {
+    "att": 2620,
+    "def": 957,
+    "hp": 6620
+   },
+   {
+    "att": 2627,
+    "def": 960,
+    "hp": 6637
+   },
+   {
+    "att": 2634,
+    "def": 962,
+    "hp": 6653
+   },
+   {
+    "att": 2642,
+    "def": 965,
+    "hp": 6670
+   },
+   {
+    "att": 2649,
+    "def": 967,
+    "hp": 6687
+   },
+   {
+    "att": 2656,
+    "def": 970,
+    "hp": 6704
+   },
+   {
+    "att": 2663,
+    "def": 972,
+    "hp": 6721
+   },
+   {
+    "att": 2671,
+    "def": 975,
+    "hp": 6738
+   },
+   {
+    "att": 2678,
+    "def": 977,
+    "hp": 6755
+   },
+   {
+    "att": 2685,
+    "def": 980,
+    "hp": 6771
+   },
+   {
+    "att": 2692,
+    "def": 983,
+    "hp": 6788
+   },
+   {
+    "att": 2700,
+    "def": 985,
+    "hp": 6805
+   },
+   {
+    "att": 2707,
+    "def": 988,
+    "hp": 6822
+   },
+   {
+    "att": 2714,
+    "def": 990,
+    "hp": 6839
+   },
+   {
+    "att": 2721,
+    "def": 993,
+    "hp": 6856
+   },
+   {
+    "att": 2729,
+    "def": 995,
+    "hp": 6873
+   },
+   {
+    "att": 2736,
+    "def": 998,
+    "hp": 6889
+   },
+   {
+    "att": 2743,
+    "def": 1001,
+    "hp": 6906
+   },
+   {
+    "att": 2750,
+    "def": 1003,
+    "hp": 6923
+   },
+   {
+    "att": 2758,
+    "def": 1006,
+    "hp": 6940
+   },
+   {
+    "att": 2765,
+    "def": 1008,
+    "hp": 6957
+   },
+   {
+    "att": 2772,
+    "def": 1011,
+    "hp": 6974
+   },
+   {
+    "att": 2779,
+    "def": 1013,
+    "hp": 6990
+   },
+   {
+    "att": 2787,
+    "def": 1016,
+    "hp": 7007
+   },
+   {
+    "att": 2794,
+    "def": 1018,
+    "hp": 7024
+   },
+   {
+    "att": 2801,
+    "def": 1021,
+    "hp": 7041
+   },
+   {
+    "att": 2808,
+    "def": 1024,
+    "hp": 7058
+   },
+   {
+    "att": 2816,
+    "def": 1026,
+    "hp": 7075
+   },
+   {
+    "att": 2823,
+    "def": 1029,
+    "hp": 7092
+   },
+   {
+    "att": 2830,
+    "def": 1031,
+    "hp": 7108
+   },
+   {
+    "att": 2837,
+    "def": 1034,
+    "hp": 7125
+   },
+   {
+    "att": 2845,
+    "def": 1036,
+    "hp": 7142
+   },
+   {
+    "att": 2852,
+    "def": 1039,
+    "hp": 7159
+   },
+   {
+    "att": 2859,
+    "def": 1041,
+    "hp": 7176
+   },
+   {
+    "att": 2866,
+    "def": 1044,
+    "hp": 7193
+   },
+   {
+    "att": 2874,
+    "def": 1047,
+    "hp": 7210
+   },
+   {
+    "att": 2881,
+    "def": 1049,
+    "hp": 7226
+   },
+   {
+    "att": 2888,
+    "def": 1052,
+    "hp": 7243
+   },
+   {
+    "att": 2895,
+    "def": 1054,
+    "hp": 7260
+   },
+   {
+    "att": 2903,
+    "def": 1057,
+    "hp": 7277
+   },
+   {
+    "att": 2910,
+    "def": 1059,
+    "hp": 7294
+   },
+   {
+    "att": 2917,
+    "def": 1062,
+    "hp": 7311
+   },
+   {
+    "att": 2924,
+    "def": 1065,
+    "hp": 7328
+   },
+   {
+    "att": 2932,
+    "def": 1067,
+    "hp": 7344
+   },
+   {
+    "att": 2939,
+    "def": 1070,
+    "hp": 7361
+   },
+   {
+    "att": 2946,
+    "def": 1072,
+    "hp": 7378
+   },
+   {
+    "att": 2953,
+    "def": 1075,
+    "hp": 7395
+   },
+   {
+    "att": 2961,
+    "def": 1077,
+    "hp": 7412
+   },
+   {
+    "att": 2968,
+    "def": 1080,
+    "hp": 7429
+   },
+   {
+    "att": 2975,
+    "def": 1082,
+    "hp": 7446
+   },
+   {
+    "att": 2982,
+    "def": 1085,
+    "hp": 7462
+   },
+   {
+    "att": 2990,
+    "def": 1088,
+    "hp": 7479
+   },
+   {
+    "att": 2997,
+    "def": 1090,
+    "hp": 7496
+   },
+   {
+    "att": 3004,
+    "def": 1093,
+    "hp": 7513
+   },
+   {
+    "att": 3011,
+    "def": 1095,
+    "hp": 7530
+   },
+   {
+    "att": 3019,
+    "def": 1098,
+    "hp": 7547
+   },
+   {
+    "att": 3026,
+    "def": 1100,
+    "hp": 7564
+   },
+   {
+    "att": 3033,
+    "def": 1103,
+    "hp": 7580
+   },
+   {
+    "att": 3040,
+    "def": 1105,
+    "hp": 7597
+   },
+   {
+    "att": 3048,
+    "def": 1108,
+    "hp": 7614
+   },
+   {
+    "att": 3055,
+    "def": 1111,
+    "hp": 7631
+   },
+   {
+    "att": 3062,
+    "def": 1113,
+    "hp": 7648
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Michenny",
+     "Jane"
+    ],
+    "chat": [
+     {
+      "character": "Michenny:",
+      "text": "Time to record today's costs! 1. The broken vase in the hallway: 80 Nightium..."
+     },
+     {
+      "character": "Michenny:",
+      "text": "2. The lunch that Vice made for the Navigator: -8 Nightium..."
+     },
+     {
+      "character": "Jane:",
+      "text": "... Huh? How is Vice's lunch a negative cost?!"
+     },
+     {
+      "character": "Michenny:",
+      "text": "Because she burnt it, so the Navigator didn't get to eat it."
+     },
+     {
+      "character": "Jane:",
+      "text": "Oh! I get it... I think."
+     },
+     {
+      "character": "Michenny:",
+      "text": "3. The Navigator's purchase of a new lunch: -188 Nightium..."
+     },
+     {
+      "character": "Jane:",
+      "text": "Why is this also a negative cost?!"
+     },
+     {
+      "character": "Michenny:",
+      "text": "The lunch itself wasn't expensive, but the food was so good that he indulged in it, taking way too much time."
+     },
+     {
+      "character": "Michenny:",
+      "text": "As a result, his work performance this afternoon was negatively impacted, thus the negative cost."
+     },
+     {
+      "character": "Jane:",
+      "text": "I see... You don't miss a single thing, huh?"
+     },
+     {
+      "character": "Michenny:",
+      "text": "Record complete!"
+     },
+     {
+      "character": "Michenny:",
+      "text": "Now, you've been here all this time, need me to assess anything?"
+     },
+     {
+      "character": "Jane:",
+      "text": "N-No, I'm just a Witness!"
+     },
+     {
+      "character": "Michenny:",
+      "text": "A... Witness?"
+     },
+     {
+      "character": "Jane:",
+      "text": "Yeah! I was just here to verify the assessment! That's all..."
+     },
+     {
+      "character": "Michenny:",
+      "text": "(I really don't understand her...)"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Umbraton Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Jane was referred by Mr. Istvan and came off textbook serious, for she hasn't stopped scribbling in her notebook ever since she got here... Even though %s and I didn't tell her anything particularly useful, other than the general layout of the Colossus and the location of her room... Wait a minute, she still wrote that all down, didn't she?While I heard rumors about that's how she worked, was there any purpose to jotting down the conversation I had with %s over lunch? I'm starting to suspect Istvan now... But then again, it took a lot of patience to be so meticulous. If only %s was more like her...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Oh, it's you. You might have to give me a moment because this record is rather messy...As you can see, I'm the Witness of Umbraton, and this is my job. I don't like recording things, but the tranquility I feel when I record things seems to fill the emptiness in my heart... I saw the hell on earth that Umbraton once was. I couldn't do anything other than watching things unfold before my eyes... I am powerless to change the world, but I can record everything that happens with my eyes and hands.Of course, I do more than just recording things. As long as you want me to, I can be a fair and just witness for any loan, dispute, or will. Don't worry, I'm a professional when it comes to this."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "I was once a member of the Shadowlord's gang. During those times, everyone refused to give in to each other when there were disputes on the streets. At these moments, the Shadowlord would appear with many surrounding him. He would make a simple analysis of the situation and quickly make a judgment.Although his insights were unique and his rhetoric was rigorous, I still identified some loopholes. I don't know if it was because I was young enough that I dared to speak my mind or if it was because I was so confident in my thoughts that I pointed out the Shadowlord's mistake. Everyone stared at me, a 13-year-old little girl. I heard them whispering, and they all seemed to think that I was in serious trouble... Unexpectedly, the Shadowlord started laughing after freezing momentarily. Then he walked over to me, lowered his head, and asked me in all seriousness if I'd like to join his gang as the crowd grew even noisier. I accepted his offer because I was curious about his approach to things and his methods. I decided to follow him and try to start a new life.Although I'm no longer a member of the gang, I'm eternally grateful to the Shadowlord... I won't refuse any reasonable request if he requires my help."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "According to my memory, the war at Umbraton claimed my mother's life... After my mother died, I followed the fleeing refugees to avoid the pursuit of the Eclipsites. I heard them crying as they complained about how the city above us was still refusing to send an army to save us. I was still young at the time and didn't understand what was happening. It wasn't until I joined the gang in Umbraton that I started to learn more about Umbraton and this continent. I gradually understood why the city above us didn't dispatch even a single soldier to save us back then\u2014those selfish nobles ignored the civilians' plea for help only to protect themselves. Over time, I've learned the rules of this world and realized how incompetent I am...I want to continue recording everything that happens in this city as a witness. Even if I can't change anything, at least I can record and bear witness to it.I told the Shadowlord what I was thinking and then got assistance from him. I am honored to witness everything when he reached an agreement with Umbraton. I became the first Witness of Umbraton, and I am still the Witness to this day.I have become accustomed to witnessing and recording everything. It might seem slightly boring, but this is the basis of my peaceful life..."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I presume you know about Ms. Sheol's Guild\u2014it really is a place that can accomplish anything...I'm also a staff member of the Guild now, and I make a lot of money as a professional bookkeeper. But that's not my primary objective for joining. I joined because I heard the Guild had close ties with Lumopolis, a city I was more curious about than the Guild.I wondered what the order was like in that city, and with this doubt, I joined the Guild on the Shadowlord's recommendation and gained a deeper understanding of the city. As time passed, my initial indignation gradually became indifference. Like Umbraton, they have their own order there and no one is allowed to question it. Even class inequality is part of their order, despite the fact that those nobles are so aloof and selfish...There's nothing I can do to change the situation. All I can do is to embrace the calmness and objectivity I gained from my identity and take note of everything I see."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Proper records can eliminate the chaos around here.",
+  "Dirty deeds will go down in history. Lumopolis is no exception.",
+  "I'm here as the witness.",
+  "How do they make records?... It's sad if they've got no memories.",
+  "Istvan carries too much burden. He's just like the incarnation of Umbraton, forever a shadow of Lumopolis.",
+  "Sheol may be sly and ever-changing, but her principle is simple, benefit trumps all.",
+  "Beautiful penmanship is gods' best gift to the world.",
+  "If one has no principle, does he still have a soul?",
+  "It seems to have memories from a distant past. What could they be about?",
+  "I'll document the truth as I see it.",
+  "You want a break? Sure, I'll look after this Colossus and document about it.",
+  "If only this could be left out of the records...",
+  "A win. It's documented.",
+  "Shatter!",
+  "No one's escaping!",
+  "Prepare to settle.",
+  "Happy New Year.",
+  "I'll be the battle's witness.",
+  "My witnessing is increasingly clear.",
+  "The Marmon Box keeps even more records.",
+  "I've chosen the road of endless documentation.",
+  "I don't often get a break like this... My neck and shoulders have been sore for a while... I should get a massage.",
+  "I've recorded a new entry in writing.",
+  "Alchemy Stars.",
+  "Each deposit and withdrawal must be recorded to make it a proper loan.",
+  "Wanna see what's inside the box? No way.",
+  "I won't offer help to the weak, and I won't bow down to the powerful. That's the principle I live by.",
+  "Pen and paper are my weapons, just like a soldier's sword and shield.",
+  "There is numerous testament of greed in my Marmon Box. The lives of countless people also depend on it.",
+  "To get my hands on more records, I'll need assistants at all times. Yes, I need those birds.",
+  "The sadness and joy of people are mutually exclusive. Once you get that, you'll understand my principle.",
+  "As a witness, I must look proper. That's why I've bought 30 sets of this suit.",
+  "My box holds the secrets of many, not only those from Umbraton but also those nobles from Lumopolis.",
+  "Have you ever seen birds smile?",
+  "My horns? I heard they represent the demon's greed, yet the greediest of all are human desires.",
+  "With my pen, I've witnessed the noblest hooligans and the most despicable knights.",
+  "A peaceful day, just documenting away.",
+  "The break of dawn is the best time to sharpen my pen.",
+  "It's getting late, but I still have to compile today's records. No rest for me yet.",
+  "I must put these records into the Marmon Box or I won't be at ease...",
+  "I chronicled Umbraton's history, along with the order and chaos in the dark alleys, in pen and paper. Signed, Jane, Witness.",
+  "I'll document this gift in the books.",
+  "I'll pay you back. I promise.",
+  "Thank you, it'll be really helpful!",
+  "This is...! I can't express my gratitude in words...",
+  "Let's end it all!",
+  "It's over, you greedy lot!",
+  "Let's begin.",
+  "Istvan and Sheol both invited me to join them, but I just want to be a chronicler for Umbraton. I have no interest in ruling the town.",
+  "If you pay attention, be it a noble or a civilian, everyone has a side that belongs to them and one that doesn't.",
+  "Umbraton was attacked by Eclipsites, and my mother was killed as a result. Many people raged against the Lumopolis, which had sat idly by, yet I do not hold a grudge against them.",
+  "I'll document everyone's performance."
+ ],
+ "skins": [
+  {
+   "name": "Midnight Phantom",
+   "description": "An eerily alluring outfit composed of a captivating top, elegant skirt, beautifully woven sleeves, a ceremonial veil, and stylish boots... Not only is Jane's outfit stunning, the flowers along the hem of her skirt also hold some special meaning. Why would she choose to wear this kind of attire when she prides herself on being an outsider?"
+  }
+ ],
+ "description": "The Witness of Umbraton who is always neutral no matter what, refusing both bribes and threats. There is a large number of records in the case she carries with her at all times. She is said to be the Mobile Archive of Umbraton.",
+ "realName": "Jane",
+ "nickname": "Grimy Alley Witness",
+ "gender": "Female",
+ "height": "5'6''",
+ "birthday": "November 3",
+ "birthplace": "Umbraton",
+ "style": "Grimy Alley Brawl"
 }

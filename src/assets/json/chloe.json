@@ -1,1153 +1,1375 @@
 {
-      "name": "Chloe",
-      "faction": "Lumopolis",
-      "element_main": "Water",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "When cast, each Blue tile on the battlefield grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
-                  "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
-                  "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds."
-            ]
-      },
-      "equip": {
-            "name": "Melody of Sorrow",
-            "passive": "Dream Murmur",
-            "description": [
-                  [
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
-                  ],
-                  [
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
-                  ],
-                  [
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 2% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
-                        "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 5% for 1 round."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 145% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 145% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 145% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Potion I",
-                        "Water Crystal Dust",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
-            },
-            {
-                  "material": [
-                        "Water Crystal",
-                        "Water Flare Silt",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "When cast, each Blue tile on the battlefield grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
-                  "after": "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Water Flare Tile",
-                        "Water Potion II",
-                        "Daybreak Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round.",
-                  "after": "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 5% for 1 round."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 500,
-                        "def": 219,
-                        "hp": 1653
-                  },
-                  {
-                        "att": 510,
-                        "def": 223,
-                        "hp": 1675
-                  },
-                  {
-                        "att": 520,
-                        "def": 226,
-                        "hp": 1698
-                  },
-                  {
-                        "att": 529,
-                        "def": 229,
-                        "hp": 1720
-                  },
-                  {
-                        "att": 539,
-                        "def": 232,
-                        "hp": 1742
-                  },
-                  {
-                        "att": 548,
-                        "def": 235,
-                        "hp": 1764
-                  },
-                  {
-                        "att": 558,
-                        "def": 239,
-                        "hp": 1786
-                  },
-                  {
-                        "att": 568,
-                        "def": 242,
-                        "hp": 1809
-                  },
-                  {
-                        "att": 577,
-                        "def": 245,
-                        "hp": 1831
-                  },
-                  {
-                        "att": 587,
-                        "def": 248,
-                        "hp": 1853
-                  },
-                  {
-                        "att": 596,
-                        "def": 251,
-                        "hp": 1875
-                  },
-                  {
-                        "att": 606,
-                        "def": 255,
-                        "hp": 1897
-                  },
-                  {
-                        "att": 615,
-                        "def": 258,
-                        "hp": 1920
-                  },
-                  {
-                        "att": 625,
-                        "def": 261,
-                        "hp": 1942
-                  },
-                  {
-                        "att": 635,
-                        "def": 264,
-                        "hp": 1964
-                  },
-                  {
-                        "att": 644,
-                        "def": 267,
-                        "hp": 1986
-                  },
-                  {
-                        "att": 654,
-                        "def": 270,
-                        "hp": 2008
-                  },
-                  {
-                        "att": 663,
-                        "def": 274,
-                        "hp": 2030
-                  },
-                  {
-                        "att": 673,
-                        "def": 277,
-                        "hp": 2053
-                  },
-                  {
-                        "att": 683,
-                        "def": 280,
-                        "hp": 2075
-                  },
-                  {
-                        "att": 692,
-                        "def": 283,
-                        "hp": 2097
-                  },
-                  {
-                        "att": 702,
-                        "def": 286,
-                        "hp": 2119
-                  },
-                  {
-                        "att": 711,
-                        "def": 290,
-                        "hp": 2141
-                  },
-                  {
-                        "att": 721,
-                        "def": 293,
-                        "hp": 2164
-                  },
-                  {
-                        "att": 731,
-                        "def": 296,
-                        "hp": 2186
-                  },
-                  {
-                        "att": 740,
-                        "def": 299,
-                        "hp": 2208
-                  },
-                  {
-                        "att": 750,
-                        "def": 302,
-                        "hp": 2230
-                  },
-                  {
-                        "att": 759,
-                        "def": 306,
-                        "hp": 2252
-                  },
-                  {
-                        "att": 769,
-                        "def": 309,
-                        "hp": 2275
-                  },
-                  {
-                        "att": 778,
-                        "def": 312,
-                        "hp": 2297
-                  },
-                  {
-                        "att": 880,
-                        "def": 346,
-                        "hp": 2564
-                  },
-                  {
-                        "att": 892,
-                        "def": 350,
-                        "hp": 2592
-                  },
-                  {
-                        "att": 904,
-                        "def": 354,
-                        "hp": 2620
-                  },
-                  {
-                        "att": 916,
-                        "def": 358,
-                        "hp": 2648
-                  },
-                  {
-                        "att": 928,
-                        "def": 362,
-                        "hp": 2675
-                  },
-                  {
-                        "att": 940,
-                        "def": 366,
-                        "hp": 2703
-                  },
-                  {
-                        "att": 952,
-                        "def": 370,
-                        "hp": 2731
-                  },
-                  {
-                        "att": 964,
-                        "def": 374,
-                        "hp": 2759
-                  },
-                  {
-                        "att": 976,
-                        "def": 378,
-                        "hp": 2786
-                  },
-                  {
-                        "att": 988,
-                        "def": 382,
-                        "hp": 2814
-                  },
-                  {
-                        "att": 1000,
-                        "def": 386,
-                        "hp": 2842
-                  },
-                  {
-                        "att": 1012,
-                        "def": 390,
-                        "hp": 2870
-                  },
-                  {
-                        "att": 1024,
-                        "def": 394,
-                        "hp": 2897
-                  },
-                  {
-                        "att": 1036,
-                        "def": 398,
-                        "hp": 2925
-                  },
-                  {
-                        "att": 1048,
-                        "def": 402,
-                        "hp": 2953
-                  },
-                  {
-                        "att": 1060,
-                        "def": 406,
-                        "hp": 2981
-                  },
-                  {
-                        "att": 1072,
-                        "def": 410,
-                        "hp": 3008
-                  },
-                  {
-                        "att": 1084,
-                        "def": 414,
-                        "hp": 3036
-                  },
-                  {
-                        "att": 1096,
-                        "def": 418,
-                        "hp": 3064
-                  },
-                  {
-                        "att": 1108,
-                        "def": 422,
-                        "hp": 3091
-                  },
-                  {
-                        "att": 1120,
-                        "def": 426,
-                        "hp": 3119
-                  },
-                  {
-                        "att": 1132,
-                        "def": 429,
-                        "hp": 3147
-                  },
-                  {
-                        "att": 1144,
-                        "def": 433,
-                        "hp": 3175
-                  },
-                  {
-                        "att": 1156,
-                        "def": 437,
-                        "hp": 3202
-                  },
-                  {
-                        "att": 1168,
-                        "def": 441,
-                        "hp": 3230
-                  },
-                  {
-                        "att": 1180,
-                        "def": 445,
-                        "hp": 3258
-                  },
-                  {
-                        "att": 1192,
-                        "def": 449,
-                        "hp": 3286
-                  },
-                  {
-                        "att": 1204,
-                        "def": 453,
-                        "hp": 3313
-                  },
-                  {
-                        "att": 1216,
-                        "def": 457,
-                        "hp": 3341
-                  },
-                  {
-                        "att": 1228,
-                        "def": 461,
-                        "hp": 3369
-                  },
-                  {
-                        "att": 1240,
-                        "def": 465,
-                        "hp": 3397
-                  },
-                  {
-                        "att": 1252,
-                        "def": 469,
-                        "hp": 3424
-                  },
-                  {
-                        "att": 1264,
-                        "def": 473,
-                        "hp": 3452
-                  },
-                  {
-                        "att": 1276,
-                        "def": 477,
-                        "hp": 3480
-                  },
-                  {
-                        "att": 1288,
-                        "def": 481,
-                        "hp": 3507
-                  },
-                  {
-                        "att": 1300,
-                        "def": 485,
-                        "hp": 3535
-                  },
-                  {
-                        "att": 1312,
-                        "def": 489,
-                        "hp": 3563
-                  },
-                  {
-                        "att": 1324,
-                        "def": 493,
-                        "hp": 3591
-                  },
-                  {
-                        "att": 1336,
-                        "def": 497,
-                        "hp": 3618
-                  },
-                  {
-                        "att": 1348,
-                        "def": 501,
-                        "hp": 3646
-                  },
-                  {
-                        "att": 1497,
-                        "def": 554,
-                        "hp": 4047
-                  },
-                  {
-                        "att": 1506,
-                        "def": 557,
-                        "hp": 4068
-                  },
-                  {
-                        "att": 1515,
-                        "def": 560,
-                        "hp": 4089
-                  },
-                  {
-                        "att": 1524,
-                        "def": 563,
-                        "hp": 4109
-                  },
-                  {
-                        "att": 1533,
-                        "def": 566,
-                        "hp": 4130
-                  },
-                  {
-                        "att": 1542,
-                        "def": 569,
-                        "hp": 4151
-                  },
-                  {
-                        "att": 1551,
-                        "def": 572,
-                        "hp": 4172
-                  },
-                  {
-                        "att": 1560,
-                        "def": 575,
-                        "hp": 4193
-                  },
-                  {
-                        "att": 1569,
-                        "def": 578,
-                        "hp": 4213
-                  },
-                  {
-                        "att": 1578,
-                        "def": 581,
-                        "hp": 4234
-                  },
-                  {
-                        "att": 1587,
-                        "def": 584,
-                        "hp": 4255
-                  },
-                  {
-                        "att": 1595,
-                        "def": 587,
-                        "hp": 4276
-                  },
-                  {
-                        "att": 1604,
-                        "def": 590,
-                        "hp": 4297
-                  },
-                  {
-                        "att": 1613,
-                        "def": 593,
-                        "hp": 4317
-                  },
-                  {
-                        "att": 1622,
-                        "def": 596,
-                        "hp": 4338
-                  },
-                  {
-                        "att": 1631,
-                        "def": 599,
-                        "hp": 4359
-                  },
-                  {
-                        "att": 1640,
-                        "def": 602,
-                        "hp": 4380
-                  },
-                  {
-                        "att": 1649,
-                        "def": 605,
-                        "hp": 4401
-                  },
-                  {
-                        "att": 1658,
-                        "def": 608,
-                        "hp": 4421
-                  },
-                  {
-                        "att": 1667,
-                        "def": 611,
-                        "hp": 4442
-                  },
-                  {
-                        "att": 1676,
-                        "def": 614,
-                        "hp": 4463
-                  },
-                  {
-                        "att": 1685,
-                        "def": 617,
-                        "hp": 4484
-                  },
-                  {
-                        "att": 1694,
-                        "def": 620,
-                        "hp": 4505
-                  },
-                  {
-                        "att": 1703,
-                        "def": 623,
-                        "hp": 4525
-                  },
-                  {
-                        "att": 1712,
-                        "def": 626,
-                        "hp": 4546
-                  },
-                  {
-                        "att": 1721,
-                        "def": 629,
-                        "hp": 4567
-                  },
-                  {
-                        "att": 1730,
-                        "def": 632,
-                        "hp": 4588
-                  },
-                  {
-                        "att": 1739,
-                        "def": 635,
-                        "hp": 4609
-                  },
-                  {
-                        "att": 1748,
-                        "def": 638,
-                        "hp": 4629
-                  },
-                  {
-                        "att": 1757,
-                        "def": 641,
-                        "hp": 4650
-                  },
-                  {
-                        "att": 1766,
-                        "def": 644,
-                        "hp": 4671
-                  },
-                  {
-                        "att": 1775,
-                        "def": 647,
-                        "hp": 4692
-                  },
-                  {
-                        "att": 1784,
-                        "def": 650,
-                        "hp": 4713
-                  },
-                  {
-                        "att": 1793,
-                        "def": 653,
-                        "hp": 4733
-                  },
-                  {
-                        "att": 1802,
-                        "def": 656,
-                        "hp": 4754
-                  },
-                  {
-                        "att": 1811,
-                        "def": 659,
-                        "hp": 4775
-                  },
-                  {
-                        "att": 1820,
-                        "def": 662,
-                        "hp": 4796
-                  },
-                  {
-                        "att": 1829,
-                        "def": 665,
-                        "hp": 4817
-                  },
-                  {
-                        "att": 1838,
-                        "def": 668,
-                        "hp": 4837
-                  },
-                  {
-                        "att": 1847,
-                        "def": 671,
-                        "hp": 4858
-                  },
-                  {
-                        "att": 1856,
-                        "def": 674,
-                        "hp": 4879
-                  },
-                  {
-                        "att": 1865,
-                        "def": 677,
-                        "hp": 4900
-                  },
-                  {
-                        "att": 1874,
-                        "def": 680,
-                        "hp": 4921
-                  },
-                  {
-                        "att": 1883,
-                        "def": 683,
-                        "hp": 4941
-                  },
-                  {
-                        "att": 1892,
-                        "def": 686,
-                        "hp": 4962
-                  },
-                  {
-                        "att": 1901,
-                        "def": 689,
-                        "hp": 4983
-                  },
-                  {
-                        "att": 1910,
-                        "def": 692,
-                        "hp": 5004
-                  },
-                  {
-                        "att": 1919,
-                        "def": 695,
-                        "hp": 5025
-                  },
-                  {
-                        "att": 1928,
-                        "def": 698,
-                        "hp": 5045
-                  },
-                  {
-                        "att": 1937,
-                        "def": 701,
-                        "hp": 5066
-                  },
-                  {
-                        "att": 2158,
-                        "def": 768,
-                        "hp": 5650
-                  },
-                  {
-                        "att": 2164,
-                        "def": 770,
-                        "hp": 5664
-                  },
-                  {
-                        "att": 2170,
-                        "def": 771,
-                        "hp": 5678
-                  },
-                  {
-                        "att": 2176,
-                        "def": 773,
-                        "hp": 5692
-                  },
-                  {
-                        "att": 2182,
-                        "def": 775,
-                        "hp": 5706
-                  },
-                  {
-                        "att": 2188,
-                        "def": 777,
-                        "hp": 5719
-                  },
-                  {
-                        "att": 2194,
-                        "def": 779,
-                        "hp": 5733
-                  },
-                  {
-                        "att": 2200,
-                        "def": 781,
-                        "hp": 5747
-                  },
-                  {
-                        "att": 2206,
-                        "def": 783,
-                        "hp": 5761
-                  },
-                  {
-                        "att": 2212,
-                        "def": 785,
-                        "hp": 5775
-                  },
-                  {
-                        "att": 2218,
-                        "def": 787,
-                        "hp": 5789
-                  },
-                  {
-                        "att": 2224,
-                        "def": 789,
-                        "hp": 5803
-                  },
-                  {
-                        "att": 2230,
-                        "def": 791,
-                        "hp": 5817
-                  },
-                  {
-                        "att": 2236,
-                        "def": 793,
-                        "hp": 5830
-                  },
-                  {
-                        "att": 2242,
-                        "def": 795,
-                        "hp": 5844
-                  },
-                  {
-                        "att": 2248,
-                        "def": 797,
-                        "hp": 5858
-                  },
-                  {
-                        "att": 2254,
-                        "def": 799,
-                        "hp": 5872
-                  },
-                  {
-                        "att": 2260,
-                        "def": 801,
-                        "hp": 5886
-                  },
-                  {
-                        "att": 2266,
-                        "def": 803,
-                        "hp": 5900
-                  },
-                  {
-                        "att": 2272,
-                        "def": 805,
-                        "hp": 5914
-                  },
-                  {
-                        "att": 2278,
-                        "def": 807,
-                        "hp": 5928
-                  },
-                  {
-                        "att": 2284,
-                        "def": 809,
-                        "hp": 5941
-                  },
-                  {
-                        "att": 2290,
-                        "def": 811,
-                        "hp": 5955
-                  },
-                  {
-                        "att": 2296,
-                        "def": 813,
-                        "hp": 5969
-                  },
-                  {
-                        "att": 2302,
-                        "def": 815,
-                        "hp": 5983
-                  },
-                  {
-                        "att": 2308,
-                        "def": 817,
-                        "hp": 5997
-                  },
-                  {
-                        "att": 2314,
-                        "def": 819,
-                        "hp": 6011
-                  },
-                  {
-                        "att": 2320,
-                        "def": 821,
-                        "hp": 6025
-                  },
-                  {
-                        "att": 2326,
-                        "def": 823,
-                        "hp": 6038
-                  },
-                  {
-                        "att": 2332,
-                        "def": 825,
-                        "hp": 6052
-                  },
-                  {
-                        "att": 2338,
-                        "def": 827,
-                        "hp": 6066
-                  },
-                  {
-                        "att": 2344,
-                        "def": 829,
-                        "hp": 6080
-                  },
-                  {
-                        "att": 2350,
-                        "def": 831,
-                        "hp": 6094
-                  },
-                  {
-                        "att": 2356,
-                        "def": 833,
-                        "hp": 6108
-                  },
-                  {
-                        "att": 2362,
-                        "def": 835,
-                        "hp": 6122
-                  },
-                  {
-                        "att": 2368,
-                        "def": 837,
-                        "hp": 6136
-                  },
-                  {
-                        "att": 2374,
-                        "def": 839,
-                        "hp": 6149
-                  },
-                  {
-                        "att": 2380,
-                        "def": 841,
-                        "hp": 6163
-                  },
-                  {
-                        "att": 2386,
-                        "def": 843,
-                        "hp": 6177
-                  },
-                  {
-                        "att": 2392,
-                        "def": 845,
-                        "hp": 6191
-                  },
-                  {
-                        "att": 2398,
-                        "def": 847,
-                        "hp": 6205
-                  },
-                  {
-                        "att": 2404,
-                        "def": 849,
-                        "hp": 6219
-                  },
-                  {
-                        "att": 2410,
-                        "def": 851,
-                        "hp": 6233
-                  },
-                  {
-                        "att": 2416,
-                        "def": 853,
-                        "hp": 6246
-                  },
-                  {
-                        "att": 2422,
-                        "def": 855,
-                        "hp": 6260
-                  },
-                  {
-                        "att": 2428,
-                        "def": 857,
-                        "hp": 6274
-                  },
-                  {
-                        "att": 2433,
-                        "def": 859,
-                        "hp": 6288
-                  },
-                  {
-                        "att": 2439,
-                        "def": 861,
-                        "hp": 6302
-                  },
-                  {
-                        "att": 2445,
-                        "def": 863,
-                        "hp": 6316
-                  },
-                  {
-                        "att": 2451,
-                        "def": 865,
-                        "hp": 6330
-                  },
-                  {
-                        "att": 2457,
-                        "def": 867,
-                        "hp": 6344
-                  },
-                  {
-                        "att": 2463,
-                        "def": 869,
-                        "hp": 6357
-                  },
-                  {
-                        "att": 2469,
-                        "def": 871,
-                        "hp": 6371
-                  },
-                  {
-                        "att": 2475,
-                        "def": 873,
-                        "hp": 6385
-                  },
-                  {
-                        "att": 2481,
-                        "def": 875,
-                        "hp": 6399
-                  },
-                  {
-                        "att": 2487,
-                        "def": 877,
-                        "hp": 6413
-                  },
-                  {
-                        "att": 2493,
-                        "def": 879,
-                        "hp": 6427
-                  },
-                  {
-                        "att": 2499,
-                        "def": 881,
-                        "hp": 6441
-                  },
-                  {
-                        "att": 2505,
-                        "def": 883,
-                        "hp": 6455
-                  },
-                  {
-                        "att": 2511,
-                        "def": 885,
-                        "hp": 6468
-                  },
-                  {
-                        "att": 2517,
-                        "def": 887,
-                        "hp": 6482
-                  },
-                  {
-                        "att": 2523,
-                        "def": 889,
-                        "hp": 6496
-                  },
-                  {
-                        "att": 2529,
-                        "def": 891,
-                        "hp": 6510
-                  },
-                  {
-                        "att": 2535,
-                        "def": 893,
-                        "hp": 6524
-                  },
-                  {
-                        "att": 2541,
-                        "def": 895,
-                        "hp": 6538
-                  },
-                  {
-                        "att": 2547,
-                        "def": 897,
-                        "hp": 6552
-                  },
-                  {
-                        "att": 2553,
-                        "def": 899,
-                        "hp": 6565
-                  },
-                  {
-                        "att": 2559,
-                        "def": 901,
-                        "hp": 6579
-                  },
-                  {
-                        "att": 2565,
-                        "def": 903,
-                        "hp": 6593
-                  },
-                  {
-                        "att": 2571,
-                        "def": 905,
-                        "hp": 6607
-                  },
-                  {
-                        "att": 2577,
-                        "def": 907,
-                        "hp": 6621
-                  },
-                  {
-                        "att": 2583,
-                        "def": 909,
-                        "hp": 6635
-                  },
-                  {
-                        "att": 2589,
-                        "def": 911,
-                        "hp": 6649
-                  },
-                  {
-                        "att": 2595,
-                        "def": 913,
-                        "hp": 6663
-                  },
-                  {
-                        "att": 2601,
-                        "def": 915,
-                        "hp": 6676
-                  },
-                  {
-                        "att": 2607,
-                        "def": 917,
-                        "hp": 6690
-                  },
-                  {
-                        "att": 2613,
-                        "def": 919,
-                        "hp": 6704
-                  },
-                  {
-                        "att": 2619,
-                        "def": 921,
-                        "hp": 6718
-                  },
-                  {
-                        "att": 2625,
-                        "def": 923,
-                        "hp": 6732
-                  },
-                  {
-                        "att": 2631,
-                        "def": 925,
-                        "hp": 6746
-                  }
-            ]
-      }
+ "name": "Chloe",
+ "faction": "Lumopolis",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Support",
+ "skill": {
+  "name": "Psalm of Support",
+  "cd": "2 Turn",
+  "description": [
+   "When cast, each Blue tile on the battlefield grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
+   "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
+   "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds."
+  ]
+ },
+ "equip": {
+  "name": "Melody of Sorrow",
+  "passive": "Dream Murmur",
+  "description": [
+   [
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
+   ],
+   [
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
+   ],
+   [
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 2% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 3% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 4% for 1 round.",
+    "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 5% for 1 round."
+   ]
+  ],
+  "introduction": "This is the harp of Chloe's father. Playing skillfully, she can weave her own Luminatics into the notes, using her Luminatics to both influence others and sooth the injured souls of her companions."
+ },
+ "chain": {
+  "name": "Shimmering Sorrow",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 145% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 145% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 145% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Potion I",
+    "Water Crystal Dust",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round."
+  },
+  {
+   "material": [
+    "Water Crystal",
+    "Water Flare Silt",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "When cast, each Blue tile on the battlefield grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds.",
+   "after": "Grants a Concerto Mark. When cast, each Blue tile on the battlefield and each stack of the mark grants all deployed members an ATK bonus equal to  0.5% of Chloe's ATK for 2 rounds."
+  },
+  {
+   "material": [
+    "Water Flare Tile",
+    "Water Potion II",
+    "Daybreak Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When using an Active Skill or a Chain Combo, reduces the ATK of enemies in 1 surrounding cluster of the unit by 5% for 1 round.",
+   "after": "When using an Active Skill or a Chain Combo, reduces the ATK and DEF of enemies in 2 surrounding clusters of the unit by 5% for 1 round."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 500,
+    "def": 219,
+    "hp": 1653
+   },
+   {
+    "att": 510,
+    "def": 223,
+    "hp": 1675
+   },
+   {
+    "att": 520,
+    "def": 226,
+    "hp": 1698
+   },
+   {
+    "att": 529,
+    "def": 229,
+    "hp": 1720
+   },
+   {
+    "att": 539,
+    "def": 232,
+    "hp": 1742
+   },
+   {
+    "att": 548,
+    "def": 235,
+    "hp": 1764
+   },
+   {
+    "att": 558,
+    "def": 239,
+    "hp": 1786
+   },
+   {
+    "att": 568,
+    "def": 242,
+    "hp": 1809
+   },
+   {
+    "att": 577,
+    "def": 245,
+    "hp": 1831
+   },
+   {
+    "att": 587,
+    "def": 248,
+    "hp": 1853
+   },
+   {
+    "att": 596,
+    "def": 251,
+    "hp": 1875
+   },
+   {
+    "att": 606,
+    "def": 255,
+    "hp": 1897
+   },
+   {
+    "att": 615,
+    "def": 258,
+    "hp": 1920
+   },
+   {
+    "att": 625,
+    "def": 261,
+    "hp": 1942
+   },
+   {
+    "att": 635,
+    "def": 264,
+    "hp": 1964
+   },
+   {
+    "att": 644,
+    "def": 267,
+    "hp": 1986
+   },
+   {
+    "att": 654,
+    "def": 270,
+    "hp": 2008
+   },
+   {
+    "att": 663,
+    "def": 274,
+    "hp": 2030
+   },
+   {
+    "att": 673,
+    "def": 277,
+    "hp": 2053
+   },
+   {
+    "att": 683,
+    "def": 280,
+    "hp": 2075
+   },
+   {
+    "att": 692,
+    "def": 283,
+    "hp": 2097
+   },
+   {
+    "att": 702,
+    "def": 286,
+    "hp": 2119
+   },
+   {
+    "att": 711,
+    "def": 290,
+    "hp": 2141
+   },
+   {
+    "att": 721,
+    "def": 293,
+    "hp": 2164
+   },
+   {
+    "att": 731,
+    "def": 296,
+    "hp": 2186
+   },
+   {
+    "att": 740,
+    "def": 299,
+    "hp": 2208
+   },
+   {
+    "att": 750,
+    "def": 302,
+    "hp": 2230
+   },
+   {
+    "att": 759,
+    "def": 306,
+    "hp": 2252
+   },
+   {
+    "att": 769,
+    "def": 309,
+    "hp": 2275
+   },
+   {
+    "att": 778,
+    "def": 312,
+    "hp": 2297
+   },
+   {
+    "att": 880,
+    "def": 346,
+    "hp": 2564
+   },
+   {
+    "att": 892,
+    "def": 350,
+    "hp": 2592
+   },
+   {
+    "att": 904,
+    "def": 354,
+    "hp": 2620
+   },
+   {
+    "att": 916,
+    "def": 358,
+    "hp": 2648
+   },
+   {
+    "att": 928,
+    "def": 362,
+    "hp": 2675
+   },
+   {
+    "att": 940,
+    "def": 366,
+    "hp": 2703
+   },
+   {
+    "att": 952,
+    "def": 370,
+    "hp": 2731
+   },
+   {
+    "att": 964,
+    "def": 374,
+    "hp": 2759
+   },
+   {
+    "att": 976,
+    "def": 378,
+    "hp": 2786
+   },
+   {
+    "att": 988,
+    "def": 382,
+    "hp": 2814
+   },
+   {
+    "att": 1000,
+    "def": 386,
+    "hp": 2842
+   },
+   {
+    "att": 1012,
+    "def": 390,
+    "hp": 2870
+   },
+   {
+    "att": 1024,
+    "def": 394,
+    "hp": 2897
+   },
+   {
+    "att": 1036,
+    "def": 398,
+    "hp": 2925
+   },
+   {
+    "att": 1048,
+    "def": 402,
+    "hp": 2953
+   },
+   {
+    "att": 1060,
+    "def": 406,
+    "hp": 2981
+   },
+   {
+    "att": 1072,
+    "def": 410,
+    "hp": 3008
+   },
+   {
+    "att": 1084,
+    "def": 414,
+    "hp": 3036
+   },
+   {
+    "att": 1096,
+    "def": 418,
+    "hp": 3064
+   },
+   {
+    "att": 1108,
+    "def": 422,
+    "hp": 3091
+   },
+   {
+    "att": 1120,
+    "def": 426,
+    "hp": 3119
+   },
+   {
+    "att": 1132,
+    "def": 429,
+    "hp": 3147
+   },
+   {
+    "att": 1144,
+    "def": 433,
+    "hp": 3175
+   },
+   {
+    "att": 1156,
+    "def": 437,
+    "hp": 3202
+   },
+   {
+    "att": 1168,
+    "def": 441,
+    "hp": 3230
+   },
+   {
+    "att": 1180,
+    "def": 445,
+    "hp": 3258
+   },
+   {
+    "att": 1192,
+    "def": 449,
+    "hp": 3286
+   },
+   {
+    "att": 1204,
+    "def": 453,
+    "hp": 3313
+   },
+   {
+    "att": 1216,
+    "def": 457,
+    "hp": 3341
+   },
+   {
+    "att": 1228,
+    "def": 461,
+    "hp": 3369
+   },
+   {
+    "att": 1240,
+    "def": 465,
+    "hp": 3397
+   },
+   {
+    "att": 1252,
+    "def": 469,
+    "hp": 3424
+   },
+   {
+    "att": 1264,
+    "def": 473,
+    "hp": 3452
+   },
+   {
+    "att": 1276,
+    "def": 477,
+    "hp": 3480
+   },
+   {
+    "att": 1288,
+    "def": 481,
+    "hp": 3507
+   },
+   {
+    "att": 1300,
+    "def": 485,
+    "hp": 3535
+   },
+   {
+    "att": 1312,
+    "def": 489,
+    "hp": 3563
+   },
+   {
+    "att": 1324,
+    "def": 493,
+    "hp": 3591
+   },
+   {
+    "att": 1336,
+    "def": 497,
+    "hp": 3618
+   },
+   {
+    "att": 1348,
+    "def": 501,
+    "hp": 3646
+   },
+   {
+    "att": 1497,
+    "def": 554,
+    "hp": 4047
+   },
+   {
+    "att": 1506,
+    "def": 557,
+    "hp": 4068
+   },
+   {
+    "att": 1515,
+    "def": 560,
+    "hp": 4089
+   },
+   {
+    "att": 1524,
+    "def": 563,
+    "hp": 4109
+   },
+   {
+    "att": 1533,
+    "def": 566,
+    "hp": 4130
+   },
+   {
+    "att": 1542,
+    "def": 569,
+    "hp": 4151
+   },
+   {
+    "att": 1551,
+    "def": 572,
+    "hp": 4172
+   },
+   {
+    "att": 1560,
+    "def": 575,
+    "hp": 4193
+   },
+   {
+    "att": 1569,
+    "def": 578,
+    "hp": 4213
+   },
+   {
+    "att": 1578,
+    "def": 581,
+    "hp": 4234
+   },
+   {
+    "att": 1587,
+    "def": 584,
+    "hp": 4255
+   },
+   {
+    "att": 1595,
+    "def": 587,
+    "hp": 4276
+   },
+   {
+    "att": 1604,
+    "def": 590,
+    "hp": 4297
+   },
+   {
+    "att": 1613,
+    "def": 593,
+    "hp": 4317
+   },
+   {
+    "att": 1622,
+    "def": 596,
+    "hp": 4338
+   },
+   {
+    "att": 1631,
+    "def": 599,
+    "hp": 4359
+   },
+   {
+    "att": 1640,
+    "def": 602,
+    "hp": 4380
+   },
+   {
+    "att": 1649,
+    "def": 605,
+    "hp": 4401
+   },
+   {
+    "att": 1658,
+    "def": 608,
+    "hp": 4421
+   },
+   {
+    "att": 1667,
+    "def": 611,
+    "hp": 4442
+   },
+   {
+    "att": 1676,
+    "def": 614,
+    "hp": 4463
+   },
+   {
+    "att": 1685,
+    "def": 617,
+    "hp": 4484
+   },
+   {
+    "att": 1694,
+    "def": 620,
+    "hp": 4505
+   },
+   {
+    "att": 1703,
+    "def": 623,
+    "hp": 4525
+   },
+   {
+    "att": 1712,
+    "def": 626,
+    "hp": 4546
+   },
+   {
+    "att": 1721,
+    "def": 629,
+    "hp": 4567
+   },
+   {
+    "att": 1730,
+    "def": 632,
+    "hp": 4588
+   },
+   {
+    "att": 1739,
+    "def": 635,
+    "hp": 4609
+   },
+   {
+    "att": 1748,
+    "def": 638,
+    "hp": 4629
+   },
+   {
+    "att": 1757,
+    "def": 641,
+    "hp": 4650
+   },
+   {
+    "att": 1766,
+    "def": 644,
+    "hp": 4671
+   },
+   {
+    "att": 1775,
+    "def": 647,
+    "hp": 4692
+   },
+   {
+    "att": 1784,
+    "def": 650,
+    "hp": 4713
+   },
+   {
+    "att": 1793,
+    "def": 653,
+    "hp": 4733
+   },
+   {
+    "att": 1802,
+    "def": 656,
+    "hp": 4754
+   },
+   {
+    "att": 1811,
+    "def": 659,
+    "hp": 4775
+   },
+   {
+    "att": 1820,
+    "def": 662,
+    "hp": 4796
+   },
+   {
+    "att": 1829,
+    "def": 665,
+    "hp": 4817
+   },
+   {
+    "att": 1838,
+    "def": 668,
+    "hp": 4837
+   },
+   {
+    "att": 1847,
+    "def": 671,
+    "hp": 4858
+   },
+   {
+    "att": 1856,
+    "def": 674,
+    "hp": 4879
+   },
+   {
+    "att": 1865,
+    "def": 677,
+    "hp": 4900
+   },
+   {
+    "att": 1874,
+    "def": 680,
+    "hp": 4921
+   },
+   {
+    "att": 1883,
+    "def": 683,
+    "hp": 4941
+   },
+   {
+    "att": 1892,
+    "def": 686,
+    "hp": 4962
+   },
+   {
+    "att": 1901,
+    "def": 689,
+    "hp": 4983
+   },
+   {
+    "att": 1910,
+    "def": 692,
+    "hp": 5004
+   },
+   {
+    "att": 1919,
+    "def": 695,
+    "hp": 5025
+   },
+   {
+    "att": 1928,
+    "def": 698,
+    "hp": 5045
+   },
+   {
+    "att": 1937,
+    "def": 701,
+    "hp": 5066
+   },
+   {
+    "att": 2158,
+    "def": 768,
+    "hp": 5650
+   },
+   {
+    "att": 2164,
+    "def": 770,
+    "hp": 5664
+   },
+   {
+    "att": 2170,
+    "def": 771,
+    "hp": 5678
+   },
+   {
+    "att": 2176,
+    "def": 773,
+    "hp": 5692
+   },
+   {
+    "att": 2182,
+    "def": 775,
+    "hp": 5706
+   },
+   {
+    "att": 2188,
+    "def": 777,
+    "hp": 5719
+   },
+   {
+    "att": 2194,
+    "def": 779,
+    "hp": 5733
+   },
+   {
+    "att": 2200,
+    "def": 781,
+    "hp": 5747
+   },
+   {
+    "att": 2206,
+    "def": 783,
+    "hp": 5761
+   },
+   {
+    "att": 2212,
+    "def": 785,
+    "hp": 5775
+   },
+   {
+    "att": 2218,
+    "def": 787,
+    "hp": 5789
+   },
+   {
+    "att": 2224,
+    "def": 789,
+    "hp": 5803
+   },
+   {
+    "att": 2230,
+    "def": 791,
+    "hp": 5817
+   },
+   {
+    "att": 2236,
+    "def": 793,
+    "hp": 5830
+   },
+   {
+    "att": 2242,
+    "def": 795,
+    "hp": 5844
+   },
+   {
+    "att": 2248,
+    "def": 797,
+    "hp": 5858
+   },
+   {
+    "att": 2254,
+    "def": 799,
+    "hp": 5872
+   },
+   {
+    "att": 2260,
+    "def": 801,
+    "hp": 5886
+   },
+   {
+    "att": 2266,
+    "def": 803,
+    "hp": 5900
+   },
+   {
+    "att": 2272,
+    "def": 805,
+    "hp": 5914
+   },
+   {
+    "att": 2278,
+    "def": 807,
+    "hp": 5928
+   },
+   {
+    "att": 2284,
+    "def": 809,
+    "hp": 5941
+   },
+   {
+    "att": 2290,
+    "def": 811,
+    "hp": 5955
+   },
+   {
+    "att": 2296,
+    "def": 813,
+    "hp": 5969
+   },
+   {
+    "att": 2302,
+    "def": 815,
+    "hp": 5983
+   },
+   {
+    "att": 2308,
+    "def": 817,
+    "hp": 5997
+   },
+   {
+    "att": 2314,
+    "def": 819,
+    "hp": 6011
+   },
+   {
+    "att": 2320,
+    "def": 821,
+    "hp": 6025
+   },
+   {
+    "att": 2326,
+    "def": 823,
+    "hp": 6038
+   },
+   {
+    "att": 2332,
+    "def": 825,
+    "hp": 6052
+   },
+   {
+    "att": 2338,
+    "def": 827,
+    "hp": 6066
+   },
+   {
+    "att": 2344,
+    "def": 829,
+    "hp": 6080
+   },
+   {
+    "att": 2350,
+    "def": 831,
+    "hp": 6094
+   },
+   {
+    "att": 2356,
+    "def": 833,
+    "hp": 6108
+   },
+   {
+    "att": 2362,
+    "def": 835,
+    "hp": 6122
+   },
+   {
+    "att": 2368,
+    "def": 837,
+    "hp": 6136
+   },
+   {
+    "att": 2374,
+    "def": 839,
+    "hp": 6149
+   },
+   {
+    "att": 2380,
+    "def": 841,
+    "hp": 6163
+   },
+   {
+    "att": 2386,
+    "def": 843,
+    "hp": 6177
+   },
+   {
+    "att": 2392,
+    "def": 845,
+    "hp": 6191
+   },
+   {
+    "att": 2398,
+    "def": 847,
+    "hp": 6205
+   },
+   {
+    "att": 2404,
+    "def": 849,
+    "hp": 6219
+   },
+   {
+    "att": 2410,
+    "def": 851,
+    "hp": 6233
+   },
+   {
+    "att": 2416,
+    "def": 853,
+    "hp": 6246
+   },
+   {
+    "att": 2422,
+    "def": 855,
+    "hp": 6260
+   },
+   {
+    "att": 2428,
+    "def": 857,
+    "hp": 6274
+   },
+   {
+    "att": 2433,
+    "def": 859,
+    "hp": 6288
+   },
+   {
+    "att": 2439,
+    "def": 861,
+    "hp": 6302
+   },
+   {
+    "att": 2445,
+    "def": 863,
+    "hp": 6316
+   },
+   {
+    "att": 2451,
+    "def": 865,
+    "hp": 6330
+   },
+   {
+    "att": 2457,
+    "def": 867,
+    "hp": 6344
+   },
+   {
+    "att": 2463,
+    "def": 869,
+    "hp": 6357
+   },
+   {
+    "att": 2469,
+    "def": 871,
+    "hp": 6371
+   },
+   {
+    "att": 2475,
+    "def": 873,
+    "hp": 6385
+   },
+   {
+    "att": 2481,
+    "def": 875,
+    "hp": 6399
+   },
+   {
+    "att": 2487,
+    "def": 877,
+    "hp": 6413
+   },
+   {
+    "att": 2493,
+    "def": 879,
+    "hp": 6427
+   },
+   {
+    "att": 2499,
+    "def": 881,
+    "hp": 6441
+   },
+   {
+    "att": 2505,
+    "def": 883,
+    "hp": 6455
+   },
+   {
+    "att": 2511,
+    "def": 885,
+    "hp": 6468
+   },
+   {
+    "att": 2517,
+    "def": 887,
+    "hp": 6482
+   },
+   {
+    "att": 2523,
+    "def": 889,
+    "hp": 6496
+   },
+   {
+    "att": 2529,
+    "def": 891,
+    "hp": 6510
+   },
+   {
+    "att": 2535,
+    "def": 893,
+    "hp": 6524
+   },
+   {
+    "att": 2541,
+    "def": 895,
+    "hp": 6538
+   },
+   {
+    "att": 2547,
+    "def": 897,
+    "hp": 6552
+   },
+   {
+    "att": 2553,
+    "def": 899,
+    "hp": 6565
+   },
+   {
+    "att": 2559,
+    "def": 901,
+    "hp": 6579
+   },
+   {
+    "att": 2565,
+    "def": 903,
+    "hp": 6593
+   },
+   {
+    "att": 2571,
+    "def": 905,
+    "hp": 6607
+   },
+   {
+    "att": 2577,
+    "def": 907,
+    "hp": 6621
+   },
+   {
+    "att": 2583,
+    "def": 909,
+    "hp": 6635
+   },
+   {
+    "att": 2589,
+    "def": 911,
+    "hp": 6649
+   },
+   {
+    "att": 2595,
+    "def": 913,
+    "hp": 6663
+   },
+   {
+    "att": 2601,
+    "def": 915,
+    "hp": 6676
+   },
+   {
+    "att": 2607,
+    "def": 917,
+    "hp": 6690
+   },
+   {
+    "att": 2613,
+    "def": 919,
+    "hp": 6704
+   },
+   {
+    "att": 2619,
+    "def": 921,
+    "hp": 6718
+   },
+   {
+    "att": 2625,
+    "def": 923,
+    "hp": 6732
+   },
+   {
+    "att": 2631,
+    "def": 925,
+    "hp": 6746
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Chloe",
+     "Keating"
+    ],
+    "chat": [
+     {
+      "character": "Chloe:",
+      "text": "The songs we're learning today are simple and poppy, but pleasant and melodious."
+     },
+     {
+      "character": "Keating:",
+      "text": "Easy breezy! \u266aLalalalala\u266b"
+     },
+     {
+      "character": "Chloe:",
+      "text": "Sing with me! Do!"
+     },
+     {
+      "character": "Keating:",
+      "text": "Do drive those Eclipsites away!\u266c"
+     },
+     {
+      "character": "Chloe:",
+      "text": "Mi!"
+     },
+     {
+      "character": "Keating:",
+      "text": "Mi is Amy who fell again\u2669"
+     },
+     {
+      "character": "Chloe:",
+      "text": "So!"
+     },
+     {
+      "character": "Keating:",
+      "text": "So the adults working overtime Monday to Sunday!\u266b\u266c"
+     },
+     {
+      "character": "Chloe:",
+      "text": "(Although the melody is okay...)"
+     },
+     {
+      "character": "Chloe:",
+      "text": "(These lyrics seem strange...)"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Connolly",
+     "Chloe"
+    ],
+    "chat": [
+     {
+      "character": "Connolly:",
+      "text": "This song... I think I've got it down."
+     },
+     {
+      "character": "Connolly:",
+      "text": "Now, let's try playing the whole thing..."
+     },
+     {
+      "character": "Connolly:",
+      "text": "*Plays*"
+     },
+     {
+      "character": "Chloe:",
+      "text": "That melody..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "I feel so peaceful just listening to it..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "Chloe... Y-You're such an amazing musician!"
+     },
+     {
+      "character": "Connolly:",
+      "text": "Huh? Y-You mean me?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "N-Not even close! I was only practicing a little..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "But I can feel the emotion in your playing, Chloe..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "Just being able to express yourself like that through music... Is amazing enough, as it is!"
+     },
+     {
+      "character": "Connolly:",
+      "text": "... Really?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "I've always wanted to tell you... That I'm a huge fan of your clarinet playing too, Connolly..."
+     },
+     {
+      "character": "Chloe:",
+      "text": "... Huh? R-Really?"
+     },
+     {
+      "character": "Connolly:",
+      "text": "Really! Maybe we could... Play together sometime? I-If that's okay?"
+     },
+     {
+      "character": "Chloe:",
+      "text": "I... I would be honored!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I thought the Colossus was under attack when %s suddenly sent off an emergency signal, only to find myself in a weird scene when I arrived... Was the pretty sobbing girl who %s is consoling our newest recruit? If Miss Chloe didn't stop me, I'd have thrashed %s for making her cry. After Miss Chloe finally calmed down, I found out she wanted to play %s a tune for the occasion, but started weeping in the middle of it... That was where I came in. Looking at how badly %s felt I did him wrong... Well, I can relate. \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Sorry, I never could quite manage to control myself...This happens a lot. I tend to recall some things in my past when I play that make me tremble and cry... They are chapters of my life and my introspections. As the Musician of Lumopolis, I know very well that should never happen during a performance, I'm sorry... I'm extremely grateful to you and the Lord of Lumopolis who never chastised me. But... but I cannot deny it's my fault as a musician... Boo-hoo...I'm sorry. Feel free to let me be, I need a moment to collect myself..."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "After my parents passed away, I found it difficult to hide my sorrow... Crying in performances... It caused a lot of awkwardness for everyone. I tried to stop wallowing in the misery, but discovered that I could placate my emotions only by constantly comforting others with my music. So, to not mired in the tragedy, I would play all concerts possible... If that picked people up... It provided salvation for me too... If you'd like me to play again someday, I'll try my best not to cry..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I remember when I was little, when my father came home from work and gave me harp lessons, mother would sit nearby and watch with a smile... Those were the best time of my life... We weren't rich but we were happy... But as far as I can recall, mother was never in good health... An affliction confined her to bed, groaning in pain... I overheard the doctor telling my father that giving birth to me worsened her already frail condition... Maybe I was never meant to be born at all... Mother couldn't last the winter that year. Father's harp never sounded sadder that day. I held him tight and replayed mother's words, \"Take care of him for me\", in my head... That would have been my life's purpose if a certain event didn't happen."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Under my father's tutelage, I was already a famous musician in the Dawn Academy. A lot of my former classmates and students asked me to teach and play for them. That was good times too... That day, like any other, I was teaching music lessons in the academy... Until the bad news came, that father was ambushed by Eclipsites on the way to a performance. The only thing he left me was a bloody harp... Those from Guardians told me he was thinking of me even on death's door... I only remember intense sorrow washing over me before I fainted. I awoke three years later... I had no one and lost the will to live, but thanks to the support from students, classmates, and fellow teachers... I shouldn't wallow in the sadness anymore. I should just keep playing. That's the only way I'll get what I truly want..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "The dark corners of Lumopolis bear countless wounds.",
+  "I hope Illumina will bring peace. I also hope there will never be any more wars.",
+  "White Night up high...",
+  "It's... a dark thought that troubles me... It's a trauma of the past that can never heal.",
+  "I can hear the throbbing pain derived from the unseen past sounding from the golden her...",
+  "Carleen is very strong, and she can face it. I hope she's... not going to beat herself up.",
+  "I like... the shoulders, reliance, protection, tranquility, and peace as I remember them to be.",
+  "I don't want to face them... The nightmares, the cold, and the labyrinth... that has no exit.",
+  "It has such big wings. Perhaps it'll be able to take the sadness far far away...",
+  "How about... I'll play a piece of music and pull myself together...",
+  "Will you leave me? Are you like a bird among the clouds or a migrating goose... I promise I won't trouble you... So, please stay.",
+  "If it wasn't for me... who tied everyone down...",
+  "I hope it won't be gone in an instant.",
+  "I want to dispel...",
+  "Dispel the gloom...",
+  "Next piece. What shall I play...",
+  "May you be without sadness in the new year!",
+  "I'll play... Fantasia.",
+  "I can relate to what the music is expressing...",
+  "Will I then... be able to disentangle myself from it?",
+  "Maybe I will be able to see something different from before...",
+  "I will play better, so please stay and not go anywhere. Please, don't leave so soon...",
+  "The sound of music... travels further...",
+  "Alchemy Stars...",
+  "We are caught in the stream of fate, inching our way toward. The stream carries us without caring about our readiness.",
+  "I'm so sorry. I shouldn't have said such things... It's just that when I'm not playing my instrument, I have nowhere to hide, and I'd start remembering...",
+  "Sometimes I had to stop playing in the middle of my performance because of my sudden quivers... And yet, you never scold me. I am very grateful for that.",
+  "Even when I try not to think about it, the fear still lurks and haunt me in the form of nightmares. It just wouldn't give me a break...",
+  "The past is like a thread that entangles my wrists and neck, which when I finally realized that I should disentangle it, I couldn't because I didn't know how.",
+  "I always dream of the day when I fall into darkness without exit. To this day, I am still a fallen leaf, with no direction, and not knowing if I am to stay or to leave...",
+  "If you've made your decision, you should just go. Don't look back. Just leave me in the past, to stay watch... I will welcome you if you come back...",
+  "One day, I will cease to exist. You will miss me. I hope you'd leave with that lament. Even if you were to cast it away, it's still better than having no one miss me...",
+  "I sincerely hope that I would be able to keep on getting closer to my dreams... It would be like a gentle breeze, a foggy drizzle, a straight trail, or a bright path. Just like you...",
+  "When tomorrow comes, the dark clouds will clear... May your suffering be alleviated.",
+  "Please take away these tears... Dry them... And allow me to forget.",
+  "I know I need to keep playing. As long as I don't stop... perhaps, my tears won't fall.",
+  "Welcome back. I hope your shadow and your voice can stay for a little longer.",
+  "I hope that mornings will not always be so chilly, but be as warm as how your arrival made me felt...",
+  "I heard the sound of your arrival, on the discontinuous string and in the flickering light.",
+  "I so sorry, but everyday at this hour... I always find it hard to resist the urge...",
+  "Regrets are already musical notes, which from the very first moment, have been set to sound desolated, and onwards they have been continuously played... Nice to meet you. I'm Chloe, a musician.",
+  "Not through words... I don't understand...",
+  "You're always giving me things...",
+  "I'll cherish this gift that didn't come easy very much.",
+  "How precious! How do I cherish it enough?",
+  "This is... the sad sound of music.",
+  "In the music tells a past that haunts.",
+  "Putting in feeling into the performance...",
+  "I'm always trying to escape into the world of music... But I know that the only way out is to talk about my sins. Straightforward and no concealing...",
+  "Mother wasn't healthy enough to take the risk of pregnancy. If it wasn't for me... she could've enjoyed some tranquility...",
+  "I wasn't there for him when he was facing his greatest fear. Towards the end, he had never stopped calling me...",
+  "If there's anything I can do..."
+ ],
+ "skins": [],
+ "description": "A gentle and friendly musician of Lumopolis who is easily drowned in her sad memories. She lost her family due to the war, so she lives in sorrow and finds it hard to let go of it.",
+ "realName": "Chloe",
+ "nickname": "Note of Sorrow",
+ "gender": "Female",
+ "height": "5'4''",
+ "birthday": "September 19",
+ "birthplace": "Lumopolis",
+ "style": "Melody of Sorrow"
 }

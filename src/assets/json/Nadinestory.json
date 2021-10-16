@@ -1,0 +1,886 @@
+{
+ "title": "Nadine's Efforts",
+ "header": "Nadine suddenly told you that she wanted to do something for you. You were touched by her hard work and thoughtfulness until she apologized to you, and you found out the reason...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay. Just speak your mind."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's nothing, actually. You just got back from a full day of work, so I'm wondering if there's anything I can do for you."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Are you bothered by that thought of mine?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I'm just not used to it, is all",
+     "link": "1"
+    },
+    {
+     "text": "Not at all. I'm very touched!",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "How should I put it... I tend to run into people \"with unique attitude\" very often."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To put it simply, I'm so used to being bullied that I'm not accustomed to others treating me so nicely."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, I appreciate it very much, of course!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "That's too... Anyway, I want to do something for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I appreciate the thought very much already!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I believe a mail came in for me while I was out, though. Let me go get it and I'll be right back."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, no need. I've gotten it for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You got my mail for me? That's so nice and caring of you!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Ahem. Well, that's because I happened to hear Miss Vice mentioned about it, and I knew you weren't around, so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "OK. Let me go read it."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'll get it for you right away if you want to read it now! Please sit still and don't go anywhere!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, it was just a casual remark and off she went!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your letter!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, thanks!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, let me get you something to drink. You must be thirsty from the trip!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "What would you like, coffee or tea?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can use a little pick-me-up. How about..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Tea",
+     "link": "4"
+    },
+    {
+     "text": "Coffee",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Caring friends are very hard to come by!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Honestly, I thought caring people were a rare breed these days."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "You're not old enough to speak like you're out of loop with the time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I'm not too old, but am out of loop. I mean, I did live in a Colossus by myself for a long time..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "That's too... Anyway, I want to do something for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I appreciate the thought very much already!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I believe a mail came in for me while I was out, though. Let me go get it and I'll be right back."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, no need. I've gotten it for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You got my mail for me? That's so nice and caring of you!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Ahem. Well, that's because I happened to hear Miss Vice mentioned about it, and I knew you weren't around, so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "OK. Let me go read it."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'll get it for you right away if you want to read it now! Please sit still and don't go anywhere!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, it was just a casual remark and off she went!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your letter!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, thanks!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, let me get you something to drink. You must be thirsty from the trip!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "What would you like, coffee or tea?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can use a little pick-me-up. How about..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Tea",
+     "link": "4"
+    },
+    {
+     "text": "Coffee",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "That's too... Anyway, I want to do something for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I appreciate the thought very much already!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I believe a mail came in for me while I was out, though. Let me go get it and I'll be right back."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, no need. I've gotten it for you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You got my mail for me? That's so nice and caring of you!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Ahem. Well, that's because I happened to hear Miss Vice mentioned about it, and I knew you weren't around, so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "OK. Let me go read it."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'll get it for you right away if you want to read it now! Please sit still and don't go anywhere!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, it was just a casual remark and off she went!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your letter!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, thanks!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, let me get you something to drink. You must be thirsty from the trip!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "What would you like, coffee or tea?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can use a little pick-me-up. How about..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Tea",
+     "link": "4"
+    },
+    {
+     "text": "Coffee",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "Tea is my specialty! You prefer tea over coffee, just like the City Lord!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your drink, Navigator!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Hey!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'm sorry! I didn't mean to spill it on you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. It's just a little. I can just wipe it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I got to ask, why are you so enthusiastic about helping out today?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Well... I've been learning how to care for people lately..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? Why that all of a sudden?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Because... As a Nightwatch, I must be good in everything!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "There hasn't been anything official to handle lately, so I made myself a plan to become a better person."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What's a Nightwatch?",
+     "link": "7"
+    },
+    {
+     "text": "A better person? How much better?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "Coffee is a great choice! I like to drink coffee! It calms your nerves!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your drink, Navigator!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Hey!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'm sorry! I didn't mean to spill it on you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. It's just a little. I can just wipe it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I got to ask, why are you so enthusiastic about helping out today?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Well... I've been learning how to care for people lately..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? Why that all of a sudden?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Because... As a Nightwatch, I must be good in everything!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "There hasn't been anything official to handle lately, so I made myself a plan to become a better person."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What's a Nightwatch?",
+     "link": "7"
+    },
+    {
+     "text": "A better person? How much better?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "Here's your drink, Navigator!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Hey!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'm sorry! I didn't mean to spill it on you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. It's just a little. I can just wipe it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I got to ask, why are you so enthusiastic about helping out today?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Well... I've been learning how to care for people lately..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? Why that all of a sudden?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Because... As a Nightwatch, I must be good in everything!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "There hasn't been anything official to handle lately, so I made myself a plan to become a better person."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What's a Nightwatch?",
+     "link": "7"
+    },
+    {
+     "text": "A better person? How much better?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "A Nightwatch is the City Lord's secret guards."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I may be a guard, but not the actual kind that protects the City Lord, since he's far more powerful than I am."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "In other words, we're special ops that go around at night collecting information or carrying out assassinations."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did I just stumble upon a terrifying secret?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "We may be the secret guards, but it's not a secret that we exist."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Many people already know we exist but are just unsure of who the members are."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I now know that you're one of them..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's... no biggie. You have enough clout to find out eventually, anyway."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Do me a favor, don't mention you heard it from me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's about time I get back to my room. Anything else?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Why? Can't you just rest here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I do need personal space."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Okay... Would you mind answering a question before you leave?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "How'd you rate my performance?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Pretty good I'd say.",
+     "link": "10"
+    },
+    {
+     "text": "Hmm. Maybe it could be better?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "At least as good as Ms. Blanc!"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "She could handle all sorts of missions with ease, and could maintain her grace even during assassinations!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did I just stumble upon a terrifying secret?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's actually not a secret. Ms. Blanc would talk about it herself, just not publicly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you just made it known to me."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's... no biggie. You have enough clout to find out eventually, anyway."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Do me a favor, don't mention you heard it from me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's about time I get back to my room. Anything else?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Why? Can't you just rest here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I do need personal space."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Okay... Would you mind answering a question before you leave?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "How'd you rate my performance?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Pretty good I'd say.",
+     "link": "10"
+    },
+    {
+     "text": "Hmm. Maybe it could be better?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "It's... no biggie. You have enough clout to find out eventually, anyway."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Do me a favor, don't mention you heard it from me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's about time I get back to my room. Anything else?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Why? Can't you just rest here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I do need personal space."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Okay... Would you mind answering a question before you leave?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "How'd you rate my performance?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Pretty good I'd say.",
+     "link": "10"
+    },
+    {
+     "text": "Hmm. Maybe it could be better?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "In other words, you're leaning toward \"satisfied\"?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Satisfied\" is an awkward way of putting it, but I do think you were very considerate."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's normal to make mistakes once in a while."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "But what should I do if I accidentally made a mistake?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just apologize properly."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, I see... Would you mind hearing about the mistakes I made then?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Actually, when I deliver the letter to your room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What about it? I don't see anything wrong with the letter."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's not the letter. When I went into your room, I thought it looked a little messy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "True. I was in too big of a hurry today to tidy it up."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I thought since I got nothing better to do, I'd clean it up for you..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "But I made the room an even bigger mess."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I wanted to tidy it up before you got back, but you came back earlier than expected! I'm very sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, can you tell me what you did...?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I tidied up for a bit, sanitized the room with the lantern's power, then ironed your clothes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, what made the room messier?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "A few of your clothes are ruined, and the floor and walls... are a little cracked."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'm very sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now I get why you're so eager to help me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's to make up for wrecking my room, right?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Unfortunately, yes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Inhaling deeply and forcing a smile*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. You're going out of your way to apologize, so I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nah, I'm not mad at you."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nadine:",
+     "dialogue": "It's because I spilled a drink on you, isn't it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. That's nothing. Don't worry about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's normal to make mistakes once in a while."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "But what should I do if I accidentally made a mistake?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just apologize properly."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Oh, I see... Would you mind hearing about the mistakes I made then?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Actually, when I deliver the letter to your room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What about it? I don't see anything wrong with the letter."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "It's not the letter. When I went into your room, I thought it looked a little messy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "True. I was in too big of a hurry today to tidy it up."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I thought since I got nothing better to do, I'd clean it up for you..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "But I made the room an even bigger mess."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I wanted to tidy it up before you got back, but you came back earlier than expected! I'm very sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, can you tell me what you did...?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I tidied up for a bit, sanitized the room with the lantern's power, then ironed your clothes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, what made the room messier?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "A few of your clothes are ruined, and the floor and walls... are a little cracked."
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "I'm very sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now I get why you're so eager to help me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's to make up for wrecking my room, right?"
+    },
+    {
+     "char": "Nadine:",
+     "dialogue": "Unfortunately, yes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Inhaling deeply and forcing a smile*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. You're going out of your way to apologize, so I..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nah, I'm not mad at you."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

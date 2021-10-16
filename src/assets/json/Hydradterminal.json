@@ -1,0 +1,534 @@
+[
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "Someone told me that you were looking for me?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes! Are you free?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm... What is it again..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes! Are you free?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hydrad:",
+      "content": "...Yes, come find me."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "At the lounge."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Hmm... What is it again..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Oh, right, it's about Shadow Wolf! If you have time, I'd like to talk to you face-to-face."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Understood, I'll be waiting for you."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "At the lounge."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "Is there something you're unsatisfied with?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes. I don't think this solution is a good one."
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, not at all."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes. I don't think this solution is a good one."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "The thought of all of you coming to my room made me so nervous that I couldn't sleep."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Tsk, what's there to be nervous about? I'm not going to do anything to you."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Just pretend that I'm invisible. Is that so hard?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's extremely! There are Hydrad and a group of Shadow Wolf in the room! How am I gonna pretend that you guys are not there?"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Tsk, fine."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Don't worry. Go ahead and sleep."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "While I'm here these few days, Shadow Wolf will be outside your door at midnight, and leave only after it's sure that there's no threat."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So detailed!"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Just in case you get the wrong idea. That's all."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "No, not at all."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Come on, you guys. I'll wait for you all in the Room!"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "...?"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "No, don't wait up. I've decided not to go, and I'll definitely not let them go."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why are you suddenly not coming?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, if other things come, won't I be in danger?"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Tsk, fine."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Don't worry. Go ahead and sleep."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "While I'm here these few days, Shadow Wolf will be outside your door at midnight, and leave only after it's sure that there's no threat."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So detailed!"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Just in case you get the wrong idea. That's all."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "Hey, where are you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's up?"
+   },
+   {
+    "name": "Hydrad:",
+    "content": "I'm going out now."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Go then."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why do you suddenly say that?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Go then."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hydrad:",
+      "content": "..."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "..."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay, can I ask why you want to go out?"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I'm not used to eating and sleeping in such luxury here."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I want to roam around outside for a few days."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Hold on?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hydrad?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Has he already gone out?!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why do you suddenly say that?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hydrad:",
+      "content": "Because I need to go out for a bit."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay, can I ask why you want to go out?"
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I'm not used to eating and sleeping in such luxury here."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I want to roam around outside for a few days."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Hold on?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hydrad?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Has he already gone out?!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "I told you before; I hate introducing myself."
+   },
+   {
+    "name": "Hydrad:",
+    "content": "I came to ask about something else... Do you have a dog-friendly space onboard?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Anywhere is fine!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Like, say, the rec room?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Anywhere is fine!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "A dog? Sure, it's welcome anywhere on board."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't think anyone here has a problem with pets."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Actually, I misspoke."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "When I said a dog... I meant a wolf."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "It's not a pet; it's a wolf. Do you understand?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "A wolf? This might pose a problem..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll have to ask for everyone's thoughts on it. If they're okay with it, then I don't see why not."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I understand. Thanks."
+     },
+     {
+      "name": "Navigator:",
+      "content": "For safety's sake, it'd be best to muzzle and leash it before..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? He's gone already? I wasn't finished speaking!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Like, say, the rec room?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "The rec room is fine. It's pretty lively to begin with."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't think anyone here has a problem with pets."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "Actually, I misspoke."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "When I said a dog... I meant a wolf."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "It's not a pet; it's a wolf. Do you understand?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "A wolf? This might pose a problem..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll have to ask for everyone's thoughts on it. If they're okay with it, then I don't see why not."
+     },
+     {
+      "name": "Hydrad:",
+      "content": "I understand. Thanks."
+     },
+     {
+      "name": "Navigator:",
+      "content": "For safety's sake, it'd be best to muzzle and leash it before..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? He's gone already? I wasn't finished speaking!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "Come walk with me after you're finished with lunch, please."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's wrong? We can talk about it while we eat, you know."
+   },
+   {
+    "name": "Hydrad:",
+    "content": "I don't like eating around others."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Fine, just give me some time to finish my food."
+   },
+   {
+    "name": "Hydrad:",
+    "content": "Whatever."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hydrad:",
+    "content": "I need you for something."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's wrong, Hydrad?"
+   },
+   {
+    "name": "Hydrad:",
+    "content": "My shadow has gotten a little bigger. Although, only part of it seems to have grown..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Did something upset it? What happened?"
+   },
+   {
+    "name": "Hydrad:",
+    "content": "...No, it's not that big of a deal."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Then... why has only part of it changed?"
+   },
+   {
+    "name": "Hydrad:",
+    "content": "...It's because today's lunch is pretty decent."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait... Oh, I understand."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is it that you... ate too much?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So, your stomach got... a little bigger?"
+   },
+   {
+    "name": "Hydrad:",
+    "content": "...Maybe."
+   },
+   {
+    "name": "Navigator:",
+    "content": "In that case..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "It might be a good idea to go for a walk after eating."
+   },
+   {
+    "name": "Hydrad:",
+    "content": "Got it. Goodbye."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

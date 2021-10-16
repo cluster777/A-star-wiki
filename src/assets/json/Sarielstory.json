@@ -1,0 +1,1078 @@
+{
+ "title": "Amos",
+ "header": "Sariel, who has gone to great lengths to investigate the mysterious death of her grandfather, would like to talk to you. So what does Gabriel, an Angel of Lumopolis, have to do with any of it?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Sariel:",
+     "dialogue": "Hello."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hello there, Sariel. What can I do for\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Stand a little to the left."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Take a step to the left... You're off-center from the wall behind you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Step to the left*"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Hmm... That's much better."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So, Gabriel..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm Navigator..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I know. I just wanted to ask if you know where Gabriel is."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You called me to come over here, but you're actually looking for someone else..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You could've just asked me via the terminal..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I forgot."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "I've assigned Gabriel on duty.",
+     "link": "1"
+    },
+    {
+     "text": "Gabriel hasn't joined yet.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sariel:",
+     "dialogue": "Hmm... Is that so...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You look disappointed... Is there something wrong?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "When will she be back?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If she isn't taking a sneaky nap outside, she should be back in around six hours."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "That's no way to boost employee morale..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I heard that, Sariel..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Forget it. Basically\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Do you have any cash on you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa... Where did that come from!? Wait a minute... What do you want, exactly?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Lend me some money. That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"That's it\"!? It sounds like you've already decided I'm giving it to you..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's urgent, really... I can't really say why, but I just need some money."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can see that... But you work so late every day, don't you? Surely, you must have saved up a lot of money by now..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's all gone."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Due to... uncontrolled demolition and \"unintentional injury\"."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How can you say something so outlandish, yet so calmly..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How much money do you need? I'll talk to Vice. It shouldn't be too\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ha... For a moment there, I thought you said over 20 million... Haha... Wait, how much!?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right, 23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, what have you gotten yourself into?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you kidding? Did someone put you up to this?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did Kleken send you over here?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Navigator, I'm honestly just asking for your help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then you'd better start explaining what you need such a huge sum of money for."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know, maybe if I sell Jona's head, I may just be able to get it for you."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I need it to buy a ticket."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Just one ticket... It's very important to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Erm... Is it a one-way ticket to \"The Land of Infinite Wealth and Freedom\"?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Where is that? I'd love to visit. If I go there, will I become rich... and free?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry... I forgot that you always take what people say at face value..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I'm talking about an airship ticket to Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An airship ticket? And that costs over 20 million?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right. It's the passenger airship that runs between Umbraton and Lumopolis every day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're saying each ticket costs more than 20 million? Who told you that?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Kleken."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I know he must have something to do with this...)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I calculated that if I carry on working in Umbraton, it'll take me... 3,000 years or so to make enough money."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Hmm... Or was it 30,000 years? I can't remember. Ah, and the number 3 is so unsightly... Let's change it to an 8..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, a certain saying springs to mind... Though, I'm not sure whether I should say it or not."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I don't know either... because I haven't heard it yet."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't you think the price is totally unrealistic? How would anyone be able to afford a ticket that expensive?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Oh!"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So that's how it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could it be that... she finally gets it?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "The other passengers must have worked really, really hard, right?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No... They must have worked for a really, really long time, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I keep forgetting that you're... somewhat challenged when it comes to common sense..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You look like you're mocking me. I'm quite familiar with that look."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-Sorry... But you're so different from most people I've met, Sariel."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Really? What do you mean?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Wait a minute. Move a little bit to the left first."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "??"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You just moved from the midpoint of the wall. It's okay now. You're symmetrical again."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So? What's the difference between me and the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, let me see if I can guess something first. Tell me if I'm right:"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You going to Lumopolis has something to do with Gabriel, doesn't it?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guessed correctly?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You... used your psychic abilities?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... It's just obvious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you tell me why you're looking for her? Maybe I can help? I mean, in addition to the 20 million..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's about my grandfather."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Grandfather?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Yes. I'm going to ask Gabriel how he died."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... That's... I see..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Twelve years ago. No, was it ten years ago? Let's go with the average, eleven years ago."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "My grandfather, Amos, died in Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I was still young back then, and most of my memories of him are hazy, but I remember one thing very clearly."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "One day, my grandfather suddenly left to go on a long journey. He told me to stay at home, and said he'd be back soon."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I heard a name back then\u2014Gabriel. She was the reason my grandfather had to leave home and go to Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that would be the last time I'd see him."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that... \"Be a good girl, Sariel,\" would be his last words to me."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm sorry for reminding you...",
+     "link": "4"
+    },
+    {
+     "text": "I understand your pain.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, but Gabriel isn't part of my team yet. You're talking about the Angel of Lumopolis, right...?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "That's too bad."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not all bad. I mean... I have you by my side, right?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I mean, that's too bad for me..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I only came here because I heard you got a lot of Aurorians from Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's with the sudden attitude?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Forget it. Basically\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Do you have any cash on you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa... Where did that come from!? Wait a minute... What do you want, exactly?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Lend me some money. That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"That's it\"!? It sounds like you've already decided I'm giving it to you..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's urgent, really... I can't really say why, but I just need some money."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can see that... But you work so late every day, don't you? Surely, you must have saved up a lot of money by now..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's all gone."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Due to... uncontrolled demolition and \"unintentional injury\"."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How can you say something so outlandish, yet so calmly..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How much money do you need? I'll talk to Vice. It shouldn't be too\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ha... For a moment there, I thought you said over 20 million... Haha... Wait, how much!?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right, 23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, what have you gotten yourself into?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you kidding? Did someone put you up to this?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did Kleken send you over here?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Navigator, I'm honestly just asking for your help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then you'd better start explaining what you need such a huge sum of money for."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know, maybe if I sell Jona's head, I may just be able to get it for you."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I need it to buy a ticket."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Just one ticket... It's very important to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Erm... Is it a one-way ticket to \"The Land of Infinite Wealth and Freedom\"?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Where is that? I'd love to visit. If I go there, will I become rich... and free?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry... I forgot that you always take what people say at face value..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I'm talking about an airship ticket to Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An airship ticket? And that costs over 20 million?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right. It's the passenger airship that runs between Umbraton and Lumopolis every day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're saying each ticket costs more than 20 million? Who told you that?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Kleken."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I know he must have something to do with this...)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I calculated that if I carry on working in Umbraton, it'll take me... 3,000 years or so to make enough money."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Hmm... Or was it 30,000 years? I can't remember. Ah, and the number 3 is so unsightly... Let's change it to an 8..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, a certain saying springs to mind... Though, I'm not sure whether I should say it or not."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I don't know either... because I haven't heard it yet."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't you think the price is totally unrealistic? How would anyone be able to afford a ticket that expensive?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Oh!"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So that's how it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could it be that... she finally gets it?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "The other passengers must have worked really, really hard, right?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No... They must have worked for a really, really long time, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I keep forgetting that you're... somewhat challenged when it comes to common sense..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You look like you're mocking me. I'm quite familiar with that look."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-Sorry... But you're so different from most people I've met, Sariel."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Really? What do you mean?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Wait a minute. Move a little bit to the left first."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "??"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You just moved from the midpoint of the wall. It's okay now. You're symmetrical again."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So? What's the difference between me and the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, let me see if I can guess something first. Tell me if I'm right:"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You going to Lumopolis has something to do with Gabriel, doesn't it?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guessed correctly?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You... used your psychic abilities?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... It's just obvious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you tell me why you're looking for her? Maybe I can help? I mean, in addition to the 20 million..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's about my grandfather."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Grandfather?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Yes. I'm going to ask Gabriel how he died."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... That's... I see..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Twelve years ago. No, was it ten years ago? Let's go with the average, eleven years ago."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "My grandfather, Amos, died in Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I was still young back then, and most of my memories of him are hazy, but I remember one thing very clearly."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "One day, my grandfather suddenly left to go on a long journey. He told me to stay at home, and said he'd be back soon."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I heard a name back then\u2014Gabriel. She was the reason my grandfather had to leave home and go to Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that would be the last time I'd see him."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that... \"Be a good girl, Sariel,\" would be his last words to me."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm sorry for reminding you...",
+     "link": "4"
+    },
+    {
+     "text": "I understand your pain.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sariel:",
+     "dialogue": "Forget it. Basically\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Do you have any cash on you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa... Where did that come from!? Wait a minute... What do you want, exactly?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Lend me some money. That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"That's it\"!? It sounds like you've already decided I'm giving it to you..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's urgent, really... I can't really say why, but I just need some money."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can see that... But you work so late every day, don't you? Surely, you must have saved up a lot of money by now..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's all gone."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Due to... uncontrolled demolition and \"unintentional injury\"."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How can you say something so outlandish, yet so calmly..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How much money do you need? I'll talk to Vice. It shouldn't be too\u2014"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ha... For a moment there, I thought you said over 20 million... Haha... Wait, how much!?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right, 23,967,500 Nightium."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, what have you gotten yourself into?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you kidding? Did someone put you up to this?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did Kleken send you over here?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Navigator, I'm honestly just asking for your help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then you'd better start explaining what you need such a huge sum of money for."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know, maybe if I sell Jona's head, I may just be able to get it for you."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I need it to buy a ticket."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Just one ticket... It's very important to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Erm... Is it a one-way ticket to \"The Land of Infinite Wealth and Freedom\"?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Where is that? I'd love to visit. If I go there, will I become rich... and free?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry... I forgot that you always take what people say at face value..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I'm talking about an airship ticket to Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An airship ticket? And that costs over 20 million?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Right. It's the passenger airship that runs between Umbraton and Lumopolis every day."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're saying each ticket costs more than 20 million? Who told you that?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Kleken."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I know he must have something to do with this...)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I calculated that if I carry on working in Umbraton, it'll take me... 3,000 years or so to make enough money."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Hmm... Or was it 30,000 years? I can't remember. Ah, and the number 3 is so unsightly... Let's change it to an 8..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, a certain saying springs to mind... Though, I'm not sure whether I should say it or not."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I don't know either... because I haven't heard it yet."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't you think the price is totally unrealistic? How would anyone be able to afford a ticket that expensive?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Oh!"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So that's how it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could it be that... she finally gets it?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "The other passengers must have worked really, really hard, right?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "No... They must have worked for a really, really long time, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I keep forgetting that you're... somewhat challenged when it comes to common sense..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You look like you're mocking me. I'm quite familiar with that look."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-Sorry... But you're so different from most people I've met, Sariel."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Really? What do you mean?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Wait a minute. Move a little bit to the left first."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "??"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You just moved from the midpoint of the wall. It's okay now. You're symmetrical again."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "So? What's the difference between me and the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sariel, let me see if I can guess something first. Tell me if I'm right:"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You going to Lumopolis has something to do with Gabriel, doesn't it?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guessed correctly?)"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "You... used your psychic abilities?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... It's just obvious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you tell me why you're looking for her? Maybe I can help? I mean, in addition to the 20 million..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "It's about my grandfather."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Grandfather?"
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Yes. I'm going to ask Gabriel how he died."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... That's... I see..."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "Twelve years ago. No, was it ten years ago? Let's go with the average, eleven years ago."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "My grandfather, Amos, died in Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I was still young back then, and most of my memories of him are hazy, but I remember one thing very clearly."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "One day, my grandfather suddenly left to go on a long journey. He told me to stay at home, and said he'd be back soon."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I heard a name back then\u2014Gabriel. She was the reason my grandfather had to leave home and go to Lumopolis."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that would be the last time I'd see him."
+    },
+    {
+     "char": "Sariel:",
+     "dialogue": "I didn't know that... \"Be a good girl, Sariel,\" would be his last words to me."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm sorry for reminding you...",
+     "link": "4"
+    },
+    {
+     "text": "I understand your pain.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [],
+   "branch": []
+  },
+  {
+   "chat": [],
+   "branch": []
+  }
+ ]
+}

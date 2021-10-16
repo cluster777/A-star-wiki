@@ -1,1153 +1,1371 @@
 {
-      "name": "Irridon",
-      "faction": "Lumopolis",
-      "element_main": "Thunder",
-      "element_sub": "Water",
-      "rarity": "6",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Converts any 2 selected tiles to Yellow Prism tiles.",
-                  "Converts any 2 selected tiles to Yellow Prism tiles.",
-                  "Converts any 2 selected tiles to Yellow Prism tiles."
-            ]
-      },
-      "equip": {
-            "name": "Lucent Staff & Bestowed Blade",
-            "passive": "Heart of Thunder Field",
-            "description": [
-                  [
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%."
-                  ],
-                  [
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%."
-                  ],
-                  [
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
-                        "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: The selected tiles become enhanced tiles.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Crystal Shard",
-                        "Thunder Essence",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%."
-            },
-            {
-                  "material": [
-                        "Thunder Potion II",
-                        "Thunder Flare Silt",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%.",
-                  "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%."
-            },
-            {
-                  "material": [
-                        "Thunder Flare Tile",
-                        "Thunder Crystal",
-                        "Daybreak Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%.",
-                  "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 501,
-                        "def": 162,
-                        "hp": 1542
-                  },
-                  {
-                        "att": 509,
-                        "def": 165,
-                        "hp": 1565
-                  },
-                  {
-                        "att": 516,
-                        "def": 167,
-                        "hp": 1588
-                  },
-                  {
-                        "att": 524,
-                        "def": 170,
-                        "hp": 1611
-                  },
-                  {
-                        "att": 531,
-                        "def": 173,
-                        "hp": 1634
-                  },
-                  {
-                        "att": 539,
-                        "def": 176,
-                        "hp": 1657
-                  },
-                  {
-                        "att": 547,
-                        "def": 178,
-                        "hp": 1680
-                  },
-                  {
-                        "att": 554,
-                        "def": 181,
-                        "hp": 1703
-                  },
-                  {
-                        "att": 562,
-                        "def": 184,
-                        "hp": 1727
-                  },
-                  {
-                        "att": 569,
-                        "def": 187,
-                        "hp": 1750
-                  },
-                  {
-                        "att": 577,
-                        "def": 189,
-                        "hp": 1773
-                  },
-                  {
-                        "att": 585,
-                        "def": 192,
-                        "hp": 1796
-                  },
-                  {
-                        "att": 592,
-                        "def": 195,
-                        "hp": 1819
-                  },
-                  {
-                        "att": 600,
-                        "def": 198,
-                        "hp": 1842
-                  },
-                  {
-                        "att": 607,
-                        "def": 200,
-                        "hp": 1865
-                  },
-                  {
-                        "att": 615,
-                        "def": 203,
-                        "hp": 1888
-                  },
-                  {
-                        "att": 623,
-                        "def": 206,
-                        "hp": 1911
-                  },
-                  {
-                        "att": 630,
-                        "def": 209,
-                        "hp": 1934
-                  },
-                  {
-                        "att": 638,
-                        "def": 211,
-                        "hp": 1957
-                  },
-                  {
-                        "att": 645,
-                        "def": 214,
-                        "hp": 1980
-                  },
-                  {
-                        "att": 653,
-                        "def": 217,
-                        "hp": 2003
-                  },
-                  {
-                        "att": 661,
-                        "def": 219,
-                        "hp": 2026
-                  },
-                  {
-                        "att": 668,
-                        "def": 222,
-                        "hp": 2049
-                  },
-                  {
-                        "att": 676,
-                        "def": 225,
-                        "hp": 2072
-                  },
-                  {
-                        "att": 683,
-                        "def": 228,
-                        "hp": 2095
-                  },
-                  {
-                        "att": 691,
-                        "def": 230,
-                        "hp": 2118
-                  },
-                  {
-                        "att": 699,
-                        "def": 233,
-                        "hp": 2141
-                  },
-                  {
-                        "att": 706,
-                        "def": 236,
-                        "hp": 2164
-                  },
-                  {
-                        "att": 714,
-                        "def": 239,
-                        "hp": 2187
-                  },
-                  {
-                        "att": 721,
-                        "def": 241,
-                        "hp": 2210
-                  },
-                  {
-                        "att": 816,
-                        "def": 275,
-                        "hp": 2459
-                  },
-                  {
-                        "att": 825,
-                        "def": 278,
-                        "hp": 2488
-                  },
-                  {
-                        "att": 835,
-                        "def": 282,
-                        "hp": 2516
-                  },
-                  {
-                        "att": 844,
-                        "def": 285,
-                        "hp": 2545
-                  },
-                  {
-                        "att": 854,
-                        "def": 289,
-                        "hp": 2574
-                  },
-                  {
-                        "att": 863,
-                        "def": 292,
-                        "hp": 2603
-                  },
-                  {
-                        "att": 873,
-                        "def": 295,
-                        "hp": 2632
-                  },
-                  {
-                        "att": 883,
-                        "def": 299,
-                        "hp": 2660
-                  },
-                  {
-                        "att": 892,
-                        "def": 302,
-                        "hp": 2689
-                  },
-                  {
-                        "att": 902,
-                        "def": 306,
-                        "hp": 2718
-                  },
-                  {
-                        "att": 911,
-                        "def": 309,
-                        "hp": 2747
-                  },
-                  {
-                        "att": 921,
-                        "def": 313,
-                        "hp": 2776
-                  },
-                  {
-                        "att": 930,
-                        "def": 316,
-                        "hp": 2804
-                  },
-                  {
-                        "att": 940,
-                        "def": 319,
-                        "hp": 2833
-                  },
-                  {
-                        "att": 949,
-                        "def": 323,
-                        "hp": 2862
-                  },
-                  {
-                        "att": 959,
-                        "def": 326,
-                        "hp": 2891
-                  },
-                  {
-                        "att": 968,
-                        "def": 330,
-                        "hp": 2919
-                  },
-                  {
-                        "att": 978,
-                        "def": 333,
-                        "hp": 2948
-                  },
-                  {
-                        "att": 987,
-                        "def": 337,
-                        "hp": 2977
-                  },
-                  {
-                        "att": 997,
-                        "def": 340,
-                        "hp": 3006
-                  },
-                  {
-                        "att": 1006,
-                        "def": 343,
-                        "hp": 3035
-                  },
-                  {
-                        "att": 1016,
-                        "def": 347,
-                        "hp": 3063
-                  },
-                  {
-                        "att": 1025,
-                        "def": 350,
-                        "hp": 3092
-                  },
-                  {
-                        "att": 1035,
-                        "def": 354,
-                        "hp": 3121
-                  },
-                  {
-                        "att": 1044,
-                        "def": 357,
-                        "hp": 3150
-                  },
-                  {
-                        "att": 1054,
-                        "def": 361,
-                        "hp": 3179
-                  },
-                  {
-                        "att": 1063,
-                        "def": 364,
-                        "hp": 3207
-                  },
-                  {
-                        "att": 1073,
-                        "def": 367,
-                        "hp": 3236
-                  },
-                  {
-                        "att": 1082,
-                        "def": 371,
-                        "hp": 3265
-                  },
-                  {
-                        "att": 1092,
-                        "def": 374,
-                        "hp": 3294
-                  },
-                  {
-                        "att": 1101,
-                        "def": 378,
-                        "hp": 3322
-                  },
-                  {
-                        "att": 1111,
-                        "def": 381,
-                        "hp": 3351
-                  },
-                  {
-                        "att": 1120,
-                        "def": 385,
-                        "hp": 3380
-                  },
-                  {
-                        "att": 1130,
-                        "def": 388,
-                        "hp": 3409
-                  },
-                  {
-                        "att": 1139,
-                        "def": 391,
-                        "hp": 3438
-                  },
-                  {
-                        "att": 1149,
-                        "def": 395,
-                        "hp": 3466
-                  },
-                  {
-                        "att": 1158,
-                        "def": 398,
-                        "hp": 3495
-                  },
-                  {
-                        "att": 1168,
-                        "def": 402,
-                        "hp": 3524
-                  },
-                  {
-                        "att": 1177,
-                        "def": 405,
-                        "hp": 3553
-                  },
-                  {
-                        "att": 1187,
-                        "def": 409,
-                        "hp": 3582
-                  },
-                  {
-                        "att": 1329,
-                        "def": 461,
-                        "hp": 3943
-                  },
-                  {
-                        "att": 1336,
-                        "def": 464,
-                        "hp": 3965
-                  },
-                  {
-                        "att": 1343,
-                        "def": 466,
-                        "hp": 3986
-                  },
-                  {
-                        "att": 1350,
-                        "def": 469,
-                        "hp": 4008
-                  },
-                  {
-                        "att": 1357,
-                        "def": 471,
-                        "hp": 4030
-                  },
-                  {
-                        "att": 1364,
-                        "def": 474,
-                        "hp": 4051
-                  },
-                  {
-                        "att": 1371,
-                        "def": 476,
-                        "hp": 4073
-                  },
-                  {
-                        "att": 1379,
-                        "def": 479,
-                        "hp": 4094
-                  },
-                  {
-                        "att": 1386,
-                        "def": 482,
-                        "hp": 4116
-                  },
-                  {
-                        "att": 1393,
-                        "def": 484,
-                        "hp": 4137
-                  },
-                  {
-                        "att": 1400,
-                        "def": 487,
-                        "hp": 4159
-                  },
-                  {
-                        "att": 1407,
-                        "def": 489,
-                        "hp": 4181
-                  },
-                  {
-                        "att": 1414,
-                        "def": 492,
-                        "hp": 4202
-                  },
-                  {
-                        "att": 1421,
-                        "def": 494,
-                        "hp": 4224
-                  },
-                  {
-                        "att": 1429,
-                        "def": 497,
-                        "hp": 4245
-                  },
-                  {
-                        "att": 1436,
-                        "def": 500,
-                        "hp": 4267
-                  },
-                  {
-                        "att": 1443,
-                        "def": 502,
-                        "hp": 4289
-                  },
-                  {
-                        "att": 1450,
-                        "def": 505,
-                        "hp": 4310
-                  },
-                  {
-                        "att": 1457,
-                        "def": 507,
-                        "hp": 4332
-                  },
-                  {
-                        "att": 1464,
-                        "def": 510,
-                        "hp": 4353
-                  },
-                  {
-                        "att": 1471,
-                        "def": 512,
-                        "hp": 4375
-                  },
-                  {
-                        "att": 1478,
-                        "def": 515,
-                        "hp": 4397
-                  },
-                  {
-                        "att": 1486,
-                        "def": 518,
-                        "hp": 4418
-                  },
-                  {
-                        "att": 1493,
-                        "def": 520,
-                        "hp": 4440
-                  },
-                  {
-                        "att": 1500,
-                        "def": 523,
-                        "hp": 4461
-                  },
-                  {
-                        "att": 1507,
-                        "def": 525,
-                        "hp": 4483
-                  },
-                  {
-                        "att": 1514,
-                        "def": 528,
-                        "hp": 4504
-                  },
-                  {
-                        "att": 1521,
-                        "def": 530,
-                        "hp": 4526
-                  },
-                  {
-                        "att": 1528,
-                        "def": 533,
-                        "hp": 4548
-                  },
-                  {
-                        "att": 1535,
-                        "def": 536,
-                        "hp": 4569
-                  },
-                  {
-                        "att": 1543,
-                        "def": 538,
-                        "hp": 4591
-                  },
-                  {
-                        "att": 1550,
-                        "def": 541,
-                        "hp": 4612
-                  },
-                  {
-                        "att": 1557,
-                        "def": 543,
-                        "hp": 4634
-                  },
-                  {
-                        "att": 1564,
-                        "def": 546,
-                        "hp": 4656
-                  },
-                  {
-                        "att": 1571,
-                        "def": 548,
-                        "hp": 4677
-                  },
-                  {
-                        "att": 1578,
-                        "def": 551,
-                        "hp": 4699
-                  },
-                  {
-                        "att": 1585,
-                        "def": 554,
-                        "hp": 4720
-                  },
-                  {
-                        "att": 1592,
-                        "def": 556,
-                        "hp": 4742
-                  },
-                  {
-                        "att": 1600,
-                        "def": 559,
-                        "hp": 4764
-                  },
-                  {
-                        "att": 1607,
-                        "def": 561,
-                        "hp": 4785
-                  },
-                  {
-                        "att": 1614,
-                        "def": 564,
-                        "hp": 4807
-                  },
-                  {
-                        "att": 1621,
-                        "def": 566,
-                        "hp": 4828
-                  },
-                  {
-                        "att": 1628,
-                        "def": 569,
-                        "hp": 4850
-                  },
-                  {
-                        "att": 1635,
-                        "def": 572,
-                        "hp": 4872
-                  },
-                  {
-                        "att": 1642,
-                        "def": 574,
-                        "hp": 4893
-                  },
-                  {
-                        "att": 1649,
-                        "def": 577,
-                        "hp": 4915
-                  },
-                  {
-                        "att": 1657,
-                        "def": 579,
-                        "hp": 4936
-                  },
-                  {
-                        "att": 1664,
-                        "def": 582,
-                        "hp": 4958
-                  },
-                  {
-                        "att": 1671,
-                        "def": 584,
-                        "hp": 4979
-                  },
-                  {
-                        "att": 1678,
-                        "def": 587,
-                        "hp": 5001
-                  },
-                  {
-                        "att": 1883,
-                        "def": 654,
-                        "hp": 5525
-                  },
-                  {
-                        "att": 1887,
-                        "def": 655,
-                        "hp": 5540
-                  },
-                  {
-                        "att": 1892,
-                        "def": 657,
-                        "hp": 5554
-                  },
-                  {
-                        "att": 1897,
-                        "def": 659,
-                        "hp": 5569
-                  },
-                  {
-                        "att": 1902,
-                        "def": 661,
-                        "hp": 5583
-                  },
-                  {
-                        "att": 1906,
-                        "def": 662,
-                        "hp": 5597
-                  },
-                  {
-                        "att": 1911,
-                        "def": 664,
-                        "hp": 5612
-                  },
-                  {
-                        "att": 1916,
-                        "def": 666,
-                        "hp": 5626
-                  },
-                  {
-                        "att": 1921,
-                        "def": 667,
-                        "hp": 5641
-                  },
-                  {
-                        "att": 1925,
-                        "def": 669,
-                        "hp": 5655
-                  },
-                  {
-                        "att": 1930,
-                        "def": 671,
-                        "hp": 5669
-                  },
-                  {
-                        "att": 1935,
-                        "def": 673,
-                        "hp": 5684
-                  },
-                  {
-                        "att": 1940,
-                        "def": 674,
-                        "hp": 5698
-                  },
-                  {
-                        "att": 1944,
-                        "def": 676,
-                        "hp": 5713
-                  },
-                  {
-                        "att": 1949,
-                        "def": 678,
-                        "hp": 5727
-                  },
-                  {
-                        "att": 1954,
-                        "def": 679,
-                        "hp": 5741
-                  },
-                  {
-                        "att": 1959,
-                        "def": 681,
-                        "hp": 5756
-                  },
-                  {
-                        "att": 1964,
-                        "def": 683,
-                        "hp": 5770
-                  },
-                  {
-                        "att": 1968,
-                        "def": 685,
-                        "hp": 5785
-                  },
-                  {
-                        "att": 1973,
-                        "def": 686,
-                        "hp": 5799
-                  },
-                  {
-                        "att": 1978,
-                        "def": 688,
-                        "hp": 5813
-                  },
-                  {
-                        "att": 1983,
-                        "def": 690,
-                        "hp": 5828
-                  },
-                  {
-                        "att": 1987,
-                        "def": 691,
-                        "hp": 5842
-                  },
-                  {
-                        "att": 1992,
-                        "def": 693,
-                        "hp": 5856
-                  },
-                  {
-                        "att": 1997,
-                        "def": 695,
-                        "hp": 5871
-                  },
-                  {
-                        "att": 2002,
-                        "def": 697,
-                        "hp": 5885
-                  },
-                  {
-                        "att": 2006,
-                        "def": 698,
-                        "hp": 5900
-                  },
-                  {
-                        "att": 2011,
-                        "def": 700,
-                        "hp": 5914
-                  },
-                  {
-                        "att": 2016,
-                        "def": 702,
-                        "hp": 5928
-                  },
-                  {
-                        "att": 2021,
-                        "def": 703,
-                        "hp": 5943
-                  },
-                  {
-                        "att": 2025,
-                        "def": 705,
-                        "hp": 5957
-                  },
-                  {
-                        "att": 2030,
-                        "def": 707,
-                        "hp": 5972
-                  },
-                  {
-                        "att": 2035,
-                        "def": 709,
-                        "hp": 5986
-                  },
-                  {
-                        "att": 2040,
-                        "def": 710,
-                        "hp": 6000
-                  },
-                  {
-                        "att": 2044,
-                        "def": 712,
-                        "hp": 6015
-                  },
-                  {
-                        "att": 2049,
-                        "def": 714,
-                        "hp": 6029
-                  },
-                  {
-                        "att": 2054,
-                        "def": 715,
-                        "hp": 6044
-                  },
-                  {
-                        "att": 2059,
-                        "def": 717,
-                        "hp": 6058
-                  },
-                  {
-                        "att": 2063,
-                        "def": 719,
-                        "hp": 6072
-                  },
-                  {
-                        "att": 2068,
-                        "def": 721,
-                        "hp": 6087
-                  },
-                  {
-                        "att": 2073,
-                        "def": 722,
-                        "hp": 6101
-                  },
-                  {
-                        "att": 2078,
-                        "def": 724,
-                        "hp": 6116
-                  },
-                  {
-                        "att": 2082,
-                        "def": 726,
-                        "hp": 6130
-                  },
-                  {
-                        "att": 2087,
-                        "def": 727,
-                        "hp": 6144
-                  },
-                  {
-                        "att": 2092,
-                        "def": 729,
-                        "hp": 6159
-                  },
-                  {
-                        "att": 2097,
-                        "def": 731,
-                        "hp": 6173
-                  },
-                  {
-                        "att": 2101,
-                        "def": 733,
-                        "hp": 6188
-                  },
-                  {
-                        "att": 2106,
-                        "def": 734,
-                        "hp": 6202
-                  },
-                  {
-                        "att": 2111,
-                        "def": 736,
-                        "hp": 6216
-                  },
-                  {
-                        "att": 2116,
-                        "def": 738,
-                        "hp": 6231
-                  },
-                  {
-                        "att": 2120,
-                        "def": 739,
-                        "hp": 6245
-                  },
-                  {
-                        "att": 2125,
-                        "def": 741,
-                        "hp": 6259
-                  },
-                  {
-                        "att": 2130,
-                        "def": 743,
-                        "hp": 6274
-                  },
-                  {
-                        "att": 2135,
-                        "def": 745,
-                        "hp": 6288
-                  },
-                  {
-                        "att": 2139,
-                        "def": 746,
-                        "hp": 6303
-                  },
-                  {
-                        "att": 2144,
-                        "def": 748,
-                        "hp": 6317
-                  },
-                  {
-                        "att": 2149,
-                        "def": 750,
-                        "hp": 6331
-                  },
-                  {
-                        "att": 2154,
-                        "def": 751,
-                        "hp": 6346
-                  },
-                  {
-                        "att": 2158,
-                        "def": 753,
-                        "hp": 6360
-                  },
-                  {
-                        "att": 2163,
-                        "def": 755,
-                        "hp": 6375
-                  },
-                  {
-                        "att": 2168,
-                        "def": 757,
-                        "hp": 6389
-                  },
-                  {
-                        "att": 2173,
-                        "def": 758,
-                        "hp": 6403
-                  },
-                  {
-                        "att": 2177,
-                        "def": 760,
-                        "hp": 6418
-                  },
-                  {
-                        "att": 2182,
-                        "def": 762,
-                        "hp": 6432
-                  },
-                  {
-                        "att": 2187,
-                        "def": 763,
-                        "hp": 6447
-                  },
-                  {
-                        "att": 2192,
-                        "def": 765,
-                        "hp": 6461
-                  },
-                  {
-                        "att": 2196,
-                        "def": 767,
-                        "hp": 6475
-                  },
-                  {
-                        "att": 2201,
-                        "def": 769,
-                        "hp": 6490
-                  },
-                  {
-                        "att": 2206,
-                        "def": 770,
-                        "hp": 6504
-                  },
-                  {
-                        "att": 2211,
-                        "def": 772,
-                        "hp": 6519
-                  },
-                  {
-                        "att": 2215,
-                        "def": 774,
-                        "hp": 6533
-                  },
-                  {
-                        "att": 2220,
-                        "def": 775,
-                        "hp": 6547
-                  },
-                  {
-                        "att": 2225,
-                        "def": 777,
-                        "hp": 6562
-                  },
-                  {
-                        "att": 2230,
-                        "def": 779,
-                        "hp": 6576
-                  },
-                  {
-                        "att": 2234,
-                        "def": 781,
-                        "hp": 6591
-                  },
-                  {
-                        "att": 2239,
-                        "def": 782,
-                        "hp": 6605
-                  },
-                  {
-                        "att": 2244,
-                        "def": 784,
-                        "hp": 6619
-                  },
-                  {
-                        "att": 2249,
-                        "def": 786,
-                        "hp": 6634
-                  },
-                  {
-                        "att": 2253,
-                        "def": 787,
-                        "hp": 6648
-                  },
-                  {
-                        "att": 2258,
-                        "def": 789,
-                        "hp": 6662
-                  }
-            ]
-      }
+ "name": "Irridon",
+ "faction": "Lumopolis",
+ "element_main": "Thunder",
+ "element_sub": "Water",
+ "rarity": "6",
+ "class": "Converter",
+ "skill": {
+  "name": "Thunder Field",
+  "cd": "3 Turn",
+  "description": [
+   "Converts any 2 selected tiles to Yellow Prism tiles.",
+   "Converts any 2 selected tiles to Yellow Prism tiles.",
+   "Converts any 2 selected tiles to Yellow Prism tiles."
+  ]
+ },
+ "equip": {
+  "name": "Lucent Staff & Bestowed Blade",
+  "passive": "Heart of Thunder Field",
+  "description": [
+   [
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%."
+   ],
+   [
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%."
+   ],
+   [
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 2% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 3% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 4% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile.",
+    "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile."
+   ]
+  ],
+  "introduction": "This is the collective name for the \"Staff of Judgment\" and \"Sword of Borrowing\" wielded by Irridon. The Staff of Judgment represents Irridon's lineage, while the Sword of Borrowing represents her heart's true desire."
+ },
+ "chain": {
+  "name": "Gold Marsh Sword Rain",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: The selected tiles become enhanced tiles.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Crystal Shard",
+    "Thunder Essence",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%."
+  },
+  {
+   "material": [
+    "Thunder Potion II",
+    "Thunder Flare Silt",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5%.",
+   "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%."
+  },
+  {
+   "material": [
+    "Thunder Flare Tile",
+    "Thunder Crystal",
+    "Daybreak Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%.",
+   "after": "Grants 1 Gold Marsh Mark when passing through a Prism tile. Each stack of Gold Marsh Mark increases Chain Combo damage by 5% and Normal Attack damage by 3%. When triggering Aurora Time, converts the starting tile to a Prism tile."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 501,
+    "def": 162,
+    "hp": 1542
+   },
+   {
+    "att": 509,
+    "def": 165,
+    "hp": 1565
+   },
+   {
+    "att": 516,
+    "def": 167,
+    "hp": 1588
+   },
+   {
+    "att": 524,
+    "def": 170,
+    "hp": 1611
+   },
+   {
+    "att": 531,
+    "def": 173,
+    "hp": 1634
+   },
+   {
+    "att": 539,
+    "def": 176,
+    "hp": 1657
+   },
+   {
+    "att": 547,
+    "def": 178,
+    "hp": 1680
+   },
+   {
+    "att": 554,
+    "def": 181,
+    "hp": 1703
+   },
+   {
+    "att": 562,
+    "def": 184,
+    "hp": 1727
+   },
+   {
+    "att": 569,
+    "def": 187,
+    "hp": 1750
+   },
+   {
+    "att": 577,
+    "def": 189,
+    "hp": 1773
+   },
+   {
+    "att": 585,
+    "def": 192,
+    "hp": 1796
+   },
+   {
+    "att": 592,
+    "def": 195,
+    "hp": 1819
+   },
+   {
+    "att": 600,
+    "def": 198,
+    "hp": 1842
+   },
+   {
+    "att": 607,
+    "def": 200,
+    "hp": 1865
+   },
+   {
+    "att": 615,
+    "def": 203,
+    "hp": 1888
+   },
+   {
+    "att": 623,
+    "def": 206,
+    "hp": 1911
+   },
+   {
+    "att": 630,
+    "def": 209,
+    "hp": 1934
+   },
+   {
+    "att": 638,
+    "def": 211,
+    "hp": 1957
+   },
+   {
+    "att": 645,
+    "def": 214,
+    "hp": 1980
+   },
+   {
+    "att": 653,
+    "def": 217,
+    "hp": 2003
+   },
+   {
+    "att": 661,
+    "def": 219,
+    "hp": 2026
+   },
+   {
+    "att": 668,
+    "def": 222,
+    "hp": 2049
+   },
+   {
+    "att": 676,
+    "def": 225,
+    "hp": 2072
+   },
+   {
+    "att": 683,
+    "def": 228,
+    "hp": 2095
+   },
+   {
+    "att": 691,
+    "def": 230,
+    "hp": 2118
+   },
+   {
+    "att": 699,
+    "def": 233,
+    "hp": 2141
+   },
+   {
+    "att": 706,
+    "def": 236,
+    "hp": 2164
+   },
+   {
+    "att": 714,
+    "def": 239,
+    "hp": 2187
+   },
+   {
+    "att": 721,
+    "def": 241,
+    "hp": 2210
+   },
+   {
+    "att": 816,
+    "def": 275,
+    "hp": 2459
+   },
+   {
+    "att": 825,
+    "def": 278,
+    "hp": 2488
+   },
+   {
+    "att": 835,
+    "def": 282,
+    "hp": 2516
+   },
+   {
+    "att": 844,
+    "def": 285,
+    "hp": 2545
+   },
+   {
+    "att": 854,
+    "def": 289,
+    "hp": 2574
+   },
+   {
+    "att": 863,
+    "def": 292,
+    "hp": 2603
+   },
+   {
+    "att": 873,
+    "def": 295,
+    "hp": 2632
+   },
+   {
+    "att": 883,
+    "def": 299,
+    "hp": 2660
+   },
+   {
+    "att": 892,
+    "def": 302,
+    "hp": 2689
+   },
+   {
+    "att": 902,
+    "def": 306,
+    "hp": 2718
+   },
+   {
+    "att": 911,
+    "def": 309,
+    "hp": 2747
+   },
+   {
+    "att": 921,
+    "def": 313,
+    "hp": 2776
+   },
+   {
+    "att": 930,
+    "def": 316,
+    "hp": 2804
+   },
+   {
+    "att": 940,
+    "def": 319,
+    "hp": 2833
+   },
+   {
+    "att": 949,
+    "def": 323,
+    "hp": 2862
+   },
+   {
+    "att": 959,
+    "def": 326,
+    "hp": 2891
+   },
+   {
+    "att": 968,
+    "def": 330,
+    "hp": 2919
+   },
+   {
+    "att": 978,
+    "def": 333,
+    "hp": 2948
+   },
+   {
+    "att": 987,
+    "def": 337,
+    "hp": 2977
+   },
+   {
+    "att": 997,
+    "def": 340,
+    "hp": 3006
+   },
+   {
+    "att": 1006,
+    "def": 343,
+    "hp": 3035
+   },
+   {
+    "att": 1016,
+    "def": 347,
+    "hp": 3063
+   },
+   {
+    "att": 1025,
+    "def": 350,
+    "hp": 3092
+   },
+   {
+    "att": 1035,
+    "def": 354,
+    "hp": 3121
+   },
+   {
+    "att": 1044,
+    "def": 357,
+    "hp": 3150
+   },
+   {
+    "att": 1054,
+    "def": 361,
+    "hp": 3179
+   },
+   {
+    "att": 1063,
+    "def": 364,
+    "hp": 3207
+   },
+   {
+    "att": 1073,
+    "def": 367,
+    "hp": 3236
+   },
+   {
+    "att": 1082,
+    "def": 371,
+    "hp": 3265
+   },
+   {
+    "att": 1092,
+    "def": 374,
+    "hp": 3294
+   },
+   {
+    "att": 1101,
+    "def": 378,
+    "hp": 3322
+   },
+   {
+    "att": 1111,
+    "def": 381,
+    "hp": 3351
+   },
+   {
+    "att": 1120,
+    "def": 385,
+    "hp": 3380
+   },
+   {
+    "att": 1130,
+    "def": 388,
+    "hp": 3409
+   },
+   {
+    "att": 1139,
+    "def": 391,
+    "hp": 3438
+   },
+   {
+    "att": 1149,
+    "def": 395,
+    "hp": 3466
+   },
+   {
+    "att": 1158,
+    "def": 398,
+    "hp": 3495
+   },
+   {
+    "att": 1168,
+    "def": 402,
+    "hp": 3524
+   },
+   {
+    "att": 1177,
+    "def": 405,
+    "hp": 3553
+   },
+   {
+    "att": 1187,
+    "def": 409,
+    "hp": 3582
+   },
+   {
+    "att": 1329,
+    "def": 461,
+    "hp": 3943
+   },
+   {
+    "att": 1336,
+    "def": 464,
+    "hp": 3965
+   },
+   {
+    "att": 1343,
+    "def": 466,
+    "hp": 3986
+   },
+   {
+    "att": 1350,
+    "def": 469,
+    "hp": 4008
+   },
+   {
+    "att": 1357,
+    "def": 471,
+    "hp": 4030
+   },
+   {
+    "att": 1364,
+    "def": 474,
+    "hp": 4051
+   },
+   {
+    "att": 1371,
+    "def": 476,
+    "hp": 4073
+   },
+   {
+    "att": 1379,
+    "def": 479,
+    "hp": 4094
+   },
+   {
+    "att": 1386,
+    "def": 482,
+    "hp": 4116
+   },
+   {
+    "att": 1393,
+    "def": 484,
+    "hp": 4137
+   },
+   {
+    "att": 1400,
+    "def": 487,
+    "hp": 4159
+   },
+   {
+    "att": 1407,
+    "def": 489,
+    "hp": 4181
+   },
+   {
+    "att": 1414,
+    "def": 492,
+    "hp": 4202
+   },
+   {
+    "att": 1421,
+    "def": 494,
+    "hp": 4224
+   },
+   {
+    "att": 1429,
+    "def": 497,
+    "hp": 4245
+   },
+   {
+    "att": 1436,
+    "def": 500,
+    "hp": 4267
+   },
+   {
+    "att": 1443,
+    "def": 502,
+    "hp": 4289
+   },
+   {
+    "att": 1450,
+    "def": 505,
+    "hp": 4310
+   },
+   {
+    "att": 1457,
+    "def": 507,
+    "hp": 4332
+   },
+   {
+    "att": 1464,
+    "def": 510,
+    "hp": 4353
+   },
+   {
+    "att": 1471,
+    "def": 512,
+    "hp": 4375
+   },
+   {
+    "att": 1478,
+    "def": 515,
+    "hp": 4397
+   },
+   {
+    "att": 1486,
+    "def": 518,
+    "hp": 4418
+   },
+   {
+    "att": 1493,
+    "def": 520,
+    "hp": 4440
+   },
+   {
+    "att": 1500,
+    "def": 523,
+    "hp": 4461
+   },
+   {
+    "att": 1507,
+    "def": 525,
+    "hp": 4483
+   },
+   {
+    "att": 1514,
+    "def": 528,
+    "hp": 4504
+   },
+   {
+    "att": 1521,
+    "def": 530,
+    "hp": 4526
+   },
+   {
+    "att": 1528,
+    "def": 533,
+    "hp": 4548
+   },
+   {
+    "att": 1535,
+    "def": 536,
+    "hp": 4569
+   },
+   {
+    "att": 1543,
+    "def": 538,
+    "hp": 4591
+   },
+   {
+    "att": 1550,
+    "def": 541,
+    "hp": 4612
+   },
+   {
+    "att": 1557,
+    "def": 543,
+    "hp": 4634
+   },
+   {
+    "att": 1564,
+    "def": 546,
+    "hp": 4656
+   },
+   {
+    "att": 1571,
+    "def": 548,
+    "hp": 4677
+   },
+   {
+    "att": 1578,
+    "def": 551,
+    "hp": 4699
+   },
+   {
+    "att": 1585,
+    "def": 554,
+    "hp": 4720
+   },
+   {
+    "att": 1592,
+    "def": 556,
+    "hp": 4742
+   },
+   {
+    "att": 1600,
+    "def": 559,
+    "hp": 4764
+   },
+   {
+    "att": 1607,
+    "def": 561,
+    "hp": 4785
+   },
+   {
+    "att": 1614,
+    "def": 564,
+    "hp": 4807
+   },
+   {
+    "att": 1621,
+    "def": 566,
+    "hp": 4828
+   },
+   {
+    "att": 1628,
+    "def": 569,
+    "hp": 4850
+   },
+   {
+    "att": 1635,
+    "def": 572,
+    "hp": 4872
+   },
+   {
+    "att": 1642,
+    "def": 574,
+    "hp": 4893
+   },
+   {
+    "att": 1649,
+    "def": 577,
+    "hp": 4915
+   },
+   {
+    "att": 1657,
+    "def": 579,
+    "hp": 4936
+   },
+   {
+    "att": 1664,
+    "def": 582,
+    "hp": 4958
+   },
+   {
+    "att": 1671,
+    "def": 584,
+    "hp": 4979
+   },
+   {
+    "att": 1678,
+    "def": 587,
+    "hp": 5001
+   },
+   {
+    "att": 1883,
+    "def": 654,
+    "hp": 5525
+   },
+   {
+    "att": 1887,
+    "def": 655,
+    "hp": 5540
+   },
+   {
+    "att": 1892,
+    "def": 657,
+    "hp": 5554
+   },
+   {
+    "att": 1897,
+    "def": 659,
+    "hp": 5569
+   },
+   {
+    "att": 1902,
+    "def": 661,
+    "hp": 5583
+   },
+   {
+    "att": 1906,
+    "def": 662,
+    "hp": 5597
+   },
+   {
+    "att": 1911,
+    "def": 664,
+    "hp": 5612
+   },
+   {
+    "att": 1916,
+    "def": 666,
+    "hp": 5626
+   },
+   {
+    "att": 1921,
+    "def": 667,
+    "hp": 5641
+   },
+   {
+    "att": 1925,
+    "def": 669,
+    "hp": 5655
+   },
+   {
+    "att": 1930,
+    "def": 671,
+    "hp": 5669
+   },
+   {
+    "att": 1935,
+    "def": 673,
+    "hp": 5684
+   },
+   {
+    "att": 1940,
+    "def": 674,
+    "hp": 5698
+   },
+   {
+    "att": 1944,
+    "def": 676,
+    "hp": 5713
+   },
+   {
+    "att": 1949,
+    "def": 678,
+    "hp": 5727
+   },
+   {
+    "att": 1954,
+    "def": 679,
+    "hp": 5741
+   },
+   {
+    "att": 1959,
+    "def": 681,
+    "hp": 5756
+   },
+   {
+    "att": 1964,
+    "def": 683,
+    "hp": 5770
+   },
+   {
+    "att": 1968,
+    "def": 685,
+    "hp": 5785
+   },
+   {
+    "att": 1973,
+    "def": 686,
+    "hp": 5799
+   },
+   {
+    "att": 1978,
+    "def": 688,
+    "hp": 5813
+   },
+   {
+    "att": 1983,
+    "def": 690,
+    "hp": 5828
+   },
+   {
+    "att": 1987,
+    "def": 691,
+    "hp": 5842
+   },
+   {
+    "att": 1992,
+    "def": 693,
+    "hp": 5856
+   },
+   {
+    "att": 1997,
+    "def": 695,
+    "hp": 5871
+   },
+   {
+    "att": 2002,
+    "def": 697,
+    "hp": 5885
+   },
+   {
+    "att": 2006,
+    "def": 698,
+    "hp": 5900
+   },
+   {
+    "att": 2011,
+    "def": 700,
+    "hp": 5914
+   },
+   {
+    "att": 2016,
+    "def": 702,
+    "hp": 5928
+   },
+   {
+    "att": 2021,
+    "def": 703,
+    "hp": 5943
+   },
+   {
+    "att": 2025,
+    "def": 705,
+    "hp": 5957
+   },
+   {
+    "att": 2030,
+    "def": 707,
+    "hp": 5972
+   },
+   {
+    "att": 2035,
+    "def": 709,
+    "hp": 5986
+   },
+   {
+    "att": 2040,
+    "def": 710,
+    "hp": 6000
+   },
+   {
+    "att": 2044,
+    "def": 712,
+    "hp": 6015
+   },
+   {
+    "att": 2049,
+    "def": 714,
+    "hp": 6029
+   },
+   {
+    "att": 2054,
+    "def": 715,
+    "hp": 6044
+   },
+   {
+    "att": 2059,
+    "def": 717,
+    "hp": 6058
+   },
+   {
+    "att": 2063,
+    "def": 719,
+    "hp": 6072
+   },
+   {
+    "att": 2068,
+    "def": 721,
+    "hp": 6087
+   },
+   {
+    "att": 2073,
+    "def": 722,
+    "hp": 6101
+   },
+   {
+    "att": 2078,
+    "def": 724,
+    "hp": 6116
+   },
+   {
+    "att": 2082,
+    "def": 726,
+    "hp": 6130
+   },
+   {
+    "att": 2087,
+    "def": 727,
+    "hp": 6144
+   },
+   {
+    "att": 2092,
+    "def": 729,
+    "hp": 6159
+   },
+   {
+    "att": 2097,
+    "def": 731,
+    "hp": 6173
+   },
+   {
+    "att": 2101,
+    "def": 733,
+    "hp": 6188
+   },
+   {
+    "att": 2106,
+    "def": 734,
+    "hp": 6202
+   },
+   {
+    "att": 2111,
+    "def": 736,
+    "hp": 6216
+   },
+   {
+    "att": 2116,
+    "def": 738,
+    "hp": 6231
+   },
+   {
+    "att": 2120,
+    "def": 739,
+    "hp": 6245
+   },
+   {
+    "att": 2125,
+    "def": 741,
+    "hp": 6259
+   },
+   {
+    "att": 2130,
+    "def": 743,
+    "hp": 6274
+   },
+   {
+    "att": 2135,
+    "def": 745,
+    "hp": 6288
+   },
+   {
+    "att": 2139,
+    "def": 746,
+    "hp": 6303
+   },
+   {
+    "att": 2144,
+    "def": 748,
+    "hp": 6317
+   },
+   {
+    "att": 2149,
+    "def": 750,
+    "hp": 6331
+   },
+   {
+    "att": 2154,
+    "def": 751,
+    "hp": 6346
+   },
+   {
+    "att": 2158,
+    "def": 753,
+    "hp": 6360
+   },
+   {
+    "att": 2163,
+    "def": 755,
+    "hp": 6375
+   },
+   {
+    "att": 2168,
+    "def": 757,
+    "hp": 6389
+   },
+   {
+    "att": 2173,
+    "def": 758,
+    "hp": 6403
+   },
+   {
+    "att": 2177,
+    "def": 760,
+    "hp": 6418
+   },
+   {
+    "att": 2182,
+    "def": 762,
+    "hp": 6432
+   },
+   {
+    "att": 2187,
+    "def": 763,
+    "hp": 6447
+   },
+   {
+    "att": 2192,
+    "def": 765,
+    "hp": 6461
+   },
+   {
+    "att": 2196,
+    "def": 767,
+    "hp": 6475
+   },
+   {
+    "att": 2201,
+    "def": 769,
+    "hp": 6490
+   },
+   {
+    "att": 2206,
+    "def": 770,
+    "hp": 6504
+   },
+   {
+    "att": 2211,
+    "def": 772,
+    "hp": 6519
+   },
+   {
+    "att": 2215,
+    "def": 774,
+    "hp": 6533
+   },
+   {
+    "att": 2220,
+    "def": 775,
+    "hp": 6547
+   },
+   {
+    "att": 2225,
+    "def": 777,
+    "hp": 6562
+   },
+   {
+    "att": 2230,
+    "def": 779,
+    "hp": 6576
+   },
+   {
+    "att": 2234,
+    "def": 781,
+    "hp": 6591
+   },
+   {
+    "att": 2239,
+    "def": 782,
+    "hp": 6605
+   },
+   {
+    "att": 2244,
+    "def": 784,
+    "hp": 6619
+   },
+   {
+    "att": 2249,
+    "def": 786,
+    "hp": 6634
+   },
+   {
+    "att": 2253,
+    "def": 787,
+    "hp": 6648
+   },
+   {
+    "att": 2258,
+    "def": 789,
+    "hp": 6662
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Irridon",
+     "Angel"
+    ],
+    "chat": [
+     {
+      "character": "Irridon:",
+      "text": "Did you read the textbook I gave you?"
+     },
+     {
+      "character": "Angel:",
+      "text": "I've just been studying up on trials and punishments for criminal acts."
+     },
+     {
+      "character": "Irridon:",
+      "text": "The relationship between injury and death is very important in a trial."
+     },
+     {
+      "character": "Angel:",
+      "text": "I know about all that."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Then let me test you. Suppose an Eclipsite seriously injures an Aurorian."
+     },
+     {
+      "character": "Angel:",
+      "text": "An Eclipsite injures an Aurorian..."
+     },
+     {
+      "character": "Irridon:",
+      "text": "The medical team comes to the rescue. They attempt to use a healing bullet, but use a missile by mistake."
+     },
+     {
+      "character": "Angel:",
+      "text": "The medical team... screwed up?"
+     },
+     {
+      "character": "Irridon:",
+      "text": "In the end, the Aurorian dies of heart failure. Now, how should the Eclipsite be judged?"
+     },
+     {
+      "character": "Angel:",
+      "text": "Although I can't really give a definitive answer immediately, I'd say the medical team is\u2014"
+     },
+     {
+      "character": "Angel:",
+      "text": "Lord Raphael..."
+     }
+    ]
+   },
+   {
+    "character": [
+     "Irridon",
+     "Beverly"
+    ],
+    "chat": [
+     {
+      "character": "Irridon:",
+      "text": "Hi Beverly, how are you lately?"
+     },
+     {
+      "character": "Irridon:",
+      "text": "I heard there's a new play at the theater. Have you seen it?"
+     },
+     {
+      "character": "Beverly:",
+      "text": "I appreciate your thought, Chief Judge."
+     },
+     {
+      "character": "Beverly:",
+      "text": "I haven't seen the play yet because of the recent workload."
+     },
+     {
+      "character": "Beverly:",
+      "text": "Wish I had the spare time for afternoon tea and a play."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Yes, I'd love to have a day like that, too."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Too bad I got a lot of cases on my desk..."
+     },
+     {
+      "character": "Irridon:",
+      "text": "So there's no chance."
+     },
+     {
+      "character": "Beverly:",
+      "text": "Maybe when neither of us is busy,"
+     },
+     {
+      "character": "Beverly:",
+      "text": "we could take a walk and enjoy the landscape of Lumopolis."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Yes, that would be wonderful."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Why don't we call it a plan?"
+     },
+     {
+      "character": "Beverly:",
+      "text": "Alright!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "The first thing I noticed about Irridon was her gentle, mindful aura! It was impossible to imagine the Chief Judge of Lumo Hall of Justice having such a kind glow to her. Before then, when I heard Her Honor was coming to the Colossus, I was worried she might be hard to get along...She's too petite, though, so her staff felt too long and heavy for her. Also, her leg seemed to have suffered a serious injury before. %s even asked her out of concern when she came inside the Colossus.After seeing her showing %s how she handled a sword, however, she could be a great addition...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Thank you for your concern, Navigator of the Colossus. You are a thoughtful person.I seem very gentle? I appreciate the compliment very much, but this temperament is perhaps not best suited for my position as the Chief Judge of the Hall of Justice. I have been strictly taught since childhood to exhibit rationality and impeccable etiquette. I did not like it, but I must say the lessons parted to me from that person made me who I am today... Even though this is not what I desired to do most.But don't worry, for as long as I am the Chief Judge, I will tend to every one of your requests seriously."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "That person\u2014I'm referring to my father\u2014was always very strict with me. Even when I was the head of my class at the Dawn Academy, he could still pick out issues, such as combat ability surpassing that of my peers, perfecting palace etiquette, choosing the \"right\" friends, and so on. It was a persistent part of my life that was chosen for me. Except once... Even though he scoffed and mocked it to this day, I'm still proud of the choice I made, which remains the only one I've made entirely of my volition. I've kept this sword with me even now, as both a weapon and a reminder. Are you curious about it? We can talk about it next time."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Ultimately, I accepted the staff from my mother and succeeded her as the Chief Judge, despite my internal conflict. She was adept at showing restraint, although my father took it as a sign of weakness. Ever since I could remember, my father was always criticizing her, from how she instructed me, how she conducted herself, to even the droplet on a cup that the servant neglected to wipe off. He blamed it all on her. It gnawed away at her. When her frail body decided to leave, she stroked my face and apologized in tears repeatedly... I was a child then and couldn't understand all the abuse and suffering she went through. Even with all the grief, she remained kind and tolerant of my father... Maybe that is where I got it from."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Did the stitches on my leg scare you? Don't worry, it's... fine now... I couldn't move at all from the fractured legs in the battle, and my father died to protect me. I still don't get it, even till today, why would he protect someone he always called \"useless\"? Isn't it better for the \"useless\" to die on a battlefield as she should? Even now, when the night falls and I close my eyes, I can still picture him lecturing me to work harder and be righteous. If we shall meet in the afterlife, he most certainly will berate me for \"being absolutely useless!\" For me, living is how I escape his verbal abuse... But I'm no longer sure whether it's my choice to live, or is living actually a burden he's saddled me with."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Order rises with the sun so that we can all survive after the sunset.",
+  "My status aside, I still wonder how we can determine whether the truth isn't incorporeal or a form of escape?",
+  "White Night up high.",
+  "It might be some sort of blessing to be hollow inside since the world is completely different once you have your own consciousness.",
+  "I admire Miss Uriah for her strength and independence, as well as her courage to send everything away.",
+  "Miss Carleen's calm demeanor gives her more options in life that are different from mine.",
+  "I chose the Sword of Borrowing to be my weapon. I like it very much.",
+  "I have always hated those with a selfish, arrogant, and conceited nature.",
+  "Although it is a relic of the past, it must have a brighter significance to you.",
+  "If time permits... Today, I'll tell a story about things that lie under the water.",
+  "Don't expect too much from me because I don't have many things to support myself. All I have are my flesh and blood, as well as my soul and memories.",
+  "I can still go on...",
+  "Tidy up. It's time to leave.",
+  "Dismember!",
+  "This is my judgment.",
+  "It's judgment time.",
+  "The new year has come. I wish you happiness.",
+  "Silence.",
+  "Wrap up a stone and polish it into a pearl.",
+  "Thunder and lightning shall flash in the darkness.",
+  "I wait for the morning stars.",
+  "Are you still there? C-can I rest here for a while? I don't think I'll last much longer. I'll just rest for a moment.",
+  "I accept the pressure.",
+  "Alchemy Stars.",
+  "To be responsible means that those in high positions should step forward to protect the people; they should be stricter to themselves and have power that matches their position.",
+  "I have my own path, so I won't become him. He has no enemies other than public enemies and has no family except for the law.",
+  "Am I being swayed by the voices of the dead? But every step I take now represents my will and is based on reality.",
+  "I will do my best to reflect on my actions and regret; I will continue to advance with a heart full of hope while I can still feel pain.",
+  "If you're asking me about the shadow floating under the golden water surface, I can tell you that it is something waiting for me to reveal weakness so that it can drag me into the water and devour me.",
+  "I will bury those who should be buried. I will forsake my desires so that I no longer need to escape. I will travel as far as eternity will let me, following the direction of the morning stars.",
+  "According to the trial law, you have the right to appeal provided you have sufficient grounds... Relax, I'm not saying that you've breached the trial law.",
+  "Go if you insist on putting yourself in danger. I won't stop you... but please let me come with you. It'll be a lot safer.",
+  "Every step you take now will contribute to your salvation. So keep going. Don't worry about what's up ahead because the sun will rise behind you.",
+  "I only perform obligations I recognize; I only need to decide whether I'll keep going.",
+  "This staff is still too long for me, but I'll use it until it breaks.",
+  "You should always have your home in your heart and keep an open mind... This was taught to me, and I agree with it.",
+  "You always appear somewhere close to me, which I find to be quite considerate.",
+  "Good morning. I foresaw the morning star in the sky above us earlier today.",
+  "The sunlight has dimmed? Let me light up this place... It is a joke from the Chief Judge, isn't it funny?",
+  "You look tired. Don't force yourself to work so hard when you're exhausted. Get some rest.",
+  "Nice to meet you. I am Irridon, the chief judge of Lumopolis. If you have a reasonable claim, let the spring and forest responding to wishes appear in a flash of silent thunder.",
+  "I accept this personally, but I'm still a little troubled.",
+  "No one will misunderstand given our relationship.",
+  "Thank you. I accept your kind intentions.",
+  "Thank you for your attentiveness and tenderness as always.",
+  "Shush, your defense has no grounds.",
+  "Let thunder and lightning become quiet and storms become peaceful.",
+  "Your time is up.",
+  "Let all my pains, troubles, sorrow, and lamentations remain hidden below the water where they will not hinder my actions even if they were to spread.",
+  "I locked myself up with these inescapable shackles. It is just like that golden swamp and forest, and those shadows I fear.",
+  "Because my legs had once been severed, to stand once again, I had to stitch them back on with threads of lightning. It's sufficient that I managed to survive.",
+  "W-wait! I can't walk that fast."
+ ],
+ "skins": [],
+ "description": "The Lumo Hall of Justice Chief Judge. She is both kind and gentle and upright and tough and has the spirit of self-dedication. A paranoid side of her exists in her heart, but she suppresses it.",
+ "realName": "Irridon",
+ "nickname": "Thunder of Gold Marsh",
+ "gender": "Female",
+ "height": "5'9''",
+ "birthday": "March 18",
+ "birthplace": "Lumopolis",
+ "style": "Threads of Lightning, Thunder of Gold Marsh"
 }

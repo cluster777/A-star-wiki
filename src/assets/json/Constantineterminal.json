@@ -1,0 +1,156 @@
+[
+ {
+  "start": [
+   {
+    "name": "Constantine:",
+    "content": "Hello, kid. I'm Constantine, a traveling Eclipsite hunter."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nice to meet you. I didn't know that's a career..."
+   },
+   {
+    "name": "Constantine:",
+    "content": "Eclipsite hunters are common, just not nomads like me."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "So you like to travel?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You must have a lot of interesting stories to tell."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "So you like to travel?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Constantine:",
+      "content": "To me, it means the joy of exploring the unknown and experiencing different stories."
+     },
+     {
+      "name": "Constantine:",
+      "content": "I've probably killed many Eclipsites that you've never even heard of in my travels."
+     },
+     {
+      "name": "Constantine:",
+      "content": "It's all in my journal. I'll tell you another day if you're interested."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I am interested in the tales, but not too sure about the killing Eclipsites part..."
+     },
+     {
+      "name": "Constantine:",
+      "content": "Don't worry, kid, I'll try to paint it not so bloody violent."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not so bloody violent?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "You must have a lot of interesting stories to tell."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Constantine:",
+      "content": "Yes. I've probably killed many Eclipsites that you've never even heard of in my travels."
+     },
+     {
+      "name": "Constantine:",
+      "content": "It's all in my journal. I'll tell you another day if you're interested."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I am interested in the tales, but not too sure about the killing Eclipsites part..."
+     },
+     {
+      "name": "Constantine:",
+      "content": "Don't worry, kid, I'll try to paint it not so bloody violent."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not so bloody violent?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Constantine:",
+    "content": "Good morning, child."
+   },
+   {
+    "name": "Constantine:",
+    "content": "Hiccup. Hiccup. Hiccup."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...What was that, Mr. Constantine?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is everything alright?"
+   },
+   {
+    "name": "Constantine:",
+    "content": "My apologies, child."
+   },
+   {
+    "name": "Constantine:",
+    "content": "After spending so many years hunting in the wilderness by myself, using this terminal... requires more focus than I thought."
+   },
+   {
+    "name": "Constantine:",
+    "content": "I am trying to use it to record my feelings and experiences."
+   },
+   {
+    "name": "Navigator:",
+    "content": "So just now, did you... have the hiccups?"
+   },
+   {
+    "name": "Constantine:",
+    "content": "Indeed. Breakfast was a bit too plentiful for me, but I didn't want anything to go to waste... So I ate them all."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I-I could always set you up with smaller portions, if you'd like?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Overeating all the time can't be good for you, right?"
+   },
+   {
+    "name": "Constantine:",
+    "content": "Your help would be much appreciated, child."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

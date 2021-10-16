@@ -1,0 +1,884 @@
+[
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "How's your training coming along these days?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's going well. I have it all planned out, with clear goals and everything."
+   },
+   {
+    "name": "Gram:",
+    "content": "Goals... I'm sure you know, but I used to work in logistics before becoming a manager later on."
+   },
+   {
+    "name": "Gram:",
+    "content": "To be honest, I can't tell which I liked more..."
+   },
+   {
+    "name": "Gram:",
+    "content": "But whether it was management or logistics, my goal was always to fight and win as much as possible!"
+   },
+   {
+    "name": "Gram:",
+    "content": "What are your goals, then? To get stronger?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Do you think you've reached your goals?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I have, I suppose..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Maybe... I still have to try a little harder..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I have, I suppose..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "You suppose? Where's your self-confidence?"
+     },
+     {
+      "name": "Gram:",
+      "content": "I'm glad to see you leading the of Aurorians."
+     },
+     {
+      "name": "Navigator:",
+      "content": "S-Stop it, you're embarrassing me..."
+     },
+     {
+      "name": "Gram:",
+      "content": "I'm just telling you the truth. No need to be embarrassed by it!"
+     },
+     {
+      "name": "Gram:",
+      "content": "You've earned it, after all. You're an outstanding young man!"
+     },
+     {
+      "name": "Gram:",
+      "content": "I'll keep paying close attention to your actions, but don't forget: pride comes before the fall."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Understood!"
+     },
+     {
+      "name": "Gram:",
+      "content": "Good! That's exactly what a master of logistics would say!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sure, but... I don't have anything to do with logistics..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Maybe... I still have to try a little harder..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "You're already trying very hard, from what I can tell."
+     },
+     {
+      "name": "Gram:",
+      "content": "I'm glad to see you leading the of Aurorians."
+     },
+     {
+      "name": "Navigator:",
+      "content": "S-Stop it, you're embarrassing me..."
+     },
+     {
+      "name": "Gram:",
+      "content": "I'm just telling you the truth. No need to be embarrassed by it!"
+     },
+     {
+      "name": "Gram:",
+      "content": "You've earned it, after all. You're an outstanding young man!"
+     },
+     {
+      "name": "Gram:",
+      "content": "I'll keep paying close attention to your actions, but don't forget: pride comes before the fall."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Understood!"
+     },
+     {
+      "name": "Gram:",
+      "content": "Good! That's exactly what a master of logistics would say!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sure, but... I don't have anything to do with logistics..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "War is cruel..."
+   },
+   {
+    "name": "Gram:",
+    "content": "I'm certain you've realized that much for yourself, right?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah..."
+   },
+   {
+    "name": "Gram:",
+    "content": "And at this level of decision-making, even a single mistake can be far more costly than you could ever imagine."
+   },
+   {
+    "name": "Gram:",
+    "content": "Ignoring those passionate emotions of youth is difficult. It was no different for me when I was young."
+   },
+   {
+    "name": "Gram:",
+    "content": "It wasn't until I paid a steep price that I came to understand this."
+   },
+   {
+    "name": "Gram:",
+    "content": "But listen to me prattle on about things like this. I'm sure you're losing interest in it now, right?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Not at all! I understand what you're talking about all too well."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'll take your words to heart, believe me..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Not at all! I understand what you're talking about all too well."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "You'd do well to do so. It may just help you grow as a person."
+     },
+     {
+      "name": "Gram:",
+      "content": "It seems my mind has gone back to the events of that time..."
+     },
+     {
+      "name": "Gram:",
+      "content": "But really, all I wanted to tell you is that I'm excited to see your growth."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll... I'll do my best!"
+     },
+     {
+      "name": "Gram:",
+      "content": "Hmm. We must always strive to grow, so let's do our best."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'll take your words to heart, believe me..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "You'd do well to do so. It may just help you grow as a person."
+     },
+     {
+      "name": "Gram:",
+      "content": "It seems my mind has gone back to the events of that time..."
+     },
+     {
+      "name": "Gram:",
+      "content": "But really, all I wanted to tell you is that I'm excited to see your growth."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll... I'll do my best!"
+     },
+     {
+      "name": "Gram:",
+      "content": "Hmm. We must always strive to grow, so let's do our best."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Let me ask you a question."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What is it?"
+   },
+   {
+    "name": "Gram:",
+    "content": "What is something that a veteran sees and hears but is not necessarily limited to his sight and hearing?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is it... Some sort of secret, military thing?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Exactly. Did you know that Illumina reprinted their Military Principles of Illumina twenty-six times?"
+   },
+   {
+    "name": "Gram:",
+    "content": "I happen to own all twenty-six versions of it."
+   },
+   {
+    "name": "Gram:",
+    "content": "Back then I was looking for something to start a fire, so I could cook, I looked long and hard at the books I had on hand..."
+   },
+   {
+    "name": "Gram:",
+    "content": "But instead of using these, I chose some other books for the fire."
+   },
+   {
+    "name": "Navigator:",
+    "content": "The way you were talking just now..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "For a second, I thought you really cherished your copies of Military Principles of Illumina."
+   },
+   {
+    "name": "Gram:",
+    "content": "That's beside the point. Just listen to what I'm about to say."
+   },
+   {
+    "name": "Gram:",
+    "content": "Even though the key points in these books are exactly the same, but the revision part is worth noting!"
+   },
+   {
+    "name": "Gram:",
+    "content": "In some newly-edited versions, some excerpts analyzed and reviewed those battles from across the ages. These details are worthy of further research."
+   },
+   {
+    "name": "Gram:",
+    "content": "Though my years in the military are far behind me, not once have I lost my passion for studying the arts of warfare."
+   },
+   {
+    "name": "Gram:",
+    "content": "But because of their significance, I feel that I must give them to you."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Gram, you mean... You're giving them all to me?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Of course, I am! It's been so long since I've met a kindred soul like you!"
+   },
+   {
+    "name": "Gram:",
+    "content": "I'm absolutely thrilled to start researching together!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Why don't we start with Standing Under the Scorching Sun, and the principles of standing at attention in the military? We can put it into practice, and advance our knowledge together!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Th... Thanks, Gram..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But I don't think we really need to put it into practice..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "I heard you haven't had much of an appetite recently?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Right. I didn't eat anything this morning..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "And I just drank a few sips of milk last night."
+   },
+   {
+    "name": "Gram:",
+    "content": "Hmm... And do you feel lethargic and unable to concentrate on your duties?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "How did you know?"
+   },
+   {
+    "name": "Gram:",
+    "content": "The same thing happened to me before. Fortunately for you, I happen to have the cure for your ailment."
+   },
+   {
+    "name": "Gram:",
+    "content": "Come and find me on the bridge."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Seeing as I'll be aboard your Colossus from now on, I think an introduction is in order."
+   },
+   {
+    "name": "Gram:",
+    "content": "I'm Gram, the transportation platform manager for Undercity #24."
+   },
+   {
+    "name": "Gram:",
+    "content": "I've heard much about you, but I never expected you to be so young! How remarkable!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Glad to have you on board, Mr. Gram!"
+   },
+   {
+    "name": "Gram:",
+    "content": "No need to be so polite! You can just call me Gram."
+   },
+   {
+    "name": "Gram:",
+    "content": "Aside from physical training and researching the arts of warfare, I also have a keen interest in culinary arts."
+   },
+   {
+    "name": "Gram:",
+    "content": "I'm aware that you're a superb commander, and I look forward to discussing combat tactics and other subjects with you."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I look forward to it, too!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Thank you for the gift."
+   },
+   {
+    "name": "Gram:",
+    "content": "My training has been paying off lately! I can clearly feel my power increasing!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No need to be polite, it's just a small gift. You've more than earned it by helping us in battle."
+   },
+   {
+    "name": "Gram:",
+    "content": "I know that Caelestites can use their abilities to empower other Aurorians..."
+   },
+   {
+    "name": "Gram:",
+    "content": "That I can sense my own power growing so substantially must be the result of our training together!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "This is... This is too much. I'm flattered."
+   },
+   {
+    "name": "Gram:",
+    "content": "Don't be embarrassed! You earned this!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thanks."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I ought to thank you for my recent improvement, as well."
+   },
+   {
+    "name": "Gram:",
+    "content": "Really? It seems like this old soldier is still good for something, after all!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Look! This is the true strength of our combined military power!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Together, we can do greater service to everyone!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Brother-in-arms."
+   },
+   {
+    "name": "Gram:",
+    "content": "A new beginning! Now let's get to work!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, hey Gram..."
+   },
+   {
+    "name": "Gram:",
+    "content": "Just woke up, eh?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Looks like you could learn a thing or two from me, after all!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Wake up earlier to study new recipes, and cook yourself a nutritious breakfast... Both are essential for maintaining good health."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I can be in charge of eating a nutritious breakfast..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hey! I'm up already, Gram!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Morning! Sleep well last night?"
+   },
+   {
+    "name": "Gram:",
+    "content": "I just finished my morning jog."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's quite a healthy lifestyle..."
+   },
+   {
+    "name": "Gram:",
+    "content": "Early in the morning, the ingredients are sparkling with dew, such freshness, making them more irresistible..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? You mean, you wake up early... just for food?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Not JUST for food."
+   },
+   {
+    "name": "Gram:",
+    "content": "I get exercise while I'm out looking for ingredients, too. Now that's killing two birds with one scone!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You might need to stop thinking of food. It's killing two birds with one stone..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Morning!"
+   },
+   {
+    "name": "Gram:",
+    "content": "...What, no response?"
+   },
+   {
+    "name": "Gram:",
+    "content": "Hum. Kids these days sure know how to sleep in..."
+   },
+   {
+    "name": "Gram:",
+    "content": "When you get to be my age, you'll learn the meaning of insomnia."
+   },
+   {
+    "name": "Gram:",
+    "content": "But I feel better when I stay in a clear mind..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "M... Morning!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Morning! Finally awake, eh?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ahaha..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You don't really have to add finally to that..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "As a once-proud military cook, I must tell you that it's lunchtime."
+   },
+   {
+    "name": "Gram:",
+    "content": "A military cook is responsible for providing his fellow soldiers with nutritious, energy-packed meals. It's not an easy job, let me tell you."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Thanks for the heads-up. I'm sure it wasn't easy."
+   },
+   {
+    "name": "Gram:",
+    "content": "Hmm, glad you understand."
+   },
+   {
+    "name": "Gram:",
+    "content": "Everyone thinks military cooks are only in charge of making food."
+   },
+   {
+    "name": "Gram:",
+    "content": "The truth is, their work has a massive impact on an army's morale."
+   },
+   {
+    "name": "Gram:",
+    "content": "I'll be sending my newest dish up to your room. I promise, the spice will get your blood pumping!"
+   },
+   {
+    "name": "Gram:",
+    "content": "It is guaranteed to feel energized and aggravated! A perfect pre-combat meal!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Th-That won't be necessary, thanks..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Speaking from a professional standpoint, lunchtime should take no longer than 30 minutes!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't think I can do it..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I've heard people say that eating lunch shouldn't take longer than half an hour..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But I eat pretty quickly."
+   },
+   {
+    "name": "Gram:",
+    "content": "A fast eater, huh? Sounds like me, when I was your age!"
+   },
+   {
+    "name": "Gram:",
+    "content": "But eating too quickly isn't good for your body, you know? The best practice is to chew slowly, eat lots of whole grains, and control your time spent eating."
+   },
+   {
+    "name": "Gram:",
+    "content": "Spending too much time eating your lunch makes it easier for you to feel tired in the afternoon."
+   },
+   {
+    "name": "Gram:",
+    "content": "I remember falling asleep right next to a boiler because of that... Thinking back, that could have been a huge disaster."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sounds like you were just sleepy from being full..."
+   },
+   {
+    "name": "Gram:",
+    "content": "Ah, so you have some understanding of this stuff, too!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "If you ask me, you look pretty energetic when you're giving commands."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hey, thanks! I think this is the first time you've ever complimented me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Assuming that was a compliment..."
+   },
+   {
+    "name": "Gram:",
+    "content": "It was, but don't let it get to your head. You still have lots of room for growth!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Here's advice from an old soldier."
+   },
+   {
+    "name": "Gram:",
+    "content": "Remember to do a bit of light exercise before bed, like push-ups."
+   },
+   {
+    "name": "Gram:",
+    "content": "Exercise is the best way to keep yourself in good health, you hear me? Exercise!"
+   },
+   {
+    "name": "Gram:",
+    "content": "Bear that in your mind, developing good habits in life!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Alright Gram, I get it!"
+   },
+   {
+    "name": "Gram:",
+    "content": "In that case, get a good night's rest!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "A good night's sleep is the best way to guarantee a great start to the next day."
+   },
+   {
+    "name": "Gram:",
+    "content": "But I heard you haven't been getting much rest lately?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Gram! I was just getting ready to call it a day, actually."
+   },
+   {
+    "name": "Gram:",
+    "content": "Good to hear! Your body needs rest after a hard day's work, so don't stay up later than necessary."
+   },
+   {
+    "name": "Gram:",
+    "content": "I know people want to release themselves from the stress..."
+   },
+   {
+    "name": "Gram:",
+    "content": "But don't even think that escaping from reality would do any good!"
+   },
+   {
+    "name": "Gram:",
+    "content": "By the way, I noticed there's a bar on the Colossus..."
+   },
+   {
+    "name": "Gram:",
+    "content": "But I'm sure you haven't developed any bad habits, right?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not at all, Gram. I'd never do that, I promise."
+   },
+   {
+    "name": "Gram:",
+    "content": "Fantastic! Now off to bed with you! Good night!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes, sir! Good night!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gram:",
+    "content": "Hey! Good show, young friend! Much better than I could've done!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Ah... I suppose it was quite something."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Ah... I suppose it was quite something."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "Now that we have people like you among our ranks... Perhaps it's time for me to consider entering the fray once more."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The Stone Force?"
+     },
+     {
+      "name": "Gram:",
+      "content": "Haha! If we reform the Stone Forces, we'll double our efficiency in fighting the Eclipsites. Are you interested?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-I'll think about it."
+     },
+     {
+      "name": "Gram:",
+      "content": "Very well. Now, let's just focus on the battle at hand for the time being!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "But..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gram:",
+      "content": "Don't be so modest!"
+     },
+     {
+      "name": "Gram:",
+      "content": "Now that we have people like you among our ranks... Perhaps it's time for me to consider entering the fray once more."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The Stone Force?"
+     },
+     {
+      "name": "Gram:",
+      "content": "Haha! If we reform the Stone Forces, we'll double our efficiency in fighting the Eclipsites. Are you interested?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-I'll think about it."
+     },
+     {
+      "name": "Gram:",
+      "content": "Very well. Now, let's just focus on the battle at hand for the time being!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

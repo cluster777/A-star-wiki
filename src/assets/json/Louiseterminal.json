@@ -1,0 +1,702 @@
+[
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "I heard you have trouble sleeping lately?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That...I guess I've been a little too tensed lately..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Hmm... Would you like me to tell you a new story I wrote recently? A bedtime story always helps with sleeping!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm already a grown up. Listening to fairy tales is a bit..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Even though it's a little strange, there's no harm in trying."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm already a grown up. Listening to fairy tales is a bit..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Fairy tales are not only for kids?"
+     },
+     {
+      "name": "Louise:",
+      "content": "Then I'll come to you now!"
+     },
+     {
+      "name": "Louise:",
+      "content": "You're at the lounge, right?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Even though it's a little strange, there's no harm in trying."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Just relax and leave everything to me!"
+     },
+     {
+      "name": "Louise:",
+      "content": "Then I'll come to you now!"
+     },
+     {
+      "name": "Louise:",
+      "content": "You're at the lounge, right?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Navigator! I'm currently working on a new story!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Do you want to hear it? Will you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, sure, go ahead."
+   },
+   {
+    "name": "Louise:",
+    "content": "Once upon a time, there was a large white dragon..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Whose back sat a young knight!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Is this a story about a knight?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why does it sound a little familiar?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Is this a story about a knight?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "You can guess. I'm sure you'll be able to get it right!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Carry on then. I'll keep listening."
+     },
+     {
+      "name": "Louise:",
+      "content": "White roses were on the left side of the young knight while yellow daisies were on the right."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why does it sound a little strange?"
+     },
+     {
+      "name": "Louise:",
+      "content": "All sorts of flowers were behind the young knight."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is this story heading towards a weird direction?"
+     },
+     {
+      "name": "Louise:",
+      "content": "Which flower will you choose?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "You're asking me questions now?"
+     }
+    ],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I don't know which one to pick."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Can't I choose them all?"
+     }
+    ]
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I don't know which one to pick."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "An unexpected dilemma has occurred, but I guess it's expected."
+     },
+     {
+      "name": "Louise:",
+      "content": "Even I would be troubled if I had so many flowers."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, that's the case if we're only talking about flowers!"
+     },
+     {
+      "name": "Louise:",
+      "content": "Of course! This is a story about flowers and nothing more!"
+     },
+     {
+      "name": "Louise:",
+      "content": "It looks like I'll need to make some improvements to this story. I'll show it to you again when I finish writing the next page!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Can't I choose them all?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Your answer surprises me! You're wiser than I thought!"
+     },
+     {
+      "name": "Louise:",
+      "content": "I see, if I had so many flowers, I would want them all as well, right?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, that's the case if we're only talking about flowers!"
+     },
+     {
+      "name": "Louise:",
+      "content": "Of course! This is a story about flowers and nothing more!"
+     },
+     {
+      "name": "Louise:",
+      "content": "It looks like I'll need to make some improvements to this story. I'll show it to you again when I finish writing the next page!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why does it sound a little familiar?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "It should of course sound familiar to you. This story is based on a certain person!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Carry on then. I'll keep listening."
+     },
+     {
+      "name": "Louise:",
+      "content": "White roses were on the left side of the young knight while yellow daisies were on the right."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why does it sound a little strange?"
+     },
+     {
+      "name": "Louise:",
+      "content": "All sorts of flowers were behind the young knight."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is this story heading towards a weird direction?"
+     },
+     {
+      "name": "Louise:",
+      "content": "Which flower will you choose?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "You're asking me questions now?"
+     }
+    ],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I don't know which one to pick."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Can't I choose them all?"
+     }
+    ]
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I don't know which one to pick."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "An unexpected dilemma has occurred, but I guess it's expected."
+     },
+     {
+      "name": "Louise:",
+      "content": "Even I would be troubled if I had so many flowers."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, that's the case if we're only talking about flowers!"
+     },
+     {
+      "name": "Louise:",
+      "content": "Of course! This is a story about flowers and nothing more!"
+     },
+     {
+      "name": "Louise:",
+      "content": "It looks like I'll need to make some improvements to this story. I'll show it to you again when I finish writing the next page!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Can't I choose them all?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Your answer surprises me! You're wiser than I thought!"
+     },
+     {
+      "name": "Louise:",
+      "content": "I see, if I had so many flowers, I would want them all as well, right?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, that's the case if we're only talking about flowers!"
+     },
+     {
+      "name": "Louise:",
+      "content": "Of course! This is a story about flowers and nothing more!"
+     },
+     {
+      "name": "Louise:",
+      "content": "It looks like I'll need to make some improvements to this story. I'll show it to you again when I finish writing the next page!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Hello, Navigator! My name is Louise!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hi there! The others have told me about you, Miss Louise; what stories do you have for us today?"
+   },
+   {
+    "name": "Louise:",
+    "content": "This time... My little brown friend didn't prepare anything this time! Sorry!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Buuuuut... I could make some cute little boxes for everyone!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "\"Cute little boxes\"... What are they for?"
+   },
+   {
+    "name": "Louise:",
+    "content": "For looking cute, obviously!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Nothing else besides that, although I'm sure those kids would love them all the same!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "K-Kids...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So they're just boxes, huh..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "K-Kids...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Even though you're not a little kid anymore, I'm sure you'd like one too, Navigator!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "So they're just boxes, huh..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Louise:",
+      "content": "Even so, I'm sure you'd like one, Navigator!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Y-Yeah, sure. Thanks again..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Ooooooh, Navigator! I brought you some breakfast!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? You mean..."
+   },
+   {
+    "name": "Louise:",
+    "content": "I left it in front of your door. Enjoy!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, okay. Thank you, Louise."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Ugh, I was up all night telling stories. I'm beat..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I'm a little tired, too..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Let's go for a walk, Navigator! That ought to wake us up!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, although sleeping a little longer is fine, too..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Morning! Morning! Morning!"
+   },
+   {
+    "name": "Louise:",
+    "content": "How are you feeling? I'm feeling amazing!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning... It's a rare sight to see you up so early."
+   },
+   {
+    "name": "Louise:",
+    "content": "That's because I just built a strawberry, cherry, and cotton candy house!"
+   },
+   {
+    "name": "Louise:",
+    "content": "I bet you can't even look at it without drooling!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Wanna try it? Your tongue might get stuck while eating it, but it's still delicious!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, I see. Thank you, Louise..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But if my tongue will get stuck, perhaps I'll pass..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Do I just have to eat more if I want to grow taller?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm... You'll need to eat more and get more sleep!"
+   },
+   {
+    "name": "Louise:",
+    "content": "But you're not very tall even though you sleep a lot..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh, what?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Wanna come to my party?!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure!"
+   },
+   {
+    "name": "Louise:",
+    "content": "You promised. I'll see you at 11pm then!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why so late..."
+   },
+   {
+    "name": "Louise:",
+    "content": "My sister said I'll meet companions I've never seen before if it's late at night. I want to play with them!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "... I'm not going anymore."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Her Majesty says you shouldn't eat too much candy at lunchtime..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Hmm... So I'll just give you some, okay? Do you like candy?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, I don't mind a little candy once in a while."
+   },
+   {
+    "name": "Louise:",
+    "content": "What do you wanna do when you finish your candy? Wanna play with me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sorry, Louise... I have to work this afternoon..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Oh... I guess you are the Navigator, after all. You're always busy, busy, busy!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Next time you have time to play, remember to call me!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure thing!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "You still there, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I'm still awake. What's up?"
+   },
+   {
+    "name": "Louise:",
+    "content": "C-Could you please tell me a story? Just a short one!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure. I could use a quick break, anyways."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Navigator, are you still up...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I must've napped too long earlier today. I don't feel sleepy at all."
+   },
+   {
+    "name": "Louise:",
+    "content": "Your body still needs rest, Navigator. Try to go to bed a little earlier."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure thing, Louise."
+   },
+   {
+    "name": "Louise:",
+    "content": "I'll be waking you up first thing in the morning, don't forget!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Louise:",
+    "content": "Well, I can't sleep..."
+   },
+   {
+    "name": "Louise:",
+    "content": "Navigator, do you have any little tips to help me get to sleep?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, in your case, Louise..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "How about counting all your favorite flavors of candy in your head?"
+   },
+   {
+    "name": "Louise:",
+    "content": "Yeah! That might just work!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Thanks, Navigator!"
+   },
+   {
+    "name": "Louise:",
+    "content": "Chocolate... strawberry... cotton candy... peppermint... hazelnut..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

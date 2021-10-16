@@ -1,1153 +1,1402 @@
 {
-      "name": "Chandra",
-      "faction": "Illumina Federation",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "1 Turn",
-            "description": [
-                  "Deals 150% damage to the enemy on 1 selected tile.",
-                  "Deals 150% damage to the enemy on 1 selected tile.",
-                  "Deals 150% damage to the enemy on 1 selected tile. Removes Active Skill cooldown if the target is defeated with the skill."
-            ]
-      },
-      "equip": {
-            "name": "Ring: Sekar's Limit",
-            "passive": "Gather Negative Emotions",
-            "description": [
-                  [
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 15%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 15%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%."
-                  ],
-                  [
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
-                  ],
-                  [
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
-                        "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Increases Active Skill damage by 30%.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Potion I",
-                        "Fire Flare Powder",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Crystal Shard",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%.",
-                  "after": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
-            },
-            {
-                  "material": [
-                        "Fire Crystal Cluster",
-                        "Fire Potion II",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 150% damage to the enemy on 1 selected tile.",
-                  "after": "Deals 150% damage to the enemy on 1 selected tile. Removes Active Skill cooldown if the target is defeated with the skill."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 571,
-                        "def": 203,
-                        "hp": 1620
-                  },
-                  {
-                        "att": 582,
-                        "def": 206,
-                        "hp": 1648
-                  },
-                  {
-                        "att": 593,
-                        "def": 209,
-                        "hp": 1677
-                  },
-                  {
-                        "att": 604,
-                        "def": 213,
-                        "hp": 1706
-                  },
-                  {
-                        "att": 615,
-                        "def": 216,
-                        "hp": 1735
-                  },
-                  {
-                        "att": 626,
-                        "def": 219,
-                        "hp": 1764
-                  },
-                  {
-                        "att": 637,
-                        "def": 223,
-                        "hp": 1793
-                  },
-                  {
-                        "att": 648,
-                        "def": 226,
-                        "hp": 1822
-                  },
-                  {
-                        "att": 659,
-                        "def": 229,
-                        "hp": 1851
-                  },
-                  {
-                        "att": 670,
-                        "def": 233,
-                        "hp": 1879
-                  },
-                  {
-                        "att": 681,
-                        "def": 236,
-                        "hp": 1908
-                  },
-                  {
-                        "att": 692,
-                        "def": 240,
-                        "hp": 1937
-                  },
-                  {
-                        "att": 702,
-                        "def": 243,
-                        "hp": 1966
-                  },
-                  {
-                        "att": 713,
-                        "def": 246,
-                        "hp": 1995
-                  },
-                  {
-                        "att": 724,
-                        "def": 250,
-                        "hp": 2024
-                  },
-                  {
-                        "att": 735,
-                        "def": 253,
-                        "hp": 2053
-                  },
-                  {
-                        "att": 746,
-                        "def": 256,
-                        "hp": 2081
-                  },
-                  {
-                        "att": 757,
-                        "def": 260,
-                        "hp": 2110
-                  },
-                  {
-                        "att": 768,
-                        "def": 263,
-                        "hp": 2139
-                  },
-                  {
-                        "att": 779,
-                        "def": 266,
-                        "hp": 2168
-                  },
-                  {
-                        "att": 790,
-                        "def": 270,
-                        "hp": 2197
-                  },
-                  {
-                        "att": 801,
-                        "def": 273,
-                        "hp": 2226
-                  },
-                  {
-                        "att": 812,
-                        "def": 276,
-                        "hp": 2255
-                  },
-                  {
-                        "att": 823,
-                        "def": 280,
-                        "hp": 2284
-                  },
-                  {
-                        "att": 834,
-                        "def": 283,
-                        "hp": 2312
-                  },
-                  {
-                        "att": 845,
-                        "def": 286,
-                        "hp": 2341
-                  },
-                  {
-                        "att": 856,
-                        "def": 290,
-                        "hp": 2370
-                  },
-                  {
-                        "att": 867,
-                        "def": 293,
-                        "hp": 2399
-                  },
-                  {
-                        "att": 877,
-                        "def": 297,
-                        "hp": 2428
-                  },
-                  {
-                        "att": 888,
-                        "def": 300,
-                        "hp": 2457
-                  },
-                  {
-                        "att": 987,
-                        "def": 334,
-                        "hp": 2703
-                  },
-                  {
-                        "att": 1001,
-                        "def": 338,
-                        "hp": 2739
-                  },
-                  {
-                        "att": 1014,
-                        "def": 342,
-                        "hp": 2775
-                  },
-                  {
-                        "att": 1028,
-                        "def": 347,
-                        "hp": 2811
-                  },
-                  {
-                        "att": 1042,
-                        "def": 351,
-                        "hp": 2847
-                  },
-                  {
-                        "att": 1055,
-                        "def": 355,
-                        "hp": 2883
-                  },
-                  {
-                        "att": 1069,
-                        "def": 359,
-                        "hp": 2919
-                  },
-                  {
-                        "att": 1083,
-                        "def": 363,
-                        "hp": 2955
-                  },
-                  {
-                        "att": 1096,
-                        "def": 368,
-                        "hp": 2992
-                  },
-                  {
-                        "att": 1110,
-                        "def": 372,
-                        "hp": 3028
-                  },
-                  {
-                        "att": 1124,
-                        "def": 376,
-                        "hp": 3064
-                  },
-                  {
-                        "att": 1138,
-                        "def": 380,
-                        "hp": 3100
-                  },
-                  {
-                        "att": 1151,
-                        "def": 384,
-                        "hp": 3136
-                  },
-                  {
-                        "att": 1165,
-                        "def": 389,
-                        "hp": 3172
-                  },
-                  {
-                        "att": 1179,
-                        "def": 393,
-                        "hp": 3208
-                  },
-                  {
-                        "att": 1192,
-                        "def": 397,
-                        "hp": 3244
-                  },
-                  {
-                        "att": 1206,
-                        "def": 401,
-                        "hp": 3280
-                  },
-                  {
-                        "att": 1220,
-                        "def": 405,
-                        "hp": 3316
-                  },
-                  {
-                        "att": 1233,
-                        "def": 409,
-                        "hp": 3352
-                  },
-                  {
-                        "att": 1247,
-                        "def": 414,
-                        "hp": 3388
-                  },
-                  {
-                        "att": 1261,
-                        "def": 418,
-                        "hp": 3425
-                  },
-                  {
-                        "att": 1274,
-                        "def": 422,
-                        "hp": 3461
-                  },
-                  {
-                        "att": 1288,
-                        "def": 426,
-                        "hp": 3497
-                  },
-                  {
-                        "att": 1302,
-                        "def": 430,
-                        "hp": 3533
-                  },
-                  {
-                        "att": 1315,
-                        "def": 435,
-                        "hp": 3569
-                  },
-                  {
-                        "att": 1329,
-                        "def": 439,
-                        "hp": 3605
-                  },
-                  {
-                        "att": 1343,
-                        "def": 443,
-                        "hp": 3641
-                  },
-                  {
-                        "att": 1356,
-                        "def": 447,
-                        "hp": 3677
-                  },
-                  {
-                        "att": 1370,
-                        "def": 451,
-                        "hp": 3713
-                  },
-                  {
-                        "att": 1384,
-                        "def": 456,
-                        "hp": 3749
-                  },
-                  {
-                        "att": 1397,
-                        "def": 460,
-                        "hp": 3785
-                  },
-                  {
-                        "att": 1411,
-                        "def": 464,
-                        "hp": 3822
-                  },
-                  {
-                        "att": 1425,
-                        "def": 468,
-                        "hp": 3858
-                  },
-                  {
-                        "att": 1438,
-                        "def": 472,
-                        "hp": 3894
-                  },
-                  {
-                        "att": 1452,
-                        "def": 476,
-                        "hp": 3930
-                  },
-                  {
-                        "att": 1466,
-                        "def": 481,
-                        "hp": 3966
-                  },
-                  {
-                        "att": 1479,
-                        "def": 485,
-                        "hp": 4002
-                  },
-                  {
-                        "att": 1493,
-                        "def": 489,
-                        "hp": 4038
-                  },
-                  {
-                        "att": 1507,
-                        "def": 493,
-                        "hp": 4074
-                  },
-                  {
-                        "att": 1520,
-                        "def": 497,
-                        "hp": 4110
-                  },
-                  {
-                        "att": 1666,
-                        "def": 546,
-                        "hp": 4457
-                  },
-                  {
-                        "att": 1676,
-                        "def": 549,
-                        "hp": 4484
-                  },
-                  {
-                        "att": 1686,
-                        "def": 552,
-                        "hp": 4511
-                  },
-                  {
-                        "att": 1696,
-                        "def": 555,
-                        "hp": 4538
-                  },
-                  {
-                        "att": 1707,
-                        "def": 558,
-                        "hp": 4566
-                  },
-                  {
-                        "att": 1717,
-                        "def": 561,
-                        "hp": 4593
-                  },
-                  {
-                        "att": 1727,
-                        "def": 564,
-                        "hp": 4620
-                  },
-                  {
-                        "att": 1737,
-                        "def": 568,
-                        "hp": 4647
-                  },
-                  {
-                        "att": 1748,
-                        "def": 571,
-                        "hp": 4674
-                  },
-                  {
-                        "att": 1758,
-                        "def": 574,
-                        "hp": 4701
-                  },
-                  {
-                        "att": 1768,
-                        "def": 577,
-                        "hp": 4728
-                  },
-                  {
-                        "att": 1778,
-                        "def": 580,
-                        "hp": 4755
-                  },
-                  {
-                        "att": 1789,
-                        "def": 583,
-                        "hp": 4782
-                  },
-                  {
-                        "att": 1799,
-                        "def": 586,
-                        "hp": 4809
-                  },
-                  {
-                        "att": 1809,
-                        "def": 590,
-                        "hp": 4836
-                  },
-                  {
-                        "att": 1819,
-                        "def": 593,
-                        "hp": 4863
-                  },
-                  {
-                        "att": 1830,
-                        "def": 596,
-                        "hp": 4890
-                  },
-                  {
-                        "att": 1840,
-                        "def": 599,
-                        "hp": 4917
-                  },
-                  {
-                        "att": 1850,
-                        "def": 602,
-                        "hp": 4944
-                  },
-                  {
-                        "att": 1861,
-                        "def": 605,
-                        "hp": 4971
-                  },
-                  {
-                        "att": 1871,
-                        "def": 608,
-                        "hp": 4999
-                  },
-                  {
-                        "att": 1881,
-                        "def": 612,
-                        "hp": 5026
-                  },
-                  {
-                        "att": 1891,
-                        "def": 615,
-                        "hp": 5053
-                  },
-                  {
-                        "att": 1902,
-                        "def": 618,
-                        "hp": 5080
-                  },
-                  {
-                        "att": 1912,
-                        "def": 621,
-                        "hp": 5107
-                  },
-                  {
-                        "att": 1922,
-                        "def": 624,
-                        "hp": 5134
-                  },
-                  {
-                        "att": 1932,
-                        "def": 627,
-                        "hp": 5161
-                  },
-                  {
-                        "att": 1943,
-                        "def": 630,
-                        "hp": 5188
-                  },
-                  {
-                        "att": 1953,
-                        "def": 634,
-                        "hp": 5215
-                  },
-                  {
-                        "att": 1963,
-                        "def": 637,
-                        "hp": 5242
-                  },
-                  {
-                        "att": 1973,
-                        "def": 640,
-                        "hp": 5269
-                  },
-                  {
-                        "att": 1984,
-                        "def": 643,
-                        "hp": 5296
-                  },
-                  {
-                        "att": 1994,
-                        "def": 646,
-                        "hp": 5323
-                  },
-                  {
-                        "att": 2004,
-                        "def": 649,
-                        "hp": 5350
-                  },
-                  {
-                        "att": 2014,
-                        "def": 652,
-                        "hp": 5377
-                  },
-                  {
-                        "att": 2025,
-                        "def": 656,
-                        "hp": 5405
-                  },
-                  {
-                        "att": 2035,
-                        "def": 659,
-                        "hp": 5432
-                  },
-                  {
-                        "att": 2045,
-                        "def": 662,
-                        "hp": 5459
-                  },
-                  {
-                        "att": 2055,
-                        "def": 665,
-                        "hp": 5486
-                  },
-                  {
-                        "att": 2066,
-                        "def": 668,
-                        "hp": 5513
-                  },
-                  {
-                        "att": 2076,
-                        "def": 671,
-                        "hp": 5540
-                  },
-                  {
-                        "att": 2086,
-                        "def": 674,
-                        "hp": 5567
-                  },
-                  {
-                        "att": 2096,
-                        "def": 678,
-                        "hp": 5594
-                  },
-                  {
-                        "att": 2107,
-                        "def": 681,
-                        "hp": 5621
-                  },
-                  {
-                        "att": 2117,
-                        "def": 684,
-                        "hp": 5648
-                  },
-                  {
-                        "att": 2127,
-                        "def": 687,
-                        "hp": 5675
-                  },
-                  {
-                        "att": 2137,
-                        "def": 690,
-                        "hp": 5702
-                  },
-                  {
-                        "att": 2148,
-                        "def": 693,
-                        "hp": 5729
-                  },
-                  {
-                        "att": 2158,
-                        "def": 696,
-                        "hp": 5756
-                  },
-                  {
-                        "att": 2168,
-                        "def": 699,
-                        "hp": 5783
-                  },
-                  {
-                        "att": 2375,
-                        "def": 767,
-                        "hp": 6281
-                  },
-                  {
-                        "att": 2382,
-                        "def": 769,
-                        "hp": 6299
-                  },
-                  {
-                        "att": 2389,
-                        "def": 771,
-                        "hp": 6318
-                  },
-                  {
-                        "att": 2396,
-                        "def": 773,
-                        "hp": 6336
-                  },
-                  {
-                        "att": 2402,
-                        "def": 775,
-                        "hp": 6354
-                  },
-                  {
-                        "att": 2409,
-                        "def": 777,
-                        "hp": 6372
-                  },
-                  {
-                        "att": 2416,
-                        "def": 779,
-                        "hp": 6390
-                  },
-                  {
-                        "att": 2423,
-                        "def": 781,
-                        "hp": 6408
-                  },
-                  {
-                        "att": 2430,
-                        "def": 783,
-                        "hp": 6426
-                  },
-                  {
-                        "att": 2437,
-                        "def": 785,
-                        "hp": 6444
-                  },
-                  {
-                        "att": 2443,
-                        "def": 788,
-                        "hp": 6462
-                  },
-                  {
-                        "att": 2450,
-                        "def": 790,
-                        "hp": 6480
-                  },
-                  {
-                        "att": 2457,
-                        "def": 792,
-                        "hp": 6498
-                  },
-                  {
-                        "att": 2464,
-                        "def": 794,
-                        "hp": 6516
-                  },
-                  {
-                        "att": 2471,
-                        "def": 796,
-                        "hp": 6534
-                  },
-                  {
-                        "att": 2478,
-                        "def": 798,
-                        "hp": 6552
-                  },
-                  {
-                        "att": 2484,
-                        "def": 800,
-                        "hp": 6570
-                  },
-                  {
-                        "att": 2491,
-                        "def": 802,
-                        "hp": 6588
-                  },
-                  {
-                        "att": 2498,
-                        "def": 804,
-                        "hp": 6606
-                  },
-                  {
-                        "att": 2505,
-                        "def": 806,
-                        "hp": 6624
-                  },
-                  {
-                        "att": 2512,
-                        "def": 808,
-                        "hp": 6642
-                  },
-                  {
-                        "att": 2519,
-                        "def": 811,
-                        "hp": 6660
-                  },
-                  {
-                        "att": 2525,
-                        "def": 813,
-                        "hp": 6678
-                  },
-                  {
-                        "att": 2532,
-                        "def": 815,
-                        "hp": 6696
-                  },
-                  {
-                        "att": 2539,
-                        "def": 817,
-                        "hp": 6714
-                  },
-                  {
-                        "att": 2546,
-                        "def": 819,
-                        "hp": 6733
-                  },
-                  {
-                        "att": 2553,
-                        "def": 821,
-                        "hp": 6751
-                  },
-                  {
-                        "att": 2560,
-                        "def": 823,
-                        "hp": 6769
-                  },
-                  {
-                        "att": 2566,
-                        "def": 825,
-                        "hp": 6787
-                  },
-                  {
-                        "att": 2573,
-                        "def": 827,
-                        "hp": 6805
-                  },
-                  {
-                        "att": 2580,
-                        "def": 829,
-                        "hp": 6823
-                  },
-                  {
-                        "att": 2587,
-                        "def": 832,
-                        "hp": 6841
-                  },
-                  {
-                        "att": 2594,
-                        "def": 834,
-                        "hp": 6859
-                  },
-                  {
-                        "att": 2601,
-                        "def": 836,
-                        "hp": 6877
-                  },
-                  {
-                        "att": 2608,
-                        "def": 838,
-                        "hp": 6895
-                  },
-                  {
-                        "att": 2614,
-                        "def": 840,
-                        "hp": 6913
-                  },
-                  {
-                        "att": 2621,
-                        "def": 842,
-                        "hp": 6931
-                  },
-                  {
-                        "att": 2628,
-                        "def": 844,
-                        "hp": 6949
-                  },
-                  {
-                        "att": 2635,
-                        "def": 846,
-                        "hp": 6967
-                  },
-                  {
-                        "att": 2642,
-                        "def": 848,
-                        "hp": 6985
-                  },
-                  {
-                        "att": 2649,
-                        "def": 850,
-                        "hp": 7003
-                  },
-                  {
-                        "att": 2655,
-                        "def": 852,
-                        "hp": 7021
-                  },
-                  {
-                        "att": 2662,
-                        "def": 855,
-                        "hp": 7039
-                  },
-                  {
-                        "att": 2669,
-                        "def": 857,
-                        "hp": 7057
-                  },
-                  {
-                        "att": 2676,
-                        "def": 859,
-                        "hp": 7075
-                  },
-                  {
-                        "att": 2683,
-                        "def": 861,
-                        "hp": 7093
-                  },
-                  {
-                        "att": 2690,
-                        "def": 863,
-                        "hp": 7111
-                  },
-                  {
-                        "att": 2696,
-                        "def": 865,
-                        "hp": 7129
-                  },
-                  {
-                        "att": 2703,
-                        "def": 867,
-                        "hp": 7147
-                  },
-                  {
-                        "att": 2710,
-                        "def": 869,
-                        "hp": 7166
-                  },
-                  {
-                        "att": 2717,
-                        "def": 871,
-                        "hp": 7184
-                  },
-                  {
-                        "att": 2724,
-                        "def": 873,
-                        "hp": 7202
-                  },
-                  {
-                        "att": 2731,
-                        "def": 875,
-                        "hp": 7220
-                  },
-                  {
-                        "att": 2737,
-                        "def": 878,
-                        "hp": 7238
-                  },
-                  {
-                        "att": 2744,
-                        "def": 880,
-                        "hp": 7256
-                  },
-                  {
-                        "att": 2751,
-                        "def": 882,
-                        "hp": 7274
-                  },
-                  {
-                        "att": 2758,
-                        "def": 884,
-                        "hp": 7292
-                  },
-                  {
-                        "att": 2765,
-                        "def": 886,
-                        "hp": 7310
-                  },
-                  {
-                        "att": 2772,
-                        "def": 888,
-                        "hp": 7328
-                  },
-                  {
-                        "att": 2778,
-                        "def": 890,
-                        "hp": 7346
-                  },
-                  {
-                        "att": 2785,
-                        "def": 892,
-                        "hp": 7364
-                  },
-                  {
-                        "att": 2792,
-                        "def": 894,
-                        "hp": 7382
-                  },
-                  {
-                        "att": 2799,
-                        "def": 896,
-                        "hp": 7400
-                  },
-                  {
-                        "att": 2806,
-                        "def": 899,
-                        "hp": 7418
-                  },
-                  {
-                        "att": 2813,
-                        "def": 901,
-                        "hp": 7436
-                  },
-                  {
-                        "att": 2819,
-                        "def": 903,
-                        "hp": 7454
-                  },
-                  {
-                        "att": 2826,
-                        "def": 905,
-                        "hp": 7472
-                  },
-                  {
-                        "att": 2833,
-                        "def": 907,
-                        "hp": 7490
-                  },
-                  {
-                        "att": 2840,
-                        "def": 909,
-                        "hp": 7508
-                  },
-                  {
-                        "att": 2847,
-                        "def": 911,
-                        "hp": 7526
-                  },
-                  {
-                        "att": 2854,
-                        "def": 913,
-                        "hp": 7544
-                  },
-                  {
-                        "att": 2860,
-                        "def": 915,
-                        "hp": 7562
-                  },
-                  {
-                        "att": 2867,
-                        "def": 917,
-                        "hp": 7581
-                  },
-                  {
-                        "att": 2874,
-                        "def": 919,
-                        "hp": 7599
-                  },
-                  {
-                        "att": 2881,
-                        "def": 922,
-                        "hp": 7617
-                  },
-                  {
-                        "att": 2888,
-                        "def": 924,
-                        "hp": 7635
-                  },
-                  {
-                        "att": 2895,
-                        "def": 926,
-                        "hp": 7653
-                  },
-                  {
-                        "att": 2902,
-                        "def": 928,
-                        "hp": 7671
-                  },
-                  {
-                        "att": 2908,
-                        "def": 930,
-                        "hp": 7689
-                  },
-                  {
-                        "att": 2915,
-                        "def": 932,
-                        "hp": 7707
-                  }
-            ]
-      }
+ "name": "Chandra",
+ "faction": "Illumina Federation",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Sniper",
+ "skill": {
+  "name": "Negative Emotion Project",
+  "cd": "1 Turn",
+  "description": [
+   "Deals 150% damage to the enemy on 1 selected tile.",
+   "Deals 150% damage to the enemy on 1 selected tile.",
+   "Deals 150% damage to the enemy on 1 selected tile. Removes Active Skill cooldown if the target is defeated with the skill."
+  ]
+ },
+ "equip": {
+  "name": "Ring: Sekar's Limit",
+  "passive": "Gather Negative Emotions",
+  "description": [
+   [
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 15%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 15%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 12%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 10%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%."
+   ],
+   [
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
+   ],
+   [
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 15%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 12%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 10%. Each mark increases Chain Combo damage by 5%.",
+    "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
+   ]
+  ],
+  "introduction": "After discovering Chandra's true strength, Gronru made a ring for her. This ring enables Chandra to transform the negative emotions she absorbs and releases a magnificent jet of flame, making it truly one of the most advanced products of Illumina Tech."
+ },
+ "chain": {
+  "name": "Unleash Negativity",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 3 enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Increases Active Skill damage by 30%.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Potion I",
+    "Fire Flare Powder",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Crystal Shard",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 8%.",
+   "after": "Gains 1 stack of Negativity Mark whenever an Active Skill is used, up to 5 stacks. Each stack increases the number of Active Skill attacks by 1, reducing the final damage by 8%. Each mark increases Chain Combo damage by 5%."
+  },
+  {
+   "material": [
+    "Fire Crystal Cluster",
+    "Fire Potion II",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 150% damage to the enemy on 1 selected tile.",
+   "after": "Deals 150% damage to the enemy on 1 selected tile. Removes Active Skill cooldown if the target is defeated with the skill."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 571,
+    "def": 203,
+    "hp": 1620
+   },
+   {
+    "att": 582,
+    "def": 206,
+    "hp": 1648
+   },
+   {
+    "att": 593,
+    "def": 209,
+    "hp": 1677
+   },
+   {
+    "att": 604,
+    "def": 213,
+    "hp": 1706
+   },
+   {
+    "att": 615,
+    "def": 216,
+    "hp": 1735
+   },
+   {
+    "att": 626,
+    "def": 219,
+    "hp": 1764
+   },
+   {
+    "att": 637,
+    "def": 223,
+    "hp": 1793
+   },
+   {
+    "att": 648,
+    "def": 226,
+    "hp": 1822
+   },
+   {
+    "att": 659,
+    "def": 229,
+    "hp": 1851
+   },
+   {
+    "att": 670,
+    "def": 233,
+    "hp": 1879
+   },
+   {
+    "att": 681,
+    "def": 236,
+    "hp": 1908
+   },
+   {
+    "att": 692,
+    "def": 240,
+    "hp": 1937
+   },
+   {
+    "att": 702,
+    "def": 243,
+    "hp": 1966
+   },
+   {
+    "att": 713,
+    "def": 246,
+    "hp": 1995
+   },
+   {
+    "att": 724,
+    "def": 250,
+    "hp": 2024
+   },
+   {
+    "att": 735,
+    "def": 253,
+    "hp": 2053
+   },
+   {
+    "att": 746,
+    "def": 256,
+    "hp": 2081
+   },
+   {
+    "att": 757,
+    "def": 260,
+    "hp": 2110
+   },
+   {
+    "att": 768,
+    "def": 263,
+    "hp": 2139
+   },
+   {
+    "att": 779,
+    "def": 266,
+    "hp": 2168
+   },
+   {
+    "att": 790,
+    "def": 270,
+    "hp": 2197
+   },
+   {
+    "att": 801,
+    "def": 273,
+    "hp": 2226
+   },
+   {
+    "att": 812,
+    "def": 276,
+    "hp": 2255
+   },
+   {
+    "att": 823,
+    "def": 280,
+    "hp": 2284
+   },
+   {
+    "att": 834,
+    "def": 283,
+    "hp": 2312
+   },
+   {
+    "att": 845,
+    "def": 286,
+    "hp": 2341
+   },
+   {
+    "att": 856,
+    "def": 290,
+    "hp": 2370
+   },
+   {
+    "att": 867,
+    "def": 293,
+    "hp": 2399
+   },
+   {
+    "att": 877,
+    "def": 297,
+    "hp": 2428
+   },
+   {
+    "att": 888,
+    "def": 300,
+    "hp": 2457
+   },
+   {
+    "att": 987,
+    "def": 334,
+    "hp": 2703
+   },
+   {
+    "att": 1001,
+    "def": 338,
+    "hp": 2739
+   },
+   {
+    "att": 1014,
+    "def": 342,
+    "hp": 2775
+   },
+   {
+    "att": 1028,
+    "def": 347,
+    "hp": 2811
+   },
+   {
+    "att": 1042,
+    "def": 351,
+    "hp": 2847
+   },
+   {
+    "att": 1055,
+    "def": 355,
+    "hp": 2883
+   },
+   {
+    "att": 1069,
+    "def": 359,
+    "hp": 2919
+   },
+   {
+    "att": 1083,
+    "def": 363,
+    "hp": 2955
+   },
+   {
+    "att": 1096,
+    "def": 368,
+    "hp": 2992
+   },
+   {
+    "att": 1110,
+    "def": 372,
+    "hp": 3028
+   },
+   {
+    "att": 1124,
+    "def": 376,
+    "hp": 3064
+   },
+   {
+    "att": 1138,
+    "def": 380,
+    "hp": 3100
+   },
+   {
+    "att": 1151,
+    "def": 384,
+    "hp": 3136
+   },
+   {
+    "att": 1165,
+    "def": 389,
+    "hp": 3172
+   },
+   {
+    "att": 1179,
+    "def": 393,
+    "hp": 3208
+   },
+   {
+    "att": 1192,
+    "def": 397,
+    "hp": 3244
+   },
+   {
+    "att": 1206,
+    "def": 401,
+    "hp": 3280
+   },
+   {
+    "att": 1220,
+    "def": 405,
+    "hp": 3316
+   },
+   {
+    "att": 1233,
+    "def": 409,
+    "hp": 3352
+   },
+   {
+    "att": 1247,
+    "def": 414,
+    "hp": 3388
+   },
+   {
+    "att": 1261,
+    "def": 418,
+    "hp": 3425
+   },
+   {
+    "att": 1274,
+    "def": 422,
+    "hp": 3461
+   },
+   {
+    "att": 1288,
+    "def": 426,
+    "hp": 3497
+   },
+   {
+    "att": 1302,
+    "def": 430,
+    "hp": 3533
+   },
+   {
+    "att": 1315,
+    "def": 435,
+    "hp": 3569
+   },
+   {
+    "att": 1329,
+    "def": 439,
+    "hp": 3605
+   },
+   {
+    "att": 1343,
+    "def": 443,
+    "hp": 3641
+   },
+   {
+    "att": 1356,
+    "def": 447,
+    "hp": 3677
+   },
+   {
+    "att": 1370,
+    "def": 451,
+    "hp": 3713
+   },
+   {
+    "att": 1384,
+    "def": 456,
+    "hp": 3749
+   },
+   {
+    "att": 1397,
+    "def": 460,
+    "hp": 3785
+   },
+   {
+    "att": 1411,
+    "def": 464,
+    "hp": 3822
+   },
+   {
+    "att": 1425,
+    "def": 468,
+    "hp": 3858
+   },
+   {
+    "att": 1438,
+    "def": 472,
+    "hp": 3894
+   },
+   {
+    "att": 1452,
+    "def": 476,
+    "hp": 3930
+   },
+   {
+    "att": 1466,
+    "def": 481,
+    "hp": 3966
+   },
+   {
+    "att": 1479,
+    "def": 485,
+    "hp": 4002
+   },
+   {
+    "att": 1493,
+    "def": 489,
+    "hp": 4038
+   },
+   {
+    "att": 1507,
+    "def": 493,
+    "hp": 4074
+   },
+   {
+    "att": 1520,
+    "def": 497,
+    "hp": 4110
+   },
+   {
+    "att": 1666,
+    "def": 546,
+    "hp": 4457
+   },
+   {
+    "att": 1676,
+    "def": 549,
+    "hp": 4484
+   },
+   {
+    "att": 1686,
+    "def": 552,
+    "hp": 4511
+   },
+   {
+    "att": 1696,
+    "def": 555,
+    "hp": 4538
+   },
+   {
+    "att": 1707,
+    "def": 558,
+    "hp": 4566
+   },
+   {
+    "att": 1717,
+    "def": 561,
+    "hp": 4593
+   },
+   {
+    "att": 1727,
+    "def": 564,
+    "hp": 4620
+   },
+   {
+    "att": 1737,
+    "def": 568,
+    "hp": 4647
+   },
+   {
+    "att": 1748,
+    "def": 571,
+    "hp": 4674
+   },
+   {
+    "att": 1758,
+    "def": 574,
+    "hp": 4701
+   },
+   {
+    "att": 1768,
+    "def": 577,
+    "hp": 4728
+   },
+   {
+    "att": 1778,
+    "def": 580,
+    "hp": 4755
+   },
+   {
+    "att": 1789,
+    "def": 583,
+    "hp": 4782
+   },
+   {
+    "att": 1799,
+    "def": 586,
+    "hp": 4809
+   },
+   {
+    "att": 1809,
+    "def": 590,
+    "hp": 4836
+   },
+   {
+    "att": 1819,
+    "def": 593,
+    "hp": 4863
+   },
+   {
+    "att": 1830,
+    "def": 596,
+    "hp": 4890
+   },
+   {
+    "att": 1840,
+    "def": 599,
+    "hp": 4917
+   },
+   {
+    "att": 1850,
+    "def": 602,
+    "hp": 4944
+   },
+   {
+    "att": 1861,
+    "def": 605,
+    "hp": 4971
+   },
+   {
+    "att": 1871,
+    "def": 608,
+    "hp": 4999
+   },
+   {
+    "att": 1881,
+    "def": 612,
+    "hp": 5026
+   },
+   {
+    "att": 1891,
+    "def": 615,
+    "hp": 5053
+   },
+   {
+    "att": 1902,
+    "def": 618,
+    "hp": 5080
+   },
+   {
+    "att": 1912,
+    "def": 621,
+    "hp": 5107
+   },
+   {
+    "att": 1922,
+    "def": 624,
+    "hp": 5134
+   },
+   {
+    "att": 1932,
+    "def": 627,
+    "hp": 5161
+   },
+   {
+    "att": 1943,
+    "def": 630,
+    "hp": 5188
+   },
+   {
+    "att": 1953,
+    "def": 634,
+    "hp": 5215
+   },
+   {
+    "att": 1963,
+    "def": 637,
+    "hp": 5242
+   },
+   {
+    "att": 1973,
+    "def": 640,
+    "hp": 5269
+   },
+   {
+    "att": 1984,
+    "def": 643,
+    "hp": 5296
+   },
+   {
+    "att": 1994,
+    "def": 646,
+    "hp": 5323
+   },
+   {
+    "att": 2004,
+    "def": 649,
+    "hp": 5350
+   },
+   {
+    "att": 2014,
+    "def": 652,
+    "hp": 5377
+   },
+   {
+    "att": 2025,
+    "def": 656,
+    "hp": 5405
+   },
+   {
+    "att": 2035,
+    "def": 659,
+    "hp": 5432
+   },
+   {
+    "att": 2045,
+    "def": 662,
+    "hp": 5459
+   },
+   {
+    "att": 2055,
+    "def": 665,
+    "hp": 5486
+   },
+   {
+    "att": 2066,
+    "def": 668,
+    "hp": 5513
+   },
+   {
+    "att": 2076,
+    "def": 671,
+    "hp": 5540
+   },
+   {
+    "att": 2086,
+    "def": 674,
+    "hp": 5567
+   },
+   {
+    "att": 2096,
+    "def": 678,
+    "hp": 5594
+   },
+   {
+    "att": 2107,
+    "def": 681,
+    "hp": 5621
+   },
+   {
+    "att": 2117,
+    "def": 684,
+    "hp": 5648
+   },
+   {
+    "att": 2127,
+    "def": 687,
+    "hp": 5675
+   },
+   {
+    "att": 2137,
+    "def": 690,
+    "hp": 5702
+   },
+   {
+    "att": 2148,
+    "def": 693,
+    "hp": 5729
+   },
+   {
+    "att": 2158,
+    "def": 696,
+    "hp": 5756
+   },
+   {
+    "att": 2168,
+    "def": 699,
+    "hp": 5783
+   },
+   {
+    "att": 2375,
+    "def": 767,
+    "hp": 6281
+   },
+   {
+    "att": 2382,
+    "def": 769,
+    "hp": 6299
+   },
+   {
+    "att": 2389,
+    "def": 771,
+    "hp": 6318
+   },
+   {
+    "att": 2396,
+    "def": 773,
+    "hp": 6336
+   },
+   {
+    "att": 2402,
+    "def": 775,
+    "hp": 6354
+   },
+   {
+    "att": 2409,
+    "def": 777,
+    "hp": 6372
+   },
+   {
+    "att": 2416,
+    "def": 779,
+    "hp": 6390
+   },
+   {
+    "att": 2423,
+    "def": 781,
+    "hp": 6408
+   },
+   {
+    "att": 2430,
+    "def": 783,
+    "hp": 6426
+   },
+   {
+    "att": 2437,
+    "def": 785,
+    "hp": 6444
+   },
+   {
+    "att": 2443,
+    "def": 788,
+    "hp": 6462
+   },
+   {
+    "att": 2450,
+    "def": 790,
+    "hp": 6480
+   },
+   {
+    "att": 2457,
+    "def": 792,
+    "hp": 6498
+   },
+   {
+    "att": 2464,
+    "def": 794,
+    "hp": 6516
+   },
+   {
+    "att": 2471,
+    "def": 796,
+    "hp": 6534
+   },
+   {
+    "att": 2478,
+    "def": 798,
+    "hp": 6552
+   },
+   {
+    "att": 2484,
+    "def": 800,
+    "hp": 6570
+   },
+   {
+    "att": 2491,
+    "def": 802,
+    "hp": 6588
+   },
+   {
+    "att": 2498,
+    "def": 804,
+    "hp": 6606
+   },
+   {
+    "att": 2505,
+    "def": 806,
+    "hp": 6624
+   },
+   {
+    "att": 2512,
+    "def": 808,
+    "hp": 6642
+   },
+   {
+    "att": 2519,
+    "def": 811,
+    "hp": 6660
+   },
+   {
+    "att": 2525,
+    "def": 813,
+    "hp": 6678
+   },
+   {
+    "att": 2532,
+    "def": 815,
+    "hp": 6696
+   },
+   {
+    "att": 2539,
+    "def": 817,
+    "hp": 6714
+   },
+   {
+    "att": 2546,
+    "def": 819,
+    "hp": 6733
+   },
+   {
+    "att": 2553,
+    "def": 821,
+    "hp": 6751
+   },
+   {
+    "att": 2560,
+    "def": 823,
+    "hp": 6769
+   },
+   {
+    "att": 2566,
+    "def": 825,
+    "hp": 6787
+   },
+   {
+    "att": 2573,
+    "def": 827,
+    "hp": 6805
+   },
+   {
+    "att": 2580,
+    "def": 829,
+    "hp": 6823
+   },
+   {
+    "att": 2587,
+    "def": 832,
+    "hp": 6841
+   },
+   {
+    "att": 2594,
+    "def": 834,
+    "hp": 6859
+   },
+   {
+    "att": 2601,
+    "def": 836,
+    "hp": 6877
+   },
+   {
+    "att": 2608,
+    "def": 838,
+    "hp": 6895
+   },
+   {
+    "att": 2614,
+    "def": 840,
+    "hp": 6913
+   },
+   {
+    "att": 2621,
+    "def": 842,
+    "hp": 6931
+   },
+   {
+    "att": 2628,
+    "def": 844,
+    "hp": 6949
+   },
+   {
+    "att": 2635,
+    "def": 846,
+    "hp": 6967
+   },
+   {
+    "att": 2642,
+    "def": 848,
+    "hp": 6985
+   },
+   {
+    "att": 2649,
+    "def": 850,
+    "hp": 7003
+   },
+   {
+    "att": 2655,
+    "def": 852,
+    "hp": 7021
+   },
+   {
+    "att": 2662,
+    "def": 855,
+    "hp": 7039
+   },
+   {
+    "att": 2669,
+    "def": 857,
+    "hp": 7057
+   },
+   {
+    "att": 2676,
+    "def": 859,
+    "hp": 7075
+   },
+   {
+    "att": 2683,
+    "def": 861,
+    "hp": 7093
+   },
+   {
+    "att": 2690,
+    "def": 863,
+    "hp": 7111
+   },
+   {
+    "att": 2696,
+    "def": 865,
+    "hp": 7129
+   },
+   {
+    "att": 2703,
+    "def": 867,
+    "hp": 7147
+   },
+   {
+    "att": 2710,
+    "def": 869,
+    "hp": 7166
+   },
+   {
+    "att": 2717,
+    "def": 871,
+    "hp": 7184
+   },
+   {
+    "att": 2724,
+    "def": 873,
+    "hp": 7202
+   },
+   {
+    "att": 2731,
+    "def": 875,
+    "hp": 7220
+   },
+   {
+    "att": 2737,
+    "def": 878,
+    "hp": 7238
+   },
+   {
+    "att": 2744,
+    "def": 880,
+    "hp": 7256
+   },
+   {
+    "att": 2751,
+    "def": 882,
+    "hp": 7274
+   },
+   {
+    "att": 2758,
+    "def": 884,
+    "hp": 7292
+   },
+   {
+    "att": 2765,
+    "def": 886,
+    "hp": 7310
+   },
+   {
+    "att": 2772,
+    "def": 888,
+    "hp": 7328
+   },
+   {
+    "att": 2778,
+    "def": 890,
+    "hp": 7346
+   },
+   {
+    "att": 2785,
+    "def": 892,
+    "hp": 7364
+   },
+   {
+    "att": 2792,
+    "def": 894,
+    "hp": 7382
+   },
+   {
+    "att": 2799,
+    "def": 896,
+    "hp": 7400
+   },
+   {
+    "att": 2806,
+    "def": 899,
+    "hp": 7418
+   },
+   {
+    "att": 2813,
+    "def": 901,
+    "hp": 7436
+   },
+   {
+    "att": 2819,
+    "def": 903,
+    "hp": 7454
+   },
+   {
+    "att": 2826,
+    "def": 905,
+    "hp": 7472
+   },
+   {
+    "att": 2833,
+    "def": 907,
+    "hp": 7490
+   },
+   {
+    "att": 2840,
+    "def": 909,
+    "hp": 7508
+   },
+   {
+    "att": 2847,
+    "def": 911,
+    "hp": 7526
+   },
+   {
+    "att": 2854,
+    "def": 913,
+    "hp": 7544
+   },
+   {
+    "att": 2860,
+    "def": 915,
+    "hp": 7562
+   },
+   {
+    "att": 2867,
+    "def": 917,
+    "hp": 7581
+   },
+   {
+    "att": 2874,
+    "def": 919,
+    "hp": 7599
+   },
+   {
+    "att": 2881,
+    "def": 922,
+    "hp": 7617
+   },
+   {
+    "att": 2888,
+    "def": 924,
+    "hp": 7635
+   },
+   {
+    "att": 2895,
+    "def": 926,
+    "hp": 7653
+   },
+   {
+    "att": 2902,
+    "def": 928,
+    "hp": 7671
+   },
+   {
+    "att": 2908,
+    "def": 930,
+    "hp": 7689
+   },
+   {
+    "att": 2915,
+    "def": 932,
+    "hp": 7707
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Backpacker",
+    "effect": "When deployed to the Resource Station, increases the Carrier's production efficiency by 10%."
+   },
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Chandra",
+     "Uriel"
+    ],
+    "chat": [
+     {
+      "character": "Chandra:",
+      "text": "Come here, you poor boy."
+     },
+     {
+      "character": "Chandra:",
+      "text": "You must have had a fire burning in your chest for such a long time."
+     },
+     {
+      "character": "Uriel:",
+      "text": "Yes, but it's alright... Since everything's but nothingness, really."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Are you sure it's alright? It looks very painful..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Come now, take a deep breath with me."
+     },
+     {
+      "character": "Uriel:",
+      "text": "There's no need... I..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Just give it a try... You can do it!"
+     },
+     {
+      "character": "Uriel:",
+      "text": "All right..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Breathe in\u2014"
+     },
+     {
+      "character": "Uriel:",
+      "text": "Breathe in\u2014"
+     },
+     {
+      "character": "Chandra:",
+      "text": "Breathe out\u2014"
+     },
+     {
+      "character": "Uriel:",
+      "text": "Breathe out\u2014"
+     },
+     {
+      "character": "Chandra:",
+      "text": "How do you feel? Has the pain subsided?"
+     },
+     {
+      "character": "Uriel:",
+      "text": "The fire... It seems to be getting stronger..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Huh? Why's that?"
+     },
+     {
+      "character": "Uriel:",
+      "text": "Breathing deeply like that... is basically like fanning the flame."
+     },
+     {
+      "character": "Uriel:",
+      "text": "Now they burn even more violently..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Huh!?"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Chandra",
+     "White Dwarf"
+    ],
+    "chat": [
+     {
+      "character": "Chandra:",
+      "text": "Good to see you, White Dwarf!"
+     },
+     {
+      "character": "Chandra:",
+      "text": "Fancy a chat?"
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "Sekar...?"
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "There's so much I want to say... but it's all jammed up in my heart."
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "I can't express it..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Ah... It's never good to be all closed up with your feelings."
+     },
+     {
+      "character": "Chandra:",
+      "text": "It'll only bring you down."
+     },
+     {
+      "character": "Chandra:",
+      "text": "And one day, you'll explode with emotion\u2014and who knows what damage that will do."
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "Explode...?"
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "I think that has happened before..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Right, so you should learn to deal with your emotions before that happens..."
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "Well, if that's what you say..."
+     },
+     {
+      "character": "White Dwarf:",
+      "text": "Erm... I'll just go and find some Eclipsites and explode all over them..."
+     },
+     {
+      "character": "Chandra:",
+      "text": "Huh!?"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Ms. Gronru told me that the psychologist who just arrived at the Colossus has a terrible sense of direction, and she hopes that I can go and welcome her.When I first met Ms. Sekar, she was lying prone on the ground, busily picking up a number of... test tubes?What are those weird colored things around her? Fairies?While I was still amazed at the fact that the senior psychologist from Illumina could manipulate fairies, Ms. Sekar got up from the ground and started bowing and apologizing to everyone around her. Everyone's expression, as well as %s' showed subtlety . So what just happened?\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hi! Nice to meet you! My name is Chandra Sekar! Are you the navigator of the Colossus? You look just how I had imagined!Ms. Gronru said that the over-frequent visits by the Eclipsites' drained everyone both physically and mentally. What you need right now is me\u2014Sekar the psychologist, to keep your emotions in order!Moreover, I'm also interested in the emotions of the Colossus, so this is a great opportunity for me!Don't think I'm just some random guy. I'm the senior psychologist of Illumina! See these test tubes? If you have any negative emotions that you don't want to tell anyone about, just talk to me and let me comfort you! Don't worry, I can keep all secrets, even the secrets of the navigator."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Hmm? Why did that sperm whale show up again?Hey, even I feel upset occasionally! So I let this little guy out sometimes, as I need to vent my emotions!However, navigator, you're better than I expected! I thought you would come to me often for long talks at night, but you actually sleep quite soundly instead. After arriving at the Colossus, I've collected everyone's emotions except yours. I'm quite curious about the color of the emotions of the Colossus' navigator.Huh? Of course, it's a good thing that you sleep soundly! I'm just worried that you're being too obstinate. Don't worry about me. I'm always ready to hug you and to let you rest your head on my thighs!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "W-what?! You saw me when I was fighting last time?! No, no, no! Forget about it now! Ahhhhh! I'm not usually like that! Oh my goodness, there goes my calm and reliable image in your heart!That happened because I accidentally stored too many negative emotions. It was my fault that I couldn't keep them under control, but I didn't lose my temper! Please tell me if I caused you any trouble. My ability to give psychological diagnosis and treatment is unquestionable, but I really have no talent for fighting. Even my current abilities were awakened in danger when I encountered Eclipsites in the past... Ahem, but I'm not worried about battles because White Dwarf and Ms. Gronru are here...What? You think it is cute how I apologized after fighting?... Ms. Gronru was right! You are really a lolicon?... Don't worry, you can safely let me know all about your fetish!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "This isn't my original name. The name the Queen gave me was simply unacceptable, so I decided to change my name! But my mother did leave me the name, Sekar... I never met my mother. I heard that she died after giving birth to me and naming me Sekar. I only have one piece of memory of my parents, and in it, my parents were running non-stop because our tribe was under attack, and my father had died to protect my mother from being shot instead of dying from a sudden illness... However, I've never read anything about this or heard anyone say anything related. Could it really just be a dream?My negative emotions start to break out of my control whenever I recall this memory... Because I'm worried that I'll lose control again, I tell myself all the time to stop thinking about it... Urgh, but I can't help it sometimes. They're my parents after all...Speaking of it, I feel that we've been talking more often. Is it because you're very reliable?"
+  }
+ ],
+ "voice": [
+  "Life at Illumina's Undercity may seem stressful to others, but it's actually tidy and orderly!",
+  "Lumopolis is said to have a unique way of resolving emotional issues. I wonder if that's just a rumor.",
+  "Splendor Illumina!",
+  "Eclipsites are scumbags! They're filled with nothing but spite!",
+  "Director Gronru really knows a lot, even dabbling in psychology.",
+  "White Dwarf is so adorable! He may be older than me, but he is really a child at heart!",
+  "I like to listen, especially when others confide in me",
+  "Negative emotions are unhealthy, so you must find an outlet for them!",
+  "The Colossus also has emotions. I have to pay attention and listen.",
+  "Something bothering you? Let me take it away and keep it for you!",
+  "Time for your counseling session? Come, let's sit and talk.",
+  "You know, you can lay your negative emotions on me!",
+  "It's the sweet smell of victory!",
+  "Let's give it a taste!",
+  "Negative Emotion! Release!",
+  "The emotions are fully gathered!",
+  "Happy New Year!",
+  "Nice to meet you!",
+  "Helping one another for mutual growth!",
+  "You really know how to cultivate your allies.",
+  "Unleash your emotions! Let them bloom like fireworks!",
+  "There's only a fine line between feeling relaxed and feeling bored...",
+  "The emotions are getting stronger!",
+  "Alchemy Stars!",
+  "The emotions of the Aurorians are wondrous. They are like elves with a physical form.",
+  "You want to learn how to master your emotions? No need! You've got me!",
+  "Just go ahead and express yourself. I'll be your support. Sometimes, you're just as stubborn as that kid...",
+  "As we research further into the matter, maybe one day we would be able to help that kid...",
+  "These elves can be used not only in battles but also in helping us to heal from emotional trauma...",
+  "Sorry... Sometimes, my emotions also need an outlet. I'll try not to trouble you too much.",
+  "Hey! Anything new you'd like to share with me today? I'm always here.",
+  "Just say what's on your mind. I can always make time for you since it's part of my job.",
+  "Come over here. I can sense your slightly troubled emotions. Need a pat on the head?",
+  "Welcome back, Navigator! Feel free to tell me anything!",
+  "Hello! Wanna chat?",
+  "If you're feeling down, come and see me whenever!",
+  "The Colossus is emotionally stable. Just leave it to me! No problemo!",
+  "You look good! Had a good rest, I presume?",
+  "Negative emotions build up when you're overworked. Go take a break to keep your spirit up.",
+  "If you can't sleep, just come and have a chat with me!",
+  "Hi, there! I'm Chandra Sekar, the team's psychologist and emotional healer! Nice to meet you!",
+  "That's really nice of you! Thanks!",
+  "You like giving me gifts, don't you?",
+  "I really like that! How sweet of you!",
+  "My happiness is overflowing! Hehe!",
+  "Release, my soul!",
+  "Flame of the soul, on your mark!",
+  "It's happening! It's happening!",
+  "Even if we have a dark and murky past, we can't always take such a negative perspective on life, can we?",
+  "Ms. Gronru really takes care of me, and if it weren't for her support, my research wouldn't have been conducted so smoothly. I've been blessed with the most wonderful comrades.",
+  "Now, everyone in Illumina is my family, that includes you, Navigator! I hope that together, I can create even moreeee wondrous emotions!",
+  "May everybody be in a happy mood!"
+ ],
+ "skins": [],
+ "description": "An optimistic and cheerful Illumina researcher, she has a special ability to absorb negative emotions from others and heal their mental trauma.",
+ "realName": "Chandra Sekar",
+ "nickname": "Emotional Peak",
+ "gender": "Female",
+ "height": "5'3\"",
+ "birthday": "June 27",
+ "birthplace": "Gannon City",
+ "style": "Emotional Fantasy, Ultimate Ring"
 }

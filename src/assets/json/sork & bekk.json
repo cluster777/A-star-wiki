@@ -1,715 +1,866 @@
 {
-      "name": "Sork & Bekk",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and to enemies within 1 surrounding cluster.",
-                  "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and enemies within 1 surrounding cluster, and inflicts Burn (2 stacks on the first enemy, 1 stack on the rest) for 2 rounds."
-            ]
-      },
-      "equip": {
-            "name": "Grenade & Sniper",
-            "passive": "Bombardment",
-            "description": [
-                  [
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 50%."
-                  ],
-                  [
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 50%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Flare Powder",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Active Skill damage by 50%."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Potion I",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and to enemies within 1 surrounding cluster.",
-                  "after": "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and enemies within 1 surrounding cluster, and inflicts Burn (2 stacks on the first enemy, 1 stack on the rest) for 2 rounds."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 575,
-                        "def": 240,
-                        "hp": 1854
-                  },
-                  {
-                        "att": 586,
-                        "def": 244,
-                        "hp": 1883
-                  },
-                  {
-                        "att": 596,
-                        "def": 248,
-                        "hp": 1912
-                  },
-                  {
-                        "att": 607,
-                        "def": 252,
-                        "hp": 1940
-                  },
-                  {
-                        "att": 618,
-                        "def": 255,
-                        "hp": 1969
-                  },
-                  {
-                        "att": 628,
-                        "def": 259,
-                        "hp": 1998
-                  },
-                  {
-                        "att": 639,
-                        "def": 263,
-                        "hp": 2027
-                  },
-                  {
-                        "att": 650,
-                        "def": 267,
-                        "hp": 2056
-                  },
-                  {
-                        "att": 660,
-                        "def": 271,
-                        "hp": 2085
-                  },
-                  {
-                        "att": 671,
-                        "def": 275,
-                        "hp": 2114
-                  },
-                  {
-                        "att": 682,
-                        "def": 278,
-                        "hp": 2143
-                  },
-                  {
-                        "att": 692,
-                        "def": 282,
-                        "hp": 2172
-                  },
-                  {
-                        "att": 703,
-                        "def": 286,
-                        "hp": 2201
-                  },
-                  {
-                        "att": 714,
-                        "def": 290,
-                        "hp": 2230
-                  },
-                  {
-                        "att": 724,
-                        "def": 294,
-                        "hp": 2259
-                  },
-                  {
-                        "att": 735,
-                        "def": 297,
-                        "hp": 2288
-                  },
-                  {
-                        "att": 746,
-                        "def": 301,
-                        "hp": 2317
-                  },
-                  {
-                        "att": 756,
-                        "def": 305,
-                        "hp": 2345
-                  },
-                  {
-                        "att": 767,
-                        "def": 309,
-                        "hp": 2374
-                  },
-                  {
-                        "att": 778,
-                        "def": 313,
-                        "hp": 2403
-                  },
-                  {
-                        "att": 788,
-                        "def": 316,
-                        "hp": 2432
-                  },
-                  {
-                        "att": 799,
-                        "def": 320,
-                        "hp": 2461
-                  },
-                  {
-                        "att": 810,
-                        "def": 324,
-                        "hp": 2490
-                  },
-                  {
-                        "att": 820,
-                        "def": 328,
-                        "hp": 2519
-                  },
-                  {
-                        "att": 831,
-                        "def": 332,
-                        "hp": 2548
-                  },
-                  {
-                        "att": 842,
-                        "def": 335,
-                        "hp": 2577
-                  },
-                  {
-                        "att": 852,
-                        "def": 339,
-                        "hp": 2606
-                  },
-                  {
-                        "att": 863,
-                        "def": 343,
-                        "hp": 2635
-                  },
-                  {
-                        "att": 874,
-                        "def": 347,
-                        "hp": 2664
-                  },
-                  {
-                        "att": 884,
-                        "def": 351,
-                        "hp": 2693
-                  },
-                  {
-                        "att": 988,
-                        "def": 385,
-                        "hp": 2969
-                  },
-                  {
-                        "att": 1001,
-                        "def": 390,
-                        "hp": 3005
-                  },
-                  {
-                        "att": 1014,
-                        "def": 395,
-                        "hp": 3041
-                  },
-                  {
-                        "att": 1028,
-                        "def": 400,
-                        "hp": 3077
-                  },
-                  {
-                        "att": 1041,
-                        "def": 405,
-                        "hp": 3113
-                  },
-                  {
-                        "att": 1054,
-                        "def": 409,
-                        "hp": 3150
-                  },
-                  {
-                        "att": 1068,
-                        "def": 414,
-                        "hp": 3186
-                  },
-                  {
-                        "att": 1081,
-                        "def": 419,
-                        "hp": 3222
-                  },
-                  {
-                        "att": 1094,
-                        "def": 424,
-                        "hp": 3258
-                  },
-                  {
-                        "att": 1108,
-                        "def": 428,
-                        "hp": 3294
-                  },
-                  {
-                        "att": 1121,
-                        "def": 433,
-                        "hp": 3330
-                  },
-                  {
-                        "att": 1134,
-                        "def": 438,
-                        "hp": 3366
-                  },
-                  {
-                        "att": 1148,
-                        "def": 443,
-                        "hp": 3403
-                  },
-                  {
-                        "att": 1161,
-                        "def": 447,
-                        "hp": 3439
-                  },
-                  {
-                        "att": 1174,
-                        "def": 452,
-                        "hp": 3475
-                  },
-                  {
-                        "att": 1188,
-                        "def": 457,
-                        "hp": 3511
-                  },
-                  {
-                        "att": 1201,
-                        "def": 462,
-                        "hp": 3547
-                  },
-                  {
-                        "att": 1214,
-                        "def": 466,
-                        "hp": 3583
-                  },
-                  {
-                        "att": 1228,
-                        "def": 471,
-                        "hp": 3620
-                  },
-                  {
-                        "att": 1241,
-                        "def": 476,
-                        "hp": 3656
-                  },
-                  {
-                        "att": 1254,
-                        "def": 481,
-                        "hp": 3692
-                  },
-                  {
-                        "att": 1268,
-                        "def": 485,
-                        "hp": 3728
-                  },
-                  {
-                        "att": 1281,
-                        "def": 490,
-                        "hp": 3764
-                  },
-                  {
-                        "att": 1294,
-                        "def": 495,
-                        "hp": 3800
-                  },
-                  {
-                        "att": 1308,
-                        "def": 500,
-                        "hp": 3837
-                  },
-                  {
-                        "att": 1321,
-                        "def": 505,
-                        "hp": 3873
-                  },
-                  {
-                        "att": 1334,
-                        "def": 509,
-                        "hp": 3909
-                  },
-                  {
-                        "att": 1348,
-                        "def": 514,
-                        "hp": 3945
-                  },
-                  {
-                        "att": 1361,
-                        "def": 519,
-                        "hp": 3981
-                  },
-                  {
-                        "att": 1374,
-                        "def": 524,
-                        "hp": 4017
-                  },
-                  {
-                        "att": 1388,
-                        "def": 528,
-                        "hp": 4054
-                  },
-                  {
-                        "att": 1401,
-                        "def": 533,
-                        "hp": 4090
-                  },
-                  {
-                        "att": 1414,
-                        "def": 538,
-                        "hp": 4126
-                  },
-                  {
-                        "att": 1428,
-                        "def": 543,
-                        "hp": 4162
-                  },
-                  {
-                        "att": 1441,
-                        "def": 547,
-                        "hp": 4198
-                  },
-                  {
-                        "att": 1454,
-                        "def": 552,
-                        "hp": 4234
-                  },
-                  {
-                        "att": 1468,
-                        "def": 557,
-                        "hp": 4270
-                  },
-                  {
-                        "att": 1481,
-                        "def": 562,
-                        "hp": 4307
-                  },
-                  {
-                        "att": 1494,
-                        "def": 566,
-                        "hp": 4343
-                  },
-                  {
-                        "att": 1508,
-                        "def": 571,
-                        "hp": 4379
-                  },
-                  {
-                        "att": 1658,
-                        "def": 625,
-                        "hp": 4786
-                  },
-                  {
-                        "att": 1668,
-                        "def": 628,
-                        "hp": 4813
-                  },
-                  {
-                        "att": 1678,
-                        "def": 632,
-                        "hp": 4840
-                  },
-                  {
-                        "att": 1688,
-                        "def": 635,
-                        "hp": 4867
-                  },
-                  {
-                        "att": 1698,
-                        "def": 639,
-                        "hp": 4895
-                  },
-                  {
-                        "att": 1708,
-                        "def": 643,
-                        "hp": 4922
-                  },
-                  {
-                        "att": 1718,
-                        "def": 646,
-                        "hp": 4949
-                  },
-                  {
-                        "att": 1728,
-                        "def": 650,
-                        "hp": 4976
-                  },
-                  {
-                        "att": 1738,
-                        "def": 653,
-                        "hp": 5003
-                  },
-                  {
-                        "att": 1748,
-                        "def": 657,
-                        "hp": 5030
-                  },
-                  {
-                        "att": 1758,
-                        "def": 660,
-                        "hp": 5057
-                  },
-                  {
-                        "att": 1768,
-                        "def": 664,
-                        "hp": 5084
-                  },
-                  {
-                        "att": 1778,
-                        "def": 668,
-                        "hp": 5112
-                  },
-                  {
-                        "att": 1788,
-                        "def": 671,
-                        "hp": 5139
-                  },
-                  {
-                        "att": 1798,
-                        "def": 675,
-                        "hp": 5166
-                  },
-                  {
-                        "att": 1808,
-                        "def": 678,
-                        "hp": 5193
-                  },
-                  {
-                        "att": 1818,
-                        "def": 682,
-                        "hp": 5220
-                  },
-                  {
-                        "att": 1828,
-                        "def": 685,
-                        "hp": 5247
-                  },
-                  {
-                        "att": 1838,
-                        "def": 689,
-                        "hp": 5274
-                  },
-                  {
-                        "att": 1848,
-                        "def": 693,
-                        "hp": 5301
-                  },
-                  {
-                        "att": 1858,
-                        "def": 696,
-                        "hp": 5328
-                  },
-                  {
-                        "att": 1868,
-                        "def": 700,
-                        "hp": 5356
-                  },
-                  {
-                        "att": 1878,
-                        "def": 703,
-                        "hp": 5383
-                  },
-                  {
-                        "att": 1888,
-                        "def": 707,
-                        "hp": 5410
-                  },
-                  {
-                        "att": 1898,
-                        "def": 710,
-                        "hp": 5437
-                  },
-                  {
-                        "att": 1908,
-                        "def": 714,
-                        "hp": 5464
-                  },
-                  {
-                        "att": 1918,
-                        "def": 718,
-                        "hp": 5491
-                  },
-                  {
-                        "att": 1928,
-                        "def": 721,
-                        "hp": 5518
-                  },
-                  {
-                        "att": 1938,
-                        "def": 725,
-                        "hp": 5545
-                  },
-                  {
-                        "att": 1948,
-                        "def": 728,
-                        "hp": 5573
-                  },
-                  {
-                        "att": 1958,
-                        "def": 732,
-                        "hp": 5600
-                  },
-                  {
-                        "att": 1968,
-                        "def": 735,
-                        "hp": 5627
-                  },
-                  {
-                        "att": 1978,
-                        "def": 739,
-                        "hp": 5654
-                  },
-                  {
-                        "att": 1988,
-                        "def": 743,
-                        "hp": 5681
-                  },
-                  {
-                        "att": 1998,
-                        "def": 746,
-                        "hp": 5708
-                  },
-                  {
-                        "att": 2008,
-                        "def": 750,
-                        "hp": 5735
-                  },
-                  {
-                        "att": 2018,
-                        "def": 753,
-                        "hp": 5762
-                  },
-                  {
-                        "att": 2028,
-                        "def": 757,
-                        "hp": 5790
-                  },
-                  {
-                        "att": 2038,
-                        "def": 760,
-                        "hp": 5817
-                  },
-                  {
-                        "att": 2048,
-                        "def": 764,
-                        "hp": 5844
-                  },
-                  {
-                        "att": 2058,
-                        "def": 768,
-                        "hp": 5871
-                  },
-                  {
-                        "att": 2068,
-                        "def": 771,
-                        "hp": 5898
-                  },
-                  {
-                        "att": 2078,
-                        "def": 775,
-                        "hp": 5925
-                  },
-                  {
-                        "att": 2088,
-                        "def": 778,
-                        "hp": 5952
-                  },
-                  {
-                        "att": 2098,
-                        "def": 782,
-                        "hp": 5979
-                  },
-                  {
-                        "att": 2108,
-                        "def": 785,
-                        "hp": 6006
-                  },
-                  {
-                        "att": 2118,
-                        "def": 789,
-                        "hp": 6034
-                  },
-                  {
-                        "att": 2128,
-                        "def": 793,
-                        "hp": 6061
-                  },
-                  {
-                        "att": 2138,
-                        "def": 796,
-                        "hp": 6088
-                  },
-                  {
-                        "att": 2148,
-                        "def": 800,
-                        "hp": 6115
-                  }
-            ]
-      }
+ "name": "Sork & Bekk",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Detonator",
+ "skill": {
+  "name": "M23 High Explosive",
+  "cd": "2 Turn",
+  "description": [
+   "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and to enemies within 1 surrounding cluster.",
+   "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and enemies within 1 surrounding cluster, and inflicts Burn (2 stacks on the first enemy, 1 stack on the rest) for 2 rounds."
+  ]
+ },
+ "equip": {
+  "name": "Grenade & Sniper",
+  "passive": "Bombardment",
+  "description": [
+   [
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 50%."
+   ],
+   [
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 50%."
+   ]
+  ],
+  "introduction": "A high-temperature grenade launcher and a light mini sniper rifle\u2014this combo of weapons is used exclusively by Sork and Bekk. Sork uses the grenade launcher, while Bekk uses the sniper rifle, and the two of them work in perfect unison to easily defeat hordes of enemies."
+ },
+ "chain": {
+  "name": "Raging Bekk",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Flare Powder",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Active Skill damage by 50%."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Potion I",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and to enemies within 1 surrounding cluster.",
+   "after": "Attacks in any 1 selected direction. Deals 240% damage to the first enemy hit and enemies within 1 surrounding cluster, and inflicts Burn (2 stacks on the first enemy, 1 stack on the rest) for 2 rounds."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 575,
+    "def": 240,
+    "hp": 1854
+   },
+   {
+    "att": 586,
+    "def": 244,
+    "hp": 1883
+   },
+   {
+    "att": 596,
+    "def": 248,
+    "hp": 1912
+   },
+   {
+    "att": 607,
+    "def": 252,
+    "hp": 1940
+   },
+   {
+    "att": 618,
+    "def": 255,
+    "hp": 1969
+   },
+   {
+    "att": 628,
+    "def": 259,
+    "hp": 1998
+   },
+   {
+    "att": 639,
+    "def": 263,
+    "hp": 2027
+   },
+   {
+    "att": 650,
+    "def": 267,
+    "hp": 2056
+   },
+   {
+    "att": 660,
+    "def": 271,
+    "hp": 2085
+   },
+   {
+    "att": 671,
+    "def": 275,
+    "hp": 2114
+   },
+   {
+    "att": 682,
+    "def": 278,
+    "hp": 2143
+   },
+   {
+    "att": 692,
+    "def": 282,
+    "hp": 2172
+   },
+   {
+    "att": 703,
+    "def": 286,
+    "hp": 2201
+   },
+   {
+    "att": 714,
+    "def": 290,
+    "hp": 2230
+   },
+   {
+    "att": 724,
+    "def": 294,
+    "hp": 2259
+   },
+   {
+    "att": 735,
+    "def": 297,
+    "hp": 2288
+   },
+   {
+    "att": 746,
+    "def": 301,
+    "hp": 2317
+   },
+   {
+    "att": 756,
+    "def": 305,
+    "hp": 2345
+   },
+   {
+    "att": 767,
+    "def": 309,
+    "hp": 2374
+   },
+   {
+    "att": 778,
+    "def": 313,
+    "hp": 2403
+   },
+   {
+    "att": 788,
+    "def": 316,
+    "hp": 2432
+   },
+   {
+    "att": 799,
+    "def": 320,
+    "hp": 2461
+   },
+   {
+    "att": 810,
+    "def": 324,
+    "hp": 2490
+   },
+   {
+    "att": 820,
+    "def": 328,
+    "hp": 2519
+   },
+   {
+    "att": 831,
+    "def": 332,
+    "hp": 2548
+   },
+   {
+    "att": 842,
+    "def": 335,
+    "hp": 2577
+   },
+   {
+    "att": 852,
+    "def": 339,
+    "hp": 2606
+   },
+   {
+    "att": 863,
+    "def": 343,
+    "hp": 2635
+   },
+   {
+    "att": 874,
+    "def": 347,
+    "hp": 2664
+   },
+   {
+    "att": 884,
+    "def": 351,
+    "hp": 2693
+   },
+   {
+    "att": 988,
+    "def": 385,
+    "hp": 2969
+   },
+   {
+    "att": 1001,
+    "def": 390,
+    "hp": 3005
+   },
+   {
+    "att": 1014,
+    "def": 395,
+    "hp": 3041
+   },
+   {
+    "att": 1028,
+    "def": 400,
+    "hp": 3077
+   },
+   {
+    "att": 1041,
+    "def": 405,
+    "hp": 3113
+   },
+   {
+    "att": 1054,
+    "def": 409,
+    "hp": 3150
+   },
+   {
+    "att": 1068,
+    "def": 414,
+    "hp": 3186
+   },
+   {
+    "att": 1081,
+    "def": 419,
+    "hp": 3222
+   },
+   {
+    "att": 1094,
+    "def": 424,
+    "hp": 3258
+   },
+   {
+    "att": 1108,
+    "def": 428,
+    "hp": 3294
+   },
+   {
+    "att": 1121,
+    "def": 433,
+    "hp": 3330
+   },
+   {
+    "att": 1134,
+    "def": 438,
+    "hp": 3366
+   },
+   {
+    "att": 1148,
+    "def": 443,
+    "hp": 3403
+   },
+   {
+    "att": 1161,
+    "def": 447,
+    "hp": 3439
+   },
+   {
+    "att": 1174,
+    "def": 452,
+    "hp": 3475
+   },
+   {
+    "att": 1188,
+    "def": 457,
+    "hp": 3511
+   },
+   {
+    "att": 1201,
+    "def": 462,
+    "hp": 3547
+   },
+   {
+    "att": 1214,
+    "def": 466,
+    "hp": 3583
+   },
+   {
+    "att": 1228,
+    "def": 471,
+    "hp": 3620
+   },
+   {
+    "att": 1241,
+    "def": 476,
+    "hp": 3656
+   },
+   {
+    "att": 1254,
+    "def": 481,
+    "hp": 3692
+   },
+   {
+    "att": 1268,
+    "def": 485,
+    "hp": 3728
+   },
+   {
+    "att": 1281,
+    "def": 490,
+    "hp": 3764
+   },
+   {
+    "att": 1294,
+    "def": 495,
+    "hp": 3800
+   },
+   {
+    "att": 1308,
+    "def": 500,
+    "hp": 3837
+   },
+   {
+    "att": 1321,
+    "def": 505,
+    "hp": 3873
+   },
+   {
+    "att": 1334,
+    "def": 509,
+    "hp": 3909
+   },
+   {
+    "att": 1348,
+    "def": 514,
+    "hp": 3945
+   },
+   {
+    "att": 1361,
+    "def": 519,
+    "hp": 3981
+   },
+   {
+    "att": 1374,
+    "def": 524,
+    "hp": 4017
+   },
+   {
+    "att": 1388,
+    "def": 528,
+    "hp": 4054
+   },
+   {
+    "att": 1401,
+    "def": 533,
+    "hp": 4090
+   },
+   {
+    "att": 1414,
+    "def": 538,
+    "hp": 4126
+   },
+   {
+    "att": 1428,
+    "def": 543,
+    "hp": 4162
+   },
+   {
+    "att": 1441,
+    "def": 547,
+    "hp": 4198
+   },
+   {
+    "att": 1454,
+    "def": 552,
+    "hp": 4234
+   },
+   {
+    "att": 1468,
+    "def": 557,
+    "hp": 4270
+   },
+   {
+    "att": 1481,
+    "def": 562,
+    "hp": 4307
+   },
+   {
+    "att": 1494,
+    "def": 566,
+    "hp": 4343
+   },
+   {
+    "att": 1508,
+    "def": 571,
+    "hp": 4379
+   },
+   {
+    "att": 1658,
+    "def": 625,
+    "hp": 4786
+   },
+   {
+    "att": 1668,
+    "def": 628,
+    "hp": 4813
+   },
+   {
+    "att": 1678,
+    "def": 632,
+    "hp": 4840
+   },
+   {
+    "att": 1688,
+    "def": 635,
+    "hp": 4867
+   },
+   {
+    "att": 1698,
+    "def": 639,
+    "hp": 4895
+   },
+   {
+    "att": 1708,
+    "def": 643,
+    "hp": 4922
+   },
+   {
+    "att": 1718,
+    "def": 646,
+    "hp": 4949
+   },
+   {
+    "att": 1728,
+    "def": 650,
+    "hp": 4976
+   },
+   {
+    "att": 1738,
+    "def": 653,
+    "hp": 5003
+   },
+   {
+    "att": 1748,
+    "def": 657,
+    "hp": 5030
+   },
+   {
+    "att": 1758,
+    "def": 660,
+    "hp": 5057
+   },
+   {
+    "att": 1768,
+    "def": 664,
+    "hp": 5084
+   },
+   {
+    "att": 1778,
+    "def": 668,
+    "hp": 5112
+   },
+   {
+    "att": 1788,
+    "def": 671,
+    "hp": 5139
+   },
+   {
+    "att": 1798,
+    "def": 675,
+    "hp": 5166
+   },
+   {
+    "att": 1808,
+    "def": 678,
+    "hp": 5193
+   },
+   {
+    "att": 1818,
+    "def": 682,
+    "hp": 5220
+   },
+   {
+    "att": 1828,
+    "def": 685,
+    "hp": 5247
+   },
+   {
+    "att": 1838,
+    "def": 689,
+    "hp": 5274
+   },
+   {
+    "att": 1848,
+    "def": 693,
+    "hp": 5301
+   },
+   {
+    "att": 1858,
+    "def": 696,
+    "hp": 5328
+   },
+   {
+    "att": 1868,
+    "def": 700,
+    "hp": 5356
+   },
+   {
+    "att": 1878,
+    "def": 703,
+    "hp": 5383
+   },
+   {
+    "att": 1888,
+    "def": 707,
+    "hp": 5410
+   },
+   {
+    "att": 1898,
+    "def": 710,
+    "hp": 5437
+   },
+   {
+    "att": 1908,
+    "def": 714,
+    "hp": 5464
+   },
+   {
+    "att": 1918,
+    "def": 718,
+    "hp": 5491
+   },
+   {
+    "att": 1928,
+    "def": 721,
+    "hp": 5518
+   },
+   {
+    "att": 1938,
+    "def": 725,
+    "hp": 5545
+   },
+   {
+    "att": 1948,
+    "def": 728,
+    "hp": 5573
+   },
+   {
+    "att": 1958,
+    "def": 732,
+    "hp": 5600
+   },
+   {
+    "att": 1968,
+    "def": 735,
+    "hp": 5627
+   },
+   {
+    "att": 1978,
+    "def": 739,
+    "hp": 5654
+   },
+   {
+    "att": 1988,
+    "def": 743,
+    "hp": 5681
+   },
+   {
+    "att": 1998,
+    "def": 746,
+    "hp": 5708
+   },
+   {
+    "att": 2008,
+    "def": 750,
+    "hp": 5735
+   },
+   {
+    "att": 2018,
+    "def": 753,
+    "hp": 5762
+   },
+   {
+    "att": 2028,
+    "def": 757,
+    "hp": 5790
+   },
+   {
+    "att": 2038,
+    "def": 760,
+    "hp": 5817
+   },
+   {
+    "att": 2048,
+    "def": 764,
+    "hp": 5844
+   },
+   {
+    "att": 2058,
+    "def": 768,
+    "hp": 5871
+   },
+   {
+    "att": 2068,
+    "def": 771,
+    "hp": 5898
+   },
+   {
+    "att": 2078,
+    "def": 775,
+    "hp": 5925
+   },
+   {
+    "att": 2088,
+    "def": 778,
+    "hp": 5952
+   },
+   {
+    "att": 2098,
+    "def": 782,
+    "hp": 5979
+   },
+   {
+    "att": 2108,
+    "def": 785,
+    "hp": 6006
+   },
+   {
+    "att": 2118,
+    "def": 789,
+    "hp": 6034
+   },
+   {
+    "att": 2128,
+    "def": 793,
+    "hp": 6061
+   },
+   {
+    "att": 2138,
+    "def": 796,
+    "hp": 6088
+   },
+   {
+    "att": 2148,
+    "def": 800,
+    "hp": 6115
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Korgon",
+     "Sork & Bekk"
+    ],
+    "chat": [
+     {
+      "character": "Korgon:",
+      "text": "Hey pal, you look like someone who loves swimming!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) I could say the same for you! So you know how to swim?"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Hahaha! You kidding? I was practically born doing the breast-stroke!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) Then why don't we have a friendly little contest?"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) Chirp! What are you two going on about? I'm standing here too, you know!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Oh, my bad! I didn't realize there was a third fella here!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "You look so cute, too!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) C-Cute?! Take a look at my gun! Still think I'm cute?!"
+     },
+     {
+      "character": "Korgon:",
+      "text": "Aww, you're even cuter when you throw a tantrum! Hahaha!"
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Sork) Agreed. She can be somewhat cute every now and then, once you get to know her."
+     },
+     {
+      "character": "Sork & Bekk:",
+      "text": "(Bekk) Chirp! You're on the same side now?! Your brains must be waterlogged!!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Their Experiences",
+   "files": "You mean the crocodile and the bird? They're with Rediesel Wrench. As you know, we've had bad run-ins with them and Sinsa even put up some sort of bounty. It came off the table quickly since Sinsa was just half-joking. But Sork and Bekk, the crocodile and the bird, took it seriously. It's hard to imagine they actually tracked us for so long. Well, they realized after we met that the bounty was worthless when we finally convinced Sinsa to clear the issue up. However, probably because they didn't want to come all the way here for nothing, they took us as a new client and Colossus for another base. I think they won't be going anywhere for now. \u2014Vice"
+  },
+  {
+   "file_name": "Their Story (I)",
+   "files": "I have such a massive maw but I don't eat much... I'm cold-blooded, after all! That's why I didn't eat Bekk that day! She was lucky... No, I mean she's lucky to find a great buddy like me! I remember she was crushed under a pile of rocks for several days without food or drink. I happened to pass by. She told me she wasn't even big enough to eat, but she could pick my fangs clean for me! So that's how we became partners.\u2014Sork"
+  },
+  {
+   "file_name": "Their Story (II)",
+   "files": "The bird is actually a poor thing. Where she lived has no name, because not even her parents know it, but they can actually live as long as anyone, and they supposedly enjoyed prestige in a certain small town, until the Eclipsites destroyed it all. Anyway, there went the happy times. To survive, Bekk's parents often went out scrounging for food, leaving Bekk alone in the nest. It was a big nest, but usually with just Bekk in it. So then came Bekk's friend Sork one day. That Sork wasn't me. It was another birdie. But birdie Sork and bird Bekk's parents got killed by the Eclipsites. Birdie Bekk's parents pushed her out of the next to save her, and birdie Sork took the falling rocks for her so they wouldn't knock her out... She was unfortunate. \u2014Sork"
+  },
+  {
+   "file_name": "Their Story (III)",
+   "files": "My name didn't use to be Sork but Gana. Before I met Bekk, I was the only croc ever to get some ancient machine to work for my tribe! Don't judge me by my big maw, I'm not stupid! I fixed that old machine and became the sage!However, somebody brought the Eclipsite and that destroyed the tribe and our forest. So, I started wandering around, homeless, and met that birdie Bekk. She called me Sork because she was fond of that name... It's fine with me.Then we came to the Rediesel Wrench. Since I'm used to her picking my fangs anyway, it's cool for us to fight together too.--Sork"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "- Too many noisy people. Sometimes you just wanna shoot them all dead.- Uh... Chirp!",
+  "As for grenades, the ones from Illumina are the best. They're light and make quite a bang.",
+  "Desperado! Attack!",
+  "- Feed them to sandworms.- In small chunks.",
+  "Good luck trying to get us to agree with you anytime soon. After all, you still got a long way to go to catch up to Sinsa.",
+  "- Kuma and Pengy don't need guns, their weapons are only bluffs.- Oh! Chirp!",
+  "10-year-old grease dipped in 5 years worth of gun sludge... Delicious.",
+  "Damn it, jammed again! This is the worst!",
+  "How about we fire and blast the damn Eclipsites with it!",
+  "- We want our due and not one penny less!- Chirp!",
+  "Must I smile? It could scare you. Eh, whatever, as long as I get paid.",
+  "- Bekk, take cover in my jaws now!- Gotta go, chirp!",
+  "- Just par for the course.- Chirp, chirp!",
+  "Boom! Bang!",
+  "It's our turn!",
+  "Target locked.",
+  "- New Year? Well, Happy New Year.- Chirp!",
+  "Those who treat this as a hobby should stand aside.",
+  "Let us decorate them with bullet holes!",
+  "Another bunch of sitting ducks.",
+  "Since you're busy, how about leaving it to us to tidy it up?",
+  "Accuracy improved!",
+  "- Alchemy.- Stars! Stars! Stars!",
+  "- Me, fierce? Um, I'm farsighted, but it might just be me wanting to eat you.- Chirp chirp chirp!",
+  "- Oh...- Quiet. Don't disturb me when I'm checking my rounds, or there's a bullet with your name on it.- Chirp.",
+  "Don't compare me to those two clowns. You toss them in the Old Capital and see how long they live, numbnuts!",
+  "- I got to take care of my bestest buddy, you know... - Your bestest buddy?- Shh, I'm polishing my gun.",
+  "- We need a target to practice. Wanna be my target?- But what if you hurt me?- Well, you tell me.- You're so irresponsible!",
+  "I wasn't looking at the young ladies! As a professional gunner, getting distracted by merely that is impossible!!",
+  "- It would be nice to find a girl taller than me to partner with, though.- What did you say!? Chirp!",
+  "I'm a merciless gunner and wouldn't leave tracks behind like that, got it? It was all this guy's fault.",
+  "Don't I look super cool from the side? Ain't it the perfect picture of a composed merc?",
+  "- Let's play a game. Loser gets to be tonight's dinner.- You're joking, right?",
+  "No smoking here? And? You could get skinned and made into a purse for meddling, kid.",
+  "A new quest?",
+  "A boring job.",
+  "Bad air quality! Cough! Chirp!",
+  "Leave now. The Colossus is ours already.",
+  "I'm Sork and this here is Bekk. We just made a bet on when the Eclipsites will devour you. Wanna get in on it?",
+  "That's all?",
+  "Whoa, it's very worth the time!",
+  "This one's nice! Me likey!",
+  "Wow... Thanks much! Chirp!",
+  "Fire!",
+  "In one side, out the other! Chirp!",
+  "In position.",
+  "It's good not to have to worry about the shortage of ammo. But occasionally I miss the days wandering on the wasteland and bargaining with profiteers... Bargaining tricks? No trick at all. Just throw your gun on the counter, and done.",
+  "- What would you do when the Eclipsites come in swarms that block out the sun?- Fire, of course. Chirp! -No, it's obvious you should be wishing for even more Eclipsites, dumbass bird.",
+  "Anyone with a yellow streak? Now's the last chance to run for your life."
+ ],
+ "skins": [],
+ "description": "Even within the unconventional Rediesel Wrench, a taciturn crocodile grenadier and a noisy bird sniper would be considered a curious duo. Although they vary greatly in appearance, they cooperate seamlessly and their services are reasonably priced, making them mercenaries worth hiring.",
+ "realName": "Sork & Bekk",
+ "nickname": "Hot-headed Swamp Duo",
+ "gender": "Male/Female",
+ "height": "6'8\"/1'0\"",
+ "birthday": "May 6/Unknown",
+ "birthplace": "Miramark Forest/Unknown",
+ "style": "Firearm Bombardment"
 }

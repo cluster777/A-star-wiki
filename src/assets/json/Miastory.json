@@ -1,0 +1,996 @@
+{
+ "title": "Wednesday's Date",
+ "header": "You decide to confront Mia about her other personality, Baba Yaga, that has been bullying you recently, but then realize that Baba Yaga did that only because you had provoked someone you shouldn't have.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not a weird question. I just want to ask something about Baba Yaga."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "You mean, Baba Yaga has been teasing you recently?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "But you're not sure why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yep."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like this morning, I was about to take a shower after I woke up when..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Anyway, I don't know why, but I feel like everyone is staring at me?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "...Navigator..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, Vice, good morning!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "... Your face?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What's the matter with my face?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Pfft... Ahem, the drawing on your face..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Is it the latest trend?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?! Drawing? What drawing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I wonder if someone drew something strange on my face when I was sleeping?!)"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I thought you drew it on purpose."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Well, the drawing itself is quite refined, from the delicate brushwork to the exquisite coloring. It's quite a complete artwork."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "But the style is so malicious that it looks like a cracked ground that has been hammered by something heavy."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "And the lightning strikes on the side... Must be hinting that the puncher specializes in using thunderbolts."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Who the hell did this!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "But, but this can't prove that it was Baba Yaga who did it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "It can't be proven with only these...",
+     "link": "1"
+    },
+    {
+     "text": "No one but her would tease me like this",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "But the evidence I found later is very conclusive!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, that's not my point! Anyway, listen to me first..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened last night... Why do I have zero recollection of it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute! I think Baba Yaga wanted to buy me some milk last night?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Tee-hee! You finally got it! That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it was you!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "I just wanted you to have a good night's sleep, any problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "None at all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As if! You put me in such a deep sleep just to draw on my face?!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Careful Navigator! Such anger will raise your blood pressure!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Just having fun once in a while. It's so boring on the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's fine if it's just from time to time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it has been three consecutive days!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Ah, has it been three days already?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You locked my room door the day before yesterday, and I had to tear the door down thinking that my lock was broken..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You messed with my alarm the day before that, and I was scolded by Vice for waking up two hours late..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Hahahaha!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "You look like you're having fun, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What makes you think that? Speaking of which..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I offend you somehow?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or do you just find it fun to play tricks on me...?"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "... The latter is correct! As for the former... Tee-hee!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Why don't you ask my sister, hahaha!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's what she said."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So! You do know something!",
+     "link": "4"
+    },
+    {
+     "text": "You're acting funny...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Mia:",
+     "dialogue": "... This is prejudice!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, that's not my point! Anyway, listen to me first..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened last night... Why do I have zero recollection of it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute! I think Baba Yaga wanted to buy me some milk last night?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Tee-hee! You finally got it! That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it was you!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "I just wanted you to have a good night's sleep, any problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "None at all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As if! You put me in such a deep sleep just to draw on my face?!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Careful Navigator! Such anger will raise your blood pressure!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Just having fun once in a while. It's so boring on the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's fine if it's just from time to time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it has been three consecutive days!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Ah, has it been three days already?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You locked my room door the day before yesterday, and I had to tear the door down thinking that my lock was broken..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You messed with my alarm the day before that, and I was scolded by Vice for waking up two hours late..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Hahahaha!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "You look like you're having fun, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What makes you think that? Speaking of which..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I offend you somehow?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or do you just find it fun to play tricks on me...?"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "... The latter is correct! As for the former... Tee-hee!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Why don't you ask my sister, hahaha!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's what she said."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So! You do know something!",
+     "link": "4"
+    },
+    {
+     "text": "You're acting funny...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened last night... Why do I have zero recollection of it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute! I think Baba Yaga wanted to buy me some milk last night?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Tee-hee! You finally got it! That's it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it was you!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "I just wanted you to have a good night's sleep, any problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "None at all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As if! You put me in such a deep sleep just to draw on my face?!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Careful Navigator! Such anger will raise your blood pressure!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Just having fun once in a while. It's so boring on the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's fine if it's just from time to time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it has been three consecutive days!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Ah, has it been three days already?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You locked my room door the day before yesterday, and I had to tear the door down thinking that my lock was broken..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You messed with my alarm the day before that, and I was scolded by Vice for waking up two hours late..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Hahahaha!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "You look like you're having fun, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What makes you think that? Speaking of which..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I offend you somehow?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or do you just find it fun to play tricks on me...?"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "... The latter is correct! As for the former... Tee-hee!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Why don't you ask my sister, hahaha!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's what she said."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So! You do know something!",
+     "link": "4"
+    },
+    {
+     "text": "You're acting funny...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Mia:",
+     "dialogue": "... I, I should know?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I do something that upset Mia?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So Mia's the one I've actually crossed?!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Took you long enough..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what did I do wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I apologize for whatever I did! Just don't let Baba Yaga harass me anymore..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "... Need I remind you, it's Wednesday?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wednesday? Let me see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm, daily physical training in the morning, then writing reports in my room from afternoon till evening..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... Is there anything else?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "So..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "You still haven't realized your mistake...!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Did I forget my date with Mia?",
+     "link": "7"
+    },
+    {
+     "text": "Did I forget my date with Baba Yaga?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Mia:",
+     "dialogue": "No, no way, you're overthinking it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I do something that upset Mia?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So Mia's the one I've actually crossed?!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Took you long enough..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what did I do wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I apologize for whatever I did! Just don't let Baba Yaga harass me anymore..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "... Need I remind you, it's Wednesday?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wednesday? Let me see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm, daily physical training in the morning, then writing reports in my room from afternoon till evening..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... Is there anything else?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "So..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "You still haven't realized your mistake...!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Did I forget my date with Mia?",
+     "link": "7"
+    },
+    {
+     "text": "Did I forget my date with Baba Yaga?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "... Did I do something that upset Mia?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So Mia's the one I've actually crossed?!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Took you long enough..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what did I do wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I apologize for whatever I did! Just don't let Baba Yaga harass me anymore..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "... Need I remind you, it's Wednesday?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wednesday? Let me see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm, daily physical training in the morning, then writing reports in my room from afternoon till evening..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... Is there anything else?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "So..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "You still haven't realized your mistake...!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Did I forget my date with Mia?",
+     "link": "7"
+    },
+    {
+     "text": "Did I forget my date with Baba Yaga?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Mia:",
+     "dialogue": "Whoa, you...What are you talking about!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, of course, I'm joking...How can that be possible?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I still can't remember what mistake I made..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Another hint...You had a date that afternoon, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Afternoon? Date?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was supposed to be out with Carleen Wednesday afternoon..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "?! So you mean Carleen?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you really mean Carleen?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, it wasn't a date! I asked her out for proper business!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And I have apologized to her!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "She looked very disappointed... Anyway, you did reject her!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "How can you disappoint a girl like that...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... Have you been peeping around!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "That, that wasn't peeping...!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "I was just passing by..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, I've figured out why Baba Yaga had been teasing me recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You could have just told me in person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And I still want to explain that it wasn't a date!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Telling you myself is a little bit..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "So I asked Baba Yaga to tell you."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "But, but teasing you was her idea..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "I didn't stop her, though..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Let me apologize alright! I'm apologizing to you and Carleen right now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, can you please ask her not to come anymore..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... Wait?! Why should I apologize to you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should only be apologizing to Carleen!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...So, you actually do care about Carleen huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But come to think of it, you haven't even met each other that much, much less talked alone?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does Mia actually know Carleen well?"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "She refuses to answer questions regarding this matter. Generally speaking, it's..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "None... Of... Your... Business!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Baba Yaga?! Can you inform me before switching!!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "It's our choice to switch or not switch. Why should we let you know! Tee-hee!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute, I haven't apologized to her yet..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Hmm... That's true!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That means..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "You've guessed right! I will be back again tomorrow!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "What are we going to play tomorrow?\nTake a guess, hahaha!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Mia:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, of course, I'm joking...How can that be possible?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I still can't remember what mistake I made..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Another hint...You had a date that afternoon, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Afternoon? Date?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was supposed to be out with Carleen Wednesday afternoon..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "?! So you mean Carleen?"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you really mean Carleen?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, it wasn't a date! I asked her out for proper business!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And I have apologized to her!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "She looked very disappointed... Anyway, you did reject her!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "How can you disappoint a girl like that...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... Have you been peeping around!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "That, that wasn't peeping...!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "I was just passing by..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, I've figured out why Baba Yaga had been teasing me recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You could have just told me in person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And I still want to explain that it wasn't a date!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "Telling you myself is a little bit..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "So I asked Baba Yaga to tell you."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "But, but teasing you was her idea..."
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "I didn't stop her, though..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Let me apologize alright! I'm apologizing to you and Carleen right now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, can you please ask her not to come anymore..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... Wait?! Why should I apologize to you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should only be apologizing to Carleen!"
+    },
+    {
+     "char": "Mia:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...So, you actually do care about Carleen huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But come to think of it, you haven't even met each other that much, much less talked alone?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does Mia actually know Carleen well?"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "She refuses to answer questions regarding this matter. Generally speaking, it's..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "None... Of... Your... Business!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Baba Yaga?! Can you inform me before switching!!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "It's our choice to switch or not switch. Why should we let you know! Tee-hee!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait a minute, I haven't apologized to her yet..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "Hmm... That's true!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That means..."
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "You've guessed right! I will be back again tomorrow!"
+    },
+    {
+     "char": "\"Baba Yaga\":",
+     "dialogue": "What are we going to play tomorrow?\nTake a guess, hahaha!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

@@ -45,7 +45,7 @@ export default {
       faction:this.chardata.faction,
       ascensiondesc:this.chardata.ascension,
       rarity:Number(this.chardata.rarity),
-      name:"placeholder",
+      name:this.chardata.skill.name,
       detail:this.chardata.skill.description,
       ActiveDescription:this.chardata.skill.description[0],
       CD:this.chardata.skill.cd,

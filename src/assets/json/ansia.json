@@ -1,1153 +1,1314 @@
 {
-      "name": "Ansia",
-      "faction": "Illumina Federation",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "Deals 200% damage to 2 surrounding clusters and resets all non-Yellow tiles within the area of attack. There is a small chance to generate Yellow tiles."
-            ]
-      },
-      "equip": {
-            "name": "Diffusion",
-            "passive": "Sound Edge",
-            "description": [
-                  [
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
-                  ],
-                  [
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
-                  ],
-                  [
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
-                        "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to enemies within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to enemies within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Crystal Dust",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal",
-                        "Thunder Potion I",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "Deals 145% damage to enemies within 2 surrounding clusters.",
-                  "after": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
-            },
-            {
-                  "material": [
-                        "Thunder Potion III",
-                        "Thunder Flare Rock",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
-                  "after": "Deals 200% damage to 2 surrounding clusters and resets all non-Yellow tiles within the area of attack. There is a small chance to generate Yellow tiles."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 523,
-                        "def": 205,
-                        "hp": 1598
-                  },
-                  {
-                        "att": 533,
-                        "def": 208,
-                        "hp": 1622
-                  },
-                  {
-                        "att": 544,
-                        "def": 211,
-                        "hp": 1645
-                  },
-                  {
-                        "att": 554,
-                        "def": 215,
-                        "hp": 1668
-                  },
-                  {
-                        "att": 564,
-                        "def": 218,
-                        "hp": 1691
-                  },
-                  {
-                        "att": 574,
-                        "def": 221,
-                        "hp": 1714
-                  },
-                  {
-                        "att": 584,
-                        "def": 225,
-                        "hp": 1737
-                  },
-                  {
-                        "att": 595,
-                        "def": 228,
-                        "hp": 1760
-                  },
-                  {
-                        "att": 605,
-                        "def": 232,
-                        "hp": 1783
-                  },
-                  {
-                        "att": 615,
-                        "def": 235,
-                        "hp": 1806
-                  },
-                  {
-                        "att": 625,
-                        "def": 238,
-                        "hp": 1830
-                  },
-                  {
-                        "att": 635,
-                        "def": 242,
-                        "hp": 1853
-                  },
-                  {
-                        "att": 646,
-                        "def": 245,
-                        "hp": 1876
-                  },
-                  {
-                        "att": 656,
-                        "def": 248,
-                        "hp": 1899
-                  },
-                  {
-                        "att": 666,
-                        "def": 252,
-                        "hp": 1922
-                  },
-                  {
-                        "att": 676,
-                        "def": 255,
-                        "hp": 1945
-                  },
-                  {
-                        "att": 686,
-                        "def": 258,
-                        "hp": 1968
-                  },
-                  {
-                        "att": 696,
-                        "def": 262,
-                        "hp": 1991
-                  },
-                  {
-                        "att": 707,
-                        "def": 265,
-                        "hp": 2015
-                  },
-                  {
-                        "att": 717,
-                        "def": 268,
-                        "hp": 2038
-                  },
-                  {
-                        "att": 727,
-                        "def": 272,
-                        "hp": 2061
-                  },
-                  {
-                        "att": 737,
-                        "def": 275,
-                        "hp": 2084
-                  },
-                  {
-                        "att": 747,
-                        "def": 278,
-                        "hp": 2107
-                  },
-                  {
-                        "att": 758,
-                        "def": 282,
-                        "hp": 2130
-                  },
-                  {
-                        "att": 768,
-                        "def": 285,
-                        "hp": 2153
-                  },
-                  {
-                        "att": 778,
-                        "def": 289,
-                        "hp": 2176
-                  },
-                  {
-                        "att": 788,
-                        "def": 292,
-                        "hp": 2199
-                  },
-                  {
-                        "att": 798,
-                        "def": 295,
-                        "hp": 2223
-                  },
-                  {
-                        "att": 809,
-                        "def": 299,
-                        "hp": 2246
-                  },
-                  {
-                        "att": 819,
-                        "def": 302,
-                        "hp": 2269
-                  },
-                  {
-                        "att": 921,
-                        "def": 336,
-                        "hp": 2538
-                  },
-                  {
-                        "att": 934,
-                        "def": 340,
-                        "hp": 2567
-                  },
-                  {
-                        "att": 947,
-                        "def": 345,
-                        "hp": 2596
-                  },
-                  {
-                        "att": 960,
-                        "def": 349,
-                        "hp": 2624
-                  },
-                  {
-                        "att": 972,
-                        "def": 353,
-                        "hp": 2653
-                  },
-                  {
-                        "att": 985,
-                        "def": 357,
-                        "hp": 2682
-                  },
-                  {
-                        "att": 998,
-                        "def": 361,
-                        "hp": 2711
-                  },
-                  {
-                        "att": 1011,
-                        "def": 365,
-                        "hp": 2740
-                  },
-                  {
-                        "att": 1023,
-                        "def": 370,
-                        "hp": 2769
-                  },
-                  {
-                        "att": 1036,
-                        "def": 374,
-                        "hp": 2798
-                  },
-                  {
-                        "att": 1049,
-                        "def": 378,
-                        "hp": 2827
-                  },
-                  {
-                        "att": 1062,
-                        "def": 382,
-                        "hp": 2856
-                  },
-                  {
-                        "att": 1074,
-                        "def": 386,
-                        "hp": 2885
-                  },
-                  {
-                        "att": 1087,
-                        "def": 391,
-                        "hp": 2913
-                  },
-                  {
-                        "att": 1100,
-                        "def": 395,
-                        "hp": 2942
-                  },
-                  {
-                        "att": 1113,
-                        "def": 399,
-                        "hp": 2971
-                  },
-                  {
-                        "att": 1125,
-                        "def": 403,
-                        "hp": 3000
-                  },
-                  {
-                        "att": 1138,
-                        "def": 407,
-                        "hp": 3029
-                  },
-                  {
-                        "att": 1151,
-                        "def": 412,
-                        "hp": 3058
-                  },
-                  {
-                        "att": 1163,
-                        "def": 416,
-                        "hp": 3087
-                  },
-                  {
-                        "att": 1176,
-                        "def": 420,
-                        "hp": 3116
-                  },
-                  {
-                        "att": 1189,
-                        "def": 424,
-                        "hp": 3145
-                  },
-                  {
-                        "att": 1202,
-                        "def": 428,
-                        "hp": 3173
-                  },
-                  {
-                        "att": 1214,
-                        "def": 433,
-                        "hp": 3202
-                  },
-                  {
-                        "att": 1227,
-                        "def": 437,
-                        "hp": 3231
-                  },
-                  {
-                        "att": 1240,
-                        "def": 441,
-                        "hp": 3260
-                  },
-                  {
-                        "att": 1253,
-                        "def": 445,
-                        "hp": 3289
-                  },
-                  {
-                        "att": 1265,
-                        "def": 449,
-                        "hp": 3318
-                  },
-                  {
-                        "att": 1278,
-                        "def": 453,
-                        "hp": 3347
-                  },
-                  {
-                        "att": 1291,
-                        "def": 458,
-                        "hp": 3376
-                  },
-                  {
-                        "att": 1304,
-                        "def": 462,
-                        "hp": 3405
-                  },
-                  {
-                        "att": 1316,
-                        "def": 466,
-                        "hp": 3434
-                  },
-                  {
-                        "att": 1329,
-                        "def": 470,
-                        "hp": 3462
-                  },
-                  {
-                        "att": 1342,
-                        "def": 474,
-                        "hp": 3491
-                  },
-                  {
-                        "att": 1355,
-                        "def": 479,
-                        "hp": 3520
-                  },
-                  {
-                        "att": 1367,
-                        "def": 483,
-                        "hp": 3549
-                  },
-                  {
-                        "att": 1380,
-                        "def": 487,
-                        "hp": 3578
-                  },
-                  {
-                        "att": 1393,
-                        "def": 491,
-                        "hp": 3607
-                  },
-                  {
-                        "att": 1406,
-                        "def": 495,
-                        "hp": 3636
-                  },
-                  {
-                        "att": 1418,
-                        "def": 500,
-                        "hp": 3665
-                  },
-                  {
-                        "att": 1568,
-                        "def": 553,
-                        "hp": 4066
-                  },
-                  {
-                        "att": 1577,
-                        "def": 556,
-                        "hp": 4088
-                  },
-                  {
-                        "att": 1587,
-                        "def": 559,
-                        "hp": 4110
-                  },
-                  {
-                        "att": 1596,
-                        "def": 562,
-                        "hp": 4131
-                  },
-                  {
-                        "att": 1606,
-                        "def": 565,
-                        "hp": 4153
-                  },
-                  {
-                        "att": 1616,
-                        "def": 568,
-                        "hp": 4175
-                  },
-                  {
-                        "att": 1625,
-                        "def": 572,
-                        "hp": 4196
-                  },
-                  {
-                        "att": 1635,
-                        "def": 575,
-                        "hp": 4218
-                  },
-                  {
-                        "att": 1644,
-                        "def": 578,
-                        "hp": 4240
-                  },
-                  {
-                        "att": 1654,
-                        "def": 581,
-                        "hp": 4262
-                  },
-                  {
-                        "att": 1663,
-                        "def": 584,
-                        "hp": 4283
-                  },
-                  {
-                        "att": 1673,
-                        "def": 587,
-                        "hp": 4305
-                  },
-                  {
-                        "att": 1682,
-                        "def": 590,
-                        "hp": 4327
-                  },
-                  {
-                        "att": 1692,
-                        "def": 594,
-                        "hp": 4348
-                  },
-                  {
-                        "att": 1702,
-                        "def": 597,
-                        "hp": 4370
-                  },
-                  {
-                        "att": 1711,
-                        "def": 600,
-                        "hp": 4392
-                  },
-                  {
-                        "att": 1721,
-                        "def": 603,
-                        "hp": 4413
-                  },
-                  {
-                        "att": 1730,
-                        "def": 606,
-                        "hp": 4435
-                  },
-                  {
-                        "att": 1740,
-                        "def": 609,
-                        "hp": 4457
-                  },
-                  {
-                        "att": 1749,
-                        "def": 612,
-                        "hp": 4478
-                  },
-                  {
-                        "att": 1759,
-                        "def": 616,
-                        "hp": 4500
-                  },
-                  {
-                        "att": 1768,
-                        "def": 619,
-                        "hp": 4522
-                  },
-                  {
-                        "att": 1778,
-                        "def": 622,
-                        "hp": 4543
-                  },
-                  {
-                        "att": 1788,
-                        "def": 625,
-                        "hp": 4565
-                  },
-                  {
-                        "att": 1797,
-                        "def": 628,
-                        "hp": 4587
-                  },
-                  {
-                        "att": 1807,
-                        "def": 631,
-                        "hp": 4608
-                  },
-                  {
-                        "att": 1816,
-                        "def": 634,
-                        "hp": 4630
-                  },
-                  {
-                        "att": 1826,
-                        "def": 638,
-                        "hp": 4652
-                  },
-                  {
-                        "att": 1835,
-                        "def": 641,
-                        "hp": 4673
-                  },
-                  {
-                        "att": 1845,
-                        "def": 644,
-                        "hp": 4695
-                  },
-                  {
-                        "att": 1854,
-                        "def": 647,
-                        "hp": 4717
-                  },
-                  {
-                        "att": 1864,
-                        "def": 650,
-                        "hp": 4738
-                  },
-                  {
-                        "att": 1873,
-                        "def": 653,
-                        "hp": 4760
-                  },
-                  {
-                        "att": 1883,
-                        "def": 656,
-                        "hp": 4782
-                  },
-                  {
-                        "att": 1893,
-                        "def": 660,
-                        "hp": 4803
-                  },
-                  {
-                        "att": 1902,
-                        "def": 663,
-                        "hp": 4825
-                  },
-                  {
-                        "att": 1912,
-                        "def": 666,
-                        "hp": 4847
-                  },
-                  {
-                        "att": 1921,
-                        "def": 669,
-                        "hp": 4868
-                  },
-                  {
-                        "att": 1931,
-                        "def": 672,
-                        "hp": 4890
-                  },
-                  {
-                        "att": 1940,
-                        "def": 675,
-                        "hp": 4912
-                  },
-                  {
-                        "att": 1950,
-                        "def": 679,
-                        "hp": 4933
-                  },
-                  {
-                        "att": 1959,
-                        "def": 682,
-                        "hp": 4955
-                  },
-                  {
-                        "att": 1969,
-                        "def": 685,
-                        "hp": 4977
-                  },
-                  {
-                        "att": 1979,
-                        "def": 688,
-                        "hp": 4998
-                  },
-                  {
-                        "att": 1988,
-                        "def": 691,
-                        "hp": 5020
-                  },
-                  {
-                        "att": 1998,
-                        "def": 694,
-                        "hp": 5042
-                  },
-                  {
-                        "att": 2007,
-                        "def": 697,
-                        "hp": 5063
-                  },
-                  {
-                        "att": 2017,
-                        "def": 701,
-                        "hp": 5085
-                  },
-                  {
-                        "att": 2026,
-                        "def": 704,
-                        "hp": 5107
-                  },
-                  {
-                        "att": 2036,
-                        "def": 707,
-                        "hp": 5128
-                  },
-                  {
-                        "att": 2257,
-                        "def": 774,
-                        "hp": 5713
-                  },
-                  {
-                        "att": 2264,
-                        "def": 776,
-                        "hp": 5727
-                  },
-                  {
-                        "att": 2270,
-                        "def": 778,
-                        "hp": 5742
-                  },
-                  {
-                        "att": 2276,
-                        "def": 780,
-                        "hp": 5756
-                  },
-                  {
-                        "att": 2283,
-                        "def": 782,
-                        "hp": 5771
-                  },
-                  {
-                        "att": 2289,
-                        "def": 784,
-                        "hp": 5785
-                  },
-                  {
-                        "att": 2295,
-                        "def": 786,
-                        "hp": 5800
-                  },
-                  {
-                        "att": 2302,
-                        "def": 789,
-                        "hp": 5814
-                  },
-                  {
-                        "att": 2308,
-                        "def": 791,
-                        "hp": 5828
-                  },
-                  {
-                        "att": 2315,
-                        "def": 793,
-                        "hp": 5843
-                  },
-                  {
-                        "att": 2321,
-                        "def": 795,
-                        "hp": 5857
-                  },
-                  {
-                        "att": 2327,
-                        "def": 797,
-                        "hp": 5872
-                  },
-                  {
-                        "att": 2334,
-                        "def": 799,
-                        "hp": 5886
-                  },
-                  {
-                        "att": 2340,
-                        "def": 801,
-                        "hp": 5901
-                  },
-                  {
-                        "att": 2346,
-                        "def": 803,
-                        "hp": 5915
-                  },
-                  {
-                        "att": 2353,
-                        "def": 805,
-                        "hp": 5930
-                  },
-                  {
-                        "att": 2359,
-                        "def": 807,
-                        "hp": 5944
-                  },
-                  {
-                        "att": 2366,
-                        "def": 810,
-                        "hp": 5959
-                  },
-                  {
-                        "att": 2372,
-                        "def": 812,
-                        "hp": 5973
-                  },
-                  {
-                        "att": 2378,
-                        "def": 814,
-                        "hp": 5987
-                  },
-                  {
-                        "att": 2385,
-                        "def": 816,
-                        "hp": 6002
-                  },
-                  {
-                        "att": 2391,
-                        "def": 818,
-                        "hp": 6016
-                  },
-                  {
-                        "att": 2397,
-                        "def": 820,
-                        "hp": 6031
-                  },
-                  {
-                        "att": 2404,
-                        "def": 822,
-                        "hp": 6045
-                  },
-                  {
-                        "att": 2410,
-                        "def": 824,
-                        "hp": 6060
-                  },
-                  {
-                        "att": 2416,
-                        "def": 826,
-                        "hp": 6074
-                  },
-                  {
-                        "att": 2423,
-                        "def": 828,
-                        "hp": 6089
-                  },
-                  {
-                        "att": 2429,
-                        "def": 830,
-                        "hp": 6103
-                  },
-                  {
-                        "att": 2436,
-                        "def": 833,
-                        "hp": 6117
-                  },
-                  {
-                        "att": 2442,
-                        "def": 835,
-                        "hp": 6132
-                  },
-                  {
-                        "att": 2448,
-                        "def": 837,
-                        "hp": 6146
-                  },
-                  {
-                        "att": 2455,
-                        "def": 839,
-                        "hp": 6161
-                  },
-                  {
-                        "att": 2461,
-                        "def": 841,
-                        "hp": 6175
-                  },
-                  {
-                        "att": 2467,
-                        "def": 843,
-                        "hp": 6190
-                  },
-                  {
-                        "att": 2474,
-                        "def": 845,
-                        "hp": 6204
-                  },
-                  {
-                        "att": 2480,
-                        "def": 847,
-                        "hp": 6219
-                  },
-                  {
-                        "att": 2487,
-                        "def": 849,
-                        "hp": 6233
-                  },
-                  {
-                        "att": 2493,
-                        "def": 851,
-                        "hp": 6248
-                  },
-                  {
-                        "att": 2499,
-                        "def": 854,
-                        "hp": 6262
-                  },
-                  {
-                        "att": 2506,
-                        "def": 856,
-                        "hp": 6276
-                  },
-                  {
-                        "att": 2512,
-                        "def": 858,
-                        "hp": 6291
-                  },
-                  {
-                        "att": 2518,
-                        "def": 860,
-                        "hp": 6305
-                  },
-                  {
-                        "att": 2525,
-                        "def": 862,
-                        "hp": 6320
-                  },
-                  {
-                        "att": 2531,
-                        "def": 864,
-                        "hp": 6334
-                  },
-                  {
-                        "att": 2537,
-                        "def": 866,
-                        "hp": 6349
-                  },
-                  {
-                        "att": 2544,
-                        "def": 868,
-                        "hp": 6363
-                  },
-                  {
-                        "att": 2550,
-                        "def": 870,
-                        "hp": 6378
-                  },
-                  {
-                        "att": 2557,
-                        "def": 872,
-                        "hp": 6392
-                  },
-                  {
-                        "att": 2563,
-                        "def": 874,
-                        "hp": 6406
-                  },
-                  {
-                        "att": 2569,
-                        "def": 877,
-                        "hp": 6421
-                  },
-                  {
-                        "att": 2576,
-                        "def": 879,
-                        "hp": 6435
-                  },
-                  {
-                        "att": 2582,
-                        "def": 881,
-                        "hp": 6450
-                  },
-                  {
-                        "att": 2588,
-                        "def": 883,
-                        "hp": 6464
-                  },
-                  {
-                        "att": 2595,
-                        "def": 885,
-                        "hp": 6479
-                  },
-                  {
-                        "att": 2601,
-                        "def": 887,
-                        "hp": 6493
-                  },
-                  {
-                        "att": 2608,
-                        "def": 889,
-                        "hp": 6508
-                  },
-                  {
-                        "att": 2614,
-                        "def": 891,
-                        "hp": 6522
-                  },
-                  {
-                        "att": 2620,
-                        "def": 893,
-                        "hp": 6536
-                  },
-                  {
-                        "att": 2627,
-                        "def": 895,
-                        "hp": 6551
-                  },
-                  {
-                        "att": 2633,
-                        "def": 898,
-                        "hp": 6565
-                  },
-                  {
-                        "att": 2639,
-                        "def": 900,
-                        "hp": 6580
-                  },
-                  {
-                        "att": 2646,
-                        "def": 902,
-                        "hp": 6594
-                  },
-                  {
-                        "att": 2652,
-                        "def": 904,
-                        "hp": 6609
-                  },
-                  {
-                        "att": 2658,
-                        "def": 906,
-                        "hp": 6623
-                  },
-                  {
-                        "att": 2665,
-                        "def": 908,
-                        "hp": 6638
-                  },
-                  {
-                        "att": 2671,
-                        "def": 910,
-                        "hp": 6652
-                  },
-                  {
-                        "att": 2678,
-                        "def": 912,
-                        "hp": 6667
-                  },
-                  {
-                        "att": 2684,
-                        "def": 914,
-                        "hp": 6681
-                  },
-                  {
-                        "att": 2690,
-                        "def": 916,
-                        "hp": 6695
-                  },
-                  {
-                        "att": 2697,
-                        "def": 919,
-                        "hp": 6710
-                  },
-                  {
-                        "att": 2703,
-                        "def": 921,
-                        "hp": 6724
-                  },
-                  {
-                        "att": 2709,
-                        "def": 923,
-                        "hp": 6739
-                  },
-                  {
-                        "att": 2716,
-                        "def": 925,
-                        "hp": 6753
-                  },
-                  {
-                        "att": 2722,
-                        "def": 927,
-                        "hp": 6768
-                  },
-                  {
-                        "att": 2729,
-                        "def": 929,
-                        "hp": 6782
-                  },
-                  {
-                        "att": 2735,
-                        "def": 931,
-                        "hp": 6797
-                  },
-                  {
-                        "att": 2741,
-                        "def": 933,
-                        "hp": 6811
-                  },
-                  {
-                        "att": 2748,
-                        "def": 935,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2754,
-                        "def": 937,
-                        "hp": 6840
-                  },
-                  {
-                        "att": 2760,
-                        "def": 939,
-                        "hp": 6854
-                  }
-            ]
-      }
+ "name": "Ansia",
+ "faction": "Illumina Federation",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Converter",
+ "skill": {
+  "name": "Sonic Wave",
+  "cd": "2 Turn",
+  "description": [
+   "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "Deals 200% damage to 2 surrounding clusters and resets all non-Yellow tiles within the area of attack. There is a small chance to generate Yellow tiles."
+  ]
+ },
+ "equip": {
+  "name": "Diffusion",
+  "passive": "Sound Edge",
+  "description": [
+   [
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
+   ],
+   [
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
+   ],
+   [
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 25% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 30% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 40% final damage.",
+    "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
+   ]
+  ],
+  "introduction": "After Ansia joined the military, she let her sonic power quickly be known, so the tech labs in Gannon made this diffuser specially for her. Story has it that Ansia uses it to shape the soundwaves in battle."
+ },
+ "chain": {
+  "name": "Pulsating Quake",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Crystal Dust",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases the damage Ansia deals to enemies along the edge of the battlefield (the damage bonus is the highest when enemies are in the corner), up to a boost of 50% final damage."
+  },
+  {
+   "material": [
+    "Thunder Crystal",
+    "Thunder Potion I",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "Deals 145% damage to enemies within 2 surrounding clusters.",
+   "after": "Deals 145% damage to enemies within 3 surrounding clusters (50% damage for those in outermost cluster)."
+  },
+  {
+   "material": [
+    "Thunder Potion III",
+    "Thunder Flare Rock",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 200% damage to 2 surrounding clusters and resets all tiles within the area of attack.",
+   "after": "Deals 200% damage to 2 surrounding clusters and resets all non-Yellow tiles within the area of attack. There is a small chance to generate Yellow tiles."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 523,
+    "def": 205,
+    "hp": 1598
+   },
+   {
+    "att": 533,
+    "def": 208,
+    "hp": 1622
+   },
+   {
+    "att": 544,
+    "def": 211,
+    "hp": 1645
+   },
+   {
+    "att": 554,
+    "def": 215,
+    "hp": 1668
+   },
+   {
+    "att": 564,
+    "def": 218,
+    "hp": 1691
+   },
+   {
+    "att": 574,
+    "def": 221,
+    "hp": 1714
+   },
+   {
+    "att": 584,
+    "def": 225,
+    "hp": 1737
+   },
+   {
+    "att": 595,
+    "def": 228,
+    "hp": 1760
+   },
+   {
+    "att": 605,
+    "def": 232,
+    "hp": 1783
+   },
+   {
+    "att": 615,
+    "def": 235,
+    "hp": 1806
+   },
+   {
+    "att": 625,
+    "def": 238,
+    "hp": 1830
+   },
+   {
+    "att": 635,
+    "def": 242,
+    "hp": 1853
+   },
+   {
+    "att": 646,
+    "def": 245,
+    "hp": 1876
+   },
+   {
+    "att": 656,
+    "def": 248,
+    "hp": 1899
+   },
+   {
+    "att": 666,
+    "def": 252,
+    "hp": 1922
+   },
+   {
+    "att": 676,
+    "def": 255,
+    "hp": 1945
+   },
+   {
+    "att": 686,
+    "def": 258,
+    "hp": 1968
+   },
+   {
+    "att": 696,
+    "def": 262,
+    "hp": 1991
+   },
+   {
+    "att": 707,
+    "def": 265,
+    "hp": 2015
+   },
+   {
+    "att": 717,
+    "def": 268,
+    "hp": 2038
+   },
+   {
+    "att": 727,
+    "def": 272,
+    "hp": 2061
+   },
+   {
+    "att": 737,
+    "def": 275,
+    "hp": 2084
+   },
+   {
+    "att": 747,
+    "def": 278,
+    "hp": 2107
+   },
+   {
+    "att": 758,
+    "def": 282,
+    "hp": 2130
+   },
+   {
+    "att": 768,
+    "def": 285,
+    "hp": 2153
+   },
+   {
+    "att": 778,
+    "def": 289,
+    "hp": 2176
+   },
+   {
+    "att": 788,
+    "def": 292,
+    "hp": 2199
+   },
+   {
+    "att": 798,
+    "def": 295,
+    "hp": 2223
+   },
+   {
+    "att": 809,
+    "def": 299,
+    "hp": 2246
+   },
+   {
+    "att": 819,
+    "def": 302,
+    "hp": 2269
+   },
+   {
+    "att": 921,
+    "def": 336,
+    "hp": 2538
+   },
+   {
+    "att": 934,
+    "def": 340,
+    "hp": 2567
+   },
+   {
+    "att": 947,
+    "def": 345,
+    "hp": 2596
+   },
+   {
+    "att": 960,
+    "def": 349,
+    "hp": 2624
+   },
+   {
+    "att": 972,
+    "def": 353,
+    "hp": 2653
+   },
+   {
+    "att": 985,
+    "def": 357,
+    "hp": 2682
+   },
+   {
+    "att": 998,
+    "def": 361,
+    "hp": 2711
+   },
+   {
+    "att": 1011,
+    "def": 365,
+    "hp": 2740
+   },
+   {
+    "att": 1023,
+    "def": 370,
+    "hp": 2769
+   },
+   {
+    "att": 1036,
+    "def": 374,
+    "hp": 2798
+   },
+   {
+    "att": 1049,
+    "def": 378,
+    "hp": 2827
+   },
+   {
+    "att": 1062,
+    "def": 382,
+    "hp": 2856
+   },
+   {
+    "att": 1074,
+    "def": 386,
+    "hp": 2885
+   },
+   {
+    "att": 1087,
+    "def": 391,
+    "hp": 2913
+   },
+   {
+    "att": 1100,
+    "def": 395,
+    "hp": 2942
+   },
+   {
+    "att": 1113,
+    "def": 399,
+    "hp": 2971
+   },
+   {
+    "att": 1125,
+    "def": 403,
+    "hp": 3000
+   },
+   {
+    "att": 1138,
+    "def": 407,
+    "hp": 3029
+   },
+   {
+    "att": 1151,
+    "def": 412,
+    "hp": 3058
+   },
+   {
+    "att": 1163,
+    "def": 416,
+    "hp": 3087
+   },
+   {
+    "att": 1176,
+    "def": 420,
+    "hp": 3116
+   },
+   {
+    "att": 1189,
+    "def": 424,
+    "hp": 3145
+   },
+   {
+    "att": 1202,
+    "def": 428,
+    "hp": 3173
+   },
+   {
+    "att": 1214,
+    "def": 433,
+    "hp": 3202
+   },
+   {
+    "att": 1227,
+    "def": 437,
+    "hp": 3231
+   },
+   {
+    "att": 1240,
+    "def": 441,
+    "hp": 3260
+   },
+   {
+    "att": 1253,
+    "def": 445,
+    "hp": 3289
+   },
+   {
+    "att": 1265,
+    "def": 449,
+    "hp": 3318
+   },
+   {
+    "att": 1278,
+    "def": 453,
+    "hp": 3347
+   },
+   {
+    "att": 1291,
+    "def": 458,
+    "hp": 3376
+   },
+   {
+    "att": 1304,
+    "def": 462,
+    "hp": 3405
+   },
+   {
+    "att": 1316,
+    "def": 466,
+    "hp": 3434
+   },
+   {
+    "att": 1329,
+    "def": 470,
+    "hp": 3462
+   },
+   {
+    "att": 1342,
+    "def": 474,
+    "hp": 3491
+   },
+   {
+    "att": 1355,
+    "def": 479,
+    "hp": 3520
+   },
+   {
+    "att": 1367,
+    "def": 483,
+    "hp": 3549
+   },
+   {
+    "att": 1380,
+    "def": 487,
+    "hp": 3578
+   },
+   {
+    "att": 1393,
+    "def": 491,
+    "hp": 3607
+   },
+   {
+    "att": 1406,
+    "def": 495,
+    "hp": 3636
+   },
+   {
+    "att": 1418,
+    "def": 500,
+    "hp": 3665
+   },
+   {
+    "att": 1568,
+    "def": 553,
+    "hp": 4066
+   },
+   {
+    "att": 1577,
+    "def": 556,
+    "hp": 4088
+   },
+   {
+    "att": 1587,
+    "def": 559,
+    "hp": 4110
+   },
+   {
+    "att": 1596,
+    "def": 562,
+    "hp": 4131
+   },
+   {
+    "att": 1606,
+    "def": 565,
+    "hp": 4153
+   },
+   {
+    "att": 1616,
+    "def": 568,
+    "hp": 4175
+   },
+   {
+    "att": 1625,
+    "def": 572,
+    "hp": 4196
+   },
+   {
+    "att": 1635,
+    "def": 575,
+    "hp": 4218
+   },
+   {
+    "att": 1644,
+    "def": 578,
+    "hp": 4240
+   },
+   {
+    "att": 1654,
+    "def": 581,
+    "hp": 4262
+   },
+   {
+    "att": 1663,
+    "def": 584,
+    "hp": 4283
+   },
+   {
+    "att": 1673,
+    "def": 587,
+    "hp": 4305
+   },
+   {
+    "att": 1682,
+    "def": 590,
+    "hp": 4327
+   },
+   {
+    "att": 1692,
+    "def": 594,
+    "hp": 4348
+   },
+   {
+    "att": 1702,
+    "def": 597,
+    "hp": 4370
+   },
+   {
+    "att": 1711,
+    "def": 600,
+    "hp": 4392
+   },
+   {
+    "att": 1721,
+    "def": 603,
+    "hp": 4413
+   },
+   {
+    "att": 1730,
+    "def": 606,
+    "hp": 4435
+   },
+   {
+    "att": 1740,
+    "def": 609,
+    "hp": 4457
+   },
+   {
+    "att": 1749,
+    "def": 612,
+    "hp": 4478
+   },
+   {
+    "att": 1759,
+    "def": 616,
+    "hp": 4500
+   },
+   {
+    "att": 1768,
+    "def": 619,
+    "hp": 4522
+   },
+   {
+    "att": 1778,
+    "def": 622,
+    "hp": 4543
+   },
+   {
+    "att": 1788,
+    "def": 625,
+    "hp": 4565
+   },
+   {
+    "att": 1797,
+    "def": 628,
+    "hp": 4587
+   },
+   {
+    "att": 1807,
+    "def": 631,
+    "hp": 4608
+   },
+   {
+    "att": 1816,
+    "def": 634,
+    "hp": 4630
+   },
+   {
+    "att": 1826,
+    "def": 638,
+    "hp": 4652
+   },
+   {
+    "att": 1835,
+    "def": 641,
+    "hp": 4673
+   },
+   {
+    "att": 1845,
+    "def": 644,
+    "hp": 4695
+   },
+   {
+    "att": 1854,
+    "def": 647,
+    "hp": 4717
+   },
+   {
+    "att": 1864,
+    "def": 650,
+    "hp": 4738
+   },
+   {
+    "att": 1873,
+    "def": 653,
+    "hp": 4760
+   },
+   {
+    "att": 1883,
+    "def": 656,
+    "hp": 4782
+   },
+   {
+    "att": 1893,
+    "def": 660,
+    "hp": 4803
+   },
+   {
+    "att": 1902,
+    "def": 663,
+    "hp": 4825
+   },
+   {
+    "att": 1912,
+    "def": 666,
+    "hp": 4847
+   },
+   {
+    "att": 1921,
+    "def": 669,
+    "hp": 4868
+   },
+   {
+    "att": 1931,
+    "def": 672,
+    "hp": 4890
+   },
+   {
+    "att": 1940,
+    "def": 675,
+    "hp": 4912
+   },
+   {
+    "att": 1950,
+    "def": 679,
+    "hp": 4933
+   },
+   {
+    "att": 1959,
+    "def": 682,
+    "hp": 4955
+   },
+   {
+    "att": 1969,
+    "def": 685,
+    "hp": 4977
+   },
+   {
+    "att": 1979,
+    "def": 688,
+    "hp": 4998
+   },
+   {
+    "att": 1988,
+    "def": 691,
+    "hp": 5020
+   },
+   {
+    "att": 1998,
+    "def": 694,
+    "hp": 5042
+   },
+   {
+    "att": 2007,
+    "def": 697,
+    "hp": 5063
+   },
+   {
+    "att": 2017,
+    "def": 701,
+    "hp": 5085
+   },
+   {
+    "att": 2026,
+    "def": 704,
+    "hp": 5107
+   },
+   {
+    "att": 2036,
+    "def": 707,
+    "hp": 5128
+   },
+   {
+    "att": 2257,
+    "def": 774,
+    "hp": 5713
+   },
+   {
+    "att": 2264,
+    "def": 776,
+    "hp": 5727
+   },
+   {
+    "att": 2270,
+    "def": 778,
+    "hp": 5742
+   },
+   {
+    "att": 2276,
+    "def": 780,
+    "hp": 5756
+   },
+   {
+    "att": 2283,
+    "def": 782,
+    "hp": 5771
+   },
+   {
+    "att": 2289,
+    "def": 784,
+    "hp": 5785
+   },
+   {
+    "att": 2295,
+    "def": 786,
+    "hp": 5800
+   },
+   {
+    "att": 2302,
+    "def": 789,
+    "hp": 5814
+   },
+   {
+    "att": 2308,
+    "def": 791,
+    "hp": 5828
+   },
+   {
+    "att": 2315,
+    "def": 793,
+    "hp": 5843
+   },
+   {
+    "att": 2321,
+    "def": 795,
+    "hp": 5857
+   },
+   {
+    "att": 2327,
+    "def": 797,
+    "hp": 5872
+   },
+   {
+    "att": 2334,
+    "def": 799,
+    "hp": 5886
+   },
+   {
+    "att": 2340,
+    "def": 801,
+    "hp": 5901
+   },
+   {
+    "att": 2346,
+    "def": 803,
+    "hp": 5915
+   },
+   {
+    "att": 2353,
+    "def": 805,
+    "hp": 5930
+   },
+   {
+    "att": 2359,
+    "def": 807,
+    "hp": 5944
+   },
+   {
+    "att": 2366,
+    "def": 810,
+    "hp": 5959
+   },
+   {
+    "att": 2372,
+    "def": 812,
+    "hp": 5973
+   },
+   {
+    "att": 2378,
+    "def": 814,
+    "hp": 5987
+   },
+   {
+    "att": 2385,
+    "def": 816,
+    "hp": 6002
+   },
+   {
+    "att": 2391,
+    "def": 818,
+    "hp": 6016
+   },
+   {
+    "att": 2397,
+    "def": 820,
+    "hp": 6031
+   },
+   {
+    "att": 2404,
+    "def": 822,
+    "hp": 6045
+   },
+   {
+    "att": 2410,
+    "def": 824,
+    "hp": 6060
+   },
+   {
+    "att": 2416,
+    "def": 826,
+    "hp": 6074
+   },
+   {
+    "att": 2423,
+    "def": 828,
+    "hp": 6089
+   },
+   {
+    "att": 2429,
+    "def": 830,
+    "hp": 6103
+   },
+   {
+    "att": 2436,
+    "def": 833,
+    "hp": 6117
+   },
+   {
+    "att": 2442,
+    "def": 835,
+    "hp": 6132
+   },
+   {
+    "att": 2448,
+    "def": 837,
+    "hp": 6146
+   },
+   {
+    "att": 2455,
+    "def": 839,
+    "hp": 6161
+   },
+   {
+    "att": 2461,
+    "def": 841,
+    "hp": 6175
+   },
+   {
+    "att": 2467,
+    "def": 843,
+    "hp": 6190
+   },
+   {
+    "att": 2474,
+    "def": 845,
+    "hp": 6204
+   },
+   {
+    "att": 2480,
+    "def": 847,
+    "hp": 6219
+   },
+   {
+    "att": 2487,
+    "def": 849,
+    "hp": 6233
+   },
+   {
+    "att": 2493,
+    "def": 851,
+    "hp": 6248
+   },
+   {
+    "att": 2499,
+    "def": 854,
+    "hp": 6262
+   },
+   {
+    "att": 2506,
+    "def": 856,
+    "hp": 6276
+   },
+   {
+    "att": 2512,
+    "def": 858,
+    "hp": 6291
+   },
+   {
+    "att": 2518,
+    "def": 860,
+    "hp": 6305
+   },
+   {
+    "att": 2525,
+    "def": 862,
+    "hp": 6320
+   },
+   {
+    "att": 2531,
+    "def": 864,
+    "hp": 6334
+   },
+   {
+    "att": 2537,
+    "def": 866,
+    "hp": 6349
+   },
+   {
+    "att": 2544,
+    "def": 868,
+    "hp": 6363
+   },
+   {
+    "att": 2550,
+    "def": 870,
+    "hp": 6378
+   },
+   {
+    "att": 2557,
+    "def": 872,
+    "hp": 6392
+   },
+   {
+    "att": 2563,
+    "def": 874,
+    "hp": 6406
+   },
+   {
+    "att": 2569,
+    "def": 877,
+    "hp": 6421
+   },
+   {
+    "att": 2576,
+    "def": 879,
+    "hp": 6435
+   },
+   {
+    "att": 2582,
+    "def": 881,
+    "hp": 6450
+   },
+   {
+    "att": 2588,
+    "def": 883,
+    "hp": 6464
+   },
+   {
+    "att": 2595,
+    "def": 885,
+    "hp": 6479
+   },
+   {
+    "att": 2601,
+    "def": 887,
+    "hp": 6493
+   },
+   {
+    "att": 2608,
+    "def": 889,
+    "hp": 6508
+   },
+   {
+    "att": 2614,
+    "def": 891,
+    "hp": 6522
+   },
+   {
+    "att": 2620,
+    "def": 893,
+    "hp": 6536
+   },
+   {
+    "att": 2627,
+    "def": 895,
+    "hp": 6551
+   },
+   {
+    "att": 2633,
+    "def": 898,
+    "hp": 6565
+   },
+   {
+    "att": 2639,
+    "def": 900,
+    "hp": 6580
+   },
+   {
+    "att": 2646,
+    "def": 902,
+    "hp": 6594
+   },
+   {
+    "att": 2652,
+    "def": 904,
+    "hp": 6609
+   },
+   {
+    "att": 2658,
+    "def": 906,
+    "hp": 6623
+   },
+   {
+    "att": 2665,
+    "def": 908,
+    "hp": 6638
+   },
+   {
+    "att": 2671,
+    "def": 910,
+    "hp": 6652
+   },
+   {
+    "att": 2678,
+    "def": 912,
+    "hp": 6667
+   },
+   {
+    "att": 2684,
+    "def": 914,
+    "hp": 6681
+   },
+   {
+    "att": 2690,
+    "def": 916,
+    "hp": 6695
+   },
+   {
+    "att": 2697,
+    "def": 919,
+    "hp": 6710
+   },
+   {
+    "att": 2703,
+    "def": 921,
+    "hp": 6724
+   },
+   {
+    "att": 2709,
+    "def": 923,
+    "hp": 6739
+   },
+   {
+    "att": 2716,
+    "def": 925,
+    "hp": 6753
+   },
+   {
+    "att": 2722,
+    "def": 927,
+    "hp": 6768
+   },
+   {
+    "att": 2729,
+    "def": 929,
+    "hp": 6782
+   },
+   {
+    "att": 2735,
+    "def": 931,
+    "hp": 6797
+   },
+   {
+    "att": 2741,
+    "def": 933,
+    "hp": 6811
+   },
+   {
+    "att": 2748,
+    "def": 935,
+    "hp": 6825
+   },
+   {
+    "att": 2754,
+    "def": 937,
+    "hp": 6840
+   },
+   {
+    "att": 2760,
+    "def": 939,
+    "hp": 6854
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Ansia",
+     "Dawn"
+    ],
+    "chat": [
+     {
+      "character": "Ansia:",
+      "text": "1, 2, testing... This is Ansia. Can you hear me?"
+     },
+     {
+      "character": "Ansia:",
+      "text": "CAN YOU HEAR ME?"
+     },
+     {
+      "character": "Dawn:",
+      "text": "That was loud!"
+     },
+     {
+      "character": "Ansia:",
+      "text": "Oh, you heard that? Great!"
+     },
+     {
+      "character": "Ansia:",
+      "text": "Anybody who can't hear? Please raise your hand if YOU CAN'T!"
+     },
+     {
+      "character": "Dawn:",
+      "text": "How can they do that if they can't hear you? And it's way too loud!"
+     },
+     {
+      "character": "Ansia:",
+      "text": "I see no hands. Wonderful!"
+     },
+     {
+      "character": "Ansia:",
+      "text": "Now, please RAISE YOUR LEGS IF YOU HEAR ME..."
+     },
+     {
+      "character": "Dawn:",
+      "text": "How are we supposed to do that? And it's still too loud. Turn it down!"
+     },
+     {
+      "character": "Ansia:",
+      "text": "I don't see any legs, so no one heard that?"
+     },
+     {
+      "character": "Ansia:",
+      "text": "Then, please RAISE BOTH HANDS!"
+     },
+     {
+      "character": "Dawn:",
+      "text": "Ugh, I'm going deaf!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "%s asked me cryptically today if he somehow offended of Miss Ansia. I thought about it, but other than Ansia being a bit mischievous and a prankster, she doesn't have much of a temper. I asked %s if something happened. He complained that he started the day tripping over duct tape, then got a note taped to the back, then was scared by a toy spider in a training session... %s figured out from the handwriting on the note that it was Ansia, who came to the Colossus a few days ago, but he has no idea what he did to her to deserve it... That does sound like what Ansia would do, but from what I know about her, she could have done it because she liked %s. It's fun to watch %s flustered and helpless, though, so I'd like to play a trick on him myself and pretend it wasn't me!--Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hey, dear Navigator! I hope you're not angry at my pranks! I was just trying to break the ice and not because I don't like you! By the way, I stuck another note on your back when you left this morning... Hope you didn't take it seriously. I was just kidding! I do love playing practical jokes but I never let it get out of hand. I prank you because... Well, it's you! Oh yeah, speaking of which, do you know I hate practical jokes when I'm working? If someone pranks me at work, I'll get mad!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Oh, Navigator, I haven't told you my job, have I? I'm a correspondent for the Illumina... Don't underestimate me, for no one can match me in the patience and focus department! As you probably can tell from looking at me, I'm not good with fighting. My parents died when I was very young so I was raised by Illumina. Naturally, I'm very grateful to the Federation. However, because I didn't start training until I was much older, I couldn't catch up with others in strength or ability, so it's practically impossible for me to be a soldier. I realized that early on so I got into the Illumina military through my brainpower! I see you're rather perplexed. Guess I'll have to \"interact\" with you tomorrow to make you believe!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "What's wrong with your face, Navigator? Let me wipe it off for you... Ha, fooled you! I just put a sticker on your face. Wanna know what it is? Not gonna tell you! Why do I love practical jokes so much? Don't you think that's the fastest and best way to get to know someone? Of course, I don't prank everybody. As a correspondent, face reading is my specialty, so I know exactly what kind of people I can get away with pranking! I'd also take advantage of that once in a while, too. Hehe! Oh, there are people I'd never kid around with. Like who? I'm not telling! But you are definitely not on that list. Right? Right?"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Do you know that sometimes, in addition to reporting, I occasionally do some reconnaissance work? Why? Because I'm good at getting myself out of danger! Like I told you, I'm not a combatant, so I have to be clever and resourceful to gain an advantage in battle. As for wits and adaptability, I don't think anyone in Illumina could beat me! Because of the recon job, I got into trouble many, many times... Of course, I was scared! But I'd rely on my intuition to observe the changes in the environment and find myself a hiding spot to get myself out of tricky situations! Even I couldn't find anywhere to hide, I could still make a lot of noise traps! What? You don't think it's intuition but instinct? You sure? Perhaps you're right. I'd always thought it was women's intuition!"
+  }
+ ],
+ "voice": [
+  "Illumina's my home, and it always will be. I'll do anything to protect it.",
+  "If I'm not in Illumina, I'm in Umbraton. They appreciate my pranks a lot more there.",
+  "Splendor Illumina!",
+  "A day when Eclipsites no longer threaten Astra... I know that day will come.",
+  "Miss Vice is incredible. So strong and dependable... I want to be just like her!",
+  "I'll tell you a secret... I really want to play with Sharona's tail. I bet it would be fun!",
+  "I love metal music, you know? The beat, the energy... It gets me really pumped!",
+  "I can't stand unprofessional people. When you're at work, you gotta work hard!",
+  "Even though I know what a Colossus is, but still, it's amazing!",
+  "Hello? Can you hear me now? Yeah, I hear you loud and clear!",
+  "Right then! Signaller Ansia, standing by to ensure timely and accurate communications... Wait, you don't need me to do that right now?",
+  "Run away!",
+  "It's all good!",
+  "Shocked?",
+  "Freeze!",
+  "Setting up complete!",
+  "Happy New Year! I hope you'll get more good news in the new year!",
+  "I'll handle communications!",
+  "Routine maintenance on our comms equipment is part of the job, too!",
+  "Wanna hear about my work as a signaller? It's neat stuff!",
+  "Time to boost the signal to the moon!",
+  "I made puzzles because I'm very bored. I just set up a trap for you. Guess where it is?",
+  "Turn the volume up!",
+  "Alchemy Stars\u2014!",
+  "Hush, see the enemy over there? We better run while we can! Mind your step when fleeing... You know I'm joking, right?",
+  "You lose something? Hey, don't look at me! I like playing pranks, but I don't steal... Here, I'll even help you look, if it'll clear my name!",
+  "I would never play pranks at work, but I'm off-duty now, so... Don't cha wanna know what I did?",
+  "I guess that last fight caused some problems... Oh hey, perfect timing! I'm debugging some of our devices, could you give me a hand and check the volume?",
+  "Thanks for believing in me, I'll keep working hard and doing my best! On my job AND my pranks!",
+  "A good signaller should be patient, focused, and ready to adapt to any situation in order to communicate quickly and effectively!",
+  "We interrupt your off-duty hours to bring you an urgent message: A huge caterpillar has appeared in the Navigator's room! Furthermore, I was definitely not the one who put it there!",
+  "Hey Navigator? To show how much I care, starting today I'm going to give you even more surprises!",
+  "A good prank can strengthen the friendship between two people, but I would never take it too far. After all, I don't want to get on your bad side!",
+  "I got a quick job to do, I'll come right back once I'm done!",
+  "Walk this way! If you fall into my trap, I'm not helping you out... Oh, you already fell in.",
+  "Oh, you want to know what the note on your back says? Well, I'm not telling you!",
+  "How's the work coming along? If you need a signaller, you can call on me anytime!",
+  "Morning! Need any messages sent? Nothing again, huh?",
+  "Good evening! Another day is over, remember to summarize everything that needs to be reported!",
+  "It's the middle of the night! No one's gonna answer your messages this late... unless I use one of my secret techniques!",
+  "Testing! Testing! This is Ansia speaking. I'm the ace signaller of Illumina and thought I'd reach out first since I hadn't received any work orders from you yet!",
+  "A gift? Is it a jack-in-the-box?",
+  "I was actually hoping for a jack-in-the-box, you know!",
+  "Wow! Can I really have this?",
+  "Thanks! Now, allow me to return the favor!",
+  "Supersonic!",
+  "Shake 'em up!",
+  "Sonic waves on standby!",
+  "I am never much of a fighter, but eventually I find something I am good at\u2014communications! As a signaller, I make sure everyone stays in the know at all times!",
+  "One time, I secretly removed the magazine from an Illumina officer's gun. He was so mad when he realized it was missing, but he couldn't do anything without ammo, so he just stormed off instead!",
+  "I do recon work from time to time. No matter how dangerous the situation, signallers have to do everything in our power to ensure our messages reach their destination quickly!",
+  "Stay in touch, everyone!"
+ ],
+ "skins": [],
+ "description": "An Illumina officer responsible for communications. She treats her work with the utmost diligence and respect, despite the occasional pranks she plays.",
+ "realName": "Ansia",
+ "nickname": "Packed Broadcaster",
+ "gender": "Female",
+ "height": "5'4\"",
+ "birthday": "November 3",
+ "birthplace": "Undercity 19",
+ "style": "Sonic Scatter"
 }

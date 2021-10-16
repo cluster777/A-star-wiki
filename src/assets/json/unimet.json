@@ -1,715 +1,877 @@
 {
-      "name": "Unimet",
-      "faction": "Illumina Federation",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "1 Turn",
-            "description": [
-                  "Throws a can at any selected tile, changing the tile to a Yellow tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile.",
-                  "Throws a can at any selected tile, changing the tile to a yellow enhanced tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile."
-            ]
-      },
-      "equip": {
-            "name": "Satchel: Assistant",
-            "passive": "Machine Fanatic",
-            "description": [
-                  [
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
-                  ],
-                  [
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
-                        "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Essence",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
-            },
-            {
-                  "material": [
-                        "Thunder Potion II",
-                        "Thunder Crystal Shard",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Throws a can at any selected tile, changing the tile to a Yellow tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile.",
-                  "after": "Throws a can at any selected tile, changing the tile to a yellow enhanced tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 493,
-                        "def": 161,
-                        "hp": 1415
-                  },
-                  {
-                        "att": 499,
-                        "def": 163,
-                        "hp": 1432
-                  },
-                  {
-                        "att": 505,
-                        "def": 165,
-                        "hp": 1448
-                  },
-                  {
-                        "att": 511,
-                        "def": 168,
-                        "hp": 1464
-                  },
-                  {
-                        "att": 517,
-                        "def": 170,
-                        "hp": 1481
-                  },
-                  {
-                        "att": 524,
-                        "def": 172,
-                        "hp": 1497
-                  },
-                  {
-                        "att": 530,
-                        "def": 174,
-                        "hp": 1514
-                  },
-                  {
-                        "att": 536,
-                        "def": 176,
-                        "hp": 1530
-                  },
-                  {
-                        "att": 542,
-                        "def": 178,
-                        "hp": 1547
-                  },
-                  {
-                        "att": 548,
-                        "def": 181,
-                        "hp": 1563
-                  },
-                  {
-                        "att": 554,
-                        "def": 183,
-                        "hp": 1580
-                  },
-                  {
-                        "att": 560,
-                        "def": 185,
-                        "hp": 1596
-                  },
-                  {
-                        "att": 566,
-                        "def": 187,
-                        "hp": 1612
-                  },
-                  {
-                        "att": 572,
-                        "def": 189,
-                        "hp": 1629
-                  },
-                  {
-                        "att": 578,
-                        "def": 191,
-                        "hp": 1645
-                  },
-                  {
-                        "att": 584,
-                        "def": 193,
-                        "hp": 1662
-                  },
-                  {
-                        "att": 590,
-                        "def": 196,
-                        "hp": 1678
-                  },
-                  {
-                        "att": 596,
-                        "def": 198,
-                        "hp": 1695
-                  },
-                  {
-                        "att": 603,
-                        "def": 200,
-                        "hp": 1711
-                  },
-                  {
-                        "att": 609,
-                        "def": 202,
-                        "hp": 1728
-                  },
-                  {
-                        "att": 615,
-                        "def": 204,
-                        "hp": 1744
-                  },
-                  {
-                        "att": 621,
-                        "def": 206,
-                        "hp": 1761
-                  },
-                  {
-                        "att": 627,
-                        "def": 208,
-                        "hp": 1777
-                  },
-                  {
-                        "att": 633,
-                        "def": 211,
-                        "hp": 1793
-                  },
-                  {
-                        "att": 639,
-                        "def": 213,
-                        "hp": 1810
-                  },
-                  {
-                        "att": 645,
-                        "def": 215,
-                        "hp": 1826
-                  },
-                  {
-                        "att": 651,
-                        "def": 217,
-                        "hp": 1843
-                  },
-                  {
-                        "att": 657,
-                        "def": 219,
-                        "hp": 1859
-                  },
-                  {
-                        "att": 663,
-                        "def": 221,
-                        "hp": 1876
-                  },
-                  {
-                        "att": 669,
-                        "def": 223,
-                        "hp": 1892
-                  },
-                  {
-                        "att": 757,
-                        "def": 256,
-                        "hp": 2123
-                  },
-                  {
-                        "att": 765,
-                        "def": 259,
-                        "hp": 2143
-                  },
-                  {
-                        "att": 772,
-                        "def": 262,
-                        "hp": 2164
-                  },
-                  {
-                        "att": 780,
-                        "def": 264,
-                        "hp": 2184
-                  },
-                  {
-                        "att": 787,
-                        "def": 267,
-                        "hp": 2205
-                  },
-                  {
-                        "att": 795,
-                        "def": 270,
-                        "hp": 2226
-                  },
-                  {
-                        "att": 803,
-                        "def": 272,
-                        "hp": 2246
-                  },
-                  {
-                        "att": 810,
-                        "def": 275,
-                        "hp": 2267
-                  },
-                  {
-                        "att": 818,
-                        "def": 278,
-                        "hp": 2287
-                  },
-                  {
-                        "att": 825,
-                        "def": 280,
-                        "hp": 2308
-                  },
-                  {
-                        "att": 833,
-                        "def": 283,
-                        "hp": 2328
-                  },
-                  {
-                        "att": 841,
-                        "def": 286,
-                        "hp": 2349
-                  },
-                  {
-                        "att": 848,
-                        "def": 288,
-                        "hp": 2369
-                  },
-                  {
-                        "att": 856,
-                        "def": 291,
-                        "hp": 2390
-                  },
-                  {
-                        "att": 863,
-                        "def": 294,
-                        "hp": 2411
-                  },
-                  {
-                        "att": 871,
-                        "def": 296,
-                        "hp": 2431
-                  },
-                  {
-                        "att": 879,
-                        "def": 299,
-                        "hp": 2452
-                  },
-                  {
-                        "att": 886,
-                        "def": 302,
-                        "hp": 2472
-                  },
-                  {
-                        "att": 894,
-                        "def": 304,
-                        "hp": 2493
-                  },
-                  {
-                        "att": 901,
-                        "def": 307,
-                        "hp": 2513
-                  },
-                  {
-                        "att": 909,
-                        "def": 310,
-                        "hp": 2534
-                  },
-                  {
-                        "att": 917,
-                        "def": 313,
-                        "hp": 2555
-                  },
-                  {
-                        "att": 924,
-                        "def": 315,
-                        "hp": 2575
-                  },
-                  {
-                        "att": 932,
-                        "def": 318,
-                        "hp": 2596
-                  },
-                  {
-                        "att": 939,
-                        "def": 321,
-                        "hp": 2616
-                  },
-                  {
-                        "att": 947,
-                        "def": 323,
-                        "hp": 2637
-                  },
-                  {
-                        "att": 955,
-                        "def": 326,
-                        "hp": 2657
-                  },
-                  {
-                        "att": 962,
-                        "def": 329,
-                        "hp": 2678
-                  },
-                  {
-                        "att": 970,
-                        "def": 331,
-                        "hp": 2698
-                  },
-                  {
-                        "att": 977,
-                        "def": 334,
-                        "hp": 2719
-                  },
-                  {
-                        "att": 985,
-                        "def": 337,
-                        "hp": 2740
-                  },
-                  {
-                        "att": 993,
-                        "def": 339,
-                        "hp": 2760
-                  },
-                  {
-                        "att": 1000,
-                        "def": 342,
-                        "hp": 2781
-                  },
-                  {
-                        "att": 1008,
-                        "def": 345,
-                        "hp": 2801
-                  },
-                  {
-                        "att": 1015,
-                        "def": 347,
-                        "hp": 2822
-                  },
-                  {
-                        "att": 1023,
-                        "def": 350,
-                        "hp": 2842
-                  },
-                  {
-                        "att": 1031,
-                        "def": 353,
-                        "hp": 2863
-                  },
-                  {
-                        "att": 1038,
-                        "def": 355,
-                        "hp": 2884
-                  },
-                  {
-                        "att": 1046,
-                        "def": 358,
-                        "hp": 2904
-                  },
-                  {
-                        "att": 1053,
-                        "def": 361,
-                        "hp": 2925
-                  },
-                  {
-                        "att": 1189,
-                        "def": 408,
-                        "hp": 3260
-                  },
-                  {
-                        "att": 1195,
-                        "def": 410,
-                        "hp": 3276
-                  },
-                  {
-                        "att": 1201,
-                        "def": 412,
-                        "hp": 3291
-                  },
-                  {
-                        "att": 1206,
-                        "def": 414,
-                        "hp": 3306
-                  },
-                  {
-                        "att": 1212,
-                        "def": 416,
-                        "hp": 3322
-                  },
-                  {
-                        "att": 1218,
-                        "def": 418,
-                        "hp": 3337
-                  },
-                  {
-                        "att": 1223,
-                        "def": 420,
-                        "hp": 3353
-                  },
-                  {
-                        "att": 1229,
-                        "def": 422,
-                        "hp": 3368
-                  },
-                  {
-                        "att": 1235,
-                        "def": 424,
-                        "hp": 3383
-                  },
-                  {
-                        "att": 1240,
-                        "def": 426,
-                        "hp": 3399
-                  },
-                  {
-                        "att": 1246,
-                        "def": 428,
-                        "hp": 3414
-                  },
-                  {
-                        "att": 1252,
-                        "def": 430,
-                        "hp": 3430
-                  },
-                  {
-                        "att": 1258,
-                        "def": 432,
-                        "hp": 3445
-                  },
-                  {
-                        "att": 1263,
-                        "def": 434,
-                        "hp": 3461
-                  },
-                  {
-                        "att": 1269,
-                        "def": 436,
-                        "hp": 3476
-                  },
-                  {
-                        "att": 1275,
-                        "def": 438,
-                        "hp": 3491
-                  },
-                  {
-                        "att": 1280,
-                        "def": 440,
-                        "hp": 3507
-                  },
-                  {
-                        "att": 1286,
-                        "def": 442,
-                        "hp": 3522
-                  },
-                  {
-                        "att": 1292,
-                        "def": 444,
-                        "hp": 3538
-                  },
-                  {
-                        "att": 1298,
-                        "def": 446,
-                        "hp": 3553
-                  },
-                  {
-                        "att": 1303,
-                        "def": 448,
-                        "hp": 3569
-                  },
-                  {
-                        "att": 1309,
-                        "def": 450,
-                        "hp": 3584
-                  },
-                  {
-                        "att": 1315,
-                        "def": 452,
-                        "hp": 3599
-                  },
-                  {
-                        "att": 1320,
-                        "def": 454,
-                        "hp": 3615
-                  },
-                  {
-                        "att": 1326,
-                        "def": 456,
-                        "hp": 3630
-                  },
-                  {
-                        "att": 1332,
-                        "def": 458,
-                        "hp": 3646
-                  },
-                  {
-                        "att": 1337,
-                        "def": 460,
-                        "hp": 3661
-                  },
-                  {
-                        "att": 1343,
-                        "def": 462,
-                        "hp": 3676
-                  },
-                  {
-                        "att": 1349,
-                        "def": 464,
-                        "hp": 3692
-                  },
-                  {
-                        "att": 1355,
-                        "def": 466,
-                        "hp": 3707
-                  },
-                  {
-                        "att": 1360,
-                        "def": 468,
-                        "hp": 3723
-                  },
-                  {
-                        "att": 1366,
-                        "def": 470,
-                        "hp": 3738
-                  },
-                  {
-                        "att": 1372,
-                        "def": 472,
-                        "hp": 3754
-                  },
-                  {
-                        "att": 1377,
-                        "def": 474,
-                        "hp": 3769
-                  },
-                  {
-                        "att": 1383,
-                        "def": 476,
-                        "hp": 3784
-                  },
-                  {
-                        "att": 1389,
-                        "def": 478,
-                        "hp": 3800
-                  },
-                  {
-                        "att": 1394,
-                        "def": 480,
-                        "hp": 3815
-                  },
-                  {
-                        "att": 1400,
-                        "def": 482,
-                        "hp": 3831
-                  },
-                  {
-                        "att": 1406,
-                        "def": 484,
-                        "hp": 3846
-                  },
-                  {
-                        "att": 1412,
-                        "def": 486,
-                        "hp": 3862
-                  },
-                  {
-                        "att": 1417,
-                        "def": 488,
-                        "hp": 3877
-                  },
-                  {
-                        "att": 1423,
-                        "def": 490,
-                        "hp": 3892
-                  },
-                  {
-                        "att": 1429,
-                        "def": 492,
-                        "hp": 3908
-                  },
-                  {
-                        "att": 1434,
-                        "def": 494,
-                        "hp": 3923
-                  },
-                  {
-                        "att": 1440,
-                        "def": 496,
-                        "hp": 3939
-                  },
-                  {
-                        "att": 1446,
-                        "def": 498,
-                        "hp": 3954
-                  },
-                  {
-                        "att": 1451,
-                        "def": 500,
-                        "hp": 3970
-                  },
-                  {
-                        "att": 1457,
-                        "def": 503,
-                        "hp": 3985
-                  },
-                  {
-                        "att": 1463,
-                        "def": 505,
-                        "hp": 4000
-                  },
-                  {
-                        "att": 1469,
-                        "def": 507,
-                        "hp": 4016
-                  }
-            ]
-      }
+ "name": "Unimet",
+ "faction": "Illumina Federation",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Converter",
+ "skill": {
+  "name": "Universal Support Box",
+  "cd": "1 Turn",
+  "description": [
+   "Throws a can at any selected tile, changing the tile to a Yellow tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile.",
+   "Throws a can at any selected tile, changing the tile to a yellow enhanced tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile."
+  ]
+ },
+ "equip": {
+  "name": "Satchel: Assistant",
+  "passive": "Machine Fanatic",
+  "description": [
+   [
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
+   ],
+   [
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 80% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 100% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 120% of Unimet's ATK.",
+    "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
+   ]
+  ],
+  "introduction": "Unimet's crazed passion for machinery compels her to constantly create robotic arms, and they say she has produced no less than 23 in total... She keeps these robotic arms in her huge backpack, which is always bulging with weaponry. She can control these arms to fight and work on her behalf whenever she needs them."
+ },
+ "chain": {
+  "name": "Universal Mechanical Fist",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Essence",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When there are no enemies within the Chain Combo range, recovers the teams' HP equal to 150% of Unimet's ATK."
+  },
+  {
+   "material": [
+    "Thunder Potion II",
+    "Thunder Crystal Shard",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Throws a can at any selected tile, changing the tile to a Yellow tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile.",
+   "after": "Throws a can at any selected tile, changing the tile to a yellow enhanced tile. A Lightning Crystal, Meteorite Crystal, Bandage, Attack, or Defense is randomly generated on the tile."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 493,
+    "def": 161,
+    "hp": 1415
+   },
+   {
+    "att": 499,
+    "def": 163,
+    "hp": 1432
+   },
+   {
+    "att": 505,
+    "def": 165,
+    "hp": 1448
+   },
+   {
+    "att": 511,
+    "def": 168,
+    "hp": 1464
+   },
+   {
+    "att": 517,
+    "def": 170,
+    "hp": 1481
+   },
+   {
+    "att": 524,
+    "def": 172,
+    "hp": 1497
+   },
+   {
+    "att": 530,
+    "def": 174,
+    "hp": 1514
+   },
+   {
+    "att": 536,
+    "def": 176,
+    "hp": 1530
+   },
+   {
+    "att": 542,
+    "def": 178,
+    "hp": 1547
+   },
+   {
+    "att": 548,
+    "def": 181,
+    "hp": 1563
+   },
+   {
+    "att": 554,
+    "def": 183,
+    "hp": 1580
+   },
+   {
+    "att": 560,
+    "def": 185,
+    "hp": 1596
+   },
+   {
+    "att": 566,
+    "def": 187,
+    "hp": 1612
+   },
+   {
+    "att": 572,
+    "def": 189,
+    "hp": 1629
+   },
+   {
+    "att": 578,
+    "def": 191,
+    "hp": 1645
+   },
+   {
+    "att": 584,
+    "def": 193,
+    "hp": 1662
+   },
+   {
+    "att": 590,
+    "def": 196,
+    "hp": 1678
+   },
+   {
+    "att": 596,
+    "def": 198,
+    "hp": 1695
+   },
+   {
+    "att": 603,
+    "def": 200,
+    "hp": 1711
+   },
+   {
+    "att": 609,
+    "def": 202,
+    "hp": 1728
+   },
+   {
+    "att": 615,
+    "def": 204,
+    "hp": 1744
+   },
+   {
+    "att": 621,
+    "def": 206,
+    "hp": 1761
+   },
+   {
+    "att": 627,
+    "def": 208,
+    "hp": 1777
+   },
+   {
+    "att": 633,
+    "def": 211,
+    "hp": 1793
+   },
+   {
+    "att": 639,
+    "def": 213,
+    "hp": 1810
+   },
+   {
+    "att": 645,
+    "def": 215,
+    "hp": 1826
+   },
+   {
+    "att": 651,
+    "def": 217,
+    "hp": 1843
+   },
+   {
+    "att": 657,
+    "def": 219,
+    "hp": 1859
+   },
+   {
+    "att": 663,
+    "def": 221,
+    "hp": 1876
+   },
+   {
+    "att": 669,
+    "def": 223,
+    "hp": 1892
+   },
+   {
+    "att": 757,
+    "def": 256,
+    "hp": 2123
+   },
+   {
+    "att": 765,
+    "def": 259,
+    "hp": 2143
+   },
+   {
+    "att": 772,
+    "def": 262,
+    "hp": 2164
+   },
+   {
+    "att": 780,
+    "def": 264,
+    "hp": 2184
+   },
+   {
+    "att": 787,
+    "def": 267,
+    "hp": 2205
+   },
+   {
+    "att": 795,
+    "def": 270,
+    "hp": 2226
+   },
+   {
+    "att": 803,
+    "def": 272,
+    "hp": 2246
+   },
+   {
+    "att": 810,
+    "def": 275,
+    "hp": 2267
+   },
+   {
+    "att": 818,
+    "def": 278,
+    "hp": 2287
+   },
+   {
+    "att": 825,
+    "def": 280,
+    "hp": 2308
+   },
+   {
+    "att": 833,
+    "def": 283,
+    "hp": 2328
+   },
+   {
+    "att": 841,
+    "def": 286,
+    "hp": 2349
+   },
+   {
+    "att": 848,
+    "def": 288,
+    "hp": 2369
+   },
+   {
+    "att": 856,
+    "def": 291,
+    "hp": 2390
+   },
+   {
+    "att": 863,
+    "def": 294,
+    "hp": 2411
+   },
+   {
+    "att": 871,
+    "def": 296,
+    "hp": 2431
+   },
+   {
+    "att": 879,
+    "def": 299,
+    "hp": 2452
+   },
+   {
+    "att": 886,
+    "def": 302,
+    "hp": 2472
+   },
+   {
+    "att": 894,
+    "def": 304,
+    "hp": 2493
+   },
+   {
+    "att": 901,
+    "def": 307,
+    "hp": 2513
+   },
+   {
+    "att": 909,
+    "def": 310,
+    "hp": 2534
+   },
+   {
+    "att": 917,
+    "def": 313,
+    "hp": 2555
+   },
+   {
+    "att": 924,
+    "def": 315,
+    "hp": 2575
+   },
+   {
+    "att": 932,
+    "def": 318,
+    "hp": 2596
+   },
+   {
+    "att": 939,
+    "def": 321,
+    "hp": 2616
+   },
+   {
+    "att": 947,
+    "def": 323,
+    "hp": 2637
+   },
+   {
+    "att": 955,
+    "def": 326,
+    "hp": 2657
+   },
+   {
+    "att": 962,
+    "def": 329,
+    "hp": 2678
+   },
+   {
+    "att": 970,
+    "def": 331,
+    "hp": 2698
+   },
+   {
+    "att": 977,
+    "def": 334,
+    "hp": 2719
+   },
+   {
+    "att": 985,
+    "def": 337,
+    "hp": 2740
+   },
+   {
+    "att": 993,
+    "def": 339,
+    "hp": 2760
+   },
+   {
+    "att": 1000,
+    "def": 342,
+    "hp": 2781
+   },
+   {
+    "att": 1008,
+    "def": 345,
+    "hp": 2801
+   },
+   {
+    "att": 1015,
+    "def": 347,
+    "hp": 2822
+   },
+   {
+    "att": 1023,
+    "def": 350,
+    "hp": 2842
+   },
+   {
+    "att": 1031,
+    "def": 353,
+    "hp": 2863
+   },
+   {
+    "att": 1038,
+    "def": 355,
+    "hp": 2884
+   },
+   {
+    "att": 1046,
+    "def": 358,
+    "hp": 2904
+   },
+   {
+    "att": 1053,
+    "def": 361,
+    "hp": 2925
+   },
+   {
+    "att": 1189,
+    "def": 408,
+    "hp": 3260
+   },
+   {
+    "att": 1195,
+    "def": 410,
+    "hp": 3276
+   },
+   {
+    "att": 1201,
+    "def": 412,
+    "hp": 3291
+   },
+   {
+    "att": 1206,
+    "def": 414,
+    "hp": 3306
+   },
+   {
+    "att": 1212,
+    "def": 416,
+    "hp": 3322
+   },
+   {
+    "att": 1218,
+    "def": 418,
+    "hp": 3337
+   },
+   {
+    "att": 1223,
+    "def": 420,
+    "hp": 3353
+   },
+   {
+    "att": 1229,
+    "def": 422,
+    "hp": 3368
+   },
+   {
+    "att": 1235,
+    "def": 424,
+    "hp": 3383
+   },
+   {
+    "att": 1240,
+    "def": 426,
+    "hp": 3399
+   },
+   {
+    "att": 1246,
+    "def": 428,
+    "hp": 3414
+   },
+   {
+    "att": 1252,
+    "def": 430,
+    "hp": 3430
+   },
+   {
+    "att": 1258,
+    "def": 432,
+    "hp": 3445
+   },
+   {
+    "att": 1263,
+    "def": 434,
+    "hp": 3461
+   },
+   {
+    "att": 1269,
+    "def": 436,
+    "hp": 3476
+   },
+   {
+    "att": 1275,
+    "def": 438,
+    "hp": 3491
+   },
+   {
+    "att": 1280,
+    "def": 440,
+    "hp": 3507
+   },
+   {
+    "att": 1286,
+    "def": 442,
+    "hp": 3522
+   },
+   {
+    "att": 1292,
+    "def": 444,
+    "hp": 3538
+   },
+   {
+    "att": 1298,
+    "def": 446,
+    "hp": 3553
+   },
+   {
+    "att": 1303,
+    "def": 448,
+    "hp": 3569
+   },
+   {
+    "att": 1309,
+    "def": 450,
+    "hp": 3584
+   },
+   {
+    "att": 1315,
+    "def": 452,
+    "hp": 3599
+   },
+   {
+    "att": 1320,
+    "def": 454,
+    "hp": 3615
+   },
+   {
+    "att": 1326,
+    "def": 456,
+    "hp": 3630
+   },
+   {
+    "att": 1332,
+    "def": 458,
+    "hp": 3646
+   },
+   {
+    "att": 1337,
+    "def": 460,
+    "hp": 3661
+   },
+   {
+    "att": 1343,
+    "def": 462,
+    "hp": 3676
+   },
+   {
+    "att": 1349,
+    "def": 464,
+    "hp": 3692
+   },
+   {
+    "att": 1355,
+    "def": 466,
+    "hp": 3707
+   },
+   {
+    "att": 1360,
+    "def": 468,
+    "hp": 3723
+   },
+   {
+    "att": 1366,
+    "def": 470,
+    "hp": 3738
+   },
+   {
+    "att": 1372,
+    "def": 472,
+    "hp": 3754
+   },
+   {
+    "att": 1377,
+    "def": 474,
+    "hp": 3769
+   },
+   {
+    "att": 1383,
+    "def": 476,
+    "hp": 3784
+   },
+   {
+    "att": 1389,
+    "def": 478,
+    "hp": 3800
+   },
+   {
+    "att": 1394,
+    "def": 480,
+    "hp": 3815
+   },
+   {
+    "att": 1400,
+    "def": 482,
+    "hp": 3831
+   },
+   {
+    "att": 1406,
+    "def": 484,
+    "hp": 3846
+   },
+   {
+    "att": 1412,
+    "def": 486,
+    "hp": 3862
+   },
+   {
+    "att": 1417,
+    "def": 488,
+    "hp": 3877
+   },
+   {
+    "att": 1423,
+    "def": 490,
+    "hp": 3892
+   },
+   {
+    "att": 1429,
+    "def": 492,
+    "hp": 3908
+   },
+   {
+    "att": 1434,
+    "def": 494,
+    "hp": 3923
+   },
+   {
+    "att": 1440,
+    "def": 496,
+    "hp": 3939
+   },
+   {
+    "att": 1446,
+    "def": 498,
+    "hp": 3954
+   },
+   {
+    "att": 1451,
+    "def": 500,
+    "hp": 3970
+   },
+   {
+    "att": 1457,
+    "def": 503,
+    "hp": 3985
+   },
+   {
+    "att": 1463,
+    "def": 505,
+    "hp": 4000
+   },
+   {
+    "att": 1469,
+    "def": 507,
+    "hp": 4016
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   },
+   {
+    "name": "Backpacker",
+    "effect": "When deployed to the Resource Station, increases the Carrier's production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Robyn",
+     "Unimet"
+    ],
+    "chat": [
+     {
+      "character": "Robyn:",
+      "text": "Sorry, but... Could you not be so close?"
+     },
+     {
+      "character": "Unimet:",
+      "text": "Oh! I-I'm sorry! I didn't mean to..."
+     },
+     {
+      "character": "Unimet:",
+      "text": "Is... Is this far enough?"
+     },
+     {
+      "character": "Robyn:",
+      "text": "Er... Never mind..."
+     },
+     {
+      "character": "Robyn:",
+      "text": "I'll just take a few steps back, too."
+     },
+     {
+      "character": "Unimet:",
+      "text": "I-I could go stand in that corner over there!"
+     },
+     {
+      "character": "Robyn:",
+      "text": "Then I'll stand in this corner..."
+     },
+     {
+      "character": "Robyn:",
+      "text": "Ah, much better."
+     },
+     {
+      "character": "Unimet:",
+      "text": "Whew... I agree!"
+     },
+     {
+      "character": "Robyn:",
+      "text": "Now then, I wanted to ask..."
+     },
+     {
+      "character": "Unimet:",
+      "text": "Sorry... I can't hear you too well from over there. What did you say?"
+     },
+     {
+      "character": "Robyn:",
+      "text": "C... Come again? We're too far apart..."
+     },
+     {
+      "character": "Unimet:",
+      "text": "(I still feel a lot more relaxed, even if we can't hear each other...)"
+     },
+     {
+      "character": "Robyn:",
+      "text": "(Never mind, it's probably better this way...)"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "No doubt about it, Miss Unimet is a genius. Ever since I saw the mechanical arm that she made braid her hair, I was never more sure of the fact! Allegedly, that giant backpack of hers stored a countless number of mechanical arms. I still recall how %s shivered when recounting the story of seeing more than ten arms sprouting out of it, and the nightmare it caused. But what's harder to fathom is how such a petite girl like Unimet could carry such a big bag on her back! In fact, %s and I can hardly see her in the Colossus. My only time was when I couldn't sleep at night so I took a stroll and saw Miss Unimet crouching next to the Prism Pillar, mumbling to herself. I went over to say hi but she ran from me in panic! Am I that terrifying? \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Huh? What! W-when did you start standing there? Did you arrive when my mechanical assistants pulled out tools to study the Colossus? I-I-I'm s-sorry! I was simply too interested in the Colossus!I wouldn't call myself a genius as I-I'm just interested in machines. A lot of people in the Illumina research labs are more talented than me! A-although my robotic arms are unique... your Colossus is also really amazing! S-so, can you let me study it for a little while? I-I promise that my mechanical assistants won't hurt it!Oh! P-please don't keep staring at my robotic arms as they are actually quite shy..."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "What? Y-you're willing to be my friend? T-thank you so much! I-I'm so happy! Actually, I didn't have any friends when I was young because I wasn't much of a talker. That's why I made these mechanical assistants to play with me. Although they're very cute and smart, I still want to meet more people.I may not be very good with words, but I really, really like making friends... After that, I went to study at Gannon City and met many classmates. They would greet me, but they didn't seem to want to play with me... I like machines though, so I started to make more mechanical assistants! I probably won't feel lonely anymore as long as I have them.D-do you want to know how many mechanical assistants I have? Come closer and I'll tell you secretly..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "When I was in Gannon City, I often went on explorations with the expedition team. Although I was really young at the time, I found it really interesting! But we encountered the Eclipsites one time... I evacuated with everyone, but I tripped... It fell hopeless, but my mechanical assistants protected me... and everyone from the Illumina came back to save me, I managed to survive. Although I'm still unable to express my thoughts clearly and completely, my gratitude is sincere! I've already told everyone at the Illumina that I'm not good at communicating with others, but they just said, \"Unimet, just do what you want to do! You don't need to talk to others to understand each other!\" On that day, I learned what it felt like to be moved...I miss my family so much now that I'm in the Illumina, but they all have great expectations for me! So, I'll do my best to not make them worry about me! Also, if possible, I want to learn to communicate with others!"
+  }
+ ],
+ "voice": [
+  "The fact is that the collectivization scheme of Illumina...has many advantages...in the current environment.",
+  "Rediesel Wrench...has many crude, old but...strange techniques that are...worth studying.",
+  "Illumina... Spe-Spero!",
+  "Eclipsites! Stay away fr-from me! Help me, Assistants!",
+  "Actually, I'm not that good at playing games... But Gronru, Gronru will invite me.",
+  "The Other End, ain't it the coolest? It belongs to Charon? Who's that?",
+  "Oh myyyy... You like models, too? The latest model of the Other End is just incredible.",
+  "So humid! All my Assistants will rust.",
+  "Wooow! The Colossus!!! I...I have to make records of this! It's s-so cool!",
+  "F-Finally! A f-f-flash of brilliance!",
+  "Please, not me, not me, not me... Aaaaaah, what am I supposed to do now?",
+  "Anyone there? Help me... Help %*...&&*",
+  "Where's Lumamber? Where is it?",
+  "Coordinated...operation.",
+  "Expert...strategy.",
+  "We can go ahead.",
+  "Best wishes... for the New Year... New Year.",
+  "Re...reporting!",
+  "Assistants, the more you use it, the more skilled you become.",
+  "Even if the chances are slim to none, I... must succeed.",
+  "There's still work to do... How about we slack off for a while... No, no!",
+  "Test...passed!",
+  "Alchemy Stars.",
+  "W-Would you sit down? I'll... no... my Assistants will make you a cup of tea. Would you like some more?",
+  "Eek! You scared me! Book? I'm, uh, reading the 20 Social Guidelines for Illumina Members, recommended to me by, uh, Chandra...",
+  "Kaas, the freight train in Illumina... It might look heavy and silly, but... for large-scale mining... it's v-very practical.",
+  "How many... Assistants... d-do I have? T-Twenty three. Can you tell?",
+  "It's not just about combat power... I'd...like to improve my social skills. If only...if only I could reach Lilliam's level...",
+  "They can't see me... Can't...see me...",
+  "Look the other person in the eye...breathe deeply, inhale...body con...contact? Gah! I just can't do it!!",
+  "Even though I'm still...afraid... It seems that communication with you...is not that difficult.",
+  "Come shake hands... uh... with the Assistants, of course!",
+  "Luminites come from the disintegration of Lumamber. It's not easy to excavate them...",
+  "It's so difficult to predict the behavior of the other person, or the scope and topic of conversation. Ah...",
+  "The hard...hardness of materials refers to their resistance to other...objects... Ah, it's you!",
+  "Br-Breakfast is ready! My Assistants are really... good at it.",
+  "Time for di...dinner! What is on the canteen me...menu today?",
+  "Time for bed! Or you...won't grow any taller. I myself am...quite short already though.",
+  "No, no, no!... Muster up the courage, Unimet! Ni-nice to... meet you! I am from the Illumina machinery maintenance #$!#%...$...",
+  "Thank you...",
+  "Thank you sooo much...",
+  "I like it... I shouldn't have said that... Ahem...",
+  "Oh, this is...!! Ahem... Excuse me.",
+  "Precise operation.",
+  "Perfect work.",
+  "The project has been...confirmed.",
+  "I've tried... interacting with others, but it just doesn't... work out. I just don't understand it... I have no friends, I don't know how to read... the room. Thankfully, I still have my Assistants.",
+  "Perhaps...I still have no idea...how to communicate with others... Everyone in Illumina...says that I shouldn't overthink it, and should just try to be myself.",
+  "Leading others is... very difficult."
+ ],
+ "skins": [],
+ "description": "A researcher of the Illumina Federation. She is a genius who is fanatical about machines and models and finds it difficult to socialize. However, she can talk endlessly when talking about something she's fanatical about.",
+ "realName": "Unimet",
+ "nickname": "Handy Manipulator",
+ "gender": "Female",
+ "height": "4'8''",
+ "birthday": "November 28",
+ "birthplace": "Undercity 12",
+ "style": "Machine"
 }

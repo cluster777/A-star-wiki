@@ -1,1153 +1,1328 @@
 {
-      "name": "Hiiro",
-      "faction": "Illumina Federation",
-      "element_main": "Forest",
-      "element_sub": "Thunder",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile.",
-                  "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile.",
-                  "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile."
-            ]
-      },
-      "equip": {
-            "name": "Katana: Sakae",
-            "passive": "One with the Duel",
-            "description": [
-                  [
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
-                  ],
-                  [
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
-                  ],
-                  [
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
-                        "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 170% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 170% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 170% damage to 2 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Increases Active Skill damage by 40%."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Crystal Shard",
-                        "Forest Flare Powder",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
-            },
-            {
-                  "material": [
-                        "Forest Flare Rock",
-                        "Forest Potion I",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                  "after": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
-            },
-            {
-                  "material": [
-                        "Forest Potion III",
-                        "Forest Crystal",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
-                  "after": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 621,
-                        "def": 251,
-                        "hp": 1775
-                  },
-                  {
-                        "att": 631,
-                        "def": 255,
-                        "hp": 1801
-                  },
-                  {
-                        "att": 641,
-                        "def": 258,
-                        "hp": 1827
-                  },
-                  {
-                        "att": 651,
-                        "def": 262,
-                        "hp": 1854
-                  },
-                  {
-                        "att": 661,
-                        "def": 265,
-                        "hp": 1880
-                  },
-                  {
-                        "att": 671,
-                        "def": 269,
-                        "hp": 1907
-                  },
-                  {
-                        "att": 682,
-                        "def": 273,
-                        "hp": 1933
-                  },
-                  {
-                        "att": 692,
-                        "def": 276,
-                        "hp": 1960
-                  },
-                  {
-                        "att": 702,
-                        "def": 280,
-                        "hp": 1986
-                  },
-                  {
-                        "att": 712,
-                        "def": 283,
-                        "hp": 2012
-                  },
-                  {
-                        "att": 722,
-                        "def": 287,
-                        "hp": 2039
-                  },
-                  {
-                        "att": 732,
-                        "def": 291,
-                        "hp": 2065
-                  },
-                  {
-                        "att": 742,
-                        "def": 294,
-                        "hp": 2092
-                  },
-                  {
-                        "att": 752,
-                        "def": 298,
-                        "hp": 2118
-                  },
-                  {
-                        "att": 762,
-                        "def": 302,
-                        "hp": 2144
-                  },
-                  {
-                        "att": 772,
-                        "def": 305,
-                        "hp": 2171
-                  },
-                  {
-                        "att": 782,
-                        "def": 309,
-                        "hp": 2197
-                  },
-                  {
-                        "att": 792,
-                        "def": 312,
-                        "hp": 2224
-                  },
-                  {
-                        "att": 803,
-                        "def": 316,
-                        "hp": 2250
-                  },
-                  {
-                        "att": 813,
-                        "def": 320,
-                        "hp": 2277
-                  },
-                  {
-                        "att": 823,
-                        "def": 323,
-                        "hp": 2303
-                  },
-                  {
-                        "att": 833,
-                        "def": 327,
-                        "hp": 2329
-                  },
-                  {
-                        "att": 843,
-                        "def": 330,
-                        "hp": 2356
-                  },
-                  {
-                        "att": 853,
-                        "def": 334,
-                        "hp": 2382
-                  },
-                  {
-                        "att": 863,
-                        "def": 338,
-                        "hp": 2409
-                  },
-                  {
-                        "att": 873,
-                        "def": 341,
-                        "hp": 2435
-                  },
-                  {
-                        "att": 883,
-                        "def": 345,
-                        "hp": 2462
-                  },
-                  {
-                        "att": 893,
-                        "def": 348,
-                        "hp": 2488
-                  },
-                  {
-                        "att": 903,
-                        "def": 352,
-                        "hp": 2514
-                  },
-                  {
-                        "att": 913,
-                        "def": 356,
-                        "hp": 2541
-                  },
-                  {
-                        "att": 1016,
-                        "def": 390,
-                        "hp": 2824
-                  },
-                  {
-                        "att": 1029,
-                        "def": 395,
-                        "hp": 2857
-                  },
-                  {
-                        "att": 1041,
-                        "def": 399,
-                        "hp": 2890
-                  },
-                  {
-                        "att": 1054,
-                        "def": 404,
-                        "hp": 2923
-                  },
-                  {
-                        "att": 1066,
-                        "def": 408,
-                        "hp": 2956
-                  },
-                  {
-                        "att": 1079,
-                        "def": 413,
-                        "hp": 2989
-                  },
-                  {
-                        "att": 1092,
-                        "def": 417,
-                        "hp": 3022
-                  },
-                  {
-                        "att": 1104,
-                        "def": 422,
-                        "hp": 3055
-                  },
-                  {
-                        "att": 1117,
-                        "def": 426,
-                        "hp": 3088
-                  },
-                  {
-                        "att": 1129,
-                        "def": 431,
-                        "hp": 3121
-                  },
-                  {
-                        "att": 1142,
-                        "def": 435,
-                        "hp": 3154
-                  },
-                  {
-                        "att": 1155,
-                        "def": 440,
-                        "hp": 3187
-                  },
-                  {
-                        "att": 1167,
-                        "def": 444,
-                        "hp": 3220
-                  },
-                  {
-                        "att": 1180,
-                        "def": 449,
-                        "hp": 3253
-                  },
-                  {
-                        "att": 1192,
-                        "def": 453,
-                        "hp": 3286
-                  },
-                  {
-                        "att": 1205,
-                        "def": 458,
-                        "hp": 3319
-                  },
-                  {
-                        "att": 1218,
-                        "def": 462,
-                        "hp": 3352
-                  },
-                  {
-                        "att": 1230,
-                        "def": 467,
-                        "hp": 3385
-                  },
-                  {
-                        "att": 1243,
-                        "def": 471,
-                        "hp": 3418
-                  },
-                  {
-                        "att": 1255,
-                        "def": 476,
-                        "hp": 3451
-                  },
-                  {
-                        "att": 1268,
-                        "def": 480,
-                        "hp": 3485
-                  },
-                  {
-                        "att": 1281,
-                        "def": 485,
-                        "hp": 3518
-                  },
-                  {
-                        "att": 1293,
-                        "def": 489,
-                        "hp": 3551
-                  },
-                  {
-                        "att": 1306,
-                        "def": 494,
-                        "hp": 3584
-                  },
-                  {
-                        "att": 1318,
-                        "def": 498,
-                        "hp": 3617
-                  },
-                  {
-                        "att": 1331,
-                        "def": 503,
-                        "hp": 3650
-                  },
-                  {
-                        "att": 1344,
-                        "def": 507,
-                        "hp": 3683
-                  },
-                  {
-                        "att": 1356,
-                        "def": 512,
-                        "hp": 3716
-                  },
-                  {
-                        "att": 1369,
-                        "def": 516,
-                        "hp": 3749
-                  },
-                  {
-                        "att": 1381,
-                        "def": 521,
-                        "hp": 3782
-                  },
-                  {
-                        "att": 1394,
-                        "def": 525,
-                        "hp": 3815
-                  },
-                  {
-                        "att": 1407,
-                        "def": 530,
-                        "hp": 3848
-                  },
-                  {
-                        "att": 1419,
-                        "def": 534,
-                        "hp": 3881
-                  },
-                  {
-                        "att": 1432,
-                        "def": 539,
-                        "hp": 3914
-                  },
-                  {
-                        "att": 1444,
-                        "def": 544,
-                        "hp": 3947
-                  },
-                  {
-                        "att": 1457,
-                        "def": 548,
-                        "hp": 3980
-                  },
-                  {
-                        "att": 1470,
-                        "def": 553,
-                        "hp": 4013
-                  },
-                  {
-                        "att": 1482,
-                        "def": 557,
-                        "hp": 4046
-                  },
-                  {
-                        "att": 1495,
-                        "def": 562,
-                        "hp": 4079
-                  },
-                  {
-                        "att": 1507,
-                        "def": 566,
-                        "hp": 4112
-                  },
-                  {
-                        "att": 1667,
-                        "def": 619,
-                        "hp": 4537
-                  },
-                  {
-                        "att": 1676,
-                        "def": 623,
-                        "hp": 4562
-                  },
-                  {
-                        "att": 1686,
-                        "def": 626,
-                        "hp": 4586
-                  },
-                  {
-                        "att": 1695,
-                        "def": 630,
-                        "hp": 4611
-                  },
-                  {
-                        "att": 1705,
-                        "def": 633,
-                        "hp": 4636
-                  },
-                  {
-                        "att": 1714,
-                        "def": 636,
-                        "hp": 4661
-                  },
-                  {
-                        "att": 1723,
-                        "def": 640,
-                        "hp": 4686
-                  },
-                  {
-                        "att": 1733,
-                        "def": 643,
-                        "hp": 4710
-                  },
-                  {
-                        "att": 1742,
-                        "def": 647,
-                        "hp": 4735
-                  },
-                  {
-                        "att": 1752,
-                        "def": 650,
-                        "hp": 4760
-                  },
-                  {
-                        "att": 1761,
-                        "def": 653,
-                        "hp": 4785
-                  },
-                  {
-                        "att": 1771,
-                        "def": 657,
-                        "hp": 4809
-                  },
-                  {
-                        "att": 1780,
-                        "def": 660,
-                        "hp": 4834
-                  },
-                  {
-                        "att": 1790,
-                        "def": 663,
-                        "hp": 4859
-                  },
-                  {
-                        "att": 1799,
-                        "def": 667,
-                        "hp": 4884
-                  },
-                  {
-                        "att": 1808,
-                        "def": 670,
-                        "hp": 4908
-                  },
-                  {
-                        "att": 1818,
-                        "def": 674,
-                        "hp": 4933
-                  },
-                  {
-                        "att": 1827,
-                        "def": 677,
-                        "hp": 4958
-                  },
-                  {
-                        "att": 1837,
-                        "def": 680,
-                        "hp": 4983
-                  },
-                  {
-                        "att": 1846,
-                        "def": 684,
-                        "hp": 5008
-                  },
-                  {
-                        "att": 1856,
-                        "def": 687,
-                        "hp": 5032
-                  },
-                  {
-                        "att": 1865,
-                        "def": 690,
-                        "hp": 5057
-                  },
-                  {
-                        "att": 1875,
-                        "def": 694,
-                        "hp": 5082
-                  },
-                  {
-                        "att": 1884,
-                        "def": 697,
-                        "hp": 5107
-                  },
-                  {
-                        "att": 1894,
-                        "def": 701,
-                        "hp": 5131
-                  },
-                  {
-                        "att": 1903,
-                        "def": 704,
-                        "hp": 5156
-                  },
-                  {
-                        "att": 1912,
-                        "def": 707,
-                        "hp": 5181
-                  },
-                  {
-                        "att": 1922,
-                        "def": 711,
-                        "hp": 5206
-                  },
-                  {
-                        "att": 1931,
-                        "def": 714,
-                        "hp": 5231
-                  },
-                  {
-                        "att": 1941,
-                        "def": 718,
-                        "hp": 5255
-                  },
-                  {
-                        "att": 1950,
-                        "def": 721,
-                        "hp": 5280
-                  },
-                  {
-                        "att": 1960,
-                        "def": 724,
-                        "hp": 5305
-                  },
-                  {
-                        "att": 1969,
-                        "def": 728,
-                        "hp": 5330
-                  },
-                  {
-                        "att": 1979,
-                        "def": 731,
-                        "hp": 5354
-                  },
-                  {
-                        "att": 1988,
-                        "def": 734,
-                        "hp": 5379
-                  },
-                  {
-                        "att": 1997,
-                        "def": 738,
-                        "hp": 5404
-                  },
-                  {
-                        "att": 2007,
-                        "def": 741,
-                        "hp": 5429
-                  },
-                  {
-                        "att": 2016,
-                        "def": 745,
-                        "hp": 5453
-                  },
-                  {
-                        "att": 2026,
-                        "def": 748,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 2035,
-                        "def": 751,
-                        "hp": 5503
-                  },
-                  {
-                        "att": 2045,
-                        "def": 755,
-                        "hp": 5528
-                  },
-                  {
-                        "att": 2054,
-                        "def": 758,
-                        "hp": 5553
-                  },
-                  {
-                        "att": 2064,
-                        "def": 762,
-                        "hp": 5577
-                  },
-                  {
-                        "att": 2073,
-                        "def": 765,
-                        "hp": 5602
-                  },
-                  {
-                        "att": 2082,
-                        "def": 768,
-                        "hp": 5627
-                  },
-                  {
-                        "att": 2092,
-                        "def": 772,
-                        "hp": 5652
-                  },
-                  {
-                        "att": 2101,
-                        "def": 775,
-                        "hp": 5676
-                  },
-                  {
-                        "att": 2111,
-                        "def": 778,
-                        "hp": 5701
-                  },
-                  {
-                        "att": 2120,
-                        "def": 782,
-                        "hp": 5726
-                  },
-                  {
-                        "att": 2130,
-                        "def": 785,
-                        "hp": 5751
-                  },
-                  {
-                        "att": 2361,
-                        "def": 857,
-                        "hp": 6367
-                  },
-                  {
-                        "att": 2367,
-                        "def": 860,
-                        "hp": 6384
-                  },
-                  {
-                        "att": 2374,
-                        "def": 862,
-                        "hp": 6400
-                  },
-                  {
-                        "att": 2380,
-                        "def": 864,
-                        "hp": 6417
-                  },
-                  {
-                        "att": 2386,
-                        "def": 866,
-                        "hp": 6433
-                  },
-                  {
-                        "att": 2393,
-                        "def": 869,
-                        "hp": 6450
-                  },
-                  {
-                        "att": 2399,
-                        "def": 871,
-                        "hp": 6466
-                  },
-                  {
-                        "att": 2405,
-                        "def": 873,
-                        "hp": 6483
-                  },
-                  {
-                        "att": 2411,
-                        "def": 875,
-                        "hp": 6499
-                  },
-                  {
-                        "att": 2418,
-                        "def": 878,
-                        "hp": 6516
-                  },
-                  {
-                        "att": 2424,
-                        "def": 880,
-                        "hp": 6532
-                  },
-                  {
-                        "att": 2430,
-                        "def": 882,
-                        "hp": 6549
-                  },
-                  {
-                        "att": 2437,
-                        "def": 885,
-                        "hp": 6565
-                  },
-                  {
-                        "att": 2443,
-                        "def": 887,
-                        "hp": 6582
-                  },
-                  {
-                        "att": 2449,
-                        "def": 889,
-                        "hp": 6598
-                  },
-                  {
-                        "att": 2456,
-                        "def": 891,
-                        "hp": 6615
-                  },
-                  {
-                        "att": 2462,
-                        "def": 894,
-                        "hp": 6632
-                  },
-                  {
-                        "att": 2468,
-                        "def": 896,
-                        "hp": 6648
-                  },
-                  {
-                        "att": 2474,
-                        "def": 898,
-                        "hp": 6665
-                  },
-                  {
-                        "att": 2481,
-                        "def": 900,
-                        "hp": 6681
-                  },
-                  {
-                        "att": 2487,
-                        "def": 903,
-                        "hp": 6698
-                  },
-                  {
-                        "att": 2493,
-                        "def": 905,
-                        "hp": 6714
-                  },
-                  {
-                        "att": 2500,
-                        "def": 907,
-                        "hp": 6731
-                  },
-                  {
-                        "att": 2506,
-                        "def": 909,
-                        "hp": 6747
-                  },
-                  {
-                        "att": 2512,
-                        "def": 912,
-                        "hp": 6764
-                  },
-                  {
-                        "att": 2519,
-                        "def": 914,
-                        "hp": 6780
-                  },
-                  {
-                        "att": 2525,
-                        "def": 916,
-                        "hp": 6797
-                  },
-                  {
-                        "att": 2531,
-                        "def": 918,
-                        "hp": 6813
-                  },
-                  {
-                        "att": 2537,
-                        "def": 921,
-                        "hp": 6830
-                  },
-                  {
-                        "att": 2544,
-                        "def": 923,
-                        "hp": 6846
-                  },
-                  {
-                        "att": 2550,
-                        "def": 925,
-                        "hp": 6863
-                  },
-                  {
-                        "att": 2556,
-                        "def": 927,
-                        "hp": 6879
-                  },
-                  {
-                        "att": 2563,
-                        "def": 930,
-                        "hp": 6896
-                  },
-                  {
-                        "att": 2569,
-                        "def": 932,
-                        "hp": 6912
-                  },
-                  {
-                        "att": 2575,
-                        "def": 934,
-                        "hp": 6929
-                  },
-                  {
-                        "att": 2582,
-                        "def": 936,
-                        "hp": 6945
-                  },
-                  {
-                        "att": 2588,
-                        "def": 939,
-                        "hp": 6962
-                  },
-                  {
-                        "att": 2594,
-                        "def": 941,
-                        "hp": 6978
-                  },
-                  {
-                        "att": 2600,
-                        "def": 943,
-                        "hp": 6995
-                  },
-                  {
-                        "att": 2607,
-                        "def": 945,
-                        "hp": 7011
-                  },
-                  {
-                        "att": 2613,
-                        "def": 948,
-                        "hp": 7028
-                  },
-                  {
-                        "att": 2619,
-                        "def": 950,
-                        "hp": 7044
-                  },
-                  {
-                        "att": 2626,
-                        "def": 952,
-                        "hp": 7061
-                  },
-                  {
-                        "att": 2632,
-                        "def": 954,
-                        "hp": 7077
-                  },
-                  {
-                        "att": 2638,
-                        "def": 957,
-                        "hp": 7094
-                  },
-                  {
-                        "att": 2645,
-                        "def": 959,
-                        "hp": 7110
-                  },
-                  {
-                        "att": 2651,
-                        "def": 961,
-                        "hp": 7127
-                  },
-                  {
-                        "att": 2657,
-                        "def": 963,
-                        "hp": 7144
-                  },
-                  {
-                        "att": 2663,
-                        "def": 966,
-                        "hp": 7160
-                  },
-                  {
-                        "att": 2670,
-                        "def": 968,
-                        "hp": 7177
-                  },
-                  {
-                        "att": 2676,
-                        "def": 970,
-                        "hp": 7193
-                  },
-                  {
-                        "att": 2682,
-                        "def": 972,
-                        "hp": 7210
-                  },
-                  {
-                        "att": 2689,
-                        "def": 975,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2695,
-                        "def": 977,
-                        "hp": 7243
-                  },
-                  {
-                        "att": 2701,
-                        "def": 979,
-                        "hp": 7259
-                  },
-                  {
-                        "att": 2707,
-                        "def": 981,
-                        "hp": 7276
-                  },
-                  {
-                        "att": 2714,
-                        "def": 984,
-                        "hp": 7292
-                  },
-                  {
-                        "att": 2720,
-                        "def": 986,
-                        "hp": 7309
-                  },
-                  {
-                        "att": 2726,
-                        "def": 988,
-                        "hp": 7325
-                  },
-                  {
-                        "att": 2733,
-                        "def": 991,
-                        "hp": 7342
-                  },
-                  {
-                        "att": 2739,
-                        "def": 993,
-                        "hp": 7358
-                  },
-                  {
-                        "att": 2745,
-                        "def": 995,
-                        "hp": 7375
-                  },
-                  {
-                        "att": 2752,
-                        "def": 997,
-                        "hp": 7391
-                  },
-                  {
-                        "att": 2758,
-                        "def": 1000,
-                        "hp": 7408
-                  },
-                  {
-                        "att": 2764,
-                        "def": 1002,
-                        "hp": 7424
-                  },
-                  {
-                        "att": 2770,
-                        "def": 1004,
-                        "hp": 7441
-                  },
-                  {
-                        "att": 2777,
-                        "def": 1006,
-                        "hp": 7457
-                  },
-                  {
-                        "att": 2783,
-                        "def": 1009,
-                        "hp": 7474
-                  },
-                  {
-                        "att": 2789,
-                        "def": 1011,
-                        "hp": 7490
-                  },
-                  {
-                        "att": 2796,
-                        "def": 1013,
-                        "hp": 7507
-                  },
-                  {
-                        "att": 2802,
-                        "def": 1015,
-                        "hp": 7523
-                  },
-                  {
-                        "att": 2808,
-                        "def": 1018,
-                        "hp": 7540
-                  },
-                  {
-                        "att": 2815,
-                        "def": 1020,
-                        "hp": 7556
-                  },
-                  {
-                        "att": 2821,
-                        "def": 1022,
-                        "hp": 7573
-                  },
-                  {
-                        "att": 2827,
-                        "def": 1024,
-                        "hp": 7589
-                  },
-                  {
-                        "att": 2833,
-                        "def": 1027,
-                        "hp": 7606
-                  },
-                  {
-                        "att": 2840,
-                        "def": 1029,
-                        "hp": 7622
-                  },
-                  {
-                        "att": 2846,
-                        "def": 1031,
-                        "hp": 7639
-                  },
-                  {
-                        "att": 2852,
-                        "def": 1033,
-                        "hp": 7655
-                  },
-                  {
-                        "att": 2859,
-                        "def": 1036,
-                        "hp": 7672
-                  }
-            ]
-      }
+ "name": "Hiiro",
+ "faction": "Illumina Federation",
+ "element_main": "Forest",
+ "element_sub": "Thunder",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Crimson Sakura",
+  "cd": "3 Turn",
+  "description": [
+   "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile.",
+   "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile.",
+   "Converts any 2 selected tiles to enhanced Green tiles and deals 200% damage to enemies in a cross shape to the maximum range centered on each selected tile."
+  ]
+ },
+ "equip": {
+  "name": "Katana: Sakae",
+  "passive": "One with the Duel",
+  "description": [
+   [
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
+   ],
+   [
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
+   ],
+   [
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 110% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 130% damage to the enemy and 70% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 140% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%.",
+    "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%."
+   ]
+  ],
+  "introduction": "Like Hiiro, this blade is from the Far East. It is rumored that Hiiro's master, Sakae Shigeo, endowed this blade with great power and with his life force, attuning it to Hiiro's very essence. Therefore, this weapon is named \"Katana: Sakae\". It is very powerful, but prolonged use will consume the power in Hiiro's body."
+ },
+ "chain": {
+  "name": "Afterglow",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 170% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 170% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 170% damage to 2 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Increases Active Skill damage by 40%."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Crystal Shard",
+    "Forest Flare Powder",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
+  },
+  {
+   "material": [
+    "Forest Flare Rock",
+    "Forest Potion I",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Hiiro enters Duel stance at the start of the round. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+   "after": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around."
+  },
+  {
+   "material": [
+    "Forest Potion III",
+    "Forest Crystal",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around.",
+   "after": "Hiiro enters Duel stance at the start of the round or whenever passing through an enhanced tile. The next normal attack deals 160% damage to the enemy and 80% damage to enemies in 4 tiles in a cross shape around. ATK is increased by 4% in this round per use of One with the Duel, up to a maximum of 20%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 621,
+    "def": 251,
+    "hp": 1775
+   },
+   {
+    "att": 631,
+    "def": 255,
+    "hp": 1801
+   },
+   {
+    "att": 641,
+    "def": 258,
+    "hp": 1827
+   },
+   {
+    "att": 651,
+    "def": 262,
+    "hp": 1854
+   },
+   {
+    "att": 661,
+    "def": 265,
+    "hp": 1880
+   },
+   {
+    "att": 671,
+    "def": 269,
+    "hp": 1907
+   },
+   {
+    "att": 682,
+    "def": 273,
+    "hp": 1933
+   },
+   {
+    "att": 692,
+    "def": 276,
+    "hp": 1960
+   },
+   {
+    "att": 702,
+    "def": 280,
+    "hp": 1986
+   },
+   {
+    "att": 712,
+    "def": 283,
+    "hp": 2012
+   },
+   {
+    "att": 722,
+    "def": 287,
+    "hp": 2039
+   },
+   {
+    "att": 732,
+    "def": 291,
+    "hp": 2065
+   },
+   {
+    "att": 742,
+    "def": 294,
+    "hp": 2092
+   },
+   {
+    "att": 752,
+    "def": 298,
+    "hp": 2118
+   },
+   {
+    "att": 762,
+    "def": 302,
+    "hp": 2144
+   },
+   {
+    "att": 772,
+    "def": 305,
+    "hp": 2171
+   },
+   {
+    "att": 782,
+    "def": 309,
+    "hp": 2197
+   },
+   {
+    "att": 792,
+    "def": 312,
+    "hp": 2224
+   },
+   {
+    "att": 803,
+    "def": 316,
+    "hp": 2250
+   },
+   {
+    "att": 813,
+    "def": 320,
+    "hp": 2277
+   },
+   {
+    "att": 823,
+    "def": 323,
+    "hp": 2303
+   },
+   {
+    "att": 833,
+    "def": 327,
+    "hp": 2329
+   },
+   {
+    "att": 843,
+    "def": 330,
+    "hp": 2356
+   },
+   {
+    "att": 853,
+    "def": 334,
+    "hp": 2382
+   },
+   {
+    "att": 863,
+    "def": 338,
+    "hp": 2409
+   },
+   {
+    "att": 873,
+    "def": 341,
+    "hp": 2435
+   },
+   {
+    "att": 883,
+    "def": 345,
+    "hp": 2462
+   },
+   {
+    "att": 893,
+    "def": 348,
+    "hp": 2488
+   },
+   {
+    "att": 903,
+    "def": 352,
+    "hp": 2514
+   },
+   {
+    "att": 913,
+    "def": 356,
+    "hp": 2541
+   },
+   {
+    "att": 1016,
+    "def": 390,
+    "hp": 2824
+   },
+   {
+    "att": 1029,
+    "def": 395,
+    "hp": 2857
+   },
+   {
+    "att": 1041,
+    "def": 399,
+    "hp": 2890
+   },
+   {
+    "att": 1054,
+    "def": 404,
+    "hp": 2923
+   },
+   {
+    "att": 1066,
+    "def": 408,
+    "hp": 2956
+   },
+   {
+    "att": 1079,
+    "def": 413,
+    "hp": 2989
+   },
+   {
+    "att": 1092,
+    "def": 417,
+    "hp": 3022
+   },
+   {
+    "att": 1104,
+    "def": 422,
+    "hp": 3055
+   },
+   {
+    "att": 1117,
+    "def": 426,
+    "hp": 3088
+   },
+   {
+    "att": 1129,
+    "def": 431,
+    "hp": 3121
+   },
+   {
+    "att": 1142,
+    "def": 435,
+    "hp": 3154
+   },
+   {
+    "att": 1155,
+    "def": 440,
+    "hp": 3187
+   },
+   {
+    "att": 1167,
+    "def": 444,
+    "hp": 3220
+   },
+   {
+    "att": 1180,
+    "def": 449,
+    "hp": 3253
+   },
+   {
+    "att": 1192,
+    "def": 453,
+    "hp": 3286
+   },
+   {
+    "att": 1205,
+    "def": 458,
+    "hp": 3319
+   },
+   {
+    "att": 1218,
+    "def": 462,
+    "hp": 3352
+   },
+   {
+    "att": 1230,
+    "def": 467,
+    "hp": 3385
+   },
+   {
+    "att": 1243,
+    "def": 471,
+    "hp": 3418
+   },
+   {
+    "att": 1255,
+    "def": 476,
+    "hp": 3451
+   },
+   {
+    "att": 1268,
+    "def": 480,
+    "hp": 3485
+   },
+   {
+    "att": 1281,
+    "def": 485,
+    "hp": 3518
+   },
+   {
+    "att": 1293,
+    "def": 489,
+    "hp": 3551
+   },
+   {
+    "att": 1306,
+    "def": 494,
+    "hp": 3584
+   },
+   {
+    "att": 1318,
+    "def": 498,
+    "hp": 3617
+   },
+   {
+    "att": 1331,
+    "def": 503,
+    "hp": 3650
+   },
+   {
+    "att": 1344,
+    "def": 507,
+    "hp": 3683
+   },
+   {
+    "att": 1356,
+    "def": 512,
+    "hp": 3716
+   },
+   {
+    "att": 1369,
+    "def": 516,
+    "hp": 3749
+   },
+   {
+    "att": 1381,
+    "def": 521,
+    "hp": 3782
+   },
+   {
+    "att": 1394,
+    "def": 525,
+    "hp": 3815
+   },
+   {
+    "att": 1407,
+    "def": 530,
+    "hp": 3848
+   },
+   {
+    "att": 1419,
+    "def": 534,
+    "hp": 3881
+   },
+   {
+    "att": 1432,
+    "def": 539,
+    "hp": 3914
+   },
+   {
+    "att": 1444,
+    "def": 544,
+    "hp": 3947
+   },
+   {
+    "att": 1457,
+    "def": 548,
+    "hp": 3980
+   },
+   {
+    "att": 1470,
+    "def": 553,
+    "hp": 4013
+   },
+   {
+    "att": 1482,
+    "def": 557,
+    "hp": 4046
+   },
+   {
+    "att": 1495,
+    "def": 562,
+    "hp": 4079
+   },
+   {
+    "att": 1507,
+    "def": 566,
+    "hp": 4112
+   },
+   {
+    "att": 1667,
+    "def": 619,
+    "hp": 4537
+   },
+   {
+    "att": 1676,
+    "def": 623,
+    "hp": 4562
+   },
+   {
+    "att": 1686,
+    "def": 626,
+    "hp": 4586
+   },
+   {
+    "att": 1695,
+    "def": 630,
+    "hp": 4611
+   },
+   {
+    "att": 1705,
+    "def": 633,
+    "hp": 4636
+   },
+   {
+    "att": 1714,
+    "def": 636,
+    "hp": 4661
+   },
+   {
+    "att": 1723,
+    "def": 640,
+    "hp": 4686
+   },
+   {
+    "att": 1733,
+    "def": 643,
+    "hp": 4710
+   },
+   {
+    "att": 1742,
+    "def": 647,
+    "hp": 4735
+   },
+   {
+    "att": 1752,
+    "def": 650,
+    "hp": 4760
+   },
+   {
+    "att": 1761,
+    "def": 653,
+    "hp": 4785
+   },
+   {
+    "att": 1771,
+    "def": 657,
+    "hp": 4809
+   },
+   {
+    "att": 1780,
+    "def": 660,
+    "hp": 4834
+   },
+   {
+    "att": 1790,
+    "def": 663,
+    "hp": 4859
+   },
+   {
+    "att": 1799,
+    "def": 667,
+    "hp": 4884
+   },
+   {
+    "att": 1808,
+    "def": 670,
+    "hp": 4908
+   },
+   {
+    "att": 1818,
+    "def": 674,
+    "hp": 4933
+   },
+   {
+    "att": 1827,
+    "def": 677,
+    "hp": 4958
+   },
+   {
+    "att": 1837,
+    "def": 680,
+    "hp": 4983
+   },
+   {
+    "att": 1846,
+    "def": 684,
+    "hp": 5008
+   },
+   {
+    "att": 1856,
+    "def": 687,
+    "hp": 5032
+   },
+   {
+    "att": 1865,
+    "def": 690,
+    "hp": 5057
+   },
+   {
+    "att": 1875,
+    "def": 694,
+    "hp": 5082
+   },
+   {
+    "att": 1884,
+    "def": 697,
+    "hp": 5107
+   },
+   {
+    "att": 1894,
+    "def": 701,
+    "hp": 5131
+   },
+   {
+    "att": 1903,
+    "def": 704,
+    "hp": 5156
+   },
+   {
+    "att": 1912,
+    "def": 707,
+    "hp": 5181
+   },
+   {
+    "att": 1922,
+    "def": 711,
+    "hp": 5206
+   },
+   {
+    "att": 1931,
+    "def": 714,
+    "hp": 5231
+   },
+   {
+    "att": 1941,
+    "def": 718,
+    "hp": 5255
+   },
+   {
+    "att": 1950,
+    "def": 721,
+    "hp": 5280
+   },
+   {
+    "att": 1960,
+    "def": 724,
+    "hp": 5305
+   },
+   {
+    "att": 1969,
+    "def": 728,
+    "hp": 5330
+   },
+   {
+    "att": 1979,
+    "def": 731,
+    "hp": 5354
+   },
+   {
+    "att": 1988,
+    "def": 734,
+    "hp": 5379
+   },
+   {
+    "att": 1997,
+    "def": 738,
+    "hp": 5404
+   },
+   {
+    "att": 2007,
+    "def": 741,
+    "hp": 5429
+   },
+   {
+    "att": 2016,
+    "def": 745,
+    "hp": 5453
+   },
+   {
+    "att": 2026,
+    "def": 748,
+    "hp": 5478
+   },
+   {
+    "att": 2035,
+    "def": 751,
+    "hp": 5503
+   },
+   {
+    "att": 2045,
+    "def": 755,
+    "hp": 5528
+   },
+   {
+    "att": 2054,
+    "def": 758,
+    "hp": 5553
+   },
+   {
+    "att": 2064,
+    "def": 762,
+    "hp": 5577
+   },
+   {
+    "att": 2073,
+    "def": 765,
+    "hp": 5602
+   },
+   {
+    "att": 2082,
+    "def": 768,
+    "hp": 5627
+   },
+   {
+    "att": 2092,
+    "def": 772,
+    "hp": 5652
+   },
+   {
+    "att": 2101,
+    "def": 775,
+    "hp": 5676
+   },
+   {
+    "att": 2111,
+    "def": 778,
+    "hp": 5701
+   },
+   {
+    "att": 2120,
+    "def": 782,
+    "hp": 5726
+   },
+   {
+    "att": 2130,
+    "def": 785,
+    "hp": 5751
+   },
+   {
+    "att": 2361,
+    "def": 857,
+    "hp": 6367
+   },
+   {
+    "att": 2367,
+    "def": 860,
+    "hp": 6384
+   },
+   {
+    "att": 2374,
+    "def": 862,
+    "hp": 6400
+   },
+   {
+    "att": 2380,
+    "def": 864,
+    "hp": 6417
+   },
+   {
+    "att": 2386,
+    "def": 866,
+    "hp": 6433
+   },
+   {
+    "att": 2393,
+    "def": 869,
+    "hp": 6450
+   },
+   {
+    "att": 2399,
+    "def": 871,
+    "hp": 6466
+   },
+   {
+    "att": 2405,
+    "def": 873,
+    "hp": 6483
+   },
+   {
+    "att": 2411,
+    "def": 875,
+    "hp": 6499
+   },
+   {
+    "att": 2418,
+    "def": 878,
+    "hp": 6516
+   },
+   {
+    "att": 2424,
+    "def": 880,
+    "hp": 6532
+   },
+   {
+    "att": 2430,
+    "def": 882,
+    "hp": 6549
+   },
+   {
+    "att": 2437,
+    "def": 885,
+    "hp": 6565
+   },
+   {
+    "att": 2443,
+    "def": 887,
+    "hp": 6582
+   },
+   {
+    "att": 2449,
+    "def": 889,
+    "hp": 6598
+   },
+   {
+    "att": 2456,
+    "def": 891,
+    "hp": 6615
+   },
+   {
+    "att": 2462,
+    "def": 894,
+    "hp": 6632
+   },
+   {
+    "att": 2468,
+    "def": 896,
+    "hp": 6648
+   },
+   {
+    "att": 2474,
+    "def": 898,
+    "hp": 6665
+   },
+   {
+    "att": 2481,
+    "def": 900,
+    "hp": 6681
+   },
+   {
+    "att": 2487,
+    "def": 903,
+    "hp": 6698
+   },
+   {
+    "att": 2493,
+    "def": 905,
+    "hp": 6714
+   },
+   {
+    "att": 2500,
+    "def": 907,
+    "hp": 6731
+   },
+   {
+    "att": 2506,
+    "def": 909,
+    "hp": 6747
+   },
+   {
+    "att": 2512,
+    "def": 912,
+    "hp": 6764
+   },
+   {
+    "att": 2519,
+    "def": 914,
+    "hp": 6780
+   },
+   {
+    "att": 2525,
+    "def": 916,
+    "hp": 6797
+   },
+   {
+    "att": 2531,
+    "def": 918,
+    "hp": 6813
+   },
+   {
+    "att": 2537,
+    "def": 921,
+    "hp": 6830
+   },
+   {
+    "att": 2544,
+    "def": 923,
+    "hp": 6846
+   },
+   {
+    "att": 2550,
+    "def": 925,
+    "hp": 6863
+   },
+   {
+    "att": 2556,
+    "def": 927,
+    "hp": 6879
+   },
+   {
+    "att": 2563,
+    "def": 930,
+    "hp": 6896
+   },
+   {
+    "att": 2569,
+    "def": 932,
+    "hp": 6912
+   },
+   {
+    "att": 2575,
+    "def": 934,
+    "hp": 6929
+   },
+   {
+    "att": 2582,
+    "def": 936,
+    "hp": 6945
+   },
+   {
+    "att": 2588,
+    "def": 939,
+    "hp": 6962
+   },
+   {
+    "att": 2594,
+    "def": 941,
+    "hp": 6978
+   },
+   {
+    "att": 2600,
+    "def": 943,
+    "hp": 6995
+   },
+   {
+    "att": 2607,
+    "def": 945,
+    "hp": 7011
+   },
+   {
+    "att": 2613,
+    "def": 948,
+    "hp": 7028
+   },
+   {
+    "att": 2619,
+    "def": 950,
+    "hp": 7044
+   },
+   {
+    "att": 2626,
+    "def": 952,
+    "hp": 7061
+   },
+   {
+    "att": 2632,
+    "def": 954,
+    "hp": 7077
+   },
+   {
+    "att": 2638,
+    "def": 957,
+    "hp": 7094
+   },
+   {
+    "att": 2645,
+    "def": 959,
+    "hp": 7110
+   },
+   {
+    "att": 2651,
+    "def": 961,
+    "hp": 7127
+   },
+   {
+    "att": 2657,
+    "def": 963,
+    "hp": 7144
+   },
+   {
+    "att": 2663,
+    "def": 966,
+    "hp": 7160
+   },
+   {
+    "att": 2670,
+    "def": 968,
+    "hp": 7177
+   },
+   {
+    "att": 2676,
+    "def": 970,
+    "hp": 7193
+   },
+   {
+    "att": 2682,
+    "def": 972,
+    "hp": 7210
+   },
+   {
+    "att": 2689,
+    "def": 975,
+    "hp": 7226
+   },
+   {
+    "att": 2695,
+    "def": 977,
+    "hp": 7243
+   },
+   {
+    "att": 2701,
+    "def": 979,
+    "hp": 7259
+   },
+   {
+    "att": 2707,
+    "def": 981,
+    "hp": 7276
+   },
+   {
+    "att": 2714,
+    "def": 984,
+    "hp": 7292
+   },
+   {
+    "att": 2720,
+    "def": 986,
+    "hp": 7309
+   },
+   {
+    "att": 2726,
+    "def": 988,
+    "hp": 7325
+   },
+   {
+    "att": 2733,
+    "def": 991,
+    "hp": 7342
+   },
+   {
+    "att": 2739,
+    "def": 993,
+    "hp": 7358
+   },
+   {
+    "att": 2745,
+    "def": 995,
+    "hp": 7375
+   },
+   {
+    "att": 2752,
+    "def": 997,
+    "hp": 7391
+   },
+   {
+    "att": 2758,
+    "def": 1000,
+    "hp": 7408
+   },
+   {
+    "att": 2764,
+    "def": 1002,
+    "hp": 7424
+   },
+   {
+    "att": 2770,
+    "def": 1004,
+    "hp": 7441
+   },
+   {
+    "att": 2777,
+    "def": 1006,
+    "hp": 7457
+   },
+   {
+    "att": 2783,
+    "def": 1009,
+    "hp": 7474
+   },
+   {
+    "att": 2789,
+    "def": 1011,
+    "hp": 7490
+   },
+   {
+    "att": 2796,
+    "def": 1013,
+    "hp": 7507
+   },
+   {
+    "att": 2802,
+    "def": 1015,
+    "hp": 7523
+   },
+   {
+    "att": 2808,
+    "def": 1018,
+    "hp": 7540
+   },
+   {
+    "att": 2815,
+    "def": 1020,
+    "hp": 7556
+   },
+   {
+    "att": 2821,
+    "def": 1022,
+    "hp": 7573
+   },
+   {
+    "att": 2827,
+    "def": 1024,
+    "hp": 7589
+   },
+   {
+    "att": 2833,
+    "def": 1027,
+    "hp": 7606
+   },
+   {
+    "att": 2840,
+    "def": 1029,
+    "hp": 7622
+   },
+   {
+    "att": 2846,
+    "def": 1031,
+    "hp": 7639
+   },
+   {
+    "att": 2852,
+    "def": 1033,
+    "hp": 7655
+   },
+   {
+    "att": 2859,
+    "def": 1036,
+    "hp": 7672
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Hiiro",
+     "Sharona"
+    ],
+    "chat": [
+     {
+      "character": "Hiiro:",
+      "text": "That blade of yours..."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Every time I see it, I feel an affinity towards it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Affinity? I think you've said this before as well..."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Yes, the styles of our blades are both very unique."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "I think they are somehow related."
+     },
+     {
+      "character": "Sharona:",
+      "text": "This was passed down in my family. Unfortunately, I don't know a lot about it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "But I'm curious, is your blade sharper than mine?"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "I never doubt it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Interesting... you really do trust it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "It's been a while since we've practiced fighting. How about we test out your blade in the training room?"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Unless your blade doesn't want to come out of its scabbard."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Only cowards flee."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Let's go to the training room then! I haven't had a proper fight in a while!"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Gladly!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "For some reason, just looking at Ms. Hiiro makes one quiet down instinctively.We all know that Ms. Hiiro is an especially serious person, her gaze resolute and domineering. She acts resolutely and swiftly without hesitation, and seems to have had a katana the same height as her since she joined the Illumina Federation. I was lucky enough to see her draw her katana and swing it, with sakura blossoms and Zakura appearing next to her as she swung it. It was such a gorgeous and dreamy scene. She is also in charge of the third legion of Gannon City. I still can't believe that such a powerful and outstanding dreamlike figure would suddenly ask to visit our Colossus...Someone in the know has revealed to us that Ms. Hiiro has come here to uncover a certain mystery...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "What do you want to ask? As far as I know, you're one of the people in charge of the Colossus, so I'll answer your question if you want me to.Gannon City is a great place, rich in outstanding resources and intel. The Queen is a powerful existence and the best leader. She promised to help me and gave me my scabbard, Crimson Shade, so to show my gratitude, and to pay her back for her assistance, I will do my best to contribute to Gannon City and the entire Illumina Federation to repay their kindness. However, it is indeed the case that I cannot stay there forever, even though I don't want there to be any changes.Don't get me wrong\u2014I don't dislike that place, it's just that there's a mission that's been waiting for me to complete; I have seen too many things disappear, and I kept reminding myself not to worry about it. Either way, since I'll have to leave one day, I'm not used to developing strong bonds with the people around me..."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "I can tell you about the meaning of my name if you're interested...I received the strictest education and was required to abide by codes of justice and morality. I was taught to be confident and daring in my actions, to possess an indomitable spirit, and to be highly skilled in martial arts. They said I should be virtuous, graceful, and honest, and that I should protect my reputation. I was also told to restrain my selfish desires and complete my mission. These things have been built into my bones and are the creeds I follow.I want to die in a way that matches the brilliance of summer flowers, but the ironic thing is that sakura blossoms don't survive through summer... That's why my master later named me Hiiro.I now await the day I shall see that destined holy land. My flame will die out, and the early snow will fall. Everything shall wither one day. I am already prepared for that."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I hope you don't mind if I tell you a story about another family on Cloud Mountain in the Far East\u2014a story about the Sakae Family and my master, Sakae Shigeo, who was the last sword soul master of the Sakae Family. The Eclipsites attacked us at the place where we were temporarily staying. My master and I did our best to cover the retreat of the nearby residents, but my master was dealt a serious wound that he could not recover from. He entrusted me with his power and mission, leaving me this Sakae blade... I don't think it's a simple matter to accept all facts and beliefs. As the last soul of the Sakae Family, he faced everything with patience, integrity, and calmness. He sacrificed in a fire. He entrusted everything of the Sakae family to me, and I have engraved this in my heart so that I'll never forget.From my point of view, my master has just left for the opposite shore before me. His destination is where we will all end up when our lives eventually end.However... rather than getting entangled with the future, I rather make my current wishes come true."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "During our constant travels on the Colossus, I am sometimes reminded of some stories of the past. This story took place in a land far away and is about the Sakura Family that no longer exists.The members of this family were bathed in sakura blossoms when they were born and had a short and limited time in this world. To maximize the value of their lives, they constantly sought to burn up their lives for a moment of splendor and beauty. After that, they would wait for their lives to end without any regrets. This belief was nurtured in their bloodline, yet it was this belief that almost ended their bloodline. They were supposed to wither overnight like the sakura blossoms they admired, but they probably didn't expect there to be one flower that didn't want to leave its branch, or that this flower would leave behind a lonely seed... I never met my parents and don't know why my mother left me at the door of the Sakae Family famed for its kendo prowess.Later, I took the initiative to join Illumina... As my name suggests, I hope that my short life will shine with a brilliance that does my name justice."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "We are grateful to Illumina. This is the most suitable place for Sakae and me to stay.",
+  "You might have heard me talk about my hometown. It's in the far East across this continent.",
+  "Splendor Illumina.",
+  "Aurorians and Eclipsites are born into opposition. They can only face each other with swords.",
+  "She invited me here on behalf of Illumina, so I owe it to her. I will never forget her powerful figure.",
+  "While most of our contacts are for official business, I do admire her planning ability.",
+  "Meditation, Pink Dragon, Sakae... Will the things are important to me regarded as the things I like?",
+  "I wouldn't say I hate it, but I'm not willing to be in the company of those who aren't awakened.",
+  "Have you heard about the legendary white dragon? Just like this Colossus, I hope it can go afar.",
+  "The path along which sakura blossoms is the way home in my memories.",
+  "I'm honored to be chosen by you. I hope I'll live up to your expectations.",
+  "... There's no shame in being defeated.",
+  "That battle was certainly fought with awareness.",
+  "Fall!",
+  "Light arc!",
+  "Focus\u2014",
+  "Happy New Year.",
+  "Let's change our destiny together.",
+  "I must fight off my own selfishness.",
+  "Be fearless of death, just as the spring flowers disperse\u2014",
+  "Zakura, join me in the pursuit of the final chapter in our destiny!",
+  "Phew\u2014a much-needed break. I'm going to take this chance to meditate. I hope I'm disturbed by no one...",
+  "I'm one step closer...to my goal.",
+  "Alchemy Stars.",
+  "On the other side of the window, the rainstorm seems to have disappeared. I never thought I would find such peace on this colossus.",
+  "The world is surreal, but there are bound to be restraints in life. Just like you and this colossus, me, and this katana.",
+  "One must be decisive when they're caught between a rock and a hard place. Yet... not everyone can manage so, neither can I.",
+  "A fighter should focus on the moment and not get distracted. Hiiro, you must not gloat despite your improvement.",
+  "My heart is filled with stories of the heroes who died. Those are the memories of Cloud Mountain... I will no longer hesitate!",
+  "Zakura, Sakae, this fleeting power, and determination in the face of death. These are all that I have.",
+  "With the spring drizzle and fresh grass, the world seems to be recovering. Come have a look?",
+  "Death isn't scary. Sacrificing for nothing is. What will you sacrifice yourself for?",
+  "The world may be surreal, but with this colossus and you... The world seems different now.",
+  "Sakae is the name of this sword. He has accompanied me for many years.",
+  "...back in my hometown, there was always plenty of sakura blossoming in quiet times.",
+  "Why don't we find a place to sit and meditate together? It can relieve fatigue, which is good for work.",
+  "You're back. Everything's fine.",
+  "My training for the legion is over. Let me know if you need anything.",
+  "Don't worry, I'm still here.",
+  "It's time to rest. Don't mind me, I'll stay a bit more.",
+  "My name is Hiiro. Life is surreal. It's fate that we met. Sakae and I will be at your service for now.",
+  "Thanks, but you really don't have to.",
+  "You must have put a lot of thought into this. Thank you.",
+  "This gift... Please let me know how I can repay you.",
+  "This... oh, I really like it. No, I love it...",
+  "Head towards death and we'll live\u2014!",
+  "Sakura storm\u2014!",
+  "Sword at the ready.",
+  "It's my mission to help you. While I live in Illumina, taking on the important role of the Legion Commander, I wasn't born here...",
+  "Even though I was young when I left my hometown, it's inevitable that its markings remain engraved in me, like my integrity, like my name...",
+  "Life is unpredictable. Sakae and I left Cloud Mountain together, yet I was left to join Illumina alone... Now that you're here, I hope there won't be any more surprises...",
+  "I will not be a disgrace."
+ ],
+ "skins": [
+  {
+   "name": "Blast from the Past",
+   "description": "A classic discontinued Illumina Military Academy uniform. The windbreaker coat and bodysuit allow Hiiro to adapt to different temperatures and environments during her patrols. Finding the pants to be too loose, Hiiro utilized leather attachments to make them fit better, allowing her to deal with all kinds of emergencies at any given time. The red scarf wrapped around her arm represents her unwavering will from when this uniform was issued."
+  }
+ ],
+ "description": "A girl with unrivaled fighting skills. As a Legion Commander of the Illumina Federation, she's known to be strict, serious, and determined. Facing each battle with calculated confidence, she's scored many victories with her katana in hand.",
+ "realName": "Hiiro",
+ "nickname": "Sakura Setsuna",
+ "gender": "Female",
+ "height": "5'6\"",
+ "birthday": "April 1",
+ "birthplace": "Far East",
+ "style": "Katana"
 }

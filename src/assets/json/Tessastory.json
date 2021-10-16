@@ -1,0 +1,702 @@
+{
+ "title": "Hush.",
+ "header": "Tessa received your Lumowhistler, but your present seems to have brought up some bad memories...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Tessa:",
+     "dialogue": "Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Why what?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Erm... Why did you give me this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Why? Why not... I just wanted to give it to you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I always see you sucking on candy, so I came here for the sole purpose of bringing you some\u2014"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "You really are so very kind, but I don't need this..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I understand what you were thinking, but I just don't need this... Oh, Lumowhistler."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Rejected, just like that... I guess I was mistaken..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "No, no, no, it's not your fault. I should've accepted it."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "But... I don't like this kind of candy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You like lollipops, but refuse to eat Lumowhistlers... I thought candy was just candy and you'd probably like this stuff, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it the flavor you don't like?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can swap it for strawberry... or how about apple?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "It has nothing to do with the flavor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You can even blow on it to make a whistling sound. See? Just like this\u2014"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Tear off a piece and put it in mouth*"
+    }
+   ],
+   "branch": [
+    {
+     "text": "*Blowing*",
+     "link": "1"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Phweeeee\u2014!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Are you sure that's how you blow it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't think so... Maybe I didn't set it in the right place."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Navigator... have you read my file?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "The personal file Vice and I wrote together... Have you read it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yes, I read it to the last word.",
+     "link": "2"
+    },
+    {
+     "text": "I want to see it, but it hasn't been unlocked yet.",
+     "link": "3"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Now that you know everything, you should be able to understand."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry... I don't seem to recall what it is you're referring to. Do you mind if I go back and refresh my memory first?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "There's no need to be so serious. It's not a big deal if you don't remember. Just pretend I was talking to myself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, on the contrary! I really want to know what happened!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be that... you got a Lumowhistler stuck in your throat?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, but I still don't understand why you're so bothered by this gift."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, what I mean to say is... I'd like to know what the difference is for you between lollipops and other kinds of candy, Tessa."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Tsk... I should have known that your curiosity wouldn't let this slide."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "But I'm not in the mood today. I don't want to spend my time talking about the past."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I have to go. You'd better take this Lumowhistler back. Give it to someone else... Don't waste it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I want to know!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What do you want to know? How you're going to die?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, yeah, I really want to know that... But I also want to know more about you, Tessa!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I obviously hit a nerve just now, but I'm still at a loss as to why..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're partners now... We need to learn how to trust each other!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So please answer my question, Tessa! Why did you refuse this candy!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Yikes! What's gotten into you!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I don't know whether to call you simply pig-headed or just bull-headed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aren't those both insults, though?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "See for yourself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Delve inside my head and take a look for yourself... You do have psychic abilities, don't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Can I? I don't usually just go around invading people's privacy..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "To be honest, I'd rather die than repeat that sentence..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "If you want to look, go ahead and look... Otherwise, I'm out of here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll take a look!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "*Establishing mind link*",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Tessa:",
+     "dialogue": "How innocent of you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm just being honest..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "So, you thought that because I always have candy on me, I'd like this Lumowhistler?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is there something wrong with me coming to a conclusion like that?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "It wouldn't be a problem for most people, but I'm not like most people."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, but I still don't understand why you're so bothered by this gift."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, what I mean to say is... I'd like to know what the difference is for you between lollipops and other kinds of candy, Tessa."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Tsk... I should have known that your curiosity wouldn't let this slide."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "But I'm not in the mood today. I don't want to spend my time talking about the past."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I have to go. You'd better take this Lumowhistler back. Give it to someone else... Don't waste it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I want to know!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What do you want to know? How you're going to die?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, yeah, I really want to know that... But I also want to know more about you, Tessa!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I obviously hit a nerve just now, but I'm still at a loss as to why..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're partners now... We need to learn how to trust each other!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So please answer my question, Tessa! Why did you refuse this candy!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Yikes! What's gotten into you!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I don't know whether to call you simply pig-headed or just bull-headed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aren't those both insults, though?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "See for yourself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Delve inside my head and take a look for yourself... You do have psychic abilities, don't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Can I? I don't usually just go around invading people's privacy..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "To be honest, I'd rather die than repeat that sentence..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "If you want to look, go ahead and look... Otherwise, I'm out of here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll take a look!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "*Establishing mind link*",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "No, what I mean to say is... I'd like to know what the difference is for you between lollipops and other kinds of candy, Tessa."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Tsk... I should have known that your curiosity wouldn't let this slide."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "But I'm not in the mood today. I don't want to spend my time talking about the past."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I have to go. You'd better take this Lumowhistler back. Give it to someone else... Don't waste it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I want to know!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What do you want to know? How you're going to die?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, yeah, I really want to know that... But I also want to know more about you, Tessa!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I obviously hit a nerve just now, but I'm still at a loss as to why..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We're partners now... We need to learn how to trust each other!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So please answer my question, Tessa! Why did you refuse this candy!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Yikes! What's gotten into you!?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I don't know whether to call you simply pig-headed or just bull-headed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aren't those both insults, though?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "See for yourself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Delve inside my head and take a look for yourself... You do have psychic abilities, don't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Can I? I don't usually just go around invading people's privacy..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "To be honest, I'd rather die than repeat that sentence..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "If you want to look, go ahead and look... Otherwise, I'm out of here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll take a look!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "*Establishing mind link*",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Tessa..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Richard!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "What happened? Why is it so noisy outside? I want to go out there. I don't want to stay in here\u2014"
+    },
+    {
+     "char": "???:",
+     "dialogue": "That's not possible, Tessa... Not right now."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Richard! It's so dark in here! My clothes smell all moldy... Open the door\u2014"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Listen to me!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "I'm sorry, Tessa. Listen, there's no need to be afraid. Let's play a game, huh?"
+    },
+    {
+     "char": "???:",
+     "dialogue": "No matter what you hear later on, don't make a sound, let alone come outside, okay?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I don't understand, Richard... I don't want to play this game\u2014"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Take this..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "It's... a lollipop?"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Put it in your mouth, be a good girl."
+    },
+    {
+     "char": "???:",
+     "dialogue": "There's more. When all this is over, I'll give them all to you..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "But remember, Tessa. No matter what happens, don't make a sound...!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "I'm sorry..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Sorry, Tessa..."
+    },
+    {
+     "char": "Lumopolis Soldier:",
+     "dialogue": "Lumopolis Gardens Police! Open up!"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Someone's knocking on the door... It's so loud."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Footsteps... fighting... a glass breaking..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Light. Not from outside, but from inside the closet, from inside of me."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "The air stinks and the boards are hot and damp."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "But my lollipop is still sweet..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Seen enough?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel... like I can't breathe. Tessa, is that what you went through?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although they're such scattered fragments of your memories, I can feel the helplessness and fear."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Yes. Even now, looking back, I still only remember a mess of jumbled sounds, and Richard's cry..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Also the sweetness of that lollipop..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Since then, I only eat this brand and this flavor of lollipop. Do you understand now?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "And I don't like candy, so much as..."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "I rely on it... for some reason."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand now."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "So, any other questions?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. Well, sure, I still have many questions, but I'm going to find the answers myself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I want to know more about you. If my gift offended you, I... I apologize."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, Tessa."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "There's no need to apologize."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "And don't say sorry. I hate that meaningless word even more than other candy brands."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "*Snapping her fingers with a spark*"
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "And that's that. Anyway, thank you for the useless gift."
+    },
+    {
+     "char": "Tessa:",
+     "dialogue": "Hmph. Later."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Tessa..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

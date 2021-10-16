@@ -1,0 +1,640 @@
+[
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "I'm here for an inspection."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "You don't seem to be here."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Sorry, I just went out."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sorry, I didn't notice that."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Sorry, I just went out."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Schwartz:",
+      "content": "I know\u2014I chose this time on purpose because I knew you wouldn't be here."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry, I'll come over to meet you right now."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "That's okay. Don't worry about it. Just this once."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You should prepare in advance and come meet me next time."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "But I still won't be giving you any reminders next time!"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You should either always be ready or find a way to find out when I'll be coming for an inspection."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, I understand."
+     },
+     {
+      "name": "Navigator:",
+      "content": "May I ask you a question then?"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Yes you may."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Do you usually perform inspections yourself?"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Listen carefully, it's my duty to personally perform inspections at the places I want to go to since I'm the City Lord of Lumopolis!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-I see. I understand now."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Sorry, I didn't notice that."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Schwartz:",
+      "content": "Huh, I guessed so."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Sorry, I'll come over to meet you right now."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "That's okay. Don't worry about it. Just this once."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You should prepare in advance and come meet me next time."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "But I still won't be giving you any reminders next time!"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You should either always be ready or find a way to find out when I'll be coming for an inspection."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yes, I understand."
+     },
+     {
+      "name": "Navigator:",
+      "content": "May I ask you a question then?"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Yes you may."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Do you usually perform inspections yourself?"
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Listen carefully, it's my duty to personally perform inspections at the places I want to go to since I'm the City Lord of Lumopolis!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-I see. I understand now."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Hello."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "As the City Lord of Lumopolis, I offer you my sincerest greetings."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "I hope we have many opportunities to work together in the future."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hello."
+   },
+   {
+    "name": "Navigator:",
+    "content": "H-hello, I mean... Good day? Good night? What's the time?..."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Your logic lacks even the slightest trace of organization. Don't you have anything to say, kid?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "However, this place is slightly different from Lumopolis."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Scattered and chaotic, to a degree only Umbraton can match."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Can you manage this place on your own?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, if you must know..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I can do it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That word \"manage\" sounds so serious."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I can do it."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "My answer is yes. I can do it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Lumopolis has its order, as does Soroz. That doesn't mean it's worse than Lumopolis."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Ah, a typical youngster's answer. Well, you young people live in your world. You have your responsibilities and destiny."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Let me see what you've got."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "That word \"manage\" sounds so serious."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "This is where my friends and I live. We trust each other and we take care of each other... We don't need any kind of management."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Ah, a typical youngster's answer. Well, you young people live in your world. You have your responsibilities and destiny."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Let me see what you've got."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Good afternoon."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hey. So... What can I do for you?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "I didn't mean to disturb your lunch break. This is the order of things on the Colossus."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "But when I was meditating on the bridge, I noticed you pass by my side."
+   },
+   {
+    "name": "Navigator:",
+    "content": "M-My posture was alright, wasn't it!?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Yes, but what I have to say is not regarding your posture."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Your collar wasn't straight, Caelestite. And there are some stains on the back of your clothing."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Such attire is not suitable for even sleepwear, let alone for a leader to parade around in."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...I-I'll tell the fireflies to sort it out, right now!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thank you for reminding me... Your Excellency."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Hmm."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Be diligent, order keeper."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "What do you usually do at lunch time?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Sleep..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... read and learn."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Sleep..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Schwartz:",
+      "content": "Well, this is really a way of leading by example."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You look rather young, but it seems you possess a degree of conscientiousness befitting a leader."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Well, good day to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "G-Good day, Your Excellency!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I... read and learn."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Schwartz:",
+      "content": "I also believe diligence is key... One should never stop learning, no matter what."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "You look rather young, but it seems you possess a degree of conscientiousness befitting a leader."
+     },
+     {
+      "name": "Schwartz:",
+      "content": "Well, good day to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "G-Good day, Your Excellency!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Good afternoon. Have you had lunch?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon! I've just finished eating."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Hmm. Always remember to eat on time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Thank you? I always eat on time..."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Maybe that's because you haven't encountered anything that might affect your appetite."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "What you must always keep in mind is that if your emotions affect your physiology, they're not worth the trouble."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Now, I need you to repeat what I just said."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Always remember..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...to eat on time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thank you for reminding me... I will remember."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "You must still be awake."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, Your Excellency..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm still awake."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Hmm... It confuses me."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Looking up at the night sky from the Colossus seems no different from gazing up from within Lumopolis."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "We often only see the problems before us without realizing that the ways in which we protect ourselves are actually one and the same."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... How profound\u2026"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Indeed, I shouldn't have said such a thing to someone your age."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "... I rarely make such slips of the tongue. Perhaps that's what makes you special, Caelestite."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Sleep early. Farewell."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh... Erm... Good night, Your Excellency."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Good evening."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Your Excellency!"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "You must have spoken with some members of the Lumopolis nobility before, correct?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah... Yes! I've met several nobles."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Well..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Carleen is doing well..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is that what you want to ask?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "...Not really."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "I was just thinking..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "May I ask... what's bothering you?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "The conflict between organizational structure and order... is actually very subtle."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Erm... For example?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "How can the two extreme opposing concepts of classes and equality realized within the same city-state?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm afraid that I don't have your answer."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Good night. I wish you a sound sleep."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night, Your Excellency."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Schwartz:",
+    "content": "Your Excellency, I'm the City Lord of Lumopolis, Daniel de Schwartz."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, so you're the City Lord. H-hello."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "You don't need to bother with the tedious etiquette of Lumopolis here."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Okay... In that case, what is the purpose of your visit?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Carleen."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Carleen? She..."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "She's my daughter, but I don't want others to only see her as my daughter."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "This is what she wants as well."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What do you want me to do then...?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "If she comes to Soroz, try not to treat her like my daughter when you interact with her."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "I'm sure she'll agree with me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why...?"
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Because this is probably what Carleen wants the most, to rely on her ability as much as possible... and not on my help..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I see... I understand now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I promise you, City Lord."
+   },
+   {
+    "name": "Schwartz:",
+    "content": "Thank you, Navigator, for agreeing to my request. Please also keep this between us."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I will."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

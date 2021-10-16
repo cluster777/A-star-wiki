@@ -1,1153 +1,1327 @@
 {
-      "name": "Rabbie",
-      "faction": "Rediesel Wrench",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
-                  "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back.",
-                  "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
-            ]
-      },
-      "equip": {
-            "name": "Modified Drill",
-            "passive": "Rabbie Drill",
-            "description": [
-                  [
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
-                  ],
-                  [
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
-                  ],
-                  [
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
-                        "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 170% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Crystal Shard",
-                        "Thunder Essence",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
-            },
-            {
-                  "material": [
-                        "Thunder Potion II",
-                        "Thunder Flare Silt",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
-                  "after": "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
-            },
-            {
-                  "material": [
-                        "Thunder Flare Tile",
-                        "Thunder Crystal",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF).",
-                  "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 510,
-                        "def": 209,
-                        "hp": 1592
-                  },
-                  {
-                        "att": 520,
-                        "def": 212,
-                        "hp": 1618
-                  },
-                  {
-                        "att": 530,
-                        "def": 215,
-                        "hp": 1644
-                  },
-                  {
-                        "att": 540,
-                        "def": 219,
-                        "hp": 1669
-                  },
-                  {
-                        "att": 550,
-                        "def": 222,
-                        "hp": 1695
-                  },
-                  {
-                        "att": 561,
-                        "def": 225,
-                        "hp": 1720
-                  },
-                  {
-                        "att": 571,
-                        "def": 229,
-                        "hp": 1746
-                  },
-                  {
-                        "att": 581,
-                        "def": 232,
-                        "hp": 1772
-                  },
-                  {
-                        "att": 591,
-                        "def": 235,
-                        "hp": 1797
-                  },
-                  {
-                        "att": 601,
-                        "def": 239,
-                        "hp": 1823
-                  },
-                  {
-                        "att": 611,
-                        "def": 242,
-                        "hp": 1848
-                  },
-                  {
-                        "att": 621,
-                        "def": 245,
-                        "hp": 1874
-                  },
-                  {
-                        "att": 631,
-                        "def": 249,
-                        "hp": 1899
-                  },
-                  {
-                        "att": 641,
-                        "def": 252,
-                        "hp": 1925
-                  },
-                  {
-                        "att": 651,
-                        "def": 255,
-                        "hp": 1951
-                  },
-                  {
-                        "att": 661,
-                        "def": 259,
-                        "hp": 1976
-                  },
-                  {
-                        "att": 672,
-                        "def": 262,
-                        "hp": 2002
-                  },
-                  {
-                        "att": 682,
-                        "def": 265,
-                        "hp": 2027
-                  },
-                  {
-                        "att": 692,
-                        "def": 269,
-                        "hp": 2053
-                  },
-                  {
-                        "att": 702,
-                        "def": 272,
-                        "hp": 2078
-                  },
-                  {
-                        "att": 712,
-                        "def": 275,
-                        "hp": 2104
-                  },
-                  {
-                        "att": 722,
-                        "def": 278,
-                        "hp": 2130
-                  },
-                  {
-                        "att": 732,
-                        "def": 282,
-                        "hp": 2155
-                  },
-                  {
-                        "att": 742,
-                        "def": 285,
-                        "hp": 2181
-                  },
-                  {
-                        "att": 752,
-                        "def": 288,
-                        "hp": 2206
-                  },
-                  {
-                        "att": 762,
-                        "def": 292,
-                        "hp": 2232
-                  },
-                  {
-                        "att": 772,
-                        "def": 295,
-                        "hp": 2257
-                  },
-                  {
-                        "att": 783,
-                        "def": 298,
-                        "hp": 2283
-                  },
-                  {
-                        "att": 793,
-                        "def": 302,
-                        "hp": 2309
-                  },
-                  {
-                        "att": 803,
-                        "def": 305,
-                        "hp": 2334
-                  },
-                  {
-                        "att": 905,
-                        "def": 339,
-                        "hp": 2606
-                  },
-                  {
-                        "att": 918,
-                        "def": 343,
-                        "hp": 2638
-                  },
-                  {
-                        "att": 931,
-                        "def": 348,
-                        "hp": 2670
-                  },
-                  {
-                        "att": 943,
-                        "def": 352,
-                        "hp": 2702
-                  },
-                  {
-                        "att": 956,
-                        "def": 356,
-                        "hp": 2734
-                  },
-                  {
-                        "att": 968,
-                        "def": 360,
-                        "hp": 2766
-                  },
-                  {
-                        "att": 981,
-                        "def": 364,
-                        "hp": 2798
-                  },
-                  {
-                        "att": 994,
-                        "def": 368,
-                        "hp": 2830
-                  },
-                  {
-                        "att": 1006,
-                        "def": 373,
-                        "hp": 2862
-                  },
-                  {
-                        "att": 1019,
-                        "def": 377,
-                        "hp": 2894
-                  },
-                  {
-                        "att": 1031,
-                        "def": 381,
-                        "hp": 2926
-                  },
-                  {
-                        "att": 1044,
-                        "def": 385,
-                        "hp": 2958
-                  },
-                  {
-                        "att": 1057,
-                        "def": 389,
-                        "hp": 2990
-                  },
-                  {
-                        "att": 1069,
-                        "def": 393,
-                        "hp": 3022
-                  },
-                  {
-                        "att": 1082,
-                        "def": 397,
-                        "hp": 3054
-                  },
-                  {
-                        "att": 1095,
-                        "def": 402,
-                        "hp": 3086
-                  },
-                  {
-                        "att": 1107,
-                        "def": 406,
-                        "hp": 3118
-                  },
-                  {
-                        "att": 1120,
-                        "def": 410,
-                        "hp": 3150
-                  },
-                  {
-                        "att": 1132,
-                        "def": 414,
-                        "hp": 3182
-                  },
-                  {
-                        "att": 1145,
-                        "def": 418,
-                        "hp": 3214
-                  },
-                  {
-                        "att": 1158,
-                        "def": 422,
-                        "hp": 3246
-                  },
-                  {
-                        "att": 1170,
-                        "def": 427,
-                        "hp": 3278
-                  },
-                  {
-                        "att": 1183,
-                        "def": 431,
-                        "hp": 3310
-                  },
-                  {
-                        "att": 1195,
-                        "def": 435,
-                        "hp": 3341
-                  },
-                  {
-                        "att": 1208,
-                        "def": 439,
-                        "hp": 3373
-                  },
-                  {
-                        "att": 1221,
-                        "def": 443,
-                        "hp": 3405
-                  },
-                  {
-                        "att": 1233,
-                        "def": 447,
-                        "hp": 3437
-                  },
-                  {
-                        "att": 1246,
-                        "def": 452,
-                        "hp": 3469
-                  },
-                  {
-                        "att": 1258,
-                        "def": 456,
-                        "hp": 3501
-                  },
-                  {
-                        "att": 1271,
-                        "def": 460,
-                        "hp": 3533
-                  },
-                  {
-                        "att": 1284,
-                        "def": 464,
-                        "hp": 3565
-                  },
-                  {
-                        "att": 1296,
-                        "def": 468,
-                        "hp": 3597
-                  },
-                  {
-                        "att": 1309,
-                        "def": 472,
-                        "hp": 3629
-                  },
-                  {
-                        "att": 1322,
-                        "def": 476,
-                        "hp": 3661
-                  },
-                  {
-                        "att": 1334,
-                        "def": 481,
-                        "hp": 3693
-                  },
-                  {
-                        "att": 1347,
-                        "def": 485,
-                        "hp": 3725
-                  },
-                  {
-                        "att": 1359,
-                        "def": 489,
-                        "hp": 3757
-                  },
-                  {
-                        "att": 1372,
-                        "def": 493,
-                        "hp": 3789
-                  },
-                  {
-                        "att": 1385,
-                        "def": 497,
-                        "hp": 3821
-                  },
-                  {
-                        "att": 1397,
-                        "def": 501,
-                        "hp": 3853
-                  },
-                  {
-                        "att": 1547,
-                        "def": 555,
-                        "hp": 4257
-                  },
-                  {
-                        "att": 1556,
-                        "def": 558,
-                        "hp": 4281
-                  },
-                  {
-                        "att": 1566,
-                        "def": 561,
-                        "hp": 4305
-                  },
-                  {
-                        "att": 1575,
-                        "def": 564,
-                        "hp": 4329
-                  },
-                  {
-                        "att": 1585,
-                        "def": 567,
-                        "hp": 4353
-                  },
-                  {
-                        "att": 1594,
-                        "def": 570,
-                        "hp": 4377
-                  },
-                  {
-                        "att": 1603,
-                        "def": 573,
-                        "hp": 4401
-                  },
-                  {
-                        "att": 1613,
-                        "def": 576,
-                        "hp": 4425
-                  },
-                  {
-                        "att": 1622,
-                        "def": 579,
-                        "hp": 4449
-                  },
-                  {
-                        "att": 1632,
-                        "def": 583,
-                        "hp": 4473
-                  },
-                  {
-                        "att": 1641,
-                        "def": 586,
-                        "hp": 4497
-                  },
-                  {
-                        "att": 1651,
-                        "def": 589,
-                        "hp": 4521
-                  },
-                  {
-                        "att": 1660,
-                        "def": 592,
-                        "hp": 4545
-                  },
-                  {
-                        "att": 1670,
-                        "def": 595,
-                        "hp": 4569
-                  },
-                  {
-                        "att": 1679,
-                        "def": 598,
-                        "hp": 4593
-                  },
-                  {
-                        "att": 1689,
-                        "def": 601,
-                        "hp": 4617
-                  },
-                  {
-                        "att": 1698,
-                        "def": 604,
-                        "hp": 4641
-                  },
-                  {
-                        "att": 1708,
-                        "def": 608,
-                        "hp": 4665
-                  },
-                  {
-                        "att": 1717,
-                        "def": 611,
-                        "hp": 4689
-                  },
-                  {
-                        "att": 1726,
-                        "def": 614,
-                        "hp": 4713
-                  },
-                  {
-                        "att": 1736,
-                        "def": 617,
-                        "hp": 4737
-                  },
-                  {
-                        "att": 1745,
-                        "def": 620,
-                        "hp": 4761
-                  },
-                  {
-                        "att": 1755,
-                        "def": 623,
-                        "hp": 4785
-                  },
-                  {
-                        "att": 1764,
-                        "def": 626,
-                        "hp": 4808
-                  },
-                  {
-                        "att": 1774,
-                        "def": 629,
-                        "hp": 4832
-                  },
-                  {
-                        "att": 1783,
-                        "def": 632,
-                        "hp": 4856
-                  },
-                  {
-                        "att": 1793,
-                        "def": 636,
-                        "hp": 4880
-                  },
-                  {
-                        "att": 1802,
-                        "def": 639,
-                        "hp": 4904
-                  },
-                  {
-                        "att": 1812,
-                        "def": 642,
-                        "hp": 4928
-                  },
-                  {
-                        "att": 1821,
-                        "def": 645,
-                        "hp": 4952
-                  },
-                  {
-                        "att": 1830,
-                        "def": 648,
-                        "hp": 4976
-                  },
-                  {
-                        "att": 1840,
-                        "def": 651,
-                        "hp": 5000
-                  },
-                  {
-                        "att": 1849,
-                        "def": 654,
-                        "hp": 5024
-                  },
-                  {
-                        "att": 1859,
-                        "def": 657,
-                        "hp": 5048
-                  },
-                  {
-                        "att": 1868,
-                        "def": 661,
-                        "hp": 5072
-                  },
-                  {
-                        "att": 1878,
-                        "def": 664,
-                        "hp": 5096
-                  },
-                  {
-                        "att": 1887,
-                        "def": 667,
-                        "hp": 5120
-                  },
-                  {
-                        "att": 1897,
-                        "def": 670,
-                        "hp": 5144
-                  },
-                  {
-                        "att": 1906,
-                        "def": 673,
-                        "hp": 5168
-                  },
-                  {
-                        "att": 1916,
-                        "def": 676,
-                        "hp": 5192
-                  },
-                  {
-                        "att": 1925,
-                        "def": 679,
-                        "hp": 5216
-                  },
-                  {
-                        "att": 1935,
-                        "def": 682,
-                        "hp": 5240
-                  },
-                  {
-                        "att": 1944,
-                        "def": 685,
-                        "hp": 5264
-                  },
-                  {
-                        "att": 1953,
-                        "def": 689,
-                        "hp": 5288
-                  },
-                  {
-                        "att": 1963,
-                        "def": 692,
-                        "hp": 5312
-                  },
-                  {
-                        "att": 1972,
-                        "def": 695,
-                        "hp": 5336
-                  },
-                  {
-                        "att": 1982,
-                        "def": 698,
-                        "hp": 5360
-                  },
-                  {
-                        "att": 1991,
-                        "def": 701,
-                        "hp": 5384
-                  },
-                  {
-                        "att": 2001,
-                        "def": 704,
-                        "hp": 5408
-                  },
-                  {
-                        "att": 2010,
-                        "def": 707,
-                        "hp": 5432
-                  },
-                  {
-                        "att": 2232,
-                        "def": 774,
-                        "hp": 6018
-                  },
-                  {
-                        "att": 2238,
-                        "def": 776,
-                        "hp": 6034
-                  },
-                  {
-                        "att": 2244,
-                        "def": 779,
-                        "hp": 6050
-                  },
-                  {
-                        "att": 2250,
-                        "def": 781,
-                        "hp": 6066
-                  },
-                  {
-                        "att": 2257,
-                        "def": 783,
-                        "hp": 6082
-                  },
-                  {
-                        "att": 2263,
-                        "def": 785,
-                        "hp": 6098
-                  },
-                  {
-                        "att": 2269,
-                        "def": 787,
-                        "hp": 6114
-                  },
-                  {
-                        "att": 2276,
-                        "def": 789,
-                        "hp": 6130
-                  },
-                  {
-                        "att": 2282,
-                        "def": 791,
-                        "hp": 6146
-                  },
-                  {
-                        "att": 2288,
-                        "def": 793,
-                        "hp": 6162
-                  },
-                  {
-                        "att": 2295,
-                        "def": 795,
-                        "hp": 6178
-                  },
-                  {
-                        "att": 2301,
-                        "def": 797,
-                        "hp": 6194
-                  },
-                  {
-                        "att": 2307,
-                        "def": 799,
-                        "hp": 6210
-                  },
-                  {
-                        "att": 2314,
-                        "def": 801,
-                        "hp": 6226
-                  },
-                  {
-                        "att": 2320,
-                        "def": 803,
-                        "hp": 6242
-                  },
-                  {
-                        "att": 2326,
-                        "def": 806,
-                        "hp": 6258
-                  },
-                  {
-                        "att": 2332,
-                        "def": 808,
-                        "hp": 6274
-                  },
-                  {
-                        "att": 2339,
-                        "def": 810,
-                        "hp": 6290
-                  },
-                  {
-                        "att": 2345,
-                        "def": 812,
-                        "hp": 6306
-                  },
-                  {
-                        "att": 2351,
-                        "def": 814,
-                        "hp": 6322
-                  },
-                  {
-                        "att": 2358,
-                        "def": 816,
-                        "hp": 6338
-                  },
-                  {
-                        "att": 2364,
-                        "def": 818,
-                        "hp": 6354
-                  },
-                  {
-                        "att": 2370,
-                        "def": 820,
-                        "hp": 6370
-                  },
-                  {
-                        "att": 2377,
-                        "def": 822,
-                        "hp": 6386
-                  },
-                  {
-                        "att": 2383,
-                        "def": 824,
-                        "hp": 6402
-                  },
-                  {
-                        "att": 2389,
-                        "def": 826,
-                        "hp": 6418
-                  },
-                  {
-                        "att": 2395,
-                        "def": 828,
-                        "hp": 6434
-                  },
-                  {
-                        "att": 2402,
-                        "def": 830,
-                        "hp": 6449
-                  },
-                  {
-                        "att": 2408,
-                        "def": 833,
-                        "hp": 6465
-                  },
-                  {
-                        "att": 2414,
-                        "def": 835,
-                        "hp": 6481
-                  },
-                  {
-                        "att": 2421,
-                        "def": 837,
-                        "hp": 6497
-                  },
-                  {
-                        "att": 2427,
-                        "def": 839,
-                        "hp": 6513
-                  },
-                  {
-                        "att": 2433,
-                        "def": 841,
-                        "hp": 6529
-                  },
-                  {
-                        "att": 2440,
-                        "def": 843,
-                        "hp": 6545
-                  },
-                  {
-                        "att": 2446,
-                        "def": 845,
-                        "hp": 6561
-                  },
-                  {
-                        "att": 2452,
-                        "def": 847,
-                        "hp": 6577
-                  },
-                  {
-                        "att": 2459,
-                        "def": 849,
-                        "hp": 6593
-                  },
-                  {
-                        "att": 2465,
-                        "def": 851,
-                        "hp": 6609
-                  },
-                  {
-                        "att": 2471,
-                        "def": 853,
-                        "hp": 6625
-                  },
-                  {
-                        "att": 2477,
-                        "def": 855,
-                        "hp": 6641
-                  },
-                  {
-                        "att": 2484,
-                        "def": 858,
-                        "hp": 6657
-                  },
-                  {
-                        "att": 2490,
-                        "def": 860,
-                        "hp": 6673
-                  },
-                  {
-                        "att": 2496,
-                        "def": 862,
-                        "hp": 6689
-                  },
-                  {
-                        "att": 2503,
-                        "def": 864,
-                        "hp": 6705
-                  },
-                  {
-                        "att": 2509,
-                        "def": 866,
-                        "hp": 6721
-                  },
-                  {
-                        "att": 2515,
-                        "def": 868,
-                        "hp": 6737
-                  },
-                  {
-                        "att": 2522,
-                        "def": 870,
-                        "hp": 6753
-                  },
-                  {
-                        "att": 2528,
-                        "def": 872,
-                        "hp": 6769
-                  },
-                  {
-                        "att": 2534,
-                        "def": 874,
-                        "hp": 6785
-                  },
-                  {
-                        "att": 2541,
-                        "def": 876,
-                        "hp": 6801
-                  },
-                  {
-                        "att": 2547,
-                        "def": 878,
-                        "hp": 6817
-                  },
-                  {
-                        "att": 2553,
-                        "def": 880,
-                        "hp": 6833
-                  },
-                  {
-                        "att": 2559,
-                        "def": 882,
-                        "hp": 6849
-                  },
-                  {
-                        "att": 2566,
-                        "def": 885,
-                        "hp": 6865
-                  },
-                  {
-                        "att": 2572,
-                        "def": 887,
-                        "hp": 6881
-                  },
-                  {
-                        "att": 2578,
-                        "def": 889,
-                        "hp": 6897
-                  },
-                  {
-                        "att": 2585,
-                        "def": 891,
-                        "hp": 6913
-                  },
-                  {
-                        "att": 2591,
-                        "def": 893,
-                        "hp": 6929
-                  },
-                  {
-                        "att": 2597,
-                        "def": 895,
-                        "hp": 6945
-                  },
-                  {
-                        "att": 2604,
-                        "def": 897,
-                        "hp": 6961
-                  },
-                  {
-                        "att": 2610,
-                        "def": 899,
-                        "hp": 6977
-                  },
-                  {
-                        "att": 2616,
-                        "def": 901,
-                        "hp": 6993
-                  },
-                  {
-                        "att": 2623,
-                        "def": 903,
-                        "hp": 7009
-                  },
-                  {
-                        "att": 2629,
-                        "def": 905,
-                        "hp": 7025
-                  },
-                  {
-                        "att": 2635,
-                        "def": 907,
-                        "hp": 7041
-                  },
-                  {
-                        "att": 2641,
-                        "def": 909,
-                        "hp": 7057
-                  },
-                  {
-                        "att": 2648,
-                        "def": 912,
-                        "hp": 7073
-                  },
-                  {
-                        "att": 2654,
-                        "def": 914,
-                        "hp": 7089
-                  },
-                  {
-                        "att": 2660,
-                        "def": 916,
-                        "hp": 7105
-                  },
-                  {
-                        "att": 2667,
-                        "def": 918,
-                        "hp": 7121
-                  },
-                  {
-                        "att": 2673,
-                        "def": 920,
-                        "hp": 7137
-                  },
-                  {
-                        "att": 2679,
-                        "def": 922,
-                        "hp": 7153
-                  },
-                  {
-                        "att": 2686,
-                        "def": 924,
-                        "hp": 7169
-                  },
-                  {
-                        "att": 2692,
-                        "def": 926,
-                        "hp": 7185
-                  },
-                  {
-                        "att": 2698,
-                        "def": 928,
-                        "hp": 7201
-                  },
-                  {
-                        "att": 2704,
-                        "def": 930,
-                        "hp": 7217
-                  },
-                  {
-                        "att": 2711,
-                        "def": 932,
-                        "hp": 7233
-                  },
-                  {
-                        "att": 2717,
-                        "def": 934,
-                        "hp": 7249
-                  },
-                  {
-                        "att": 2723,
-                        "def": 937,
-                        "hp": 7265
-                  },
-                  {
-                        "att": 2730,
-                        "def": 939,
-                        "hp": 7281
-                  }
-            ]
-      }
+ "name": "Rabbie",
+ "faction": "Rediesel Wrench",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Support",
+ "skill": {
+  "name": "Ambush Drill!",
+  "cd": "3 Turn",
+  "description": [
+   "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
+   "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back.",
+   "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
+  ]
+ },
+ "equip": {
+  "name": "Modified Drill",
+  "passive": "Rabbie Drill",
+  "description": [
+   [
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+   ],
+   [
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF).",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+   ],
+   [
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 10% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 25% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 40% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back.",
+    "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
+   ]
+  ],
+  "introduction": "Odi modified this huge electric drill to give it a sleek black finish with an interweaving red sheen. Though it is somewhat bulky, it is very light, and Rabbie can easily wield it in the heat of battle. Now that she has completely mastered its use, this electric drill has become her exclusive weapon."
+ },
+ "chain": {
+  "name": "Drill Impact",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 170% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Crystal Shard",
+    "Thunder Essence",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF)."
+  },
+  {
+   "material": [
+    "Thunder Potion II",
+    "Thunder Flare Silt",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to a selected location. Deals 300% damage to 4 tiles in a cross shape and knocks enemies back.",
+   "after": "Teleports to a selected location. Deals 300% damage to 1 surrounding cluster and knocks enemies back."
+  },
+  {
+   "material": [
+    "Thunder Flare Tile",
+    "Thunder Crystal",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF).",
+   "after": "Whenever an allied Aurorian knocks back an enemy, Rabbie deals damage equal to 60% of her ATK to that enemy (this damage ignores DEF). Increases DEF-ignoring damage by 10% for every 1 tile the enemy has been knocked back."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 510,
+    "def": 209,
+    "hp": 1592
+   },
+   {
+    "att": 520,
+    "def": 212,
+    "hp": 1618
+   },
+   {
+    "att": 530,
+    "def": 215,
+    "hp": 1644
+   },
+   {
+    "att": 540,
+    "def": 219,
+    "hp": 1669
+   },
+   {
+    "att": 550,
+    "def": 222,
+    "hp": 1695
+   },
+   {
+    "att": 561,
+    "def": 225,
+    "hp": 1720
+   },
+   {
+    "att": 571,
+    "def": 229,
+    "hp": 1746
+   },
+   {
+    "att": 581,
+    "def": 232,
+    "hp": 1772
+   },
+   {
+    "att": 591,
+    "def": 235,
+    "hp": 1797
+   },
+   {
+    "att": 601,
+    "def": 239,
+    "hp": 1823
+   },
+   {
+    "att": 611,
+    "def": 242,
+    "hp": 1848
+   },
+   {
+    "att": 621,
+    "def": 245,
+    "hp": 1874
+   },
+   {
+    "att": 631,
+    "def": 249,
+    "hp": 1899
+   },
+   {
+    "att": 641,
+    "def": 252,
+    "hp": 1925
+   },
+   {
+    "att": 651,
+    "def": 255,
+    "hp": 1951
+   },
+   {
+    "att": 661,
+    "def": 259,
+    "hp": 1976
+   },
+   {
+    "att": 672,
+    "def": 262,
+    "hp": 2002
+   },
+   {
+    "att": 682,
+    "def": 265,
+    "hp": 2027
+   },
+   {
+    "att": 692,
+    "def": 269,
+    "hp": 2053
+   },
+   {
+    "att": 702,
+    "def": 272,
+    "hp": 2078
+   },
+   {
+    "att": 712,
+    "def": 275,
+    "hp": 2104
+   },
+   {
+    "att": 722,
+    "def": 278,
+    "hp": 2130
+   },
+   {
+    "att": 732,
+    "def": 282,
+    "hp": 2155
+   },
+   {
+    "att": 742,
+    "def": 285,
+    "hp": 2181
+   },
+   {
+    "att": 752,
+    "def": 288,
+    "hp": 2206
+   },
+   {
+    "att": 762,
+    "def": 292,
+    "hp": 2232
+   },
+   {
+    "att": 772,
+    "def": 295,
+    "hp": 2257
+   },
+   {
+    "att": 783,
+    "def": 298,
+    "hp": 2283
+   },
+   {
+    "att": 793,
+    "def": 302,
+    "hp": 2309
+   },
+   {
+    "att": 803,
+    "def": 305,
+    "hp": 2334
+   },
+   {
+    "att": 905,
+    "def": 339,
+    "hp": 2606
+   },
+   {
+    "att": 918,
+    "def": 343,
+    "hp": 2638
+   },
+   {
+    "att": 931,
+    "def": 348,
+    "hp": 2670
+   },
+   {
+    "att": 943,
+    "def": 352,
+    "hp": 2702
+   },
+   {
+    "att": 956,
+    "def": 356,
+    "hp": 2734
+   },
+   {
+    "att": 968,
+    "def": 360,
+    "hp": 2766
+   },
+   {
+    "att": 981,
+    "def": 364,
+    "hp": 2798
+   },
+   {
+    "att": 994,
+    "def": 368,
+    "hp": 2830
+   },
+   {
+    "att": 1006,
+    "def": 373,
+    "hp": 2862
+   },
+   {
+    "att": 1019,
+    "def": 377,
+    "hp": 2894
+   },
+   {
+    "att": 1031,
+    "def": 381,
+    "hp": 2926
+   },
+   {
+    "att": 1044,
+    "def": 385,
+    "hp": 2958
+   },
+   {
+    "att": 1057,
+    "def": 389,
+    "hp": 2990
+   },
+   {
+    "att": 1069,
+    "def": 393,
+    "hp": 3022
+   },
+   {
+    "att": 1082,
+    "def": 397,
+    "hp": 3054
+   },
+   {
+    "att": 1095,
+    "def": 402,
+    "hp": 3086
+   },
+   {
+    "att": 1107,
+    "def": 406,
+    "hp": 3118
+   },
+   {
+    "att": 1120,
+    "def": 410,
+    "hp": 3150
+   },
+   {
+    "att": 1132,
+    "def": 414,
+    "hp": 3182
+   },
+   {
+    "att": 1145,
+    "def": 418,
+    "hp": 3214
+   },
+   {
+    "att": 1158,
+    "def": 422,
+    "hp": 3246
+   },
+   {
+    "att": 1170,
+    "def": 427,
+    "hp": 3278
+   },
+   {
+    "att": 1183,
+    "def": 431,
+    "hp": 3310
+   },
+   {
+    "att": 1195,
+    "def": 435,
+    "hp": 3341
+   },
+   {
+    "att": 1208,
+    "def": 439,
+    "hp": 3373
+   },
+   {
+    "att": 1221,
+    "def": 443,
+    "hp": 3405
+   },
+   {
+    "att": 1233,
+    "def": 447,
+    "hp": 3437
+   },
+   {
+    "att": 1246,
+    "def": 452,
+    "hp": 3469
+   },
+   {
+    "att": 1258,
+    "def": 456,
+    "hp": 3501
+   },
+   {
+    "att": 1271,
+    "def": 460,
+    "hp": 3533
+   },
+   {
+    "att": 1284,
+    "def": 464,
+    "hp": 3565
+   },
+   {
+    "att": 1296,
+    "def": 468,
+    "hp": 3597
+   },
+   {
+    "att": 1309,
+    "def": 472,
+    "hp": 3629
+   },
+   {
+    "att": 1322,
+    "def": 476,
+    "hp": 3661
+   },
+   {
+    "att": 1334,
+    "def": 481,
+    "hp": 3693
+   },
+   {
+    "att": 1347,
+    "def": 485,
+    "hp": 3725
+   },
+   {
+    "att": 1359,
+    "def": 489,
+    "hp": 3757
+   },
+   {
+    "att": 1372,
+    "def": 493,
+    "hp": 3789
+   },
+   {
+    "att": 1385,
+    "def": 497,
+    "hp": 3821
+   },
+   {
+    "att": 1397,
+    "def": 501,
+    "hp": 3853
+   },
+   {
+    "att": 1547,
+    "def": 555,
+    "hp": 4257
+   },
+   {
+    "att": 1556,
+    "def": 558,
+    "hp": 4281
+   },
+   {
+    "att": 1566,
+    "def": 561,
+    "hp": 4305
+   },
+   {
+    "att": 1575,
+    "def": 564,
+    "hp": 4329
+   },
+   {
+    "att": 1585,
+    "def": 567,
+    "hp": 4353
+   },
+   {
+    "att": 1594,
+    "def": 570,
+    "hp": 4377
+   },
+   {
+    "att": 1603,
+    "def": 573,
+    "hp": 4401
+   },
+   {
+    "att": 1613,
+    "def": 576,
+    "hp": 4425
+   },
+   {
+    "att": 1622,
+    "def": 579,
+    "hp": 4449
+   },
+   {
+    "att": 1632,
+    "def": 583,
+    "hp": 4473
+   },
+   {
+    "att": 1641,
+    "def": 586,
+    "hp": 4497
+   },
+   {
+    "att": 1651,
+    "def": 589,
+    "hp": 4521
+   },
+   {
+    "att": 1660,
+    "def": 592,
+    "hp": 4545
+   },
+   {
+    "att": 1670,
+    "def": 595,
+    "hp": 4569
+   },
+   {
+    "att": 1679,
+    "def": 598,
+    "hp": 4593
+   },
+   {
+    "att": 1689,
+    "def": 601,
+    "hp": 4617
+   },
+   {
+    "att": 1698,
+    "def": 604,
+    "hp": 4641
+   },
+   {
+    "att": 1708,
+    "def": 608,
+    "hp": 4665
+   },
+   {
+    "att": 1717,
+    "def": 611,
+    "hp": 4689
+   },
+   {
+    "att": 1726,
+    "def": 614,
+    "hp": 4713
+   },
+   {
+    "att": 1736,
+    "def": 617,
+    "hp": 4737
+   },
+   {
+    "att": 1745,
+    "def": 620,
+    "hp": 4761
+   },
+   {
+    "att": 1755,
+    "def": 623,
+    "hp": 4785
+   },
+   {
+    "att": 1764,
+    "def": 626,
+    "hp": 4808
+   },
+   {
+    "att": 1774,
+    "def": 629,
+    "hp": 4832
+   },
+   {
+    "att": 1783,
+    "def": 632,
+    "hp": 4856
+   },
+   {
+    "att": 1793,
+    "def": 636,
+    "hp": 4880
+   },
+   {
+    "att": 1802,
+    "def": 639,
+    "hp": 4904
+   },
+   {
+    "att": 1812,
+    "def": 642,
+    "hp": 4928
+   },
+   {
+    "att": 1821,
+    "def": 645,
+    "hp": 4952
+   },
+   {
+    "att": 1830,
+    "def": 648,
+    "hp": 4976
+   },
+   {
+    "att": 1840,
+    "def": 651,
+    "hp": 5000
+   },
+   {
+    "att": 1849,
+    "def": 654,
+    "hp": 5024
+   },
+   {
+    "att": 1859,
+    "def": 657,
+    "hp": 5048
+   },
+   {
+    "att": 1868,
+    "def": 661,
+    "hp": 5072
+   },
+   {
+    "att": 1878,
+    "def": 664,
+    "hp": 5096
+   },
+   {
+    "att": 1887,
+    "def": 667,
+    "hp": 5120
+   },
+   {
+    "att": 1897,
+    "def": 670,
+    "hp": 5144
+   },
+   {
+    "att": 1906,
+    "def": 673,
+    "hp": 5168
+   },
+   {
+    "att": 1916,
+    "def": 676,
+    "hp": 5192
+   },
+   {
+    "att": 1925,
+    "def": 679,
+    "hp": 5216
+   },
+   {
+    "att": 1935,
+    "def": 682,
+    "hp": 5240
+   },
+   {
+    "att": 1944,
+    "def": 685,
+    "hp": 5264
+   },
+   {
+    "att": 1953,
+    "def": 689,
+    "hp": 5288
+   },
+   {
+    "att": 1963,
+    "def": 692,
+    "hp": 5312
+   },
+   {
+    "att": 1972,
+    "def": 695,
+    "hp": 5336
+   },
+   {
+    "att": 1982,
+    "def": 698,
+    "hp": 5360
+   },
+   {
+    "att": 1991,
+    "def": 701,
+    "hp": 5384
+   },
+   {
+    "att": 2001,
+    "def": 704,
+    "hp": 5408
+   },
+   {
+    "att": 2010,
+    "def": 707,
+    "hp": 5432
+   },
+   {
+    "att": 2232,
+    "def": 774,
+    "hp": 6018
+   },
+   {
+    "att": 2238,
+    "def": 776,
+    "hp": 6034
+   },
+   {
+    "att": 2244,
+    "def": 779,
+    "hp": 6050
+   },
+   {
+    "att": 2250,
+    "def": 781,
+    "hp": 6066
+   },
+   {
+    "att": 2257,
+    "def": 783,
+    "hp": 6082
+   },
+   {
+    "att": 2263,
+    "def": 785,
+    "hp": 6098
+   },
+   {
+    "att": 2269,
+    "def": 787,
+    "hp": 6114
+   },
+   {
+    "att": 2276,
+    "def": 789,
+    "hp": 6130
+   },
+   {
+    "att": 2282,
+    "def": 791,
+    "hp": 6146
+   },
+   {
+    "att": 2288,
+    "def": 793,
+    "hp": 6162
+   },
+   {
+    "att": 2295,
+    "def": 795,
+    "hp": 6178
+   },
+   {
+    "att": 2301,
+    "def": 797,
+    "hp": 6194
+   },
+   {
+    "att": 2307,
+    "def": 799,
+    "hp": 6210
+   },
+   {
+    "att": 2314,
+    "def": 801,
+    "hp": 6226
+   },
+   {
+    "att": 2320,
+    "def": 803,
+    "hp": 6242
+   },
+   {
+    "att": 2326,
+    "def": 806,
+    "hp": 6258
+   },
+   {
+    "att": 2332,
+    "def": 808,
+    "hp": 6274
+   },
+   {
+    "att": 2339,
+    "def": 810,
+    "hp": 6290
+   },
+   {
+    "att": 2345,
+    "def": 812,
+    "hp": 6306
+   },
+   {
+    "att": 2351,
+    "def": 814,
+    "hp": 6322
+   },
+   {
+    "att": 2358,
+    "def": 816,
+    "hp": 6338
+   },
+   {
+    "att": 2364,
+    "def": 818,
+    "hp": 6354
+   },
+   {
+    "att": 2370,
+    "def": 820,
+    "hp": 6370
+   },
+   {
+    "att": 2377,
+    "def": 822,
+    "hp": 6386
+   },
+   {
+    "att": 2383,
+    "def": 824,
+    "hp": 6402
+   },
+   {
+    "att": 2389,
+    "def": 826,
+    "hp": 6418
+   },
+   {
+    "att": 2395,
+    "def": 828,
+    "hp": 6434
+   },
+   {
+    "att": 2402,
+    "def": 830,
+    "hp": 6449
+   },
+   {
+    "att": 2408,
+    "def": 833,
+    "hp": 6465
+   },
+   {
+    "att": 2414,
+    "def": 835,
+    "hp": 6481
+   },
+   {
+    "att": 2421,
+    "def": 837,
+    "hp": 6497
+   },
+   {
+    "att": 2427,
+    "def": 839,
+    "hp": 6513
+   },
+   {
+    "att": 2433,
+    "def": 841,
+    "hp": 6529
+   },
+   {
+    "att": 2440,
+    "def": 843,
+    "hp": 6545
+   },
+   {
+    "att": 2446,
+    "def": 845,
+    "hp": 6561
+   },
+   {
+    "att": 2452,
+    "def": 847,
+    "hp": 6577
+   },
+   {
+    "att": 2459,
+    "def": 849,
+    "hp": 6593
+   },
+   {
+    "att": 2465,
+    "def": 851,
+    "hp": 6609
+   },
+   {
+    "att": 2471,
+    "def": 853,
+    "hp": 6625
+   },
+   {
+    "att": 2477,
+    "def": 855,
+    "hp": 6641
+   },
+   {
+    "att": 2484,
+    "def": 858,
+    "hp": 6657
+   },
+   {
+    "att": 2490,
+    "def": 860,
+    "hp": 6673
+   },
+   {
+    "att": 2496,
+    "def": 862,
+    "hp": 6689
+   },
+   {
+    "att": 2503,
+    "def": 864,
+    "hp": 6705
+   },
+   {
+    "att": 2509,
+    "def": 866,
+    "hp": 6721
+   },
+   {
+    "att": 2515,
+    "def": 868,
+    "hp": 6737
+   },
+   {
+    "att": 2522,
+    "def": 870,
+    "hp": 6753
+   },
+   {
+    "att": 2528,
+    "def": 872,
+    "hp": 6769
+   },
+   {
+    "att": 2534,
+    "def": 874,
+    "hp": 6785
+   },
+   {
+    "att": 2541,
+    "def": 876,
+    "hp": 6801
+   },
+   {
+    "att": 2547,
+    "def": 878,
+    "hp": 6817
+   },
+   {
+    "att": 2553,
+    "def": 880,
+    "hp": 6833
+   },
+   {
+    "att": 2559,
+    "def": 882,
+    "hp": 6849
+   },
+   {
+    "att": 2566,
+    "def": 885,
+    "hp": 6865
+   },
+   {
+    "att": 2572,
+    "def": 887,
+    "hp": 6881
+   },
+   {
+    "att": 2578,
+    "def": 889,
+    "hp": 6897
+   },
+   {
+    "att": 2585,
+    "def": 891,
+    "hp": 6913
+   },
+   {
+    "att": 2591,
+    "def": 893,
+    "hp": 6929
+   },
+   {
+    "att": 2597,
+    "def": 895,
+    "hp": 6945
+   },
+   {
+    "att": 2604,
+    "def": 897,
+    "hp": 6961
+   },
+   {
+    "att": 2610,
+    "def": 899,
+    "hp": 6977
+   },
+   {
+    "att": 2616,
+    "def": 901,
+    "hp": 6993
+   },
+   {
+    "att": 2623,
+    "def": 903,
+    "hp": 7009
+   },
+   {
+    "att": 2629,
+    "def": 905,
+    "hp": 7025
+   },
+   {
+    "att": 2635,
+    "def": 907,
+    "hp": 7041
+   },
+   {
+    "att": 2641,
+    "def": 909,
+    "hp": 7057
+   },
+   {
+    "att": 2648,
+    "def": 912,
+    "hp": 7073
+   },
+   {
+    "att": 2654,
+    "def": 914,
+    "hp": 7089
+   },
+   {
+    "att": 2660,
+    "def": 916,
+    "hp": 7105
+   },
+   {
+    "att": 2667,
+    "def": 918,
+    "hp": 7121
+   },
+   {
+    "att": 2673,
+    "def": 920,
+    "hp": 7137
+   },
+   {
+    "att": 2679,
+    "def": 922,
+    "hp": 7153
+   },
+   {
+    "att": 2686,
+    "def": 924,
+    "hp": 7169
+   },
+   {
+    "att": 2692,
+    "def": 926,
+    "hp": 7185
+   },
+   {
+    "att": 2698,
+    "def": 928,
+    "hp": 7201
+   },
+   {
+    "att": 2704,
+    "def": 930,
+    "hp": 7217
+   },
+   {
+    "att": 2711,
+    "def": 932,
+    "hp": 7233
+   },
+   {
+    "att": 2717,
+    "def": 934,
+    "hp": 7249
+   },
+   {
+    "att": 2723,
+    "def": 937,
+    "hp": 7265
+   },
+   {
+    "att": 2730,
+    "def": 939,
+    "hp": 7281
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Ophina",
+     "Rabbie"
+    ],
+    "chat": [
+     {
+      "character": "Ophina:",
+      "text": "So frustrating... this pair of horns is just growing bigger and bigger."
+     },
+     {
+      "character": "Ophina:",
+      "text": "If they can be slightly smaller, even just a tiny bit..."
+     },
+     {
+      "character": "Rabbie:",
+      "text": "Why smaller? Isn't it the bigger the better?"
+     },
+     {
+      "character": "Rabbie:",
+      "text": "When you run into danger, you can just headbutt your way through it using your big horns!"
+     },
+     {
+      "character": "Ophina:",
+      "text": "Hmm? Is this what you think?"
+     },
+     {
+      "character": "Rabbie:",
+      "text": "Yes! If a wolf comes, and you have a pair of big horns, you'll be able to send them flying!"
+     },
+     {
+      "character": "Ophina:",
+      "text": "Ah... So you are afraid of wolves as well?"
+     },
+     {
+      "character": "Rabbie:",
+      "text": "As well? Are you afraid of them too?"
+     },
+     {
+      "character": "Ophina:",
+      "text": "Yea... They'd appear in a pack, and they'd howl..."
+     },
+     {
+      "character": "Rabbie:",
+      "text": "That's right! Hyenas are terrifying too!"
+     },
+     {
+      "character": "Ophina:",
+      "text": "Yes! Though I've never seen them... but for some reason, I'm really scared of running into them."
+     },
+     {
+      "character": "Rabbie:",
+      "text": "Yea! Whenever I think of wolves and hyenas, I want to dig a hole in the ground and escape!"
+     },
+     {
+      "character": "Ophina:",
+      "text": "Dig a hole huh... then it's better if you don't have horns. With your horns, you won't be able to fit into a hole..."
+     },
+     {
+      "character": "Rabbie:",
+      "text": "But you can just ram them with your horns! Trust me, next time you run into a wolf, just ram it!"
+     },
+     {
+      "character": "Ophina:",
+      "text": "It's... it's better I don't run into one..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Sinsa asked Ms. Rabbie to help us. To be honest, I was really surprised when I first saw her. A small and lovely lady like her was actually using an electric drill about the same size as her, and it had an impressive output power too!By the way, we quickly discovered that the true strength of the captain of the Wild Turtledoves was her ability to escape from anything\u2014no, I mean, her ability to conserve her strength. I wouldn't have believed it myself too if I didn't see it with my own eyes. As long as she is with us, I have the confidence to deal with any predicament or disaster because I know that Ms. Rabbie will have an escape plan for us. At least one of us will be able to escape, so we won't lose either way!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Rabbie, Captain of the Wild Turtledoves, reporting in for duty! What? It's the Wild Turtledoves! Don't call us the Logistics Division First Retreat Squad! Starting from today, I'll be responsible for helping you devise a plan on how to charge backward and to cut in! As that someone once said, the first step in planning is to understand one another!I used to live at Rediesel Wrench, and I was really happy there even though I was often scolded. I mean, I deserved it too since it's because I liked digging holes! Haha!I also found the reason for my existence there. Not only did the boss save my life, but he also helped me discover my greatest strengths and made the most use of my talent. Now that the Logistics Division First Retreat Squad has grown bigger, I need to make preparations every day so that all my people can retreat safely. Don't underestimate the value of retreating!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Retreat... Um, no, I mean, the second step of the cut-in plan, um, no, or was it the second step of the file plan? Whatever.Rabbie was born at Lake Emerald, the only oasis in the Rediesel Desert. The lake wasn't very big, but it was like an emerald in the uninhabited desert, bringing people hope. Those who lived there would go to the abandoned mining stations in the desert to scavenge and return to their homes at Lake Emerald at night. My grandpa found me when he was scavenging. He waited for a long time, but no one came to get me, and worried that I would starve to death, he had no choice but to take me home with him. I've lived with him after that. He would always ask around if anyone was looking for a missing child when he was out scavenging, but to no avail. It was when I was 7 years old that someone came to my grandpa's house for me..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I knew who she was from the moment I saw her. She had bright ruby-like eyes and was quite petite. Her face didn't betray her age, but she felt oddly familiar. She told me that she was doing all sorts of odd jobs when she became pregnant with me and was worried that she wouldn't be able to raise me alone because it was too dangerous. That's why she left me in an abandoned mining station and watched from afar until someone took me away. She said she's remarried now and wanted to compensate me even though her life now wasn't much better than before. I understood her struggles since I've seen too many these kinds of stories play out in the Rediesel Desert, but my grandpa and I were doing quite well, and I hoped she could lead a new life. Besides, I loved my grandpa and wanted to continue living with him. I was very satisfied with my current life."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "My life changed on that day. Before that, the Eclipsites have been attacking settlements from time to time. The attacks were all rather far away from us, but because of that, my grandpa and I planned an escape route and rehearsed it over and over.I was woken suddenly on that night by the screaming and wailing from outside. The Eclipsites had come! A terrifying mood enveloped us as if the sky was about to fall. I was so scared, but grandpa asked me to calm down. He told me to follow the escape route we had planned and to not look back. I nodded and carried the luggage I had prepared on my back. I turned to call out to my grandpa, only to see an Eclipsite, eyes blood red, standing in front of him, like a demon in the darkness. Grandpa shouted at me, demanding me to leave. I crawled out of the tent to get help, but all I saw along the way were corpses. Sinsa appeared when I was about to give up, and I begged him to save my grandpa, but it was too late. So, to me, escape is the only thing left..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Even though nobody likes to live underground, being able to run around often is still great!",
+  "I heard everyone at Illumina lives in a large cavern. They must have powerful power drills!",
+  "Barely escaped!",
+  "They still frighten me and I still feel like escaping... But I can stand my ground now!",
+  "I'm ashamed to say that I've forgotten what he looks like because he always wearing headgear.",
+  "That shortie is quite a nice person! He'll even help me adjust my drill heads!",
+  "I like new excavation tools, new holes, and new escape plans!",
+  "Confined spaces are scary! How can it not have any opening!",
+  "The Colossus is so fast and sooooo amazing! So... can I start digging holes?",
+  "I'll let you in on a secret... I've actually prepared a secret escape route!",
+  "Alright! I'll go confirm the nearest emergency exits!",
+  "Don't panic! Follow me!",
+  "You can't get away from an escape master!",
+  "Route ensured!",
+  "Obstacles removed!",
+  "Ready and able!",
+  "Happy Hole Year! See what I did there?",
+  "I got your backs covered!",
+  "Burrowing is the way!",
+  "Hooray! My drill just got upgraded!",
+  "No matter where, dig through, and break through!",
+  "Okay, we'll go with that for Plan E. Now for Plan F...",
+  "My drill's even more powerful now!",
+  "Alchemy Stars!",
+  "Where's the next fight? I'll make a getaway plan first, in case we can't handle the heat!",
+  "Hm? Something feels off! Hide! Or else...",
+  "Boo-hoo... I got scolded for digging through the cabin again... I was just researching old materials, just in case...",
+  "I'm getting back to studying optical camouflage again! With it, we can slip away from enemies right under their noses!",
+  "Check it out! The latest drill head! Wooots! I can almost smell the fragrance of newly dug soil just by touching it!",
+  "With this kind of power, it'll cut through the ground like a hot knife through butter... Mmm... Butter... Yummm...",
+  "You have no concept of danger. As I've stressed to my squad members, planning, anticipation, and forethought are very important!",
+  "I miss my grandpa so much. Maybe he's still protecting me, that's why I can always get away safe and sound... or is it because of that other rabbit?",
+  "Don't forget the escape route I showed you. It's okay to lose as long as you live to fight another day",
+  "Wh-what is that sound? Oh! It's just you. Thank goodness. I almost jumped out the window.",
+  "When is the equipment that I ordered going to be delivered? I guess I'll just have to wait...for 5 more minutes!",
+  "I feel safe whenever I'm with you. Oh, but I do have our escape route planned!",
+  "You're back! I've come up with our escape route... Huh? We're not escaping?",
+  "Good morning! Let's discuss a new plan, something that ends with \"route\"!",
+  "Whoa! Welcome back! I'm not doing anything suspicious. Not at all!",
+  "Not resting yet? Can't sleep? Feeling insecure? I can dig a hole for you!",
+  "I'm Rabbie, the getaway master! Don't let the big drill scare ya! It's just used to ensure our escape route!",
+  "Hmmm... Let me think... So how do I use it?",
+  "Hmm! I hope I can make use of it!",
+  "For me? Really? Thanks!",
+  "Oh, my! I've always wanted that!",
+  "You won't get away!",
+  "There's no way out for you!",
+  "Awaiting your order!",
+  "Rules of Retreat: One, know why you're retreating! Two, run like the wind! Three, save the drama for later!",
+  "Our leader is strong, and I have a bunch of reliable friends now, so I no longer have to run away by myself... Leave it to me, I'll guard the escape route!",
+  "If you can't run? I'll protect you just as my grandpa protected me, but you'll need to wait till I get a bit taller.",
+  "Safety first, everyone!"
+ ],
+ "skins": [],
+ "description": "She may be short, but she's already a captain in Rediesel Wrench. Nimble and agile, she's just like a rabbit that can't be caught, and can be pinned down by very few adversaries.",
+ "realName": "Rabbie",
+ "nickname": "The Cunning Bunny",
+ "gender": "Female",
+ "height": "4'3''",
+ "birthday": "March 22",
+ "birthplace": "Lake Emerald",
+ "style": "Rediesel Power Drill"
 }

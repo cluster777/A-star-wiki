@@ -1,1153 +1,1319 @@
 {
-      "name": "Raphael",
-      "faction": "Lumopolis",
-      "element_main": "Water",
-      "element_sub": "Water",
-      "rarity": "6",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
-                  "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
-                  "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles."
-            ]
-      },
-      "equip": {
-            "name": "Pillar of Benediction",
-            "passive": "Holy Water",
-            "description": [
-                  [
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP."
-                  ],
-                  [
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
-                  ],
-                  [
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
-                        "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 125% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 125% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 125% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 125% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 125% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 125% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Has an increased chance to generate Blue tiles when generating new tiles."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Potion I",
-                        "Water Flare Powder",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP."
-            },
-            {
-                  "material": [
-                        "Water Flare Rock",
-                        "Water Crystal Shard",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP.",
-                  "after": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
-            },
-            {
-                  "material": [
-                        "Water Crystal Cluster",
-                        "Water Potion II",
-                        "Daybreak Stone",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
-                  "after": "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 501,
-                        "def": 200,
-                        "hp": 1846
-                  },
-                  {
-                        "att": 511,
-                        "def": 203,
-                        "hp": 1873
-                  },
-                  {
-                        "att": 520,
-                        "def": 206,
-                        "hp": 1899
-                  },
-                  {
-                        "att": 530,
-                        "def": 209,
-                        "hp": 1926
-                  },
-                  {
-                        "att": 540,
-                        "def": 212,
-                        "hp": 1953
-                  },
-                  {
-                        "att": 549,
-                        "def": 216,
-                        "hp": 1979
-                  },
-                  {
-                        "att": 559,
-                        "def": 219,
-                        "hp": 2006
-                  },
-                  {
-                        "att": 568,
-                        "def": 222,
-                        "hp": 2033
-                  },
-                  {
-                        "att": 578,
-                        "def": 225,
-                        "hp": 2059
-                  },
-                  {
-                        "att": 587,
-                        "def": 229,
-                        "hp": 2086
-                  },
-                  {
-                        "att": 597,
-                        "def": 232,
-                        "hp": 2113
-                  },
-                  {
-                        "att": 606,
-                        "def": 235,
-                        "hp": 2139
-                  },
-                  {
-                        "att": 616,
-                        "def": 238,
-                        "hp": 2166
-                  },
-                  {
-                        "att": 625,
-                        "def": 241,
-                        "hp": 2193
-                  },
-                  {
-                        "att": 635,
-                        "def": 245,
-                        "hp": 2219
-                  },
-                  {
-                        "att": 644,
-                        "def": 248,
-                        "hp": 2246
-                  },
-                  {
-                        "att": 654,
-                        "def": 251,
-                        "hp": 2273
-                  },
-                  {
-                        "att": 663,
-                        "def": 254,
-                        "hp": 2300
-                  },
-                  {
-                        "att": 673,
-                        "def": 258,
-                        "hp": 2326
-                  },
-                  {
-                        "att": 682,
-                        "def": 261,
-                        "hp": 2353
-                  },
-                  {
-                        "att": 692,
-                        "def": 264,
-                        "hp": 2380
-                  },
-                  {
-                        "att": 701,
-                        "def": 267,
-                        "hp": 2406
-                  },
-                  {
-                        "att": 711,
-                        "def": 270,
-                        "hp": 2433
-                  },
-                  {
-                        "att": 721,
-                        "def": 274,
-                        "hp": 2460
-                  },
-                  {
-                        "att": 730,
-                        "def": 277,
-                        "hp": 2486
-                  },
-                  {
-                        "att": 740,
-                        "def": 280,
-                        "hp": 2513
-                  },
-                  {
-                        "att": 749,
-                        "def": 283,
-                        "hp": 2540
-                  },
-                  {
-                        "att": 759,
-                        "def": 287,
-                        "hp": 2566
-                  },
-                  {
-                        "att": 768,
-                        "def": 290,
-                        "hp": 2593
-                  },
-                  {
-                        "att": 778,
-                        "def": 293,
-                        "hp": 2620
-                  },
-                  {
-                        "att": 880,
-                        "def": 327,
-                        "hp": 2923
-                  },
-                  {
-                        "att": 891,
-                        "def": 331,
-                        "hp": 2956
-                  },
-                  {
-                        "att": 903,
-                        "def": 335,
-                        "hp": 2990
-                  },
-                  {
-                        "att": 915,
-                        "def": 339,
-                        "hp": 3023
-                  },
-                  {
-                        "att": 927,
-                        "def": 343,
-                        "hp": 3057
-                  },
-                  {
-                        "att": 939,
-                        "def": 347,
-                        "hp": 3090
-                  },
-                  {
-                        "att": 951,
-                        "def": 351,
-                        "hp": 3123
-                  },
-                  {
-                        "att": 963,
-                        "def": 355,
-                        "hp": 3157
-                  },
-                  {
-                        "att": 975,
-                        "def": 359,
-                        "hp": 3190
-                  },
-                  {
-                        "att": 987,
-                        "def": 363,
-                        "hp": 3223
-                  },
-                  {
-                        "att": 999,
-                        "def": 367,
-                        "hp": 3257
-                  },
-                  {
-                        "att": 1011,
-                        "def": 371,
-                        "hp": 3290
-                  },
-                  {
-                        "att": 1022,
-                        "def": 375,
-                        "hp": 3323
-                  },
-                  {
-                        "att": 1034,
-                        "def": 379,
-                        "hp": 3357
-                  },
-                  {
-                        "att": 1046,
-                        "def": 383,
-                        "hp": 3390
-                  },
-                  {
-                        "att": 1058,
-                        "def": 387,
-                        "hp": 3423
-                  },
-                  {
-                        "att": 1070,
-                        "def": 391,
-                        "hp": 3457
-                  },
-                  {
-                        "att": 1082,
-                        "def": 395,
-                        "hp": 3490
-                  },
-                  {
-                        "att": 1094,
-                        "def": 400,
-                        "hp": 3523
-                  },
-                  {
-                        "att": 1106,
-                        "def": 404,
-                        "hp": 3557
-                  },
-                  {
-                        "att": 1118,
-                        "def": 408,
-                        "hp": 3590
-                  },
-                  {
-                        "att": 1130,
-                        "def": 412,
-                        "hp": 3624
-                  },
-                  {
-                        "att": 1142,
-                        "def": 416,
-                        "hp": 3657
-                  },
-                  {
-                        "att": 1153,
-                        "def": 420,
-                        "hp": 3690
-                  },
-                  {
-                        "att": 1165,
-                        "def": 424,
-                        "hp": 3724
-                  },
-                  {
-                        "att": 1177,
-                        "def": 428,
-                        "hp": 3757
-                  },
-                  {
-                        "att": 1189,
-                        "def": 432,
-                        "hp": 3790
-                  },
-                  {
-                        "att": 1201,
-                        "def": 436,
-                        "hp": 3824
-                  },
-                  {
-                        "att": 1213,
-                        "def": 440,
-                        "hp": 3857
-                  },
-                  {
-                        "att": 1225,
-                        "def": 444,
-                        "hp": 3890
-                  },
-                  {
-                        "att": 1237,
-                        "def": 448,
-                        "hp": 3924
-                  },
-                  {
-                        "att": 1249,
-                        "def": 452,
-                        "hp": 3957
-                  },
-                  {
-                        "att": 1261,
-                        "def": 456,
-                        "hp": 3990
-                  },
-                  {
-                        "att": 1273,
-                        "def": 460,
-                        "hp": 4024
-                  },
-                  {
-                        "att": 1284,
-                        "def": 464,
-                        "hp": 4057
-                  },
-                  {
-                        "att": 1296,
-                        "def": 468,
-                        "hp": 4091
-                  },
-                  {
-                        "att": 1308,
-                        "def": 472,
-                        "hp": 4124
-                  },
-                  {
-                        "att": 1320,
-                        "def": 476,
-                        "hp": 4157
-                  },
-                  {
-                        "att": 1332,
-                        "def": 480,
-                        "hp": 4191
-                  },
-                  {
-                        "att": 1344,
-                        "def": 484,
-                        "hp": 4224
-                  },
-                  {
-                        "att": 1503,
-                        "def": 537,
-                        "hp": 4669
-                  },
-                  {
-                        "att": 1512,
-                        "def": 540,
-                        "hp": 4694
-                  },
-                  {
-                        "att": 1521,
-                        "def": 543,
-                        "hp": 4719
-                  },
-                  {
-                        "att": 1530,
-                        "def": 546,
-                        "hp": 4744
-                  },
-                  {
-                        "att": 1539,
-                        "def": 549,
-                        "hp": 4769
-                  },
-                  {
-                        "att": 1548,
-                        "def": 552,
-                        "hp": 4794
-                  },
-                  {
-                        "att": 1557,
-                        "def": 555,
-                        "hp": 4819
-                  },
-                  {
-                        "att": 1565,
-                        "def": 558,
-                        "hp": 4844
-                  },
-                  {
-                        "att": 1574,
-                        "def": 561,
-                        "hp": 4869
-                  },
-                  {
-                        "att": 1583,
-                        "def": 564,
-                        "hp": 4894
-                  },
-                  {
-                        "att": 1592,
-                        "def": 567,
-                        "hp": 4919
-                  },
-                  {
-                        "att": 1601,
-                        "def": 570,
-                        "hp": 4944
-                  },
-                  {
-                        "att": 1610,
-                        "def": 573,
-                        "hp": 4969
-                  },
-                  {
-                        "att": 1619,
-                        "def": 576,
-                        "hp": 4994
-                  },
-                  {
-                        "att": 1628,
-                        "def": 579,
-                        "hp": 5019
-                  },
-                  {
-                        "att": 1637,
-                        "def": 582,
-                        "hp": 5044
-                  },
-                  {
-                        "att": 1646,
-                        "def": 585,
-                        "hp": 5069
-                  },
-                  {
-                        "att": 1655,
-                        "def": 588,
-                        "hp": 5094
-                  },
-                  {
-                        "att": 1664,
-                        "def": 591,
-                        "hp": 5119
-                  },
-                  {
-                        "att": 1673,
-                        "def": 595,
-                        "hp": 5144
-                  },
-                  {
-                        "att": 1682,
-                        "def": 598,
-                        "hp": 5169
-                  },
-                  {
-                        "att": 1690,
-                        "def": 601,
-                        "hp": 5194
-                  },
-                  {
-                        "att": 1699,
-                        "def": 604,
-                        "hp": 5219
-                  },
-                  {
-                        "att": 1708,
-                        "def": 607,
-                        "hp": 5244
-                  },
-                  {
-                        "att": 1717,
-                        "def": 610,
-                        "hp": 5269
-                  },
-                  {
-                        "att": 1726,
-                        "def": 613,
-                        "hp": 5294
-                  },
-                  {
-                        "att": 1735,
-                        "def": 616,
-                        "hp": 5319
-                  },
-                  {
-                        "att": 1744,
-                        "def": 619,
-                        "hp": 5344
-                  },
-                  {
-                        "att": 1753,
-                        "def": 622,
-                        "hp": 5369
-                  },
-                  {
-                        "att": 1762,
-                        "def": 625,
-                        "hp": 5394
-                  },
-                  {
-                        "att": 1771,
-                        "def": 628,
-                        "hp": 5420
-                  },
-                  {
-                        "att": 1780,
-                        "def": 631,
-                        "hp": 5445
-                  },
-                  {
-                        "att": 1789,
-                        "def": 634,
-                        "hp": 5470
-                  },
-                  {
-                        "att": 1798,
-                        "def": 637,
-                        "hp": 5495
-                  },
-                  {
-                        "att": 1807,
-                        "def": 640,
-                        "hp": 5520
-                  },
-                  {
-                        "att": 1816,
-                        "def": 643,
-                        "hp": 5545
-                  },
-                  {
-                        "att": 1824,
-                        "def": 646,
-                        "hp": 5570
-                  },
-                  {
-                        "att": 1833,
-                        "def": 649,
-                        "hp": 5595
-                  },
-                  {
-                        "att": 1842,
-                        "def": 652,
-                        "hp": 5620
-                  },
-                  {
-                        "att": 1851,
-                        "def": 655,
-                        "hp": 5645
-                  },
-                  {
-                        "att": 1860,
-                        "def": 658,
-                        "hp": 5670
-                  },
-                  {
-                        "att": 1869,
-                        "def": 661,
-                        "hp": 5695
-                  },
-                  {
-                        "att": 1878,
-                        "def": 664,
-                        "hp": 5720
-                  },
-                  {
-                        "att": 1887,
-                        "def": 667,
-                        "hp": 5745
-                  },
-                  {
-                        "att": 1896,
-                        "def": 670,
-                        "hp": 5770
-                  },
-                  {
-                        "att": 1905,
-                        "def": 673,
-                        "hp": 5795
-                  },
-                  {
-                        "att": 1914,
-                        "def": 676,
-                        "hp": 5820
-                  },
-                  {
-                        "att": 1923,
-                        "def": 679,
-                        "hp": 5845
-                  },
-                  {
-                        "att": 1932,
-                        "def": 682,
-                        "hp": 5870
-                  },
-                  {
-                        "att": 1941,
-                        "def": 685,
-                        "hp": 5895
-                  },
-                  {
-                        "att": 2172,
-                        "def": 752,
-                        "hp": 6542
-                  },
-                  {
-                        "att": 2177,
-                        "def": 754,
-                        "hp": 6558
-                  },
-                  {
-                        "att": 2183,
-                        "def": 756,
-                        "hp": 6575
-                  },
-                  {
-                        "att": 2189,
-                        "def": 758,
-                        "hp": 6592
-                  },
-                  {
-                        "att": 2195,
-                        "def": 760,
-                        "hp": 6608
-                  },
-                  {
-                        "att": 2201,
-                        "def": 762,
-                        "hp": 6625
-                  },
-                  {
-                        "att": 2207,
-                        "def": 764,
-                        "hp": 6642
-                  },
-                  {
-                        "att": 2213,
-                        "def": 766,
-                        "hp": 6658
-                  },
-                  {
-                        "att": 2219,
-                        "def": 768,
-                        "hp": 6675
-                  },
-                  {
-                        "att": 2225,
-                        "def": 770,
-                        "hp": 6692
-                  },
-                  {
-                        "att": 2231,
-                        "def": 772,
-                        "hp": 6708
-                  },
-                  {
-                        "att": 2237,
-                        "def": 774,
-                        "hp": 6725
-                  },
-                  {
-                        "att": 2243,
-                        "def": 776,
-                        "hp": 6742
-                  },
-                  {
-                        "att": 2249,
-                        "def": 778,
-                        "hp": 6758
-                  },
-                  {
-                        "att": 2255,
-                        "def": 780,
-                        "hp": 6775
-                  },
-                  {
-                        "att": 2261,
-                        "def": 782,
-                        "hp": 6792
-                  },
-                  {
-                        "att": 2267,
-                        "def": 784,
-                        "hp": 6808
-                  },
-                  {
-                        "att": 2273,
-                        "def": 786,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2279,
-                        "def": 788,
-                        "hp": 6842
-                  },
-                  {
-                        "att": 2285,
-                        "def": 790,
-                        "hp": 6858
-                  },
-                  {
-                        "att": 2291,
-                        "def": 792,
-                        "hp": 6875
-                  },
-                  {
-                        "att": 2297,
-                        "def": 794,
-                        "hp": 6892
-                  },
-                  {
-                        "att": 2303,
-                        "def": 796,
-                        "hp": 6908
-                  },
-                  {
-                        "att": 2308,
-                        "def": 798,
-                        "hp": 6925
-                  },
-                  {
-                        "att": 2314,
-                        "def": 800,
-                        "hp": 6942
-                  },
-                  {
-                        "att": 2320,
-                        "def": 803,
-                        "hp": 6958
-                  },
-                  {
-                        "att": 2326,
-                        "def": 805,
-                        "hp": 6975
-                  },
-                  {
-                        "att": 2332,
-                        "def": 807,
-                        "hp": 6992
-                  },
-                  {
-                        "att": 2338,
-                        "def": 809,
-                        "hp": 7009
-                  },
-                  {
-                        "att": 2344,
-                        "def": 811,
-                        "hp": 7025
-                  },
-                  {
-                        "att": 2350,
-                        "def": 813,
-                        "hp": 7042
-                  },
-                  {
-                        "att": 2356,
-                        "def": 815,
-                        "hp": 7059
-                  },
-                  {
-                        "att": 2362,
-                        "def": 817,
-                        "hp": 7075
-                  },
-                  {
-                        "att": 2368,
-                        "def": 819,
-                        "hp": 7092
-                  },
-                  {
-                        "att": 2374,
-                        "def": 821,
-                        "hp": 7109
-                  },
-                  {
-                        "att": 2380,
-                        "def": 823,
-                        "hp": 7125
-                  },
-                  {
-                        "att": 2386,
-                        "def": 825,
-                        "hp": 7142
-                  },
-                  {
-                        "att": 2392,
-                        "def": 827,
-                        "hp": 7159
-                  },
-                  {
-                        "att": 2398,
-                        "def": 829,
-                        "hp": 7175
-                  },
-                  {
-                        "att": 2404,
-                        "def": 831,
-                        "hp": 7192
-                  },
-                  {
-                        "att": 2410,
-                        "def": 833,
-                        "hp": 7209
-                  },
-                  {
-                        "att": 2416,
-                        "def": 835,
-                        "hp": 7225
-                  },
-                  {
-                        "att": 2422,
-                        "def": 837,
-                        "hp": 7242
-                  },
-                  {
-                        "att": 2428,
-                        "def": 839,
-                        "hp": 7259
-                  },
-                  {
-                        "att": 2434,
-                        "def": 841,
-                        "hp": 7275
-                  },
-                  {
-                        "att": 2439,
-                        "def": 843,
-                        "hp": 7292
-                  },
-                  {
-                        "att": 2445,
-                        "def": 845,
-                        "hp": 7309
-                  },
-                  {
-                        "att": 2451,
-                        "def": 847,
-                        "hp": 7325
-                  },
-                  {
-                        "att": 2457,
-                        "def": 849,
-                        "hp": 7342
-                  },
-                  {
-                        "att": 2463,
-                        "def": 851,
-                        "hp": 7359
-                  },
-                  {
-                        "att": 2469,
-                        "def": 853,
-                        "hp": 7375
-                  },
-                  {
-                        "att": 2475,
-                        "def": 855,
-                        "hp": 7392
-                  },
-                  {
-                        "att": 2481,
-                        "def": 857,
-                        "hp": 7409
-                  },
-                  {
-                        "att": 2487,
-                        "def": 859,
-                        "hp": 7425
-                  },
-                  {
-                        "att": 2493,
-                        "def": 861,
-                        "hp": 7442
-                  },
-                  {
-                        "att": 2499,
-                        "def": 863,
-                        "hp": 7459
-                  },
-                  {
-                        "att": 2505,
-                        "def": 865,
-                        "hp": 7476
-                  },
-                  {
-                        "att": 2511,
-                        "def": 867,
-                        "hp": 7492
-                  },
-                  {
-                        "att": 2517,
-                        "def": 869,
-                        "hp": 7509
-                  },
-                  {
-                        "att": 2523,
-                        "def": 871,
-                        "hp": 7526
-                  },
-                  {
-                        "att": 2529,
-                        "def": 873,
-                        "hp": 7542
-                  },
-                  {
-                        "att": 2535,
-                        "def": 875,
-                        "hp": 7559
-                  },
-                  {
-                        "att": 2541,
-                        "def": 877,
-                        "hp": 7576
-                  },
-                  {
-                        "att": 2547,
-                        "def": 879,
-                        "hp": 7592
-                  },
-                  {
-                        "att": 2553,
-                        "def": 881,
-                        "hp": 7609
-                  },
-                  {
-                        "att": 2559,
-                        "def": 883,
-                        "hp": 7626
-                  },
-                  {
-                        "att": 2564,
-                        "def": 885,
-                        "hp": 7642
-                  },
-                  {
-                        "att": 2570,
-                        "def": 887,
-                        "hp": 7659
-                  },
-                  {
-                        "att": 2576,
-                        "def": 889,
-                        "hp": 7676
-                  },
-                  {
-                        "att": 2582,
-                        "def": 891,
-                        "hp": 7692
-                  },
-                  {
-                        "att": 2588,
-                        "def": 893,
-                        "hp": 7709
-                  },
-                  {
-                        "att": 2594,
-                        "def": 895,
-                        "hp": 7726
-                  },
-                  {
-                        "att": 2600,
-                        "def": 897,
-                        "hp": 7742
-                  },
-                  {
-                        "att": 2606,
-                        "def": 899,
-                        "hp": 7759
-                  },
-                  {
-                        "att": 2612,
-                        "def": 901,
-                        "hp": 7776
-                  },
-                  {
-                        "att": 2618,
-                        "def": 903,
-                        "hp": 7792
-                  },
-                  {
-                        "att": 2624,
-                        "def": 905,
-                        "hp": 7809
-                  },
-                  {
-                        "att": 2630,
-                        "def": 907,
-                        "hp": 7826
-                  },
-                  {
-                        "att": 2636,
-                        "def": 909,
-                        "hp": 7842
-                  },
-                  {
-                        "att": 2642,
-                        "def": 911,
-                        "hp": 7859
-                  }
-            ]
-      }
+ "name": "Raphael",
+ "faction": "Lumopolis",
+ "element_main": "Water",
+ "element_sub": "Water",
+ "rarity": "6",
+ "class": "Support",
+ "skill": {
+  "name": "Rain of Tranquility",
+  "cd": "4 Turn",
+  "description": [
+   "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
+   "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
+   "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles."
+  ]
+ },
+ "equip": {
+  "name": "Pillar of Benediction",
+  "passive": "Holy Water",
+  "description": [
+   [
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's Max HP.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP."
+   ],
+   [
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
+   ],
+   [
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 0.8% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.2% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus.",
+    "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
+   ]
+  ],
+  "introduction": "A large mechanical box with a cross-shaped structure containing numerous Holy Water Shells. Raphael can control the holy water within to deal damage to enemies and heal allies."
+ },
+ "chain": {
+  "name": "Healing Light",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 125% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 125% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 125% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 125% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 125% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 125% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Has an increased chance to generate Blue tiles when generating new tiles."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Potion I",
+    "Water Flare Powder",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP."
+  },
+  {
+   "material": [
+    "Water Flare Rock",
+    "Water Crystal Shard",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's Max HP.",
+   "after": "Each Blue tile generated on the map recovers the team's HP by 1.5% of Raphael's HP. The lower the team's HP, the higher the healing effectiveness, up to an additional 100% bonus."
+  },
+  {
+   "material": [
+    "Water Crystal Cluster",
+    "Water Potion II",
+    "Daybreak Stone",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles within 3 surrounding clusters.",
+   "after": "Recovers the team's HP by 200% of Raphael's ATK. Resets all non-Blue tiles."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 501,
+    "def": 200,
+    "hp": 1846
+   },
+   {
+    "att": 511,
+    "def": 203,
+    "hp": 1873
+   },
+   {
+    "att": 520,
+    "def": 206,
+    "hp": 1899
+   },
+   {
+    "att": 530,
+    "def": 209,
+    "hp": 1926
+   },
+   {
+    "att": 540,
+    "def": 212,
+    "hp": 1953
+   },
+   {
+    "att": 549,
+    "def": 216,
+    "hp": 1979
+   },
+   {
+    "att": 559,
+    "def": 219,
+    "hp": 2006
+   },
+   {
+    "att": 568,
+    "def": 222,
+    "hp": 2033
+   },
+   {
+    "att": 578,
+    "def": 225,
+    "hp": 2059
+   },
+   {
+    "att": 587,
+    "def": 229,
+    "hp": 2086
+   },
+   {
+    "att": 597,
+    "def": 232,
+    "hp": 2113
+   },
+   {
+    "att": 606,
+    "def": 235,
+    "hp": 2139
+   },
+   {
+    "att": 616,
+    "def": 238,
+    "hp": 2166
+   },
+   {
+    "att": 625,
+    "def": 241,
+    "hp": 2193
+   },
+   {
+    "att": 635,
+    "def": 245,
+    "hp": 2219
+   },
+   {
+    "att": 644,
+    "def": 248,
+    "hp": 2246
+   },
+   {
+    "att": 654,
+    "def": 251,
+    "hp": 2273
+   },
+   {
+    "att": 663,
+    "def": 254,
+    "hp": 2300
+   },
+   {
+    "att": 673,
+    "def": 258,
+    "hp": 2326
+   },
+   {
+    "att": 682,
+    "def": 261,
+    "hp": 2353
+   },
+   {
+    "att": 692,
+    "def": 264,
+    "hp": 2380
+   },
+   {
+    "att": 701,
+    "def": 267,
+    "hp": 2406
+   },
+   {
+    "att": 711,
+    "def": 270,
+    "hp": 2433
+   },
+   {
+    "att": 721,
+    "def": 274,
+    "hp": 2460
+   },
+   {
+    "att": 730,
+    "def": 277,
+    "hp": 2486
+   },
+   {
+    "att": 740,
+    "def": 280,
+    "hp": 2513
+   },
+   {
+    "att": 749,
+    "def": 283,
+    "hp": 2540
+   },
+   {
+    "att": 759,
+    "def": 287,
+    "hp": 2566
+   },
+   {
+    "att": 768,
+    "def": 290,
+    "hp": 2593
+   },
+   {
+    "att": 778,
+    "def": 293,
+    "hp": 2620
+   },
+   {
+    "att": 880,
+    "def": 327,
+    "hp": 2923
+   },
+   {
+    "att": 891,
+    "def": 331,
+    "hp": 2956
+   },
+   {
+    "att": 903,
+    "def": 335,
+    "hp": 2990
+   },
+   {
+    "att": 915,
+    "def": 339,
+    "hp": 3023
+   },
+   {
+    "att": 927,
+    "def": 343,
+    "hp": 3057
+   },
+   {
+    "att": 939,
+    "def": 347,
+    "hp": 3090
+   },
+   {
+    "att": 951,
+    "def": 351,
+    "hp": 3123
+   },
+   {
+    "att": 963,
+    "def": 355,
+    "hp": 3157
+   },
+   {
+    "att": 975,
+    "def": 359,
+    "hp": 3190
+   },
+   {
+    "att": 987,
+    "def": 363,
+    "hp": 3223
+   },
+   {
+    "att": 999,
+    "def": 367,
+    "hp": 3257
+   },
+   {
+    "att": 1011,
+    "def": 371,
+    "hp": 3290
+   },
+   {
+    "att": 1022,
+    "def": 375,
+    "hp": 3323
+   },
+   {
+    "att": 1034,
+    "def": 379,
+    "hp": 3357
+   },
+   {
+    "att": 1046,
+    "def": 383,
+    "hp": 3390
+   },
+   {
+    "att": 1058,
+    "def": 387,
+    "hp": 3423
+   },
+   {
+    "att": 1070,
+    "def": 391,
+    "hp": 3457
+   },
+   {
+    "att": 1082,
+    "def": 395,
+    "hp": 3490
+   },
+   {
+    "att": 1094,
+    "def": 400,
+    "hp": 3523
+   },
+   {
+    "att": 1106,
+    "def": 404,
+    "hp": 3557
+   },
+   {
+    "att": 1118,
+    "def": 408,
+    "hp": 3590
+   },
+   {
+    "att": 1130,
+    "def": 412,
+    "hp": 3624
+   },
+   {
+    "att": 1142,
+    "def": 416,
+    "hp": 3657
+   },
+   {
+    "att": 1153,
+    "def": 420,
+    "hp": 3690
+   },
+   {
+    "att": 1165,
+    "def": 424,
+    "hp": 3724
+   },
+   {
+    "att": 1177,
+    "def": 428,
+    "hp": 3757
+   },
+   {
+    "att": 1189,
+    "def": 432,
+    "hp": 3790
+   },
+   {
+    "att": 1201,
+    "def": 436,
+    "hp": 3824
+   },
+   {
+    "att": 1213,
+    "def": 440,
+    "hp": 3857
+   },
+   {
+    "att": 1225,
+    "def": 444,
+    "hp": 3890
+   },
+   {
+    "att": 1237,
+    "def": 448,
+    "hp": 3924
+   },
+   {
+    "att": 1249,
+    "def": 452,
+    "hp": 3957
+   },
+   {
+    "att": 1261,
+    "def": 456,
+    "hp": 3990
+   },
+   {
+    "att": 1273,
+    "def": 460,
+    "hp": 4024
+   },
+   {
+    "att": 1284,
+    "def": 464,
+    "hp": 4057
+   },
+   {
+    "att": 1296,
+    "def": 468,
+    "hp": 4091
+   },
+   {
+    "att": 1308,
+    "def": 472,
+    "hp": 4124
+   },
+   {
+    "att": 1320,
+    "def": 476,
+    "hp": 4157
+   },
+   {
+    "att": 1332,
+    "def": 480,
+    "hp": 4191
+   },
+   {
+    "att": 1344,
+    "def": 484,
+    "hp": 4224
+   },
+   {
+    "att": 1503,
+    "def": 537,
+    "hp": 4669
+   },
+   {
+    "att": 1512,
+    "def": 540,
+    "hp": 4694
+   },
+   {
+    "att": 1521,
+    "def": 543,
+    "hp": 4719
+   },
+   {
+    "att": 1530,
+    "def": 546,
+    "hp": 4744
+   },
+   {
+    "att": 1539,
+    "def": 549,
+    "hp": 4769
+   },
+   {
+    "att": 1548,
+    "def": 552,
+    "hp": 4794
+   },
+   {
+    "att": 1557,
+    "def": 555,
+    "hp": 4819
+   },
+   {
+    "att": 1565,
+    "def": 558,
+    "hp": 4844
+   },
+   {
+    "att": 1574,
+    "def": 561,
+    "hp": 4869
+   },
+   {
+    "att": 1583,
+    "def": 564,
+    "hp": 4894
+   },
+   {
+    "att": 1592,
+    "def": 567,
+    "hp": 4919
+   },
+   {
+    "att": 1601,
+    "def": 570,
+    "hp": 4944
+   },
+   {
+    "att": 1610,
+    "def": 573,
+    "hp": 4969
+   },
+   {
+    "att": 1619,
+    "def": 576,
+    "hp": 4994
+   },
+   {
+    "att": 1628,
+    "def": 579,
+    "hp": 5019
+   },
+   {
+    "att": 1637,
+    "def": 582,
+    "hp": 5044
+   },
+   {
+    "att": 1646,
+    "def": 585,
+    "hp": 5069
+   },
+   {
+    "att": 1655,
+    "def": 588,
+    "hp": 5094
+   },
+   {
+    "att": 1664,
+    "def": 591,
+    "hp": 5119
+   },
+   {
+    "att": 1673,
+    "def": 595,
+    "hp": 5144
+   },
+   {
+    "att": 1682,
+    "def": 598,
+    "hp": 5169
+   },
+   {
+    "att": 1690,
+    "def": 601,
+    "hp": 5194
+   },
+   {
+    "att": 1699,
+    "def": 604,
+    "hp": 5219
+   },
+   {
+    "att": 1708,
+    "def": 607,
+    "hp": 5244
+   },
+   {
+    "att": 1717,
+    "def": 610,
+    "hp": 5269
+   },
+   {
+    "att": 1726,
+    "def": 613,
+    "hp": 5294
+   },
+   {
+    "att": 1735,
+    "def": 616,
+    "hp": 5319
+   },
+   {
+    "att": 1744,
+    "def": 619,
+    "hp": 5344
+   },
+   {
+    "att": 1753,
+    "def": 622,
+    "hp": 5369
+   },
+   {
+    "att": 1762,
+    "def": 625,
+    "hp": 5394
+   },
+   {
+    "att": 1771,
+    "def": 628,
+    "hp": 5420
+   },
+   {
+    "att": 1780,
+    "def": 631,
+    "hp": 5445
+   },
+   {
+    "att": 1789,
+    "def": 634,
+    "hp": 5470
+   },
+   {
+    "att": 1798,
+    "def": 637,
+    "hp": 5495
+   },
+   {
+    "att": 1807,
+    "def": 640,
+    "hp": 5520
+   },
+   {
+    "att": 1816,
+    "def": 643,
+    "hp": 5545
+   },
+   {
+    "att": 1824,
+    "def": 646,
+    "hp": 5570
+   },
+   {
+    "att": 1833,
+    "def": 649,
+    "hp": 5595
+   },
+   {
+    "att": 1842,
+    "def": 652,
+    "hp": 5620
+   },
+   {
+    "att": 1851,
+    "def": 655,
+    "hp": 5645
+   },
+   {
+    "att": 1860,
+    "def": 658,
+    "hp": 5670
+   },
+   {
+    "att": 1869,
+    "def": 661,
+    "hp": 5695
+   },
+   {
+    "att": 1878,
+    "def": 664,
+    "hp": 5720
+   },
+   {
+    "att": 1887,
+    "def": 667,
+    "hp": 5745
+   },
+   {
+    "att": 1896,
+    "def": 670,
+    "hp": 5770
+   },
+   {
+    "att": 1905,
+    "def": 673,
+    "hp": 5795
+   },
+   {
+    "att": 1914,
+    "def": 676,
+    "hp": 5820
+   },
+   {
+    "att": 1923,
+    "def": 679,
+    "hp": 5845
+   },
+   {
+    "att": 1932,
+    "def": 682,
+    "hp": 5870
+   },
+   {
+    "att": 1941,
+    "def": 685,
+    "hp": 5895
+   },
+   {
+    "att": 2172,
+    "def": 752,
+    "hp": 6542
+   },
+   {
+    "att": 2177,
+    "def": 754,
+    "hp": 6558
+   },
+   {
+    "att": 2183,
+    "def": 756,
+    "hp": 6575
+   },
+   {
+    "att": 2189,
+    "def": 758,
+    "hp": 6592
+   },
+   {
+    "att": 2195,
+    "def": 760,
+    "hp": 6608
+   },
+   {
+    "att": 2201,
+    "def": 762,
+    "hp": 6625
+   },
+   {
+    "att": 2207,
+    "def": 764,
+    "hp": 6642
+   },
+   {
+    "att": 2213,
+    "def": 766,
+    "hp": 6658
+   },
+   {
+    "att": 2219,
+    "def": 768,
+    "hp": 6675
+   },
+   {
+    "att": 2225,
+    "def": 770,
+    "hp": 6692
+   },
+   {
+    "att": 2231,
+    "def": 772,
+    "hp": 6708
+   },
+   {
+    "att": 2237,
+    "def": 774,
+    "hp": 6725
+   },
+   {
+    "att": 2243,
+    "def": 776,
+    "hp": 6742
+   },
+   {
+    "att": 2249,
+    "def": 778,
+    "hp": 6758
+   },
+   {
+    "att": 2255,
+    "def": 780,
+    "hp": 6775
+   },
+   {
+    "att": 2261,
+    "def": 782,
+    "hp": 6792
+   },
+   {
+    "att": 2267,
+    "def": 784,
+    "hp": 6808
+   },
+   {
+    "att": 2273,
+    "def": 786,
+    "hp": 6825
+   },
+   {
+    "att": 2279,
+    "def": 788,
+    "hp": 6842
+   },
+   {
+    "att": 2285,
+    "def": 790,
+    "hp": 6858
+   },
+   {
+    "att": 2291,
+    "def": 792,
+    "hp": 6875
+   },
+   {
+    "att": 2297,
+    "def": 794,
+    "hp": 6892
+   },
+   {
+    "att": 2303,
+    "def": 796,
+    "hp": 6908
+   },
+   {
+    "att": 2308,
+    "def": 798,
+    "hp": 6925
+   },
+   {
+    "att": 2314,
+    "def": 800,
+    "hp": 6942
+   },
+   {
+    "att": 2320,
+    "def": 803,
+    "hp": 6958
+   },
+   {
+    "att": 2326,
+    "def": 805,
+    "hp": 6975
+   },
+   {
+    "att": 2332,
+    "def": 807,
+    "hp": 6992
+   },
+   {
+    "att": 2338,
+    "def": 809,
+    "hp": 7009
+   },
+   {
+    "att": 2344,
+    "def": 811,
+    "hp": 7025
+   },
+   {
+    "att": 2350,
+    "def": 813,
+    "hp": 7042
+   },
+   {
+    "att": 2356,
+    "def": 815,
+    "hp": 7059
+   },
+   {
+    "att": 2362,
+    "def": 817,
+    "hp": 7075
+   },
+   {
+    "att": 2368,
+    "def": 819,
+    "hp": 7092
+   },
+   {
+    "att": 2374,
+    "def": 821,
+    "hp": 7109
+   },
+   {
+    "att": 2380,
+    "def": 823,
+    "hp": 7125
+   },
+   {
+    "att": 2386,
+    "def": 825,
+    "hp": 7142
+   },
+   {
+    "att": 2392,
+    "def": 827,
+    "hp": 7159
+   },
+   {
+    "att": 2398,
+    "def": 829,
+    "hp": 7175
+   },
+   {
+    "att": 2404,
+    "def": 831,
+    "hp": 7192
+   },
+   {
+    "att": 2410,
+    "def": 833,
+    "hp": 7209
+   },
+   {
+    "att": 2416,
+    "def": 835,
+    "hp": 7225
+   },
+   {
+    "att": 2422,
+    "def": 837,
+    "hp": 7242
+   },
+   {
+    "att": 2428,
+    "def": 839,
+    "hp": 7259
+   },
+   {
+    "att": 2434,
+    "def": 841,
+    "hp": 7275
+   },
+   {
+    "att": 2439,
+    "def": 843,
+    "hp": 7292
+   },
+   {
+    "att": 2445,
+    "def": 845,
+    "hp": 7309
+   },
+   {
+    "att": 2451,
+    "def": 847,
+    "hp": 7325
+   },
+   {
+    "att": 2457,
+    "def": 849,
+    "hp": 7342
+   },
+   {
+    "att": 2463,
+    "def": 851,
+    "hp": 7359
+   },
+   {
+    "att": 2469,
+    "def": 853,
+    "hp": 7375
+   },
+   {
+    "att": 2475,
+    "def": 855,
+    "hp": 7392
+   },
+   {
+    "att": 2481,
+    "def": 857,
+    "hp": 7409
+   },
+   {
+    "att": 2487,
+    "def": 859,
+    "hp": 7425
+   },
+   {
+    "att": 2493,
+    "def": 861,
+    "hp": 7442
+   },
+   {
+    "att": 2499,
+    "def": 863,
+    "hp": 7459
+   },
+   {
+    "att": 2505,
+    "def": 865,
+    "hp": 7476
+   },
+   {
+    "att": 2511,
+    "def": 867,
+    "hp": 7492
+   },
+   {
+    "att": 2517,
+    "def": 869,
+    "hp": 7509
+   },
+   {
+    "att": 2523,
+    "def": 871,
+    "hp": 7526
+   },
+   {
+    "att": 2529,
+    "def": 873,
+    "hp": 7542
+   },
+   {
+    "att": 2535,
+    "def": 875,
+    "hp": 7559
+   },
+   {
+    "att": 2541,
+    "def": 877,
+    "hp": 7576
+   },
+   {
+    "att": 2547,
+    "def": 879,
+    "hp": 7592
+   },
+   {
+    "att": 2553,
+    "def": 881,
+    "hp": 7609
+   },
+   {
+    "att": 2559,
+    "def": 883,
+    "hp": 7626
+   },
+   {
+    "att": 2564,
+    "def": 885,
+    "hp": 7642
+   },
+   {
+    "att": 2570,
+    "def": 887,
+    "hp": 7659
+   },
+   {
+    "att": 2576,
+    "def": 889,
+    "hp": 7676
+   },
+   {
+    "att": 2582,
+    "def": 891,
+    "hp": 7692
+   },
+   {
+    "att": 2588,
+    "def": 893,
+    "hp": 7709
+   },
+   {
+    "att": 2594,
+    "def": 895,
+    "hp": 7726
+   },
+   {
+    "att": 2600,
+    "def": 897,
+    "hp": 7742
+   },
+   {
+    "att": 2606,
+    "def": 899,
+    "hp": 7759
+   },
+   {
+    "att": 2612,
+    "def": 901,
+    "hp": 7776
+   },
+   {
+    "att": 2618,
+    "def": 903,
+    "hp": 7792
+   },
+   {
+    "att": 2624,
+    "def": 905,
+    "hp": 7809
+   },
+   {
+    "att": 2630,
+    "def": 907,
+    "hp": 7826
+   },
+   {
+    "att": 2636,
+    "def": 909,
+    "hp": 7842
+   },
+   {
+    "att": 2642,
+    "def": 911,
+    "hp": 7859
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Wendy",
+     "Raphael"
+    ],
+    "chat": [
+     {
+      "character": "Wendy:",
+      "text": "The Courier Union always delivers!"
+     },
+     {
+      "character": "Wendy:",
+      "text": "*Wham!*"
+     },
+     {
+      "character": "Raphael:",
+      "text": "Whoa! What just hit us?"
+     },
+     {
+      "character": "Raphael:",
+      "text": "Was it a missile?!"
+     },
+     {
+      "character": "Wendy:",
+      "text": "Correct! I'm Wendy, a high-speed elliptical missile that everyone calls the Light Speed Spiral!"
+     },
+     {
+      "character": "Raphael:",
+      "text": "It really was a missile..."
+     },
+     {
+      "character": "Wendy:",
+      "text": "Haha! I bet you think I'm super cool..."
+     },
+     {
+      "character": "Raphael:",
+      "text": "Here, let me show you my rockets!"
+     },
+     {
+      "character": "Wendy:",
+      "text": "... Cool?"
+     },
+     {
+      "character": "Raphael:",
+      "text": "Check it out! This is my most advanced missile launcher!"
+     },
+     {
+      "character": "Raphael:",
+      "text": "It doesn't just fire my Holy Water Shells... It can fire any kind of missile. You just have to jam it into the launcher hard enough, and it'll work!"
+     },
+     {
+      "character": "Wendy:",
+      "text": "I... I don't really need that, since I can just launch myself..."
+     },
+     {
+      "character": "Raphael:",
+      "text": "What are you talking about? A launcher's just what you need to give yourself that extra kick! C'mon!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "We are lucky enough to receive the support of the Lumo Knights. Ms. Raphael, one of the Four Angels, prepared a grand welcoming ceremony for us on the day we boarded the ship. Although we should be the ones holding a welcoming ceremony for her, the opposite happened for some reason.We still remember the joyous events of that day as everyone was given a Top Secret Divine Dust-repelling Holy Water shell and was chased everywhere by it... I can only say that we were lucky this welcoming ceremony wasn't held on our ship.There are some other things about her that have left a deep impression on me. For example, she seems to have some sort of... mechanical wings? On both sides of her cute dress to help her keep balance. She also has a giant mechanical cross... I bet she uses that to shoot those homing Holy Water Shells!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "I'm one of the Four Angels of Lumopolis, and I am both an ambassador and a knight! My duties are much easier in this peaceful age as I mainly need to conduct patrols and maintain law and order. I also occasionally accept small missions to eliminate enemies and spend a lot of my time on medical activities and medical research. But the Eclipsites have resurged again recently, which is really annoying as I have to take time from my medical activities to deal with them! I want to do whatever I can to help you fight those annoying Eclipsites. Now that everyone is on bad terms and can't unite, it's actually easier to join you and take action together!You don't need to worry about your old injuries at all. One bottle of my healing holy water and I guarantee that your waist and leg will feel as good as new! If patrols are comprehensive and treatments are perfect, you'll be able to complete more missions and even go out to search for news!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "You can trust my ability completely! Listen to that boom! Today's lantern is also full of firepower! I've especially borrowed the power of Illumina Tech to give my patients better treatment. This Holy Water Shell isn't any old shell. It deals damage to enemies and heals allies! If I want to know whether you're a friend or a foe, all I need to do is to shoot this at you. I mean, extraordinary times call for extraordinary means!Occasionally, someone's bones will be broken by my Holy Water Shell, but it's actually quite easy to fix\u2014I just need to treat them with another type of holy water. As for the mild burns covering their body... they'll be fine as the burns will heal naturally after some time! As they say, doctors can heal, but they can also kill... Huh? That's strange... I don't think that's right... Either way, you'll find me wherever there's a patient to treat!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "After John's med unit was disbanded, Gabriel and I went to Lumopolis. Gabriel told me that I'll be able to heal even more people if I joined the study exchange program with Illumina! Since I have nowhere to go after the medical team disbanded, I'm happy to go to any place where I can learn more treatment methods!The R&D staff at Illumina told me I was an incredible genius and helped me remodel my master's relic out of the kindness of their hearts. Yes, it is my cross that is filled with holy water!I also invented the holy water series myself, but they were just ordinary medicine at first. I thought about it and decided that it would be too simple if they are just medicine, so I remodeled them into this versatile Holy Water Shell! Raphael even made me one of the Four Angels because of this!What's that? That's not it?"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "From a young age, my master taught me that everything exists for a reason, so we must save as many lives as we can!I have followed my grandfather\u2014who was also my master\u2014since I was a child! I admired all the young men and women of the medical team at that time! They had superb medical skills and had to deal with the battles that could happen at any moment! So, I made up my mind at that time to work hard to become someone useful like them!Whenever I work with everyone to save civilians who are tortured by injuries and illnesses, I feel so satisfied whenever I see the grateful look on their faces!... Later, there were many times when I woke up in the middle of the night, only to see my very old grandfather grimace in pain due to his injury... He must have been forcing himself to pretend to be fine in front of everyone else because he doesn't want others to worry about him... So, I followed my grandfather's instructions and made him the pain-removing holy water and helped him drink it so that he could go to the stars first and wait for me up there! I'll join him there one day!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Lumopolis is so cool! I was accepted when I had no place to go to. Besides, they support my research!",
+  "Illumina is great, too! I used to play missiles with everyone there as a student!",
+  "White Night up high!",
+  "Unfortunately, they can't be saved... Eradication is the only option.",
+  "I wish I could have been with her then, even though Gabriel kept saying she didn't care. But still...!",
+  "Little Michaela looks much better these days... She really scared everyone at the beginning.",
+  "I will continue my medical research. I will keep on exploring and experimenting with the hope of curing everyone one day!",
+  "The patients that can't be saved... Being unable to save my patients is the most annoying thing ever...",
+  "Oh, I've seen a Colossus before! This white one of yours looks great!",
+  "Hope I won't receive any more complaints! I'm sorry for the trouble I have caused...",
+  "Leave it to me! I think should be able to handle it! No, I definitely can! St. John's work smile\u2014activated!!",
+  "I'm sorry, please let me try again! Just once! Pleeease!!",
+  "With me here, nobody's getting injured! Yeah!",
+  "Woo-hoo!!",
+  "Holy water everywhere!",
+  "Wait for me! One second!",
+  "Woo-hoo! Happy New Year!",
+  "Hey, everyone! I'm here!",
+  "Thank you! You are a person of true wit!",
+  "Now it's an improved version of Raphael!!",
+  "I'll exert every effort to live up to John's honor!!",
+  "Another free day. I'm so important to everyone, so I can't let them down... Perhaps I should burn the midnight oil and prepare something new again.",
+  "Oh, ho, ho, ho!",
+  "Alchemy Stars!",
+  "Oh, I'm sorry, is it me again?! Huh? Just an ordinary greeting?",
+  "Ahhh, when can I finally become the support everyone trusts unconditionally?... Maybe tomorrow?!",
+  "What am I doing, you ask? Oh, it's no big deal, just some holy water shells... But I'm not quite sure whether they heal or hurt.",
+  "Look at the new medicine I developed! It will definitely come in handy this time, hah! I call it the Almighty Supreme Healing Shell!",
+  "Carleeeen... Where are you..? You haven't assigned me anything today! Why do you keep forgetting?!",
+  "Ooh... These are all thank-you letters from the ones I healed! I've collected only a few of them throughout all these years, but I still get emotional every time I read them...",
+  "Um, can I ask you a favor, Raphael? Just volunteer for my clinical trial, please! Hey, why are you backing up?",
+  "Hey... This is the arm I accidentally removed from a patient last time... Would you be so kind as to give it back to her? Tee-hee...",
+  "Anyone requiring medical attention here?! Who? Where?! Raphael and her Savior #5, ready for action! You're all safe now! I think?",
+  "Anyone looking for me? Is it you? ARE YOU HURT?",
+  "You're all too kind! Always saying that I need more rest...",
+  "My canines grew again... Why... oh why is it only my teeth that grow?",
+  "Oh, you're back!",
+  "Good morning! I'm in high spirits today. Are you not? Here, let me lend you a helping hand!",
+  "It doesn't matter! I can still accept more patients! You, maybe? Do you need healing?",
+  "You need a good night's sleep to be in high spirits! Have you had a good rest? Let me help you!",
+  "I am Raphael! I will help you in any way I can. Pleased to meet you!",
+  "Oh, so I can receive gifts as well?",
+  "Thank you so much! I'm so happy!",
+  "Oh, how interesting! Thanks!",
+  "This is...? Can I take it?? Whoa...",
+  "Launching all missiles! I'm not kidding!!",
+  "Firing holy water shells!",
+  "Umm... Okay! I guess!",
+  "It was very hard in the past, especially the wandering days with the master... Oh, forgive me! I shouldn't be telling you such things!",
+  "Have you ever heard of the John family? Very famous. If it wasn't for us, I don't know how many people would have died... Huh? Never heard of it?!",
+  "Master, I've grown up. I've met a lot of good people, and now I can help with healing, too. Now watch me closely from above...",
+  "Raphael is taking on this important mission calmly!"
+ ],
+ "skins": [],
+ "description": "A Lumopolis knight and one of the famous Four Angels. Don't be frightened by her explosives! She's actually a kind soul. When someone is injured, she'll go to great lengths to treat and cure them.",
+ "realName": "Raphael",
+ "nickname": "The Angel of Mercury",
+ "gender": "Female",
+ "height": "4'10''",
+ "birthday": "December 12",
+ "birthplace": "Lumopolis",
+ "style": "Holy Water Shell"
 }

@@ -1,0 +1,1372 @@
+{
+ "title": "Food Tales: Coffee",
+ "header": "The always glamorous Charon has turned enigmatic lately and taken an interest in Firefly. But why?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, what can I do for you?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Hello, my friend."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hello..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "As the navigator of the Colossus, you must know a lot about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, yes, right."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "The Colossus is indeed fascinating. Do you mind if I address your Colossus as \"he\"?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Erm... Whatever makes you happy."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Who made this Colossus?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, Charon, why did you come to me?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah, well, I have found myself in need of a certain drink recently for thinking."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A drink? What kind of drink?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Milk."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Milk? I remember you don't like milk..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Right... It's a gift for someone."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Well...",
+     "link": "1"
+    },
+    {
+     "text": "No problem",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "Navigator, it's for someone very important to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If that's the case, I'll go see if there's any in the warehouse."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Thank you for the help! I'll be waiting for you at the Lumina Grid!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Alright."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Why would he be waiting for me there? Well, that's Charon for you. No one knows what's going on in his head...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's just a bottle of milk... Nothing important, anyway. Well, since he asked, I should go look for it.)"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Ah, it's you again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You came here with Charon?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes. However, he sent us to inspect the Colossus while he went to enjoy the view from the Bridge alone."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon is always like this. Fortunately, no important matters have come up recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do any of you know who this person Charon intends to give a gift to might be?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Oh? No, I don't know anything about it. Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He asked me to find him some milk."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Does Officer Charon have a cat?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Maybe... I heard that half a month ago, he added three bottles of milk to his ration application form."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ration application form?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "In the Illumina Federation, everyone's daily supplies must be rationed. Requested personal supplies need to be submitted for rationing."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "For someone in Officer Charon's position, he should be able to apply for a lot of personal items. It seems that a request for milk has also been added recently."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Come to think of it, it has been about three or four weeks."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Then you keep patrolling here. I'm heading off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, you're in luck. There's still some in the warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you doing?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "The Fireflies are just undergoing special training, is all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're not your soldiers!"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not training them for battle! Look!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm teaching them to dance! See?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... That swaying is... Fascinating."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "That's right! Work is not everything to fireflies. They dance, play, bathe, and rest as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ba-Bathe!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, do you have any misconception about fireflies? Or do you intend to do something with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! Well, I'm interested in fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Interested? What do you want to do with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I want to observe the Lumina of the fireflies. Although it is weak, it is nevertheless quite mysterious. What amazing little creatures!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Really?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! My friend, don't you trust me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Well... I don't really...",
+     "link": "4"
+    },
+    {
+     "text": "Well... I trust you...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "There should be some in the warehouse."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Thank you for the help! I'll be waiting for you at the Lumina Grid!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Alright."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Why would he be waiting for me there? Well, that's Charon for you. No one knows what's going on in his head...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's just a bottle of milk... Nothing important, anyway. Well, since he asked, I should go look for it.)"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Ah, it's you again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You came here with Charon?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes. However, he sent us to inspect the Colossus while he went to enjoy the view from the Bridge alone."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon is always like this. Fortunately, no important matters have come up recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do any of you know who this person Charon intends to give a gift to might be?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Oh? No, I don't know anything about it. Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He asked me to find him some milk."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Does Officer Charon have a cat?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Maybe... I heard that half a month ago, he added three bottles of milk to his ration application form."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ration application form?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "In the Illumina Federation, everyone's daily supplies must be rationed. Requested personal supplies need to be submitted for rationing."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "For someone in Officer Charon's position, he should be able to apply for a lot of personal items. It seems that a request for milk has also been added recently."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Come to think of it, it has been about three or four weeks."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Then you keep patrolling here. I'm heading off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, you're in luck. There's still some in the warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you doing?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "The Fireflies are just undergoing special training, is all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're not your soldiers!"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not training them for battle! Look!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm teaching them to dance! See?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... That swaying is... Fascinating."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "That's right! Work is not everything to fireflies. They dance, play, bathe, and rest as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ba-Bathe!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, do you have any misconception about fireflies? Or do you intend to do something with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! Well, I'm interested in fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Interested? What do you want to do with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I want to observe the Lumina of the fireflies. Although it is weak, it is nevertheless quite mysterious. What amazing little creatures!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Really?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! My friend, don't you trust me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Well... I don't really...",
+     "link": "4"
+    },
+    {
+     "text": "Well... I trust you...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "Thank you for the help! I'll be waiting for you at the Lumina Grid!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Alright."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Why would he be waiting for me there? Well, that's Charon for you. No one knows what's going on in his head...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's just a bottle of milk... Nothing important, anyway. Well, since he asked, I should go look for it.)"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Ah, it's you again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You came here with Charon?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes. However, he sent us to inspect the Colossus while he went to enjoy the view from the Bridge alone."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon is always like this. Fortunately, no important matters have come up recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do any of you know who this person Charon intends to give a gift to might be?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Oh? No, I don't know anything about it. Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He asked me to find him some milk."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Does Officer Charon have a cat?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Maybe... I heard that half a month ago, he added three bottles of milk to his ration application form."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ration application form?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "In the Illumina Federation, everyone's daily supplies must be rationed. Requested personal supplies need to be submitted for rationing."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "For someone in Officer Charon's position, he should be able to apply for a lot of personal items. It seems that a request for milk has also been added recently."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Come to think of it, it has been about three or four weeks."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Then you keep patrolling here. I'm heading off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, you're in luck. There's still some in the warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you doing?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "The Fireflies are just undergoing special training, is all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're not your soldiers!"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not training them for battle! Look!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm teaching them to dance! See?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... That swaying is... Fascinating."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "That's right! Work is not everything to fireflies. They dance, play, bathe, and rest as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ba-Bathe!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, do you have any misconception about fireflies? Or do you intend to do something with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! Well, I'm interested in fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Interested? What do you want to do with them?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I want to observe the Lumina of the fireflies. Although it is weak, it is nevertheless quite mysterious. What amazing little creatures!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Really?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah! My friend, don't you trust me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Well... I don't really...",
+     "link": "4"
+    },
+    {
+     "text": "Well... I trust you...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "Your words are like a sharp blade, stabbing into the core of my heart."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't understand..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "What a terrible thing to say!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Erm... I'm sorry. If you don't harm the fireflies..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I swear I won't hurt any of the fireflies!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, fine."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I won't forget your assistance today. Farewell!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Wait..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He has suddenly become surprisingly quick... Just like his train."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to report to him? He said he was going away to study fireflies."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Well..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Reporting in!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come on in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator, I ran into Officer Charon along the walkway just now."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He just told me to pass the report to Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It seems that he has left his duties to me... Is something wrong?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's good to hear."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Officer Charon just left in a hurry, Mr. Navigator. Is there a problem with the Lumina Grid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's nothing wrong in particular. What else did he say when you saw him?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He was asking where he could find cups. I told him there should be some cups in the warehouse."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What does Charon want cups for?)"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, you can go take a rest for now."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon is using cups to study fireflies... How peculiar."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I have to see for myself..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon... What is this? Is that... steam? The sound of splashing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This aroma... Is that coffee?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah... It's delicious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Fireflies? How did you get out? Is someone here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireflies! What is this white froth all over them!? Charon!?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Navigator! H-Have you been stalking me...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, clean that white foam from around your mouth first."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Uh, ahem."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been sneaking snacks?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not eating, just trying this wonderful drink and relishing in the gifts of the gods..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that foam from boiled milk? But there's no stove or fire here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It was the fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you made the fireflies dance and let them bathe just to heat up milk."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "As long as you wash these strange creatures clean, you can master the temperature of the Lumina they carry..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Plus, with the speed of their dancing... They form a wonderful frothing machine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Frothing machine?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A device that can make milk foam."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't expect you to invest so much effort into milk foam..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It's not just milk foam. It's for the greatest drink that I discovered recently\u2014cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Cappuccino?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A drink made of coffee and hot foamy milk. I didn't know about it until a few weeks ago, but after that wonderful, fateful encounter..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Essentially, it's a gift from the heavens. My dear Navigator, can you keep this secret for me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why?",
+     "link": "7"
+    },
+    {
+     "text": "No problem",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "I sense doubt in your words... They revealed what you actually think."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You may be reliable in battle; but off the battlefield..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Really? Reliable?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only in battle..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Don't worry, I won't do anything to the fireflies!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you don't harm the fireflies..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I swear I won't hurt any of the fireflies!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, fine."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I won't forget your assistance today. Farewell!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Wait..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He has suddenly become surprisingly quick... Just like his train."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to report to him? He said he was going away to study fireflies."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Well..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Reporting in!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come on in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator, I ran into Officer Charon along the walkway just now."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He just told me to pass the report to Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It seems that he has left his duties to me... Is something wrong?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's good to hear."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Officer Charon just left in a hurry, Mr. Navigator. Is there a problem with the Lumina Grid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's nothing wrong in particular. What else did he say when you saw him?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He was asking where he could find cups. I told him there should be some cups in the warehouse."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What does Charon want cups for?)"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, you can go take a rest for now."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon is using cups to study fireflies... How peculiar."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I have to see for myself..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon... What is this? Is that... steam? The sound of splashing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This aroma... Is that coffee?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah... It's delicious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Fireflies? How did you get out? Is someone here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireflies! What is this white froth all over them!? Charon!?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Navigator! H-Have you been stalking me...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, clean that white foam from around your mouth first."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Uh, ahem."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been sneaking snacks?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not eating, just trying this wonderful drink and relishing in the gifts of the gods..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that foam from boiled milk? But there's no stove or fire here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It was the fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you made the fireflies dance and let them bathe just to heat up milk."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "As long as you wash these strange creatures clean, you can master the temperature of the Lumina they carry..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Plus, with the speed of their dancing... They form a wonderful frothing machine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Frothing machine?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A device that can make milk foam."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't expect you to invest so much effort into milk foam..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It's not just milk foam. It's for the greatest drink that I discovered recently\u2014cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Cappuccino?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A drink made of coffee and hot foamy milk. I didn't know about it until a few weeks ago, but after that wonderful, fateful encounter..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Essentially, it's a gift from the heavens. My dear Navigator, can you keep this secret for me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why?",
+     "link": "7"
+    },
+    {
+     "text": "No problem",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "I swear I won't hurt any of the fireflies!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, fine."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I won't forget your assistance today. Farewell!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Wait..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He has suddenly become surprisingly quick... Just like his train."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Officer Charon..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to report to him? He said he was going away to study fireflies."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Well..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Reporting in!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come on in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator, I ran into Officer Charon along the walkway just now."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He just told me to pass the report to Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It seems that he has left his duties to me... Is something wrong?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's good to hear."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Officer Charon just left in a hurry, Mr. Navigator. Is there a problem with the Lumina Grid?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's nothing wrong in particular. What else did he say when you saw him?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "He was asking where he could find cups. I told him there should be some cups in the warehouse."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What does Charon want cups for?)"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, you can go take a rest for now."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon is using cups to study fireflies... How peculiar."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I have to see for myself..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon... What is this? Is that... steam? The sound of splashing?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This aroma... Is that coffee?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ah... It's delicious."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Fireflies? How did you get out? Is someone here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fireflies! What is this white froth all over them!? Charon!?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Navigator! H-Have you been stalking me...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon, clean that white foam from around your mouth first."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Uh, ahem."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been sneaking snacks?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "I'm not eating, just trying this wonderful drink and relishing in the gifts of the gods..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that foam from boiled milk? But there's no stove or fire here..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It was the fireflies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you made the fireflies dance and let them bathe just to heat up milk."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "As long as you wash these strange creatures clean, you can master the temperature of the Lumina they carry..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Plus, with the speed of their dancing... They form a wonderful frothing machine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Frothing machine?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A device that can make milk foam."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't expect you to invest so much effort into milk foam..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "It's not just milk foam. It's for the greatest drink that I discovered recently\u2014cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Cappuccino?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "A drink made of coffee and hot foamy milk. I didn't know about it until a few weeks ago, but after that wonderful, fateful encounter..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Essentially, it's a gift from the heavens. My dear Navigator, can you keep this secret for me?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why?",
+     "link": "7"
+    },
+    {
+     "text": "No problem",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "Ahem, because I won't drink this kind of thing in front of others."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Let's head back to the Bridge then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "What happened here today, let's keep it between us... I'm trusting you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait! He just left like that? He didn't even wash the cup!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah! Fireflies! You don't have to wash the cup for that guy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are there so many bubbles? And this cup, it's huge... Wait a minute!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon! He managed to drink all of the milk in the warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like Charon really likes the cappuccino... You could call it love at first sight, I guess."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Charon:",
+     "dialogue": "Thank you so much!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'd still like to know... Why don't you want everybody to know?"
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Ahem, because I won't drink this kind of thing in front of others."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "Let's head back to the Bridge then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Charon:",
+     "dialogue": "What happened here today, let's keep it between us... I'm trusting you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait! He just left like that? He didn't even wash the cup!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah! Fireflies! You don't have to wash the cup for that guy..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are there so many bubbles? And this cup, it's huge... Wait a minute!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Charon! He managed to drink all of the milk in the warehouse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like Charon really likes the cappuccino... You could call it love at first sight, I guess."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

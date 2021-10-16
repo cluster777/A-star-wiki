@@ -1,0 +1,378 @@
+[
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "Hello, tourist. I am Blanc. Your ticket is ready."
+   },
+   {
+    "name": "Navigator:",
+    "content": "... Ticket? I didn't order any tickets."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "You still don't get it? Navigator, you're really adorable."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "As the guide, I'll introduce to every tourist of Lumopolis everything they're interested in knowing."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "But I don't just introduce Lumopolis to tourists."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Oh? Ms. Blanc, do you have another part-time job in Lumopolis?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "What? Ms. Blanc, could you be another city's..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Oh? Ms. Blanc, do you have another part-time job in Lumopolis?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Ms. Blanc:",
+      "content": "Part-time job? Hmm... it's possible that my job as a guide is actually my part-time job."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "But I am currently serving Lumopolis as its guide wholeheartedly."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "However, I sometimes get sick of showing tourists around Lumopolis too."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "I also want to show special tourists special things."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Do you understand? Navigator, if interested, you're more than welcome to take part in my special tour."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "What? Ms. Blanc, could you be another city's..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Ms. Blanc:",
+      "content": "Another city? Hmm... I might consider it if they really do need me."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "But I am currently serving Lumopolis as its guide wholeheartedly."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "However, I sometimes get sick of showing tourists around Lumopolis too."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "I also want to show special tourists special things."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Do you understand? Navigator, if interested, you're more than welcome to take part in my special tour."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "Do you have any plans for the afternoon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not for now."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "Do you want me to show you around Lumopolis then?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That'll be the fifth time this month..."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "There are still many places I haven't brought you to yet. Five times is far from enough!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "It's quite late now. Are you still working?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, I'm writing my diary."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "There was once a time when I wrote in my diary every day."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What about now?"
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "I usually fall asleep halfway, so I stopped writing."
+   },
+   {
+    "name": "Navigator:",
+    "content": "..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "The night breeze is quite chilly."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Are you still awake?"
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "Yes. Do you want to have a cup of black tea?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That would be nice."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "Can you also bring me a coat? It's getting chilly."
+   },
+   {
+    "name": "Navigator:",
+    "content": "... So this was your purpose all along!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "Good evening. How's your night going?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I've just returned to my room..."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "You went out on a mission today...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Right... I'm so tired..."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "If you went out on a mission... You must've gone to Umbraton, right?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm sorry to say that I didn't..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Right... I've been there before."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm sorry to say that I didn't..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Ms. Blanc:",
+      "content": "That's a shame. Umbraton is a really interesting place."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "There are some creepy legends about that place..."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Would you like to hear them?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, no, no... That's alright..."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Oh... So, you're afraid of horror stories?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Erm, well... I just..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Yeah, I'm really afraid of them!"
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "I'm surprised at how open you are about it."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "In that case, go get some rest. Good night."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Looks like you let me live, Ms. Blanc..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Right... I've been there before."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Ms. Blanc:",
+      "content": "Really... Then I can say what's on my mind."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "There are some creepy legends about that place..."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Would you like to hear them?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, no, no... That's alright..."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "Oh... So, you're afraid of horror stories?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Erm, well... I just..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Yeah, I'm really afraid of them!"
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "I'm surprised at how open you are about it."
+     },
+     {
+      "name": "Ms. Blanc:",
+      "content": "In that case, go get some rest. Good night."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Looks like you let me live, Ms. Blanc..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Ms. Blanc:",
+    "content": "Hi, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hello, Ms. Blanc."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "I'm sorry. There are times when I leave the Colossus for a while to attend to some official business."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You don't need to apologize. Thank you for your support."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "You're welcome. It's because I received your message that this trip has become much more interesting than expected."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "Thank you for taking care of me and explaining to me, and for giving me the chance to experience an interesting journey."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "However, we'll see each other again. As long as I have no official duties, I will come back to this Colossus."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thank you."
+   },
+   {
+    "name": "Ms. Blanc:",
+    "content": "Don't mention it\u2014after all, you might be a rising star in the future. Speaking of which, maybe we should put off all official business..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

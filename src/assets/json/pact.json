@@ -1,1153 +1,1359 @@
 {
-      "name": "Pact",
-      "faction": "True Order",
-      "element_main": "Forest",
-      "element_sub": "Fire",
-      "rarity": "5",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Preemptive Turn",
-            "description": [
-                  "Converts 4 nearest Red tiles to Green.",
-                  "Converts 4 nearest Red tiles to Green.",
-                  "Converts the 4 nearest Red tiles to Green and has a chance to generate up to 2 enhanced tiles."
-            ]
-      },
-      "equip": {
-            "name": "Ever-Returning Ring",
-            "passive": "Thornchakram",
-            "description": [
-                  [
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
-                        "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects."
-                  ],
-                  [
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
-                  ],
-                  [
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
-                        "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "10",
-                              "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "10",
-                              "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        },
-                        {
-                              "cost": "10",
-                              "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Increases tile-converting count by 1.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Crystal Shard",
-                        "Forest Essence",
-                        "Ancient Scroll",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects."
-            },
-            {
-                  "material": [
-                        "Forest Potion II",
-                        "Forest Flare Silt",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects.",
-                  "after": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
-            },
-            {
-                  "material": [
-                        "Forest Flare Tile",
-                        "Forest Crystal",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Converts 4 nearest Red tiles to Green.",
-                  "after": "Converts the 4 nearest Red tiles to Green and has a chance to generate up to 2 enhanced tiles."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 461,
-                        "def": 157,
-                        "hp": 1406
-                  },
-                  {
-                        "att": 468,
-                        "def": 160,
-                        "hp": 1428
-                  },
-                  {
-                        "att": 475,
-                        "def": 162,
-                        "hp": 1449
-                  },
-                  {
-                        "att": 483,
-                        "def": 165,
-                        "hp": 1471
-                  },
-                  {
-                        "att": 490,
-                        "def": 168,
-                        "hp": 1492
-                  },
-                  {
-                        "att": 497,
-                        "def": 170,
-                        "hp": 1514
-                  },
-                  {
-                        "att": 505,
-                        "def": 173,
-                        "hp": 1535
-                  },
-                  {
-                        "att": 512,
-                        "def": 176,
-                        "hp": 1557
-                  },
-                  {
-                        "att": 519,
-                        "def": 178,
-                        "hp": 1578
-                  },
-                  {
-                        "att": 527,
-                        "def": 181,
-                        "hp": 1600
-                  },
-                  {
-                        "att": 534,
-                        "def": 184,
-                        "hp": 1621
-                  },
-                  {
-                        "att": 541,
-                        "def": 186,
-                        "hp": 1643
-                  },
-                  {
-                        "att": 548,
-                        "def": 189,
-                        "hp": 1665
-                  },
-                  {
-                        "att": 556,
-                        "def": 192,
-                        "hp": 1686
-                  },
-                  {
-                        "att": 563,
-                        "def": 195,
-                        "hp": 1708
-                  },
-                  {
-                        "att": 570,
-                        "def": 197,
-                        "hp": 1729
-                  },
-                  {
-                        "att": 578,
-                        "def": 200,
-                        "hp": 1751
-                  },
-                  {
-                        "att": 585,
-                        "def": 203,
-                        "hp": 1772
-                  },
-                  {
-                        "att": 592,
-                        "def": 205,
-                        "hp": 1794
-                  },
-                  {
-                        "att": 600,
-                        "def": 208,
-                        "hp": 1815
-                  },
-                  {
-                        "att": 607,
-                        "def": 211,
-                        "hp": 1837
-                  },
-                  {
-                        "att": 614,
-                        "def": 213,
-                        "hp": 1858
-                  },
-                  {
-                        "att": 622,
-                        "def": 216,
-                        "hp": 1880
-                  },
-                  {
-                        "att": 629,
-                        "def": 219,
-                        "hp": 1901
-                  },
-                  {
-                        "att": 636,
-                        "def": 221,
-                        "hp": 1923
-                  },
-                  {
-                        "att": 644,
-                        "def": 224,
-                        "hp": 1944
-                  },
-                  {
-                        "att": 651,
-                        "def": 227,
-                        "hp": 1966
-                  },
-                  {
-                        "att": 658,
-                        "def": 229,
-                        "hp": 1987
-                  },
-                  {
-                        "att": 666,
-                        "def": 232,
-                        "hp": 2009
-                  },
-                  {
-                        "att": 673,
-                        "def": 235,
-                        "hp": 2030
-                  },
-                  {
-                        "att": 767,
-                        "def": 268,
-                        "hp": 2277
-                  },
-                  {
-                        "att": 776,
-                        "def": 272,
-                        "hp": 2304
-                  },
-                  {
-                        "att": 785,
-                        "def": 275,
-                        "hp": 2331
-                  },
-                  {
-                        "att": 794,
-                        "def": 278,
-                        "hp": 2358
-                  },
-                  {
-                        "att": 804,
-                        "def": 282,
-                        "hp": 2385
-                  },
-                  {
-                        "att": 813,
-                        "def": 285,
-                        "hp": 2412
-                  },
-                  {
-                        "att": 822,
-                        "def": 288,
-                        "hp": 2438
-                  },
-                  {
-                        "att": 831,
-                        "def": 292,
-                        "hp": 2465
-                  },
-                  {
-                        "att": 840,
-                        "def": 295,
-                        "hp": 2492
-                  },
-                  {
-                        "att": 849,
-                        "def": 298,
-                        "hp": 2519
-                  },
-                  {
-                        "att": 858,
-                        "def": 302,
-                        "hp": 2546
-                  },
-                  {
-                        "att": 868,
-                        "def": 305,
-                        "hp": 2573
-                  },
-                  {
-                        "att": 877,
-                        "def": 309,
-                        "hp": 2600
-                  },
-                  {
-                        "att": 886,
-                        "def": 312,
-                        "hp": 2627
-                  },
-                  {
-                        "att": 895,
-                        "def": 315,
-                        "hp": 2654
-                  },
-                  {
-                        "att": 904,
-                        "def": 319,
-                        "hp": 2680
-                  },
-                  {
-                        "att": 913,
-                        "def": 322,
-                        "hp": 2707
-                  },
-                  {
-                        "att": 923,
-                        "def": 325,
-                        "hp": 2734
-                  },
-                  {
-                        "att": 932,
-                        "def": 329,
-                        "hp": 2761
-                  },
-                  {
-                        "att": 941,
-                        "def": 332,
-                        "hp": 2788
-                  },
-                  {
-                        "att": 950,
-                        "def": 335,
-                        "hp": 2815
-                  },
-                  {
-                        "att": 959,
-                        "def": 339,
-                        "hp": 2842
-                  },
-                  {
-                        "att": 968,
-                        "def": 342,
-                        "hp": 2869
-                  },
-                  {
-                        "att": 977,
-                        "def": 346,
-                        "hp": 2896
-                  },
-                  {
-                        "att": 987,
-                        "def": 349,
-                        "hp": 2922
-                  },
-                  {
-                        "att": 996,
-                        "def": 352,
-                        "hp": 2949
-                  },
-                  {
-                        "att": 1005,
-                        "def": 356,
-                        "hp": 2976
-                  },
-                  {
-                        "att": 1014,
-                        "def": 359,
-                        "hp": 3003
-                  },
-                  {
-                        "att": 1023,
-                        "def": 362,
-                        "hp": 3030
-                  },
-                  {
-                        "att": 1032,
-                        "def": 366,
-                        "hp": 3057
-                  },
-                  {
-                        "att": 1041,
-                        "def": 369,
-                        "hp": 3084
-                  },
-                  {
-                        "att": 1051,
-                        "def": 372,
-                        "hp": 3111
-                  },
-                  {
-                        "att": 1060,
-                        "def": 376,
-                        "hp": 3138
-                  },
-                  {
-                        "att": 1069,
-                        "def": 379,
-                        "hp": 3164
-                  },
-                  {
-                        "att": 1078,
-                        "def": 382,
-                        "hp": 3191
-                  },
-                  {
-                        "att": 1087,
-                        "def": 386,
-                        "hp": 3218
-                  },
-                  {
-                        "att": 1096,
-                        "def": 389,
-                        "hp": 3245
-                  },
-                  {
-                        "att": 1105,
-                        "def": 393,
-                        "hp": 3272
-                  },
-                  {
-                        "att": 1115,
-                        "def": 396,
-                        "hp": 3299
-                  },
-                  {
-                        "att": 1124,
-                        "def": 399,
-                        "hp": 3326
-                  },
-                  {
-                        "att": 1266,
-                        "def": 452,
-                        "hp": 3686
-                  },
-                  {
-                        "att": 1272,
-                        "def": 454,
-                        "hp": 3706
-                  },
-                  {
-                        "att": 1279,
-                        "def": 457,
-                        "hp": 3726
-                  },
-                  {
-                        "att": 1286,
-                        "def": 459,
-                        "hp": 3746
-                  },
-                  {
-                        "att": 1293,
-                        "def": 462,
-                        "hp": 3767
-                  },
-                  {
-                        "att": 1300,
-                        "def": 464,
-                        "hp": 3787
-                  },
-                  {
-                        "att": 1307,
-                        "def": 467,
-                        "hp": 3807
-                  },
-                  {
-                        "att": 1314,
-                        "def": 469,
-                        "hp": 3827
-                  },
-                  {
-                        "att": 1321,
-                        "def": 472,
-                        "hp": 3847
-                  },
-                  {
-                        "att": 1327,
-                        "def": 474,
-                        "hp": 3867
-                  },
-                  {
-                        "att": 1334,
-                        "def": 477,
-                        "hp": 3888
-                  },
-                  {
-                        "att": 1341,
-                        "def": 480,
-                        "hp": 3908
-                  },
-                  {
-                        "att": 1348,
-                        "def": 482,
-                        "hp": 3928
-                  },
-                  {
-                        "att": 1355,
-                        "def": 485,
-                        "hp": 3948
-                  },
-                  {
-                        "att": 1362,
-                        "def": 487,
-                        "hp": 3968
-                  },
-                  {
-                        "att": 1369,
-                        "def": 490,
-                        "hp": 3988
-                  },
-                  {
-                        "att": 1375,
-                        "def": 492,
-                        "hp": 4009
-                  },
-                  {
-                        "att": 1382,
-                        "def": 495,
-                        "hp": 4029
-                  },
-                  {
-                        "att": 1389,
-                        "def": 497,
-                        "hp": 4049
-                  },
-                  {
-                        "att": 1396,
-                        "def": 500,
-                        "hp": 4069
-                  },
-                  {
-                        "att": 1403,
-                        "def": 502,
-                        "hp": 4089
-                  },
-                  {
-                        "att": 1410,
-                        "def": 505,
-                        "hp": 4109
-                  },
-                  {
-                        "att": 1417,
-                        "def": 507,
-                        "hp": 4130
-                  },
-                  {
-                        "att": 1423,
-                        "def": 510,
-                        "hp": 4150
-                  },
-                  {
-                        "att": 1430,
-                        "def": 512,
-                        "hp": 4170
-                  },
-                  {
-                        "att": 1437,
-                        "def": 515,
-                        "hp": 4190
-                  },
-                  {
-                        "att": 1444,
-                        "def": 517,
-                        "hp": 4210
-                  },
-                  {
-                        "att": 1451,
-                        "def": 520,
-                        "hp": 4230
-                  },
-                  {
-                        "att": 1458,
-                        "def": 522,
-                        "hp": 4251
-                  },
-                  {
-                        "att": 1465,
-                        "def": 525,
-                        "hp": 4271
-                  },
-                  {
-                        "att": 1471,
-                        "def": 527,
-                        "hp": 4291
-                  },
-                  {
-                        "att": 1478,
-                        "def": 530,
-                        "hp": 4311
-                  },
-                  {
-                        "att": 1485,
-                        "def": 532,
-                        "hp": 4331
-                  },
-                  {
-                        "att": 1492,
-                        "def": 535,
-                        "hp": 4351
-                  },
-                  {
-                        "att": 1499,
-                        "def": 538,
-                        "hp": 4372
-                  },
-                  {
-                        "att": 1506,
-                        "def": 540,
-                        "hp": 4392
-                  },
-                  {
-                        "att": 1513,
-                        "def": 543,
-                        "hp": 4412
-                  },
-                  {
-                        "att": 1519,
-                        "def": 545,
-                        "hp": 4432
-                  },
-                  {
-                        "att": 1526,
-                        "def": 548,
-                        "hp": 4452
-                  },
-                  {
-                        "att": 1533,
-                        "def": 550,
-                        "hp": 4472
-                  },
-                  {
-                        "att": 1540,
-                        "def": 553,
-                        "hp": 4493
-                  },
-                  {
-                        "att": 1547,
-                        "def": 555,
-                        "hp": 4513
-                  },
-                  {
-                        "att": 1554,
-                        "def": 558,
-                        "hp": 4533
-                  },
-                  {
-                        "att": 1561,
-                        "def": 560,
-                        "hp": 4553
-                  },
-                  {
-                        "att": 1567,
-                        "def": 563,
-                        "hp": 4573
-                  },
-                  {
-                        "att": 1574,
-                        "def": 565,
-                        "hp": 4593
-                  },
-                  {
-                        "att": 1581,
-                        "def": 568,
-                        "hp": 4614
-                  },
-                  {
-                        "att": 1588,
-                        "def": 570,
-                        "hp": 4634
-                  },
-                  {
-                        "att": 1595,
-                        "def": 573,
-                        "hp": 4654
-                  },
-                  {
-                        "att": 1602,
-                        "def": 575,
-                        "hp": 4674
-                  },
-                  {
-                        "att": 1806,
-                        "def": 642,
-                        "hp": 5197
-                  },
-                  {
-                        "att": 1811,
-                        "def": 644,
-                        "hp": 5211
-                  },
-                  {
-                        "att": 1816,
-                        "def": 645,
-                        "hp": 5224
-                  },
-                  {
-                        "att": 1820,
-                        "def": 647,
-                        "hp": 5238
-                  },
-                  {
-                        "att": 1825,
-                        "def": 649,
-                        "hp": 5251
-                  },
-                  {
-                        "att": 1829,
-                        "def": 650,
-                        "hp": 5265
-                  },
-                  {
-                        "att": 1834,
-                        "def": 652,
-                        "hp": 5278
-                  },
-                  {
-                        "att": 1838,
-                        "def": 654,
-                        "hp": 5292
-                  },
-                  {
-                        "att": 1843,
-                        "def": 655,
-                        "hp": 5305
-                  },
-                  {
-                        "att": 1848,
-                        "def": 657,
-                        "hp": 5318
-                  },
-                  {
-                        "att": 1852,
-                        "def": 659,
-                        "hp": 5332
-                  },
-                  {
-                        "att": 1857,
-                        "def": 660,
-                        "hp": 5345
-                  },
-                  {
-                        "att": 1861,
-                        "def": 662,
-                        "hp": 5359
-                  },
-                  {
-                        "att": 1866,
-                        "def": 664,
-                        "hp": 5372
-                  },
-                  {
-                        "att": 1870,
-                        "def": 666,
-                        "hp": 5386
-                  },
-                  {
-                        "att": 1875,
-                        "def": 667,
-                        "hp": 5399
-                  },
-                  {
-                        "att": 1880,
-                        "def": 669,
-                        "hp": 5413
-                  },
-                  {
-                        "att": 1884,
-                        "def": 671,
-                        "hp": 5426
-                  },
-                  {
-                        "att": 1889,
-                        "def": 672,
-                        "hp": 5439
-                  },
-                  {
-                        "att": 1893,
-                        "def": 674,
-                        "hp": 5453
-                  },
-                  {
-                        "att": 1898,
-                        "def": 676,
-                        "hp": 5466
-                  },
-                  {
-                        "att": 1902,
-                        "def": 677,
-                        "hp": 5480
-                  },
-                  {
-                        "att": 1907,
-                        "def": 679,
-                        "hp": 5493
-                  },
-                  {
-                        "att": 1912,
-                        "def": 681,
-                        "hp": 5507
-                  },
-                  {
-                        "att": 1916,
-                        "def": 682,
-                        "hp": 5520
-                  },
-                  {
-                        "att": 1921,
-                        "def": 684,
-                        "hp": 5534
-                  },
-                  {
-                        "att": 1925,
-                        "def": 686,
-                        "hp": 5547
-                  },
-                  {
-                        "att": 1930,
-                        "def": 687,
-                        "hp": 5560
-                  },
-                  {
-                        "att": 1934,
-                        "def": 689,
-                        "hp": 5574
-                  },
-                  {
-                        "att": 1939,
-                        "def": 691,
-                        "hp": 5587
-                  },
-                  {
-                        "att": 1944,
-                        "def": 692,
-                        "hp": 5601
-                  },
-                  {
-                        "att": 1948,
-                        "def": 694,
-                        "hp": 5614
-                  },
-                  {
-                        "att": 1953,
-                        "def": 696,
-                        "hp": 5628
-                  },
-                  {
-                        "att": 1957,
-                        "def": 697,
-                        "hp": 5641
-                  },
-                  {
-                        "att": 1962,
-                        "def": 699,
-                        "hp": 5655
-                  },
-                  {
-                        "att": 1966,
-                        "def": 701,
-                        "hp": 5668
-                  },
-                  {
-                        "att": 1971,
-                        "def": 702,
-                        "hp": 5681
-                  },
-                  {
-                        "att": 1976,
-                        "def": 704,
-                        "hp": 5695
-                  },
-                  {
-                        "att": 1980,
-                        "def": 706,
-                        "hp": 5708
-                  },
-                  {
-                        "att": 1985,
-                        "def": 708,
-                        "hp": 5722
-                  },
-                  {
-                        "att": 1989,
-                        "def": 709,
-                        "hp": 5735
-                  },
-                  {
-                        "att": 1994,
-                        "def": 711,
-                        "hp": 5749
-                  },
-                  {
-                        "att": 1998,
-                        "def": 713,
-                        "hp": 5762
-                  },
-                  {
-                        "att": 2003,
-                        "def": 714,
-                        "hp": 5776
-                  },
-                  {
-                        "att": 2008,
-                        "def": 716,
-                        "hp": 5789
-                  },
-                  {
-                        "att": 2012,
-                        "def": 718,
-                        "hp": 5802
-                  },
-                  {
-                        "att": 2017,
-                        "def": 719,
-                        "hp": 5816
-                  },
-                  {
-                        "att": 2021,
-                        "def": 721,
-                        "hp": 5829
-                  },
-                  {
-                        "att": 2026,
-                        "def": 723,
-                        "hp": 5843
-                  },
-                  {
-                        "att": 2030,
-                        "def": 724,
-                        "hp": 5856
-                  },
-                  {
-                        "att": 2035,
-                        "def": 726,
-                        "hp": 5870
-                  },
-                  {
-                        "att": 2040,
-                        "def": 728,
-                        "hp": 5883
-                  },
-                  {
-                        "att": 2044,
-                        "def": 729,
-                        "hp": 5897
-                  },
-                  {
-                        "att": 2049,
-                        "def": 731,
-                        "hp": 5910
-                  },
-                  {
-                        "att": 2053,
-                        "def": 733,
-                        "hp": 5923
-                  },
-                  {
-                        "att": 2058,
-                        "def": 734,
-                        "hp": 5937
-                  },
-                  {
-                        "att": 2062,
-                        "def": 736,
-                        "hp": 5950
-                  },
-                  {
-                        "att": 2067,
-                        "def": 738,
-                        "hp": 5964
-                  },
-                  {
-                        "att": 2072,
-                        "def": 739,
-                        "hp": 5977
-                  },
-                  {
-                        "att": 2076,
-                        "def": 741,
-                        "hp": 5991
-                  },
-                  {
-                        "att": 2081,
-                        "def": 743,
-                        "hp": 6004
-                  },
-                  {
-                        "att": 2085,
-                        "def": 745,
-                        "hp": 6018
-                  },
-                  {
-                        "att": 2090,
-                        "def": 746,
-                        "hp": 6031
-                  },
-                  {
-                        "att": 2095,
-                        "def": 748,
-                        "hp": 6044
-                  },
-                  {
-                        "att": 2099,
-                        "def": 750,
-                        "hp": 6058
-                  },
-                  {
-                        "att": 2104,
-                        "def": 751,
-                        "hp": 6071
-                  },
-                  {
-                        "att": 2108,
-                        "def": 753,
-                        "hp": 6085
-                  },
-                  {
-                        "att": 2113,
-                        "def": 755,
-                        "hp": 6098
-                  },
-                  {
-                        "att": 2117,
-                        "def": 756,
-                        "hp": 6112
-                  },
-                  {
-                        "att": 2122,
-                        "def": 758,
-                        "hp": 6125
-                  },
-                  {
-                        "att": 2127,
-                        "def": 760,
-                        "hp": 6139
-                  },
-                  {
-                        "att": 2131,
-                        "def": 761,
-                        "hp": 6152
-                  },
-                  {
-                        "att": 2136,
-                        "def": 763,
-                        "hp": 6165
-                  },
-                  {
-                        "att": 2140,
-                        "def": 765,
-                        "hp": 6179
-                  },
-                  {
-                        "att": 2145,
-                        "def": 766,
-                        "hp": 6192
-                  },
-                  {
-                        "att": 2149,
-                        "def": 768,
-                        "hp": 6206
-                  },
-                  {
-                        "att": 2154,
-                        "def": 770,
-                        "hp": 6219
-                  },
-                  {
-                        "att": 2159,
-                        "def": 771,
-                        "hp": 6233
-                  },
-                  {
-                        "att": 2163,
-                        "def": 773,
-                        "hp": 6246
-                  },
-                  {
-                        "att": 2168,
-                        "def": 775,
-                        "hp": 6260
-                  }
-            ]
-      }
+ "name": "Pact",
+ "faction": "True Order",
+ "element_main": "Forest",
+ "element_sub": "Fire",
+ "rarity": "5",
+ "class": "Converter",
+ "skill": {
+  "name": "Hunting Stone",
+  "cd": "2 Preemptive Turn",
+  "description": [
+   "Converts 4 nearest Red tiles to Green.",
+   "Converts 4 nearest Red tiles to Green.",
+   "Converts the 4 nearest Red tiles to Green and has a chance to generate up to 2 enhanced tiles."
+  ]
+ },
+ "equip": {
+  "name": "Ever-Returning Ring",
+  "passive": "Thornchakram",
+  "description": [
+   [
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects.",
+    "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects."
+   ],
+   [
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
+   ],
+   [
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 1.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 2.5% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile.",
+    "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
+   ]
+  ],
+  "introduction": "Pact doesn't carry this wheel-like object, covered with withered thorns, by choice. It is like a restless ghost\u2014no matter where it is thrown, no matter how far she runs, it returns to her eventually. Though mysterious and terrifying, it also affords her great power."
+ },
+ "chain": {
+  "name": "Raging Thorn",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "10",
+     "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "10",
+     "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 155% damage to 8 tiles in an X shape and inflicts Slow on all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 170% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    },
+    {
+     "cost": "10",
+     "description": "Deals 180% damage to enemies in an X shape to the maximum range and inflicts Slow to all enemies on Green tiles for 2 rounds, marking the targets."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Increases tile-converting count by 1.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Crystal Shard",
+    "Forest Essence",
+    "Ancient Scroll",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects."
+  },
+  {
+   "material": [
+    "Forest Potion II",
+    "Forest Flare Silt",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects.",
+   "after": "When a marked enemy dies, gain HP equal to 3% of the enemy's Max HP and recovery effects. Up to 1 tile where the enemy is located is changed to an enhanced tile."
+  },
+  {
+   "material": [
+    "Forest Flare Tile",
+    "Forest Crystal",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Converts 4 nearest Red tiles to Green.",
+   "after": "Converts the 4 nearest Red tiles to Green and has a chance to generate up to 2 enhanced tiles."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 461,
+    "def": 157,
+    "hp": 1406
+   },
+   {
+    "att": 468,
+    "def": 160,
+    "hp": 1428
+   },
+   {
+    "att": 475,
+    "def": 162,
+    "hp": 1449
+   },
+   {
+    "att": 483,
+    "def": 165,
+    "hp": 1471
+   },
+   {
+    "att": 490,
+    "def": 168,
+    "hp": 1492
+   },
+   {
+    "att": 497,
+    "def": 170,
+    "hp": 1514
+   },
+   {
+    "att": 505,
+    "def": 173,
+    "hp": 1535
+   },
+   {
+    "att": 512,
+    "def": 176,
+    "hp": 1557
+   },
+   {
+    "att": 519,
+    "def": 178,
+    "hp": 1578
+   },
+   {
+    "att": 527,
+    "def": 181,
+    "hp": 1600
+   },
+   {
+    "att": 534,
+    "def": 184,
+    "hp": 1621
+   },
+   {
+    "att": 541,
+    "def": 186,
+    "hp": 1643
+   },
+   {
+    "att": 548,
+    "def": 189,
+    "hp": 1665
+   },
+   {
+    "att": 556,
+    "def": 192,
+    "hp": 1686
+   },
+   {
+    "att": 563,
+    "def": 195,
+    "hp": 1708
+   },
+   {
+    "att": 570,
+    "def": 197,
+    "hp": 1729
+   },
+   {
+    "att": 578,
+    "def": 200,
+    "hp": 1751
+   },
+   {
+    "att": 585,
+    "def": 203,
+    "hp": 1772
+   },
+   {
+    "att": 592,
+    "def": 205,
+    "hp": 1794
+   },
+   {
+    "att": 600,
+    "def": 208,
+    "hp": 1815
+   },
+   {
+    "att": 607,
+    "def": 211,
+    "hp": 1837
+   },
+   {
+    "att": 614,
+    "def": 213,
+    "hp": 1858
+   },
+   {
+    "att": 622,
+    "def": 216,
+    "hp": 1880
+   },
+   {
+    "att": 629,
+    "def": 219,
+    "hp": 1901
+   },
+   {
+    "att": 636,
+    "def": 221,
+    "hp": 1923
+   },
+   {
+    "att": 644,
+    "def": 224,
+    "hp": 1944
+   },
+   {
+    "att": 651,
+    "def": 227,
+    "hp": 1966
+   },
+   {
+    "att": 658,
+    "def": 229,
+    "hp": 1987
+   },
+   {
+    "att": 666,
+    "def": 232,
+    "hp": 2009
+   },
+   {
+    "att": 673,
+    "def": 235,
+    "hp": 2030
+   },
+   {
+    "att": 767,
+    "def": 268,
+    "hp": 2277
+   },
+   {
+    "att": 776,
+    "def": 272,
+    "hp": 2304
+   },
+   {
+    "att": 785,
+    "def": 275,
+    "hp": 2331
+   },
+   {
+    "att": 794,
+    "def": 278,
+    "hp": 2358
+   },
+   {
+    "att": 804,
+    "def": 282,
+    "hp": 2385
+   },
+   {
+    "att": 813,
+    "def": 285,
+    "hp": 2412
+   },
+   {
+    "att": 822,
+    "def": 288,
+    "hp": 2438
+   },
+   {
+    "att": 831,
+    "def": 292,
+    "hp": 2465
+   },
+   {
+    "att": 840,
+    "def": 295,
+    "hp": 2492
+   },
+   {
+    "att": 849,
+    "def": 298,
+    "hp": 2519
+   },
+   {
+    "att": 858,
+    "def": 302,
+    "hp": 2546
+   },
+   {
+    "att": 868,
+    "def": 305,
+    "hp": 2573
+   },
+   {
+    "att": 877,
+    "def": 309,
+    "hp": 2600
+   },
+   {
+    "att": 886,
+    "def": 312,
+    "hp": 2627
+   },
+   {
+    "att": 895,
+    "def": 315,
+    "hp": 2654
+   },
+   {
+    "att": 904,
+    "def": 319,
+    "hp": 2680
+   },
+   {
+    "att": 913,
+    "def": 322,
+    "hp": 2707
+   },
+   {
+    "att": 923,
+    "def": 325,
+    "hp": 2734
+   },
+   {
+    "att": 932,
+    "def": 329,
+    "hp": 2761
+   },
+   {
+    "att": 941,
+    "def": 332,
+    "hp": 2788
+   },
+   {
+    "att": 950,
+    "def": 335,
+    "hp": 2815
+   },
+   {
+    "att": 959,
+    "def": 339,
+    "hp": 2842
+   },
+   {
+    "att": 968,
+    "def": 342,
+    "hp": 2869
+   },
+   {
+    "att": 977,
+    "def": 346,
+    "hp": 2896
+   },
+   {
+    "att": 987,
+    "def": 349,
+    "hp": 2922
+   },
+   {
+    "att": 996,
+    "def": 352,
+    "hp": 2949
+   },
+   {
+    "att": 1005,
+    "def": 356,
+    "hp": 2976
+   },
+   {
+    "att": 1014,
+    "def": 359,
+    "hp": 3003
+   },
+   {
+    "att": 1023,
+    "def": 362,
+    "hp": 3030
+   },
+   {
+    "att": 1032,
+    "def": 366,
+    "hp": 3057
+   },
+   {
+    "att": 1041,
+    "def": 369,
+    "hp": 3084
+   },
+   {
+    "att": 1051,
+    "def": 372,
+    "hp": 3111
+   },
+   {
+    "att": 1060,
+    "def": 376,
+    "hp": 3138
+   },
+   {
+    "att": 1069,
+    "def": 379,
+    "hp": 3164
+   },
+   {
+    "att": 1078,
+    "def": 382,
+    "hp": 3191
+   },
+   {
+    "att": 1087,
+    "def": 386,
+    "hp": 3218
+   },
+   {
+    "att": 1096,
+    "def": 389,
+    "hp": 3245
+   },
+   {
+    "att": 1105,
+    "def": 393,
+    "hp": 3272
+   },
+   {
+    "att": 1115,
+    "def": 396,
+    "hp": 3299
+   },
+   {
+    "att": 1124,
+    "def": 399,
+    "hp": 3326
+   },
+   {
+    "att": 1266,
+    "def": 452,
+    "hp": 3686
+   },
+   {
+    "att": 1272,
+    "def": 454,
+    "hp": 3706
+   },
+   {
+    "att": 1279,
+    "def": 457,
+    "hp": 3726
+   },
+   {
+    "att": 1286,
+    "def": 459,
+    "hp": 3746
+   },
+   {
+    "att": 1293,
+    "def": 462,
+    "hp": 3767
+   },
+   {
+    "att": 1300,
+    "def": 464,
+    "hp": 3787
+   },
+   {
+    "att": 1307,
+    "def": 467,
+    "hp": 3807
+   },
+   {
+    "att": 1314,
+    "def": 469,
+    "hp": 3827
+   },
+   {
+    "att": 1321,
+    "def": 472,
+    "hp": 3847
+   },
+   {
+    "att": 1327,
+    "def": 474,
+    "hp": 3867
+   },
+   {
+    "att": 1334,
+    "def": 477,
+    "hp": 3888
+   },
+   {
+    "att": 1341,
+    "def": 480,
+    "hp": 3908
+   },
+   {
+    "att": 1348,
+    "def": 482,
+    "hp": 3928
+   },
+   {
+    "att": 1355,
+    "def": 485,
+    "hp": 3948
+   },
+   {
+    "att": 1362,
+    "def": 487,
+    "hp": 3968
+   },
+   {
+    "att": 1369,
+    "def": 490,
+    "hp": 3988
+   },
+   {
+    "att": 1375,
+    "def": 492,
+    "hp": 4009
+   },
+   {
+    "att": 1382,
+    "def": 495,
+    "hp": 4029
+   },
+   {
+    "att": 1389,
+    "def": 497,
+    "hp": 4049
+   },
+   {
+    "att": 1396,
+    "def": 500,
+    "hp": 4069
+   },
+   {
+    "att": 1403,
+    "def": 502,
+    "hp": 4089
+   },
+   {
+    "att": 1410,
+    "def": 505,
+    "hp": 4109
+   },
+   {
+    "att": 1417,
+    "def": 507,
+    "hp": 4130
+   },
+   {
+    "att": 1423,
+    "def": 510,
+    "hp": 4150
+   },
+   {
+    "att": 1430,
+    "def": 512,
+    "hp": 4170
+   },
+   {
+    "att": 1437,
+    "def": 515,
+    "hp": 4190
+   },
+   {
+    "att": 1444,
+    "def": 517,
+    "hp": 4210
+   },
+   {
+    "att": 1451,
+    "def": 520,
+    "hp": 4230
+   },
+   {
+    "att": 1458,
+    "def": 522,
+    "hp": 4251
+   },
+   {
+    "att": 1465,
+    "def": 525,
+    "hp": 4271
+   },
+   {
+    "att": 1471,
+    "def": 527,
+    "hp": 4291
+   },
+   {
+    "att": 1478,
+    "def": 530,
+    "hp": 4311
+   },
+   {
+    "att": 1485,
+    "def": 532,
+    "hp": 4331
+   },
+   {
+    "att": 1492,
+    "def": 535,
+    "hp": 4351
+   },
+   {
+    "att": 1499,
+    "def": 538,
+    "hp": 4372
+   },
+   {
+    "att": 1506,
+    "def": 540,
+    "hp": 4392
+   },
+   {
+    "att": 1513,
+    "def": 543,
+    "hp": 4412
+   },
+   {
+    "att": 1519,
+    "def": 545,
+    "hp": 4432
+   },
+   {
+    "att": 1526,
+    "def": 548,
+    "hp": 4452
+   },
+   {
+    "att": 1533,
+    "def": 550,
+    "hp": 4472
+   },
+   {
+    "att": 1540,
+    "def": 553,
+    "hp": 4493
+   },
+   {
+    "att": 1547,
+    "def": 555,
+    "hp": 4513
+   },
+   {
+    "att": 1554,
+    "def": 558,
+    "hp": 4533
+   },
+   {
+    "att": 1561,
+    "def": 560,
+    "hp": 4553
+   },
+   {
+    "att": 1567,
+    "def": 563,
+    "hp": 4573
+   },
+   {
+    "att": 1574,
+    "def": 565,
+    "hp": 4593
+   },
+   {
+    "att": 1581,
+    "def": 568,
+    "hp": 4614
+   },
+   {
+    "att": 1588,
+    "def": 570,
+    "hp": 4634
+   },
+   {
+    "att": 1595,
+    "def": 573,
+    "hp": 4654
+   },
+   {
+    "att": 1602,
+    "def": 575,
+    "hp": 4674
+   },
+   {
+    "att": 1806,
+    "def": 642,
+    "hp": 5197
+   },
+   {
+    "att": 1811,
+    "def": 644,
+    "hp": 5211
+   },
+   {
+    "att": 1816,
+    "def": 645,
+    "hp": 5224
+   },
+   {
+    "att": 1820,
+    "def": 647,
+    "hp": 5238
+   },
+   {
+    "att": 1825,
+    "def": 649,
+    "hp": 5251
+   },
+   {
+    "att": 1829,
+    "def": 650,
+    "hp": 5265
+   },
+   {
+    "att": 1834,
+    "def": 652,
+    "hp": 5278
+   },
+   {
+    "att": 1838,
+    "def": 654,
+    "hp": 5292
+   },
+   {
+    "att": 1843,
+    "def": 655,
+    "hp": 5305
+   },
+   {
+    "att": 1848,
+    "def": 657,
+    "hp": 5318
+   },
+   {
+    "att": 1852,
+    "def": 659,
+    "hp": 5332
+   },
+   {
+    "att": 1857,
+    "def": 660,
+    "hp": 5345
+   },
+   {
+    "att": 1861,
+    "def": 662,
+    "hp": 5359
+   },
+   {
+    "att": 1866,
+    "def": 664,
+    "hp": 5372
+   },
+   {
+    "att": 1870,
+    "def": 666,
+    "hp": 5386
+   },
+   {
+    "att": 1875,
+    "def": 667,
+    "hp": 5399
+   },
+   {
+    "att": 1880,
+    "def": 669,
+    "hp": 5413
+   },
+   {
+    "att": 1884,
+    "def": 671,
+    "hp": 5426
+   },
+   {
+    "att": 1889,
+    "def": 672,
+    "hp": 5439
+   },
+   {
+    "att": 1893,
+    "def": 674,
+    "hp": 5453
+   },
+   {
+    "att": 1898,
+    "def": 676,
+    "hp": 5466
+   },
+   {
+    "att": 1902,
+    "def": 677,
+    "hp": 5480
+   },
+   {
+    "att": 1907,
+    "def": 679,
+    "hp": 5493
+   },
+   {
+    "att": 1912,
+    "def": 681,
+    "hp": 5507
+   },
+   {
+    "att": 1916,
+    "def": 682,
+    "hp": 5520
+   },
+   {
+    "att": 1921,
+    "def": 684,
+    "hp": 5534
+   },
+   {
+    "att": 1925,
+    "def": 686,
+    "hp": 5547
+   },
+   {
+    "att": 1930,
+    "def": 687,
+    "hp": 5560
+   },
+   {
+    "att": 1934,
+    "def": 689,
+    "hp": 5574
+   },
+   {
+    "att": 1939,
+    "def": 691,
+    "hp": 5587
+   },
+   {
+    "att": 1944,
+    "def": 692,
+    "hp": 5601
+   },
+   {
+    "att": 1948,
+    "def": 694,
+    "hp": 5614
+   },
+   {
+    "att": 1953,
+    "def": 696,
+    "hp": 5628
+   },
+   {
+    "att": 1957,
+    "def": 697,
+    "hp": 5641
+   },
+   {
+    "att": 1962,
+    "def": 699,
+    "hp": 5655
+   },
+   {
+    "att": 1966,
+    "def": 701,
+    "hp": 5668
+   },
+   {
+    "att": 1971,
+    "def": 702,
+    "hp": 5681
+   },
+   {
+    "att": 1976,
+    "def": 704,
+    "hp": 5695
+   },
+   {
+    "att": 1980,
+    "def": 706,
+    "hp": 5708
+   },
+   {
+    "att": 1985,
+    "def": 708,
+    "hp": 5722
+   },
+   {
+    "att": 1989,
+    "def": 709,
+    "hp": 5735
+   },
+   {
+    "att": 1994,
+    "def": 711,
+    "hp": 5749
+   },
+   {
+    "att": 1998,
+    "def": 713,
+    "hp": 5762
+   },
+   {
+    "att": 2003,
+    "def": 714,
+    "hp": 5776
+   },
+   {
+    "att": 2008,
+    "def": 716,
+    "hp": 5789
+   },
+   {
+    "att": 2012,
+    "def": 718,
+    "hp": 5802
+   },
+   {
+    "att": 2017,
+    "def": 719,
+    "hp": 5816
+   },
+   {
+    "att": 2021,
+    "def": 721,
+    "hp": 5829
+   },
+   {
+    "att": 2026,
+    "def": 723,
+    "hp": 5843
+   },
+   {
+    "att": 2030,
+    "def": 724,
+    "hp": 5856
+   },
+   {
+    "att": 2035,
+    "def": 726,
+    "hp": 5870
+   },
+   {
+    "att": 2040,
+    "def": 728,
+    "hp": 5883
+   },
+   {
+    "att": 2044,
+    "def": 729,
+    "hp": 5897
+   },
+   {
+    "att": 2049,
+    "def": 731,
+    "hp": 5910
+   },
+   {
+    "att": 2053,
+    "def": 733,
+    "hp": 5923
+   },
+   {
+    "att": 2058,
+    "def": 734,
+    "hp": 5937
+   },
+   {
+    "att": 2062,
+    "def": 736,
+    "hp": 5950
+   },
+   {
+    "att": 2067,
+    "def": 738,
+    "hp": 5964
+   },
+   {
+    "att": 2072,
+    "def": 739,
+    "hp": 5977
+   },
+   {
+    "att": 2076,
+    "def": 741,
+    "hp": 5991
+   },
+   {
+    "att": 2081,
+    "def": 743,
+    "hp": 6004
+   },
+   {
+    "att": 2085,
+    "def": 745,
+    "hp": 6018
+   },
+   {
+    "att": 2090,
+    "def": 746,
+    "hp": 6031
+   },
+   {
+    "att": 2095,
+    "def": 748,
+    "hp": 6044
+   },
+   {
+    "att": 2099,
+    "def": 750,
+    "hp": 6058
+   },
+   {
+    "att": 2104,
+    "def": 751,
+    "hp": 6071
+   },
+   {
+    "att": 2108,
+    "def": 753,
+    "hp": 6085
+   },
+   {
+    "att": 2113,
+    "def": 755,
+    "hp": 6098
+   },
+   {
+    "att": 2117,
+    "def": 756,
+    "hp": 6112
+   },
+   {
+    "att": 2122,
+    "def": 758,
+    "hp": 6125
+   },
+   {
+    "att": 2127,
+    "def": 760,
+    "hp": 6139
+   },
+   {
+    "att": 2131,
+    "def": 761,
+    "hp": 6152
+   },
+   {
+    "att": 2136,
+    "def": 763,
+    "hp": 6165
+   },
+   {
+    "att": 2140,
+    "def": 765,
+    "hp": 6179
+   },
+   {
+    "att": 2145,
+    "def": 766,
+    "hp": 6192
+   },
+   {
+    "att": 2149,
+    "def": 768,
+    "hp": 6206
+   },
+   {
+    "att": 2154,
+    "def": 770,
+    "hp": 6219
+   },
+   {
+    "att": 2159,
+    "def": 771,
+    "hp": 6233
+   },
+   {
+    "att": 2163,
+    "def": 773,
+    "hp": 6246
+   },
+   {
+    "att": 2168,
+    "def": 775,
+    "hp": 6260
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Nails",
+     "Pact"
+    ],
+    "chat": [
+     {
+      "character": "Nails:",
+      "text": "\"The Truth speaks through a kiss...\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"A true believer may retaliate when faced with discomfort.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "\"Offerings must be made to the Lord of Truth.\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"Believers must have their affairs in order.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "\"Two different paths, illuminated by two different suns...\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"Believers are allowed to consume meat.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "What are you saying?"
+     },
+     {
+      "character": "Pact:",
+      "text": "Memorizing doctrine, like you."
+     },
+     {
+      "character": "Nails:",
+      "text": "I've read and recited the teachings more than a thousand times... Yet I don't recall seeing any of the things you've said."
+     },
+     {
+      "character": "Pact:",
+      "text": "Well, duh! That's because I just added them to the teachings. Have fun memorizing them!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Pact",
+     "Sikare"
+    ],
+    "chat": [
+     {
+      "character": "Pact:",
+      "text": "Oh no, turnips again..."
+     },
+     {
+      "character": "Pact:",
+      "text": "Why would Lady Victoria choose to have this?"
+     },
+     {
+      "character": "Sikare:",
+      "text": "So you don't like the dinner, either?"
+     },
+     {
+      "character": "Pact:",
+      "text": "I absolutely hate turnips more than anything else."
+     },
+     {
+      "character": "Pact:",
+      "text": "Even if Lady Victoria claimed she handpicked them specially..."
+     },
+     {
+      "character": "Pact:",
+      "text": "And marinated them in Truth for 88 hours straight..."
+     },
+     {
+      "character": "Pact:",
+      "text": "That still wouldn't change the fact they're turnips, with a taste that grosses me out..."
+     },
+     {
+      "character": "Sikare:",
+      "text": "Me too."
+     },
+     {
+      "character": "Sikare:",
+      "text": "After 88 hours, they remind me only of the rancid smell of catacombs in the summertime."
+     },
+     {
+      "character": "Pact:",
+      "text": "But Lady Victoria seemed confident and proud of this special dish."
+     },
+     {
+      "character": "Sikare:",
+      "text": "Yeah, it's just hard to understand her taste sometimes."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "True Order Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I'm stumped... How did this thing, seemingly a wheel with legs, find its way into the Colossus? And what is it searching for, with those leg-like thorns scooting it around the Colossus? This is all too bizarre for me to ignore! No, I'm not going anywhere near it, but I can still follow from a safe distance... It \"ran\" into a room and elicited a girlish scream. I followed and saw Miss Pact, who just got here this morning. She looked upset, muttering \"I still can't lose it even out here in such a remote place!\" I didn't get it, either. But it all seemed OK, so I guess everything's fine! \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Yes! That wheel, well, to be precise, it's a ring\u2014it's supposed to be mine. But it is really, really, really annoying!!! I have to admit that it's quite useful in battle, but irks when it follows me around! Whenever I have to carry it on my back through villages or towns, those thorns just seem to crawl all over the ring for no reason... I even suspect that they are deliberately showing off in front of others... Because of it, people stare at me strangely whenever I stop by a village. How can I let them know that I'm not a weirdo?!Oh right, it's really complicated trying to explain my situation because people might end up looking at me even more strangely... In that case, maybe I shouldn't worry about it at all?"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Do you remember the Hunting Stone? It's that huge ring! Do you want to hear a story about it? To be precise, it's a story between us...Eclipsites attacked our small town when I was a child. My father passed by a ruin when he was looking for a place to hide with me. The sun had already set at that time, and I was too tired to walk any further, so we decided to stay the night at that strange ruins. I suddenly woke up at midnight and saw a statue glowing in the ruins... Somehow, I ended up kneeling in front of her and making a wish... I prayed for the war to end sooner and for the power to protect myself and my family.The gods granted my wish. Hunting Stone started following me from the very next day. It was virtually indestructible and was so powerful that it could break almost anything. I was elated at first until I realized I couldn't get rid of it! I mean, even if I put it down only to rest alone for a moment, it will immediately come up to me! What's more, it's so big and conspicuous... If I throw it away, it'll quickly run back to me in a very peculiar way! I believe you'll agree with me if you've seen it run! I don't understand what makes it so stick to me... Although I've heard some people say, \"Pact has exactly the same personality as the ring\", I don't understand what part of us is the same!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I really wanted to get rid of Hunting Stone... Although I was grateful to it for granting me strength, I resented it as I couldn't get rid of it or destroy it no matter what I did. I didn't even know if my power belonged to me or if it was given to me by Hunting Stone.One day, I heard a strange rumor about an organization that was extremely obsessed with relics. The True Order, I think that's its name... Oh, and the leader is a mysterious lady called Ms. Victoria. She is rumored to be beautiful, elegant, and omniscient! Although I'm not entirely sure what relics are, Hunting Stone was something I picked up in a ruins, so I thought that it must be a relic, right? So... since she is omniscient, she would probably know how to get rid of Hunting Stone!In any case, I thought I should find a way to join the True Order first!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "My wish came true as I managed to join the True Order. Ms. Victoria said, \"Pact is just like a hard stone, and it was also the decision of the Truth to let her join us.\" Well, although I didn't quite understand her, I think she was praising me!When I met Ms. Victoria for the first time, I found that although she was as beautiful, elegant, and omniscient as the rumors said, I didn't think she was as mysterious as I had heard! I doubted whether she really was Ms. Victoria and asked her a few questions, but then the strange person next to her started arguing with me! In any case, my actions were, to some extent, in pursuit of the Truth, right? There's no way I would admit that I made any mistake!Now that I think about it, the beliefs of the True Order all seem to be based on the Black Tome that Ms. Victoria believes in. They say that it's a holy book of prophecies. I have my doubts about it, but Ms. Victoria said that even my doubts were a part of its prophecies. She told me to wait until the Truth became reality...It's been a while since I joined the True Order. While I've already gotten used to Hunting Stone, if possible, I still want to believe in Ms. Victoria's words... as long as I keep waiting, I'll be able to get rid of Hunting Stone one day!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Since I've decided to join, I must stick to it to the end. Don't worry, I'll save you on behalf of the Truth.",
+  "Then let's head for the Cloudward, one step at a time. It's not rocket science...",
+  "I think it should be \"Let the Truth bless you\"!",
+  "Wow, simply unbelievable... Are we going to let anyone take lives so casually?",
+  "By the decree of the Supreme Being, I'm here to... What? You don't even know who that is?",
+  "Don't have to be fancy. My off-hand comments alone turned the guy's smile into a stressed one.",
+  "Perseverance... Wait, what does \"like\" mean? Stuffs? Hobbies? Beliefs?",
+  "Not only far from good-looking, but undisciplined, aimless and unmotivated as well... How can I stand someone like that?",
+  "Of course I know what Colossus is! It means you're a special fella, does it not?",
+  "You want to chat? Sure, if you promise not to get angry, no matter what I say.",
+  "You better not run before me or I'll chase after you out of instinct. Yeah, just don't turn your back on me... Don't keep your eyes on me, but don't look away, either!",
+  "Catch up to them and never let go...",
+  "Those who violate The Law shall be punished!",
+  "Halt!",
+  "We'll see about that!",
+  "I never claimed to be ready!",
+  "Come, say it with me now, \"Happy New Year\"!",
+  "Why do you want me here?",
+  "One day I'll get rid of the Hunting Stone... One day!",
+  "The Law equals the Truth, understand?!",
+  "Nothing is too big to get lost in.",
+  "Either you come with me or I'll take you. Your pick, or I can make the choice for you... I'll take the silence as a \"Yes\"!",
+  "Done. Next.",
+  "Alchemy Stars!",
+  "The Law is the principle that governs everything in the universe, so is it that hard to fathom why I enforce it? It's simple, really, because therein lies the purpose of our wisdom.",
+  "The intent of a rebuttal is to point out the errors of the ways of others. It's a superior quality that must be implemented physically on occasion, such as reforming certain unrepentant individuals!",
+  "The digit \"1\", you said? No, no, I meant the word \"one\". What's the difference between them? Don't tell me you don't know the difference between numerals and alphabets.",
+  "Technically, Hunting Stone is not a wheel but a relic in certain ruins... But it's still obviously a wheel!",
+  "The Law is the beacon that guides you in darkness. Starting now, do some soul-searching and ponder over what kind of existence you want to become!",
+  "The descending star, the nameless relics of the past, the wheel of thorns called \"Hunting Stone\"... Pursue me with persistence as decreed by the Law.",
+  "Put things back where they belong, according to size and in alphabetical order... It's okay, I already did that for you.",
+  "No way. Why should I go with you just because you said so? Now I'll come with you when you don't want me to! Got it?!",
+  "It wasn't easy tracking you down. Now I need to figure out what to do with you... And I'll take my time for as long as I stay!",
+  "You don't think this is awful? Am I the only one who finds this totally meaningless?",
+  "Why don't I give up? Because I never give up. Tell me, can it be any other reason?",
+  "Know what's right from wrong, stay down to earth, with an eye to the future!",
+  "Shouldn't we do something since you're back? I mean, what else are you doing here?",
+  "You must have a schedule all fleshed out! ...no way, you don't?",
+  "I'm even more stubborn than you imagined. Just wait till you want to run from me one day when you see me.",
+  "You should follow your schedule to a T, like, see, you should be taking a break right now... No? That's not it?",
+  "I'm supposed to give you my name just because you asked? Aren't you afraid I'd lie? What if I don't want to tell you? Oh, you're not interested now? Well, call me 'Pact', then.",
+  "Nothing too small or too big.",
+  "Too...you can't take back a gift, anyway...",
+  "If I was to show that I like it, wouldn't that, you know...",
+  "Yeah, I do like it. What's it to you?",
+  "Constraint? No, it's persistence!",
+  "Follow The Law and never waver!",
+  "Notify you? No way!",
+  "Virtually indestructible, persistent regeneration, keeps returning regardless of where it's dumped... This is one tenacious Hunting Stone!",
+  "Believe in the simple Law, rely on and maintaining order, adhere to your inner resolve, being firm and solemn, that is the first step to the great Truth!",
+  "For what does one live and fight for? I had my answer one night when I raised my head and saw the stars lighting up the darkness.",
+  "Listen, don't ever break The Law."
+ ],
+ "skins": [],
+ "description": "An honest and inflexible member of the True Order. She has a one-track mind, and will unswervingly focus on achieving any goal she sets for herself. She has unique tastes, and often gets into arguments with others over her rigid thinking.",
+ "realName": "Pact",
+ "nickname": "Ring with Thorns",
+ "gender": "Female",
+ "height": "5'5''",
+ "birthday": "September 15",
+ "birthplace": "Old Town",
+ "style": "Ever-Returning Ring"
 }

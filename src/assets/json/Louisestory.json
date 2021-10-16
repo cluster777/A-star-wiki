@@ -1,0 +1,802 @@
+{
+ "title": "Super Sweet Pudding",
+ "header": "Louise told you a new fairy tale because you've been having trouble sleeping lately, and even brought you some pudding she made herself. However, something seemed to be off about the fragrant pudding in front of you...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What is it this time?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I was worried that the Navigator may be bored with just stories, so I brought my special pudding!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "In that case, I'll take it. Thanks!",
+     "link": "1"
+    },
+    {
+     "text": "Special pudding?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "As long as you want it, I can make it for you anytime!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Before I get to the stories, why don't you get comfortable in bed?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Why do I need to get comfortable in bed?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Isn't that how adults read stories to kids? It's easier to relax and fall asleep when you get comfortable!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm all grown up..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Never mind that, just lie down in bed!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Then I'll feed you pudding!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What? That won't be necessary!",
+     "link": "4"
+    },
+    {
+     "text": "Ar-are you really going to feed me?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "Why do you look like you don't trust me?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Before I get to the stories, why don't you get comfortable in bed?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Why do I need to get comfortable in bed?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Isn't that how adults read stories to kids? It's easier to relax and fall asleep when you get comfortable!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm all grown up..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Never mind that, just lie down in bed!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Then I'll feed you pudding!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What? That won't be necessary!",
+     "link": "4"
+    },
+    {
+     "text": "Ar-are you really going to feed me?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "Before I get to the stories, why don't you get comfortable in bed?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Why do I need to get comfortable in bed?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Isn't that how adults read stories to kids? It's easier to relax and fall asleep when you get comfortable!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm all grown up..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Never mind that, just lie down in bed!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Then I'll feed you pudding!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What? That won't be necessary!",
+     "link": "4"
+    },
+    {
+     "text": "Ar-are you really going to feed me?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "Come on, just let me take care of you... I don't usually have the chance to do that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fine, fine... I'm in bed now."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Now let's get on with the story I recently wrote!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "You're the first one to hear it!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Once upon a time, there was a princess..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "In a place far, far away, there was a big evil dragon..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Yes, there you go, open your mouth wide..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Nom, nom..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "The world has never seen such an enoooormous dragon!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "So the princess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What is this I'm tasting?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What's with all this sweetness in my mouth?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you okay?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Why are you crying? Is the pudding that delicious?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yes... Extremely. I'm... so touched.",
+     "link": "7"
+    },
+    {
+     "text": "...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "This is my first time being fed by a girl..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "This is how the adults I saw always did it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you always treating me like a child?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Now let's get on with the story I recently wrote!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "You're the first one to hear it!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Once upon a time, there was a princess..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "In a place far, far away, there was a big evil dragon..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Yes, there you go, open your mouth wide..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Nom, nom..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "The world has never seen such an enoooormous dragon!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "So the princess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What is this I'm tasting?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What's with all this sweetness in my mouth?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you okay?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Why are you crying? Is the pudding that delicious?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yes... Extremely. I'm... so touched.",
+     "link": "7"
+    },
+    {
+     "text": "...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "Now let's get on with the story I recently wrote!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "You're the first one to hear it!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Once upon a time, there was a princess..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "In a place far, far away, there was a big evil dragon..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Yes, there you go, open your mouth wide..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Nom, nom..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "The world has never seen such an enoooormous dragon!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "So the princess..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What is this I'm tasting?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(What's with all this sweetness in my mouth?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you okay?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Why are you crying? Is the pudding that delicious?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yes... Extremely. I'm... so touched.",
+     "link": "7"
+    },
+    {
+     "text": "...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "I'm glad you like it!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I don't know how you like it, \nbut I spent a lot of time making it last night!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "In that case, open your mouth wide..."
+    },
+    {
+     "char": "A big bite is stuffed into your mouth.",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You love it that much? I should've put in more sugar!"
+    },
+    {
+     "char": "Your mouth is too full to talk.",
+     "dialogue": "(This isn't sugary enough?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Want another bite? Say \"Ah\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Stop!!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Water... Give me water!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Want another bite?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Only if you want to kill me!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Can't believe someone likes my pudding! I thought only I do because of my weird taste!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Only one bite left! No worries\u2014"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I'll make more... a lot more for you!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Spare me, please!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Can't take this anymore... I feel like all my organs are sticking together from all this sweetness!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Water, Louise... Water..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Give... me... water... Quickly..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you resting?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that you, Louise? I'm feeling a little..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Sorry! I'm here to apologize to the Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah said you didn't sleep at all last night..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Was my pudding that sweet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, probably.",
+     "link": "10"
+    },
+    {
+     "text": "It's not your fault.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "Are you speechless because it's too good?"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "In that case, open your mouth wide..."
+    },
+    {
+     "char": "A big bite is stuffed into your mouth.",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You love it that much? I should've put in more sugar!"
+    },
+    {
+     "char": "Your mouth is too full to talk.",
+     "dialogue": "(This isn't sugary enough?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Want another bite? Say \"Ah\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Stop!!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Water... Give me water!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Want another bite?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Only if you want to kill me!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Can't believe someone likes my pudding! I thought only I do because of my weird taste!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Only one bite left! No worries\u2014"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I'll make more... a lot more for you!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Spare me, please!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Can't take this anymore... I feel like all my organs are sticking together from all this sweetness!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Water, Louise... Water..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Give... me... water... Quickly..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you resting?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that you, Louise? I'm feeling a little..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Sorry! I'm here to apologize to the Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah said you didn't sleep at all last night..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Was my pudding that sweet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, probably.",
+     "link": "10"
+    },
+    {
+     "text": "It's not your fault.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "In that case, open your mouth wide..."
+    },
+    {
+     "char": "A big bite is stuffed into your mouth.",
+     "dialogue": "?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You love it that much? I should've put in more sugar!"
+    },
+    {
+     "char": "Your mouth is too full to talk.",
+     "dialogue": "(This isn't sugary enough?!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Want another bite? Say \"Ah\"..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Stop!!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Water... Give me water!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Want another bite?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Only if you want to kill me!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Can't believe someone likes my pudding! I thought only I do because of my weird taste!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Only one bite left! No worries\u2014"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I'll make more... a lot more for you!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Spare me, please!)"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "(Can't take this anymore... I feel like all my organs are sticking together from all this sweetness!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Water, Louise... Water..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you say?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Give... me... water... Quickly..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Are you resting?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that you, Louise? I'm feeling a little..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Sorry! I'm here to apologize to the Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah said you didn't sleep at all last night..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "Was my pudding that sweet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Yeah, probably.",
+     "link": "10"
+    },
+    {
+     "text": "It's not your fault.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Louise:",
+     "dialogue": "I didn't mean it. I was just trying to help..."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I didn't think you were that old!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "You're indeed an adult now."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I'll get the proportion right next time!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I used half a bag last time, so maybe just a third next time!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, what did you say?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "How should I put this... I just didn't expect that I have to monitor my blood glucose level at this age."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I didn't think you were that old!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "You're indeed an adult now."
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I'll get the proportion right next time!"
+    },
+    {
+     "char": "Louise:",
+     "dialogue": "I used half a bag last time, so maybe just a third next time!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, what did you say?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

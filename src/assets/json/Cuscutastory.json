@@ -1,0 +1,1450 @@
+{
+ "title": "White Rose and Black Rose",
+ "header": "Cuscuta has been waking up earlier and returning later than usual. Out of concern, you ask if anything is wrong, and she brings you to see... her gravestone?!",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "(\"No matter what, I can never go back.\")"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "(Is that the right way to look at my past...?)"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "So, the reason you came looking for me this early in the morning is..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll be frank: Is there something you're hiding from me?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Why do you ask?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There isn't a single humid place on this Colossus, and yet your hair and clothes smell like you've been hiking through a jungle. Not to mention, it's morning, \nbut you look completely exhausted..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you just come back from somewhere?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "So you're interrogating me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do I look like that kind of person to you?! Your clothes are clearly soaked with morning dew..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, I saw you leave the Colossus in a hurry last night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, I've seen you leave in the middle of the night so often lately."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where have you been going, that you need to sneak out all night?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I haven't betrayed anyone, if that's what you're implying..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... That's not what I meant, at all."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "But since you want to know so badly..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I might just need you next time... So why not come along?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "W-What?! I-Is that alright...?",
+     "link": "1"
+    },
+    {
+     "text": "I don't want to bother you, if it's something personal...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Sure, but... Would you mind bringing some flowers?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Where'd she go?!"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "You kept me waiting long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry! I didn't realize it was a place like this, and I got a little lost..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "A cemetery."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A cemetery... I read about these in a book a long time ago. They're places where people go to honor and remember the dearly departed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Looks like I misunderstood her...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you ask me to come to pay respects to your parents?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your friends?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wrong again? She's not planning on burying ME, is she?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "This is the place."
+    },
+    {
+     "char": "We stood in front of a black tombstone. Slightly shorter than the ones surrounding it, the tombstone showed signs of being cleaned recently and had fresh white roses laying before it.",
+     "dialogue": "Who was this?..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait... If you look closely at the picture on the tombstone, aside from the hairstyle... This person and Cuscuta \nlook the same!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know. Maybe it's me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh, I see... Wait, what?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, she does look a lot like you... You're not pulling a prank on me, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Unless... Does that mean...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Given the look on your face, let me tell you right now it's not what you think it is."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Just take a closer look at the name."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh... Elvia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it isn't you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right... Or maybe it is... It could be me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm confused... You're standing right in front of me, aren't you?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel as though the body resting here is tied to my existence somehow."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Elvia... Is she my past...?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I still don't understand what you're saying. Why did you bring me here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm looking for an answer."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Also, it seems you haven't realized that I've been cursed with immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Immortality?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there are plenty of Aurorians with long life-spans..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We aren't the same. What they have is longevity, but what I have... Is immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That is the curse that I was born with."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I have many bodies at my disposal. When one of them grows old and approaches its death, I change bodies \nand am reborn in a new one."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I say I'm immortal. I have never truly known the feeling of death."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "But if you can't die... Can you call that a curse?",
+     "link": "5"
+    },
+    {
+     "text": "Immortality can be agonizing as well.",
+     "link": "6"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It doesn't make a difference to me, to be honest."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "You just need to bring some flowers."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Where'd she go?!"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "You kept me waiting long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry! I didn't realize it was a place like this, and I got a little lost..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "A cemetery."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A cemetery... I read about these in a book a long time ago. They're places where people go to honor and remember the dearly departed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Looks like I misunderstood her...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you ask me to come to pay respects to your parents?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your friends?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wrong again? She's not planning on burying ME, is she?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "This is the place."
+    },
+    {
+     "char": "We stood in front of a black tombstone. Slightly shorter than the ones surrounding it, the tombstone showed signs of being cleaned recently and had fresh white roses laying before it.",
+     "dialogue": "Who was this?..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait... If you look closely at the picture on the tombstone, aside from the hairstyle... This person and Cuscuta \nlook the same!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know. Maybe it's me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh, I see... Wait, what?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, she does look a lot like you... You're not pulling a prank on me, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Unless... Does that mean...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Given the look on your face, let me tell you right now it's not what you think it is."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Just take a closer look at the name."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh... Elvia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it isn't you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right... Or maybe it is... It could be me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm confused... You're standing right in front of me, aren't you?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel as though the body resting here is tied to my existence somehow."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Elvia... Is she my past...?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I still don't understand what you're saying. Why did you bring me here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm looking for an answer."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Also, it seems you haven't realized that I've been cursed with immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Immortality?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there are plenty of Aurorians with long life-spans..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We aren't the same. What they have is longevity, but what I have... Is immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That is the curse that I was born with."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I have many bodies at my disposal. When one of them grows old and approaches its death, I change bodies \nand am reborn in a new one."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I say I'm immortal. I have never truly known the feeling of death."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "But if you can't die... Can you call that a curse?",
+     "link": "5"
+    },
+    {
+     "text": "Immortality can be agonizing as well.",
+     "link": "6"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Where'd she go?!"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "You kept me waiting long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry! I didn't realize it was a place like this, and I got a little lost..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "A cemetery."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A cemetery... I read about these in a book a long time ago. They're places where people go to honor and remember the dearly departed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Looks like I misunderstood her...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you ask me to come to pay respects to your parents?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your friends?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wrong again? She's not planning on burying ME, is she?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "This is the place."
+    },
+    {
+     "char": "We stood in front of a black tombstone. Slightly shorter than the ones surrounding it, the tombstone showed signs of being cleaned recently and had fresh white roses laying before it.",
+     "dialogue": "Who was this?..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait... If you look closely at the picture on the tombstone, aside from the hairstyle... This person and Cuscuta \nlook the same!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know. Maybe it's me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh, I see... Wait, what?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, she does look a lot like you... You're not pulling a prank on me, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Unless... Does that mean...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Given the look on your face, let me tell you right now it's not what you think it is."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Just take a closer look at the name."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh... Elvia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it isn't you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right... Or maybe it is... It could be me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm confused... You're standing right in front of me, aren't you?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel as though the body resting here is tied to my existence somehow."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Elvia... Is she my past...?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I still don't understand what you're saying. Why did you bring me here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm looking for an answer."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Also, it seems you haven't realized that I've been cursed with immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Immortality?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there are plenty of Aurorians with long life-spans..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We aren't the same. What they have is longevity, but what I have... Is immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That is the curse that I was born with."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I have many bodies at my disposal. When one of them grows old and approaches its death, I change bodies \nand am reborn in a new one."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I say I'm immortal. I have never truly known the feeling of death."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "But if you can't die... Can you call that a curse?",
+     "link": "5"
+    },
+    {
+     "text": "Immortality can be agonizing as well.",
+     "link": "6"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "You kept me waiting long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry! I didn't realize it was a place like this, and I got a little lost..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "A cemetery."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A cemetery... I read about these in a book a long time ago. They're places where people go to honor and remember the dearly departed..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Looks like I misunderstood her...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you ask me to come to pay respects to your parents?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your friends?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wrong again? She's not planning on burying ME, is she?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "This is the place."
+    },
+    {
+     "char": "We stood in front of a black tombstone. Slightly shorter than the ones surrounding it, the tombstone showed signs of being cleaned recently and had fresh white roses laying before it.",
+     "dialogue": "Who was this?..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait... If you look closely at the picture on the tombstone, aside from the hairstyle... This person and Cuscuta \nlook the same!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't know. Maybe it's me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh, I see... Wait, what?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, she does look a lot like you... You're not pulling a prank on me, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Unless... Does that mean...?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Given the look on your face, let me tell you right now it's not what you think it is."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Just take a closer look at the name."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Oh... Elvia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So it isn't you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right... Or maybe it is... It could be me."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm confused... You're standing right in front of me, aren't you?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel as though the body resting here is tied to my existence somehow."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Elvia... Is she my past...?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I still don't understand what you're saying. Why did you bring me here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm looking for an answer."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Also, it seems you haven't realized that I've been cursed with immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Immortality?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But there are plenty of Aurorians with long life-spans..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We aren't the same. What they have is longevity, but what I have... Is immortality."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That is the curse that I was born with."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I have many bodies at my disposal. When one of them grows old and approaches its death, I change bodies \nand am reborn in a new one."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I say I'm immortal. I have never truly known the feeling of death."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "But if you can't die... Can you call that a curse?",
+     "link": "5"
+    },
+    {
+     "text": "Immortality can be agonizing as well.",
+     "link": "6"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel like most people wish they could live forever."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Is that what you think? Perhaps you're right..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Another aspect of my immortality is that I have neither memories nor emotions."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Like right now, as I look at my own tombstone..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm searching my mind for any memory of this \"Elvia\"... But I can't recall anything."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Think harder. If I was looking at my own tombstone, I wouldn't react the same way you are right now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If things are the way you say they are, this couldn't be one of your \"dead\" bodies, right?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't remember..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's just, I think... Maybe I did feel the separation of death once, and maybe... Maybe I was near and dear to someone's heart at one time..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "If I was, I wonder who he could be..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's likely... That he was the one who made this tombstone for me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that you mention it, it looks like this tombstone gets visited often."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you think it could be him?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I hope so."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Ever since I discovered this grave, he always comes around this time to clean it and pay his respects..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've seen this person?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Only from a distance, and only from behind. He's a tall man, with silver-white hair and large, beast-like ears."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That description sounds familiar... But who could it be?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've never approached him to ask about your past?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I'm afraid... Or at least I think it's fear. I really wish to know more about myself, but when I think of asking him... I feel a tightening sensation in my heart. \nDo you think it's fear?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand... Fear is a natural response. Any Aurorian would be afraid when faced with the unknown."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Am I Aurorian, then?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course! Why else would he come to your grave every year on the anniversary of your death?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Why did that come out so off."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Every time he comes, he leaves a bouquet of white roses."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Here are white roses..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(White roses... A symbol of purity and innocence? No, maybe a sign of respect...)"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "He should be coming soon. I... I want to see him."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... You're supposed to be dead! If I saw a dead person appear in front of me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, wait! Argh, this is crazy... No matter what I say, it sounds like you're really dead..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I need your help..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "8"
+    },
+    {
+     "text": "I'm still lost.",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Suffering? I don't know what that feels like, either... But you seem sad now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Having to watch the people closest to you pass away while you keep on living forever... That would be painful..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Maybe I experienced that pain once, but I can't remember."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Another aspect of my immortality is that I have neither memories nor emotions."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Like right now, as I look at my own tombstone..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm searching my mind for any memory of this \"Elvia\"... But I can't recall anything."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Think harder. If I was looking at my own tombstone, I wouldn't react the same way you are right now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If things are the way you say they are, this couldn't be one of your \"dead\" bodies, right?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't remember..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's just, I think... Maybe I did feel the separation of death once, and maybe... Maybe I was near and dear to someone's heart at one time..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "If I was, I wonder who he could be..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's likely... That he was the one who made this tombstone for me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that you mention it, it looks like this tombstone gets visited often."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you think it could be him?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I hope so."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Ever since I discovered this grave, he always comes around this time to clean it and pay his respects..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've seen this person?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Only from a distance, and only from behind. He's a tall man, with silver-white hair and large, beast-like ears."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That description sounds familiar... But who could it be?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've never approached him to ask about your past?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I'm afraid... Or at least I think it's fear. I really wish to know more about myself, but when I think of asking him... I feel a tightening sensation in my heart. \nDo you think it's fear?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand... Fear is a natural response. Any Aurorian would be afraid when faced with the unknown."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Am I Aurorian, then?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course! Why else would he come to your grave every year on the anniversary of your death?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Why did that come out so off."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Every time he comes, he leaves a bouquet of white roses."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Here are white roses..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(White roses... A symbol of purity and innocence? No, maybe a sign of respect...)"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "He should be coming soon. I... I want to see him."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... You're supposed to be dead! If I saw a dead person appear in front of me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, wait! Argh, this is crazy... No matter what I say, it sounds like you're really dead..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I need your help..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "8"
+    },
+    {
+     "text": "I'm still lost.",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Another aspect of my immortality is that I have neither memories nor emotions."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Like right now, as I look at my own tombstone..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm searching my mind for any memory of this \"Elvia\"... But I can't recall anything."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Think harder. If I was looking at my own tombstone, I wouldn't react the same way you are right now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If things are the way you say they are, this couldn't be one of your \"dead\" bodies, right?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't remember..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's just, I think... Maybe I did feel the separation of death once, and maybe... Maybe I was near and dear to someone's heart at one time..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "If I was, I wonder who he could be..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "It's likely... That he was the one who made this tombstone for me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now that you mention it, it looks like this tombstone gets visited often."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do you think it could be him?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I hope so."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Ever since I discovered this grave, he always comes around this time to clean it and pay his respects..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've seen this person?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Only from a distance, and only from behind. He's a tall man, with silver-white hair and large, beast-like ears."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That description sounds familiar... But who could it be?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you've never approached him to ask about your past?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I... I'm afraid... Or at least I think it's fear. I really wish to know more about myself, but when I think of asking him... I feel a tightening sensation in my heart. \nDo you think it's fear?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand... Fear is a natural response. Any Aurorian would be afraid when faced with the unknown."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Am I Aurorian, then?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course! Why else would he come to your grave every year on the anniversary of your death?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Why did that come out so off."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Every time he comes, he leaves a bouquet of white roses."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... Here are white roses..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(White roses... A symbol of purity and innocence? No, maybe a sign of respect...)"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "He should be coming soon. I... I want to see him."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "But..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... You're supposed to be dead! If I saw a dead person appear in front of me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, wait! Argh, this is crazy... No matter what I say, it sounds like you're really dead..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "That's why I need your help..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "8"
+    },
+    {
+     "text": "I'm still lost.",
+     "link": "9"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You want me to go ask him about your past self, right?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Is that okay for you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That won't be an issue."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... Is your past that important? You seem so worried about it..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm not worried about my past... But if I can understand the experiences of my past self..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Will my current self be able to think like my past self?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm sure she was very different from me now... Maybe her heart felt more things than I could ever hope to feel?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But the look on your face tells me you would prefer not to know."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You look so sad... Or maybe hesitant?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Compared to this past self you're talking about, I think... The current \"you\" is the real \"you\"."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Did I... Really have that kind of expression on my face?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I may not be able to read people's hearts, but I can read their expressions pretty clearly."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't know."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't know if this is true sadness, or I'm just supposed to be sad in this situation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How should I put it... To be honest, I don't know what kind of influence your \"curse\" has had on you, Cuscuta..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you should always trust your heart."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you find out your past wasn't very happy... Then shouldn't your future be most important?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "My future?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Perhaps you're right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She hardly needed any convincing, didn't she?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Regardless of what happens, in the end, all I want is for you to live a good life. I'd be content as long as you know what it feels like to be happy."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Perhaps I will, so long as I follow you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Your expression... It looks much better now."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Is that your way of asking me on a date?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What?!?"
+    },
+    {
+     "char": "Cuscuta placed her bouquet of black roses on the tombstone, right next to the white ones.",
+     "dialogue": "Then we'll keep moving forward..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Until the day we're finally laid to rest."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'd like for you to go ask him about my past self in my place."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So that's it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That won't be an issue."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... Is your past that important? You seem so worried about it..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm not worried about my past... But if I can understand the experiences of my past self..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Will my current self be able to think like my past self?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I'm sure she was very different from me now... Maybe her heart felt more things than I could ever hope to feel?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But the look on your face tells me you would prefer not to know."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You look so sad... Or maybe hesitant?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Compared to this past self you're talking about, I think... The current \"you\" is the real \"you\"."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Did I... Really have that kind of expression on my face?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I may not be able to read people's hearts, but I can read their expressions pretty clearly."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't know."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "I don't know if this is true sadness, or I'm just supposed to be sad in this situation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How should I put it... To be honest, I don't know what kind of influence your \"curse\" has had on you, Cuscuta..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you should always trust your heart."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If you find out your past wasn't very happy... Then shouldn't your future be most important?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "My future?"
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Perhaps you're right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She hardly needed any convincing, didn't she?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Regardless of what happens, in the end, all I want is for you to live a good life. I'd be content as long as you know what it feels like to be happy."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Perhaps I will, so long as I follow you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Your expression... It looks much better now."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Is that your way of asking me on a date?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What?!?"
+    },
+    {
+     "char": "Cuscuta placed her bouquet of black roses on the tombstone, right next to the white ones.",
+     "dialogue": "Then we'll keep moving forward..."
+    },
+    {
+     "char": "Cuscuta:",
+     "dialogue": "Until the day we're finally laid to rest."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

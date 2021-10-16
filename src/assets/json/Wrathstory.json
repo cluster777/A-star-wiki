@@ -1,0 +1,626 @@
+{
+ "title": "The Pursuit",
+ "header": "Wrath seems troubled during her stay in the Colossus. The mood turns bizarre when you approach her, and a chase ensues in the dark.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "???:",
+     "dialogue": "I'm sick and tired of seeing the back of that guy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The light's flashing... Is there a problem with the power system?"
+    },
+    {
+     "char": "...10...",
+     "dialogue": "There should be someone here, but where?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hello? Anybody in? Anybody?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold up. There's a white line on the floor. Who drew this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Something's not right..."
+    },
+    {
+     "char": "...9...",
+     "dialogue": "What's that sound?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's starting."
+    },
+    {
+     "char": "8",
+     "dialogue": "What the heck is going on?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where are you? I'll come to you!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Who's there? Who's counting down?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where to run to?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I can see her...",
+     "link": "1"
+    },
+    {
+     "text": "I can hear her...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "I wrote your name on the list. It doesn't matter what you do now..."
+    },
+    {
+     "char": "5",
+     "dialogue": "Right now, I'm the ghost."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "And the weak shall be hunted down."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Make a left!",
+     "link": "4"
+    },
+    {
+     "text": "Make a right!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "Fleeing with your feeble, pathetic self in her arms. Keep running, because once you stop..."
+    },
+    {
+     "char": "5",
+     "dialogue": "Right now, I'm the ghost."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "And the weak shall be hunted down."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Make a left!",
+     "link": "4"
+    },
+    {
+     "text": "Make a right!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "5",
+     "dialogue": "Right now, I'm the ghost."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "And the weak shall be hunted down."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Make a left!",
+     "link": "4"
+    },
+    {
+     "text": "Make a right!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "It's futile. I've sealed every room."
+    },
+    {
+     "char": "3",
+     "dialogue": "Your effort may alter the circumstances slightly to bring hope."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "But more often than not, it's merely a hopeless struggle."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Just like now, you can only run on the endless bridge, until you are exhausted."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you must keep running.",
+     "link": "7"
+    },
+    {
+     "text": "Fleeing like this is not the solution.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "It's futile. I'll catch you wherever you run."
+    },
+    {
+     "char": "3",
+     "dialogue": "Your effort may alter the circumstances slightly to bring hope."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "But more often than not, it's merely a hopeless struggle."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Just like now, you can only run on the endless bridge, until you are exhausted."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you must keep running.",
+     "link": "7"
+    },
+    {
+     "text": "Fleeing like this is not the solution.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "3",
+     "dialogue": "Your effort may alter the circumstances slightly to bring hope."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "But more often than not, it's merely a hopeless struggle."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Just like now, you can only run on the endless bridge, until you are exhausted."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you must keep running.",
+     "link": "7"
+    },
+    {
+     "text": "Fleeing like this is not the solution.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "What makes you think you can escape me? Aspirations? The desire to survive?"
+    },
+    {
+     "char": "1",
+     "dialogue": "But I saw your effort. Even though futile, it was enough."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I will give you a head start, in honor of the time we spent together."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Of course, ultimately, you will not escape."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you talking about?",
+     "link": "10"
+    },
+    {
+     "text": "What is it that you want?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "It seems you have given up. Do you think it is easier to accept the helpless reality?"
+    },
+    {
+     "char": "1",
+     "dialogue": "But I saw your effort. Even though futile, it was enough."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I will give you a head start, in honor of the time we spent together."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Of course, ultimately, you will not escape."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you talking about?",
+     "link": "10"
+    },
+    {
+     "text": "What is it that you want?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "1",
+     "dialogue": "But I saw your effort. Even though futile, it was enough."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I will give you a head start, in honor of the time we spent together."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Of course, ultimately, you will not escape."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you talking about?",
+     "link": "10"
+    },
+    {
+     "text": "What is it that you want?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "There are some who see you as meek and useless, but not me."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Everyone has their value. I just want to know yours, even if I have to wait until the very end..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "...0..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Regrettably, you have been caught."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What is it you seek to do?",
+     "link": "13"
+    },
+    {
+     "text": "What will happen to me?",
+     "link": "14"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "This is just a hobby of mine. Before you thoroughly disappoint me, I will have expectations of you. Understand?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Regardless, I hope you'll support me, no matter what I do to you..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "...0..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Regrettably, you have been caught."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What is it you seek to do?",
+     "link": "13"
+    },
+    {
+     "text": "What will happen to me?",
+     "link": "14"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "...0..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Regrettably, you have been caught."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What is it you seek to do?",
+     "link": "13"
+    },
+    {
+     "text": "What will happen to me?",
+     "link": "14"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "It's very simple. I must eliminate all elements that could potentially affect that certain power for Illumina."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Didn't you see the challenge note I left? That's an Illumina tradition."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The terrifying blank sheet? You call that tradition?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "What's terrifying about it? And it's not blank. You have to read the other side, where I clearly stated..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "This is a hide-n-seek challenge, an infantry drill. Don't you know that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There's something wrong with you Illumina.",
+     "link": "16"
+    },
+    {
+     "text": "I didn't know that! I had no idea!",
+     "link": "17"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "You still don't realize what will happen to you even now?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I must do it for Illumina and the \"power\"."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Didn't you see the challenge note I left? That's an Illumina tradition."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The terrifying blank sheet? You call that tradition?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "What's terrifying about it? And it's not blank. You have to read the other side, where I clearly stated..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "This is a hide-n-seek challenge, an infantry drill. Don't you know that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There's something wrong with you Illumina.",
+     "link": "16"
+    },
+    {
+     "text": "I didn't know that! I had no idea!",
+     "link": "17"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "Didn't you see the challenge note I left? That's an Illumina tradition."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The terrifying blank sheet? You call that tradition?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "What's terrifying about it? And it's not blank. You have to read the other side, where I clearly stated..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "This is a hide-n-seek challenge, an infantry drill. Don't you know that?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There's something wrong with you Illumina.",
+     "link": "16"
+    },
+    {
+     "text": "I didn't know that! I had no idea!",
+     "link": "17"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "There's nothing wrong with us. Chasing you reminds me of Reinhardt and provides motivation."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Did you think I was rambunctious and unreasonable?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Or did you misconstrue my challenging you as me beating you up?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "If not for Reinhardt taking an interest in you, I wouldn't have bothered chasing after you."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Not to mention I am always reasonable..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I challenge, but I don't attack."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Wrath:",
+     "dialogue": "That's your problem then. But I admit, hot pursuit is one of my hobbies."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Did you think I was rambunctious and unreasonable?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Or did you misconstrue my challenging you as me beating you up?"
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "If not for Reinhardt taking an interest in you, I wouldn't have bothered chasing after you."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "Not to mention I am always reasonable..."
+    },
+    {
+     "char": "Wrath:",
+     "dialogue": "I challenge, but I don't attack."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

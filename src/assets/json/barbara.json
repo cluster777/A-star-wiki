@@ -1,1153 +1,1323 @@
 {
-      "name": "Barbara",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "Fire",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "5 Turn",
-            "description": [
-                  "Deals 550% damage to all enemies and stuns all enemies on Red tiles.",
-                  "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned.",
-                  "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned."
-            ]
-      },
-      "equip": {
-            "name": "Modified Buzzsaw",
-            "passive": "Perfect Accompaniment",
-            "description": [
-                  [
-                        "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 5% against enemies occupying a Red tile."
-                  ],
-                  [
-                        "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
-                        "Increases Barbara's damage by 5% against enemies occupying a Red tile."
-                  ],
-                  [
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 2%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 2%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
-                        "Increases all deployed members' damage against enemies occupying Red tiles by 5%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 145% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 165% damage to 2 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Flare Silt",
-                        "Fire Crystal Dust",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Barbara's damage by 5% against enemies occupying a Red tile."
-            },
-            {
-                  "material": [
-                        "Fire Crystal",
-                        "Fire Potion I",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 550% damage to all enemies and stuns all enemies on Red tiles.",
-                  "after": "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned."
-            },
-            {
-                  "material": [
-                        "Fire Potion III",
-                        "Fire Flare Rock",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Increases Barbara's damage by 5% against enemies occupying a Red tile.",
-                  "after": "Increases all deployed members' damage against enemies occupying Red tiles by 5%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 541,
-                        "def": 211,
-                        "hp": 1659
-                  },
-                  {
-                        "att": 551,
-                        "def": 214,
-                        "hp": 1687
-                  },
-                  {
-                        "att": 561,
-                        "def": 218,
-                        "hp": 1715
-                  },
-                  {
-                        "att": 572,
-                        "def": 221,
-                        "hp": 1743
-                  },
-                  {
-                        "att": 582,
-                        "def": 225,
-                        "hp": 1772
-                  },
-                  {
-                        "att": 593,
-                        "def": 228,
-                        "hp": 1800
-                  },
-                  {
-                        "att": 603,
-                        "def": 232,
-                        "hp": 1828
-                  },
-                  {
-                        "att": 613,
-                        "def": 235,
-                        "hp": 1856
-                  },
-                  {
-                        "att": 624,
-                        "def": 239,
-                        "hp": 1885
-                  },
-                  {
-                        "att": 634,
-                        "def": 242,
-                        "hp": 1913
-                  },
-                  {
-                        "att": 645,
-                        "def": 246,
-                        "hp": 1941
-                  },
-                  {
-                        "att": 655,
-                        "def": 249,
-                        "hp": 1969
-                  },
-                  {
-                        "att": 665,
-                        "def": 252,
-                        "hp": 1997
-                  },
-                  {
-                        "att": 676,
-                        "def": 256,
-                        "hp": 2026
-                  },
-                  {
-                        "att": 686,
-                        "def": 259,
-                        "hp": 2054
-                  },
-                  {
-                        "att": 697,
-                        "def": 263,
-                        "hp": 2082
-                  },
-                  {
-                        "att": 707,
-                        "def": 266,
-                        "hp": 2110
-                  },
-                  {
-                        "att": 717,
-                        "def": 270,
-                        "hp": 2139
-                  },
-                  {
-                        "att": 728,
-                        "def": 273,
-                        "hp": 2167
-                  },
-                  {
-                        "att": 738,
-                        "def": 277,
-                        "hp": 2195
-                  },
-                  {
-                        "att": 749,
-                        "def": 280,
-                        "hp": 2223
-                  },
-                  {
-                        "att": 759,
-                        "def": 284,
-                        "hp": 2251
-                  },
-                  {
-                        "att": 769,
-                        "def": 287,
-                        "hp": 2280
-                  },
-                  {
-                        "att": 780,
-                        "def": 291,
-                        "hp": 2308
-                  },
-                  {
-                        "att": 790,
-                        "def": 294,
-                        "hp": 2336
-                  },
-                  {
-                        "att": 801,
-                        "def": 298,
-                        "hp": 2364
-                  },
-                  {
-                        "att": 811,
-                        "def": 301,
-                        "hp": 2393
-                  },
-                  {
-                        "att": 822,
-                        "def": 304,
-                        "hp": 2421
-                  },
-                  {
-                        "att": 832,
-                        "def": 308,
-                        "hp": 2449
-                  },
-                  {
-                        "att": 842,
-                        "def": 311,
-                        "hp": 2477
-                  },
-                  {
-                        "att": 945,
-                        "def": 346,
-                        "hp": 2753
-                  },
-                  {
-                        "att": 958,
-                        "def": 350,
-                        "hp": 2788
-                  },
-                  {
-                        "att": 971,
-                        "def": 354,
-                        "hp": 2823
-                  },
-                  {
-                        "att": 984,
-                        "def": 359,
-                        "hp": 2858
-                  },
-                  {
-                        "att": 997,
-                        "def": 363,
-                        "hp": 2894
-                  },
-                  {
-                        "att": 1010,
-                        "def": 367,
-                        "hp": 2929
-                  },
-                  {
-                        "att": 1023,
-                        "def": 372,
-                        "hp": 2964
-                  },
-                  {
-                        "att": 1036,
-                        "def": 376,
-                        "hp": 3000
-                  },
-                  {
-                        "att": 1049,
-                        "def": 380,
-                        "hp": 3035
-                  },
-                  {
-                        "att": 1062,
-                        "def": 385,
-                        "hp": 3070
-                  },
-                  {
-                        "att": 1075,
-                        "def": 389,
-                        "hp": 3105
-                  },
-                  {
-                        "att": 1088,
-                        "def": 393,
-                        "hp": 3141
-                  },
-                  {
-                        "att": 1101,
-                        "def": 398,
-                        "hp": 3176
-                  },
-                  {
-                        "att": 1114,
-                        "def": 402,
-                        "hp": 3211
-                  },
-                  {
-                        "att": 1127,
-                        "def": 406,
-                        "hp": 3246
-                  },
-                  {
-                        "att": 1140,
-                        "def": 411,
-                        "hp": 3282
-                  },
-                  {
-                        "att": 1153,
-                        "def": 415,
-                        "hp": 3317
-                  },
-                  {
-                        "att": 1167,
-                        "def": 419,
-                        "hp": 3352
-                  },
-                  {
-                        "att": 1180,
-                        "def": 424,
-                        "hp": 3388
-                  },
-                  {
-                        "att": 1193,
-                        "def": 428,
-                        "hp": 3423
-                  },
-                  {
-                        "att": 1206,
-                        "def": 432,
-                        "hp": 3458
-                  },
-                  {
-                        "att": 1219,
-                        "def": 437,
-                        "hp": 3493
-                  },
-                  {
-                        "att": 1232,
-                        "def": 441,
-                        "hp": 3529
-                  },
-                  {
-                        "att": 1245,
-                        "def": 445,
-                        "hp": 3564
-                  },
-                  {
-                        "att": 1258,
-                        "def": 450,
-                        "hp": 3599
-                  },
-                  {
-                        "att": 1271,
-                        "def": 454,
-                        "hp": 3635
-                  },
-                  {
-                        "att": 1284,
-                        "def": 458,
-                        "hp": 3670
-                  },
-                  {
-                        "att": 1297,
-                        "def": 463,
-                        "hp": 3705
-                  },
-                  {
-                        "att": 1310,
-                        "def": 467,
-                        "hp": 3740
-                  },
-                  {
-                        "att": 1323,
-                        "def": 471,
-                        "hp": 3776
-                  },
-                  {
-                        "att": 1336,
-                        "def": 476,
-                        "hp": 3811
-                  },
-                  {
-                        "att": 1349,
-                        "def": 480,
-                        "hp": 3846
-                  },
-                  {
-                        "att": 1362,
-                        "def": 484,
-                        "hp": 3882
-                  },
-                  {
-                        "att": 1375,
-                        "def": 489,
-                        "hp": 3917
-                  },
-                  {
-                        "att": 1388,
-                        "def": 493,
-                        "hp": 3952
-                  },
-                  {
-                        "att": 1401,
-                        "def": 497,
-                        "hp": 3987
-                  },
-                  {
-                        "att": 1414,
-                        "def": 502,
-                        "hp": 4023
-                  },
-                  {
-                        "att": 1427,
-                        "def": 506,
-                        "hp": 4058
-                  },
-                  {
-                        "att": 1440,
-                        "def": 510,
-                        "hp": 4093
-                  },
-                  {
-                        "att": 1453,
-                        "def": 515,
-                        "hp": 4128
-                  },
-                  {
-                        "att": 1612,
-                        "def": 568,
-                        "hp": 4535
-                  },
-                  {
-                        "att": 1622,
-                        "def": 571,
-                        "hp": 4561
-                  },
-                  {
-                        "att": 1632,
-                        "def": 574,
-                        "hp": 4588
-                  },
-                  {
-                        "att": 1642,
-                        "def": 578,
-                        "hp": 4614
-                  },
-                  {
-                        "att": 1652,
-                        "def": 581,
-                        "hp": 4641
-                  },
-                  {
-                        "att": 1661,
-                        "def": 584,
-                        "hp": 4667
-                  },
-                  {
-                        "att": 1671,
-                        "def": 587,
-                        "hp": 4694
-                  },
-                  {
-                        "att": 1681,
-                        "def": 591,
-                        "hp": 4720
-                  },
-                  {
-                        "att": 1691,
-                        "def": 594,
-                        "hp": 4747
-                  },
-                  {
-                        "att": 1700,
-                        "def": 597,
-                        "hp": 4773
-                  },
-                  {
-                        "att": 1710,
-                        "def": 600,
-                        "hp": 4800
-                  },
-                  {
-                        "att": 1720,
-                        "def": 604,
-                        "hp": 4826
-                  },
-                  {
-                        "att": 1730,
-                        "def": 607,
-                        "hp": 4852
-                  },
-                  {
-                        "att": 1739,
-                        "def": 610,
-                        "hp": 4879
-                  },
-                  {
-                        "att": 1749,
-                        "def": 613,
-                        "hp": 4905
-                  },
-                  {
-                        "att": 1759,
-                        "def": 617,
-                        "hp": 4932
-                  },
-                  {
-                        "att": 1769,
-                        "def": 620,
-                        "hp": 4958
-                  },
-                  {
-                        "att": 1778,
-                        "def": 623,
-                        "hp": 4985
-                  },
-                  {
-                        "att": 1788,
-                        "def": 626,
-                        "hp": 5011
-                  },
-                  {
-                        "att": 1798,
-                        "def": 630,
-                        "hp": 5038
-                  },
-                  {
-                        "att": 1808,
-                        "def": 633,
-                        "hp": 5064
-                  },
-                  {
-                        "att": 1817,
-                        "def": 636,
-                        "hp": 5091
-                  },
-                  {
-                        "att": 1827,
-                        "def": 639,
-                        "hp": 5117
-                  },
-                  {
-                        "att": 1837,
-                        "def": 643,
-                        "hp": 5144
-                  },
-                  {
-                        "att": 1847,
-                        "def": 646,
-                        "hp": 5170
-                  },
-                  {
-                        "att": 1856,
-                        "def": 649,
-                        "hp": 5196
-                  },
-                  {
-                        "att": 1866,
-                        "def": 652,
-                        "hp": 5223
-                  },
-                  {
-                        "att": 1876,
-                        "def": 656,
-                        "hp": 5249
-                  },
-                  {
-                        "att": 1886,
-                        "def": 659,
-                        "hp": 5276
-                  },
-                  {
-                        "att": 1895,
-                        "def": 662,
-                        "hp": 5302
-                  },
-                  {
-                        "att": 1905,
-                        "def": 665,
-                        "hp": 5329
-                  },
-                  {
-                        "att": 1915,
-                        "def": 669,
-                        "hp": 5355
-                  },
-                  {
-                        "att": 1925,
-                        "def": 672,
-                        "hp": 5382
-                  },
-                  {
-                        "att": 1934,
-                        "def": 675,
-                        "hp": 5408
-                  },
-                  {
-                        "att": 1944,
-                        "def": 678,
-                        "hp": 5435
-                  },
-                  {
-                        "att": 1954,
-                        "def": 682,
-                        "hp": 5461
-                  },
-                  {
-                        "att": 1964,
-                        "def": 685,
-                        "hp": 5487
-                  },
-                  {
-                        "att": 1973,
-                        "def": 688,
-                        "hp": 5514
-                  },
-                  {
-                        "att": 1983,
-                        "def": 691,
-                        "hp": 5540
-                  },
-                  {
-                        "att": 1993,
-                        "def": 695,
-                        "hp": 5567
-                  },
-                  {
-                        "att": 2003,
-                        "def": 698,
-                        "hp": 5593
-                  },
-                  {
-                        "att": 2013,
-                        "def": 701,
-                        "hp": 5620
-                  },
-                  {
-                        "att": 2022,
-                        "def": 704,
-                        "hp": 5646
-                  },
-                  {
-                        "att": 2032,
-                        "def": 708,
-                        "hp": 5673
-                  },
-                  {
-                        "att": 2042,
-                        "def": 711,
-                        "hp": 5699
-                  },
-                  {
-                        "att": 2052,
-                        "def": 714,
-                        "hp": 5726
-                  },
-                  {
-                        "att": 2061,
-                        "def": 717,
-                        "hp": 5752
-                  },
-                  {
-                        "att": 2071,
-                        "def": 721,
-                        "hp": 5779
-                  },
-                  {
-                        "att": 2081,
-                        "def": 724,
-                        "hp": 5805
-                  },
-                  {
-                        "att": 2091,
-                        "def": 727,
-                        "hp": 5831
-                  },
-                  {
-                        "att": 2322,
-                        "def": 799,
-                        "hp": 6419
-                  },
-                  {
-                        "att": 2329,
-                        "def": 802,
-                        "hp": 6437
-                  },
-                  {
-                        "att": 2335,
-                        "def": 804,
-                        "hp": 6454
-                  },
-                  {
-                        "att": 2342,
-                        "def": 806,
-                        "hp": 6472
-                  },
-                  {
-                        "att": 2348,
-                        "def": 808,
-                        "hp": 6490
-                  },
-                  {
-                        "att": 2355,
-                        "def": 810,
-                        "hp": 6507
-                  },
-                  {
-                        "att": 2361,
-                        "def": 812,
-                        "hp": 6525
-                  },
-                  {
-                        "att": 2368,
-                        "def": 815,
-                        "hp": 6543
-                  },
-                  {
-                        "att": 2374,
-                        "def": 817,
-                        "hp": 6560
-                  },
-                  {
-                        "att": 2381,
-                        "def": 819,
-                        "hp": 6578
-                  },
-                  {
-                        "att": 2387,
-                        "def": 821,
-                        "hp": 6596
-                  },
-                  {
-                        "att": 2394,
-                        "def": 823,
-                        "hp": 6613
-                  },
-                  {
-                        "att": 2400,
-                        "def": 825,
-                        "hp": 6631
-                  },
-                  {
-                        "att": 2407,
-                        "def": 828,
-                        "hp": 6648
-                  },
-                  {
-                        "att": 2413,
-                        "def": 830,
-                        "hp": 6666
-                  },
-                  {
-                        "att": 2420,
-                        "def": 832,
-                        "hp": 6684
-                  },
-                  {
-                        "att": 2426,
-                        "def": 834,
-                        "hp": 6701
-                  },
-                  {
-                        "att": 2433,
-                        "def": 836,
-                        "hp": 6719
-                  },
-                  {
-                        "att": 2439,
-                        "def": 838,
-                        "hp": 6737
-                  },
-                  {
-                        "att": 2446,
-                        "def": 841,
-                        "hp": 6754
-                  },
-                  {
-                        "att": 2452,
-                        "def": 843,
-                        "hp": 6772
-                  },
-                  {
-                        "att": 2459,
-                        "def": 845,
-                        "hp": 6790
-                  },
-                  {
-                        "att": 2465,
-                        "def": 847,
-                        "hp": 6807
-                  },
-                  {
-                        "att": 2472,
-                        "def": 849,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2478,
-                        "def": 851,
-                        "hp": 6842
-                  },
-                  {
-                        "att": 2485,
-                        "def": 854,
-                        "hp": 6860
-                  },
-                  {
-                        "att": 2491,
-                        "def": 856,
-                        "hp": 6878
-                  },
-                  {
-                        "att": 2498,
-                        "def": 858,
-                        "hp": 6895
-                  },
-                  {
-                        "att": 2504,
-                        "def": 860,
-                        "hp": 6913
-                  },
-                  {
-                        "att": 2511,
-                        "def": 862,
-                        "hp": 6931
-                  },
-                  {
-                        "att": 2517,
-                        "def": 864,
-                        "hp": 6948
-                  },
-                  {
-                        "att": 2524,
-                        "def": 867,
-                        "hp": 6966
-                  },
-                  {
-                        "att": 2530,
-                        "def": 869,
-                        "hp": 6984
-                  },
-                  {
-                        "att": 2537,
-                        "def": 871,
-                        "hp": 7001
-                  },
-                  {
-                        "att": 2543,
-                        "def": 873,
-                        "hp": 7019
-                  },
-                  {
-                        "att": 2550,
-                        "def": 875,
-                        "hp": 7037
-                  },
-                  {
-                        "att": 2556,
-                        "def": 877,
-                        "hp": 7054
-                  },
-                  {
-                        "att": 2563,
-                        "def": 880,
-                        "hp": 7072
-                  },
-                  {
-                        "att": 2569,
-                        "def": 882,
-                        "hp": 7089
-                  },
-                  {
-                        "att": 2576,
-                        "def": 884,
-                        "hp": 7107
-                  },
-                  {
-                        "att": 2582,
-                        "def": 886,
-                        "hp": 7125
-                  },
-                  {
-                        "att": 2589,
-                        "def": 888,
-                        "hp": 7142
-                  },
-                  {
-                        "att": 2595,
-                        "def": 890,
-                        "hp": 7160
-                  },
-                  {
-                        "att": 2602,
-                        "def": 893,
-                        "hp": 7178
-                  },
-                  {
-                        "att": 2608,
-                        "def": 895,
-                        "hp": 7195
-                  },
-                  {
-                        "att": 2615,
-                        "def": 897,
-                        "hp": 7213
-                  },
-                  {
-                        "att": 2621,
-                        "def": 899,
-                        "hp": 7231
-                  },
-                  {
-                        "att": 2628,
-                        "def": 901,
-                        "hp": 7248
-                  },
-                  {
-                        "att": 2634,
-                        "def": 903,
-                        "hp": 7266
-                  },
-                  {
-                        "att": 2641,
-                        "def": 906,
-                        "hp": 7283
-                  },
-                  {
-                        "att": 2647,
-                        "def": 908,
-                        "hp": 7301
-                  },
-                  {
-                        "att": 2654,
-                        "def": 910,
-                        "hp": 7319
-                  },
-                  {
-                        "att": 2660,
-                        "def": 912,
-                        "hp": 7336
-                  },
-                  {
-                        "att": 2667,
-                        "def": 914,
-                        "hp": 7354
-                  },
-                  {
-                        "att": 2673,
-                        "def": 916,
-                        "hp": 7372
-                  },
-                  {
-                        "att": 2680,
-                        "def": 919,
-                        "hp": 7389
-                  },
-                  {
-                        "att": 2686,
-                        "def": 921,
-                        "hp": 7407
-                  },
-                  {
-                        "att": 2693,
-                        "def": 923,
-                        "hp": 7425
-                  },
-                  {
-                        "att": 2699,
-                        "def": 925,
-                        "hp": 7442
-                  },
-                  {
-                        "att": 2706,
-                        "def": 927,
-                        "hp": 7460
-                  },
-                  {
-                        "att": 2712,
-                        "def": 929,
-                        "hp": 7478
-                  },
-                  {
-                        "att": 2719,
-                        "def": 932,
-                        "hp": 7495
-                  },
-                  {
-                        "att": 2725,
-                        "def": 934,
-                        "hp": 7513
-                  },
-                  {
-                        "att": 2732,
-                        "def": 936,
-                        "hp": 7530
-                  },
-                  {
-                        "att": 2738,
-                        "def": 938,
-                        "hp": 7548
-                  },
-                  {
-                        "att": 2745,
-                        "def": 940,
-                        "hp": 7566
-                  },
-                  {
-                        "att": 2751,
-                        "def": 942,
-                        "hp": 7583
-                  },
-                  {
-                        "att": 2758,
-                        "def": 945,
-                        "hp": 7601
-                  },
-                  {
-                        "att": 2764,
-                        "def": 947,
-                        "hp": 7619
-                  },
-                  {
-                        "att": 2771,
-                        "def": 949,
-                        "hp": 7636
-                  },
-                  {
-                        "att": 2777,
-                        "def": 951,
-                        "hp": 7654
-                  },
-                  {
-                        "att": 2784,
-                        "def": 953,
-                        "hp": 7672
-                  },
-                  {
-                        "att": 2790,
-                        "def": 955,
-                        "hp": 7689
-                  },
-                  {
-                        "att": 2797,
-                        "def": 958,
-                        "hp": 7707
-                  },
-                  {
-                        "att": 2803,
-                        "def": 960,
-                        "hp": 7724
-                  },
-                  {
-                        "att": 2810,
-                        "def": 962,
-                        "hp": 7742
-                  },
-                  {
-                        "att": 2816,
-                        "def": 964,
-                        "hp": 7760
-                  },
-                  {
-                        "att": 2823,
-                        "def": 966,
-                        "hp": 7777
-                  },
-                  {
-                        "att": 2829,
-                        "def": 968,
-                        "hp": 7795
-                  },
-                  {
-                        "att": 2836,
-                        "def": 971,
-                        "hp": 7813
-                  }
-            ]
-      }
+ "name": "Barbara",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "Fire",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Sweet Kiss",
+  "cd": "5 Turn",
+  "description": [
+   "Deals 550% damage to all enemies and stuns all enemies on Red tiles.",
+   "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned.",
+   "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned."
+  ]
+ },
+ "equip": {
+  "name": "Modified Buzzsaw",
+  "passive": "Perfect Accompaniment",
+  "description": [
+   [
+    "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 5% against enemies occupying a Red tile."
+   ],
+   [
+    "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 2% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 3% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 4% against enemies occupying a Red tile.",
+    "Increases Barbara's damage by 5% against enemies occupying a Red tile."
+   ],
+   [
+    "Increases all deployed members' damage against enemies occupying Red tiles by 2%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 2%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 3%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 4%.",
+    "Increases all deployed members' damage against enemies occupying Red tiles by 5%."
+   ]
+  ],
+  "introduction": "A modified circular electric saw with a unique cordon-like strap. Rumored to originally have been a microphone, it was allegedly converted into a weapon at Barbara's request to deal with her crazy fans... However, Barbara vehemently denies this."
+ },
+ "chain": {
+  "name": "Support Fire",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 145% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 165% damage to 2 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Flare Silt",
+    "Fire Crystal Dust",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Barbara's damage by 5% against enemies occupying a Red tile."
+  },
+  {
+   "material": [
+    "Fire Crystal",
+    "Fire Potion I",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 550% damage to all enemies and stuns all enemies on Red tiles.",
+   "after": "Deals 550% damage to all enemies and stuns all enemies on Red tiles. Enemies on other tiles have a 35% chance of being stunned."
+  },
+  {
+   "material": [
+    "Fire Potion III",
+    "Fire Flare Rock",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Increases Barbara's damage by 5% against enemies occupying a Red tile.",
+   "after": "Increases all deployed members' damage against enemies occupying Red tiles by 5%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 541,
+    "def": 211,
+    "hp": 1659
+   },
+   {
+    "att": 551,
+    "def": 214,
+    "hp": 1687
+   },
+   {
+    "att": 561,
+    "def": 218,
+    "hp": 1715
+   },
+   {
+    "att": 572,
+    "def": 221,
+    "hp": 1743
+   },
+   {
+    "att": 582,
+    "def": 225,
+    "hp": 1772
+   },
+   {
+    "att": 593,
+    "def": 228,
+    "hp": 1800
+   },
+   {
+    "att": 603,
+    "def": 232,
+    "hp": 1828
+   },
+   {
+    "att": 613,
+    "def": 235,
+    "hp": 1856
+   },
+   {
+    "att": 624,
+    "def": 239,
+    "hp": 1885
+   },
+   {
+    "att": 634,
+    "def": 242,
+    "hp": 1913
+   },
+   {
+    "att": 645,
+    "def": 246,
+    "hp": 1941
+   },
+   {
+    "att": 655,
+    "def": 249,
+    "hp": 1969
+   },
+   {
+    "att": 665,
+    "def": 252,
+    "hp": 1997
+   },
+   {
+    "att": 676,
+    "def": 256,
+    "hp": 2026
+   },
+   {
+    "att": 686,
+    "def": 259,
+    "hp": 2054
+   },
+   {
+    "att": 697,
+    "def": 263,
+    "hp": 2082
+   },
+   {
+    "att": 707,
+    "def": 266,
+    "hp": 2110
+   },
+   {
+    "att": 717,
+    "def": 270,
+    "hp": 2139
+   },
+   {
+    "att": 728,
+    "def": 273,
+    "hp": 2167
+   },
+   {
+    "att": 738,
+    "def": 277,
+    "hp": 2195
+   },
+   {
+    "att": 749,
+    "def": 280,
+    "hp": 2223
+   },
+   {
+    "att": 759,
+    "def": 284,
+    "hp": 2251
+   },
+   {
+    "att": 769,
+    "def": 287,
+    "hp": 2280
+   },
+   {
+    "att": 780,
+    "def": 291,
+    "hp": 2308
+   },
+   {
+    "att": 790,
+    "def": 294,
+    "hp": 2336
+   },
+   {
+    "att": 801,
+    "def": 298,
+    "hp": 2364
+   },
+   {
+    "att": 811,
+    "def": 301,
+    "hp": 2393
+   },
+   {
+    "att": 822,
+    "def": 304,
+    "hp": 2421
+   },
+   {
+    "att": 832,
+    "def": 308,
+    "hp": 2449
+   },
+   {
+    "att": 842,
+    "def": 311,
+    "hp": 2477
+   },
+   {
+    "att": 945,
+    "def": 346,
+    "hp": 2753
+   },
+   {
+    "att": 958,
+    "def": 350,
+    "hp": 2788
+   },
+   {
+    "att": 971,
+    "def": 354,
+    "hp": 2823
+   },
+   {
+    "att": 984,
+    "def": 359,
+    "hp": 2858
+   },
+   {
+    "att": 997,
+    "def": 363,
+    "hp": 2894
+   },
+   {
+    "att": 1010,
+    "def": 367,
+    "hp": 2929
+   },
+   {
+    "att": 1023,
+    "def": 372,
+    "hp": 2964
+   },
+   {
+    "att": 1036,
+    "def": 376,
+    "hp": 3000
+   },
+   {
+    "att": 1049,
+    "def": 380,
+    "hp": 3035
+   },
+   {
+    "att": 1062,
+    "def": 385,
+    "hp": 3070
+   },
+   {
+    "att": 1075,
+    "def": 389,
+    "hp": 3105
+   },
+   {
+    "att": 1088,
+    "def": 393,
+    "hp": 3141
+   },
+   {
+    "att": 1101,
+    "def": 398,
+    "hp": 3176
+   },
+   {
+    "att": 1114,
+    "def": 402,
+    "hp": 3211
+   },
+   {
+    "att": 1127,
+    "def": 406,
+    "hp": 3246
+   },
+   {
+    "att": 1140,
+    "def": 411,
+    "hp": 3282
+   },
+   {
+    "att": 1153,
+    "def": 415,
+    "hp": 3317
+   },
+   {
+    "att": 1167,
+    "def": 419,
+    "hp": 3352
+   },
+   {
+    "att": 1180,
+    "def": 424,
+    "hp": 3388
+   },
+   {
+    "att": 1193,
+    "def": 428,
+    "hp": 3423
+   },
+   {
+    "att": 1206,
+    "def": 432,
+    "hp": 3458
+   },
+   {
+    "att": 1219,
+    "def": 437,
+    "hp": 3493
+   },
+   {
+    "att": 1232,
+    "def": 441,
+    "hp": 3529
+   },
+   {
+    "att": 1245,
+    "def": 445,
+    "hp": 3564
+   },
+   {
+    "att": 1258,
+    "def": 450,
+    "hp": 3599
+   },
+   {
+    "att": 1271,
+    "def": 454,
+    "hp": 3635
+   },
+   {
+    "att": 1284,
+    "def": 458,
+    "hp": 3670
+   },
+   {
+    "att": 1297,
+    "def": 463,
+    "hp": 3705
+   },
+   {
+    "att": 1310,
+    "def": 467,
+    "hp": 3740
+   },
+   {
+    "att": 1323,
+    "def": 471,
+    "hp": 3776
+   },
+   {
+    "att": 1336,
+    "def": 476,
+    "hp": 3811
+   },
+   {
+    "att": 1349,
+    "def": 480,
+    "hp": 3846
+   },
+   {
+    "att": 1362,
+    "def": 484,
+    "hp": 3882
+   },
+   {
+    "att": 1375,
+    "def": 489,
+    "hp": 3917
+   },
+   {
+    "att": 1388,
+    "def": 493,
+    "hp": 3952
+   },
+   {
+    "att": 1401,
+    "def": 497,
+    "hp": 3987
+   },
+   {
+    "att": 1414,
+    "def": 502,
+    "hp": 4023
+   },
+   {
+    "att": 1427,
+    "def": 506,
+    "hp": 4058
+   },
+   {
+    "att": 1440,
+    "def": 510,
+    "hp": 4093
+   },
+   {
+    "att": 1453,
+    "def": 515,
+    "hp": 4128
+   },
+   {
+    "att": 1612,
+    "def": 568,
+    "hp": 4535
+   },
+   {
+    "att": 1622,
+    "def": 571,
+    "hp": 4561
+   },
+   {
+    "att": 1632,
+    "def": 574,
+    "hp": 4588
+   },
+   {
+    "att": 1642,
+    "def": 578,
+    "hp": 4614
+   },
+   {
+    "att": 1652,
+    "def": 581,
+    "hp": 4641
+   },
+   {
+    "att": 1661,
+    "def": 584,
+    "hp": 4667
+   },
+   {
+    "att": 1671,
+    "def": 587,
+    "hp": 4694
+   },
+   {
+    "att": 1681,
+    "def": 591,
+    "hp": 4720
+   },
+   {
+    "att": 1691,
+    "def": 594,
+    "hp": 4747
+   },
+   {
+    "att": 1700,
+    "def": 597,
+    "hp": 4773
+   },
+   {
+    "att": 1710,
+    "def": 600,
+    "hp": 4800
+   },
+   {
+    "att": 1720,
+    "def": 604,
+    "hp": 4826
+   },
+   {
+    "att": 1730,
+    "def": 607,
+    "hp": 4852
+   },
+   {
+    "att": 1739,
+    "def": 610,
+    "hp": 4879
+   },
+   {
+    "att": 1749,
+    "def": 613,
+    "hp": 4905
+   },
+   {
+    "att": 1759,
+    "def": 617,
+    "hp": 4932
+   },
+   {
+    "att": 1769,
+    "def": 620,
+    "hp": 4958
+   },
+   {
+    "att": 1778,
+    "def": 623,
+    "hp": 4985
+   },
+   {
+    "att": 1788,
+    "def": 626,
+    "hp": 5011
+   },
+   {
+    "att": 1798,
+    "def": 630,
+    "hp": 5038
+   },
+   {
+    "att": 1808,
+    "def": 633,
+    "hp": 5064
+   },
+   {
+    "att": 1817,
+    "def": 636,
+    "hp": 5091
+   },
+   {
+    "att": 1827,
+    "def": 639,
+    "hp": 5117
+   },
+   {
+    "att": 1837,
+    "def": 643,
+    "hp": 5144
+   },
+   {
+    "att": 1847,
+    "def": 646,
+    "hp": 5170
+   },
+   {
+    "att": 1856,
+    "def": 649,
+    "hp": 5196
+   },
+   {
+    "att": 1866,
+    "def": 652,
+    "hp": 5223
+   },
+   {
+    "att": 1876,
+    "def": 656,
+    "hp": 5249
+   },
+   {
+    "att": 1886,
+    "def": 659,
+    "hp": 5276
+   },
+   {
+    "att": 1895,
+    "def": 662,
+    "hp": 5302
+   },
+   {
+    "att": 1905,
+    "def": 665,
+    "hp": 5329
+   },
+   {
+    "att": 1915,
+    "def": 669,
+    "hp": 5355
+   },
+   {
+    "att": 1925,
+    "def": 672,
+    "hp": 5382
+   },
+   {
+    "att": 1934,
+    "def": 675,
+    "hp": 5408
+   },
+   {
+    "att": 1944,
+    "def": 678,
+    "hp": 5435
+   },
+   {
+    "att": 1954,
+    "def": 682,
+    "hp": 5461
+   },
+   {
+    "att": 1964,
+    "def": 685,
+    "hp": 5487
+   },
+   {
+    "att": 1973,
+    "def": 688,
+    "hp": 5514
+   },
+   {
+    "att": 1983,
+    "def": 691,
+    "hp": 5540
+   },
+   {
+    "att": 1993,
+    "def": 695,
+    "hp": 5567
+   },
+   {
+    "att": 2003,
+    "def": 698,
+    "hp": 5593
+   },
+   {
+    "att": 2013,
+    "def": 701,
+    "hp": 5620
+   },
+   {
+    "att": 2022,
+    "def": 704,
+    "hp": 5646
+   },
+   {
+    "att": 2032,
+    "def": 708,
+    "hp": 5673
+   },
+   {
+    "att": 2042,
+    "def": 711,
+    "hp": 5699
+   },
+   {
+    "att": 2052,
+    "def": 714,
+    "hp": 5726
+   },
+   {
+    "att": 2061,
+    "def": 717,
+    "hp": 5752
+   },
+   {
+    "att": 2071,
+    "def": 721,
+    "hp": 5779
+   },
+   {
+    "att": 2081,
+    "def": 724,
+    "hp": 5805
+   },
+   {
+    "att": 2091,
+    "def": 727,
+    "hp": 5831
+   },
+   {
+    "att": 2322,
+    "def": 799,
+    "hp": 6419
+   },
+   {
+    "att": 2329,
+    "def": 802,
+    "hp": 6437
+   },
+   {
+    "att": 2335,
+    "def": 804,
+    "hp": 6454
+   },
+   {
+    "att": 2342,
+    "def": 806,
+    "hp": 6472
+   },
+   {
+    "att": 2348,
+    "def": 808,
+    "hp": 6490
+   },
+   {
+    "att": 2355,
+    "def": 810,
+    "hp": 6507
+   },
+   {
+    "att": 2361,
+    "def": 812,
+    "hp": 6525
+   },
+   {
+    "att": 2368,
+    "def": 815,
+    "hp": 6543
+   },
+   {
+    "att": 2374,
+    "def": 817,
+    "hp": 6560
+   },
+   {
+    "att": 2381,
+    "def": 819,
+    "hp": 6578
+   },
+   {
+    "att": 2387,
+    "def": 821,
+    "hp": 6596
+   },
+   {
+    "att": 2394,
+    "def": 823,
+    "hp": 6613
+   },
+   {
+    "att": 2400,
+    "def": 825,
+    "hp": 6631
+   },
+   {
+    "att": 2407,
+    "def": 828,
+    "hp": 6648
+   },
+   {
+    "att": 2413,
+    "def": 830,
+    "hp": 6666
+   },
+   {
+    "att": 2420,
+    "def": 832,
+    "hp": 6684
+   },
+   {
+    "att": 2426,
+    "def": 834,
+    "hp": 6701
+   },
+   {
+    "att": 2433,
+    "def": 836,
+    "hp": 6719
+   },
+   {
+    "att": 2439,
+    "def": 838,
+    "hp": 6737
+   },
+   {
+    "att": 2446,
+    "def": 841,
+    "hp": 6754
+   },
+   {
+    "att": 2452,
+    "def": 843,
+    "hp": 6772
+   },
+   {
+    "att": 2459,
+    "def": 845,
+    "hp": 6790
+   },
+   {
+    "att": 2465,
+    "def": 847,
+    "hp": 6807
+   },
+   {
+    "att": 2472,
+    "def": 849,
+    "hp": 6825
+   },
+   {
+    "att": 2478,
+    "def": 851,
+    "hp": 6842
+   },
+   {
+    "att": 2485,
+    "def": 854,
+    "hp": 6860
+   },
+   {
+    "att": 2491,
+    "def": 856,
+    "hp": 6878
+   },
+   {
+    "att": 2498,
+    "def": 858,
+    "hp": 6895
+   },
+   {
+    "att": 2504,
+    "def": 860,
+    "hp": 6913
+   },
+   {
+    "att": 2511,
+    "def": 862,
+    "hp": 6931
+   },
+   {
+    "att": 2517,
+    "def": 864,
+    "hp": 6948
+   },
+   {
+    "att": 2524,
+    "def": 867,
+    "hp": 6966
+   },
+   {
+    "att": 2530,
+    "def": 869,
+    "hp": 6984
+   },
+   {
+    "att": 2537,
+    "def": 871,
+    "hp": 7001
+   },
+   {
+    "att": 2543,
+    "def": 873,
+    "hp": 7019
+   },
+   {
+    "att": 2550,
+    "def": 875,
+    "hp": 7037
+   },
+   {
+    "att": 2556,
+    "def": 877,
+    "hp": 7054
+   },
+   {
+    "att": 2563,
+    "def": 880,
+    "hp": 7072
+   },
+   {
+    "att": 2569,
+    "def": 882,
+    "hp": 7089
+   },
+   {
+    "att": 2576,
+    "def": 884,
+    "hp": 7107
+   },
+   {
+    "att": 2582,
+    "def": 886,
+    "hp": 7125
+   },
+   {
+    "att": 2589,
+    "def": 888,
+    "hp": 7142
+   },
+   {
+    "att": 2595,
+    "def": 890,
+    "hp": 7160
+   },
+   {
+    "att": 2602,
+    "def": 893,
+    "hp": 7178
+   },
+   {
+    "att": 2608,
+    "def": 895,
+    "hp": 7195
+   },
+   {
+    "att": 2615,
+    "def": 897,
+    "hp": 7213
+   },
+   {
+    "att": 2621,
+    "def": 899,
+    "hp": 7231
+   },
+   {
+    "att": 2628,
+    "def": 901,
+    "hp": 7248
+   },
+   {
+    "att": 2634,
+    "def": 903,
+    "hp": 7266
+   },
+   {
+    "att": 2641,
+    "def": 906,
+    "hp": 7283
+   },
+   {
+    "att": 2647,
+    "def": 908,
+    "hp": 7301
+   },
+   {
+    "att": 2654,
+    "def": 910,
+    "hp": 7319
+   },
+   {
+    "att": 2660,
+    "def": 912,
+    "hp": 7336
+   },
+   {
+    "att": 2667,
+    "def": 914,
+    "hp": 7354
+   },
+   {
+    "att": 2673,
+    "def": 916,
+    "hp": 7372
+   },
+   {
+    "att": 2680,
+    "def": 919,
+    "hp": 7389
+   },
+   {
+    "att": 2686,
+    "def": 921,
+    "hp": 7407
+   },
+   {
+    "att": 2693,
+    "def": 923,
+    "hp": 7425
+   },
+   {
+    "att": 2699,
+    "def": 925,
+    "hp": 7442
+   },
+   {
+    "att": 2706,
+    "def": 927,
+    "hp": 7460
+   },
+   {
+    "att": 2712,
+    "def": 929,
+    "hp": 7478
+   },
+   {
+    "att": 2719,
+    "def": 932,
+    "hp": 7495
+   },
+   {
+    "att": 2725,
+    "def": 934,
+    "hp": 7513
+   },
+   {
+    "att": 2732,
+    "def": 936,
+    "hp": 7530
+   },
+   {
+    "att": 2738,
+    "def": 938,
+    "hp": 7548
+   },
+   {
+    "att": 2745,
+    "def": 940,
+    "hp": 7566
+   },
+   {
+    "att": 2751,
+    "def": 942,
+    "hp": 7583
+   },
+   {
+    "att": 2758,
+    "def": 945,
+    "hp": 7601
+   },
+   {
+    "att": 2764,
+    "def": 947,
+    "hp": 7619
+   },
+   {
+    "att": 2771,
+    "def": 949,
+    "hp": 7636
+   },
+   {
+    "att": 2777,
+    "def": 951,
+    "hp": 7654
+   },
+   {
+    "att": 2784,
+    "def": 953,
+    "hp": 7672
+   },
+   {
+    "att": 2790,
+    "def": 955,
+    "hp": 7689
+   },
+   {
+    "att": 2797,
+    "def": 958,
+    "hp": 7707
+   },
+   {
+    "att": 2803,
+    "def": 960,
+    "hp": 7724
+   },
+   {
+    "att": 2810,
+    "def": 962,
+    "hp": 7742
+   },
+   {
+    "att": 2816,
+    "def": 964,
+    "hp": 7760
+   },
+   {
+    "att": 2823,
+    "def": 966,
+    "hp": 7777
+   },
+   {
+    "att": 2829,
+    "def": 968,
+    "hp": 7795
+   },
+   {
+    "att": 2836,
+    "def": 971,
+    "hp": 7813
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Barbara",
+     "Regina"
+    ],
+    "chat": [
+     {
+      "character": "Barbara:",
+      "text": "\"Loooove is the color of Rediesel! If you feel the same, let me knoooooow!\""
+     },
+     {
+      "character": "Regina:",
+      "text": "Ooh! Ahh! Unngh!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "\"La-la-loooove! It's all about looooove!\""
+     },
+     {
+      "character": "Regina:",
+      "text": "Scream! Bleed! Die!!!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "(What loud and awful noises...)"
+     },
+     {
+      "character": "Regina:",
+      "text": "(What soulless, cheesy singing...)"
+     },
+     {
+      "character": "Barbara:",
+      "text": "... As I thought! Your tastes... Are truly awful!"
+     },
+     {
+      "character": "Regina:",
+      "text": "What was that?"
+     },
+     {
+      "character": "Barbara:",
+      "text": "Nothiiiing! I said nothiiiing!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "I just think... Not every odd and ugly noise can be called music!"
+     },
+     {
+      "character": "Regina:",
+      "text": "Please, you'd never understand metal anyways."
+     },
+     {
+      "character": "Regina:",
+      "text": "That sappy, lovey-dovey crap is dead and gone. The future of music is all about letting your animal instincts run wild!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "My name may be Barbaraaaaa... But I'm no barbariaaaaaan!"
+     },
+     {
+      "character": "Regina:",
+      "text": "Love songs are dead! Metal lives forever!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Oh my god, what did I just see? Was that a concert in the Colossus?! A young girl with cat ears and two pink ponytails was dancing and singing on a makeshift stage in the bridge. Everyone had gathered around, and even %s was waving glow sticks in excitement! A quick check revealed the girl the pop idol Miss Barbara from Rediesel Wrench. She heard we could use some cheering up so she came to entertain. Let me tell you, she's got some crazy moves! %s's happy reaction made me wonder, though, is that the type %s likes? \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hello, it's you! What do you think of my performance? Are you uplifted by my performance? I heard that you're the Navigator of this Colossus, so you must be under a lot of pressure. You have nothing to worry about! Now that I've come to the Colossus, I can have a non-stop 300-hour concert! What? You don't want a concert? I can shake hands with my fans and sign my autograph! W-what? That's not what you meant? Just occasionally? Could it be that you don't like Barbara? Oh! Look at how flustered you look! I was just joking! I won't feel sad because of that! I'm a considerate idol who embraces love and justice!However, I've heard that The Solar Storm sometimes comes here to have a concert? They have more fans than Barbara? What? How can that be possible! Am I upset? No way! Barbara is an innocent, cute idol! I will never, ever, get upset over something like this!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "You're wondering why Barbara always looks so energetic? I'm an idol, how can I cheer everyone up if I'm depressed, right?But I've actually experienced all sorts of things. My father was a famous artist who was best at soothing souls with his singing. Before my mother died, my father's singing comforted her when she was in pain... Of course I was saddened by that, but when I saw the smiles my father's singing put on the faces of those who had lost their homes, like that of my mother's smile, I finally realized that singing can bring comfort and joy to everyone!So, although I don't have the power to end the war immediately, I'll do my best to comfort and inspire everyone with my singing! After all, Barbara is an idol with her heart filled with pure love!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I've also experienced failure before! I was still very young when my father died, and everyone at Rediesel Wrench took care of me back then. They're all such good people! So, I want to thank them for their love for me with my singing!But my first attempt was a miserable failure... Do you know Sinsa's younger sister? I'm talking about Eve, the girl affected by the Darkflow. I thought I could awaken her with my singing, but now I know I was too naive. I have a long way to go before I can catch up to my father! I felt really depressed at that time, and although Sinsa didn't blame me for it, I couldn't forgive myself. To comfort him, well, more like to thank him, I wrote a song especially for him!Although the people at Rediesel Wrench are quite rough around the edges and are usually quite noisy, all of them are sensitive and gentle, including Tiny One who always helps me set up the stage and craft the speakers! So yeah, I'll continue to work hard to become the best idol singer for all the gentle souls at Rediesel Wrench!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Whoa! You've come again today, Navigator!Are you here to hear Barbara's sing? What? You think I'm too tired and should take a break? Thank you for being so considerate, but I'm a professional idol! Keeping myself energetic at all times is most important! Don't underestimate me, because I once performed more than 600 songs in a concert for three consecutive days without sleep! I'm also professional enough to put on perfect expressions in any situation, even after I just killed some Eclipsites! Did I say something scary? You must have heard it wrong. Come and lie down on Barbara's lap for a moment to regain your energy!It's because Barbara's extraordinary talent as an idol and super-hardworking spirit that Barbara is the most popular person in Rediesel Wrench!I do have a rival, but it doesn't matter! Barbara will be No. 1 someday! Oh! Let's have a concert tomorrow!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "You guys at Rediesel Wrench are the most adooooorable in the world!",
+  "Huh? There are choirs in Lumopolis? And professional musicians as well? You mustn't have a change of heart, Navigator!",
+  "Rediesel Wrench! Show me your power!",
+  "No Eclipsites in my concert! Those fouling up the concert must be taught a lesson.",
+  "Did anyone go to Regina's concert? It's okay. Barbara. Doesn't. Mind. It. At. All.",
+  "Tiny One is my best partner! All of my stage setups, speakers, and microphones are fabricated by her!",
+  "The fish dishes are really tasty, especially the sashimi. It's a pity I rarely get to eat them.",
+  "A perfect idol has enough love for everything, and Barbara means everything! Even Regina's awful noise!",
+  "Where is the best place to set up the stage? On the deck? Or on the bridge? I'm soooo vexed!",
+  "Can I hold a concert here?",
+  "If I do a good job, I'll probably get to increase my fan base as well! I'm gonna work hard to stay Rediesel's most popular singer!",
+  "No matter how many times I fall, I'll always pick myself up and keep going.",
+  "Encore? I heard you!",
+  "Lalala... Yep-a-doo-dee...",
+  "Fall in love!",
+  "ARE.YOU.READY?",
+  "Happy New Year!",
+  "Passion, wildness, bonds, love!",
+  "Let's Rock 'n' Roll the soul!",
+  "Music! Passion! Ignite the desert!",
+  "Barbara's songs will always be with you!",
+  "I would like to write a song for the Rediesel Wrench. The theme is \"Wild Desert.\" Who should I invite as special guests?",
+  "I'm glimmering \u2665 and shining!",
+  "Alchemy Stars!",
+  "Oh, how I love the taste... Let's blast off some Eclipsites... Pre-tty Li-zard Slash! Warm blood is shed... Look out for the enemies behind you!",
+  "Are you looking forward to it? Are you? My new album is called \u2014Everyday - Loving the Engine Oil\u2014. It comes with some exclusive photos of me\u2014in bathing suits!",
+  "Eclipsites scatter. Danger lurks everywhere. Ready the buzzsaws and wrenches! What battle? Barbara's talking about the concert!",
+  "I've once performed over 600 songs at the Fiery Support event for three days in a row without a wink of sleep...",
+  "You think I'm scary? Oh, no! I'm a perfect idol, an innocent and cute teenage girl. You must've had a false impression of me. That must be it.",
+  "Music can heal! My dream is to become an idol and bring warmth and love to the world with my music!",
+  "Hey, will you come to my meet-and-greet? Just buy an album and you'll get a ticket to the meet-and-greet! Those who are at the end of the line will need to beware of getting eaten by Eclipsites.",
+  "If you're coming, I'll make sure you get the caravan seat closest to the stage. It's a members-only seat!",
+  "Say \"wrench!\" I'll be sure to cherish this photo with you! I'll never forget your smile!",
+  "Huh? Why did you stop cheering? Don't mind those invaders. The concert goes on!",
+  "I'm so happy to have you here! Please make sure you stay alive and come back for tomorrow's concert!",
+  "Impeccable expression management is a must-have skill for idols. Here we go, smile!",
+  "The concert's about to start!",
+  "Oh... Ahem\u2014 Do-re-mi-fa\u2014 Huh? I'm doing some vocal warm-up exercises!",
+  "Raise your hands! I wanna feel your passion!",
+  "Woohoo! \u266a Those who dare interfere, say hello to my buzzsaw!",
+  "Yoo-hoo! Here comes the love of Rediesel, the hot sweetheart, and the idol of all -- Barbara! \u2665 Not enough noise! Let me hear it!",
+  "All gifts for me should be given to my agent.",
+  "I'll give you an autographed picture in return then.",
+  "I'll just accept your gift on the quiet.",
+  "No, romantic relationships are forbidden to idols. However...",
+  "Heart Saw!",
+  "Rock 'n' Roll, sweethearts!",
+  "Music! Feel the beat!",
+  "I have certainly been through some painful times, and it was music that saved me. Now, I also want to save everyone with music!",
+  "The road to becoming an idol is tough and winding, but I won't give up. Performing in the desert in a caravan to build up my fan base. All it takes is one smile for me to feel blessed.",
+  "Because of my hard work and impressive skills as an idol, Barbara has gained a lot of fans! But that Regina, she's always trying to get ahead of me!",
+  "Cheer for me!"
+ ],
+ "skins": [],
+ "description": "The idol singer of Rediesel Wrench. Barbara looks gentle and nice on the surface but reveals her irritable side when she encounters an overly offensive fan. She travels everywhere to become the most popular idol.",
+ "realName": "Barbara",
+ "nickname": "Diesel Sweety",
+ "gender": "Female",
+ "height": "4'11''",
+ "birthday": "April 11",
+ "birthplace": "Rediesel Desert",
+ "style": "Modified Buzzsaw, Perfect Accompaniment"
 }

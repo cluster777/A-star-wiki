@@ -1,0 +1,798 @@
+{
+ "title": "Roaring Thunder",
+ "header": "Through sheer luck, you give a Daybreak Crystal to Michael and touch her girlish heart.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Michael:",
+     "dialogue": "(Daybreak Crystal...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(It's the kind of gemstone found beneath the soil of Astra.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(It can only be found deep underground and shows different colors under different light intensities.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(It's... somewhat appealing to me.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it? I'm glad you like it."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Oh, you heard that?)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Of course. You have psychic ability. You can sense my thoughts.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I apologize for losing my composure.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Showing that you like something is not losing your composure.",
+     "link": "1"
+    },
+    {
+     "text": "Showing that you're happy is not losing your composure.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Michael:",
+     "dialogue": "(Is it not?)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(However, if one is attached to something aside from oneself, one's ability to maintain order will also be affected.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Therefore, liking something is a troublesome desire.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... So you need to suppress your feelings in order to maintain order?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not a bad idea to let loose once in a while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, when I sensed that you felt happy because of the gift, it made me feel happy as well."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Is that so...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I suppose that's good. Me being happy shouldn't be harmful if it makes you happy too.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Being happy is never harmful.",
+     "link": "4"
+    },
+    {
+     "text": "Suppressing your emotions is detrimental.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Michael:",
+     "dialogue": "(Is it not?)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(The problem is, if I'm swayed by my emotions, I won't be able to properly maintain order.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(That's why feeling happy is a troublesome emotion.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... So you need to suppress your feelings in order to maintain order?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not a bad idea to let loose once in a while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, when I sensed that you felt happy because of the gift, it made me feel happy as well."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Is that so...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I suppose that's good. Me being happy shouldn't be harmful if it makes you happy too.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Being happy is never harmful.",
+     "link": "4"
+    },
+    {
+     "text": "Suppressing your emotions is detrimental.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... So you need to suppress your feelings in order to maintain order?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not a bad idea to let loose once in a while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, when I sensed that you felt happy because of the gift, it made me feel happy as well."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Is that so...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I suppose that's good. Me being happy shouldn't be harmful if it makes you happy too.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Being happy is never harmful.",
+     "link": "4"
+    },
+    {
+     "text": "Suppressing your emotions is detrimental.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Michael:",
+     "dialogue": "(Is it not?)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(But the fluctuation of mood will make it hard for people to firmly hold their weapons.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(If weapons are not held firmly enough, there will be unnecessary troubles.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(You may get hurt accidentally or fail to protect your companions...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(In any case, it can only be detrimental.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... So you're worried that your emotions might influence your fighting?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I think emotions can be beneficial for fighting as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For example, the feeling that you need to protect your companions..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The courage to eliminate those evil Eclipsites..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You'll be more determined when you fight because of all these, won't you?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Is that so...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(That seems to be a fair point.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(But the emotions that drive me to protect my comrades and eradicate Eclipsites are different. Happiness is the kind of emotion that doesn't benefit fighting in any way.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not necessarily so."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If your emotion makes you feel like you want your comrades to live on happily, you'll be very determined when you fight."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I see...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, so please always be happy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then, your companions will be determined when they fight as well."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh no, am I making it awkward again?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, it's fine if you can't do it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it's good enough for Michael to feel happy once in a while."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Indeed...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I'll cherish this present.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm glad."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't expect Daybreak Crystals to appeal to you so much though."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(That's because when I was being treated in Illumina, I heard people talking about this gemstone.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Illumina?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I get it now. It's an Undercity. That must be why it's easier to dig up those underground stones."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I suppose so.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(They say that Daybreak Crystals are as beautiful as dawn, which is how it got its name.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Having seen it with my own eyes, I have to say it does deserve its reputation.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It really is beautiful."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Speaking of which, do you remember when was the last time you felt so happy?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Last time? Being healed...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Being healed?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(When Raphael healed me.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Meaning you were badly hurt before?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes. I fell from the sky once and was in a coma for a very long time. It was Raphael who saved me.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "With her Holy Water Shell?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(She cured my wound very gently with her Shell.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thanks to her, I held on until today.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-gently?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's Michael indeed... I guess only those with augmented bodies would feel that Raphael's Shell is gentle."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If the person being treated was just a regular creature, wouldn't they get blown up first before they can be healed?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Huh? What were you mumbling about, Navigator?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Um, nothing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was just saying that you're indeed the Four Angels. It takes such special bond like yours to support each other like that."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Indeed.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Not only that...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Raphael was the only reason why I jumped without any worries during the Encounter of Angels.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I did that because I knew that no matter what happens to me, Raphael will heal me.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Raphael... can be trusted.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It sounds like something important."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you said you jumped without any worries. Does it mean something happened to you again?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I'm sorry.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Err... Why have you gone quiet all of a sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now I'm even more concerned..."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(If it can get us together...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Get you together? You can't mean...?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Well... I better go.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thank you for your gift.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, I still don't get it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... at least it seems like you enjoy your gift. That's good enough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're always so quiet. Being able to bring you happiness is more important than anything else."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thank you.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Michael:",
+     "dialogue": "(Is it not?)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(But... if you don't suppress your emotions, you won't be able to make firm decisions.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(When faced with enemies and Eclipsites...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Any flicker of emotion will affect the weapon you're holding.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(One should never pity one's enemies.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... So you're worried that your emotions might influence your fighting?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I think emotions can be beneficial for fighting as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For example, the feeling that you need to protect your companions..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The courage to eliminate those evil Eclipsites..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You'll be more determined when you fight because of all these, won't you?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Is that so...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(That seems to be a fair point.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(But the emotions that drive me to protect my comrades and eradicate Eclipsites are different. Happiness is the kind of emotion that doesn't benefit fighting in any way.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not necessarily so."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If your emotion makes you feel like you want your comrades to live on happily, you'll be very determined when you fight."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I see...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, so please always be happy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then, your companions will be determined when they fight as well."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh no, am I making it awkward again?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, it's fine if you can't do it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it's good enough for Michael to feel happy once in a while."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Indeed...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I'll cherish this present.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm glad."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't expect Daybreak Crystals to appeal to you so much though."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(That's because when I was being treated in Illumina, I heard people talking about this gemstone.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Illumina?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I get it now. It's an Undercity. That must be why it's easier to dig up those underground stones."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I suppose so.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(They say that Daybreak Crystals are as beautiful as dawn, which is how it got its name.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Having seen it with my own eyes, I have to say it does deserve its reputation.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It really is beautiful."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Speaking of which, do you remember when was the last time you felt so happy?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Last time? Being healed...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Being healed?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(When Raphael healed me.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Meaning you were badly hurt before?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes. I fell from the sky once and was in a coma for a very long time. It was Raphael who saved me.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "With her Holy Water Shell?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Yes.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(She cured my wound very gently with her Shell.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thanks to her, I held on until today.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-gently?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's Michael indeed... I guess only those with augmented bodies would feel that Raphael's Shell is gentle."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If the person being treated was just a regular creature, wouldn't they get blown up first before they can be healed?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Huh? What were you mumbling about, Navigator?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... Um, nothing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was just saying that you're indeed the Four Angels. It takes such special bond like yours to support each other like that."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Indeed.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Not only that...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Raphael was the only reason why I jumped without any worries during the Encounter of Angels.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I did that because I knew that no matter what happens to me, Raphael will heal me.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Raphael... can be trusted.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It sounds like something important."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you said you jumped without any worries. Does it mean something happened to you again?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(I'm sorry.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Err... Why have you gone quiet all of a sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now I'm even more concerned..."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(...)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(If it can get us together...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Get you together? You can't mean...?"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Well... I better go.)"
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thank you for your gift.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah, I still don't get it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... at least it seems like you enjoy your gift. That's good enough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're always so quiet. Being able to bring you happiness is more important than anything else."
+    },
+    {
+     "char": "Michael:",
+     "dialogue": "(Thank you.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

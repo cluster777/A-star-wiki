@@ -53,7 +53,7 @@ export default {
       ascensiondesc:this.chardata.ascension,
       rarity:Number(this.chardata.rarity),
       faction:this.chardata.faction,
-      name:"placeholder",
+      name:this.chardata.chain.name,
       detail:this.chardata.chain.detail,
       //AoE:chardata.chain.detail.AoE,
       description:this.chardata.chain.detail[0][0].description,

@@ -1,715 +1,873 @@
 {
-      "name": "Pepi",
-      "faction": "Independent",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "0 Turn",
-            "description": [
-                  "Moves to any tile within 1 surrounding cluster around the unit.",
-                  "Moves to any tile within 1 surrounding cluster around the unit."
-            ]
-      },
-      "equip": {
-            "name": "Delicate Feathers",
-            "passive": "Restless Grace",
-            "description": [
-                  [
-                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
-                  ],
-                  [
-                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
-                        "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Chain Combo Enhancement: Unlocks the 2nd Chain Combo.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Essence",
-                        "Tales of Survival",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
-            },
-            {
-                  "material": [
-                        "Fire Potion II",
-                        "Fire Flare Silt",
-                        "Survival 101",
-                        "Nightium"
-                  ],
-                  "type": "Keyword",
-                  "before": "",
-                  "after": ""
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 555,
-                        "def": 230,
-                        "hp": 1664
-                  },
-                  {
-                        "att": 565,
-                        "def": 234,
-                        "hp": 1686
-                  },
-                  {
-                        "att": 575,
-                        "def": 237,
-                        "hp": 1709
-                  },
-                  {
-                        "att": 584,
-                        "def": 240,
-                        "hp": 1731
-                  },
-                  {
-                        "att": 594,
-                        "def": 243,
-                        "hp": 1754
-                  },
-                  {
-                        "att": 604,
-                        "def": 246,
-                        "hp": 1776
-                  },
-                  {
-                        "att": 614,
-                        "def": 250,
-                        "hp": 1799
-                  },
-                  {
-                        "att": 624,
-                        "def": 253,
-                        "hp": 1821
-                  },
-                  {
-                        "att": 634,
-                        "def": 256,
-                        "hp": 1844
-                  },
-                  {
-                        "att": 644,
-                        "def": 259,
-                        "hp": 1867
-                  },
-                  {
-                        "att": 653,
-                        "def": 262,
-                        "hp": 1889
-                  },
-                  {
-                        "att": 663,
-                        "def": 266,
-                        "hp": 1912
-                  },
-                  {
-                        "att": 673,
-                        "def": 269,
-                        "hp": 1934
-                  },
-                  {
-                        "att": 683,
-                        "def": 272,
-                        "hp": 1957
-                  },
-                  {
-                        "att": 693,
-                        "def": 275,
-                        "hp": 1979
-                  },
-                  {
-                        "att": 703,
-                        "def": 278,
-                        "hp": 2002
-                  },
-                  {
-                        "att": 713,
-                        "def": 281,
-                        "hp": 2024
-                  },
-                  {
-                        "att": 722,
-                        "def": 285,
-                        "hp": 2047
-                  },
-                  {
-                        "att": 732,
-                        "def": 288,
-                        "hp": 2069
-                  },
-                  {
-                        "att": 742,
-                        "def": 291,
-                        "hp": 2092
-                  },
-                  {
-                        "att": 752,
-                        "def": 294,
-                        "hp": 2115
-                  },
-                  {
-                        "att": 762,
-                        "def": 297,
-                        "hp": 2137
-                  },
-                  {
-                        "att": 772,
-                        "def": 301,
-                        "hp": 2160
-                  },
-                  {
-                        "att": 782,
-                        "def": 304,
-                        "hp": 2182
-                  },
-                  {
-                        "att": 791,
-                        "def": 307,
-                        "hp": 2205
-                  },
-                  {
-                        "att": 801,
-                        "def": 310,
-                        "hp": 2227
-                  },
-                  {
-                        "att": 811,
-                        "def": 313,
-                        "hp": 2250
-                  },
-                  {
-                        "att": 821,
-                        "def": 317,
-                        "hp": 2272
-                  },
-                  {
-                        "att": 831,
-                        "def": 320,
-                        "hp": 2295
-                  },
-                  {
-                        "att": 841,
-                        "def": 323,
-                        "hp": 2317
-                  },
-                  {
-                        "att": 943,
-                        "def": 357,
-                        "hp": 2586
-                  },
-                  {
-                        "att": 955,
-                        "def": 361,
-                        "hp": 2614
-                  },
-                  {
-                        "att": 968,
-                        "def": 365,
-                        "hp": 2642
-                  },
-                  {
-                        "att": 980,
-                        "def": 369,
-                        "hp": 2670
-                  },
-                  {
-                        "att": 992,
-                        "def": 373,
-                        "hp": 2698
-                  },
-                  {
-                        "att": 1005,
-                        "def": 377,
-                        "hp": 2727
-                  },
-                  {
-                        "att": 1017,
-                        "def": 381,
-                        "hp": 2755
-                  },
-                  {
-                        "att": 1029,
-                        "def": 385,
-                        "hp": 2783
-                  },
-                  {
-                        "att": 1042,
-                        "def": 389,
-                        "hp": 2811
-                  },
-                  {
-                        "att": 1054,
-                        "def": 393,
-                        "hp": 2839
-                  },
-                  {
-                        "att": 1066,
-                        "def": 397,
-                        "hp": 2867
-                  },
-                  {
-                        "att": 1079,
-                        "def": 401,
-                        "hp": 2896
-                  },
-                  {
-                        "att": 1091,
-                        "def": 405,
-                        "hp": 2924
-                  },
-                  {
-                        "att": 1103,
-                        "def": 409,
-                        "hp": 2952
-                  },
-                  {
-                        "att": 1116,
-                        "def": 413,
-                        "hp": 2980
-                  },
-                  {
-                        "att": 1128,
-                        "def": 417,
-                        "hp": 3008
-                  },
-                  {
-                        "att": 1140,
-                        "def": 421,
-                        "hp": 3037
-                  },
-                  {
-                        "att": 1153,
-                        "def": 425,
-                        "hp": 3065
-                  },
-                  {
-                        "att": 1165,
-                        "def": 429,
-                        "hp": 3093
-                  },
-                  {
-                        "att": 1177,
-                        "def": 433,
-                        "hp": 3121
-                  },
-                  {
-                        "att": 1190,
-                        "def": 437,
-                        "hp": 3149
-                  },
-                  {
-                        "att": 1202,
-                        "def": 441,
-                        "hp": 3177
-                  },
-                  {
-                        "att": 1214,
-                        "def": 445,
-                        "hp": 3206
-                  },
-                  {
-                        "att": 1227,
-                        "def": 449,
-                        "hp": 3234
-                  },
-                  {
-                        "att": 1239,
-                        "def": 453,
-                        "hp": 3262
-                  },
-                  {
-                        "att": 1251,
-                        "def": 456,
-                        "hp": 3290
-                  },
-                  {
-                        "att": 1264,
-                        "def": 460,
-                        "hp": 3318
-                  },
-                  {
-                        "att": 1276,
-                        "def": 464,
-                        "hp": 3347
-                  },
-                  {
-                        "att": 1288,
-                        "def": 468,
-                        "hp": 3375
-                  },
-                  {
-                        "att": 1301,
-                        "def": 472,
-                        "hp": 3403
-                  },
-                  {
-                        "att": 1313,
-                        "def": 476,
-                        "hp": 3431
-                  },
-                  {
-                        "att": 1325,
-                        "def": 480,
-                        "hp": 3459
-                  },
-                  {
-                        "att": 1338,
-                        "def": 484,
-                        "hp": 3487
-                  },
-                  {
-                        "att": 1350,
-                        "def": 488,
-                        "hp": 3516
-                  },
-                  {
-                        "att": 1362,
-                        "def": 492,
-                        "hp": 3544
-                  },
-                  {
-                        "att": 1375,
-                        "def": 496,
-                        "hp": 3572
-                  },
-                  {
-                        "att": 1387,
-                        "def": 500,
-                        "hp": 3600
-                  },
-                  {
-                        "att": 1399,
-                        "def": 504,
-                        "hp": 3628
-                  },
-                  {
-                        "att": 1412,
-                        "def": 508,
-                        "hp": 3656
-                  },
-                  {
-                        "att": 1424,
-                        "def": 512,
-                        "hp": 3685
-                  },
-                  {
-                        "att": 1573,
-                        "def": 565,
-                        "hp": 4086
-                  },
-                  {
-                        "att": 1582,
-                        "def": 568,
-                        "hp": 4107
-                  },
-                  {
-                        "att": 1592,
-                        "def": 571,
-                        "hp": 4128
-                  },
-                  {
-                        "att": 1601,
-                        "def": 574,
-                        "hp": 4149
-                  },
-                  {
-                        "att": 1610,
-                        "def": 577,
-                        "hp": 4170
-                  },
-                  {
-                        "att": 1619,
-                        "def": 580,
-                        "hp": 4191
-                  },
-                  {
-                        "att": 1629,
-                        "def": 583,
-                        "hp": 4213
-                  },
-                  {
-                        "att": 1638,
-                        "def": 586,
-                        "hp": 4234
-                  },
-                  {
-                        "att": 1647,
-                        "def": 589,
-                        "hp": 4255
-                  },
-                  {
-                        "att": 1656,
-                        "def": 592,
-                        "hp": 4276
-                  },
-                  {
-                        "att": 1666,
-                        "def": 595,
-                        "hp": 4297
-                  },
-                  {
-                        "att": 1675,
-                        "def": 598,
-                        "hp": 4318
-                  },
-                  {
-                        "att": 1684,
-                        "def": 601,
-                        "hp": 4339
-                  },
-                  {
-                        "att": 1693,
-                        "def": 604,
-                        "hp": 4361
-                  },
-                  {
-                        "att": 1703,
-                        "def": 607,
-                        "hp": 4382
-                  },
-                  {
-                        "att": 1712,
-                        "def": 610,
-                        "hp": 4403
-                  },
-                  {
-                        "att": 1721,
-                        "def": 613,
-                        "hp": 4424
-                  },
-                  {
-                        "att": 1730,
-                        "def": 616,
-                        "hp": 4445
-                  },
-                  {
-                        "att": 1739,
-                        "def": 619,
-                        "hp": 4466
-                  },
-                  {
-                        "att": 1749,
-                        "def": 622,
-                        "hp": 4487
-                  },
-                  {
-                        "att": 1758,
-                        "def": 625,
-                        "hp": 4508
-                  },
-                  {
-                        "att": 1767,
-                        "def": 628,
-                        "hp": 4530
-                  },
-                  {
-                        "att": 1776,
-                        "def": 631,
-                        "hp": 4551
-                  },
-                  {
-                        "att": 1786,
-                        "def": 634,
-                        "hp": 4572
-                  },
-                  {
-                        "att": 1795,
-                        "def": 637,
-                        "hp": 4593
-                  },
-                  {
-                        "att": 1804,
-                        "def": 640,
-                        "hp": 4614
-                  },
-                  {
-                        "att": 1813,
-                        "def": 643,
-                        "hp": 4635
-                  },
-                  {
-                        "att": 1823,
-                        "def": 646,
-                        "hp": 4656
-                  },
-                  {
-                        "att": 1832,
-                        "def": 649,
-                        "hp": 4678
-                  },
-                  {
-                        "att": 1841,
-                        "def": 652,
-                        "hp": 4699
-                  },
-                  {
-                        "att": 1850,
-                        "def": 655,
-                        "hp": 4720
-                  },
-                  {
-                        "att": 1860,
-                        "def": 658,
-                        "hp": 4741
-                  },
-                  {
-                        "att": 1869,
-                        "def": 661,
-                        "hp": 4762
-                  },
-                  {
-                        "att": 1878,
-                        "def": 664,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1887,
-                        "def": 667,
-                        "hp": 4804
-                  },
-                  {
-                        "att": 1897,
-                        "def": 670,
-                        "hp": 4826
-                  },
-                  {
-                        "att": 1906,
-                        "def": 673,
-                        "hp": 4847
-                  },
-                  {
-                        "att": 1915,
-                        "def": 676,
-                        "hp": 4868
-                  },
-                  {
-                        "att": 1924,
-                        "def": 679,
-                        "hp": 4889
-                  },
-                  {
-                        "att": 1934,
-                        "def": 682,
-                        "hp": 4910
-                  },
-                  {
-                        "att": 1943,
-                        "def": 685,
-                        "hp": 4931
-                  },
-                  {
-                        "att": 1952,
-                        "def": 688,
-                        "hp": 4952
-                  },
-                  {
-                        "att": 1961,
-                        "def": 691,
-                        "hp": 4973
-                  },
-                  {
-                        "att": 1971,
-                        "def": 694,
-                        "hp": 4995
-                  },
-                  {
-                        "att": 1980,
-                        "def": 697,
-                        "hp": 5016
-                  },
-                  {
-                        "att": 1989,
-                        "def": 700,
-                        "hp": 5037
-                  },
-                  {
-                        "att": 1998,
-                        "def": 703,
-                        "hp": 5058
-                  },
-                  {
-                        "att": 2008,
-                        "def": 706,
-                        "hp": 5079
-                  },
-                  {
-                        "att": 2017,
-                        "def": 709,
-                        "hp": 5100
-                  },
-                  {
-                        "att": 2026,
-                        "def": 712,
-                        "hp": 5121
-                  }
-            ]
-      }
+ "name": "Pepi",
+ "faction": "Independent",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Converter",
+ "skill": {
+  "name": "Path of the Firebird",
+  "cd": "0 Turn",
+  "description": [
+   "Moves to any tile within 1 surrounding cluster around the unit.",
+   "Moves to any tile within 1 surrounding cluster around the unit."
+  ]
+ },
+ "equip": {
+  "name": "Delicate Feathers",
+  "passive": "Restless Grace",
+  "description": [
+   [
+    "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+   ],
+   [
+    "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 2 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 3 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 4 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks.",
+    "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+   ]
+  ],
+  "introduction": "When Pepi used her own flame for the first time, she accidentally burned herself. Of all the feathers lost that day, only this one survived, retaining within it a flickering trace of flame. Since then, Pepi has held onto this feather, drawing power from it to boost her agility."
+ },
+ "chain": {
+  "name": "Flame Dance",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Chain Combo Enhancement: Unlocks the 2nd Chain Combo.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Essence",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Grants up to 5 stack(s) of Pepi Mark. The movement range of the Active Skill becomes a number of clusters around the unit equal to the stacks of the mark. Activating the Active Skill clears all stacks."
+  },
+  {
+   "material": [
+    "Fire Potion II",
+    "Fire Flare Silt",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Keyword",
+   "before": "",
+   "after": ""
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 555,
+    "def": 230,
+    "hp": 1664
+   },
+   {
+    "att": 565,
+    "def": 234,
+    "hp": 1686
+   },
+   {
+    "att": 575,
+    "def": 237,
+    "hp": 1709
+   },
+   {
+    "att": 584,
+    "def": 240,
+    "hp": 1731
+   },
+   {
+    "att": 594,
+    "def": 243,
+    "hp": 1754
+   },
+   {
+    "att": 604,
+    "def": 246,
+    "hp": 1776
+   },
+   {
+    "att": 614,
+    "def": 250,
+    "hp": 1799
+   },
+   {
+    "att": 624,
+    "def": 253,
+    "hp": 1821
+   },
+   {
+    "att": 634,
+    "def": 256,
+    "hp": 1844
+   },
+   {
+    "att": 644,
+    "def": 259,
+    "hp": 1867
+   },
+   {
+    "att": 653,
+    "def": 262,
+    "hp": 1889
+   },
+   {
+    "att": 663,
+    "def": 266,
+    "hp": 1912
+   },
+   {
+    "att": 673,
+    "def": 269,
+    "hp": 1934
+   },
+   {
+    "att": 683,
+    "def": 272,
+    "hp": 1957
+   },
+   {
+    "att": 693,
+    "def": 275,
+    "hp": 1979
+   },
+   {
+    "att": 703,
+    "def": 278,
+    "hp": 2002
+   },
+   {
+    "att": 713,
+    "def": 281,
+    "hp": 2024
+   },
+   {
+    "att": 722,
+    "def": 285,
+    "hp": 2047
+   },
+   {
+    "att": 732,
+    "def": 288,
+    "hp": 2069
+   },
+   {
+    "att": 742,
+    "def": 291,
+    "hp": 2092
+   },
+   {
+    "att": 752,
+    "def": 294,
+    "hp": 2115
+   },
+   {
+    "att": 762,
+    "def": 297,
+    "hp": 2137
+   },
+   {
+    "att": 772,
+    "def": 301,
+    "hp": 2160
+   },
+   {
+    "att": 782,
+    "def": 304,
+    "hp": 2182
+   },
+   {
+    "att": 791,
+    "def": 307,
+    "hp": 2205
+   },
+   {
+    "att": 801,
+    "def": 310,
+    "hp": 2227
+   },
+   {
+    "att": 811,
+    "def": 313,
+    "hp": 2250
+   },
+   {
+    "att": 821,
+    "def": 317,
+    "hp": 2272
+   },
+   {
+    "att": 831,
+    "def": 320,
+    "hp": 2295
+   },
+   {
+    "att": 841,
+    "def": 323,
+    "hp": 2317
+   },
+   {
+    "att": 943,
+    "def": 357,
+    "hp": 2586
+   },
+   {
+    "att": 955,
+    "def": 361,
+    "hp": 2614
+   },
+   {
+    "att": 968,
+    "def": 365,
+    "hp": 2642
+   },
+   {
+    "att": 980,
+    "def": 369,
+    "hp": 2670
+   },
+   {
+    "att": 992,
+    "def": 373,
+    "hp": 2698
+   },
+   {
+    "att": 1005,
+    "def": 377,
+    "hp": 2727
+   },
+   {
+    "att": 1017,
+    "def": 381,
+    "hp": 2755
+   },
+   {
+    "att": 1029,
+    "def": 385,
+    "hp": 2783
+   },
+   {
+    "att": 1042,
+    "def": 389,
+    "hp": 2811
+   },
+   {
+    "att": 1054,
+    "def": 393,
+    "hp": 2839
+   },
+   {
+    "att": 1066,
+    "def": 397,
+    "hp": 2867
+   },
+   {
+    "att": 1079,
+    "def": 401,
+    "hp": 2896
+   },
+   {
+    "att": 1091,
+    "def": 405,
+    "hp": 2924
+   },
+   {
+    "att": 1103,
+    "def": 409,
+    "hp": 2952
+   },
+   {
+    "att": 1116,
+    "def": 413,
+    "hp": 2980
+   },
+   {
+    "att": 1128,
+    "def": 417,
+    "hp": 3008
+   },
+   {
+    "att": 1140,
+    "def": 421,
+    "hp": 3037
+   },
+   {
+    "att": 1153,
+    "def": 425,
+    "hp": 3065
+   },
+   {
+    "att": 1165,
+    "def": 429,
+    "hp": 3093
+   },
+   {
+    "att": 1177,
+    "def": 433,
+    "hp": 3121
+   },
+   {
+    "att": 1190,
+    "def": 437,
+    "hp": 3149
+   },
+   {
+    "att": 1202,
+    "def": 441,
+    "hp": 3177
+   },
+   {
+    "att": 1214,
+    "def": 445,
+    "hp": 3206
+   },
+   {
+    "att": 1227,
+    "def": 449,
+    "hp": 3234
+   },
+   {
+    "att": 1239,
+    "def": 453,
+    "hp": 3262
+   },
+   {
+    "att": 1251,
+    "def": 456,
+    "hp": 3290
+   },
+   {
+    "att": 1264,
+    "def": 460,
+    "hp": 3318
+   },
+   {
+    "att": 1276,
+    "def": 464,
+    "hp": 3347
+   },
+   {
+    "att": 1288,
+    "def": 468,
+    "hp": 3375
+   },
+   {
+    "att": 1301,
+    "def": 472,
+    "hp": 3403
+   },
+   {
+    "att": 1313,
+    "def": 476,
+    "hp": 3431
+   },
+   {
+    "att": 1325,
+    "def": 480,
+    "hp": 3459
+   },
+   {
+    "att": 1338,
+    "def": 484,
+    "hp": 3487
+   },
+   {
+    "att": 1350,
+    "def": 488,
+    "hp": 3516
+   },
+   {
+    "att": 1362,
+    "def": 492,
+    "hp": 3544
+   },
+   {
+    "att": 1375,
+    "def": 496,
+    "hp": 3572
+   },
+   {
+    "att": 1387,
+    "def": 500,
+    "hp": 3600
+   },
+   {
+    "att": 1399,
+    "def": 504,
+    "hp": 3628
+   },
+   {
+    "att": 1412,
+    "def": 508,
+    "hp": 3656
+   },
+   {
+    "att": 1424,
+    "def": 512,
+    "hp": 3685
+   },
+   {
+    "att": 1573,
+    "def": 565,
+    "hp": 4086
+   },
+   {
+    "att": 1582,
+    "def": 568,
+    "hp": 4107
+   },
+   {
+    "att": 1592,
+    "def": 571,
+    "hp": 4128
+   },
+   {
+    "att": 1601,
+    "def": 574,
+    "hp": 4149
+   },
+   {
+    "att": 1610,
+    "def": 577,
+    "hp": 4170
+   },
+   {
+    "att": 1619,
+    "def": 580,
+    "hp": 4191
+   },
+   {
+    "att": 1629,
+    "def": 583,
+    "hp": 4213
+   },
+   {
+    "att": 1638,
+    "def": 586,
+    "hp": 4234
+   },
+   {
+    "att": 1647,
+    "def": 589,
+    "hp": 4255
+   },
+   {
+    "att": 1656,
+    "def": 592,
+    "hp": 4276
+   },
+   {
+    "att": 1666,
+    "def": 595,
+    "hp": 4297
+   },
+   {
+    "att": 1675,
+    "def": 598,
+    "hp": 4318
+   },
+   {
+    "att": 1684,
+    "def": 601,
+    "hp": 4339
+   },
+   {
+    "att": 1693,
+    "def": 604,
+    "hp": 4361
+   },
+   {
+    "att": 1703,
+    "def": 607,
+    "hp": 4382
+   },
+   {
+    "att": 1712,
+    "def": 610,
+    "hp": 4403
+   },
+   {
+    "att": 1721,
+    "def": 613,
+    "hp": 4424
+   },
+   {
+    "att": 1730,
+    "def": 616,
+    "hp": 4445
+   },
+   {
+    "att": 1739,
+    "def": 619,
+    "hp": 4466
+   },
+   {
+    "att": 1749,
+    "def": 622,
+    "hp": 4487
+   },
+   {
+    "att": 1758,
+    "def": 625,
+    "hp": 4508
+   },
+   {
+    "att": 1767,
+    "def": 628,
+    "hp": 4530
+   },
+   {
+    "att": 1776,
+    "def": 631,
+    "hp": 4551
+   },
+   {
+    "att": 1786,
+    "def": 634,
+    "hp": 4572
+   },
+   {
+    "att": 1795,
+    "def": 637,
+    "hp": 4593
+   },
+   {
+    "att": 1804,
+    "def": 640,
+    "hp": 4614
+   },
+   {
+    "att": 1813,
+    "def": 643,
+    "hp": 4635
+   },
+   {
+    "att": 1823,
+    "def": 646,
+    "hp": 4656
+   },
+   {
+    "att": 1832,
+    "def": 649,
+    "hp": 4678
+   },
+   {
+    "att": 1841,
+    "def": 652,
+    "hp": 4699
+   },
+   {
+    "att": 1850,
+    "def": 655,
+    "hp": 4720
+   },
+   {
+    "att": 1860,
+    "def": 658,
+    "hp": 4741
+   },
+   {
+    "att": 1869,
+    "def": 661,
+    "hp": 4762
+   },
+   {
+    "att": 1878,
+    "def": 664,
+    "hp": 4783
+   },
+   {
+    "att": 1887,
+    "def": 667,
+    "hp": 4804
+   },
+   {
+    "att": 1897,
+    "def": 670,
+    "hp": 4826
+   },
+   {
+    "att": 1906,
+    "def": 673,
+    "hp": 4847
+   },
+   {
+    "att": 1915,
+    "def": 676,
+    "hp": 4868
+   },
+   {
+    "att": 1924,
+    "def": 679,
+    "hp": 4889
+   },
+   {
+    "att": 1934,
+    "def": 682,
+    "hp": 4910
+   },
+   {
+    "att": 1943,
+    "def": 685,
+    "hp": 4931
+   },
+   {
+    "att": 1952,
+    "def": 688,
+    "hp": 4952
+   },
+   {
+    "att": 1961,
+    "def": 691,
+    "hp": 4973
+   },
+   {
+    "att": 1971,
+    "def": 694,
+    "hp": 4995
+   },
+   {
+    "att": 1980,
+    "def": 697,
+    "hp": 5016
+   },
+   {
+    "att": 1989,
+    "def": 700,
+    "hp": 5037
+   },
+   {
+    "att": 1998,
+    "def": 703,
+    "hp": 5058
+   },
+   {
+    "att": 2008,
+    "def": 706,
+    "hp": 5079
+   },
+   {
+    "att": 2017,
+    "def": 709,
+    "hp": 5100
+   },
+   {
+    "att": 2026,
+    "def": 712,
+    "hp": 5121
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Victoria",
+     "Pepi"
+    ],
+    "chat": [
+     {
+      "character": "Victoria:",
+      "text": "You came at just the right time, my child..."
+     },
+     {
+      "character": "Pepi:",
+      "text": "Y-Y-Y-Your l-letters..."
+     },
+     {
+      "character": "Pepi:",
+      "text": "I-I-I-I have..."
+     },
+     {
+      "character": "Pepi:",
+      "text": "Th-Three f-for you..."
+     },
+     {
+      "character": "Victoria:",
+      "text": "Why are you trembling so?"
+     },
+     {
+      "character": "Victoria:",
+      "text": "Do not be so afraid. I'm not going to eat you."
+     },
+     {
+      "character": "Pepi:",
+      "text": "T-T-That's a r-relief..."
+     },
+     {
+      "character": "Victoria:",
+      "text": "I simply wish to bestow upon you the endless blessings of the Truth!"
+     },
+     {
+      "character": "Pepi:",
+      "text": "B-Blessings... Of the T-T-Truth?"
+     },
+     {
+      "character": "Pepi:",
+      "text": "W-What's that mean?"
+     },
+     {
+      "character": "Victoria:",
+      "text": "I'm sure someone as clever as you can figure out what it means."
+     },
+     {
+      "character": "Victoria:",
+      "text": "Or would you rather... I show you right here, right now?"
+     },
+     {
+      "character": "Pepi:",
+      "text": "N-N-N-No, th-thanks!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Miss Pepi had been acting paranoid ever since arriving at the Colossus, scrutinizing left and right at nothing in particular... So %s asked her, and after looking around nervously, she whispered in %s's ear. Then, as if reassured by the reply, she sighed, coughed, scratched her messy hair, and pulled off a handful of... feathers? After Miss Pepi returned to her room, I asked %s what question did she have. It turned out she wanted to know if there's a Miss Victoria on this Colossus. I wonder if this Miss Victoria... \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Whoa! You scared me... It's you! Ahem, do you know who I am? What? You actually know... I was planning to introduce myself in a domineering and mighty light!Forget it! It doesn't matter anyway! Speaking of it, this is my first time delivering a letter to a bird this big! Huh? This is a Colossus and not a giant bird? What's the difference? It looks the same as me anyway... Though I look normal, I am actually a descendant of bird demi-human. My father has a pair of handsome winged hands... I don't know why my hands look just the same as those of Aurorians, but I always like to play with my father's winged hands since I was young, and I yearned for the day I would grow a pair of winged hands too!I don't think it'll happen anymore since I'm already this old..."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "My parents were both members of the Courier Union, so I always went to deliver letters with my parents and learned a lot!After the war started, my parents and I fled to the Northland and received the protection of the Queen. My parents returned to the Courier Union soon after to deliver letters for the Coalition in the war. It was dangerous, but it was a job that they were proud of! As my parents were away for years at a time and I was one of the older kids around, I helped everyone and took care of the younger generation of the Courier Union... They could leave everything to me!Everyone praised me, saying that I was more mature than my peers even though I was so young! Do you want to deliver a letter? No problem! I can deliver your letter anywhere on this continent! Minus the True Order because it is the exception. Though I can't turn down any job right now..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Heh! Look at my scarf. Don't you think it's long and looks super warm? Just between us, it's both warm and super awesome! I can use it to protect myself and the people around me... No, I didn't get it myself. There's no way I could make something like this. This was a gift from an elder of the Courier Union who once worked in the division!I've grown older now, and there are more feathers on my head. I'm no longer a little bird! I'm now an official courier too! Even though I have such a long and warm scarf to protect myself, I wonder why I don't have a Speaker like everyone else. I'm obviously also a great official courier!What, you doubt my greatness? I can't even borrow that for a bit?"
+  }
+ ],
+ "voice": [
+  "The Courier Union looks out for even someone ordinary like me. I feel totally blessed.",
+  "Keeping the job means putting up with that scary blond recipient... It's so scary, like totally.",
+  "We always deliver. Yes, like totally.",
+  "See their gaping maw? Could devour a sparrow whole with one bite, like totally! *sniff* Scary...",
+  "She, an elliptical missile? Fluffy enough to be a ball is more like it.",
+  "It's totally in dove's nature to stand me up, see how she coos like one all the time.",
+  "Let me live somewhere safe for once... I'm just envious of the extraordinary sometimes.",
+  "I totally can't face weird things. They're so disturbing and so scary...",
+  "Colossus? My first time seeing one. It has such a long, pale and hairless neck... That's like totally weird.",
+  "Fine, fine, I'll shut up... You sure you want me to shut up though? Won't you feel lonely if I do so?",
+  "Wait, let me find the order. I totally put it in the box yesterday... Eh? I'm always blurry? That's just my setting...",
+  "We lost... But it's okay, we're perfectly alive!",
+  "It's over. Shouldn't we be looting?",
+  "What is that, a flame?",
+  "Such a troublesome flame!",
+  "I WILL put in the effort, maybe.",
+  "Happy New Year, totally!",
+  "I know, I know. I'm coming, like totally.",
+  "Erm, so what should I say at moments like this?",
+  "Like evolution?! Oh, still quite ordinary.",
+  "So, why are you always in peril of getting surrounded by the Eclipsites? You sure you didn't go looking for trouble on your own?",
+  "Whoa, what's this I feel?!",
+  "Look, Alchemy Stars!",
+  "There's a rumor that you're secretly rich... What, you're not? Liar! How could you be so impressive without money? Like, the princess of Lumopolis, she's totally impressive.",
+  "Don't you scared of aggressive women? Might be blond and she'd run up call you cutie... boo-hoo...",
+  "Why are powerful Eclipsites coming after you all the time? Are you a prince of someplace or something? I mean, the Colossus might as well be a white horse that you ride on, like totally!",
+  "Oh, the brunt of my attack is from... this s-s-scarf... Yeah, scarf, totally... It's all, urgh, tangled up... What a nuisance...",
+  "So, how are we supposed to get a Speaker? Totally can't get promoted in the Courier Union without a Speaker. Isn't there any training for that? Catch one myself? No way...",
+  "Sorry, I accidentally broke the compass... Backup? What, that's the one I broke two days ago? Well, uh, don't you know how to navigate? You shouldn't need any compass then, like totally.",
+  "Why are so many people following you...? I'm totally following you just to see what's so special about you!",
+  "I'm jealous that people always hang around you, when you actually don't have much clout at all... Fine, fine, since you're just more precious, like totally.",
+  "I'll like... get someone to fly over and show you what real wings look like one of the days... Since I don't have them myself.",
+  "Not swallow! Sparrow! Why can't people enunciate? That sounds so weird, like totally!",
+  "I live alone. I lived with my family before, but before we realized, we've like... all moved to separate places.",
+  "Welcome back, I couldn't do much alone anyway, so I simply waited for you.",
+  "I probably left the dispatch order in the bedroom... Wait, where did I sleep again last night?",
+  "Oh, I'm just making out a task list, and should work moderately hard at it, like totally.",
+  "You don't want a break? For real? But still being up and about at this hour is like totally impressive.",
+  "Whoa, you people look totally off-the-hook impressive! I'm, like, expendable... Wait, don't leave me, come on!",
+  "Whoa, where did you get that? I'm like a little weirded out by it...",
+  "Uh... I don't really like this though. You do know that, right?",
+  "Such a nice present for such an ordinary me? I'm so close to tears...",
+  "I'm moved by how nice you are to such an ordinary me, like totally...",
+  "Keep up the good work, see ya... I can't bail?",
+  "Whoa! That was close! Time to bail... Was I that slow?!",
+  "Hey, are you just browsing?",
+  "What did you say? Whoa! You wrote a profile for everyone? That sounded like work, like totally... Erm, don't get mad, but what's with the \"Objects Broken\" entry?",
+  "Somebody gave me the scarf. How else could an ordinary sparrow get a powerful artifact like that... Emphasis on powerful!",
+  "I'm leading? Really? For real?"
+ ],
+ "skins": [],
+ "description": "A member of the Courier Union, who is responsible for correspondence with the True Order. She is careless, sloppy, makes a lot of unnecessary noise, and lacks a sense of responsibility. Despite her shortcomings, everyone accepts her because she forthright and has nothing to hide.",
+ "realName": "Pepi",
+ "nickname": "Impetuous Firebird",
+ "gender": "Female",
+ "height": "4'5\"",
+ "birthday": "August 12",
+ "birthplace": "Varaki Town",
+ "style": "Delicate Feathers, Blazing Scarf"
 }

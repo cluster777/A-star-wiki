@@ -1,1153 +1,1258 @@
 {
-      "name": "Sinsa",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "Thunder",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Selects 1 tile from the 4 tiles in a cross shape around and deals 180% damage in a fan-shaped area in this direction. (the closer the enemy is, the higher the damage. Can deal up to 2.5x damage).",
-                  "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill.",
-                  "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill."
-            ]
-      },
-      "equip": {
-            "name": "Rediesel Wrench",
-            "passive": "Killing Sand",
-            "description": [
-                  [
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
-                  ],
-                  [
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
-                  ],
-                  [
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
-                        "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Increases skill damage to 200%. Damage taken by the enemy nearest to Sinsa is tripled."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Potion I",
-                        "Fire Crystal Dust",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
-            },
-            {
-                  "material": [
-                        "Fire Crystal",
-                        "Fire Flare Silt",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Selects 1 tile from the 4 tiles in a cross shape around and deals 180% damage in a fan-shaped area in this direction. (the closer the enemy is, the higher the damage. Can deal up to 2.5x damage).",
-                  "after": "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill."
-            },
-            {
-                  "material": [
-                        "Fire Flare Tile",
-                        "Fire Potion II",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round.",
-                  "after": "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 613,
-                        "def": 257,
-                        "hp": 2258
-                  },
-                  {
-                        "att": 625,
-                        "def": 261,
-                        "hp": 2295
-                  },
-                  {
-                        "att": 637,
-                        "def": 265,
-                        "hp": 2333
-                  },
-                  {
-                        "att": 649,
-                        "def": 269,
-                        "hp": 2371
-                  },
-                  {
-                        "att": 661,
-                        "def": 273,
-                        "hp": 2408
-                  },
-                  {
-                        "att": 673,
-                        "def": 277,
-                        "hp": 2446
-                  },
-                  {
-                        "att": 685,
-                        "def": 281,
-                        "hp": 2484
-                  },
-                  {
-                        "att": 697,
-                        "def": 285,
-                        "hp": 2522
-                  },
-                  {
-                        "att": 709,
-                        "def": 289,
-                        "hp": 2559
-                  },
-                  {
-                        "att": 721,
-                        "def": 293,
-                        "hp": 2597
-                  },
-                  {
-                        "att": 733,
-                        "def": 297,
-                        "hp": 2635
-                  },
-                  {
-                        "att": 745,
-                        "def": 301,
-                        "hp": 2672
-                  },
-                  {
-                        "att": 757,
-                        "def": 305,
-                        "hp": 2710
-                  },
-                  {
-                        "att": 770,
-                        "def": 309,
-                        "hp": 2748
-                  },
-                  {
-                        "att": 782,
-                        "def": 313,
-                        "hp": 2785
-                  },
-                  {
-                        "att": 794,
-                        "def": 317,
-                        "hp": 2823
-                  },
-                  {
-                        "att": 806,
-                        "def": 321,
-                        "hp": 2861
-                  },
-                  {
-                        "att": 818,
-                        "def": 325,
-                        "hp": 2898
-                  },
-                  {
-                        "att": 830,
-                        "def": 329,
-                        "hp": 2936
-                  },
-                  {
-                        "att": 842,
-                        "def": 333,
-                        "hp": 2974
-                  },
-                  {
-                        "att": 854,
-                        "def": 337,
-                        "hp": 3012
-                  },
-                  {
-                        "att": 866,
-                        "def": 341,
-                        "hp": 3049
-                  },
-                  {
-                        "att": 878,
-                        "def": 345,
-                        "hp": 3087
-                  },
-                  {
-                        "att": 890,
-                        "def": 349,
-                        "hp": 3125
-                  },
-                  {
-                        "att": 902,
-                        "def": 353,
-                        "hp": 3162
-                  },
-                  {
-                        "att": 914,
-                        "def": 357,
-                        "hp": 3200
-                  },
-                  {
-                        "att": 926,
-                        "def": 361,
-                        "hp": 3238
-                  },
-                  {
-                        "att": 939,
-                        "def": 366,
-                        "hp": 3275
-                  },
-                  {
-                        "att": 951,
-                        "def": 370,
-                        "hp": 3313
-                  },
-                  {
-                        "att": 963,
-                        "def": 374,
-                        "hp": 3351
-                  },
-                  {
-                        "att": 1068,
-                        "def": 409,
-                        "hp": 3648
-                  },
-                  {
-                        "att": 1083,
-                        "def": 414,
-                        "hp": 3695
-                  },
-                  {
-                        "att": 1098,
-                        "def": 419,
-                        "hp": 3742
-                  },
-                  {
-                        "att": 1113,
-                        "def": 424,
-                        "hp": 3789
-                  },
-                  {
-                        "att": 1128,
-                        "def": 429,
-                        "hp": 3836
-                  },
-                  {
-                        "att": 1143,
-                        "def": 434,
-                        "hp": 3884
-                  },
-                  {
-                        "att": 1158,
-                        "def": 439,
-                        "hp": 3931
-                  },
-                  {
-                        "att": 1173,
-                        "def": 444,
-                        "hp": 3978
-                  },
-                  {
-                        "att": 1189,
-                        "def": 449,
-                        "hp": 4025
-                  },
-                  {
-                        "att": 1204,
-                        "def": 454,
-                        "hp": 4072
-                  },
-                  {
-                        "att": 1219,
-                        "def": 459,
-                        "hp": 4119
-                  },
-                  {
-                        "att": 1234,
-                        "def": 464,
-                        "hp": 4166
-                  },
-                  {
-                        "att": 1249,
-                        "def": 469,
-                        "hp": 4213
-                  },
-                  {
-                        "att": 1264,
-                        "def": 474,
-                        "hp": 4261
-                  },
-                  {
-                        "att": 1279,
-                        "def": 479,
-                        "hp": 4308
-                  },
-                  {
-                        "att": 1294,
-                        "def": 484,
-                        "hp": 4355
-                  },
-                  {
-                        "att": 1309,
-                        "def": 489,
-                        "hp": 4402
-                  },
-                  {
-                        "att": 1324,
-                        "def": 494,
-                        "hp": 4449
-                  },
-                  {
-                        "att": 1339,
-                        "def": 499,
-                        "hp": 4496
-                  },
-                  {
-                        "att": 1355,
-                        "def": 504,
-                        "hp": 4543
-                  },
-                  {
-                        "att": 1370,
-                        "def": 510,
-                        "hp": 4590
-                  },
-                  {
-                        "att": 1385,
-                        "def": 515,
-                        "hp": 4638
-                  },
-                  {
-                        "att": 1400,
-                        "def": 520,
-                        "hp": 4685
-                  },
-                  {
-                        "att": 1415,
-                        "def": 525,
-                        "hp": 4732
-                  },
-                  {
-                        "att": 1430,
-                        "def": 530,
-                        "hp": 4779
-                  },
-                  {
-                        "att": 1445,
-                        "def": 535,
-                        "hp": 4826
-                  },
-                  {
-                        "att": 1460,
-                        "def": 540,
-                        "hp": 4873
-                  },
-                  {
-                        "att": 1475,
-                        "def": 545,
-                        "hp": 4920
-                  },
-                  {
-                        "att": 1490,
-                        "def": 550,
-                        "hp": 4967
-                  },
-                  {
-                        "att": 1505,
-                        "def": 555,
-                        "hp": 5015
-                  },
-                  {
-                        "att": 1521,
-                        "def": 560,
-                        "hp": 5062
-                  },
-                  {
-                        "att": 1536,
-                        "def": 565,
-                        "hp": 5109
-                  },
-                  {
-                        "att": 1551,
-                        "def": 570,
-                        "hp": 5156
-                  },
-                  {
-                        "att": 1566,
-                        "def": 575,
-                        "hp": 5203
-                  },
-                  {
-                        "att": 1581,
-                        "def": 580,
-                        "hp": 5250
-                  },
-                  {
-                        "att": 1596,
-                        "def": 585,
-                        "hp": 5297
-                  },
-                  {
-                        "att": 1611,
-                        "def": 590,
-                        "hp": 5344
-                  },
-                  {
-                        "att": 1626,
-                        "def": 595,
-                        "hp": 5392
-                  },
-                  {
-                        "att": 1641,
-                        "def": 600,
-                        "hp": 5439
-                  },
-                  {
-                        "att": 1656,
-                        "def": 605,
-                        "hp": 5486
-                  },
-                  {
-                        "att": 1818,
-                        "def": 659,
-                        "hp": 5921
-                  },
-                  {
-                        "att": 1829,
-                        "def": 663,
-                        "hp": 5956
-                  },
-                  {
-                        "att": 1840,
-                        "def": 667,
-                        "hp": 5992
-                  },
-                  {
-                        "att": 1852,
-                        "def": 670,
-                        "hp": 6027
-                  },
-                  {
-                        "att": 1863,
-                        "def": 674,
-                        "hp": 6063
-                  },
-                  {
-                        "att": 1874,
-                        "def": 678,
-                        "hp": 6098
-                  },
-                  {
-                        "att": 1886,
-                        "def": 682,
-                        "hp": 6133
-                  },
-                  {
-                        "att": 1897,
-                        "def": 686,
-                        "hp": 6169
-                  },
-                  {
-                        "att": 1908,
-                        "def": 689,
-                        "hp": 6204
-                  },
-                  {
-                        "att": 1920,
-                        "def": 693,
-                        "hp": 6239
-                  },
-                  {
-                        "att": 1931,
-                        "def": 697,
-                        "hp": 6275
-                  },
-                  {
-                        "att": 1942,
-                        "def": 701,
-                        "hp": 6310
-                  },
-                  {
-                        "att": 1954,
-                        "def": 705,
-                        "hp": 6345
-                  },
-                  {
-                        "att": 1965,
-                        "def": 708,
-                        "hp": 6381
-                  },
-                  {
-                        "att": 1976,
-                        "def": 712,
-                        "hp": 6416
-                  },
-                  {
-                        "att": 1987,
-                        "def": 716,
-                        "hp": 6451
-                  },
-                  {
-                        "att": 1999,
-                        "def": 720,
-                        "hp": 6487
-                  },
-                  {
-                        "att": 2010,
-                        "def": 723,
-                        "hp": 6522
-                  },
-                  {
-                        "att": 2021,
-                        "def": 727,
-                        "hp": 6557
-                  },
-                  {
-                        "att": 2033,
-                        "def": 731,
-                        "hp": 6593
-                  },
-                  {
-                        "att": 2044,
-                        "def": 735,
-                        "hp": 6628
-                  },
-                  {
-                        "att": 2055,
-                        "def": 739,
-                        "hp": 6663
-                  },
-                  {
-                        "att": 2067,
-                        "def": 742,
-                        "hp": 6699
-                  },
-                  {
-                        "att": 2078,
-                        "def": 746,
-                        "hp": 6734
-                  },
-                  {
-                        "att": 2089,
-                        "def": 750,
-                        "hp": 6769
-                  },
-                  {
-                        "att": 2101,
-                        "def": 754,
-                        "hp": 6805
-                  },
-                  {
-                        "att": 2112,
-                        "def": 758,
-                        "hp": 6840
-                  },
-                  {
-                        "att": 2123,
-                        "def": 761,
-                        "hp": 6875
-                  },
-                  {
-                        "att": 2135,
-                        "def": 765,
-                        "hp": 6911
-                  },
-                  {
-                        "att": 2146,
-                        "def": 769,
-                        "hp": 6946
-                  },
-                  {
-                        "att": 2157,
-                        "def": 773,
-                        "hp": 6981
-                  },
-                  {
-                        "att": 2169,
-                        "def": 776,
-                        "hp": 7017
-                  },
-                  {
-                        "att": 2180,
-                        "def": 780,
-                        "hp": 7052
-                  },
-                  {
-                        "att": 2191,
-                        "def": 784,
-                        "hp": 7087
-                  },
-                  {
-                        "att": 2203,
-                        "def": 788,
-                        "hp": 7123
-                  },
-                  {
-                        "att": 2214,
-                        "def": 792,
-                        "hp": 7158
-                  },
-                  {
-                        "att": 2225,
-                        "def": 795,
-                        "hp": 7193
-                  },
-                  {
-                        "att": 2236,
-                        "def": 799,
-                        "hp": 7229
-                  },
-                  {
-                        "att": 2248,
-                        "def": 803,
-                        "hp": 7264
-                  },
-                  {
-                        "att": 2259,
-                        "def": 807,
-                        "hp": 7300
-                  },
-                  {
-                        "att": 2270,
-                        "def": 810,
-                        "hp": 7335
-                  },
-                  {
-                        "att": 2282,
-                        "def": 814,
-                        "hp": 7370
-                  },
-                  {
-                        "att": 2293,
-                        "def": 818,
-                        "hp": 7406
-                  },
-                  {
-                        "att": 2304,
-                        "def": 822,
-                        "hp": 7441
-                  },
-                  {
-                        "att": 2316,
-                        "def": 826,
-                        "hp": 7476
-                  },
-                  {
-                        "att": 2327,
-                        "def": 829,
-                        "hp": 7512
-                  },
-                  {
-                        "att": 2338,
-                        "def": 833,
-                        "hp": 7547
-                  },
-                  {
-                        "att": 2350,
-                        "def": 837,
-                        "hp": 7582
-                  },
-                  {
-                        "att": 2361,
-                        "def": 841,
-                        "hp": 7618
-                  },
-                  {
-                        "att": 2372,
-                        "def": 845,
-                        "hp": 7653
-                  },
-                  {
-                        "att": 2605,
-                        "def": 917,
-                        "hp": 8276
-                  },
-                  {
-                        "att": 2612,
-                        "def": 920,
-                        "hp": 8300
-                  },
-                  {
-                        "att": 2620,
-                        "def": 922,
-                        "hp": 8324
-                  },
-                  {
-                        "att": 2627,
-                        "def": 925,
-                        "hp": 8347
-                  },
-                  {
-                        "att": 2635,
-                        "def": 927,
-                        "hp": 8371
-                  },
-                  {
-                        "att": 2643,
-                        "def": 930,
-                        "hp": 8394
-                  },
-                  {
-                        "att": 2650,
-                        "def": 932,
-                        "hp": 8418
-                  },
-                  {
-                        "att": 2658,
-                        "def": 935,
-                        "hp": 8441
-                  },
-                  {
-                        "att": 2665,
-                        "def": 937,
-                        "hp": 8465
-                  },
-                  {
-                        "att": 2673,
-                        "def": 940,
-                        "hp": 8489
-                  },
-                  {
-                        "att": 2680,
-                        "def": 942,
-                        "hp": 8512
-                  },
-                  {
-                        "att": 2688,
-                        "def": 945,
-                        "hp": 8536
-                  },
-                  {
-                        "att": 2695,
-                        "def": 947,
-                        "hp": 8559
-                  },
-                  {
-                        "att": 2703,
-                        "def": 950,
-                        "hp": 8583
-                  },
-                  {
-                        "att": 2710,
-                        "def": 952,
-                        "hp": 8606
-                  },
-                  {
-                        "att": 2718,
-                        "def": 955,
-                        "hp": 8630
-                  },
-                  {
-                        "att": 2726,
-                        "def": 957,
-                        "hp": 8653
-                  },
-                  {
-                        "att": 2733,
-                        "def": 960,
-                        "hp": 8677
-                  },
-                  {
-                        "att": 2741,
-                        "def": 962,
-                        "hp": 8701
-                  },
-                  {
-                        "att": 2748,
-                        "def": 965,
-                        "hp": 8724
-                  },
-                  {
-                        "att": 2756,
-                        "def": 967,
-                        "hp": 8748
-                  },
-                  {
-                        "att": 2763,
-                        "def": 970,
-                        "hp": 8771
-                  },
-                  {
-                        "att": 2771,
-                        "def": 973,
-                        "hp": 8795
-                  },
-                  {
-                        "att": 2778,
-                        "def": 975,
-                        "hp": 8818
-                  },
-                  {
-                        "att": 2786,
-                        "def": 978,
-                        "hp": 8842
-                  },
-                  {
-                        "att": 2793,
-                        "def": 980,
-                        "hp": 8866
-                  },
-                  {
-                        "att": 2801,
-                        "def": 983,
-                        "hp": 8889
-                  },
-                  {
-                        "att": 2809,
-                        "def": 985,
-                        "hp": 8913
-                  },
-                  {
-                        "att": 2816,
-                        "def": 988,
-                        "hp": 8936
-                  },
-                  {
-                        "att": 2824,
-                        "def": 990,
-                        "hp": 8960
-                  },
-                  {
-                        "att": 2831,
-                        "def": 993,
-                        "hp": 8983
-                  },
-                  {
-                        "att": 2839,
-                        "def": 995,
-                        "hp": 9007
-                  },
-                  {
-                        "att": 2846,
-                        "def": 998,
-                        "hp": 9030
-                  },
-                  {
-                        "att": 2854,
-                        "def": 1000,
-                        "hp": 9054
-                  },
-                  {
-                        "att": 2861,
-                        "def": 1003,
-                        "hp": 9078
-                  },
-                  {
-                        "att": 2869,
-                        "def": 1005,
-                        "hp": 9101
-                  },
-                  {
-                        "att": 2876,
-                        "def": 1008,
-                        "hp": 9125
-                  },
-                  {
-                        "att": 2884,
-                        "def": 1010,
-                        "hp": 9148
-                  },
-                  {
-                        "att": 2892,
-                        "def": 1013,
-                        "hp": 9172
-                  },
-                  {
-                        "att": 2899,
-                        "def": 1015,
-                        "hp": 9195
-                  },
-                  {
-                        "att": 2907,
-                        "def": 1018,
-                        "hp": 9219
-                  },
-                  {
-                        "att": 2914,
-                        "def": 1020,
-                        "hp": 9243
-                  },
-                  {
-                        "att": 2922,
-                        "def": 1023,
-                        "hp": 9266
-                  },
-                  {
-                        "att": 2929,
-                        "def": 1025,
-                        "hp": 9290
-                  },
-                  {
-                        "att": 2937,
-                        "def": 1028,
-                        "hp": 9313
-                  },
-                  {
-                        "att": 2944,
-                        "def": 1031,
-                        "hp": 9337
-                  },
-                  {
-                        "att": 2952,
-                        "def": 1033,
-                        "hp": 9360
-                  },
-                  {
-                        "att": 2959,
-                        "def": 1036,
-                        "hp": 9384
-                  },
-                  {
-                        "att": 2967,
-                        "def": 1038,
-                        "hp": 9407
-                  },
-                  {
-                        "att": 2975,
-                        "def": 1041,
-                        "hp": 9431
-                  },
-                  {
-                        "att": 2982,
-                        "def": 1043,
-                        "hp": 9455
-                  },
-                  {
-                        "att": 2990,
-                        "def": 1046,
-                        "hp": 9478
-                  },
-                  {
-                        "att": 2997,
-                        "def": 1048,
-                        "hp": 9502
-                  },
-                  {
-                        "att": 3005,
-                        "def": 1051,
-                        "hp": 9525
-                  },
-                  {
-                        "att": 3012,
-                        "def": 1053,
-                        "hp": 9549
-                  },
-                  {
-                        "att": 3020,
-                        "def": 1056,
-                        "hp": 9572
-                  },
-                  {
-                        "att": 3027,
-                        "def": 1058,
-                        "hp": 9596
-                  },
-                  {
-                        "att": 3035,
-                        "def": 1061,
-                        "hp": 9619
-                  },
-                  {
-                        "att": 3042,
-                        "def": 1063,
-                        "hp": 9643
-                  },
-                  {
-                        "att": 3050,
-                        "def": 1066,
-                        "hp": 9667
-                  },
-                  {
-                        "att": 3058,
-                        "def": 1068,
-                        "hp": 9690
-                  },
-                  {
-                        "att": 3065,
-                        "def": 1071,
-                        "hp": 9714
-                  },
-                  {
-                        "att": 3073,
-                        "def": 1073,
-                        "hp": 9737
-                  },
-                  {
-                        "att": 3080,
-                        "def": 1076,
-                        "hp": 9761
-                  },
-                  {
-                        "att": 3088,
-                        "def": 1078,
-                        "hp": 9784
-                  },
-                  {
-                        "att": 3095,
-                        "def": 1081,
-                        "hp": 9808
-                  },
-                  {
-                        "att": 3103,
-                        "def": 1084,
-                        "hp": 9832
-                  },
-                  {
-                        "att": 3110,
-                        "def": 1086,
-                        "hp": 9855
-                  },
-                  {
-                        "att": 3118,
-                        "def": 1089,
-                        "hp": 9879
-                  },
-                  {
-                        "att": 3125,
-                        "def": 1091,
-                        "hp": 9902
-                  },
-                  {
-                        "att": 3133,
-                        "def": 1094,
-                        "hp": 9926
-                  },
-                  {
-                        "att": 3141,
-                        "def": 1096,
-                        "hp": 9949
-                  },
-                  {
-                        "att": 3148,
-                        "def": 1099,
-                        "hp": 9973
-                  },
-                  {
-                        "att": 3156,
-                        "def": 1101,
-                        "hp": 9996
-                  },
-                  {
-                        "att": 3163,
-                        "def": 1104,
-                        "hp": 10020
-                  },
-                  {
-                        "att": 3171,
-                        "def": 1106,
-                        "hp": 10044
-                  },
-                  {
-                        "att": 3178,
-                        "def": 1109,
-                        "hp": 10067
-                  },
-                  {
-                        "att": 3186,
-                        "def": 1111,
-                        "hp": 10091
-                  },
-                  {
-                        "att": 3193,
-                        "def": 1114,
-                        "hp": 10114
-                  },
-                  {
-                        "att": 3201,
-                        "def": 1116,
-                        "hp": 10138
-                  }
-            ]
-      }
+ "name": "Sinsa",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "Thunder",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Sinsa's Shatterstrike",
+  "cd": "3 Turn",
+  "description": [
+   "Selects 1 tile from the 4 tiles in a cross shape around and deals 180% damage in a fan-shaped area in this direction. (the closer the enemy is, the higher the damage. Can deal up to 2.5x damage).",
+   "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill.",
+   "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill."
+  ]
+ },
+ "equip": {
+  "name": "Rediesel Wrench",
+  "passive": "Killing Sand",
+  "description": [
+   [
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
+   ],
+   [
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
+   ],
+   [
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 2% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 3% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 4% of Sinsa's basic DEF for 1 round.",
+    "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
+   ]
+  ],
+  "introduction": "It is said that this oversized wrench was used by the first chief of Rediesel Wrench, and that only those who can wield it with ease are qualified to become the chief. The hard hammerhead combined with Sinsa's power makes it capable of smashing anything."
+ },
+ "chain": {
+  "name": "Splatterfire",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Increases skill damage to 200%. Damage taken by the enemy nearest to Sinsa is tripled."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Potion I",
+    "Fire Crystal Dust",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
+  },
+  {
+   "material": [
+    "Fire Crystal",
+    "Fire Flare Silt",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Selects 1 tile from the 4 tiles in a cross shape around and deals 180% damage in a fan-shaped area in this direction. (the closer the enemy is, the higher the damage. Can deal up to 2.5x damage).",
+   "after": "Selects 1 tile from the 8 tiles in a cross shape in the surrounding area and deals 180% damage in a fan-shaped area in this direction (the closer the enemy is to Sinsa, the higher the damage. Can deal up to 2.5x damage). If an an outer tile is selected, Sinsa will move forward 1 tile to cast this skill."
+  },
+  {
+   "material": [
+    "Fire Flare Tile",
+    "Fire Potion II",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Normal attacks can hit diagonally. Normal diagonal attacks afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round.",
+   "after": "Normal attacks can hit diagonally. Normal diagonal attacks, Active Skills, and Chain Combos afflict the target with 1 stack of Shatter, which stacks up to 5 times. Each stack reduces the target's DEF by an amount equal to 5% of Sinsa's basic DEF for 1 round."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 613,
+    "def": 257,
+    "hp": 2258
+   },
+   {
+    "att": 625,
+    "def": 261,
+    "hp": 2295
+   },
+   {
+    "att": 637,
+    "def": 265,
+    "hp": 2333
+   },
+   {
+    "att": 649,
+    "def": 269,
+    "hp": 2371
+   },
+   {
+    "att": 661,
+    "def": 273,
+    "hp": 2408
+   },
+   {
+    "att": 673,
+    "def": 277,
+    "hp": 2446
+   },
+   {
+    "att": 685,
+    "def": 281,
+    "hp": 2484
+   },
+   {
+    "att": 697,
+    "def": 285,
+    "hp": 2522
+   },
+   {
+    "att": 709,
+    "def": 289,
+    "hp": 2559
+   },
+   {
+    "att": 721,
+    "def": 293,
+    "hp": 2597
+   },
+   {
+    "att": 733,
+    "def": 297,
+    "hp": 2635
+   },
+   {
+    "att": 745,
+    "def": 301,
+    "hp": 2672
+   },
+   {
+    "att": 757,
+    "def": 305,
+    "hp": 2710
+   },
+   {
+    "att": 770,
+    "def": 309,
+    "hp": 2748
+   },
+   {
+    "att": 782,
+    "def": 313,
+    "hp": 2785
+   },
+   {
+    "att": 794,
+    "def": 317,
+    "hp": 2823
+   },
+   {
+    "att": 806,
+    "def": 321,
+    "hp": 2861
+   },
+   {
+    "att": 818,
+    "def": 325,
+    "hp": 2898
+   },
+   {
+    "att": 830,
+    "def": 329,
+    "hp": 2936
+   },
+   {
+    "att": 842,
+    "def": 333,
+    "hp": 2974
+   },
+   {
+    "att": 854,
+    "def": 337,
+    "hp": 3012
+   },
+   {
+    "att": 866,
+    "def": 341,
+    "hp": 3049
+   },
+   {
+    "att": 878,
+    "def": 345,
+    "hp": 3087
+   },
+   {
+    "att": 890,
+    "def": 349,
+    "hp": 3125
+   },
+   {
+    "att": 902,
+    "def": 353,
+    "hp": 3162
+   },
+   {
+    "att": 914,
+    "def": 357,
+    "hp": 3200
+   },
+   {
+    "att": 926,
+    "def": 361,
+    "hp": 3238
+   },
+   {
+    "att": 939,
+    "def": 366,
+    "hp": 3275
+   },
+   {
+    "att": 951,
+    "def": 370,
+    "hp": 3313
+   },
+   {
+    "att": 963,
+    "def": 374,
+    "hp": 3351
+   },
+   {
+    "att": 1068,
+    "def": 409,
+    "hp": 3648
+   },
+   {
+    "att": 1083,
+    "def": 414,
+    "hp": 3695
+   },
+   {
+    "att": 1098,
+    "def": 419,
+    "hp": 3742
+   },
+   {
+    "att": 1113,
+    "def": 424,
+    "hp": 3789
+   },
+   {
+    "att": 1128,
+    "def": 429,
+    "hp": 3836
+   },
+   {
+    "att": 1143,
+    "def": 434,
+    "hp": 3884
+   },
+   {
+    "att": 1158,
+    "def": 439,
+    "hp": 3931
+   },
+   {
+    "att": 1173,
+    "def": 444,
+    "hp": 3978
+   },
+   {
+    "att": 1189,
+    "def": 449,
+    "hp": 4025
+   },
+   {
+    "att": 1204,
+    "def": 454,
+    "hp": 4072
+   },
+   {
+    "att": 1219,
+    "def": 459,
+    "hp": 4119
+   },
+   {
+    "att": 1234,
+    "def": 464,
+    "hp": 4166
+   },
+   {
+    "att": 1249,
+    "def": 469,
+    "hp": 4213
+   },
+   {
+    "att": 1264,
+    "def": 474,
+    "hp": 4261
+   },
+   {
+    "att": 1279,
+    "def": 479,
+    "hp": 4308
+   },
+   {
+    "att": 1294,
+    "def": 484,
+    "hp": 4355
+   },
+   {
+    "att": 1309,
+    "def": 489,
+    "hp": 4402
+   },
+   {
+    "att": 1324,
+    "def": 494,
+    "hp": 4449
+   },
+   {
+    "att": 1339,
+    "def": 499,
+    "hp": 4496
+   },
+   {
+    "att": 1355,
+    "def": 504,
+    "hp": 4543
+   },
+   {
+    "att": 1370,
+    "def": 510,
+    "hp": 4590
+   },
+   {
+    "att": 1385,
+    "def": 515,
+    "hp": 4638
+   },
+   {
+    "att": 1400,
+    "def": 520,
+    "hp": 4685
+   },
+   {
+    "att": 1415,
+    "def": 525,
+    "hp": 4732
+   },
+   {
+    "att": 1430,
+    "def": 530,
+    "hp": 4779
+   },
+   {
+    "att": 1445,
+    "def": 535,
+    "hp": 4826
+   },
+   {
+    "att": 1460,
+    "def": 540,
+    "hp": 4873
+   },
+   {
+    "att": 1475,
+    "def": 545,
+    "hp": 4920
+   },
+   {
+    "att": 1490,
+    "def": 550,
+    "hp": 4967
+   },
+   {
+    "att": 1505,
+    "def": 555,
+    "hp": 5015
+   },
+   {
+    "att": 1521,
+    "def": 560,
+    "hp": 5062
+   },
+   {
+    "att": 1536,
+    "def": 565,
+    "hp": 5109
+   },
+   {
+    "att": 1551,
+    "def": 570,
+    "hp": 5156
+   },
+   {
+    "att": 1566,
+    "def": 575,
+    "hp": 5203
+   },
+   {
+    "att": 1581,
+    "def": 580,
+    "hp": 5250
+   },
+   {
+    "att": 1596,
+    "def": 585,
+    "hp": 5297
+   },
+   {
+    "att": 1611,
+    "def": 590,
+    "hp": 5344
+   },
+   {
+    "att": 1626,
+    "def": 595,
+    "hp": 5392
+   },
+   {
+    "att": 1641,
+    "def": 600,
+    "hp": 5439
+   },
+   {
+    "att": 1656,
+    "def": 605,
+    "hp": 5486
+   },
+   {
+    "att": 1818,
+    "def": 659,
+    "hp": 5921
+   },
+   {
+    "att": 1829,
+    "def": 663,
+    "hp": 5956
+   },
+   {
+    "att": 1840,
+    "def": 667,
+    "hp": 5992
+   },
+   {
+    "att": 1852,
+    "def": 670,
+    "hp": 6027
+   },
+   {
+    "att": 1863,
+    "def": 674,
+    "hp": 6063
+   },
+   {
+    "att": 1874,
+    "def": 678,
+    "hp": 6098
+   },
+   {
+    "att": 1886,
+    "def": 682,
+    "hp": 6133
+   },
+   {
+    "att": 1897,
+    "def": 686,
+    "hp": 6169
+   },
+   {
+    "att": 1908,
+    "def": 689,
+    "hp": 6204
+   },
+   {
+    "att": 1920,
+    "def": 693,
+    "hp": 6239
+   },
+   {
+    "att": 1931,
+    "def": 697,
+    "hp": 6275
+   },
+   {
+    "att": 1942,
+    "def": 701,
+    "hp": 6310
+   },
+   {
+    "att": 1954,
+    "def": 705,
+    "hp": 6345
+   },
+   {
+    "att": 1965,
+    "def": 708,
+    "hp": 6381
+   },
+   {
+    "att": 1976,
+    "def": 712,
+    "hp": 6416
+   },
+   {
+    "att": 1987,
+    "def": 716,
+    "hp": 6451
+   },
+   {
+    "att": 1999,
+    "def": 720,
+    "hp": 6487
+   },
+   {
+    "att": 2010,
+    "def": 723,
+    "hp": 6522
+   },
+   {
+    "att": 2021,
+    "def": 727,
+    "hp": 6557
+   },
+   {
+    "att": 2033,
+    "def": 731,
+    "hp": 6593
+   },
+   {
+    "att": 2044,
+    "def": 735,
+    "hp": 6628
+   },
+   {
+    "att": 2055,
+    "def": 739,
+    "hp": 6663
+   },
+   {
+    "att": 2067,
+    "def": 742,
+    "hp": 6699
+   },
+   {
+    "att": 2078,
+    "def": 746,
+    "hp": 6734
+   },
+   {
+    "att": 2089,
+    "def": 750,
+    "hp": 6769
+   },
+   {
+    "att": 2101,
+    "def": 754,
+    "hp": 6805
+   },
+   {
+    "att": 2112,
+    "def": 758,
+    "hp": 6840
+   },
+   {
+    "att": 2123,
+    "def": 761,
+    "hp": 6875
+   },
+   {
+    "att": 2135,
+    "def": 765,
+    "hp": 6911
+   },
+   {
+    "att": 2146,
+    "def": 769,
+    "hp": 6946
+   },
+   {
+    "att": 2157,
+    "def": 773,
+    "hp": 6981
+   },
+   {
+    "att": 2169,
+    "def": 776,
+    "hp": 7017
+   },
+   {
+    "att": 2180,
+    "def": 780,
+    "hp": 7052
+   },
+   {
+    "att": 2191,
+    "def": 784,
+    "hp": 7087
+   },
+   {
+    "att": 2203,
+    "def": 788,
+    "hp": 7123
+   },
+   {
+    "att": 2214,
+    "def": 792,
+    "hp": 7158
+   },
+   {
+    "att": 2225,
+    "def": 795,
+    "hp": 7193
+   },
+   {
+    "att": 2236,
+    "def": 799,
+    "hp": 7229
+   },
+   {
+    "att": 2248,
+    "def": 803,
+    "hp": 7264
+   },
+   {
+    "att": 2259,
+    "def": 807,
+    "hp": 7300
+   },
+   {
+    "att": 2270,
+    "def": 810,
+    "hp": 7335
+   },
+   {
+    "att": 2282,
+    "def": 814,
+    "hp": 7370
+   },
+   {
+    "att": 2293,
+    "def": 818,
+    "hp": 7406
+   },
+   {
+    "att": 2304,
+    "def": 822,
+    "hp": 7441
+   },
+   {
+    "att": 2316,
+    "def": 826,
+    "hp": 7476
+   },
+   {
+    "att": 2327,
+    "def": 829,
+    "hp": 7512
+   },
+   {
+    "att": 2338,
+    "def": 833,
+    "hp": 7547
+   },
+   {
+    "att": 2350,
+    "def": 837,
+    "hp": 7582
+   },
+   {
+    "att": 2361,
+    "def": 841,
+    "hp": 7618
+   },
+   {
+    "att": 2372,
+    "def": 845,
+    "hp": 7653
+   },
+   {
+    "att": 2605,
+    "def": 917,
+    "hp": 8276
+   },
+   {
+    "att": 2612,
+    "def": 920,
+    "hp": 8300
+   },
+   {
+    "att": 2620,
+    "def": 922,
+    "hp": 8324
+   },
+   {
+    "att": 2627,
+    "def": 925,
+    "hp": 8347
+   },
+   {
+    "att": 2635,
+    "def": 927,
+    "hp": 8371
+   },
+   {
+    "att": 2643,
+    "def": 930,
+    "hp": 8394
+   },
+   {
+    "att": 2650,
+    "def": 932,
+    "hp": 8418
+   },
+   {
+    "att": 2658,
+    "def": 935,
+    "hp": 8441
+   },
+   {
+    "att": 2665,
+    "def": 937,
+    "hp": 8465
+   },
+   {
+    "att": 2673,
+    "def": 940,
+    "hp": 8489
+   },
+   {
+    "att": 2680,
+    "def": 942,
+    "hp": 8512
+   },
+   {
+    "att": 2688,
+    "def": 945,
+    "hp": 8536
+   },
+   {
+    "att": 2695,
+    "def": 947,
+    "hp": 8559
+   },
+   {
+    "att": 2703,
+    "def": 950,
+    "hp": 8583
+   },
+   {
+    "att": 2710,
+    "def": 952,
+    "hp": 8606
+   },
+   {
+    "att": 2718,
+    "def": 955,
+    "hp": 8630
+   },
+   {
+    "att": 2726,
+    "def": 957,
+    "hp": 8653
+   },
+   {
+    "att": 2733,
+    "def": 960,
+    "hp": 8677
+   },
+   {
+    "att": 2741,
+    "def": 962,
+    "hp": 8701
+   },
+   {
+    "att": 2748,
+    "def": 965,
+    "hp": 8724
+   },
+   {
+    "att": 2756,
+    "def": 967,
+    "hp": 8748
+   },
+   {
+    "att": 2763,
+    "def": 970,
+    "hp": 8771
+   },
+   {
+    "att": 2771,
+    "def": 973,
+    "hp": 8795
+   },
+   {
+    "att": 2778,
+    "def": 975,
+    "hp": 8818
+   },
+   {
+    "att": 2786,
+    "def": 978,
+    "hp": 8842
+   },
+   {
+    "att": 2793,
+    "def": 980,
+    "hp": 8866
+   },
+   {
+    "att": 2801,
+    "def": 983,
+    "hp": 8889
+   },
+   {
+    "att": 2809,
+    "def": 985,
+    "hp": 8913
+   },
+   {
+    "att": 2816,
+    "def": 988,
+    "hp": 8936
+   },
+   {
+    "att": 2824,
+    "def": 990,
+    "hp": 8960
+   },
+   {
+    "att": 2831,
+    "def": 993,
+    "hp": 8983
+   },
+   {
+    "att": 2839,
+    "def": 995,
+    "hp": 9007
+   },
+   {
+    "att": 2846,
+    "def": 998,
+    "hp": 9030
+   },
+   {
+    "att": 2854,
+    "def": 1000,
+    "hp": 9054
+   },
+   {
+    "att": 2861,
+    "def": 1003,
+    "hp": 9078
+   },
+   {
+    "att": 2869,
+    "def": 1005,
+    "hp": 9101
+   },
+   {
+    "att": 2876,
+    "def": 1008,
+    "hp": 9125
+   },
+   {
+    "att": 2884,
+    "def": 1010,
+    "hp": 9148
+   },
+   {
+    "att": 2892,
+    "def": 1013,
+    "hp": 9172
+   },
+   {
+    "att": 2899,
+    "def": 1015,
+    "hp": 9195
+   },
+   {
+    "att": 2907,
+    "def": 1018,
+    "hp": 9219
+   },
+   {
+    "att": 2914,
+    "def": 1020,
+    "hp": 9243
+   },
+   {
+    "att": 2922,
+    "def": 1023,
+    "hp": 9266
+   },
+   {
+    "att": 2929,
+    "def": 1025,
+    "hp": 9290
+   },
+   {
+    "att": 2937,
+    "def": 1028,
+    "hp": 9313
+   },
+   {
+    "att": 2944,
+    "def": 1031,
+    "hp": 9337
+   },
+   {
+    "att": 2952,
+    "def": 1033,
+    "hp": 9360
+   },
+   {
+    "att": 2959,
+    "def": 1036,
+    "hp": 9384
+   },
+   {
+    "att": 2967,
+    "def": 1038,
+    "hp": 9407
+   },
+   {
+    "att": 2975,
+    "def": 1041,
+    "hp": 9431
+   },
+   {
+    "att": 2982,
+    "def": 1043,
+    "hp": 9455
+   },
+   {
+    "att": 2990,
+    "def": 1046,
+    "hp": 9478
+   },
+   {
+    "att": 2997,
+    "def": 1048,
+    "hp": 9502
+   },
+   {
+    "att": 3005,
+    "def": 1051,
+    "hp": 9525
+   },
+   {
+    "att": 3012,
+    "def": 1053,
+    "hp": 9549
+   },
+   {
+    "att": 3020,
+    "def": 1056,
+    "hp": 9572
+   },
+   {
+    "att": 3027,
+    "def": 1058,
+    "hp": 9596
+   },
+   {
+    "att": 3035,
+    "def": 1061,
+    "hp": 9619
+   },
+   {
+    "att": 3042,
+    "def": 1063,
+    "hp": 9643
+   },
+   {
+    "att": 3050,
+    "def": 1066,
+    "hp": 9667
+   },
+   {
+    "att": 3058,
+    "def": 1068,
+    "hp": 9690
+   },
+   {
+    "att": 3065,
+    "def": 1071,
+    "hp": 9714
+   },
+   {
+    "att": 3073,
+    "def": 1073,
+    "hp": 9737
+   },
+   {
+    "att": 3080,
+    "def": 1076,
+    "hp": 9761
+   },
+   {
+    "att": 3088,
+    "def": 1078,
+    "hp": 9784
+   },
+   {
+    "att": 3095,
+    "def": 1081,
+    "hp": 9808
+   },
+   {
+    "att": 3103,
+    "def": 1084,
+    "hp": 9832
+   },
+   {
+    "att": 3110,
+    "def": 1086,
+    "hp": 9855
+   },
+   {
+    "att": 3118,
+    "def": 1089,
+    "hp": 9879
+   },
+   {
+    "att": 3125,
+    "def": 1091,
+    "hp": 9902
+   },
+   {
+    "att": 3133,
+    "def": 1094,
+    "hp": 9926
+   },
+   {
+    "att": 3141,
+    "def": 1096,
+    "hp": 9949
+   },
+   {
+    "att": 3148,
+    "def": 1099,
+    "hp": 9973
+   },
+   {
+    "att": 3156,
+    "def": 1101,
+    "hp": 9996
+   },
+   {
+    "att": 3163,
+    "def": 1104,
+    "hp": 10020
+   },
+   {
+    "att": 3171,
+    "def": 1106,
+    "hp": 10044
+   },
+   {
+    "att": 3178,
+    "def": 1109,
+    "hp": 10067
+   },
+   {
+    "att": 3186,
+    "def": 1111,
+    "hp": 10091
+   },
+   {
+    "att": 3193,
+    "def": 1114,
+    "hp": 10114
+   },
+   {
+    "att": 3201,
+    "def": 1116,
+    "hp": 10138
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Mr. Sinsa is such an amazing character! No, no, no, I don't mean he is amazing in the literal sense. To be more precise, he's someone you can't afford to offend... He's indeed strong, and he has a good personality. He's easy-going and loyal, but he always wants to remove something from the Colossus and bring it back to Rediesel Wrench, which always makes me and %s shiver. If it isn't for Miss Eve who dissuades him from the side, he might remove something...Other than that, he often slaps the small body of %s and laughs as he asks when %s will join Rediesel Wrench. He makes it sound like the Colossus will belong to him after that... I can only watch sympathetically whenever %s is slapped to the point of coughing. Then I would pray silently he can deal with Mr. Sinsa can smoothly this time...\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Hey kid, so have you decided to join Rediesel Wrench yet? What? You still haven't made up your mind! Geez, you're too slow... Surely you don't think that I just want to dismantle your Colossus, right? Although that's indeed one of the reasons, more importantly, I'm attracted to you!Why are you looking at me so weirdly? I don't have that kind of weird fetish! I just think you're a kid with great potential. Your ability and character are quite similar to my lot of freaks, hahaha! I'm not saying you're weird. You really don't understand when someone is complimenting you... You should know that it's not so easy to join my Rediesel Wrench! Although we settle things with our fists, we also persuade others with reason! Eh? This phrase sounds good. Maybe I can use it in a poem...Anyway, think about it. There're a lot of benefits for you!"
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "The Illumina? That place is filled with lunatics like that woman. Of course, I'm not saying that all the people of Illumina are like that! It was because I was gullible enough to believe her claim that she would heal Eve that I sent Eve to the Illumina. In the end, not only did they not take care of Eve for me, but they even took her to an underground laboratory and gave her that ghastly appearance!Regret? Of course, I regret it! This is the thing I regret the most in my entire life! I really wanted to chop that woman into a thousand pieces... Later, there was an explosion in the underground research laboratory. Luckily, Eve escaped. I went to Illumina to get justice for her. Can you guess what happened? As I expected, those guys all blamed one another to avoid taking any responsibility. No one was willing to admit that it was their problem! Illumina did me dirty no matter how I thought about it! Although they did help Eve and me this time, it doesn't mean that our past grievances have been wiped clean. Our score is far from settled!"
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "By the way, kid, what do you think of my crew? They're pretty good, right? What? You're not used to them... Well, I certainly didn't expect that. They all got along pretty well with Eve since the first time they met her. How peculiar... but you'll get used to them eventually, so don't sweat it! If you don't, then... I can't help you either!You probably don't know this, but I have a bit of an ill-fated relationship with my crew! Many of them were unhappy when I was elected as the leader and yammered on about why a brat like me was elected to lead Rediesel Wrench! I even fought them over this... Of course, I won in the end! We were all exhausted after that, so we sat together and drank all night. I guess we just broke the ice like that, hahaha! They may look like a group of weirdos, but they get along terrifically with me! Since then, we became comrades who trust each other with our lives. All I have is Rediesel Wrench, and all Rediesel Wrench has is me...So, kiddo, are you really not going to join us even after I've told you so much?"
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Kid, do you remember what I told you about Eve before? I'm really blessed now. I have comrades, family, and a future I look forward to. But do you know how Eve and I survived the past nine years...?In those years, I watched her body get weaker and weaker, but there was nothing I could do. Even if I clenched my fist, all I could do was punch powerlessly at the sky. I watched her struggle and yell in pain every night. I... I couldn't do anything other than hug her tightly. I made a difficult decision back then\u2014I sent her to an isolation chamber deep in the Rediesel Desert... I knew she might feel lonely or scared, but there was nothing I could do to help her recover. Only the isolation chamber there could barely keep her alive... Even if there was only a 0.1% chance of success, I would not let this opportunity slip by!The past nine years were like a nightmare, and the bond between Eve and I was the only light that illuminated my nightmare. Fortunately, everything is over now. We have finally woken up from this long dream..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Don't judge us by our ragtag appearance. You won't find a family more united and dependable than the Rediesel Wrench!",
+  "No matter what, I just can't seem to like those officers. There's too much bad history...",
+  "Live life to the fullest!",
+  "These stupid bugs are such a pain, and we can't even eat them! I wish they'd go back to where they came from...",
+  "I remember when she could still make that carefree smile. Back then, neither of us knew how cruel life could be.",
+  "Some of them are really dependable, but their taste in music is, uh... Ahem, forget I said anything.",
+  "Robbin' and racin', those are my greatest passions in life! Is it shallow? There's nothing wrong with being a little shallow!",
+  "Ever seen people get so mad that they crush an entire mountain? Well, if anyone ever hurts my family, you'll get a front-row seat to the show.",
+  "Whoa, it's nice and bright here! I claim this place in the name of the Rediesel Wrench! Anyone got a problem with that?",
+  "Your Colossus is freakin' amazing... It's taking all my strength just to keep from robbing the place!",
+  "You're... making me stand guard? Damn, no racing, no fighting, just standing here? Ah whatever, I'm down.",
+  "Hahaha! Scars are signs of a real man!",
+  "Sweet! Are we done warming up now?",
+  "Shatter!",
+  "Get fired up!!",
+  "My blood's boiling!",
+  "Happy New Year! We're gonna train so hard that even your six-pack will have six-packs! Haha!",
+  "Hurry up!",
+  "Aha! Damn, I'm good!",
+  "Faster! I can go even faster!",
+  "Here comes the King of the Desert!",
+  "I'd rather you lock me up than make me sit around here with nothing to do... That's right, I'm talkin' to you!",
+  "I'm all fired up!",
+  "Alchemy Stars!",
+  "The Lumopolis Caravan figured it out, they're shipping empty crates now. We'll need to study their tracks to confirm if they have goods before we make our move.",
+  "Listen up, kid. Next time, you throw this in the recycling bin. Got it?",
+  "Books? I've already given 'em to the boys. I'm planning to test 'em on it! You've put in some magazines with those books, eh? That's fine, I'll test on 'em, too!",
+  "Just say what you want. Why do I have a strange name like Sinsa? Your name's not exactly normal-sounding either, you know...",
+  "Wanna see my wrench? I only let a few trusted people use it... Huh? Oh, in this case, my trust is not related to justice or something. I need someone who can hold it up because it weighs a ton.",
+  "\"People may lie, but fists don't deceive. Beat someone up, and the truth you'll receive!\" That's great, and it's kinda catchy! Eat your heart out, Charon!",
+  "I like talking loudly, why not? You're supposed to laugh when you're happy and swear when you're pissed, right?",
+  "Still don't have a battle plan, eh? Make it up as we go? Hahaha, as expected of the Navigator! Let our weapons decide our strategy!",
+  "I trust everyone in the Rediesel Wrench with my life. As for you... Yeah, you're as reliable as one of them, too! So, when are you gonna join us over here?",
+  "If you can't settle things with your fists, try a cannon instead! Can't do that either? Then let me go and give 'em a piece of my mind!",
+  "Eat, sleep, and live... Each of us has our own battle to fight, one that others can't understand.",
+  "Hey, speed up, Colossus! Where's the accelerator? How do I switch gears?",
+  "Battle? The weather's perfect for me to really swing my mecha arm!",
+  "You're up? I really envy people who can fall asleep whenever they want...",
+  "Night has fallen, and all are asleep. Those mice are crawling out as the darkness descending!",
+  "Can't get any sleep either, eh? C'mon, let's go grab some late-night snacks! My treat!",
+  "Welcome to the Rediesel Desert, kid. Feel how the wind just changed? Don't worry, it isn't a sandstorm, it's just the mountains breathing.",
+  "Is this a token of your thoughtfulness?",
+  "Ha! This is way better than the stuff I've been swiping lately!",
+  "Hey! You got a good taste, kid!",
+  "Whoa! This is just what I wanted! Thanks!!",
+  "All of you, behave!",
+  "Are you lost?!",
+  "Where's the fight?",
+  "I'm... not exactly on the best terms with the Illumina folks. I don't feel like talkin' about it now, but you'll find out soon enough.",
+  "Have you gotten used to the Rediesel Wrench lifestyle yet? If not, it's fine, we don't really care. Astra's so big and yet so small. It's so small that the Rediesel Desert is the only place we'd ever call home!",
+  "That's right, Eve's my younger sister. We've been through some rough times, but those times only strengthen our bond. I just hope luck favors you too, Navigator.",
+  "Just follow my lead!"
+ ],
+ "skins": [],
+ "description": "Outspoken leader of Rediesel Wrench who is incredibly close with his members and very protective of his little sister. He is dedicated to ensuring the gang's survival.",
+ "realName": "Sinsa",
+ "nickname": "Rediesel Wrench Leader",
+ "gender": "Male",
+ "height": "6'3\"",
+ "birthday": "July 29",
+ "birthplace": "Red-eye Gorge",
+ "style": "Rediesel Wrench, Mechanical Fist"
 }

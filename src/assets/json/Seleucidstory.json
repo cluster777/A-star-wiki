@@ -1,0 +1,784 @@
+{
+ "title": "The Snacking Critter",
+ "header": "The Cafe has been turned on its head, as food from the pantry has gone missing. It turns out Seleucid was the first to arrive at the scene of the crime, making him a prime suspect...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's packed. What's going on here?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Someone made a big mess of the cafe and ate everything in the pantry..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "The perpetrator is right here."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Are you kidding me?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I'm not an animal. How could I possibly rummage through the pantry for food like one?!"
+    },
+    {
+     "char": "Dove:",
+     "dialogue": "You have a panther-head helmet..."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "It's a big cat!"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "No, I told you I'm not a cat! And I didn't steal any food!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "You should own up to your wrongdoings."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "You know me, boss. Help me out here!"
+    },
+    {
+     "char": "Seleucid is surrounded by people suspicious of him. He's probably reaching out to me for help.",
+     "dialogue": "Ahem, please, let's not jump to conclusions."
+    }
+   ],
+   "branch": [
+    {
+     "text": "I believe Seleucid.",
+     "link": "1"
+    },
+    {
+     "text": "We still should look into it more.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Seleucid:",
+     "dialogue": "See that? I have someone backing me up, so stop talking smack about me!"
+    },
+    {
+     "char": "Crowd:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem. Anyway, let's not stand around doing nothing. We need to clean the place up."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Seleucid was the only one there when I got to the cafe, and he was checking out the pantry..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I asked him what he was doing, and he started shouting, \"It's not me, I didn't do this!\""
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It doesn't matter. They can say whatever. I'm used to being misunderstood."
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "Do you know Seleucid?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I touched his head before.",
+     "link": "4"
+    },
+    {
+     "text": "I know he likes meat.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Did anyone see Seleucid rummaging through the pantry?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I think you all are suspicious of me only because I was the first one at the scene."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I'll have you know, it was already a mess when I got here!"
+    },
+    {
+     "char": "Crowd:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem. Anyway, let's not stand around doing nothing. We need to clean the place up."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Seleucid was the only one there when I got to the cafe, and he was checking out the pantry..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I asked him what he was doing, and he started shouting, \"It's not me, I didn't do this!\""
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It doesn't matter. They can say whatever. I'm used to being misunderstood."
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "Do you know Seleucid?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I touched his head before.",
+     "link": "4"
+    },
+    {
+     "text": "I know he likes meat.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Crowd:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem. Anyway, let's not stand around doing nothing. We need to clean the place up."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Seleucid was the only one there when I got to the cafe, and he was checking out the pantry..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I asked him what he was doing, and he started shouting, \"It's not me, I didn't do this!\""
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It doesn't matter. They can say whatever. I'm used to being misunderstood."
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "Do you know Seleucid?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I touched his head before.",
+     "link": "4"
+    },
+    {
+     "text": "I know he likes meat.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Seleucid:",
+     "dialogue": "Are you concerned about my leopard head helmet?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's not my original helmet but was later modified."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Stop! Don't touch it, and never stroke it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But he hated it when I touched his head."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Did you know that animal hair was found in the pantry?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Heh, this helmet makes the wearer stronger, though I have no idea how."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's great in every way, other than the fact you can't take it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, his leopard head helmet is smooth and hairless."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "What, he's not a big cat? No wonder he never ran when we tried to chase him."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You can't tell what's on his mind."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "He's either expressionless, or loud and obnoxious."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Some say I look terrifying when I fight, Ha, why would I care what they think?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I'm fine as long as I don't scare you away."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Well, someone must have done it, Navigator."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "And there's no proof that Seleucid didn't do it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right and it's a bit late, but what I should do is..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go see Seleucid",
+     "link": "7"
+    },
+    {
+     "text": "Search the cafe for clues",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Seleucid:",
+     "dialogue": "A good barbecue can solve any problems. If not, have another one."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it's mostly snacks like cookies in the cafe pantry."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Did you know that animal hair was found in the pantry?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Heh, this helmet makes the wearer stronger, though I have no idea how."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's great in every way, other than the fact you can't take it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, his leopard head helmet is smooth and hairless."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "What, he's not a big cat? No wonder he never ran when we tried to chase him."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You can't tell what's on his mind."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "He's either expressionless, or loud and obnoxious."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Some say I look terrifying when I fight, Ha, why would I care what they think?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I'm fine as long as I don't scare you away."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Well, someone must have done it, Navigator."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "And there's no proof that Seleucid didn't do it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right and it's a bit late, but what I should do is..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go see Seleucid",
+     "link": "7"
+    },
+    {
+     "text": "Search the cafe for clues",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Did you know that animal hair was found in the pantry?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Heh, this helmet makes the wearer stronger, though I have no idea how."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's great in every way, other than the fact you can't take it off."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, his leopard head helmet is smooth and hairless."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "What, he's not a big cat? No wonder he never ran when we tried to chase him."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You can't tell what's on his mind."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "He's either expressionless, or loud and obnoxious."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Some say I look terrifying when I fight, Ha, why would I care what they think?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I'm fine as long as I don't scare you away."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Well, someone must have done it, Navigator."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "And there's no proof that Seleucid didn't do it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right and it's a bit late, but what I should do is..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go see Seleucid",
+     "link": "7"
+    },
+    {
+     "text": "Search the cafe for clues",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Seleucid is not in his room...",
+     "dialogue": "Supposedly, there are Aurorians with latent abilities who can wield Eclipsite powers."
+    },
+    {
+     "char": "But there's a huge silhouette in the cafe...",
+     "dialogue": "(Seleucid is rummaging through the pantry?)"
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "It's terrifying when that guy is killing Eclipsites."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you call that? Rampage? Berserk?"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Who's there? Show yourself!"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Why? You could have just told me you were hungry. No need to steal food..."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "There are cases of people admitting to burglaries and robberies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I already said I didn't steal food!"
+    },
+    {
+     "char": "Istvan:",
+     "dialogue": "He's serious."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "For good or for worse."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You were surrounded and accused of stealing food, right?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I heard someone saw you checking the cafe pantry."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They said they found animal hair at the scene, but I know your leopard-head helmet is hairless."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd like to believe you, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "When wild animals get very hungry, they can't control themselves."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Everything else is second to survival."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "He charged because he wanted to get that hair sample, but that got lost in the ensuing chaos."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "However, there's something I missed..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "You have hair on your neck, Seleucid. Black hair!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hair is not sufficient proof. Everyone has it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You have hair too."
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "Boss!"
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "The hair's brown!"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Haha, I'll be in the clear once the true culprit is found."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I noticed you seem distracted from the start, what's wrong?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Oh, sorry, I just remembered something, and am trying to piece everything together."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I've actually been investigating, such as asking witnesses..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't care what they said. I did nothing wrong. They can suspect all they want."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't do it because I suspect you, though. But it seems you really don't care?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I don't. I was planning to look into it on my own, but didn't expect this situation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But why did you do all that if you don't care?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's different this time, boss."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He calls you boss?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "But that's what he called the Shadowlord too, so who is his boss?"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "You stuck your neck out for me, and you said you trusted me, so I can't betray your trust!"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "And someone might come for you because of the actions of those close to you."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Perhaps I shouldn't comment, but he probably hoped that someone would understand him."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "But the brown hair is ringing a bell..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Hold on, I interrogated many people. Maybe one of them is the culprit?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Why would someone say it was animal hair?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No matter if they're cats or dogs, you need to know their appetite!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "The corridor is empty and should be silent...",
+     "dialogue": "Supposedly, there are Aurorians with latent abilities who can wield Eclipsite powers."
+    },
+    {
+     "char": "But there's a huge silhouette in the cafe...",
+     "dialogue": "(Seleucid is rummaging through the pantry?)"
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "It's terrifying when that guy is killing Eclipsites."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you call that? Rampage? Berserk?"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Who's there? Show yourself!"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "Why? You could have just told me you were hungry. No need to steal food..."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "There are cases of people admitting to burglaries and robberies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I already said I didn't steal food!"
+    },
+    {
+     "char": "Istvan:",
+     "dialogue": "He's serious."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "For good or for worse."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You were surrounded and accused of stealing food, right?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I heard someone saw you checking the cafe pantry."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They said they found animal hair at the scene, but I know your leopard-head helmet is hairless."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd like to believe you, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "When wild animals get very hungry, they can't control themselves."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Everything else is second to survival."
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "He charged because he wanted to get that hair sample, but that got lost in the ensuing chaos."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "However, there's something I missed..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "You have hair on your neck, Seleucid. Black hair!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hair is not sufficient proof. Everyone has it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You have hair too."
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "Boss!"
+    },
+    {
+     "char": "Kleken:",
+     "dialogue": "The hair's brown!"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Haha, I'll be in the clear once the true culprit is found."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I noticed you seem distracted from the start, what's wrong?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Oh, sorry, I just remembered something, and am trying to piece everything together."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I've actually been investigating, such as asking witnesses..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't care what they said. I did nothing wrong. They can suspect all they want."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't do it because I suspect you, though. But it seems you really don't care?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "I don't. I was planning to look into it on my own, but didn't expect this situation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But why did you do all that if you don't care?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "It's different this time, boss."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He calls you boss?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "But that's what he called the Shadowlord too, so who is his boss?"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "You stuck your neck out for me, and you said you trusted me, so I can't betray your trust!"
+    },
+    {
+     "char": "Patty & Patsy:",
+     "dialogue": "And someone might come for you because of the actions of those close to you."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Perhaps I shouldn't comment, but he probably hoped that someone would understand him."
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "But the brown hair is ringing a bell..."
+    },
+    {
+     "char": "Jane:",
+     "dialogue": "Hold on, I interrogated many people. Maybe one of them is the culprit?"
+    },
+    {
+     "char": "Seleucid:",
+     "dialogue": "Why would someone say it was animal hair?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No matter if they're cats or dogs, you need to know their appetite!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

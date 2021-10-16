@@ -1,0 +1,1298 @@
+{
+ "title": "Principles of Co-op",
+ "header": "As you stroll by Schwartz, he stops you.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "Since you don't look like you're doing anything important, help me deliver this document to Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "This document here. It's sealed, so you'd better not open it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. It must be pretty important."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Although if you really want to, you can. I don't care."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "If I'm entrusting this to you, it means it doesn't matter if you look inside or not."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "O-Okay, so where in Lumopolis should I... Wait, why am I asking for details? I haven't agreed to do anything!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "At the eastern entrance to the Lumopolis Gardens, there should be a guard with a long beard and glasses. Even you couldn't miss him."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still haven't said I'd do it..."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Hurry back afterwards."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess I don't have a choice...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Forget it, I'll just do it. He's the City Lord of Lumopolis, after all.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Huff, puff* Almost there..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You know... I kind of want to see what's inside the document."
+    }
+   ],
+   "branch": [
+    {
+     "text": "I'm gonna open it!",
+     "link": "1"
+    },
+    {
+     "text": "I really shouldn't look at it...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What's this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This paper is completely blank..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He's making me deliver a blank sheet of paper?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah forget it, I'm already here anyways."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Panting* I'm... I'm back!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why was I in such a hurry?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But that guy's voice was so commanding, I did what he wanted without a second thought..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this what a real leader is supposed to be like?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Ah, you're back."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Did everything go well?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like you said, that guard was pretty easy to find. It's taken care of."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Excellent."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "However, you still opened the document."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Y-You found out?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "B-But it was j-just a blank sheet of paper..."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Those who understand the gesture will naturally understand its meaning, as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then could you please explain it to me? I'm really curious to know..."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Oh? Taking an interest in Lumopolis' public affairs?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Simply put, someone entrusted me with a matter, and required my signature..."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "But it is something that shouldn't be done."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "So I sent them a blank piece of paper. Do you understand now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... So you were making your stance on the matter clear!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He directly refused them without saying a single word... What a powerful sense of authority."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "When it comes to Lumopolis' affairs, if something is worth knowing, I will always find out about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(He knew exactly what I did with the document... It seems I was being watched the whole time.)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Now then, I'll need you to deliver a package to Lumopolis next."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Another delivery?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "This package is going to the church in the Courtyard. They'll know what it is."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still haven't agreed to do it... Also, if this is going to Lumopolis, why didn't you just have me deliver it with the document?!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "The package isn't very heavy, but you still need to handle it with care."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Like before, it's best if you don't open it, but you can if you really want to."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I won't open it... Wait, did I just agree to it again?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Go now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Still not giving me a choice, huh...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well, here we go again.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Back in Lumopolis again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Except... Now I want to see what's in the package."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm sure this path is under surveillance, so I really shouldn't..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh great, there's a fork in the road. Which way to the Courtyard?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go left.",
+     "link": "4"
+    },
+    {
+     "text": "Go right.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, it's an official Lumopolis document."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And Schwartz did say I had better not open it. I'd be in trouble if he found out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I should just deliver it, no questions asked."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Panting* I'm... I'm back!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why was I in such a hurry?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But that guy's voice was so commanding, I did what he wanted without a second thought..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this what a real leader is supposed to be like?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Ah, you're back."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Did everything go well?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like you said, that guard was pretty easy to find. It's taken care of."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Excellent."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You didn't open the document. Well done."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? How did you know?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Good thing I didn't open it back then...)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "But you were very interested in the contents, I'm sure?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah... Would it be okay to ask for more details...?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "It was a sheet of blank paper."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Blank paper? Why would you go through the trouble of delivering that?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Simply put, someone entrusted me with a matter, and required my signature..."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "But it is something that shouldn't be done."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "So I sent them a blank piece of paper. Do you understand now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah... So you were making your stance on the matter clear!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He directly refused them without saying a single word... What a powerful sense of authority."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "When it comes to Lumopolis' affairs, if something is worth knowing, I will always find out about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(He knew exactly what I did with the document... It seems I was being watched the whole time.)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Now then, I'll need you to deliver a package to Lumopolis next."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Another delivery?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "This package is going to the church in the Courtyard. They'll know what it is."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still haven't agreed to do it... Also, if this is going to Lumopolis, why didn't you just have me deliver it with the document?!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "The package isn't very heavy, but you still need to handle it with care."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Like before, it's best if you don't open it, but you can if you really want to."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I won't open it... Wait, did I just agree to it again?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Go now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Still not giving me a choice, huh...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well, here we go again.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Back in Lumopolis again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Except... Now I want to see what's in the package."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm sure this path is under surveillance, so I really shouldn't..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh great, there's a fork in the road. Which way to the Courtyard?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go left.",
+     "link": "4"
+    },
+    {
+     "text": "Go right.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "When it comes to Lumopolis' affairs, if something is worth knowing, I will always find out about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(He knew exactly what I did with the document... It seems I was being watched the whole time.)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Now then, I'll need you to deliver a package to Lumopolis next."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Another delivery?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "This package is going to the church in the Courtyard. They'll know what it is."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still haven't agreed to do it... Also, if this is going to Lumopolis, why didn't you just have me deliver it with the document?!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "The package isn't very heavy, but you still need to handle it with care."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Like before, it's best if you don't open it, but you can if you really want to."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I won't open it... Wait, did I just agree to it again?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Go now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Still not giving me a choice, huh...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well, here we go again.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Back in Lumopolis again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Except... Now I want to see what's in the package."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I'm sure this path is under surveillance, so I really shouldn't..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh great, there's a fork in the road. Which way to the Courtyard?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Go left.",
+     "link": "4"
+    },
+    {
+     "text": "Go right.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Carleen:",
+     "dialogue": "Navigator? What are you doing here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, just helping the City Lord deliver a package."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "Running errands for my father? Honestly, he thinks he can boss anyone around..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ehehe, I kind of volunteered, but not really on my own. Still not sure why..."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "Ah, I know exactly what you mean. He's... not someone you can say no to very easily."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "Even though he's my father... He can be as cold as ice sometimes."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "He has absolutely no regard for other people's feelings."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "I'm sure it hasn't been easy playing errand boy for him. Let me give you a hand."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "Where are you going with this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The temple in Lumopolis Courtyard."
+    },
+    {
+     "char": "Carleen:",
+     "dialogue": "Right, come with me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thanks so much! I'd be lost without you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I'm back, again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I ran all the way back again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Without actually agreeing to do it."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Ah, speedy as ever."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Did everything go well?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It was delivered to the temple in the Courtyard."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They took it without so much as a single question."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Sure."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You ran into Carleen on the way, correct?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?! You knew about that, too?!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I meant nothing by it. I was just asking. Is she... well?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, she seemed to be in high spirits."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "That's good to hear."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait, is he worried about his daughter?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(That doesn't sound like what Carleen described before... He really seems to care about her.)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Alright, this time I need you to deliver this box to Lower Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, there's more?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "In Lower Lumopolis, head to the market..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm done running errands for you.",
+     "link": "7"
+    },
+    {
+     "text": "I demand to be compensated!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Hey, Navigator! Having trouble finding your way?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "M-Ms. Blanc? Fancy seeing you here!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "A Guide will always help a lost child to get home."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Tell me where you want to go, and I'll show you the way!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nice. I want to go to the temple in the Courtyard."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Okay! Right this way..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Oh, and hold on tight to your delivery; we don't want any accidents, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right... Wait, how did you know I was delivering something?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Unless... Are you the one who's been watching me?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Watching you? What do you mean?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Besides, I recognize that package in your hands."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "It's from the City Lord, and judging by how well it's been packaged, it's definitely meant for someone important."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's indeed for the temple."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "In that case, follow me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I'm back, again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I ran all the way back again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Without actually agreeing to do it."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Ah, speedy as ever."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Did everything go well?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It was delivered to the temple in the Courtyard."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They took it without so much as a single question."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Sure."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You ran into Blanc on the way, correct?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?! You knew about that, too?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although if it wasn't for Ms. Blanc, I would've gotten lost for sure."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Blanc is a very capable Guide."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You can always count on her if you lose your way in Lumopolis."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Day... Or night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I feel like there's more to what he's saying...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But maybe I'm just overthinking things.)"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Alright, this time I need you to deliver this box to Lower Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, there's more?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "In Lower Lumopolis, head to the market..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm done running errands for you.",
+     "link": "7"
+    },
+    {
+     "text": "I demand to be compensated!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "Alright, this time I need you to deliver this box to Lower Lumopolis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, there's more?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "In Lower Lumopolis, head to the market..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I'm done running errands for you.",
+     "link": "7"
+    },
+    {
+     "text": "I demand to be compensated!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "Oh? Finally refusing me?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "It seems the master of Colossus can say no, after all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Without so much as a second thought, you made me run all over the place doing your bidding."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You never even asked if I wanted to or not... You just kept putting more things in my hands and sending me off!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not your servant, and I have no reason to do your bidding for nothing in return."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Very well said!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "So then, master of Colossus... Will you help me with some business in Lower Lumopolis?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Please help me deliver this box."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "There is a precious gemstone inside the box, so please take care not to lose it on the way."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Once in Lower Lumopolis' marketplace, find any store and pass it to them."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You'll be given money in exchange, so remember to bring a bag with you."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Afterwards, it's up to you to decide what to do with the money you receive."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "\"Compensation\"."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I would never ask the master of the Colossus to handle business on my behalf for free, you know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Then I'll take the job",
+     "link": "10"
+    },
+    {
+     "text": "No, I don't need this",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "And now we're discussing terms?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "My, it seems you know something about cooperation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Without so much as a second thought, you made me run all over the place doing your bidding."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You never even asked if I wanted to or not... You just kept putting more things in my hands and sending me off!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not your servant, and I have no reason to do your bidding for nothing in return."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Very well said!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "So then, master of Colossus... Will you help me with some business in Lower Lumopolis?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Please help me deliver this box."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "There is a precious gemstone inside the box, so please take care not to lose it on the way."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Once in Lower Lumopolis' marketplace, find any store and pass it to them."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You'll be given money in exchange, so remember to bring a bag with you."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Afterwards, it's up to you to decide what to do with the money you receive."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "\"Compensation\"."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I would never ask the master of the Colossus to handle business on my behalf for free, you know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Then I'll take the job",
+     "link": "10"
+    },
+    {
+     "text": "No, I don't need this",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Without so much as a second thought, you made me run all over the place doing your bidding."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You never even asked if I wanted to or not... You just kept putting more things in my hands and sending me off!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not your servant, and I have no reason to do your bidding for nothing in return."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Very well said!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "So then, master of Colossus... Will you help me with some business in Lower Lumopolis?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Please help me deliver this box."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "There is a precious gemstone inside the box, so please take care not to lose it on the way."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Once in Lower Lumopolis' marketplace, find any store and pass it to them."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "You'll be given money in exchange, so remember to bring a bag with you."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Afterwards, it's up to you to decide what to do with the money you receive."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "\"Compensation\"."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I would never ask the master of the Colossus to handle business on my behalf for free, you know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Then I'll take the job",
+     "link": "10"
+    },
+    {
+     "text": "No, I don't need this",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "Excellent."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Right. Off you go to Lumopolis now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa... It's gorgeous."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This gem must be worth a fortune!"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "It is the master of the Colossus helping me, after all."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "It would be an insult to your status if I didn't compensate you properly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Suddenly, I feel much better."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Well then, Navigator, thank you for all your help today."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Having you travel such great distances has greatly benefited me, as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? It greatly benefited you? Is it so significant?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I came to realize that you are, in fact, capable of cooperation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Cooperation?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "While you are willing to help others, you refuse to mindlessly obey them."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Reasonable goodwill is a pre-requisite for any cooperative effort, and mutual benefit is the ideal result."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I have high hopes for you... \"Last of the Caelestites\"."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "For now, head to Umbraton in Lumopolis and claim your compensation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like that gemstone was worth a lot of money. Let me see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "T-Ten thousand Nightium?! I hit the jackpot!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now how should I spend all this money? Maybe a three-day buffet spree...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I'm beat from running to and from Lumopolis all day..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I'll go back and get some sleep before I start making plans."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A buffet, new clothes, maybe even my own airship..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll think more on it in my dreams tonight!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Schwartz:",
+     "dialogue": "Oh? And why is that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You can't use something like this as compensation for having me run your errands."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I see. You have no interest in wealth, so you want something else in exchange?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I've come to respect you even more."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Very well. I'll remember what you've done for me today."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "But remember this, whatever you accept in exchange for your services, its value will not exceed the value of what I've had you deliver for me."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "It won't do to be greedy."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "When you put it that way... I almost regret not taking the money."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll take it then."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Well then, Navigator, thank you for all your help today."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Having you travel such great distances has greatly benefited me, as well."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? It greatly benefited you? Is it so significant?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I came to realize that you are, in fact, capable of cooperation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Cooperation?"
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "While you are willing to help others, you refuse to mindlessly obey them."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "Reasonable goodwill is a pre-requisite for any cooperative effort, and mutual benefit is the ideal result."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "I have high hopes for you... \"Last of the Caelestites\"."
+    },
+    {
+     "char": "Schwartz:",
+     "dialogue": "For now, head to Umbraton in Lumopolis and claim your compensation."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like that gemstone was worth a lot of money. Let me see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "T-Ten thousand Nightium?! I hit the jackpot!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now how should I spend all this money? Maybe a three-day buffet spree...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I'm beat from running to and from Lumopolis all day..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I'll go back and get some sleep before I start making plans."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A buffet, new clothes, maybe even my own airship..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll think more on it in my dreams tonight!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

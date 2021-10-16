@@ -1,465 +1,564 @@
 {
-      "name": "Regal",
-      "faction": "silent hunter",
-      "element_main": "Water",
-      "element_sub": "Water",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "10 Vis",
-            "description": [
-                  "Costs 10 Vis to enter an augmented state in this round: Normal attacks can be launched diagonally, and increases normal attack and chain combo damage by 20% (can be stacked when used more than once)."
-            ]
-      },
-      "equip": {
-            "name": "Dark Casket",
-            "passive": "Vigilance",
-            "description": [
-                  [
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
-                        "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost)."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 175% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 180% damage to 2 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: When augmented, killing 1 enemy grants 2 Vis.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Equipment Skill Enhancement: At the start of every round, for every 1 enemy within 4 tiles in a cross shape, gains 1 Vis."
-      ],
-      "ascension": [],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 2672,
-                        "def": 1023,
-                        "hp": 7825
-                  },
-                  {
-                        "att": 2680,
-                        "def": 1026,
-                        "hp": 7847
-                  },
-                  {
-                        "att": 2688,
-                        "def": 1029,
-                        "hp": 7869
-                  },
-                  {
-                        "att": 2696,
-                        "def": 1032,
-                        "hp": 7891
-                  },
-                  {
-                        "att": 2703,
-                        "def": 1035,
-                        "hp": 7913
-                  },
-                  {
-                        "att": 2711,
-                        "def": 1038,
-                        "hp": 7936
-                  },
-                  {
-                        "att": 2719,
-                        "def": 1040,
-                        "hp": 7958
-                  },
-                  {
-                        "att": 2727,
-                        "def": 1043,
-                        "hp": 7980
-                  },
-                  {
-                        "att": 2734,
-                        "def": 1046,
-                        "hp": 8002
-                  },
-                  {
-                        "att": 2742,
-                        "def": 1049,
-                        "hp": 8025
-                  },
-                  {
-                        "att": 2750,
-                        "def": 1052,
-                        "hp": 8047
-                  },
-                  {
-                        "att": 2758,
-                        "def": 1055,
-                        "hp": 8069
-                  },
-                  {
-                        "att": 2766,
-                        "def": 1058,
-                        "hp": 8091
-                  },
-                  {
-                        "att": 2773,
-                        "def": 1061,
-                        "hp": 8114
-                  },
-                  {
-                        "att": 2781,
-                        "def": 1064,
-                        "hp": 8136
-                  },
-                  {
-                        "att": 2789,
-                        "def": 1067,
-                        "hp": 8158
-                  },
-                  {
-                        "att": 2797,
-                        "def": 1070,
-                        "hp": 8180
-                  },
-                  {
-                        "att": 2805,
-                        "def": 1073,
-                        "hp": 8202
-                  },
-                  {
-                        "att": 2812,
-                        "def": 1075,
-                        "hp": 8225
-                  },
-                  {
-                        "att": 2820,
-                        "def": 1078,
-                        "hp": 8247
-                  },
-                  {
-                        "att": 2828,
-                        "def": 1081,
-                        "hp": 8269
-                  },
-                  {
-                        "att": 2836,
-                        "def": 1084,
-                        "hp": 8291
-                  },
-                  {
-                        "att": 2843,
-                        "def": 1087,
-                        "hp": 8314
-                  },
-                  {
-                        "att": 2851,
-                        "def": 1090,
-                        "hp": 8336
-                  },
-                  {
-                        "att": 2859,
-                        "def": 1093,
-                        "hp": 8358
-                  },
-                  {
-                        "att": 2867,
-                        "def": 1096,
-                        "hp": 8380
-                  },
-                  {
-                        "att": 2875,
-                        "def": 1099,
-                        "hp": 8402
-                  },
-                  {
-                        "att": 2882,
-                        "def": 1102,
-                        "hp": 8425
-                  },
-                  {
-                        "att": 2890,
-                        "def": 1105,
-                        "hp": 8447
-                  },
-                  {
-                        "att": 2898,
-                        "def": 1108,
-                        "hp": 8469
-                  },
-                  {
-                        "att": 2906,
-                        "def": 1110,
-                        "hp": 8491
-                  },
-                  {
-                        "att": 2914,
-                        "def": 1113,
-                        "hp": 8514
-                  },
-                  {
-                        "att": 2921,
-                        "def": 1116,
-                        "hp": 8536
-                  },
-                  {
-                        "att": 2929,
-                        "def": 1119,
-                        "hp": 8558
-                  },
-                  {
-                        "att": 2937,
-                        "def": 1122,
-                        "hp": 8580
-                  },
-                  {
-                        "att": 2945,
-                        "def": 1125,
-                        "hp": 8603
-                  },
-                  {
-                        "att": 2953,
-                        "def": 1128,
-                        "hp": 8625
-                  },
-                  {
-                        "att": 2960,
-                        "def": 1131,
-                        "hp": 8647
-                  },
-                  {
-                        "att": 2968,
-                        "def": 1134,
-                        "hp": 8669
-                  },
-                  {
-                        "att": 2976,
-                        "def": 1137,
-                        "hp": 8691
-                  },
-                  {
-                        "att": 2984,
-                        "def": 1140,
-                        "hp": 8714
-                  },
-                  {
-                        "att": 2991,
-                        "def": 1143,
-                        "hp": 8736
-                  },
-                  {
-                        "att": 2999,
-                        "def": 1146,
-                        "hp": 8758
-                  },
-                  {
-                        "att": 3007,
-                        "def": 1148,
-                        "hp": 8780
-                  },
-                  {
-                        "att": 3015,
-                        "def": 1151,
-                        "hp": 8803
-                  },
-                  {
-                        "att": 3023,
-                        "def": 1154,
-                        "hp": 8825
-                  },
-                  {
-                        "att": 3030,
-                        "def": 1157,
-                        "hp": 8847
-                  },
-                  {
-                        "att": 3038,
-                        "def": 1160,
-                        "hp": 8869
-                  },
-                  {
-                        "att": 3046,
-                        "def": 1163,
-                        "hp": 8891
-                  },
-                  {
-                        "att": 3054,
-                        "def": 1166,
-                        "hp": 8914
-                  },
-                  {
-                        "att": 3062,
-                        "def": 1169,
-                        "hp": 8936
-                  },
-                  {
-                        "att": 3069,
-                        "def": 1172,
-                        "hp": 8958
-                  },
-                  {
-                        "att": 3077,
-                        "def": 1175,
-                        "hp": 8980
-                  },
-                  {
-                        "att": 3085,
-                        "def": 1178,
-                        "hp": 9003
-                  },
-                  {
-                        "att": 3093,
-                        "def": 1181,
-                        "hp": 9025
-                  },
-                  {
-                        "att": 3100,
-                        "def": 1183,
-                        "hp": 9047
-                  },
-                  {
-                        "att": 3108,
-                        "def": 1186,
-                        "hp": 9069
-                  },
-                  {
-                        "att": 3116,
-                        "def": 1189,
-                        "hp": 9091
-                  },
-                  {
-                        "att": 3124,
-                        "def": 1192,
-                        "hp": 9114
-                  },
-                  {
-                        "att": 3132,
-                        "def": 1195,
-                        "hp": 9136
-                  },
-                  {
-                        "att": 3139,
-                        "def": 1198,
-                        "hp": 9158
-                  },
-                  {
-                        "att": 3147,
-                        "def": 1201,
-                        "hp": 9180
-                  },
-                  {
-                        "att": 3155,
-                        "def": 1204,
-                        "hp": 9203
-                  },
-                  {
-                        "att": 3163,
-                        "def": 1207,
-                        "hp": 9225
-                  },
-                  {
-                        "att": 3171,
-                        "def": 1210,
-                        "hp": 9247
-                  },
-                  {
-                        "att": 3178,
-                        "def": 1213,
-                        "hp": 9269
-                  },
-                  {
-                        "att": 3186,
-                        "def": 1216,
-                        "hp": 9292
-                  },
-                  {
-                        "att": 3194,
-                        "def": 1218,
-                        "hp": 9314
-                  },
-                  {
-                        "att": 3202,
-                        "def": 1221,
-                        "hp": 9336
-                  },
-                  {
-                        "att": 3209,
-                        "def": 1224,
-                        "hp": 9358
-                  },
-                  {
-                        "att": 3217,
-                        "def": 1227,
-                        "hp": 9380
-                  },
-                  {
-                        "att": 3225,
-                        "def": 1230,
-                        "hp": 9403
-                  },
-                  {
-                        "att": 3233,
-                        "def": 1233,
-                        "hp": 9425
-                  },
-                  {
-                        "att": 3241,
-                        "def": 1236,
-                        "hp": 9447
-                  },
-                  {
-                        "att": 3248,
-                        "def": 1239,
-                        "hp": 9469
-                  },
-                  {
-                        "att": 3256,
-                        "def": 1242,
-                        "hp": 9492
-                  },
-                  {
-                        "att": 3264,
-                        "def": 1245,
-                        "hp": 9514
-                  },
-                  {
-                        "att": 3272,
-                        "def": 1248,
-                        "hp": 9536
-                  },
-                  {
-                        "att": 3280,
-                        "def": 1251,
-                        "hp": 9558
-                  },
-                  {
-                        "att": 3287,
-                        "def": 1253,
-                        "hp": 9580
-                  }
-            ]
-      }
+ "name": "Regal",
+ "faction": "silent hunter",
+ "element_main": "Water",
+ "element_sub": "Water",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Ravenous Frost",
+  "cd": "10 Vis",
+  "description": [
+   "Costs 10 Vis to enter an augmented state in this round: Normal attacks can be launched diagonally, and increases normal attack and chain combo damage by 20% (can be stacked when used more than once)."
+  ]
+ },
+ "equip": {
+  "name": "Dark Casket",
+  "passive": "Vigilance",
+  "description": [
+   [
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost).",
+    "Gains 10 Vis at the beginning of the battle. When ending the round in a non-augmented state, gains 5 Vis (gains 1 extra Vis for every 20% of HP lost)."
+   ]
+  ],
+  "introduction": "A huge broken sword that looks like a dark coffin. It has a Star Crest and is pointy and sharp. It is made out of a mysterious special alloy that is indestructible. At the same time, it has a built-in device that amplifies water magic and negates enemy attacks, as well as redirects kinetic energy to provide great protection for the person wielding it."
+ },
+ "chain": {
+  "name": "Broken Sword of Northwind",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 175% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 180% damage to 2 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: When augmented, killing 1 enemy grants 2 Vis.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Equipment Skill Enhancement: At the start of every round, for every 1 enemy within 4 tiles in a cross shape, gains 1 Vis."
+ ],
+ "ascension": [],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 2672,
+    "def": 1023,
+    "hp": 7825
+   },
+   {
+    "att": 2680,
+    "def": 1026,
+    "hp": 7847
+   },
+   {
+    "att": 2688,
+    "def": 1029,
+    "hp": 7869
+   },
+   {
+    "att": 2696,
+    "def": 1032,
+    "hp": 7891
+   },
+   {
+    "att": 2703,
+    "def": 1035,
+    "hp": 7913
+   },
+   {
+    "att": 2711,
+    "def": 1038,
+    "hp": 7936
+   },
+   {
+    "att": 2719,
+    "def": 1040,
+    "hp": 7958
+   },
+   {
+    "att": 2727,
+    "def": 1043,
+    "hp": 7980
+   },
+   {
+    "att": 2734,
+    "def": 1046,
+    "hp": 8002
+   },
+   {
+    "att": 2742,
+    "def": 1049,
+    "hp": 8025
+   },
+   {
+    "att": 2750,
+    "def": 1052,
+    "hp": 8047
+   },
+   {
+    "att": 2758,
+    "def": 1055,
+    "hp": 8069
+   },
+   {
+    "att": 2766,
+    "def": 1058,
+    "hp": 8091
+   },
+   {
+    "att": 2773,
+    "def": 1061,
+    "hp": 8114
+   },
+   {
+    "att": 2781,
+    "def": 1064,
+    "hp": 8136
+   },
+   {
+    "att": 2789,
+    "def": 1067,
+    "hp": 8158
+   },
+   {
+    "att": 2797,
+    "def": 1070,
+    "hp": 8180
+   },
+   {
+    "att": 2805,
+    "def": 1073,
+    "hp": 8202
+   },
+   {
+    "att": 2812,
+    "def": 1075,
+    "hp": 8225
+   },
+   {
+    "att": 2820,
+    "def": 1078,
+    "hp": 8247
+   },
+   {
+    "att": 2828,
+    "def": 1081,
+    "hp": 8269
+   },
+   {
+    "att": 2836,
+    "def": 1084,
+    "hp": 8291
+   },
+   {
+    "att": 2843,
+    "def": 1087,
+    "hp": 8314
+   },
+   {
+    "att": 2851,
+    "def": 1090,
+    "hp": 8336
+   },
+   {
+    "att": 2859,
+    "def": 1093,
+    "hp": 8358
+   },
+   {
+    "att": 2867,
+    "def": 1096,
+    "hp": 8380
+   },
+   {
+    "att": 2875,
+    "def": 1099,
+    "hp": 8402
+   },
+   {
+    "att": 2882,
+    "def": 1102,
+    "hp": 8425
+   },
+   {
+    "att": 2890,
+    "def": 1105,
+    "hp": 8447
+   },
+   {
+    "att": 2898,
+    "def": 1108,
+    "hp": 8469
+   },
+   {
+    "att": 2906,
+    "def": 1110,
+    "hp": 8491
+   },
+   {
+    "att": 2914,
+    "def": 1113,
+    "hp": 8514
+   },
+   {
+    "att": 2921,
+    "def": 1116,
+    "hp": 8536
+   },
+   {
+    "att": 2929,
+    "def": 1119,
+    "hp": 8558
+   },
+   {
+    "att": 2937,
+    "def": 1122,
+    "hp": 8580
+   },
+   {
+    "att": 2945,
+    "def": 1125,
+    "hp": 8603
+   },
+   {
+    "att": 2953,
+    "def": 1128,
+    "hp": 8625
+   },
+   {
+    "att": 2960,
+    "def": 1131,
+    "hp": 8647
+   },
+   {
+    "att": 2968,
+    "def": 1134,
+    "hp": 8669
+   },
+   {
+    "att": 2976,
+    "def": 1137,
+    "hp": 8691
+   },
+   {
+    "att": 2984,
+    "def": 1140,
+    "hp": 8714
+   },
+   {
+    "att": 2991,
+    "def": 1143,
+    "hp": 8736
+   },
+   {
+    "att": 2999,
+    "def": 1146,
+    "hp": 8758
+   },
+   {
+    "att": 3007,
+    "def": 1148,
+    "hp": 8780
+   },
+   {
+    "att": 3015,
+    "def": 1151,
+    "hp": 8803
+   },
+   {
+    "att": 3023,
+    "def": 1154,
+    "hp": 8825
+   },
+   {
+    "att": 3030,
+    "def": 1157,
+    "hp": 8847
+   },
+   {
+    "att": 3038,
+    "def": 1160,
+    "hp": 8869
+   },
+   {
+    "att": 3046,
+    "def": 1163,
+    "hp": 8891
+   },
+   {
+    "att": 3054,
+    "def": 1166,
+    "hp": 8914
+   },
+   {
+    "att": 3062,
+    "def": 1169,
+    "hp": 8936
+   },
+   {
+    "att": 3069,
+    "def": 1172,
+    "hp": 8958
+   },
+   {
+    "att": 3077,
+    "def": 1175,
+    "hp": 8980
+   },
+   {
+    "att": 3085,
+    "def": 1178,
+    "hp": 9003
+   },
+   {
+    "att": 3093,
+    "def": 1181,
+    "hp": 9025
+   },
+   {
+    "att": 3100,
+    "def": 1183,
+    "hp": 9047
+   },
+   {
+    "att": 3108,
+    "def": 1186,
+    "hp": 9069
+   },
+   {
+    "att": 3116,
+    "def": 1189,
+    "hp": 9091
+   },
+   {
+    "att": 3124,
+    "def": 1192,
+    "hp": 9114
+   },
+   {
+    "att": 3132,
+    "def": 1195,
+    "hp": 9136
+   },
+   {
+    "att": 3139,
+    "def": 1198,
+    "hp": 9158
+   },
+   {
+    "att": 3147,
+    "def": 1201,
+    "hp": 9180
+   },
+   {
+    "att": 3155,
+    "def": 1204,
+    "hp": 9203
+   },
+   {
+    "att": 3163,
+    "def": 1207,
+    "hp": 9225
+   },
+   {
+    "att": 3171,
+    "def": 1210,
+    "hp": 9247
+   },
+   {
+    "att": 3178,
+    "def": 1213,
+    "hp": 9269
+   },
+   {
+    "att": 3186,
+    "def": 1216,
+    "hp": 9292
+   },
+   {
+    "att": 3194,
+    "def": 1218,
+    "hp": 9314
+   },
+   {
+    "att": 3202,
+    "def": 1221,
+    "hp": 9336
+   },
+   {
+    "att": 3209,
+    "def": 1224,
+    "hp": 9358
+   },
+   {
+    "att": 3217,
+    "def": 1227,
+    "hp": 9380
+   },
+   {
+    "att": 3225,
+    "def": 1230,
+    "hp": 9403
+   },
+   {
+    "att": 3233,
+    "def": 1233,
+    "hp": 9425
+   },
+   {
+    "att": 3241,
+    "def": 1236,
+    "hp": 9447
+   },
+   {
+    "att": 3248,
+    "def": 1239,
+    "hp": 9469
+   },
+   {
+    "att": 3256,
+    "def": 1242,
+    "hp": 9492
+   },
+   {
+    "att": 3264,
+    "def": 1245,
+    "hp": 9514
+   },
+   {
+    "att": 3272,
+    "def": 1248,
+    "hp": 9536
+   },
+   {
+    "att": 3280,
+    "def": 1251,
+    "hp": 9558
+   },
+   {
+    "att": 3287,
+    "def": 1253,
+    "hp": 9580
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "\"Regal\" ____. ____ is a well-known civilian hero of ____ and a legion commander of the Kingdom's ____ Legion. Unlike the other generals who excessively pursued fame and magic, ____ was a civilian officer who always remained faithful to his principle\u2014his lifelong pursuit to serve the kingdom and the people. Although he lacked the ambition to become a noble of the higher hierarchy, he had a modest personality and the ability to use water magic. As a result, he became a role model and exemplar to the whole army.After repairing and compiling the information we collected, we finally managed to obtain this file. Part of the information is unreadable due to age or intentional damage. Although we won't be able to fully understand the past of this Aurorian... this will help us to gain a deeper understanding of these \"lost heroes.\""
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "In an operation to counter the rebellion of the nobles, with only his strategies and martial prowess, ____ infiltrated __ with only a few soldiers behind him. He crept past tens of thousands of enemy soldiers and tied up the mastermind silently to bring to the king for a trial. Because of this, the king praised him greatly and bestowed many rewards. The king also allowed him to wear the greatest honor of ____\u2014____. After that, ____ met ___, the most important woman in his life. They fell in love and agreed to be companions for life. If it wasn't for that tragedy, they would definitely have been a match made in heaven envied by all. However, on that day, like a tide, Eclipsites flooded into the city where __ was. When ____ finally arrived, there were only ruined walls and a large number of unrecognizable corpses. In pain, he killed every Eclipsite that wandered in the city. He slashed them with his sword, smashed them with his shield, tore them apart with his hands, and crushed them with his teeth."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "____, who was rescued by his comrades-in-arms, was deeply in pain. His longing for his deceased lover and the guilt of being unable to save her constantly tore at his heart. The tragedy changed him, making him violent and cruel. When ____ was about to lose himself, ___ found him. Without any hesitation, he accepted the invitation to join the project \"Silent Hunters\" and asked to be modified more extensively to seal more of his emotions. At the same time, he sealed his longing and passionate love for his lover in the __ he forged.*Five warriors accepted the modification into \"Silent Hunters\" and voluntarily proposed to use the modification technology to seal their feelings to delay the impact of the Eclipsite transformation on their spirit."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "After his emotions were sealed, although Adras was no longer cruel and could perform tasks and eliminate Eclipsites efficiently, as the battle heated up, people could clearly sense that the excessive __ and high-intensity battles had caused the loss of his feelings and the __ of his memories. After banishing a large number of Eclipsites and restoring peace to the kingdom, even Adras, who was always quiet and dull, was slandered as the sinner of \"________\" in rumors spread by nobles with ulterior motives."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "\"Claymore\"... I still remember his name, Achilles... He was my former chief, who gave me a lot of guidance and taught me a lot. He was someone I trusted the most... I trusted him so much... Why? Be it the people... or the king, are the people you betrayed really more important than your teammates...? The truly important thing is... Err... I'm sorry, I have a headache. Anyway, this matter has come to an end. Since you saved my life, my sword and shield are all yours."
+  }
+ ],
+ "voice": [
+  "I only remember serving with fellow soldiers... Sorry, I can't recall anything else.",
+  "This land is home to many thriving powers... But, the way I see it, things are only becoming more chaotic.",
+  "I'm the Guardian of the North.",
+  "It is our biggest foe, and hopefully the only foe for all Aurorians.",
+  "Friegson is... Never mind, I don't like to judge others.",
+  "You want to know about Freya? Well, she's an excellent drill officer. Smart and very popular with the troops. That's all I know.",
+  "Things I like... I probably had some.",
+  "I hate large Eclipsites for I have trouble sending them flying far.",
+  "If we had a Colossus back then, many lives would have been saved.",
+  "You want to see me do handstand pushups on one finger?",
+  "Understood. I'll come over immediately.",
+  "Impossible... I'll kill you... I must kill you!",
+  "Huff, huff... We won... Don't worry...",
+  "Time to die!",
+  "Too slow!",
+  "Ohhhh!",
+  "Happy New Year. Did someone say my sword looks a little ominous...?",
+  "Good. Prepare to hunt.",
+  "Since we have nothing better to do, let me sing my favorite song from the base. Everyone usually gets moving when I start singing.",
+  "Frigid winter can overcome even darkness.",
+  "Alchemy Stars.",
+  "Huh? Need my expertise to lead the next battle?",
+  "What's the matter? You can always use more work after training.",
+  "I look mean? Probably, maybe I lost more than just memory.",
+  "I don't mind going berserk if I could kill all the Eclipsites.",
+  "No jinx, it's not a real casket... Well, it probably isn't... I forget.",
+  "Don't stare at me all the time. Do something.",
+  "I indeed lost some of my memory, but it has no impact on my efficiency in killing Eclipsites.",
+  "I suddenly remember farming in a rye field... Is that me?",
+  "It's good that you can use a shield. Sword, on the other hand, not yet.",
+  "Awaiting order.",
+  "I seem lethargic? That's because I haven't run into any Eclipsite yet.",
+  "Hope tomorrow is another nice day with howling Northwind.",
+  "My job now is to guard this Colossus and destroy all of our enemies, provided they're Eclipsites, of course.",
+  "Morning. Assemble everyone on Soroz to run 50 laps... No? I can see they are trouble.",
+  "It's time to relax a bit, but don't stay up too late.",
+  "Shouldn't you be sleeping? Let me take the next watch.",
+  "Hello, greetings from Regal of the Silent Hunters. I'm ever-ready for battle.",
+  "... Thank you.",
+  "This should come in handy.",
+  "Thanks very much.",
+  "Thank you. Though you probably can't tell, I'm happy.",
+  "I'll kill you!",
+  "No way!",
+  "Kill! Killllll!",
+  "I'm guessing I was a farmer-turned-soldier. I vaguely remember my fellows, but when I try to focus, the memory fractures even more.",
+  "I have a hazy memory of when I enlisted, became an officer, and had an audience with the king... Then the Eclipsites invaded, and Claymore invited me to join the Silent Hunters...",
+  "We saved the kingdom from the crisis, only to be spurned by a fearful populace. Then... Then... I think I've forgotten something very crucial, something that meant a lot to me...",
+  "I lead? You got guts..."
+ ],
+ "description": "Banished ancient hero. Transformed due to hatred for Eclipsites. Once a ferocious savage, but has regained calm and positive personality.",
+ "realName": "Adras",
+ "gender": "Male",
+ "height": "6'1''",
+ "birthday": "November 28",
+ "birthplace": "Unknown",
+ "style": "Dark Casket"
 }

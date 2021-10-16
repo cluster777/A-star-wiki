@@ -1,0 +1,1236 @@
+{
+ "title": "Freeze!",
+ "header": "Constantine tells you yet another hunting story from his Eclipsite-hunting days in Northland. Only this time, everything about his story is disturbingly out of the ordinary...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Looks like shredding it is the best choice."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "This page, and this page, and this page..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Shredding up sensitive paperwork?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "If it's trash, remember to throw it away!",
+     "link": "1"
+    },
+    {
+     "text": "If it's secret stuff... You should burn the evidence.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Haha, I won't forget."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But there's a lot of shredding to do, so I'll throw it all away once I'm done."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Although... Since you seem so interested in it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? N-No, I didn't mean it like that..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "You don't have to hide it! I saw that look of curiosity on your face as I was ripping up these papers!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "How could I crush such child-like curiosity? Come, I'll tell you all about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Wait a second..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Here, have a seat! I'll tell you about the less-important bits..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The important things, sadly, will have to remain secret, no matter how much you beg me to tell you. This will only take a short while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(No getting out of it now... Guess I'll have to sit and listen...)"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The less-important parts... It all started back in Northland..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "As everyone knows, Northland is home to all manner of strange creatures and mysterious existences."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Divine lakes, people in mirrors, magical fortune-telling books..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... This sounds pretty interesting!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what do you think the strangest thing about Northland is?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! There's that child-like curiosity again!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The strangest thing about Northland... I would say it was something I encountered back when I was an Eclipsite hunter in those parts."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Back then, in the boundless forest miles from any form of civilization..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was in a place like this that I encountered a very unique Eclipsite."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was completely different from any other Eclipsite: small and thin, with a furtive look in its eyes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? I've seen plenty of Eclipsites like that before!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But this one's body was that of an Aurorian! Seen that before, boy?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An Aurorian's body?! So it turned out to be..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "An Eclipsite?",
+     "link": "4"
+    },
+    {
+     "text": "An Aurorian?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! It's nothing that important."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It's just some things that I would rather not tell others about."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Although... Since you seem so interested in it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? N-No, I didn't mean it like that..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "You don't have to hide it! I saw that look of curiosity on your face as I was ripping up these papers!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "How could I crush such child-like curiosity? Come, I'll tell you all about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Wait a second..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Here, have a seat! I'll tell you about the less-important bits..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The important things, sadly, will have to remain secret, no matter how much you beg me to tell you. This will only take a short while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(No getting out of it now... Guess I'll have to sit and listen...)"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The less-important parts... It all started back in Northland..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "As everyone knows, Northland is home to all manner of strange creatures and mysterious existences."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Divine lakes, people in mirrors, magical fortune-telling books..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... This sounds pretty interesting!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what do you think the strangest thing about Northland is?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! There's that child-like curiosity again!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The strangest thing about Northland... I would say it was something I encountered back when I was an Eclipsite hunter in those parts."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Back then, in the boundless forest miles from any form of civilization..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was in a place like this that I encountered a very unique Eclipsite."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was completely different from any other Eclipsite: small and thin, with a furtive look in its eyes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? I've seen plenty of Eclipsites like that before!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But this one's body was that of an Aurorian! Seen that before, boy?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An Aurorian's body?! So it turned out to be..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "An Eclipsite?",
+     "link": "4"
+    },
+    {
+     "text": "An Aurorian?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Although... Since you seem so interested in it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? N-No, I didn't mean it like that..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "You don't have to hide it! I saw that look of curiosity on your face as I was ripping up these papers!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "How could I crush such child-like curiosity? Come, I'll tell you all about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Wait a second..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Here, have a seat! I'll tell you about the less-important bits..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The important things, sadly, will have to remain secret, no matter how much you beg me to tell you. This will only take a short while."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(No getting out of it now... Guess I'll have to sit and listen...)"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The less-important parts... It all started back in Northland..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "As everyone knows, Northland is home to all manner of strange creatures and mysterious existences."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Divine lakes, people in mirrors, magical fortune-telling books..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... This sounds pretty interesting!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what do you think the strangest thing about Northland is?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! There's that child-like curiosity again!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The strangest thing about Northland... I would say it was something I encountered back when I was an Eclipsite hunter in those parts."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Back then, in the boundless forest miles from any form of civilization..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was in a place like this that I encountered a very unique Eclipsite."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was completely different from any other Eclipsite: small and thin, with a furtive look in its eyes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? I've seen plenty of Eclipsites like that before!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But this one's body was that of an Aurorian! Seen that before, boy?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "An Aurorian's body?! So it turned out to be..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "An Eclipsite?",
+     "link": "4"
+    },
+    {
+     "text": "An Aurorian?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Indeed, I had heard of Eclipsites whose bodies were similar to those of Aurorians."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "So, that was what I thought of it back then."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Unfortunately... That was not the case."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what exactly was it?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I was just as curious as you are now."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Giving in to that same curiosity, I followed it through the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Its movements were incredibly agile. It traversed the dense forest almost effortlessly."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Flitting across the leaf-strewn ground, and vaulting over huge, fallen branches... I felt that it could've dodged the very snow falling overhead!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It knew the forest intimately, as though it had lived there all its life."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... It must have been hard to capture, huh?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's right. There's nothing harder to trap than an Eclipsite that is fully aware of its surroundings."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That day, I needed patience and restraint above all things."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Silently, I tracked its every move for almost three hours..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Finally, I was able to corner it in a narrow path with no escape."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Frightened by my approach, the Eclipsite dove behind some low-hanging branches to hide from me."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "With one stroke, I hacked the branches away so I could see its true face."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did it look like?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was a child."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Was it Noah?",
+     "link": "7"
+    },
+    {
+     "text": "Was it Louise?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Correct. Queen Bethlehem, to be precise..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha, I'm just kidding! How could Queen Bethlehem ever be mistaken for an Eclipsite?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Although, the Eclipsite did bear a striking resemblance to Her Majesty. I had to get a closer look..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So what exactly was it?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I was just as curious as you are now."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Giving in to that same curiosity, I followed it through the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Its movements were incredibly agile. It traversed the dense forest almost effortlessly."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Flitting across the leaf-strewn ground, and vaulting over huge, fallen branches... I felt that it could've dodged the very snow falling overhead!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It knew the forest intimately, as though it had lived there all its life."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... It must have been hard to capture, huh?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's right. There's nothing harder to trap than an Eclipsite that is fully aware of its surroundings."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That day, I needed patience and restraint above all things."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Silently, I tracked its every move for almost three hours..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Finally, I was able to corner it in a narrow path with no escape."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Frightened by my approach, the Eclipsite dove behind some low-hanging branches to hide from me."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "With one stroke, I hacked the branches away so I could see its true face."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did it look like?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was a child."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Was it Noah?",
+     "link": "7"
+    },
+    {
+     "text": "Was it Louise?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "So what exactly was it?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I was just as curious as you are now."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Giving in to that same curiosity, I followed it through the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Its movements were incredibly agile. It traversed the dense forest almost effortlessly."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Flitting across the leaf-strewn ground, and vaulting over huge, fallen branches... I felt that it could've dodged the very snow falling overhead!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It knew the forest intimately, as though it had lived there all its life."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... It must have been hard to capture, huh?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's right. There's nothing harder to trap than an Eclipsite that is fully aware of its surroundings."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That day, I needed patience and restraint above all things."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Silently, I tracked its every move for almost three hours..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Finally, I was able to corner it in a narrow path with no escape."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Frightened by my approach, the Eclipsite dove behind some low-hanging branches to hide from me."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "With one stroke, I hacked the branches away so I could see its true face."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What did it look like?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I see..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was a child."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Was it Noah?",
+     "link": "7"
+    },
+    {
+     "text": "Was it Louise?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Noah? I'll admit, it was just as small and even somewhat cute."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But sadly, no... It wasn't her."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was someone I didn't recognize. A small, adorable, little thing."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the question remains: what was this child doing in this Northland forest, so far from civilization?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Not to mention, how did the child manage to avoid me for three hours?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right! How strange?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "With all these thoughts in mind, I asked the child several questions. \"Where are you from?\nWhy are you in this forest, instead of warm and safe at home\"?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"This forest is full of unseen perils and is no place for a child.\""
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Fortunately, you ran into me instead of an Eclipsite, or would you have preferred to be a monster's meal tonight?\""
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Your clothes are so thin... Even if you weren't swallowed whole by an Eclipsite, you would have frozen to death in this icy realm!\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... He sounds just like a parent..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Snap out of it, Constantine! I'm not that kid!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "*Ahem* In any case, I was furious! Furious at this child, as well as the child's parents!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I took my coat off, gave it to the child, and asked where the child lived while picking up the child."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the child wriggled out of my arms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Maybe out of fear?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "No... Not because of fear."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child seemed happy and didn't want to go home... The child wasn't done playing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? So the child wasn't afraid at all?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's right! I have never dealt with such a troublesome creature in my life!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Didn't want to go home\"? \"Wasn't done playing\"?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Do the forests of Northland seem like such fun and carefree places?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "H-He's doing it again!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Well, that child needed to be admonished!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "So, after a long and necessary scolding, the child told me where the home was."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whew... Glad the child started to cooperate."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child pointed in a general direction..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But still refused to stay in my arms, so the child held my hand instead as we walked in the direction of home."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "My coat was rather big for a child. It dragged along the ground, leaving odd tracks in our wake."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "We walked like this for roughly three more hours..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Finally, we emerged from the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Like I surmised, a child this small could not have lived in the forest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So where was the child's home?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Patience. I'm getting to that part."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "After walking for so long, the child holding my hand the entire time, we emerged from the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I immediately recognized our surroundings. We were on a snowy plain, not far from Lake Mirror."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Then, suddenly... The child told me that we had arrived."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So the child lived in the plains near Lake Mirror?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Absolutely not. Not a single soul lives on those plains, much less in a house."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So was the child lying?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's exactly what I thought!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "So I got angry again and asked the child to tell me where the home was."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the child turned head and let out a scream!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aaaaaaaaah!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "D-Don't do that! It was nothing that scary!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Although, I felt the same as you that day, too! So I turned to the child and asked what was the matter..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened next?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child said, \"I saw an Eclipsite run by in the distance!\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What!?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I quickly turned to look in that direction... But I didn't see a thing."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Even stranger still, was that the direction the child pointed at... Was the forest we had just emerged from."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "If there was an Eclipsite running about, we would have seen movement in the trees and the leaves... But they were still as death."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I grew suspicious and went to ask what the child had seen."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But when I turned around..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child was gone."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Vanished into thin air."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Standing there in that vast, snowy plain... I was the only one there."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-what..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The coat I had given the child was lying in the snow. Aside from that... Not a trace to be seen."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I don't want to listen anymore..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "And the strangest thing? When I looked back at the way we had walked out from the forest..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The only footprints in the snow... Were mine!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Waaaaaaaaaaaah!!!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahahaha! Got you good, didn't I?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "You're just a kid, aren't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Enough! No more please!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! It wasn't anything scary, honestly!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "After all, it was just an odd little child."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Odd\"?! This whole thing was downright insane!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I agree. It was such a cold day, and the child ran off without my jacket to keep warm... Insane, indeed!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Next time we meet, I'll have to make sure to bring another coat, just in case."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not what I meant!!!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Constantine:",
+     "dialogue": "Louise? Hmm, well she was a cute little girl, as well."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I only wish that it could have been her."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But sadly... It wasn't."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "It was someone I didn't recognize. A small, adorable, little thing."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the question remains: what was this child doing in this Northland forest, so far from civilization?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Not to mention, how did the child manage to avoid me for three hours?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right! How strange?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "With all these thoughts in mind, I asked the child several questions. \"Where are you from?\nWhy are you in this forest, instead of warm and safe at home\"?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"This forest is full of unseen perils and is no place for a child.\""
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Fortunately, you ran into me instead of an Eclipsite, or would you have preferred to be a monster's meal tonight?\""
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Your clothes are so thin... Even if you weren't swallowed whole by an Eclipsite, you would have frozen to death in this icy realm!\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... He sounds just like a parent..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Snap out of it, Constantine! I'm not that kid!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "*Ahem* In any case, I was furious! Furious at this child, as well as the child's parents!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I took my coat off, gave it to the child, and asked where the child lived while picking up the child."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the child wriggled out of my arms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Maybe out of fear?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "No... Not because of fear."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child seemed happy and didn't want to go home... The child wasn't done playing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? So the child wasn't afraid at all?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's right! I have never dealt with such a troublesome creature in my life!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "\"Didn't want to go home\"? \"Wasn't done playing\"?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Do the forests of Northland seem like such fun and carefree places?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "H-He's doing it again!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Well, that child needed to be admonished!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "So, after a long and necessary scolding, the child told me where the home was."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whew... Glad the child started to cooperate."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child pointed in a general direction..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But still refused to stay in my arms, so the child held my hand instead as we walked in the direction of home."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "My coat was rather big for a child. It dragged along the ground, leaving odd tracks in our wake."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "We walked like this for roughly three more hours..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Finally, we emerged from the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Like I surmised, a child this small could not have lived in the forest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So where was the child's home?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Patience. I'm getting to that part."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "After walking for so long, the child holding my hand the entire time, we emerged from the forest."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I immediately recognized our surroundings. We were on a snowy plain, not far from Lake Mirror."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Then, suddenly... The child told me that we had arrived."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So the child lived in the plains near Lake Mirror?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Absolutely not. Not a single soul lives on those plains, much less in a house."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So was the child lying?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "That's exactly what I thought!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "So I got angry again and asked the child to tell me where the home was."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But the child turned head and let out a scream!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aaaaaaaaah!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "D-Don't do that! It was nothing that scary!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Although, I felt the same as you that day, too! So I turned to the child and asked what was the matter..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened next?!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child said, \"I saw an Eclipsite run by in the distance!\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What!?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I quickly turned to look in that direction... But I didn't see a thing."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Even stranger still, was that the direction the child pointed at... Was the forest we had just emerged from."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "If there was an Eclipsite running about, we would have seen movement in the trees and the leaves... But they were still as death."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I grew suspicious and went to ask what the child had seen."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "But when I turned around..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The child was gone."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Vanished into thin air."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Standing there in that vast, snowy plain... I was the only one there."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-what..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The coat I had given the child was lying in the snow. Aside from that... Not a trace to be seen."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I don't want to listen anymore..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "And the strangest thing? When I looked back at the way we had walked out from the forest..."
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "The only footprints in the snow... Were mine!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Waaaaaaaaaaaah!!!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahahaha! Got you good, didn't I?"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "You're just a kid, aren't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Enough! No more please!!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Hahaha! It wasn't anything scary, honestly!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "After all, it was just an odd little child."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Odd\"?! This whole thing was downright insane!!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "I agree. It was such a cold day, and the child ran off without my jacket to keep warm... Insane, indeed!"
+    },
+    {
+     "char": "Constantine:",
+     "dialogue": "Next time we meet, I'll have to make sure to bring another coat, just in case."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's not what I meant!!!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

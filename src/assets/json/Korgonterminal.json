@@ -1,0 +1,152 @@
+[
+ {
+  "start": [
+   {
+    "name": "Korgon:",
+    "content": "Aah... Good morning!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning!"
+   },
+   {
+    "name": "Korgon:",
+    "content": "And what a heartbreaking morning it is..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Huh? What's wrong?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Heartbreaking? Are we talking about cats, here?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Huh? What's wrong?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Korgon:",
+      "content": "My kitten's sleeping. I don't want to disturb it, but I really want to touch it..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Erm... If this kind of thing breaks your heart..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why don't you just find something else to do?"
+     },
+     {
+      "name": "Korgon:",
+      "content": "Hey now! That's a good idea!"
+     },
+     {
+      "name": "Korgon:",
+      "content": "Thanks a bunch! I'll go find someone else's cat!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What a cat fanatic... So utterly hopeless..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Heartbreaking? Are we talking about cats, here?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Korgon:",
+      "content": "You bet it is!"
+     },
+     {
+      "name": "Korgon:",
+      "content": "My kitten's sleeping. I don't want to disturb it, but I really want to touch it..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Erm... If this kind of thing breaks your heart..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why don't you just find something else to do?"
+     },
+     {
+      "name": "Korgon:",
+      "content": "Hey now! That's a good idea!"
+     },
+     {
+      "name": "Korgon:",
+      "content": "Thanks a bunch! I'll go find someone else's cat!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What a cat fanatic... So utterly hopeless..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Korgon:",
+    "content": "Hey, have you had lunch yet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not yet."
+   },
+   {
+    "name": "Korgon:",
+    "content": "Huh? Why haven't you eaten yet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I\u2014"
+   },
+   {
+    "name": "Korgon:",
+    "content": "You can have mine, if you want!"
+   },
+   {
+    "name": "Korgon:",
+    "content": "Look how healthy it is! Vegetable soup and gluten-free bread!"
+   },
+   {
+    "name": "Korgon:",
+    "content": "But it might taste a tiny bit strange... My cat was lapping at it a little. You don't mind, do you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm good, thanks!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm going to eat now... thank you!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

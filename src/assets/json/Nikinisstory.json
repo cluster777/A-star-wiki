@@ -1,0 +1,842 @@
+{
+ "title": "Lily Therapy",
+ "header": "You asked Nikinis if she could give you some flowers to calm your nerves. As you requested, Nikinis prepared a lot of fresh flowers for you... except she seemed to have misunderstood the quantity you need...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "*Sips black tea*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "What is it?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "And what happened to your eyes?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a little difficult to bring this up, but... You do remember those lilies from last time, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You should be an expert on flowers, no?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I read from a book that having flowers in a room can purify the air, help you relax, etc."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, I want to put some flowers in my room. I'm wondering if I could ask you to..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "That's easy. However..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You have been looking a little tired recently."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, a lot of people have said that to me."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Is there something wrong?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Well... It's a long story.",
+     "link": "1"
+    },
+    {
+     "text": "I've been feeling kind of stressed lately...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "I think I already know the reason."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh really?! You do? Again?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Why did I say \"again\" again?)"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Anyway, I'll try to get some flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I'll send them to your room tomorrow night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You are the best at taking care of these things!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Enough with nonsense."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nikinis... Are all those lilies in my room..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "What about them?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You didn't specify what flowers you wanted. My sister in the mirror brought them over to me."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Besides, only these pure and elegant white flowers suit us."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Also, I've been very busy. I didn't have time to go look for other kinds of flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "As for daffodils, I wouldn't have been able to give you this many on my own."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They'll work... I just didn't think..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They were going to fill up my room!!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Is that bad?..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Hmm, you are so hard to please."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why did you look disappointed just now?",
+     "link": "4"
+    },
+    {
+     "text": "No no, they're fine!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "How should I put this? Vice's training has been a bit difficult for me..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I don't think I can help you become stronger."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I don't need your help with that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, hold up! What do you mean by this?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Anyway, I'll try to get some flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I'll send them to your room tomorrow night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You are the best at taking care of these things!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Enough with nonsense."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nikinis... Are all those lilies in my room..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "What about them?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You didn't specify what flowers you wanted. My sister in the mirror brought them over to me."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Besides, only these pure and elegant white flowers suit us."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Also, I've been very busy. I didn't have time to go look for other kinds of flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "As for daffodils, I wouldn't have been able to give you this many on my own."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They'll work... I just didn't think..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They were going to fill up my room!!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Is that bad?..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Hmm, you are so hard to please."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why did you look disappointed just now?",
+     "link": "4"
+    },
+    {
+     "text": "No no, they're fine!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "Anyway, I'll try to get some flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I'll send them to your room tomorrow night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You are the best at taking care of these things!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Enough with nonsense."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nikinis... Are all those lilies in my room..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "What about them?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You didn't specify what flowers you wanted. My sister in the mirror brought them over to me."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Besides, only these pure and elegant white flowers suit us."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Also, I've been very busy. I didn't have time to go look for other kinds of flowers."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "As for daffodils, I wouldn't have been able to give you this many on my own."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They'll work... I just didn't think..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They were going to fill up my room!!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Is that bad?..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Hmm, you are so hard to please."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Why did you look disappointed just now?",
+     "link": "4"
+    },
+    {
+     "text": "No no, they're fine!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Or am I mistaken?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Yes, you are mistaken. If you can't see clearly, I can help you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I accept them with gratitude!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet I'm going to sleep gratefully tonight!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "OK..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "If you need anything else, let me know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Before I get used to the aroma? I probably won't..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Yes, I remember. So what about the flowers? Or do you want more?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No no! I mean... Uh..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Can you just spit it out?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean... Can you please..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take them back?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Why? You are not satisfied with my lilies?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's not it!",
+     "link": "7"
+    },
+    {
+     "text": "I think maybe you didn't know lilies could cause insomnia...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Though it's better if it's a little less..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Sister said... Uh, the more, the better for someone you're doing a favor for."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So I asked sister for these lilies."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I accept them with gratitude!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet I'm going to sleep gratefully tonight!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "OK..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "If you need anything else, let me know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Before I get used to the aroma? I probably won't..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Yes, I remember. So what about the flowers? Or do you want more?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No no! I mean... Uh..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Can you just spit it out?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean... Can you please..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take them back?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Why? You are not satisfied with my lilies?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's not it!",
+     "link": "7"
+    },
+    {
+     "text": "I think maybe you didn't know lilies could cause insomnia...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I accept them with gratitude!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I bet I'm going to sleep gratefully tonight!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "OK..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "If you need anything else, let me know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Before I get used to the aroma? I probably won't..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Yes, I remember. So what about the flowers? Or do you want more?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No no! I mean... Uh..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Can you just spit it out?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean... Can you please..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take them back?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Why? You are not satisfied with my lilies?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "That's not it!",
+     "link": "7"
+    },
+    {
+     "text": "I think maybe you didn't know lilies could cause insomnia...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "They are elegant, beautiful, and have an enticing smell! It's probably just that... I can't get used to them."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So you are saying you don't like them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No no! That's not what I mean!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Aren't you asking me about my eyes? I'm trying to tell you the real reason!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So your dark circles... You couldn't sleep because of them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right! Thank goodness you get it now! Although I just learned about it as well..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I see. I'm sorry about this, but..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I can't take back things I've given to someone as gifts."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... What should I do?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Deal with them however you like. Throwing them away, maybe?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Wouldn't it be a waste to throw them away?",
+     "link": "10"
+    },
+    {
+     "text": "Looks like I have to wait for them to wither away on their own.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "Yes... I really just found out."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "After all, I have been with them for a very long time. It has never happened to me."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So your dark circles... You couldn't sleep because of them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right! Thank goodness you get it now! Although I just learned about it as well..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I see. I'm sorry about this, but..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I can't take back things I've given to someone as gifts."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... What should I do?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Deal with them however you like. Throwing them away, maybe?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Wouldn't it be a waste to throw them away?",
+     "link": "10"
+    },
+    {
+     "text": "Looks like I have to wait for them to wither away on their own.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "That's right! Thank goodness you get it now! Although I just learned about it as well..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I see. I'm sorry about this, but..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I can't take back things I've given to someone as gifts."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then... What should I do?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Deal with them however you like. Throwing them away, maybe?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Wouldn't it be a waste to throw them away?",
+     "link": "10"
+    },
+    {
+     "text": "Looks like I have to wait for them to wither away on their own.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "Since you know, why are you asking me?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "But you shouldn't worry. They are tougher than you think."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I'm curious about it. Why lilies?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Because it's the favorite flower of my sister from the mirror world. It was her suggestion to give you lilies."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You should know that not everyone can get flowers from her."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Especially when it comes to her favorite flower, lilies."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Even though I could have given you daffodils, I wouldn't be able to keep them alive with just my power."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So, do you get it now?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Sister said that she would only give white flowers like these to pure, innocent people..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "However, you wanted me to get rid of them."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I think I've mentioned that my sister is not as mild-tempered as me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you are still angry, right?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Of course not, why would I be?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not going to get rid of them! I apologize!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Apologize to my sister."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I hope you can fall asleep with those noble, elegant lilies tonight as well."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Nikinis:",
+     "dialogue": "I forgot to say that these flowers have all been touched by the magic of the Northland Mirror."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you mean..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I mean that they are no longer ordinary lilies after being infused with the power of the Northland Snow."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "In other words, they won't wither away any time soon?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Of course not. If they do wither away, it means the power of the Northland Mirror has diminished and I won't be able to see my sis."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not going to wither away. Fair enough..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I'm curious about it. Why lilies?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Because it's the favorite flower of my sister from the mirror world. It was her suggestion to give you lilies."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "You should know that not everyone can get flowers from her."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Especially when it comes to her favorite flower, lilies."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Even though I could have given you daffodils, I wouldn't be able to keep them alive with just my power."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "So, do you get it now?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Sister said that she would only give white flowers like these to pure, innocent people..."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "However, you wanted me to get rid of them."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I think I've mentioned that my sister is not as mild-tempered as me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you are still angry, right?"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Of course not, why would I be?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not going to get rid of them! I apologize!"
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "Apologize to my sister."
+    },
+    {
+     "char": "Nikinis:",
+     "dialogue": "I hope you can fall asleep with those noble, elegant lilies tonight as well."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

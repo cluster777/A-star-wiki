@@ -1,1153 +1,1319 @@
 {
-      "name": "Maggie",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "Fire",
-      "rarity": "5",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "5 Turn",
-            "description": [
-                  "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red.",
-                  "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red.",
-                  "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red."
-            ]
-      },
-      "equip": {
-            "name": "Leather Bomb Bag",
-            "passive": "Lizard Courage",
-            "description": [
-                  [
-                        "Increases Maggie's Chain Combo damage by 2% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 2% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
-                        "Increases Maggie's Chain Combo damage by 5% after every 10 combos."
-                  ],
-                  [
-                        "Increases Maggie's Chain Combo damage by 2% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 2% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1."
-                  ],
-                  [
-                        "Increases Maggie's Chain Combo damage by 2% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 2% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
-                        "Increases Maggie's Chain Combo damage by 5% after every 8 combos and reduces the combo-triggering tile count by 1."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 145% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 145% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 145% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "11",
-                              "description": "Deals 165% damage to 16 tiles in a radial shape."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Potion I",
-                        "Fire Crystal Dust",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Maggie's Chain Combo damage by 5% after every 10 combos."
-            },
-            {
-                  "material": [
-                        "Fire Crystal",
-                        "Fire Flare Silt",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Increases Maggie's Chain Combo damage by 5% after every 10 combos.",
-                  "after": "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1."
-            },
-            {
-                  "material": [
-                        "Fire Flare Tile",
-                        "Fire Potion II",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1.",
-                  "after": "Increases Maggie's Chain Combo damage by 5% after every 8 combos and reduces the combo-triggering tile count by 1."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 486,
-                        "def": 165,
-                        "hp": 1441
-                  },
-                  {
-                        "att": 494,
-                        "def": 168,
-                        "hp": 1464
-                  },
-                  {
-                        "att": 502,
-                        "def": 170,
-                        "hp": 1487
-                  },
-                  {
-                        "att": 510,
-                        "def": 173,
-                        "hp": 1510
-                  },
-                  {
-                        "att": 518,
-                        "def": 176,
-                        "hp": 1532
-                  },
-                  {
-                        "att": 526,
-                        "def": 178,
-                        "hp": 1555
-                  },
-                  {
-                        "att": 533,
-                        "def": 181,
-                        "hp": 1578
-                  },
-                  {
-                        "att": 541,
-                        "def": 184,
-                        "hp": 1601
-                  },
-                  {
-                        "att": 549,
-                        "def": 187,
-                        "hp": 1624
-                  },
-                  {
-                        "att": 557,
-                        "def": 189,
-                        "hp": 1647
-                  },
-                  {
-                        "att": 565,
-                        "def": 192,
-                        "hp": 1670
-                  },
-                  {
-                        "att": 573,
-                        "def": 195,
-                        "hp": 1692
-                  },
-                  {
-                        "att": 581,
-                        "def": 197,
-                        "hp": 1715
-                  },
-                  {
-                        "att": 588,
-                        "def": 200,
-                        "hp": 1738
-                  },
-                  {
-                        "att": 596,
-                        "def": 203,
-                        "hp": 1761
-                  },
-                  {
-                        "att": 604,
-                        "def": 206,
-                        "hp": 1784
-                  },
-                  {
-                        "att": 612,
-                        "def": 208,
-                        "hp": 1807
-                  },
-                  {
-                        "att": 620,
-                        "def": 211,
-                        "hp": 1829
-                  },
-                  {
-                        "att": 628,
-                        "def": 214,
-                        "hp": 1852
-                  },
-                  {
-                        "att": 635,
-                        "def": 216,
-                        "hp": 1875
-                  },
-                  {
-                        "att": 643,
-                        "def": 219,
-                        "hp": 1898
-                  },
-                  {
-                        "att": 651,
-                        "def": 222,
-                        "hp": 1921
-                  },
-                  {
-                        "att": 659,
-                        "def": 225,
-                        "hp": 1944
-                  },
-                  {
-                        "att": 667,
-                        "def": 227,
-                        "hp": 1967
-                  },
-                  {
-                        "att": 675,
-                        "def": 230,
-                        "hp": 1989
-                  },
-                  {
-                        "att": 683,
-                        "def": 233,
-                        "hp": 2012
-                  },
-                  {
-                        "att": 690,
-                        "def": 235,
-                        "hp": 2035
-                  },
-                  {
-                        "att": 698,
-                        "def": 238,
-                        "hp": 2058
-                  },
-                  {
-                        "att": 706,
-                        "def": 241,
-                        "hp": 2081
-                  },
-                  {
-                        "att": 714,
-                        "def": 244,
-                        "hp": 2104
-                  },
-                  {
-                        "att": 809,
-                        "def": 277,
-                        "hp": 2352
-                  },
-                  {
-                        "att": 819,
-                        "def": 280,
-                        "hp": 2381
-                  },
-                  {
-                        "att": 828,
-                        "def": 284,
-                        "hp": 2409
-                  },
-                  {
-                        "att": 838,
-                        "def": 287,
-                        "hp": 2438
-                  },
-                  {
-                        "att": 848,
-                        "def": 290,
-                        "hp": 2466
-                  },
-                  {
-                        "att": 858,
-                        "def": 294,
-                        "hp": 2495
-                  },
-                  {
-                        "att": 868,
-                        "def": 297,
-                        "hp": 2524
-                  },
-                  {
-                        "att": 877,
-                        "def": 301,
-                        "hp": 2552
-                  },
-                  {
-                        "att": 887,
-                        "def": 304,
-                        "hp": 2581
-                  },
-                  {
-                        "att": 897,
-                        "def": 307,
-                        "hp": 2609
-                  },
-                  {
-                        "att": 907,
-                        "def": 311,
-                        "hp": 2638
-                  },
-                  {
-                        "att": 917,
-                        "def": 314,
-                        "hp": 2666
-                  },
-                  {
-                        "att": 927,
-                        "def": 318,
-                        "hp": 2695
-                  },
-                  {
-                        "att": 936,
-                        "def": 321,
-                        "hp": 2723
-                  },
-                  {
-                        "att": 946,
-                        "def": 324,
-                        "hp": 2752
-                  },
-                  {
-                        "att": 956,
-                        "def": 328,
-                        "hp": 2781
-                  },
-                  {
-                        "att": 966,
-                        "def": 331,
-                        "hp": 2809
-                  },
-                  {
-                        "att": 976,
-                        "def": 335,
-                        "hp": 2838
-                  },
-                  {
-                        "att": 985,
-                        "def": 338,
-                        "hp": 2866
-                  },
-                  {
-                        "att": 995,
-                        "def": 341,
-                        "hp": 2895
-                  },
-                  {
-                        "att": 1005,
-                        "def": 345,
-                        "hp": 2923
-                  },
-                  {
-                        "att": 1015,
-                        "def": 348,
-                        "hp": 2952
-                  },
-                  {
-                        "att": 1025,
-                        "def": 351,
-                        "hp": 2981
-                  },
-                  {
-                        "att": 1034,
-                        "def": 355,
-                        "hp": 3009
-                  },
-                  {
-                        "att": 1044,
-                        "def": 358,
-                        "hp": 3038
-                  },
-                  {
-                        "att": 1054,
-                        "def": 362,
-                        "hp": 3066
-                  },
-                  {
-                        "att": 1064,
-                        "def": 365,
-                        "hp": 3095
-                  },
-                  {
-                        "att": 1074,
-                        "def": 368,
-                        "hp": 3123
-                  },
-                  {
-                        "att": 1084,
-                        "def": 372,
-                        "hp": 3152
-                  },
-                  {
-                        "att": 1093,
-                        "def": 375,
-                        "hp": 3180
-                  },
-                  {
-                        "att": 1103,
-                        "def": 379,
-                        "hp": 3209
-                  },
-                  {
-                        "att": 1113,
-                        "def": 382,
-                        "hp": 3238
-                  },
-                  {
-                        "att": 1123,
-                        "def": 385,
-                        "hp": 3266
-                  },
-                  {
-                        "att": 1133,
-                        "def": 389,
-                        "hp": 3295
-                  },
-                  {
-                        "att": 1142,
-                        "def": 392,
-                        "hp": 3323
-                  },
-                  {
-                        "att": 1152,
-                        "def": 395,
-                        "hp": 3352
-                  },
-                  {
-                        "att": 1162,
-                        "def": 399,
-                        "hp": 3380
-                  },
-                  {
-                        "att": 1172,
-                        "def": 402,
-                        "hp": 3409
-                  },
-                  {
-                        "att": 1182,
-                        "def": 406,
-                        "hp": 3437
-                  },
-                  {
-                        "att": 1191,
-                        "def": 409,
-                        "hp": 3466
-                  },
-                  {
-                        "att": 1334,
-                        "def": 462,
-                        "hp": 3827
-                  },
-                  {
-                        "att": 1341,
-                        "def": 464,
-                        "hp": 3849
-                  },
-                  {
-                        "att": 1349,
-                        "def": 467,
-                        "hp": 3870
-                  },
-                  {
-                        "att": 1356,
-                        "def": 469,
-                        "hp": 3892
-                  },
-                  {
-                        "att": 1363,
-                        "def": 472,
-                        "hp": 3913
-                  },
-                  {
-                        "att": 1371,
-                        "def": 474,
-                        "hp": 3935
-                  },
-                  {
-                        "att": 1378,
-                        "def": 477,
-                        "hp": 3956
-                  },
-                  {
-                        "att": 1385,
-                        "def": 479,
-                        "hp": 3977
-                  },
-                  {
-                        "att": 1393,
-                        "def": 482,
-                        "hp": 3999
-                  },
-                  {
-                        "att": 1400,
-                        "def": 484,
-                        "hp": 4020
-                  },
-                  {
-                        "att": 1407,
-                        "def": 487,
-                        "hp": 4042
-                  },
-                  {
-                        "att": 1415,
-                        "def": 490,
-                        "hp": 4063
-                  },
-                  {
-                        "att": 1422,
-                        "def": 492,
-                        "hp": 4085
-                  },
-                  {
-                        "att": 1429,
-                        "def": 495,
-                        "hp": 4106
-                  },
-                  {
-                        "att": 1437,
-                        "def": 497,
-                        "hp": 4127
-                  },
-                  {
-                        "att": 1444,
-                        "def": 500,
-                        "hp": 4149
-                  },
-                  {
-                        "att": 1452,
-                        "def": 502,
-                        "hp": 4170
-                  },
-                  {
-                        "att": 1459,
-                        "def": 505,
-                        "hp": 4192
-                  },
-                  {
-                        "att": 1466,
-                        "def": 507,
-                        "hp": 4213
-                  },
-                  {
-                        "att": 1474,
-                        "def": 510,
-                        "hp": 4234
-                  },
-                  {
-                        "att": 1481,
-                        "def": 512,
-                        "hp": 4256
-                  },
-                  {
-                        "att": 1488,
-                        "def": 515,
-                        "hp": 4277
-                  },
-                  {
-                        "att": 1496,
-                        "def": 518,
-                        "hp": 4299
-                  },
-                  {
-                        "att": 1503,
-                        "def": 520,
-                        "hp": 4320
-                  },
-                  {
-                        "att": 1510,
-                        "def": 523,
-                        "hp": 4342
-                  },
-                  {
-                        "att": 1518,
-                        "def": 525,
-                        "hp": 4363
-                  },
-                  {
-                        "att": 1525,
-                        "def": 528,
-                        "hp": 4384
-                  },
-                  {
-                        "att": 1533,
-                        "def": 530,
-                        "hp": 4406
-                  },
-                  {
-                        "att": 1540,
-                        "def": 533,
-                        "hp": 4427
-                  },
-                  {
-                        "att": 1547,
-                        "def": 535,
-                        "hp": 4449
-                  },
-                  {
-                        "att": 1555,
-                        "def": 538,
-                        "hp": 4470
-                  },
-                  {
-                        "att": 1562,
-                        "def": 540,
-                        "hp": 4491
-                  },
-                  {
-                        "att": 1569,
-                        "def": 543,
-                        "hp": 4513
-                  },
-                  {
-                        "att": 1577,
-                        "def": 545,
-                        "hp": 4534
-                  },
-                  {
-                        "att": 1584,
-                        "def": 548,
-                        "hp": 4556
-                  },
-                  {
-                        "att": 1591,
-                        "def": 551,
-                        "hp": 4577
-                  },
-                  {
-                        "att": 1599,
-                        "def": 553,
-                        "hp": 4599
-                  },
-                  {
-                        "att": 1606,
-                        "def": 556,
-                        "hp": 4620
-                  },
-                  {
-                        "att": 1613,
-                        "def": 558,
-                        "hp": 4641
-                  },
-                  {
-                        "att": 1621,
-                        "def": 561,
-                        "hp": 4663
-                  },
-                  {
-                        "att": 1628,
-                        "def": 563,
-                        "hp": 4684
-                  },
-                  {
-                        "att": 1636,
-                        "def": 566,
-                        "hp": 4706
-                  },
-                  {
-                        "att": 1643,
-                        "def": 568,
-                        "hp": 4727
-                  },
-                  {
-                        "att": 1650,
-                        "def": 571,
-                        "hp": 4749
-                  },
-                  {
-                        "att": 1658,
-                        "def": 573,
-                        "hp": 4770
-                  },
-                  {
-                        "att": 1665,
-                        "def": 576,
-                        "hp": 4791
-                  },
-                  {
-                        "att": 1672,
-                        "def": 579,
-                        "hp": 4813
-                  },
-                  {
-                        "att": 1680,
-                        "def": 581,
-                        "hp": 4834
-                  },
-                  {
-                        "att": 1687,
-                        "def": 584,
-                        "hp": 4856
-                  },
-                  {
-                        "att": 1694,
-                        "def": 586,
-                        "hp": 4877
-                  },
-                  {
-                        "att": 1899,
-                        "def": 653,
-                        "hp": 5401
-                  },
-                  {
-                        "att": 1904,
-                        "def": 655,
-                        "hp": 5416
-                  },
-                  {
-                        "att": 1909,
-                        "def": 656,
-                        "hp": 5430
-                  },
-                  {
-                        "att": 1914,
-                        "def": 658,
-                        "hp": 5444
-                  },
-                  {
-                        "att": 1919,
-                        "def": 660,
-                        "hp": 5458
-                  },
-                  {
-                        "att": 1924,
-                        "def": 661,
-                        "hp": 5473
-                  },
-                  {
-                        "att": 1929,
-                        "def": 663,
-                        "hp": 5487
-                  },
-                  {
-                        "att": 1934,
-                        "def": 665,
-                        "hp": 5501
-                  },
-                  {
-                        "att": 1939,
-                        "def": 666,
-                        "hp": 5516
-                  },
-                  {
-                        "att": 1943,
-                        "def": 668,
-                        "hp": 5530
-                  },
-                  {
-                        "att": 1948,
-                        "def": 670,
-                        "hp": 5544
-                  },
-                  {
-                        "att": 1953,
-                        "def": 671,
-                        "hp": 5558
-                  },
-                  {
-                        "att": 1958,
-                        "def": 673,
-                        "hp": 5573
-                  },
-                  {
-                        "att": 1963,
-                        "def": 675,
-                        "hp": 5587
-                  },
-                  {
-                        "att": 1968,
-                        "def": 677,
-                        "hp": 5601
-                  },
-                  {
-                        "att": 1973,
-                        "def": 678,
-                        "hp": 5616
-                  },
-                  {
-                        "att": 1978,
-                        "def": 680,
-                        "hp": 5630
-                  },
-                  {
-                        "att": 1983,
-                        "def": 682,
-                        "hp": 5644
-                  },
-                  {
-                        "att": 1988,
-                        "def": 683,
-                        "hp": 5658
-                  },
-                  {
-                        "att": 1993,
-                        "def": 685,
-                        "hp": 5673
-                  },
-                  {
-                        "att": 1997,
-                        "def": 687,
-                        "hp": 5687
-                  },
-                  {
-                        "att": 2002,
-                        "def": 688,
-                        "hp": 5701
-                  },
-                  {
-                        "att": 2007,
-                        "def": 690,
-                        "hp": 5715
-                  },
-                  {
-                        "att": 2012,
-                        "def": 692,
-                        "hp": 5730
-                  },
-                  {
-                        "att": 2017,
-                        "def": 693,
-                        "hp": 5744
-                  },
-                  {
-                        "att": 2022,
-                        "def": 695,
-                        "hp": 5758
-                  },
-                  {
-                        "att": 2027,
-                        "def": 697,
-                        "hp": 5773
-                  },
-                  {
-                        "att": 2032,
-                        "def": 699,
-                        "hp": 5787
-                  },
-                  {
-                        "att": 2037,
-                        "def": 700,
-                        "hp": 5801
-                  },
-                  {
-                        "att": 2042,
-                        "def": 702,
-                        "hp": 5815
-                  },
-                  {
-                        "att": 2046,
-                        "def": 704,
-                        "hp": 5830
-                  },
-                  {
-                        "att": 2051,
-                        "def": 705,
-                        "hp": 5844
-                  },
-                  {
-                        "att": 2056,
-                        "def": 707,
-                        "hp": 5858
-                  },
-                  {
-                        "att": 2061,
-                        "def": 709,
-                        "hp": 5873
-                  },
-                  {
-                        "att": 2066,
-                        "def": 710,
-                        "hp": 5887
-                  },
-                  {
-                        "att": 2071,
-                        "def": 712,
-                        "hp": 5901
-                  },
-                  {
-                        "att": 2076,
-                        "def": 714,
-                        "hp": 5915
-                  },
-                  {
-                        "att": 2081,
-                        "def": 716,
-                        "hp": 5930
-                  },
-                  {
-                        "att": 2086,
-                        "def": 717,
-                        "hp": 5944
-                  },
-                  {
-                        "att": 2091,
-                        "def": 719,
-                        "hp": 5958
-                  },
-                  {
-                        "att": 2096,
-                        "def": 721,
-                        "hp": 5973
-                  },
-                  {
-                        "att": 2100,
-                        "def": 722,
-                        "hp": 5987
-                  },
-                  {
-                        "att": 2105,
-                        "def": 724,
-                        "hp": 6001
-                  },
-                  {
-                        "att": 2110,
-                        "def": 726,
-                        "hp": 6015
-                  },
-                  {
-                        "att": 2115,
-                        "def": 727,
-                        "hp": 6030
-                  },
-                  {
-                        "att": 2120,
-                        "def": 729,
-                        "hp": 6044
-                  },
-                  {
-                        "att": 2125,
-                        "def": 731,
-                        "hp": 6058
-                  },
-                  {
-                        "att": 2130,
-                        "def": 732,
-                        "hp": 6072
-                  },
-                  {
-                        "att": 2135,
-                        "def": 734,
-                        "hp": 6087
-                  },
-                  {
-                        "att": 2140,
-                        "def": 736,
-                        "hp": 6101
-                  },
-                  {
-                        "att": 2145,
-                        "def": 738,
-                        "hp": 6115
-                  },
-                  {
-                        "att": 2150,
-                        "def": 739,
-                        "hp": 6130
-                  },
-                  {
-                        "att": 2154,
-                        "def": 741,
-                        "hp": 6144
-                  },
-                  {
-                        "att": 2159,
-                        "def": 743,
-                        "hp": 6158
-                  },
-                  {
-                        "att": 2164,
-                        "def": 744,
-                        "hp": 6172
-                  },
-                  {
-                        "att": 2169,
-                        "def": 746,
-                        "hp": 6187
-                  },
-                  {
-                        "att": 2174,
-                        "def": 748,
-                        "hp": 6201
-                  },
-                  {
-                        "att": 2179,
-                        "def": 749,
-                        "hp": 6215
-                  },
-                  {
-                        "att": 2184,
-                        "def": 751,
-                        "hp": 6230
-                  },
-                  {
-                        "att": 2189,
-                        "def": 753,
-                        "hp": 6244
-                  },
-                  {
-                        "att": 2194,
-                        "def": 754,
-                        "hp": 6258
-                  },
-                  {
-                        "att": 2199,
-                        "def": 756,
-                        "hp": 6272
-                  },
-                  {
-                        "att": 2203,
-                        "def": 758,
-                        "hp": 6287
-                  },
-                  {
-                        "att": 2208,
-                        "def": 760,
-                        "hp": 6301
-                  },
-                  {
-                        "att": 2213,
-                        "def": 761,
-                        "hp": 6315
-                  },
-                  {
-                        "att": 2218,
-                        "def": 763,
-                        "hp": 6330
-                  },
-                  {
-                        "att": 2223,
-                        "def": 765,
-                        "hp": 6344
-                  },
-                  {
-                        "att": 2228,
-                        "def": 766,
-                        "hp": 6358
-                  },
-                  {
-                        "att": 2233,
-                        "def": 768,
-                        "hp": 6372
-                  },
-                  {
-                        "att": 2238,
-                        "def": 770,
-                        "hp": 6387
-                  },
-                  {
-                        "att": 2243,
-                        "def": 771,
-                        "hp": 6401
-                  },
-                  {
-                        "att": 2248,
-                        "def": 773,
-                        "hp": 6415
-                  },
-                  {
-                        "att": 2253,
-                        "def": 775,
-                        "hp": 6429
-                  },
-                  {
-                        "att": 2257,
-                        "def": 777,
-                        "hp": 6444
-                  },
-                  {
-                        "att": 2262,
-                        "def": 778,
-                        "hp": 6458
-                  },
-                  {
-                        "att": 2267,
-                        "def": 780,
-                        "hp": 6472
-                  },
-                  {
-                        "att": 2272,
-                        "def": 782,
-                        "hp": 6487
-                  },
-                  {
-                        "att": 2277,
-                        "def": 783,
-                        "hp": 6501
-                  },
-                  {
-                        "att": 2282,
-                        "def": 785,
-                        "hp": 6515
-                  },
-                  {
-                        "att": 2287,
-                        "def": 787,
-                        "hp": 6529
-                  }
-            ]
-      }
+ "name": "Maggie",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "Fire",
+ "rarity": "5",
+ "class": "Converter",
+ "skill": {
+  "name": "Rapid Bombing",
+  "cd": "5 Turn",
+  "description": [
+   "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red.",
+   "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red.",
+   "Deals 450% damage to enemies in a cross shape to the maximum range and knocks enemies back. Converts tiles in the area of attack to Red."
+  ]
+ },
+ "equip": {
+  "name": "Leather Bomb Bag",
+  "passive": "Lizard Courage",
+  "description": [
+   [
+    "Increases Maggie's Chain Combo damage by 2% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 2% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos.",
+    "Increases Maggie's Chain Combo damage by 5% after every 10 combos."
+   ],
+   [
+    "Increases Maggie's Chain Combo damage by 2% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 2% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 10 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1."
+   ],
+   [
+    "Increases Maggie's Chain Combo damage by 2% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 2% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 3% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 4% after every 8 combos and reduces the combo-triggering tile count by 1.",
+    "Increases Maggie's Chain Combo damage by 5% after every 8 combos and reduces the combo-triggering tile count by 1."
+   ]
+  ],
+  "introduction": "This leather bomb bag is always filled with various mass-produced bombs. Ordinarily, these bombs are not particularly powerful, but if Maggie injects a great deal of Lumina into them, they can achieve cataclysmic explosive power."
+ },
+ "chain": {
+  "name": "Refreshing Explosion",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 145% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 145% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 145% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "11",
+     "description": "Deals 165% damage to 16 tiles in a radial shape."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Potion I",
+    "Fire Crystal Dust",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Maggie's Chain Combo damage by 5% after every 10 combos."
+  },
+  {
+   "material": [
+    "Fire Crystal",
+    "Fire Flare Silt",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Increases Maggie's Chain Combo damage by 5% after every 10 combos.",
+   "after": "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1."
+  },
+  {
+   "material": [
+    "Fire Flare Tile",
+    "Fire Potion II",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Increases Maggie's Chain Combo damage by 5% after every 10 combos and reduces the combo-triggering tile count by 1.",
+   "after": "Increases Maggie's Chain Combo damage by 5% after every 8 combos and reduces the combo-triggering tile count by 1."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 486,
+    "def": 165,
+    "hp": 1441
+   },
+   {
+    "att": 494,
+    "def": 168,
+    "hp": 1464
+   },
+   {
+    "att": 502,
+    "def": 170,
+    "hp": 1487
+   },
+   {
+    "att": 510,
+    "def": 173,
+    "hp": 1510
+   },
+   {
+    "att": 518,
+    "def": 176,
+    "hp": 1532
+   },
+   {
+    "att": 526,
+    "def": 178,
+    "hp": 1555
+   },
+   {
+    "att": 533,
+    "def": 181,
+    "hp": 1578
+   },
+   {
+    "att": 541,
+    "def": 184,
+    "hp": 1601
+   },
+   {
+    "att": 549,
+    "def": 187,
+    "hp": 1624
+   },
+   {
+    "att": 557,
+    "def": 189,
+    "hp": 1647
+   },
+   {
+    "att": 565,
+    "def": 192,
+    "hp": 1670
+   },
+   {
+    "att": 573,
+    "def": 195,
+    "hp": 1692
+   },
+   {
+    "att": 581,
+    "def": 197,
+    "hp": 1715
+   },
+   {
+    "att": 588,
+    "def": 200,
+    "hp": 1738
+   },
+   {
+    "att": 596,
+    "def": 203,
+    "hp": 1761
+   },
+   {
+    "att": 604,
+    "def": 206,
+    "hp": 1784
+   },
+   {
+    "att": 612,
+    "def": 208,
+    "hp": 1807
+   },
+   {
+    "att": 620,
+    "def": 211,
+    "hp": 1829
+   },
+   {
+    "att": 628,
+    "def": 214,
+    "hp": 1852
+   },
+   {
+    "att": 635,
+    "def": 216,
+    "hp": 1875
+   },
+   {
+    "att": 643,
+    "def": 219,
+    "hp": 1898
+   },
+   {
+    "att": 651,
+    "def": 222,
+    "hp": 1921
+   },
+   {
+    "att": 659,
+    "def": 225,
+    "hp": 1944
+   },
+   {
+    "att": 667,
+    "def": 227,
+    "hp": 1967
+   },
+   {
+    "att": 675,
+    "def": 230,
+    "hp": 1989
+   },
+   {
+    "att": 683,
+    "def": 233,
+    "hp": 2012
+   },
+   {
+    "att": 690,
+    "def": 235,
+    "hp": 2035
+   },
+   {
+    "att": 698,
+    "def": 238,
+    "hp": 2058
+   },
+   {
+    "att": 706,
+    "def": 241,
+    "hp": 2081
+   },
+   {
+    "att": 714,
+    "def": 244,
+    "hp": 2104
+   },
+   {
+    "att": 809,
+    "def": 277,
+    "hp": 2352
+   },
+   {
+    "att": 819,
+    "def": 280,
+    "hp": 2381
+   },
+   {
+    "att": 828,
+    "def": 284,
+    "hp": 2409
+   },
+   {
+    "att": 838,
+    "def": 287,
+    "hp": 2438
+   },
+   {
+    "att": 848,
+    "def": 290,
+    "hp": 2466
+   },
+   {
+    "att": 858,
+    "def": 294,
+    "hp": 2495
+   },
+   {
+    "att": 868,
+    "def": 297,
+    "hp": 2524
+   },
+   {
+    "att": 877,
+    "def": 301,
+    "hp": 2552
+   },
+   {
+    "att": 887,
+    "def": 304,
+    "hp": 2581
+   },
+   {
+    "att": 897,
+    "def": 307,
+    "hp": 2609
+   },
+   {
+    "att": 907,
+    "def": 311,
+    "hp": 2638
+   },
+   {
+    "att": 917,
+    "def": 314,
+    "hp": 2666
+   },
+   {
+    "att": 927,
+    "def": 318,
+    "hp": 2695
+   },
+   {
+    "att": 936,
+    "def": 321,
+    "hp": 2723
+   },
+   {
+    "att": 946,
+    "def": 324,
+    "hp": 2752
+   },
+   {
+    "att": 956,
+    "def": 328,
+    "hp": 2781
+   },
+   {
+    "att": 966,
+    "def": 331,
+    "hp": 2809
+   },
+   {
+    "att": 976,
+    "def": 335,
+    "hp": 2838
+   },
+   {
+    "att": 985,
+    "def": 338,
+    "hp": 2866
+   },
+   {
+    "att": 995,
+    "def": 341,
+    "hp": 2895
+   },
+   {
+    "att": 1005,
+    "def": 345,
+    "hp": 2923
+   },
+   {
+    "att": 1015,
+    "def": 348,
+    "hp": 2952
+   },
+   {
+    "att": 1025,
+    "def": 351,
+    "hp": 2981
+   },
+   {
+    "att": 1034,
+    "def": 355,
+    "hp": 3009
+   },
+   {
+    "att": 1044,
+    "def": 358,
+    "hp": 3038
+   },
+   {
+    "att": 1054,
+    "def": 362,
+    "hp": 3066
+   },
+   {
+    "att": 1064,
+    "def": 365,
+    "hp": 3095
+   },
+   {
+    "att": 1074,
+    "def": 368,
+    "hp": 3123
+   },
+   {
+    "att": 1084,
+    "def": 372,
+    "hp": 3152
+   },
+   {
+    "att": 1093,
+    "def": 375,
+    "hp": 3180
+   },
+   {
+    "att": 1103,
+    "def": 379,
+    "hp": 3209
+   },
+   {
+    "att": 1113,
+    "def": 382,
+    "hp": 3238
+   },
+   {
+    "att": 1123,
+    "def": 385,
+    "hp": 3266
+   },
+   {
+    "att": 1133,
+    "def": 389,
+    "hp": 3295
+   },
+   {
+    "att": 1142,
+    "def": 392,
+    "hp": 3323
+   },
+   {
+    "att": 1152,
+    "def": 395,
+    "hp": 3352
+   },
+   {
+    "att": 1162,
+    "def": 399,
+    "hp": 3380
+   },
+   {
+    "att": 1172,
+    "def": 402,
+    "hp": 3409
+   },
+   {
+    "att": 1182,
+    "def": 406,
+    "hp": 3437
+   },
+   {
+    "att": 1191,
+    "def": 409,
+    "hp": 3466
+   },
+   {
+    "att": 1334,
+    "def": 462,
+    "hp": 3827
+   },
+   {
+    "att": 1341,
+    "def": 464,
+    "hp": 3849
+   },
+   {
+    "att": 1349,
+    "def": 467,
+    "hp": 3870
+   },
+   {
+    "att": 1356,
+    "def": 469,
+    "hp": 3892
+   },
+   {
+    "att": 1363,
+    "def": 472,
+    "hp": 3913
+   },
+   {
+    "att": 1371,
+    "def": 474,
+    "hp": 3935
+   },
+   {
+    "att": 1378,
+    "def": 477,
+    "hp": 3956
+   },
+   {
+    "att": 1385,
+    "def": 479,
+    "hp": 3977
+   },
+   {
+    "att": 1393,
+    "def": 482,
+    "hp": 3999
+   },
+   {
+    "att": 1400,
+    "def": 484,
+    "hp": 4020
+   },
+   {
+    "att": 1407,
+    "def": 487,
+    "hp": 4042
+   },
+   {
+    "att": 1415,
+    "def": 490,
+    "hp": 4063
+   },
+   {
+    "att": 1422,
+    "def": 492,
+    "hp": 4085
+   },
+   {
+    "att": 1429,
+    "def": 495,
+    "hp": 4106
+   },
+   {
+    "att": 1437,
+    "def": 497,
+    "hp": 4127
+   },
+   {
+    "att": 1444,
+    "def": 500,
+    "hp": 4149
+   },
+   {
+    "att": 1452,
+    "def": 502,
+    "hp": 4170
+   },
+   {
+    "att": 1459,
+    "def": 505,
+    "hp": 4192
+   },
+   {
+    "att": 1466,
+    "def": 507,
+    "hp": 4213
+   },
+   {
+    "att": 1474,
+    "def": 510,
+    "hp": 4234
+   },
+   {
+    "att": 1481,
+    "def": 512,
+    "hp": 4256
+   },
+   {
+    "att": 1488,
+    "def": 515,
+    "hp": 4277
+   },
+   {
+    "att": 1496,
+    "def": 518,
+    "hp": 4299
+   },
+   {
+    "att": 1503,
+    "def": 520,
+    "hp": 4320
+   },
+   {
+    "att": 1510,
+    "def": 523,
+    "hp": 4342
+   },
+   {
+    "att": 1518,
+    "def": 525,
+    "hp": 4363
+   },
+   {
+    "att": 1525,
+    "def": 528,
+    "hp": 4384
+   },
+   {
+    "att": 1533,
+    "def": 530,
+    "hp": 4406
+   },
+   {
+    "att": 1540,
+    "def": 533,
+    "hp": 4427
+   },
+   {
+    "att": 1547,
+    "def": 535,
+    "hp": 4449
+   },
+   {
+    "att": 1555,
+    "def": 538,
+    "hp": 4470
+   },
+   {
+    "att": 1562,
+    "def": 540,
+    "hp": 4491
+   },
+   {
+    "att": 1569,
+    "def": 543,
+    "hp": 4513
+   },
+   {
+    "att": 1577,
+    "def": 545,
+    "hp": 4534
+   },
+   {
+    "att": 1584,
+    "def": 548,
+    "hp": 4556
+   },
+   {
+    "att": 1591,
+    "def": 551,
+    "hp": 4577
+   },
+   {
+    "att": 1599,
+    "def": 553,
+    "hp": 4599
+   },
+   {
+    "att": 1606,
+    "def": 556,
+    "hp": 4620
+   },
+   {
+    "att": 1613,
+    "def": 558,
+    "hp": 4641
+   },
+   {
+    "att": 1621,
+    "def": 561,
+    "hp": 4663
+   },
+   {
+    "att": 1628,
+    "def": 563,
+    "hp": 4684
+   },
+   {
+    "att": 1636,
+    "def": 566,
+    "hp": 4706
+   },
+   {
+    "att": 1643,
+    "def": 568,
+    "hp": 4727
+   },
+   {
+    "att": 1650,
+    "def": 571,
+    "hp": 4749
+   },
+   {
+    "att": 1658,
+    "def": 573,
+    "hp": 4770
+   },
+   {
+    "att": 1665,
+    "def": 576,
+    "hp": 4791
+   },
+   {
+    "att": 1672,
+    "def": 579,
+    "hp": 4813
+   },
+   {
+    "att": 1680,
+    "def": 581,
+    "hp": 4834
+   },
+   {
+    "att": 1687,
+    "def": 584,
+    "hp": 4856
+   },
+   {
+    "att": 1694,
+    "def": 586,
+    "hp": 4877
+   },
+   {
+    "att": 1899,
+    "def": 653,
+    "hp": 5401
+   },
+   {
+    "att": 1904,
+    "def": 655,
+    "hp": 5416
+   },
+   {
+    "att": 1909,
+    "def": 656,
+    "hp": 5430
+   },
+   {
+    "att": 1914,
+    "def": 658,
+    "hp": 5444
+   },
+   {
+    "att": 1919,
+    "def": 660,
+    "hp": 5458
+   },
+   {
+    "att": 1924,
+    "def": 661,
+    "hp": 5473
+   },
+   {
+    "att": 1929,
+    "def": 663,
+    "hp": 5487
+   },
+   {
+    "att": 1934,
+    "def": 665,
+    "hp": 5501
+   },
+   {
+    "att": 1939,
+    "def": 666,
+    "hp": 5516
+   },
+   {
+    "att": 1943,
+    "def": 668,
+    "hp": 5530
+   },
+   {
+    "att": 1948,
+    "def": 670,
+    "hp": 5544
+   },
+   {
+    "att": 1953,
+    "def": 671,
+    "hp": 5558
+   },
+   {
+    "att": 1958,
+    "def": 673,
+    "hp": 5573
+   },
+   {
+    "att": 1963,
+    "def": 675,
+    "hp": 5587
+   },
+   {
+    "att": 1968,
+    "def": 677,
+    "hp": 5601
+   },
+   {
+    "att": 1973,
+    "def": 678,
+    "hp": 5616
+   },
+   {
+    "att": 1978,
+    "def": 680,
+    "hp": 5630
+   },
+   {
+    "att": 1983,
+    "def": 682,
+    "hp": 5644
+   },
+   {
+    "att": 1988,
+    "def": 683,
+    "hp": 5658
+   },
+   {
+    "att": 1993,
+    "def": 685,
+    "hp": 5673
+   },
+   {
+    "att": 1997,
+    "def": 687,
+    "hp": 5687
+   },
+   {
+    "att": 2002,
+    "def": 688,
+    "hp": 5701
+   },
+   {
+    "att": 2007,
+    "def": 690,
+    "hp": 5715
+   },
+   {
+    "att": 2012,
+    "def": 692,
+    "hp": 5730
+   },
+   {
+    "att": 2017,
+    "def": 693,
+    "hp": 5744
+   },
+   {
+    "att": 2022,
+    "def": 695,
+    "hp": 5758
+   },
+   {
+    "att": 2027,
+    "def": 697,
+    "hp": 5773
+   },
+   {
+    "att": 2032,
+    "def": 699,
+    "hp": 5787
+   },
+   {
+    "att": 2037,
+    "def": 700,
+    "hp": 5801
+   },
+   {
+    "att": 2042,
+    "def": 702,
+    "hp": 5815
+   },
+   {
+    "att": 2046,
+    "def": 704,
+    "hp": 5830
+   },
+   {
+    "att": 2051,
+    "def": 705,
+    "hp": 5844
+   },
+   {
+    "att": 2056,
+    "def": 707,
+    "hp": 5858
+   },
+   {
+    "att": 2061,
+    "def": 709,
+    "hp": 5873
+   },
+   {
+    "att": 2066,
+    "def": 710,
+    "hp": 5887
+   },
+   {
+    "att": 2071,
+    "def": 712,
+    "hp": 5901
+   },
+   {
+    "att": 2076,
+    "def": 714,
+    "hp": 5915
+   },
+   {
+    "att": 2081,
+    "def": 716,
+    "hp": 5930
+   },
+   {
+    "att": 2086,
+    "def": 717,
+    "hp": 5944
+   },
+   {
+    "att": 2091,
+    "def": 719,
+    "hp": 5958
+   },
+   {
+    "att": 2096,
+    "def": 721,
+    "hp": 5973
+   },
+   {
+    "att": 2100,
+    "def": 722,
+    "hp": 5987
+   },
+   {
+    "att": 2105,
+    "def": 724,
+    "hp": 6001
+   },
+   {
+    "att": 2110,
+    "def": 726,
+    "hp": 6015
+   },
+   {
+    "att": 2115,
+    "def": 727,
+    "hp": 6030
+   },
+   {
+    "att": 2120,
+    "def": 729,
+    "hp": 6044
+   },
+   {
+    "att": 2125,
+    "def": 731,
+    "hp": 6058
+   },
+   {
+    "att": 2130,
+    "def": 732,
+    "hp": 6072
+   },
+   {
+    "att": 2135,
+    "def": 734,
+    "hp": 6087
+   },
+   {
+    "att": 2140,
+    "def": 736,
+    "hp": 6101
+   },
+   {
+    "att": 2145,
+    "def": 738,
+    "hp": 6115
+   },
+   {
+    "att": 2150,
+    "def": 739,
+    "hp": 6130
+   },
+   {
+    "att": 2154,
+    "def": 741,
+    "hp": 6144
+   },
+   {
+    "att": 2159,
+    "def": 743,
+    "hp": 6158
+   },
+   {
+    "att": 2164,
+    "def": 744,
+    "hp": 6172
+   },
+   {
+    "att": 2169,
+    "def": 746,
+    "hp": 6187
+   },
+   {
+    "att": 2174,
+    "def": 748,
+    "hp": 6201
+   },
+   {
+    "att": 2179,
+    "def": 749,
+    "hp": 6215
+   },
+   {
+    "att": 2184,
+    "def": 751,
+    "hp": 6230
+   },
+   {
+    "att": 2189,
+    "def": 753,
+    "hp": 6244
+   },
+   {
+    "att": 2194,
+    "def": 754,
+    "hp": 6258
+   },
+   {
+    "att": 2199,
+    "def": 756,
+    "hp": 6272
+   },
+   {
+    "att": 2203,
+    "def": 758,
+    "hp": 6287
+   },
+   {
+    "att": 2208,
+    "def": 760,
+    "hp": 6301
+   },
+   {
+    "att": 2213,
+    "def": 761,
+    "hp": 6315
+   },
+   {
+    "att": 2218,
+    "def": 763,
+    "hp": 6330
+   },
+   {
+    "att": 2223,
+    "def": 765,
+    "hp": 6344
+   },
+   {
+    "att": 2228,
+    "def": 766,
+    "hp": 6358
+   },
+   {
+    "att": 2233,
+    "def": 768,
+    "hp": 6372
+   },
+   {
+    "att": 2238,
+    "def": 770,
+    "hp": 6387
+   },
+   {
+    "att": 2243,
+    "def": 771,
+    "hp": 6401
+   },
+   {
+    "att": 2248,
+    "def": 773,
+    "hp": 6415
+   },
+   {
+    "att": 2253,
+    "def": 775,
+    "hp": 6429
+   },
+   {
+    "att": 2257,
+    "def": 777,
+    "hp": 6444
+   },
+   {
+    "att": 2262,
+    "def": 778,
+    "hp": 6458
+   },
+   {
+    "att": 2267,
+    "def": 780,
+    "hp": 6472
+   },
+   {
+    "att": 2272,
+    "def": 782,
+    "hp": 6487
+   },
+   {
+    "att": 2277,
+    "def": 783,
+    "hp": 6501
+   },
+   {
+    "att": 2282,
+    "def": 785,
+    "hp": 6515
+   },
+   {
+    "att": 2287,
+    "def": 787,
+    "hp": 6529
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Maggie",
+     "Ms. Blanc"
+    ],
+    "chat": [
+     {
+      "character": "Maggie:",
+      "text": "Um... Uh..."
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "Hello, there! Do you require a private guide?"
+     },
+     {
+      "character": "Maggie:",
+      "text": "Um... I... I want to go to..."
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "Just let me know where you would like to go."
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "I may be the Lumopolis Guide by trade..."
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "But I can help you find your way anywhere, even on the Colossus! All you have to do is to ask!"
+     },
+     {
+      "character": "Maggie:",
+      "text": "(She's so kind... I'm even more embarrassed now...)"
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "Now then, my cute little lizard friend, where would you like to go?"
+     },
+     {
+      "character": "Maggie:",
+      "text": "L... Lizard?"
+     },
+     {
+      "character": "Maggie:",
+      "text": "I'm nothing like a lizard! I don't crawl on my belly everywhere I go!"
+     },
+     {
+      "character": "Maggie:",
+      "text": "Are you really calling me a lizard? You want a taste of my grenades?"
+     },
+     {
+      "character": "Maggie:",
+      "text": "Then come get some! I got plenty to spare for you!"
+     },
+     {
+      "character": "Ms. Blanc:",
+      "text": "Getting lost... Seems to be the least of her problems..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I've wondered privately whether Miss Maggie is truly a Rediesel Wrench at all. I mean, every one of them is so bizarre... uh, lively. She has a big tail but is rather very timid. When I went to take her into the Colossus for the first time, all I saw was a pile of clothes at the entrance. You'd never guess, %s, that Maggie, with her big tail, was curled up in it. It made me jump when I rummaged through and spotted her. That said, though, Miss Maggie turned into a spitfire in battles. The first time I fought alongside her, my jaw dropped... She tore Eclipsites from limb to limb and forced grenades down their throats. She's usually timid probably to save up all the prowess and backbone for combat! \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Greetings, Navigator. My name is Maggie and nice to meet you! Um, what are you looking at? Please, don't stare at it, there's nothing to see about my tail! I'll tuck it away now... Ah, so much better hiding in the costume with just the eyes showing. You won't see me blushing this way... Sorry, what was I saying? Oh, yes, I'm Maggie from the Rediesel Wrench. I like to carry bombs with me, and I love to race bikes because my father also loves bikes. Speaking of my father, I admire him the most. He's the best whether riding motorcycles or catching sandworms! If only one day I'll be as good as him... But he never hid in a costume... Maybe I can be closer to him if I stop being so shy..."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Mother and I were desperate for father to come back in all those years he was gone. He'd return after six months at most when he went out catching worms, bringing home load of trophies and pretty pebbles from the desert. But that time he was gone for ten years. We pictured bad\u2014and even the worst\u2014scenarios. Mother and I didn't believe it would happen, though, because father was very tough and would be fine. Besides, a lot of Eclipsites started showing up around the village, so it was probably safer for him not to be there. No news is good news, right?But I was still worried about him. How could I not? So I had to leave Yellowdust to find him. The Rediesel Desert is a big place, but as long as I kept looking, I'd find him one day. By then he could see that my arms had grown as muscular as his!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "So, when I got back and saw my father at home, I was both happy and mad. Happy because he was safely home, with not even a scale missing from his tail. Not to mention furious because... He never told us about his whereabouts, and I had to spend ten years looking for him in the desert. Ten Years! Mother and I were worried sick about him every day, yet not a single word from him... Ugh, I'm still angry thinking about it!Of course, I forgave him after he explained why he couldn't send letters. His team ran into Eclipsites, got chased to the other end of the desert and hid in the ruins. They ran out of food and water eventually, and even their weapons began breaking down, so they stayed hidden in the ruins and scrounged for ten harsh years. He never gave up though, and kept looking for an opportunity to go home. He also brought me a pebble from where he lived in the ruins. Whenever he thought he would never make it back, he would look at the pebble and imagine how happy I'd be to see it... It made me tear up when he said that... Ugh..."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "It's a bit embarrassing why I joined the Rediesel Wrench... But the fact that Maggie feeling embarrassed probably isn't anything new, so adding one more to the pile won't matter at all. I joined the Rediesel Wrench because there were some men like my father\u2014tough, strong, but kind and dependable! Who are they? Uh, I can't tell you, I'm too embarrassed to... But many in the Wrench are like that, really! When I fought with them, I often got the feeling my father was by my side, fighting with me. That was when I'd be motivated to have a good showing for him, so I... uh, I didn't mean to use that much explosive on purpose. I just get excited, that's all. So, um, everyone in the Rediesel Wrench was a lot like my dad, since even when I blew everything sky high and to smithereens, nobody got on my case... I really appreciate how they tolerated me, and that made me felt closer to the gang. %s, will you forgive me, too...?"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "It isn't that hard to become part of Rediesel Wrench. You just need to, well, know how to have fun.",
+  "I've been to many places, but I heard that Lumopolis is up in the sky... How does anyone get there...?",
+  "Enjoy yourself while... while what again?",
+  "I can see black things very clearly. Bring me with you if you're afraid, and I'll do my best!",
+  "I can't damage the motorcycle again because it was just fixed not too long ago. Tiny One will be so mad at me.",
+  "Because I was determined to join Rediesel Wrench, my boss promised my mother to take good care of me.",
+  "Eh? You're... asking me what I like? I like things that look cool.",
+  "W-why is there such a thing as lizard jerky? ... *Sobs* There's no way I can eat it...",
+  "The Colossus is really powerful! Can I become like it if I try a little harder?",
+  "M-my tail isn't for display...! And it doesn't look good either, really.",
+  "If I break anything by accident after getting excited... I'm sorry, I'll pay you back for it!! Will you accept grenades?",
+  "I still have the courage to do it again...",
+  "Is the battle over? Let me calm down then...",
+  "Fire in the hole!",
+  "Blast everything off!",
+  "With the power of fluffy lizards!",
+  "Happy New Year. I must... overcome my weaknesses.",
+  "I need to muster the courage!",
+  "My tail's getting restless...",
+  "I've become a huge lizard!",
+  "I want to detonate everything!",
+  "Can I show you my modified grenade? Hold on, let me take it out slowly because things will get ugly if the loop gets caught on my gloves.",
+  "I'm getting excited!",
+  "Alchemy... Stars?",
+  "I can't take this glove off because it might hurt someone... Um, cause... my hand is covered with bristles.",
+  "Stop staring at me, okay? It's not like I'll change if you keep staring at me... I'm not the kind of lizard that casually changes its pattern.",
+  "The people of Rediesel Wrench often gather together to party, but I usually just stay in a corner, unless... I accidentally get excited.",
+  "Is there anything wrong with my appearance? ...But all the fluffy lizards in the desert look like this... Eh? You've never heard of that before?",
+  "I use the power of a fluffy lizard when I get excited, and when that happens, I can feel my blood boiling, giving me so much strength.",
+  "Summon your courage and don't be afraid of difficulties! Regardless of what I want to do or am looking for, I just charge and throw a grenade... Oh, sorry! I accidentally got too excited.",
+  "I'm not a kid anymore! ...So it's okay... I can fight, plus I have a lot of bombs! I can even ride a motorcycle!",
+  "You're unhappy? Hmm... What to do... Um, I know, How about I lend you my tail? ...Eh? Are you, actually, in fact, not interested?",
+  "Actually, these gloves are quite inconvenient. Someday, if only I can... Never mind; just being able to be by your side like this is enough.",
+  "Sigh... As expected, I have failed again... Maybe... You can wait a moment for me to try again? It won't take long...",
+  "Some of these wounds are self-inflicted because...my tail doesn't listen to me when I'm at rest.",
+  "I don't cope very well in places with crowds... I get really shy if people stare at me...",
+  "Welcome back! I've been standing guard over here and haven't left.",
+  "Wait! Let me put on a bandage... Do you want one? It can prevent injuries.",
+  "D-don't look! I'm still tidying my tail... So, uh, do the bristles look strange?",
+  "I can see very clearly at night, so don't worry... Oh, yeah, it isn't very dark here.",
+  "I-I'm Maggie... Um, although there are many things I'm not good at, I'll muster the courage... to overcome them.",
+  "Umm... C-can I not take it?",
+  "I'll take it. Hmm... Thank you?",
+  "Isn't this!! This is... How should I thank you for this!",
+  "Thanks! This looks so cool and powerful!",
+  "It's just a grenade. Come on!",
+  "Charge! Feed them the grenades!",
+  "I'm ready since a while ago!",
+  "Everyone at Rediesel Wrench wears such domineering clothing. I wanted to blend in, so I... I changed everything. I can't even tell you how much I regret doing that...",
+  "My modified grenades aren't usually very powerful, but they become suuuuuper powerful once I use them with \"fluffy lizard power\"!",
+  "I was originally just searching for my papa, but it was to no avail, so I followed on, to travel to somewhere even farther.",
+  "It's so scary... but my blood is boiling with excitement!"
+ ],
+ "skins": [],
+ "description": "A member of Rediesel Wrench who is usually in charge of recon work. She is timid, shy, and clumsy, but can't control her great power in battle because she gets too excited. Maggie is quite distressed by this too.",
+ "realName": "Maggie",
+ "nickname": "Burst Lizard",
+ "gender": "Female",
+ "height": "5'3''",
+ "birthday": "September 18",
+ "birthplace": "Yellowdust",
+ "style": "Leather Bomb Bag, Lizard Courage"
 }

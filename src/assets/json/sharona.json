@@ -1,1153 +1,1392 @@
 {
-      "name": "Sharona",
-      "faction": "Illumina Federation",
-      "element_main": "Water",
-      "element_sub": "Fire",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters.",
-                  "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy).",
-                  "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy)."
-            ]
-      },
-      "equip": {
-            "name": "Katana: Azure Flame",
-            "passive": "Hexing Gaze",
-            "description": [
-                  [
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
-                  ],
-                  [
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
-                  ],
-                  [
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 2%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
-                        "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 5%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 160% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 165% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Chain Combo Enhancement: Increases damage by 25%.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Crystal Shard",
-                        "Water Flare Powder",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
-            },
-            {
-                  "material": [
-                        "Water Flare Rock",
-                        "Water Potion I",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters.",
-                  "after": "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy)."
-            },
-            {
-                  "material": [
-                        "Water Potion III",
-                        "Water Crystal",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%.",
-                  "after": "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 5%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 642,
-                        "def": 261,
-                        "hp": 2106
-                  },
-                  {
-                        "att": 655,
-                        "def": 265,
-                        "hp": 2140
-                  },
-                  {
-                        "att": 668,
-                        "def": 269,
-                        "hp": 2173
-                  },
-                  {
-                        "att": 681,
-                        "def": 274,
-                        "hp": 2207
-                  },
-                  {
-                        "att": 693,
-                        "def": 278,
-                        "hp": 2240
-                  },
-                  {
-                        "att": 706,
-                        "def": 282,
-                        "hp": 2274
-                  },
-                  {
-                        "att": 719,
-                        "def": 286,
-                        "hp": 2307
-                  },
-                  {
-                        "att": 731,
-                        "def": 291,
-                        "hp": 2341
-                  },
-                  {
-                        "att": 744,
-                        "def": 295,
-                        "hp": 2374
-                  },
-                  {
-                        "att": 757,
-                        "def": 299,
-                        "hp": 2407
-                  },
-                  {
-                        "att": 770,
-                        "def": 303,
-                        "hp": 2441
-                  },
-                  {
-                        "att": 782,
-                        "def": 308,
-                        "hp": 2474
-                  },
-                  {
-                        "att": 795,
-                        "def": 312,
-                        "hp": 2508
-                  },
-                  {
-                        "att": 808,
-                        "def": 316,
-                        "hp": 2541
-                  },
-                  {
-                        "att": 820,
-                        "def": 321,
-                        "hp": 2575
-                  },
-                  {
-                        "att": 833,
-                        "def": 325,
-                        "hp": 2608
-                  },
-                  {
-                        "att": 846,
-                        "def": 329,
-                        "hp": 2642
-                  },
-                  {
-                        "att": 859,
-                        "def": 333,
-                        "hp": 2675
-                  },
-                  {
-                        "att": 871,
-                        "def": 338,
-                        "hp": 2709
-                  },
-                  {
-                        "att": 884,
-                        "def": 342,
-                        "hp": 2742
-                  },
-                  {
-                        "att": 897,
-                        "def": 346,
-                        "hp": 2776
-                  },
-                  {
-                        "att": 909,
-                        "def": 350,
-                        "hp": 2809
-                  },
-                  {
-                        "att": 922,
-                        "def": 355,
-                        "hp": 2842
-                  },
-                  {
-                        "att": 935,
-                        "def": 359,
-                        "hp": 2876
-                  },
-                  {
-                        "att": 948,
-                        "def": 363,
-                        "hp": 2909
-                  },
-                  {
-                        "att": 960,
-                        "def": 367,
-                        "hp": 2943
-                  },
-                  {
-                        "att": 973,
-                        "def": 372,
-                        "hp": 2976
-                  },
-                  {
-                        "att": 986,
-                        "def": 376,
-                        "hp": 3010
-                  },
-                  {
-                        "att": 998,
-                        "def": 380,
-                        "hp": 3043
-                  },
-                  {
-                        "att": 1011,
-                        "def": 385,
-                        "hp": 3077
-                  },
-                  {
-                        "att": 1117,
-                        "def": 420,
-                        "hp": 3369
-                  },
-                  {
-                        "att": 1133,
-                        "def": 425,
-                        "hp": 3410
-                  },
-                  {
-                        "att": 1149,
-                        "def": 431,
-                        "hp": 3452
-                  },
-                  {
-                        "att": 1165,
-                        "def": 436,
-                        "hp": 3494
-                  },
-                  {
-                        "att": 1181,
-                        "def": 441,
-                        "hp": 3536
-                  },
-                  {
-                        "att": 1196,
-                        "def": 447,
-                        "hp": 3578
-                  },
-                  {
-                        "att": 1212,
-                        "def": 452,
-                        "hp": 3619
-                  },
-                  {
-                        "att": 1228,
-                        "def": 457,
-                        "hp": 3661
-                  },
-                  {
-                        "att": 1244,
-                        "def": 463,
-                        "hp": 3703
-                  },
-                  {
-                        "att": 1260,
-                        "def": 468,
-                        "hp": 3745
-                  },
-                  {
-                        "att": 1276,
-                        "def": 473,
-                        "hp": 3787
-                  },
-                  {
-                        "att": 1292,
-                        "def": 479,
-                        "hp": 3829
-                  },
-                  {
-                        "att": 1308,
-                        "def": 484,
-                        "hp": 3870
-                  },
-                  {
-                        "att": 1324,
-                        "def": 489,
-                        "hp": 3912
-                  },
-                  {
-                        "att": 1340,
-                        "def": 495,
-                        "hp": 3954
-                  },
-                  {
-                        "att": 1355,
-                        "def": 500,
-                        "hp": 3996
-                  },
-                  {
-                        "att": 1371,
-                        "def": 505,
-                        "hp": 4038
-                  },
-                  {
-                        "att": 1387,
-                        "def": 511,
-                        "hp": 4080
-                  },
-                  {
-                        "att": 1403,
-                        "def": 516,
-                        "hp": 4121
-                  },
-                  {
-                        "att": 1419,
-                        "def": 521,
-                        "hp": 4163
-                  },
-                  {
-                        "att": 1435,
-                        "def": 526,
-                        "hp": 4205
-                  },
-                  {
-                        "att": 1451,
-                        "def": 532,
-                        "hp": 4247
-                  },
-                  {
-                        "att": 1467,
-                        "def": 537,
-                        "hp": 4289
-                  },
-                  {
-                        "att": 1483,
-                        "def": 542,
-                        "hp": 4330
-                  },
-                  {
-                        "att": 1498,
-                        "def": 548,
-                        "hp": 4372
-                  },
-                  {
-                        "att": 1514,
-                        "def": 553,
-                        "hp": 4414
-                  },
-                  {
-                        "att": 1530,
-                        "def": 558,
-                        "hp": 4456
-                  },
-                  {
-                        "att": 1546,
-                        "def": 564,
-                        "hp": 4498
-                  },
-                  {
-                        "att": 1562,
-                        "def": 569,
-                        "hp": 4540
-                  },
-                  {
-                        "att": 1578,
-                        "def": 574,
-                        "hp": 4581
-                  },
-                  {
-                        "att": 1594,
-                        "def": 580,
-                        "hp": 4623
-                  },
-                  {
-                        "att": 1610,
-                        "def": 585,
-                        "hp": 4665
-                  },
-                  {
-                        "att": 1626,
-                        "def": 590,
-                        "hp": 4707
-                  },
-                  {
-                        "att": 1642,
-                        "def": 596,
-                        "hp": 4749
-                  },
-                  {
-                        "att": 1657,
-                        "def": 601,
-                        "hp": 4791
-                  },
-                  {
-                        "att": 1673,
-                        "def": 606,
-                        "hp": 4832
-                  },
-                  {
-                        "att": 1689,
-                        "def": 612,
-                        "hp": 4874
-                  },
-                  {
-                        "att": 1705,
-                        "def": 617,
-                        "hp": 4916
-                  },
-                  {
-                        "att": 1721,
-                        "def": 622,
-                        "hp": 4958
-                  },
-                  {
-                        "att": 1737,
-                        "def": 628,
-                        "hp": 5000
-                  },
-                  {
-                        "att": 1899,
-                        "def": 682,
-                        "hp": 5431
-                  },
-                  {
-                        "att": 1911,
-                        "def": 686,
-                        "hp": 5462
-                  },
-                  {
-                        "att": 1923,
-                        "def": 690,
-                        "hp": 5494
-                  },
-                  {
-                        "att": 1935,
-                        "def": 694,
-                        "hp": 5525
-                  },
-                  {
-                        "att": 1946,
-                        "def": 698,
-                        "hp": 5557
-                  },
-                  {
-                        "att": 1958,
-                        "def": 702,
-                        "hp": 5588
-                  },
-                  {
-                        "att": 1970,
-                        "def": 706,
-                        "hp": 5619
-                  },
-                  {
-                        "att": 1982,
-                        "def": 710,
-                        "hp": 5651
-                  },
-                  {
-                        "att": 1994,
-                        "def": 714,
-                        "hp": 5682
-                  },
-                  {
-                        "att": 2006,
-                        "def": 718,
-                        "hp": 5713
-                  },
-                  {
-                        "att": 2018,
-                        "def": 722,
-                        "hp": 5745
-                  },
-                  {
-                        "att": 2030,
-                        "def": 726,
-                        "hp": 5776
-                  },
-                  {
-                        "att": 2042,
-                        "def": 730,
-                        "hp": 5808
-                  },
-                  {
-                        "att": 2054,
-                        "def": 734,
-                        "hp": 5839
-                  },
-                  {
-                        "att": 2066,
-                        "def": 738,
-                        "hp": 5870
-                  },
-                  {
-                        "att": 2078,
-                        "def": 742,
-                        "hp": 5902
-                  },
-                  {
-                        "att": 2090,
-                        "def": 746,
-                        "hp": 5933
-                  },
-                  {
-                        "att": 2101,
-                        "def": 750,
-                        "hp": 5964
-                  },
-                  {
-                        "att": 2113,
-                        "def": 754,
-                        "hp": 5996
-                  },
-                  {
-                        "att": 2125,
-                        "def": 758,
-                        "hp": 6027
-                  },
-                  {
-                        "att": 2137,
-                        "def": 762,
-                        "hp": 6058
-                  },
-                  {
-                        "att": 2149,
-                        "def": 766,
-                        "hp": 6090
-                  },
-                  {
-                        "att": 2161,
-                        "def": 770,
-                        "hp": 6121
-                  },
-                  {
-                        "att": 2173,
-                        "def": 774,
-                        "hp": 6153
-                  },
-                  {
-                        "att": 2185,
-                        "def": 778,
-                        "hp": 6184
-                  },
-                  {
-                        "att": 2197,
-                        "def": 782,
-                        "hp": 6215
-                  },
-                  {
-                        "att": 2209,
-                        "def": 786,
-                        "hp": 6247
-                  },
-                  {
-                        "att": 2221,
-                        "def": 790,
-                        "hp": 6278
-                  },
-                  {
-                        "att": 2233,
-                        "def": 794,
-                        "hp": 6309
-                  },
-                  {
-                        "att": 2244,
-                        "def": 798,
-                        "hp": 6341
-                  },
-                  {
-                        "att": 2256,
-                        "def": 802,
-                        "hp": 6372
-                  },
-                  {
-                        "att": 2268,
-                        "def": 806,
-                        "hp": 6404
-                  },
-                  {
-                        "att": 2280,
-                        "def": 810,
-                        "hp": 6435
-                  },
-                  {
-                        "att": 2292,
-                        "def": 814,
-                        "hp": 6466
-                  },
-                  {
-                        "att": 2304,
-                        "def": 818,
-                        "hp": 6498
-                  },
-                  {
-                        "att": 2316,
-                        "def": 822,
-                        "hp": 6529
-                  },
-                  {
-                        "att": 2328,
-                        "def": 826,
-                        "hp": 6560
-                  },
-                  {
-                        "att": 2340,
-                        "def": 830,
-                        "hp": 6592
-                  },
-                  {
-                        "att": 2352,
-                        "def": 834,
-                        "hp": 6623
-                  },
-                  {
-                        "att": 2364,
-                        "def": 838,
-                        "hp": 6654
-                  },
-                  {
-                        "att": 2376,
-                        "def": 842,
-                        "hp": 6686
-                  },
-                  {
-                        "att": 2388,
-                        "def": 846,
-                        "hp": 6717
-                  },
-                  {
-                        "att": 2399,
-                        "def": 850,
-                        "hp": 6749
-                  },
-                  {
-                        "att": 2411,
-                        "def": 854,
-                        "hp": 6780
-                  },
-                  {
-                        "att": 2423,
-                        "def": 858,
-                        "hp": 6811
-                  },
-                  {
-                        "att": 2435,
-                        "def": 862,
-                        "hp": 6843
-                  },
-                  {
-                        "att": 2447,
-                        "def": 866,
-                        "hp": 6874
-                  },
-                  {
-                        "att": 2459,
-                        "def": 870,
-                        "hp": 6905
-                  },
-                  {
-                        "att": 2471,
-                        "def": 874,
-                        "hp": 6937
-                  },
-                  {
-                        "att": 2483,
-                        "def": 878,
-                        "hp": 6968
-                  },
-                  {
-                        "att": 2716,
-                        "def": 950,
-                        "hp": 7589
-                  },
-                  {
-                        "att": 2724,
-                        "def": 953,
-                        "hp": 7610
-                  },
-                  {
-                        "att": 2732,
-                        "def": 956,
-                        "hp": 7631
-                  },
-                  {
-                        "att": 2740,
-                        "def": 958,
-                        "hp": 7652
-                  },
-                  {
-                        "att": 2748,
-                        "def": 961,
-                        "hp": 7673
-                  },
-                  {
-                        "att": 2756,
-                        "def": 964,
-                        "hp": 7694
-                  },
-                  {
-                        "att": 2764,
-                        "def": 966,
-                        "hp": 7715
-                  },
-                  {
-                        "att": 2771,
-                        "def": 969,
-                        "hp": 7735
-                  },
-                  {
-                        "att": 2779,
-                        "def": 972,
-                        "hp": 7756
-                  },
-                  {
-                        "att": 2787,
-                        "def": 974,
-                        "hp": 7777
-                  },
-                  {
-                        "att": 2795,
-                        "def": 977,
-                        "hp": 7798
-                  },
-                  {
-                        "att": 2803,
-                        "def": 980,
-                        "hp": 7819
-                  },
-                  {
-                        "att": 2811,
-                        "def": 982,
-                        "hp": 7840
-                  },
-                  {
-                        "att": 2819,
-                        "def": 985,
-                        "hp": 7861
-                  },
-                  {
-                        "att": 2827,
-                        "def": 988,
-                        "hp": 7882
-                  },
-                  {
-                        "att": 2835,
-                        "def": 990,
-                        "hp": 7903
-                  },
-                  {
-                        "att": 2843,
-                        "def": 993,
-                        "hp": 7924
-                  },
-                  {
-                        "att": 2851,
-                        "def": 996,
-                        "hp": 7945
-                  },
-                  {
-                        "att": 2859,
-                        "def": 998,
-                        "hp": 7966
-                  },
-                  {
-                        "att": 2867,
-                        "def": 1001,
-                        "hp": 7986
-                  },
-                  {
-                        "att": 2875,
-                        "def": 1004,
-                        "hp": 8007
-                  },
-                  {
-                        "att": 2883,
-                        "def": 1006,
-                        "hp": 8028
-                  },
-                  {
-                        "att": 2891,
-                        "def": 1009,
-                        "hp": 8049
-                  },
-                  {
-                        "att": 2899,
-                        "def": 1012,
-                        "hp": 8070
-                  },
-                  {
-                        "att": 2907,
-                        "def": 1014,
-                        "hp": 8091
-                  },
-                  {
-                        "att": 2915,
-                        "def": 1017,
-                        "hp": 8112
-                  },
-                  {
-                        "att": 2922,
-                        "def": 1020,
-                        "hp": 8133
-                  },
-                  {
-                        "att": 2930,
-                        "def": 1022,
-                        "hp": 8154
-                  },
-                  {
-                        "att": 2938,
-                        "def": 1025,
-                        "hp": 8175
-                  },
-                  {
-                        "att": 2946,
-                        "def": 1028,
-                        "hp": 8196
-                  },
-                  {
-                        "att": 2954,
-                        "def": 1030,
-                        "hp": 8216
-                  },
-                  {
-                        "att": 2962,
-                        "def": 1033,
-                        "hp": 8237
-                  },
-                  {
-                        "att": 2970,
-                        "def": 1036,
-                        "hp": 8258
-                  },
-                  {
-                        "att": 2978,
-                        "def": 1038,
-                        "hp": 8279
-                  },
-                  {
-                        "att": 2986,
-                        "def": 1041,
-                        "hp": 8300
-                  },
-                  {
-                        "att": 2994,
-                        "def": 1044,
-                        "hp": 8321
-                  },
-                  {
-                        "att": 3002,
-                        "def": 1046,
-                        "hp": 8342
-                  },
-                  {
-                        "att": 3010,
-                        "def": 1049,
-                        "hp": 8363
-                  },
-                  {
-                        "att": 3018,
-                        "def": 1052,
-                        "hp": 8384
-                  },
-                  {
-                        "att": 3026,
-                        "def": 1054,
-                        "hp": 8405
-                  },
-                  {
-                        "att": 3034,
-                        "def": 1057,
-                        "hp": 8426
-                  },
-                  {
-                        "att": 3042,
-                        "def": 1060,
-                        "hp": 8447
-                  },
-                  {
-                        "att": 3050,
-                        "def": 1062,
-                        "hp": 8467
-                  },
-                  {
-                        "att": 3058,
-                        "def": 1065,
-                        "hp": 8488
-                  },
-                  {
-                        "att": 3065,
-                        "def": 1068,
-                        "hp": 8509
-                  },
-                  {
-                        "att": 3073,
-                        "def": 1070,
-                        "hp": 8530
-                  },
-                  {
-                        "att": 3081,
-                        "def": 1073,
-                        "hp": 8551
-                  },
-                  {
-                        "att": 3089,
-                        "def": 1076,
-                        "hp": 8572
-                  },
-                  {
-                        "att": 3097,
-                        "def": 1078,
-                        "hp": 8593
-                  },
-                  {
-                        "att": 3105,
-                        "def": 1081,
-                        "hp": 8614
-                  },
-                  {
-                        "att": 3113,
-                        "def": 1084,
-                        "hp": 8635
-                  },
-                  {
-                        "att": 3121,
-                        "def": 1086,
-                        "hp": 8656
-                  },
-                  {
-                        "att": 3129,
-                        "def": 1089,
-                        "hp": 8677
-                  },
-                  {
-                        "att": 3137,
-                        "def": 1092,
-                        "hp": 8697
-                  },
-                  {
-                        "att": 3145,
-                        "def": 1094,
-                        "hp": 8718
-                  },
-                  {
-                        "att": 3153,
-                        "def": 1097,
-                        "hp": 8739
-                  },
-                  {
-                        "att": 3161,
-                        "def": 1100,
-                        "hp": 8760
-                  },
-                  {
-                        "att": 3169,
-                        "def": 1102,
-                        "hp": 8781
-                  },
-                  {
-                        "att": 3177,
-                        "def": 1105,
-                        "hp": 8802
-                  },
-                  {
-                        "att": 3185,
-                        "def": 1108,
-                        "hp": 8823
-                  },
-                  {
-                        "att": 3193,
-                        "def": 1110,
-                        "hp": 8844
-                  },
-                  {
-                        "att": 3201,
-                        "def": 1113,
-                        "hp": 8865
-                  },
-                  {
-                        "att": 3209,
-                        "def": 1116,
-                        "hp": 8886
-                  },
-                  {
-                        "att": 3216,
-                        "def": 1118,
-                        "hp": 8907
-                  },
-                  {
-                        "att": 3224,
-                        "def": 1121,
-                        "hp": 8928
-                  },
-                  {
-                        "att": 3232,
-                        "def": 1124,
-                        "hp": 8948
-                  },
-                  {
-                        "att": 3240,
-                        "def": 1126,
-                        "hp": 8969
-                  },
-                  {
-                        "att": 3248,
-                        "def": 1129,
-                        "hp": 8990
-                  },
-                  {
-                        "att": 3256,
-                        "def": 1132,
-                        "hp": 9011
-                  },
-                  {
-                        "att": 3264,
-                        "def": 1134,
-                        "hp": 9032
-                  },
-                  {
-                        "att": 3272,
-                        "def": 1137,
-                        "hp": 9053
-                  },
-                  {
-                        "att": 3280,
-                        "def": 1140,
-                        "hp": 9074
-                  },
-                  {
-                        "att": 3288,
-                        "def": 1142,
-                        "hp": 9095
-                  },
-                  {
-                        "att": 3296,
-                        "def": 1145,
-                        "hp": 9116
-                  },
-                  {
-                        "att": 3304,
-                        "def": 1148,
-                        "hp": 9137
-                  },
-                  {
-                        "att": 3312,
-                        "def": 1150,
-                        "hp": 9158
-                  },
-                  {
-                        "att": 3320,
-                        "def": 1153,
-                        "hp": 9178
-                  },
-                  {
-                        "att": 3328,
-                        "def": 1156,
-                        "hp": 9199
-                  },
-                  {
-                        "att": 3336,
-                        "def": 1158,
-                        "hp": 9220
-                  },
-                  {
-                        "att": 3344,
-                        "def": 1161,
-                        "hp": 9241
-                  }
-            ]
-      }
+ "name": "Sharona",
+ "faction": "Illumina Federation",
+ "element_main": "Water",
+ "element_sub": "Fire",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Blood for Blood",
+  "cd": "3 Turn",
+  "description": [
+   "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters.",
+   "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy).",
+   "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy)."
+  ]
+ },
+ "equip": {
+  "name": "Katana: Azure Flame",
+  "passive": "Hexing Gaze",
+  "description": [
+   [
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
+   ],
+   [
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
+   ],
+   [
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 2%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 3%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 4%.",
+    "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 5%."
+   ]
+  ],
+  "introduction": "This katana is an heirloom of Sharona's family, the Kartimas. It is said that it was handed down from the Far East thousands of years ago. Its blade constantly exudes a blue aura similar to a flame, and it works in perfect synchronization with Sharona's Dragon Power to generate a fearsome destructive force."
+ },
+ "chain": {
+  "name": "Blood Rage",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 160% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 165% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 170% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Chain Combo Enhancement: Increases damage by 25%.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Crystal Shard",
+    "Water Flare Powder",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%."
+  },
+  {
+   "material": [
+    "Water Flare Rock",
+    "Water Potion I",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters.",
+   "after": "Teleports to a selected location. Deals 300% damage to 2 surrounding clusters and applies 2 stacks of Dragontooth Marks (applies the maximum stacks of Dragontooth Marks to enemies within the area upon killing an enemy)."
+  },
+  {
+   "material": [
+    "Water Potion III",
+    "Water Crystal",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Normal attacks apply 1 stack of Dragontooth Mark, up to 4 stacks. Each stack increases Sharona's final Chain Combo damage by 5%.",
+   "after": "Normal attacks apply 1 stack of Dragontooth Mark, up to 6 stacks. Each stack increases Sharona's Active Skill damage and final Chain Combo damage by 5%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 642,
+    "def": 261,
+    "hp": 2106
+   },
+   {
+    "att": 655,
+    "def": 265,
+    "hp": 2140
+   },
+   {
+    "att": 668,
+    "def": 269,
+    "hp": 2173
+   },
+   {
+    "att": 681,
+    "def": 274,
+    "hp": 2207
+   },
+   {
+    "att": 693,
+    "def": 278,
+    "hp": 2240
+   },
+   {
+    "att": 706,
+    "def": 282,
+    "hp": 2274
+   },
+   {
+    "att": 719,
+    "def": 286,
+    "hp": 2307
+   },
+   {
+    "att": 731,
+    "def": 291,
+    "hp": 2341
+   },
+   {
+    "att": 744,
+    "def": 295,
+    "hp": 2374
+   },
+   {
+    "att": 757,
+    "def": 299,
+    "hp": 2407
+   },
+   {
+    "att": 770,
+    "def": 303,
+    "hp": 2441
+   },
+   {
+    "att": 782,
+    "def": 308,
+    "hp": 2474
+   },
+   {
+    "att": 795,
+    "def": 312,
+    "hp": 2508
+   },
+   {
+    "att": 808,
+    "def": 316,
+    "hp": 2541
+   },
+   {
+    "att": 820,
+    "def": 321,
+    "hp": 2575
+   },
+   {
+    "att": 833,
+    "def": 325,
+    "hp": 2608
+   },
+   {
+    "att": 846,
+    "def": 329,
+    "hp": 2642
+   },
+   {
+    "att": 859,
+    "def": 333,
+    "hp": 2675
+   },
+   {
+    "att": 871,
+    "def": 338,
+    "hp": 2709
+   },
+   {
+    "att": 884,
+    "def": 342,
+    "hp": 2742
+   },
+   {
+    "att": 897,
+    "def": 346,
+    "hp": 2776
+   },
+   {
+    "att": 909,
+    "def": 350,
+    "hp": 2809
+   },
+   {
+    "att": 922,
+    "def": 355,
+    "hp": 2842
+   },
+   {
+    "att": 935,
+    "def": 359,
+    "hp": 2876
+   },
+   {
+    "att": 948,
+    "def": 363,
+    "hp": 2909
+   },
+   {
+    "att": 960,
+    "def": 367,
+    "hp": 2943
+   },
+   {
+    "att": 973,
+    "def": 372,
+    "hp": 2976
+   },
+   {
+    "att": 986,
+    "def": 376,
+    "hp": 3010
+   },
+   {
+    "att": 998,
+    "def": 380,
+    "hp": 3043
+   },
+   {
+    "att": 1011,
+    "def": 385,
+    "hp": 3077
+   },
+   {
+    "att": 1117,
+    "def": 420,
+    "hp": 3369
+   },
+   {
+    "att": 1133,
+    "def": 425,
+    "hp": 3410
+   },
+   {
+    "att": 1149,
+    "def": 431,
+    "hp": 3452
+   },
+   {
+    "att": 1165,
+    "def": 436,
+    "hp": 3494
+   },
+   {
+    "att": 1181,
+    "def": 441,
+    "hp": 3536
+   },
+   {
+    "att": 1196,
+    "def": 447,
+    "hp": 3578
+   },
+   {
+    "att": 1212,
+    "def": 452,
+    "hp": 3619
+   },
+   {
+    "att": 1228,
+    "def": 457,
+    "hp": 3661
+   },
+   {
+    "att": 1244,
+    "def": 463,
+    "hp": 3703
+   },
+   {
+    "att": 1260,
+    "def": 468,
+    "hp": 3745
+   },
+   {
+    "att": 1276,
+    "def": 473,
+    "hp": 3787
+   },
+   {
+    "att": 1292,
+    "def": 479,
+    "hp": 3829
+   },
+   {
+    "att": 1308,
+    "def": 484,
+    "hp": 3870
+   },
+   {
+    "att": 1324,
+    "def": 489,
+    "hp": 3912
+   },
+   {
+    "att": 1340,
+    "def": 495,
+    "hp": 3954
+   },
+   {
+    "att": 1355,
+    "def": 500,
+    "hp": 3996
+   },
+   {
+    "att": 1371,
+    "def": 505,
+    "hp": 4038
+   },
+   {
+    "att": 1387,
+    "def": 511,
+    "hp": 4080
+   },
+   {
+    "att": 1403,
+    "def": 516,
+    "hp": 4121
+   },
+   {
+    "att": 1419,
+    "def": 521,
+    "hp": 4163
+   },
+   {
+    "att": 1435,
+    "def": 526,
+    "hp": 4205
+   },
+   {
+    "att": 1451,
+    "def": 532,
+    "hp": 4247
+   },
+   {
+    "att": 1467,
+    "def": 537,
+    "hp": 4289
+   },
+   {
+    "att": 1483,
+    "def": 542,
+    "hp": 4330
+   },
+   {
+    "att": 1498,
+    "def": 548,
+    "hp": 4372
+   },
+   {
+    "att": 1514,
+    "def": 553,
+    "hp": 4414
+   },
+   {
+    "att": 1530,
+    "def": 558,
+    "hp": 4456
+   },
+   {
+    "att": 1546,
+    "def": 564,
+    "hp": 4498
+   },
+   {
+    "att": 1562,
+    "def": 569,
+    "hp": 4540
+   },
+   {
+    "att": 1578,
+    "def": 574,
+    "hp": 4581
+   },
+   {
+    "att": 1594,
+    "def": 580,
+    "hp": 4623
+   },
+   {
+    "att": 1610,
+    "def": 585,
+    "hp": 4665
+   },
+   {
+    "att": 1626,
+    "def": 590,
+    "hp": 4707
+   },
+   {
+    "att": 1642,
+    "def": 596,
+    "hp": 4749
+   },
+   {
+    "att": 1657,
+    "def": 601,
+    "hp": 4791
+   },
+   {
+    "att": 1673,
+    "def": 606,
+    "hp": 4832
+   },
+   {
+    "att": 1689,
+    "def": 612,
+    "hp": 4874
+   },
+   {
+    "att": 1705,
+    "def": 617,
+    "hp": 4916
+   },
+   {
+    "att": 1721,
+    "def": 622,
+    "hp": 4958
+   },
+   {
+    "att": 1737,
+    "def": 628,
+    "hp": 5000
+   },
+   {
+    "att": 1899,
+    "def": 682,
+    "hp": 5431
+   },
+   {
+    "att": 1911,
+    "def": 686,
+    "hp": 5462
+   },
+   {
+    "att": 1923,
+    "def": 690,
+    "hp": 5494
+   },
+   {
+    "att": 1935,
+    "def": 694,
+    "hp": 5525
+   },
+   {
+    "att": 1946,
+    "def": 698,
+    "hp": 5557
+   },
+   {
+    "att": 1958,
+    "def": 702,
+    "hp": 5588
+   },
+   {
+    "att": 1970,
+    "def": 706,
+    "hp": 5619
+   },
+   {
+    "att": 1982,
+    "def": 710,
+    "hp": 5651
+   },
+   {
+    "att": 1994,
+    "def": 714,
+    "hp": 5682
+   },
+   {
+    "att": 2006,
+    "def": 718,
+    "hp": 5713
+   },
+   {
+    "att": 2018,
+    "def": 722,
+    "hp": 5745
+   },
+   {
+    "att": 2030,
+    "def": 726,
+    "hp": 5776
+   },
+   {
+    "att": 2042,
+    "def": 730,
+    "hp": 5808
+   },
+   {
+    "att": 2054,
+    "def": 734,
+    "hp": 5839
+   },
+   {
+    "att": 2066,
+    "def": 738,
+    "hp": 5870
+   },
+   {
+    "att": 2078,
+    "def": 742,
+    "hp": 5902
+   },
+   {
+    "att": 2090,
+    "def": 746,
+    "hp": 5933
+   },
+   {
+    "att": 2101,
+    "def": 750,
+    "hp": 5964
+   },
+   {
+    "att": 2113,
+    "def": 754,
+    "hp": 5996
+   },
+   {
+    "att": 2125,
+    "def": 758,
+    "hp": 6027
+   },
+   {
+    "att": 2137,
+    "def": 762,
+    "hp": 6058
+   },
+   {
+    "att": 2149,
+    "def": 766,
+    "hp": 6090
+   },
+   {
+    "att": 2161,
+    "def": 770,
+    "hp": 6121
+   },
+   {
+    "att": 2173,
+    "def": 774,
+    "hp": 6153
+   },
+   {
+    "att": 2185,
+    "def": 778,
+    "hp": 6184
+   },
+   {
+    "att": 2197,
+    "def": 782,
+    "hp": 6215
+   },
+   {
+    "att": 2209,
+    "def": 786,
+    "hp": 6247
+   },
+   {
+    "att": 2221,
+    "def": 790,
+    "hp": 6278
+   },
+   {
+    "att": 2233,
+    "def": 794,
+    "hp": 6309
+   },
+   {
+    "att": 2244,
+    "def": 798,
+    "hp": 6341
+   },
+   {
+    "att": 2256,
+    "def": 802,
+    "hp": 6372
+   },
+   {
+    "att": 2268,
+    "def": 806,
+    "hp": 6404
+   },
+   {
+    "att": 2280,
+    "def": 810,
+    "hp": 6435
+   },
+   {
+    "att": 2292,
+    "def": 814,
+    "hp": 6466
+   },
+   {
+    "att": 2304,
+    "def": 818,
+    "hp": 6498
+   },
+   {
+    "att": 2316,
+    "def": 822,
+    "hp": 6529
+   },
+   {
+    "att": 2328,
+    "def": 826,
+    "hp": 6560
+   },
+   {
+    "att": 2340,
+    "def": 830,
+    "hp": 6592
+   },
+   {
+    "att": 2352,
+    "def": 834,
+    "hp": 6623
+   },
+   {
+    "att": 2364,
+    "def": 838,
+    "hp": 6654
+   },
+   {
+    "att": 2376,
+    "def": 842,
+    "hp": 6686
+   },
+   {
+    "att": 2388,
+    "def": 846,
+    "hp": 6717
+   },
+   {
+    "att": 2399,
+    "def": 850,
+    "hp": 6749
+   },
+   {
+    "att": 2411,
+    "def": 854,
+    "hp": 6780
+   },
+   {
+    "att": 2423,
+    "def": 858,
+    "hp": 6811
+   },
+   {
+    "att": 2435,
+    "def": 862,
+    "hp": 6843
+   },
+   {
+    "att": 2447,
+    "def": 866,
+    "hp": 6874
+   },
+   {
+    "att": 2459,
+    "def": 870,
+    "hp": 6905
+   },
+   {
+    "att": 2471,
+    "def": 874,
+    "hp": 6937
+   },
+   {
+    "att": 2483,
+    "def": 878,
+    "hp": 6968
+   },
+   {
+    "att": 2716,
+    "def": 950,
+    "hp": 7589
+   },
+   {
+    "att": 2724,
+    "def": 953,
+    "hp": 7610
+   },
+   {
+    "att": 2732,
+    "def": 956,
+    "hp": 7631
+   },
+   {
+    "att": 2740,
+    "def": 958,
+    "hp": 7652
+   },
+   {
+    "att": 2748,
+    "def": 961,
+    "hp": 7673
+   },
+   {
+    "att": 2756,
+    "def": 964,
+    "hp": 7694
+   },
+   {
+    "att": 2764,
+    "def": 966,
+    "hp": 7715
+   },
+   {
+    "att": 2771,
+    "def": 969,
+    "hp": 7735
+   },
+   {
+    "att": 2779,
+    "def": 972,
+    "hp": 7756
+   },
+   {
+    "att": 2787,
+    "def": 974,
+    "hp": 7777
+   },
+   {
+    "att": 2795,
+    "def": 977,
+    "hp": 7798
+   },
+   {
+    "att": 2803,
+    "def": 980,
+    "hp": 7819
+   },
+   {
+    "att": 2811,
+    "def": 982,
+    "hp": 7840
+   },
+   {
+    "att": 2819,
+    "def": 985,
+    "hp": 7861
+   },
+   {
+    "att": 2827,
+    "def": 988,
+    "hp": 7882
+   },
+   {
+    "att": 2835,
+    "def": 990,
+    "hp": 7903
+   },
+   {
+    "att": 2843,
+    "def": 993,
+    "hp": 7924
+   },
+   {
+    "att": 2851,
+    "def": 996,
+    "hp": 7945
+   },
+   {
+    "att": 2859,
+    "def": 998,
+    "hp": 7966
+   },
+   {
+    "att": 2867,
+    "def": 1001,
+    "hp": 7986
+   },
+   {
+    "att": 2875,
+    "def": 1004,
+    "hp": 8007
+   },
+   {
+    "att": 2883,
+    "def": 1006,
+    "hp": 8028
+   },
+   {
+    "att": 2891,
+    "def": 1009,
+    "hp": 8049
+   },
+   {
+    "att": 2899,
+    "def": 1012,
+    "hp": 8070
+   },
+   {
+    "att": 2907,
+    "def": 1014,
+    "hp": 8091
+   },
+   {
+    "att": 2915,
+    "def": 1017,
+    "hp": 8112
+   },
+   {
+    "att": 2922,
+    "def": 1020,
+    "hp": 8133
+   },
+   {
+    "att": 2930,
+    "def": 1022,
+    "hp": 8154
+   },
+   {
+    "att": 2938,
+    "def": 1025,
+    "hp": 8175
+   },
+   {
+    "att": 2946,
+    "def": 1028,
+    "hp": 8196
+   },
+   {
+    "att": 2954,
+    "def": 1030,
+    "hp": 8216
+   },
+   {
+    "att": 2962,
+    "def": 1033,
+    "hp": 8237
+   },
+   {
+    "att": 2970,
+    "def": 1036,
+    "hp": 8258
+   },
+   {
+    "att": 2978,
+    "def": 1038,
+    "hp": 8279
+   },
+   {
+    "att": 2986,
+    "def": 1041,
+    "hp": 8300
+   },
+   {
+    "att": 2994,
+    "def": 1044,
+    "hp": 8321
+   },
+   {
+    "att": 3002,
+    "def": 1046,
+    "hp": 8342
+   },
+   {
+    "att": 3010,
+    "def": 1049,
+    "hp": 8363
+   },
+   {
+    "att": 3018,
+    "def": 1052,
+    "hp": 8384
+   },
+   {
+    "att": 3026,
+    "def": 1054,
+    "hp": 8405
+   },
+   {
+    "att": 3034,
+    "def": 1057,
+    "hp": 8426
+   },
+   {
+    "att": 3042,
+    "def": 1060,
+    "hp": 8447
+   },
+   {
+    "att": 3050,
+    "def": 1062,
+    "hp": 8467
+   },
+   {
+    "att": 3058,
+    "def": 1065,
+    "hp": 8488
+   },
+   {
+    "att": 3065,
+    "def": 1068,
+    "hp": 8509
+   },
+   {
+    "att": 3073,
+    "def": 1070,
+    "hp": 8530
+   },
+   {
+    "att": 3081,
+    "def": 1073,
+    "hp": 8551
+   },
+   {
+    "att": 3089,
+    "def": 1076,
+    "hp": 8572
+   },
+   {
+    "att": 3097,
+    "def": 1078,
+    "hp": 8593
+   },
+   {
+    "att": 3105,
+    "def": 1081,
+    "hp": 8614
+   },
+   {
+    "att": 3113,
+    "def": 1084,
+    "hp": 8635
+   },
+   {
+    "att": 3121,
+    "def": 1086,
+    "hp": 8656
+   },
+   {
+    "att": 3129,
+    "def": 1089,
+    "hp": 8677
+   },
+   {
+    "att": 3137,
+    "def": 1092,
+    "hp": 8697
+   },
+   {
+    "att": 3145,
+    "def": 1094,
+    "hp": 8718
+   },
+   {
+    "att": 3153,
+    "def": 1097,
+    "hp": 8739
+   },
+   {
+    "att": 3161,
+    "def": 1100,
+    "hp": 8760
+   },
+   {
+    "att": 3169,
+    "def": 1102,
+    "hp": 8781
+   },
+   {
+    "att": 3177,
+    "def": 1105,
+    "hp": 8802
+   },
+   {
+    "att": 3185,
+    "def": 1108,
+    "hp": 8823
+   },
+   {
+    "att": 3193,
+    "def": 1110,
+    "hp": 8844
+   },
+   {
+    "att": 3201,
+    "def": 1113,
+    "hp": 8865
+   },
+   {
+    "att": 3209,
+    "def": 1116,
+    "hp": 8886
+   },
+   {
+    "att": 3216,
+    "def": 1118,
+    "hp": 8907
+   },
+   {
+    "att": 3224,
+    "def": 1121,
+    "hp": 8928
+   },
+   {
+    "att": 3232,
+    "def": 1124,
+    "hp": 8948
+   },
+   {
+    "att": 3240,
+    "def": 1126,
+    "hp": 8969
+   },
+   {
+    "att": 3248,
+    "def": 1129,
+    "hp": 8990
+   },
+   {
+    "att": 3256,
+    "def": 1132,
+    "hp": 9011
+   },
+   {
+    "att": 3264,
+    "def": 1134,
+    "hp": 9032
+   },
+   {
+    "att": 3272,
+    "def": 1137,
+    "hp": 9053
+   },
+   {
+    "att": 3280,
+    "def": 1140,
+    "hp": 9074
+   },
+   {
+    "att": 3288,
+    "def": 1142,
+    "hp": 9095
+   },
+   {
+    "att": 3296,
+    "def": 1145,
+    "hp": 9116
+   },
+   {
+    "att": 3304,
+    "def": 1148,
+    "hp": 9137
+   },
+   {
+    "att": 3312,
+    "def": 1150,
+    "hp": 9158
+   },
+   {
+    "att": 3320,
+    "def": 1153,
+    "hp": 9178
+   },
+   {
+    "att": 3328,
+    "def": 1156,
+    "hp": 9199
+   },
+   {
+    "att": 3336,
+    "def": 1158,
+    "hp": 9220
+   },
+   {
+    "att": 3344,
+    "def": 1161,
+    "hp": 9241
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Hiiro",
+     "Sharona"
+    ],
+    "chat": [
+     {
+      "character": "Hiiro:",
+      "text": "That blade of yours..."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Every time I see it, I feel an affinity towards it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Affinity? I think you've said this before as well..."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Yes, the styles of our blades are both very unique."
+     },
+     {
+      "character": "Hiiro:",
+      "text": "I think they are somehow related."
+     },
+     {
+      "character": "Sharona:",
+      "text": "This was passed down in my family. Unfortunately, I don't know a lot about it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "But I'm curious, is your blade sharper than mine?"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "I never doubt it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Interesting... you really do trust it."
+     },
+     {
+      "character": "Sharona:",
+      "text": "It's been a while since we've practiced fighting. How about we test out your blade in the training room?"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Unless your blade doesn't want to come out of its scabbard."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Only cowards flee."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Let's go to the training room then! I haven't had a proper fight in a while!"
+     },
+     {
+      "character": "Hiiro:",
+      "text": "Gladly!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Vice",
+     "Sharona"
+    ],
+    "chat": [
+     {
+      "character": "Vice:",
+      "text": "Chief Sharona's tail looks very strong."
+     },
+     {
+      "character": "Sharona:",
+      "text": "Tsk, another one who stares at my tail."
+     },
+     {
+      "character": "Sharona:",
+      "text": "What about it? You want to compare your tail with mine or something?"
+     },
+     {
+      "character": "Vice:",
+      "text": "Eh? Again?"
+     },
+     {
+      "character": "Sharona:",
+      "text": "In Illumina, some of the brats were very interested in my tail."
+     },
+     {
+      "character": "Sharona:",
+      "text": "They wanted to touch it every day, I don't know why."
+     },
+     {
+      "character": "Vice:",
+      "text": "Turns out Chief Sharona also has such worry!"
+     },
+     {
+      "character": "Sharona:",
+      "text": "Yea... sounds like you have the same worry."
+     },
+     {
+      "character": "Vice:",
+      "text": "Yes! When I was little, my friends were all fascinated with my tail."
+     },
+     {
+      "character": "Vice:",
+      "text": "Everyone wanted to touch it!"
+     },
+     {
+      "character": "Vice:",
+      "text": "I really don't know what's so interesting about it..."
+     },
+     {
+      "character": "Sharona:",
+      "text": "I know how that feels. Don't they have better things to do?"
+     },
+     {
+      "character": "Vice:",
+      "text": "Yea, I don't get it either."
+     },
+     {
+      "character": "Sharona:",
+      "text": "I know, right?"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Today, Illumina informed us that Sharona, the commander of the 1st Legion, would be coming to our Colossus. We were all nervous even though she wasn't here for inspection.Sharona showed her maturity and gracefulness immediately after arriving, which was reassuring or very admirable. She did speak like she was here for an inspection, though... Overall, I think it wasn't difficult to get along with her. Although she looked aloof and unapproachable, once we conversed, I discovered that she was quite straightforward. In a nutshell, she says whatever is on her mind. She directly told us that she wanted to use our resources to investigate matters about her family.Some interesting rumors started spreading among us later. For some reason, someone suddenly heard a voice that sounded like Sharona said, \"Keep running! Don't be lazy!\"I'm now a little curious about what had happened here...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Are you the person in charge of this Colossus? I am Sharona, the commander of the 2nd Legion of the Illumina. The Illumina has approved my transfer to the Colossus so that I can help you with the problems you might encounter. However, I need you to understand that this is my personal decision and not an official dispatch. I hope you will share the intel you obtained with me and also provide me with your assistance.Besides fighting, I also formulate training and learning plans for my subordinates sometimes. If you need me to share my expertise in this area\u2014whether you want to improve your combat power or the combat power of your companions\u2014you can let me know any time. After all, we now face a common enemy\u2014the Eclipsites. The most important thing to us right now should be to accumulate strength and improve our combat quality. Of course, I'm not saying that you should advocate martial force. I just personally believe that we'll be in a better position to overcome our destiny and future if we are more powerful."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "There are many outstanding, talented people that I admire at Illumina. They are strong, confident, and full of vitality. When I first arrived at Illumina, I was touched and inspired by their tenacity, which I think is closely linked to Illumina's superb leadership style. In fact, since I joined Illumina and met the Grand Marshal, she has been the goal of my training. I think she indeed is the most suitable leader for Illumina.Some people probably don't see me in a positive light, while I have quite a lot of criticism about certain people who blatantly use cruel and decadent relics of ancient times. We understand each other's views and opinions, but it does not hinder us from completing our respective tasks while getting along normally. After all, as long as we are fighting for the beliefs of Illumina, we will be able to coexist even if we think differently. I think this is quite good, especially when I compare this to the time I lived in Lumopolis. In fact, it's way better in comparison..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "That was a nightmarish evening, and I always thought it was a dream. Not only did I meet my grandfather, who should have floated into the air with Lumopolis, but I also inherited my blade, Azure Flame, which is the symbol of my family. I learned from my grandfather that we are the dragon's bloodline that should already be extinct. Before I understood anything, I saw Lumopolis floating in the sky and the hellish scene before my eyes\u2014the nobles of Uptown abandoning powerless citizens on a battlefield where the Eclipsites swarmed in...This is a fact that I have no choice but to believe in even though I don't want to\u2014everything that happened in the past was but an empty dream. This dream shattered as well, when Lumopolis floated into the sky. This also meant that my mission to become a knight of Lumopolis had ended."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Are you referring to my dragon tail? I didn't have this before. If it weren't for the non-stop killing in that battle, I would never have known that my bloodline would awaken like this.Even I'm afraid of this power, let alone you. After all... this power should already be extinct. It shouldn't exist in this world.I hate everything in Lumopolis, as well as the Kartima Family of the past that once served Lumopolis. If I had awakened this power earlier, I would surely have given an awakening to those wicked people who killed those of the dragon's bloodline. My fearsome dragon breath should be used to incinerate the blood of sin!Huh? Why are you hiding so far away? Sorry, I've forgotten myself again. Don't worry though, I'll still be your companion until that day arrives."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "When I was lost, Illumina showed me new beliefs that saved me from being devoured by my hatred.",
+  "My clan owes that floating city nothing. All that remains is disappointment and ineffable hatred.",
+  "Splendor Illumina!",
+  "Hate and annihilate the enemies is an indisputable fact of life.",
+  "She is brave and strong, she insists on her will while never being swayed by it. I am nowhere near her level.",
+  "I couldn't see \"will\" on her. I wonder what that lazy cat is thinking about?",
+  "Other than training... This is the emblem of my clan. It gives me strength.",
+  "I don't really care about tails. What I really detest is a corrupt system and brutal rule.",
+  "Do you stare at this Colossus sometimes? Just like how I often stare at my clan emblem.",
+  "I've seen your effort. Just rest for now.",
+  "You've got quite a big appetite. I hope the same goes for your courage.",
+  "You... I'll get you back one day...You're worthy of my revenge!",
+  "Fallen into the life of killing... but it feels unbelievably enjoyable.",
+  "Dragon Breath!",
+  "Vanish!",
+  "Can I fight in my real form?",
+  "Congratulations! The New Year is here!",
+  "Raise your head!",
+  "The lost bloodline of our clan is boiling!",
+  "Flames of revenge have been ignited on my sword and in my eyes.",
+  "The former castle of the fallen king will surely be forged into an iron coffin!",
+  "Danger strikes when we let down our guard. A giant dragon keeps one eye open even when it sleeps.",
+  "My swordsmanship has become even more pure.",
+  "Alchemy Stars!",
+  "What do I fight for? I feed on the resentment of blood and fire, but I'm afraid that's not the answer you want.",
+  "My Azure Flame Sword feasts on the fear of my enemies, but that is not the case for my wings and dragon scales as evil can never touch them.",
+  "A dragon's wrath has many similarities to the fighting skills that Hiiro has mastered\u2014they are eternal, deadly, and absolutely ruthless. However, it's still far from matching the Grand Marshal...",
+  "I will judge the ancient king and that unclean residue! You better not have anything to do with them!",
+  "A dragon's heart is filled with quenched killing intent. Don't ask me why I show no mercy, for that is the epitaph of the weak.",
+  "Light and shadows forge the two sides of a true dragon, which, whether dead or alive, roars magnificently! The blood of revenge has risen\u2014",
+  "Yes, something other than revenge still flows in my blood. Thank you for letting me realize that. The last person who achieved this was the Grand Marshal.",
+  "I know how Nemesis and Gronru think of me, but... at least I don't want you to think the same.",
+  "You brought hope to this weary heart, and now I want to do the same for you. You can do this! My compatriot!!",
+  "Whatever it is, make it short. I got public affairs to tend to and don't have much time.",
+  "Have you forgotten how to greet others? Stop shaking and stand still!",
+  "Do you want to improve yourself? Very good, I will design a training plan for you. Come to my room at 6 in the morning tomorrow!",
+  "You're here, just in time. Let's do something together. We'll leave once we plan and decide when to attack.",
+  "Very good, you should cherish your training time. There's no time to lose, let's start right now.",
+  "Keep your spirits up! This isn't the time to relax yet!",
+  "You'll need enough rest to become stronger. Go sleep while I stand guard here.",
+  "Have you never seen an Aurorian as beautiful as me? Fine, I won't blame you as there are indeed few of us, even in the past. Sharona, at your service.",
+  "This... Okay, thank you anyway.",
+  "Thank you for going out of your way for me again.",
+  "Very thoughtful and admirable! Thank you!! My compatriot!!",
+  "My compatriot, I'll cherish this friendship forever!",
+  "The dragon has sentenced you to death!",
+  "Crush in light and shadows\u2014",
+  "I can't hold back any longer...",
+  "If my clan returns, everything you see now will become brittle and not worth mentioning. That's only an assumption though. The past cannot be changed...",
+  "The dragon family is a testimony to an era of sin and cruelty, but White Night's history refuses to acknowledge this. I don't know where I would have ended up if I didn't encounter Illumina and the Grand Marshal...",
+  "They said that dragon fire would destroy everything, including our memories and history. How interesting. Just like how ants are afraid of sparks, these sinners have such an unexpected and inspired awareness of matters?",
+  "Those who object should do so now."
+ ],
+ "skins": [
+  {
+   "name": "Hour of Reckoning",
+   "description": "An outfit worn by Sharona for a mysterious occasion. According to those who work with her, at this time of year, Sharona changes into this outfit and heads to an undisclosed location. This outfit is characterized by its bow and ruffles, continued all the way to her ankles, and is reminiscent of the formal attire of Lumopolis nobility. At a glance, it may seem like Sharona is on her way to a grand ball, but her furrowed brows tell a different story."
+  }
+ ],
+ "description": "A Legion Commander of the Illumina Federation and a cold beauty with the power of dragons. Despite her icy appearance, she's someone you can count on. Her origins are shrouded in mystery. After joining the Federation, she became the Legion Commander through her military achievement. She always carries her Azure Flame blade that symbolizes her heritage.",
+ "realName": "Sharona",
+ "nickname": "The Lastborn of Ladon",
+ "gender": "Female",
+ "height": "5'5''",
+ "birthday": "August 9",
+ "birthplace": "Lumopolis",
+ "style": "Katana"
 }

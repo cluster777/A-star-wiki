@@ -1,0 +1,692 @@
+{
+ "title": "Of Neat Freak",
+ "header": "Noah, who had come to help you clean up, turned out to be a neat freak and spent most of the day wiping the same part of the wall because of a small stain. As a result, you decided to try it yourself.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... Noah..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Yes, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You don't have to do this... You know, cleaning and stuff..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "No! I'm responsible for you catching a cold! So I'll take care of your daily life! Don't worry!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "But to be honest, I'm still sleepy...",
+     "link": "1"
+    },
+    {
+     "text": "So... I'll just leave it to you?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You came very early in the morning..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Then go back to sleep, Navigator. Don't mind me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I want to... But I can't possibly fall asleep with a girl cleaning my room!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Don't worry about anything! Just rest!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Close your eyes, and tuck in tight."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll just... go back to sleep?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Aaaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened? What's going on? Enemy invasion?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this corner!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corner!? What's wrong with the corner?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's so dusty!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey! Why are you up?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Go back to sleep! I told you to just leave everything to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Good to know that nothing happened."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "My dear navigator\u266a Please open the door\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Open it quickly\u266aI want to come in\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "???"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah... What's with your lyrics..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Woah... You heard that!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "I heard some children singing this when I was telling them stories."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "So I changed the lyrics, although I don't know the rest of the song..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "By the way, why are you up again? Get back to bed!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I don't think I can sleep like this...",
+     "link": "4"
+    },
+    {
+     "text": "... I've gotten enough sleep.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Noah:",
+     "dialogue": "Yup! Just leave it to me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That being said... I still feel uneasy."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Don't worry about anything! Just rest!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Close your eyes, and tuck in tight."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll just... go back to sleep?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Aaaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened? What's going on? Enemy invasion?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this corner!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corner!? What's wrong with the corner?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's so dusty!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey! Why are you up?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Go back to sleep! I told you to just leave everything to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Good to know that nothing happened."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "My dear navigator\u266a Please open the door\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Open it quickly\u266aI want to come in\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "???"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah... What's with your lyrics..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Woah... You heard that!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "I heard some children singing this when I was telling them stories."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "So I changed the lyrics, although I don't know the rest of the song..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "By the way, why are you up again? Get back to bed!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I don't think I can sleep like this...",
+     "link": "4"
+    },
+    {
+     "text": "... I've gotten enough sleep.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Noah:",
+     "dialogue": "Don't worry about anything! Just rest!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Close your eyes, and tuck in tight."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, so I'll just... go back to sleep?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Aaaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What happened? What's going on? Enemy invasion?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this corner!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corner!? What's wrong with the corner?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's so dusty!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey! Why are you up?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Go back to sleep! I told you to just leave everything to me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Good to know that nothing happened."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "My dear navigator\u266a Please open the door\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Open it quickly\u266aI want to come in\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "???"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah... What's with your lyrics..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Woah... You heard that!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "I heard some children singing this when I was telling them stories."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "So I changed the lyrics, although I don't know the rest of the song..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "By the way, why are you up again? Get back to bed!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I don't think I can sleep like this...",
+     "link": "4"
+    },
+    {
+     "text": "... I've gotten enough sleep.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Noah:",
+     "dialogue": "Oh, sorry for disturbing you... I'll be quiet."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "From now on, I'll be quiet... I won't bother you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, it's okay! I'm already glad that you helped me clean up the room. Don't mind me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've gotten used to it anyway."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "La-la-la, I'm a master cleaner\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Never mind...)"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this wall...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it too dirty? I haven't cleaned it for a long time."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Well... It's not too dirty..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's just... Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe my eyes are playing tricks on me, but how come I can't see what you're wiping?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Eh? Look more closely here! You won't miss it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Look! Right here!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "A fingernail-sized gray stain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't tell me you were wiping this for the past half an hour!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah, this wall is already very clean. Actually I don't really care about this spot, so you don't need to..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "No way! Keep everything I see spotless is my motto!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Your maxim is kind of sloppy!",
+     "link": "7"
+    },
+    {
+     "text": "What a thought-provoking maxim...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I'll just finish reading the book that Queen Bethlehem gave me earlier."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "From now on, I'll be quiet... I won't bother you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, it's okay! I'm already glad that you helped me clean up the room. Don't mind me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've gotten used to it anyway."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "La-la-la, I'm a master cleaner\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Never mind...)"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this wall...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it too dirty? I haven't cleaned it for a long time."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Well... It's not too dirty..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's just... Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe my eyes are playing tricks on me, but how come I can't see what you're wiping?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Eh? Look more closely here! You won't miss it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Look! Right here!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "A fingernail-sized gray stain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't tell me you were wiping this for the past half an hour!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah, this wall is already very clean. Actually I don't really care about this spot, so you don't need to..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "No way! Keep everything I see spotless is my motto!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Then, you can ask me if there's anything you don't understand about it."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Because Noah knows EVERYTHING!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Your maxim is kind of sloppy!",
+     "link": "7"
+    },
+    {
+     "text": "What a thought-provoking maxim...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Noah:",
+     "dialogue": "From now on, I'll be quiet... I won't bother you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no, it's okay! I'm already glad that you helped me clean up the room. Don't mind me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've gotten used to it anyway."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "La-la-la, I'm a master cleaner\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Never mind...)"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Hey..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "What happened to this wall...!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it too dirty? I haven't cleaned it for a long time."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Well... It's not too dirty..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "It's just... Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe my eyes are playing tricks on me, but how come I can't see what you're wiping?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Eh? Look more closely here! You won't miss it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Where?"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "Look! Right here!"
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "A fingernail-sized gray stain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't tell me you were wiping this for the past half an hour!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Noah, this wall is already very clean. Actually I don't really care about this spot, so you don't need to..."
+    },
+    {
+     "char": "Noah:",
+     "dialogue": "No way! Keep everything I see spotless is my motto!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Your maxim is kind of sloppy!",
+     "link": "7"
+    },
+    {
+     "text": "What a thought-provoking maxim...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [],
+   "branch": []
+  },
+  {
+   "chat": [],
+   "branch": []
+  }
+ ]
+}

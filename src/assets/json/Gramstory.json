@@ -1,0 +1,1208 @@
+{
+ "title": "The Best Cure",
+ "header": "Gram quickly identifies your affliction and promptly administers the appropriate medicine. In the end, the results are truly satisfactory.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Gram:",
+     "dialogue": "You see, Vice? I told you our Navigator didn't look well today."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Pale face, chapped lips... Even Navigator's hair looks a mess."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "You're absolutely right. It's been days since the Navigator ate properly."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Today was no different... The bread they served this morning, Navigator didn't even take a bite."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's true, I haven't had much of an appetite lately... I've been feeling really weak for some reason, too..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Let me have a look."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "No fever."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "G-Gram... Can you let go of my eyelids, please?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The whites of your eyes don't look too good, either... How have you been sleeping lately?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I remember your lights were still on really late last night, Navigator."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "What time did you go to bed last night?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can't recall... I just remember lying down for a second, and the next second you two were calling me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd say I slept two, three hours, maybe?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it's fine, trust me! I've gotten used to it these last few days. I just felt a little tired when I first got out of bed, that's all."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "How long have you been maintaining this kind of routine?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "About a week."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "That's around the time you started losing your appetite, too."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Understood. I've seen this before, actually. We call it Body Function Disorder, or BFD."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Plenty of new soldiers come down with it. Luckily, I happen to have the cure."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Vice, it looks like Navigator won't be able to work. What about the Colossus?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I'll handle the Navigator's responsibilities for the time being."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What... kind of cure? Is it bitter?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Not at all, but it can be a little taxing. Let's see if you can handle it."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Taxing...?",
+     "link": "1"
+    },
+    {
+     "text": "Handle it...?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "How can taking medicine be taxing? Do I have to eat a ridiculously big pill or something?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "If only it were that easy..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "This cure will affect every nerve as well as every muscle in your body and dramatically increase blood circulation. You'll feel like an entirely new person after taking it."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "But first, I need to see just how disordered your bodily functions have become."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "A simple test will do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Oh, we can do all kinds, actually! Endurance tests, lower-body coordination tests, balance tests, arm strength tests..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We'll do all of them, one after another!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Now then, let's start with testing your physical endurance by having you carry water."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You still have two buckets left! Come on, no stopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We can test your arm strength by making you chop wood. The motion is simple enough: Raise your arms high, then swing down fiercely!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The key is to be both fast and accurate!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Remember! Each log must be split into four equally-sized pieces!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, sir..."
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "Next is picking peas!"
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "My shoulders are so sore..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Kids these days are really lacking when it comes to physical training. Look at you! We've barely started, and your arms are already trembling like a baby deer's legs!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't stop yet! You still have all these peas to pick, now hurry it up!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "But there are way too many of them! Way more than a single person can handle..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The enemy won't tolerate all your complaining and excuses in a real battle."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You have a point, but still..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You need to believe in yourself... in your tenacity and your perseverance! Remember, you gave your word that you would finish this!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now get picking, and don't let any go to waste!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "*Sobbing* Why do I have to do this...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I wouldn't have agreed to take his tests if I knew this was what I had to do... I just didn't have an appetite, that's all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You still have five pieces of meat left! Keep chopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test is this, Gram?! You're just making me do your job at this point, aren't you?!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Carrying water, chopping wood, picking peas... And now, chopping meat? You're just using me as your assistant!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Heh... Not just anyone has what it takes to be my assistant, you know?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... What's that amazing smell...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Thanks to all the tests we did just now, I was able to fully understand your body's current condition and prepare this for you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Fried rice with meat and peas...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "(Gurgle, gurgle)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like you've got your appetite back. Why don't you take this back to your room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Delicious!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could something this delicious exist in the world?! The meat is fried perfectly!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The meat is fatty but not too greasy, the peas are crisp and flavorful, and each roasted grain of rice stands out perfectly from the others..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or you can just eat it here. Looks like my words aren't reaching you at the moment, anyway."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gobble* How... How could something taste so amazing...?! *Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Hey, slow down a little. Don't talk with your mouth full!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Burp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Did you really make that fried rice, Gram? *Belch* I had no idea... that you were such a master cook!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hahaha! I spent a lot of my military years working in the mess halls, kid! This was nothing, I'm pretty sure I've fed every single person in the Undercities at least once!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I never would have guessed... *Gulp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Ahem... I'm glad you liked it, but you don't really need to lick the plate clean."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, right! When am I supposed to take my medicine, Gram?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Your medicine, huh... We'll talk about it tomorrow."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For now, why don't you go hop in the shower and get a little more sleep?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Well, I am feeling pretty tired... I'll go do that then, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Good morning, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Vice! Good morning!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "You're up early today, Navigator. Feeling better?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Good morning, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Yeah, much better! When I got up this morning, I felt so awake and full of energy. I don't think I need to take any medicine today!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Young people do bounce back really quick... Looks like my cure worked, after all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Put simply, you took your medicine yesterday. Understand?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "4"
+    },
+    {
+     "text": "Not really...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not bitter, but why does it still sound so awful?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it really spicy like wasabi or something?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "It's not spicy in the least, although it will definitely make you sweat like never before."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Back in the day, I used to take it all the time... So you can trust me when I tell you that it works wonders on the body."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "But first, I need to see just how disordered your bodily functions have become."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "A simple test will do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Oh, we can do all kinds, actually! Endurance tests, lower-body coordination tests, balance tests, arm strength tests..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We'll do all of them, one after another!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Now then, let's start with testing your physical endurance by having you carry water."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You still have two buckets left! Come on, no stopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We can test your arm strength by making you chop wood. The motion is simple enough: Raise your arms high, then swing down fiercely!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The key is to be both fast and accurate!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Remember! Each log must be split into four equally-sized pieces!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, sir..."
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "Next is picking peas!"
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "My shoulders are so sore..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Kids these days are really lacking when it comes to physical training. Look at you! We've barely started, and your arms are already trembling like a baby deer's legs!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't stop yet! You still have all these peas to pick, now hurry it up!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "But there are way too many of them! Way more than a single person can handle..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The enemy won't tolerate all your complaining and excuses in a real battle."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You have a point, but still..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You need to believe in yourself... in your tenacity and your perseverance! Remember, you gave your word that you would finish this!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now get picking, and don't let any go to waste!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "*Sobbing* Why do I have to do this...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I wouldn't have agreed to take his tests if I knew this was what I had to do... I just didn't have an appetite, that's all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You still have five pieces of meat left! Keep chopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test is this, Gram?! You're just making me do your job at this point, aren't you?!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Carrying water, chopping wood, picking peas... And now, chopping meat? You're just using me as your assistant!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Heh... Not just anyone has what it takes to be my assistant, you know?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... What's that amazing smell...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Thanks to all the tests we did just now, I was able to fully understand your body's current condition and prepare this for you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Fried rice with meat and peas...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "(Gurgle, gurgle)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like you've got your appetite back. Why don't you take this back to your room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Delicious!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could something this delicious exist in the world?! The meat is fried perfectly!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The meat is fatty but not too greasy, the peas are crisp and flavorful, and each roasted grain of rice stands out perfectly from the others..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or you can just eat it here. Looks like my words aren't reaching you at the moment, anyway."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gobble* How... How could something taste so amazing...?! *Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Hey, slow down a little. Don't talk with your mouth full!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Burp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Did you really make that fried rice, Gram? *Belch* I had no idea... that you were such a master cook!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hahaha! I spent a lot of my military years working in the mess halls, kid! This was nothing, I'm pretty sure I've fed every single person in the Undercities at least once!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I never would have guessed... *Gulp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Ahem... I'm glad you liked it, but you don't really need to lick the plate clean."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, right! When am I supposed to take my medicine, Gram?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Your medicine, huh... We'll talk about it tomorrow."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For now, why don't you go hop in the shower and get a little more sleep?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Well, I am feeling pretty tired... I'll go do that then, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Good morning, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Vice! Good morning!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "You're up early today, Navigator. Feeling better?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Good morning, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Yeah, much better! When I got up this morning, I felt so awake and full of energy. I don't think I need to take any medicine today!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Young people do bounce back really quick... Looks like my cure worked, after all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Put simply, you took your medicine yesterday. Understand?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "4"
+    },
+    {
+     "text": "Not really...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gram:",
+     "dialogue": "But first, I need to see just how disordered your bodily functions have become."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "A simple test will do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Oh, we can do all kinds, actually! Endurance tests, lower-body coordination tests, balance tests, arm strength tests..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We'll do all of them, one after another!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Now then, let's start with testing your physical endurance by having you carry water."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You still have two buckets left! Come on, no stopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Haah... Haah... Haah..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "We can test your arm strength by making you chop wood. The motion is simple enough: Raise your arms high, then swing down fiercely!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The key is to be both fast and accurate!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Remember! Each log must be split into four equally-sized pieces!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, sir..."
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "Next is picking peas!"
+    },
+    {
+     "char": "Bang!",
+     "dialogue": "My shoulders are so sore..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Kids these days are really lacking when it comes to physical training. Look at you! We've barely started, and your arms are already trembling like a baby deer's legs!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't stop yet! You still have all these peas to pick, now hurry it up!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "But there are way too many of them! Way more than a single person can handle..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "The enemy won't tolerate all your complaining and excuses in a real battle."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You have a point, but still..."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "You need to believe in yourself... in your tenacity and your perseverance! Remember, you gave your word that you would finish this!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Now get picking, and don't let any go to waste!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "*Sobbing* Why do I have to do this...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I wouldn't have agreed to take his tests if I knew this was what I had to do... I just didn't have an appetite, that's all..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You still have five pieces of meat left! Keep chopping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of test is this, Gram?! You're just making me do your job at this point, aren't you?!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Carrying water, chopping wood, picking peas... And now, chopping meat? You're just using me as your assistant!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Heh... Not just anyone has what it takes to be my assistant, you know?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... What's that amazing smell...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Thanks to all the tests we did just now, I was able to fully understand your body's current condition and prepare this for you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Fried rice with meat and peas...?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "(Gurgle, gurgle)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like you've got your appetite back. Why don't you take this back to your room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Delicious!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could something this delicious exist in the world?! The meat is fried perfectly!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The meat is fatty but not too greasy, the peas are crisp and flavorful, and each roasted grain of rice stands out perfectly from the others..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Munch*"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Or you can just eat it here. Looks like my words aren't reaching you at the moment, anyway."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gobble* How... How could something taste so amazing...?! *Munch*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Hey, slow down a little. Don't talk with your mouth full!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Burp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Did you really make that fried rice, Gram? *Belch* I had no idea... that you were such a master cook!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hahaha! I spent a lot of my military years working in the mess halls, kid! This was nothing, I'm pretty sure I've fed every single person in the Undercities at least once!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I never would have guessed... *Gulp*"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Ahem... I'm glad you liked it, but you don't really need to lick the plate clean."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, right! When am I supposed to take my medicine, Gram?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Your medicine, huh... We'll talk about it tomorrow."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For now, why don't you go hop in the shower and get a little more sleep?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Well, I am feeling pretty tired... I'll go do that then, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Good morning, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, Vice! Good morning!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "You're up early today, Navigator. Feeling better?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Good morning, Gram."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Yeah, much better! When I got up this morning, I felt so awake and full of energy. I don't think I need to take any medicine today!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Young people do bounce back really quick... Looks like my cure worked, after all!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Put simply, you took your medicine yesterday. Understand?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I understand.",
+     "link": "4"
+    },
+    {
+     "text": "Not really...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Those tests yesterday, they were work as well as exercises, weren't they?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And when we sat down to eat... that was around dinner-time, wasn't it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Tired and full, I fell asleep as soon as I laid in bed... and I stayed asleep for a whole eight hours."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That means, the best cure is regular exercise and a good daily routine!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "That's right!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you, Gram!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I'm just glad you're feeling better. Do remember that your body is your own responsibility, but don't forget that other people are also counting on you."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Especially when it comes to battle. For your friends' sake, you can't afford to let your body get back in that state. Understood?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Understood!",
+     "link": "7"
+    },
+    {
+     "text": "But why?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vice:",
+     "dialogue": "(Ahem) Do you remember what time you had your dinner?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think it was late in the afternoon..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Those tests you took during the day... they were actually just physical labor."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Throw in a healthy dinner and a good night's rest, and you're back to your normal self!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see... I get it now! The best cure is regular exercise and a good daily routine."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "That's right!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you, Gram!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I'm just glad you're feeling better. Do remember that your body is your own responsibility, but don't forget that other people are also counting on you."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Especially when it comes to battle. For your friends' sake, you can't afford to let your body get back in that state. Understood?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Understood!",
+     "link": "7"
+    },
+    {
+     "text": "But why?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gram:",
+     "dialogue": "That's right!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you, Gram!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "I'm just glad you're feeling better. Do remember that your body is your own responsibility, but don't forget that other people are also counting on you."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Especially when it comes to battle. For your friends' sake, you can't afford to let your body get back in that state. Understood?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Understood!",
+     "link": "7"
+    },
+    {
+     "text": "But why?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "If I let myself get that tired and weak, it could seriously affect my ability to give orders."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "In that case, even the smallest mistake could cost you dearly. The price may even have to be paid in blood..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right... I'll take better care of myself from now on!"
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "As long as you understand."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Now then, since you're nice and cured now, I think it's time for me to take my leave."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He took off so quickly... I didn't even get the chance to properly thank him yet."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Gram isn't the type to accept gratitude like that. As long as you're feeling better, that's more than enough for him."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Don't let his lackadaisical demeanor fool you. He's extremely watchful over the well-being of his friends."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "The Soldier's Fried Rice he made for you yesterday is his best dish. It's packed with nutrients and is super healthy to boot!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So that's what it's called... It was so delicious! I don't think I'll ever forget the taste..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Before he cooked that dish for me, I thought Gram was just an ordinary veteran who served as a logistics manager."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "He has such a long and eventful history... When he first joined the military, he served as a cook for a few years before turning to the defensive line to fend off Eclipsite attacks..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "After retiring from the military, he started working in logistics, where he also rediscovered his love for cooking. All those years of experience and training... It's incredible!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "But his Soldier's Fried Rice is reserved for the sick. I've only had it once in my life, too."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I even thought about staying up late for the next few days, just so he would make it for me again..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Think it's worth it, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I don't think so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Soldier's Fried Rice might taste amazing, but those tests were way too exhausting..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vice:",
+     "dialogue": "You're in charge of commanding us in battle, remember?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "If something goes wrong... It's possible that..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It could have serious consequences."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand now. I won't let myself get back in that state ever again."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "As long as you understand."
+    },
+    {
+     "char": "Gram:",
+     "dialogue": "Now then, since you're nice and cured now, I think it's time for me to take my leave."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He took off so quickly... I didn't even get the chance to properly thank him yet."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Gram isn't the type to accept gratitude like that. As long as you're feeling better, that's more than enough for him."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Don't let his lackadaisical demeanor fool you. He's extremely watchful over the well-being of his friends."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "The Soldier's Fried Rice he made for you yesterday is his best dish. It's packed with nutrients and is super healthy to boot!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So that's what it's called... It was so delicious! I don't think I'll ever forget the taste..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Before he cooked that dish for me, I thought Gram was just an ordinary veteran who served as a logistics manager."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "He has such a long and eventful history... When he first joined the military, he served as a cook for a few years before turning to the defensive line to fend off Eclipsite attacks..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "After retiring from the military, he started working in logistics, where he also rediscovered his love for cooking. All those years of experience and training... It's incredible!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "But his Soldier's Fried Rice is reserved for the sick. I've only had it once in my life, too."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I even thought about staying up late for the next few days, just so he would make it for me again..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Think it's worth it, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I don't think so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Soldier's Fried Rice might taste amazing, but those tests were way too exhausting..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

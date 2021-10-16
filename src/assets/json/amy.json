@@ -1,715 +1,922 @@
 {
-      "name": "Amy",
-      "faction": "Lumopolis",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "3 Preemptive Turn",
-            "description": [
-                  "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by an enemy.",
-                  "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by an enemy."
-            ]
-      },
-      "equip": {
-            "name": "Aurora Spear",
-            "passive": "Divine Mark of Light",
-            "description": [
-                  [
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
-                  ],
-                  [
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
-                        "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Recovers the team's HP by 160% of Amy's ATK."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Recovers the team's HP by 160% of Amy's ATK."
-                        },
-                        {
-                              "cost": "10",
-                              "description": "Recovers the team's HP by 220% of Amy's ATK."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Crystal Dust",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal",
-                        "Thunder Potion I",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "",
-                  "after": ""
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 549,
-                        "def": 226,
-                        "hp": 1728
-                  },
-                  {
-                        "att": 558,
-                        "def": 230,
-                        "hp": 1753
-                  },
-                  {
-                        "att": 568,
-                        "def": 233,
-                        "hp": 1778
-                  },
-                  {
-                        "att": 578,
-                        "def": 237,
-                        "hp": 1803
-                  },
-                  {
-                        "att": 587,
-                        "def": 240,
-                        "hp": 1828
-                  },
-                  {
-                        "att": 597,
-                        "def": 244,
-                        "hp": 1853
-                  },
-                  {
-                        "att": 607,
-                        "def": 248,
-                        "hp": 1879
-                  },
-                  {
-                        "att": 616,
-                        "def": 251,
-                        "hp": 1904
-                  },
-                  {
-                        "att": 626,
-                        "def": 255,
-                        "hp": 1929
-                  },
-                  {
-                        "att": 636,
-                        "def": 258,
-                        "hp": 1954
-                  },
-                  {
-                        "att": 645,
-                        "def": 262,
-                        "hp": 1979
-                  },
-                  {
-                        "att": 655,
-                        "def": 265,
-                        "hp": 2004
-                  },
-                  {
-                        "att": 665,
-                        "def": 269,
-                        "hp": 2029
-                  },
-                  {
-                        "att": 674,
-                        "def": 273,
-                        "hp": 2054
-                  },
-                  {
-                        "att": 684,
-                        "def": 276,
-                        "hp": 2080
-                  },
-                  {
-                        "att": 694,
-                        "def": 280,
-                        "hp": 2105
-                  },
-                  {
-                        "att": 703,
-                        "def": 283,
-                        "hp": 2130
-                  },
-                  {
-                        "att": 713,
-                        "def": 287,
-                        "hp": 2155
-                  },
-                  {
-                        "att": 723,
-                        "def": 291,
-                        "hp": 2180
-                  },
-                  {
-                        "att": 732,
-                        "def": 294,
-                        "hp": 2205
-                  },
-                  {
-                        "att": 742,
-                        "def": 298,
-                        "hp": 2230
-                  },
-                  {
-                        "att": 752,
-                        "def": 301,
-                        "hp": 2255
-                  },
-                  {
-                        "att": 761,
-                        "def": 305,
-                        "hp": 2280
-                  },
-                  {
-                        "att": 771,
-                        "def": 309,
-                        "hp": 2306
-                  },
-                  {
-                        "att": 781,
-                        "def": 312,
-                        "hp": 2331
-                  },
-                  {
-                        "att": 790,
-                        "def": 316,
-                        "hp": 2356
-                  },
-                  {
-                        "att": 800,
-                        "def": 319,
-                        "hp": 2381
-                  },
-                  {
-                        "att": 810,
-                        "def": 323,
-                        "hp": 2406
-                  },
-                  {
-                        "att": 819,
-                        "def": 326,
-                        "hp": 2431
-                  },
-                  {
-                        "att": 829,
-                        "def": 330,
-                        "hp": 2456
-                  },
-                  {
-                        "att": 931,
-                        "def": 365,
-                        "hp": 2738
-                  },
-                  {
-                        "att": 943,
-                        "def": 369,
-                        "hp": 2769
-                  },
-                  {
-                        "att": 955,
-                        "def": 374,
-                        "hp": 2800
-                  },
-                  {
-                        "att": 967,
-                        "def": 378,
-                        "hp": 2832
-                  },
-                  {
-                        "att": 979,
-                        "def": 382,
-                        "hp": 2863
-                  },
-                  {
-                        "att": 991,
-                        "def": 387,
-                        "hp": 2895
-                  },
-                  {
-                        "att": 1003,
-                        "def": 391,
-                        "hp": 2926
-                  },
-                  {
-                        "att": 1016,
-                        "def": 396,
-                        "hp": 2957
-                  },
-                  {
-                        "att": 1028,
-                        "def": 400,
-                        "hp": 2989
-                  },
-                  {
-                        "att": 1040,
-                        "def": 405,
-                        "hp": 3020
-                  },
-                  {
-                        "att": 1052,
-                        "def": 409,
-                        "hp": 3052
-                  },
-                  {
-                        "att": 1064,
-                        "def": 414,
-                        "hp": 3083
-                  },
-                  {
-                        "att": 1076,
-                        "def": 418,
-                        "hp": 3114
-                  },
-                  {
-                        "att": 1088,
-                        "def": 423,
-                        "hp": 3146
-                  },
-                  {
-                        "att": 1100,
-                        "def": 427,
-                        "hp": 3177
-                  },
-                  {
-                        "att": 1112,
-                        "def": 432,
-                        "hp": 3209
-                  },
-                  {
-                        "att": 1124,
-                        "def": 436,
-                        "hp": 3240
-                  },
-                  {
-                        "att": 1136,
-                        "def": 441,
-                        "hp": 3271
-                  },
-                  {
-                        "att": 1148,
-                        "def": 445,
-                        "hp": 3303
-                  },
-                  {
-                        "att": 1160,
-                        "def": 450,
-                        "hp": 3334
-                  },
-                  {
-                        "att": 1173,
-                        "def": 454,
-                        "hp": 3366
-                  },
-                  {
-                        "att": 1185,
-                        "def": 459,
-                        "hp": 3397
-                  },
-                  {
-                        "att": 1197,
-                        "def": 463,
-                        "hp": 3428
-                  },
-                  {
-                        "att": 1209,
-                        "def": 468,
-                        "hp": 3460
-                  },
-                  {
-                        "att": 1221,
-                        "def": 472,
-                        "hp": 3491
-                  },
-                  {
-                        "att": 1233,
-                        "def": 477,
-                        "hp": 3523
-                  },
-                  {
-                        "att": 1245,
-                        "def": 481,
-                        "hp": 3554
-                  },
-                  {
-                        "att": 1257,
-                        "def": 486,
-                        "hp": 3585
-                  },
-                  {
-                        "att": 1269,
-                        "def": 490,
-                        "hp": 3617
-                  },
-                  {
-                        "att": 1281,
-                        "def": 495,
-                        "hp": 3648
-                  },
-                  {
-                        "att": 1293,
-                        "def": 499,
-                        "hp": 3680
-                  },
-                  {
-                        "att": 1305,
-                        "def": 504,
-                        "hp": 3711
-                  },
-                  {
-                        "att": 1318,
-                        "def": 508,
-                        "hp": 3742
-                  },
-                  {
-                        "att": 1330,
-                        "def": 513,
-                        "hp": 3774
-                  },
-                  {
-                        "att": 1342,
-                        "def": 517,
-                        "hp": 3805
-                  },
-                  {
-                        "att": 1354,
-                        "def": 522,
-                        "hp": 3837
-                  },
-                  {
-                        "att": 1366,
-                        "def": 526,
-                        "hp": 3868
-                  },
-                  {
-                        "att": 1378,
-                        "def": 531,
-                        "hp": 3899
-                  },
-                  {
-                        "att": 1390,
-                        "def": 535,
-                        "hp": 3931
-                  },
-                  {
-                        "att": 1402,
-                        "def": 539,
-                        "hp": 3962
-                  },
-                  {
-                        "att": 1551,
-                        "def": 588,
-                        "hp": 4386
-                  },
-                  {
-                        "att": 1560,
-                        "def": 591,
-                        "hp": 4409
-                  },
-                  {
-                        "att": 1569,
-                        "def": 595,
-                        "hp": 4433
-                  },
-                  {
-                        "att": 1578,
-                        "def": 598,
-                        "hp": 4456
-                  },
-                  {
-                        "att": 1587,
-                        "def": 601,
-                        "hp": 4480
-                  },
-                  {
-                        "att": 1596,
-                        "def": 605,
-                        "hp": 4503
-                  },
-                  {
-                        "att": 1606,
-                        "def": 608,
-                        "hp": 4527
-                  },
-                  {
-                        "att": 1615,
-                        "def": 611,
-                        "hp": 4550
-                  },
-                  {
-                        "att": 1624,
-                        "def": 615,
-                        "hp": 4574
-                  },
-                  {
-                        "att": 1633,
-                        "def": 618,
-                        "hp": 4598
-                  },
-                  {
-                        "att": 1642,
-                        "def": 621,
-                        "hp": 4621
-                  },
-                  {
-                        "att": 1651,
-                        "def": 625,
-                        "hp": 4645
-                  },
-                  {
-                        "att": 1660,
-                        "def": 628,
-                        "hp": 4668
-                  },
-                  {
-                        "att": 1669,
-                        "def": 632,
-                        "hp": 4692
-                  },
-                  {
-                        "att": 1678,
-                        "def": 635,
-                        "hp": 4715
-                  },
-                  {
-                        "att": 1687,
-                        "def": 638,
-                        "hp": 4739
-                  },
-                  {
-                        "att": 1696,
-                        "def": 642,
-                        "hp": 4762
-                  },
-                  {
-                        "att": 1705,
-                        "def": 645,
-                        "hp": 4786
-                  },
-                  {
-                        "att": 1714,
-                        "def": 648,
-                        "hp": 4809
-                  },
-                  {
-                        "att": 1723,
-                        "def": 652,
-                        "hp": 4833
-                  },
-                  {
-                        "att": 1732,
-                        "def": 655,
-                        "hp": 4857
-                  },
-                  {
-                        "att": 1741,
-                        "def": 658,
-                        "hp": 4880
-                  },
-                  {
-                        "att": 1750,
-                        "def": 662,
-                        "hp": 4904
-                  },
-                  {
-                        "att": 1760,
-                        "def": 665,
-                        "hp": 4927
-                  },
-                  {
-                        "att": 1769,
-                        "def": 669,
-                        "hp": 4951
-                  },
-                  {
-                        "att": 1778,
-                        "def": 672,
-                        "hp": 4974
-                  },
-                  {
-                        "att": 1787,
-                        "def": 675,
-                        "hp": 4998
-                  },
-                  {
-                        "att": 1796,
-                        "def": 679,
-                        "hp": 5021
-                  },
-                  {
-                        "att": 1805,
-                        "def": 682,
-                        "hp": 5045
-                  },
-                  {
-                        "att": 1814,
-                        "def": 685,
-                        "hp": 5068
-                  },
-                  {
-                        "att": 1823,
-                        "def": 689,
-                        "hp": 5092
-                  },
-                  {
-                        "att": 1832,
-                        "def": 692,
-                        "hp": 5116
-                  },
-                  {
-                        "att": 1841,
-                        "def": 696,
-                        "hp": 5139
-                  },
-                  {
-                        "att": 1850,
-                        "def": 699,
-                        "hp": 5163
-                  },
-                  {
-                        "att": 1859,
-                        "def": 702,
-                        "hp": 5186
-                  },
-                  {
-                        "att": 1868,
-                        "def": 706,
-                        "hp": 5210
-                  },
-                  {
-                        "att": 1877,
-                        "def": 709,
-                        "hp": 5233
-                  },
-                  {
-                        "att": 1886,
-                        "def": 712,
-                        "hp": 5257
-                  },
-                  {
-                        "att": 1895,
-                        "def": 716,
-                        "hp": 5280
-                  },
-                  {
-                        "att": 1905,
-                        "def": 719,
-                        "hp": 5304
-                  },
-                  {
-                        "att": 1914,
-                        "def": 722,
-                        "hp": 5328
-                  },
-                  {
-                        "att": 1923,
-                        "def": 726,
-                        "hp": 5351
-                  },
-                  {
-                        "att": 1932,
-                        "def": 729,
-                        "hp": 5375
-                  },
-                  {
-                        "att": 1941,
-                        "def": 733,
-                        "hp": 5398
-                  },
-                  {
-                        "att": 1950,
-                        "def": 736,
-                        "hp": 5422
-                  },
-                  {
-                        "att": 1959,
-                        "def": 739,
-                        "hp": 5445
-                  },
-                  {
-                        "att": 1968,
-                        "def": 743,
-                        "hp": 5469
-                  },
-                  {
-                        "att": 1977,
-                        "def": 746,
-                        "hp": 5492
-                  },
-                  {
-                        "att": 1986,
-                        "def": 749,
-                        "hp": 5516
-                  },
-                  {
-                        "att": 1995,
-                        "def": 753,
-                        "hp": 5539
-                  }
-            ]
-      }
+ "name": "Amy",
+ "faction": "Lumopolis",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Support",
+ "skill": {
+  "name": "Dawn Banner",
+  "cd": "3 Preemptive Turn",
+  "description": [
+   "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by an enemy.",
+   "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by an enemy."
+  ]
+ },
+ "equip": {
+  "name": "Aurora Spear",
+  "passive": "Divine Mark of Light",
+  "description": [
+   [
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
+   ],
+   [
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 1.5 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 2 times of Amy's DEF.",
+    "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
+   ]
+  ],
+  "introduction": "After becoming a knight, Amy soon became a banner bearer and received this spear. She can inject her own Luminatics into the Aurora Spear, transforming it into a banner capable of inspiring her teammates and enhancing their morale and teamwork."
+ },
+ "chain": {
+  "name": "Inspiration",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Recovers the team's HP by 160% of Amy's ATK."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Recovers the team's HP by 160% of Amy's ATK."
+    },
+    {
+     "cost": "10",
+     "description": "Recovers the team's HP by 220% of Amy's ATK."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Crystal Dust",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "If the Banner still exists at the end of the round, regenerates the team's HP by 3 times of Amy's DEF."
+  },
+  {
+   "material": [
+    "Thunder Crystal",
+    "Thunder Potion I",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "",
+   "after": ""
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 549,
+    "def": 226,
+    "hp": 1728
+   },
+   {
+    "att": 558,
+    "def": 230,
+    "hp": 1753
+   },
+   {
+    "att": 568,
+    "def": 233,
+    "hp": 1778
+   },
+   {
+    "att": 578,
+    "def": 237,
+    "hp": 1803
+   },
+   {
+    "att": 587,
+    "def": 240,
+    "hp": 1828
+   },
+   {
+    "att": 597,
+    "def": 244,
+    "hp": 1853
+   },
+   {
+    "att": 607,
+    "def": 248,
+    "hp": 1879
+   },
+   {
+    "att": 616,
+    "def": 251,
+    "hp": 1904
+   },
+   {
+    "att": 626,
+    "def": 255,
+    "hp": 1929
+   },
+   {
+    "att": 636,
+    "def": 258,
+    "hp": 1954
+   },
+   {
+    "att": 645,
+    "def": 262,
+    "hp": 1979
+   },
+   {
+    "att": 655,
+    "def": 265,
+    "hp": 2004
+   },
+   {
+    "att": 665,
+    "def": 269,
+    "hp": 2029
+   },
+   {
+    "att": 674,
+    "def": 273,
+    "hp": 2054
+   },
+   {
+    "att": 684,
+    "def": 276,
+    "hp": 2080
+   },
+   {
+    "att": 694,
+    "def": 280,
+    "hp": 2105
+   },
+   {
+    "att": 703,
+    "def": 283,
+    "hp": 2130
+   },
+   {
+    "att": 713,
+    "def": 287,
+    "hp": 2155
+   },
+   {
+    "att": 723,
+    "def": 291,
+    "hp": 2180
+   },
+   {
+    "att": 732,
+    "def": 294,
+    "hp": 2205
+   },
+   {
+    "att": 742,
+    "def": 298,
+    "hp": 2230
+   },
+   {
+    "att": 752,
+    "def": 301,
+    "hp": 2255
+   },
+   {
+    "att": 761,
+    "def": 305,
+    "hp": 2280
+   },
+   {
+    "att": 771,
+    "def": 309,
+    "hp": 2306
+   },
+   {
+    "att": 781,
+    "def": 312,
+    "hp": 2331
+   },
+   {
+    "att": 790,
+    "def": 316,
+    "hp": 2356
+   },
+   {
+    "att": 800,
+    "def": 319,
+    "hp": 2381
+   },
+   {
+    "att": 810,
+    "def": 323,
+    "hp": 2406
+   },
+   {
+    "att": 819,
+    "def": 326,
+    "hp": 2431
+   },
+   {
+    "att": 829,
+    "def": 330,
+    "hp": 2456
+   },
+   {
+    "att": 931,
+    "def": 365,
+    "hp": 2738
+   },
+   {
+    "att": 943,
+    "def": 369,
+    "hp": 2769
+   },
+   {
+    "att": 955,
+    "def": 374,
+    "hp": 2800
+   },
+   {
+    "att": 967,
+    "def": 378,
+    "hp": 2832
+   },
+   {
+    "att": 979,
+    "def": 382,
+    "hp": 2863
+   },
+   {
+    "att": 991,
+    "def": 387,
+    "hp": 2895
+   },
+   {
+    "att": 1003,
+    "def": 391,
+    "hp": 2926
+   },
+   {
+    "att": 1016,
+    "def": 396,
+    "hp": 2957
+   },
+   {
+    "att": 1028,
+    "def": 400,
+    "hp": 2989
+   },
+   {
+    "att": 1040,
+    "def": 405,
+    "hp": 3020
+   },
+   {
+    "att": 1052,
+    "def": 409,
+    "hp": 3052
+   },
+   {
+    "att": 1064,
+    "def": 414,
+    "hp": 3083
+   },
+   {
+    "att": 1076,
+    "def": 418,
+    "hp": 3114
+   },
+   {
+    "att": 1088,
+    "def": 423,
+    "hp": 3146
+   },
+   {
+    "att": 1100,
+    "def": 427,
+    "hp": 3177
+   },
+   {
+    "att": 1112,
+    "def": 432,
+    "hp": 3209
+   },
+   {
+    "att": 1124,
+    "def": 436,
+    "hp": 3240
+   },
+   {
+    "att": 1136,
+    "def": 441,
+    "hp": 3271
+   },
+   {
+    "att": 1148,
+    "def": 445,
+    "hp": 3303
+   },
+   {
+    "att": 1160,
+    "def": 450,
+    "hp": 3334
+   },
+   {
+    "att": 1173,
+    "def": 454,
+    "hp": 3366
+   },
+   {
+    "att": 1185,
+    "def": 459,
+    "hp": 3397
+   },
+   {
+    "att": 1197,
+    "def": 463,
+    "hp": 3428
+   },
+   {
+    "att": 1209,
+    "def": 468,
+    "hp": 3460
+   },
+   {
+    "att": 1221,
+    "def": 472,
+    "hp": 3491
+   },
+   {
+    "att": 1233,
+    "def": 477,
+    "hp": 3523
+   },
+   {
+    "att": 1245,
+    "def": 481,
+    "hp": 3554
+   },
+   {
+    "att": 1257,
+    "def": 486,
+    "hp": 3585
+   },
+   {
+    "att": 1269,
+    "def": 490,
+    "hp": 3617
+   },
+   {
+    "att": 1281,
+    "def": 495,
+    "hp": 3648
+   },
+   {
+    "att": 1293,
+    "def": 499,
+    "hp": 3680
+   },
+   {
+    "att": 1305,
+    "def": 504,
+    "hp": 3711
+   },
+   {
+    "att": 1318,
+    "def": 508,
+    "hp": 3742
+   },
+   {
+    "att": 1330,
+    "def": 513,
+    "hp": 3774
+   },
+   {
+    "att": 1342,
+    "def": 517,
+    "hp": 3805
+   },
+   {
+    "att": 1354,
+    "def": 522,
+    "hp": 3837
+   },
+   {
+    "att": 1366,
+    "def": 526,
+    "hp": 3868
+   },
+   {
+    "att": 1378,
+    "def": 531,
+    "hp": 3899
+   },
+   {
+    "att": 1390,
+    "def": 535,
+    "hp": 3931
+   },
+   {
+    "att": 1402,
+    "def": 539,
+    "hp": 3962
+   },
+   {
+    "att": 1551,
+    "def": 588,
+    "hp": 4386
+   },
+   {
+    "att": 1560,
+    "def": 591,
+    "hp": 4409
+   },
+   {
+    "att": 1569,
+    "def": 595,
+    "hp": 4433
+   },
+   {
+    "att": 1578,
+    "def": 598,
+    "hp": 4456
+   },
+   {
+    "att": 1587,
+    "def": 601,
+    "hp": 4480
+   },
+   {
+    "att": 1596,
+    "def": 605,
+    "hp": 4503
+   },
+   {
+    "att": 1606,
+    "def": 608,
+    "hp": 4527
+   },
+   {
+    "att": 1615,
+    "def": 611,
+    "hp": 4550
+   },
+   {
+    "att": 1624,
+    "def": 615,
+    "hp": 4574
+   },
+   {
+    "att": 1633,
+    "def": 618,
+    "hp": 4598
+   },
+   {
+    "att": 1642,
+    "def": 621,
+    "hp": 4621
+   },
+   {
+    "att": 1651,
+    "def": 625,
+    "hp": 4645
+   },
+   {
+    "att": 1660,
+    "def": 628,
+    "hp": 4668
+   },
+   {
+    "att": 1669,
+    "def": 632,
+    "hp": 4692
+   },
+   {
+    "att": 1678,
+    "def": 635,
+    "hp": 4715
+   },
+   {
+    "att": 1687,
+    "def": 638,
+    "hp": 4739
+   },
+   {
+    "att": 1696,
+    "def": 642,
+    "hp": 4762
+   },
+   {
+    "att": 1705,
+    "def": 645,
+    "hp": 4786
+   },
+   {
+    "att": 1714,
+    "def": 648,
+    "hp": 4809
+   },
+   {
+    "att": 1723,
+    "def": 652,
+    "hp": 4833
+   },
+   {
+    "att": 1732,
+    "def": 655,
+    "hp": 4857
+   },
+   {
+    "att": 1741,
+    "def": 658,
+    "hp": 4880
+   },
+   {
+    "att": 1750,
+    "def": 662,
+    "hp": 4904
+   },
+   {
+    "att": 1760,
+    "def": 665,
+    "hp": 4927
+   },
+   {
+    "att": 1769,
+    "def": 669,
+    "hp": 4951
+   },
+   {
+    "att": 1778,
+    "def": 672,
+    "hp": 4974
+   },
+   {
+    "att": 1787,
+    "def": 675,
+    "hp": 4998
+   },
+   {
+    "att": 1796,
+    "def": 679,
+    "hp": 5021
+   },
+   {
+    "att": 1805,
+    "def": 682,
+    "hp": 5045
+   },
+   {
+    "att": 1814,
+    "def": 685,
+    "hp": 5068
+   },
+   {
+    "att": 1823,
+    "def": 689,
+    "hp": 5092
+   },
+   {
+    "att": 1832,
+    "def": 692,
+    "hp": 5116
+   },
+   {
+    "att": 1841,
+    "def": 696,
+    "hp": 5139
+   },
+   {
+    "att": 1850,
+    "def": 699,
+    "hp": 5163
+   },
+   {
+    "att": 1859,
+    "def": 702,
+    "hp": 5186
+   },
+   {
+    "att": 1868,
+    "def": 706,
+    "hp": 5210
+   },
+   {
+    "att": 1877,
+    "def": 709,
+    "hp": 5233
+   },
+   {
+    "att": 1886,
+    "def": 712,
+    "hp": 5257
+   },
+   {
+    "att": 1895,
+    "def": 716,
+    "hp": 5280
+   },
+   {
+    "att": 1905,
+    "def": 719,
+    "hp": 5304
+   },
+   {
+    "att": 1914,
+    "def": 722,
+    "hp": 5328
+   },
+   {
+    "att": 1923,
+    "def": 726,
+    "hp": 5351
+   },
+   {
+    "att": 1932,
+    "def": 729,
+    "hp": 5375
+   },
+   {
+    "att": 1941,
+    "def": 733,
+    "hp": 5398
+   },
+   {
+    "att": 1950,
+    "def": 736,
+    "hp": 5422
+   },
+   {
+    "att": 1959,
+    "def": 739,
+    "hp": 5445
+   },
+   {
+    "att": 1968,
+    "def": 743,
+    "hp": 5469
+   },
+   {
+    "att": 1977,
+    "def": 746,
+    "hp": 5492
+   },
+   {
+    "att": 1986,
+    "def": 749,
+    "hp": 5516
+   },
+   {
+    "att": 1995,
+    "def": 753,
+    "hp": 5539
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Jomu",
+     "Amy"
+    ],
+    "chat": [
+     {
+      "character": "Jomu:",
+      "text": "Lady Knight, are you interested in the \u2013Knight's Guide\u2013?"
+     },
+     {
+      "character": "Amy:",
+      "text": "Huh? What's that?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "It's a handbook specially written by the noblest and bravest knights, for knight initiates."
+     },
+     {
+      "character": "Jomu:",
+      "text": "It's full of valuable experience, honest guidance, and rare autographs of the land's most renowned knights."
+     },
+     {
+      "character": "Jomu:",
+      "text": "So, how about it? Wanna buy a copy?"
+     },
+     {
+      "character": "Amy:",
+      "text": "I want to... But it must be really expensive, right?"
+     },
+     {
+      "character": "Jomu:",
+      "text": "Ah... Well, for a lovely young lady such as yourself, of course I'd be willing to offer a discount."
+     },
+     {
+      "character": "Jomu:",
+      "text": "The original price is 9,998 Nightium... but it's only 9,997 Nightium for you!"
+     },
+     {
+      "character": "Amy:",
+      "text": "I saw this book in the Lumopolis Library... It was only priced at 35 Nightium."
+     },
+     {
+      "character": "Jomu:",
+      "text": "Huh? You've... seen it before?"
+     },
+     {
+      "character": "Amy:",
+      "text": "Wait, I get it now... You unscrupulous charlatan! I'll arrest you in the name of the knight's code!"
+     },
+     {
+      "character": "Jomu:",
+      "text": "I'm out of here!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Nemesis",
+     "Amy"
+    ],
+    "chat": [
+     {
+      "character": "Nemesis:",
+      "text": "As expected, there exists a lack of justice, even here."
+     },
+     {
+      "character": "Nemesis:",
+      "text": "Why don't you just stick your tenets of justice up on the windows?"
+     },
+     {
+      "character": "Amy:",
+      "text": "Huh? You think that would help spread the pursuit of justice here?"
+     },
+     {
+      "character": "Nemesis:",
+      "text": "Well, at least it'll add a touch of ambiance to this place."
+     },
+     {
+      "character": "Nemesis:",
+      "text": "What's up, Knight of Justice? Want to help out?"
+     },
+     {
+      "character": "Amy:",
+      "text": "M-me? I'm still a trainee knight... Wouldn't I be a bother...?"
+     },
+     {
+      "character": "Nemesis:",
+      "text": "For the sake of justice, that can be tolerated!"
+     },
+     {
+      "character": "Amy:",
+      "text": "I-I see..."
+     },
+     {
+      "character": "Amy:",
+      "text": "You truly are worthy of your title, General Inspector of Justice! So noble and full of vigor\u2014teach me your ways!"
+     },
+     {
+      "character": "Amy:",
+      "text": "Let's stick the words of justice on the windows, and the ceiling! No, let us engrave them!"
+     },
+     {
+      "character": "Nemesis:",
+      "text": "Yes, you are indeed a knight of great talent! Let us turn this into a paradise of righteousness!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Although I don't understand what's going on with this huge banner that stuck in the doorway. It must belong to this tearful... knight...?\"I-I'm sorry, if it's possible, can you help me with something?\"Of course, I'll help her! After I helped this small knight with her emergency, she tidied up her clothes and gave a solemn, serious, and slightly cute self-introduction. \"Lady Gabriel told me that coming here will help me grow as a knight, so p-please tell me if you need me for anything. I'll hold our banner up high for everyone, anytime, and anywhere!\" As she said that, she probably thought it would be more impressive if she waved her Dawnhealer... So, she got stuck at the door again...Emm... As I look at this knight who keeps apologizing, I feel like she has a long way to go.\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "You're here! Although I'm not very reliable yet, I'm very grateful to my superior, Lady Gabriel! I'm here to guide you toward the light on the Colossus! My banner is ready at your command!I heard that you can control this huge Colossus of an ancient civilization. You're amazing! You must have worked hard for that! Huh? You didn't? Oh! Y-you must be one of those big shots! No wonder Lady Gabriel said that I would be able to learn a lot here. P-please teach me seriously in the future!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "My Dawnhealer is proof that I am a knight and a weapon that offers the guidance of light!When I was still very young and during that terrible war, I suddenly realized I could use the power of this banner. It is probably proof of how hard I've been trying all along!God must have given me this ability so that I can save more people! Madam Carleen and Lady Gabriel must also have the same expectation for me. Although everyone hopes that I can take it easy, I'll never be able to keep up with Madam Carleen if I don't work hard... She's genuinely concerned about the future of Lumopolis!Are you telling me that hard work has nothing to do with taking a break? Is that so... But if I take a break, won't that make me a lazy person? I can't accept that.Okay, okay, I get it. I won't be so nervous anymore. Can you stop petting my head... We're currently on duty!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Did you know that I'm now the banner bearer of the Knights? This is a very important role as I'll need to boost everyone's morale and guide them along the right path. No one else can do this!A-although people laugh at me and joke that I look childish because of my hairstyle, I keep it that way to make it easier for me to fight! Everyone in the Knights is kind. I make mistakes all the time because I don't have much combat experience, and I feel really frustrated because of that! However, everyone is always comforting me by saying things like: \"That's alright Amy, you're just being you\"... Seriously, please tell me, do I look that much like a child?I guess it can't be helped... However, I'll become a reliable adult one day! Until then... Please continue to help me!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Being a member of the Lumo Knights is a great honor! I shall be forever loyal!",
+  "It's a shame I was too young to partake in the open exchange between Lumopolis and Illumina back then!",
+  "White Night up high!",
+  "The Eclipsites are enemies of the whole continent. Lumopolis shall cleanse them and keep the peace!",
+  "Why does that red-head treat me like a kid? I am a Knight!",
+  "I shall learn from Lady Raphael and treat everyone in high spirits every day!",
+  "I like working hard... Working hard will always be rewarded!",
+  "What I hate... I hate lazybones and scary things...",
+  "Brilliant! I can feel the wisdom of the forerunners! They must've worked hard to build this Colossus!",
+  "Another day of diligent training!",
+  "I know! You want me to place the banner here right? Huh? No? No need for the banner?",
+  "Eh? D-did I do something wrong?",
+  "Oh, awesome! It really worked!",
+  "Good luck!",
+  "Head towards hope!",
+  "Huh? Use the banner? Now?",
+  "Happy New Year!",
+  "The banner is with me!",
+  "I am now worthy and capable!",
+  "I can see the brighter light on the banner!",
+  "Precious time is wasting... Oh, I see! I have to also fully commit to resting!",
+  "Growth is the best reward!",
+  "Al-alchemy Stars!",
+  "A knight always abide... abide... err... by the code! Even if I'm just a novice, I'm still a knight! So I shall abide by the code!",
+  "The Dawnhealer is the proof of honor... I promise I'll learn to properly use it and not let it tear other people's clothes!",
+  "Learning at the Academy, training at the Lumo Knights, doing quest presentations and promotions... I don't have enough time! There's no way to work around it!",
+  "I may seem ill-fitted for combat, but I can still protect everyone! I'll try not to hit you all on the head!",
+  "The spirit calms, the eyes focus, wherever the banner stands. So I'll be sure to keep it mine! Wait! No! I mean, I'll be sure to keep it upright!",
+  "We may be different, but we're both hard workers... r-right!?",
+  "Believe that we'll get rewarded for whatever we do... No matter how trivial it is, it will be of value!",
+  "It's... your support that drives me to work hard! My shoulders might be narrow, but I can shoulder more!",
+  "Whoaaaa! Please don't scare me like that! Better make an application first before you appear next time!",
+  "I may get nervous easily, but this time, I'm well prepared. I'll not get frightened... Maybe!",
+  "Be earnest, word hard, and never surrender! Hmm... Is it too short for a motto?",
+  "Time to work! Let's work hard together!",
+  "It is better to work out in the morning, thank you for your guidance. I will do my best!",
+  "Everything must go according to plan to ensure we have enough energy every day. We'll get to rest soon!",
+  "You're incredible... You can still keep up with your practice at this hour... I-I can't... fall asleep!",
+  "Nice to meet you! It's my honor... ouch... to be here... From this day on, I shall be your bane and lead your way forward!",
+  "I'm just a little surprised.",
+  "It's a gift from you!",
+  "Can I...really take this? Really?",
+  "I-I really wanted this! Thank you!",
+  "Banner of Light, protect us!",
+  "This is the dawn's blessing!",
+  "I-I'm well-prepared!",
+  "I was fortunate enough to follow Lady Gabriel after becoming a knight. She has been very kind to me and taught me the value of hard work!",
+  "In that terrible crisis, chaos roamed Lumopolis. Fortunately, White Night answered my call and gave me the Banner of Light.",
+  "I-I will lead them!"
+ ],
+ "skins": [],
+ "description": "Earnest, zealous New Knight of Lumopolis. Prone to overstress from the pressure of appointed heavy responsibilities at such a young age.",
+ "realName": "Amy",
+ "nickname": "Inspiring Banner",
+ "gender": "Female",
+ "height": "5'1\"",
+ "birthday": "September 1",
+ "birthplace": "Lumopolis",
+ "style": "Divine Mark of Light, Dawnhealer"
 }

@@ -1,0 +1,920 @@
+{
+ "title": "Proud and Gentle",
+ "header": "You unintentionally encountered Dayna who had just returned from a fight. You were worried that she would get hurt, but she taught you some professional knowledge about fighting instead. However, Dayna started to panic when Robyn arrived, because the reason she was hurt was that Robyn...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "Jeez! You scared the crap out of me!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Why did you just walk in without a sound when I was organizing my clothes?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If we weren't in Soroz, I would've stabbed you already!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knocked, but you didn't respond so I thought something might be wrong... Sorry."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's just... Did you just take off these clothes?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What now? Is it forbidden to get changed in Soroz?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "N-no... It's just that the suit has been shredded to pieces..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "It's of the worst quality. I'm gonna teach that fellow who sold me this a lesson if we ever meet again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This skirt is also torn..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I must have pulled on it too hard. Now I have to buy a new one again? What a pain!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Half of the heel of your shoe is missing as well..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Stop it! I wasn't going to show up in front of anybody like this, so stop pointing out how messed up I look!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I'm sorry... But that shirt you just took off is obviously covered with blood... Wait, could it be that you're also..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "All right, all right. Just go away! Didn't you see I haven't even put on my shoes yet? Let me get prepared."
+    },
+    {
+     "char": "Dayna puts on her glossy new shoes.",
+     "dialogue": "Done. What do you want, Navigator?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Nothing. Just wanted to say hi."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But now I'm wondering..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Did you just get into another fight?",
+     "link": "1"
+    },
+    {
+     "text": "You should always look neat and tidy here in Soroz.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "It was just a workout. No biggie."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look how tattered your clothes are. You call that no biggie?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Come on, don't you know the first thing about fights? What kind of fight would it be if you remain clean and neat?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Never mind. You've been living in the Colossus. You wouldn't get it."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I'll take you to Umbraton someday and teach you the art of fighting."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(S-so scary. She suddenly looks so bloodthirsty...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It feels like she's about to hit a home run, and I'm the ball...)"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hmm? Did I scare ya?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Haha. Now we're even."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, momentum building is crucial to winning fights."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If you're less imposing than your opponent, you're already half defeated. However hard you fight afterward will only be in vain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're sounding more and more professional."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Ha, of course."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, that's how I grew up."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "During our wanderings in Umbraton, Robyn and I learned one thing: if no one gives us bread, we have to get it ourselves."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If we're unwelcome everywhere, we create a place where we're welcome."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "How did we do that? Obviously by fi..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna, Dayna? Are you here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What's Robyn doing here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey you, Navigator, help me to put away these torn clothes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Oh, okay. Where... Where do I hide..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna! There you are!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey! How come everyone's invading my space today?"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Just got a notice from the gang that the mission we were assigned today was canceled. It seems to have been done by someone already."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Wait, Dayna, your clothes..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What? Someone's done it already? So we get a day off today?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Good. We have some time to spare. How about going to Connolly's cafe for coffee?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I heard she's rolled out a new coffee flavor, and it's your favorite, Robyn. Let's go try it!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? Really? O-okay."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "But why are the clothes you just took off so badly torn?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Well... I just went out for a bit. Uh-huh. Yeah."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "You went out? Did you get into another fight?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Of course not! I... I just..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "(Navigator, don't just stand there and watch. Help think of an excuse for me!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, um, Dayna... Um, she..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "She went to a street performance!",
+     "link": "4"
+    },
+    {
+     "text": "She went to propagate the universal truth!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "Yeah, yeah! I won't let you see me so sloppy again."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Jeez, can't believe you just sneak up on people when they're getting changed and then accuse them of letting themselves go."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "You are so drippy. I should make you hang around Umbraton for a few days for you to learn the universal truth."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Universal truth? You mean..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "The power of fists, of course!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(S-so scary. She suddenly looks so bloodthirsty...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It feels like she's about to hit a home run, and I'm the ball...)"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hmm? Did I scare ya?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Haha. Now we're even."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, momentum building is crucial to winning fights."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If you're less imposing than your opponent, you're already half defeated. However hard you fight afterward will only be in vain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're sounding more and more professional."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Ha, of course."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, that's how I grew up."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "During our wanderings in Umbraton, Robyn and I learned one thing: if no one gives us bread, we have to get it ourselves."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If we're unwelcome everywhere, we create a place where we're welcome."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "How did we do that? Obviously by fi..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna, Dayna? Are you here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What's Robyn doing here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey you, Navigator, help me to put away these torn clothes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Oh, okay. Where... Where do I hide..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna! There you are!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey! How come everyone's invading my space today?"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Just got a notice from the gang that the mission we were assigned today was canceled. It seems to have been done by someone already."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Wait, Dayna, your clothes..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What? Someone's done it already? So we get a day off today?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Good. We have some time to spare. How about going to Connolly's cafe for coffee?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I heard she's rolled out a new coffee flavor, and it's your favorite, Robyn. Let's go try it!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? Really? O-okay."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "But why are the clothes you just took off so badly torn?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Well... I just went out for a bit. Uh-huh. Yeah."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "You went out? Did you get into another fight?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Of course not! I... I just..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "(Navigator, don't just stand there and watch. Help think of an excuse for me!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, um, Dayna... Um, she..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "She went to a street performance!",
+     "link": "4"
+    },
+    {
+     "text": "She went to propagate the universal truth!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "(S-so scary. She suddenly looks so bloodthirsty...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It feels like she's about to hit a home run, and I'm the ball...)"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hmm? Did I scare ya?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Haha. Now we're even."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, momentum building is crucial to winning fights."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If you're less imposing than your opponent, you're already half defeated. However hard you fight afterward will only be in vain."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're sounding more and more professional."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Ha, of course."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "After all, that's how I grew up."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "During our wanderings in Umbraton, Robyn and I learned one thing: if no one gives us bread, we have to get it ourselves."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If we're unwelcome everywhere, we create a place where we're welcome."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "How did we do that? Obviously by fi..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna, Dayna? Are you here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What's Robyn doing here?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey you, Navigator, help me to put away these torn clothes!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Oh, okay. Where... Where do I hide..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Dayna! There you are!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Hey! How come everyone's invading my space today?"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Just got a notice from the gang that the mission we were assigned today was canceled. It seems to have been done by someone already."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Wait, Dayna, your clothes..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "What? Someone's done it already? So we get a day off today?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Good. We have some time to spare. How about going to Connolly's cafe for coffee?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I heard she's rolled out a new coffee flavor, and it's your favorite, Robyn. Let's go try it!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? Really? O-okay."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "But why are the clothes you just took off so badly torn?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Well... I just went out for a bit. Uh-huh. Yeah."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "You went out? Did you get into another fight?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Of course not! I... I just..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "(Navigator, don't just stand there and watch. Help think of an excuse for me!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, um, Dayna... Um, she..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "She went to a street performance!",
+     "link": "4"
+    },
+    {
+     "text": "She went to propagate the universal truth!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "The, um... That's right! Street art performance! That's where I went!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "The art was so demanding that I had to sacrifice things like my clothes."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "An art performance that made you sacrifice your clothes?..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "That sounds odd..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Heh, it's...it's a new type of performance that Istvan's just licensed."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "It was about a whole bunch of people getting together to perform the art of making their clothes...more aesthetically pleasing."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? But there's nothing aesthetically pleasing about clothes that are so torn... And these shoes..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "It's... It's..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's probably... deconstruction! That's it. Deconstructive art!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Deconstruction?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The clothes are broken into parts to reveal its artistic beauty... That's probably it."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Y-yes! You really know your stuff, Navigator! Could it be the lost art of Caelestites!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I don't think Caelestites would ever have any such art...)"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "But I still don't get it..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "You shouldn't! Not being understood is precisely what artists aim for!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Anyway, let's go to Connolly's cafe and we'd better hurry. The new-flavored coffee may be sold out if we don't get there soon."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Just go get changed, Robyn! We're leaving!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? O-okay, I'll go get changed..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Phew... It was close."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Thanks for your help, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd like to say something though."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Go ahead."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It must have been hard completing a mission for two.",
+     "link": "7"
+    },
+    {
+     "text": "Why did you complete the mission by yourself?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "Uh... That's right! I went propagating the truth!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "What? You joined the True Order, Dayna?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Oh, no! What True Order? I have nothing to do with them... I mean, maybe a bit..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "It was kind of an epiphany I had. Like some sort of...truth I realized."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "That's the truth I've been propagating."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Oh? What kind of truth needs to be propagated by tearing the clothes?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "It's... Um..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's...the truth of deconstruction!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Deconstruction?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's to explore the transformation of this world from macroscopic to microscopic by breaking down the clothes from the whole into parts..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's about it."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Y-yes! You really know your stuff, Navigator! Looks like my truth has been successfully propagated!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Alright, Navigator, I hereby declare you have graduated from the Dayna School of Truth!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, I'm suddenly granted a weird degree..."
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "But I still don't get it..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "You shouldn't! Truth is not truth if it's easily understood."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Anyway, let's go to Connolly's cafe and we'd better hurry. The new-flavored coffee may be sold out if we don't get there soon."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Just go get changed, Robyn! We're leaving!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? O-okay, I'll go get changed..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Phew... It was close."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Thanks for your help, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd like to say something though."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Go ahead."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It must have been hard completing a mission for two.",
+     "link": "7"
+    },
+    {
+     "text": "Why did you complete the mission by yourself?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "Anyway, let's go to Connolly's cafe and we'd better hurry. The new-flavored coffee may be sold out if we don't get there soon."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Just go get changed, Robyn! We're leaving!"
+    },
+    {
+     "char": "Robyn:",
+     "dialogue": "Huh? O-okay, I'll go get changed..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Phew... It was close."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Thanks for your help, Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'd like to say something though."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Go ahead."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It must have been hard completing a mission for two.",
+     "link": "7"
+    },
+    {
+     "text": "Why did you complete the mission by yourself?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "Thank you..."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I just didn't want Robyn to join me in today's mission. It was too dangerous."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If she went, she could have been seriously wounded."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I simply can't let that happen."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you had to do it by yourself no matter what to prevent putting Robyn in danger?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Do you even need to ask? I'm the big sister. I must protect her at all cost!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Come on, I don't want to keep Robyn waiting. I have to go."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I'll buy you a coffee next time to thank you for covering for me."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Dayna:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it because you don't think Robyn is suitable for this?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Yes...and no."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Today's mission wasn't suitable for Robyn because it was too dangerous. It wasn't her problem."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "If she went, she could have been seriously wounded."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I simply can't let that happen."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you had to do it by yourself no matter what to prevent putting Robyn in danger?"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Do you even need to ask? I'm the big sister. I must protect her at all cost!"
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "Come on, I don't want to keep Robyn waiting. I have to go."
+    },
+    {
+     "char": "Dayna:",
+     "dialogue": "I'll buy you a coffee next time to thank you for covering for me."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

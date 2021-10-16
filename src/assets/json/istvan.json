@@ -1,1153 +1,1375 @@
 {
-      "name": "Istvan",
-      "faction": "Umbraton",
-      "element_main": "Fire",
-      "element_sub": "Water",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
-                  "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
-                  "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 85% of Istvan's ATK."
-            ]
-      },
-      "equip": {
-            "name": "Shepherd's Staff",
-            "passive": "Ghost Flame",
-            "description": [
-                  [
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%."
-                  ],
-                  [
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
-                  ],
-                  [
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
-                        "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Potion I",
-                        "Fire Flare Powder",
-                        "Destiny Champagne I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Crystal Shard",
-                        "Destiny Champagne II",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%.",
-                  "after": "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
-            },
-            {
-                  "material": [
-                        "Fire Crystal Cluster",
-                        "Fire Potion II",
-                        "Destiny Champagne III",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
-                  "after": "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 85% of Istvan's ATK."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 543,
-                        "def": 218,
-                        "hp": 1775
-                  },
-                  {
-                        "att": 553,
-                        "def": 221,
-                        "hp": 1803
-                  },
-                  {
-                        "att": 564,
-                        "def": 224,
-                        "hp": 1832
-                  },
-                  {
-                        "att": 574,
-                        "def": 228,
-                        "hp": 1860
-                  },
-                  {
-                        "att": 585,
-                        "def": 231,
-                        "hp": 1888
-                  },
-                  {
-                        "att": 595,
-                        "def": 235,
-                        "hp": 1917
-                  },
-                  {
-                        "att": 606,
-                        "def": 238,
-                        "hp": 1945
-                  },
-                  {
-                        "att": 616,
-                        "def": 241,
-                        "hp": 1973
-                  },
-                  {
-                        "att": 627,
-                        "def": 245,
-                        "hp": 2001
-                  },
-                  {
-                        "att": 637,
-                        "def": 248,
-                        "hp": 2030
-                  },
-                  {
-                        "att": 648,
-                        "def": 251,
-                        "hp": 2058
-                  },
-                  {
-                        "att": 658,
-                        "def": 255,
-                        "hp": 2086
-                  },
-                  {
-                        "att": 669,
-                        "def": 258,
-                        "hp": 2115
-                  },
-                  {
-                        "att": 679,
-                        "def": 261,
-                        "hp": 2143
-                  },
-                  {
-                        "att": 690,
-                        "def": 265,
-                        "hp": 2171
-                  },
-                  {
-                        "att": 700,
-                        "def": 268,
-                        "hp": 2200
-                  },
-                  {
-                        "att": 711,
-                        "def": 271,
-                        "hp": 2228
-                  },
-                  {
-                        "att": 721,
-                        "def": 275,
-                        "hp": 2256
-                  },
-                  {
-                        "att": 732,
-                        "def": 278,
-                        "hp": 2285
-                  },
-                  {
-                        "att": 742,
-                        "def": 282,
-                        "hp": 2313
-                  },
-                  {
-                        "att": 753,
-                        "def": 285,
-                        "hp": 2341
-                  },
-                  {
-                        "att": 764,
-                        "def": 288,
-                        "hp": 2370
-                  },
-                  {
-                        "att": 774,
-                        "def": 292,
-                        "hp": 2398
-                  },
-                  {
-                        "att": 785,
-                        "def": 295,
-                        "hp": 2426
-                  },
-                  {
-                        "att": 795,
-                        "def": 298,
-                        "hp": 2455
-                  },
-                  {
-                        "att": 806,
-                        "def": 302,
-                        "hp": 2483
-                  },
-                  {
-                        "att": 816,
-                        "def": 305,
-                        "hp": 2511
-                  },
-                  {
-                        "att": 827,
-                        "def": 308,
-                        "hp": 2540
-                  },
-                  {
-                        "att": 837,
-                        "def": 312,
-                        "hp": 2568
-                  },
-                  {
-                        "att": 848,
-                        "def": 315,
-                        "hp": 2596
-                  },
-                  {
-                        "att": 951,
-                        "def": 349,
-                        "hp": 2882
-                  },
-                  {
-                        "att": 964,
-                        "def": 354,
-                        "hp": 2917
-                  },
-                  {
-                        "att": 977,
-                        "def": 358,
-                        "hp": 2952
-                  },
-                  {
-                        "att": 990,
-                        "def": 362,
-                        "hp": 2988
-                  },
-                  {
-                        "att": 1003,
-                        "def": 366,
-                        "hp": 3023
-                  },
-                  {
-                        "att": 1017,
-                        "def": 370,
-                        "hp": 3059
-                  },
-                  {
-                        "att": 1030,
-                        "def": 375,
-                        "hp": 3094
-                  },
-                  {
-                        "att": 1043,
-                        "def": 379,
-                        "hp": 3129
-                  },
-                  {
-                        "att": 1056,
-                        "def": 383,
-                        "hp": 3165
-                  },
-                  {
-                        "att": 1069,
-                        "def": 387,
-                        "hp": 3200
-                  },
-                  {
-                        "att": 1082,
-                        "def": 391,
-                        "hp": 3236
-                  },
-                  {
-                        "att": 1095,
-                        "def": 396,
-                        "hp": 3271
-                  },
-                  {
-                        "att": 1109,
-                        "def": 400,
-                        "hp": 3306
-                  },
-                  {
-                        "att": 1122,
-                        "def": 404,
-                        "hp": 3342
-                  },
-                  {
-                        "att": 1135,
-                        "def": 408,
-                        "hp": 3377
-                  },
-                  {
-                        "att": 1148,
-                        "def": 412,
-                        "hp": 3413
-                  },
-                  {
-                        "att": 1161,
-                        "def": 417,
-                        "hp": 3448
-                  },
-                  {
-                        "att": 1174,
-                        "def": 421,
-                        "hp": 3483
-                  },
-                  {
-                        "att": 1187,
-                        "def": 425,
-                        "hp": 3519
-                  },
-                  {
-                        "att": 1201,
-                        "def": 429,
-                        "hp": 3554
-                  },
-                  {
-                        "att": 1214,
-                        "def": 433,
-                        "hp": 3590
-                  },
-                  {
-                        "att": 1227,
-                        "def": 438,
-                        "hp": 3625
-                  },
-                  {
-                        "att": 1240,
-                        "def": 442,
-                        "hp": 3660
-                  },
-                  {
-                        "att": 1253,
-                        "def": 446,
-                        "hp": 3696
-                  },
-                  {
-                        "att": 1266,
-                        "def": 450,
-                        "hp": 3731
-                  },
-                  {
-                        "att": 1280,
-                        "def": 454,
-                        "hp": 3767
-                  },
-                  {
-                        "att": 1293,
-                        "def": 459,
-                        "hp": 3802
-                  },
-                  {
-                        "att": 1306,
-                        "def": 463,
-                        "hp": 3837
-                  },
-                  {
-                        "att": 1319,
-                        "def": 467,
-                        "hp": 3873
-                  },
-                  {
-                        "att": 1332,
-                        "def": 471,
-                        "hp": 3908
-                  },
-                  {
-                        "att": 1345,
-                        "def": 475,
-                        "hp": 3944
-                  },
-                  {
-                        "att": 1358,
-                        "def": 480,
-                        "hp": 3979
-                  },
-                  {
-                        "att": 1372,
-                        "def": 484,
-                        "hp": 4014
-                  },
-                  {
-                        "att": 1385,
-                        "def": 488,
-                        "hp": 4050
-                  },
-                  {
-                        "att": 1398,
-                        "def": 492,
-                        "hp": 4085
-                  },
-                  {
-                        "att": 1411,
-                        "def": 496,
-                        "hp": 4121
-                  },
-                  {
-                        "att": 1424,
-                        "def": 501,
-                        "hp": 4156
-                  },
-                  {
-                        "att": 1437,
-                        "def": 505,
-                        "hp": 4191
-                  },
-                  {
-                        "att": 1450,
-                        "def": 509,
-                        "hp": 4227
-                  },
-                  {
-                        "att": 1464,
-                        "def": 513,
-                        "hp": 4262
-                  },
-                  {
-                        "att": 1623,
-                        "def": 566,
-                        "hp": 4689
-                  },
-                  {
-                        "att": 1633,
-                        "def": 570,
-                        "hp": 4715
-                  },
-                  {
-                        "att": 1643,
-                        "def": 573,
-                        "hp": 4742
-                  },
-                  {
-                        "att": 1653,
-                        "def": 576,
-                        "hp": 4768
-                  },
-                  {
-                        "att": 1663,
-                        "def": 579,
-                        "hp": 4795
-                  },
-                  {
-                        "att": 1673,
-                        "def": 582,
-                        "hp": 4822
-                  },
-                  {
-                        "att": 1683,
-                        "def": 585,
-                        "hp": 4848
-                  },
-                  {
-                        "att": 1692,
-                        "def": 588,
-                        "hp": 4875
-                  },
-                  {
-                        "att": 1702,
-                        "def": 592,
-                        "hp": 4901
-                  },
-                  {
-                        "att": 1712,
-                        "def": 595,
-                        "hp": 4928
-                  },
-                  {
-                        "att": 1722,
-                        "def": 598,
-                        "hp": 4954
-                  },
-                  {
-                        "att": 1732,
-                        "def": 601,
-                        "hp": 4981
-                  },
-                  {
-                        "att": 1742,
-                        "def": 604,
-                        "hp": 5007
-                  },
-                  {
-                        "att": 1752,
-                        "def": 607,
-                        "hp": 5034
-                  },
-                  {
-                        "att": 1762,
-                        "def": 610,
-                        "hp": 5060
-                  },
-                  {
-                        "att": 1771,
-                        "def": 614,
-                        "hp": 5087
-                  },
-                  {
-                        "att": 1781,
-                        "def": 617,
-                        "hp": 5114
-                  },
-                  {
-                        "att": 1791,
-                        "def": 620,
-                        "hp": 5140
-                  },
-                  {
-                        "att": 1801,
-                        "def": 623,
-                        "hp": 5167
-                  },
-                  {
-                        "att": 1811,
-                        "def": 626,
-                        "hp": 5193
-                  },
-                  {
-                        "att": 1821,
-                        "def": 629,
-                        "hp": 5220
-                  },
-                  {
-                        "att": 1831,
-                        "def": 633,
-                        "hp": 5246
-                  },
-                  {
-                        "att": 1840,
-                        "def": 636,
-                        "hp": 5273
-                  },
-                  {
-                        "att": 1850,
-                        "def": 639,
-                        "hp": 5299
-                  },
-                  {
-                        "att": 1860,
-                        "def": 642,
-                        "hp": 5326
-                  },
-                  {
-                        "att": 1870,
-                        "def": 645,
-                        "hp": 5353
-                  },
-                  {
-                        "att": 1880,
-                        "def": 648,
-                        "hp": 5379
-                  },
-                  {
-                        "att": 1890,
-                        "def": 651,
-                        "hp": 5406
-                  },
-                  {
-                        "att": 1900,
-                        "def": 655,
-                        "hp": 5432
-                  },
-                  {
-                        "att": 1909,
-                        "def": 658,
-                        "hp": 5459
-                  },
-                  {
-                        "att": 1919,
-                        "def": 661,
-                        "hp": 5485
-                  },
-                  {
-                        "att": 1929,
-                        "def": 664,
-                        "hp": 5512
-                  },
-                  {
-                        "att": 1939,
-                        "def": 667,
-                        "hp": 5538
-                  },
-                  {
-                        "att": 1949,
-                        "def": 670,
-                        "hp": 5565
-                  },
-                  {
-                        "att": 1959,
-                        "def": 673,
-                        "hp": 5591
-                  },
-                  {
-                        "att": 1969,
-                        "def": 677,
-                        "hp": 5618
-                  },
-                  {
-                        "att": 1978,
-                        "def": 680,
-                        "hp": 5645
-                  },
-                  {
-                        "att": 1988,
-                        "def": 683,
-                        "hp": 5671
-                  },
-                  {
-                        "att": 1998,
-                        "def": 686,
-                        "hp": 5698
-                  },
-                  {
-                        "att": 2008,
-                        "def": 689,
-                        "hp": 5724
-                  },
-                  {
-                        "att": 2018,
-                        "def": 692,
-                        "hp": 5751
-                  },
-                  {
-                        "att": 2028,
-                        "def": 696,
-                        "hp": 5777
-                  },
-                  {
-                        "att": 2038,
-                        "def": 699,
-                        "hp": 5804
-                  },
-                  {
-                        "att": 2047,
-                        "def": 702,
-                        "hp": 5830
-                  },
-                  {
-                        "att": 2057,
-                        "def": 705,
-                        "hp": 5857
-                  },
-                  {
-                        "att": 2067,
-                        "def": 708,
-                        "hp": 5884
-                  },
-                  {
-                        "att": 2077,
-                        "def": 711,
-                        "hp": 5910
-                  },
-                  {
-                        "att": 2087,
-                        "def": 714,
-                        "hp": 5937
-                  },
-                  {
-                        "att": 2097,
-                        "def": 718,
-                        "hp": 5963
-                  },
-                  {
-                        "att": 2107,
-                        "def": 721,
-                        "hp": 5990
-                  },
-                  {
-                        "att": 2338,
-                        "def": 793,
-                        "hp": 6607
-                  },
-                  {
-                        "att": 2345,
-                        "def": 795,
-                        "hp": 6625
-                  },
-                  {
-                        "att": 2351,
-                        "def": 797,
-                        "hp": 6643
-                  },
-                  {
-                        "att": 2358,
-                        "def": 799,
-                        "hp": 6661
-                  },
-                  {
-                        "att": 2365,
-                        "def": 801,
-                        "hp": 6678
-                  },
-                  {
-                        "att": 2371,
-                        "def": 803,
-                        "hp": 6696
-                  },
-                  {
-                        "att": 2378,
-                        "def": 805,
-                        "hp": 6714
-                  },
-                  {
-                        "att": 2384,
-                        "def": 808,
-                        "hp": 6731
-                  },
-                  {
-                        "att": 2391,
-                        "def": 810,
-                        "hp": 6749
-                  },
-                  {
-                        "att": 2397,
-                        "def": 812,
-                        "hp": 6767
-                  },
-                  {
-                        "att": 2404,
-                        "def": 814,
-                        "hp": 6784
-                  },
-                  {
-                        "att": 2411,
-                        "def": 816,
-                        "hp": 6802
-                  },
-                  {
-                        "att": 2417,
-                        "def": 818,
-                        "hp": 6820
-                  },
-                  {
-                        "att": 2424,
-                        "def": 820,
-                        "hp": 6838
-                  },
-                  {
-                        "att": 2430,
-                        "def": 822,
-                        "hp": 6855
-                  },
-                  {
-                        "att": 2437,
-                        "def": 824,
-                        "hp": 6873
-                  },
-                  {
-                        "att": 2443,
-                        "def": 826,
-                        "hp": 6891
-                  },
-                  {
-                        "att": 2450,
-                        "def": 829,
-                        "hp": 6908
-                  },
-                  {
-                        "att": 2457,
-                        "def": 831,
-                        "hp": 6926
-                  },
-                  {
-                        "att": 2463,
-                        "def": 833,
-                        "hp": 6944
-                  },
-                  {
-                        "att": 2470,
-                        "def": 835,
-                        "hp": 6961
-                  },
-                  {
-                        "att": 2476,
-                        "def": 837,
-                        "hp": 6979
-                  },
-                  {
-                        "att": 2483,
-                        "def": 839,
-                        "hp": 6997
-                  },
-                  {
-                        "att": 2489,
-                        "def": 841,
-                        "hp": 7015
-                  },
-                  {
-                        "att": 2496,
-                        "def": 843,
-                        "hp": 7032
-                  },
-                  {
-                        "att": 2503,
-                        "def": 845,
-                        "hp": 7050
-                  },
-                  {
-                        "att": 2509,
-                        "def": 847,
-                        "hp": 7068
-                  },
-                  {
-                        "att": 2516,
-                        "def": 850,
-                        "hp": 7085
-                  },
-                  {
-                        "att": 2522,
-                        "def": 852,
-                        "hp": 7103
-                  },
-                  {
-                        "att": 2529,
-                        "def": 854,
-                        "hp": 7121
-                  },
-                  {
-                        "att": 2535,
-                        "def": 856,
-                        "hp": 7138
-                  },
-                  {
-                        "att": 2542,
-                        "def": 858,
-                        "hp": 7156
-                  },
-                  {
-                        "att": 2549,
-                        "def": 860,
-                        "hp": 7174
-                  },
-                  {
-                        "att": 2555,
-                        "def": 862,
-                        "hp": 7192
-                  },
-                  {
-                        "att": 2562,
-                        "def": 864,
-                        "hp": 7209
-                  },
-                  {
-                        "att": 2568,
-                        "def": 866,
-                        "hp": 7227
-                  },
-                  {
-                        "att": 2575,
-                        "def": 868,
-                        "hp": 7245
-                  },
-                  {
-                        "att": 2581,
-                        "def": 871,
-                        "hp": 7262
-                  },
-                  {
-                        "att": 2588,
-                        "def": 873,
-                        "hp": 7280
-                  },
-                  {
-                        "att": 2595,
-                        "def": 875,
-                        "hp": 7298
-                  },
-                  {
-                        "att": 2601,
-                        "def": 877,
-                        "hp": 7315
-                  },
-                  {
-                        "att": 2608,
-                        "def": 879,
-                        "hp": 7333
-                  },
-                  {
-                        "att": 2614,
-                        "def": 881,
-                        "hp": 7351
-                  },
-                  {
-                        "att": 2621,
-                        "def": 883,
-                        "hp": 7369
-                  },
-                  {
-                        "att": 2627,
-                        "def": 885,
-                        "hp": 7386
-                  },
-                  {
-                        "att": 2634,
-                        "def": 887,
-                        "hp": 7404
-                  },
-                  {
-                        "att": 2641,
-                        "def": 889,
-                        "hp": 7422
-                  },
-                  {
-                        "att": 2647,
-                        "def": 892,
-                        "hp": 7439
-                  },
-                  {
-                        "att": 2654,
-                        "def": 894,
-                        "hp": 7457
-                  },
-                  {
-                        "att": 2660,
-                        "def": 896,
-                        "hp": 7475
-                  },
-                  {
-                        "att": 2667,
-                        "def": 898,
-                        "hp": 7492
-                  },
-                  {
-                        "att": 2673,
-                        "def": 900,
-                        "hp": 7510
-                  },
-                  {
-                        "att": 2680,
-                        "def": 902,
-                        "hp": 7528
-                  },
-                  {
-                        "att": 2687,
-                        "def": 904,
-                        "hp": 7546
-                  },
-                  {
-                        "att": 2693,
-                        "def": 906,
-                        "hp": 7563
-                  },
-                  {
-                        "att": 2700,
-                        "def": 908,
-                        "hp": 7581
-                  },
-                  {
-                        "att": 2706,
-                        "def": 910,
-                        "hp": 7599
-                  },
-                  {
-                        "att": 2713,
-                        "def": 913,
-                        "hp": 7616
-                  },
-                  {
-                        "att": 2720,
-                        "def": 915,
-                        "hp": 7634
-                  },
-                  {
-                        "att": 2726,
-                        "def": 917,
-                        "hp": 7652
-                  },
-                  {
-                        "att": 2733,
-                        "def": 919,
-                        "hp": 7669
-                  },
-                  {
-                        "att": 2739,
-                        "def": 921,
-                        "hp": 7687
-                  },
-                  {
-                        "att": 2746,
-                        "def": 923,
-                        "hp": 7705
-                  },
-                  {
-                        "att": 2752,
-                        "def": 925,
-                        "hp": 7723
-                  },
-                  {
-                        "att": 2759,
-                        "def": 927,
-                        "hp": 7740
-                  },
-                  {
-                        "att": 2766,
-                        "def": 929,
-                        "hp": 7758
-                  },
-                  {
-                        "att": 2772,
-                        "def": 931,
-                        "hp": 7776
-                  },
-                  {
-                        "att": 2779,
-                        "def": 934,
-                        "hp": 7793
-                  },
-                  {
-                        "att": 2785,
-                        "def": 936,
-                        "hp": 7811
-                  },
-                  {
-                        "att": 2792,
-                        "def": 938,
-                        "hp": 7829
-                  },
-                  {
-                        "att": 2798,
-                        "def": 940,
-                        "hp": 7846
-                  },
-                  {
-                        "att": 2805,
-                        "def": 942,
-                        "hp": 7864
-                  },
-                  {
-                        "att": 2812,
-                        "def": 944,
-                        "hp": 7882
-                  },
-                  {
-                        "att": 2818,
-                        "def": 946,
-                        "hp": 7900
-                  },
-                  {
-                        "att": 2825,
-                        "def": 948,
-                        "hp": 7917
-                  },
-                  {
-                        "att": 2831,
-                        "def": 950,
-                        "hp": 7935
-                  },
-                  {
-                        "att": 2838,
-                        "def": 952,
-                        "hp": 7953
-                  },
-                  {
-                        "att": 2844,
-                        "def": 955,
-                        "hp": 7970
-                  },
-                  {
-                        "att": 2851,
-                        "def": 957,
-                        "hp": 7988
-                  },
-                  {
-                        "att": 2858,
-                        "def": 959,
-                        "hp": 8006
-                  }
-            ]
-      }
+ "name": "Istvan",
+ "faction": "Umbraton",
+ "element_main": "Fire",
+ "element_sub": "Water",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Shadowmaster's Presence",
+  "cd": "4 Turn",
+  "description": [
+   "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
+   "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
+   "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 85% of Istvan's ATK."
+  ]
+ },
+ "equip": {
+  "name": "Shepherd's Staff",
+  "passive": "Ghost Flame",
+  "description": [
+   [
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%."
+   ],
+   [
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
+   ],
+   [
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 2%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 3%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 4%.",
+    "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
+   ]
+  ],
+  "introduction": "A pure golden staff of Viper Twins, with a special design that allows flames to circulate within it. Istvan can use it to summon a blue phantom flame that burns everything in his vicinity. The energy released by these flames can not only take down his opponents, but also strengthen the combat ability of his entire team."
+ },
+ "chain": {
+  "name": "Shadowlord's Shock",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 165% damage to enemies in a radial shape to the maximum range."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Potion I",
+    "Fire Flare Powder",
+    "Destiny Champagne I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Crystal Shard",
+    "Destiny Champagne II",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "After using a Chain Combo, reduces the ATK of enemies within 1 surrounding cluster of the unit by 5%.",
+   "after": "After using a Chain Combo, reduces the ATK of enemies within 2 surrounding clusters of the unit by 5%."
+  },
+  {
+   "material": [
+    "Fire Crystal Cluster",
+    "Fire Potion II",
+    "Destiny Champagne III",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 70% of Istvan's ATK.",
+   "after": "When used, a Fire Aurorian's Chain Combo will be triggered 2 times in this round. For the second Chain Combo, the ATK of all Fire Aurorians is equal to 85% of Istvan's ATK."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 543,
+    "def": 218,
+    "hp": 1775
+   },
+   {
+    "att": 553,
+    "def": 221,
+    "hp": 1803
+   },
+   {
+    "att": 564,
+    "def": 224,
+    "hp": 1832
+   },
+   {
+    "att": 574,
+    "def": 228,
+    "hp": 1860
+   },
+   {
+    "att": 585,
+    "def": 231,
+    "hp": 1888
+   },
+   {
+    "att": 595,
+    "def": 235,
+    "hp": 1917
+   },
+   {
+    "att": 606,
+    "def": 238,
+    "hp": 1945
+   },
+   {
+    "att": 616,
+    "def": 241,
+    "hp": 1973
+   },
+   {
+    "att": 627,
+    "def": 245,
+    "hp": 2001
+   },
+   {
+    "att": 637,
+    "def": 248,
+    "hp": 2030
+   },
+   {
+    "att": 648,
+    "def": 251,
+    "hp": 2058
+   },
+   {
+    "att": 658,
+    "def": 255,
+    "hp": 2086
+   },
+   {
+    "att": 669,
+    "def": 258,
+    "hp": 2115
+   },
+   {
+    "att": 679,
+    "def": 261,
+    "hp": 2143
+   },
+   {
+    "att": 690,
+    "def": 265,
+    "hp": 2171
+   },
+   {
+    "att": 700,
+    "def": 268,
+    "hp": 2200
+   },
+   {
+    "att": 711,
+    "def": 271,
+    "hp": 2228
+   },
+   {
+    "att": 721,
+    "def": 275,
+    "hp": 2256
+   },
+   {
+    "att": 732,
+    "def": 278,
+    "hp": 2285
+   },
+   {
+    "att": 742,
+    "def": 282,
+    "hp": 2313
+   },
+   {
+    "att": 753,
+    "def": 285,
+    "hp": 2341
+   },
+   {
+    "att": 764,
+    "def": 288,
+    "hp": 2370
+   },
+   {
+    "att": 774,
+    "def": 292,
+    "hp": 2398
+   },
+   {
+    "att": 785,
+    "def": 295,
+    "hp": 2426
+   },
+   {
+    "att": 795,
+    "def": 298,
+    "hp": 2455
+   },
+   {
+    "att": 806,
+    "def": 302,
+    "hp": 2483
+   },
+   {
+    "att": 816,
+    "def": 305,
+    "hp": 2511
+   },
+   {
+    "att": 827,
+    "def": 308,
+    "hp": 2540
+   },
+   {
+    "att": 837,
+    "def": 312,
+    "hp": 2568
+   },
+   {
+    "att": 848,
+    "def": 315,
+    "hp": 2596
+   },
+   {
+    "att": 951,
+    "def": 349,
+    "hp": 2882
+   },
+   {
+    "att": 964,
+    "def": 354,
+    "hp": 2917
+   },
+   {
+    "att": 977,
+    "def": 358,
+    "hp": 2952
+   },
+   {
+    "att": 990,
+    "def": 362,
+    "hp": 2988
+   },
+   {
+    "att": 1003,
+    "def": 366,
+    "hp": 3023
+   },
+   {
+    "att": 1017,
+    "def": 370,
+    "hp": 3059
+   },
+   {
+    "att": 1030,
+    "def": 375,
+    "hp": 3094
+   },
+   {
+    "att": 1043,
+    "def": 379,
+    "hp": 3129
+   },
+   {
+    "att": 1056,
+    "def": 383,
+    "hp": 3165
+   },
+   {
+    "att": 1069,
+    "def": 387,
+    "hp": 3200
+   },
+   {
+    "att": 1082,
+    "def": 391,
+    "hp": 3236
+   },
+   {
+    "att": 1095,
+    "def": 396,
+    "hp": 3271
+   },
+   {
+    "att": 1109,
+    "def": 400,
+    "hp": 3306
+   },
+   {
+    "att": 1122,
+    "def": 404,
+    "hp": 3342
+   },
+   {
+    "att": 1135,
+    "def": 408,
+    "hp": 3377
+   },
+   {
+    "att": 1148,
+    "def": 412,
+    "hp": 3413
+   },
+   {
+    "att": 1161,
+    "def": 417,
+    "hp": 3448
+   },
+   {
+    "att": 1174,
+    "def": 421,
+    "hp": 3483
+   },
+   {
+    "att": 1187,
+    "def": 425,
+    "hp": 3519
+   },
+   {
+    "att": 1201,
+    "def": 429,
+    "hp": 3554
+   },
+   {
+    "att": 1214,
+    "def": 433,
+    "hp": 3590
+   },
+   {
+    "att": 1227,
+    "def": 438,
+    "hp": 3625
+   },
+   {
+    "att": 1240,
+    "def": 442,
+    "hp": 3660
+   },
+   {
+    "att": 1253,
+    "def": 446,
+    "hp": 3696
+   },
+   {
+    "att": 1266,
+    "def": 450,
+    "hp": 3731
+   },
+   {
+    "att": 1280,
+    "def": 454,
+    "hp": 3767
+   },
+   {
+    "att": 1293,
+    "def": 459,
+    "hp": 3802
+   },
+   {
+    "att": 1306,
+    "def": 463,
+    "hp": 3837
+   },
+   {
+    "att": 1319,
+    "def": 467,
+    "hp": 3873
+   },
+   {
+    "att": 1332,
+    "def": 471,
+    "hp": 3908
+   },
+   {
+    "att": 1345,
+    "def": 475,
+    "hp": 3944
+   },
+   {
+    "att": 1358,
+    "def": 480,
+    "hp": 3979
+   },
+   {
+    "att": 1372,
+    "def": 484,
+    "hp": 4014
+   },
+   {
+    "att": 1385,
+    "def": 488,
+    "hp": 4050
+   },
+   {
+    "att": 1398,
+    "def": 492,
+    "hp": 4085
+   },
+   {
+    "att": 1411,
+    "def": 496,
+    "hp": 4121
+   },
+   {
+    "att": 1424,
+    "def": 501,
+    "hp": 4156
+   },
+   {
+    "att": 1437,
+    "def": 505,
+    "hp": 4191
+   },
+   {
+    "att": 1450,
+    "def": 509,
+    "hp": 4227
+   },
+   {
+    "att": 1464,
+    "def": 513,
+    "hp": 4262
+   },
+   {
+    "att": 1623,
+    "def": 566,
+    "hp": 4689
+   },
+   {
+    "att": 1633,
+    "def": 570,
+    "hp": 4715
+   },
+   {
+    "att": 1643,
+    "def": 573,
+    "hp": 4742
+   },
+   {
+    "att": 1653,
+    "def": 576,
+    "hp": 4768
+   },
+   {
+    "att": 1663,
+    "def": 579,
+    "hp": 4795
+   },
+   {
+    "att": 1673,
+    "def": 582,
+    "hp": 4822
+   },
+   {
+    "att": 1683,
+    "def": 585,
+    "hp": 4848
+   },
+   {
+    "att": 1692,
+    "def": 588,
+    "hp": 4875
+   },
+   {
+    "att": 1702,
+    "def": 592,
+    "hp": 4901
+   },
+   {
+    "att": 1712,
+    "def": 595,
+    "hp": 4928
+   },
+   {
+    "att": 1722,
+    "def": 598,
+    "hp": 4954
+   },
+   {
+    "att": 1732,
+    "def": 601,
+    "hp": 4981
+   },
+   {
+    "att": 1742,
+    "def": 604,
+    "hp": 5007
+   },
+   {
+    "att": 1752,
+    "def": 607,
+    "hp": 5034
+   },
+   {
+    "att": 1762,
+    "def": 610,
+    "hp": 5060
+   },
+   {
+    "att": 1771,
+    "def": 614,
+    "hp": 5087
+   },
+   {
+    "att": 1781,
+    "def": 617,
+    "hp": 5114
+   },
+   {
+    "att": 1791,
+    "def": 620,
+    "hp": 5140
+   },
+   {
+    "att": 1801,
+    "def": 623,
+    "hp": 5167
+   },
+   {
+    "att": 1811,
+    "def": 626,
+    "hp": 5193
+   },
+   {
+    "att": 1821,
+    "def": 629,
+    "hp": 5220
+   },
+   {
+    "att": 1831,
+    "def": 633,
+    "hp": 5246
+   },
+   {
+    "att": 1840,
+    "def": 636,
+    "hp": 5273
+   },
+   {
+    "att": 1850,
+    "def": 639,
+    "hp": 5299
+   },
+   {
+    "att": 1860,
+    "def": 642,
+    "hp": 5326
+   },
+   {
+    "att": 1870,
+    "def": 645,
+    "hp": 5353
+   },
+   {
+    "att": 1880,
+    "def": 648,
+    "hp": 5379
+   },
+   {
+    "att": 1890,
+    "def": 651,
+    "hp": 5406
+   },
+   {
+    "att": 1900,
+    "def": 655,
+    "hp": 5432
+   },
+   {
+    "att": 1909,
+    "def": 658,
+    "hp": 5459
+   },
+   {
+    "att": 1919,
+    "def": 661,
+    "hp": 5485
+   },
+   {
+    "att": 1929,
+    "def": 664,
+    "hp": 5512
+   },
+   {
+    "att": 1939,
+    "def": 667,
+    "hp": 5538
+   },
+   {
+    "att": 1949,
+    "def": 670,
+    "hp": 5565
+   },
+   {
+    "att": 1959,
+    "def": 673,
+    "hp": 5591
+   },
+   {
+    "att": 1969,
+    "def": 677,
+    "hp": 5618
+   },
+   {
+    "att": 1978,
+    "def": 680,
+    "hp": 5645
+   },
+   {
+    "att": 1988,
+    "def": 683,
+    "hp": 5671
+   },
+   {
+    "att": 1998,
+    "def": 686,
+    "hp": 5698
+   },
+   {
+    "att": 2008,
+    "def": 689,
+    "hp": 5724
+   },
+   {
+    "att": 2018,
+    "def": 692,
+    "hp": 5751
+   },
+   {
+    "att": 2028,
+    "def": 696,
+    "hp": 5777
+   },
+   {
+    "att": 2038,
+    "def": 699,
+    "hp": 5804
+   },
+   {
+    "att": 2047,
+    "def": 702,
+    "hp": 5830
+   },
+   {
+    "att": 2057,
+    "def": 705,
+    "hp": 5857
+   },
+   {
+    "att": 2067,
+    "def": 708,
+    "hp": 5884
+   },
+   {
+    "att": 2077,
+    "def": 711,
+    "hp": 5910
+   },
+   {
+    "att": 2087,
+    "def": 714,
+    "hp": 5937
+   },
+   {
+    "att": 2097,
+    "def": 718,
+    "hp": 5963
+   },
+   {
+    "att": 2107,
+    "def": 721,
+    "hp": 5990
+   },
+   {
+    "att": 2338,
+    "def": 793,
+    "hp": 6607
+   },
+   {
+    "att": 2345,
+    "def": 795,
+    "hp": 6625
+   },
+   {
+    "att": 2351,
+    "def": 797,
+    "hp": 6643
+   },
+   {
+    "att": 2358,
+    "def": 799,
+    "hp": 6661
+   },
+   {
+    "att": 2365,
+    "def": 801,
+    "hp": 6678
+   },
+   {
+    "att": 2371,
+    "def": 803,
+    "hp": 6696
+   },
+   {
+    "att": 2378,
+    "def": 805,
+    "hp": 6714
+   },
+   {
+    "att": 2384,
+    "def": 808,
+    "hp": 6731
+   },
+   {
+    "att": 2391,
+    "def": 810,
+    "hp": 6749
+   },
+   {
+    "att": 2397,
+    "def": 812,
+    "hp": 6767
+   },
+   {
+    "att": 2404,
+    "def": 814,
+    "hp": 6784
+   },
+   {
+    "att": 2411,
+    "def": 816,
+    "hp": 6802
+   },
+   {
+    "att": 2417,
+    "def": 818,
+    "hp": 6820
+   },
+   {
+    "att": 2424,
+    "def": 820,
+    "hp": 6838
+   },
+   {
+    "att": 2430,
+    "def": 822,
+    "hp": 6855
+   },
+   {
+    "att": 2437,
+    "def": 824,
+    "hp": 6873
+   },
+   {
+    "att": 2443,
+    "def": 826,
+    "hp": 6891
+   },
+   {
+    "att": 2450,
+    "def": 829,
+    "hp": 6908
+   },
+   {
+    "att": 2457,
+    "def": 831,
+    "hp": 6926
+   },
+   {
+    "att": 2463,
+    "def": 833,
+    "hp": 6944
+   },
+   {
+    "att": 2470,
+    "def": 835,
+    "hp": 6961
+   },
+   {
+    "att": 2476,
+    "def": 837,
+    "hp": 6979
+   },
+   {
+    "att": 2483,
+    "def": 839,
+    "hp": 6997
+   },
+   {
+    "att": 2489,
+    "def": 841,
+    "hp": 7015
+   },
+   {
+    "att": 2496,
+    "def": 843,
+    "hp": 7032
+   },
+   {
+    "att": 2503,
+    "def": 845,
+    "hp": 7050
+   },
+   {
+    "att": 2509,
+    "def": 847,
+    "hp": 7068
+   },
+   {
+    "att": 2516,
+    "def": 850,
+    "hp": 7085
+   },
+   {
+    "att": 2522,
+    "def": 852,
+    "hp": 7103
+   },
+   {
+    "att": 2529,
+    "def": 854,
+    "hp": 7121
+   },
+   {
+    "att": 2535,
+    "def": 856,
+    "hp": 7138
+   },
+   {
+    "att": 2542,
+    "def": 858,
+    "hp": 7156
+   },
+   {
+    "att": 2549,
+    "def": 860,
+    "hp": 7174
+   },
+   {
+    "att": 2555,
+    "def": 862,
+    "hp": 7192
+   },
+   {
+    "att": 2562,
+    "def": 864,
+    "hp": 7209
+   },
+   {
+    "att": 2568,
+    "def": 866,
+    "hp": 7227
+   },
+   {
+    "att": 2575,
+    "def": 868,
+    "hp": 7245
+   },
+   {
+    "att": 2581,
+    "def": 871,
+    "hp": 7262
+   },
+   {
+    "att": 2588,
+    "def": 873,
+    "hp": 7280
+   },
+   {
+    "att": 2595,
+    "def": 875,
+    "hp": 7298
+   },
+   {
+    "att": 2601,
+    "def": 877,
+    "hp": 7315
+   },
+   {
+    "att": 2608,
+    "def": 879,
+    "hp": 7333
+   },
+   {
+    "att": 2614,
+    "def": 881,
+    "hp": 7351
+   },
+   {
+    "att": 2621,
+    "def": 883,
+    "hp": 7369
+   },
+   {
+    "att": 2627,
+    "def": 885,
+    "hp": 7386
+   },
+   {
+    "att": 2634,
+    "def": 887,
+    "hp": 7404
+   },
+   {
+    "att": 2641,
+    "def": 889,
+    "hp": 7422
+   },
+   {
+    "att": 2647,
+    "def": 892,
+    "hp": 7439
+   },
+   {
+    "att": 2654,
+    "def": 894,
+    "hp": 7457
+   },
+   {
+    "att": 2660,
+    "def": 896,
+    "hp": 7475
+   },
+   {
+    "att": 2667,
+    "def": 898,
+    "hp": 7492
+   },
+   {
+    "att": 2673,
+    "def": 900,
+    "hp": 7510
+   },
+   {
+    "att": 2680,
+    "def": 902,
+    "hp": 7528
+   },
+   {
+    "att": 2687,
+    "def": 904,
+    "hp": 7546
+   },
+   {
+    "att": 2693,
+    "def": 906,
+    "hp": 7563
+   },
+   {
+    "att": 2700,
+    "def": 908,
+    "hp": 7581
+   },
+   {
+    "att": 2706,
+    "def": 910,
+    "hp": 7599
+   },
+   {
+    "att": 2713,
+    "def": 913,
+    "hp": 7616
+   },
+   {
+    "att": 2720,
+    "def": 915,
+    "hp": 7634
+   },
+   {
+    "att": 2726,
+    "def": 917,
+    "hp": 7652
+   },
+   {
+    "att": 2733,
+    "def": 919,
+    "hp": 7669
+   },
+   {
+    "att": 2739,
+    "def": 921,
+    "hp": 7687
+   },
+   {
+    "att": 2746,
+    "def": 923,
+    "hp": 7705
+   },
+   {
+    "att": 2752,
+    "def": 925,
+    "hp": 7723
+   },
+   {
+    "att": 2759,
+    "def": 927,
+    "hp": 7740
+   },
+   {
+    "att": 2766,
+    "def": 929,
+    "hp": 7758
+   },
+   {
+    "att": 2772,
+    "def": 931,
+    "hp": 7776
+   },
+   {
+    "att": 2779,
+    "def": 934,
+    "hp": 7793
+   },
+   {
+    "att": 2785,
+    "def": 936,
+    "hp": 7811
+   },
+   {
+    "att": 2792,
+    "def": 938,
+    "hp": 7829
+   },
+   {
+    "att": 2798,
+    "def": 940,
+    "hp": 7846
+   },
+   {
+    "att": 2805,
+    "def": 942,
+    "hp": 7864
+   },
+   {
+    "att": 2812,
+    "def": 944,
+    "hp": 7882
+   },
+   {
+    "att": 2818,
+    "def": 946,
+    "hp": 7900
+   },
+   {
+    "att": 2825,
+    "def": 948,
+    "hp": 7917
+   },
+   {
+    "att": 2831,
+    "def": 950,
+    "hp": 7935
+   },
+   {
+    "att": 2838,
+    "def": 952,
+    "hp": 7953
+   },
+   {
+    "att": 2844,
+    "def": 955,
+    "hp": 7970
+   },
+   {
+    "att": 2851,
+    "def": 957,
+    "hp": 7988
+   },
+   {
+    "att": 2858,
+    "def": 959,
+    "hp": 8006
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Schwartz",
+     "Istvan"
+    ],
+    "chat": [
+     {
+      "character": "Schwartz:",
+      "text": "I've heard there are some new drinks on sale in Umbraton right now."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "Your collection is about to become even more interesting."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Why the sudden interest in alcohol?"
+     },
+     {
+      "character": "Istvan:",
+      "text": "Well, as they say... Fine wine for my friends, bullets for my enemies."
+     },
+     {
+      "character": "Istvan:",
+      "text": "When you come with the drinks, don't bring any Eclipsites with you."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Otherwise, I can't guarantee whether it will be wine or bullets waiting to greet you."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "You think I'd bring Eclipsites back with me?"
+     },
+     {
+      "character": "Istvan:",
+      "text": "Maybe not you."
+     },
+     {
+      "character": "Istvan:",
+      "text": "I don't know, maybe there are people in Lumopolis who like to associate with Eclipsites..."
+     },
+     {
+      "character": "Schwartz:",
+      "text": "Hmm... You seem to be very concerned about Lumopolis..."
+     },
+     {
+      "character": "Istvan:",
+      "text": "And you're not?"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Corax",
+     "Istvan"
+    ],
+    "chat": [
+     {
+      "character": "Corax:",
+      "text": "The task is done, Shadowlord."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Is it?"
+     },
+     {
+      "character": "Istvan:",
+      "text": "No loose ends, right?"
+     },
+     {
+      "character": "Corax:",
+      "text": "How do I put this... It didn't go completely smooth."
+     },
+     {
+      "character": "Corax:",
+      "text": "But everything's taken care of."
+     },
+     {
+      "character": "Corax:",
+      "text": "No loose ends, no blowback."
+     },
+     {
+      "character": "Istvan:",
+      "text": "That's good to hear."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Efficiency without fuss is most important."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Of course, you're a pro, so you'd know that."
+     },
+     {
+      "character": "Corax:",
+      "text": "Heh. Don't worry, Shadowlord."
+     },
+     {
+      "character": "Corax:",
+      "text": "Especially for things like this... Gotta make it clean or don't do it at all."
+     },
+     {
+      "character": "Corax:",
+      "text": "Especially for tumors like this. If not removed completely, the patient would wish he was dead."
+     },
+     {
+      "character": "Corax:",
+      "text": "If that's true, might as well be..."
+     },
+     {
+      "character": "Istvan:",
+      "text": "Yeah, might as well..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Umbraton Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "To me, Mr. Istvan is an extraordinary man. You can't rule Umbraton for as long as he did without guts and grits. That town owed Istvan for turning over a new leaf and into prosperity. But that doesn't mean we should be complacent when dealing with Istvan's and other gangs... It figured that Istvan would be interested in our Colossus. As the boss of Umbraton, he's got eyes sharp enough to tell what he needed to pay attention to. Now that you think about it, you would have to hear, see, and know practically everything going in Umbraton to rein in all the dangerous elements. A word of caution, Navigator: Someone who could lead dangerous elements\u2014like Istvan\u2014is the most dangerous of them all. No matter how friendly he appears, always assume there's something to the contrary under the facade. Fortunately, Istvan doesn't seem to have any plans to oppose us so we should take advantage of that as much as we can. But still, can't let your guard down. \u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "You must have heard of me. I am Istvan, Lord of Umbraton. I heard some of my people have visited here? Sorry for any trouble they caused, but it's actually your honor.Umbraton is different from any other place. At least that's what I think. It accepts anyone who's willing to accept it, as long as they're not beyond hope. Unlike Lumopolis, Umbraton doesn't impose belief and order on you, but every dweller has their own reason to live. Just look into their eyes when they fight, and the sweat along with the spilled blood. You'll know I speak the truth.As for you, you have a mission too. The one reason you live for, that you will do whatever necessary to personally see it to fruition... What can it be? I don't care what it is exactly, though. I just wonder if you can do it and whether you will. That day won't come anytime soon, but I hope you won't disappoint me too quickly."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "The Umbraton of present wasn't built in a day. Before becoming what it is now, it was a filthy, degenerate, desperate hellhole. People wasted away, frantically pursuing fleeting moments of happiness, even if that meant they wouldn't live to see the sunrise next day. But that's not their fault. The blame lied in those who exploited them, those who didn't belong to Umbraton, yet poisoned the town, sustaining themselves on the blood and tears of Umbraton. Without extracting their dirty hands, there wouldn't have been a new Umbraton.I will not deny my effort or the price I paid in giving Umbraton a new leash in life, but I am still incredibly grateful to the town folks for standing with me. They, too, wanted a better life. If they weren't willing to help themselves, I could not have pulled Umbraton out of the quagmire, no matter how hard I tried. I will take half of the credit; the other half belongs to everyone in Umbraton."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "The best thing about today's Umbraton is that it's escaped the pernicious elements. Life is still hard. Some are still homeless. Some still can't afford bread. However, the impetus for living is no longer the dangerous thrills, but the determination and courage to protect others, to improve oneself, and to get a new life. Connolly's coffee shop, Dayna's gang, and Sheol's guild all run on their own faith, as well as fearlessness. At a bare minimum, I'm satisfied with what Umbraton is now. The least I can do is maintain the status quo and keep the poisons out of town.Eclipses are another threat to Umbraton. They always lurk and never, ever leave. I also understand, that because of the town's geographical location, it invariably is the first line of defense whenever the Eclipsites decide to invade Lumopolis. But we won't be fighting them for Lumopolis; we'll be fighting them for Umbraton. Until the continent returns to peace, Umbraton will never stop fighting and its people will never surrender."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Do you play chess? It's an interesting game. A small board with two handfuls of pieces, victory and defeat hanging in the balance. One misstep, every move thereafter is naught, and the outcome is already decided. You must regard every move as life-or-death, because there's no return.I love playing chess but I could never find a suitable opponent in Umbraton. They either couldn't beat me, or are afraid to beat me, regretfully. When I feel the urge to play, I can only resort to solving chess puzzles left by long-dead grandmasters in books. Not having real opponents is pitiful, but once you realize you yourself are also just a chess piece in the game of life, you'll prefer not having opponents, or even anyone else playing the game.So how about it? You can play with me if you're interested. I'll even surrender a few pieces."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "As we all know, Umbraton is responsible for maintaining half of the order of Lumopolis.",
+  "Tell the fellows from Illumina to stop wasting their time on putting the cart before the horse.",
+  "The shadow is watching you.",
+  "They are creatures that don't know the truth, so you don't need to show mercy when fighting for survival.",
+  "That old-looking guy always does annoying things at peculiar moments, like cheating when playing chess.",
+  "That hot-blooded man should know that he needs to be able to call the shots before he can change the situation.",
+  "I have some storage cabinets full of many masterpieces in my room.",
+  "The untrustworthy, the unrighteous, and the rude. Fellas of these sorts don't deserve to exist.",
+  "I've heard that the Colossus is a form of shelter as well as proof of a certain mission.",
+  "Very good! Many people can live here with new identities.",
+  "I'm used to living in the shadows... Fine, I guess that isn't necessary anymore... Do I just sit here?",
+  "Defeat is of no value, unlike self-reflection.",
+  "Victory belongs to everyone.",
+  "Feel my might!",
+  "Cower before me!",
+  "So what if there's a price to pay?",
+  "Go celebrate the New Year.",
+  "Let's work together.",
+  "For the shadows, this is a deeper level.",
+  "As always, Umbraton will pardon you.",
+  "I shall become the shadow...",
+  "Don't be so stubborn. No, I mean... you should visit me when you're not busy. We can play chess and I have tales for you.",
+  "The stronger I get, the more boring things become.",
+  "Alchemy Stars.",
+  "I'll tell you a joke about atonement. When you want a scapegoat to be pushed down a cliff or exiled into the wilderness, it doesn't matter whether it is innocent or not: it just needs to have horns.",
+  "It's thanks to his wife that Schwartz has his current success... Huh... It seems that he has one foot in the coffin, but he's actually not that old.",
+  "The first demon was born with a staff that could incinerate demons into ashes, so it's a matter of fact that he should guard the gates of hell.",
+  "This old throne is not something to be seized, but a symbol of respect. It will become something new after it is tempered by fire.",
+  "Those who scheme all day won't dare to act recklessly, and those who oppress and exploit those beneath them won't be without a bottom line. That's because they know the shadows are watching them.",
+  "When I returned to this place, the legend of Umbraton became a real description of sorts. The leader and shadows began to take control of every inch of this land.",
+  "The justice I defend is not the same as what comes out of your mouth. It may be chaotic, but it could not be distorted. You aren't capable of understanding it yet.",
+  "You grew up without the protection of your parents, just like I did. But one day, you'll find being down in the mud unbearable.",
+  "You can do much better as a Navigator, but learning from experience and the risk of crashing often come hand in hand... Follow me; it'll be much easier for you.",
+  "Every move should be made with perfection in mind, so you must think carefully before you act.",
+  "I hope you know what's good for you. The shadows are watching you, too.",
+  "I'll be in trouble if those lads find out I'm here...",
+  "Welcome back. Since fate has given you this responsibility, I believe you are prepared to take action.",
+  "Very good. You've come at just the right time, just like how shadows always arrive first.",
+  "If you're tired, sit down and rest for a while before we start.",
+  "The youngsters of today seem to have a habit of being active at this hour... Hmm... They hide in the darkness.",
+  "Put away your curiosity. All you need to know is that I am a ghost of the past that continues to haunt Umbraton, and the last person the people of Lumopolis want to face.",
+  "Don't bother because you won't be getting anything back from me.",
+  "Although it isn't necessary, I'll consider giving you something in return.",
+  "Yes, I can sense how valuable this is.",
+  "Haha! I'll keep this safe in my storage cabinet.",
+  "Resist until you are dragged into your grave!",
+  "Rise before you are devoured by darkness!",
+  "Everything shall end!",
+  "The shadows of chaos never reflect anything. They simply extend their web throughout Umbraton like spider webs to maintain the unique order of Umbraton.",
+  "Before Lumopolis became divided, the darkness had a strong hold over the city. People turned a blind eye to everything that didn't concern them.",
+  "Ensuring a source of funds, helping and adopting poor children and orphans, and teaching them to fight their destiny\u2014this is the way to cultivate a new order in the shadows.",
+  "Sure, I'll take the command."
+ ],
+ "skins": [],
+ "description": "The Underground Leader of Umbraton. He is decisive, carefree, and very loyal to those around him. He once passed the harsh survival challenge, winning his current prestige and status.",
+ "realName": "Istvan",
+ "nickname": "The Shadowmaster of Scars",
+ "gender": "Male",
+ "height": "6'4''",
+ "birthday": "December 29",
+ "birthplace": "Umbraton",
+ "style": "Shepherd's Staff, Ghost Flame"
 }

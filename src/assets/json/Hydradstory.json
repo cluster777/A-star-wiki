@@ -1,0 +1,942 @@
+{
+ "title": "It's A Wolf",
+ "header": "You discover that Shadow Wolf has been sneaking into your room during the night. But when you confront Hydrad, he refuses to do anything about it.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "So... What's the matter?"
+    },
+    {
+     "char": "After darkness fell, I closed my eyes and fell into a deep sleep.",
+     "dialogue": "But I woke up in the middle of the night to a pair of eyes shining in the dark..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was sure that what stood before me was a beast..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean, a wolf was watching you last night?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Yes, I believe that it may be one of your shadow wolves."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's impossible... I haven't used my shadow magic, nor ordered any of my shadow wolves to do so."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I know... I'm not doubting you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But this has been going on for so many days that I have to talk to you about it."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Although I have no proof...",
+     "link": "1"
+    },
+    {
+     "text": "I'm sure it was a shadow wolf.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Because I could sense it."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You mean, through your psychic ability?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Well, then it might be them."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Hey, why did you go to Navigator's room last night?"
+    },
+    {
+     "char": "The shadow wolves curl their ears.",
+     "dialogue": "It seems you were right."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "How do you know that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can only tell from their physical reactions, such as the way their ears twitched."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "After all, I'm not like you. I can't talk to animals."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "No, no, it's not really like that... Besides, do they count as animals...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyway, can you please keep an eye on your shadow wolves? At least keep them from coming to my room and staring at me in the middle of the night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You are forbidden from entering Navigator's room."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "They tuned out."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Hold on... Why?",
+     "link": "4"
+    },
+    {
+     "text": "No, no... You have to convince them!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it possible for them to act without your permission? Could they be roaming free while you're resting?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I don't know... Maybe?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Hey, why did you go to Navigator's room last night?"
+    },
+    {
+     "char": "The shadow wolves curl their ears.",
+     "dialogue": "It seems you were right."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "How do you know that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can only tell from their physical reactions, such as the way their ears twitched."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "After all, I'm not like you. I can't talk to animals."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "No, no, it's not really like that... Besides, do they count as animals...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyway, can you please keep an eye on your shadow wolves? At least keep them from coming to my room and staring at me in the middle of the night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You are forbidden from entering Navigator's room."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "They tuned out."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Hold on... Why?",
+     "link": "4"
+    },
+    {
+     "text": "No, no... You have to convince them!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "Hey, why did you go to Navigator's room last night?"
+    },
+    {
+     "char": "The shadow wolves curl their ears.",
+     "dialogue": "It seems you were right."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "How do you know that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can only tell from their physical reactions, such as the way their ears twitched."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "After all, I'm not like you. I can't talk to animals."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "No, no, it's not really like that... Besides, do they count as animals...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyway, can you please keep an eye on your shadow wolves? At least keep them from coming to my room and staring at me in the middle of the night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You are forbidden from entering Navigator's room."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "They tuned out."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Hold on... Why?",
+     "link": "4"
+    },
+    {
+     "text": "No, no... You have to convince them!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "How should I know? They probably have their own reasons."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does that mean that they'll keep coming to my room to stare at me in the middle of the night?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Most likely."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's troubling... How can I sleep if so?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Can't you connect with them psychically? Try communicating with them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a little daunting.",
+     "link": "7"
+    },
+    {
+     "text": "I'm sure it will be fine to just give it a try...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "How can I persuade them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you asking me? Aren't you their master?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I haven't managed to teach them any commands other than attack. If they don't listen to me at all, there's nothing I can do."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Can't you connect with them psychically? Try communicating with them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a little daunting.",
+     "link": "7"
+    },
+    {
+     "text": "I'm sure it will be fine to just give it a try...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "Can't you connect with them psychically? Try communicating with them."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a little daunting.",
+     "link": "7"
+    },
+    {
+     "text": "I'm sure it will be fine to just give it a try...",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "How is it daunting?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They look like mysterious beasts, and they're recorded in the Colossus' database as dangerous creatures, not to mention the fact that they're born from your abilities."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whether they can be counted as psychically viable entities is still unknown to me. I'm not confident in whether I can communicate with them."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I picked up the Shadow Wolf ability from unknown ruins. I don't even know what they are..."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You can consider them as magical creatures, but to me they are just like ordinary dogs."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then I'd better keep my distance."
+    },
+    {
+     "char": "You close your eyes again and return to darkness, blocking out external interference. Then, you begin to concentrate...",
+     "dialogue": "Although I can use my psychic ability on them, I still cannot initiate conversation, as expected..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... I'm suddenly sensing an image!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a shadow wolf... No, there's more than one..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That looks like Hydrad among them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been to my room, too!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Say something!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've answered all of my questions up till now.\nDon't you feel like you're obviously culpable?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Please help me to understand what is going on here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... I did go to your room. So what?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You're the one behind all this and you don't even feel guilty!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you say it was impossible just now? Are you trying to fool me by blaming the shadow wolves?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you think you could hide the truth from me by pretending to help solve the problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As soon as I sensed it, I knew it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I told you... It wasn't me last night. I've only been to your room once!"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Can you see that, too?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why? When did you go there?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only on the day I first came to the Colossus. I went to observe you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "The reason is very simple. Since I decided to come along with you, I thought I should at least know what you are."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Wait... My gut is telling me that the reason they're acting of their own volition is you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Has something been bothering you recently?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you heard of these words: \"The shadow is watching you\"?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I have.",
+     "link": "10"
+    },
+    {
+     "text": "I have not.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "They look like cute dogs, though they don't look quite the same as those recorded in Soroz's database."
+    },
+    {
+     "char": "The shadow wolves begin to bare their teeth.",
+     "dialogue": "Be careful! Keep your distance... They're becoming restless."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Don't touch them too suddenly. Though they may be called Shadow Wolves, we still don't know where exactly these magical creatures come from."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Don't do anything to provoke them, or they may attack you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Wait a minute. This is your ability, yet that's all you have to say about them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I acquired this ability but I haven't studied it deeply. All I know is that I can use it."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Then I'd better keep my distance."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Although I can use my psychic ability on them, I still cannot initiate conversation, as expected..."
+    },
+    {
+     "char": "You close your eyes again and return to darkness, blocking out external interference. Then, you begin to concentrate...",
+     "dialogue": "Wait... I'm suddenly sensing an image!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a shadow wolf... No, there's more than one..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That looks like Hydrad among them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been to my room, too!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Say something!"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You've answered all of my questions up till now.\nDon't you feel like you're obviously culpable?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Please help me to understand what is going on here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... I did go to your room. So what?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're the one behind all this and you don't even feel guilty!?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why did you say it was impossible just now? Are you trying to fool me by blaming the shadow wolves?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you think you could hide the truth from me by pretending to help solve the problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As soon as I sensed it, I knew it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I told you... It wasn't me last night. I've only been to your room once!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you see that, too?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why? When did you go there?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Only on the day I first came to the Colossus. I went to observe you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The reason is very simple. Since I decided to come along with you, I thought I should at least know what you are."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Wait... My gut is telling me that the reason they're acting of their own volition is you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Has something been bothering you recently?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you heard of these words: \"The shadow is watching you\"?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I have.",
+     "link": "10"
+    },
+    {
+     "text": "I have not.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Then I'd better keep my distance."
+    },
+    {
+     "char": "You close your eyes again and return to darkness, blocking out external interference. Then, you begin to concentrate...",
+     "dialogue": "Although I can use my psychic ability on them, I still cannot initiate conversation, as expected..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... I'm suddenly sensing an image!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a shadow wolf... No, there's more than one..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That looks like Hydrad among them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been to my room, too!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Say something!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've answered all of my questions up till now.\nDon't you feel like you're obviously culpable?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Please help me to understand what is going on here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... I did go to your room. So what?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You're the one behind all this and you don't even feel guilty!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why did you say it was impossible just now? Are you trying to fool me by blaming the shadow wolves?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you think you could hide the truth from me by pretending to help solve the problem?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As soon as I sensed it, I knew it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, I told you... It wasn't me last night. I've only been to your room once!"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Can you see that, too?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why? When did you go there?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only on the day I first came to the Colossus. I went to observe you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "The reason is very simple. Since I decided to come along with you, I thought I should at least know what you are."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Wait... My gut is telling me that the reason they're acting of their own volition is you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Has something been bothering you recently?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you heard of these words: \"The shadow is watching you\"?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I have.",
+     "link": "10"
+    },
+    {
+     "text": "I have not.",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Have these words been spreading around Umbraton? I remember that some people from Umbraton once talked about it."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Well, you should pay a little more attention to it."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "If you can see the truth through the fog, I mean."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "All I can tell you is that shadows pay attention to you because they like your scent."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Not just the shadow wolves... There will be many more to come."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, do you mean... The shadow wolves will still come to my room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And that there will be more creatures coming..."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Most likely."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You'll get used to it over the next few days. The shadow wolves will soon leave once they are tired of watching you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That won't do. It's already too much to take, and it's probably only going to get worse."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How... How do you suddenly manage to turn this conversation around!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If those wild animals insist on watching me while I sleep, of course, I'm bound to feel frightened."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Do you see the shadow wolves as a threat to your safety?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Perhaps."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As the situation stands, even you don't know what they might do without your authorization. How can you ensure that they won't attack me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is a serious problem... That's why I came to ask if you could help."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "They just want to take a closer look at what you are. Just think of them as curious dogs and you'll be fine."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "However, since this is troubling you, I can't simply ignore it. After all, this is to some extent my fault."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "From today on, I'll watch them at night. If they insist on going to your room, I'll try to stop them."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "If I can't stop them, I'll come along."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait! Where's the logic in that?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "If only the shadow wolves go to your room, you may feel threatened. Then I'll go and make sure they don't do anything to you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "We won't let anything else harm you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Your troubles are solved. Done."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Hydrad:",
+     "dialogue": "Those words circulating Umbraton are more than just a mundane rumor. Go and ask more people and you will know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, what does this have to do with anything?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "I can't describe it to you. You're the clairvoyant. You need to see it by yourself."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "All I can tell you is that shadows pay attention to you because they like your scent."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Not just the shadow wolves... There will be many more to come."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, do you mean... The shadow wolves will still come to my room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And that there will be more creatures coming..."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Most likely."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "You'll get used to it over the next few days. The shadow wolves will soon leave once they are tired of watching you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That won't do. It's already too much to take, and it's probably only going to get worse."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Why?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How... How do you suddenly manage to turn this conversation around!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If those wild animals insist on watching me while I sleep, of course, I'm bound to feel frightened."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Do you see the shadow wolves as a threat to your safety?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Perhaps."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As the situation stands, even you don't know what they might do without your authorization. How can you ensure that they won't attack me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is a serious problem... That's why I came to ask if you could help."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "They just want to take a closer look at what you are. Just think of them as curious dogs and you'll be fine."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "However, since this is troubling you, I can't simply ignore it. After all, this is to some extent my fault."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "From today on, I'll watch them at night. If they insist on going to your room, I'll try to stop them."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "If I can't stop them, I'll come along."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait! Where's the logic in that?"
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "If only the shadow wolves go to your room, you may feel threatened. Then I'll go and make sure they don't do anything to you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "We won't let anything else harm you."
+    },
+    {
+     "char": "Hydrad:",
+     "dialogue": "Your troubles are solved. Done."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

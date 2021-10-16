@@ -1,465 +1,564 @@
 {
-      "name": "Frostfire",
-      "faction": "silent hunter",
-      "element_main": "Fire",
-      "element_sub": "Fire",
-      "rarity": "6",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "10 Vis",
-            "description": [
-                  "Costs 10 Vis to deal 180% damage to 1 selected tile within 3 surrounding clusters and deals 50% Splash damage to 4 tiles in a cross shape around it. Can be cast multiple times each round."
-            ]
-      },
-      "equip": {
-            "name": "Ember Laurel",
-            "passive": "Fiery Heart",
-            "description": [
-                  [
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
-                        "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 170% damage to 3 enemies within 2 surrounding clusters. Gains 1 Vis for every enemy hit."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 175% damage to 3 enemies within 3 surrounding clusters. Gains 1 Vis for every enemy hit."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 180% damage to the 3 nearest enemies. Gains 1 Vis for every enemy hit."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Skill is effective to all enemies.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: For every 1 skill is used, increases the skill damage by 10%."
-      ],
-      "ascension": [],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 2681,
-                        "def": 806,
-                        "hp": 6673
-                  },
-                  {
-                        "att": 2688,
-                        "def": 808,
-                        "hp": 6692
-                  },
-                  {
-                        "att": 2696,
-                        "def": 810,
-                        "hp": 6712
-                  },
-                  {
-                        "att": 2704,
-                        "def": 812,
-                        "hp": 6731
-                  },
-                  {
-                        "att": 2712,
-                        "def": 815,
-                        "hp": 6751
-                  },
-                  {
-                        "att": 2720,
-                        "def": 817,
-                        "hp": 6770
-                  },
-                  {
-                        "att": 2728,
-                        "def": 819,
-                        "hp": 6789
-                  },
-                  {
-                        "att": 2736,
-                        "def": 821,
-                        "hp": 6809
-                  },
-                  {
-                        "att": 2744,
-                        "def": 824,
-                        "hp": 6828
-                  },
-                  {
-                        "att": 2752,
-                        "def": 826,
-                        "hp": 6847
-                  },
-                  {
-                        "att": 2760,
-                        "def": 828,
-                        "hp": 6867
-                  },
-                  {
-                        "att": 2768,
-                        "def": 830,
-                        "hp": 6886
-                  },
-                  {
-                        "att": 2776,
-                        "def": 833,
-                        "hp": 6905
-                  },
-                  {
-                        "att": 2784,
-                        "def": 835,
-                        "hp": 6925
-                  },
-                  {
-                        "att": 2792,
-                        "def": 837,
-                        "hp": 6944
-                  },
-                  {
-                        "att": 2800,
-                        "def": 839,
-                        "hp": 6963
-                  },
-                  {
-                        "att": 2808,
-                        "def": 842,
-                        "hp": 6983
-                  },
-                  {
-                        "att": 2816,
-                        "def": 844,
-                        "hp": 7002
-                  },
-                  {
-                        "att": 2824,
-                        "def": 846,
-                        "hp": 7021
-                  },
-                  {
-                        "att": 2832,
-                        "def": 848,
-                        "hp": 7041
-                  },
-                  {
-                        "att": 2840,
-                        "def": 851,
-                        "hp": 7060
-                  },
-                  {
-                        "att": 2848,
-                        "def": 853,
-                        "hp": 7079
-                  },
-                  {
-                        "att": 2856,
-                        "def": 855,
-                        "hp": 7099
-                  },
-                  {
-                        "att": 2863,
-                        "def": 857,
-                        "hp": 7118
-                  },
-                  {
-                        "att": 2871,
-                        "def": 860,
-                        "hp": 7137
-                  },
-                  {
-                        "att": 2879,
-                        "def": 862,
-                        "hp": 7157
-                  },
-                  {
-                        "att": 2887,
-                        "def": 864,
-                        "hp": 7176
-                  },
-                  {
-                        "att": 2895,
-                        "def": 866,
-                        "hp": 7195
-                  },
-                  {
-                        "att": 2903,
-                        "def": 869,
-                        "hp": 7215
-                  },
-                  {
-                        "att": 2911,
-                        "def": 871,
-                        "hp": 7234
-                  },
-                  {
-                        "att": 2919,
-                        "def": 873,
-                        "hp": 7253
-                  },
-                  {
-                        "att": 2927,
-                        "def": 875,
-                        "hp": 7273
-                  },
-                  {
-                        "att": 2935,
-                        "def": 877,
-                        "hp": 7292
-                  },
-                  {
-                        "att": 2943,
-                        "def": 880,
-                        "hp": 7311
-                  },
-                  {
-                        "att": 2951,
-                        "def": 882,
-                        "hp": 7331
-                  },
-                  {
-                        "att": 2959,
-                        "def": 884,
-                        "hp": 7350
-                  },
-                  {
-                        "att": 2967,
-                        "def": 886,
-                        "hp": 7369
-                  },
-                  {
-                        "att": 2975,
-                        "def": 889,
-                        "hp": 7389
-                  },
-                  {
-                        "att": 2983,
-                        "def": 891,
-                        "hp": 7408
-                  },
-                  {
-                        "att": 2991,
-                        "def": 893,
-                        "hp": 7427
-                  },
-                  {
-                        "att": 2999,
-                        "def": 895,
-                        "hp": 7447
-                  },
-                  {
-                        "att": 3007,
-                        "def": 898,
-                        "hp": 7466
-                  },
-                  {
-                        "att": 3015,
-                        "def": 900,
-                        "hp": 7485
-                  },
-                  {
-                        "att": 3023,
-                        "def": 902,
-                        "hp": 7505
-                  },
-                  {
-                        "att": 3031,
-                        "def": 904,
-                        "hp": 7524
-                  },
-                  {
-                        "att": 3039,
-                        "def": 907,
-                        "hp": 7543
-                  },
-                  {
-                        "att": 3046,
-                        "def": 909,
-                        "hp": 7563
-                  },
-                  {
-                        "att": 3054,
-                        "def": 911,
-                        "hp": 7582
-                  },
-                  {
-                        "att": 3062,
-                        "def": 913,
-                        "hp": 7601
-                  },
-                  {
-                        "att": 3070,
-                        "def": 916,
-                        "hp": 7621
-                  },
-                  {
-                        "att": 3078,
-                        "def": 918,
-                        "hp": 7640
-                  },
-                  {
-                        "att": 3086,
-                        "def": 920,
-                        "hp": 7659
-                  },
-                  {
-                        "att": 3094,
-                        "def": 922,
-                        "hp": 7679
-                  },
-                  {
-                        "att": 3102,
-                        "def": 925,
-                        "hp": 7698
-                  },
-                  {
-                        "att": 3110,
-                        "def": 927,
-                        "hp": 7717
-                  },
-                  {
-                        "att": 3118,
-                        "def": 929,
-                        "hp": 7737
-                  },
-                  {
-                        "att": 3126,
-                        "def": 931,
-                        "hp": 7756
-                  },
-                  {
-                        "att": 3134,
-                        "def": 934,
-                        "hp": 7775
-                  },
-                  {
-                        "att": 3142,
-                        "def": 936,
-                        "hp": 7795
-                  },
-                  {
-                        "att": 3150,
-                        "def": 938,
-                        "hp": 7814
-                  },
-                  {
-                        "att": 3158,
-                        "def": 940,
-                        "hp": 7833
-                  },
-                  {
-                        "att": 3166,
-                        "def": 943,
-                        "hp": 7853
-                  },
-                  {
-                        "att": 3174,
-                        "def": 945,
-                        "hp": 7872
-                  },
-                  {
-                        "att": 3182,
-                        "def": 947,
-                        "hp": 7891
-                  },
-                  {
-                        "att": 3190,
-                        "def": 949,
-                        "hp": 7911
-                  },
-                  {
-                        "att": 3198,
-                        "def": 952,
-                        "hp": 7930
-                  },
-                  {
-                        "att": 3206,
-                        "def": 954,
-                        "hp": 7949
-                  },
-                  {
-                        "att": 3214,
-                        "def": 956,
-                        "hp": 7969
-                  },
-                  {
-                        "att": 3221,
-                        "def": 958,
-                        "hp": 7988
-                  },
-                  {
-                        "att": 3229,
-                        "def": 961,
-                        "hp": 8007
-                  },
-                  {
-                        "att": 3237,
-                        "def": 963,
-                        "hp": 8027
-                  },
-                  {
-                        "att": 3245,
-                        "def": 965,
-                        "hp": 8046
-                  },
-                  {
-                        "att": 3253,
-                        "def": 967,
-                        "hp": 8065
-                  },
-                  {
-                        "att": 3261,
-                        "def": 970,
-                        "hp": 8085
-                  },
-                  {
-                        "att": 3269,
-                        "def": 972,
-                        "hp": 8104
-                  },
-                  {
-                        "att": 3277,
-                        "def": 974,
-                        "hp": 8123
-                  },
-                  {
-                        "att": 3285,
-                        "def": 976,
-                        "hp": 8143
-                  },
-                  {
-                        "att": 3293,
-                        "def": 979,
-                        "hp": 8162
-                  },
-                  {
-                        "att": 3301,
-                        "def": 981,
-                        "hp": 8182
-                  },
-                  {
-                        "att": 3309,
-                        "def": 983,
-                        "hp": 8201
-                  }
-            ]
-      }
+ "name": "Frostfire",
+ "faction": "silent hunter",
+ "element_main": "Fire",
+ "element_sub": "Fire",
+ "rarity": "6",
+ "class": "Sniper",
+ "skill": {
+  "name": "Meteor Storm",
+  "cd": "10 Vis",
+  "description": [
+   "Costs 10 Vis to deal 180% damage to 1 selected tile within 3 surrounding clusters and deals 50% Splash damage to 4 tiles in a cross shape around it. Can be cast multiple times each round."
+  ]
+ },
+ "equip": {
+  "name": "Ember Laurel",
+  "passive": "Fiery Heart",
+  "description": [
+   [
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill.",
+    "Gains 5 Vis at the start of every round. Gains an extra 5 Vis when killing a target with an Active Skill."
+   ]
+  ],
+  "introduction": "After Frostfire truly mastered the magic crystal called Heart of Magma, she imbued this long whip with special magical powers, giving her the ability to use this long whip to cast all sorts of fire spells in battle."
+ },
+ "chain": {
+  "name": "Doomsday",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 170% damage to 3 enemies within 2 surrounding clusters. Gains 1 Vis for every enemy hit."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 175% damage to 3 enemies within 3 surrounding clusters. Gains 1 Vis for every enemy hit."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 180% damage to the 3 nearest enemies. Gains 1 Vis for every enemy hit."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Skill is effective to all enemies.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: For every 1 skill is used, increases the skill damage by 10%."
+ ],
+ "ascension": [],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 2681,
+    "def": 806,
+    "hp": 6673
+   },
+   {
+    "att": 2688,
+    "def": 808,
+    "hp": 6692
+   },
+   {
+    "att": 2696,
+    "def": 810,
+    "hp": 6712
+   },
+   {
+    "att": 2704,
+    "def": 812,
+    "hp": 6731
+   },
+   {
+    "att": 2712,
+    "def": 815,
+    "hp": 6751
+   },
+   {
+    "att": 2720,
+    "def": 817,
+    "hp": 6770
+   },
+   {
+    "att": 2728,
+    "def": 819,
+    "hp": 6789
+   },
+   {
+    "att": 2736,
+    "def": 821,
+    "hp": 6809
+   },
+   {
+    "att": 2744,
+    "def": 824,
+    "hp": 6828
+   },
+   {
+    "att": 2752,
+    "def": 826,
+    "hp": 6847
+   },
+   {
+    "att": 2760,
+    "def": 828,
+    "hp": 6867
+   },
+   {
+    "att": 2768,
+    "def": 830,
+    "hp": 6886
+   },
+   {
+    "att": 2776,
+    "def": 833,
+    "hp": 6905
+   },
+   {
+    "att": 2784,
+    "def": 835,
+    "hp": 6925
+   },
+   {
+    "att": 2792,
+    "def": 837,
+    "hp": 6944
+   },
+   {
+    "att": 2800,
+    "def": 839,
+    "hp": 6963
+   },
+   {
+    "att": 2808,
+    "def": 842,
+    "hp": 6983
+   },
+   {
+    "att": 2816,
+    "def": 844,
+    "hp": 7002
+   },
+   {
+    "att": 2824,
+    "def": 846,
+    "hp": 7021
+   },
+   {
+    "att": 2832,
+    "def": 848,
+    "hp": 7041
+   },
+   {
+    "att": 2840,
+    "def": 851,
+    "hp": 7060
+   },
+   {
+    "att": 2848,
+    "def": 853,
+    "hp": 7079
+   },
+   {
+    "att": 2856,
+    "def": 855,
+    "hp": 7099
+   },
+   {
+    "att": 2863,
+    "def": 857,
+    "hp": 7118
+   },
+   {
+    "att": 2871,
+    "def": 860,
+    "hp": 7137
+   },
+   {
+    "att": 2879,
+    "def": 862,
+    "hp": 7157
+   },
+   {
+    "att": 2887,
+    "def": 864,
+    "hp": 7176
+   },
+   {
+    "att": 2895,
+    "def": 866,
+    "hp": 7195
+   },
+   {
+    "att": 2903,
+    "def": 869,
+    "hp": 7215
+   },
+   {
+    "att": 2911,
+    "def": 871,
+    "hp": 7234
+   },
+   {
+    "att": 2919,
+    "def": 873,
+    "hp": 7253
+   },
+   {
+    "att": 2927,
+    "def": 875,
+    "hp": 7273
+   },
+   {
+    "att": 2935,
+    "def": 877,
+    "hp": 7292
+   },
+   {
+    "att": 2943,
+    "def": 880,
+    "hp": 7311
+   },
+   {
+    "att": 2951,
+    "def": 882,
+    "hp": 7331
+   },
+   {
+    "att": 2959,
+    "def": 884,
+    "hp": 7350
+   },
+   {
+    "att": 2967,
+    "def": 886,
+    "hp": 7369
+   },
+   {
+    "att": 2975,
+    "def": 889,
+    "hp": 7389
+   },
+   {
+    "att": 2983,
+    "def": 891,
+    "hp": 7408
+   },
+   {
+    "att": 2991,
+    "def": 893,
+    "hp": 7427
+   },
+   {
+    "att": 2999,
+    "def": 895,
+    "hp": 7447
+   },
+   {
+    "att": 3007,
+    "def": 898,
+    "hp": 7466
+   },
+   {
+    "att": 3015,
+    "def": 900,
+    "hp": 7485
+   },
+   {
+    "att": 3023,
+    "def": 902,
+    "hp": 7505
+   },
+   {
+    "att": 3031,
+    "def": 904,
+    "hp": 7524
+   },
+   {
+    "att": 3039,
+    "def": 907,
+    "hp": 7543
+   },
+   {
+    "att": 3046,
+    "def": 909,
+    "hp": 7563
+   },
+   {
+    "att": 3054,
+    "def": 911,
+    "hp": 7582
+   },
+   {
+    "att": 3062,
+    "def": 913,
+    "hp": 7601
+   },
+   {
+    "att": 3070,
+    "def": 916,
+    "hp": 7621
+   },
+   {
+    "att": 3078,
+    "def": 918,
+    "hp": 7640
+   },
+   {
+    "att": 3086,
+    "def": 920,
+    "hp": 7659
+   },
+   {
+    "att": 3094,
+    "def": 922,
+    "hp": 7679
+   },
+   {
+    "att": 3102,
+    "def": 925,
+    "hp": 7698
+   },
+   {
+    "att": 3110,
+    "def": 927,
+    "hp": 7717
+   },
+   {
+    "att": 3118,
+    "def": 929,
+    "hp": 7737
+   },
+   {
+    "att": 3126,
+    "def": 931,
+    "hp": 7756
+   },
+   {
+    "att": 3134,
+    "def": 934,
+    "hp": 7775
+   },
+   {
+    "att": 3142,
+    "def": 936,
+    "hp": 7795
+   },
+   {
+    "att": 3150,
+    "def": 938,
+    "hp": 7814
+   },
+   {
+    "att": 3158,
+    "def": 940,
+    "hp": 7833
+   },
+   {
+    "att": 3166,
+    "def": 943,
+    "hp": 7853
+   },
+   {
+    "att": 3174,
+    "def": 945,
+    "hp": 7872
+   },
+   {
+    "att": 3182,
+    "def": 947,
+    "hp": 7891
+   },
+   {
+    "att": 3190,
+    "def": 949,
+    "hp": 7911
+   },
+   {
+    "att": 3198,
+    "def": 952,
+    "hp": 7930
+   },
+   {
+    "att": 3206,
+    "def": 954,
+    "hp": 7949
+   },
+   {
+    "att": 3214,
+    "def": 956,
+    "hp": 7969
+   },
+   {
+    "att": 3221,
+    "def": 958,
+    "hp": 7988
+   },
+   {
+    "att": 3229,
+    "def": 961,
+    "hp": 8007
+   },
+   {
+    "att": 3237,
+    "def": 963,
+    "hp": 8027
+   },
+   {
+    "att": 3245,
+    "def": 965,
+    "hp": 8046
+   },
+   {
+    "att": 3253,
+    "def": 967,
+    "hp": 8065
+   },
+   {
+    "att": 3261,
+    "def": 970,
+    "hp": 8085
+   },
+   {
+    "att": 3269,
+    "def": 972,
+    "hp": 8104
+   },
+   {
+    "att": 3277,
+    "def": 974,
+    "hp": 8123
+   },
+   {
+    "att": 3285,
+    "def": 976,
+    "hp": 8143
+   },
+   {
+    "att": 3293,
+    "def": 979,
+    "hp": 8162
+   },
+   {
+    "att": 3301,
+    "def": 981,
+    "hp": 8182
+   },
+   {
+    "att": 3309,
+    "def": 983,
+    "hp": 8201
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "According to the records, \"Frostfire\" ____ was born in ____, far away from the kingdom. She lost her friends and relatives when the Eclipsites attacked her village, but she managed to awaken the extremely rare fire magic in the far north. She brought warmth to everyone with the power of her flames and protected the village from the Eclipsites. Her strength was soon discovered by ___, who invited her to join them. As she grew older, the power of ____ to control flames also grew stronger. Under the guidance of ____, she trained diligently to control this power and was acknowledged by the military.After repairing and compiling the information we collected, we finally managed to obtain this file. Part of the information is unreadable due to age or intentional damage. Although we won't be able to fully understand the past of this Aurorian... this will help us to gain a deeper understanding of these \"lost heroes.\""
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Under the guidance of ____, ____ was gradually entrusted with important tasks and became an important backbone of the military. When the Eclipsites launched a massive invasion, ____ led a small squad to protect her hometown and resist the Eclipsite invasion, but she was eventually defeated by an army of Eclipsites that outnumbered her forces by more than dozens of times. Her pride was dealt a huge blow by this incident, so she began to seek ways to increase her strength. She accepted the proposal of ____ and chose to become a member of the Silent Hunters."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Faced with the increasingly severe threat of the Eclipsites, ____ kept trying to find ways to become stronger. At this time, ____, who had disappeared for several months, reappeared in front of her and told her about project \"Silent Hunters\". She readily accepted the __ and was confident that her willpower was strong enough that her mind wouldn't be affected by the Darkflow. After accepting it, she believed that she was still the same as usual, except she was more irritable than before. In the decisive battle against the Eclipsites, she joined forces with the other four to expel the Eclipsites from the territory, winning unprecedented recognition and praise. She was proud of her ability to fight for the kingdom and the people.*\"Silent Hunters\" is the name of the modification project and the five heroes."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Undoubtingly, the Darkflow obtained from __ granted Friegson a powerful power that increased slightly whenever it was used, making it increasingly difficult to control. In the battle to eliminate the Eclipsites, Friegson's fighting style gradually became rough and tyrannical. In one battle, she was burned by her own magic because she was upset after arguing with her teammate and forgot to extinguish her flames. After the war ended, rumors about \"____\" started spreading in the army that no longer had an enemy to fight. Friegson also gradually lost control of her emotions and would even lose control and attack others because of trivial things. She was deliberately framed in a later operation, causing __ to be submerged in a sea of flames. Friegson was very remorseful and felt lost about the future. She voluntarily agreed to be chained up and put under trial. At this time, the order of __ was \"______\"."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "It's almost certain that \"he\" is the one who recorded all of this. After all, only he knew so much about the things that happened when I was still young... This is ridiculous! What's the meaning of this? Is this supposed to be my proof of allegiance to my new chief? What a joke... Anyway, this is all over now. I will start a new life on Soroz and search for the meaning of my existence. I hope... I hope his soul can rest in peace."
+  }
+ ],
+ "voice": [
+  "I still don't understand, why... would the heroes who fought for the kingdom be forsaken?",
+  "I'd love to visit the towns you mentioned and see how the residents live and whether they're happy.",
+  "We are the most powerful warriors.",
+  "The dimmer lights have burned out, but I still have all-devouring lava sufficient to destroy them.",
+  "The truth must be covered up so Claymore made the decision... That's why I am furious!",
+  "That stiff Mythos does not know why I burned her and what angered me.",
+  "Is that what the Aurorians have carved out for themselves? Wonderful.",
+  "Stand, onward, face foe, fight, then seek solace in remorse again.",
+  "Is the Colossus with you? Its fate holds much more hope than ours...",
+  "Watch out, don't get close. I'll see you when I am calm.",
+  "What can I do other than fight? I'm merely a weapon, so my answer would probably have to be \"nothing\".",
+  "Why? Why the failure?",
+  "Must quench... the fire...",
+  "Flee!",
+  "Scream!",
+  "No survivors!",
+  "Today is special, in the past or present.",
+  "No, I can handle it myself.",
+  "A hole in the heart stoked with inextinguishable flame... Would you call that a purgatory?",
+  "Can't spark the flame yet.",
+  "Alchemy Stars.",
+  "Only ashen plain awaits when the agony is over for even the hottest flame.",
+  "I accepted the power of darkness to protect. I was confident I would not be changed, only to ultimately become a weapon devoid of emotions.",
+  "This is punishment, for I cannot attain, forgive, realize my death, nor welcome my destruction.",
+  "This is penance, demanding that I shall open my eyes and see what everything has become.",
+  "Because I obliterate what I was supposed to protect, I'm doomed to struggling in a molten quagmire for all eternity.",
+  "I envy her... She's always as cool as a cucumber... Yet I constantly burn without a purpose, immolating my pride, my faith.",
+  "I devoted my life to protecting my country, both as a hunter and a soldier... But what came of it? Inevitably, I became no more than a forsaken pawn.",
+  "Sinners have no right to cry in pain. They can only continue fighting...",
+  "Enough... Let's talk about you. I'd like to forget about my past for a moment.",
+  "The more I dwell, the colder is my heart. The colder it is, however, the hotter the fire burns.",
+  "That day, I destroyed everything--with the wrath of fire.",
+  "\"Fall, fall,\" I saw them hollering... and laughing.",
+  "Fate has been kind to me to be here after thousands of years.",
+  "Can you hear that? Cries in the early morning from afar.",
+  "I hope the time when we never have to fight anymore comes.",
+  "Take your respite. You've done enough. The battle's over.",
+  "I don't understand why you saved me. Is it so I can atone for my sins? The memory of the \"Silent Hunters\" should have been forgotten long ago, but I still can't escape it...",
+  "Just put it down over there.",
+  "Thank you for your kindness. I'll take it.",
+  "I don't know what I can offer you.",
+  "I have nothing to repay you with, but... thank you.",
+  "Burn it all down!",
+  "Lament, lament, in the abyss again!",
+  "Destroy all!",
+  "I remember the ashen town on the cold winter night. The sin etched in my heart is irrevocable.",
+  "Perhaps our fate was determined when we decided to join that project... No, I shall not say more.",
+  "I once thought the world will be destroyed soon, but now I realize it will keep going around regardless of who lives or dies... I was truly foolish.",
+  "Leave me alone."
+ ],
+ "description": "Banished ancient hero. Transformed and gained great power, but caused a disaster from not being able to control it, and still wallows in guilt to this day.",
+ "realName": "Friegson",
+ "gender": "Female",
+ "height": "5'4''",
+ "birthday": "August 15",
+ "birthplace": "Unknown",
+ "style": "Heart of Magma"
 }

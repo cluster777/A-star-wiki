@@ -1,0 +1,880 @@
+{
+ "title": "The Weight of Words",
+ "header": "You take the initiative to persuade the Keating Choir to mind their speaking manners. Sensing how hard you are trying, the children are touched enough to still reject you.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Ever since the Keating Choir arrived, many people have been saying that there's something wrong with the way they talk."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've told everyone that they should just tell the children what they think directly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But everyone says that it's better to keep silent."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Dear adult, how's your mental state coming along?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Why do you look so distracted? Are you talking to yourself?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, I was thinking about something."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was thinking about why you like to mock or make fun of other people all the time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, everyone bears a little grudge even though they haven't said anything to you."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "The troubled adults are losing their hair\u266a"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not losing my hair because of stress! Don't make things up!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Either way, you are always ignoring others and say strange things without any regard for others."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You shouldn't act like that. At the very least, I hope that you can listen to what others are saying when you communicate with them."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "It's so tough to be you. You're always thinking about things. You don't see a way out when you look up, and you don't see the road on the ground when you look down."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's why I keep saying that it's so tiring talking to you..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "I don't even know which one of you is talking.",
+     "link": "1"
+    },
+    {
+     "text": "I don't understand.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Niel:",
+     "dialogue": "You should know our names."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "But we factor in your response time."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "That's why we say things line by line."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "To give you a chance."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "You'll be trying your best from now on, right? Do you still need us to take care of you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can sense the mockery in how you said \"Take care\"."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "When adults ask a question, of course we need to answer it."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Surely you would understand what we're saying. You would, wouldn't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Forget it. Let's change the topic. What was that about bringing me a gift?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, you've sent me so many messages and they're all over the place. I can barely understand them."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "How can you so quickly leave the unsolved question behind?"
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "And turn to think about the more important gift?"
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But before we bring this gift to you..."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "We want to ask you if you can communicate properly with people."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Hold on, are you sure you're not getting it the other way round?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I was clearly telling you before that...",
+     "link": "4"
+    },
+    {
+     "text": "Forget it, just pretend I didn't say anything.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What did you mean by \"you don't see the road on the ground when you look down\"?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Surely you know that it's easy to trip over if you don't watch where you're going."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you referring to how I almost tripped over when I walked over here? Fine..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then what did you mean by \"You don't see a way out when you look up\"?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Well, have you come up with any good ideas yet?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you mean by that?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "It means you must have had it tough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As I expected, you do explain, but you actually have no intention of making it clear to others, right?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "When adults ask a question, of course we need to answer it."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Surely you would understand what we're saying. You would, wouldn't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Forget it. Let's change the topic. What was that about bringing me a gift?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, you've sent me so many messages and they're all over the place. I can barely understand them."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "How can you so quickly leave the unsolved question behind?"
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "And turn to think about the more important gift?"
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But before we bring this gift to you..."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "We want to ask you if you can communicate properly with people."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Hold on, are you sure you're not getting it the other way round?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I was clearly telling you before that...",
+     "link": "4"
+    },
+    {
+     "text": "Forget it, just pretend I didn't say anything.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Keating Choir:",
+     "dialogue": "When adults ask a question, of course we need to answer it."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Surely you would understand what we're saying. You would, wouldn't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Forget it. Let's change the topic. What was that about bringing me a gift?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, you've sent me so many messages and they're all over the place. I can barely understand them."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "How can you so quickly leave the unsolved question behind?"
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "And turn to think about the more important gift?"
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But before we bring this gift to you..."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "We want to ask you if you can communicate properly with people."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm? Hold on, are you sure you're not getting it the other way round?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I was clearly telling you before that...",
+     "link": "4"
+    },
+    {
+     "text": "Forget it, just pretend I didn't say anything.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I hope you can communicate properly with others."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "We use the same language."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "How can the adults possibly not understand what we're saying?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I..."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think your words usually have any weight to them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you suddenly asking me questions instead? You've even interrupted me..."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Have you forgotten your troubles?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although I've suggested everyone to just tell the children what they think directly.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But everyone says that it's better to keep silent.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Did I say that by mistake just then?"
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "Yup, but we'll take care of you."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "You said that some people aren't happy with us."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "You proposed a solution to this."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But the other adults rejected it."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "So, you decided to tell us about it on behalf of everyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, I didn't take it as everyone rejecting my proposal, nor does it have anything to do with the weight of my words."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Dear, please answer my question. Do you think your words usually have any weight to them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Of course they do!",
+     "link": "7"
+    },
+    {
+     "text": "Of course I can answer that... they don't.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Kara:",
+     "dialogue": "I didn't expect you to get confused so quickly that you can't even express yourself properly."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "You said something and then denied it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was just..."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think your words usually have any weight to them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you suddenly asking me questions instead? You've even interrupted me..."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Have you forgotten your troubles?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although I've suggested everyone to just tell the children what they think directly.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But everyone says that it's better to keep silent.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Did I say that by mistake just then?"
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "Yup, but we'll take care of you."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "You said that some people aren't happy with us."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "You proposed a solution to this."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But the other adults rejected it."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "So, you decided to tell us about it on behalf of everyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, I didn't take it as everyone rejecting my proposal, nor does it have anything to do with the weight of my words."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Dear, please answer my question. Do you think your words usually have any weight to them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Of course they do!",
+     "link": "7"
+    },
+    {
+     "text": "Of course I can answer that... they don't.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think your words usually have any weight to them?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you suddenly asking me questions instead? You've even interrupted me..."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Have you forgotten your troubles?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Although I've suggested everyone to just tell the children what they think directly.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But everyone says that it's better to keep silent.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? Did I say that by mistake just then?"
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "Yup, but we'll take care of you."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "You said that some people aren't happy with us."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "You proposed a solution to this."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "But the other adults rejected it."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "So, you decided to tell us about it on behalf of everyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, I didn't take it as everyone rejecting my proposal, nor does it have anything to do with the weight of my words."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Dear, please answer my question. Do you think your words usually have any weight to them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Of course they do!",
+     "link": "7"
+    },
+    {
+     "text": "Of course I can answer that... they don't.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Everyone follows my advice in battle!"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Does that have anything to do with the weight of your words? Isn't it just because everyone finds it convenient?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Will you get angry if we say that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not that immature to allow you to anger me so easily. I'm also used to it by now anyway."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "But you said it yourself."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "Many people bear a grudge against us, right?"
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "Do you know why nobody expresses their opinion to us directly like you?"
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "It's for the same reason that we wear our Lumopolis uniform when we sing."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "Holding the holy book and the candlestick."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "Showing everyone our reputation as the Choir."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "So that everyone will let us continue."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "No one will have any objections."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "It's because we have the power and status to let us say whatever we want."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "That's why our snark is tolerated."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fine, like what you said, everyone tolerates you because you're the Choir."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I have no intention of brow-beating you into changing your ways."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just want equal communication."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Because you always do too much talking and not enough listening."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You must balance speaking and listening to achieve fairness."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Guess you're not one of those high mucky-mucks who think they know everything."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "In that case, please accept this gift from us."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Dear Navigator."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "May people always help you."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "May people always bless you."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "This is a blessing from Lumopolis."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "It also represents the Academy's friendship, which we are presenting on its behalf."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, the gift is this blessing? And it's even an ordinary one at that?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do? I don't know why you suddenly said that to me, but I do feel like it's so sweet of you."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "To answer your question."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "This gift may resolve some of your problems."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "You can call it the weight of our words."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "You've been publicly recognized and blessed by the Lumopolis Choir."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "From now on, everyone will see the halo that accompanies this when they look at you."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Your words would be of more importance and you'd attain the fairness you want."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since you've said this, does that mean you're willing to change how you speak? Are you willing to curb the sarcasm and be extra sweet instead?!"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think we would agree? Do you think we will change for you?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do other people have to change just because you ask them to?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think that your idea of a better way really is better?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no! You're not listening to what I'm saying anymore! What happened to the recognition, blessing, and thoughtfulness you showed me just then?!"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "You're so simple\u266b \u266c"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "You're so naive\u266a"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, after all, not even you are willing to listen to me, and you always interrupt..."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Is this how you usually talk? Do you usually get interrupted all the time like this?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Will you get angry if we say that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not that immature to allow you to anger me so easily. I'm also used to it by now anyway."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "But you said it yourself."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "Many people bear a grudge against us, right?"
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "Do you know why nobody expresses their opinion to us directly like you?"
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "It's for the same reason that we wear our Lumopolis uniform when we sing."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "Holding the holy book and the candlestick."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "Showing everyone our reputation as the Choir."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "So that everyone will let us continue."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "No one will have any objections."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "It's because we have the power and status to let us say whatever we want."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "That's why our snark is tolerated."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fine, like what you said, everyone tolerates you because you're the Choir."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I have no intention of brow-beating you into changing your ways."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I just want equal communication."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Because you always do too much talking and not enough listening."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You must balance speaking and listening to achieve fairness."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Guess you're not one of those high mucky-mucks who think they know everything."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "In that case, please accept this gift from us."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "Dear Navigator."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "May people always help you."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "May people always bless you."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "This is a blessing from Lumopolis."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "It also represents the Academy's friendship, which we are presenting on its behalf."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, the gift is this blessing? And it's even an ordinary one at that?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do? I don't know why you suddenly said that to me, but I do feel like it's so sweet of you."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "To answer your question."
+    },
+    {
+     "char": "Niel:",
+     "dialogue": "This gift may resolve some of your problems."
+    },
+    {
+     "char": "Kara:",
+     "dialogue": "You can call it the weight of our words."
+    },
+    {
+     "char": "Pierre:",
+     "dialogue": "You've been publicly recognized and blessed by the Lumopolis Choir."
+    },
+    {
+     "char": "Dian:",
+     "dialogue": "From now on, everyone will see the halo that accompanies this when they look at you."
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Your words would be of more importance and you'd attain the fairness you want."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since you've said this, does that mean you're willing to change how you speak? Are you willing to curb the sarcasm and be extra sweet instead?!"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think we would agree? Do you think we will change for you?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do other people have to change just because you ask them to?"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "Do you think that your idea of a better way really is better?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no, no! You're not listening to what I'm saying anymore! What happened to the recognition, blessing, and thoughtfulness you showed me just then?!"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "You're so simple\u266b \u266c"
+    },
+    {
+     "char": "Keating Choir:",
+     "dialogue": "You're so naive\u266a"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

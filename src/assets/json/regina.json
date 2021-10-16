@@ -1,1153 +1,1391 @@
 {
-      "name": "Regina",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "Thunder",
-      "rarity": "5",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back.",
-                  "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back.",
-                  "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back."
-            ]
-      },
-      "equip": {
-            "name": "Electric Guitar",
-            "passive": "Rad Metal",
-            "description": [
-                  [
-                        "Chain Combos deal up to 40% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 40% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                        "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses."
-                  ],
-                  [
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
-                  ],
-                  [
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
-                        "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 105% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 110% damage to 3 columns."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 105% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 110% damage to 3 columns."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 105% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 110% damage to 3 columns."
-                        },
-                        {
-                              "cost": "14",
-                              "description": "Deals 110% damage to 5 columns."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Chain Combo Enhancement: Reduces combo-triggering tile count by 1.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Flare Powder",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Potion I",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
-                  "after": "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
-            },
-            {
-                  "material": [
-                        "Fire Potion III",
-                        "Fire Crystal",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Keyword",
-                  "before": "",
-                  "after": ""
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 522,
-                        "def": 209,
-                        "hp": 1622
-                  },
-                  {
-                        "att": 533,
-                        "def": 213,
-                        "hp": 1651
-                  },
-                  {
-                        "att": 543,
-                        "def": 216,
-                        "hp": 1680
-                  },
-                  {
-                        "att": 553,
-                        "def": 220,
-                        "hp": 1710
-                  },
-                  {
-                        "att": 564,
-                        "def": 223,
-                        "hp": 1739
-                  },
-                  {
-                        "att": 574,
-                        "def": 227,
-                        "hp": 1768
-                  },
-                  {
-                        "att": 584,
-                        "def": 230,
-                        "hp": 1797
-                  },
-                  {
-                        "att": 595,
-                        "def": 234,
-                        "hp": 1826
-                  },
-                  {
-                        "att": 605,
-                        "def": 238,
-                        "hp": 1856
-                  },
-                  {
-                        "att": 615,
-                        "def": 241,
-                        "hp": 1885
-                  },
-                  {
-                        "att": 625,
-                        "def": 245,
-                        "hp": 1914
-                  },
-                  {
-                        "att": 636,
-                        "def": 248,
-                        "hp": 1943
-                  },
-                  {
-                        "att": 646,
-                        "def": 252,
-                        "hp": 1973
-                  },
-                  {
-                        "att": 656,
-                        "def": 255,
-                        "hp": 2002
-                  },
-                  {
-                        "att": 667,
-                        "def": 259,
-                        "hp": 2031
-                  },
-                  {
-                        "att": 677,
-                        "def": 263,
-                        "hp": 2060
-                  },
-                  {
-                        "att": 687,
-                        "def": 266,
-                        "hp": 2089
-                  },
-                  {
-                        "att": 698,
-                        "def": 270,
-                        "hp": 2119
-                  },
-                  {
-                        "att": 708,
-                        "def": 273,
-                        "hp": 2148
-                  },
-                  {
-                        "att": 718,
-                        "def": 277,
-                        "hp": 2177
-                  },
-                  {
-                        "att": 728,
-                        "def": 280,
-                        "hp": 2206
-                  },
-                  {
-                        "att": 739,
-                        "def": 284,
-                        "hp": 2235
-                  },
-                  {
-                        "att": 749,
-                        "def": 288,
-                        "hp": 2265
-                  },
-                  {
-                        "att": 759,
-                        "def": 291,
-                        "hp": 2294
-                  },
-                  {
-                        "att": 770,
-                        "def": 295,
-                        "hp": 2323
-                  },
-                  {
-                        "att": 780,
-                        "def": 298,
-                        "hp": 2352
-                  },
-                  {
-                        "att": 790,
-                        "def": 302,
-                        "hp": 2382
-                  },
-                  {
-                        "att": 801,
-                        "def": 306,
-                        "hp": 2411
-                  },
-                  {
-                        "att": 811,
-                        "def": 309,
-                        "hp": 2440
-                  },
-                  {
-                        "att": 821,
-                        "def": 313,
-                        "hp": 2469
-                  },
-                  {
-                        "att": 919,
-                        "def": 347,
-                        "hp": 2736
-                  },
-                  {
-                        "att": 932,
-                        "def": 352,
-                        "hp": 2772
-                  },
-                  {
-                        "att": 945,
-                        "def": 356,
-                        "hp": 2809
-                  },
-                  {
-                        "att": 958,
-                        "def": 361,
-                        "hp": 2845
-                  },
-                  {
-                        "att": 971,
-                        "def": 365,
-                        "hp": 2882
-                  },
-                  {
-                        "att": 984,
-                        "def": 369,
-                        "hp": 2918
-                  },
-                  {
-                        "att": 996,
-                        "def": 374,
-                        "hp": 2955
-                  },
-                  {
-                        "att": 1009,
-                        "def": 378,
-                        "hp": 2991
-                  },
-                  {
-                        "att": 1022,
-                        "def": 383,
-                        "hp": 3028
-                  },
-                  {
-                        "att": 1035,
-                        "def": 387,
-                        "hp": 3064
-                  },
-                  {
-                        "att": 1048,
-                        "def": 392,
-                        "hp": 3101
-                  },
-                  {
-                        "att": 1061,
-                        "def": 396,
-                        "hp": 3137
-                  },
-                  {
-                        "att": 1074,
-                        "def": 401,
-                        "hp": 3174
-                  },
-                  {
-                        "att": 1087,
-                        "def": 405,
-                        "hp": 3210
-                  },
-                  {
-                        "att": 1099,
-                        "def": 410,
-                        "hp": 3247
-                  },
-                  {
-                        "att": 1112,
-                        "def": 414,
-                        "hp": 3283
-                  },
-                  {
-                        "att": 1125,
-                        "def": 419,
-                        "hp": 3320
-                  },
-                  {
-                        "att": 1138,
-                        "def": 423,
-                        "hp": 3356
-                  },
-                  {
-                        "att": 1151,
-                        "def": 428,
-                        "hp": 3393
-                  },
-                  {
-                        "att": 1164,
-                        "def": 432,
-                        "hp": 3429
-                  },
-                  {
-                        "att": 1177,
-                        "def": 437,
-                        "hp": 3466
-                  },
-                  {
-                        "att": 1190,
-                        "def": 441,
-                        "hp": 3502
-                  },
-                  {
-                        "att": 1203,
-                        "def": 445,
-                        "hp": 3539
-                  },
-                  {
-                        "att": 1215,
-                        "def": 450,
-                        "hp": 3575
-                  },
-                  {
-                        "att": 1228,
-                        "def": 454,
-                        "hp": 3612
-                  },
-                  {
-                        "att": 1241,
-                        "def": 459,
-                        "hp": 3649
-                  },
-                  {
-                        "att": 1254,
-                        "def": 463,
-                        "hp": 3685
-                  },
-                  {
-                        "att": 1267,
-                        "def": 468,
-                        "hp": 3722
-                  },
-                  {
-                        "att": 1280,
-                        "def": 472,
-                        "hp": 3758
-                  },
-                  {
-                        "att": 1293,
-                        "def": 477,
-                        "hp": 3795
-                  },
-                  {
-                        "att": 1306,
-                        "def": 481,
-                        "hp": 3831
-                  },
-                  {
-                        "att": 1318,
-                        "def": 486,
-                        "hp": 3868
-                  },
-                  {
-                        "att": 1331,
-                        "def": 490,
-                        "hp": 3904
-                  },
-                  {
-                        "att": 1344,
-                        "def": 495,
-                        "hp": 3941
-                  },
-                  {
-                        "att": 1357,
-                        "def": 499,
-                        "hp": 3977
-                  },
-                  {
-                        "att": 1370,
-                        "def": 504,
-                        "hp": 4014
-                  },
-                  {
-                        "att": 1383,
-                        "def": 508,
-                        "hp": 4050
-                  },
-                  {
-                        "att": 1396,
-                        "def": 512,
-                        "hp": 4087
-                  },
-                  {
-                        "att": 1409,
-                        "def": 517,
-                        "hp": 4123
-                  },
-                  {
-                        "att": 1422,
-                        "def": 521,
-                        "hp": 4160
-                  },
-                  {
-                        "att": 1566,
-                        "def": 575,
-                        "hp": 4547
-                  },
-                  {
-                        "att": 1576,
-                        "def": 578,
-                        "hp": 4574
-                  },
-                  {
-                        "att": 1586,
-                        "def": 581,
-                        "hp": 4602
-                  },
-                  {
-                        "att": 1595,
-                        "def": 585,
-                        "hp": 4629
-                  },
-                  {
-                        "att": 1605,
-                        "def": 588,
-                        "hp": 4657
-                  },
-                  {
-                        "att": 1615,
-                        "def": 592,
-                        "hp": 4684
-                  },
-                  {
-                        "att": 1624,
-                        "def": 595,
-                        "hp": 4711
-                  },
-                  {
-                        "att": 1634,
-                        "def": 598,
-                        "hp": 4739
-                  },
-                  {
-                        "att": 1643,
-                        "def": 602,
-                        "hp": 4766
-                  },
-                  {
-                        "att": 1653,
-                        "def": 605,
-                        "hp": 4794
-                  },
-                  {
-                        "att": 1663,
-                        "def": 608,
-                        "hp": 4821
-                  },
-                  {
-                        "att": 1672,
-                        "def": 612,
-                        "hp": 4848
-                  },
-                  {
-                        "att": 1682,
-                        "def": 615,
-                        "hp": 4876
-                  },
-                  {
-                        "att": 1692,
-                        "def": 618,
-                        "hp": 4903
-                  },
-                  {
-                        "att": 1701,
-                        "def": 622,
-                        "hp": 4931
-                  },
-                  {
-                        "att": 1711,
-                        "def": 625,
-                        "hp": 4958
-                  },
-                  {
-                        "att": 1721,
-                        "def": 628,
-                        "hp": 4985
-                  },
-                  {
-                        "att": 1730,
-                        "def": 632,
-                        "hp": 5013
-                  },
-                  {
-                        "att": 1740,
-                        "def": 635,
-                        "hp": 5040
-                  },
-                  {
-                        "att": 1750,
-                        "def": 638,
-                        "hp": 5067
-                  },
-                  {
-                        "att": 1759,
-                        "def": 642,
-                        "hp": 5095
-                  },
-                  {
-                        "att": 1769,
-                        "def": 645,
-                        "hp": 5122
-                  },
-                  {
-                        "att": 1779,
-                        "def": 649,
-                        "hp": 5150
-                  },
-                  {
-                        "att": 1788,
-                        "def": 652,
-                        "hp": 5177
-                  },
-                  {
-                        "att": 1798,
-                        "def": 655,
-                        "hp": 5204
-                  },
-                  {
-                        "att": 1808,
-                        "def": 659,
-                        "hp": 5232
-                  },
-                  {
-                        "att": 1817,
-                        "def": 662,
-                        "hp": 5259
-                  },
-                  {
-                        "att": 1827,
-                        "def": 665,
-                        "hp": 5287
-                  },
-                  {
-                        "att": 1837,
-                        "def": 669,
-                        "hp": 5314
-                  },
-                  {
-                        "att": 1846,
-                        "def": 672,
-                        "hp": 5341
-                  },
-                  {
-                        "att": 1856,
-                        "def": 675,
-                        "hp": 5369
-                  },
-                  {
-                        "att": 1866,
-                        "def": 679,
-                        "hp": 5396
-                  },
-                  {
-                        "att": 1875,
-                        "def": 682,
-                        "hp": 5423
-                  },
-                  {
-                        "att": 1885,
-                        "def": 685,
-                        "hp": 5451
-                  },
-                  {
-                        "att": 1895,
-                        "def": 689,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 1904,
-                        "def": 692,
-                        "hp": 5506
-                  },
-                  {
-                        "att": 1914,
-                        "def": 695,
-                        "hp": 5533
-                  },
-                  {
-                        "att": 1924,
-                        "def": 699,
-                        "hp": 5560
-                  },
-                  {
-                        "att": 1933,
-                        "def": 702,
-                        "hp": 5588
-                  },
-                  {
-                        "att": 1943,
-                        "def": 706,
-                        "hp": 5615
-                  },
-                  {
-                        "att": 1953,
-                        "def": 709,
-                        "hp": 5643
-                  },
-                  {
-                        "att": 1962,
-                        "def": 712,
-                        "hp": 5670
-                  },
-                  {
-                        "att": 1972,
-                        "def": 716,
-                        "hp": 5697
-                  },
-                  {
-                        "att": 1982,
-                        "def": 719,
-                        "hp": 5725
-                  },
-                  {
-                        "att": 1991,
-                        "def": 722,
-                        "hp": 5752
-                  },
-                  {
-                        "att": 2001,
-                        "def": 726,
-                        "hp": 5779
-                  },
-                  {
-                        "att": 2011,
-                        "def": 729,
-                        "hp": 5807
-                  },
-                  {
-                        "att": 2020,
-                        "def": 732,
-                        "hp": 5834
-                  },
-                  {
-                        "att": 2030,
-                        "def": 736,
-                        "hp": 5862
-                  },
-                  {
-                        "att": 2040,
-                        "def": 739,
-                        "hp": 5889
-                  },
-                  {
-                        "att": 2246,
-                        "def": 806,
-                        "hp": 6447
-                  },
-                  {
-                        "att": 2253,
-                        "def": 808,
-                        "hp": 6466
-                  },
-                  {
-                        "att": 2259,
-                        "def": 811,
-                        "hp": 6484
-                  },
-                  {
-                        "att": 2265,
-                        "def": 813,
-                        "hp": 6502
-                  },
-                  {
-                        "att": 2272,
-                        "def": 815,
-                        "hp": 6520
-                  },
-                  {
-                        "att": 2278,
-                        "def": 817,
-                        "hp": 6539
-                  },
-                  {
-                        "att": 2285,
-                        "def": 820,
-                        "hp": 6557
-                  },
-                  {
-                        "att": 2291,
-                        "def": 822,
-                        "hp": 6575
-                  },
-                  {
-                        "att": 2298,
-                        "def": 824,
-                        "hp": 6593
-                  },
-                  {
-                        "att": 2304,
-                        "def": 826,
-                        "hp": 6612
-                  },
-                  {
-                        "att": 2310,
-                        "def": 829,
-                        "hp": 6630
-                  },
-                  {
-                        "att": 2317,
-                        "def": 831,
-                        "hp": 6648
-                  },
-                  {
-                        "att": 2323,
-                        "def": 833,
-                        "hp": 6666
-                  },
-                  {
-                        "att": 2330,
-                        "def": 835,
-                        "hp": 6685
-                  },
-                  {
-                        "att": 2336,
-                        "def": 838,
-                        "hp": 6703
-                  },
-                  {
-                        "att": 2343,
-                        "def": 840,
-                        "hp": 6721
-                  },
-                  {
-                        "att": 2349,
-                        "def": 842,
-                        "hp": 6739
-                  },
-                  {
-                        "att": 2356,
-                        "def": 844,
-                        "hp": 6758
-                  },
-                  {
-                        "att": 2362,
-                        "def": 846,
-                        "hp": 6776
-                  },
-                  {
-                        "att": 2368,
-                        "def": 849,
-                        "hp": 6794
-                  },
-                  {
-                        "att": 2375,
-                        "def": 851,
-                        "hp": 6812
-                  },
-                  {
-                        "att": 2381,
-                        "def": 853,
-                        "hp": 6831
-                  },
-                  {
-                        "att": 2388,
-                        "def": 855,
-                        "hp": 6849
-                  },
-                  {
-                        "att": 2394,
-                        "def": 858,
-                        "hp": 6867
-                  },
-                  {
-                        "att": 2401,
-                        "def": 860,
-                        "hp": 6885
-                  },
-                  {
-                        "att": 2407,
-                        "def": 862,
-                        "hp": 6904
-                  },
-                  {
-                        "att": 2414,
-                        "def": 864,
-                        "hp": 6922
-                  },
-                  {
-                        "att": 2420,
-                        "def": 867,
-                        "hp": 6940
-                  },
-                  {
-                        "att": 2426,
-                        "def": 869,
-                        "hp": 6958
-                  },
-                  {
-                        "att": 2433,
-                        "def": 871,
-                        "hp": 6977
-                  },
-                  {
-                        "att": 2439,
-                        "def": 873,
-                        "hp": 6995
-                  },
-                  {
-                        "att": 2446,
-                        "def": 876,
-                        "hp": 7013
-                  },
-                  {
-                        "att": 2452,
-                        "def": 878,
-                        "hp": 7032
-                  },
-                  {
-                        "att": 2459,
-                        "def": 880,
-                        "hp": 7050
-                  },
-                  {
-                        "att": 2465,
-                        "def": 882,
-                        "hp": 7068
-                  },
-                  {
-                        "att": 2472,
-                        "def": 884,
-                        "hp": 7086
-                  },
-                  {
-                        "att": 2478,
-                        "def": 887,
-                        "hp": 7105
-                  },
-                  {
-                        "att": 2484,
-                        "def": 889,
-                        "hp": 7123
-                  },
-                  {
-                        "att": 2491,
-                        "def": 891,
-                        "hp": 7141
-                  },
-                  {
-                        "att": 2497,
-                        "def": 893,
-                        "hp": 7159
-                  },
-                  {
-                        "att": 2504,
-                        "def": 896,
-                        "hp": 7178
-                  },
-                  {
-                        "att": 2510,
-                        "def": 898,
-                        "hp": 7196
-                  },
-                  {
-                        "att": 2517,
-                        "def": 900,
-                        "hp": 7214
-                  },
-                  {
-                        "att": 2523,
-                        "def": 902,
-                        "hp": 7232
-                  },
-                  {
-                        "att": 2529,
-                        "def": 905,
-                        "hp": 7251
-                  },
-                  {
-                        "att": 2536,
-                        "def": 907,
-                        "hp": 7269
-                  },
-                  {
-                        "att": 2542,
-                        "def": 909,
-                        "hp": 7287
-                  },
-                  {
-                        "att": 2549,
-                        "def": 911,
-                        "hp": 7305
-                  },
-                  {
-                        "att": 2555,
-                        "def": 914,
-                        "hp": 7324
-                  },
-                  {
-                        "att": 2562,
-                        "def": 916,
-                        "hp": 7342
-                  },
-                  {
-                        "att": 2568,
-                        "def": 918,
-                        "hp": 7360
-                  },
-                  {
-                        "att": 2575,
-                        "def": 920,
-                        "hp": 7378
-                  },
-                  {
-                        "att": 2581,
-                        "def": 922,
-                        "hp": 7397
-                  },
-                  {
-                        "att": 2587,
-                        "def": 925,
-                        "hp": 7415
-                  },
-                  {
-                        "att": 2594,
-                        "def": 927,
-                        "hp": 7433
-                  },
-                  {
-                        "att": 2600,
-                        "def": 929,
-                        "hp": 7451
-                  },
-                  {
-                        "att": 2607,
-                        "def": 931,
-                        "hp": 7470
-                  },
-                  {
-                        "att": 2613,
-                        "def": 934,
-                        "hp": 7488
-                  },
-                  {
-                        "att": 2620,
-                        "def": 936,
-                        "hp": 7506
-                  },
-                  {
-                        "att": 2626,
-                        "def": 938,
-                        "hp": 7524
-                  },
-                  {
-                        "att": 2633,
-                        "def": 940,
-                        "hp": 7543
-                  },
-                  {
-                        "att": 2639,
-                        "def": 943,
-                        "hp": 7561
-                  },
-                  {
-                        "att": 2645,
-                        "def": 945,
-                        "hp": 7579
-                  },
-                  {
-                        "att": 2652,
-                        "def": 947,
-                        "hp": 7597
-                  },
-                  {
-                        "att": 2658,
-                        "def": 949,
-                        "hp": 7616
-                  },
-                  {
-                        "att": 2665,
-                        "def": 952,
-                        "hp": 7634
-                  },
-                  {
-                        "att": 2671,
-                        "def": 954,
-                        "hp": 7652
-                  },
-                  {
-                        "att": 2678,
-                        "def": 956,
-                        "hp": 7671
-                  },
-                  {
-                        "att": 2684,
-                        "def": 958,
-                        "hp": 7689
-                  },
-                  {
-                        "att": 2691,
-                        "def": 960,
-                        "hp": 7707
-                  },
-                  {
-                        "att": 2697,
-                        "def": 963,
-                        "hp": 7725
-                  },
-                  {
-                        "att": 2703,
-                        "def": 965,
-                        "hp": 7744
-                  },
-                  {
-                        "att": 2710,
-                        "def": 967,
-                        "hp": 7762
-                  },
-                  {
-                        "att": 2716,
-                        "def": 969,
-                        "hp": 7780
-                  },
-                  {
-                        "att": 2723,
-                        "def": 972,
-                        "hp": 7798
-                  },
-                  {
-                        "att": 2729,
-                        "def": 974,
-                        "hp": 7817
-                  },
-                  {
-                        "att": 2736,
-                        "def": 976,
-                        "hp": 7835
-                  },
-                  {
-                        "att": 2742,
-                        "def": 978,
-                        "hp": 7853
-                  },
-                  {
-                        "att": 2748,
-                        "def": 981,
-                        "hp": 7871
-                  },
-                  {
-                        "att": 2755,
-                        "def": 983,
-                        "hp": 7890
-                  }
-            ]
-      }
+ "name": "Regina",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "Thunder",
+ "rarity": "5",
+ "class": "Detonator",
+ "skill": {
+  "name": "Final Note",
+  "cd": "4 Turn",
+  "description": [
+   "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back.",
+   "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back.",
+   "The Solar Storm explodes, dealing 350% damage to all enemies on the field and knocking enemies back."
+  ]
+ },
+ "equip": {
+  "name": "Electric Guitar",
+  "passive": "Rad Metal",
+  "description": [
+   [
+    "Chain Combos deal up to 40% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 40% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 60% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 80% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+    "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses."
+   ],
+   [
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
+   ],
+   [
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 40%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 60%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 80%). A distance beyond 3 clusters offers no damage bonuses.",
+    "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
+   ]
+  ],
+  "introduction": "This electric guitar was discovered deep in the desert by members of the Rediesel Wrench. At first, it was just discarded in the corner of a truck, but after Regina joined the Rediesel Wrenches, she soon found that this electric guitar was perfectly in tune with her own music style, and it enabled her to unleash her inner strength."
+ },
+ "chain": {
+  "name": "Solo Requiem",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 105% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 110% damage to 3 columns."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 105% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 110% damage to 3 columns."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 105% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 110% damage to 3 columns."
+    },
+    {
+     "cost": "14",
+     "description": "Deals 110% damage to 5 columns."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Chain Combo Enhancement: Reduces combo-triggering tile count by 1.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Flare Powder",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Potion I",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Chain Combos deal up to 100% increased damage. The closer the enemies are, the higher the damage. A distance beyond 3 tiles offers no damage bonuses.",
+   "after": "The closer the enemies are, the higher the damage of active skills and chain combos (up to 100%). A distance beyond 3 clusters offers no damage bonuses."
+  },
+  {
+   "material": [
+    "Fire Potion III",
+    "Fire Crystal",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Keyword",
+   "before": "",
+   "after": ""
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 522,
+    "def": 209,
+    "hp": 1622
+   },
+   {
+    "att": 533,
+    "def": 213,
+    "hp": 1651
+   },
+   {
+    "att": 543,
+    "def": 216,
+    "hp": 1680
+   },
+   {
+    "att": 553,
+    "def": 220,
+    "hp": 1710
+   },
+   {
+    "att": 564,
+    "def": 223,
+    "hp": 1739
+   },
+   {
+    "att": 574,
+    "def": 227,
+    "hp": 1768
+   },
+   {
+    "att": 584,
+    "def": 230,
+    "hp": 1797
+   },
+   {
+    "att": 595,
+    "def": 234,
+    "hp": 1826
+   },
+   {
+    "att": 605,
+    "def": 238,
+    "hp": 1856
+   },
+   {
+    "att": 615,
+    "def": 241,
+    "hp": 1885
+   },
+   {
+    "att": 625,
+    "def": 245,
+    "hp": 1914
+   },
+   {
+    "att": 636,
+    "def": 248,
+    "hp": 1943
+   },
+   {
+    "att": 646,
+    "def": 252,
+    "hp": 1973
+   },
+   {
+    "att": 656,
+    "def": 255,
+    "hp": 2002
+   },
+   {
+    "att": 667,
+    "def": 259,
+    "hp": 2031
+   },
+   {
+    "att": 677,
+    "def": 263,
+    "hp": 2060
+   },
+   {
+    "att": 687,
+    "def": 266,
+    "hp": 2089
+   },
+   {
+    "att": 698,
+    "def": 270,
+    "hp": 2119
+   },
+   {
+    "att": 708,
+    "def": 273,
+    "hp": 2148
+   },
+   {
+    "att": 718,
+    "def": 277,
+    "hp": 2177
+   },
+   {
+    "att": 728,
+    "def": 280,
+    "hp": 2206
+   },
+   {
+    "att": 739,
+    "def": 284,
+    "hp": 2235
+   },
+   {
+    "att": 749,
+    "def": 288,
+    "hp": 2265
+   },
+   {
+    "att": 759,
+    "def": 291,
+    "hp": 2294
+   },
+   {
+    "att": 770,
+    "def": 295,
+    "hp": 2323
+   },
+   {
+    "att": 780,
+    "def": 298,
+    "hp": 2352
+   },
+   {
+    "att": 790,
+    "def": 302,
+    "hp": 2382
+   },
+   {
+    "att": 801,
+    "def": 306,
+    "hp": 2411
+   },
+   {
+    "att": 811,
+    "def": 309,
+    "hp": 2440
+   },
+   {
+    "att": 821,
+    "def": 313,
+    "hp": 2469
+   },
+   {
+    "att": 919,
+    "def": 347,
+    "hp": 2736
+   },
+   {
+    "att": 932,
+    "def": 352,
+    "hp": 2772
+   },
+   {
+    "att": 945,
+    "def": 356,
+    "hp": 2809
+   },
+   {
+    "att": 958,
+    "def": 361,
+    "hp": 2845
+   },
+   {
+    "att": 971,
+    "def": 365,
+    "hp": 2882
+   },
+   {
+    "att": 984,
+    "def": 369,
+    "hp": 2918
+   },
+   {
+    "att": 996,
+    "def": 374,
+    "hp": 2955
+   },
+   {
+    "att": 1009,
+    "def": 378,
+    "hp": 2991
+   },
+   {
+    "att": 1022,
+    "def": 383,
+    "hp": 3028
+   },
+   {
+    "att": 1035,
+    "def": 387,
+    "hp": 3064
+   },
+   {
+    "att": 1048,
+    "def": 392,
+    "hp": 3101
+   },
+   {
+    "att": 1061,
+    "def": 396,
+    "hp": 3137
+   },
+   {
+    "att": 1074,
+    "def": 401,
+    "hp": 3174
+   },
+   {
+    "att": 1087,
+    "def": 405,
+    "hp": 3210
+   },
+   {
+    "att": 1099,
+    "def": 410,
+    "hp": 3247
+   },
+   {
+    "att": 1112,
+    "def": 414,
+    "hp": 3283
+   },
+   {
+    "att": 1125,
+    "def": 419,
+    "hp": 3320
+   },
+   {
+    "att": 1138,
+    "def": 423,
+    "hp": 3356
+   },
+   {
+    "att": 1151,
+    "def": 428,
+    "hp": 3393
+   },
+   {
+    "att": 1164,
+    "def": 432,
+    "hp": 3429
+   },
+   {
+    "att": 1177,
+    "def": 437,
+    "hp": 3466
+   },
+   {
+    "att": 1190,
+    "def": 441,
+    "hp": 3502
+   },
+   {
+    "att": 1203,
+    "def": 445,
+    "hp": 3539
+   },
+   {
+    "att": 1215,
+    "def": 450,
+    "hp": 3575
+   },
+   {
+    "att": 1228,
+    "def": 454,
+    "hp": 3612
+   },
+   {
+    "att": 1241,
+    "def": 459,
+    "hp": 3649
+   },
+   {
+    "att": 1254,
+    "def": 463,
+    "hp": 3685
+   },
+   {
+    "att": 1267,
+    "def": 468,
+    "hp": 3722
+   },
+   {
+    "att": 1280,
+    "def": 472,
+    "hp": 3758
+   },
+   {
+    "att": 1293,
+    "def": 477,
+    "hp": 3795
+   },
+   {
+    "att": 1306,
+    "def": 481,
+    "hp": 3831
+   },
+   {
+    "att": 1318,
+    "def": 486,
+    "hp": 3868
+   },
+   {
+    "att": 1331,
+    "def": 490,
+    "hp": 3904
+   },
+   {
+    "att": 1344,
+    "def": 495,
+    "hp": 3941
+   },
+   {
+    "att": 1357,
+    "def": 499,
+    "hp": 3977
+   },
+   {
+    "att": 1370,
+    "def": 504,
+    "hp": 4014
+   },
+   {
+    "att": 1383,
+    "def": 508,
+    "hp": 4050
+   },
+   {
+    "att": 1396,
+    "def": 512,
+    "hp": 4087
+   },
+   {
+    "att": 1409,
+    "def": 517,
+    "hp": 4123
+   },
+   {
+    "att": 1422,
+    "def": 521,
+    "hp": 4160
+   },
+   {
+    "att": 1566,
+    "def": 575,
+    "hp": 4547
+   },
+   {
+    "att": 1576,
+    "def": 578,
+    "hp": 4574
+   },
+   {
+    "att": 1586,
+    "def": 581,
+    "hp": 4602
+   },
+   {
+    "att": 1595,
+    "def": 585,
+    "hp": 4629
+   },
+   {
+    "att": 1605,
+    "def": 588,
+    "hp": 4657
+   },
+   {
+    "att": 1615,
+    "def": 592,
+    "hp": 4684
+   },
+   {
+    "att": 1624,
+    "def": 595,
+    "hp": 4711
+   },
+   {
+    "att": 1634,
+    "def": 598,
+    "hp": 4739
+   },
+   {
+    "att": 1643,
+    "def": 602,
+    "hp": 4766
+   },
+   {
+    "att": 1653,
+    "def": 605,
+    "hp": 4794
+   },
+   {
+    "att": 1663,
+    "def": 608,
+    "hp": 4821
+   },
+   {
+    "att": 1672,
+    "def": 612,
+    "hp": 4848
+   },
+   {
+    "att": 1682,
+    "def": 615,
+    "hp": 4876
+   },
+   {
+    "att": 1692,
+    "def": 618,
+    "hp": 4903
+   },
+   {
+    "att": 1701,
+    "def": 622,
+    "hp": 4931
+   },
+   {
+    "att": 1711,
+    "def": 625,
+    "hp": 4958
+   },
+   {
+    "att": 1721,
+    "def": 628,
+    "hp": 4985
+   },
+   {
+    "att": 1730,
+    "def": 632,
+    "hp": 5013
+   },
+   {
+    "att": 1740,
+    "def": 635,
+    "hp": 5040
+   },
+   {
+    "att": 1750,
+    "def": 638,
+    "hp": 5067
+   },
+   {
+    "att": 1759,
+    "def": 642,
+    "hp": 5095
+   },
+   {
+    "att": 1769,
+    "def": 645,
+    "hp": 5122
+   },
+   {
+    "att": 1779,
+    "def": 649,
+    "hp": 5150
+   },
+   {
+    "att": 1788,
+    "def": 652,
+    "hp": 5177
+   },
+   {
+    "att": 1798,
+    "def": 655,
+    "hp": 5204
+   },
+   {
+    "att": 1808,
+    "def": 659,
+    "hp": 5232
+   },
+   {
+    "att": 1817,
+    "def": 662,
+    "hp": 5259
+   },
+   {
+    "att": 1827,
+    "def": 665,
+    "hp": 5287
+   },
+   {
+    "att": 1837,
+    "def": 669,
+    "hp": 5314
+   },
+   {
+    "att": 1846,
+    "def": 672,
+    "hp": 5341
+   },
+   {
+    "att": 1856,
+    "def": 675,
+    "hp": 5369
+   },
+   {
+    "att": 1866,
+    "def": 679,
+    "hp": 5396
+   },
+   {
+    "att": 1875,
+    "def": 682,
+    "hp": 5423
+   },
+   {
+    "att": 1885,
+    "def": 685,
+    "hp": 5451
+   },
+   {
+    "att": 1895,
+    "def": 689,
+    "hp": 5478
+   },
+   {
+    "att": 1904,
+    "def": 692,
+    "hp": 5506
+   },
+   {
+    "att": 1914,
+    "def": 695,
+    "hp": 5533
+   },
+   {
+    "att": 1924,
+    "def": 699,
+    "hp": 5560
+   },
+   {
+    "att": 1933,
+    "def": 702,
+    "hp": 5588
+   },
+   {
+    "att": 1943,
+    "def": 706,
+    "hp": 5615
+   },
+   {
+    "att": 1953,
+    "def": 709,
+    "hp": 5643
+   },
+   {
+    "att": 1962,
+    "def": 712,
+    "hp": 5670
+   },
+   {
+    "att": 1972,
+    "def": 716,
+    "hp": 5697
+   },
+   {
+    "att": 1982,
+    "def": 719,
+    "hp": 5725
+   },
+   {
+    "att": 1991,
+    "def": 722,
+    "hp": 5752
+   },
+   {
+    "att": 2001,
+    "def": 726,
+    "hp": 5779
+   },
+   {
+    "att": 2011,
+    "def": 729,
+    "hp": 5807
+   },
+   {
+    "att": 2020,
+    "def": 732,
+    "hp": 5834
+   },
+   {
+    "att": 2030,
+    "def": 736,
+    "hp": 5862
+   },
+   {
+    "att": 2040,
+    "def": 739,
+    "hp": 5889
+   },
+   {
+    "att": 2246,
+    "def": 806,
+    "hp": 6447
+   },
+   {
+    "att": 2253,
+    "def": 808,
+    "hp": 6466
+   },
+   {
+    "att": 2259,
+    "def": 811,
+    "hp": 6484
+   },
+   {
+    "att": 2265,
+    "def": 813,
+    "hp": 6502
+   },
+   {
+    "att": 2272,
+    "def": 815,
+    "hp": 6520
+   },
+   {
+    "att": 2278,
+    "def": 817,
+    "hp": 6539
+   },
+   {
+    "att": 2285,
+    "def": 820,
+    "hp": 6557
+   },
+   {
+    "att": 2291,
+    "def": 822,
+    "hp": 6575
+   },
+   {
+    "att": 2298,
+    "def": 824,
+    "hp": 6593
+   },
+   {
+    "att": 2304,
+    "def": 826,
+    "hp": 6612
+   },
+   {
+    "att": 2310,
+    "def": 829,
+    "hp": 6630
+   },
+   {
+    "att": 2317,
+    "def": 831,
+    "hp": 6648
+   },
+   {
+    "att": 2323,
+    "def": 833,
+    "hp": 6666
+   },
+   {
+    "att": 2330,
+    "def": 835,
+    "hp": 6685
+   },
+   {
+    "att": 2336,
+    "def": 838,
+    "hp": 6703
+   },
+   {
+    "att": 2343,
+    "def": 840,
+    "hp": 6721
+   },
+   {
+    "att": 2349,
+    "def": 842,
+    "hp": 6739
+   },
+   {
+    "att": 2356,
+    "def": 844,
+    "hp": 6758
+   },
+   {
+    "att": 2362,
+    "def": 846,
+    "hp": 6776
+   },
+   {
+    "att": 2368,
+    "def": 849,
+    "hp": 6794
+   },
+   {
+    "att": 2375,
+    "def": 851,
+    "hp": 6812
+   },
+   {
+    "att": 2381,
+    "def": 853,
+    "hp": 6831
+   },
+   {
+    "att": 2388,
+    "def": 855,
+    "hp": 6849
+   },
+   {
+    "att": 2394,
+    "def": 858,
+    "hp": 6867
+   },
+   {
+    "att": 2401,
+    "def": 860,
+    "hp": 6885
+   },
+   {
+    "att": 2407,
+    "def": 862,
+    "hp": 6904
+   },
+   {
+    "att": 2414,
+    "def": 864,
+    "hp": 6922
+   },
+   {
+    "att": 2420,
+    "def": 867,
+    "hp": 6940
+   },
+   {
+    "att": 2426,
+    "def": 869,
+    "hp": 6958
+   },
+   {
+    "att": 2433,
+    "def": 871,
+    "hp": 6977
+   },
+   {
+    "att": 2439,
+    "def": 873,
+    "hp": 6995
+   },
+   {
+    "att": 2446,
+    "def": 876,
+    "hp": 7013
+   },
+   {
+    "att": 2452,
+    "def": 878,
+    "hp": 7032
+   },
+   {
+    "att": 2459,
+    "def": 880,
+    "hp": 7050
+   },
+   {
+    "att": 2465,
+    "def": 882,
+    "hp": 7068
+   },
+   {
+    "att": 2472,
+    "def": 884,
+    "hp": 7086
+   },
+   {
+    "att": 2478,
+    "def": 887,
+    "hp": 7105
+   },
+   {
+    "att": 2484,
+    "def": 889,
+    "hp": 7123
+   },
+   {
+    "att": 2491,
+    "def": 891,
+    "hp": 7141
+   },
+   {
+    "att": 2497,
+    "def": 893,
+    "hp": 7159
+   },
+   {
+    "att": 2504,
+    "def": 896,
+    "hp": 7178
+   },
+   {
+    "att": 2510,
+    "def": 898,
+    "hp": 7196
+   },
+   {
+    "att": 2517,
+    "def": 900,
+    "hp": 7214
+   },
+   {
+    "att": 2523,
+    "def": 902,
+    "hp": 7232
+   },
+   {
+    "att": 2529,
+    "def": 905,
+    "hp": 7251
+   },
+   {
+    "att": 2536,
+    "def": 907,
+    "hp": 7269
+   },
+   {
+    "att": 2542,
+    "def": 909,
+    "hp": 7287
+   },
+   {
+    "att": 2549,
+    "def": 911,
+    "hp": 7305
+   },
+   {
+    "att": 2555,
+    "def": 914,
+    "hp": 7324
+   },
+   {
+    "att": 2562,
+    "def": 916,
+    "hp": 7342
+   },
+   {
+    "att": 2568,
+    "def": 918,
+    "hp": 7360
+   },
+   {
+    "att": 2575,
+    "def": 920,
+    "hp": 7378
+   },
+   {
+    "att": 2581,
+    "def": 922,
+    "hp": 7397
+   },
+   {
+    "att": 2587,
+    "def": 925,
+    "hp": 7415
+   },
+   {
+    "att": 2594,
+    "def": 927,
+    "hp": 7433
+   },
+   {
+    "att": 2600,
+    "def": 929,
+    "hp": 7451
+   },
+   {
+    "att": 2607,
+    "def": 931,
+    "hp": 7470
+   },
+   {
+    "att": 2613,
+    "def": 934,
+    "hp": 7488
+   },
+   {
+    "att": 2620,
+    "def": 936,
+    "hp": 7506
+   },
+   {
+    "att": 2626,
+    "def": 938,
+    "hp": 7524
+   },
+   {
+    "att": 2633,
+    "def": 940,
+    "hp": 7543
+   },
+   {
+    "att": 2639,
+    "def": 943,
+    "hp": 7561
+   },
+   {
+    "att": 2645,
+    "def": 945,
+    "hp": 7579
+   },
+   {
+    "att": 2652,
+    "def": 947,
+    "hp": 7597
+   },
+   {
+    "att": 2658,
+    "def": 949,
+    "hp": 7616
+   },
+   {
+    "att": 2665,
+    "def": 952,
+    "hp": 7634
+   },
+   {
+    "att": 2671,
+    "def": 954,
+    "hp": 7652
+   },
+   {
+    "att": 2678,
+    "def": 956,
+    "hp": 7671
+   },
+   {
+    "att": 2684,
+    "def": 958,
+    "hp": 7689
+   },
+   {
+    "att": 2691,
+    "def": 960,
+    "hp": 7707
+   },
+   {
+    "att": 2697,
+    "def": 963,
+    "hp": 7725
+   },
+   {
+    "att": 2703,
+    "def": 965,
+    "hp": 7744
+   },
+   {
+    "att": 2710,
+    "def": 967,
+    "hp": 7762
+   },
+   {
+    "att": 2716,
+    "def": 969,
+    "hp": 7780
+   },
+   {
+    "att": 2723,
+    "def": 972,
+    "hp": 7798
+   },
+   {
+    "att": 2729,
+    "def": 974,
+    "hp": 7817
+   },
+   {
+    "att": 2736,
+    "def": 976,
+    "hp": 7835
+   },
+   {
+    "att": 2742,
+    "def": 978,
+    "hp": 7853
+   },
+   {
+    "att": 2748,
+    "def": 981,
+    "hp": 7871
+   },
+   {
+    "att": 2755,
+    "def": 983,
+    "hp": 7890
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Regina",
+     "Vice"
+    ],
+    "chat": [
+     {
+      "character": "Regina:",
+      "text": "Crap... I think there's something wrong with my guitar..."
+     },
+     {
+      "character": "Regina:",
+      "text": "Right when I had this great idea for a song in my head... I gotta hurry up and play it!"
+     },
+     {
+      "character": "Vice:",
+      "text": "Hmm? Do you need some help?"
+     },
+     {
+      "character": "Vice:",
+      "text": "If you need to fix your guitar, maybe a musician in Lumopolis can do it for you."
+     },
+     {
+      "character": "Regina:",
+      "text": "Lumopolis?! But I'll forget this song by the time I get back..."
+     },
+     {
+      "character": "Regina:",
+      "text": "I can't wait that long! Here, let me see your bow!"
+     },
+     {
+      "character": "Vice:",
+      "text": "H-Hey!"
+     },
+     {
+      "character": "Vice:",
+      "text": "But only one bowstring..."
+     },
+     {
+      "character": "Regina:",
+      "text": "This should work!"
+     },
+     {
+      "character": "Regina:",
+      "text": "My song's in a single key, anyways!"
+     },
+     {
+      "character": "Vice:",
+      "text": "A-Alright then..."
+     },
+     {
+      "character": "Regina:",
+      "text": "One, two, three, four... *Plays a string of power chords*"
+     },
+     {
+      "character": "Regina:",
+      "text": "Hahaha! This is it, alright!"
+     },
+     {
+      "character": "Vice:",
+      "text": "It sounds a little... Avant-garde."
+     },
+     {
+      "character": "Vice:",
+      "text": "But it still rocks hard!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Barbara",
+     "Regina"
+    ],
+    "chat": [
+     {
+      "character": "Barbara:",
+      "text": "\"Loooove is the color of Rediesel! If you feel the same, let me knoooooow!\""
+     },
+     {
+      "character": "Regina:",
+      "text": "Ooh! Ahh! Unngh!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "\"La-la-loooove! It's all about looooove!\""
+     },
+     {
+      "character": "Regina:",
+      "text": "Scream! Bleed! Die!!!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "(What loud and awful noises...)"
+     },
+     {
+      "character": "Regina:",
+      "text": "(What soulless, cheesy singing...)"
+     },
+     {
+      "character": "Barbara:",
+      "text": "... As I thought! Your tastes... Are truly awful!"
+     },
+     {
+      "character": "Regina:",
+      "text": "What was that?"
+     },
+     {
+      "character": "Barbara:",
+      "text": "Nothiiiing! I said nothiiiing!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "I just think... Not every odd and ugly noise can be called music!"
+     },
+     {
+      "character": "Regina:",
+      "text": "Please, you'd never understand metal anyways."
+     },
+     {
+      "character": "Regina:",
+      "text": "That sappy, lovey-dovey crap is dead and gone. The future of music is all about letting your animal instincts run wild!"
+     },
+     {
+      "character": "Barbara:",
+      "text": "My name may be Barbaraaaaa... But I'm no barbariaaaaaan!"
+     },
+     {
+      "character": "Regina:",
+      "text": "Love songs are dead! Metal lives forever!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "The famous death metal musician Regina has joined us. As expected of the charismatic guitarist of the \"Metal Band\", she has a powerful aura and a bold, unrestrained style. She is in a black trench coat with big leather boots to match her hair that shines with a metallic sheen and pupils with crosses in them! I don't quite get it, but I think this is what rock-and-roll is like!You can always tell how Ms. Regina is feeling by looking at her expression as she is like an open book. Everyone thinks she is a little moody, but agree that she's a good person who tends to act on impulse. As long as she can get along with someone, she can even become friends with her enemies; however, she will ignore even her allies if she can't stand talking to them. This is especially true when it comes to musical style and taste, so be careful about this when you chat with her.As for why she is willing to travel around with us, I remember she said: \"It'll be nice to show everyone the charm of solar metal\". This is rock and roll alright!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "From today onwards, you and I are on the same ship. I hope we can get along well. In my pursuit of rock and roll, I started off with thrash metal and grindcore, then moved on to death metal and solar metal. From my desire to dissect everything and bloody roars, I developed a hot desire and roars that went beyond death. Then I went from satirizing coldness and tyranny to satirizing decadence and hypocrisy. I have now achieved far more than I once expected. My music is free, and I can unleash it freely, so what I need to do now is to unleash myself as much as possible! I'll show everything that lives on this continent the charm of death metal!Hey! Why are you looking at me like that? Do you think that I shouldn't be able to say something so meaningful and deep? Stop talking nonsense. Surrender to my music and become my fan!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Tsk, something disgusting just has to come and ruin my good mood. The Darkover crisis ended ages ago, yet we haven't been able to wipe out those Eclipsites. Don't worry, the Eclipsites will never be able to lay their hands on anyone in the Dunes as long as Rediesel Wrench is here... How was that? Were you looking forward to hearing me say such comforting words? Hahaha! Did you think I would say that? Let me tell you, this situation is simply too common. My performances also come with daily patrol duty anyway, so I would be happy to encounter any Eclipsites. I'll whip out my electric guitar and teach them a lesson! Listen up, you don't need to worry about being attacked by Eclipsites as I'll destroy all of them with my power. You need only worry about losing control and going rampage.Even if you don't understand what I'm saying now, you'll find out eventually. Well, I hope we get along well!"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Hey kid! You look quite listless\u2014wanna listen to a death metal song that will refresh your mind immediately? You don't have to worry about anything since I'm here. My power? It's amazing for sure! It's likely that my electric guitar has killed more Eclipsites than you've seen in your life. The rush I get from killing Eclipsites is second only to the rush I get from death metal! Hahaha!So, you actually remember what I said to you about being careful of going rampage? You might piss your pants in fear if that really happens. Something like that really did happen in the past. Because of that, my brother... You're so annoying! I don't want to talk about this now!Anyway, that shouldn't happen to me now, so you can just trust me!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I'm like this because of the unbridled education methods of my brother. I'm way better than him! At the very least, I have standards, unlike him! But you shouldn't see him that way. In my impression, he always gave me the best things he could.Although it's quite interesting here with Sinsa, I had quite a good time when I was free in the desert with my brother. However, I know that my brother brought me here because of this energy control loop... Even though it's not a big deal even if I die, I hate it when people keep talking about me... Also, my brother wants me to keep living...If that prediction comes true, then my future is set in stone. I'll be sure to let you hear all the death metal you want before I die!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Though they are a band of misfits, clowns, and idiots, only they accept me and my music.",
+  "The grandpas in Lumopolis are like their classical music, monotonous and inflexible.",
+  "Metal forever!",
+  "Charred Eclipsites are one of the best things in the world.",
+  "That idiot is a clown himself. Birds of a feather.",
+  "Jona has good taste in her combat arts and music. I like her!",
+  "The world is pathetic because there's not enough metal!",
+  "I'm sorry, I don't talk to ones who have no taste in metal.",
+  "It must be great to throw a concert on top of its head!",
+  "I just want to wreck that piano.",
+  "Center stage? Humph. The spotlight has always been mine.",
+  "Ha! Interesting... A strong enemy.",
+  "Not rock enough yet! Encore, encore!",
+  "This is where you die!",
+  "Solar! Storm!",
+  "Dare you stare into this blinding light!",
+  "A new storm is arriving!",
+  "I get to do whatever I want now?",
+  "Stay away, if you want to live.",
+  "A golden storm. Isn't it beautiful?",
+  "The last sun will never set!",
+  "I'm bored! Who took my guitar? Oh, he'd better get ready to be scorched...",
+  "Need... more... power...",
+  "Alchemy! Stars!",
+  "Did you listen to Barbara's latest album yet? It's so bad it should be thrown in an incinerator. The band sounds like garbage!",
+  "You really want to chat with me? Fine. What kind of music do you like? You better think it over. I'm not associating myself with someone who has no taste.",
+  "Curious about this power? It's raw power that gets out of control easily, so people keep their distance away...which suits me just fine! Hahahaha!",
+  "Born like the sun, die like the storm! Tremble before the fusing sun!",
+  "Cut to the chase. Where to go next? I can't wait to burn those scums to cinders!",
+  "Master the power, not be a slave to it. No matter what, I am the captain of my own fate.",
+  "That's an interesting bunch of clowns you got there as well. They really remind me of that clown, Sinsa.",
+  "Interesting... I can see there's an ever-burning fire in your eyes too. Maybe your fire is more reckless than mine...",
+  "This sunken land needs a new sun, but it won't be me. Maybe you can be the one...",
+  "Can I, the destroyer, also be a protector?",
+  "Time for metal! Rock on, everyone!",
+  "Don't disturb me when I'm playing music!",
+  "Oh, you think you can control me?",
+  "Huh. I thought you're done already.",
+  "Seriously? You're asking me to do this?",
+  "It's too quiet at night. Unacceptable! Need a lil rock 'n' roll to raise some spirits!",
+  "You're the one? Humph. You might show me something interesting. Don't disappoint me, for your sake, or else...",
+  "No use in trying to please me.",
+  "Nice. How about a VIP concert ticket for you?",
+  "Are you... my number one fan?",
+  "This gift proves that we may have a lot in common!",
+  "It will only take a second!",
+  "Burn in the blazing sun!",
+  "You sure you wanna go that far?",
+  "So what if people criticize my music? Those old farts and their rules are doomed. I'm not gonna waste my breath on them.",
+  "I know what Sinsa is expecting of me\u2014not just the wildfire that sets enemies ablaze, but also a guiding light. I just don't know, nor care, if I can live up to his expectations.",
+  "True strength is the only thing that can win the respect of the Rediesels. However, you've shown me another possibility. Perhaps one day I can live up to my brother's expectations of me.",
+  "Sorry to keep y'all waiting, lads!"
+ ],
+ "skins": [],
+ "description": "Her bold and uninhibited nature, as well as her impulsiveness, are the marks of a true rock n' roll soul! Her fierce musical style made her exceedingly popular within Rediesel Wrench, allowing her to not only inspire troops, but also lead them in a charge.",
+ "realName": "Regina",
+ "nickname": "Solar Storm",
+ "gender": "Female",
+ "height": "5'8''",
+ "birthday": "August 1",
+ "birthplace": "Unknown",
+ "style": "Solar Storm"
 }

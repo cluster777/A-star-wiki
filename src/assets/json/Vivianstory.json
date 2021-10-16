@@ -1,0 +1,1404 @@
+{
+ "title": "Food Tales: Set Meals",
+ "header": "Vivian has prepared a wonderful gift to repay generosity, but are you ready for her kindness?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "A Present?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "That's right. I have a present for you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not necessary, Vivian. We're partners."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Well, can you do me a favor, then?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "What is it?",
+     "link": "1"
+    },
+    {
+     "text": "No problem. Tell me about it.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vivian:",
+     "dialogue": "Something personal, not work related."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean leading operatives..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "No, not fighting, just a trip to Gannon City."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Every time I'm here, I'd marvel at the huge..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "You ought to be marveling at the Chief's ability to manage such a huge undercity!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey now, let's curb the worship, shall we?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I wonder why she hurried back to the office so quickly?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "She must be getting a present ready for the Navigator!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Indeed, the chief has been working hard recently!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Working hard? But she got me here to help out..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "You think the chief needs help?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah, there's that... She did work a lot of overtime and took on many new duties."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes. I heard she even took out some straggling Eclipsites herself."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Is she getting a present ready for Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What is she busy with? She is your Chief of Staff, couldn't she just take whatever she wanted?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No way!"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Is, Is that how you see us? There can be no corrupter in the Illumina Federation!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corrupter? What's that?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Everyone is equal in the Illumina Federation! Resources are allocated based on position and merits!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allocated?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "That means you get a certain amount of provisions every month. Too bad if you run out before then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does everything go through allocation?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes! Food, drink, clothes, essentials... Everything!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Even the Grand Marshal cannot commandeer goods, much less someone as law-abiding as the Chief of Staff!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. It is very different from the Colossus, where we distribute according to needs."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Therefore, the chief must work overtime for your present."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I saw her polishing the blade yesterday. Fighting must tough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then I must thank her for all the effort made on my behalf..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Okay, we're here."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "We're here, Chief!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in. You may leave now."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Welcome! Have you waited long?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. I had a nice time chatting with them."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Thank you for coming to help out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I heard you've been working a lot of overtime. Are you..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Reciprocating?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't give you a gift to get something in return, Vivian."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Speaking of that, I did get a gift for you!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come! Check it out!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't notice this in the pantry... Is it a snack?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, an Illumina Federation specialty, the \"Afternoon Delight Set\". Like it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can't believe such exquisite fare exists in Gannon City..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's a plate of cupcakes, a cheese pudding, and a cup of cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They seem rather sweet."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "You don't like sweets?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not quite that..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Now I'm suddenly worried it might be too sweet...)"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's okay. Why don't you try it first?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's from Vivian, so it should be fine...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "All right, here I go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, the cake!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not overly sweet, and it tastes so rich, like... Mellow goodness!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Glad you like it! Enjoy!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, perfectly hot cappuccino! Yum!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can eat eight more of this pudding!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you mumbling about, Vivian? Are you counting?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes. It took you 5 minutes, 30 seconds to finish them... Did you not like them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "They were delicious!",
+     "link": "4"
+    },
+    {
+     "text": "So yummy!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vivian:",
+     "dialogue": "Aren't you even going to ask what it's for?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's never a problem for me when it comes to you, Vivian!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Thank you for trusting me. Let's head out to Gannon City."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Every time I'm here, I'd marvel at the huge..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "You ought to be marveling at the Chief's ability to manage such a huge undercity!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey now, let's curb the worship, shall we?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I wonder why she hurried back to the office so quickly?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "She must be getting a present ready for the Navigator!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Indeed, the chief has been working hard recently!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Working hard? But she got me here to help out..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "You think the chief needs help?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah, there's that... She did work a lot of overtime and took on many new duties."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes. I heard she even took out some straggling Eclipsites herself."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Is she getting a present ready for Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What is she busy with? She is your Chief of Staff, couldn't she just take whatever she wanted?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No way!"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Is, Is that how you see us? There can be no corrupter in the Illumina Federation!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corrupter? What's that?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Everyone is equal in the Illumina Federation! Resources are allocated based on position and merits!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allocated?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "That means you get a certain amount of provisions every month. Too bad if you run out before then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does everything go through allocation?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes! Food, drink, clothes, essentials... Everything!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Even the Grand Marshal cannot commandeer goods, much less someone as law-abiding as the Chief of Staff!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. It is very different from the Colossus, where we distribute according to needs."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Therefore, the chief must work overtime for your present."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I saw her polishing the blade yesterday. Fighting must tough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then I must thank her for all the effort made on my behalf..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Okay, we're here."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "We're here, Chief!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in. You may leave now."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Welcome! Have you waited long?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. I had a nice time chatting with them."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Thank you for coming to help out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I heard you've been working a lot of overtime. Are you..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Reciprocating?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't give you a gift to get something in return, Vivian."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Speaking of that, I did get a gift for you!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come! Check it out!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't notice this in the pantry... Is it a snack?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, an Illumina Federation specialty, the \"Afternoon Delight Set\". Like it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can't believe such exquisite fare exists in Gannon City..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's a plate of cupcakes, a cheese pudding, and a cup of cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They seem rather sweet."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "You don't like sweets?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not quite that..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Now I'm suddenly worried it might be too sweet...)"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's okay. Why don't you try it first?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's from Vivian, so it should be fine...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "All right, here I go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, the cake!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not overly sweet, and it tastes so rich, like... Mellow goodness!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Glad you like it! Enjoy!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, perfectly hot cappuccino! Yum!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can eat eight more of this pudding!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you mumbling about, Vivian? Are you counting?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes. It took you 5 minutes, 30 seconds to finish them... Did you not like them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "They were delicious!",
+     "link": "4"
+    },
+    {
+     "text": "So yummy!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Every time I'm here, I'd marvel at the huge..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "You ought to be marveling at the Chief's ability to manage such a huge undercity!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey now, let's curb the worship, shall we?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I wonder why she hurried back to the office so quickly?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "She must be getting a present ready for the Navigator!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Indeed, the chief has been working hard recently!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Working hard? But she got me here to help out..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "You think the chief needs help?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah, there's that... She did work a lot of overtime and took on many new duties."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes. I heard she even took out some straggling Eclipsites herself."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Is she getting a present ready for Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What is she busy with? She is your Chief of Staff, couldn't she just take whatever she wanted?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "No way!"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Is, Is that how you see us? There can be no corrupter in the Illumina Federation!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Corrupter? What's that?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Everyone is equal in the Illumina Federation! Resources are allocated based on position and merits!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Allocated?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "That means you get a certain amount of provisions every month. Too bad if you run out before then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Does everything go through allocation?"
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Yes! Food, drink, clothes, essentials... Everything!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Even the Grand Marshal cannot commandeer goods, much less someone as law-abiding as the Chief of Staff!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. It is very different from the Colossus, where we distribute according to needs."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Therefore, the chief must work overtime for your present."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I saw her polishing the blade yesterday. Fighting must tough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then I must thank her for all the effort made on my behalf..."
+    },
+    {
+     "char": "Illumina Soldier A:",
+     "dialogue": "Okay, we're here."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "We're here, Chief!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in. You may leave now."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Welcome! Have you waited long?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. I had a nice time chatting with them."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Thank you for coming to help out."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I heard you've been working a lot of overtime. Are you..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Reciprocating?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't give you a gift to get something in return, Vivian."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Speaking of that, I did get a gift for you!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come! Check it out!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I didn't notice this in the pantry... Is it a snack?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, an Illumina Federation specialty, the \"Afternoon Delight Set\". Like it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can't believe such exquisite fare exists in Gannon City..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's a plate of cupcakes, a cheese pudding, and a cup of cappuccino."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They seem rather sweet."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "You don't like sweets?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, not quite that..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Now I'm suddenly worried it might be too sweet...)"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's okay. Why don't you try it first?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's from Vivian, so it should be fine...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "All right, here I go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa, the cake!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not overly sweet, and it tastes so rich, like... Mellow goodness!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Glad you like it! Enjoy!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow, perfectly hot cappuccino! Yum!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can eat eight more of this pudding!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What are you mumbling about, Vivian? Are you counting?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes. It took you 5 minutes, 30 seconds to finish them... Did you not like them?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "They were delicious!",
+     "link": "4"
+    },
+    {
+     "text": "So yummy!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vivian:",
+     "dialogue": "That sure didn't come across."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? Probably because I'm not good at expressing myself..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "It's okay. Let's continue."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Continue?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "There's another helping."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "This is the Afternoon Delight Set that the Chief ordered."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Just put it down here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this a second helping?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, just for you. Like it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Another helping, eh...",
+     "link": "7"
+    },
+    {
+     "text": "I like it!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You truly get me, Vivian!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Glad you like it. Shall we continue?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Continue?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "There's another helping."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "This is the Afternoon Delight Set that the Chief ordered."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Just put it down here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this a second helping?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, just for you. Like it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Another helping, eh...",
+     "link": "7"
+    },
+    {
+     "text": "I like it!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Continue?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "There's another helping."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Come in."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "This is the Afternoon Delight Set that the Chief ordered."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Just put it down here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this a second helping?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Yes, just for you. Like it?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Another helping, eh...",
+     "link": "7"
+    },
+    {
+     "text": "I like it!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vivian:",
+     "dialogue": "You don't like it? I was right that you forced it down the first time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? No, I do like it, believe me."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Well then, dig in."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Belch* I've finished it all."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Hmm, a bit slower at 6 minutes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What about 6 minutes?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Are you full?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How do I put this... I'd say I'm 70% full."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Terrific. There's a third helping."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Another helping?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The third... is... finished... fortunately..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "What do you mean by fortunately? Hmm, 6 minutes and 15 seconds this time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fortunately, it's not too sweet so I could still take it..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Does that mean you can have more?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Can I say no?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I, I..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "You've still got room right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Umm, uh..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "6 minutes, 30 seconds. I guess fullness does make you slow down. Fifth helping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(No! Damn, I'm so stuffed that I can't even speak!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "V-Vivian! It's the 8th helping. Any more and I'll..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Okay, 8 minutes. That's probably the limit."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm... saved..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "But as full as you were, you still finished a helping in 8 minutes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What is it you're trying to prove?..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Oh, thanks for your cooperation. This is worth working a month of overtime."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-what are you up to?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Getting the Afternoon Delight Set ready for you, of course!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gag... Don't mention that..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Oh, I'm sorry. Please take a break at the barracks downstairs."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you... I'll be leaving now..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Close the door behind you, please!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Vice, Charon, Philyshy, Nemesis..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Free at last! I was almost the first-ever casualty to sweets!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But what's with the four names she rattled off about?..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator! How was the Afternoon Delight Set?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gags*..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Ah... Are you okay?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I'm fine... Oh, other than working overtime for the last month, was there anything going on with Vivian?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Um, I don't think so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Was there anything different about her than before?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah, she said she was on a diet and even swore off her favorite Afternoon Delight Set."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gags*..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even so, she ordered 8 portions today."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah! It's impressive how she tackled overtimes!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I think she wanted to share all eight of these Afternoon Delight Sets with you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gag*... You did that on purpose! Stop mentioning it!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "So, if I guessed right..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, she didn't have any of it. It was all me."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Speaking of that, she would get mad when anyone mentioned about the set in the past month."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "We all thought she was on a diet so it caught us off guard when she put in an order for 8."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "One month... A lot happened in the month."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So the key to the issue is, what happened to Vivian a month ago."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Now that you bring it up, a month ago I, uh, did hear the chief scream."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "When asked, she said she was just upset over a glitch in a plan."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Scream...?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Vivian:",
+     "dialogue": "Looks like you really enjoy sweets!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "That's great. Please continue."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Belch* I've finished it all."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Hmm, a bit slower at 6 minutes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What about 6 minutes?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Are you full?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How do I put this... I'd say I'm 70% full."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Terrific. There's a third helping."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? Another helping?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The third... is... finished... fortunately..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "What do you mean by fortunately? Hmm, 6 minutes and 15 seconds this time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fortunately, it's not too sweet so I could still take it..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Does that mean you can have more?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Can I say no?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I, I..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "You've still got room right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Umm, uh..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "6 minutes, 30 seconds. I guess fullness does make you slow down. Fifth helping!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(No! Damn, I'm so stuffed that I can't even speak!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "V-Vivian! It's the 8th helping. Any more and I'll..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Okay, 8 minutes. That's probably the limit."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm... saved..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "But as full as you were, you still finished a helping in 8 minutes."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What is it you're trying to prove?..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Oh, thanks for your cooperation. This is worth working a month of overtime."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-what are you up to?"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Getting the Afternoon Delight Set ready for you, of course!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gag... Don't mention that..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Oh, I'm sorry. Please take a break at the barracks downstairs."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you... I'll be leaving now..."
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Close the door behind you, please!"
+    },
+    {
+     "char": "Vivian:",
+     "dialogue": "Vice, Charon, Philyshy, Nemesis..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Free at last! I was almost the first-ever casualty to sweets!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But what's with the four names she rattled off about?..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Navigator! How was the Afternoon Delight Set?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gags*..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Ah... Are you okay?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I'm fine... Oh, other than working overtime for the last month, was there anything going on with Vivian?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Um, I don't think so..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Was there anything different about her than before?"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah, she said she was on a diet and even swore off her favorite Afternoon Delight Set."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gags*..."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "...?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even so, she ordered 8 portions today."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Yeah! It's impressive how she tackled overtimes!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "I think she wanted to share all eight of these Afternoon Delight Sets with you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Gag*... You did that on purpose! Stop mentioning it!"
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "So, if I guessed right..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, she didn't have any of it. It was all me."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Speaking of that, she would get mad when anyone mentioned about the set in the past month."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "We all thought she was on a diet so it caught us off guard when she put in an order for 8."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "One month... A lot happened in the month."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So the key to the issue is, what happened to Vivian a month ago."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "Now that you bring it up, a month ago I, uh, did hear the chief scream."
+    },
+    {
+     "char": "Illumina Soldier B:",
+     "dialogue": "When asked, she said she was just upset over a glitch in a plan."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Scream...?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+[
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Navigator, are you free recently?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Me? I guess I am. I'm going to check up on the fireflies later..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Oh, then I won't get in your way."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Well... I'm leaving now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's not too urgent, so I can do it another day. What do you need me for?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Well... I'm leaving now."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "I need you for something."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What is it? Right now?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Yes, come to the Bridge."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "It's not too urgent, so I can do it another day. What do you need me for?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "Oh? Actually, it isn't that important. I just want to find someone to idle with."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It sounds great. I'm feeling a little tired recently and feel like getting some rest too."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Come to the Bridge then!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Oh! Navigator, is everything going well at work recently?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yeah, everything is going great."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I'm dealing with some problems right now."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yeah, everything is going great."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "I'm glad to hear that."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Navigator, feel free to come to me at any time if you have any problems at work."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh? Y-You want to listen to me in therapy?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Not really, all I do is help impatient people slow down."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Remember, you can come to me whenever!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yeah, I'm dealing with some problems right now."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "Don't let them stress you out. Maybe they'll be automatically resolved over the next few days."
+     },
+     {
+      "name": "Navigator:",
+      "content": "... Oh, really?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Of course, everything will be fine."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I guess so..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Navigator, feel free to come to me at any time if you have any problems at work."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh? Y-You want to listen to me in therapy?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Not really, all I do is help impatient people slow down."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Remember, you can come to me whenever!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Ah, the weather is beautiful today! Perfect for coming to see you!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm happy to see you, too!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So what does nice weather have to do with coming to see me...?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm happy to see you, too!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "Want to go to the cage and enjoy the sunlight?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "It's great for your skin!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So you came out to sunbathe today, Gabriel?"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "That's right! I wouldn't have left my room if the weather wasn't so nice..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "See? The sunlight aboard the Colossus is so comfortable... Ahh..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "If I knew it was this comfortable... *Yawns* I would take naps more often... Zzz..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "N-Naps?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "You came on board... Just to take a nap?!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Ha-ha... Maybe... Zzzz..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "There's no way she's asleep..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That was fast!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "So what does nice weather have to do with coming to see me...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "Hee-hee... It has plenty to do with you!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "If the weather is nice, I can sit in the Bird Cage and soak up the sunlight!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That... Doesn't answer my question..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "If it's not nice, I wouldn't even leave my room!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "See? The sunlight aboard the Colossus is so comfortable... Ahh..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "If I knew it was this comfortable... *Yawns* I would take naps more often... Zzz..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "N-Naps?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "You came on board... Just to take a nap?!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Ha-ha... Maybe... Zzzz..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "There's no way she's asleep..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That was fast!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "I can feel some memories coming back to me..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "How strange..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Are they happy memories?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Are they sad or painful memories?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Are they happy memories?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "They don't seem to be."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "These memories... There's no happiness or color in them. How gloomy..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I may not know anything about your painful past, Gabriel... but it's okay now! Everyone on Soroz is here for you, including me!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I may not be any good for fighting... but listening to other people's troubles is what I do best!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Hmm, that's so cute... Thank you."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "But if you ask me, you're the one who needs protecting."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hey, I'm an adult! I'm not a total weakling, you know..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "*Giggles* That's not what I meant. Anyway, just trust in me and everything will be okay!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "*Yawns* Oh, all that talking made me sleepy again..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What, again?! G-Gabriel? Hello?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Are they sad or painful memories?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Gabriel:",
+      "content": "I can't tell, either... These memories are so... Unclear."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "I wouldn't be so calm if it wasn't for the Bird Cage..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I may not know anything about your painful past, Gabriel... but it's okay now! Everyone on Soroz is here for you, including me!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I may not be any good for fighting... but listening to other people's troubles is what I do best!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "Hmm, that's so cute... Thank you."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "But if you ask me, you're the one who needs protecting."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hey, I'm an adult! I'm not a total weakling, you know..."
+     },
+     {
+      "name": "Gabriel:",
+      "content": "*Giggles* That's not what I meant. Anyway, just trust in me and everything will be okay!"
+     },
+     {
+      "name": "Gabriel:",
+      "content": "*Yawns* Oh, all that talking made me sleepy again..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What, again?! G-Gabriel? Hello?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Good afternoon, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hello, Gabriel."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Do you have any plans for the afternoon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nothing important, no..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Then come spend it with me!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "I love the afternoon sun today."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Gabriel. You're awake."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "So, you've already figured out my routine?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah... It's hard not to notice..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Then, allow me to explain myself..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "The weather is too good to sleep in. Sleepiness is for the rainy days."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "But... This is not too bad, either... I'll just go ahead and.."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You'll just go ahead and... fall asleep!?"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "So... sleepy..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Enjoy your nap, Gabriel..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "I just woke up from my nap. I don't feel that sleepy now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You sure can sleep... It's already night-time!"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "I can't help it. The bed feels too comfy."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But you won't be able to sleep at night then..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "That's why I'm here to chat with you."
+   },
+   {
+    "name": "Navigator:",
+    "content": "??? I, I'm gonna sleep first..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Good evening, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, or should we say \"good night\"?"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Huh? It's that late already?"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "I suppose it doesn't matter. The night is young!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Your sleep schedule seems a little... Off."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Good evening. I had a good day today!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Gabriel! What happened today?"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "I didn't work all day. I passed on my jobs for the others to do."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Ah... I wish every day will be as good as this."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What a life..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Gabriel:",
+    "content": "Good evening... Did you know, barley tea can really help you to relax."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Would you like to try some?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is it really a good idea to drink tea so late at night?"
+   },
+   {
+    "name": "Gabriel:",
+    "content": "It'll be fine. I've already gotten enough sleep during the daytime..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Now I can just spend the next couple of hours thinking about my plan for tomorrow."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, I'm going to go to bed..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'll probably have a lot of work to do tomorrow..."
+   },
+   {
+    "name": "Gabriel:",
+    "content": "Oh, that's too bad! Well, good night!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

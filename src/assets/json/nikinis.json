@@ -1,1153 +1,1375 @@
 {
-      "name": "Nikinis",
-      "faction": "Northland",
-      "element_main": "Forest",
-      "element_sub": "Water",
-      "rarity": "6",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Preemptive Turn",
-            "description": [
-                  "Converts 4 nearest Red or Yellow tiles to Green.",
-                  "Converts 4 nearest Red or Yellow tiles to Green.",
-                  "Converts the 4 nearest Red or Yellow tiles to Green (has a chance to generate up to 2 enhanced tiles)."
-            ]
-      },
-      "equip": {
-            "name": "Northland & Lake Mirror",
-            "passive": "Mirror Dimension",
-            "description": [
-                  [
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 40% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 40% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP."
-                  ],
-                  [
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
-                  ],
-                  [
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
-                        "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 135% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 135% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 135% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Increases tile-converting count by 1."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Essence",
-                        "Pine Dew",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP."
-            },
-            {
-                  "material": [
-                        "Forest Potion II",
-                        "Forest Crystal Shard",
-                        "Pine Frost",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP.",
-                  "after": "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
-            },
-            {
-                  "material": [
-                        "Forest Crystal Cluster",
-                        "Forest Flare Rock",
-                        "Tear of Pine",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Converts 4 nearest Red or Yellow tiles to Green.",
-                  "after": "Converts the 4 nearest Red or Yellow tiles to Green (has a chance to generate up to 2 enhanced tiles)."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 489,
-                        "def": 169,
-                        "hp": 1452
-                  },
-                  {
-                        "att": 496,
-                        "def": 171,
-                        "hp": 1474
-                  },
-                  {
-                        "att": 503,
-                        "def": 173,
-                        "hp": 1497
-                  },
-                  {
-                        "att": 510,
-                        "def": 176,
-                        "hp": 1520
-                  },
-                  {
-                        "att": 517,
-                        "def": 178,
-                        "hp": 1542
-                  },
-                  {
-                        "att": 525,
-                        "def": 181,
-                        "hp": 1565
-                  },
-                  {
-                        "att": 532,
-                        "def": 183,
-                        "hp": 1587
-                  },
-                  {
-                        "att": 539,
-                        "def": 185,
-                        "hp": 1610
-                  },
-                  {
-                        "att": 546,
-                        "def": 188,
-                        "hp": 1632
-                  },
-                  {
-                        "att": 554,
-                        "def": 190,
-                        "hp": 1655
-                  },
-                  {
-                        "att": 561,
-                        "def": 193,
-                        "hp": 1678
-                  },
-                  {
-                        "att": 568,
-                        "def": 195,
-                        "hp": 1700
-                  },
-                  {
-                        "att": 575,
-                        "def": 197,
-                        "hp": 1723
-                  },
-                  {
-                        "att": 583,
-                        "def": 200,
-                        "hp": 1745
-                  },
-                  {
-                        "att": 590,
-                        "def": 202,
-                        "hp": 1768
-                  },
-                  {
-                        "att": 597,
-                        "def": 205,
-                        "hp": 1791
-                  },
-                  {
-                        "att": 604,
-                        "def": 207,
-                        "hp": 1813
-                  },
-                  {
-                        "att": 611,
-                        "def": 209,
-                        "hp": 1836
-                  },
-                  {
-                        "att": 619,
-                        "def": 212,
-                        "hp": 1858
-                  },
-                  {
-                        "att": 626,
-                        "def": 214,
-                        "hp": 1881
-                  },
-                  {
-                        "att": 633,
-                        "def": 217,
-                        "hp": 1904
-                  },
-                  {
-                        "att": 640,
-                        "def": 219,
-                        "hp": 1926
-                  },
-                  {
-                        "att": 648,
-                        "def": 221,
-                        "hp": 1949
-                  },
-                  {
-                        "att": 655,
-                        "def": 224,
-                        "hp": 1971
-                  },
-                  {
-                        "att": 662,
-                        "def": 226,
-                        "hp": 1994
-                  },
-                  {
-                        "att": 669,
-                        "def": 229,
-                        "hp": 2016
-                  },
-                  {
-                        "att": 677,
-                        "def": 231,
-                        "hp": 2039
-                  },
-                  {
-                        "att": 684,
-                        "def": 233,
-                        "hp": 2062
-                  },
-                  {
-                        "att": 691,
-                        "def": 236,
-                        "hp": 2084
-                  },
-                  {
-                        "att": 698,
-                        "def": 238,
-                        "hp": 2107
-                  },
-                  {
-                        "att": 792,
-                        "def": 271,
-                        "hp": 2355
-                  },
-                  {
-                        "att": 801,
-                        "def": 274,
-                        "hp": 2383
-                  },
-                  {
-                        "att": 810,
-                        "def": 277,
-                        "hp": 2412
-                  },
-                  {
-                        "att": 819,
-                        "def": 280,
-                        "hp": 2440
-                  },
-                  {
-                        "att": 828,
-                        "def": 283,
-                        "hp": 2468
-                  },
-                  {
-                        "att": 837,
-                        "def": 286,
-                        "hp": 2496
-                  },
-                  {
-                        "att": 846,
-                        "def": 289,
-                        "hp": 2524
-                  },
-                  {
-                        "att": 855,
-                        "def": 292,
-                        "hp": 2553
-                  },
-                  {
-                        "att": 865,
-                        "def": 295,
-                        "hp": 2581
-                  },
-                  {
-                        "att": 874,
-                        "def": 298,
-                        "hp": 2609
-                  },
-                  {
-                        "att": 883,
-                        "def": 301,
-                        "hp": 2637
-                  },
-                  {
-                        "att": 892,
-                        "def": 304,
-                        "hp": 2666
-                  },
-                  {
-                        "att": 901,
-                        "def": 307,
-                        "hp": 2694
-                  },
-                  {
-                        "att": 910,
-                        "def": 310,
-                        "hp": 2722
-                  },
-                  {
-                        "att": 919,
-                        "def": 313,
-                        "hp": 2750
-                  },
-                  {
-                        "att": 928,
-                        "def": 316,
-                        "hp": 2779
-                  },
-                  {
-                        "att": 937,
-                        "def": 319,
-                        "hp": 2807
-                  },
-                  {
-                        "att": 946,
-                        "def": 322,
-                        "hp": 2835
-                  },
-                  {
-                        "att": 955,
-                        "def": 325,
-                        "hp": 2863
-                  },
-                  {
-                        "att": 964,
-                        "def": 328,
-                        "hp": 2892
-                  },
-                  {
-                        "att": 973,
-                        "def": 331,
-                        "hp": 2920
-                  },
-                  {
-                        "att": 982,
-                        "def": 334,
-                        "hp": 2948
-                  },
-                  {
-                        "att": 991,
-                        "def": 337,
-                        "hp": 2976
-                  },
-                  {
-                        "att": 1000,
-                        "def": 340,
-                        "hp": 3004
-                  },
-                  {
-                        "att": 1009,
-                        "def": 343,
-                        "hp": 3033
-                  },
-                  {
-                        "att": 1018,
-                        "def": 346,
-                        "hp": 3061
-                  },
-                  {
-                        "att": 1027,
-                        "def": 349,
-                        "hp": 3089
-                  },
-                  {
-                        "att": 1036,
-                        "def": 352,
-                        "hp": 3117
-                  },
-                  {
-                        "att": 1045,
-                        "def": 355,
-                        "hp": 3146
-                  },
-                  {
-                        "att": 1054,
-                        "def": 358,
-                        "hp": 3174
-                  },
-                  {
-                        "att": 1063,
-                        "def": 361,
-                        "hp": 3202
-                  },
-                  {
-                        "att": 1072,
-                        "def": 364,
-                        "hp": 3230
-                  },
-                  {
-                        "att": 1081,
-                        "def": 367,
-                        "hp": 3259
-                  },
-                  {
-                        "att": 1090,
-                        "def": 370,
-                        "hp": 3287
-                  },
-                  {
-                        "att": 1099,
-                        "def": 373,
-                        "hp": 3315
-                  },
-                  {
-                        "att": 1109,
-                        "def": 376,
-                        "hp": 3343
-                  },
-                  {
-                        "att": 1118,
-                        "def": 379,
-                        "hp": 3372
-                  },
-                  {
-                        "att": 1127,
-                        "def": 382,
-                        "hp": 3400
-                  },
-                  {
-                        "att": 1136,
-                        "def": 385,
-                        "hp": 3428
-                  },
-                  {
-                        "att": 1145,
-                        "def": 388,
-                        "hp": 3456
-                  },
-                  {
-                        "att": 1286,
-                        "def": 441,
-                        "hp": 3817
-                  },
-                  {
-                        "att": 1293,
-                        "def": 443,
-                        "hp": 3839
-                  },
-                  {
-                        "att": 1300,
-                        "def": 445,
-                        "hp": 3860
-                  },
-                  {
-                        "att": 1307,
-                        "def": 447,
-                        "hp": 3881
-                  },
-                  {
-                        "att": 1314,
-                        "def": 450,
-                        "hp": 3902
-                  },
-                  {
-                        "att": 1320,
-                        "def": 452,
-                        "hp": 3923
-                  },
-                  {
-                        "att": 1327,
-                        "def": 454,
-                        "hp": 3944
-                  },
-                  {
-                        "att": 1334,
-                        "def": 456,
-                        "hp": 3966
-                  },
-                  {
-                        "att": 1341,
-                        "def": 459,
-                        "hp": 3987
-                  },
-                  {
-                        "att": 1347,
-                        "def": 461,
-                        "hp": 4008
-                  },
-                  {
-                        "att": 1354,
-                        "def": 463,
-                        "hp": 4029
-                  },
-                  {
-                        "att": 1361,
-                        "def": 465,
-                        "hp": 4050
-                  },
-                  {
-                        "att": 1368,
-                        "def": 468,
-                        "hp": 4072
-                  },
-                  {
-                        "att": 1375,
-                        "def": 470,
-                        "hp": 4093
-                  },
-                  {
-                        "att": 1381,
-                        "def": 472,
-                        "hp": 4114
-                  },
-                  {
-                        "att": 1388,
-                        "def": 474,
-                        "hp": 4135
-                  },
-                  {
-                        "att": 1395,
-                        "def": 477,
-                        "hp": 4156
-                  },
-                  {
-                        "att": 1402,
-                        "def": 479,
-                        "hp": 4177
-                  },
-                  {
-                        "att": 1408,
-                        "def": 481,
-                        "hp": 4199
-                  },
-                  {
-                        "att": 1415,
-                        "def": 483,
-                        "hp": 4220
-                  },
-                  {
-                        "att": 1422,
-                        "def": 486,
-                        "hp": 4241
-                  },
-                  {
-                        "att": 1429,
-                        "def": 488,
-                        "hp": 4262
-                  },
-                  {
-                        "att": 1436,
-                        "def": 490,
-                        "hp": 4283
-                  },
-                  {
-                        "att": 1442,
-                        "def": 492,
-                        "hp": 4304
-                  },
-                  {
-                        "att": 1449,
-                        "def": 495,
-                        "hp": 4326
-                  },
-                  {
-                        "att": 1456,
-                        "def": 497,
-                        "hp": 4347
-                  },
-                  {
-                        "att": 1463,
-                        "def": 499,
-                        "hp": 4368
-                  },
-                  {
-                        "att": 1469,
-                        "def": 501,
-                        "hp": 4389
-                  },
-                  {
-                        "att": 1476,
-                        "def": 504,
-                        "hp": 4410
-                  },
-                  {
-                        "att": 1483,
-                        "def": 506,
-                        "hp": 4432
-                  },
-                  {
-                        "att": 1490,
-                        "def": 508,
-                        "hp": 4453
-                  },
-                  {
-                        "att": 1497,
-                        "def": 510,
-                        "hp": 4474
-                  },
-                  {
-                        "att": 1503,
-                        "def": 513,
-                        "hp": 4495
-                  },
-                  {
-                        "att": 1510,
-                        "def": 515,
-                        "hp": 4516
-                  },
-                  {
-                        "att": 1517,
-                        "def": 517,
-                        "hp": 4537
-                  },
-                  {
-                        "att": 1524,
-                        "def": 519,
-                        "hp": 4559
-                  },
-                  {
-                        "att": 1530,
-                        "def": 522,
-                        "hp": 4580
-                  },
-                  {
-                        "att": 1537,
-                        "def": 524,
-                        "hp": 4601
-                  },
-                  {
-                        "att": 1544,
-                        "def": 526,
-                        "hp": 4622
-                  },
-                  {
-                        "att": 1551,
-                        "def": 528,
-                        "hp": 4643
-                  },
-                  {
-                        "att": 1558,
-                        "def": 531,
-                        "hp": 4664
-                  },
-                  {
-                        "att": 1564,
-                        "def": 533,
-                        "hp": 4686
-                  },
-                  {
-                        "att": 1571,
-                        "def": 535,
-                        "hp": 4707
-                  },
-                  {
-                        "att": 1578,
-                        "def": 537,
-                        "hp": 4728
-                  },
-                  {
-                        "att": 1585,
-                        "def": 540,
-                        "hp": 4749
-                  },
-                  {
-                        "att": 1591,
-                        "def": 542,
-                        "hp": 4770
-                  },
-                  {
-                        "att": 1598,
-                        "def": 544,
-                        "hp": 4792
-                  },
-                  {
-                        "att": 1605,
-                        "def": 546,
-                        "hp": 4813
-                  },
-                  {
-                        "att": 1612,
-                        "def": 549,
-                        "hp": 4834
-                  },
-                  {
-                        "att": 1619,
-                        "def": 551,
-                        "hp": 4855
-                  },
-                  {
-                        "att": 1823,
-                        "def": 617,
-                        "hp": 5379
-                  },
-                  {
-                        "att": 1828,
-                        "def": 619,
-                        "hp": 5393
-                  },
-                  {
-                        "att": 1832,
-                        "def": 620,
-                        "hp": 5407
-                  },
-                  {
-                        "att": 1837,
-                        "def": 622,
-                        "hp": 5422
-                  },
-                  {
-                        "att": 1841,
-                        "def": 623,
-                        "hp": 5436
-                  },
-                  {
-                        "att": 1846,
-                        "def": 625,
-                        "hp": 5450
-                  },
-                  {
-                        "att": 1850,
-                        "def": 626,
-                        "hp": 5464
-                  },
-                  {
-                        "att": 1855,
-                        "def": 628,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 1859,
-                        "def": 629,
-                        "hp": 5492
-                  },
-                  {
-                        "att": 1864,
-                        "def": 631,
-                        "hp": 5506
-                  },
-                  {
-                        "att": 1868,
-                        "def": 632,
-                        "hp": 5520
-                  },
-                  {
-                        "att": 1873,
-                        "def": 634,
-                        "hp": 5534
-                  },
-                  {
-                        "att": 1877,
-                        "def": 635,
-                        "hp": 5549
-                  },
-                  {
-                        "att": 1882,
-                        "def": 637,
-                        "hp": 5563
-                  },
-                  {
-                        "att": 1886,
-                        "def": 638,
-                        "hp": 5577
-                  },
-                  {
-                        "att": 1891,
-                        "def": 640,
-                        "hp": 5591
-                  },
-                  {
-                        "att": 1895,
-                        "def": 641,
-                        "hp": 5605
-                  },
-                  {
-                        "att": 1900,
-                        "def": 643,
-                        "hp": 5619
-                  },
-                  {
-                        "att": 1904,
-                        "def": 644,
-                        "hp": 5633
-                  },
-                  {
-                        "att": 1909,
-                        "def": 646,
-                        "hp": 5647
-                  },
-                  {
-                        "att": 1913,
-                        "def": 647,
-                        "hp": 5662
-                  },
-                  {
-                        "att": 1918,
-                        "def": 649,
-                        "hp": 5676
-                  },
-                  {
-                        "att": 1922,
-                        "def": 650,
-                        "hp": 5690
-                  },
-                  {
-                        "att": 1927,
-                        "def": 652,
-                        "hp": 5704
-                  },
-                  {
-                        "att": 1932,
-                        "def": 653,
-                        "hp": 5718
-                  },
-                  {
-                        "att": 1936,
-                        "def": 655,
-                        "hp": 5732
-                  },
-                  {
-                        "att": 1941,
-                        "def": 656,
-                        "hp": 5746
-                  },
-                  {
-                        "att": 1945,
-                        "def": 658,
-                        "hp": 5760
-                  },
-                  {
-                        "att": 1950,
-                        "def": 659,
-                        "hp": 5774
-                  },
-                  {
-                        "att": 1954,
-                        "def": 661,
-                        "hp": 5789
-                  },
-                  {
-                        "att": 1959,
-                        "def": 662,
-                        "hp": 5803
-                  },
-                  {
-                        "att": 1963,
-                        "def": 664,
-                        "hp": 5817
-                  },
-                  {
-                        "att": 1968,
-                        "def": 665,
-                        "hp": 5831
-                  },
-                  {
-                        "att": 1972,
-                        "def": 667,
-                        "hp": 5845
-                  },
-                  {
-                        "att": 1977,
-                        "def": 668,
-                        "hp": 5859
-                  },
-                  {
-                        "att": 1981,
-                        "def": 670,
-                        "hp": 5873
-                  },
-                  {
-                        "att": 1986,
-                        "def": 671,
-                        "hp": 5887
-                  },
-                  {
-                        "att": 1990,
-                        "def": 673,
-                        "hp": 5902
-                  },
-                  {
-                        "att": 1995,
-                        "def": 674,
-                        "hp": 5916
-                  },
-                  {
-                        "att": 1999,
-                        "def": 676,
-                        "hp": 5930
-                  },
-                  {
-                        "att": 2004,
-                        "def": 677,
-                        "hp": 5944
-                  },
-                  {
-                        "att": 2008,
-                        "def": 679,
-                        "hp": 5958
-                  },
-                  {
-                        "att": 2013,
-                        "def": 680,
-                        "hp": 5972
-                  },
-                  {
-                        "att": 2017,
-                        "def": 682,
-                        "hp": 5986
-                  },
-                  {
-                        "att": 2022,
-                        "def": 683,
-                        "hp": 6000
-                  },
-                  {
-                        "att": 2026,
-                        "def": 685,
-                        "hp": 6014
-                  },
-                  {
-                        "att": 2031,
-                        "def": 686,
-                        "hp": 6029
-                  },
-                  {
-                        "att": 2035,
-                        "def": 688,
-                        "hp": 6043
-                  },
-                  {
-                        "att": 2040,
-                        "def": 689,
-                        "hp": 6057
-                  },
-                  {
-                        "att": 2044,
-                        "def": 691,
-                        "hp": 6071
-                  },
-                  {
-                        "att": 2049,
-                        "def": 692,
-                        "hp": 6085
-                  },
-                  {
-                        "att": 2054,
-                        "def": 694,
-                        "hp": 6099
-                  },
-                  {
-                        "att": 2058,
-                        "def": 695,
-                        "hp": 6113
-                  },
-                  {
-                        "att": 2063,
-                        "def": 697,
-                        "hp": 6127
-                  },
-                  {
-                        "att": 2067,
-                        "def": 698,
-                        "hp": 6142
-                  },
-                  {
-                        "att": 2072,
-                        "def": 700,
-                        "hp": 6156
-                  },
-                  {
-                        "att": 2076,
-                        "def": 701,
-                        "hp": 6170
-                  },
-                  {
-                        "att": 2081,
-                        "def": 703,
-                        "hp": 6184
-                  },
-                  {
-                        "att": 2085,
-                        "def": 704,
-                        "hp": 6198
-                  },
-                  {
-                        "att": 2090,
-                        "def": 706,
-                        "hp": 6212
-                  },
-                  {
-                        "att": 2094,
-                        "def": 707,
-                        "hp": 6226
-                  },
-                  {
-                        "att": 2099,
-                        "def": 709,
-                        "hp": 6240
-                  },
-                  {
-                        "att": 2103,
-                        "def": 710,
-                        "hp": 6255
-                  },
-                  {
-                        "att": 2108,
-                        "def": 712,
-                        "hp": 6269
-                  },
-                  {
-                        "att": 2112,
-                        "def": 713,
-                        "hp": 6283
-                  },
-                  {
-                        "att": 2117,
-                        "def": 715,
-                        "hp": 6297
-                  },
-                  {
-                        "att": 2121,
-                        "def": 717,
-                        "hp": 6311
-                  },
-                  {
-                        "att": 2126,
-                        "def": 718,
-                        "hp": 6325
-                  },
-                  {
-                        "att": 2130,
-                        "def": 720,
-                        "hp": 6339
-                  },
-                  {
-                        "att": 2135,
-                        "def": 721,
-                        "hp": 6353
-                  },
-                  {
-                        "att": 2139,
-                        "def": 723,
-                        "hp": 6367
-                  },
-                  {
-                        "att": 2144,
-                        "def": 724,
-                        "hp": 6382
-                  },
-                  {
-                        "att": 2148,
-                        "def": 726,
-                        "hp": 6396
-                  },
-                  {
-                        "att": 2153,
-                        "def": 727,
-                        "hp": 6410
-                  },
-                  {
-                        "att": 2157,
-                        "def": 729,
-                        "hp": 6424
-                  },
-                  {
-                        "att": 2162,
-                        "def": 730,
-                        "hp": 6438
-                  },
-                  {
-                        "att": 2166,
-                        "def": 732,
-                        "hp": 6452
-                  },
-                  {
-                        "att": 2171,
-                        "def": 733,
-                        "hp": 6466
-                  },
-                  {
-                        "att": 2176,
-                        "def": 735,
-                        "hp": 6480
-                  },
-                  {
-                        "att": 2180,
-                        "def": 736,
-                        "hp": 6495
-                  }
-            ]
-      }
+ "name": "Nikinis",
+ "faction": "Northland",
+ "element_main": "Forest",
+ "element_sub": "Water",
+ "rarity": "6",
+ "class": "Converter",
+ "skill": {
+  "name": "Spring of Utopia",
+  "cd": "2 Preemptive Turn",
+  "description": [
+   "Converts 4 nearest Red or Yellow tiles to Green.",
+   "Converts 4 nearest Red or Yellow tiles to Green.",
+   "Converts the 4 nearest Red or Yellow tiles to Green (has a chance to generate up to 2 enhanced tiles)."
+  ]
+ },
+ "equip": {
+  "name": "Northland & Lake Mirror",
+  "passive": "Mirror Dimension",
+  "description": [
+   [
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 40% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 40% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 60% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 80% increased DEF. The mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP."
+   ],
+   [
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
+   ],
+   [
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 40% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 60% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 80% increased DEF. The Mark disappears once Nikinis loses HP.",
+    "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
+   ]
+  ],
+  "introduction": "This huge mirror is a relic of Northland, which can produce mysterious illusions. Known as the \"Northland Mirror\", it is indispensable to Nikinis. Not only can she use Luminatics to make the mirror float, she can also channel Lumina through the mirror and her flowers to destroy her opponents in battle."
+ },
+ "chain": {
+  "name": "Mirrorspeak",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 135% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 135% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 135% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Increases tile-converting count by 1."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Essence",
+    "Pine Dew",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP."
+  },
+  {
+   "material": [
+    "Forest Potion II",
+    "Forest Crystal Shard",
+    "Pine Frost",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants Mirror Mark at the start of battle. While the Mark exists, Nikinis gains 100% increased DEF. The mark disappears once Nikinis loses HP.",
+   "after": "Grants Mirror Mark at the start of battle or upon using an Active Skill. While the Mark exists, Nikinis gains 100% increased DEF. The Mark disappears once Nikinis loses HP."
+  },
+  {
+   "material": [
+    "Forest Crystal Cluster",
+    "Forest Flare Rock",
+    "Tear of Pine",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Converts 4 nearest Red or Yellow tiles to Green.",
+   "after": "Converts the 4 nearest Red or Yellow tiles to Green (has a chance to generate up to 2 enhanced tiles)."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 489,
+    "def": 169,
+    "hp": 1452
+   },
+   {
+    "att": 496,
+    "def": 171,
+    "hp": 1474
+   },
+   {
+    "att": 503,
+    "def": 173,
+    "hp": 1497
+   },
+   {
+    "att": 510,
+    "def": 176,
+    "hp": 1520
+   },
+   {
+    "att": 517,
+    "def": 178,
+    "hp": 1542
+   },
+   {
+    "att": 525,
+    "def": 181,
+    "hp": 1565
+   },
+   {
+    "att": 532,
+    "def": 183,
+    "hp": 1587
+   },
+   {
+    "att": 539,
+    "def": 185,
+    "hp": 1610
+   },
+   {
+    "att": 546,
+    "def": 188,
+    "hp": 1632
+   },
+   {
+    "att": 554,
+    "def": 190,
+    "hp": 1655
+   },
+   {
+    "att": 561,
+    "def": 193,
+    "hp": 1678
+   },
+   {
+    "att": 568,
+    "def": 195,
+    "hp": 1700
+   },
+   {
+    "att": 575,
+    "def": 197,
+    "hp": 1723
+   },
+   {
+    "att": 583,
+    "def": 200,
+    "hp": 1745
+   },
+   {
+    "att": 590,
+    "def": 202,
+    "hp": 1768
+   },
+   {
+    "att": 597,
+    "def": 205,
+    "hp": 1791
+   },
+   {
+    "att": 604,
+    "def": 207,
+    "hp": 1813
+   },
+   {
+    "att": 611,
+    "def": 209,
+    "hp": 1836
+   },
+   {
+    "att": 619,
+    "def": 212,
+    "hp": 1858
+   },
+   {
+    "att": 626,
+    "def": 214,
+    "hp": 1881
+   },
+   {
+    "att": 633,
+    "def": 217,
+    "hp": 1904
+   },
+   {
+    "att": 640,
+    "def": 219,
+    "hp": 1926
+   },
+   {
+    "att": 648,
+    "def": 221,
+    "hp": 1949
+   },
+   {
+    "att": 655,
+    "def": 224,
+    "hp": 1971
+   },
+   {
+    "att": 662,
+    "def": 226,
+    "hp": 1994
+   },
+   {
+    "att": 669,
+    "def": 229,
+    "hp": 2016
+   },
+   {
+    "att": 677,
+    "def": 231,
+    "hp": 2039
+   },
+   {
+    "att": 684,
+    "def": 233,
+    "hp": 2062
+   },
+   {
+    "att": 691,
+    "def": 236,
+    "hp": 2084
+   },
+   {
+    "att": 698,
+    "def": 238,
+    "hp": 2107
+   },
+   {
+    "att": 792,
+    "def": 271,
+    "hp": 2355
+   },
+   {
+    "att": 801,
+    "def": 274,
+    "hp": 2383
+   },
+   {
+    "att": 810,
+    "def": 277,
+    "hp": 2412
+   },
+   {
+    "att": 819,
+    "def": 280,
+    "hp": 2440
+   },
+   {
+    "att": 828,
+    "def": 283,
+    "hp": 2468
+   },
+   {
+    "att": 837,
+    "def": 286,
+    "hp": 2496
+   },
+   {
+    "att": 846,
+    "def": 289,
+    "hp": 2524
+   },
+   {
+    "att": 855,
+    "def": 292,
+    "hp": 2553
+   },
+   {
+    "att": 865,
+    "def": 295,
+    "hp": 2581
+   },
+   {
+    "att": 874,
+    "def": 298,
+    "hp": 2609
+   },
+   {
+    "att": 883,
+    "def": 301,
+    "hp": 2637
+   },
+   {
+    "att": 892,
+    "def": 304,
+    "hp": 2666
+   },
+   {
+    "att": 901,
+    "def": 307,
+    "hp": 2694
+   },
+   {
+    "att": 910,
+    "def": 310,
+    "hp": 2722
+   },
+   {
+    "att": 919,
+    "def": 313,
+    "hp": 2750
+   },
+   {
+    "att": 928,
+    "def": 316,
+    "hp": 2779
+   },
+   {
+    "att": 937,
+    "def": 319,
+    "hp": 2807
+   },
+   {
+    "att": 946,
+    "def": 322,
+    "hp": 2835
+   },
+   {
+    "att": 955,
+    "def": 325,
+    "hp": 2863
+   },
+   {
+    "att": 964,
+    "def": 328,
+    "hp": 2892
+   },
+   {
+    "att": 973,
+    "def": 331,
+    "hp": 2920
+   },
+   {
+    "att": 982,
+    "def": 334,
+    "hp": 2948
+   },
+   {
+    "att": 991,
+    "def": 337,
+    "hp": 2976
+   },
+   {
+    "att": 1000,
+    "def": 340,
+    "hp": 3004
+   },
+   {
+    "att": 1009,
+    "def": 343,
+    "hp": 3033
+   },
+   {
+    "att": 1018,
+    "def": 346,
+    "hp": 3061
+   },
+   {
+    "att": 1027,
+    "def": 349,
+    "hp": 3089
+   },
+   {
+    "att": 1036,
+    "def": 352,
+    "hp": 3117
+   },
+   {
+    "att": 1045,
+    "def": 355,
+    "hp": 3146
+   },
+   {
+    "att": 1054,
+    "def": 358,
+    "hp": 3174
+   },
+   {
+    "att": 1063,
+    "def": 361,
+    "hp": 3202
+   },
+   {
+    "att": 1072,
+    "def": 364,
+    "hp": 3230
+   },
+   {
+    "att": 1081,
+    "def": 367,
+    "hp": 3259
+   },
+   {
+    "att": 1090,
+    "def": 370,
+    "hp": 3287
+   },
+   {
+    "att": 1099,
+    "def": 373,
+    "hp": 3315
+   },
+   {
+    "att": 1109,
+    "def": 376,
+    "hp": 3343
+   },
+   {
+    "att": 1118,
+    "def": 379,
+    "hp": 3372
+   },
+   {
+    "att": 1127,
+    "def": 382,
+    "hp": 3400
+   },
+   {
+    "att": 1136,
+    "def": 385,
+    "hp": 3428
+   },
+   {
+    "att": 1145,
+    "def": 388,
+    "hp": 3456
+   },
+   {
+    "att": 1286,
+    "def": 441,
+    "hp": 3817
+   },
+   {
+    "att": 1293,
+    "def": 443,
+    "hp": 3839
+   },
+   {
+    "att": 1300,
+    "def": 445,
+    "hp": 3860
+   },
+   {
+    "att": 1307,
+    "def": 447,
+    "hp": 3881
+   },
+   {
+    "att": 1314,
+    "def": 450,
+    "hp": 3902
+   },
+   {
+    "att": 1320,
+    "def": 452,
+    "hp": 3923
+   },
+   {
+    "att": 1327,
+    "def": 454,
+    "hp": 3944
+   },
+   {
+    "att": 1334,
+    "def": 456,
+    "hp": 3966
+   },
+   {
+    "att": 1341,
+    "def": 459,
+    "hp": 3987
+   },
+   {
+    "att": 1347,
+    "def": 461,
+    "hp": 4008
+   },
+   {
+    "att": 1354,
+    "def": 463,
+    "hp": 4029
+   },
+   {
+    "att": 1361,
+    "def": 465,
+    "hp": 4050
+   },
+   {
+    "att": 1368,
+    "def": 468,
+    "hp": 4072
+   },
+   {
+    "att": 1375,
+    "def": 470,
+    "hp": 4093
+   },
+   {
+    "att": 1381,
+    "def": 472,
+    "hp": 4114
+   },
+   {
+    "att": 1388,
+    "def": 474,
+    "hp": 4135
+   },
+   {
+    "att": 1395,
+    "def": 477,
+    "hp": 4156
+   },
+   {
+    "att": 1402,
+    "def": 479,
+    "hp": 4177
+   },
+   {
+    "att": 1408,
+    "def": 481,
+    "hp": 4199
+   },
+   {
+    "att": 1415,
+    "def": 483,
+    "hp": 4220
+   },
+   {
+    "att": 1422,
+    "def": 486,
+    "hp": 4241
+   },
+   {
+    "att": 1429,
+    "def": 488,
+    "hp": 4262
+   },
+   {
+    "att": 1436,
+    "def": 490,
+    "hp": 4283
+   },
+   {
+    "att": 1442,
+    "def": 492,
+    "hp": 4304
+   },
+   {
+    "att": 1449,
+    "def": 495,
+    "hp": 4326
+   },
+   {
+    "att": 1456,
+    "def": 497,
+    "hp": 4347
+   },
+   {
+    "att": 1463,
+    "def": 499,
+    "hp": 4368
+   },
+   {
+    "att": 1469,
+    "def": 501,
+    "hp": 4389
+   },
+   {
+    "att": 1476,
+    "def": 504,
+    "hp": 4410
+   },
+   {
+    "att": 1483,
+    "def": 506,
+    "hp": 4432
+   },
+   {
+    "att": 1490,
+    "def": 508,
+    "hp": 4453
+   },
+   {
+    "att": 1497,
+    "def": 510,
+    "hp": 4474
+   },
+   {
+    "att": 1503,
+    "def": 513,
+    "hp": 4495
+   },
+   {
+    "att": 1510,
+    "def": 515,
+    "hp": 4516
+   },
+   {
+    "att": 1517,
+    "def": 517,
+    "hp": 4537
+   },
+   {
+    "att": 1524,
+    "def": 519,
+    "hp": 4559
+   },
+   {
+    "att": 1530,
+    "def": 522,
+    "hp": 4580
+   },
+   {
+    "att": 1537,
+    "def": 524,
+    "hp": 4601
+   },
+   {
+    "att": 1544,
+    "def": 526,
+    "hp": 4622
+   },
+   {
+    "att": 1551,
+    "def": 528,
+    "hp": 4643
+   },
+   {
+    "att": 1558,
+    "def": 531,
+    "hp": 4664
+   },
+   {
+    "att": 1564,
+    "def": 533,
+    "hp": 4686
+   },
+   {
+    "att": 1571,
+    "def": 535,
+    "hp": 4707
+   },
+   {
+    "att": 1578,
+    "def": 537,
+    "hp": 4728
+   },
+   {
+    "att": 1585,
+    "def": 540,
+    "hp": 4749
+   },
+   {
+    "att": 1591,
+    "def": 542,
+    "hp": 4770
+   },
+   {
+    "att": 1598,
+    "def": 544,
+    "hp": 4792
+   },
+   {
+    "att": 1605,
+    "def": 546,
+    "hp": 4813
+   },
+   {
+    "att": 1612,
+    "def": 549,
+    "hp": 4834
+   },
+   {
+    "att": 1619,
+    "def": 551,
+    "hp": 4855
+   },
+   {
+    "att": 1823,
+    "def": 617,
+    "hp": 5379
+   },
+   {
+    "att": 1828,
+    "def": 619,
+    "hp": 5393
+   },
+   {
+    "att": 1832,
+    "def": 620,
+    "hp": 5407
+   },
+   {
+    "att": 1837,
+    "def": 622,
+    "hp": 5422
+   },
+   {
+    "att": 1841,
+    "def": 623,
+    "hp": 5436
+   },
+   {
+    "att": 1846,
+    "def": 625,
+    "hp": 5450
+   },
+   {
+    "att": 1850,
+    "def": 626,
+    "hp": 5464
+   },
+   {
+    "att": 1855,
+    "def": 628,
+    "hp": 5478
+   },
+   {
+    "att": 1859,
+    "def": 629,
+    "hp": 5492
+   },
+   {
+    "att": 1864,
+    "def": 631,
+    "hp": 5506
+   },
+   {
+    "att": 1868,
+    "def": 632,
+    "hp": 5520
+   },
+   {
+    "att": 1873,
+    "def": 634,
+    "hp": 5534
+   },
+   {
+    "att": 1877,
+    "def": 635,
+    "hp": 5549
+   },
+   {
+    "att": 1882,
+    "def": 637,
+    "hp": 5563
+   },
+   {
+    "att": 1886,
+    "def": 638,
+    "hp": 5577
+   },
+   {
+    "att": 1891,
+    "def": 640,
+    "hp": 5591
+   },
+   {
+    "att": 1895,
+    "def": 641,
+    "hp": 5605
+   },
+   {
+    "att": 1900,
+    "def": 643,
+    "hp": 5619
+   },
+   {
+    "att": 1904,
+    "def": 644,
+    "hp": 5633
+   },
+   {
+    "att": 1909,
+    "def": 646,
+    "hp": 5647
+   },
+   {
+    "att": 1913,
+    "def": 647,
+    "hp": 5662
+   },
+   {
+    "att": 1918,
+    "def": 649,
+    "hp": 5676
+   },
+   {
+    "att": 1922,
+    "def": 650,
+    "hp": 5690
+   },
+   {
+    "att": 1927,
+    "def": 652,
+    "hp": 5704
+   },
+   {
+    "att": 1932,
+    "def": 653,
+    "hp": 5718
+   },
+   {
+    "att": 1936,
+    "def": 655,
+    "hp": 5732
+   },
+   {
+    "att": 1941,
+    "def": 656,
+    "hp": 5746
+   },
+   {
+    "att": 1945,
+    "def": 658,
+    "hp": 5760
+   },
+   {
+    "att": 1950,
+    "def": 659,
+    "hp": 5774
+   },
+   {
+    "att": 1954,
+    "def": 661,
+    "hp": 5789
+   },
+   {
+    "att": 1959,
+    "def": 662,
+    "hp": 5803
+   },
+   {
+    "att": 1963,
+    "def": 664,
+    "hp": 5817
+   },
+   {
+    "att": 1968,
+    "def": 665,
+    "hp": 5831
+   },
+   {
+    "att": 1972,
+    "def": 667,
+    "hp": 5845
+   },
+   {
+    "att": 1977,
+    "def": 668,
+    "hp": 5859
+   },
+   {
+    "att": 1981,
+    "def": 670,
+    "hp": 5873
+   },
+   {
+    "att": 1986,
+    "def": 671,
+    "hp": 5887
+   },
+   {
+    "att": 1990,
+    "def": 673,
+    "hp": 5902
+   },
+   {
+    "att": 1995,
+    "def": 674,
+    "hp": 5916
+   },
+   {
+    "att": 1999,
+    "def": 676,
+    "hp": 5930
+   },
+   {
+    "att": 2004,
+    "def": 677,
+    "hp": 5944
+   },
+   {
+    "att": 2008,
+    "def": 679,
+    "hp": 5958
+   },
+   {
+    "att": 2013,
+    "def": 680,
+    "hp": 5972
+   },
+   {
+    "att": 2017,
+    "def": 682,
+    "hp": 5986
+   },
+   {
+    "att": 2022,
+    "def": 683,
+    "hp": 6000
+   },
+   {
+    "att": 2026,
+    "def": 685,
+    "hp": 6014
+   },
+   {
+    "att": 2031,
+    "def": 686,
+    "hp": 6029
+   },
+   {
+    "att": 2035,
+    "def": 688,
+    "hp": 6043
+   },
+   {
+    "att": 2040,
+    "def": 689,
+    "hp": 6057
+   },
+   {
+    "att": 2044,
+    "def": 691,
+    "hp": 6071
+   },
+   {
+    "att": 2049,
+    "def": 692,
+    "hp": 6085
+   },
+   {
+    "att": 2054,
+    "def": 694,
+    "hp": 6099
+   },
+   {
+    "att": 2058,
+    "def": 695,
+    "hp": 6113
+   },
+   {
+    "att": 2063,
+    "def": 697,
+    "hp": 6127
+   },
+   {
+    "att": 2067,
+    "def": 698,
+    "hp": 6142
+   },
+   {
+    "att": 2072,
+    "def": 700,
+    "hp": 6156
+   },
+   {
+    "att": 2076,
+    "def": 701,
+    "hp": 6170
+   },
+   {
+    "att": 2081,
+    "def": 703,
+    "hp": 6184
+   },
+   {
+    "att": 2085,
+    "def": 704,
+    "hp": 6198
+   },
+   {
+    "att": 2090,
+    "def": 706,
+    "hp": 6212
+   },
+   {
+    "att": 2094,
+    "def": 707,
+    "hp": 6226
+   },
+   {
+    "att": 2099,
+    "def": 709,
+    "hp": 6240
+   },
+   {
+    "att": 2103,
+    "def": 710,
+    "hp": 6255
+   },
+   {
+    "att": 2108,
+    "def": 712,
+    "hp": 6269
+   },
+   {
+    "att": 2112,
+    "def": 713,
+    "hp": 6283
+   },
+   {
+    "att": 2117,
+    "def": 715,
+    "hp": 6297
+   },
+   {
+    "att": 2121,
+    "def": 717,
+    "hp": 6311
+   },
+   {
+    "att": 2126,
+    "def": 718,
+    "hp": 6325
+   },
+   {
+    "att": 2130,
+    "def": 720,
+    "hp": 6339
+   },
+   {
+    "att": 2135,
+    "def": 721,
+    "hp": 6353
+   },
+   {
+    "att": 2139,
+    "def": 723,
+    "hp": 6367
+   },
+   {
+    "att": 2144,
+    "def": 724,
+    "hp": 6382
+   },
+   {
+    "att": 2148,
+    "def": 726,
+    "hp": 6396
+   },
+   {
+    "att": 2153,
+    "def": 727,
+    "hp": 6410
+   },
+   {
+    "att": 2157,
+    "def": 729,
+    "hp": 6424
+   },
+   {
+    "att": 2162,
+    "def": 730,
+    "hp": 6438
+   },
+   {
+    "att": 2166,
+    "def": 732,
+    "hp": 6452
+   },
+   {
+    "att": 2171,
+    "def": 733,
+    "hp": 6466
+   },
+   {
+    "att": 2176,
+    "def": 735,
+    "hp": 6480
+   },
+   {
+    "att": 2180,
+    "def": 736,
+    "hp": 6495
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Zoya",
+     "Nikinis"
+    ],
+    "chat": [
+     {
+      "character": "Zoya:",
+      "text": "Hey, you! Hold it right there!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "The sea in that mirror... Could it be...?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "The Ocean?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "You mean... Lake Mirror in Northland?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Lake? No, that's no lake..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "That's a big, beautiful ocean, with a trail of jet-black snow on top..."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "I have no idea what you're talking about..."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "But that's Lake Mirror right there, and that black part is my sister's shadow."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "We're always together, day and night."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Even if all of Northland melted, we could never be apart."
+     },
+     {
+      "character": "Zoya:",
+      "text": "I see..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Then that ocean... Maybe I'm just seeing things because I'm so tired..."
+     }
+    ]
+   },
+   {
+    "character": [
+     "Nikinis",
+     "Constantine"
+    ],
+    "chat": [
+     {
+      "character": "Nikinis:",
+      "text": "I often lose myself in the mirror..."
+     },
+     {
+      "character": "Constantine:",
+      "text": "Hey, is that Northland?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "And if I'm correct, that's Lake Mirror?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Ah, it's the Eclipsite hunter."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Glad to meet you. Have you been to Lake Mirror?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "Which Northlander doesn't know Lake Mirror?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "My parents took me there when I was young."
+     },
+     {
+      "character": "Constantine:",
+      "text": "That was a long time ago, but I miss it a lot."
+     },
+     {
+      "character": "Constantine:",
+      "text": "I see the lake in your mirror. You must have a special connection to it."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "That's where my older sister lives."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Where I never wanted to leave."
+     },
+     {
+      "character": "Constantine:",
+      "text": "I see..."
+     },
+     {
+      "character": "Constantine:",
+      "text": "Yes, the lake always holds special meanings to Northlanders."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Northland Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "The Colossus passed by a lake area not long after we took off. At that time, we saw something gleaming by the lake and thought someone was trying to catch our attention with a light signal. Upon closer investigation, we realized that was an elegant and beautiful girl in a white dress checking herself out in a mirror. When she looked behind her after noticing that we were watching her, we were all shocked when our eyes met. Now that I think about it carefully, given how big the Colossus is, it would actually be more difficult to not notice it passing by.By chance, Ms. Nikinis joined us on the Colossus later on, and I heard it was to find her lost memories. After she arrived, our first impression of her was that she was a mysterious and unapproachable existence. There's even that observation incident... Sigh, I think it's more difficult than ever to strengthen the relationship with her.\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "I live at Lake Mirror before coming to the Colossus. It was quiet and pristine, much like the lake where I first encountered the Colossus. It had never had a single ripple, no white deer had ever drunk from it, no snowbird had ever skimmed on its surface, no falling leaves or tracks had ever contaminated its depths. The towering rocks blocked the light and heat from the sun, and the lake was surrounded by perennial snow. The lake was like a mirror embedded in white snow, and it looked untouched by humans. I could sit there, day after day, as long as I'm with my sister.However, since Her Majesty has assigned me a new mission, I must complete it. There is no other reason for me to come here besides that."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Do you like white flowers? White lilies\u2014yes, these are white lilies sent here by my older sister, Nepolis. If you like them, I can let you watch them from the distance for a while.You must have noticed the existence of my sister. We have always been together since we were born. She doesn't like to talk to strangers, so she usually stays in the mirror. Don't provoke her as her temper isn't as good as mine. Also, don't say that she's gloomy behind her back, or else I can't guarantee what'll happen next."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "The Northern Queen told me once that my parents died because of the Eclipsites. My reason and my sense of responsibility told me that I should use the Northland Mirror, a relic of an ancient civilization, to guard the peace of the Northland. I cannot escape from this past, even though I have no memories of my parents nor know how I feel about them.I even returned to the house where we used to live in at Lake Mirror. Everything should have been familiar to me, but it still felt foreign to me. I tried to piece together the fragments of my memory, but to no avail.This space should belong to me, yet I don't feel any sense of belonging.Only my memories of the Northland Mirror feel real and give me a sense of security..."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I dreamed of my sister, Nepolis, when I slept in that frozen cave. She walked out of the Northland Mirror covered with lilies and stroked my face, telling me that the moment was approaching and that it was time to wake up. To wait for the arrival of eternity, I have guarded this frozen city with the Northland Mirror.I have had the miraculous ability to control the Northland Mirror since the moment I woke up in the cave. Only I know that it is my pledge with the mirror that has made it possible for me to connect with my older sister in the mirror...I guess that's fine too. My sister and I will continue to guard this frozen continent until that moment arrives."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Northland is the only place where we can survive, especially for my sister...",
+  "Following the instructions of Her Majesty the Queen, I will watch over Lumopolis carefully with my mirror.",
+  "For the North.",
+  "There's no need to comment on them. Those ordinary yet harmful substances have no chance of breaching the Northland.",
+  "She is the Northland itself and shelters everything pure. This is also why I admire her.",
+  "Although she is a little noisy, the Queen has said that it's a good thing since she livens up the Northland palace.",
+  "White flowers, leisure time, fresh clean smells...and my sister.",
+  "I dislike anything that isn't clean, the mentioning of such things disgusts me.",
+  "It's hard to find such a pure white color. I can tell that you cherish it.",
+  "Do you like the White Narcissus? I'll let you watch for a little longer then.",
+  "From the look on your face, I don't feel like I can say no to you.",
+  "Geez, clothes are soiled.",
+  "Is this not the perfect outcome you desired?",
+  "May there be peace and quiet.",
+  "It should be peaceful and quiet to begin with.",
+  "The Northland flowers are blooming.",
+  "I guess I'll wish you a happy New Year.",
+  "Get it over with.",
+  "What's clearer? The past or the future?",
+  "The fate of two worlds shall be connected!",
+  "I've finally crossed the far dimension.",
+  "On a relaxing day, even the sky is bluer than usual!",
+  "I'm waiting for more flowers to bloom.",
+  "Alchemy Stars.",
+  "Is it urgent? You don't look like you're here for anything official... If that's the case, please allow me to excuse myself first.",
+  "Is what you're talking about right now really that important? You're... too close to me...",
+  "Self-discipline is a great virtue. What I mean is, can you try not to touch the mirror or the petals?",
+  "Once upon a time, the White Narcissus always stared at Lake Mirror... Well, where was the other flower? What flower was it?",
+  "The flower of the Northland and the mirror, two reconnected worlds\u2014which side is real?",
+  "The White Narcissus is in full bloom again. We are twin mirror images, and we will live on from the ancient fable and continue our story.",
+  "If it doesn't happen naturally, then it'll become a struggle for us both. Is that what you're wishing for?",
+  "You may gain slight favor from me, but nothing else, are you satisfied with that?",
+  "If we manage to find ourselves again one day... my only hope is that you'll also be in my new memories.",
+  "Keep your distance and watch what you say and do. If you do that, my sister will be slightly more accepting of you.",
+  "Don't tell me you need me to praise you?... Let me think about it.",
+  "I feel a little uneasy... like a small stone falling into a lake.",
+  "Hmm? Have you any business related to me?",
+  "Ah! I see, your strength \u2026you're an early riser.",
+  "I heard the sound of you returning, so it doesn't need to be made such a big deal out of. That's all.",
+  "It's quite obvious that you've disturbed me... So, rest earlier.",
+  "Don't behave rudely, and don't complain that Nikinis didn't remind you. Geez, everything outside the Northland is so barbaric.",
+  "I shouldn't have expected anything from you... Hmph.",
+  "It is an expected gift, so I didn't look forward to it.",
+  "It's actually pretty good? I'll take it.",
+  "This... It's quite good this time. Well, thank you then, I guess.",
+  "Wither and bloom\u2014",
+  "These are the spring blossoms of heaven\u2014",
+  "I don't need you to remind me.",
+  "I lost my memory and any sense of nostalgia at the same time. From then on, I care not for the world outside.",
+  "Time will not rewind the fallen flowers nor my love.",
+  "The Northland guards the secret of the world. The sealed memories of the White Narcissus will be the last warning to the continent.",
+  "To say it once, and only once, that's how we do in Northland."
+ ],
+ "skins": [],
+ "description": "A beautiful and prideful girl from the Lake Mirror in Northland. With only fragments of her memory, her past is unknown to her. She lives an otherworldly life like the white daffodil. The mirror she carries around is said to be the source of her power.",
+ "realName": "Nikinis",
+ "nickname": "The Geminos Mirror",
+ "gender": "Female",
+ "height": "4'11''",
+ "birthday": "January 9",
+ "birthplace": "Lake Mirror",
+ "style": "Northland Mirror"
 }

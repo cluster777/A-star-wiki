@@ -1,0 +1,458 @@
+[
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "Are you there? Have you returned?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes."
+   },
+   {
+    "name": "Nadine:",
+    "content": "Did you just get back?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes, I just got back from outside."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I've been back for a while now."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes, I just got back from outside."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nadine:",
+      "content": "You've been working so hard!"
+     },
+     {
+      "name": "Nadine:",
+      "content": "Did you return to your room then?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not yet. Why?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "That's great! There actually is something I want to ask you about. Can you come to the Cafe right now?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "Please come now!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I've been back for a while now."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nadine:",
+      "content": "Y-you actually got back a while ago? I miscalculated!"
+     },
+     {
+      "name": "Nadine:",
+      "content": "Did you return to your room then?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Not yet. Why?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "That's great! There actually is something I want to ask you about. Can you come to the Cafe right now?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "Please come now!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "Pardon me, but are you sure you don't need my help?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's fine! There's no telling what will happen if you help, so really... It's fine!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I just need to replace a floor panel, fix that wall, and replace the bed and dresser. It's not a big deal."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Also, I don't know where it came from, but there's a mess in my room that needs cleaning, too."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Say... Did you happen to see my desk when you went to my room last time?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "Actually, I used to help the mayor organize his desk from time to time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "W... What does that have to do with anything?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "I even helped him switch out his desk for a new one!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait, what was wrong with the mayor's old desk...?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "It broke."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Then... Does that mean...?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "I don't think I did a very good job of helping, so I wanted to practice some more!"
+   },
+   {
+    "name": "Nadine:",
+    "content": "You also said we should work hard to make up for our mistakes."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I see... That \"mess\" in my room is what was left of my old desk..."
+   },
+   {
+    "name": "Nadine:",
+    "content": "That's right! I've taken the liberty of ordering you a new one, too. I'll go get it!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "But... You... Ah, forget it."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "Are you there? Did you see my messages?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I'm here."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not here."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm here."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nadine:",
+      "content": "That's great! You're there."
+     },
+     {
+      "name": "Nadine:",
+      "content": "I'll report directly to you then!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, what's up?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "There are some repairs I need to report to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Did you???"
+     },
+     {
+      "name": "Nadine:",
+      "content": "No, no, someone did blast a hole with a missile at the first location."
+     },
+     {
+      "name": "Nadine:",
+      "content": "But I'm sure you know that I don't use missiles!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "..."
+     },
+     {
+      "name": "Nadine:",
+      "content": "Someone blasted a hole with a bomb at the second location."
+     },
+     {
+      "name": "Nadine:",
+      "content": "But I'm sure you know that I don't use bombs!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "..."
+     },
+     {
+      "name": "Nadine:",
+      "content": "Everything is fine though. I stopped them for you, so the damage isn't that serious!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you! You're the best."
+     },
+     {
+      "name": "Nadine:",
+      "content": "The floor is cracked at the third location."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm...?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "I made a mistake when I tried to stop them. I'm sorry... The damage is a little serious."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm going to cry, seriously! I feel so bad for my poor Soroz..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm not here."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nadine:",
+      "content": "But I saw you come back. According to the intel, you should have seen my messages already."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Shouldn't the focus be on my reply that I wasn't there..."
+     },
+     {
+      "name": "Nadine:",
+      "content": "Oh, that's right. You must have seen the previous messages if you replied me."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, what's up?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "There are some repairs I need to report to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Did you???"
+     },
+     {
+      "name": "Nadine:",
+      "content": "No, no, someone did blast a hole with a missile at the first location."
+     },
+     {
+      "name": "Nadine:",
+      "content": "But I'm sure you know that I don't use missiles!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "..."
+     },
+     {
+      "name": "Nadine:",
+      "content": "Someone blasted a hole with a bomb at the second location."
+     },
+     {
+      "name": "Nadine:",
+      "content": "But I'm sure you know that I don't use bombs!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "..."
+     },
+     {
+      "name": "Nadine:",
+      "content": "Everything is fine though. I stopped them for you, so the damage isn't that serious!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you! You're the best."
+     },
+     {
+      "name": "Nadine:",
+      "content": "The floor is cracked at the third location."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm...?"
+     },
+     {
+      "name": "Nadine:",
+      "content": "I made a mistake when I tried to stop them. I'm sorry... The damage is a little serious."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm going to cry, seriously! I feel so bad for my poor Soroz..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "Good morning, Navigator! I have something to report to you!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? What is it?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "Last night, absolutely nothing of importance happened at all!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "......"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You didn't sleep at all last night, did you?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "Sleeping at night isn't exactly how you make it as a Nightwatcher, you know!"
+   },
+   {
+    "name": "Nadine:",
+    "content": "Now then, with my report all done, I should go do a bit more work."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Don't get me wrong, I'm grateful for your help..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But you should really take better care of yourself."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "Are you awake?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm awake... Wait, no! I'm about to sleep!"
+   },
+   {
+    "name": "Nadine:",
+    "content": "Oh right, I forgot about that."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm, what is it?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "I want to have breakfast with you, and remembered that you usually sleep around this time. Shall I see you at 4:00 then?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I haven't agreed to that yet!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nadine:",
+    "content": "I can't shake the feeling that the stunt in my development is related to my habit of sleeping so late..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why don't you sleep more during the day then?"
+   },
+   {
+    "name": "Nadine:",
+    "content": "I need to work during the day..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm..."
+   },
+   {
+    "name": "Nadine:",
+    "content": "You should accompany me then!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh???"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

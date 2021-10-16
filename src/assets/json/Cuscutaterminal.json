@@ -1,0 +1,424 @@
+[
+ {
+  "start": [
+   {
+    "name": "Cuscuta:",
+    "content": "How are you, I'm Cuscuta."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nice to meet you. Hope we'll get along very well."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Hmm, I guess that's how it goes."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What do you mean?"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Is that what you say when meeting someone for the first time?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Generally, yes."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But not always."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Generally, yes."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Cuscuta:",
+      "content": "Can you teach me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "This is rather unexpected and I don't know what to say..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Anyway, just greeting them."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "I think I got it. How are you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm fine, thank you."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "So this is how you greet people."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It sounds okay but something feels off..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "But not always."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Take me, for instance, just a hello will do."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "Can you teach me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "This is rather unexpected and I don't know what to say..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Anyway, just greeting them."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "I think I got it. How are you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm fine, thank you."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "So this is how you greet people."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It sounds okay but something feels off..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Cuscuta:",
+    "content": "Navigator..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning, Cuscuta!"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Good... Morning..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "I see... So this is how people usually greet each other in the morning."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Usually, but there isn't really a rule that says you have to say it just like that."
+   },
+   {
+    "name": "Navigator:",
+    "content": "As long as you express your feelings, that's all that matters."
+   },
+   {
+    "name": "Navigator:",
+    "content": "For example, you can just say \"Morning!\" if you want to."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "I... I understand. Allow me to... try again."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Navigator... \"Morning!\" if you want to."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... Think you might have misunderstood a little."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Expressing my own feelings... It is not very easy to do."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Cuscuta:",
+    "content": "Good... Afternoon."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Cuscuta... You learned how to greet people!"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "I couldn't afford to fail... Not after receiving your kindness..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "That's why... I have been practicing a lot."
+   },
+   {
+    "name": "Navigator:",
+    "content": "This is a wonderful start!"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "It's... Still not enough... I still have a long ways to go..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Oh... Right... Do you have anything to tell me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Eh? Uh... L-Let me think..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Are you going on break soon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Have you eaten lunch yet?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Are you going on break soon?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Cuscuta:",
+      "content": "I am."
+     },
+     {
+      "name": "Navigator:",
+      "content": "......"
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "Is there anything else?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "N-Not at the moment, no..."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "But I read... that I must practice listening to other people speak..."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "If you don't speak... How can I listen...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Wh-Why don't we just keep working on greetings instead?"
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "Very well... Have a nice day, Navigator."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You, too."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Have you eaten lunch yet?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Cuscuta:",
+      "content": "I have."
+     },
+     {
+      "name": "Navigator:",
+      "content": "......"
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "Is there anything else?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "N-Not at the moment, no..."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "But I read... that I must practice listening to other people speak..."
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "If you don't speak... How can I listen...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Wh-Why don't we just keep working on greetings instead?"
+     },
+     {
+      "name": "Cuscuta:",
+      "content": "Very well... Have a nice day, Navigator."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You, too."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Cuscuta:",
+    "content": "Good afternoon... Navigator."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Today's lunch was delicious. I am happy."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Haha."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Cuscuta, are you... trying to be happy?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "A-Ahem... I'm glad you enjoyed the food, but..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're the only one who thinks the food tasted good today."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Could it be that... I made another mistake...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why would you say that?"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Because... I have no way of telling if food tastes good or bad..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "I just wanted to practice on... how to express happiness..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "But I still don't understand... What happiness is..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, your body's first reaction to something can usually tell you everything you need to know."
+   },
+   {
+    "name": "Navigator:",
+    "content": "For example, when I heard you say good afternoon to me just now..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I felt happy and, without thinking about it, my face began to smile."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Navigator..."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Haha."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Cuscuta:",
+    "content": "It's late. Are you asleep, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm a little tired and about to turn in."
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "Do you want to sleep with me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "???"
+   },
+   {
+    "name": "Cuscuta:",
+    "content": "You're invited to try the new custom coffin."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh, it's quite all right..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

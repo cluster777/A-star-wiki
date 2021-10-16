@@ -1,1153 +1,1332 @@
 {
-      "name": "Charon",
-      "faction": "Illumina Federation",
-      "element_main": "Fire",
-      "element_sub": "Forest",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Resets all non-Red tiles within the area of attack.",
-                  "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack.",
-                  "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack."
-            ]
-      },
-      "equip": {
-            "name": "Flare Gun: Horizon",
-            "passive": "Direct Line",
-            "description": [
-                  [
-                        "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
-                  ],
-                  [
-                        "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
-                  ],
-                  [
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
-                        "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 175% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 180% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 175% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 180% damage to 2 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 170% damage to 1 surrounding cluster."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 175% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 180% damage to 2 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Has an increased chance to generate Red tiles."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Flare Powder",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
-            },
-            {
-                  "material": [
-                        "Fire Flare Rock",
-                        "Fire Potion I",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Resets all non-Red tiles within the area of attack.",
-                  "after": "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack."
-            },
-            {
-                  "material": [
-                        "Fire Potion III",
-                        "Fire Crystal",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.",
-                  "after": "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 602,
-                        "def": 227,
-                        "hp": 1870
-                  },
-                  {
-                        "att": 613,
-                        "def": 231,
-                        "hp": 1902
-                  },
-                  {
-                        "att": 624,
-                        "def": 235,
-                        "hp": 1934
-                  },
-                  {
-                        "att": 636,
-                        "def": 238,
-                        "hp": 1966
-                  },
-                  {
-                        "att": 647,
-                        "def": 242,
-                        "hp": 1998
-                  },
-                  {
-                        "att": 658,
-                        "def": 246,
-                        "hp": 2030
-                  },
-                  {
-                        "att": 670,
-                        "def": 249,
-                        "hp": 2062
-                  },
-                  {
-                        "att": 681,
-                        "def": 253,
-                        "hp": 2094
-                  },
-                  {
-                        "att": 692,
-                        "def": 257,
-                        "hp": 2126
-                  },
-                  {
-                        "att": 704,
-                        "def": 261,
-                        "hp": 2158
-                  },
-                  {
-                        "att": 715,
-                        "def": 264,
-                        "hp": 2190
-                  },
-                  {
-                        "att": 726,
-                        "def": 268,
-                        "hp": 2222
-                  },
-                  {
-                        "att": 738,
-                        "def": 272,
-                        "hp": 2254
-                  },
-                  {
-                        "att": 749,
-                        "def": 275,
-                        "hp": 2286
-                  },
-                  {
-                        "att": 760,
-                        "def": 279,
-                        "hp": 2318
-                  },
-                  {
-                        "att": 772,
-                        "def": 283,
-                        "hp": 2350
-                  },
-                  {
-                        "att": 783,
-                        "def": 286,
-                        "hp": 2382
-                  },
-                  {
-                        "att": 794,
-                        "def": 290,
-                        "hp": 2414
-                  },
-                  {
-                        "att": 806,
-                        "def": 294,
-                        "hp": 2446
-                  },
-                  {
-                        "att": 817,
-                        "def": 298,
-                        "hp": 2479
-                  },
-                  {
-                        "att": 828,
-                        "def": 301,
-                        "hp": 2511
-                  },
-                  {
-                        "att": 840,
-                        "def": 305,
-                        "hp": 2543
-                  },
-                  {
-                        "att": 851,
-                        "def": 309,
-                        "hp": 2575
-                  },
-                  {
-                        "att": 862,
-                        "def": 312,
-                        "hp": 2607
-                  },
-                  {
-                        "att": 874,
-                        "def": 316,
-                        "hp": 2639
-                  },
-                  {
-                        "att": 885,
-                        "def": 320,
-                        "hp": 2671
-                  },
-                  {
-                        "att": 897,
-                        "def": 324,
-                        "hp": 2703
-                  },
-                  {
-                        "att": 908,
-                        "def": 327,
-                        "hp": 2735
-                  },
-                  {
-                        "att": 919,
-                        "def": 331,
-                        "hp": 2767
-                  },
-                  {
-                        "att": 931,
-                        "def": 335,
-                        "hp": 2799
-                  },
-                  {
-                        "att": 1035,
-                        "def": 369,
-                        "hp": 3089
-                  },
-                  {
-                        "att": 1049,
-                        "def": 374,
-                        "hp": 3129
-                  },
-                  {
-                        "att": 1063,
-                        "def": 379,
-                        "hp": 3169
-                  },
-                  {
-                        "att": 1077,
-                        "def": 383,
-                        "hp": 3209
-                  },
-                  {
-                        "att": 1091,
-                        "def": 388,
-                        "hp": 3249
-                  },
-                  {
-                        "att": 1106,
-                        "def": 393,
-                        "hp": 3289
-                  },
-                  {
-                        "att": 1120,
-                        "def": 397,
-                        "hp": 3329
-                  },
-                  {
-                        "att": 1134,
-                        "def": 402,
-                        "hp": 3369
-                  },
-                  {
-                        "att": 1148,
-                        "def": 406,
-                        "hp": 3410
-                  },
-                  {
-                        "att": 1162,
-                        "def": 411,
-                        "hp": 3450
-                  },
-                  {
-                        "att": 1176,
-                        "def": 416,
-                        "hp": 3490
-                  },
-                  {
-                        "att": 1191,
-                        "def": 420,
-                        "hp": 3530
-                  },
-                  {
-                        "att": 1205,
-                        "def": 425,
-                        "hp": 3570
-                  },
-                  {
-                        "att": 1219,
-                        "def": 430,
-                        "hp": 3610
-                  },
-                  {
-                        "att": 1233,
-                        "def": 434,
-                        "hp": 3650
-                  },
-                  {
-                        "att": 1247,
-                        "def": 439,
-                        "hp": 3690
-                  },
-                  {
-                        "att": 1261,
-                        "def": 444,
-                        "hp": 3730
-                  },
-                  {
-                        "att": 1276,
-                        "def": 448,
-                        "hp": 3770
-                  },
-                  {
-                        "att": 1290,
-                        "def": 453,
-                        "hp": 3810
-                  },
-                  {
-                        "att": 1304,
-                        "def": 457,
-                        "hp": 3850
-                  },
-                  {
-                        "att": 1318,
-                        "def": 462,
-                        "hp": 3890
-                  },
-                  {
-                        "att": 1332,
-                        "def": 467,
-                        "hp": 3930
-                  },
-                  {
-                        "att": 1347,
-                        "def": 471,
-                        "hp": 3970
-                  },
-                  {
-                        "att": 1361,
-                        "def": 476,
-                        "hp": 4010
-                  },
-                  {
-                        "att": 1375,
-                        "def": 481,
-                        "hp": 4051
-                  },
-                  {
-                        "att": 1389,
-                        "def": 485,
-                        "hp": 4091
-                  },
-                  {
-                        "att": 1403,
-                        "def": 490,
-                        "hp": 4131
-                  },
-                  {
-                        "att": 1417,
-                        "def": 495,
-                        "hp": 4171
-                  },
-                  {
-                        "att": 1432,
-                        "def": 499,
-                        "hp": 4211
-                  },
-                  {
-                        "att": 1446,
-                        "def": 504,
-                        "hp": 4251
-                  },
-                  {
-                        "att": 1460,
-                        "def": 508,
-                        "hp": 4291
-                  },
-                  {
-                        "att": 1474,
-                        "def": 513,
-                        "hp": 4331
-                  },
-                  {
-                        "att": 1488,
-                        "def": 518,
-                        "hp": 4371
-                  },
-                  {
-                        "att": 1502,
-                        "def": 522,
-                        "hp": 4411
-                  },
-                  {
-                        "att": 1517,
-                        "def": 527,
-                        "hp": 4451
-                  },
-                  {
-                        "att": 1531,
-                        "def": 532,
-                        "hp": 4491
-                  },
-                  {
-                        "att": 1545,
-                        "def": 536,
-                        "hp": 4531
-                  },
-                  {
-                        "att": 1559,
-                        "def": 541,
-                        "hp": 4571
-                  },
-                  {
-                        "att": 1573,
-                        "def": 546,
-                        "hp": 4611
-                  },
-                  {
-                        "att": 1588,
-                        "def": 550,
-                        "hp": 4651
-                  },
-                  {
-                        "att": 1748,
-                        "def": 604,
-                        "hp": 5082
-                  },
-                  {
-                        "att": 1759,
-                        "def": 607,
-                        "hp": 5112
-                  },
-                  {
-                        "att": 1769,
-                        "def": 611,
-                        "hp": 5142
-                  },
-                  {
-                        "att": 1780,
-                        "def": 614,
-                        "hp": 5172
-                  },
-                  {
-                        "att": 1791,
-                        "def": 618,
-                        "hp": 5202
-                  },
-                  {
-                        "att": 1801,
-                        "def": 621,
-                        "hp": 5232
-                  },
-                  {
-                        "att": 1812,
-                        "def": 624,
-                        "hp": 5262
-                  },
-                  {
-                        "att": 1823,
-                        "def": 628,
-                        "hp": 5292
-                  },
-                  {
-                        "att": 1833,
-                        "def": 631,
-                        "hp": 5322
-                  },
-                  {
-                        "att": 1844,
-                        "def": 635,
-                        "hp": 5352
-                  },
-                  {
-                        "att": 1854,
-                        "def": 638,
-                        "hp": 5382
-                  },
-                  {
-                        "att": 1865,
-                        "def": 642,
-                        "hp": 5412
-                  },
-                  {
-                        "att": 1876,
-                        "def": 645,
-                        "hp": 5442
-                  },
-                  {
-                        "att": 1886,
-                        "def": 649,
-                        "hp": 5472
-                  },
-                  {
-                        "att": 1897,
-                        "def": 652,
-                        "hp": 5502
-                  },
-                  {
-                        "att": 1908,
-                        "def": 656,
-                        "hp": 5532
-                  },
-                  {
-                        "att": 1918,
-                        "def": 659,
-                        "hp": 5562
-                  },
-                  {
-                        "att": 1929,
-                        "def": 663,
-                        "hp": 5592
-                  },
-                  {
-                        "att": 1939,
-                        "def": 666,
-                        "hp": 5622
-                  },
-                  {
-                        "att": 1950,
-                        "def": 670,
-                        "hp": 5652
-                  },
-                  {
-                        "att": 1961,
-                        "def": 673,
-                        "hp": 5682
-                  },
-                  {
-                        "att": 1971,
-                        "def": 677,
-                        "hp": 5712
-                  },
-                  {
-                        "att": 1982,
-                        "def": 680,
-                        "hp": 5743
-                  },
-                  {
-                        "att": 1993,
-                        "def": 684,
-                        "hp": 5773
-                  },
-                  {
-                        "att": 2003,
-                        "def": 687,
-                        "hp": 5803
-                  },
-                  {
-                        "att": 2014,
-                        "def": 691,
-                        "hp": 5833
-                  },
-                  {
-                        "att": 2025,
-                        "def": 694,
-                        "hp": 5863
-                  },
-                  {
-                        "att": 2035,
-                        "def": 698,
-                        "hp": 5893
-                  },
-                  {
-                        "att": 2046,
-                        "def": 701,
-                        "hp": 5923
-                  },
-                  {
-                        "att": 2056,
-                        "def": 704,
-                        "hp": 5953
-                  },
-                  {
-                        "att": 2067,
-                        "def": 708,
-                        "hp": 5983
-                  },
-                  {
-                        "att": 2078,
-                        "def": 711,
-                        "hp": 6013
-                  },
-                  {
-                        "att": 2088,
-                        "def": 715,
-                        "hp": 6043
-                  },
-                  {
-                        "att": 2099,
-                        "def": 718,
-                        "hp": 6073
-                  },
-                  {
-                        "att": 2110,
-                        "def": 722,
-                        "hp": 6103
-                  },
-                  {
-                        "att": 2120,
-                        "def": 725,
-                        "hp": 6133
-                  },
-                  {
-                        "att": 2131,
-                        "def": 729,
-                        "hp": 6163
-                  },
-                  {
-                        "att": 2141,
-                        "def": 732,
-                        "hp": 6193
-                  },
-                  {
-                        "att": 2152,
-                        "def": 736,
-                        "hp": 6223
-                  },
-                  {
-                        "att": 2163,
-                        "def": 739,
-                        "hp": 6253
-                  },
-                  {
-                        "att": 2173,
-                        "def": 743,
-                        "hp": 6283
-                  },
-                  {
-                        "att": 2184,
-                        "def": 746,
-                        "hp": 6313
-                  },
-                  {
-                        "att": 2195,
-                        "def": 750,
-                        "hp": 6343
-                  },
-                  {
-                        "att": 2205,
-                        "def": 753,
-                        "hp": 6374
-                  },
-                  {
-                        "att": 2216,
-                        "def": 757,
-                        "hp": 6404
-                  },
-                  {
-                        "att": 2227,
-                        "def": 760,
-                        "hp": 6434
-                  },
-                  {
-                        "att": 2237,
-                        "def": 764,
-                        "hp": 6464
-                  },
-                  {
-                        "att": 2248,
-                        "def": 767,
-                        "hp": 6494
-                  },
-                  {
-                        "att": 2258,
-                        "def": 771,
-                        "hp": 6524
-                  },
-                  {
-                        "att": 2269,
-                        "def": 774,
-                        "hp": 6554
-                  },
-                  {
-                        "att": 2501,
-                        "def": 846,
-                        "hp": 7174
-                  },
-                  {
-                        "att": 2508,
-                        "def": 849,
-                        "hp": 7194
-                  },
-                  {
-                        "att": 2515,
-                        "def": 851,
-                        "hp": 7214
-                  },
-                  {
-                        "att": 2522,
-                        "def": 853,
-                        "hp": 7234
-                  },
-                  {
-                        "att": 2529,
-                        "def": 856,
-                        "hp": 7254
-                  },
-                  {
-                        "att": 2537,
-                        "def": 858,
-                        "hp": 7274
-                  },
-                  {
-                        "att": 2544,
-                        "def": 860,
-                        "hp": 7294
-                  },
-                  {
-                        "att": 2551,
-                        "def": 863,
-                        "hp": 7314
-                  },
-                  {
-                        "att": 2558,
-                        "def": 865,
-                        "hp": 7334
-                  },
-                  {
-                        "att": 2565,
-                        "def": 867,
-                        "hp": 7354
-                  },
-                  {
-                        "att": 2572,
-                        "def": 870,
-                        "hp": 7374
-                  },
-                  {
-                        "att": 2579,
-                        "def": 872,
-                        "hp": 7394
-                  },
-                  {
-                        "att": 2586,
-                        "def": 874,
-                        "hp": 7414
-                  },
-                  {
-                        "att": 2593,
-                        "def": 876,
-                        "hp": 7434
-                  },
-                  {
-                        "att": 2600,
-                        "def": 879,
-                        "hp": 7454
-                  },
-                  {
-                        "att": 2607,
-                        "def": 881,
-                        "hp": 7474
-                  },
-                  {
-                        "att": 2615,
-                        "def": 883,
-                        "hp": 7494
-                  },
-                  {
-                        "att": 2622,
-                        "def": 886,
-                        "hp": 7514
-                  },
-                  {
-                        "att": 2629,
-                        "def": 888,
-                        "hp": 7534
-                  },
-                  {
-                        "att": 2636,
-                        "def": 890,
-                        "hp": 7554
-                  },
-                  {
-                        "att": 2643,
-                        "def": 893,
-                        "hp": 7574
-                  },
-                  {
-                        "att": 2650,
-                        "def": 895,
-                        "hp": 7594
-                  },
-                  {
-                        "att": 2657,
-                        "def": 897,
-                        "hp": 7615
-                  },
-                  {
-                        "att": 2664,
-                        "def": 900,
-                        "hp": 7635
-                  },
-                  {
-                        "att": 2671,
-                        "def": 902,
-                        "hp": 7655
-                  },
-                  {
-                        "att": 2678,
-                        "def": 904,
-                        "hp": 7675
-                  },
-                  {
-                        "att": 2685,
-                        "def": 907,
-                        "hp": 7695
-                  },
-                  {
-                        "att": 2692,
-                        "def": 909,
-                        "hp": 7715
-                  },
-                  {
-                        "att": 2700,
-                        "def": 911,
-                        "hp": 7735
-                  },
-                  {
-                        "att": 2707,
-                        "def": 914,
-                        "hp": 7755
-                  },
-                  {
-                        "att": 2714,
-                        "def": 916,
-                        "hp": 7775
-                  },
-                  {
-                        "att": 2721,
-                        "def": 918,
-                        "hp": 7795
-                  },
-                  {
-                        "att": 2728,
-                        "def": 921,
-                        "hp": 7815
-                  },
-                  {
-                        "att": 2735,
-                        "def": 923,
-                        "hp": 7835
-                  },
-                  {
-                        "att": 2742,
-                        "def": 925,
-                        "hp": 7855
-                  },
-                  {
-                        "att": 2749,
-                        "def": 927,
-                        "hp": 7875
-                  },
-                  {
-                        "att": 2756,
-                        "def": 930,
-                        "hp": 7895
-                  },
-                  {
-                        "att": 2763,
-                        "def": 932,
-                        "hp": 7915
-                  },
-                  {
-                        "att": 2770,
-                        "def": 934,
-                        "hp": 7935
-                  },
-                  {
-                        "att": 2778,
-                        "def": 937,
-                        "hp": 7955
-                  },
-                  {
-                        "att": 2785,
-                        "def": 939,
-                        "hp": 7975
-                  },
-                  {
-                        "att": 2792,
-                        "def": 941,
-                        "hp": 7995
-                  },
-                  {
-                        "att": 2799,
-                        "def": 944,
-                        "hp": 8015
-                  },
-                  {
-                        "att": 2806,
-                        "def": 946,
-                        "hp": 8035
-                  },
-                  {
-                        "att": 2813,
-                        "def": 948,
-                        "hp": 8055
-                  },
-                  {
-                        "att": 2820,
-                        "def": 951,
-                        "hp": 8075
-                  },
-                  {
-                        "att": 2827,
-                        "def": 953,
-                        "hp": 8095
-                  },
-                  {
-                        "att": 2834,
-                        "def": 955,
-                        "hp": 8115
-                  },
-                  {
-                        "att": 2841,
-                        "def": 958,
-                        "hp": 8135
-                  },
-                  {
-                        "att": 2848,
-                        "def": 960,
-                        "hp": 8155
-                  },
-                  {
-                        "att": 2856,
-                        "def": 962,
-                        "hp": 8175
-                  },
-                  {
-                        "att": 2863,
-                        "def": 965,
-                        "hp": 8195
-                  },
-                  {
-                        "att": 2870,
-                        "def": 967,
-                        "hp": 8215
-                  },
-                  {
-                        "att": 2877,
-                        "def": 969,
-                        "hp": 8235
-                  },
-                  {
-                        "att": 2884,
-                        "def": 972,
-                        "hp": 8256
-                  },
-                  {
-                        "att": 2891,
-                        "def": 974,
-                        "hp": 8276
-                  },
-                  {
-                        "att": 2898,
-                        "def": 976,
-                        "hp": 8296
-                  },
-                  {
-                        "att": 2905,
-                        "def": 978,
-                        "hp": 8316
-                  },
-                  {
-                        "att": 2912,
-                        "def": 981,
-                        "hp": 8336
-                  },
-                  {
-                        "att": 2919,
-                        "def": 983,
-                        "hp": 8356
-                  },
-                  {
-                        "att": 2926,
-                        "def": 985,
-                        "hp": 8376
-                  },
-                  {
-                        "att": 2933,
-                        "def": 988,
-                        "hp": 8396
-                  },
-                  {
-                        "att": 2941,
-                        "def": 990,
-                        "hp": 8416
-                  },
-                  {
-                        "att": 2948,
-                        "def": 992,
-                        "hp": 8436
-                  },
-                  {
-                        "att": 2955,
-                        "def": 995,
-                        "hp": 8456
-                  },
-                  {
-                        "att": 2962,
-                        "def": 997,
-                        "hp": 8476
-                  },
-                  {
-                        "att": 2969,
-                        "def": 999,
-                        "hp": 8496
-                  },
-                  {
-                        "att": 2976,
-                        "def": 1002,
-                        "hp": 8516
-                  },
-                  {
-                        "att": 2983,
-                        "def": 1004,
-                        "hp": 8536
-                  },
-                  {
-                        "att": 2990,
-                        "def": 1006,
-                        "hp": 8556
-                  },
-                  {
-                        "att": 2997,
-                        "def": 1009,
-                        "hp": 8576
-                  },
-                  {
-                        "att": 3004,
-                        "def": 1011,
-                        "hp": 8596
-                  },
-                  {
-                        "att": 3011,
-                        "def": 1013,
-                        "hp": 8616
-                  },
-                  {
-                        "att": 3019,
-                        "def": 1016,
-                        "hp": 8636
-                  },
-                  {
-                        "att": 3026,
-                        "def": 1018,
-                        "hp": 8656
-                  },
-                  {
-                        "att": 3033,
-                        "def": 1020,
-                        "hp": 8676
-                  },
-                  {
-                        "att": 3040,
-                        "def": 1023,
-                        "hp": 8696
-                  },
-                  {
-                        "att": 3047,
-                        "def": 1025,
-                        "hp": 8716
-                  },
-                  {
-                        "att": 3054,
-                        "def": 1027,
-                        "hp": 8736
-                  },
-                  {
-                        "att": 3061,
-                        "def": 1029,
-                        "hp": 8756
-                  }
-            ]
-      }
+ "name": "Charon",
+ "faction": "Illumina Federation",
+ "element_main": "Fire",
+ "element_sub": "Forest",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "Call of Nightmare",
+  "cd": "3 Turn",
+  "description": [
+   "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Resets all non-Red tiles within the area of attack.",
+   "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack.",
+   "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack."
+  ]
+ },
+ "equip": {
+  "name": "Flare Gun: Horizon",
+  "passive": "Direct Line",
+  "description": [
+   [
+    "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
+   ],
+   [
+    "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
+   ],
+   [
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.",
+    "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
+   ]
+  ],
+  "introduction": "Although the pistol that appeared with Charon's train, Other End, is seemingly an ordinary flintlock gun, after Charon unleashed his ability, this pistol formed a mysterious link with him, and its power improved tremendously."
+ },
+ "chain": {
+  "name": "Dance of the Dead",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 175% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 180% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 175% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 180% damage to 2 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 170% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 175% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 180% damage to 2 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Has an increased chance to generate Red tiles."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Flare Powder",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
+  },
+  {
+   "material": [
+    "Fire Flare Rock",
+    "Fire Potion I",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Resets all non-Red tiles within the area of attack.",
+   "after": "Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack."
+  },
+  {
+   "material": [
+    "Fire Potion III",
+    "Fire Crystal",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.",
+   "after": "Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 602,
+    "def": 227,
+    "hp": 1870
+   },
+   {
+    "att": 613,
+    "def": 231,
+    "hp": 1902
+   },
+   {
+    "att": 624,
+    "def": 235,
+    "hp": 1934
+   },
+   {
+    "att": 636,
+    "def": 238,
+    "hp": 1966
+   },
+   {
+    "att": 647,
+    "def": 242,
+    "hp": 1998
+   },
+   {
+    "att": 658,
+    "def": 246,
+    "hp": 2030
+   },
+   {
+    "att": 670,
+    "def": 249,
+    "hp": 2062
+   },
+   {
+    "att": 681,
+    "def": 253,
+    "hp": 2094
+   },
+   {
+    "att": 692,
+    "def": 257,
+    "hp": 2126
+   },
+   {
+    "att": 704,
+    "def": 261,
+    "hp": 2158
+   },
+   {
+    "att": 715,
+    "def": 264,
+    "hp": 2190
+   },
+   {
+    "att": 726,
+    "def": 268,
+    "hp": 2222
+   },
+   {
+    "att": 738,
+    "def": 272,
+    "hp": 2254
+   },
+   {
+    "att": 749,
+    "def": 275,
+    "hp": 2286
+   },
+   {
+    "att": 760,
+    "def": 279,
+    "hp": 2318
+   },
+   {
+    "att": 772,
+    "def": 283,
+    "hp": 2350
+   },
+   {
+    "att": 783,
+    "def": 286,
+    "hp": 2382
+   },
+   {
+    "att": 794,
+    "def": 290,
+    "hp": 2414
+   },
+   {
+    "att": 806,
+    "def": 294,
+    "hp": 2446
+   },
+   {
+    "att": 817,
+    "def": 298,
+    "hp": 2479
+   },
+   {
+    "att": 828,
+    "def": 301,
+    "hp": 2511
+   },
+   {
+    "att": 840,
+    "def": 305,
+    "hp": 2543
+   },
+   {
+    "att": 851,
+    "def": 309,
+    "hp": 2575
+   },
+   {
+    "att": 862,
+    "def": 312,
+    "hp": 2607
+   },
+   {
+    "att": 874,
+    "def": 316,
+    "hp": 2639
+   },
+   {
+    "att": 885,
+    "def": 320,
+    "hp": 2671
+   },
+   {
+    "att": 897,
+    "def": 324,
+    "hp": 2703
+   },
+   {
+    "att": 908,
+    "def": 327,
+    "hp": 2735
+   },
+   {
+    "att": 919,
+    "def": 331,
+    "hp": 2767
+   },
+   {
+    "att": 931,
+    "def": 335,
+    "hp": 2799
+   },
+   {
+    "att": 1035,
+    "def": 369,
+    "hp": 3089
+   },
+   {
+    "att": 1049,
+    "def": 374,
+    "hp": 3129
+   },
+   {
+    "att": 1063,
+    "def": 379,
+    "hp": 3169
+   },
+   {
+    "att": 1077,
+    "def": 383,
+    "hp": 3209
+   },
+   {
+    "att": 1091,
+    "def": 388,
+    "hp": 3249
+   },
+   {
+    "att": 1106,
+    "def": 393,
+    "hp": 3289
+   },
+   {
+    "att": 1120,
+    "def": 397,
+    "hp": 3329
+   },
+   {
+    "att": 1134,
+    "def": 402,
+    "hp": 3369
+   },
+   {
+    "att": 1148,
+    "def": 406,
+    "hp": 3410
+   },
+   {
+    "att": 1162,
+    "def": 411,
+    "hp": 3450
+   },
+   {
+    "att": 1176,
+    "def": 416,
+    "hp": 3490
+   },
+   {
+    "att": 1191,
+    "def": 420,
+    "hp": 3530
+   },
+   {
+    "att": 1205,
+    "def": 425,
+    "hp": 3570
+   },
+   {
+    "att": 1219,
+    "def": 430,
+    "hp": 3610
+   },
+   {
+    "att": 1233,
+    "def": 434,
+    "hp": 3650
+   },
+   {
+    "att": 1247,
+    "def": 439,
+    "hp": 3690
+   },
+   {
+    "att": 1261,
+    "def": 444,
+    "hp": 3730
+   },
+   {
+    "att": 1276,
+    "def": 448,
+    "hp": 3770
+   },
+   {
+    "att": 1290,
+    "def": 453,
+    "hp": 3810
+   },
+   {
+    "att": 1304,
+    "def": 457,
+    "hp": 3850
+   },
+   {
+    "att": 1318,
+    "def": 462,
+    "hp": 3890
+   },
+   {
+    "att": 1332,
+    "def": 467,
+    "hp": 3930
+   },
+   {
+    "att": 1347,
+    "def": 471,
+    "hp": 3970
+   },
+   {
+    "att": 1361,
+    "def": 476,
+    "hp": 4010
+   },
+   {
+    "att": 1375,
+    "def": 481,
+    "hp": 4051
+   },
+   {
+    "att": 1389,
+    "def": 485,
+    "hp": 4091
+   },
+   {
+    "att": 1403,
+    "def": 490,
+    "hp": 4131
+   },
+   {
+    "att": 1417,
+    "def": 495,
+    "hp": 4171
+   },
+   {
+    "att": 1432,
+    "def": 499,
+    "hp": 4211
+   },
+   {
+    "att": 1446,
+    "def": 504,
+    "hp": 4251
+   },
+   {
+    "att": 1460,
+    "def": 508,
+    "hp": 4291
+   },
+   {
+    "att": 1474,
+    "def": 513,
+    "hp": 4331
+   },
+   {
+    "att": 1488,
+    "def": 518,
+    "hp": 4371
+   },
+   {
+    "att": 1502,
+    "def": 522,
+    "hp": 4411
+   },
+   {
+    "att": 1517,
+    "def": 527,
+    "hp": 4451
+   },
+   {
+    "att": 1531,
+    "def": 532,
+    "hp": 4491
+   },
+   {
+    "att": 1545,
+    "def": 536,
+    "hp": 4531
+   },
+   {
+    "att": 1559,
+    "def": 541,
+    "hp": 4571
+   },
+   {
+    "att": 1573,
+    "def": 546,
+    "hp": 4611
+   },
+   {
+    "att": 1588,
+    "def": 550,
+    "hp": 4651
+   },
+   {
+    "att": 1748,
+    "def": 604,
+    "hp": 5082
+   },
+   {
+    "att": 1759,
+    "def": 607,
+    "hp": 5112
+   },
+   {
+    "att": 1769,
+    "def": 611,
+    "hp": 5142
+   },
+   {
+    "att": 1780,
+    "def": 614,
+    "hp": 5172
+   },
+   {
+    "att": 1791,
+    "def": 618,
+    "hp": 5202
+   },
+   {
+    "att": 1801,
+    "def": 621,
+    "hp": 5232
+   },
+   {
+    "att": 1812,
+    "def": 624,
+    "hp": 5262
+   },
+   {
+    "att": 1823,
+    "def": 628,
+    "hp": 5292
+   },
+   {
+    "att": 1833,
+    "def": 631,
+    "hp": 5322
+   },
+   {
+    "att": 1844,
+    "def": 635,
+    "hp": 5352
+   },
+   {
+    "att": 1854,
+    "def": 638,
+    "hp": 5382
+   },
+   {
+    "att": 1865,
+    "def": 642,
+    "hp": 5412
+   },
+   {
+    "att": 1876,
+    "def": 645,
+    "hp": 5442
+   },
+   {
+    "att": 1886,
+    "def": 649,
+    "hp": 5472
+   },
+   {
+    "att": 1897,
+    "def": 652,
+    "hp": 5502
+   },
+   {
+    "att": 1908,
+    "def": 656,
+    "hp": 5532
+   },
+   {
+    "att": 1918,
+    "def": 659,
+    "hp": 5562
+   },
+   {
+    "att": 1929,
+    "def": 663,
+    "hp": 5592
+   },
+   {
+    "att": 1939,
+    "def": 666,
+    "hp": 5622
+   },
+   {
+    "att": 1950,
+    "def": 670,
+    "hp": 5652
+   },
+   {
+    "att": 1961,
+    "def": 673,
+    "hp": 5682
+   },
+   {
+    "att": 1971,
+    "def": 677,
+    "hp": 5712
+   },
+   {
+    "att": 1982,
+    "def": 680,
+    "hp": 5743
+   },
+   {
+    "att": 1993,
+    "def": 684,
+    "hp": 5773
+   },
+   {
+    "att": 2003,
+    "def": 687,
+    "hp": 5803
+   },
+   {
+    "att": 2014,
+    "def": 691,
+    "hp": 5833
+   },
+   {
+    "att": 2025,
+    "def": 694,
+    "hp": 5863
+   },
+   {
+    "att": 2035,
+    "def": 698,
+    "hp": 5893
+   },
+   {
+    "att": 2046,
+    "def": 701,
+    "hp": 5923
+   },
+   {
+    "att": 2056,
+    "def": 704,
+    "hp": 5953
+   },
+   {
+    "att": 2067,
+    "def": 708,
+    "hp": 5983
+   },
+   {
+    "att": 2078,
+    "def": 711,
+    "hp": 6013
+   },
+   {
+    "att": 2088,
+    "def": 715,
+    "hp": 6043
+   },
+   {
+    "att": 2099,
+    "def": 718,
+    "hp": 6073
+   },
+   {
+    "att": 2110,
+    "def": 722,
+    "hp": 6103
+   },
+   {
+    "att": 2120,
+    "def": 725,
+    "hp": 6133
+   },
+   {
+    "att": 2131,
+    "def": 729,
+    "hp": 6163
+   },
+   {
+    "att": 2141,
+    "def": 732,
+    "hp": 6193
+   },
+   {
+    "att": 2152,
+    "def": 736,
+    "hp": 6223
+   },
+   {
+    "att": 2163,
+    "def": 739,
+    "hp": 6253
+   },
+   {
+    "att": 2173,
+    "def": 743,
+    "hp": 6283
+   },
+   {
+    "att": 2184,
+    "def": 746,
+    "hp": 6313
+   },
+   {
+    "att": 2195,
+    "def": 750,
+    "hp": 6343
+   },
+   {
+    "att": 2205,
+    "def": 753,
+    "hp": 6374
+   },
+   {
+    "att": 2216,
+    "def": 757,
+    "hp": 6404
+   },
+   {
+    "att": 2227,
+    "def": 760,
+    "hp": 6434
+   },
+   {
+    "att": 2237,
+    "def": 764,
+    "hp": 6464
+   },
+   {
+    "att": 2248,
+    "def": 767,
+    "hp": 6494
+   },
+   {
+    "att": 2258,
+    "def": 771,
+    "hp": 6524
+   },
+   {
+    "att": 2269,
+    "def": 774,
+    "hp": 6554
+   },
+   {
+    "att": 2501,
+    "def": 846,
+    "hp": 7174
+   },
+   {
+    "att": 2508,
+    "def": 849,
+    "hp": 7194
+   },
+   {
+    "att": 2515,
+    "def": 851,
+    "hp": 7214
+   },
+   {
+    "att": 2522,
+    "def": 853,
+    "hp": 7234
+   },
+   {
+    "att": 2529,
+    "def": 856,
+    "hp": 7254
+   },
+   {
+    "att": 2537,
+    "def": 858,
+    "hp": 7274
+   },
+   {
+    "att": 2544,
+    "def": 860,
+    "hp": 7294
+   },
+   {
+    "att": 2551,
+    "def": 863,
+    "hp": 7314
+   },
+   {
+    "att": 2558,
+    "def": 865,
+    "hp": 7334
+   },
+   {
+    "att": 2565,
+    "def": 867,
+    "hp": 7354
+   },
+   {
+    "att": 2572,
+    "def": 870,
+    "hp": 7374
+   },
+   {
+    "att": 2579,
+    "def": 872,
+    "hp": 7394
+   },
+   {
+    "att": 2586,
+    "def": 874,
+    "hp": 7414
+   },
+   {
+    "att": 2593,
+    "def": 876,
+    "hp": 7434
+   },
+   {
+    "att": 2600,
+    "def": 879,
+    "hp": 7454
+   },
+   {
+    "att": 2607,
+    "def": 881,
+    "hp": 7474
+   },
+   {
+    "att": 2615,
+    "def": 883,
+    "hp": 7494
+   },
+   {
+    "att": 2622,
+    "def": 886,
+    "hp": 7514
+   },
+   {
+    "att": 2629,
+    "def": 888,
+    "hp": 7534
+   },
+   {
+    "att": 2636,
+    "def": 890,
+    "hp": 7554
+   },
+   {
+    "att": 2643,
+    "def": 893,
+    "hp": 7574
+   },
+   {
+    "att": 2650,
+    "def": 895,
+    "hp": 7594
+   },
+   {
+    "att": 2657,
+    "def": 897,
+    "hp": 7615
+   },
+   {
+    "att": 2664,
+    "def": 900,
+    "hp": 7635
+   },
+   {
+    "att": 2671,
+    "def": 902,
+    "hp": 7655
+   },
+   {
+    "att": 2678,
+    "def": 904,
+    "hp": 7675
+   },
+   {
+    "att": 2685,
+    "def": 907,
+    "hp": 7695
+   },
+   {
+    "att": 2692,
+    "def": 909,
+    "hp": 7715
+   },
+   {
+    "att": 2700,
+    "def": 911,
+    "hp": 7735
+   },
+   {
+    "att": 2707,
+    "def": 914,
+    "hp": 7755
+   },
+   {
+    "att": 2714,
+    "def": 916,
+    "hp": 7775
+   },
+   {
+    "att": 2721,
+    "def": 918,
+    "hp": 7795
+   },
+   {
+    "att": 2728,
+    "def": 921,
+    "hp": 7815
+   },
+   {
+    "att": 2735,
+    "def": 923,
+    "hp": 7835
+   },
+   {
+    "att": 2742,
+    "def": 925,
+    "hp": 7855
+   },
+   {
+    "att": 2749,
+    "def": 927,
+    "hp": 7875
+   },
+   {
+    "att": 2756,
+    "def": 930,
+    "hp": 7895
+   },
+   {
+    "att": 2763,
+    "def": 932,
+    "hp": 7915
+   },
+   {
+    "att": 2770,
+    "def": 934,
+    "hp": 7935
+   },
+   {
+    "att": 2778,
+    "def": 937,
+    "hp": 7955
+   },
+   {
+    "att": 2785,
+    "def": 939,
+    "hp": 7975
+   },
+   {
+    "att": 2792,
+    "def": 941,
+    "hp": 7995
+   },
+   {
+    "att": 2799,
+    "def": 944,
+    "hp": 8015
+   },
+   {
+    "att": 2806,
+    "def": 946,
+    "hp": 8035
+   },
+   {
+    "att": 2813,
+    "def": 948,
+    "hp": 8055
+   },
+   {
+    "att": 2820,
+    "def": 951,
+    "hp": 8075
+   },
+   {
+    "att": 2827,
+    "def": 953,
+    "hp": 8095
+   },
+   {
+    "att": 2834,
+    "def": 955,
+    "hp": 8115
+   },
+   {
+    "att": 2841,
+    "def": 958,
+    "hp": 8135
+   },
+   {
+    "att": 2848,
+    "def": 960,
+    "hp": 8155
+   },
+   {
+    "att": 2856,
+    "def": 962,
+    "hp": 8175
+   },
+   {
+    "att": 2863,
+    "def": 965,
+    "hp": 8195
+   },
+   {
+    "att": 2870,
+    "def": 967,
+    "hp": 8215
+   },
+   {
+    "att": 2877,
+    "def": 969,
+    "hp": 8235
+   },
+   {
+    "att": 2884,
+    "def": 972,
+    "hp": 8256
+   },
+   {
+    "att": 2891,
+    "def": 974,
+    "hp": 8276
+   },
+   {
+    "att": 2898,
+    "def": 976,
+    "hp": 8296
+   },
+   {
+    "att": 2905,
+    "def": 978,
+    "hp": 8316
+   },
+   {
+    "att": 2912,
+    "def": 981,
+    "hp": 8336
+   },
+   {
+    "att": 2919,
+    "def": 983,
+    "hp": 8356
+   },
+   {
+    "att": 2926,
+    "def": 985,
+    "hp": 8376
+   },
+   {
+    "att": 2933,
+    "def": 988,
+    "hp": 8396
+   },
+   {
+    "att": 2941,
+    "def": 990,
+    "hp": 8416
+   },
+   {
+    "att": 2948,
+    "def": 992,
+    "hp": 8436
+   },
+   {
+    "att": 2955,
+    "def": 995,
+    "hp": 8456
+   },
+   {
+    "att": 2962,
+    "def": 997,
+    "hp": 8476
+   },
+   {
+    "att": 2969,
+    "def": 999,
+    "hp": 8496
+   },
+   {
+    "att": 2976,
+    "def": 1002,
+    "hp": 8516
+   },
+   {
+    "att": 2983,
+    "def": 1004,
+    "hp": 8536
+   },
+   {
+    "att": 2990,
+    "def": 1006,
+    "hp": 8556
+   },
+   {
+    "att": 2997,
+    "def": 1009,
+    "hp": 8576
+   },
+   {
+    "att": 3004,
+    "def": 1011,
+    "hp": 8596
+   },
+   {
+    "att": 3011,
+    "def": 1013,
+    "hp": 8616
+   },
+   {
+    "att": 3019,
+    "def": 1016,
+    "hp": 8636
+   },
+   {
+    "att": 3026,
+    "def": 1018,
+    "hp": 8656
+   },
+   {
+    "att": 3033,
+    "def": 1020,
+    "hp": 8676
+   },
+   {
+    "att": 3040,
+    "def": 1023,
+    "hp": 8696
+   },
+   {
+    "att": 3047,
+    "def": 1025,
+    "hp": 8716
+   },
+   {
+    "att": 3054,
+    "def": 1027,
+    "hp": 8736
+   },
+   {
+    "att": 3061,
+    "def": 1029,
+    "hp": 8756
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Backpacker",
+    "effect": "When deployed to the Resource Station, increases the Carrier's production efficiency by 10%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Charon",
+     "Vice"
+    ],
+    "chat": [
+     {
+      "character": "Charon:",
+      "text": "Isn't this Vice? Want to listen to some metal?"
+     },
+     {
+      "character": "Vice:",
+      "text": "Uh, I've still got work to do..."
+     },
+     {
+      "character": "Charon:",
+      "text": "Then all the more reason to listen to it, because only then will you have the energy to work!"
+     },
+     {
+      "character": "Vice:",
+      "text": "Eh? Does listening to metal give you energy?"
+     },
+     {
+      "character": "Charon:",
+      "text": "Of course! Whenever I play metal for Other End, it goes faster!"
+     },
+     {
+      "character": "Charon:",
+      "text": "Charging forward with horns blaring and metal music playing... who knows how many Eclipsites got run over?"
+     },
+     {
+      "character": "Vice:",
+      "text": "Really? But for some reason I don't believe you..."
+     },
+     {
+      "character": "Charon:",
+      "text": "I'm telling the truth! That has been the secret of my strength all this while! Just try it, then you'll see how great it works!"
+     },
+     {
+      "character": "Vice:",
+      "text": "Then I'll... give it a try?"
+     },
+     {
+      "character": "Charon:",
+      "text": "Come, I've picked a playlist that suits you the most. Don't forget to turn the volume all the way up!"
+     },
+     {
+      "character": "Vice:",
+      "text": "Like... like this?"
+     },
+     {
+      "character": "Vice:",
+      "text": "*Adjust volume... then play...*"
+     },
+     {
+      "character": "Vice:",
+      "text": "!!!@#$%^&*(*&^%$#@#$%^&*"
+     },
+     {
+      "character": "Charon:",
+      "text": "Vice? Vice! What's going on, Vice! Why are you foaming at the mouth?!"
+     },
+     {
+      "character": "Vice:",
+      "text": "This volume... mother... are you coming to bring me with you..."
+     },
+     {
+      "character": "Charon:",
+      "text": "Vice, Vice! Someone, help! Vice has passed out!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "Aurorians with childlike innocence",
+  "Illumina Federation Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "I have occasionally seen a train on the Colossus since that superior arrived... I know it sounds strange, so let me explain. The thing is, that train is Charon's \"partner\", Other End. Although Other End is huge and looks very cumbersome, it is in fact extremely adorable lively, and stays by Charon's side every day like a loyal dog wagging its tail. I was initially a little skeptical when I heard rumors that Charon hangs out with Other End every day. Now I know that it is true.Don't let Charon's dashing gentlemanly appearance fool you. He is a natural actor who can deceive anyone who lets their guard down around him. However, if he can be more honest with others, he should be quite popular with the ladies since he is a handsome guy with a cute dog by his side\u2014only if he is more honest and trustworthy.\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Are you the one in charge of this Colossus? Excellent! Let me introduce myself: I am the ferryman of evil spirits, the admirer of dreams, the artist of the stage, and the conductor of the train of the dead\u2014Charon!I like to listen to rock music at the maximum volume so that my friend, Other End, can listen to it too as it speeds through dark tunnels and takes me away from this noisy world. I don't have to think or ask about anything when I am with Other End. It feels like we can travel through time, to the time when we traveled around the continent before the crisis and the time when I researched ancient technology with my friends... Of course! It's the same now. We always bask in the sun on to the lawn outside Undercity when we're tired and go for a drive when we wake up. Occasionally, unexpected animal friends would visit our home to enjoy food and wine with us!Need not be envious! From today on, you'll also be qualified to... watch from the sidelines! Haha!"
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "Do you think I stand out from my surroundings? No, of course not! I'm a talented performer who can adapt to any stage! If you think time has left its mark on me, I can tell you that everything you see is just an act... Yes, I am one of the last of my ancient bloodline and a relic that doesn't belong to this era. My partner is a train from hell called Other End. It loves to reveal its savage fangs and is irritable and untamable. Initially, it was just a toy that a father brought home on a whim to appease his naughty young son, but the young boy loved it far more than anyone could imagine. He continued to study ancient books and learned about the possibilities presented by ancient technology. He wanted one of the large trains recorded in ancient books, and it would be best if it could speak, dance, sing, and play gateball. Other End was the fruit of his subsequent efforts. They cherished and accompanied each other, but fate never stops playing pranks and enjoys manipulating people...So? What do you think of my script? Isn't it exciting!"
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "Are you questioning the spirituality of my partner, Other End?! I won't permit such thoughts to appear in such a sacred place like this... I mean next to my only partner, even if you are the leader of the Colossus!What's the meaning of your sympathetic gaze? Handsome train conductors like me are all peerless and independent! When have you ever seen a ferryman with a large group of companions in myths and legends?What? You want to go on a ride with me on Other End? I'll naturally agree since you're asking so sincerely! This is my gift to you, so don't laugh!"
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Do you want to hear about the awakening of Other End? One time, I traveled the continent with my partner and learned a lot about the world. However, my father criticized me a lot after I returned to Old Town. My relationship with my family, who followed the old traditions of nobles, became estranged after that. My father left my mother and me after the Darkover because of my stubbornness. When my mother and I were about to be mobbed by the Eclipsites, Other End gained self-consciousness and saved us, but my mother still died of serious injuries in the end... Therefore, I always lose control of my abilities whenever I think about anything related to my family.Why am I suddenly so serious? You can just assume that I'm reading a script..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Our destiny is tied with Illumina. We've been here twice, and it's now the place we call home for all of eternity.",
+  "Pursuit is nothing but the manifestation of one's self-consciousness. Something that is imposed is not necessarily the truth.",
+  "Splendor\u2014Illumina!",
+  "We, who have returned from hell, shall face our fears head-on.",
+  "I dare not comment on her, as I did lose... But if it's about how to operate a train...",
+  "To see through everything and embark on a lonely road without hesitation\u2014that is what a born leader is like.",
+  "A lonely stage, a free life, and a rock n' roll train journey. These are the things I love!",
+  "There's no room for tasteless lunatics in an artist's life.",
+  "Just like me and Other End, this Colossus is your partner, right?",
+  "Do you want to see the next act of the play? Come on, tell me you want to!",
+  "Part the curtain of the dark night dreamily, and I shall steer you toward the light. Can I stand here forever?",
+  "Run! Grab my hand!",
+  "We come from hell. Losing is not possible.",
+  "Power test!",
+  "Hellfire Signal!",
+  "Listen to the ear-piercing whistle!",
+  "This... This is the sound of the New Year!",
+  "I never thought I'd have the chance...",
+  "We are arriving at the River Styx.",
+  "The train to hell has departed!",
+  "This is the train of the dead! Haha!",
+  "\"Those who have reached the end of their destiny! Struggle! Shout! Your face, frantic with fear, shall be my...\" Hmm, this part is a little awkward.",
+  "Speed up!",
+  "Alchemy\u2014Stars!",
+  "Humph... The loneliness of the soul and true art are things that few can understand. All artists are lonely, and I don't work well with others...",
+  "Argh, I'm so busy. Wanna watch a musical? Invited a lot of people? Really? In that case, I'll make an exception and perform again\u2014",
+  "Someone complained about the noises we're making? Who's complaining that my old buddy is noisy? Surely it must be a plebian with poor taste...",
+  "Look, I just have to shout \"Feel the terror of the train from hell!\" and my old buddy will rush out. Do you want to see it?",
+  "Peace will continue to elude me forever. It is an endless curse and a carnival of the lonely...",
+  "Focus! This is my grandest performance! Charon, Other End, and countless souls who thirst for a show full of life have returned from hell!",
+  "Please wait for a moment... Here are your tea and snacks. Dear audience, please return to your seats!",
+  "You fled alone so quickly and so far. Why didn't you take me with you? You know I'll always be on your side no matter what you are or what you do...",
+  "The days that I spent with the Grand Marshal were the happiest days of my life, and I felt like I had been redeemed... Now that I've met you, the script of destiny is complete!",
+  "All I need is Other End. My other friends... I can do without.",
+  "People will always leave me for different reasons, getting off when they reach the stop of their destination...",
+  "Other End seems to like you a lot. In that case, I'll reserve a spot for you on stage!",
+  "The Wraith Train, at your service.",
+  "Really? You're up so early just to prepare such an elaborate stage specially for me ?",
+  "We've stepped onto the next stage! Come! Join us!",
+  "You're just in time as the Wraith Train is about to depart. Get on if you want to reach the other side!",
+  "I am the ferryman of evil spirits and the underworld. I am not a skeleton of hell nor an apostle of Bright. I am Charon, and I travel fearlessly in a blood-stained world.",
+  "I think the last time I got a gift was in the last century...",
+  "Gift-giving is such a touching scene!",
+  "Ohhh! Is this a gift from a kindred soul?!",
+  "How wonderful! This is a gift from my dear friend!",
+  "Hellbound! On its way!",
+  "The dead! Shall give way!",
+  "Full speed ahead!",
+  "So what if you're misunderstood and alienated by old friends? Days spent on enjoying wine without worrying about others are much better!",
+  "I'll never forget my mother's face behind the window... I can watch her forever without noticing time passing...",
+  "My family used to spoil me, but they didn't understand back then that Other End was also family to me. The decision made at that difficult time was fate conspiring against us...",
+  "Spotlights on me! The protagonist takes the stage!"
+ ],
+ "skins": [],
+ "description": "The Chief of Transportation in the Illumina Federation who is the conductor of the train called Other End. His everyday antics are so over the top, it's as if he's performing on stage. He tends to be alienated by others and is somewhat of a weirdo.",
+ "realName": "Charon",
+ "nickname": "The Acheron Ferryman",
+ "gender": "Male",
+ "height": "5'11\"",
+ "birthday": "February 2",
+ "birthplace": "Old Town",
+ "style": "Charon of Styx"
 }

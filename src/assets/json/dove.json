@@ -1,715 +1,934 @@
 {
-      "name": "Dove",
-      "faction": "Independent",
-      "element_main": "Forest",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Teleports to a selected location within a 3-tile distance. Deals 200% damage to 4 tiles in a cross shape at that location.",
-                  "Teleports to a selected location within a 3-tile distance. Deals 200% damage to tiles within 1 surrounding cluster of this location."
-            ]
-      },
-      "equip": {
-            "name": "Light Feather",
-            "passive": "Dove Pact",
-            "description": [
-                  [
-                        "Active skills have a 30% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 30% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 70% chance to Slow enemies for 2 rounds."
-                  ],
-                  [
-                        "Active skills have a 30% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 30% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 40% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 55% chance to Slow enemies for 2 rounds.",
-                        "Active skills have a 70% chance to Slow enemies for 2 rounds."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 155% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 155% damage to 16 tiles in a radial shape."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Crystal Dust",
-                        "Tales of Survival",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Active skills have a 70% chance to Slow enemies for 2 rounds."
-            },
-            {
-                  "material": [
-                        "Forest Crystal",
-                        "Forest Potion I",
-                        "Survival 101",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Teleports to a selected location within a 3-tile distance. Deals 200% damage to 4 tiles in a cross shape at that location.",
-                  "after": "Teleports to a selected location within a 3-tile distance. Deals 200% damage to tiles within 1 surrounding cluster of this location."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 517,
-                        "def": 208,
-                        "hp": 1585
-                  },
-                  {
-                        "att": 527,
-                        "def": 211,
-                        "hp": 1607
-                  },
-                  {
-                        "att": 536,
-                        "def": 215,
-                        "hp": 1628
-                  },
-                  {
-                        "att": 546,
-                        "def": 218,
-                        "hp": 1650
-                  },
-                  {
-                        "att": 555,
-                        "def": 221,
-                        "hp": 1671
-                  },
-                  {
-                        "att": 565,
-                        "def": 224,
-                        "hp": 1692
-                  },
-                  {
-                        "att": 574,
-                        "def": 227,
-                        "hp": 1714
-                  },
-                  {
-                        "att": 584,
-                        "def": 230,
-                        "hp": 1735
-                  },
-                  {
-                        "att": 593,
-                        "def": 233,
-                        "hp": 1757
-                  },
-                  {
-                        "att": 603,
-                        "def": 236,
-                        "hp": 1778
-                  },
-                  {
-                        "att": 612,
-                        "def": 239,
-                        "hp": 1800
-                  },
-                  {
-                        "att": 622,
-                        "def": 242,
-                        "hp": 1821
-                  },
-                  {
-                        "att": 631,
-                        "def": 245,
-                        "hp": 1843
-                  },
-                  {
-                        "att": 640,
-                        "def": 249,
-                        "hp": 1864
-                  },
-                  {
-                        "att": 650,
-                        "def": 252,
-                        "hp": 1885
-                  },
-                  {
-                        "att": 659,
-                        "def": 255,
-                        "hp": 1907
-                  },
-                  {
-                        "att": 669,
-                        "def": 258,
-                        "hp": 1928
-                  },
-                  {
-                        "att": 678,
-                        "def": 261,
-                        "hp": 1950
-                  },
-                  {
-                        "att": 688,
-                        "def": 264,
-                        "hp": 1971
-                  },
-                  {
-                        "att": 697,
-                        "def": 267,
-                        "hp": 1993
-                  },
-                  {
-                        "att": 707,
-                        "def": 270,
-                        "hp": 2014
-                  },
-                  {
-                        "att": 716,
-                        "def": 273,
-                        "hp": 2035
-                  },
-                  {
-                        "att": 726,
-                        "def": 276,
-                        "hp": 2057
-                  },
-                  {
-                        "att": 735,
-                        "def": 279,
-                        "hp": 2078
-                  },
-                  {
-                        "att": 745,
-                        "def": 283,
-                        "hp": 2100
-                  },
-                  {
-                        "att": 754,
-                        "def": 286,
-                        "hp": 2121
-                  },
-                  {
-                        "att": 764,
-                        "def": 289,
-                        "hp": 2143
-                  },
-                  {
-                        "att": 773,
-                        "def": 292,
-                        "hp": 2164
-                  },
-                  {
-                        "att": 783,
-                        "def": 295,
-                        "hp": 2185
-                  },
-                  {
-                        "att": 792,
-                        "def": 298,
-                        "hp": 2207
-                  },
-                  {
-                        "att": 894,
-                        "def": 332,
-                        "hp": 2474
-                  },
-                  {
-                        "att": 906,
-                        "def": 336,
-                        "hp": 2500
-                  },
-                  {
-                        "att": 917,
-                        "def": 340,
-                        "hp": 2527
-                  },
-                  {
-                        "att": 929,
-                        "def": 344,
-                        "hp": 2554
-                  },
-                  {
-                        "att": 941,
-                        "def": 347,
-                        "hp": 2581
-                  },
-                  {
-                        "att": 953,
-                        "def": 351,
-                        "hp": 2608
-                  },
-                  {
-                        "att": 965,
-                        "def": 355,
-                        "hp": 2634
-                  },
-                  {
-                        "att": 977,
-                        "def": 359,
-                        "hp": 2661
-                  },
-                  {
-                        "att": 989,
-                        "def": 363,
-                        "hp": 2688
-                  },
-                  {
-                        "att": 1000,
-                        "def": 367,
-                        "hp": 2715
-                  },
-                  {
-                        "att": 1012,
-                        "def": 371,
-                        "hp": 2742
-                  },
-                  {
-                        "att": 1024,
-                        "def": 374,
-                        "hp": 2768
-                  },
-                  {
-                        "att": 1036,
-                        "def": 378,
-                        "hp": 2795
-                  },
-                  {
-                        "att": 1048,
-                        "def": 382,
-                        "hp": 2822
-                  },
-                  {
-                        "att": 1060,
-                        "def": 386,
-                        "hp": 2849
-                  },
-                  {
-                        "att": 1071,
-                        "def": 390,
-                        "hp": 2876
-                  },
-                  {
-                        "att": 1083,
-                        "def": 394,
-                        "hp": 2902
-                  },
-                  {
-                        "att": 1095,
-                        "def": 398,
-                        "hp": 2929
-                  },
-                  {
-                        "att": 1107,
-                        "def": 402,
-                        "hp": 2956
-                  },
-                  {
-                        "att": 1119,
-                        "def": 405,
-                        "hp": 2983
-                  },
-                  {
-                        "att": 1131,
-                        "def": 409,
-                        "hp": 3010
-                  },
-                  {
-                        "att": 1142,
-                        "def": 413,
-                        "hp": 3036
-                  },
-                  {
-                        "att": 1154,
-                        "def": 417,
-                        "hp": 3063
-                  },
-                  {
-                        "att": 1166,
-                        "def": 421,
-                        "hp": 3090
-                  },
-                  {
-                        "att": 1178,
-                        "def": 425,
-                        "hp": 3117
-                  },
-                  {
-                        "att": 1190,
-                        "def": 429,
-                        "hp": 3144
-                  },
-                  {
-                        "att": 1202,
-                        "def": 432,
-                        "hp": 3170
-                  },
-                  {
-                        "att": 1213,
-                        "def": 436,
-                        "hp": 3197
-                  },
-                  {
-                        "att": 1225,
-                        "def": 440,
-                        "hp": 3224
-                  },
-                  {
-                        "att": 1237,
-                        "def": 444,
-                        "hp": 3251
-                  },
-                  {
-                        "att": 1249,
-                        "def": 448,
-                        "hp": 3277
-                  },
-                  {
-                        "att": 1261,
-                        "def": 452,
-                        "hp": 3304
-                  },
-                  {
-                        "att": 1273,
-                        "def": 456,
-                        "hp": 3331
-                  },
-                  {
-                        "att": 1284,
-                        "def": 459,
-                        "hp": 3358
-                  },
-                  {
-                        "att": 1296,
-                        "def": 463,
-                        "hp": 3385
-                  },
-                  {
-                        "att": 1308,
-                        "def": 467,
-                        "hp": 3411
-                  },
-                  {
-                        "att": 1320,
-                        "def": 471,
-                        "hp": 3438
-                  },
-                  {
-                        "att": 1332,
-                        "def": 475,
-                        "hp": 3465
-                  },
-                  {
-                        "att": 1344,
-                        "def": 479,
-                        "hp": 3492
-                  },
-                  {
-                        "att": 1355,
-                        "def": 483,
-                        "hp": 3519
-                  },
-                  {
-                        "att": 1504,
-                        "def": 536,
-                        "hp": 3919
-                  },
-                  {
-                        "att": 1513,
-                        "def": 538,
-                        "hp": 3939
-                  },
-                  {
-                        "att": 1522,
-                        "def": 541,
-                        "hp": 3959
-                  },
-                  {
-                        "att": 1531,
-                        "def": 544,
-                        "hp": 3979
-                  },
-                  {
-                        "att": 1540,
-                        "def": 547,
-                        "hp": 3999
-                  },
-                  {
-                        "att": 1549,
-                        "def": 550,
-                        "hp": 4019
-                  },
-                  {
-                        "att": 1558,
-                        "def": 553,
-                        "hp": 4039
-                  },
-                  {
-                        "att": 1567,
-                        "def": 556,
-                        "hp": 4059
-                  },
-                  {
-                        "att": 1575,
-                        "def": 559,
-                        "hp": 4079
-                  },
-                  {
-                        "att": 1584,
-                        "def": 562,
-                        "hp": 4100
-                  },
-                  {
-                        "att": 1593,
-                        "def": 565,
-                        "hp": 4120
-                  },
-                  {
-                        "att": 1602,
-                        "def": 567,
-                        "hp": 4140
-                  },
-                  {
-                        "att": 1611,
-                        "def": 570,
-                        "hp": 4160
-                  },
-                  {
-                        "att": 1620,
-                        "def": 573,
-                        "hp": 4180
-                  },
-                  {
-                        "att": 1629,
-                        "def": 576,
-                        "hp": 4200
-                  },
-                  {
-                        "att": 1638,
-                        "def": 579,
-                        "hp": 4220
-                  },
-                  {
-                        "att": 1646,
-                        "def": 582,
-                        "hp": 4240
-                  },
-                  {
-                        "att": 1655,
-                        "def": 585,
-                        "hp": 4260
-                  },
-                  {
-                        "att": 1664,
-                        "def": 588,
-                        "hp": 4280
-                  },
-                  {
-                        "att": 1673,
-                        "def": 591,
-                        "hp": 4301
-                  },
-                  {
-                        "att": 1682,
-                        "def": 594,
-                        "hp": 4321
-                  },
-                  {
-                        "att": 1691,
-                        "def": 596,
-                        "hp": 4341
-                  },
-                  {
-                        "att": 1700,
-                        "def": 599,
-                        "hp": 4361
-                  },
-                  {
-                        "att": 1709,
-                        "def": 602,
-                        "hp": 4381
-                  },
-                  {
-                        "att": 1717,
-                        "def": 605,
-                        "hp": 4401
-                  },
-                  {
-                        "att": 1726,
-                        "def": 608,
-                        "hp": 4421
-                  },
-                  {
-                        "att": 1735,
-                        "def": 611,
-                        "hp": 4441
-                  },
-                  {
-                        "att": 1744,
-                        "def": 614,
-                        "hp": 4461
-                  },
-                  {
-                        "att": 1753,
-                        "def": 617,
-                        "hp": 4481
-                  },
-                  {
-                        "att": 1762,
-                        "def": 620,
-                        "hp": 4501
-                  },
-                  {
-                        "att": 1771,
-                        "def": 623,
-                        "hp": 4522
-                  },
-                  {
-                        "att": 1780,
-                        "def": 625,
-                        "hp": 4542
-                  },
-                  {
-                        "att": 1788,
-                        "def": 628,
-                        "hp": 4562
-                  },
-                  {
-                        "att": 1797,
-                        "def": 631,
-                        "hp": 4582
-                  },
-                  {
-                        "att": 1806,
-                        "def": 634,
-                        "hp": 4602
-                  },
-                  {
-                        "att": 1815,
-                        "def": 637,
-                        "hp": 4622
-                  },
-                  {
-                        "att": 1824,
-                        "def": 640,
-                        "hp": 4642
-                  },
-                  {
-                        "att": 1833,
-                        "def": 643,
-                        "hp": 4662
-                  },
-                  {
-                        "att": 1842,
-                        "def": 646,
-                        "hp": 4682
-                  },
-                  {
-                        "att": 1851,
-                        "def": 649,
-                        "hp": 4702
-                  },
-                  {
-                        "att": 1860,
-                        "def": 652,
-                        "hp": 4723
-                  },
-                  {
-                        "att": 1868,
-                        "def": 654,
-                        "hp": 4743
-                  },
-                  {
-                        "att": 1877,
-                        "def": 657,
-                        "hp": 4763
-                  },
-                  {
-                        "att": 1886,
-                        "def": 660,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1895,
-                        "def": 663,
-                        "hp": 4803
-                  },
-                  {
-                        "att": 1904,
-                        "def": 666,
-                        "hp": 4823
-                  },
-                  {
-                        "att": 1913,
-                        "def": 669,
-                        "hp": 4843
-                  },
-                  {
-                        "att": 1922,
-                        "def": 672,
-                        "hp": 4863
-                  },
-                  {
-                        "att": 1931,
-                        "def": 675,
-                        "hp": 4883
-                  },
-                  {
-                        "att": 1939,
-                        "def": 678,
-                        "hp": 4903
-                  }
-            ]
-      }
+ "name": "Dove",
+ "faction": "Independent",
+ "element_main": "Forest",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Converter",
+ "skill": {
+  "name": "Blinking Dove",
+  "cd": "2 Turn",
+  "description": [
+   "Teleports to a selected location within a 3-tile distance. Deals 200% damage to 4 tiles in a cross shape at that location.",
+   "Teleports to a selected location within a 3-tile distance. Deals 200% damage to tiles within 1 surrounding cluster of this location."
+  ]
+ },
+ "equip": {
+  "name": "Light Feather",
+  "passive": "Dove Pact",
+  "description": [
+   [
+    "Active skills have a 30% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 30% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 70% chance to Slow enemies for 2 rounds."
+   ],
+   [
+    "Active skills have a 30% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 30% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 40% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 55% chance to Slow enemies for 2 rounds.",
+    "Active skills have a 70% chance to Slow enemies for 2 rounds."
+   ]
+  ],
+  "introduction": "A feather left to Dove by her parents. It can greatly improve Dove's movement speed, and can also enhance the power of her Luminatics, allowing her to throw blades more accurately and more rapidly."
+ },
+ "chain": {
+  "name": "Dove Overload!",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 155% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 155% damage to 16 tiles in a radial shape."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Crystal Dust",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Active skills have a 70% chance to Slow enemies for 2 rounds."
+  },
+  {
+   "material": [
+    "Forest Crystal",
+    "Forest Potion I",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to a selected location within a 3-tile distance. Deals 200% damage to 4 tiles in a cross shape at that location.",
+   "after": "Teleports to a selected location within a 3-tile distance. Deals 200% damage to tiles within 1 surrounding cluster of this location."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 517,
+    "def": 208,
+    "hp": 1585
+   },
+   {
+    "att": 527,
+    "def": 211,
+    "hp": 1607
+   },
+   {
+    "att": 536,
+    "def": 215,
+    "hp": 1628
+   },
+   {
+    "att": 546,
+    "def": 218,
+    "hp": 1650
+   },
+   {
+    "att": 555,
+    "def": 221,
+    "hp": 1671
+   },
+   {
+    "att": 565,
+    "def": 224,
+    "hp": 1692
+   },
+   {
+    "att": 574,
+    "def": 227,
+    "hp": 1714
+   },
+   {
+    "att": 584,
+    "def": 230,
+    "hp": 1735
+   },
+   {
+    "att": 593,
+    "def": 233,
+    "hp": 1757
+   },
+   {
+    "att": 603,
+    "def": 236,
+    "hp": 1778
+   },
+   {
+    "att": 612,
+    "def": 239,
+    "hp": 1800
+   },
+   {
+    "att": 622,
+    "def": 242,
+    "hp": 1821
+   },
+   {
+    "att": 631,
+    "def": 245,
+    "hp": 1843
+   },
+   {
+    "att": 640,
+    "def": 249,
+    "hp": 1864
+   },
+   {
+    "att": 650,
+    "def": 252,
+    "hp": 1885
+   },
+   {
+    "att": 659,
+    "def": 255,
+    "hp": 1907
+   },
+   {
+    "att": 669,
+    "def": 258,
+    "hp": 1928
+   },
+   {
+    "att": 678,
+    "def": 261,
+    "hp": 1950
+   },
+   {
+    "att": 688,
+    "def": 264,
+    "hp": 1971
+   },
+   {
+    "att": 697,
+    "def": 267,
+    "hp": 1993
+   },
+   {
+    "att": 707,
+    "def": 270,
+    "hp": 2014
+   },
+   {
+    "att": 716,
+    "def": 273,
+    "hp": 2035
+   },
+   {
+    "att": 726,
+    "def": 276,
+    "hp": 2057
+   },
+   {
+    "att": 735,
+    "def": 279,
+    "hp": 2078
+   },
+   {
+    "att": 745,
+    "def": 283,
+    "hp": 2100
+   },
+   {
+    "att": 754,
+    "def": 286,
+    "hp": 2121
+   },
+   {
+    "att": 764,
+    "def": 289,
+    "hp": 2143
+   },
+   {
+    "att": 773,
+    "def": 292,
+    "hp": 2164
+   },
+   {
+    "att": 783,
+    "def": 295,
+    "hp": 2185
+   },
+   {
+    "att": 792,
+    "def": 298,
+    "hp": 2207
+   },
+   {
+    "att": 894,
+    "def": 332,
+    "hp": 2474
+   },
+   {
+    "att": 906,
+    "def": 336,
+    "hp": 2500
+   },
+   {
+    "att": 917,
+    "def": 340,
+    "hp": 2527
+   },
+   {
+    "att": 929,
+    "def": 344,
+    "hp": 2554
+   },
+   {
+    "att": 941,
+    "def": 347,
+    "hp": 2581
+   },
+   {
+    "att": 953,
+    "def": 351,
+    "hp": 2608
+   },
+   {
+    "att": 965,
+    "def": 355,
+    "hp": 2634
+   },
+   {
+    "att": 977,
+    "def": 359,
+    "hp": 2661
+   },
+   {
+    "att": 989,
+    "def": 363,
+    "hp": 2688
+   },
+   {
+    "att": 1000,
+    "def": 367,
+    "hp": 2715
+   },
+   {
+    "att": 1012,
+    "def": 371,
+    "hp": 2742
+   },
+   {
+    "att": 1024,
+    "def": 374,
+    "hp": 2768
+   },
+   {
+    "att": 1036,
+    "def": 378,
+    "hp": 2795
+   },
+   {
+    "att": 1048,
+    "def": 382,
+    "hp": 2822
+   },
+   {
+    "att": 1060,
+    "def": 386,
+    "hp": 2849
+   },
+   {
+    "att": 1071,
+    "def": 390,
+    "hp": 2876
+   },
+   {
+    "att": 1083,
+    "def": 394,
+    "hp": 2902
+   },
+   {
+    "att": 1095,
+    "def": 398,
+    "hp": 2929
+   },
+   {
+    "att": 1107,
+    "def": 402,
+    "hp": 2956
+   },
+   {
+    "att": 1119,
+    "def": 405,
+    "hp": 2983
+   },
+   {
+    "att": 1131,
+    "def": 409,
+    "hp": 3010
+   },
+   {
+    "att": 1142,
+    "def": 413,
+    "hp": 3036
+   },
+   {
+    "att": 1154,
+    "def": 417,
+    "hp": 3063
+   },
+   {
+    "att": 1166,
+    "def": 421,
+    "hp": 3090
+   },
+   {
+    "att": 1178,
+    "def": 425,
+    "hp": 3117
+   },
+   {
+    "att": 1190,
+    "def": 429,
+    "hp": 3144
+   },
+   {
+    "att": 1202,
+    "def": 432,
+    "hp": 3170
+   },
+   {
+    "att": 1213,
+    "def": 436,
+    "hp": 3197
+   },
+   {
+    "att": 1225,
+    "def": 440,
+    "hp": 3224
+   },
+   {
+    "att": 1237,
+    "def": 444,
+    "hp": 3251
+   },
+   {
+    "att": 1249,
+    "def": 448,
+    "hp": 3277
+   },
+   {
+    "att": 1261,
+    "def": 452,
+    "hp": 3304
+   },
+   {
+    "att": 1273,
+    "def": 456,
+    "hp": 3331
+   },
+   {
+    "att": 1284,
+    "def": 459,
+    "hp": 3358
+   },
+   {
+    "att": 1296,
+    "def": 463,
+    "hp": 3385
+   },
+   {
+    "att": 1308,
+    "def": 467,
+    "hp": 3411
+   },
+   {
+    "att": 1320,
+    "def": 471,
+    "hp": 3438
+   },
+   {
+    "att": 1332,
+    "def": 475,
+    "hp": 3465
+   },
+   {
+    "att": 1344,
+    "def": 479,
+    "hp": 3492
+   },
+   {
+    "att": 1355,
+    "def": 483,
+    "hp": 3519
+   },
+   {
+    "att": 1504,
+    "def": 536,
+    "hp": 3919
+   },
+   {
+    "att": 1513,
+    "def": 538,
+    "hp": 3939
+   },
+   {
+    "att": 1522,
+    "def": 541,
+    "hp": 3959
+   },
+   {
+    "att": 1531,
+    "def": 544,
+    "hp": 3979
+   },
+   {
+    "att": 1540,
+    "def": 547,
+    "hp": 3999
+   },
+   {
+    "att": 1549,
+    "def": 550,
+    "hp": 4019
+   },
+   {
+    "att": 1558,
+    "def": 553,
+    "hp": 4039
+   },
+   {
+    "att": 1567,
+    "def": 556,
+    "hp": 4059
+   },
+   {
+    "att": 1575,
+    "def": 559,
+    "hp": 4079
+   },
+   {
+    "att": 1584,
+    "def": 562,
+    "hp": 4100
+   },
+   {
+    "att": 1593,
+    "def": 565,
+    "hp": 4120
+   },
+   {
+    "att": 1602,
+    "def": 567,
+    "hp": 4140
+   },
+   {
+    "att": 1611,
+    "def": 570,
+    "hp": 4160
+   },
+   {
+    "att": 1620,
+    "def": 573,
+    "hp": 4180
+   },
+   {
+    "att": 1629,
+    "def": 576,
+    "hp": 4200
+   },
+   {
+    "att": 1638,
+    "def": 579,
+    "hp": 4220
+   },
+   {
+    "att": 1646,
+    "def": 582,
+    "hp": 4240
+   },
+   {
+    "att": 1655,
+    "def": 585,
+    "hp": 4260
+   },
+   {
+    "att": 1664,
+    "def": 588,
+    "hp": 4280
+   },
+   {
+    "att": 1673,
+    "def": 591,
+    "hp": 4301
+   },
+   {
+    "att": 1682,
+    "def": 594,
+    "hp": 4321
+   },
+   {
+    "att": 1691,
+    "def": 596,
+    "hp": 4341
+   },
+   {
+    "att": 1700,
+    "def": 599,
+    "hp": 4361
+   },
+   {
+    "att": 1709,
+    "def": 602,
+    "hp": 4381
+   },
+   {
+    "att": 1717,
+    "def": 605,
+    "hp": 4401
+   },
+   {
+    "att": 1726,
+    "def": 608,
+    "hp": 4421
+   },
+   {
+    "att": 1735,
+    "def": 611,
+    "hp": 4441
+   },
+   {
+    "att": 1744,
+    "def": 614,
+    "hp": 4461
+   },
+   {
+    "att": 1753,
+    "def": 617,
+    "hp": 4481
+   },
+   {
+    "att": 1762,
+    "def": 620,
+    "hp": 4501
+   },
+   {
+    "att": 1771,
+    "def": 623,
+    "hp": 4522
+   },
+   {
+    "att": 1780,
+    "def": 625,
+    "hp": 4542
+   },
+   {
+    "att": 1788,
+    "def": 628,
+    "hp": 4562
+   },
+   {
+    "att": 1797,
+    "def": 631,
+    "hp": 4582
+   },
+   {
+    "att": 1806,
+    "def": 634,
+    "hp": 4602
+   },
+   {
+    "att": 1815,
+    "def": 637,
+    "hp": 4622
+   },
+   {
+    "att": 1824,
+    "def": 640,
+    "hp": 4642
+   },
+   {
+    "att": 1833,
+    "def": 643,
+    "hp": 4662
+   },
+   {
+    "att": 1842,
+    "def": 646,
+    "hp": 4682
+   },
+   {
+    "att": 1851,
+    "def": 649,
+    "hp": 4702
+   },
+   {
+    "att": 1860,
+    "def": 652,
+    "hp": 4723
+   },
+   {
+    "att": 1868,
+    "def": 654,
+    "hp": 4743
+   },
+   {
+    "att": 1877,
+    "def": 657,
+    "hp": 4763
+   },
+   {
+    "att": 1886,
+    "def": 660,
+    "hp": 4783
+   },
+   {
+    "att": 1895,
+    "def": 663,
+    "hp": 4803
+   },
+   {
+    "att": 1904,
+    "def": 666,
+    "hp": 4823
+   },
+   {
+    "att": 1913,
+    "def": 669,
+    "hp": 4843
+   },
+   {
+    "att": 1922,
+    "def": 672,
+    "hp": 4863
+   },
+   {
+    "att": 1931,
+    "def": 675,
+    "hp": 4883
+   },
+   {
+    "att": 1939,
+    "def": 678,
+    "hp": 4903
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Vivian",
+     "Dove"
+    ],
+    "chat": [
+     {
+      "character": "Vivian:",
+      "text": "Due to unforeseen circumstances, today's field training has been pushed to 7:07:07 PM, on the dot."
+     },
+     {
+      "character": "Dove:",
+      "text": "Coo... Another delivery? Ah, I'll deal with it later..."
+     },
+     {
+      "character": "Vivian:",
+      "text": "As a result, today's report-delivery training has been changed to 8:08:08 PM..."
+     },
+     {
+      "character": "Dove:",
+      "text": "No, wait... I put off yesterday's delivery, too..."
+     },
+     {
+      "character": "Vivian:",
+      "text": "Raid training has also been pushed to 9:09:09 PM..."
+     },
+     {
+      "character": "Dove:",
+      "text": "It's settled! Nothing bad happened yesterday, so I'll do the same today!"
+     },
+     {
+      "character": "Vivian:",
+      "text": "Is this... Really how you treat your work?"
+     },
+     {
+      "character": "Dove:",
+      "text": "It's fine, it's just a measly letter, for crowin' out loud..."
+     },
+     {
+      "character": "Vivian:",
+      "text": "I can't deal with this... If something goes wrong with one of these letters, you can believe we'll be searching for a new delivery person!"
+     },
+     {
+      "character": "Vivian:",
+      "text": "Wait a second... This is the training notice for Illumina!"
+     },
+     {
+      "character": "Vivian:",
+      "text": "No wonder yesterday's training was delayed... I had to work overtime to fix this, and it's all your fault!"
+     },
+     {
+      "character": "Dove:",
+      "text": "S-Sorry, I'll get right on this!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Eho",
+     "Dove"
+    ],
+    "chat": [
+     {
+      "character": "Eho:",
+      "text": "There are 28 packages that need delivering! 28!!!"
+     },
+     {
+      "character": "Dove:",
+      "text": "Another 28 that I didn't deliver... Coo..."
+     },
+     {
+      "character": "Eho:",
+      "text": "Squawk! All 28 of these... They're packages that you never delivered, aren't they?! AREN'T THEY?!"
+     },
+     {
+      "character": "Eho:",
+      "text": "You've been doing it on purpose to me, haven't you? HAVEN'T YOU?!"
+     },
+     {
+      "character": "Dove:",
+      "text": "Hey! Quit trying to frame me, duck-head!"
+     },
+     {
+      "character": "Dove:",
+      "text": "I would NEVER deliberately do something like that."
+     },
+     {
+      "character": "Dove:",
+      "text": "I'm innocent, I swear!"
+     },
+     {
+      "character": "Eho:",
+      "text": "But all of these have your name written on them as the deliverer!"
+     },
+     {
+      "character": "Dove:",
+      "text": "... Oh, really?"
+     },
+     {
+      "character": "Dove:",
+      "text": "Well, it looks like it's out of my hands, now that you're on the job."
+     },
+     {
+      "character": "Dove:",
+      "text": "Sorry about that! Good luck with your deliveries!"
+     },
+     {
+      "character": "Eho:",
+      "text": "Squaaaaaawwwwwk!!! How did a lame bird like you ever make it into the Courier Union?!"
+     },
+     {
+      "character": "Eho:",
+      "text": "Never mind, never mind, never mind! I have to deliver these right away! RIGHT AWAY!!!"
+     },
+     {
+      "character": "Dove:",
+      "text": "Be careful out there!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "romantic Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "When I was in the Illumina, I once received a shipment from the Courier Union. The messenger who delivered it was a cute little girl and that was our first time meeting. At the time, I asked her to help me contact a certain member of the Illumina Federation. She promised, but didn't get back to me for a long time. When I met her again in the Illumina, she guaranteed that she would help me, but I didn't hear back from her again.Dove probably thought someone was playing a trick on her when she was assigned to my operation team... I grabbed her hand on the spot and asked her to stop standing me up!Although Dove is sometimes lazy and doesn't take initiative, I guess she counts as a responsible member of the exploration team. At the very least, after I told her that we can just travel directly on the Colossus, which is both relaxing and enjoyable, she told me she'd never leave the Colossus again.\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Coo, I was a member of the Pickens Family from the moment I was born, and I was born in a wagon. Those from the Pickens Family have always been couriers.I wanted to become a professional courier like my parents. I remember I delivering small stuff when I was just a fledgling, so it was just a matter of time until I became one.Although I wanted to fly freely about, one must earn a living to survive. The cabin in Gannon City is quite comfortable, but I wouldn't be able to live there if I didn't work for Gannon City... What's more, young ones like me can claim all sorts of assistance! It's much better than wandering around, so I guess I'll just chill... I mean, work in the meanwhile.Anyway, everyone from the delivery person and receiver to the Courier Union has taken care of me, so it doesn't matter even if I'm late every once in a while. Coo-coo!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Oh, ye noble freedom! Food and accommodation are so expensive, but I would gladly trade both for freedom!No, no, no! I didn't really mean that. That's just a thought I entertained when I wanted to escape from reality before I was mentally mature, and I knew it in my heart. Look, didn't I become a courier in the end? I work so hard every day too. I just slack off sometimes, um, no, I mean, I just sometimes get lost on my way! Coo Coo!I swear that I really do my work! A certain black fellow\u2014Eho\u2014thinks that I don't work just because she's a workaholic! Hmph! She even wanted me to work for free! So, I just ignored her. Coo Coo! But Eho went and told others that I have stood her up...Either way, I don't want to be involved with her ever again."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "My Courier Union emblem is very important to me. Hey, the truth is, I don't want to stay in the Illumina and don't want to do such dangerous work. I miss the days when I could slack off with my parents, but I didn't do sloppy work! The main reason is that you get to meet a lot of people when you deliver letters in Illumina, and I guess you get access to more information about the higher-ups when you become an information officer... Then I'd surely be able to find out if my parents are still alive if I became one!However, I have been an information officer for three years now, and it seems like I'm still just muddling along like before. It's not my choice to laze away, but nobody has told me what an information officer does. Although Vivian always told me that I am a messenger with potential and wanted me to take one step forward, I didn't really get what she meant, so I promised to join the exploration team... Surprisingly, I ended up meeting you and the Colossus again. Anyway, it's not bad to have another way to go to more new places and meet more new people!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Having the freedom to do whatever I want is great, but I'm not getting paid that way...",
+  "Illumina is a fair place! It's just that everyone here seems to have three eyes... Nothing gets past them...",
+  "The Courier Union will get your mail delivered! Or not...",
+  "It's a hassle fighting them off... Let's just hide and run...",
+  "Lady Vivian? She's really great! She's awesome! Truly... But I don't get to slack off...",
+  "Wendy's job is exhausting. No wonder she's so energetic. I would have left a long time ago.",
+  "I only work to earn a living, so I only feel like I've profited when I get to slack off.",
+  "Is it possible for me to... not work? Or not punch in for work...",
+  "It's interesting, but it seems like a lot of work...",
+  "I can have a good nap there...",
+  "Stop! Stop! I have enough work as it is! I still have countless mails waiting for my reply!",
+  "I'm sorry, my feet...feel like they're filled with lead again, I can't move...",
+  "You can do it! Hang in there... Eh?! Is it over already?!",
+  "R-reaching my limit!",
+  "G-get out of my way!",
+  "The amazing ones always close the show!",
+  "I promise I won't stand you up in the new year.",
+  "To save or to run away?",
+  "Time to work again... You guys go ahead, I'll be right there.",
+  "N-next time! I'll definitely be there next time!",
+  "Crunchy popcorn...",
+  "Ohh, I can fly faster now!",
+  "Alchemy... Stars.",
+  "Ahhhh, nooo! I'm already late. Maybe I should call in sick. What excuse should I come up with? I've used down with a toothache before...",
+  "Do you know Eho from Lumopolis? If I work as crazily as she does, all my feathers will fall off eventually! Working in the Illumina Division is much more manageable!",
+  "I hate being caught red-handed. Don't come looking for me all the time. I'll feel guilty too, okay?",
+  "You lot can handle it, right? I brought a blanket. Can I sleep now?",
+  "Here I am. Or not. Where do you think I am? Hey, stop hitting me!",
+  "I hope the Courier Union will give me a break in this year's assessment!",
+  "Hold on, I think I have something for you... Oh, I can't seem to find it right now. Next time then.",
+  "Hi! You're here again! I can chat with you all day as long as you're not here to urge me to work!",
+  "Off I go... Erm, I'm back... Off I go for real!",
+  "Erm... My cousin's niece's boss is being fined for registering the wrong information yesterday, so this letter...",
+  "Ah! Something urgent came up, so I have to go. Raincheck, okay? My apologies!",
+  "Did I actually get here before you!?",
+  "Slippers? I didn't have time to put them on...",
+  "Ah! I wasn't slacking off!",
+  "It's normal to be stood up by someone who is all puff and no follow through!",
+  "Hi, I'm Dove. Let me know if you want your mail delivered. I may not be there right away, but I'll try my best.",
+  "I hope it's something that can help me sleep...",
+  "This is awesome! I can see it in my dream too!",
+  "Cluuuuuuck! This isn't half bad!",
+  "F-from now on, I won't stand you up! Just you!",
+  "Dove! Let's go!",
+  "Doves in the shadow!",
+  "I must not escape...",
+  "My laziness is hopeless... but working hard doesn't change anything. We Pickens Family aren't how we used to be. If I get fired, then... then shoot, I can't pay my rent. I should better work a little.",
+  "Of course, it was then! Hmm, what could I have done? I had to stay alive! But I couldn't leave them behind... but I don't want to die... but them...",
+  "Oh no... If I'm the captain, I can't slack off..."
+ ],
+ "skins": [],
+ "description": "A mail carrier working for the Illumina Federation, yet she's not a member. She only provides it postal services, and is a total slacker without a shred of professional pride, willing to go to any length to put off or get out of work.",
+ "realName": "Dove",
+ "nickname": "Coo Coo",
+ "gender": "Female",
+ "height": "5'0\"",
+ "birthday": "November 24",
+ "birthplace": "Pickens Wagon",
+ "style": "Floating Blades"
 }

@@ -1,0 +1,602 @@
+[
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Navigator, I remember what you said last time. Want to hear my story?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, you had an emergency to deal with, so you didn't have time to tell me."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Okay. Let's talk about me, and... him."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Him?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "My father. He taught me, saved me, and made me who I am today."
+   },
+   {
+    "name": "Irridon:",
+    "content": "But... Forget it."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Let's not talk about him."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Erm... Do you want to talk about it or not?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, if you don't want to talk about it, don't worry..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Erm... Do you want to talk about it or not?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Irridon:",
+      "content": "It's okay. It's my problem, so I need to face it on my own."
+     },
+     {
+      "name": "Irridon:",
+      "content": "Sorry to ruin your mood."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I feel like we have unfinished business."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright. No matter what happened in the past, you are now a remarkable person, Irridon."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Your father would be proud of you."
+     },
+     {
+      "name": "Irridon:",
+      "content": "... Thank you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Well, if you don't want to talk about it, don't worry..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Irridon:",
+      "content": "Thanks for understanding, Navigator."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But... I'm still a little concerned."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I feel like we have unfinished business."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright. No matter what happened in the past, you are now a remarkable person, Irridon."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Your father would be proud of you."
+     },
+     {
+      "name": "Irridon:",
+      "content": "... Thank you."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Hello, Navigator of the Colossus."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Although I am the chief judge of Lumopolis, I want to ask you something for myself."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? What is it?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "Are there any particular \"rules\" or anything like that on your Colossus?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Of course, there are!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not at all."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Of course, there are!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "For example, something like \"May everyone spend everyday joyfully\"."
+     },
+     {
+      "name": "Irridon:",
+      "content": "..."
+     },
+     {
+      "name": "Irridon:",
+      "content": "That's not what I mean."
+     },
+     {
+      "name": "Irridon:",
+      "content": "I am speaking of rules that require judicial hearings. Such as theft, breaking into other people's rooms, entering prohibited areas... that kind of thing."
+     },
+     {
+      "name": "Irridon:",
+      "content": "As the presiding chief judge, I will adjudicate those who violate the rules in return for you inviting me to the Colossus."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't think we'll be introducing any rules like this..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's not that strict here."
+     },
+     {
+      "name": "Irridon:",
+      "content": "Oh... That's quite different from what I'm used to."
+     },
+     {
+      "name": "Irridon:",
+      "content": "It's so different from Lumopolis. I'll try to observe how things work here a little more closely."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Not at all."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "If there were... It'd be that everyone must be happy every day!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Other than that, there are no rules."
+     },
+     {
+      "name": "Irridon:",
+      "content": "That's not what I mean."
+     },
+     {
+      "name": "Irridon:",
+      "content": "I am speaking of rules that require judicial hearings. Such as theft, breaking into other people's rooms, entering prohibited areas... that kind of thing."
+     },
+     {
+      "name": "Irridon:",
+      "content": "As the presiding chief judge, I will adjudicate those who violate the rules in return for you inviting me to the Colossus."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't think we'll be introducing any rules like this..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's not that strict here."
+     },
+     {
+      "name": "Irridon:",
+      "content": "Oh... That's quite different from what I'm used to."
+     },
+     {
+      "name": "Irridon:",
+      "content": "It's so different from Lumopolis. I'll try to observe how things work here a little more closely."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Navigator, I want to hear what you think of me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What I... think of you?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "You're amazing."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're hard-working."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "You're amazing."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Irridon:",
+      "content": "Amazing...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Irridon, you are the Chief Judge of Lumopolis."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, of course, you're an amazing, hard-working, and serious person."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You constantly improve your strength and never slack off for a moment."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Though... having to take on so many trials every day... It must be tough."
+     },
+     {
+      "name": "Irridon:",
+      "content": "I'm not good enough... and I don't think I work that hard."
+     },
+     {
+      "name": "Irridon:",
+      "content": "This is the path I have chosen, and I will take responsibility for it until the end."
+     },
+     {
+      "name": "Irridon:",
+      "content": "It's just... Sometimes, I do feel tired."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, it's alright to take a break once in a while."
+     },
+     {
+      "name": "Irridon:",
+      "content": "No, the deadliest blade requires constant sharpening. I can't become complacent."
+     },
+     {
+      "name": "Irridon:",
+      "content": "If I grow stronger, that'll make me happy."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "You're hard-working."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Irridon:",
+      "content": "Hard-working...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Irridon, you are the Chief Judge of Lumopolis."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, of course, you're an amazing, hard-working, and serious person."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You constantly improve your strength and never slack off for a moment."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Though... having to take on so many trials every day... It must be tough."
+     },
+     {
+      "name": "Irridon:",
+      "content": "I'm not good enough... and I don't think I work that hard."
+     },
+     {
+      "name": "Irridon:",
+      "content": "This is the path I have chosen, and I will take responsibility for it until the end."
+     },
+     {
+      "name": "Irridon:",
+      "content": "It's just... Sometimes, I do feel tired."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, it's alright to take a break once in a while."
+     },
+     {
+      "name": "Irridon:",
+      "content": "No, the deadliest blade requires constant sharpening. I can't become complacent."
+     },
+     {
+      "name": "Irridon:",
+      "content": "If I grow stronger, that'll make me happy."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Did you have lunch?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I've just finished."
+   },
+   {
+    "name": "Irridon:",
+    "content": "If you're tired, take a nap. Don't let yourself get too tired."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Alright, I will."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Good afternoon. Lunch break is over."
+   },
+   {
+    "name": "Navigator:",
+    "content": "*Yawn* Good afternoon, Irridon..."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Did you just wake up?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Mm-hmm... I'm still pretty sleepy!"
+   },
+   {
+    "name": "Irridon:",
+    "content": "You should do a few stretches to alleviate your fatigue."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure... I'll give it a try. Thanks!"
+   },
+   {
+    "name": "Irridon:",
+    "content": "You're welcome. Enjoy the rest of your afternoon."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Am I bothering you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not at all! What's up, Irridon?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "Nothing terribly important, really..."
+   },
+   {
+    "name": "Irridon:",
+    "content": "I just thought talking to you after a long day of work would be a nice way to unwind."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh... In that case, want me to tell a joke?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "That won't be necessary. Talking to someone who isn't constrained by orders always helps me relax."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Now then, I'll be leaving now. Enjoy your afternoon."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But we didn't really talk at all... Have a nice day!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Are you planning on studying all night?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, but I'm not very sleepy right now."
+   },
+   {
+    "name": "Irridon:",
+    "content": "If you start to feel sleepy, you can go to bed later... It's just like drinking water when you're thirsty. Understand?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... I understand. I'm going to bed."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "Good evening."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Irridon."
+   },
+   {
+    "name": "Irridon:",
+    "content": "It's late... Are you planning to go to bed anytime soon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, but... I still haven't finished my work for the day."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Are you trying to persuade me into going to sleep earlier?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "No."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's... unexpected."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I expected you to be a little more... strict?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "This doesn't require me to be strict. I just feel like relaxing a bit before bed is good for me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Relaxing...?"
+   },
+   {
+    "name": "Irridon:",
+    "content": "Yes. Now if you'll excuse me, I'm going to bed."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Good night, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Er... Good night, Irridon!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Irridon:",
+    "content": "It's raining tonight, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "So it is... Good evening, Irridon."
+   },
+   {
+    "name": "Irridon:",
+    "content": "The sound of rain always makes me sleep better."
+   },
+   {
+    "name": "Irridon:",
+    "content": "Leaving your window open before bed might suit you as well, Navigator."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, thanks for the idea, Irridon."
+   },
+   {
+    "name": "Irridon:",
+    "content": "You're welcome. Good night."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

@@ -1,0 +1,490 @@
+[
+ {
+  "start": [
+   {
+    "name": "Nemesis:",
+    "content": "Oh... How did that happen."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's up? Nemesis?"
+   },
+   {
+    "name": "Nemesis:",
+    "content": "I won a prize, but I don't want it at all."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Why?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Maybe you can give it to someone else then."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "Well, it's made of glass."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Glassware?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Yes. They glitter but are also a little fragile."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "When I look at it, I sometimes think of the spark of justice in people's hearts..."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "That's really fragile."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Justice?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Yes, as a supervisor, I've witnessed too much injustice."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Although I've tried my best to be fair..."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "But..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Nemesis... Don't force yourself too much."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Is that so?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Ah!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What is it? Are you okay?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Nothing... I just broke another one of the glassware."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see... I understand now."
+     },
+     {
+      "name": "Navigator:",
+      "content": "From now on, I'll keep all of your glassware prizes safe for you. Leave them to me."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "In that case... thank you in advance."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Maybe you can give it to someone else then."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "Oh? You don't want it?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What is it?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "It's a set of glassware."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Glassware?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Yes. They glitter but are also a little fragile."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "When I look at it, I sometimes think of the spark of justice in people's hearts..."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "That's really fragile."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Justice?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Yes, as a supervisor, I've witnessed too much injustice."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Although I've tried my best to be fair..."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "But..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Nemesis... Don't force yourself too much."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Is that so?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Ah!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What is it? Are you okay?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Nothing... I just broke another one of the glassware."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see... I understand now."
+     },
+     {
+      "name": "Navigator:",
+      "content": "From now on, I'll keep all of your glassware prizes safe for you. Leave them to me."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "In that case... thank you in advance."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nemesis:",
+    "content": "Hey Navigator, do you have some time to talk about something?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure... What is it?"
+   },
+   {
+    "name": "Nemesis:",
+    "content": "Relax, it's nothing crazy. I promise."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Alright then."
+   },
+   {
+    "name": "Nemesis:",
+    "content": "I'll be waiting for you on the Bridge."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Nemesis:",
+    "content": "Hello, Navigator of the Colossus! How would you define \"justice\"?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Justice? Hmm... It's what allows good people to prosper."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Justice? Hmm... It's what punishes the evil and the wicked."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Justice? Hmm... It's what allows good people to prosper."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "I see!"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Alright, next question! Would you say the \"good people\" of Lumopolis have prospered?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Lumopolis?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm not from Lumopolis, so I can't say..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's hard to answer a question like that."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Perfect. I'm more than satisfied with that answer."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Carrying out justice is a very serious matter."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Without a deep understanding of it, justice can be warped and exploited by the powerful to fit their selfish agendas!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "So, please... Be aware of this and exercise caution as you carry out justice."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "I will do my best to keep you from straying from the right path!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Justice? Hmm... It's what punishes the evil and the wicked."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "I see!"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Alright, next question! Would you say that the existence of Lumopolis is a kind of evil?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Lumopolis?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm not from Lumopolis, so I can't say..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's hard to answer a question like that."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Perfect. I'm more than satisfied with that answer."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Carrying out justice is a very serious matter."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Without a deep understanding of it, justice can be warped and exploited by the powerful to fit their selfish agendas!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I see."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "So, please... Be aware of this and exercise caution as you carry out justice."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "I will do my best to keep you from straying from the right path!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nemesis:",
+    "content": "Good morning! You should already be up by now!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning..."
+   },
+   {
+    "name": "Nemesis:",
+    "content": "Still sleepy?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm awake, I'm awake."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "Wake up, already! Get yourself a cup of coffee, or something!"
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Heroes like us should start each day with a clear head!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's so early and you're already so energetic, Nemesis..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm awake, I'm awake."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Nemesis:",
+      "content": "Really? Well, that's alight then."
+     },
+     {
+      "name": "Nemesis:",
+      "content": "Heroes like us should start each day with a clear head!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's so early and you're already so energetic, Nemesis..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Nemesis:",
+    "content": "It's time for lunch."
+   },
+   {
+    "name": "Nemesis:",
+    "content": "You take a break and I'll help you keep an eye on what's going on in the Colossus."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Nemesis."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Regarding the situation in the Colossus..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Do we need to be so strict? Everyone here is a friend."
+   },
+   {
+    "name": "Nemesis:",
+    "content": "Sure, we're friends, but we also need to remain vigilant at all times! This is my God-given mission!"
+   },
+   {
+    "name": "Nemesis:",
+    "content": "As for you, go and have your rest!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Okay... I guess I'll do what you say."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

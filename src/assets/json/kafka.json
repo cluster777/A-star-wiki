@@ -1,1153 +1,1391 @@
 {
-      "name": "Kafka",
-      "faction": "Rediesel Wrench",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Fires in any 2 selected directions out of 8, dealing 120% damage to all enemies along the trajectory.",
-                  "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory.",
-                  "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory."
-            ]
-      },
-      "equip": {
-            "name": "Electric Rail Rifle",
-            "passive": "Franz Charge",
-            "description": [
-                  [
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
-                  ],
-                  [
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
-                  ],
-                  [
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
-                        "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to the nearest 2 enemies and 30% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to the nearest 2 enemies and 30% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "3",
-                              "description": "Deals 160% damage to the nearest 1 enemy and 50% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 160% damage to the nearest 2 enemies and 50% Splash damage to 4 tiles in a cross-shaped around."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Crystal Shard",
-                        "Thunder Flare Powder",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
-            },
-            {
-                  "material": [
-                        "Thunder Flare Rock",
-                        "Thunder Potion I",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Fires in any 2 selected directions out of 8, dealing 120% damage to all enemies along the trajectory.",
-                  "after": "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory."
-            },
-            {
-                  "material": [
-                        "Thunder Potion III",
-                        "Thunder Crystal",
-                        "Rediesel Essence",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around.",
-                  "after": "Deals 160% damage to the nearest 1 enemy and 50% Splash damage to 4 tiles in a cross-shaped around."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 552,
-                        "def": 206,
-                        "hp": 1619
-                  },
-                  {
-                        "att": 563,
-                        "def": 209,
-                        "hp": 1647
-                  },
-                  {
-                        "att": 573,
-                        "def": 213,
-                        "hp": 1675
-                  },
-                  {
-                        "att": 584,
-                        "def": 216,
-                        "hp": 1702
-                  },
-                  {
-                        "att": 595,
-                        "def": 219,
-                        "hp": 1730
-                  },
-                  {
-                        "att": 606,
-                        "def": 223,
-                        "hp": 1758
-                  },
-                  {
-                        "att": 616,
-                        "def": 226,
-                        "hp": 1785
-                  },
-                  {
-                        "att": 627,
-                        "def": 229,
-                        "hp": 1813
-                  },
-                  {
-                        "att": 638,
-                        "def": 233,
-                        "hp": 1841
-                  },
-                  {
-                        "att": 648,
-                        "def": 236,
-                        "hp": 1869
-                  },
-                  {
-                        "att": 659,
-                        "def": 240,
-                        "hp": 1896
-                  },
-                  {
-                        "att": 670,
-                        "def": 243,
-                        "hp": 1924
-                  },
-                  {
-                        "att": 681,
-                        "def": 246,
-                        "hp": 1952
-                  },
-                  {
-                        "att": 691,
-                        "def": 250,
-                        "hp": 1979
-                  },
-                  {
-                        "att": 702,
-                        "def": 253,
-                        "hp": 2007
-                  },
-                  {
-                        "att": 713,
-                        "def": 257,
-                        "hp": 2035
-                  },
-                  {
-                        "att": 723,
-                        "def": 260,
-                        "hp": 2063
-                  },
-                  {
-                        "att": 734,
-                        "def": 263,
-                        "hp": 2090
-                  },
-                  {
-                        "att": 745,
-                        "def": 267,
-                        "hp": 2118
-                  },
-                  {
-                        "att": 756,
-                        "def": 270,
-                        "hp": 2146
-                  },
-                  {
-                        "att": 766,
-                        "def": 273,
-                        "hp": 2173
-                  },
-                  {
-                        "att": 777,
-                        "def": 277,
-                        "hp": 2201
-                  },
-                  {
-                        "att": 788,
-                        "def": 280,
-                        "hp": 2229
-                  },
-                  {
-                        "att": 799,
-                        "def": 284,
-                        "hp": 2257
-                  },
-                  {
-                        "att": 809,
-                        "def": 287,
-                        "hp": 2284
-                  },
-                  {
-                        "att": 820,
-                        "def": 290,
-                        "hp": 2312
-                  },
-                  {
-                        "att": 831,
-                        "def": 294,
-                        "hp": 2340
-                  },
-                  {
-                        "att": 841,
-                        "def": 297,
-                        "hp": 2367
-                  },
-                  {
-                        "att": 852,
-                        "def": 301,
-                        "hp": 2395
-                  },
-                  {
-                        "att": 863,
-                        "def": 304,
-                        "hp": 2423
-                  },
-                  {
-                        "att": 961,
-                        "def": 338,
-                        "hp": 2667
-                  },
-                  {
-                        "att": 975,
-                        "def": 342,
-                        "hp": 2702
-                  },
-                  {
-                        "att": 988,
-                        "def": 347,
-                        "hp": 2737
-                  },
-                  {
-                        "att": 1002,
-                        "def": 351,
-                        "hp": 2771
-                  },
-                  {
-                        "att": 1015,
-                        "def": 355,
-                        "hp": 2806
-                  },
-                  {
-                        "att": 1028,
-                        "def": 359,
-                        "hp": 2841
-                  },
-                  {
-                        "att": 1042,
-                        "def": 364,
-                        "hp": 2875
-                  },
-                  {
-                        "att": 1055,
-                        "def": 368,
-                        "hp": 2910
-                  },
-                  {
-                        "att": 1069,
-                        "def": 372,
-                        "hp": 2945
-                  },
-                  {
-                        "att": 1082,
-                        "def": 376,
-                        "hp": 2979
-                  },
-                  {
-                        "att": 1095,
-                        "def": 380,
-                        "hp": 3014
-                  },
-                  {
-                        "att": 1109,
-                        "def": 385,
-                        "hp": 3049
-                  },
-                  {
-                        "att": 1122,
-                        "def": 389,
-                        "hp": 3083
-                  },
-                  {
-                        "att": 1136,
-                        "def": 393,
-                        "hp": 3118
-                  },
-                  {
-                        "att": 1149,
-                        "def": 397,
-                        "hp": 3152
-                  },
-                  {
-                        "att": 1162,
-                        "def": 402,
-                        "hp": 3187
-                  },
-                  {
-                        "att": 1176,
-                        "def": 406,
-                        "hp": 3222
-                  },
-                  {
-                        "att": 1189,
-                        "def": 410,
-                        "hp": 3256
-                  },
-                  {
-                        "att": 1203,
-                        "def": 414,
-                        "hp": 3291
-                  },
-                  {
-                        "att": 1216,
-                        "def": 419,
-                        "hp": 3326
-                  },
-                  {
-                        "att": 1229,
-                        "def": 423,
-                        "hp": 3360
-                  },
-                  {
-                        "att": 1243,
-                        "def": 427,
-                        "hp": 3395
-                  },
-                  {
-                        "att": 1256,
-                        "def": 431,
-                        "hp": 3430
-                  },
-                  {
-                        "att": 1270,
-                        "def": 435,
-                        "hp": 3464
-                  },
-                  {
-                        "att": 1283,
-                        "def": 440,
-                        "hp": 3499
-                  },
-                  {
-                        "att": 1296,
-                        "def": 444,
-                        "hp": 3534
-                  },
-                  {
-                        "att": 1310,
-                        "def": 448,
-                        "hp": 3568
-                  },
-                  {
-                        "att": 1323,
-                        "def": 452,
-                        "hp": 3603
-                  },
-                  {
-                        "att": 1337,
-                        "def": 457,
-                        "hp": 3637
-                  },
-                  {
-                        "att": 1350,
-                        "def": 461,
-                        "hp": 3672
-                  },
-                  {
-                        "att": 1363,
-                        "def": 465,
-                        "hp": 3707
-                  },
-                  {
-                        "att": 1377,
-                        "def": 469,
-                        "hp": 3741
-                  },
-                  {
-                        "att": 1390,
-                        "def": 474,
-                        "hp": 3776
-                  },
-                  {
-                        "att": 1404,
-                        "def": 478,
-                        "hp": 3811
-                  },
-                  {
-                        "att": 1417,
-                        "def": 482,
-                        "hp": 3845
-                  },
-                  {
-                        "att": 1430,
-                        "def": 486,
-                        "hp": 3880
-                  },
-                  {
-                        "att": 1444,
-                        "def": 491,
-                        "hp": 3915
-                  },
-                  {
-                        "att": 1457,
-                        "def": 495,
-                        "hp": 3949
-                  },
-                  {
-                        "att": 1471,
-                        "def": 499,
-                        "hp": 3984
-                  },
-                  {
-                        "att": 1484,
-                        "def": 503,
-                        "hp": 4019
-                  },
-                  {
-                        "att": 1629,
-                        "def": 551,
-                        "hp": 4365
-                  },
-                  {
-                        "att": 1639,
-                        "def": 555,
-                        "hp": 4390
-                  },
-                  {
-                        "att": 1649,
-                        "def": 558,
-                        "hp": 4416
-                  },
-                  {
-                        "att": 1659,
-                        "def": 561,
-                        "hp": 4442
-                  },
-                  {
-                        "att": 1669,
-                        "def": 564,
-                        "hp": 4468
-                  },
-                  {
-                        "att": 1679,
-                        "def": 567,
-                        "hp": 4494
-                  },
-                  {
-                        "att": 1689,
-                        "def": 570,
-                        "hp": 4520
-                  },
-                  {
-                        "att": 1700,
-                        "def": 574,
-                        "hp": 4546
-                  },
-                  {
-                        "att": 1710,
-                        "def": 577,
-                        "hp": 4572
-                  },
-                  {
-                        "att": 1720,
-                        "def": 580,
-                        "hp": 4598
-                  },
-                  {
-                        "att": 1730,
-                        "def": 583,
-                        "hp": 4624
-                  },
-                  {
-                        "att": 1740,
-                        "def": 586,
-                        "hp": 4650
-                  },
-                  {
-                        "att": 1750,
-                        "def": 589,
-                        "hp": 4676
-                  },
-                  {
-                        "att": 1760,
-                        "def": 593,
-                        "hp": 4702
-                  },
-                  {
-                        "att": 1770,
-                        "def": 596,
-                        "hp": 4728
-                  },
-                  {
-                        "att": 1780,
-                        "def": 599,
-                        "hp": 4754
-                  },
-                  {
-                        "att": 1790,
-                        "def": 602,
-                        "hp": 4780
-                  },
-                  {
-                        "att": 1800,
-                        "def": 605,
-                        "hp": 4806
-                  },
-                  {
-                        "att": 1810,
-                        "def": 609,
-                        "hp": 4832
-                  },
-                  {
-                        "att": 1820,
-                        "def": 612,
-                        "hp": 4858
-                  },
-                  {
-                        "att": 1830,
-                        "def": 615,
-                        "hp": 4884
-                  },
-                  {
-                        "att": 1840,
-                        "def": 618,
-                        "hp": 4910
-                  },
-                  {
-                        "att": 1850,
-                        "def": 621,
-                        "hp": 4936
-                  },
-                  {
-                        "att": 1860,
-                        "def": 624,
-                        "hp": 4962
-                  },
-                  {
-                        "att": 1870,
-                        "def": 628,
-                        "hp": 4988
-                  },
-                  {
-                        "att": 1881,
-                        "def": 631,
-                        "hp": 5014
-                  },
-                  {
-                        "att": 1891,
-                        "def": 634,
-                        "hp": 5040
-                  },
-                  {
-                        "att": 1901,
-                        "def": 637,
-                        "hp": 5066
-                  },
-                  {
-                        "att": 1911,
-                        "def": 640,
-                        "hp": 5092
-                  },
-                  {
-                        "att": 1921,
-                        "def": 643,
-                        "hp": 5118
-                  },
-                  {
-                        "att": 1931,
-                        "def": 647,
-                        "hp": 5144
-                  },
-                  {
-                        "att": 1941,
-                        "def": 650,
-                        "hp": 5170
-                  },
-                  {
-                        "att": 1951,
-                        "def": 653,
-                        "hp": 5196
-                  },
-                  {
-                        "att": 1961,
-                        "def": 656,
-                        "hp": 5222
-                  },
-                  {
-                        "att": 1971,
-                        "def": 659,
-                        "hp": 5248
-                  },
-                  {
-                        "att": 1981,
-                        "def": 662,
-                        "hp": 5274
-                  },
-                  {
-                        "att": 1991,
-                        "def": 666,
-                        "hp": 5300
-                  },
-                  {
-                        "att": 2001,
-                        "def": 669,
-                        "hp": 5326
-                  },
-                  {
-                        "att": 2011,
-                        "def": 672,
-                        "hp": 5352
-                  },
-                  {
-                        "att": 2021,
-                        "def": 675,
-                        "hp": 5378
-                  },
-                  {
-                        "att": 2031,
-                        "def": 678,
-                        "hp": 5404
-                  },
-                  {
-                        "att": 2041,
-                        "def": 682,
-                        "hp": 5430
-                  },
-                  {
-                        "att": 2051,
-                        "def": 685,
-                        "hp": 5456
-                  },
-                  {
-                        "att": 2061,
-                        "def": 688,
-                        "hp": 5482
-                  },
-                  {
-                        "att": 2072,
-                        "def": 691,
-                        "hp": 5508
-                  },
-                  {
-                        "att": 2082,
-                        "def": 694,
-                        "hp": 5534
-                  },
-                  {
-                        "att": 2092,
-                        "def": 697,
-                        "hp": 5560
-                  },
-                  {
-                        "att": 2102,
-                        "def": 701,
-                        "hp": 5586
-                  },
-                  {
-                        "att": 2112,
-                        "def": 704,
-                        "hp": 5612
-                  },
-                  {
-                        "att": 2122,
-                        "def": 707,
-                        "hp": 5638
-                  },
-                  {
-                        "att": 2329,
-                        "def": 774,
-                        "hp": 6135
-                  },
-                  {
-                        "att": 2335,
-                        "def": 776,
-                        "hp": 6152
-                  },
-                  {
-                        "att": 2342,
-                        "def": 778,
-                        "hp": 6170
-                  },
-                  {
-                        "att": 2349,
-                        "def": 780,
-                        "hp": 6187
-                  },
-                  {
-                        "att": 2355,
-                        "def": 783,
-                        "hp": 6204
-                  },
-                  {
-                        "att": 2362,
-                        "def": 785,
-                        "hp": 6222
-                  },
-                  {
-                        "att": 2369,
-                        "def": 787,
-                        "hp": 6239
-                  },
-                  {
-                        "att": 2375,
-                        "def": 789,
-                        "hp": 6256
-                  },
-                  {
-                        "att": 2382,
-                        "def": 791,
-                        "hp": 6273
-                  },
-                  {
-                        "att": 2389,
-                        "def": 793,
-                        "hp": 6291
-                  },
-                  {
-                        "att": 2396,
-                        "def": 795,
-                        "hp": 6308
-                  },
-                  {
-                        "att": 2402,
-                        "def": 797,
-                        "hp": 6325
-                  },
-                  {
-                        "att": 2409,
-                        "def": 799,
-                        "hp": 6343
-                  },
-                  {
-                        "att": 2416,
-                        "def": 802,
-                        "hp": 6360
-                  },
-                  {
-                        "att": 2422,
-                        "def": 804,
-                        "hp": 6377
-                  },
-                  {
-                        "att": 2429,
-                        "def": 806,
-                        "hp": 6395
-                  },
-                  {
-                        "att": 2436,
-                        "def": 808,
-                        "hp": 6412
-                  },
-                  {
-                        "att": 2442,
-                        "def": 810,
-                        "hp": 6429
-                  },
-                  {
-                        "att": 2449,
-                        "def": 812,
-                        "hp": 6447
-                  },
-                  {
-                        "att": 2456,
-                        "def": 814,
-                        "hp": 6464
-                  },
-                  {
-                        "att": 2463,
-                        "def": 816,
-                        "hp": 6481
-                  },
-                  {
-                        "att": 2469,
-                        "def": 818,
-                        "hp": 6499
-                  },
-                  {
-                        "att": 2476,
-                        "def": 821,
-                        "hp": 6516
-                  },
-                  {
-                        "att": 2483,
-                        "def": 823,
-                        "hp": 6533
-                  },
-                  {
-                        "att": 2489,
-                        "def": 825,
-                        "hp": 6551
-                  },
-                  {
-                        "att": 2496,
-                        "def": 827,
-                        "hp": 6568
-                  },
-                  {
-                        "att": 2503,
-                        "def": 829,
-                        "hp": 6585
-                  },
-                  {
-                        "att": 2509,
-                        "def": 831,
-                        "hp": 6603
-                  },
-                  {
-                        "att": 2516,
-                        "def": 833,
-                        "hp": 6620
-                  },
-                  {
-                        "att": 2523,
-                        "def": 835,
-                        "hp": 6637
-                  },
-                  {
-                        "att": 2530,
-                        "def": 838,
-                        "hp": 6655
-                  },
-                  {
-                        "att": 2536,
-                        "def": 840,
-                        "hp": 6672
-                  },
-                  {
-                        "att": 2543,
-                        "def": 842,
-                        "hp": 6689
-                  },
-                  {
-                        "att": 2550,
-                        "def": 844,
-                        "hp": 6707
-                  },
-                  {
-                        "att": 2556,
-                        "def": 846,
-                        "hp": 6724
-                  },
-                  {
-                        "att": 2563,
-                        "def": 848,
-                        "hp": 6741
-                  },
-                  {
-                        "att": 2570,
-                        "def": 850,
-                        "hp": 6758
-                  },
-                  {
-                        "att": 2577,
-                        "def": 852,
-                        "hp": 6776
-                  },
-                  {
-                        "att": 2583,
-                        "def": 854,
-                        "hp": 6793
-                  },
-                  {
-                        "att": 2590,
-                        "def": 857,
-                        "hp": 6810
-                  },
-                  {
-                        "att": 2597,
-                        "def": 859,
-                        "hp": 6828
-                  },
-                  {
-                        "att": 2603,
-                        "def": 861,
-                        "hp": 6845
-                  },
-                  {
-                        "att": 2610,
-                        "def": 863,
-                        "hp": 6862
-                  },
-                  {
-                        "att": 2617,
-                        "def": 865,
-                        "hp": 6880
-                  },
-                  {
-                        "att": 2623,
-                        "def": 867,
-                        "hp": 6897
-                  },
-                  {
-                        "att": 2630,
-                        "def": 869,
-                        "hp": 6914
-                  },
-                  {
-                        "att": 2637,
-                        "def": 871,
-                        "hp": 6932
-                  },
-                  {
-                        "att": 2644,
-                        "def": 874,
-                        "hp": 6949
-                  },
-                  {
-                        "att": 2650,
-                        "def": 876,
-                        "hp": 6966
-                  },
-                  {
-                        "att": 2657,
-                        "def": 878,
-                        "hp": 6984
-                  },
-                  {
-                        "att": 2664,
-                        "def": 880,
-                        "hp": 7001
-                  },
-                  {
-                        "att": 2670,
-                        "def": 882,
-                        "hp": 7018
-                  },
-                  {
-                        "att": 2677,
-                        "def": 884,
-                        "hp": 7036
-                  },
-                  {
-                        "att": 2684,
-                        "def": 886,
-                        "hp": 7053
-                  },
-                  {
-                        "att": 2690,
-                        "def": 888,
-                        "hp": 7070
-                  },
-                  {
-                        "att": 2697,
-                        "def": 890,
-                        "hp": 7088
-                  },
-                  {
-                        "att": 2704,
-                        "def": 893,
-                        "hp": 7105
-                  },
-                  {
-                        "att": 2711,
-                        "def": 895,
-                        "hp": 7122
-                  },
-                  {
-                        "att": 2717,
-                        "def": 897,
-                        "hp": 7140
-                  },
-                  {
-                        "att": 2724,
-                        "def": 899,
-                        "hp": 7157
-                  },
-                  {
-                        "att": 2731,
-                        "def": 901,
-                        "hp": 7174
-                  },
-                  {
-                        "att": 2737,
-                        "def": 903,
-                        "hp": 7192
-                  },
-                  {
-                        "att": 2744,
-                        "def": 905,
-                        "hp": 7209
-                  },
-                  {
-                        "att": 2751,
-                        "def": 907,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2757,
-                        "def": 909,
-                        "hp": 7243
-                  },
-                  {
-                        "att": 2764,
-                        "def": 912,
-                        "hp": 7261
-                  },
-                  {
-                        "att": 2771,
-                        "def": 914,
-                        "hp": 7278
-                  },
-                  {
-                        "att": 2778,
-                        "def": 916,
-                        "hp": 7295
-                  },
-                  {
-                        "att": 2784,
-                        "def": 918,
-                        "hp": 7313
-                  },
-                  {
-                        "att": 2791,
-                        "def": 920,
-                        "hp": 7330
-                  },
-                  {
-                        "att": 2798,
-                        "def": 922,
-                        "hp": 7347
-                  },
-                  {
-                        "att": 2804,
-                        "def": 924,
-                        "hp": 7365
-                  },
-                  {
-                        "att": 2811,
-                        "def": 926,
-                        "hp": 7382
-                  },
-                  {
-                        "att": 2818,
-                        "def": 929,
-                        "hp": 7399
-                  },
-                  {
-                        "att": 2825,
-                        "def": 931,
-                        "hp": 7417
-                  },
-                  {
-                        "att": 2831,
-                        "def": 933,
-                        "hp": 7434
-                  },
-                  {
-                        "att": 2838,
-                        "def": 935,
-                        "hp": 7451
-                  },
-                  {
-                        "att": 2845,
-                        "def": 937,
-                        "hp": 7469
-                  },
-                  {
-                        "att": 2851,
-                        "def": 939,
-                        "hp": 7486
-                  },
-                  {
-                        "att": 2858,
-                        "def": 941,
-                        "hp": 7503
-                  }
-            ]
-      }
+ "name": "Kafka",
+ "faction": "Rediesel Wrench",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Sniper",
+ "skill": {
+  "name": "Gauss Assault",
+  "cd": "2 Turn",
+  "description": [
+   "Fires in any 2 selected directions out of 8, dealing 120% damage to all enemies along the trajectory.",
+   "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory.",
+   "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory."
+  ]
+ },
+ "equip": {
+  "name": "Electric Rail Rifle",
+  "passive": "Franz Charge",
+  "description": [
+   [
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
+   ],
+   [
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
+   ],
+   [
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 2.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 3.5%. Using the Active Skill clears all stacks.",
+    "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
+   ]
+  ],
+  "introduction": "Kafka stumbled upon this weapon while hunting down Eclipsites in the mysterious ruins of the Rediesel Desert. Believed to have originated from an ancient civilization, this sniper rifle features modified electromagnetic tracking for enhanced accuracy, and launches powerful penetrating bullets."
+ },
+ "chain": {
+  "name": "Kafka Bomb",
+  "detail": [
+   [
+    {
+     "cost": "3",
+     "description": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to the nearest 2 enemies and 30% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "3",
+     "description": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to the nearest 2 enemies and 30% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "3",
+     "description": "Deals 160% damage to the nearest 1 enemy and 50% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to the nearest 2 enemies and 50% Splash damage to 4 tiles in a cross-shaped around."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Crystal Shard",
+    "Thunder Flare Powder",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Gains 1 stack of charge whenever passing through a Yellow tile, up to 99 stacks. Each stack increases Active Skill damage by 4%. Using the Active Skill clears all stacks."
+  },
+  {
+   "material": [
+    "Thunder Flare Rock",
+    "Thunder Potion I",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Fires in any 2 selected directions out of 8, dealing 120% damage to all enemies along the trajectory.",
+   "after": "Fires at any 2 chosen tiles, dealing 120% damage to all enemies along the trajectory."
+  },
+  {
+   "material": [
+    "Thunder Potion III",
+    "Thunder Crystal",
+    "Rediesel Essence",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "Deals 160% damage to the nearest 1 enemy and 30% Splash damage to 4 tiles in a cross-shaped around.",
+   "after": "Deals 160% damage to the nearest 1 enemy and 50% Splash damage to 4 tiles in a cross-shaped around."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 552,
+    "def": 206,
+    "hp": 1619
+   },
+   {
+    "att": 563,
+    "def": 209,
+    "hp": 1647
+   },
+   {
+    "att": 573,
+    "def": 213,
+    "hp": 1675
+   },
+   {
+    "att": 584,
+    "def": 216,
+    "hp": 1702
+   },
+   {
+    "att": 595,
+    "def": 219,
+    "hp": 1730
+   },
+   {
+    "att": 606,
+    "def": 223,
+    "hp": 1758
+   },
+   {
+    "att": 616,
+    "def": 226,
+    "hp": 1785
+   },
+   {
+    "att": 627,
+    "def": 229,
+    "hp": 1813
+   },
+   {
+    "att": 638,
+    "def": 233,
+    "hp": 1841
+   },
+   {
+    "att": 648,
+    "def": 236,
+    "hp": 1869
+   },
+   {
+    "att": 659,
+    "def": 240,
+    "hp": 1896
+   },
+   {
+    "att": 670,
+    "def": 243,
+    "hp": 1924
+   },
+   {
+    "att": 681,
+    "def": 246,
+    "hp": 1952
+   },
+   {
+    "att": 691,
+    "def": 250,
+    "hp": 1979
+   },
+   {
+    "att": 702,
+    "def": 253,
+    "hp": 2007
+   },
+   {
+    "att": 713,
+    "def": 257,
+    "hp": 2035
+   },
+   {
+    "att": 723,
+    "def": 260,
+    "hp": 2063
+   },
+   {
+    "att": 734,
+    "def": 263,
+    "hp": 2090
+   },
+   {
+    "att": 745,
+    "def": 267,
+    "hp": 2118
+   },
+   {
+    "att": 756,
+    "def": 270,
+    "hp": 2146
+   },
+   {
+    "att": 766,
+    "def": 273,
+    "hp": 2173
+   },
+   {
+    "att": 777,
+    "def": 277,
+    "hp": 2201
+   },
+   {
+    "att": 788,
+    "def": 280,
+    "hp": 2229
+   },
+   {
+    "att": 799,
+    "def": 284,
+    "hp": 2257
+   },
+   {
+    "att": 809,
+    "def": 287,
+    "hp": 2284
+   },
+   {
+    "att": 820,
+    "def": 290,
+    "hp": 2312
+   },
+   {
+    "att": 831,
+    "def": 294,
+    "hp": 2340
+   },
+   {
+    "att": 841,
+    "def": 297,
+    "hp": 2367
+   },
+   {
+    "att": 852,
+    "def": 301,
+    "hp": 2395
+   },
+   {
+    "att": 863,
+    "def": 304,
+    "hp": 2423
+   },
+   {
+    "att": 961,
+    "def": 338,
+    "hp": 2667
+   },
+   {
+    "att": 975,
+    "def": 342,
+    "hp": 2702
+   },
+   {
+    "att": 988,
+    "def": 347,
+    "hp": 2737
+   },
+   {
+    "att": 1002,
+    "def": 351,
+    "hp": 2771
+   },
+   {
+    "att": 1015,
+    "def": 355,
+    "hp": 2806
+   },
+   {
+    "att": 1028,
+    "def": 359,
+    "hp": 2841
+   },
+   {
+    "att": 1042,
+    "def": 364,
+    "hp": 2875
+   },
+   {
+    "att": 1055,
+    "def": 368,
+    "hp": 2910
+   },
+   {
+    "att": 1069,
+    "def": 372,
+    "hp": 2945
+   },
+   {
+    "att": 1082,
+    "def": 376,
+    "hp": 2979
+   },
+   {
+    "att": 1095,
+    "def": 380,
+    "hp": 3014
+   },
+   {
+    "att": 1109,
+    "def": 385,
+    "hp": 3049
+   },
+   {
+    "att": 1122,
+    "def": 389,
+    "hp": 3083
+   },
+   {
+    "att": 1136,
+    "def": 393,
+    "hp": 3118
+   },
+   {
+    "att": 1149,
+    "def": 397,
+    "hp": 3152
+   },
+   {
+    "att": 1162,
+    "def": 402,
+    "hp": 3187
+   },
+   {
+    "att": 1176,
+    "def": 406,
+    "hp": 3222
+   },
+   {
+    "att": 1189,
+    "def": 410,
+    "hp": 3256
+   },
+   {
+    "att": 1203,
+    "def": 414,
+    "hp": 3291
+   },
+   {
+    "att": 1216,
+    "def": 419,
+    "hp": 3326
+   },
+   {
+    "att": 1229,
+    "def": 423,
+    "hp": 3360
+   },
+   {
+    "att": 1243,
+    "def": 427,
+    "hp": 3395
+   },
+   {
+    "att": 1256,
+    "def": 431,
+    "hp": 3430
+   },
+   {
+    "att": 1270,
+    "def": 435,
+    "hp": 3464
+   },
+   {
+    "att": 1283,
+    "def": 440,
+    "hp": 3499
+   },
+   {
+    "att": 1296,
+    "def": 444,
+    "hp": 3534
+   },
+   {
+    "att": 1310,
+    "def": 448,
+    "hp": 3568
+   },
+   {
+    "att": 1323,
+    "def": 452,
+    "hp": 3603
+   },
+   {
+    "att": 1337,
+    "def": 457,
+    "hp": 3637
+   },
+   {
+    "att": 1350,
+    "def": 461,
+    "hp": 3672
+   },
+   {
+    "att": 1363,
+    "def": 465,
+    "hp": 3707
+   },
+   {
+    "att": 1377,
+    "def": 469,
+    "hp": 3741
+   },
+   {
+    "att": 1390,
+    "def": 474,
+    "hp": 3776
+   },
+   {
+    "att": 1404,
+    "def": 478,
+    "hp": 3811
+   },
+   {
+    "att": 1417,
+    "def": 482,
+    "hp": 3845
+   },
+   {
+    "att": 1430,
+    "def": 486,
+    "hp": 3880
+   },
+   {
+    "att": 1444,
+    "def": 491,
+    "hp": 3915
+   },
+   {
+    "att": 1457,
+    "def": 495,
+    "hp": 3949
+   },
+   {
+    "att": 1471,
+    "def": 499,
+    "hp": 3984
+   },
+   {
+    "att": 1484,
+    "def": 503,
+    "hp": 4019
+   },
+   {
+    "att": 1629,
+    "def": 551,
+    "hp": 4365
+   },
+   {
+    "att": 1639,
+    "def": 555,
+    "hp": 4390
+   },
+   {
+    "att": 1649,
+    "def": 558,
+    "hp": 4416
+   },
+   {
+    "att": 1659,
+    "def": 561,
+    "hp": 4442
+   },
+   {
+    "att": 1669,
+    "def": 564,
+    "hp": 4468
+   },
+   {
+    "att": 1679,
+    "def": 567,
+    "hp": 4494
+   },
+   {
+    "att": 1689,
+    "def": 570,
+    "hp": 4520
+   },
+   {
+    "att": 1700,
+    "def": 574,
+    "hp": 4546
+   },
+   {
+    "att": 1710,
+    "def": 577,
+    "hp": 4572
+   },
+   {
+    "att": 1720,
+    "def": 580,
+    "hp": 4598
+   },
+   {
+    "att": 1730,
+    "def": 583,
+    "hp": 4624
+   },
+   {
+    "att": 1740,
+    "def": 586,
+    "hp": 4650
+   },
+   {
+    "att": 1750,
+    "def": 589,
+    "hp": 4676
+   },
+   {
+    "att": 1760,
+    "def": 593,
+    "hp": 4702
+   },
+   {
+    "att": 1770,
+    "def": 596,
+    "hp": 4728
+   },
+   {
+    "att": 1780,
+    "def": 599,
+    "hp": 4754
+   },
+   {
+    "att": 1790,
+    "def": 602,
+    "hp": 4780
+   },
+   {
+    "att": 1800,
+    "def": 605,
+    "hp": 4806
+   },
+   {
+    "att": 1810,
+    "def": 609,
+    "hp": 4832
+   },
+   {
+    "att": 1820,
+    "def": 612,
+    "hp": 4858
+   },
+   {
+    "att": 1830,
+    "def": 615,
+    "hp": 4884
+   },
+   {
+    "att": 1840,
+    "def": 618,
+    "hp": 4910
+   },
+   {
+    "att": 1850,
+    "def": 621,
+    "hp": 4936
+   },
+   {
+    "att": 1860,
+    "def": 624,
+    "hp": 4962
+   },
+   {
+    "att": 1870,
+    "def": 628,
+    "hp": 4988
+   },
+   {
+    "att": 1881,
+    "def": 631,
+    "hp": 5014
+   },
+   {
+    "att": 1891,
+    "def": 634,
+    "hp": 5040
+   },
+   {
+    "att": 1901,
+    "def": 637,
+    "hp": 5066
+   },
+   {
+    "att": 1911,
+    "def": 640,
+    "hp": 5092
+   },
+   {
+    "att": 1921,
+    "def": 643,
+    "hp": 5118
+   },
+   {
+    "att": 1931,
+    "def": 647,
+    "hp": 5144
+   },
+   {
+    "att": 1941,
+    "def": 650,
+    "hp": 5170
+   },
+   {
+    "att": 1951,
+    "def": 653,
+    "hp": 5196
+   },
+   {
+    "att": 1961,
+    "def": 656,
+    "hp": 5222
+   },
+   {
+    "att": 1971,
+    "def": 659,
+    "hp": 5248
+   },
+   {
+    "att": 1981,
+    "def": 662,
+    "hp": 5274
+   },
+   {
+    "att": 1991,
+    "def": 666,
+    "hp": 5300
+   },
+   {
+    "att": 2001,
+    "def": 669,
+    "hp": 5326
+   },
+   {
+    "att": 2011,
+    "def": 672,
+    "hp": 5352
+   },
+   {
+    "att": 2021,
+    "def": 675,
+    "hp": 5378
+   },
+   {
+    "att": 2031,
+    "def": 678,
+    "hp": 5404
+   },
+   {
+    "att": 2041,
+    "def": 682,
+    "hp": 5430
+   },
+   {
+    "att": 2051,
+    "def": 685,
+    "hp": 5456
+   },
+   {
+    "att": 2061,
+    "def": 688,
+    "hp": 5482
+   },
+   {
+    "att": 2072,
+    "def": 691,
+    "hp": 5508
+   },
+   {
+    "att": 2082,
+    "def": 694,
+    "hp": 5534
+   },
+   {
+    "att": 2092,
+    "def": 697,
+    "hp": 5560
+   },
+   {
+    "att": 2102,
+    "def": 701,
+    "hp": 5586
+   },
+   {
+    "att": 2112,
+    "def": 704,
+    "hp": 5612
+   },
+   {
+    "att": 2122,
+    "def": 707,
+    "hp": 5638
+   },
+   {
+    "att": 2329,
+    "def": 774,
+    "hp": 6135
+   },
+   {
+    "att": 2335,
+    "def": 776,
+    "hp": 6152
+   },
+   {
+    "att": 2342,
+    "def": 778,
+    "hp": 6170
+   },
+   {
+    "att": 2349,
+    "def": 780,
+    "hp": 6187
+   },
+   {
+    "att": 2355,
+    "def": 783,
+    "hp": 6204
+   },
+   {
+    "att": 2362,
+    "def": 785,
+    "hp": 6222
+   },
+   {
+    "att": 2369,
+    "def": 787,
+    "hp": 6239
+   },
+   {
+    "att": 2375,
+    "def": 789,
+    "hp": 6256
+   },
+   {
+    "att": 2382,
+    "def": 791,
+    "hp": 6273
+   },
+   {
+    "att": 2389,
+    "def": 793,
+    "hp": 6291
+   },
+   {
+    "att": 2396,
+    "def": 795,
+    "hp": 6308
+   },
+   {
+    "att": 2402,
+    "def": 797,
+    "hp": 6325
+   },
+   {
+    "att": 2409,
+    "def": 799,
+    "hp": 6343
+   },
+   {
+    "att": 2416,
+    "def": 802,
+    "hp": 6360
+   },
+   {
+    "att": 2422,
+    "def": 804,
+    "hp": 6377
+   },
+   {
+    "att": 2429,
+    "def": 806,
+    "hp": 6395
+   },
+   {
+    "att": 2436,
+    "def": 808,
+    "hp": 6412
+   },
+   {
+    "att": 2442,
+    "def": 810,
+    "hp": 6429
+   },
+   {
+    "att": 2449,
+    "def": 812,
+    "hp": 6447
+   },
+   {
+    "att": 2456,
+    "def": 814,
+    "hp": 6464
+   },
+   {
+    "att": 2463,
+    "def": 816,
+    "hp": 6481
+   },
+   {
+    "att": 2469,
+    "def": 818,
+    "hp": 6499
+   },
+   {
+    "att": 2476,
+    "def": 821,
+    "hp": 6516
+   },
+   {
+    "att": 2483,
+    "def": 823,
+    "hp": 6533
+   },
+   {
+    "att": 2489,
+    "def": 825,
+    "hp": 6551
+   },
+   {
+    "att": 2496,
+    "def": 827,
+    "hp": 6568
+   },
+   {
+    "att": 2503,
+    "def": 829,
+    "hp": 6585
+   },
+   {
+    "att": 2509,
+    "def": 831,
+    "hp": 6603
+   },
+   {
+    "att": 2516,
+    "def": 833,
+    "hp": 6620
+   },
+   {
+    "att": 2523,
+    "def": 835,
+    "hp": 6637
+   },
+   {
+    "att": 2530,
+    "def": 838,
+    "hp": 6655
+   },
+   {
+    "att": 2536,
+    "def": 840,
+    "hp": 6672
+   },
+   {
+    "att": 2543,
+    "def": 842,
+    "hp": 6689
+   },
+   {
+    "att": 2550,
+    "def": 844,
+    "hp": 6707
+   },
+   {
+    "att": 2556,
+    "def": 846,
+    "hp": 6724
+   },
+   {
+    "att": 2563,
+    "def": 848,
+    "hp": 6741
+   },
+   {
+    "att": 2570,
+    "def": 850,
+    "hp": 6758
+   },
+   {
+    "att": 2577,
+    "def": 852,
+    "hp": 6776
+   },
+   {
+    "att": 2583,
+    "def": 854,
+    "hp": 6793
+   },
+   {
+    "att": 2590,
+    "def": 857,
+    "hp": 6810
+   },
+   {
+    "att": 2597,
+    "def": 859,
+    "hp": 6828
+   },
+   {
+    "att": 2603,
+    "def": 861,
+    "hp": 6845
+   },
+   {
+    "att": 2610,
+    "def": 863,
+    "hp": 6862
+   },
+   {
+    "att": 2617,
+    "def": 865,
+    "hp": 6880
+   },
+   {
+    "att": 2623,
+    "def": 867,
+    "hp": 6897
+   },
+   {
+    "att": 2630,
+    "def": 869,
+    "hp": 6914
+   },
+   {
+    "att": 2637,
+    "def": 871,
+    "hp": 6932
+   },
+   {
+    "att": 2644,
+    "def": 874,
+    "hp": 6949
+   },
+   {
+    "att": 2650,
+    "def": 876,
+    "hp": 6966
+   },
+   {
+    "att": 2657,
+    "def": 878,
+    "hp": 6984
+   },
+   {
+    "att": 2664,
+    "def": 880,
+    "hp": 7001
+   },
+   {
+    "att": 2670,
+    "def": 882,
+    "hp": 7018
+   },
+   {
+    "att": 2677,
+    "def": 884,
+    "hp": 7036
+   },
+   {
+    "att": 2684,
+    "def": 886,
+    "hp": 7053
+   },
+   {
+    "att": 2690,
+    "def": 888,
+    "hp": 7070
+   },
+   {
+    "att": 2697,
+    "def": 890,
+    "hp": 7088
+   },
+   {
+    "att": 2704,
+    "def": 893,
+    "hp": 7105
+   },
+   {
+    "att": 2711,
+    "def": 895,
+    "hp": 7122
+   },
+   {
+    "att": 2717,
+    "def": 897,
+    "hp": 7140
+   },
+   {
+    "att": 2724,
+    "def": 899,
+    "hp": 7157
+   },
+   {
+    "att": 2731,
+    "def": 901,
+    "hp": 7174
+   },
+   {
+    "att": 2737,
+    "def": 903,
+    "hp": 7192
+   },
+   {
+    "att": 2744,
+    "def": 905,
+    "hp": 7209
+   },
+   {
+    "att": 2751,
+    "def": 907,
+    "hp": 7226
+   },
+   {
+    "att": 2757,
+    "def": 909,
+    "hp": 7243
+   },
+   {
+    "att": 2764,
+    "def": 912,
+    "hp": 7261
+   },
+   {
+    "att": 2771,
+    "def": 914,
+    "hp": 7278
+   },
+   {
+    "att": 2778,
+    "def": 916,
+    "hp": 7295
+   },
+   {
+    "att": 2784,
+    "def": 918,
+    "hp": 7313
+   },
+   {
+    "att": 2791,
+    "def": 920,
+    "hp": 7330
+   },
+   {
+    "att": 2798,
+    "def": 922,
+    "hp": 7347
+   },
+   {
+    "att": 2804,
+    "def": 924,
+    "hp": 7365
+   },
+   {
+    "att": 2811,
+    "def": 926,
+    "hp": 7382
+   },
+   {
+    "att": 2818,
+    "def": 929,
+    "hp": 7399
+   },
+   {
+    "att": 2825,
+    "def": 931,
+    "hp": 7417
+   },
+   {
+    "att": 2831,
+    "def": 933,
+    "hp": 7434
+   },
+   {
+    "att": 2838,
+    "def": 935,
+    "hp": 7451
+   },
+   {
+    "att": 2845,
+    "def": 937,
+    "hp": 7469
+   },
+   {
+    "att": 2851,
+    "def": 939,
+    "hp": 7486
+   },
+   {
+    "att": 2858,
+    "def": 941,
+    "hp": 7503
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Jona",
+     "Kafka"
+    ],
+    "chat": [
+     {
+      "character": "Jona:",
+      "text": "Hey Kafka! Wanna have a little shooting contest?"
+     },
+     {
+      "character": "Jona:",
+      "text": "Same rules as always: loser buys drinks at the bar tonight."
+     },
+     {
+      "character": "Kafka:",
+      "text": "If you really feel like paying for my drinks, then sure. I'm game."
+     },
+     {
+      "character": "Jona:",
+      "text": "Feeling cocky today, huh?"
+     },
+     {
+      "character": "Jona:",
+      "text": "Here, let's see who can shoot out this window and hit this Colossus' wing."
+     },
+     {
+      "character": "Jona:",
+      "text": "(Hey... Did I hear a sneeze just now?)"
+     },
+     {
+      "character": "Kafka:",
+      "text": "The wing? That's way too big of a target... How about the tip of the wing?"
+     },
+     {
+      "character": "Kafka:",
+      "text": "(I think I heard a sneeze just now, too... Ah, it's probably nothing.)"
+     },
+     {
+      "character": "Jona:",
+      "text": "Ah, I only said the wing first because I figured you wouldn't be able to hit the tip."
+     },
+     {
+      "character": "Kafka:",
+      "text": "You gotta be kidding me... Here, I'll even let you aim for the thicker part of the tip. I'll go for the thin part."
+     },
+     {
+      "character": "Kafka:",
+      "text": "Whoever misses has to pay for a bottle, how's that sound?"
+     },
+     {
+      "character": "Jona:",
+      "text": "Sounds good to me! Let's go!"
+     },
+     {
+      "character": "Kafka:",
+      "text": "(Whoa! The sneeze is getting louder...)"
+     },
+     {
+      "character": "Jona:",
+      "text": "(Is... Is the Colossus moving?)"
+     },
+     {
+      "character": "Jona:",
+      "text": "Why's this big guy taking off all of a sudden? ... Hey, where'd the wing go? I can't see it anymore!"
+     },
+     {
+      "character": "Kafka:",
+      "text": "Ah, let's just pick a new target. How about the tip of Lumopolis' roof?"
+     },
+     {
+      "character": "Jona:",
+      "text": "No problem!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Kuma & Pengy",
+     "Kafka"
+    ],
+    "chat": [
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Pengy) Yo, Kafka!"
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Pengy) We brought you a nice can of meat!"
+     },
+     {
+      "character": "Kafka:",
+      "text": "You two, again?"
+     },
+     {
+      "character": "Kafka:",
+      "text": "A fat little penguin and a fat little bear... Have you been rolling around in the dirt? Don't come near me!"
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Pengy) Aww, don't be like that! We even brought you some tasty canned meat, too! See?"
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Pengy) Go ahead, take it!"
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Kuma) Yeah, take it!"
+     },
+     {
+      "character": "Kafka:",
+      "text": "... I guess I have no choice."
+     },
+     {
+      "character": "Kafka:",
+      "text": "Alright then, just this once."
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Pengy) You gotta try it now!"
+     },
+     {
+      "character": "Kuma & Pengy:",
+      "text": "(Kuma) Yeah, try it!"
+     },
+     {
+      "character": "Kafka:",
+      "text": "I'll eat it when I'm hungry!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Objectively speaking, I've seen many people who animals like, but I don't think this is sufficient to describe the case of Ms. Kafka... All the animals on the Colossus seem to appear out of nowhere to see her. It's completely unreal! Meanwhile, our Ms. Kafka, who has dark circles under her eyes, keeps walking carefully to avoid them while cursing these fluffy little fellows.\"Hey! Can someone give me a quieter room?! And someone please get these animals out!\" However, when %s tried to chase them away, Ms. Kafka gave a cold looked and said: \"When did I ask you do to that?!\"Hmm, Ms. Kafka seems to be a good person...\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "I already told you not to bother me while I'm sleeping! What is it? Do you want me to shoot you?! What? Franz got lost, and you brought it back? Aha, no wonder I couldn't find him... I'll forgive you then.Is there anything else? If not, leave now! What? You want me to take the night shift tonight? Whether it's that giant lizard or this big guy, why is there no one reliable here?! Okay, okay! I get it! I already have a layer of dark circles under my eyes anyway... Can you leave now? You know I hate being woken up. If you didn't know that before\u2014well, now you know!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Are you curious about my gun? There's a story behind it. My father dug it out from under a certain ruin back then when he was chasing after those guys... Hmm, this was one amazing fella alright, though I don't really understand how it works exactly. All you need to know is that I can send all the Eclipsites to heaven with it! Hahaha! I should be the only person who can use it. Its name? I won't tell you since you won't remember it anyway! Yes, it is called an electromagnetic gun, but it has nothing to do with that girl who uses coins! Having said that, although we're called the Revolver Gang, my gun has nothing to do with revolvers...Is Franz useful in battle? Useful or not, I'm happy as long as he doesn't run over and rub himself against me when I'm fighting..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "I wouldn't have joined any organization if it wasn't for that lizard who just didn't know when to call it quits! I don't want to join any organization! But I can't help it because I have no home to return to, and I actually think that giant lizard is quite cute... Hey, I didn't say anything! Don't ask me about it!Actually, part of the reason I stayed was that the boss was crying and begging me to stay. He said no one could assume shadow duty because everyone on this giant lizard is too frivolous, so I had to do it... I finally agreed only because she cried so hideously... What? You don't believe she cried? She did if I said she did. What's with the questioning? Want me to shoot you?!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "The \"chairman of animal protection\"? Where did you hear that from? It must be the guys on that giant lizard! Damn! They must be tired of living!What are you looking at me for? Although I always give snacks to Kuma and Pengy, it's because I have too many snacks that I can't finish! Losing weight is also a form of combat!...You saw me playing with a cat yesterday? Forget everything you saw immediately unless you want me to kill you now! Do it! Now!"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Yes, they're all nice folks, but they all have a few loose screws! I'm the only one doing the stakeout. You see these dark circles?",
+  "The Illumina guys have been trying hard to get my gun and study it. Like I'm gonna let that happen! What a bunch of crazy geeks!",
+  "Let's give those bullies a taste of what it's like to be rubbed against the ground.",
+  "As long as I have my gun, I'll kill all the Eclipsites that come my way and send them home for good.",
+  "That giant lizard! I hate to say it, but it's sort of cute... Huh? What? Did I say anything?",
+  "I haven't seen that bear-and-penguin pair for a long time. Are they still looking for air conditioners? I'll give them some parts if the chance comes.",
+  "Control yourself, Kafka... I'll get back to petting the fluffy fellas later on...",
+  "The noise! The noise! How come there's not even a single quiet bed to sleep in the great, big Rediesel desert?",
+  "How gigantic this fella is! They say it has its own consciousness. Just get it to do the stakeout then if so.",
+  "No animals here? Great! Ah, but it's kinda boring...",
+  "You want me to do the stakeout? Fine. I'm always up all night anyway.",
+  "That was too stressful. I was off my game...",
+  "A piece of cake.",
+  "Super electric field! Scatter shot!",
+  "Close-range shot!",
+  "Searching for enemies...",
+  "Like I'm gonna say it... Ahem. Happy New Year.",
+  "Spare no foes!",
+  "Franz! Go!",
+  "Let's use more powerful bullets!",
+  "Shoot! Shoot like crazy!",
+  "I'm gonna take a nap. You! Take those animals away. Don't disturb me.",
+  "Faster and more precise.",
+  "Alchemy Stars!",
+  "Don't talk to me when I just wake up. I'll so groggy the whole world is my enemy.",
+  "Keep those fluffy things away from me if possible.",
+  "Don't know where that Franz is again. That's for the best, I guess.",
+  "Someone's bullying a puppy? Take me there. I'm gonna have that fellow live a life without hands...",
+  "We must check the bullets thoroughly. They tend to get stuck when we blast those who attack small animals...",
+  "I've got a better gun now. I'm gonna aim for those despicable beings -- the Eclipsites, the noisemakers, and the torturers of small animals.",
+  "Fluffy or not, whoever disturbs me will get shot and that includes you.",
+  "These fellows always make me do the stakeout alone. You there! Take my place.",
+  "Whoever disturbs my sleep will receive the Eclipsites treatment, including you.",
+  "You're tired? But you can't rest now. I stay up late all the time.",
+  "This annoying little thing's rubbing against me again! Kafka, you have to stop being such a softie...",
+  "Gotta take a break every once in a while. Where's Franz? Franz! Didn't I tell you to always stay close to me!?",
+  "Now is when those fluffy fellas are most active. Watch them! Don't let them wander off!",
+  "How dare you disturb my rest! Oh... it's morning. Looks like I pulled an all-nighter again.",
+  "No one's coming for the next shift? What a bunch of slackers! Someday, I'm gonna shoot them in the middle of the night...",
+  "I'm exhausted. That's it. I'm done with this shift. Gonna get some sleep!",
+  "The name's Kafka. I have three requests: Don't get me to do the stakeout, get me a soundproof studio apartment for singles, and drive these animals away from me!",
+  "A gift for me? Fine, I'll take it.",
+  "Looks like it's worth a fortune. Thanks!",
+  "This gift looks pretty nice...",
+  "This? Wow! Thanks so much!",
+  "Fire!",
+  "Nowhere to hide!",
+  "Gauss rifle! Aim!",
+  "Rediesel Wrench? I didn't want to join them initially, but that giant lizard just made it too hard to refuse.",
+  "Wanna know how I managed to get this rifle? That's an interesting story, but before that, please drive these clingy little fellas away first.",
+  "My home used to be a little castle, not this giant lizard. If it wasn't for the Eclipsites... Hmm... Don't feel like talking about it anymore. I'm gonna sleep.",
+  "I'll watch them like a hawk."
+ ],
+ "skins": [],
+ "description": "A Rediesel Wrench sniper wielding a powerful super railgun to annihilate all opposing foes.",
+ "realName": "Kafka",
+ "nickname": "Super Electron",
+ "gender": "Female",
+ "height": "5'5\"",
+ "birthday": "February 6",
+ "birthplace": "Fort Brig",
+ "style": "Super Electron, Electromagnetic Rifle"
 }

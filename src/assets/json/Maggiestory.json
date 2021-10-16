@@ -1,0 +1,1236 @@
+{
+ "title": "Lost Gloves",
+ "header": "Maggie is practically out of her mind looking for something. But upon learning, she probably has to search a lot of places, her normal shy self uncharacteristically...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "Gloves... Gloves... Where are you..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Come on... Show yourselves... If you don't, I'm gonna eat you..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "No, I'm not gonna eat you. Just show yourselves, and you'll be fine. How could I possibly eat you..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Anyway, just show! yourselves! now!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wh-who's there screaming so desperately?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "N-navigator? Did I scare you?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'm sorry... I got agitated again..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay... But what happened?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "My gloves are gone... I'm looking for them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see. Are they important?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Of course they are... Without them, I cut people very easily..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Because my hands are covered with tiny stinging hairs..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "You're very kind-hearted.",
+     "link": "1"
+    },
+    {
+     "text": "Tiny stinging hairs are cute though",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "That's because it happened before..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I took off my gloves and hurt some kids by accident..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "That must never happen again!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you getting agitated again?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looks like you're really afraid that you might hurt others..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I'll help you find them then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been anywhere before you lost your gloves?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "No... I was just sitting in my room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's tricky..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the rec room to play some pool..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right, the rec room, is it?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Cafe for some coffee..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So you went fueling up after working out."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the lounge..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. After you fueled up, you needed a good rest."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Bar..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So, after you rested, you wanted to have a drink and have some fun?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Exactly how many places have you been to?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It'll be a miracle if you didn't lose anything having been to so many places in such a short time."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I didn't mean to..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's just that when I get excited, there's no telling what I may do... I probably went everywhere I could because I got too amped up..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I tend to throw things about when I'm amped up as well..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "That's how I found my gloves gone all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright... I finally understand what's happened."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You ran around in the Colossus because you got too amped up."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And all of a sudden, you realized your gloves were gone. That was what happened, wasn't it..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Yeah... and Soroz is so big..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I don't even know my way around... How am I supposed to know where to look..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't panic."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "However big the Colossus is, it's got only so many rooms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We'll search them one by one. The gloves have to be in one of them."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Is that so... How many rooms are there in total?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(The total number of rooms... whelp.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I'll just make up a number.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There are 65536 of them.",
+     "link": "4"
+    },
+    {
+     "text": "You don't need to know the total number.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "They... They're not. That's so not true!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Smooth hands are cuter! Like yours, Navigator!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's all too easy for these stinging hairs to injure others. I just don't get how they are cute!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "C-calm down..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "How are they cute? Tell me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No... they're not cute. Not cute at all..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Now you're making sense..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A-anyway, let's just find them quickly. I'll help!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been anywhere before you lost your gloves?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "No... I was just sitting in my room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's tricky..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the rec room to play some pool..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right, the rec room, is it?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Cafe for some coffee..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So you went fueling up after working out."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the lounge..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. After you fueled up, you needed a good rest."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Bar..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So, after you rested, you wanted to have a drink and have some fun?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Exactly how many places have you been to?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It'll be a miracle if you didn't lose anything having been to so many places in such a short time."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I didn't mean to..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's just that when I get excited, there's no telling what I may do... I probably went everywhere I could because I got too amped up..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I tend to throw things about when I'm amped up as well..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "That's how I found my gloves gone all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright... I finally understand what's happened."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You ran around in the Colossus because you got too amped up."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And all of a sudden, you realized your gloves were gone. That was what happened, wasn't it..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Yeah... and Soroz is so big..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I don't even know my way around... How am I supposed to know where to look..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't panic."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "However big the Colossus is, it's got only so many rooms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We'll search them one by one. The gloves have to be in one of them."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Is that so... How many rooms are there in total?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(The total number of rooms... whelp.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I'll just make up a number.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There are 65536 of them.",
+     "link": "4"
+    },
+    {
+     "text": "You don't need to know the total number.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Have you been anywhere before you lost your gloves?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "No... I was just sitting in my room..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's tricky..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the rec room to play some pool..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right, the rec room, is it?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Cafe for some coffee..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So you went fueling up after working out."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the lounge..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. After you fueled up, you needed a good rest."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to the Bar..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right, right. So, after you rested, you wanted to have a drink and have some fun?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And then I went to..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Exactly how many places have you been to?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It'll be a miracle if you didn't lose anything having been to so many places in such a short time."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I didn't mean to..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's just that when I get excited, there's no telling what I may do... I probably went everywhere I could because I got too amped up..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I tend to throw things about when I'm amped up as well..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "That's how I found my gloves gone all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright... I finally understand what's happened."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You ran around in the Colossus because you got too amped up."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And all of a sudden, you realized your gloves were gone. That was what happened, wasn't it..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Yeah... and Soroz is so big..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I don't even know my way around... How am I supposed to know where to look..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't panic."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "However big the Colossus is, it's got only so many rooms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We'll search them one by one. The gloves have to be in one of them."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Is that so... How many rooms are there in total?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(The total number of rooms... whelp.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I'll just make up a number.)"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "There are 65536 of them.",
+     "link": "4"
+    },
+    {
+     "text": "You don't need to know the total number.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "H-how many?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sixty-five thousand five hundred and thirty-six rooms."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Scary, right?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "So many rooms... Countless rooms..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's as if I won't be able to find them even until the end of time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, it might take you forever."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Hahaha! Now I'm amped!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look, I'll look, I'll look for them!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look for a pair of good gloves!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Even if I have to search the entire Astra..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll do so just to find you. You'll never get to hide from me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, are you all amped up again?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Oh, yeah!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "They're just gloves though. It's not like they can fly, right?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Actually, they can fly if they want to. I'll just net them from the sky!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "N-net?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Don't you have any? That's okay. Clothes are the best nets!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll take off my clothes and use them to net the gloves!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? You're taking your clothes off now?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's cold!",
+     "link": "7"
+    },
+    {
+     "text": "You'll be taken by the Lumopolis Guardians!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "I don't?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "In other words... there are countless of them, aren't there?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? If you take it that way..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "So many rooms... Countless rooms..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's as if I won't be able to find them even until the end of time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, it might take you forever."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Hahaha! Now I'm amped!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look, I'll look, I'll look for them!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look for a pair of good gloves!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Even if I have to search the entire Astra..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll do so just to find you. You'll never get to hide from me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, are you all amped up again?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Oh, yeah!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "They're just gloves though. It's not like they can fly, right?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Actually, they can fly if they want to. I'll just net them from the sky!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "N-net?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Don't you have any? That's okay. Clothes are the best nets!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll take off my clothes and use them to net the gloves!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? You're taking your clothes off now?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's cold!",
+     "link": "7"
+    },
+    {
+     "text": "You'll be taken by the Lumopolis Guardians!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "So many rooms... Countless rooms..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "It's as if I won't be able to find them even until the end of time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, it might take you forever."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Hahaha! Now I'm amped!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look, I'll look, I'll look for them!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll look for a pair of good gloves!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Even if I have to search the entire Astra..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll do so just to find you. You'll never get to hide from me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, are you all amped up again?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Oh, yeah!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "They're just gloves though. It's not like they can fly, right?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Actually, they can fly if they want to. I'll just net them from the sky!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "N-net?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Don't you have any? That's okay. Clothes are the best nets!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll take off my clothes and use them to net the gloves!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What? You're taking your clothes off now?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's cold!",
+     "link": "7"
+    },
+    {
+     "text": "You'll be taken by the Lumopolis Guardians!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "Cold? Is that a concern of mine?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Scorching flames are already burning in my heart."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Any extra piece of clothing on me is a liability!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "B-but you're gonna catch a cold!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Am I? Never mind. I'll just raise the temperature here then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The temperature here?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "That's right! Raising the temperature will do!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "And speaking of raising the temperature, it'll of course be done by lighting a fire."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Speaking of lighting a fire, it'll of course involve... bombs!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Come on! I can't wait!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Let it all burn..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "At this very moment, roaring flames..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "are the only match for my boiling blood!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, please don't!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice, Vice! Get someone here to stop Maggie!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Huh? Did I just hear my name?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Stop Maggie? Let's see..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I don't know her well... We need someone who's also from the Rediesel Wrench. But it has to be someone who's more capable of keeping calm..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Got it! Hold a sec. I'll get this person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Oh, you looking for me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Rabbie? I'm so glad you came!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maggie's going to set Soroz on fire with her bombs!"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Maggie? I'm not surprised."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "The thing is, she'll only get more amped up if you try to force her to stop..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "We must do it another way."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Maggie, I brought you some caterpillars."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Hahaha! Let's light this fuse..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "C-caterpillars?"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Yeah. The fuzzy and hairy ones. And they're really fat as well."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Crispy hairs and juicy bodies. They'll taste so crispy and tender..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "They look delicious..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Of course they are. Tastiest ever."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Want some?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Y-yes..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "How are you going to eat them if you're still holding the bombs?"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Why don't you just put the bombs down and enjoy your gourmet meal?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "O-okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Phew, has she finally put the bombs down?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It was really scary..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "By the way, did Maggie lose a pair of gloves?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I found them when I passed by Navigator's room on my way to get Rabbie."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Nom, nom... Hey, my gloves!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Thanks! Finally found them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why are they in my room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You got so amped up, you even went to my room?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Nom, nom... Um, I don't remember."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "She probably went placing bombs there."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Maggie:",
+     "dialogue": "Lumopolis Guardians? Why would they want to take me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's a real risk of you being taken for taking your clothes off just like that!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Don't I even have the freedom to undress? How boring it is in Lumopolis!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Well, it doesn't matter. If they come, I'll give them a warm welcome."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "I'll even prepare gifts for them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gifts?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Exactly. For people who come to get me, the best gift has to be... bombs!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Come on! I can't wait!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Let it all burn..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "At this very moment, roaring flames..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "are the only match for my boiling blood!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, please don't!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Vice, Vice! Get someone here to stop Maggie!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Huh? Did I just hear my name?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Stop Maggie? Let's see..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I don't know her well... We need someone who's also from the Rediesel Wrench. But it has to be someone who's more capable of keeping calm..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Got it! Hold a sec. I'll get this person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Oh, you looking for me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Rabbie? I'm so glad you came!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maggie's going to set Soroz on fire with her bombs!"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Maggie? I'm not surprised."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "The thing is, she'll only get more amped up if you try to force her to stop..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "We must do it another way."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Maggie, I brought you some caterpillars."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Hahaha! Let's light this fuse..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "C-caterpillars?"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Yeah. The fuzzy and hairy ones. And they're really fat as well."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Crispy hairs and juicy bodies. They'll taste so crispy and tender..."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "They look delicious..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Of course they are. Tastiest ever."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Want some?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Y-yes..."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "How are you going to eat them if you're still holding the bombs?"
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "Why don't you just put the bombs down and enjoy your gourmet meal?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "O-okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Phew, has she finally put the bombs down?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It was really scary..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "By the way, did Maggie lose a pair of gloves?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "I found them when I passed by Navigator's room on my way to get Rabbie."
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Nom, nom... Hey, my gloves!"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Thanks! Finally found them!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, why are they in my room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You got so amped up, you even went to my room?"
+    },
+    {
+     "char": "Maggie:",
+     "dialogue": "Nom, nom... Um, I don't remember."
+    },
+    {
+     "char": "Rabbie:",
+     "dialogue": "She probably went placing bombs there."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What?!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

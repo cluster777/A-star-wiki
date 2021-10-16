@@ -1,1153 +1,1319 @@
 {
-      "name": "Constantine",
-      "faction": "Independent",
-      "element_main": "Water",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Deals 300% damage to 1 enemy within 3 surrounding clusters.",
-                  "Deals 300% damage to 1 enemy out of all enemies on the screen.",
-                  "Deals 300% damage to 1 enemy out of all enemies on the screen."
-            ]
-      },
-      "equip": {
-            "name": "Thunderstorm Shotgun",
-            "passive": "Flintlock Will",
-            "description": [
-                  [
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
-                  ],
-                  [
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
-                  ],
-                  [
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 2% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 2% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
-                        "When a normal attack or an Active Skill deals damage (whichever is more), convert 5% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "6",
-                              "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "6",
-                              "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
-                        },
-                        {
-                              "cost": "6",
-                              "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Flare Silt",
-                        "Water Essence",
-                        "Tales of Survival",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
-            },
-            {
-                  "material": [
-                        "Water Potion II",
-                        "Water Crystal Shard",
-                        "Survival 101",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 300% damage to 1 enemy within 3 surrounding clusters.",
-                  "after": "Deals 300% damage to 1 enemy out of all enemies on the screen."
-            },
-            {
-                  "material": [
-                        "Water Crystal Cluster",
-                        "Water Flare Rock",
-                        "Survivalpedia",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round.",
-                  "after": "When a normal attack or an Active Skill deals damage (whichever is more), convert 5% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 593,
-                        "def": 222,
-                        "hp": 2020
-                  },
-                  {
-                        "att": 605,
-                        "def": 226,
-                        "hp": 2053
-                  },
-                  {
-                        "att": 617,
-                        "def": 230,
-                        "hp": 2085
-                  },
-                  {
-                        "att": 629,
-                        "def": 233,
-                        "hp": 2117
-                  },
-                  {
-                        "att": 641,
-                        "def": 237,
-                        "hp": 2150
-                  },
-                  {
-                        "att": 652,
-                        "def": 241,
-                        "hp": 2182
-                  },
-                  {
-                        "att": 664,
-                        "def": 245,
-                        "hp": 2215
-                  },
-                  {
-                        "att": 676,
-                        "def": 248,
-                        "hp": 2247
-                  },
-                  {
-                        "att": 688,
-                        "def": 252,
-                        "hp": 2280
-                  },
-                  {
-                        "att": 700,
-                        "def": 256,
-                        "hp": 2312
-                  },
-                  {
-                        "att": 712,
-                        "def": 259,
-                        "hp": 2345
-                  },
-                  {
-                        "att": 723,
-                        "def": 263,
-                        "hp": 2377
-                  },
-                  {
-                        "att": 735,
-                        "def": 267,
-                        "hp": 2410
-                  },
-                  {
-                        "att": 747,
-                        "def": 271,
-                        "hp": 2442
-                  },
-                  {
-                        "att": 759,
-                        "def": 274,
-                        "hp": 2474
-                  },
-                  {
-                        "att": 771,
-                        "def": 278,
-                        "hp": 2507
-                  },
-                  {
-                        "att": 783,
-                        "def": 282,
-                        "hp": 2539
-                  },
-                  {
-                        "att": 795,
-                        "def": 285,
-                        "hp": 2572
-                  },
-                  {
-                        "att": 806,
-                        "def": 289,
-                        "hp": 2604
-                  },
-                  {
-                        "att": 818,
-                        "def": 293,
-                        "hp": 2637
-                  },
-                  {
-                        "att": 830,
-                        "def": 297,
-                        "hp": 2669
-                  },
-                  {
-                        "att": 842,
-                        "def": 300,
-                        "hp": 2702
-                  },
-                  {
-                        "att": 854,
-                        "def": 304,
-                        "hp": 2734
-                  },
-                  {
-                        "att": 866,
-                        "def": 308,
-                        "hp": 2767
-                  },
-                  {
-                        "att": 877,
-                        "def": 312,
-                        "hp": 2799
-                  },
-                  {
-                        "att": 889,
-                        "def": 315,
-                        "hp": 2832
-                  },
-                  {
-                        "att": 901,
-                        "def": 319,
-                        "hp": 2864
-                  },
-                  {
-                        "att": 913,
-                        "def": 323,
-                        "hp": 2896
-                  },
-                  {
-                        "att": 925,
-                        "def": 326,
-                        "hp": 2929
-                  },
-                  {
-                        "att": 937,
-                        "def": 330,
-                        "hp": 2961
-                  },
-                  {
-                        "att": 1041,
-                        "def": 365,
-                        "hp": 3242
-                  },
-                  {
-                        "att": 1056,
-                        "def": 370,
-                        "hp": 3283
-                  },
-                  {
-                        "att": 1071,
-                        "def": 374,
-                        "hp": 3323
-                  },
-                  {
-                        "att": 1086,
-                        "def": 379,
-                        "hp": 3364
-                  },
-                  {
-                        "att": 1101,
-                        "def": 383,
-                        "hp": 3404
-                  },
-                  {
-                        "att": 1115,
-                        "def": 388,
-                        "hp": 3445
-                  },
-                  {
-                        "att": 1130,
-                        "def": 393,
-                        "hp": 3485
-                  },
-                  {
-                        "att": 1145,
-                        "def": 397,
-                        "hp": 3526
-                  },
-                  {
-                        "att": 1160,
-                        "def": 402,
-                        "hp": 3567
-                  },
-                  {
-                        "att": 1175,
-                        "def": 407,
-                        "hp": 3607
-                  },
-                  {
-                        "att": 1189,
-                        "def": 411,
-                        "hp": 3648
-                  },
-                  {
-                        "att": 1204,
-                        "def": 416,
-                        "hp": 3688
-                  },
-                  {
-                        "att": 1219,
-                        "def": 421,
-                        "hp": 3729
-                  },
-                  {
-                        "att": 1234,
-                        "def": 425,
-                        "hp": 3769
-                  },
-                  {
-                        "att": 1248,
-                        "def": 430,
-                        "hp": 3810
-                  },
-                  {
-                        "att": 1263,
-                        "def": 435,
-                        "hp": 3851
-                  },
-                  {
-                        "att": 1278,
-                        "def": 439,
-                        "hp": 3891
-                  },
-                  {
-                        "att": 1293,
-                        "def": 444,
-                        "hp": 3932
-                  },
-                  {
-                        "att": 1308,
-                        "def": 449,
-                        "hp": 3972
-                  },
-                  {
-                        "att": 1322,
-                        "def": 453,
-                        "hp": 4013
-                  },
-                  {
-                        "att": 1337,
-                        "def": 458,
-                        "hp": 4053
-                  },
-                  {
-                        "att": 1352,
-                        "def": 463,
-                        "hp": 4094
-                  },
-                  {
-                        "att": 1367,
-                        "def": 467,
-                        "hp": 4135
-                  },
-                  {
-                        "att": 1382,
-                        "def": 472,
-                        "hp": 4175
-                  },
-                  {
-                        "att": 1396,
-                        "def": 477,
-                        "hp": 4216
-                  },
-                  {
-                        "att": 1411,
-                        "def": 481,
-                        "hp": 4256
-                  },
-                  {
-                        "att": 1426,
-                        "def": 486,
-                        "hp": 4297
-                  },
-                  {
-                        "att": 1441,
-                        "def": 491,
-                        "hp": 4337
-                  },
-                  {
-                        "att": 1456,
-                        "def": 495,
-                        "hp": 4378
-                  },
-                  {
-                        "att": 1470,
-                        "def": 500,
-                        "hp": 4419
-                  },
-                  {
-                        "att": 1485,
-                        "def": 505,
-                        "hp": 4459
-                  },
-                  {
-                        "att": 1500,
-                        "def": 509,
-                        "hp": 4500
-                  },
-                  {
-                        "att": 1515,
-                        "def": 514,
-                        "hp": 4540
-                  },
-                  {
-                        "att": 1530,
-                        "def": 519,
-                        "hp": 4581
-                  },
-                  {
-                        "att": 1544,
-                        "def": 523,
-                        "hp": 4621
-                  },
-                  {
-                        "att": 1559,
-                        "def": 528,
-                        "hp": 4662
-                  },
-                  {
-                        "att": 1574,
-                        "def": 533,
-                        "hp": 4703
-                  },
-                  {
-                        "att": 1589,
-                        "def": 537,
-                        "hp": 4743
-                  },
-                  {
-                        "att": 1604,
-                        "def": 542,
-                        "hp": 4784
-                  },
-                  {
-                        "att": 1618,
-                        "def": 547,
-                        "hp": 4824
-                  },
-                  {
-                        "att": 1769,
-                        "def": 600,
-                        "hp": 5235
-                  },
-                  {
-                        "att": 1781,
-                        "def": 603,
-                        "hp": 5265
-                  },
-                  {
-                        "att": 1792,
-                        "def": 607,
-                        "hp": 5296
-                  },
-                  {
-                        "att": 1803,
-                        "def": 610,
-                        "hp": 5326
-                  },
-                  {
-                        "att": 1814,
-                        "def": 614,
-                        "hp": 5356
-                  },
-                  {
-                        "att": 1825,
-                        "def": 617,
-                        "hp": 5387
-                  },
-                  {
-                        "att": 1836,
-                        "def": 621,
-                        "hp": 5417
-                  },
-                  {
-                        "att": 1847,
-                        "def": 624,
-                        "hp": 5448
-                  },
-                  {
-                        "att": 1858,
-                        "def": 628,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 1869,
-                        "def": 631,
-                        "hp": 5509
-                  },
-                  {
-                        "att": 1880,
-                        "def": 635,
-                        "hp": 5539
-                  },
-                  {
-                        "att": 1892,
-                        "def": 638,
-                        "hp": 5569
-                  },
-                  {
-                        "att": 1903,
-                        "def": 642,
-                        "hp": 5600
-                  },
-                  {
-                        "att": 1914,
-                        "def": 645,
-                        "hp": 5630
-                  },
-                  {
-                        "att": 1925,
-                        "def": 649,
-                        "hp": 5661
-                  },
-                  {
-                        "att": 1936,
-                        "def": 652,
-                        "hp": 5691
-                  },
-                  {
-                        "att": 1947,
-                        "def": 656,
-                        "hp": 5722
-                  },
-                  {
-                        "att": 1958,
-                        "def": 659,
-                        "hp": 5752
-                  },
-                  {
-                        "att": 1969,
-                        "def": 663,
-                        "hp": 5782
-                  },
-                  {
-                        "att": 1980,
-                        "def": 666,
-                        "hp": 5813
-                  },
-                  {
-                        "att": 1991,
-                        "def": 670,
-                        "hp": 5843
-                  },
-                  {
-                        "att": 2002,
-                        "def": 673,
-                        "hp": 5874
-                  },
-                  {
-                        "att": 2014,
-                        "def": 677,
-                        "hp": 5904
-                  },
-                  {
-                        "att": 2025,
-                        "def": 680,
-                        "hp": 5935
-                  },
-                  {
-                        "att": 2036,
-                        "def": 684,
-                        "hp": 5965
-                  },
-                  {
-                        "att": 2047,
-                        "def": 687,
-                        "hp": 5995
-                  },
-                  {
-                        "att": 2058,
-                        "def": 691,
-                        "hp": 6026
-                  },
-                  {
-                        "att": 2069,
-                        "def": 694,
-                        "hp": 6056
-                  },
-                  {
-                        "att": 2080,
-                        "def": 698,
-                        "hp": 6087
-                  },
-                  {
-                        "att": 2091,
-                        "def": 701,
-                        "hp": 6117
-                  },
-                  {
-                        "att": 2102,
-                        "def": 705,
-                        "hp": 6148
-                  },
-                  {
-                        "att": 2113,
-                        "def": 708,
-                        "hp": 6178
-                  },
-                  {
-                        "att": 2125,
-                        "def": 712,
-                        "hp": 6208
-                  },
-                  {
-                        "att": 2136,
-                        "def": 715,
-                        "hp": 6239
-                  },
-                  {
-                        "att": 2147,
-                        "def": 719,
-                        "hp": 6269
-                  },
-                  {
-                        "att": 2158,
-                        "def": 722,
-                        "hp": 6300
-                  },
-                  {
-                        "att": 2169,
-                        "def": 726,
-                        "hp": 6330
-                  },
-                  {
-                        "att": 2180,
-                        "def": 729,
-                        "hp": 6361
-                  },
-                  {
-                        "att": 2191,
-                        "def": 733,
-                        "hp": 6391
-                  },
-                  {
-                        "att": 2202,
-                        "def": 736,
-                        "hp": 6421
-                  },
-                  {
-                        "att": 2213,
-                        "def": 740,
-                        "hp": 6452
-                  },
-                  {
-                        "att": 2224,
-                        "def": 743,
-                        "hp": 6482
-                  },
-                  {
-                        "att": 2236,
-                        "def": 747,
-                        "hp": 6513
-                  },
-                  {
-                        "att": 2247,
-                        "def": 750,
-                        "hp": 6543
-                  },
-                  {
-                        "att": 2258,
-                        "def": 754,
-                        "hp": 6574
-                  },
-                  {
-                        "att": 2269,
-                        "def": 757,
-                        "hp": 6604
-                  },
-                  {
-                        "att": 2280,
-                        "def": 761,
-                        "hp": 6634
-                  },
-                  {
-                        "att": 2291,
-                        "def": 764,
-                        "hp": 6665
-                  },
-                  {
-                        "att": 2302,
-                        "def": 768,
-                        "hp": 6695
-                  },
-                  {
-                        "att": 2313,
-                        "def": 771,
-                        "hp": 6726
-                  },
-                  {
-                        "att": 2536,
-                        "def": 838,
-                        "hp": 7316
-                  },
-                  {
-                        "att": 2543,
-                        "def": 841,
-                        "hp": 7336
-                  },
-                  {
-                        "att": 2550,
-                        "def": 843,
-                        "hp": 7357
-                  },
-                  {
-                        "att": 2558,
-                        "def": 845,
-                        "hp": 7377
-                  },
-                  {
-                        "att": 2565,
-                        "def": 848,
-                        "hp": 7397
-                  },
-                  {
-                        "att": 2573,
-                        "def": 850,
-                        "hp": 7418
-                  },
-                  {
-                        "att": 2580,
-                        "def": 852,
-                        "hp": 7438
-                  },
-                  {
-                        "att": 2587,
-                        "def": 855,
-                        "hp": 7458
-                  },
-                  {
-                        "att": 2595,
-                        "def": 857,
-                        "hp": 7478
-                  },
-                  {
-                        "att": 2602,
-                        "def": 859,
-                        "hp": 7499
-                  },
-                  {
-                        "att": 2610,
-                        "def": 862,
-                        "hp": 7519
-                  },
-                  {
-                        "att": 2617,
-                        "def": 864,
-                        "hp": 7539
-                  },
-                  {
-                        "att": 2624,
-                        "def": 866,
-                        "hp": 7560
-                  },
-                  {
-                        "att": 2632,
-                        "def": 869,
-                        "hp": 7580
-                  },
-                  {
-                        "att": 2639,
-                        "def": 871,
-                        "hp": 7600
-                  },
-                  {
-                        "att": 2647,
-                        "def": 873,
-                        "hp": 7620
-                  },
-                  {
-                        "att": 2654,
-                        "def": 876,
-                        "hp": 7641
-                  },
-                  {
-                        "att": 2661,
-                        "def": 878,
-                        "hp": 7661
-                  },
-                  {
-                        "att": 2669,
-                        "def": 880,
-                        "hp": 7681
-                  },
-                  {
-                        "att": 2676,
-                        "def": 883,
-                        "hp": 7702
-                  },
-                  {
-                        "att": 2684,
-                        "def": 885,
-                        "hp": 7722
-                  },
-                  {
-                        "att": 2691,
-                        "def": 887,
-                        "hp": 7742
-                  },
-                  {
-                        "att": 2698,
-                        "def": 890,
-                        "hp": 7762
-                  },
-                  {
-                        "att": 2706,
-                        "def": 892,
-                        "hp": 7783
-                  },
-                  {
-                        "att": 2713,
-                        "def": 894,
-                        "hp": 7803
-                  },
-                  {
-                        "att": 2721,
-                        "def": 897,
-                        "hp": 7823
-                  },
-                  {
-                        "att": 2728,
-                        "def": 899,
-                        "hp": 7844
-                  },
-                  {
-                        "att": 2735,
-                        "def": 901,
-                        "hp": 7864
-                  },
-                  {
-                        "att": 2743,
-                        "def": 904,
-                        "hp": 7884
-                  },
-                  {
-                        "att": 2750,
-                        "def": 906,
-                        "hp": 7904
-                  },
-                  {
-                        "att": 2758,
-                        "def": 908,
-                        "hp": 7925
-                  },
-                  {
-                        "att": 2765,
-                        "def": 911,
-                        "hp": 7945
-                  },
-                  {
-                        "att": 2772,
-                        "def": 913,
-                        "hp": 7965
-                  },
-                  {
-                        "att": 2780,
-                        "def": 915,
-                        "hp": 7986
-                  },
-                  {
-                        "att": 2787,
-                        "def": 918,
-                        "hp": 8006
-                  },
-                  {
-                        "att": 2795,
-                        "def": 920,
-                        "hp": 8026
-                  },
-                  {
-                        "att": 2802,
-                        "def": 922,
-                        "hp": 8046
-                  },
-                  {
-                        "att": 2809,
-                        "def": 925,
-                        "hp": 8067
-                  },
-                  {
-                        "att": 2817,
-                        "def": 927,
-                        "hp": 8087
-                  },
-                  {
-                        "att": 2824,
-                        "def": 929,
-                        "hp": 8107
-                  },
-                  {
-                        "att": 2832,
-                        "def": 932,
-                        "hp": 8128
-                  },
-                  {
-                        "att": 2839,
-                        "def": 934,
-                        "hp": 8148
-                  },
-                  {
-                        "att": 2846,
-                        "def": 936,
-                        "hp": 8168
-                  },
-                  {
-                        "att": 2854,
-                        "def": 939,
-                        "hp": 8188
-                  },
-                  {
-                        "att": 2861,
-                        "def": 941,
-                        "hp": 8209
-                  },
-                  {
-                        "att": 2868,
-                        "def": 943,
-                        "hp": 8229
-                  },
-                  {
-                        "att": 2876,
-                        "def": 946,
-                        "hp": 8249
-                  },
-                  {
-                        "att": 2883,
-                        "def": 948,
-                        "hp": 8270
-                  },
-                  {
-                        "att": 2891,
-                        "def": 950,
-                        "hp": 8290
-                  },
-                  {
-                        "att": 2898,
-                        "def": 953,
-                        "hp": 8310
-                  },
-                  {
-                        "att": 2905,
-                        "def": 955,
-                        "hp": 8330
-                  },
-                  {
-                        "att": 2913,
-                        "def": 957,
-                        "hp": 8351
-                  },
-                  {
-                        "att": 2920,
-                        "def": 960,
-                        "hp": 8371
-                  },
-                  {
-                        "att": 2928,
-                        "def": 962,
-                        "hp": 8391
-                  },
-                  {
-                        "att": 2935,
-                        "def": 964,
-                        "hp": 8412
-                  },
-                  {
-                        "att": 2942,
-                        "def": 967,
-                        "hp": 8432
-                  },
-                  {
-                        "att": 2950,
-                        "def": 969,
-                        "hp": 8452
-                  },
-                  {
-                        "att": 2957,
-                        "def": 971,
-                        "hp": 8472
-                  },
-                  {
-                        "att": 2965,
-                        "def": 974,
-                        "hp": 8493
-                  },
-                  {
-                        "att": 2972,
-                        "def": 976,
-                        "hp": 8513
-                  },
-                  {
-                        "att": 2979,
-                        "def": 978,
-                        "hp": 8533
-                  },
-                  {
-                        "att": 2987,
-                        "def": 981,
-                        "hp": 8554
-                  },
-                  {
-                        "att": 2994,
-                        "def": 983,
-                        "hp": 8574
-                  },
-                  {
-                        "att": 3002,
-                        "def": 985,
-                        "hp": 8594
-                  },
-                  {
-                        "att": 3009,
-                        "def": 988,
-                        "hp": 8614
-                  },
-                  {
-                        "att": 3016,
-                        "def": 990,
-                        "hp": 8635
-                  },
-                  {
-                        "att": 3024,
-                        "def": 992,
-                        "hp": 8655
-                  },
-                  {
-                        "att": 3031,
-                        "def": 995,
-                        "hp": 8675
-                  },
-                  {
-                        "att": 3039,
-                        "def": 997,
-                        "hp": 8696
-                  },
-                  {
-                        "att": 3046,
-                        "def": 999,
-                        "hp": 8716
-                  },
-                  {
-                        "att": 3053,
-                        "def": 1002,
-                        "hp": 8736
-                  },
-                  {
-                        "att": 3061,
-                        "def": 1004,
-                        "hp": 8756
-                  },
-                  {
-                        "att": 3068,
-                        "def": 1006,
-                        "hp": 8777
-                  },
-                  {
-                        "att": 3076,
-                        "def": 1008,
-                        "hp": 8797
-                  },
-                  {
-                        "att": 3083,
-                        "def": 1011,
-                        "hp": 8817
-                  },
-                  {
-                        "att": 3090,
-                        "def": 1013,
-                        "hp": 8838
-                  },
-                  {
-                        "att": 3098,
-                        "def": 1015,
-                        "hp": 8858
-                  },
-                  {
-                        "att": 3105,
-                        "def": 1018,
-                        "hp": 8878
-                  },
-                  {
-                        "att": 3113,
-                        "def": 1020,
-                        "hp": 8898
-                  },
-                  {
-                        "att": 3120,
-                        "def": 1022,
-                        "hp": 8919
-                  }
-            ]
-      }
+ "name": "Constantine",
+ "faction": "Independent",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Sniper",
+ "skill": {
+  "name": "Thunderstrike",
+  "cd": "2 Turn",
+  "description": [
+   "Deals 300% damage to 1 enemy within 3 surrounding clusters.",
+   "Deals 300% damage to 1 enemy out of all enemies on the screen.",
+   "Deals 300% damage to 1 enemy out of all enemies on the screen."
+  ]
+ },
+ "equip": {
+  "name": "Thunderstorm Shotgun",
+  "passive": "Flintlock Will",
+  "description": [
+   [
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
+   ],
+   [
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 2% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 3% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 4% of the damage to ATK. Only valid for current round.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
+   ],
+   [
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 2% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 2% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 3% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 4% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%.",
+    "When a normal attack or an Active Skill deals damage (whichever is more), convert 5% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%."
+   ]
+  ],
+  "introduction": "Constantine picked up this gun in ruin during his journey. Its original owner fought Eclipsites to the death. Constantine admired the determination and made the firearm his weapon."
+ },
+ "chain": {
+  "name": "Decisive Duel",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
+    },
+    {
+     "cost": "6",
+     "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
+    },
+    {
+     "cost": "6",
+     "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 210% damage to the nearest enemy within 2 surrounding clusters."
+    },
+    {
+     "cost": "6",
+     "description": "Deals 210% damage to the nearest enemy within 3 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Flare Silt",
+    "Water Essence",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round."
+  },
+  {
+   "material": [
+    "Water Potion II",
+    "Water Crystal Shard",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 300% damage to 1 enemy within 3 surrounding clusters.",
+   "after": "Deals 300% damage to 1 enemy out of all enemies on the screen."
+  },
+  {
+   "material": [
+    "Water Crystal Cluster",
+    "Water Flare Rock",
+    "Survivalpedia",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When a normal attack or an Active Skill deals damage (whichever is more), converts 5% of the damage to ATK. Only valid for current round.",
+   "after": "When a normal attack or an Active Skill deals damage (whichever is more), convert 5% of the damage to ATK. Only valid for current round. When there is only 1 enemy on the battlefield, increases the ATK of Water Aurorians by 5%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 593,
+    "def": 222,
+    "hp": 2020
+   },
+   {
+    "att": 605,
+    "def": 226,
+    "hp": 2053
+   },
+   {
+    "att": 617,
+    "def": 230,
+    "hp": 2085
+   },
+   {
+    "att": 629,
+    "def": 233,
+    "hp": 2117
+   },
+   {
+    "att": 641,
+    "def": 237,
+    "hp": 2150
+   },
+   {
+    "att": 652,
+    "def": 241,
+    "hp": 2182
+   },
+   {
+    "att": 664,
+    "def": 245,
+    "hp": 2215
+   },
+   {
+    "att": 676,
+    "def": 248,
+    "hp": 2247
+   },
+   {
+    "att": 688,
+    "def": 252,
+    "hp": 2280
+   },
+   {
+    "att": 700,
+    "def": 256,
+    "hp": 2312
+   },
+   {
+    "att": 712,
+    "def": 259,
+    "hp": 2345
+   },
+   {
+    "att": 723,
+    "def": 263,
+    "hp": 2377
+   },
+   {
+    "att": 735,
+    "def": 267,
+    "hp": 2410
+   },
+   {
+    "att": 747,
+    "def": 271,
+    "hp": 2442
+   },
+   {
+    "att": 759,
+    "def": 274,
+    "hp": 2474
+   },
+   {
+    "att": 771,
+    "def": 278,
+    "hp": 2507
+   },
+   {
+    "att": 783,
+    "def": 282,
+    "hp": 2539
+   },
+   {
+    "att": 795,
+    "def": 285,
+    "hp": 2572
+   },
+   {
+    "att": 806,
+    "def": 289,
+    "hp": 2604
+   },
+   {
+    "att": 818,
+    "def": 293,
+    "hp": 2637
+   },
+   {
+    "att": 830,
+    "def": 297,
+    "hp": 2669
+   },
+   {
+    "att": 842,
+    "def": 300,
+    "hp": 2702
+   },
+   {
+    "att": 854,
+    "def": 304,
+    "hp": 2734
+   },
+   {
+    "att": 866,
+    "def": 308,
+    "hp": 2767
+   },
+   {
+    "att": 877,
+    "def": 312,
+    "hp": 2799
+   },
+   {
+    "att": 889,
+    "def": 315,
+    "hp": 2832
+   },
+   {
+    "att": 901,
+    "def": 319,
+    "hp": 2864
+   },
+   {
+    "att": 913,
+    "def": 323,
+    "hp": 2896
+   },
+   {
+    "att": 925,
+    "def": 326,
+    "hp": 2929
+   },
+   {
+    "att": 937,
+    "def": 330,
+    "hp": 2961
+   },
+   {
+    "att": 1041,
+    "def": 365,
+    "hp": 3242
+   },
+   {
+    "att": 1056,
+    "def": 370,
+    "hp": 3283
+   },
+   {
+    "att": 1071,
+    "def": 374,
+    "hp": 3323
+   },
+   {
+    "att": 1086,
+    "def": 379,
+    "hp": 3364
+   },
+   {
+    "att": 1101,
+    "def": 383,
+    "hp": 3404
+   },
+   {
+    "att": 1115,
+    "def": 388,
+    "hp": 3445
+   },
+   {
+    "att": 1130,
+    "def": 393,
+    "hp": 3485
+   },
+   {
+    "att": 1145,
+    "def": 397,
+    "hp": 3526
+   },
+   {
+    "att": 1160,
+    "def": 402,
+    "hp": 3567
+   },
+   {
+    "att": 1175,
+    "def": 407,
+    "hp": 3607
+   },
+   {
+    "att": 1189,
+    "def": 411,
+    "hp": 3648
+   },
+   {
+    "att": 1204,
+    "def": 416,
+    "hp": 3688
+   },
+   {
+    "att": 1219,
+    "def": 421,
+    "hp": 3729
+   },
+   {
+    "att": 1234,
+    "def": 425,
+    "hp": 3769
+   },
+   {
+    "att": 1248,
+    "def": 430,
+    "hp": 3810
+   },
+   {
+    "att": 1263,
+    "def": 435,
+    "hp": 3851
+   },
+   {
+    "att": 1278,
+    "def": 439,
+    "hp": 3891
+   },
+   {
+    "att": 1293,
+    "def": 444,
+    "hp": 3932
+   },
+   {
+    "att": 1308,
+    "def": 449,
+    "hp": 3972
+   },
+   {
+    "att": 1322,
+    "def": 453,
+    "hp": 4013
+   },
+   {
+    "att": 1337,
+    "def": 458,
+    "hp": 4053
+   },
+   {
+    "att": 1352,
+    "def": 463,
+    "hp": 4094
+   },
+   {
+    "att": 1367,
+    "def": 467,
+    "hp": 4135
+   },
+   {
+    "att": 1382,
+    "def": 472,
+    "hp": 4175
+   },
+   {
+    "att": 1396,
+    "def": 477,
+    "hp": 4216
+   },
+   {
+    "att": 1411,
+    "def": 481,
+    "hp": 4256
+   },
+   {
+    "att": 1426,
+    "def": 486,
+    "hp": 4297
+   },
+   {
+    "att": 1441,
+    "def": 491,
+    "hp": 4337
+   },
+   {
+    "att": 1456,
+    "def": 495,
+    "hp": 4378
+   },
+   {
+    "att": 1470,
+    "def": 500,
+    "hp": 4419
+   },
+   {
+    "att": 1485,
+    "def": 505,
+    "hp": 4459
+   },
+   {
+    "att": 1500,
+    "def": 509,
+    "hp": 4500
+   },
+   {
+    "att": 1515,
+    "def": 514,
+    "hp": 4540
+   },
+   {
+    "att": 1530,
+    "def": 519,
+    "hp": 4581
+   },
+   {
+    "att": 1544,
+    "def": 523,
+    "hp": 4621
+   },
+   {
+    "att": 1559,
+    "def": 528,
+    "hp": 4662
+   },
+   {
+    "att": 1574,
+    "def": 533,
+    "hp": 4703
+   },
+   {
+    "att": 1589,
+    "def": 537,
+    "hp": 4743
+   },
+   {
+    "att": 1604,
+    "def": 542,
+    "hp": 4784
+   },
+   {
+    "att": 1618,
+    "def": 547,
+    "hp": 4824
+   },
+   {
+    "att": 1769,
+    "def": 600,
+    "hp": 5235
+   },
+   {
+    "att": 1781,
+    "def": 603,
+    "hp": 5265
+   },
+   {
+    "att": 1792,
+    "def": 607,
+    "hp": 5296
+   },
+   {
+    "att": 1803,
+    "def": 610,
+    "hp": 5326
+   },
+   {
+    "att": 1814,
+    "def": 614,
+    "hp": 5356
+   },
+   {
+    "att": 1825,
+    "def": 617,
+    "hp": 5387
+   },
+   {
+    "att": 1836,
+    "def": 621,
+    "hp": 5417
+   },
+   {
+    "att": 1847,
+    "def": 624,
+    "hp": 5448
+   },
+   {
+    "att": 1858,
+    "def": 628,
+    "hp": 5478
+   },
+   {
+    "att": 1869,
+    "def": 631,
+    "hp": 5509
+   },
+   {
+    "att": 1880,
+    "def": 635,
+    "hp": 5539
+   },
+   {
+    "att": 1892,
+    "def": 638,
+    "hp": 5569
+   },
+   {
+    "att": 1903,
+    "def": 642,
+    "hp": 5600
+   },
+   {
+    "att": 1914,
+    "def": 645,
+    "hp": 5630
+   },
+   {
+    "att": 1925,
+    "def": 649,
+    "hp": 5661
+   },
+   {
+    "att": 1936,
+    "def": 652,
+    "hp": 5691
+   },
+   {
+    "att": 1947,
+    "def": 656,
+    "hp": 5722
+   },
+   {
+    "att": 1958,
+    "def": 659,
+    "hp": 5752
+   },
+   {
+    "att": 1969,
+    "def": 663,
+    "hp": 5782
+   },
+   {
+    "att": 1980,
+    "def": 666,
+    "hp": 5813
+   },
+   {
+    "att": 1991,
+    "def": 670,
+    "hp": 5843
+   },
+   {
+    "att": 2002,
+    "def": 673,
+    "hp": 5874
+   },
+   {
+    "att": 2014,
+    "def": 677,
+    "hp": 5904
+   },
+   {
+    "att": 2025,
+    "def": 680,
+    "hp": 5935
+   },
+   {
+    "att": 2036,
+    "def": 684,
+    "hp": 5965
+   },
+   {
+    "att": 2047,
+    "def": 687,
+    "hp": 5995
+   },
+   {
+    "att": 2058,
+    "def": 691,
+    "hp": 6026
+   },
+   {
+    "att": 2069,
+    "def": 694,
+    "hp": 6056
+   },
+   {
+    "att": 2080,
+    "def": 698,
+    "hp": 6087
+   },
+   {
+    "att": 2091,
+    "def": 701,
+    "hp": 6117
+   },
+   {
+    "att": 2102,
+    "def": 705,
+    "hp": 6148
+   },
+   {
+    "att": 2113,
+    "def": 708,
+    "hp": 6178
+   },
+   {
+    "att": 2125,
+    "def": 712,
+    "hp": 6208
+   },
+   {
+    "att": 2136,
+    "def": 715,
+    "hp": 6239
+   },
+   {
+    "att": 2147,
+    "def": 719,
+    "hp": 6269
+   },
+   {
+    "att": 2158,
+    "def": 722,
+    "hp": 6300
+   },
+   {
+    "att": 2169,
+    "def": 726,
+    "hp": 6330
+   },
+   {
+    "att": 2180,
+    "def": 729,
+    "hp": 6361
+   },
+   {
+    "att": 2191,
+    "def": 733,
+    "hp": 6391
+   },
+   {
+    "att": 2202,
+    "def": 736,
+    "hp": 6421
+   },
+   {
+    "att": 2213,
+    "def": 740,
+    "hp": 6452
+   },
+   {
+    "att": 2224,
+    "def": 743,
+    "hp": 6482
+   },
+   {
+    "att": 2236,
+    "def": 747,
+    "hp": 6513
+   },
+   {
+    "att": 2247,
+    "def": 750,
+    "hp": 6543
+   },
+   {
+    "att": 2258,
+    "def": 754,
+    "hp": 6574
+   },
+   {
+    "att": 2269,
+    "def": 757,
+    "hp": 6604
+   },
+   {
+    "att": 2280,
+    "def": 761,
+    "hp": 6634
+   },
+   {
+    "att": 2291,
+    "def": 764,
+    "hp": 6665
+   },
+   {
+    "att": 2302,
+    "def": 768,
+    "hp": 6695
+   },
+   {
+    "att": 2313,
+    "def": 771,
+    "hp": 6726
+   },
+   {
+    "att": 2536,
+    "def": 838,
+    "hp": 7316
+   },
+   {
+    "att": 2543,
+    "def": 841,
+    "hp": 7336
+   },
+   {
+    "att": 2550,
+    "def": 843,
+    "hp": 7357
+   },
+   {
+    "att": 2558,
+    "def": 845,
+    "hp": 7377
+   },
+   {
+    "att": 2565,
+    "def": 848,
+    "hp": 7397
+   },
+   {
+    "att": 2573,
+    "def": 850,
+    "hp": 7418
+   },
+   {
+    "att": 2580,
+    "def": 852,
+    "hp": 7438
+   },
+   {
+    "att": 2587,
+    "def": 855,
+    "hp": 7458
+   },
+   {
+    "att": 2595,
+    "def": 857,
+    "hp": 7478
+   },
+   {
+    "att": 2602,
+    "def": 859,
+    "hp": 7499
+   },
+   {
+    "att": 2610,
+    "def": 862,
+    "hp": 7519
+   },
+   {
+    "att": 2617,
+    "def": 864,
+    "hp": 7539
+   },
+   {
+    "att": 2624,
+    "def": 866,
+    "hp": 7560
+   },
+   {
+    "att": 2632,
+    "def": 869,
+    "hp": 7580
+   },
+   {
+    "att": 2639,
+    "def": 871,
+    "hp": 7600
+   },
+   {
+    "att": 2647,
+    "def": 873,
+    "hp": 7620
+   },
+   {
+    "att": 2654,
+    "def": 876,
+    "hp": 7641
+   },
+   {
+    "att": 2661,
+    "def": 878,
+    "hp": 7661
+   },
+   {
+    "att": 2669,
+    "def": 880,
+    "hp": 7681
+   },
+   {
+    "att": 2676,
+    "def": 883,
+    "hp": 7702
+   },
+   {
+    "att": 2684,
+    "def": 885,
+    "hp": 7722
+   },
+   {
+    "att": 2691,
+    "def": 887,
+    "hp": 7742
+   },
+   {
+    "att": 2698,
+    "def": 890,
+    "hp": 7762
+   },
+   {
+    "att": 2706,
+    "def": 892,
+    "hp": 7783
+   },
+   {
+    "att": 2713,
+    "def": 894,
+    "hp": 7803
+   },
+   {
+    "att": 2721,
+    "def": 897,
+    "hp": 7823
+   },
+   {
+    "att": 2728,
+    "def": 899,
+    "hp": 7844
+   },
+   {
+    "att": 2735,
+    "def": 901,
+    "hp": 7864
+   },
+   {
+    "att": 2743,
+    "def": 904,
+    "hp": 7884
+   },
+   {
+    "att": 2750,
+    "def": 906,
+    "hp": 7904
+   },
+   {
+    "att": 2758,
+    "def": 908,
+    "hp": 7925
+   },
+   {
+    "att": 2765,
+    "def": 911,
+    "hp": 7945
+   },
+   {
+    "att": 2772,
+    "def": 913,
+    "hp": 7965
+   },
+   {
+    "att": 2780,
+    "def": 915,
+    "hp": 7986
+   },
+   {
+    "att": 2787,
+    "def": 918,
+    "hp": 8006
+   },
+   {
+    "att": 2795,
+    "def": 920,
+    "hp": 8026
+   },
+   {
+    "att": 2802,
+    "def": 922,
+    "hp": 8046
+   },
+   {
+    "att": 2809,
+    "def": 925,
+    "hp": 8067
+   },
+   {
+    "att": 2817,
+    "def": 927,
+    "hp": 8087
+   },
+   {
+    "att": 2824,
+    "def": 929,
+    "hp": 8107
+   },
+   {
+    "att": 2832,
+    "def": 932,
+    "hp": 8128
+   },
+   {
+    "att": 2839,
+    "def": 934,
+    "hp": 8148
+   },
+   {
+    "att": 2846,
+    "def": 936,
+    "hp": 8168
+   },
+   {
+    "att": 2854,
+    "def": 939,
+    "hp": 8188
+   },
+   {
+    "att": 2861,
+    "def": 941,
+    "hp": 8209
+   },
+   {
+    "att": 2868,
+    "def": 943,
+    "hp": 8229
+   },
+   {
+    "att": 2876,
+    "def": 946,
+    "hp": 8249
+   },
+   {
+    "att": 2883,
+    "def": 948,
+    "hp": 8270
+   },
+   {
+    "att": 2891,
+    "def": 950,
+    "hp": 8290
+   },
+   {
+    "att": 2898,
+    "def": 953,
+    "hp": 8310
+   },
+   {
+    "att": 2905,
+    "def": 955,
+    "hp": 8330
+   },
+   {
+    "att": 2913,
+    "def": 957,
+    "hp": 8351
+   },
+   {
+    "att": 2920,
+    "def": 960,
+    "hp": 8371
+   },
+   {
+    "att": 2928,
+    "def": 962,
+    "hp": 8391
+   },
+   {
+    "att": 2935,
+    "def": 964,
+    "hp": 8412
+   },
+   {
+    "att": 2942,
+    "def": 967,
+    "hp": 8432
+   },
+   {
+    "att": 2950,
+    "def": 969,
+    "hp": 8452
+   },
+   {
+    "att": 2957,
+    "def": 971,
+    "hp": 8472
+   },
+   {
+    "att": 2965,
+    "def": 974,
+    "hp": 8493
+   },
+   {
+    "att": 2972,
+    "def": 976,
+    "hp": 8513
+   },
+   {
+    "att": 2979,
+    "def": 978,
+    "hp": 8533
+   },
+   {
+    "att": 2987,
+    "def": 981,
+    "hp": 8554
+   },
+   {
+    "att": 2994,
+    "def": 983,
+    "hp": 8574
+   },
+   {
+    "att": 3002,
+    "def": 985,
+    "hp": 8594
+   },
+   {
+    "att": 3009,
+    "def": 988,
+    "hp": 8614
+   },
+   {
+    "att": 3016,
+    "def": 990,
+    "hp": 8635
+   },
+   {
+    "att": 3024,
+    "def": 992,
+    "hp": 8655
+   },
+   {
+    "att": 3031,
+    "def": 995,
+    "hp": 8675
+   },
+   {
+    "att": 3039,
+    "def": 997,
+    "hp": 8696
+   },
+   {
+    "att": 3046,
+    "def": 999,
+    "hp": 8716
+   },
+   {
+    "att": 3053,
+    "def": 1002,
+    "hp": 8736
+   },
+   {
+    "att": 3061,
+    "def": 1004,
+    "hp": 8756
+   },
+   {
+    "att": 3068,
+    "def": 1006,
+    "hp": 8777
+   },
+   {
+    "att": 3076,
+    "def": 1008,
+    "hp": 8797
+   },
+   {
+    "att": 3083,
+    "def": 1011,
+    "hp": 8817
+   },
+   {
+    "att": 3090,
+    "def": 1013,
+    "hp": 8838
+   },
+   {
+    "att": 3098,
+    "def": 1015,
+    "hp": 8858
+   },
+   {
+    "att": 3105,
+    "def": 1018,
+    "hp": 8878
+   },
+   {
+    "att": 3113,
+    "def": 1020,
+    "hp": 8898
+   },
+   {
+    "att": 3120,
+    "def": 1022,
+    "hp": 8919
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Nikinis",
+     "Constantine"
+    ],
+    "chat": [
+     {
+      "character": "Nikinis:",
+      "text": "I often lose myself in the mirror..."
+     },
+     {
+      "character": "Constantine:",
+      "text": "Hey, is that Northland?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "And if I'm correct, that's Lake Mirror?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Ah, it's the Eclipsite hunter."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Glad to meet you. Have you been to Lake Mirror?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "Which Northlander doesn't know Lake Mirror?"
+     },
+     {
+      "character": "Constantine:",
+      "text": "My parents took me there when I was young."
+     },
+     {
+      "character": "Constantine:",
+      "text": "That was a long time ago, but I miss it a lot."
+     },
+     {
+      "character": "Constantine:",
+      "text": "I see the lake in your mirror. You must have a special connection to it."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "That's where my older sister lives."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Where I never wanted to leave."
+     },
+     {
+      "character": "Constantine:",
+      "text": "I see..."
+     },
+     {
+      "character": "Constantine:",
+      "text": "Yes, the lake always holds special meanings to Northlanders."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "As soon as he got to the Colossus, Mr. Constantine immediately took detailed notes of everyone. I don't know why or what for, but according to him, it was instrumental for fulfilling his \"objective.\" %s also revealed that he's always writing things down in a notebook. %s told me before that he once accidentally looked at his notebook, and it seemed to be some strange recipe, with the ingredient being... Eclipsites?! I saw how shocked %s was and couldn't help but wonder what exactly is in that notebook? \u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "As you can see, kid, I'm a well-traveled chronicler. You probably would not have guessed that I was born in Northland. Although I have not returned in a very long time, it is without a doubt still the beautiful place that I remembered. I didn't want to leave Northland, but I wanted to know whether the world outside the snow would bring unexpected entries into my notebook. It was then that I began to travel all over. Does Northland pique your interest? If you wish, I can go back with you. But it's very cold there, so you'll need to bundle up, kid."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "My father was an animal conservationist in Northland. I often followed him to rescue or treat animals during my childhood. I was never forced to help, but because I was born fragile, he thought the exercise would improve my health. I was rather curious about his work, so I never protested. In the beginning, he just wanted me to help jot down simple information, but over time I started to enjoy the work. Whenever he rescued an animal, I would log the dates, symptoms, recovery, death, etc. until I was no longer satisfied with only that and started recording information about the species, height, shape, voice, lifespan, and so on. Given enough time, I ran out of creatures to record in Northland. It's one of the reasons I left my home, but is a tale for another time."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "After the war, I lost my parents and home and was forced to flee from the snowy landscape I called home. I had nowhere to go but the desert. The Rediesel Desert was completely different from the cold, damp Northland I was accustomed to, so the arid heat was difficult to adjust to. Luckily, my father's training helped and I gradually acclimated, thanks to the stamina I've developed over the years. Even then, I still suffered much hardship. Often without food, water, or weapons, I had to evade wild predators as well as Eclipsites. But do you know what I found? A hunting rifle with its former owner's blood still on it... I showed my respect to the dead warrior and buried him, then cleaned the rifle, which has since then become mine. I have a hunting rifle, a notebook, and a healthy body. More than enough for a wandering chronicler like myself."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Both chronicling and hunting have become a part of my life. In fact, I also collect. I hope to collect different notebooks and record even more things. But as a wandering Eclipsite hunter, I'm a nomad without a home, so collecting is not very practical. I even worry about the notebook I have now because it will be inconvenient to carry with too many entries. I have seriously considered a suggestion from Louise and find a place for myself, set up a big shelf for all the notebooks I'll collect. That is my dream home, but I'm not yet tired of the wandering life at the moment. I want it to be meaningful when I decide to finally settle down. But I think that day will come soon enough. All I have to do is wait."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "I find Northland safer than other locales, but you'll need to train yourself to withstand the bitter cold.",
+  "Illumina has no shortage of true soldiers... I would join them if the opportunity ever arose.",
+  "For the North.",
+  "What really makes people shudder is how similar some Eclipsites are to Aurorians...",
+  "Louise enjoys recording too. I'm glad I'm not the only one.",
+  "The Queen defends Northland with all her might. It is my honor to have been born there.",
+  "If only I had another notebook, I'd write a recipe book on how to properly cook Eclipsites...",
+  "Don't waste even a bite, or you'll regret it when you're truly hungry.",
+  "No Eclipsites in the Colossus, right? Awesome! Not that it matters with me around.",
+  "A hunter's work is not worth discussing. I just write about it in this notebook, see?",
+  "Need help? Sure, you did help me with the notes before.",
+  "An overconfident hunter is no different than his prey...",
+  "Victory! Bring out the drinks!",
+  "Freeze!",
+  "Outta the way!",
+  "Stay calm, stay focused\u2014",
+  "Happy New Year! I caught something just for you.",
+  "Once your mind is made up, do not look back.",
+  "A great hunter must be patient.",
+  "\"Those who fight against monsters must be vigilant lest they become monsters.\"",
+  "Make your decision determinedly, even if there's no hope at the finishing line.",
+  "It's a lovely day. All that's missing is a nice snowstorm... Hmm? Is that weird?",
+  "A hunter's only friend is endurance!",
+  "Alchemy Stars.",
+  "Just listen closely, and be patient. After that, you can just kill off the Eclipsites, solo. Hmm? What do I mean by solo? It means to fight them all by yourself, of course! It's very easy.",
+  "The trick to use a rifle is to aim at their heads. If you can't land a hit, then get closer. If that still doesn't work... Try jamming your gun in their mouth.",
+  "There's no point being concern too much. Care less, lest it burdens you to death. So... Hey kid, what the heck are you doing out here?! Don't you know there are Eclipsites crawling all over the place? Go home!",
+  "This hunting rifle belonged to a true hero, whose last breath was spent fighting Eclipsites. The dried blood on it is proof of his valor, and I'll never forget it.",
+  "I love blizzards. When the swirling snow covers the sun and the sky, I actually feel much safer.",
+  "Good hunters are always alert and keep their eyes sharp. In blinding snowstorms or the pitch-black night, they never lose their way.",
+  "Height, weight, time of death... I record every detail, from the damaged tissues down to the smallest wound on the corpse. By doing so, we don't just learn about death... we also learn about life.",
+  "You should try meditating in a blizzard when you're stressed out. It helps to clear the mind when you lose yourself in the wind and snow, much more helpful than sleeping.",
+  "This is only a brief stop in my wandering journey. It feels odd, to be honest... Though my body is rusting, my heart melts like ice. It's all thanks to you, kid.",
+  "I make Eclipsite sketches from time to time, to make the log interesting.",
+  "Curious about my notebook, eh? I found it in the ruins, too. Still in good shape huh...",
+  "Hunting dogs are scarier than wolves, for sure... But if you're a bear, there's not much to be afraid of.",
+  "Oh? High-spirited today, aren't we?",
+  "Good morning. A day's plan starts with the dawn.",
+  "Good evening. Remember to have a hearty dinner.",
+  "Working this late, hmm? Are you on the lookout for a rare night-time Eclipsite?",
+  "To be lost is a wanderer's fate, with solitude as their only companion. Would you like to read my notebook? I've written down all that I've seen on its pages. Sit, and listen to my tales...",
+  "A gift? You are too kind...",
+  "Thank you. I'll be sure to return the favor.",
+  "Oh, I like this one!",
+  "It's what I've always wanted...",
+  "One shot, one kill!",
+  "You and me, bring it on!",
+  "Locked and loaded!",
+  "Although I am strong now, I used to be quite small and frail in my youth. Even so, I would follow my father every day walking on the snow-covered plain, which is how I came to enjoy recording my travels.",
+  "Just as Northland has its blizzards, the Rediesel Desert has its sandstorms. Such is life... And what do I have? A hunting rifle, a notebook, and a set of tattered old clothes.",
+  "Louise is right, a wanderer's journey will one day come to an end exactly where it should end. I always keep that in my heart fondly... But for now, I still enjoy my life as a wanderer.",
+  "Follow me or you might get hurt!"
+ ],
+ "skins": [],
+ "description": "A solitary Eclipsite hunter wandering Astra with a clear mind. He carries a hunting rifle and a notebook wherever he goes, ready to both hunt down Eclipsites and note the exploits in writing.",
+ "realName": "Constantine",
+ "nickname": "Ghost Hunter",
+ "gender": "Male",
+ "height": "5'11\"",
+ "birthday": "July 8",
+ "birthplace": "Northland",
+ "style": "Thunderstorm Shotgun"
 }

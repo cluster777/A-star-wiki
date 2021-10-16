@@ -1,0 +1,960 @@
+[
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Regarding the Cooperation Invitation, Illumina has prepared specific instructions."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "For Illumina and I, to work together with all of you is a great opportunity."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Please feel free to contact me if you need any assistance."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "I will assist you to the best of my abilities."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Me! Please help me!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's probably nothing serious, but can I trouble you for a bit?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Me! Please help me!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "There's no rush."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I'm free now. Can you come to the lounge to chat face-to-face?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "It's probably nothing serious, but can I trouble you for a bit?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "Please speak before passing judgments."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I'm free now. Can you come to the lounge to chat face-to-face?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "About that note, you can ignore the contents of it until I confirm the other party's intentions before proceeding to reply."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "I thought back to your account and found something quite unpleasant to me."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Did I say something that offended you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm... Could you tell me what is it that upset you?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Did I say something that offended you?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "Please don't misunderstand. I wasn't offended at all. On the contrary, I should be the one apologizing to you for the rudeness of my colleague."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You once said that you found traces of dirt on your bed sheets..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I figure it's because Wrath stepped on your bed."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Hmm... Could you tell me what is it that upset you?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "What upset me was Wrath's behavior. I shall get her to apologize to you."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You once said that you found traces of dirt on your bed sheets..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I figure it's because Wrath stepped on your bed."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Navigator, have you gotten used to the training these few days?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Oh... I guess I'm okay."
+   },
+   {
+    "name": "Navigator:",
+    "content": "A little. Can you take it easier on me next time?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Oh... I guess I'm okay."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "You sound a little reluctant. Are you feeling tired?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "A little."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You should exercise more. Your body will waste away if you sit there doing nothing on the Colossus."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I suppose it's necessary to help you relieve your pain for this beginners' training. I have some ointments on the Bridge."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Go and apply some if you can't take it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh... Thank you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "A little. Can you take it easier on me next time?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "My training plan must be followed to the letter. Don't even think of slacking off."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "But you do sound a little tired. Are you still tired after having rested for a bit?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "A little."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You should exercise more. Your body will waste away if you sit there doing nothing on the Colossus."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I suppose it's necessary to help you relieve your pain for this beginners' training. I have some ointments on the Bridge."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Go and apply some if you can't take it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh... Thank you."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Hello, my name is Hiiro. It is a pleasure to meet you."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Please accept my apologies if I interrupted you."
+   },
+   {
+    "name": "Navigator:",
+    "content": "O-Oh no, there's no trouble at all, Miss Hiiro. The pleasure is mine!"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "I am honored. Pardon me, but..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Is there a meditation chamber on this Colossus?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "\"Meditation\"...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Erm, if you're looking for a quiet place, there's a spare room you could use?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "As for a \"meditation chamber,\" I don't know exactly what you mean..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Hmm... Understood."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "If there is no meditation chamber, then I must focus even harder on my training."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Y-You're very diligent, Miss Hiiro..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "From this day forward, I shall continue on my path to enlightenment aboard this frugal Colossus."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Um... Glad to be of service...?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "I can sense my kendo has improved significantly."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "But in my diligence, have I grown hasty? I cannot afford to lose my way..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "If my progress along the path of righteousness is not steady, both my mind and my blade will lose their edge."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Are you doubting yourself, Miss Hiiro?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That isn't like you, Hiiro."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Are you doubting yourself, Miss Hiiro?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "Quite so."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's a surprise..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Miss Hiiro... You're always so disciplined and your resolve has never wavered once."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But you expect so much from yourself... I don't think I've ever seen you NOT training."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You have a point."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I can assure you, there is no need to be so hard on yourself."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Even the smallest improvements are a testament to your rigorous training and conviction. I think you're still on the right path!"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I see."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "In other words, my doubts about my progress are an affirmation of my resolve..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Thank you. My mind feels clear once more."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I will continue with my training and show you my resolve through my katana."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "That isn't like you, Hiiro."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "I wholeheartedly agree."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Perhaps this is yet another obstacle on my path to be overcome."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Miss Hiiro... You're always so disciplined and your resolve has never wavered once."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But you expect so much from yourself... I don't think I've ever seen you NOT training."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You have a point."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I can assure you, there is no need to be so hard on yourself."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Even the smallest improvements are a testament to your rigorous training and conviction. I think you're still on the right path!"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I see."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "In other words, my doubts about my progress are an affirmation of my resolve..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Thank you. My mind feels clear once more."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I will continue with my training and show you my resolve through my katana."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Good morning! Have you made up your mind about learning swordsmanship?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "... I-I think I'll give it a pass."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "So, you were just messing with me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, no, no! I dare not!"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Are you going to learn it then?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'll learn it! I will!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "It's almost 10am. Did you just wake up?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh... I slept at 4am last night because I was reading."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Take care of yourself."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Are you worried about me?"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "... Did you forget it was your turn to make breakfast today?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Good morning."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning... Hiiro. It's really early..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "That's what I wanted to talk to you about."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "You seem to be quite awake."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...You wanted to make sure I was awake?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Good afternoon."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon, Miss Hiiro. Have you eaten?"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Not yet. I plan to use my lunch time today to meditate."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But... won't you get hungry?"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "No. There is no training this afternoon, so I won't need to use up too much energy."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "If your stomach is too full while meditating, it becomes easier to get distracted."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Same old Hiiro..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Excuse me."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "What do I need to do if I want the Fireflies to stay with me for a fixed period of time this afternoon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You could never bother me, Miss Hiiro."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Just explain what you want directly to the Fireflies."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But... why do you want them to stick around?"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Because I wish to train my concentration and test whether I can prevent my thoughts from being distracted by external entities."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Alright. I hope you won't find them too annoying..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Good afternoon."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Have you arranged the training plan for this afternoon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not yet..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'll do it now."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Hmm. You being the leader of this place, I should hope so."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I wouldn't expect you to hope for any less, Miss Hiiro..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "It's getting late."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Maybe you should consider having an early night."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Indeed. I'm going to get ready for bed after I finish what I'm doing right now."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "If it's not too bold of me to ask, could you tell me what it is you're doing?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Just... eat something that helps me sleep..."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "...I don't think a midnight snack will help you sleep any better."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "But now that you've started, be sure not to waste any food."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Rest early after you finish eating. Good night."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Alright, Miss Hiiro. Good night."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Good evening. Vice told me everything."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah! Good evening, Miss Hiiro!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "...I'm always honest with you, you know that!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...I haven't done anything!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "...I'm always honest with you, you know that!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "...So, what did Vice tell you, exactly?"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "She invited you to have a midnight snack with her, but you turned her down."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You're making progress."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you! But actually..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Whatever the reason, declining such a request is a good thing."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Sleep well, and good night."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Sleep well, Miss Hiiro."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "...I haven't done anything!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "...So, what did Vice tell you, exactly?"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "She invited you to have a midnight snack with her, but you turned her down."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "You're making progress."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you! But actually..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Whatever the reason, declining such a request is a good thing."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Sleep well, and good night."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Sleep well, Miss Hiiro."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "It's time to rest."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "The moment between being in a deep sleep and fully awake is indeed a strange state of consciousness."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "At this time, my thoughts wander, and I try my best to control them."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But if it's a good rest you want..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Shouldn't you clear your mind and go to sleep early?"
+   },
+   {
+    "name": "Hiiro:",
+    "content": "...You're right."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Forcing yourself to stay awake causes you to lose time you could be sleeping. It's really not a good idea."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "Well, I'm retiring. You should rest early, too."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good night, Miss Hiiro."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Hiiro:",
+    "content": "Caelestite."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "I received a second briefing about Undercity 28 from Charon."
+   },
+   {
+    "name": "Hiiro:",
+    "content": "He stressed that this incident had nothing to do with you."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "It really did have nothing to do with me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I can't let Charon take full responsibility for it."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "It really did have nothing to do with me."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "It was obvious that the Eclipsites attacked that place."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "But the Illumina will continue to launch further investigations."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about Vice? Are you planning on taking her away with you?"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Firstly, I'm not planning on leaving just yet."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Secondly, Vice has a mind of her own. I have approved her mission application. She will stay with you for now to help you resolve any future incidents that arise."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's great..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Also, I'm sorry about your companions."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I hope you'll be able to buck up."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I can't let Charon take full responsibility for it."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Hiiro:",
+      "content": "The Eclipsites' attack was the direct cause."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "But the Illumina will continue to launch further investigations."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about Vice? Are you planning on taking her away with you?"
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Firstly, I'm not planning on leaving just yet."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Secondly, Vice has a mind of her own. I have approved her mission application. She will stay with you for now to help you resolve any future incidents that arise."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's great..."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "Also, I'm sorry about your companions."
+     },
+     {
+      "name": "Hiiro:",
+      "content": "I hope you'll be able to buck up."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

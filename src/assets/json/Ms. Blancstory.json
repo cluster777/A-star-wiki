@@ -1,0 +1,756 @@
+{
+ "title": "The Guide's Hobbies",
+ "header": "You're curious about Ms. Blanc's \"Guide\" identity, but never expect to pique Ms. Blanc's interest in your Navigator status. Thus begins a round of juxtaposition.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "This way leads to the master-control room."
+    },
+    {
+     "char": "Angel:",
+     "dialogue": "I know that, but I am heading to the bridge..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "It's this way as well. The bridge and the master-control room are the same place."
+    },
+    {
+     "char": "Angel:",
+     "dialogue": "I see, thanks."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ms. Blanc who boarded the Colossus way after Angel was actually leading the way instead..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Please head that way to Navigator's room. To enter, you have to..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey! Hold on! Please don't broadcast about how to enter my room when I'm around!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Don't worry, I'm just kidding."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "You have been looking on since just now, so I just wanted to see how you'd react."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, I'm curious... You keep calling yourself the \"Guide\", but does that exist in Lumopolis?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Hmm, well, no. I just start doing it out of self interest."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I chose the name because a \"Guide\" sounds as mystifying as a \"Nightwatch\"."
+    }
+   ],
+   "branch": [
+    {
+     "text": "What exactly does a Guide do?",
+     "link": "1"
+    },
+    {
+     "text": "What does a Nightwatch do?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Quite simply, a Guide gives directions during the day, and occasionally leads the way."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's all?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Perhaps I can derive more meanings, such as a \"Facilitator of Inner Feelings\"."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Why did you take sudden interest in the 'Guide' title?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I felt it sounded quite similar to a Navigator, both involving in leading the way."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Everyone calls you a Navigator, so should I take what you said as a challenge?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could it be?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's find out who's the better guide, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How would you like to do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's just do it the way we are good at, for example, please show me around your Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I grew up here, so showing you around or introducing the Colossus would be no problem!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Alright, I'd love it if you can show me the beauty of this Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Definitely!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here is the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at the faint flicker on this wall, and the unique dividing line on the floor!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Are you trying to say that the design is unique?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "While you're doing your best to embellish it, you can't change the fact that it is an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... how about this?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only when the power is cut off can we see such a view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at this deep blue light, isn't it distinctively different from usual?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can even do this!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Navigator, even if you turn the lights on and off over and over again, it is still just an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's not. The corridor sounds ordinary, but it is an indispensable part of the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like a blood vessel, it connects various rooms, transporting us to all parts of the Colossus like fresh blood."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The population ultimately vitalizes the Colossus! So, do you appreciate the significance of the corridor now?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Well, after hearing that, I feel differently about the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Phew... then next..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "To the bridge",
+     "link": "4"
+    },
+    {
+     "text": "Go to Luminite Altar",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "A Nightwatch holds the lantern and guards the entrance at night. It is what I did before becoming a Guide."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That sounded a little strange?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Well, this is just a metaphor. If you'd like more details, you'd need to further investigate yourself."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Why did you take sudden interest in the 'Guide' title?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I felt it sounded quite similar to a Navigator, both involving in leading the way."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Everyone calls you a Navigator, so should I take what you said as a challenge?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could it be?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's find out who's the better guide, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How would you like to do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's just do it the way we are good at, for example, please show me around your Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I grew up here, so showing you around or introducing the Colossus would be no problem!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Alright, I'd love it if you can show me the beauty of this Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Definitely!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here is the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at the faint flicker on this wall, and the unique dividing line on the floor!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Are you trying to say that the design is unique?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "While you're doing your best to embellish it, you can't change the fact that it is an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... how about this?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only when the power is cut off can we see such a view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at this deep blue light, isn't it distinctively different from usual?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can even do this!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Navigator, even if you turn the lights on and off over and over again, it is still just an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's not. The corridor sounds ordinary, but it is an indispensable part of the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like a blood vessel, it connects various rooms, transporting us to all parts of the Colossus like fresh blood."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The population ultimately vitalizes the Colossus! So, do you appreciate the significance of the corridor now?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Well, after hearing that, I feel differently about the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Phew... then next..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "To the bridge",
+     "link": "4"
+    },
+    {
+     "text": "Go to Luminite Altar",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Why did you take sudden interest in the 'Guide' title?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I felt it sounded quite similar to a Navigator, both involving in leading the way."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Everyone calls you a Navigator, so should I take what you said as a challenge?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could it be?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's find out who's the better guide, then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How would you like to do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Let's just do it the way we are good at, for example, please show me around your Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I grew up here, so showing you around or introducing the Colossus would be no problem!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Alright, I'd love it if you can show me the beauty of this Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Definitely!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Here is the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at the faint flicker on this wall, and the unique dividing line on the floor!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Are you trying to say that the design is unique?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "While you're doing your best to embellish it, you can't change the fact that it is an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... how about this?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Only when the power is cut off can we see such a view."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Look at this deep blue light, isn't it distinctively different from usual?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can even do this!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Navigator, even if you turn the lights on and off over and over again, it is still just an ordinary corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's not. The corridor sounds ordinary, but it is an indispensable part of the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like a blood vessel, it connects various rooms, transporting us to all parts of the Colossus like fresh blood."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The population ultimately vitalizes the Colossus! So, do you appreciate the significance of the corridor now?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Well, after hearing that, I feel differently about the corridor."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Phew... then next..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "To the bridge",
+     "link": "4"
+    },
+    {
+     "text": "Go to Luminite Altar",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Since there's usually no restriction for accessing the bridge, you must have been here before."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But what I want to introduce to you today is the master console. Like what the others say, it's just like a piano!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Ok, is there anything special about it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It is a necessary medium to activate the Colossus! And the operation station when Vice was temporarily asked to drive..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Can it be played as an ordinary piano?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Err... If you insist, sure?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Hmm... I have already mastered the above information."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I bet your room is more special."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... When did you visit my room?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "But I can feel your affection for this Colossus from what you said."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just going to ignore my question?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Actually what I want is not a comparison between us."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I just want to share with you, like exchanging letters, sharing beautiful experience and insight."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Since you showed me around your home, please allow me to show you around mine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... How do we do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Before this, please let me ask a question. How much do you know about Lumopolis?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Nothing at all",
+     "link": "7"
+    },
+    {
+     "text": "I know a little about it",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Although I'm not really sure how it works,"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it can do some very cool things. Remember the signal flare last time?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Yeah... Do you know its working principles?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... I remember Soroz calling it recharge... No, hmm, is it projection..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Colorful Lumina Reinforcement Summoning!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Making up a name on the spot?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Sorry... Actually, I'm not quite sure..."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I bet your room is more special."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... When did you visit my room?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "But I can feel your affection for this Colossus from what you said."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just going to ignore my question?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Actually what I want is not a comparison between us."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I just want to share with you, like exchanging letters, sharing beautiful experience and insight."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Since you showed me around your home, please allow me to show you around mine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... How do we do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Before this, please let me ask a question. How much do you know about Lumopolis?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Nothing at all",
+     "link": "7"
+    },
+    {
+     "text": "I know a little about it",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... When did you visit my room?!"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "But I can feel your affection for this Colossus from what you said."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just going to ignore my question?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Actually what I want is not a comparison between us."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "I just want to share with you, like exchanging letters, sharing beautiful experience and insight."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Since you showed me around your home, please allow me to show you around mine."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... How do we do that?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Before this, please let me ask a question. How much do you know about Lumopolis?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Nothing at all",
+     "link": "7"
+    },
+    {
+     "text": "I know a little about it",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Maybe you have heard of its name, but have never visited it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Here, please hold my hand."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Use your psychic ability, Navigator. If it's you, you can definitely see it..."
+    },
+    {
+     "char": "This slender and cold hand seemed to convey Blanc's emotions and memories...",
+     "dialogue": "Dear Navigator, I bear the Preface to Lumopolis."
+    },
+    {
+     "char": "\"That is\"",
+     "dialogue": "I'm showing it to you, hoping to guide you into Lumopolis to understand it."
+    },
+    {
+     "char": "\"A city floating in the sky\"",
+     "dialogue": "This, is my purpose as the Guide..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I met several friends from Lumopolis, and learned a little or two about Lumopolis from their stories."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Then I hope that you'll like Lumopolis more after this tour."
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Here, please hold my hand."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why?"
+    },
+    {
+     "char": "Ms. Blanc:",
+     "dialogue": "Use your psychic ability, Navigator. If it's you, you can definitely see it..."
+    },
+    {
+     "char": "This slender and cold hand seemed to convey Blanc's emotions and memories...",
+     "dialogue": "Dear Navigator, I bear the Preface to Lumopolis."
+    },
+    {
+     "char": "\"That is\"",
+     "dialogue": "I'm showing it to you, hoping to guide you into Lumopolis to understand it."
+    },
+    {
+     "char": "\"A city floating in the sky\"",
+     "dialogue": "This, is my purpose as the Guide..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

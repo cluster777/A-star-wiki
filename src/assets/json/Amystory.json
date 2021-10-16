@@ -1,0 +1,760 @@
+{
+ "title": "Amy on Patrol",
+ "header": "Amy wanted to patrol the Colossus like a proper Hall of Justice Knight to help solve everyone's troubles. Her efforts were not very effective even though she had been trying really hard, so she asked you for help...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I heard that Amy can't express herself properly when she's nervous..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not to mention that this is her first time here at the Colossus and so a lot of things are still unfamiliar to her. As a Navigator, I should help her out more."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "H-hi! I'd like to ask for permission on some-something!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Way too close!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I'm sorry..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Will you allow me to help out on your Colossus as a Hall of Justice Knight? Can I get to work?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I'm sorry...can you understand this? I mean, do you understand what I mean?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I get it.",
+     "link": "1"
+    },
+    {
+     "text": "I don't really understand.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you want me to do, then?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I want to help you with patrolling!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "And solve everyone's problems during my patrol duty! This is what I've been trained for as a Hall of Justice Knight!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to patrol? Sure, patrolling is a time-consuming job. I'm glad to have your assistance."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I have another request, can you hear me out?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "If I run into any difficulties while patrolling, can I come back here for your advice?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course. There are often different people visiting the Colossus after all, and many of us live together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's only natural should you run into an emergency while patrolling."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Yes, that's what I thought."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But I'm worried that I won't be able to solve the problem properly on the spot... I may even make things worse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay. You can record the incident or problem so that we can discuss it and solve it afterward."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "That's great! I'll head out now then!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I found a problem which I can't solve! Someone's asking for my help, what should I do?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fast?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, okay. I'm in charge of this Colossus after all. I'll handle it."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I don't think you should. Even if you help me out now, what am I going to do after?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I hope that I can take care of patrolling on my own one day. Please give me some suggestions and let me learn how to solve problems!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I'm told that there's a crocodile who wants to eat a bird on one side and a bear who wants to eat a bird on another! W-which side should I stop first?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You should stop the crocodile first.",
+     "link": "4"
+    },
+    {
+     "text": "You should stop the bear first.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Amy:",
+     "dialogue": "I mean... I mean, I want to help you with patrolling!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "While I may not be an experienced Hall of Justice Knight and I don't know everyone well, I will try my best!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Starting with solving everyone's problems and issues!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to patrol? Sure, patrolling is a time-consuming job. I'm glad to have your assistance."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I have another request, can you hear me out?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "If I run into any difficulties while patrolling, can I come back here for your advice?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course. There are often different people visiting the Colossus after all, and many of us live together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's only natural should you run into an emergency while patrolling."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Yes, that's what I thought."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But I'm worried that I won't be able to solve the problem properly on the spot... I may even make things worse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay. You can record the incident or problem so that we can discuss it and solve it afterward."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "That's great! I'll head out now then!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I found a problem which I can't solve! Someone's asking for my help, what should I do?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fast?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, okay. I'm in charge of this Colossus after all. I'll handle it."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I don't think you should. Even if you help me out now, what am I going to do after?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I hope that I can take care of patrolling on my own one day. Please give me some suggestions and let me learn how to solve problems!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I'm told that there's a crocodile who wants to eat a bird on one side and a bear who wants to eat a bird on another! W-which side should I stop first?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You should stop the crocodile first.",
+     "link": "4"
+    },
+    {
+     "text": "You should stop the bear first.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You want to patrol? Sure, patrolling is a time-consuming job. I'm glad to have your assistance."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I have another request, can you hear me out?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "If I run into any difficulties while patrolling, can I come back here for your advice?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Of course. There are often different people visiting the Colossus after all, and many of us live together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's only natural should you run into an emergency while patrolling."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Yes, that's what I thought."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But I'm worried that I won't be able to solve the problem properly on the spot... I may even make things worse..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay. You can record the incident or problem so that we can discuss it and solve it afterward."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "That's great! I'll head out now then!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I found a problem which I can't solve! Someone's asking for my help, what should I do?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fast?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, okay. I'm in charge of this Colossus after all. I'll handle it."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I don't think you should. Even if you help me out now, what am I going to do after?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I hope that I can take care of patrolling on my own one day. Please give me some suggestions and let me learn how to solve problems!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I'm told that there's a crocodile who wants to eat a bird on one side and a bear who wants to eat a bird on another! W-which side should I stop first?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You should stop the crocodile first.",
+     "link": "4"
+    },
+    {
+     "text": "You should stop the bear first.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Amy:",
+     "dialogue": "Okay! I'll go right now!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I stopped Mr. Sork but they said I was mistaken. It seemed like Bekk was helping him to pick his teeth."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That was fast?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's great. What about the other side?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I went there as well! But all I saw was Mr. Kuma lying on the floor."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Even though the floor seemed to be making a hoarse sound, the Colossus definitely won't be crushed. Don't worry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The situation seems confusing, but things are okay?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "It's okay! I've confirmed that everything's alright! Shall I continue with my patrol?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Go ahead, let me know if you run into any problems."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though it's just patrolling, she's always trying to help everyone with their issues and problems. She really puts things to action and does so with passion..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow! That's fast!!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I didn't want to trouble you, but...I must get your advice on this incident as the owner of the Colossus!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Like how some people are complaining to me about the big cat and the train."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine. I'm used to hearing some of the complaints. You just need to talk to them nicely and they'll do better."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you go find that \"Big Cat\".",
+     "link": "7"
+    },
+    {
+     "text": "You should see the \"Train\" first. He's a gentleman.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This fast?!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "It seemed like Mr. Pengy yelled because Mr. Kuma was getting a heat stroke. I sent them both of them to rest."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And so close to me?!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I'm sorry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What about the other side?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "The other side? Mr. Sork said everything was fine and asked me not to worry."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But I didn't think Mr. Sork could make such a tiny scream. It was adorable."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The situation seems confusing, but things are okay?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "It's okay! I've confirmed that everything's alright! Shall I continue with my patrol?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Go ahead, let me know if you run into any problems."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though it's just patrolling, she's always trying to help everyone with their issues and problems. She really puts things to action and does so with passion..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow! That's fast!!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I didn't want to trouble you, but...I must get your advice on this incident as the owner of the Colossus!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Like how some people are complaining to me about the big cat and the train."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine. I'm used to hearing some of the complaints. You just need to talk to them nicely and they'll do better."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you go find that \"Big Cat\".",
+     "link": "7"
+    },
+    {
+     "text": "You should see the \"Train\" first. He's a gentleman.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "The situation seems confusing, but things are okay?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "It's okay! I've confirmed that everything's alright! Shall I continue with my patrol?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Go ahead, let me know if you run into any problems."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though it's just patrolling, she's always trying to help everyone with their issues and problems. She really puts things to action and does so with passion..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow! That's fast!!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I didn't want to trouble you, but...I must get your advice on this incident as the owner of the Colossus!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Like how some people are complaining to me about the big cat and the train."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's fine. I'm used to hearing some of the complaints. You just need to talk to them nicely and they'll do better."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Anyway, you go find that \"Big Cat\".",
+     "link": "7"
+    },
+    {
+     "text": "You should see the \"Train\" first. He's a gentleman.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I told Mr. Black Panther how unwise it was to move around with a giant blunt instrument. Even if it was to prepare for battle at all times, the power of a blunt instrument is limited!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm no longer surprised by how fast you handle things. So, how's Seleucid?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "He looked fierce and said he would sharpen his sword!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, hmm..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I'm sorry, I didn't handle this right, did I?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Even though it's a bit confusing, he did promise to do better after all, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Y-yup? But it's okay. I can accept this outcome."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Then I'll get on with it! Don't worry!"
+    },
+    {
+     "char": "She may be a Hall of Justice Knight, but for some reason, Amy's always running into difficulties, even when it comes to something as trivial as patrolling...",
+     "dialogue": "But I suppose it's all good. Nothing much is happening on the Colossus now that I think about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm a bit worried. Anyway, let me just search around..."
+    },
+    {
+     "char": "Yet this time around, she never returned.",
+     "dialogue": "Eh? There's a small flag in the rec room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's also a small flag on the Bridge?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Small flag on the Bridge? Is everyone holding a small flag?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are there small flags everywhere???"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Navigator! What brings you here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm curious... What are you doing?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Well, the thing is, it seems to be bringing you too much trouble when I run back each time.\nSo I decided to follow your suggestion to record everything first, then solve them afterwards!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on...what do you mean by recording?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "The small flags!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since you're here, can we go together? Everyone will be happy to have you handling things!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But doesn't that mean there are things to resolve everywhere?!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Amy:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Navigator!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Like I said, way too close..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I won't bump into you! I'd like to report to you!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I've informed the visiting Mr. Charon of the danger of running the train in the Colossus during the day!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "He promised me that he will no longer run the train during daytime."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's great!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "He promised me to only run the train in the middle of the night!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, hmm..."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "I-I'm sorry, I didn't handle this right, did I?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Even though it's a bit confusing, he did promise to do better after all, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Y-yup? But it's okay. I can accept this outcome."
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Then I'll get on with it! Don't worry!"
+    },
+    {
+     "char": "She may be a Hall of Justice Knight, but for some reason, Amy's always running into difficulties, even when it comes to something as trivial as patrolling...",
+     "dialogue": "But I suppose it's all good. Nothing much is happening on the Colossus now that I think about it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm a bit worried. Anyway, let me just search around..."
+    },
+    {
+     "char": "Yet this time around, she never returned.",
+     "dialogue": "Eh? There's a small flag in the rec room?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's also a small flag on the Bridge?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Small flag on the Bridge? Is everyone holding a small flag?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are there small flags everywhere???"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Navigator! What brings you here?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm curious... What are you doing?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "Well, the thing is, it seems to be bringing you too much trouble when I run back each time.\nSo I decided to follow your suggestion to record everything first, then solve them afterwards!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on...what do you mean by recording?"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "The small flags!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since you're here, can we go together? Everyone will be happy to have you handling things!"
+    },
+    {
+     "char": "Amy:",
+     "dialogue": "But doesn't that mean there are things to resolve everywhere?!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

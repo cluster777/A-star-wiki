@@ -1,0 +1,106 @@
+[
+ {
+  "start": [
+   {
+    "name": "Jola:",
+    "content": "Hi\u2014"
+   },
+   {
+    "name": "Jola:",
+    "content": "Good morning. I've prepared your meal just the way you like it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning! Thanks... but I..."
+   },
+   {
+    "name": "Jola:",
+    "content": "It's prepared with love, of course! I even made the food into the shape of a rose..."
+   },
+   {
+    "name": "Jola:",
+    "content": "Your coffee has also been decorated with milk foam in the shape of a beautiful flower."
+   },
+   {
+    "name": "Jola:",
+    "content": "So... Where would you like to have breakfast with me later?"
+   },
+   {
+    "name": "Jola:",
+    "content": "I'll make sure you eat every last morsel and leave not even a single scrap..."
+   },
+   {
+    "name": "Jola:",
+    "content": "Ah, was it my imagination... or did you say but just now?"
+   },
+   {
+    "name": "Jola:",
+    "content": "What were you going to say after that but?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Jola... I've actually eaten breakfast, already..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not very hungry right now..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Jola... I've actually eaten breakfast, already..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Jola:",
+      "content": "I see... So, that's how it is? You're the kind of person who likes to let people down?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What...!? No, that's not it!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I can eat! I can eat!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm not very hungry right now..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Jola:",
+      "content": "I see... So, that's how it is? You're the kind of person who likes to let people down?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What...!? No, that's not it!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I can eat! I can eat!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

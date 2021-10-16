@@ -1,0 +1,218 @@
+[
+ {
+  "start": [
+   {
+    "name": "Angel:",
+    "content": "Navigator, can I ask if there's something like a library on the Colossus?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nope. You want to read some books...?"
+   },
+   {
+    "name": "Angel:",
+    "content": "Ah, no."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Your friend wants to read some books? No, you told me that the Lumopolis has lots of them."
+   },
+   {
+    "name": "Angel:",
+    "content": "Ah, it's not to read. It's something else."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Angel... You're being kind of mysterious today. Is there anything you want to tell me? Shall we find a place to talk?"
+   },
+   {
+    "name": "Angel:",
+    "content": "Okay Navigator, I'll be waiting for you at the Prism Pillar."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Angel:",
+    "content": "Navigator, what do you think of Lumopolis?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Lumopolis... is very beautiful."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Lumopolis... is very safe."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Lumopolis... is very beautiful."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Angel:",
+      "content": "Really? It seems like I've gradually forgotten about how beautiful it is here because I've always been living here..."
+     },
+     {
+      "name": "Angel:",
+      "content": "No matter what others think, Lumopolis is like a home to me."
+     },
+     {
+      "name": "Angel:",
+      "content": "It's my duty to protect this home that basks under the grace of the god of light."
+     },
+     {
+      "name": "Angel:",
+      "content": "Although Navigator always lives in the Colossus, I hope Navigator will also see Lumopolis as home one day."
+     },
+     {
+      "name": "Angel:",
+      "content": "It'll be... a home that I share with Navigator..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Lumopolis... is very safe."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Angel:",
+      "content": "Really? As one of Lumopolis, I feel happy to hear you a Caelestite outsider say that."
+     },
+     {
+      "name": "Angel:",
+      "content": "No matter what others think, Lumopolis is like a home to me."
+     },
+     {
+      "name": "Angel:",
+      "content": "It's my duty to protect this home that basks under the grace of the god of light."
+     },
+     {
+      "name": "Angel:",
+      "content": "Although Navigator always lives in the Colossus, I hope Navigator will also see Lumopolis as home one day."
+     },
+     {
+      "name": "Angel:",
+      "content": "It'll be... a home that I share with Navigator..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Angel:",
+    "content": "Good afternoon. Are you free in the afternoon?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yup, I guess I am pretty free."
+   },
+   {
+    "name": "Angel:",
+    "content": "I'm lost."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Where are you? I'll go get you."
+   },
+   {
+    "name": "Angel:",
+    "content": "... I don't know."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What can I do then? Hey!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Angel:",
+    "content": "It's perfect weather for training today."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes, there's so much sunlight."
+   },
+   {
+    "name": "Angel:",
+    "content": "The air is really fresh too. It's a perfect day for a stroll."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yep."
+   },
+   {
+    "name": "Angel:",
+    "content": "When are you ever going to invite me to go on a stroll with you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "What?!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Angel:",
+    "content": "Good afternoon. Have you eaten yet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm having lunch now."
+   },
+   {
+    "name": "Angel:",
+    "content": "Good. I won't bother you, then."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Can I help you?"
+   },
+   {
+    "name": "Angel:",
+    "content": "It's nothing. I just wanted to make sure you'd eaten."
+   },
+   {
+    "name": "Angel:",
+    "content": "It's not like I wanted to... It was the will of the heavens!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Sure, that's very thoughtful of the heavens."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

@@ -1,1153 +1,1371 @@
 {
-      "name": "Keating",
-      "faction": "Lumopolis",
-      "element_main": "Thunder",
-      "element_sub": "Thunder",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds.",
-                  "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds.",
-                  "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds."
-            ]
-      },
-      "equip": {
-            "name": "Scroll of Chanting",
-            "passive": "Saved by Keating",
-            "description": [
-                  [
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
-                  ],
-                  [
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
-                  ],
-                  [
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
-                        "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Inflicts Slow on enemies with 4 Marks; Inflicts Paralysis on enemies with 6 Marks.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Aggro is effective to all enemies.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Crystal Dust",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal",
-                        "Thunder Potion I",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks.",
-                  "after": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
-            },
-            {
-                  "material": [
-                        "Thunder Potion III",
-                        "Thunder Flare Rock",
-                        "Daybreak Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%.",
-                  "after": "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 487,
-                        "def": 191,
-                        "hp": 1676
-                  },
-                  {
-                        "att": 497,
-                        "def": 194,
-                        "hp": 1703
-                  },
-                  {
-                        "att": 508,
-                        "def": 198,
-                        "hp": 1730
-                  },
-                  {
-                        "att": 518,
-                        "def": 201,
-                        "hp": 1756
-                  },
-                  {
-                        "att": 528,
-                        "def": 205,
-                        "hp": 1783
-                  },
-                  {
-                        "att": 538,
-                        "def": 208,
-                        "hp": 1810
-                  },
-                  {
-                        "att": 548,
-                        "def": 212,
-                        "hp": 1837
-                  },
-                  {
-                        "att": 559,
-                        "def": 215,
-                        "hp": 1864
-                  },
-                  {
-                        "att": 569,
-                        "def": 219,
-                        "hp": 1890
-                  },
-                  {
-                        "att": 579,
-                        "def": 222,
-                        "hp": 1917
-                  },
-                  {
-                        "att": 589,
-                        "def": 225,
-                        "hp": 1944
-                  },
-                  {
-                        "att": 599,
-                        "def": 229,
-                        "hp": 1971
-                  },
-                  {
-                        "att": 609,
-                        "def": 232,
-                        "hp": 1998
-                  },
-                  {
-                        "att": 620,
-                        "def": 236,
-                        "hp": 2024
-                  },
-                  {
-                        "att": 630,
-                        "def": 239,
-                        "hp": 2051
-                  },
-                  {
-                        "att": 640,
-                        "def": 243,
-                        "hp": 2078
-                  },
-                  {
-                        "att": 650,
-                        "def": 246,
-                        "hp": 2105
-                  },
-                  {
-                        "att": 660,
-                        "def": 250,
-                        "hp": 2132
-                  },
-                  {
-                        "att": 671,
-                        "def": 253,
-                        "hp": 2158
-                  },
-                  {
-                        "att": 681,
-                        "def": 257,
-                        "hp": 2185
-                  },
-                  {
-                        "att": 691,
-                        "def": 260,
-                        "hp": 2212
-                  },
-                  {
-                        "att": 701,
-                        "def": 264,
-                        "hp": 2239
-                  },
-                  {
-                        "att": 711,
-                        "def": 267,
-                        "hp": 2266
-                  },
-                  {
-                        "att": 721,
-                        "def": 270,
-                        "hp": 2293
-                  },
-                  {
-                        "att": 732,
-                        "def": 274,
-                        "hp": 2319
-                  },
-                  {
-                        "att": 742,
-                        "def": 277,
-                        "hp": 2346
-                  },
-                  {
-                        "att": 752,
-                        "def": 281,
-                        "hp": 2373
-                  },
-                  {
-                        "att": 762,
-                        "def": 284,
-                        "hp": 2400
-                  },
-                  {
-                        "att": 772,
-                        "def": 288,
-                        "hp": 2427
-                  },
-                  {
-                        "att": 783,
-                        "def": 291,
-                        "hp": 2453
-                  },
-                  {
-                        "att": 885,
-                        "def": 326,
-                        "hp": 2727
-                  },
-                  {
-                        "att": 898,
-                        "def": 330,
-                        "hp": 2760
-                  },
-                  {
-                        "att": 911,
-                        "def": 334,
-                        "hp": 2794
-                  },
-                  {
-                        "att": 923,
-                        "def": 339,
-                        "hp": 2827
-                  },
-                  {
-                        "att": 936,
-                        "def": 343,
-                        "hp": 2861
-                  },
-                  {
-                        "att": 949,
-                        "def": 347,
-                        "hp": 2894
-                  },
-                  {
-                        "att": 962,
-                        "def": 352,
-                        "hp": 2928
-                  },
-                  {
-                        "att": 974,
-                        "def": 356,
-                        "hp": 2961
-                  },
-                  {
-                        "att": 987,
-                        "def": 360,
-                        "hp": 2995
-                  },
-                  {
-                        "att": 1000,
-                        "def": 365,
-                        "hp": 3028
-                  },
-                  {
-                        "att": 1013,
-                        "def": 369,
-                        "hp": 3062
-                  },
-                  {
-                        "att": 1025,
-                        "def": 373,
-                        "hp": 3095
-                  },
-                  {
-                        "att": 1038,
-                        "def": 378,
-                        "hp": 3129
-                  },
-                  {
-                        "att": 1051,
-                        "def": 382,
-                        "hp": 3162
-                  },
-                  {
-                        "att": 1063,
-                        "def": 386,
-                        "hp": 3196
-                  },
-                  {
-                        "att": 1076,
-                        "def": 391,
-                        "hp": 3229
-                  },
-                  {
-                        "att": 1089,
-                        "def": 395,
-                        "hp": 3263
-                  },
-                  {
-                        "att": 1102,
-                        "def": 399,
-                        "hp": 3296
-                  },
-                  {
-                        "att": 1114,
-                        "def": 404,
-                        "hp": 3330
-                  },
-                  {
-                        "att": 1127,
-                        "def": 408,
-                        "hp": 3363
-                  },
-                  {
-                        "att": 1140,
-                        "def": 412,
-                        "hp": 3397
-                  },
-                  {
-                        "att": 1153,
-                        "def": 417,
-                        "hp": 3430
-                  },
-                  {
-                        "att": 1165,
-                        "def": 421,
-                        "hp": 3464
-                  },
-                  {
-                        "att": 1178,
-                        "def": 425,
-                        "hp": 3497
-                  },
-                  {
-                        "att": 1191,
-                        "def": 430,
-                        "hp": 3531
-                  },
-                  {
-                        "att": 1204,
-                        "def": 434,
-                        "hp": 3564
-                  },
-                  {
-                        "att": 1216,
-                        "def": 438,
-                        "hp": 3598
-                  },
-                  {
-                        "att": 1229,
-                        "def": 443,
-                        "hp": 3631
-                  },
-                  {
-                        "att": 1242,
-                        "def": 447,
-                        "hp": 3665
-                  },
-                  {
-                        "att": 1254,
-                        "def": 451,
-                        "hp": 3699
-                  },
-                  {
-                        "att": 1267,
-                        "def": 456,
-                        "hp": 3732
-                  },
-                  {
-                        "att": 1280,
-                        "def": 460,
-                        "hp": 3766
-                  },
-                  {
-                        "att": 1293,
-                        "def": 464,
-                        "hp": 3799
-                  },
-                  {
-                        "att": 1305,
-                        "def": 468,
-                        "hp": 3833
-                  },
-                  {
-                        "att": 1318,
-                        "def": 473,
-                        "hp": 3866
-                  },
-                  {
-                        "att": 1331,
-                        "def": 477,
-                        "hp": 3900
-                  },
-                  {
-                        "att": 1344,
-                        "def": 481,
-                        "hp": 3933
-                  },
-                  {
-                        "att": 1356,
-                        "def": 486,
-                        "hp": 3967
-                  },
-                  {
-                        "att": 1369,
-                        "def": 490,
-                        "hp": 4000
-                  },
-                  {
-                        "att": 1382,
-                        "def": 494,
-                        "hp": 4034
-                  },
-                  {
-                        "att": 1541,
-                        "def": 548,
-                        "hp": 4439
-                  },
-                  {
-                        "att": 1551,
-                        "def": 551,
-                        "hp": 4464
-                  },
-                  {
-                        "att": 1560,
-                        "def": 554,
-                        "hp": 4489
-                  },
-                  {
-                        "att": 1570,
-                        "def": 557,
-                        "hp": 4514
-                  },
-                  {
-                        "att": 1579,
-                        "def": 561,
-                        "hp": 4539
-                  },
-                  {
-                        "att": 1589,
-                        "def": 564,
-                        "hp": 4564
-                  },
-                  {
-                        "att": 1599,
-                        "def": 567,
-                        "hp": 4589
-                  },
-                  {
-                        "att": 1608,
-                        "def": 570,
-                        "hp": 4615
-                  },
-                  {
-                        "att": 1618,
-                        "def": 574,
-                        "hp": 4640
-                  },
-                  {
-                        "att": 1627,
-                        "def": 577,
-                        "hp": 4665
-                  },
-                  {
-                        "att": 1637,
-                        "def": 580,
-                        "hp": 4690
-                  },
-                  {
-                        "att": 1646,
-                        "def": 583,
-                        "hp": 4715
-                  },
-                  {
-                        "att": 1656,
-                        "def": 587,
-                        "hp": 4740
-                  },
-                  {
-                        "att": 1665,
-                        "def": 590,
-                        "hp": 4765
-                  },
-                  {
-                        "att": 1675,
-                        "def": 593,
-                        "hp": 4791
-                  },
-                  {
-                        "att": 1684,
-                        "def": 596,
-                        "hp": 4816
-                  },
-                  {
-                        "att": 1694,
-                        "def": 600,
-                        "hp": 4841
-                  },
-                  {
-                        "att": 1704,
-                        "def": 603,
-                        "hp": 4866
-                  },
-                  {
-                        "att": 1713,
-                        "def": 606,
-                        "hp": 4891
-                  },
-                  {
-                        "att": 1723,
-                        "def": 609,
-                        "hp": 4916
-                  },
-                  {
-                        "att": 1732,
-                        "def": 613,
-                        "hp": 4941
-                  },
-                  {
-                        "att": 1742,
-                        "def": 616,
-                        "hp": 4966
-                  },
-                  {
-                        "att": 1751,
-                        "def": 619,
-                        "hp": 4992
-                  },
-                  {
-                        "att": 1761,
-                        "def": 622,
-                        "hp": 5017
-                  },
-                  {
-                        "att": 1770,
-                        "def": 626,
-                        "hp": 5042
-                  },
-                  {
-                        "att": 1780,
-                        "def": 629,
-                        "hp": 5067
-                  },
-                  {
-                        "att": 1790,
-                        "def": 632,
-                        "hp": 5092
-                  },
-                  {
-                        "att": 1799,
-                        "def": 635,
-                        "hp": 5117
-                  },
-                  {
-                        "att": 1809,
-                        "def": 639,
-                        "hp": 5142
-                  },
-                  {
-                        "att": 1818,
-                        "def": 642,
-                        "hp": 5167
-                  },
-                  {
-                        "att": 1828,
-                        "def": 645,
-                        "hp": 5193
-                  },
-                  {
-                        "att": 1837,
-                        "def": 648,
-                        "hp": 5218
-                  },
-                  {
-                        "att": 1847,
-                        "def": 652,
-                        "hp": 5243
-                  },
-                  {
-                        "att": 1856,
-                        "def": 655,
-                        "hp": 5268
-                  },
-                  {
-                        "att": 1866,
-                        "def": 658,
-                        "hp": 5293
-                  },
-                  {
-                        "att": 1875,
-                        "def": 661,
-                        "hp": 5318
-                  },
-                  {
-                        "att": 1885,
-                        "def": 665,
-                        "hp": 5343
-                  },
-                  {
-                        "att": 1895,
-                        "def": 668,
-                        "hp": 5368
-                  },
-                  {
-                        "att": 1904,
-                        "def": 671,
-                        "hp": 5394
-                  },
-                  {
-                        "att": 1914,
-                        "def": 674,
-                        "hp": 5419
-                  },
-                  {
-                        "att": 1923,
-                        "def": 678,
-                        "hp": 5444
-                  },
-                  {
-                        "att": 1933,
-                        "def": 681,
-                        "hp": 5469
-                  },
-                  {
-                        "att": 1942,
-                        "def": 684,
-                        "hp": 5494
-                  },
-                  {
-                        "att": 1952,
-                        "def": 687,
-                        "hp": 5519
-                  },
-                  {
-                        "att": 1961,
-                        "def": 691,
-                        "hp": 5544
-                  },
-                  {
-                        "att": 1971,
-                        "def": 694,
-                        "hp": 5570
-                  },
-                  {
-                        "att": 1980,
-                        "def": 697,
-                        "hp": 5595
-                  },
-                  {
-                        "att": 1990,
-                        "def": 700,
-                        "hp": 5620
-                  },
-                  {
-                        "att": 2000,
-                        "def": 704,
-                        "hp": 5645
-                  },
-                  {
-                        "att": 2009,
-                        "def": 707,
-                        "hp": 5670
-                  },
-                  {
-                        "att": 2240,
-                        "def": 779,
-                        "hp": 6257
-                  },
-                  {
-                        "att": 2247,
-                        "def": 781,
-                        "hp": 6274
-                  },
-                  {
-                        "att": 2253,
-                        "def": 783,
-                        "hp": 6290
-                  },
-                  {
-                        "att": 2260,
-                        "def": 785,
-                        "hp": 6307
-                  },
-                  {
-                        "att": 2266,
-                        "def": 788,
-                        "hp": 6324
-                  },
-                  {
-                        "att": 2272,
-                        "def": 790,
-                        "hp": 6341
-                  },
-                  {
-                        "att": 2279,
-                        "def": 792,
-                        "hp": 6357
-                  },
-                  {
-                        "att": 2285,
-                        "def": 794,
-                        "hp": 6374
-                  },
-                  {
-                        "att": 2291,
-                        "def": 796,
-                        "hp": 6391
-                  },
-                  {
-                        "att": 2298,
-                        "def": 798,
-                        "hp": 6408
-                  },
-                  {
-                        "att": 2304,
-                        "def": 801,
-                        "hp": 6424
-                  },
-                  {
-                        "att": 2310,
-                        "def": 803,
-                        "hp": 6441
-                  },
-                  {
-                        "att": 2317,
-                        "def": 805,
-                        "hp": 6458
-                  },
-                  {
-                        "att": 2323,
-                        "def": 807,
-                        "hp": 6475
-                  },
-                  {
-                        "att": 2330,
-                        "def": 809,
-                        "hp": 6491
-                  },
-                  {
-                        "att": 2336,
-                        "def": 811,
-                        "hp": 6508
-                  },
-                  {
-                        "att": 2342,
-                        "def": 814,
-                        "hp": 6525
-                  },
-                  {
-                        "att": 2349,
-                        "def": 816,
-                        "hp": 6542
-                  },
-                  {
-                        "att": 2355,
-                        "def": 818,
-                        "hp": 6558
-                  },
-                  {
-                        "att": 2361,
-                        "def": 820,
-                        "hp": 6575
-                  },
-                  {
-                        "att": 2368,
-                        "def": 822,
-                        "hp": 6592
-                  },
-                  {
-                        "att": 2374,
-                        "def": 824,
-                        "hp": 6609
-                  },
-                  {
-                        "att": 2380,
-                        "def": 827,
-                        "hp": 6625
-                  },
-                  {
-                        "att": 2387,
-                        "def": 829,
-                        "hp": 6642
-                  },
-                  {
-                        "att": 2393,
-                        "def": 831,
-                        "hp": 6659
-                  },
-                  {
-                        "att": 2400,
-                        "def": 833,
-                        "hp": 6676
-                  },
-                  {
-                        "att": 2406,
-                        "def": 835,
-                        "hp": 6692
-                  },
-                  {
-                        "att": 2412,
-                        "def": 837,
-                        "hp": 6709
-                  },
-                  {
-                        "att": 2419,
-                        "def": 840,
-                        "hp": 6726
-                  },
-                  {
-                        "att": 2425,
-                        "def": 842,
-                        "hp": 6743
-                  },
-                  {
-                        "att": 2431,
-                        "def": 844,
-                        "hp": 6759
-                  },
-                  {
-                        "att": 2438,
-                        "def": 846,
-                        "hp": 6776
-                  },
-                  {
-                        "att": 2444,
-                        "def": 848,
-                        "hp": 6793
-                  },
-                  {
-                        "att": 2450,
-                        "def": 850,
-                        "hp": 6810
-                  },
-                  {
-                        "att": 2457,
-                        "def": 853,
-                        "hp": 6826
-                  },
-                  {
-                        "att": 2463,
-                        "def": 855,
-                        "hp": 6843
-                  },
-                  {
-                        "att": 2470,
-                        "def": 857,
-                        "hp": 6860
-                  },
-                  {
-                        "att": 2476,
-                        "def": 859,
-                        "hp": 6877
-                  },
-                  {
-                        "att": 2482,
-                        "def": 861,
-                        "hp": 6893
-                  },
-                  {
-                        "att": 2489,
-                        "def": 863,
-                        "hp": 6910
-                  },
-                  {
-                        "att": 2495,
-                        "def": 866,
-                        "hp": 6927
-                  },
-                  {
-                        "att": 2501,
-                        "def": 868,
-                        "hp": 6944
-                  },
-                  {
-                        "att": 2508,
-                        "def": 870,
-                        "hp": 6960
-                  },
-                  {
-                        "att": 2514,
-                        "def": 872,
-                        "hp": 6977
-                  },
-                  {
-                        "att": 2520,
-                        "def": 874,
-                        "hp": 6994
-                  },
-                  {
-                        "att": 2527,
-                        "def": 876,
-                        "hp": 7011
-                  },
-                  {
-                        "att": 2533,
-                        "def": 879,
-                        "hp": 7027
-                  },
-                  {
-                        "att": 2540,
-                        "def": 881,
-                        "hp": 7044
-                  },
-                  {
-                        "att": 2546,
-                        "def": 883,
-                        "hp": 7061
-                  },
-                  {
-                        "att": 2552,
-                        "def": 885,
-                        "hp": 7078
-                  },
-                  {
-                        "att": 2559,
-                        "def": 887,
-                        "hp": 7094
-                  },
-                  {
-                        "att": 2565,
-                        "def": 889,
-                        "hp": 7111
-                  },
-                  {
-                        "att": 2571,
-                        "def": 892,
-                        "hp": 7128
-                  },
-                  {
-                        "att": 2578,
-                        "def": 894,
-                        "hp": 7145
-                  },
-                  {
-                        "att": 2584,
-                        "def": 896,
-                        "hp": 7161
-                  },
-                  {
-                        "att": 2591,
-                        "def": 898,
-                        "hp": 7178
-                  },
-                  {
-                        "att": 2597,
-                        "def": 900,
-                        "hp": 7195
-                  },
-                  {
-                        "att": 2603,
-                        "def": 902,
-                        "hp": 7212
-                  },
-                  {
-                        "att": 2610,
-                        "def": 905,
-                        "hp": 7228
-                  },
-                  {
-                        "att": 2616,
-                        "def": 907,
-                        "hp": 7245
-                  },
-                  {
-                        "att": 2622,
-                        "def": 909,
-                        "hp": 7262
-                  },
-                  {
-                        "att": 2629,
-                        "def": 911,
-                        "hp": 7279
-                  },
-                  {
-                        "att": 2635,
-                        "def": 913,
-                        "hp": 7295
-                  },
-                  {
-                        "att": 2641,
-                        "def": 915,
-                        "hp": 7312
-                  },
-                  {
-                        "att": 2648,
-                        "def": 918,
-                        "hp": 7329
-                  },
-                  {
-                        "att": 2654,
-                        "def": 920,
-                        "hp": 7346
-                  },
-                  {
-                        "att": 2661,
-                        "def": 922,
-                        "hp": 7362
-                  },
-                  {
-                        "att": 2667,
-                        "def": 924,
-                        "hp": 7379
-                  },
-                  {
-                        "att": 2673,
-                        "def": 926,
-                        "hp": 7396
-                  },
-                  {
-                        "att": 2680,
-                        "def": 928,
-                        "hp": 7413
-                  },
-                  {
-                        "att": 2686,
-                        "def": 931,
-                        "hp": 7429
-                  },
-                  {
-                        "att": 2692,
-                        "def": 933,
-                        "hp": 7446
-                  },
-                  {
-                        "att": 2699,
-                        "def": 935,
-                        "hp": 7463
-                  },
-                  {
-                        "att": 2705,
-                        "def": 937,
-                        "hp": 7480
-                  },
-                  {
-                        "att": 2711,
-                        "def": 939,
-                        "hp": 7496
-                  },
-                  {
-                        "att": 2718,
-                        "def": 941,
-                        "hp": 7513
-                  },
-                  {
-                        "att": 2724,
-                        "def": 944,
-                        "hp": 7530
-                  },
-                  {
-                        "att": 2731,
-                        "def": 946,
-                        "hp": 7547
-                  },
-                  {
-                        "att": 2737,
-                        "def": 948,
-                        "hp": 7564
-                  },
-                  {
-                        "att": 2743,
-                        "def": 950,
-                        "hp": 7580
-                  }
-            ]
-      }
+ "name": "Keating",
+ "faction": "Lumopolis",
+ "element_main": "Thunder",
+ "element_sub": "Thunder",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Quadruple Taunting",
+  "cd": "4 Turn",
+  "description": [
+   "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds.",
+   "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds.",
+   "Generates a clone at any tile, which aggros enemies within 3 surrounding clusters and inflicts Slow on enemies with 5 stacks of marks for 2 rounds."
+  ]
+ },
+ "equip": {
+  "name": "Scroll of Chanting",
+  "passive": "Saved by Keating",
+  "description": [
+   [
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
+   ],
+   [
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
+   ],
+   [
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 0.8%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.2%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.5%.",
+    "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
+   ]
+  ],
+  "introduction": "This is a set of four items owned by the four members of Keating's squad. At first, they didn't pay much attention to them, but soon found out that there was a link between the four items of the Scroll of Chanting, which could not only enhance the power of sound-type Luminatics, but also produce more powerful effects when coordinated properly."
+ },
+ "chain": {
+  "name": "Heckling Mob",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to 3 enemies within 3 surrounding clusters and inflicts 2 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 155% damage to 3 enemies within 3 surrounding clusters and inflicts 3 stacks of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Inflicts Slow on enemies with 4 Marks; Inflicts Paralysis on enemies with 6 Marks.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Aggro is effective to all enemies.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Crystal Dust",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
+  },
+  {
+   "material": [
+    "Thunder Crystal",
+    "Thunder Potion I",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks.",
+   "after": "Deals 120% damage to 3 enemies within 3 surrounding clusters and inflicts 1 stack of Laughter Mark, up to 8 stacks. Each stack increases Chain Combo damage by 5%."
+  },
+  {
+   "material": [
+    "Thunder Potion III",
+    "Thunder Flare Rock",
+    "Daybreak Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Each stack of Laughter Mark increases Thunder Aurorians' Normal Attack damage by 1.8%.",
+   "after": "Killing enemies with Laughter Mark inflicts 1 additional stack to all remaining enemies. Each mark increases Thunder Aurorians' Normal Attack damage by 1.8%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 487,
+    "def": 191,
+    "hp": 1676
+   },
+   {
+    "att": 497,
+    "def": 194,
+    "hp": 1703
+   },
+   {
+    "att": 508,
+    "def": 198,
+    "hp": 1730
+   },
+   {
+    "att": 518,
+    "def": 201,
+    "hp": 1756
+   },
+   {
+    "att": 528,
+    "def": 205,
+    "hp": 1783
+   },
+   {
+    "att": 538,
+    "def": 208,
+    "hp": 1810
+   },
+   {
+    "att": 548,
+    "def": 212,
+    "hp": 1837
+   },
+   {
+    "att": 559,
+    "def": 215,
+    "hp": 1864
+   },
+   {
+    "att": 569,
+    "def": 219,
+    "hp": 1890
+   },
+   {
+    "att": 579,
+    "def": 222,
+    "hp": 1917
+   },
+   {
+    "att": 589,
+    "def": 225,
+    "hp": 1944
+   },
+   {
+    "att": 599,
+    "def": 229,
+    "hp": 1971
+   },
+   {
+    "att": 609,
+    "def": 232,
+    "hp": 1998
+   },
+   {
+    "att": 620,
+    "def": 236,
+    "hp": 2024
+   },
+   {
+    "att": 630,
+    "def": 239,
+    "hp": 2051
+   },
+   {
+    "att": 640,
+    "def": 243,
+    "hp": 2078
+   },
+   {
+    "att": 650,
+    "def": 246,
+    "hp": 2105
+   },
+   {
+    "att": 660,
+    "def": 250,
+    "hp": 2132
+   },
+   {
+    "att": 671,
+    "def": 253,
+    "hp": 2158
+   },
+   {
+    "att": 681,
+    "def": 257,
+    "hp": 2185
+   },
+   {
+    "att": 691,
+    "def": 260,
+    "hp": 2212
+   },
+   {
+    "att": 701,
+    "def": 264,
+    "hp": 2239
+   },
+   {
+    "att": 711,
+    "def": 267,
+    "hp": 2266
+   },
+   {
+    "att": 721,
+    "def": 270,
+    "hp": 2293
+   },
+   {
+    "att": 732,
+    "def": 274,
+    "hp": 2319
+   },
+   {
+    "att": 742,
+    "def": 277,
+    "hp": 2346
+   },
+   {
+    "att": 752,
+    "def": 281,
+    "hp": 2373
+   },
+   {
+    "att": 762,
+    "def": 284,
+    "hp": 2400
+   },
+   {
+    "att": 772,
+    "def": 288,
+    "hp": 2427
+   },
+   {
+    "att": 783,
+    "def": 291,
+    "hp": 2453
+   },
+   {
+    "att": 885,
+    "def": 326,
+    "hp": 2727
+   },
+   {
+    "att": 898,
+    "def": 330,
+    "hp": 2760
+   },
+   {
+    "att": 911,
+    "def": 334,
+    "hp": 2794
+   },
+   {
+    "att": 923,
+    "def": 339,
+    "hp": 2827
+   },
+   {
+    "att": 936,
+    "def": 343,
+    "hp": 2861
+   },
+   {
+    "att": 949,
+    "def": 347,
+    "hp": 2894
+   },
+   {
+    "att": 962,
+    "def": 352,
+    "hp": 2928
+   },
+   {
+    "att": 974,
+    "def": 356,
+    "hp": 2961
+   },
+   {
+    "att": 987,
+    "def": 360,
+    "hp": 2995
+   },
+   {
+    "att": 1000,
+    "def": 365,
+    "hp": 3028
+   },
+   {
+    "att": 1013,
+    "def": 369,
+    "hp": 3062
+   },
+   {
+    "att": 1025,
+    "def": 373,
+    "hp": 3095
+   },
+   {
+    "att": 1038,
+    "def": 378,
+    "hp": 3129
+   },
+   {
+    "att": 1051,
+    "def": 382,
+    "hp": 3162
+   },
+   {
+    "att": 1063,
+    "def": 386,
+    "hp": 3196
+   },
+   {
+    "att": 1076,
+    "def": 391,
+    "hp": 3229
+   },
+   {
+    "att": 1089,
+    "def": 395,
+    "hp": 3263
+   },
+   {
+    "att": 1102,
+    "def": 399,
+    "hp": 3296
+   },
+   {
+    "att": 1114,
+    "def": 404,
+    "hp": 3330
+   },
+   {
+    "att": 1127,
+    "def": 408,
+    "hp": 3363
+   },
+   {
+    "att": 1140,
+    "def": 412,
+    "hp": 3397
+   },
+   {
+    "att": 1153,
+    "def": 417,
+    "hp": 3430
+   },
+   {
+    "att": 1165,
+    "def": 421,
+    "hp": 3464
+   },
+   {
+    "att": 1178,
+    "def": 425,
+    "hp": 3497
+   },
+   {
+    "att": 1191,
+    "def": 430,
+    "hp": 3531
+   },
+   {
+    "att": 1204,
+    "def": 434,
+    "hp": 3564
+   },
+   {
+    "att": 1216,
+    "def": 438,
+    "hp": 3598
+   },
+   {
+    "att": 1229,
+    "def": 443,
+    "hp": 3631
+   },
+   {
+    "att": 1242,
+    "def": 447,
+    "hp": 3665
+   },
+   {
+    "att": 1254,
+    "def": 451,
+    "hp": 3699
+   },
+   {
+    "att": 1267,
+    "def": 456,
+    "hp": 3732
+   },
+   {
+    "att": 1280,
+    "def": 460,
+    "hp": 3766
+   },
+   {
+    "att": 1293,
+    "def": 464,
+    "hp": 3799
+   },
+   {
+    "att": 1305,
+    "def": 468,
+    "hp": 3833
+   },
+   {
+    "att": 1318,
+    "def": 473,
+    "hp": 3866
+   },
+   {
+    "att": 1331,
+    "def": 477,
+    "hp": 3900
+   },
+   {
+    "att": 1344,
+    "def": 481,
+    "hp": 3933
+   },
+   {
+    "att": 1356,
+    "def": 486,
+    "hp": 3967
+   },
+   {
+    "att": 1369,
+    "def": 490,
+    "hp": 4000
+   },
+   {
+    "att": 1382,
+    "def": 494,
+    "hp": 4034
+   },
+   {
+    "att": 1541,
+    "def": 548,
+    "hp": 4439
+   },
+   {
+    "att": 1551,
+    "def": 551,
+    "hp": 4464
+   },
+   {
+    "att": 1560,
+    "def": 554,
+    "hp": 4489
+   },
+   {
+    "att": 1570,
+    "def": 557,
+    "hp": 4514
+   },
+   {
+    "att": 1579,
+    "def": 561,
+    "hp": 4539
+   },
+   {
+    "att": 1589,
+    "def": 564,
+    "hp": 4564
+   },
+   {
+    "att": 1599,
+    "def": 567,
+    "hp": 4589
+   },
+   {
+    "att": 1608,
+    "def": 570,
+    "hp": 4615
+   },
+   {
+    "att": 1618,
+    "def": 574,
+    "hp": 4640
+   },
+   {
+    "att": 1627,
+    "def": 577,
+    "hp": 4665
+   },
+   {
+    "att": 1637,
+    "def": 580,
+    "hp": 4690
+   },
+   {
+    "att": 1646,
+    "def": 583,
+    "hp": 4715
+   },
+   {
+    "att": 1656,
+    "def": 587,
+    "hp": 4740
+   },
+   {
+    "att": 1665,
+    "def": 590,
+    "hp": 4765
+   },
+   {
+    "att": 1675,
+    "def": 593,
+    "hp": 4791
+   },
+   {
+    "att": 1684,
+    "def": 596,
+    "hp": 4816
+   },
+   {
+    "att": 1694,
+    "def": 600,
+    "hp": 4841
+   },
+   {
+    "att": 1704,
+    "def": 603,
+    "hp": 4866
+   },
+   {
+    "att": 1713,
+    "def": 606,
+    "hp": 4891
+   },
+   {
+    "att": 1723,
+    "def": 609,
+    "hp": 4916
+   },
+   {
+    "att": 1732,
+    "def": 613,
+    "hp": 4941
+   },
+   {
+    "att": 1742,
+    "def": 616,
+    "hp": 4966
+   },
+   {
+    "att": 1751,
+    "def": 619,
+    "hp": 4992
+   },
+   {
+    "att": 1761,
+    "def": 622,
+    "hp": 5017
+   },
+   {
+    "att": 1770,
+    "def": 626,
+    "hp": 5042
+   },
+   {
+    "att": 1780,
+    "def": 629,
+    "hp": 5067
+   },
+   {
+    "att": 1790,
+    "def": 632,
+    "hp": 5092
+   },
+   {
+    "att": 1799,
+    "def": 635,
+    "hp": 5117
+   },
+   {
+    "att": 1809,
+    "def": 639,
+    "hp": 5142
+   },
+   {
+    "att": 1818,
+    "def": 642,
+    "hp": 5167
+   },
+   {
+    "att": 1828,
+    "def": 645,
+    "hp": 5193
+   },
+   {
+    "att": 1837,
+    "def": 648,
+    "hp": 5218
+   },
+   {
+    "att": 1847,
+    "def": 652,
+    "hp": 5243
+   },
+   {
+    "att": 1856,
+    "def": 655,
+    "hp": 5268
+   },
+   {
+    "att": 1866,
+    "def": 658,
+    "hp": 5293
+   },
+   {
+    "att": 1875,
+    "def": 661,
+    "hp": 5318
+   },
+   {
+    "att": 1885,
+    "def": 665,
+    "hp": 5343
+   },
+   {
+    "att": 1895,
+    "def": 668,
+    "hp": 5368
+   },
+   {
+    "att": 1904,
+    "def": 671,
+    "hp": 5394
+   },
+   {
+    "att": 1914,
+    "def": 674,
+    "hp": 5419
+   },
+   {
+    "att": 1923,
+    "def": 678,
+    "hp": 5444
+   },
+   {
+    "att": 1933,
+    "def": 681,
+    "hp": 5469
+   },
+   {
+    "att": 1942,
+    "def": 684,
+    "hp": 5494
+   },
+   {
+    "att": 1952,
+    "def": 687,
+    "hp": 5519
+   },
+   {
+    "att": 1961,
+    "def": 691,
+    "hp": 5544
+   },
+   {
+    "att": 1971,
+    "def": 694,
+    "hp": 5570
+   },
+   {
+    "att": 1980,
+    "def": 697,
+    "hp": 5595
+   },
+   {
+    "att": 1990,
+    "def": 700,
+    "hp": 5620
+   },
+   {
+    "att": 2000,
+    "def": 704,
+    "hp": 5645
+   },
+   {
+    "att": 2009,
+    "def": 707,
+    "hp": 5670
+   },
+   {
+    "att": 2240,
+    "def": 779,
+    "hp": 6257
+   },
+   {
+    "att": 2247,
+    "def": 781,
+    "hp": 6274
+   },
+   {
+    "att": 2253,
+    "def": 783,
+    "hp": 6290
+   },
+   {
+    "att": 2260,
+    "def": 785,
+    "hp": 6307
+   },
+   {
+    "att": 2266,
+    "def": 788,
+    "hp": 6324
+   },
+   {
+    "att": 2272,
+    "def": 790,
+    "hp": 6341
+   },
+   {
+    "att": 2279,
+    "def": 792,
+    "hp": 6357
+   },
+   {
+    "att": 2285,
+    "def": 794,
+    "hp": 6374
+   },
+   {
+    "att": 2291,
+    "def": 796,
+    "hp": 6391
+   },
+   {
+    "att": 2298,
+    "def": 798,
+    "hp": 6408
+   },
+   {
+    "att": 2304,
+    "def": 801,
+    "hp": 6424
+   },
+   {
+    "att": 2310,
+    "def": 803,
+    "hp": 6441
+   },
+   {
+    "att": 2317,
+    "def": 805,
+    "hp": 6458
+   },
+   {
+    "att": 2323,
+    "def": 807,
+    "hp": 6475
+   },
+   {
+    "att": 2330,
+    "def": 809,
+    "hp": 6491
+   },
+   {
+    "att": 2336,
+    "def": 811,
+    "hp": 6508
+   },
+   {
+    "att": 2342,
+    "def": 814,
+    "hp": 6525
+   },
+   {
+    "att": 2349,
+    "def": 816,
+    "hp": 6542
+   },
+   {
+    "att": 2355,
+    "def": 818,
+    "hp": 6558
+   },
+   {
+    "att": 2361,
+    "def": 820,
+    "hp": 6575
+   },
+   {
+    "att": 2368,
+    "def": 822,
+    "hp": 6592
+   },
+   {
+    "att": 2374,
+    "def": 824,
+    "hp": 6609
+   },
+   {
+    "att": 2380,
+    "def": 827,
+    "hp": 6625
+   },
+   {
+    "att": 2387,
+    "def": 829,
+    "hp": 6642
+   },
+   {
+    "att": 2393,
+    "def": 831,
+    "hp": 6659
+   },
+   {
+    "att": 2400,
+    "def": 833,
+    "hp": 6676
+   },
+   {
+    "att": 2406,
+    "def": 835,
+    "hp": 6692
+   },
+   {
+    "att": 2412,
+    "def": 837,
+    "hp": 6709
+   },
+   {
+    "att": 2419,
+    "def": 840,
+    "hp": 6726
+   },
+   {
+    "att": 2425,
+    "def": 842,
+    "hp": 6743
+   },
+   {
+    "att": 2431,
+    "def": 844,
+    "hp": 6759
+   },
+   {
+    "att": 2438,
+    "def": 846,
+    "hp": 6776
+   },
+   {
+    "att": 2444,
+    "def": 848,
+    "hp": 6793
+   },
+   {
+    "att": 2450,
+    "def": 850,
+    "hp": 6810
+   },
+   {
+    "att": 2457,
+    "def": 853,
+    "hp": 6826
+   },
+   {
+    "att": 2463,
+    "def": 855,
+    "hp": 6843
+   },
+   {
+    "att": 2470,
+    "def": 857,
+    "hp": 6860
+   },
+   {
+    "att": 2476,
+    "def": 859,
+    "hp": 6877
+   },
+   {
+    "att": 2482,
+    "def": 861,
+    "hp": 6893
+   },
+   {
+    "att": 2489,
+    "def": 863,
+    "hp": 6910
+   },
+   {
+    "att": 2495,
+    "def": 866,
+    "hp": 6927
+   },
+   {
+    "att": 2501,
+    "def": 868,
+    "hp": 6944
+   },
+   {
+    "att": 2508,
+    "def": 870,
+    "hp": 6960
+   },
+   {
+    "att": 2514,
+    "def": 872,
+    "hp": 6977
+   },
+   {
+    "att": 2520,
+    "def": 874,
+    "hp": 6994
+   },
+   {
+    "att": 2527,
+    "def": 876,
+    "hp": 7011
+   },
+   {
+    "att": 2533,
+    "def": 879,
+    "hp": 7027
+   },
+   {
+    "att": 2540,
+    "def": 881,
+    "hp": 7044
+   },
+   {
+    "att": 2546,
+    "def": 883,
+    "hp": 7061
+   },
+   {
+    "att": 2552,
+    "def": 885,
+    "hp": 7078
+   },
+   {
+    "att": 2559,
+    "def": 887,
+    "hp": 7094
+   },
+   {
+    "att": 2565,
+    "def": 889,
+    "hp": 7111
+   },
+   {
+    "att": 2571,
+    "def": 892,
+    "hp": 7128
+   },
+   {
+    "att": 2578,
+    "def": 894,
+    "hp": 7145
+   },
+   {
+    "att": 2584,
+    "def": 896,
+    "hp": 7161
+   },
+   {
+    "att": 2591,
+    "def": 898,
+    "hp": 7178
+   },
+   {
+    "att": 2597,
+    "def": 900,
+    "hp": 7195
+   },
+   {
+    "att": 2603,
+    "def": 902,
+    "hp": 7212
+   },
+   {
+    "att": 2610,
+    "def": 905,
+    "hp": 7228
+   },
+   {
+    "att": 2616,
+    "def": 907,
+    "hp": 7245
+   },
+   {
+    "att": 2622,
+    "def": 909,
+    "hp": 7262
+   },
+   {
+    "att": 2629,
+    "def": 911,
+    "hp": 7279
+   },
+   {
+    "att": 2635,
+    "def": 913,
+    "hp": 7295
+   },
+   {
+    "att": 2641,
+    "def": 915,
+    "hp": 7312
+   },
+   {
+    "att": 2648,
+    "def": 918,
+    "hp": 7329
+   },
+   {
+    "att": 2654,
+    "def": 920,
+    "hp": 7346
+   },
+   {
+    "att": 2661,
+    "def": 922,
+    "hp": 7362
+   },
+   {
+    "att": 2667,
+    "def": 924,
+    "hp": 7379
+   },
+   {
+    "att": 2673,
+    "def": 926,
+    "hp": 7396
+   },
+   {
+    "att": 2680,
+    "def": 928,
+    "hp": 7413
+   },
+   {
+    "att": 2686,
+    "def": 931,
+    "hp": 7429
+   },
+   {
+    "att": 2692,
+    "def": 933,
+    "hp": 7446
+   },
+   {
+    "att": 2699,
+    "def": 935,
+    "hp": 7463
+   },
+   {
+    "att": 2705,
+    "def": 937,
+    "hp": 7480
+   },
+   {
+    "att": 2711,
+    "def": 939,
+    "hp": 7496
+   },
+   {
+    "att": 2718,
+    "def": 941,
+    "hp": 7513
+   },
+   {
+    "att": 2724,
+    "def": 944,
+    "hp": 7530
+   },
+   {
+    "att": 2731,
+    "def": 946,
+    "hp": 7547
+   },
+   {
+    "att": 2737,
+    "def": 948,
+    "hp": 7564
+   },
+   {
+    "att": 2743,
+    "def": 950,
+    "hp": 7580
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Chloe",
+     "Keating"
+    ],
+    "chat": [
+     {
+      "character": "Chloe:",
+      "text": "The songs we're learning today are simple and poppy, but pleasant and melodious."
+     },
+     {
+      "character": "Keating:",
+      "text": "Easy breezy! \u266aLalalalala\u266b"
+     },
+     {
+      "character": "Chloe:",
+      "text": "Sing with me! Do!"
+     },
+     {
+      "character": "Keating:",
+      "text": "Do drive those Eclipsites away!\u266c"
+     },
+     {
+      "character": "Chloe:",
+      "text": "Mi!"
+     },
+     {
+      "character": "Keating:",
+      "text": "Mi is Amy who fell again\u2669"
+     },
+     {
+      "character": "Chloe:",
+      "text": "So!"
+     },
+     {
+      "character": "Keating:",
+      "text": "So the adults working overtime Monday to Sunday!\u266b\u266c"
+     },
+     {
+      "character": "Chloe:",
+      "text": "(Although the melody is okay...)"
+     },
+     {
+      "character": "Chloe:",
+      "text": "(These lyrics seem strange...)"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Keating",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Keating:",
+      "text": "Don't you think it's strange? Yeah, you think it's strange, too\u266a"
+     },
+     {
+      "character": "Keating:",
+      "text": "Clearly just a child, try as you might\u266a"
+     },
+     {
+      "character": "Keating:",
+      "text": "Sometimes disrespectful, sometimes impolite\u266a"
+     },
+     {
+      "character": "Zoya:",
+      "text": "... Are you talking about me?"
+     },
+     {
+      "character": "Keating:",
+      "text": "If I were, would you be angry?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "I knew it."
+     },
+     {
+      "character": "Zoya:",
+      "text": "One could easily say the same about you."
+     },
+     {
+      "character": "Zoya:",
+      "text": "You really think you're hot stuff, don't you?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Do you really think that people find you cute?"
+     },
+     {
+      "character": "Keating:",
+      "text": "Are you anxious? I get the feeling you're anxious right now."
+     },
+     {
+      "character": "Zoya:",
+      "text": "You're the legendary choir, aren't you? Why don't you sing something for me?"
+     },
+     {
+      "character": "Keating:",
+      "text": "You want us to sing!? But we don't want to sing!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Your sentences are all mixed up and muddled!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Huh! Flustered. You are flustered as well!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Their Experiences",
+   "files": "Ah, the cute... Keating, the quartet choir, please forgive me for pausing as I was contemplating how to place my words.Obviously, they are just around ten years old, so why are they always able to pinpoint and say such hurtful things? I remember them attacking monsters pretty much the same way they sing as usual. They deliver mental attacks through their words. Sometimes, I even wonder if they use this ability as well in everyday conversations... Ah, they have already denied this, but I can't help wondering every once in a while. I definitely don't suspect them of doing that, so please don't tell them what I said.Mr. Schwartz and %s from the Colossus are probably the only people who can have normal conversations with them.\u2014Vice"
+  },
+  {
+   "file_name": "Their Story (I)",
+   "files": "Oh\u266a Those elegant and great nobles always say such pretty words but do exactly the opposite. The great nobles love eating delicacies, and their leftovers are enough to feed twice as many as themselves. The great nobles love glory, especially the glittering glory of gold coins. The great nobles love elegant expressions and poetry\u2014they wildly applaud when we sing hymns on stage at the church school and point at us excitedly when they speak to their children, yet they are completely expressionless when they hear us singing our hymns at other times... They become expressionless immediately\u266aHmm? Why do we think this way, you ask? Well, it's because\u2014if you can't even guess this, how are we going to tell you? Would Niel tell you about himself? Would Kara tell you the secrets of her family? Would Pierre tell you about her father? Would Dian tell you he wants to be a knight? No! Tee-hee."
+  },
+  {
+   "file_name": "Their Story (II)",
+   "files": "We joined the choir to practice singing after the City Lord personally chose us. Whenever there is a major event and they need performers, we will be sent onto the stage to read the manuscript given to us. The dear nobles applaud us while we're on stage, but that's definitely not what happens when they are with us alone. They stand there haughtily, eyes squinting, mouths pouting like toads, while they point and criticize us based on terrible taste\u266aWe then learned how to deal with the great nobles! Very simple\u266a We show them the glory above us that shines brighter than them! We show them the glory behind us that is far greater than them; If you're wondering what makes us different from them, it's natural that we aren't adults yet\u266aAh, Dian was reluctant at first. Pierre, don't catch Di on the raw just because he's nice. Niel always smiles but that doesn't catch anyone on the raw. Only Kara defends others. Why that face? We are not quarreling at all."
+  },
+  {
+   "file_name": "Their Story (III)",
+   "files": "You want to know whether we've ever quarreled? Tee-hee, how could I possibly tell you? The four of us have been together since we were young and we complete each other's sentences. Adults would never have our bond. We're partners that don't need to apologize to each other even if we quarrel. Apologies are useless, so why bother\u266aYes, that's right, we are nobles. The four of us are nobles as well, but there's nothing special about being a noble. We're still one nose, two eyes, two ears, and one mouth. Aren't we\u266aWant to hear us sing? Ask for Pierre's opinion. Kara says she has something to say. Niel wants to think about it. and Dian is already sucking his thumb. So, do guess if we want to sing for you. I'll let you know if you guess correctly\u266a"
+  },
+  {
+   "file_name": "Their Story (IV)",
+   "files": "I was all alone at the very beginning when I landed and first entered that huge, magnificent academy. I was still all alone when we had to enter that place\u266a Back then, Pierre hadn't start clucking, Dian already wore a fierce glare, Niel looked like a girl in glasses, and Kara was a bully everywhere she went. It was like that until the four of us found each other. We ate, studied, and slept together. We understand each other as much as we understand ourselves\u266aHymns are glorious. The church is glorious. The City Lord is glorious. If the adults are displeased with us, they should question the existence of glory, as well as the City Lord. After all, we only listen to the City Lord, who just tells them not to take offense from children's words or any nonsense\u266a Tee-hee! We know everything, of course! Compared to compliments and monuments erected to remember your glory, would you not like to hear some truth?\u266aWhat is the truth? Don't you know the truth?\u266a It is the reflection and backbone of glory\u266a"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "- It's only a little... - But still, we are proud!- Our feet on the ground.- With our heads in the clouds!",
+  "- Have they seen the Truth?- With their blindfolded eyes?",
+  "White Night up high\u266a",
+  "- Trash meets trash\u266a- Toads on toads\u266a",
+  "- Hasn't Carleen taught you a lesson?- Haven't learned your lesson?- It was such a lesson!",
+  "- Our dearest friend.- Who teaches us well.- To be gentle and kind.- As to say farewell!.",
+  "- Don't be so conceited,- Be a bit more conscious.- Can't you? Won't you?",
+  "- The useless Adults,- Can't they see themselves in the mirror?- Can't they see themselves for who they are?",
+  "- Is this your Colossus?- So towering?- And so pale?",
+  "- Has the rain stopped?- Has the sun peeked out from behind the clouds?- Can you function again?",
+  "- Let us sing?- You're overthinking it.- Wonderful.",
+  "- Go home!- Go home!- Head home empty-handed!",
+  "- Haven't you learned your lesson?- It was such a lesson!",
+  "How boring\u266a",
+  "How funny\u266a",
+  "Oh, you can't wait?",
+  "- Happy New Year\u266a- Have a great one\u266a",
+  "Want us in your choir?",
+  "Adults are to be sung more often.",
+  "Until they are all gone\u266a",
+  "- Pierce through them,- Crush their souls!",
+  "- A boring place- Full of boring nobles,- How do they kill time\u266a - Better to sleep\u266a",
+  "We are our own captain\u266a",
+  "Alchemy Stars\u266a",
+  "- Why is the Colossus in such a hurry?- Because if the Master Navigator's late,- The free food's gonna get cold\u266a",
+  "- Oh\u266a- Ye elegant and magnificent Navigator\u266a - Don't bow your head\u266a- Your bald spot is - Starting to spread\u266a",
+  "- You're here to see us again. - Again!- Look how you're loafing around. - You must still be single! You're single, huh?",
+  "- Greatly cared by the nobles, treasured in their hands!- But couldn't give it away, -Oh, shameless, so shameless you are\u266a",
+  "- Oh! - You vile, disgusting things! \u266a- Our dearest opponents... \u266a - We'll stomp you like the bugs you are! \u266a",
+  "- Why care so much?- Why in such a hurry?- We are but passers-by\u266a Their guides to Hell\u266a",
+  "- People of the Dawn Academy\u266a - Everyone a moron\u266a- But the nobles of Lumopolis\u266a - Even more foolish than a moron\u266a",
+  "- The taller you grow, - The fooler you are\u266a- The older you get, the dumber you'll be\u266a - But don't you fret, for you are young and short\u266a",
+  "- Oh\u266a- The nobles are boring\u266a - They're nothing like you\u266a- So cute and innocent\u266a - Don't forget, brainless too\u266a",
+  "- Haven't you heard enough?- You enjoy it this much?",
+  "- If you've got nothing to do\u266a - Why not shave your head\u266a- Shave it clean\u266a - You'll sleep cooler in bed\u266a",
+  "- Four legs from afar.- Two legs up close.- What are you, Master Navigator? - A real messy bunch!",
+  "- You again!- You're back again!- Still alive and kickin'.",
+  "- The earlier you wake.- The faster you bald.- Why not rest some more? - Why so diligent?",
+  "- You come.- You go.- But your face.- Is the same as before!",
+  "- What keeps you up at night?- Is it will?- Or is it insomnia?",
+  "- Dearest friend.- From Lumopolis, we hail.- Sweet are our lips,- Our words, as well. - That they are!",
+  "- A gift from you?- If you call this a gift.",
+  "- You chose such a gift?- Really?",
+  "- Now that's a gift!- That's a gift!",
+  "- You tried so hard,- Appreciations are in order!",
+  "- Oh\u266a- The ballads of black and white\u266a",
+  "- Above its tombstones\u266a- They soar\u266a",
+  "Then let us sing!",
+  "- The nobles\u266a - Corrupted\u266a- Stupid\u266a - Boring\u266a- Their meaningless drivel leaves everyone snoring!",
+  "- A fierce battle,- A show of powerful sparring tactics.- Fight like roosters on the battlefield!",
+  "- Pierre is always smiling, - Dian will be a knight so strong,- Kara is our protector, - Niel reads all day long.- Still can't tell the difference?",
+  "- Oh,- That moron over there\u266a- How ugly you are\u266a"
+ ],
+ "skins": [],
+ "description": "Four unwelcomed kids... serving as the Lumopolis Broadcast Team. As the members of the Academy's Choir, they actually relish in mocking others mercilessly rather than being the little innocent children they should be... It would be better to avoid them as much as possible.",
+ "realName": "Keating",
+ "nickname": "Taunting Quartet",
+ "gender": "Two males and two females",
+ "height": "4'3\"-4'4\"",
+ "birthday": "Confidential",
+ "birthplace": "Lumopolis",
+ "style": "Speech Astrology"
 }

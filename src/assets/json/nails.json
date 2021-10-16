@@ -1,1153 +1,1307 @@
 {
-      "name": "Nails",
-      "faction": "True Order",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
-                  "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
-                  "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds. Nails' basic Max HP increases by 50%."
-            ]
-      },
-      "equip": {
-            "name": "Nails of Piety",
-            "passive": "Repentance",
-            "description": [
-                  [
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
-                  ],
-                  [
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
-                  ],
-                  [
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
-                        "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 140% damage to the 2 nearest enemies."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 140% damage to the 3 nearest enemies."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Crystal Shard",
-                        "Fire Essence",
-                        "Ancient Scroll",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
-            },
-            {
-                  "material": [
-                        "Fire Potion II",
-                        "Fire Flare Silt",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Keyword",
-                  "before": "",
-                  "after": ""
-            },
-            {
-                  "material": [
-                        "Fire Flare Tile",
-                        "Fire Crystal",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
-                  "after": "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds. Nails' basic Max HP increases by 50%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 523,
-                        "def": 184,
-                        "hp": 1565
-                  },
-                  {
-                        "att": 533,
-                        "def": 187,
-                        "hp": 1590
-                  },
-                  {
-                        "att": 544,
-                        "def": 190,
-                        "hp": 1614
-                  },
-                  {
-                        "att": 554,
-                        "def": 193,
-                        "hp": 1638
-                  },
-                  {
-                        "att": 564,
-                        "def": 196,
-                        "hp": 1663
-                  },
-                  {
-                        "att": 574,
-                        "def": 199,
-                        "hp": 1687
-                  },
-                  {
-                        "att": 584,
-                        "def": 202,
-                        "hp": 1712
-                  },
-                  {
-                        "att": 595,
-                        "def": 205,
-                        "hp": 1736
-                  },
-                  {
-                        "att": 605,
-                        "def": 208,
-                        "hp": 1761
-                  },
-                  {
-                        "att": 615,
-                        "def": 211,
-                        "hp": 1785
-                  },
-                  {
-                        "att": 625,
-                        "def": 214,
-                        "hp": 1810
-                  },
-                  {
-                        "att": 635,
-                        "def": 217,
-                        "hp": 1834
-                  },
-                  {
-                        "att": 646,
-                        "def": 220,
-                        "hp": 1859
-                  },
-                  {
-                        "att": 656,
-                        "def": 223,
-                        "hp": 1883
-                  },
-                  {
-                        "att": 666,
-                        "def": 227,
-                        "hp": 1907
-                  },
-                  {
-                        "att": 676,
-                        "def": 230,
-                        "hp": 1932
-                  },
-                  {
-                        "att": 686,
-                        "def": 233,
-                        "hp": 1956
-                  },
-                  {
-                        "att": 696,
-                        "def": 236,
-                        "hp": 1981
-                  },
-                  {
-                        "att": 707,
-                        "def": 239,
-                        "hp": 2005
-                  },
-                  {
-                        "att": 717,
-                        "def": 242,
-                        "hp": 2030
-                  },
-                  {
-                        "att": 727,
-                        "def": 245,
-                        "hp": 2054
-                  },
-                  {
-                        "att": 737,
-                        "def": 248,
-                        "hp": 2079
-                  },
-                  {
-                        "att": 747,
-                        "def": 251,
-                        "hp": 2103
-                  },
-                  {
-                        "att": 758,
-                        "def": 254,
-                        "hp": 2127
-                  },
-                  {
-                        "att": 768,
-                        "def": 257,
-                        "hp": 2152
-                  },
-                  {
-                        "att": 778,
-                        "def": 260,
-                        "hp": 2176
-                  },
-                  {
-                        "att": 788,
-                        "def": 263,
-                        "hp": 2201
-                  },
-                  {
-                        "att": 798,
-                        "def": 266,
-                        "hp": 2225
-                  },
-                  {
-                        "att": 809,
-                        "def": 269,
-                        "hp": 2250
-                  },
-                  {
-                        "att": 819,
-                        "def": 272,
-                        "hp": 2274
-                  },
-                  {
-                        "att": 916,
-                        "def": 306,
-                        "hp": 2515
-                  },
-                  {
-                        "att": 929,
-                        "def": 309,
-                        "hp": 2545
-                  },
-                  {
-                        "att": 942,
-                        "def": 313,
-                        "hp": 2576
-                  },
-                  {
-                        "att": 955,
-                        "def": 317,
-                        "hp": 2606
-                  },
-                  {
-                        "att": 967,
-                        "def": 321,
-                        "hp": 2637
-                  },
-                  {
-                        "att": 980,
-                        "def": 324,
-                        "hp": 2668
-                  },
-                  {
-                        "att": 993,
-                        "def": 328,
-                        "hp": 2698
-                  },
-                  {
-                        "att": 1006,
-                        "def": 332,
-                        "hp": 2729
-                  },
-                  {
-                        "att": 1018,
-                        "def": 336,
-                        "hp": 2759
-                  },
-                  {
-                        "att": 1031,
-                        "def": 339,
-                        "hp": 2790
-                  },
-                  {
-                        "att": 1044,
-                        "def": 343,
-                        "hp": 2820
-                  },
-                  {
-                        "att": 1057,
-                        "def": 347,
-                        "hp": 2851
-                  },
-                  {
-                        "att": 1069,
-                        "def": 351,
-                        "hp": 2882
-                  },
-                  {
-                        "att": 1082,
-                        "def": 355,
-                        "hp": 2912
-                  },
-                  {
-                        "att": 1095,
-                        "def": 358,
-                        "hp": 2943
-                  },
-                  {
-                        "att": 1107,
-                        "def": 362,
-                        "hp": 2973
-                  },
-                  {
-                        "att": 1120,
-                        "def": 366,
-                        "hp": 3004
-                  },
-                  {
-                        "att": 1133,
-                        "def": 370,
-                        "hp": 3034
-                  },
-                  {
-                        "att": 1146,
-                        "def": 373,
-                        "hp": 3065
-                  },
-                  {
-                        "att": 1158,
-                        "def": 377,
-                        "hp": 3096
-                  },
-                  {
-                        "att": 1171,
-                        "def": 381,
-                        "hp": 3126
-                  },
-                  {
-                        "att": 1184,
-                        "def": 385,
-                        "hp": 3157
-                  },
-                  {
-                        "att": 1197,
-                        "def": 389,
-                        "hp": 3187
-                  },
-                  {
-                        "att": 1209,
-                        "def": 392,
-                        "hp": 3218
-                  },
-                  {
-                        "att": 1222,
-                        "def": 396,
-                        "hp": 3248
-                  },
-                  {
-                        "att": 1235,
-                        "def": 400,
-                        "hp": 3279
-                  },
-                  {
-                        "att": 1248,
-                        "def": 404,
-                        "hp": 3310
-                  },
-                  {
-                        "att": 1260,
-                        "def": 407,
-                        "hp": 3340
-                  },
-                  {
-                        "att": 1273,
-                        "def": 411,
-                        "hp": 3371
-                  },
-                  {
-                        "att": 1286,
-                        "def": 415,
-                        "hp": 3401
-                  },
-                  {
-                        "att": 1299,
-                        "def": 419,
-                        "hp": 3432
-                  },
-                  {
-                        "att": 1311,
-                        "def": 422,
-                        "hp": 3462
-                  },
-                  {
-                        "att": 1324,
-                        "def": 426,
-                        "hp": 3493
-                  },
-                  {
-                        "att": 1337,
-                        "def": 430,
-                        "hp": 3523
-                  },
-                  {
-                        "att": 1349,
-                        "def": 434,
-                        "hp": 3554
-                  },
-                  {
-                        "att": 1362,
-                        "def": 438,
-                        "hp": 3585
-                  },
-                  {
-                        "att": 1375,
-                        "def": 441,
-                        "hp": 3615
-                  },
-                  {
-                        "att": 1388,
-                        "def": 445,
-                        "hp": 3646
-                  },
-                  {
-                        "att": 1400,
-                        "def": 449,
-                        "hp": 3676
-                  },
-                  {
-                        "att": 1413,
-                        "def": 453,
-                        "hp": 3707
-                  },
-                  {
-                        "att": 1558,
-                        "def": 500,
-                        "hp": 4050
-                  },
-                  {
-                        "att": 1567,
-                        "def": 503,
-                        "hp": 4073
-                  },
-                  {
-                        "att": 1577,
-                        "def": 506,
-                        "hp": 4096
-                  },
-                  {
-                        "att": 1586,
-                        "def": 509,
-                        "hp": 4119
-                  },
-                  {
-                        "att": 1596,
-                        "def": 512,
-                        "hp": 4141
-                  },
-                  {
-                        "att": 1605,
-                        "def": 515,
-                        "hp": 4164
-                  },
-                  {
-                        "att": 1615,
-                        "def": 517,
-                        "hp": 4187
-                  },
-                  {
-                        "att": 1625,
-                        "def": 520,
-                        "hp": 4210
-                  },
-                  {
-                        "att": 1634,
-                        "def": 523,
-                        "hp": 4233
-                  },
-                  {
-                        "att": 1644,
-                        "def": 526,
-                        "hp": 4256
-                  },
-                  {
-                        "att": 1653,
-                        "def": 529,
-                        "hp": 4279
-                  },
-                  {
-                        "att": 1663,
-                        "def": 532,
-                        "hp": 4302
-                  },
-                  {
-                        "att": 1672,
-                        "def": 534,
-                        "hp": 4325
-                  },
-                  {
-                        "att": 1682,
-                        "def": 537,
-                        "hp": 4348
-                  },
-                  {
-                        "att": 1691,
-                        "def": 540,
-                        "hp": 4371
-                  },
-                  {
-                        "att": 1701,
-                        "def": 543,
-                        "hp": 4394
-                  },
-                  {
-                        "att": 1711,
-                        "def": 546,
-                        "hp": 4417
-                  },
-                  {
-                        "att": 1720,
-                        "def": 549,
-                        "hp": 4440
-                  },
-                  {
-                        "att": 1730,
-                        "def": 551,
-                        "hp": 4462
-                  },
-                  {
-                        "att": 1739,
-                        "def": 554,
-                        "hp": 4485
-                  },
-                  {
-                        "att": 1749,
-                        "def": 557,
-                        "hp": 4508
-                  },
-                  {
-                        "att": 1758,
-                        "def": 560,
-                        "hp": 4531
-                  },
-                  {
-                        "att": 1768,
-                        "def": 563,
-                        "hp": 4554
-                  },
-                  {
-                        "att": 1777,
-                        "def": 566,
-                        "hp": 4577
-                  },
-                  {
-                        "att": 1787,
-                        "def": 568,
-                        "hp": 4600
-                  },
-                  {
-                        "att": 1797,
-                        "def": 571,
-                        "hp": 4623
-                  },
-                  {
-                        "att": 1806,
-                        "def": 574,
-                        "hp": 4646
-                  },
-                  {
-                        "att": 1816,
-                        "def": 577,
-                        "hp": 4669
-                  },
-                  {
-                        "att": 1825,
-                        "def": 580,
-                        "hp": 4692
-                  },
-                  {
-                        "att": 1835,
-                        "def": 582,
-                        "hp": 4715
-                  },
-                  {
-                        "att": 1844,
-                        "def": 585,
-                        "hp": 4738
-                  },
-                  {
-                        "att": 1854,
-                        "def": 588,
-                        "hp": 4760
-                  },
-                  {
-                        "att": 1863,
-                        "def": 591,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1873,
-                        "def": 594,
-                        "hp": 4806
-                  },
-                  {
-                        "att": 1882,
-                        "def": 597,
-                        "hp": 4829
-                  },
-                  {
-                        "att": 1892,
-                        "def": 599,
-                        "hp": 4852
-                  },
-                  {
-                        "att": 1902,
-                        "def": 602,
-                        "hp": 4875
-                  },
-                  {
-                        "att": 1911,
-                        "def": 605,
-                        "hp": 4898
-                  },
-                  {
-                        "att": 1921,
-                        "def": 608,
-                        "hp": 4921
-                  },
-                  {
-                        "att": 1930,
-                        "def": 611,
-                        "hp": 4944
-                  },
-                  {
-                        "att": 1940,
-                        "def": 614,
-                        "hp": 4967
-                  },
-                  {
-                        "att": 1949,
-                        "def": 616,
-                        "hp": 4990
-                  },
-                  {
-                        "att": 1959,
-                        "def": 619,
-                        "hp": 5013
-                  },
-                  {
-                        "att": 1968,
-                        "def": 622,
-                        "hp": 5036
-                  },
-                  {
-                        "att": 1978,
-                        "def": 625,
-                        "hp": 5058
-                  },
-                  {
-                        "att": 1988,
-                        "def": 628,
-                        "hp": 5081
-                  },
-                  {
-                        "att": 1997,
-                        "def": 631,
-                        "hp": 5104
-                  },
-                  {
-                        "att": 2007,
-                        "def": 633,
-                        "hp": 5127
-                  },
-                  {
-                        "att": 2016,
-                        "def": 636,
-                        "hp": 5150
-                  },
-                  {
-                        "att": 2026,
-                        "def": 639,
-                        "hp": 5173
-                  },
-                  {
-                        "att": 2232,
-                        "def": 706,
-                        "hp": 5668
-                  },
-                  {
-                        "att": 2238,
-                        "def": 708,
-                        "hp": 5684
-                  },
-                  {
-                        "att": 2245,
-                        "def": 710,
-                        "hp": 5699
-                  },
-                  {
-                        "att": 2251,
-                        "def": 712,
-                        "hp": 5714
-                  },
-                  {
-                        "att": 2258,
-                        "def": 713,
-                        "hp": 5730
-                  },
-                  {
-                        "att": 2264,
-                        "def": 715,
-                        "hp": 5745
-                  },
-                  {
-                        "att": 2270,
-                        "def": 717,
-                        "hp": 5760
-                  },
-                  {
-                        "att": 2277,
-                        "def": 719,
-                        "hp": 5775
-                  },
-                  {
-                        "att": 2283,
-                        "def": 721,
-                        "hp": 5791
-                  },
-                  {
-                        "att": 2289,
-                        "def": 723,
-                        "hp": 5806
-                  },
-                  {
-                        "att": 2296,
-                        "def": 725,
-                        "hp": 5821
-                  },
-                  {
-                        "att": 2302,
-                        "def": 727,
-                        "hp": 5837
-                  },
-                  {
-                        "att": 2309,
-                        "def": 729,
-                        "hp": 5852
-                  },
-                  {
-                        "att": 2315,
-                        "def": 730,
-                        "hp": 5867
-                  },
-                  {
-                        "att": 2321,
-                        "def": 732,
-                        "hp": 5882
-                  },
-                  {
-                        "att": 2328,
-                        "def": 734,
-                        "hp": 5898
-                  },
-                  {
-                        "att": 2334,
-                        "def": 736,
-                        "hp": 5913
-                  },
-                  {
-                        "att": 2340,
-                        "def": 738,
-                        "hp": 5928
-                  },
-                  {
-                        "att": 2347,
-                        "def": 740,
-                        "hp": 5944
-                  },
-                  {
-                        "att": 2353,
-                        "def": 742,
-                        "hp": 5959
-                  },
-                  {
-                        "att": 2359,
-                        "def": 744,
-                        "hp": 5974
-                  },
-                  {
-                        "att": 2366,
-                        "def": 746,
-                        "hp": 5989
-                  },
-                  {
-                        "att": 2372,
-                        "def": 747,
-                        "hp": 6005
-                  },
-                  {
-                        "att": 2379,
-                        "def": 749,
-                        "hp": 6020
-                  },
-                  {
-                        "att": 2385,
-                        "def": 751,
-                        "hp": 6035
-                  },
-                  {
-                        "att": 2391,
-                        "def": 753,
-                        "hp": 6050
-                  },
-                  {
-                        "att": 2398,
-                        "def": 755,
-                        "hp": 6066
-                  },
-                  {
-                        "att": 2404,
-                        "def": 757,
-                        "hp": 6081
-                  },
-                  {
-                        "att": 2410,
-                        "def": 759,
-                        "hp": 6096
-                  },
-                  {
-                        "att": 2417,
-                        "def": 761,
-                        "hp": 6112
-                  },
-                  {
-                        "att": 2423,
-                        "def": 763,
-                        "hp": 6127
-                  },
-                  {
-                        "att": 2430,
-                        "def": 764,
-                        "hp": 6142
-                  },
-                  {
-                        "att": 2436,
-                        "def": 766,
-                        "hp": 6157
-                  },
-                  {
-                        "att": 2442,
-                        "def": 768,
-                        "hp": 6173
-                  },
-                  {
-                        "att": 2449,
-                        "def": 770,
-                        "hp": 6188
-                  },
-                  {
-                        "att": 2455,
-                        "def": 772,
-                        "hp": 6203
-                  },
-                  {
-                        "att": 2461,
-                        "def": 774,
-                        "hp": 6219
-                  },
-                  {
-                        "att": 2468,
-                        "def": 776,
-                        "hp": 6234
-                  },
-                  {
-                        "att": 2474,
-                        "def": 778,
-                        "hp": 6249
-                  },
-                  {
-                        "att": 2480,
-                        "def": 779,
-                        "hp": 6264
-                  },
-                  {
-                        "att": 2487,
-                        "def": 781,
-                        "hp": 6280
-                  },
-                  {
-                        "att": 2493,
-                        "def": 783,
-                        "hp": 6295
-                  },
-                  {
-                        "att": 2500,
-                        "def": 785,
-                        "hp": 6310
-                  },
-                  {
-                        "att": 2506,
-                        "def": 787,
-                        "hp": 6326
-                  },
-                  {
-                        "att": 2512,
-                        "def": 789,
-                        "hp": 6341
-                  },
-                  {
-                        "att": 2519,
-                        "def": 791,
-                        "hp": 6356
-                  },
-                  {
-                        "att": 2525,
-                        "def": 793,
-                        "hp": 6371
-                  },
-                  {
-                        "att": 2531,
-                        "def": 795,
-                        "hp": 6387
-                  },
-                  {
-                        "att": 2538,
-                        "def": 796,
-                        "hp": 6402
-                  },
-                  {
-                        "att": 2544,
-                        "def": 798,
-                        "hp": 6417
-                  },
-                  {
-                        "att": 2551,
-                        "def": 800,
-                        "hp": 6433
-                  },
-                  {
-                        "att": 2557,
-                        "def": 802,
-                        "hp": 6448
-                  },
-                  {
-                        "att": 2563,
-                        "def": 804,
-                        "hp": 6463
-                  },
-                  {
-                        "att": 2570,
-                        "def": 806,
-                        "hp": 6478
-                  },
-                  {
-                        "att": 2576,
-                        "def": 808,
-                        "hp": 6494
-                  },
-                  {
-                        "att": 2582,
-                        "def": 810,
-                        "hp": 6509
-                  },
-                  {
-                        "att": 2589,
-                        "def": 812,
-                        "hp": 6524
-                  },
-                  {
-                        "att": 2595,
-                        "def": 813,
-                        "hp": 6540
-                  },
-                  {
-                        "att": 2601,
-                        "def": 815,
-                        "hp": 6555
-                  },
-                  {
-                        "att": 2608,
-                        "def": 817,
-                        "hp": 6570
-                  },
-                  {
-                        "att": 2614,
-                        "def": 819,
-                        "hp": 6585
-                  },
-                  {
-                        "att": 2621,
-                        "def": 821,
-                        "hp": 6601
-                  },
-                  {
-                        "att": 2627,
-                        "def": 823,
-                        "hp": 6616
-                  },
-                  {
-                        "att": 2633,
-                        "def": 825,
-                        "hp": 6631
-                  },
-                  {
-                        "att": 2640,
-                        "def": 827,
-                        "hp": 6647
-                  },
-                  {
-                        "att": 2646,
-                        "def": 829,
-                        "hp": 6662
-                  },
-                  {
-                        "att": 2652,
-                        "def": 830,
-                        "hp": 6677
-                  },
-                  {
-                        "att": 2659,
-                        "def": 832,
-                        "hp": 6692
-                  },
-                  {
-                        "att": 2665,
-                        "def": 834,
-                        "hp": 6708
-                  },
-                  {
-                        "att": 2672,
-                        "def": 836,
-                        "hp": 6723
-                  },
-                  {
-                        "att": 2678,
-                        "def": 838,
-                        "hp": 6738
-                  },
-                  {
-                        "att": 2684,
-                        "def": 840,
-                        "hp": 6754
-                  },
-                  {
-                        "att": 2691,
-                        "def": 842,
-                        "hp": 6769
-                  },
-                  {
-                        "att": 2697,
-                        "def": 844,
-                        "hp": 6784
-                  },
-                  {
-                        "att": 2703,
-                        "def": 845,
-                        "hp": 6799
-                  },
-                  {
-                        "att": 2710,
-                        "def": 847,
-                        "hp": 6815
-                  },
-                  {
-                        "att": 2716,
-                        "def": 849,
-                        "hp": 6830
-                  },
-                  {
-                        "att": 2722,
-                        "def": 851,
-                        "hp": 6845
-                  },
-                  {
-                        "att": 2729,
-                        "def": 853,
-                        "hp": 6861
-                  },
-                  {
-                        "att": 2735,
-                        "def": 855,
-                        "hp": 6876
-                  }
-            ]
-      }
+ "name": "Nails",
+ "faction": "True Order",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Sniper",
+ "skill": {
+  "name": "Gift of Sacrifice",
+  "cd": "3 Turn",
+  "description": [
+   "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
+   "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
+   "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds. Nails' basic Max HP increases by 50%."
+  ]
+ },
+ "equip": {
+  "name": "Nails of Piety",
+  "passive": "Repentance",
+  "description": [
+   [
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
+   ],
+   [
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
+   ],
+   [
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 10%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 15%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 20%.",
+    "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
+   ]
+  ],
+  "introduction": "The special blood coursing through Nails' body grants him great strength, but also brings endless pain. In order to suppress the power of his blood, Nails stabbed himself with a holy hammer, but over the course of time, this blood-soaked hammer also gained mysterious power, allowing Nails to unleash its might in battle to destroy his enemies."
+ },
+ "chain": {
+  "name": "Nail Ring",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 140% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Crystal Shard",
+    "Fire Essence",
+    "Ancient Scroll",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Nails' ATK and DEF increase as his HP percentage decreases, granting a bonus of up to 25%."
+  },
+  {
+   "material": [
+    "Fire Potion II",
+    "Fire Flare Silt",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Keyword",
+   "before": "",
+   "after": ""
+  },
+  {
+   "material": [
+    "Fire Flare Tile",
+    "Fire Crystal",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds.",
+   "after": "Chooses 1 tile as the target, sacrifices 15% of current HP to deal an equal amount of damage to enemies within 9 square tiles (this damage ignores DEF), and inflicts 1 stack of Bleeding that lasts for 2 rounds. Nails' basic Max HP increases by 50%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 523,
+    "def": 184,
+    "hp": 1565
+   },
+   {
+    "att": 533,
+    "def": 187,
+    "hp": 1590
+   },
+   {
+    "att": 544,
+    "def": 190,
+    "hp": 1614
+   },
+   {
+    "att": 554,
+    "def": 193,
+    "hp": 1638
+   },
+   {
+    "att": 564,
+    "def": 196,
+    "hp": 1663
+   },
+   {
+    "att": 574,
+    "def": 199,
+    "hp": 1687
+   },
+   {
+    "att": 584,
+    "def": 202,
+    "hp": 1712
+   },
+   {
+    "att": 595,
+    "def": 205,
+    "hp": 1736
+   },
+   {
+    "att": 605,
+    "def": 208,
+    "hp": 1761
+   },
+   {
+    "att": 615,
+    "def": 211,
+    "hp": 1785
+   },
+   {
+    "att": 625,
+    "def": 214,
+    "hp": 1810
+   },
+   {
+    "att": 635,
+    "def": 217,
+    "hp": 1834
+   },
+   {
+    "att": 646,
+    "def": 220,
+    "hp": 1859
+   },
+   {
+    "att": 656,
+    "def": 223,
+    "hp": 1883
+   },
+   {
+    "att": 666,
+    "def": 227,
+    "hp": 1907
+   },
+   {
+    "att": 676,
+    "def": 230,
+    "hp": 1932
+   },
+   {
+    "att": 686,
+    "def": 233,
+    "hp": 1956
+   },
+   {
+    "att": 696,
+    "def": 236,
+    "hp": 1981
+   },
+   {
+    "att": 707,
+    "def": 239,
+    "hp": 2005
+   },
+   {
+    "att": 717,
+    "def": 242,
+    "hp": 2030
+   },
+   {
+    "att": 727,
+    "def": 245,
+    "hp": 2054
+   },
+   {
+    "att": 737,
+    "def": 248,
+    "hp": 2079
+   },
+   {
+    "att": 747,
+    "def": 251,
+    "hp": 2103
+   },
+   {
+    "att": 758,
+    "def": 254,
+    "hp": 2127
+   },
+   {
+    "att": 768,
+    "def": 257,
+    "hp": 2152
+   },
+   {
+    "att": 778,
+    "def": 260,
+    "hp": 2176
+   },
+   {
+    "att": 788,
+    "def": 263,
+    "hp": 2201
+   },
+   {
+    "att": 798,
+    "def": 266,
+    "hp": 2225
+   },
+   {
+    "att": 809,
+    "def": 269,
+    "hp": 2250
+   },
+   {
+    "att": 819,
+    "def": 272,
+    "hp": 2274
+   },
+   {
+    "att": 916,
+    "def": 306,
+    "hp": 2515
+   },
+   {
+    "att": 929,
+    "def": 309,
+    "hp": 2545
+   },
+   {
+    "att": 942,
+    "def": 313,
+    "hp": 2576
+   },
+   {
+    "att": 955,
+    "def": 317,
+    "hp": 2606
+   },
+   {
+    "att": 967,
+    "def": 321,
+    "hp": 2637
+   },
+   {
+    "att": 980,
+    "def": 324,
+    "hp": 2668
+   },
+   {
+    "att": 993,
+    "def": 328,
+    "hp": 2698
+   },
+   {
+    "att": 1006,
+    "def": 332,
+    "hp": 2729
+   },
+   {
+    "att": 1018,
+    "def": 336,
+    "hp": 2759
+   },
+   {
+    "att": 1031,
+    "def": 339,
+    "hp": 2790
+   },
+   {
+    "att": 1044,
+    "def": 343,
+    "hp": 2820
+   },
+   {
+    "att": 1057,
+    "def": 347,
+    "hp": 2851
+   },
+   {
+    "att": 1069,
+    "def": 351,
+    "hp": 2882
+   },
+   {
+    "att": 1082,
+    "def": 355,
+    "hp": 2912
+   },
+   {
+    "att": 1095,
+    "def": 358,
+    "hp": 2943
+   },
+   {
+    "att": 1107,
+    "def": 362,
+    "hp": 2973
+   },
+   {
+    "att": 1120,
+    "def": 366,
+    "hp": 3004
+   },
+   {
+    "att": 1133,
+    "def": 370,
+    "hp": 3034
+   },
+   {
+    "att": 1146,
+    "def": 373,
+    "hp": 3065
+   },
+   {
+    "att": 1158,
+    "def": 377,
+    "hp": 3096
+   },
+   {
+    "att": 1171,
+    "def": 381,
+    "hp": 3126
+   },
+   {
+    "att": 1184,
+    "def": 385,
+    "hp": 3157
+   },
+   {
+    "att": 1197,
+    "def": 389,
+    "hp": 3187
+   },
+   {
+    "att": 1209,
+    "def": 392,
+    "hp": 3218
+   },
+   {
+    "att": 1222,
+    "def": 396,
+    "hp": 3248
+   },
+   {
+    "att": 1235,
+    "def": 400,
+    "hp": 3279
+   },
+   {
+    "att": 1248,
+    "def": 404,
+    "hp": 3310
+   },
+   {
+    "att": 1260,
+    "def": 407,
+    "hp": 3340
+   },
+   {
+    "att": 1273,
+    "def": 411,
+    "hp": 3371
+   },
+   {
+    "att": 1286,
+    "def": 415,
+    "hp": 3401
+   },
+   {
+    "att": 1299,
+    "def": 419,
+    "hp": 3432
+   },
+   {
+    "att": 1311,
+    "def": 422,
+    "hp": 3462
+   },
+   {
+    "att": 1324,
+    "def": 426,
+    "hp": 3493
+   },
+   {
+    "att": 1337,
+    "def": 430,
+    "hp": 3523
+   },
+   {
+    "att": 1349,
+    "def": 434,
+    "hp": 3554
+   },
+   {
+    "att": 1362,
+    "def": 438,
+    "hp": 3585
+   },
+   {
+    "att": 1375,
+    "def": 441,
+    "hp": 3615
+   },
+   {
+    "att": 1388,
+    "def": 445,
+    "hp": 3646
+   },
+   {
+    "att": 1400,
+    "def": 449,
+    "hp": 3676
+   },
+   {
+    "att": 1413,
+    "def": 453,
+    "hp": 3707
+   },
+   {
+    "att": 1558,
+    "def": 500,
+    "hp": 4050
+   },
+   {
+    "att": 1567,
+    "def": 503,
+    "hp": 4073
+   },
+   {
+    "att": 1577,
+    "def": 506,
+    "hp": 4096
+   },
+   {
+    "att": 1586,
+    "def": 509,
+    "hp": 4119
+   },
+   {
+    "att": 1596,
+    "def": 512,
+    "hp": 4141
+   },
+   {
+    "att": 1605,
+    "def": 515,
+    "hp": 4164
+   },
+   {
+    "att": 1615,
+    "def": 517,
+    "hp": 4187
+   },
+   {
+    "att": 1625,
+    "def": 520,
+    "hp": 4210
+   },
+   {
+    "att": 1634,
+    "def": 523,
+    "hp": 4233
+   },
+   {
+    "att": 1644,
+    "def": 526,
+    "hp": 4256
+   },
+   {
+    "att": 1653,
+    "def": 529,
+    "hp": 4279
+   },
+   {
+    "att": 1663,
+    "def": 532,
+    "hp": 4302
+   },
+   {
+    "att": 1672,
+    "def": 534,
+    "hp": 4325
+   },
+   {
+    "att": 1682,
+    "def": 537,
+    "hp": 4348
+   },
+   {
+    "att": 1691,
+    "def": 540,
+    "hp": 4371
+   },
+   {
+    "att": 1701,
+    "def": 543,
+    "hp": 4394
+   },
+   {
+    "att": 1711,
+    "def": 546,
+    "hp": 4417
+   },
+   {
+    "att": 1720,
+    "def": 549,
+    "hp": 4440
+   },
+   {
+    "att": 1730,
+    "def": 551,
+    "hp": 4462
+   },
+   {
+    "att": 1739,
+    "def": 554,
+    "hp": 4485
+   },
+   {
+    "att": 1749,
+    "def": 557,
+    "hp": 4508
+   },
+   {
+    "att": 1758,
+    "def": 560,
+    "hp": 4531
+   },
+   {
+    "att": 1768,
+    "def": 563,
+    "hp": 4554
+   },
+   {
+    "att": 1777,
+    "def": 566,
+    "hp": 4577
+   },
+   {
+    "att": 1787,
+    "def": 568,
+    "hp": 4600
+   },
+   {
+    "att": 1797,
+    "def": 571,
+    "hp": 4623
+   },
+   {
+    "att": 1806,
+    "def": 574,
+    "hp": 4646
+   },
+   {
+    "att": 1816,
+    "def": 577,
+    "hp": 4669
+   },
+   {
+    "att": 1825,
+    "def": 580,
+    "hp": 4692
+   },
+   {
+    "att": 1835,
+    "def": 582,
+    "hp": 4715
+   },
+   {
+    "att": 1844,
+    "def": 585,
+    "hp": 4738
+   },
+   {
+    "att": 1854,
+    "def": 588,
+    "hp": 4760
+   },
+   {
+    "att": 1863,
+    "def": 591,
+    "hp": 4783
+   },
+   {
+    "att": 1873,
+    "def": 594,
+    "hp": 4806
+   },
+   {
+    "att": 1882,
+    "def": 597,
+    "hp": 4829
+   },
+   {
+    "att": 1892,
+    "def": 599,
+    "hp": 4852
+   },
+   {
+    "att": 1902,
+    "def": 602,
+    "hp": 4875
+   },
+   {
+    "att": 1911,
+    "def": 605,
+    "hp": 4898
+   },
+   {
+    "att": 1921,
+    "def": 608,
+    "hp": 4921
+   },
+   {
+    "att": 1930,
+    "def": 611,
+    "hp": 4944
+   },
+   {
+    "att": 1940,
+    "def": 614,
+    "hp": 4967
+   },
+   {
+    "att": 1949,
+    "def": 616,
+    "hp": 4990
+   },
+   {
+    "att": 1959,
+    "def": 619,
+    "hp": 5013
+   },
+   {
+    "att": 1968,
+    "def": 622,
+    "hp": 5036
+   },
+   {
+    "att": 1978,
+    "def": 625,
+    "hp": 5058
+   },
+   {
+    "att": 1988,
+    "def": 628,
+    "hp": 5081
+   },
+   {
+    "att": 1997,
+    "def": 631,
+    "hp": 5104
+   },
+   {
+    "att": 2007,
+    "def": 633,
+    "hp": 5127
+   },
+   {
+    "att": 2016,
+    "def": 636,
+    "hp": 5150
+   },
+   {
+    "att": 2026,
+    "def": 639,
+    "hp": 5173
+   },
+   {
+    "att": 2232,
+    "def": 706,
+    "hp": 5668
+   },
+   {
+    "att": 2238,
+    "def": 708,
+    "hp": 5684
+   },
+   {
+    "att": 2245,
+    "def": 710,
+    "hp": 5699
+   },
+   {
+    "att": 2251,
+    "def": 712,
+    "hp": 5714
+   },
+   {
+    "att": 2258,
+    "def": 713,
+    "hp": 5730
+   },
+   {
+    "att": 2264,
+    "def": 715,
+    "hp": 5745
+   },
+   {
+    "att": 2270,
+    "def": 717,
+    "hp": 5760
+   },
+   {
+    "att": 2277,
+    "def": 719,
+    "hp": 5775
+   },
+   {
+    "att": 2283,
+    "def": 721,
+    "hp": 5791
+   },
+   {
+    "att": 2289,
+    "def": 723,
+    "hp": 5806
+   },
+   {
+    "att": 2296,
+    "def": 725,
+    "hp": 5821
+   },
+   {
+    "att": 2302,
+    "def": 727,
+    "hp": 5837
+   },
+   {
+    "att": 2309,
+    "def": 729,
+    "hp": 5852
+   },
+   {
+    "att": 2315,
+    "def": 730,
+    "hp": 5867
+   },
+   {
+    "att": 2321,
+    "def": 732,
+    "hp": 5882
+   },
+   {
+    "att": 2328,
+    "def": 734,
+    "hp": 5898
+   },
+   {
+    "att": 2334,
+    "def": 736,
+    "hp": 5913
+   },
+   {
+    "att": 2340,
+    "def": 738,
+    "hp": 5928
+   },
+   {
+    "att": 2347,
+    "def": 740,
+    "hp": 5944
+   },
+   {
+    "att": 2353,
+    "def": 742,
+    "hp": 5959
+   },
+   {
+    "att": 2359,
+    "def": 744,
+    "hp": 5974
+   },
+   {
+    "att": 2366,
+    "def": 746,
+    "hp": 5989
+   },
+   {
+    "att": 2372,
+    "def": 747,
+    "hp": 6005
+   },
+   {
+    "att": 2379,
+    "def": 749,
+    "hp": 6020
+   },
+   {
+    "att": 2385,
+    "def": 751,
+    "hp": 6035
+   },
+   {
+    "att": 2391,
+    "def": 753,
+    "hp": 6050
+   },
+   {
+    "att": 2398,
+    "def": 755,
+    "hp": 6066
+   },
+   {
+    "att": 2404,
+    "def": 757,
+    "hp": 6081
+   },
+   {
+    "att": 2410,
+    "def": 759,
+    "hp": 6096
+   },
+   {
+    "att": 2417,
+    "def": 761,
+    "hp": 6112
+   },
+   {
+    "att": 2423,
+    "def": 763,
+    "hp": 6127
+   },
+   {
+    "att": 2430,
+    "def": 764,
+    "hp": 6142
+   },
+   {
+    "att": 2436,
+    "def": 766,
+    "hp": 6157
+   },
+   {
+    "att": 2442,
+    "def": 768,
+    "hp": 6173
+   },
+   {
+    "att": 2449,
+    "def": 770,
+    "hp": 6188
+   },
+   {
+    "att": 2455,
+    "def": 772,
+    "hp": 6203
+   },
+   {
+    "att": 2461,
+    "def": 774,
+    "hp": 6219
+   },
+   {
+    "att": 2468,
+    "def": 776,
+    "hp": 6234
+   },
+   {
+    "att": 2474,
+    "def": 778,
+    "hp": 6249
+   },
+   {
+    "att": 2480,
+    "def": 779,
+    "hp": 6264
+   },
+   {
+    "att": 2487,
+    "def": 781,
+    "hp": 6280
+   },
+   {
+    "att": 2493,
+    "def": 783,
+    "hp": 6295
+   },
+   {
+    "att": 2500,
+    "def": 785,
+    "hp": 6310
+   },
+   {
+    "att": 2506,
+    "def": 787,
+    "hp": 6326
+   },
+   {
+    "att": 2512,
+    "def": 789,
+    "hp": 6341
+   },
+   {
+    "att": 2519,
+    "def": 791,
+    "hp": 6356
+   },
+   {
+    "att": 2525,
+    "def": 793,
+    "hp": 6371
+   },
+   {
+    "att": 2531,
+    "def": 795,
+    "hp": 6387
+   },
+   {
+    "att": 2538,
+    "def": 796,
+    "hp": 6402
+   },
+   {
+    "att": 2544,
+    "def": 798,
+    "hp": 6417
+   },
+   {
+    "att": 2551,
+    "def": 800,
+    "hp": 6433
+   },
+   {
+    "att": 2557,
+    "def": 802,
+    "hp": 6448
+   },
+   {
+    "att": 2563,
+    "def": 804,
+    "hp": 6463
+   },
+   {
+    "att": 2570,
+    "def": 806,
+    "hp": 6478
+   },
+   {
+    "att": 2576,
+    "def": 808,
+    "hp": 6494
+   },
+   {
+    "att": 2582,
+    "def": 810,
+    "hp": 6509
+   },
+   {
+    "att": 2589,
+    "def": 812,
+    "hp": 6524
+   },
+   {
+    "att": 2595,
+    "def": 813,
+    "hp": 6540
+   },
+   {
+    "att": 2601,
+    "def": 815,
+    "hp": 6555
+   },
+   {
+    "att": 2608,
+    "def": 817,
+    "hp": 6570
+   },
+   {
+    "att": 2614,
+    "def": 819,
+    "hp": 6585
+   },
+   {
+    "att": 2621,
+    "def": 821,
+    "hp": 6601
+   },
+   {
+    "att": 2627,
+    "def": 823,
+    "hp": 6616
+   },
+   {
+    "att": 2633,
+    "def": 825,
+    "hp": 6631
+   },
+   {
+    "att": 2640,
+    "def": 827,
+    "hp": 6647
+   },
+   {
+    "att": 2646,
+    "def": 829,
+    "hp": 6662
+   },
+   {
+    "att": 2652,
+    "def": 830,
+    "hp": 6677
+   },
+   {
+    "att": 2659,
+    "def": 832,
+    "hp": 6692
+   },
+   {
+    "att": 2665,
+    "def": 834,
+    "hp": 6708
+   },
+   {
+    "att": 2672,
+    "def": 836,
+    "hp": 6723
+   },
+   {
+    "att": 2678,
+    "def": 838,
+    "hp": 6738
+   },
+   {
+    "att": 2684,
+    "def": 840,
+    "hp": 6754
+   },
+   {
+    "att": 2691,
+    "def": 842,
+    "hp": 6769
+   },
+   {
+    "att": 2697,
+    "def": 844,
+    "hp": 6784
+   },
+   {
+    "att": 2703,
+    "def": 845,
+    "hp": 6799
+   },
+   {
+    "att": 2710,
+    "def": 847,
+    "hp": 6815
+   },
+   {
+    "att": 2716,
+    "def": 849,
+    "hp": 6830
+   },
+   {
+    "att": 2722,
+    "def": 851,
+    "hp": 6845
+   },
+   {
+    "att": 2729,
+    "def": 853,
+    "hp": 6861
+   },
+   {
+    "att": 2735,
+    "def": 855,
+    "hp": 6876
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Nails",
+     "Pact"
+    ],
+    "chat": [
+     {
+      "character": "Nails:",
+      "text": "\"The Truth speaks through a kiss...\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"A true believer may retaliate when faced with discomfort.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "\"Offerings must be made to the Lord of Truth.\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"Believers must have their affairs in order.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "\"Two different paths, illuminated by two different suns...\""
+     },
+     {
+      "character": "Pact:",
+      "text": "\"Believers are allowed to consume meat.\""
+     },
+     {
+      "character": "Nails:",
+      "text": "What are you saying?"
+     },
+     {
+      "character": "Pact:",
+      "text": "Memorizing doctrine, like you."
+     },
+     {
+      "character": "Nails:",
+      "text": "I've read and recited the teachings more than a thousand times... Yet I don't recall seeing any of the things you've said."
+     },
+     {
+      "character": "Pact:",
+      "text": "Well, duh! That's because I just added them to the teachings. Have fun memorizing them!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "True Order Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Got news an hour ago that we're getting major help here at the Colossus. Could that be the pale, scrawny Mr. Nails before me? No, of course, I'm not questioning Miss Victoria's judgment or Mr. Nails' capabilities... It's just that he seemed to be bleeding perpetually, and that's rather alarming. He was also polite to a fault! He apologized for every little thing from the get-go... Actually, make that atonement.I didn't realize until now that there are so many things to atone for...\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "It's nice to finally meet you, Navigator of the Colossus. Is this the Colossus? Ms. Victoria certainly didn't trick us when she said it is magnificent and impressive... I think I can confess my sins with complete peace of mind in the lounge here.Am I bleeding? Don't worry about me, bleeding makes me feel alive, and this is my sin. Actually, am I causing you some trouble? Please forgive me if I am... Ms. Victoria once said that you are probably the person prophesized in that Tome. Perhaps the Truth I seek is somewhere to be found on this Colossus. But to be frank, there are other things I want to know about even more than that. Since you are willing to take in a monster like me, surely you know what I want... We still have time. Let's take our time chatting."
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "I was born in Lumopolis... Do you find that surprising? I guess it is surprising since Lumopolis is filled with those lofty and elegant nobles. A creature like me, who is neither an Aurorian nor an Eclipsite, simply cannot survive in that city.Noble blood once coursed in my veins. I received the perfect elite education and was chosen by the Dawn Academy to fight against the Eclipsites on behalf of my family. My talent and hard work were both impeccable, and I was the most highly anticipated heir of the family. If Rare Blood didn't appear before everyone and exposed the reality that I am a monster, maybe I would be able to continue deceiving everyone, even though that would make me even more sinful.I don't blame anyone for what happened. My filthy blood means that I am destined to be exiled by that city. If I were to fall into an abyss, it would still be the result I deserve. The only thing that won't betray me is the confession of my sins..."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "There is no doubt that I am a sinner. No one was willing to accept me after I was driven out of that city. Some people I met treated me kindly at that time, but eventually, I was isolated because of my identity... I guess that's good too, since my birth was a sin in itself and I don't deserve any kindness or understanding.Although those with Rare Blood are monsters, we are not Eclipsites and are not afraid of the Eclipsites. My blood means that I am not an Aurorian either. I think the best outcome for me is to hang out with small-fry Eclipsites...If not for Ms. Victoria's guidance and redemption, I might never know what it feels like to be cared for by others. Now I have new goals and a place to call my own. Maybe going forward is the right thing to do, don't you think?"
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "I joined the True Order and had a new home. It is a place where even a monster like me can find redemption. Rare Blood was finally on a mission of its own. It is no longer the sign of a monster\u2014it is the very thing that made me a capable assistant of Ms. Victoria.The True Order is the only place in this world that accepts sinners like me. Ms. Victoria once told me that even if the blood of sin flows through my veins, I can still be redeemed as long as I follow the Truth. I must swear an unbreakable oath and stay loyal to the True Order, to Ms. Victoria, and to my faith. Whenever I confess my sins, I always find that this is my salvation.I will dedicate myself to my confessions to the Truth and seek repentance for my filthy blood and sins..."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "The True Order is my home, my destination, and my... family.",
+  "I was born in that place, but I don't belong there. That was a catastrophe of my life.",
+  "May the Truth bless you.",
+  "You only need a little blood to wipe the Eclipsites out.",
+  "Lady Victoria, please forgive my sins as I am a filthy monster...",
+  "I once asked Faust if the white suitcase would bring me relief. He told me it wasn't time yet.",
+  "Doctrines, confessions, and redemptions reassure me... Well, white sugar cubes as well...",
+  "Those who disobey Lady Victoria must be ripped apart and beheaded.",
+  "It's very comfortable... and disturbing. It would be nice if they could build a confessional inside.",
+  "Are you lost? In that case, you should confess your sins...",
+  "Is this also a type of practice? Or... is it a form of punishment?",
+  "Oh, I am a sad, pathetic monster...",
+  "The pilgrimage is ahead of me... This is the first step.",
+  "Boiling...",
+  "Filthy, despicable...",
+  "I am ready.",
+  "The New Year is a gift.",
+  "As you wish.",
+  "My blood is filthy. Please forgive me...",
+  "If my blood of sin can cleanse this world.",
+  "My piety will guide me.",
+  "Stay here and be quiet? No problem. I can do anything you need me to do.",
+  "Whip me, pity me...",
+  "Alchemy Stars.",
+  "I believe in the one and only truth. Light and darkness are both forms of the truth... When destruction comes, the common people will be guided from depravity and then reborn...",
+  "Remove my rotten skin; remove my dirty blood; remove my ignorant consciousness...",
+  "The nails have been stained red with my blood, whereas my cross will judge my enemies...and my own heart...",
+  "Only through suffering the painful loss of blood, shall I receive salvation.",
+  "Sin is everywhere in this world. I have sinned and I have atoned for it... No matter what order Master Victoria gives, it should be executed without objection, conditions, or resistance.",
+  "Death is change, not the end... Pain is salvation, not torture.",
+  "Don't be afraid, this nail was prepared for me. Look, like this...",
+  "\"This is my confession to the Truth... Evil karma, foolishness, and arrogance are all sins of mine...\" Ah, I am atoning for my sins... Are you interested in joining me?",
+  "The world would be perfect if I was the only person suffering to this extent. But clearly you are enduring the same despair.",
+  "My flesh and blood are being gnawed at, and my soul is being bitten and torn into shreds... Ah... This is a sign of happiness.",
+  "I haven't memorized this doctrine yet... I must copy it 1,000 times.",
+  "I must repent... Pact was too disrespectful to Lady Victoria, I even attacked her... I am guilty.",
+  "The sun is stinging me with pain, but I must endure it...",
+  "Hi, would you like to know about the True Order? Why are you running away? Oh, I'm still bleeding...",
+  "Half of today's punishment has not been carried out.",
+  "Only at this moment, when I am embraced by darkness and drowned in my own insignificance, do I feel assured.",
+  "I am loyal to the True Order, to my faith, and to Lady Victoria. I have nailed my unbreakable vows into my body. Now, confess! Even monsters deserve redemption.",
+  "I don't deserve...",
+  "Must you?",
+  "Shouldn't be so...",
+  "Thank you...",
+  "I dedicate my all...",
+  "I sacrifice my all...",
+  "Pain is salvation from sin.",
+  "They once protected me, respected me, and elevated me to an altar; they also hurt me, detested me, and forced me into an endless abyss.",
+  "Eclipsites hurt Aurorians as do Aurorians hurt each other. I am neither Eclipsite nor Aurorian. I am solely a despicable and helpless monster.",
+  "The True Order is my only shelter. I need not understand or think. I simply follow the Truth and move forward.",
+  "The Truth will forgive me, right?"
+ ],
+ "skins": [],
+ "description": "A cadre member of the True Order and follower of Victoria. He is taciturn and strongly believes in the ideals of the True Order. Born as a Lumo Noble, he has abandoned his identity. His lifelong goal is to spread the ideals of the True Order.",
+ "realName": "Nails",
+ "nickname": "Baptism by Punishment",
+ "gender": "Male",
+ "height": "6'0",
+ "birthday": "April 3",
+ "birthplace": "Lumopolis",
+ "style": "Nails of Piety"
 }

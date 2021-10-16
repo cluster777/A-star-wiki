@@ -1,0 +1,208 @@
+[
+ {
+  "start": [
+   {
+    "name": "Michenny:",
+    "content": "Good morning. You should cherish the Nightium you're holding."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning, Michenny!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, unfortunately... The Nightium in my possession isn't very much to begin with..."
+   },
+   {
+    "name": "Michenny:",
+    "content": "Then you should spend the day reflecting on why that is."
+   },
+   {
+    "name": "Navigator:",
+    "content": "S-Sure... I'll get right on that..."
+   },
+   {
+    "name": "Michenny:",
+    "content": "I truly hope you mean that."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michenny:",
+    "content": "Good morning."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning!"
+   },
+   {
+    "name": "Michenny:",
+    "content": "Breakfast is an indispensable part of your day, isn't it?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's right! I'm having breakfast right now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Have you eaten yet?"
+   },
+   {
+    "name": "Michenny:",
+    "content": "Of course. I always have my breakfast at this exact time... Every single day... And not a second too early or too late."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's... really dedicated of you, Michenny."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michenny:",
+    "content": "Good evening. Please make a decision."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Michenny... What choice are you talking about?"
+   },
+   {
+    "name": "Michenny:",
+    "content": "To summarize the events of today... Or to revitalize yourself for tomorrow."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... You mean I have to choose between writing in my journal or going to bed... right?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Then I'll write in my journal..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I think I'll just go to bed..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Then I'll write in my journal..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michenny:",
+      "content": "A wise choice, and a valuable habit to maintain."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about you? Shouldn't you get some rest soon, too?"
+     },
+     {
+      "name": "Michenny:",
+      "content": "Thank you for your concern, but I still have to check the books."
+     },
+     {
+      "name": "Michenny:",
+      "content": "Farewell."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I think I'll just go to bed..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michenny:",
+      "content": "A decent decision, I suppose."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What about you? Shouldn't you get some rest soon, too?"
+     },
+     {
+      "name": "Michenny:",
+      "content": "Thank you for your concern, but I still have to check the books."
+     },
+     {
+      "name": "Michenny:",
+      "content": "Farewell."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Michenny:",
+    "content": "Good evening."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Michenny."
+   },
+   {
+    "name": "Michenny:",
+    "content": "There don't seem to be any strict rules or regulations aboard your Colossus."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Haha..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's true... We don't really run a tight ship around here."
+   },
+   {
+    "name": "Michenny:",
+    "content": "But don't you find this method too disorganized and susceptible to mishaps?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I think it's fine, as long as everybody can relax while they're here."
+   },
+   {
+    "name": "Navigator:",
+    "content": "After all, everyone works hard enough these days."
+   },
+   {
+    "name": "Michenny:",
+    "content": "So that's your rationale behind this..."
+   },
+   {
+    "name": "Michenny:",
+    "content": "I understand. I wish you an early night, and pleasant dreams."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Good night."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

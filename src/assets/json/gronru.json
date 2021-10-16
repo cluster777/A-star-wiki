@@ -1,1153 +1,1323 @@
 {
-      "name": "Gronru",
-      "faction": "Illumina Federation",
-      "element_main": "Thunder",
-      "element_sub": "Forest",
-      "rarity": "6",
-      "class": "Converter",
-      "skill": {
-            "name": "",
-            "cd": "2 Preemptive Turn",
-            "description": [
-                  "Converts 4 nearest Blue and Red tiles to Yellow.",
-                  "Converts 4 nearest Blue and Red tiles to Yellow.",
-                  "Converts 4 nearest Blue and Red tiles to Yellow."
-            ]
-      },
-      "equip": {
-            "name": "Steel Fist & Mecha Throne",
-            "passive": "Gronru's Ionizer",
-            "description": [
-                  [
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round."
-                  ],
-                  [
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy."
-                  ],
-                  [
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
-                        "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 column."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 columns."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 140% damage to 3 columns."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: Increases tile-converting count by 1."
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Essence",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round."
-            },
-            {
-                  "material": [
-                        "Thunder Potion II",
-                        "Thunder Crystal Shard",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
-                  "after": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal Cluster",
-                        "Thunder Flare Rock",
-                        "Battle Archive III",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
-                  "after": "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 479,
-                        "def": 147,
-                        "hp": 1463
-                  },
-                  {
-                        "att": 486,
-                        "def": 149,
-                        "hp": 1486
-                  },
-                  {
-                        "att": 493,
-                        "def": 152,
-                        "hp": 1509
-                  },
-                  {
-                        "att": 500,
-                        "def": 154,
-                        "hp": 1532
-                  },
-                  {
-                        "att": 508,
-                        "def": 157,
-                        "hp": 1556
-                  },
-                  {
-                        "att": 515,
-                        "def": 159,
-                        "hp": 1579
-                  },
-                  {
-                        "att": 522,
-                        "def": 162,
-                        "hp": 1602
-                  },
-                  {
-                        "att": 529,
-                        "def": 164,
-                        "hp": 1625
-                  },
-                  {
-                        "att": 536,
-                        "def": 167,
-                        "hp": 1648
-                  },
-                  {
-                        "att": 543,
-                        "def": 170,
-                        "hp": 1671
-                  },
-                  {
-                        "att": 550,
-                        "def": 172,
-                        "hp": 1694
-                  },
-                  {
-                        "att": 557,
-                        "def": 175,
-                        "hp": 1717
-                  },
-                  {
-                        "att": 564,
-                        "def": 177,
-                        "hp": 1740
-                  },
-                  {
-                        "att": 571,
-                        "def": 180,
-                        "hp": 1763
-                  },
-                  {
-                        "att": 578,
-                        "def": 182,
-                        "hp": 1786
-                  },
-                  {
-                        "att": 585,
-                        "def": 185,
-                        "hp": 1809
-                  },
-                  {
-                        "att": 592,
-                        "def": 187,
-                        "hp": 1832
-                  },
-                  {
-                        "att": 599,
-                        "def": 190,
-                        "hp": 1855
-                  },
-                  {
-                        "att": 606,
-                        "def": 192,
-                        "hp": 1878
-                  },
-                  {
-                        "att": 613,
-                        "def": 195,
-                        "hp": 1901
-                  },
-                  {
-                        "att": 620,
-                        "def": 198,
-                        "hp": 1924
-                  },
-                  {
-                        "att": 627,
-                        "def": 200,
-                        "hp": 1947
-                  },
-                  {
-                        "att": 634,
-                        "def": 203,
-                        "hp": 1970
-                  },
-                  {
-                        "att": 641,
-                        "def": 205,
-                        "hp": 1993
-                  },
-                  {
-                        "att": 649,
-                        "def": 208,
-                        "hp": 2017
-                  },
-                  {
-                        "att": 656,
-                        "def": 210,
-                        "hp": 2040
-                  },
-                  {
-                        "att": 663,
-                        "def": 213,
-                        "hp": 2063
-                  },
-                  {
-                        "att": 670,
-                        "def": 215,
-                        "hp": 2086
-                  },
-                  {
-                        "att": 677,
-                        "def": 218,
-                        "hp": 2109
-                  },
-                  {
-                        "att": 684,
-                        "def": 220,
-                        "hp": 2132
-                  },
-                  {
-                        "att": 778,
-                        "def": 254,
-                        "hp": 2381
-                  },
-                  {
-                        "att": 786,
-                        "def": 257,
-                        "hp": 2409
-                  },
-                  {
-                        "att": 795,
-                        "def": 260,
-                        "hp": 2438
-                  },
-                  {
-                        "att": 804,
-                        "def": 263,
-                        "hp": 2467
-                  },
-                  {
-                        "att": 813,
-                        "def": 266,
-                        "hp": 2496
-                  },
-                  {
-                        "att": 822,
-                        "def": 270,
-                        "hp": 2525
-                  },
-                  {
-                        "att": 830,
-                        "def": 273,
-                        "hp": 2553
-                  },
-                  {
-                        "att": 839,
-                        "def": 276,
-                        "hp": 2582
-                  },
-                  {
-                        "att": 848,
-                        "def": 279,
-                        "hp": 2611
-                  },
-                  {
-                        "att": 857,
-                        "def": 282,
-                        "hp": 2640
-                  },
-                  {
-                        "att": 866,
-                        "def": 285,
-                        "hp": 2669
-                  },
-                  {
-                        "att": 875,
-                        "def": 289,
-                        "hp": 2697
-                  },
-                  {
-                        "att": 883,
-                        "def": 292,
-                        "hp": 2726
-                  },
-                  {
-                        "att": 892,
-                        "def": 295,
-                        "hp": 2755
-                  },
-                  {
-                        "att": 901,
-                        "def": 298,
-                        "hp": 2784
-                  },
-                  {
-                        "att": 910,
-                        "def": 301,
-                        "hp": 2813
-                  },
-                  {
-                        "att": 919,
-                        "def": 304,
-                        "hp": 2842
-                  },
-                  {
-                        "att": 927,
-                        "def": 308,
-                        "hp": 2870
-                  },
-                  {
-                        "att": 936,
-                        "def": 311,
-                        "hp": 2899
-                  },
-                  {
-                        "att": 945,
-                        "def": 314,
-                        "hp": 2928
-                  },
-                  {
-                        "att": 954,
-                        "def": 317,
-                        "hp": 2957
-                  },
-                  {
-                        "att": 963,
-                        "def": 320,
-                        "hp": 2986
-                  },
-                  {
-                        "att": 971,
-                        "def": 324,
-                        "hp": 3014
-                  },
-                  {
-                        "att": 980,
-                        "def": 327,
-                        "hp": 3043
-                  },
-                  {
-                        "att": 989,
-                        "def": 330,
-                        "hp": 3072
-                  },
-                  {
-                        "att": 998,
-                        "def": 333,
-                        "hp": 3101
-                  },
-                  {
-                        "att": 1007,
-                        "def": 336,
-                        "hp": 3130
-                  },
-                  {
-                        "att": 1016,
-                        "def": 339,
-                        "hp": 3158
-                  },
-                  {
-                        "att": 1024,
-                        "def": 343,
-                        "hp": 3187
-                  },
-                  {
-                        "att": 1033,
-                        "def": 346,
-                        "hp": 3216
-                  },
-                  {
-                        "att": 1042,
-                        "def": 349,
-                        "hp": 3245
-                  },
-                  {
-                        "att": 1051,
-                        "def": 352,
-                        "hp": 3274
-                  },
-                  {
-                        "att": 1060,
-                        "def": 355,
-                        "hp": 3303
-                  },
-                  {
-                        "att": 1068,
-                        "def": 359,
-                        "hp": 3331
-                  },
-                  {
-                        "att": 1077,
-                        "def": 362,
-                        "hp": 3360
-                  },
-                  {
-                        "att": 1086,
-                        "def": 365,
-                        "hp": 3389
-                  },
-                  {
-                        "att": 1095,
-                        "def": 368,
-                        "hp": 3418
-                  },
-                  {
-                        "att": 1104,
-                        "def": 371,
-                        "hp": 3447
-                  },
-                  {
-                        "att": 1112,
-                        "def": 374,
-                        "hp": 3475
-                  },
-                  {
-                        "att": 1121,
-                        "def": 378,
-                        "hp": 3504
-                  },
-                  {
-                        "att": 1263,
-                        "def": 430,
-                        "hp": 3866
-                  },
-                  {
-                        "att": 1270,
-                        "def": 432,
-                        "hp": 3887
-                  },
-                  {
-                        "att": 1276,
-                        "def": 435,
-                        "hp": 3909
-                  },
-                  {
-                        "att": 1283,
-                        "def": 437,
-                        "hp": 3931
-                  },
-                  {
-                        "att": 1289,
-                        "def": 440,
-                        "hp": 3952
-                  },
-                  {
-                        "att": 1296,
-                        "def": 442,
-                        "hp": 3974
-                  },
-                  {
-                        "att": 1303,
-                        "def": 444,
-                        "hp": 3995
-                  },
-                  {
-                        "att": 1309,
-                        "def": 447,
-                        "hp": 4017
-                  },
-                  {
-                        "att": 1316,
-                        "def": 449,
-                        "hp": 4039
-                  },
-                  {
-                        "att": 1322,
-                        "def": 451,
-                        "hp": 4060
-                  },
-                  {
-                        "att": 1329,
-                        "def": 454,
-                        "hp": 4082
-                  },
-                  {
-                        "att": 1336,
-                        "def": 456,
-                        "hp": 4104
-                  },
-                  {
-                        "att": 1342,
-                        "def": 459,
-                        "hp": 4125
-                  },
-                  {
-                        "att": 1349,
-                        "def": 461,
-                        "hp": 4147
-                  },
-                  {
-                        "att": 1355,
-                        "def": 463,
-                        "hp": 4168
-                  },
-                  {
-                        "att": 1362,
-                        "def": 466,
-                        "hp": 4190
-                  },
-                  {
-                        "att": 1369,
-                        "def": 468,
-                        "hp": 4212
-                  },
-                  {
-                        "att": 1375,
-                        "def": 471,
-                        "hp": 4233
-                  },
-                  {
-                        "att": 1382,
-                        "def": 473,
-                        "hp": 4255
-                  },
-                  {
-                        "att": 1388,
-                        "def": 475,
-                        "hp": 4276
-                  },
-                  {
-                        "att": 1395,
-                        "def": 478,
-                        "hp": 4298
-                  },
-                  {
-                        "att": 1402,
-                        "def": 480,
-                        "hp": 4320
-                  },
-                  {
-                        "att": 1408,
-                        "def": 482,
-                        "hp": 4341
-                  },
-                  {
-                        "att": 1415,
-                        "def": 485,
-                        "hp": 4363
-                  },
-                  {
-                        "att": 1422,
-                        "def": 487,
-                        "hp": 4384
-                  },
-                  {
-                        "att": 1428,
-                        "def": 490,
-                        "hp": 4406
-                  },
-                  {
-                        "att": 1435,
-                        "def": 492,
-                        "hp": 4428
-                  },
-                  {
-                        "att": 1441,
-                        "def": 494,
-                        "hp": 4449
-                  },
-                  {
-                        "att": 1448,
-                        "def": 497,
-                        "hp": 4471
-                  },
-                  {
-                        "att": 1455,
-                        "def": 499,
-                        "hp": 4493
-                  },
-                  {
-                        "att": 1461,
-                        "def": 502,
-                        "hp": 4514
-                  },
-                  {
-                        "att": 1468,
-                        "def": 504,
-                        "hp": 4536
-                  },
-                  {
-                        "att": 1474,
-                        "def": 506,
-                        "hp": 4557
-                  },
-                  {
-                        "att": 1481,
-                        "def": 509,
-                        "hp": 4579
-                  },
-                  {
-                        "att": 1488,
-                        "def": 511,
-                        "hp": 4601
-                  },
-                  {
-                        "att": 1494,
-                        "def": 513,
-                        "hp": 4622
-                  },
-                  {
-                        "att": 1501,
-                        "def": 516,
-                        "hp": 4644
-                  },
-                  {
-                        "att": 1507,
-                        "def": 518,
-                        "hp": 4665
-                  },
-                  {
-                        "att": 1514,
-                        "def": 521,
-                        "hp": 4687
-                  },
-                  {
-                        "att": 1521,
-                        "def": 523,
-                        "hp": 4709
-                  },
-                  {
-                        "att": 1527,
-                        "def": 525,
-                        "hp": 4730
-                  },
-                  {
-                        "att": 1534,
-                        "def": 528,
-                        "hp": 4752
-                  },
-                  {
-                        "att": 1540,
-                        "def": 530,
-                        "hp": 4773
-                  },
-                  {
-                        "att": 1547,
-                        "def": 533,
-                        "hp": 4795
-                  },
-                  {
-                        "att": 1554,
-                        "def": 535,
-                        "hp": 4817
-                  },
-                  {
-                        "att": 1560,
-                        "def": 537,
-                        "hp": 4838
-                  },
-                  {
-                        "att": 1567,
-                        "def": 540,
-                        "hp": 4860
-                  },
-                  {
-                        "att": 1574,
-                        "def": 542,
-                        "hp": 4881
-                  },
-                  {
-                        "att": 1580,
-                        "def": 544,
-                        "hp": 4903
-                  },
-                  {
-                        "att": 1587,
-                        "def": 547,
-                        "hp": 4925
-                  },
-                  {
-                        "att": 1791,
-                        "def": 613,
-                        "hp": 5449
-                  },
-                  {
-                        "att": 1796,
-                        "def": 615,
-                        "hp": 5463
-                  },
-                  {
-                        "att": 1800,
-                        "def": 617,
-                        "hp": 5478
-                  },
-                  {
-                        "att": 1804,
-                        "def": 618,
-                        "hp": 5492
-                  },
-                  {
-                        "att": 1809,
-                        "def": 620,
-                        "hp": 5507
-                  },
-                  {
-                        "att": 1813,
-                        "def": 621,
-                        "hp": 5521
-                  },
-                  {
-                        "att": 1818,
-                        "def": 623,
-                        "hp": 5536
-                  },
-                  {
-                        "att": 1822,
-                        "def": 625,
-                        "hp": 5550
-                  },
-                  {
-                        "att": 1826,
-                        "def": 626,
-                        "hp": 5564
-                  },
-                  {
-                        "att": 1831,
-                        "def": 628,
-                        "hp": 5579
-                  },
-                  {
-                        "att": 1835,
-                        "def": 629,
-                        "hp": 5593
-                  },
-                  {
-                        "att": 1840,
-                        "def": 631,
-                        "hp": 5608
-                  },
-                  {
-                        "att": 1844,
-                        "def": 633,
-                        "hp": 5622
-                  },
-                  {
-                        "att": 1848,
-                        "def": 634,
-                        "hp": 5636
-                  },
-                  {
-                        "att": 1853,
-                        "def": 636,
-                        "hp": 5651
-                  },
-                  {
-                        "att": 1857,
-                        "def": 637,
-                        "hp": 5665
-                  },
-                  {
-                        "att": 1862,
-                        "def": 639,
-                        "hp": 5680
-                  },
-                  {
-                        "att": 1866,
-                        "def": 640,
-                        "hp": 5694
-                  },
-                  {
-                        "att": 1870,
-                        "def": 642,
-                        "hp": 5708
-                  },
-                  {
-                        "att": 1875,
-                        "def": 644,
-                        "hp": 5723
-                  },
-                  {
-                        "att": 1879,
-                        "def": 645,
-                        "hp": 5737
-                  },
-                  {
-                        "att": 1884,
-                        "def": 647,
-                        "hp": 5752
-                  },
-                  {
-                        "att": 1888,
-                        "def": 648,
-                        "hp": 5766
-                  },
-                  {
-                        "att": 1893,
-                        "def": 650,
-                        "hp": 5780
-                  },
-                  {
-                        "att": 1897,
-                        "def": 652,
-                        "hp": 5795
-                  },
-                  {
-                        "att": 1901,
-                        "def": 653,
-                        "hp": 5809
-                  },
-                  {
-                        "att": 1906,
-                        "def": 655,
-                        "hp": 5824
-                  },
-                  {
-                        "att": 1910,
-                        "def": 656,
-                        "hp": 5838
-                  },
-                  {
-                        "att": 1915,
-                        "def": 658,
-                        "hp": 5852
-                  },
-                  {
-                        "att": 1919,
-                        "def": 660,
-                        "hp": 5867
-                  },
-                  {
-                        "att": 1923,
-                        "def": 661,
-                        "hp": 5881
-                  },
-                  {
-                        "att": 1928,
-                        "def": 663,
-                        "hp": 5896
-                  },
-                  {
-                        "att": 1932,
-                        "def": 664,
-                        "hp": 5910
-                  },
-                  {
-                        "att": 1937,
-                        "def": 666,
-                        "hp": 5924
-                  },
-                  {
-                        "att": 1941,
-                        "def": 668,
-                        "hp": 5939
-                  },
-                  {
-                        "att": 1945,
-                        "def": 669,
-                        "hp": 5953
-                  },
-                  {
-                        "att": 1950,
-                        "def": 671,
-                        "hp": 5968
-                  },
-                  {
-                        "att": 1954,
-                        "def": 672,
-                        "hp": 5982
-                  },
-                  {
-                        "att": 1959,
-                        "def": 674,
-                        "hp": 5997
-                  },
-                  {
-                        "att": 1963,
-                        "def": 675,
-                        "hp": 6011
-                  },
-                  {
-                        "att": 1967,
-                        "def": 677,
-                        "hp": 6025
-                  },
-                  {
-                        "att": 1972,
-                        "def": 679,
-                        "hp": 6040
-                  },
-                  {
-                        "att": 1976,
-                        "def": 680,
-                        "hp": 6054
-                  },
-                  {
-                        "att": 1981,
-                        "def": 682,
-                        "hp": 6069
-                  },
-                  {
-                        "att": 1985,
-                        "def": 683,
-                        "hp": 6083
-                  },
-                  {
-                        "att": 1989,
-                        "def": 685,
-                        "hp": 6097
-                  },
-                  {
-                        "att": 1994,
-                        "def": 687,
-                        "hp": 6112
-                  },
-                  {
-                        "att": 1998,
-                        "def": 688,
-                        "hp": 6126
-                  },
-                  {
-                        "att": 2003,
-                        "def": 690,
-                        "hp": 6141
-                  },
-                  {
-                        "att": 2007,
-                        "def": 691,
-                        "hp": 6155
-                  },
-                  {
-                        "att": 2011,
-                        "def": 693,
-                        "hp": 6169
-                  },
-                  {
-                        "att": 2016,
-                        "def": 695,
-                        "hp": 6184
-                  },
-                  {
-                        "att": 2020,
-                        "def": 696,
-                        "hp": 6198
-                  },
-                  {
-                        "att": 2025,
-                        "def": 698,
-                        "hp": 6213
-                  },
-                  {
-                        "att": 2029,
-                        "def": 699,
-                        "hp": 6227
-                  },
-                  {
-                        "att": 2034,
-                        "def": 701,
-                        "hp": 6241
-                  },
-                  {
-                        "att": 2038,
-                        "def": 702,
-                        "hp": 6256
-                  },
-                  {
-                        "att": 2042,
-                        "def": 704,
-                        "hp": 6270
-                  },
-                  {
-                        "att": 2047,
-                        "def": 706,
-                        "hp": 6285
-                  },
-                  {
-                        "att": 2051,
-                        "def": 707,
-                        "hp": 6299
-                  },
-                  {
-                        "att": 2056,
-                        "def": 709,
-                        "hp": 6313
-                  },
-                  {
-                        "att": 2060,
-                        "def": 710,
-                        "hp": 6328
-                  },
-                  {
-                        "att": 2064,
-                        "def": 712,
-                        "hp": 6342
-                  },
-                  {
-                        "att": 2069,
-                        "def": 714,
-                        "hp": 6357
-                  },
-                  {
-                        "att": 2073,
-                        "def": 715,
-                        "hp": 6371
-                  },
-                  {
-                        "att": 2078,
-                        "def": 717,
-                        "hp": 6385
-                  },
-                  {
-                        "att": 2082,
-                        "def": 718,
-                        "hp": 6400
-                  },
-                  {
-                        "att": 2086,
-                        "def": 720,
-                        "hp": 6414
-                  },
-                  {
-                        "att": 2091,
-                        "def": 722,
-                        "hp": 6429
-                  },
-                  {
-                        "att": 2095,
-                        "def": 723,
-                        "hp": 6443
-                  },
-                  {
-                        "att": 2100,
-                        "def": 725,
-                        "hp": 6458
-                  },
-                  {
-                        "att": 2104,
-                        "def": 726,
-                        "hp": 6472
-                  },
-                  {
-                        "att": 2108,
-                        "def": 728,
-                        "hp": 6486
-                  },
-                  {
-                        "att": 2113,
-                        "def": 730,
-                        "hp": 6501
-                  },
-                  {
-                        "att": 2117,
-                        "def": 731,
-                        "hp": 6515
-                  },
-                  {
-                        "att": 2122,
-                        "def": 733,
-                        "hp": 6530
-                  },
-                  {
-                        "att": 2126,
-                        "def": 734,
-                        "hp": 6544
-                  },
-                  {
-                        "att": 2130,
-                        "def": 736,
-                        "hp": 6558
-                  },
-                  {
-                        "att": 2135,
-                        "def": 737,
-                        "hp": 6573
-                  },
-                  {
-                        "att": 2139,
-                        "def": 739,
-                        "hp": 6587
-                  }
-            ]
-      }
+ "name": "Gronru",
+ "faction": "Illumina Federation",
+ "element_main": "Thunder",
+ "element_sub": "Forest",
+ "rarity": "6",
+ "class": "Converter",
+ "skill": {
+  "name": "Gronru's Ultimate Fusion",
+  "cd": "2 Preemptive Turn",
+  "description": [
+   "Converts 4 nearest Blue and Red tiles to Yellow.",
+   "Converts 4 nearest Blue and Red tiles to Yellow.",
+   "Converts 4 nearest Blue and Red tiles to Yellow."
+  ]
+ },
+ "equip": {
+  "name": "Steel Fist & Mecha Throne",
+  "passive": "Gronru's Ionizer",
+  "description": [
+   [
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 30% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 40% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round."
+   ],
+   [
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy."
+   ],
+   [
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 20% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 30% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 40% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy.",
+    "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy."
+   ]
+  ],
+  "introduction": "This ancient machine known as the \"Throne\" is in fact Gronru's private vehicle\u2014a fortress-like structure possessing immense destructive power. It is controlled by the Throne Mecha Gloves, and Gronru can make it move in sync with her own actions."
+ },
+ "chain": {
+  "name": "Megashock!",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 column."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 columns."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 140% damage to 3 columns."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: If the skill was ready in the last round, increases the tile-converting count by 1 in this round.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: Increases tile-converting count by 1."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Essence",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round."
+  },
+  {
+   "material": [
+    "Thunder Potion II",
+    "Thunder Crystal Shard",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals 50% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+   "after": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy."
+  },
+  {
+   "material": [
+    "Thunder Crystal Cluster",
+    "Thunder Flare Rock",
+    "Battle Archive III",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Grants 1 Magnetic Storm per 3 rounds. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis for 1 round. There is a 50% chance to attack another enemy.",
+   "after": "Grants 1 Magnetic Storm per 3 rounds at the start of the battle. The next Chain Combo deals an additional 50% damage to 1 enemy within the area of attack and inflicts Paralysis. Has a 50% chance to attack another enemy."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 479,
+    "def": 147,
+    "hp": 1463
+   },
+   {
+    "att": 486,
+    "def": 149,
+    "hp": 1486
+   },
+   {
+    "att": 493,
+    "def": 152,
+    "hp": 1509
+   },
+   {
+    "att": 500,
+    "def": 154,
+    "hp": 1532
+   },
+   {
+    "att": 508,
+    "def": 157,
+    "hp": 1556
+   },
+   {
+    "att": 515,
+    "def": 159,
+    "hp": 1579
+   },
+   {
+    "att": 522,
+    "def": 162,
+    "hp": 1602
+   },
+   {
+    "att": 529,
+    "def": 164,
+    "hp": 1625
+   },
+   {
+    "att": 536,
+    "def": 167,
+    "hp": 1648
+   },
+   {
+    "att": 543,
+    "def": 170,
+    "hp": 1671
+   },
+   {
+    "att": 550,
+    "def": 172,
+    "hp": 1694
+   },
+   {
+    "att": 557,
+    "def": 175,
+    "hp": 1717
+   },
+   {
+    "att": 564,
+    "def": 177,
+    "hp": 1740
+   },
+   {
+    "att": 571,
+    "def": 180,
+    "hp": 1763
+   },
+   {
+    "att": 578,
+    "def": 182,
+    "hp": 1786
+   },
+   {
+    "att": 585,
+    "def": 185,
+    "hp": 1809
+   },
+   {
+    "att": 592,
+    "def": 187,
+    "hp": 1832
+   },
+   {
+    "att": 599,
+    "def": 190,
+    "hp": 1855
+   },
+   {
+    "att": 606,
+    "def": 192,
+    "hp": 1878
+   },
+   {
+    "att": 613,
+    "def": 195,
+    "hp": 1901
+   },
+   {
+    "att": 620,
+    "def": 198,
+    "hp": 1924
+   },
+   {
+    "att": 627,
+    "def": 200,
+    "hp": 1947
+   },
+   {
+    "att": 634,
+    "def": 203,
+    "hp": 1970
+   },
+   {
+    "att": 641,
+    "def": 205,
+    "hp": 1993
+   },
+   {
+    "att": 649,
+    "def": 208,
+    "hp": 2017
+   },
+   {
+    "att": 656,
+    "def": 210,
+    "hp": 2040
+   },
+   {
+    "att": 663,
+    "def": 213,
+    "hp": 2063
+   },
+   {
+    "att": 670,
+    "def": 215,
+    "hp": 2086
+   },
+   {
+    "att": 677,
+    "def": 218,
+    "hp": 2109
+   },
+   {
+    "att": 684,
+    "def": 220,
+    "hp": 2132
+   },
+   {
+    "att": 778,
+    "def": 254,
+    "hp": 2381
+   },
+   {
+    "att": 786,
+    "def": 257,
+    "hp": 2409
+   },
+   {
+    "att": 795,
+    "def": 260,
+    "hp": 2438
+   },
+   {
+    "att": 804,
+    "def": 263,
+    "hp": 2467
+   },
+   {
+    "att": 813,
+    "def": 266,
+    "hp": 2496
+   },
+   {
+    "att": 822,
+    "def": 270,
+    "hp": 2525
+   },
+   {
+    "att": 830,
+    "def": 273,
+    "hp": 2553
+   },
+   {
+    "att": 839,
+    "def": 276,
+    "hp": 2582
+   },
+   {
+    "att": 848,
+    "def": 279,
+    "hp": 2611
+   },
+   {
+    "att": 857,
+    "def": 282,
+    "hp": 2640
+   },
+   {
+    "att": 866,
+    "def": 285,
+    "hp": 2669
+   },
+   {
+    "att": 875,
+    "def": 289,
+    "hp": 2697
+   },
+   {
+    "att": 883,
+    "def": 292,
+    "hp": 2726
+   },
+   {
+    "att": 892,
+    "def": 295,
+    "hp": 2755
+   },
+   {
+    "att": 901,
+    "def": 298,
+    "hp": 2784
+   },
+   {
+    "att": 910,
+    "def": 301,
+    "hp": 2813
+   },
+   {
+    "att": 919,
+    "def": 304,
+    "hp": 2842
+   },
+   {
+    "att": 927,
+    "def": 308,
+    "hp": 2870
+   },
+   {
+    "att": 936,
+    "def": 311,
+    "hp": 2899
+   },
+   {
+    "att": 945,
+    "def": 314,
+    "hp": 2928
+   },
+   {
+    "att": 954,
+    "def": 317,
+    "hp": 2957
+   },
+   {
+    "att": 963,
+    "def": 320,
+    "hp": 2986
+   },
+   {
+    "att": 971,
+    "def": 324,
+    "hp": 3014
+   },
+   {
+    "att": 980,
+    "def": 327,
+    "hp": 3043
+   },
+   {
+    "att": 989,
+    "def": 330,
+    "hp": 3072
+   },
+   {
+    "att": 998,
+    "def": 333,
+    "hp": 3101
+   },
+   {
+    "att": 1007,
+    "def": 336,
+    "hp": 3130
+   },
+   {
+    "att": 1016,
+    "def": 339,
+    "hp": 3158
+   },
+   {
+    "att": 1024,
+    "def": 343,
+    "hp": 3187
+   },
+   {
+    "att": 1033,
+    "def": 346,
+    "hp": 3216
+   },
+   {
+    "att": 1042,
+    "def": 349,
+    "hp": 3245
+   },
+   {
+    "att": 1051,
+    "def": 352,
+    "hp": 3274
+   },
+   {
+    "att": 1060,
+    "def": 355,
+    "hp": 3303
+   },
+   {
+    "att": 1068,
+    "def": 359,
+    "hp": 3331
+   },
+   {
+    "att": 1077,
+    "def": 362,
+    "hp": 3360
+   },
+   {
+    "att": 1086,
+    "def": 365,
+    "hp": 3389
+   },
+   {
+    "att": 1095,
+    "def": 368,
+    "hp": 3418
+   },
+   {
+    "att": 1104,
+    "def": 371,
+    "hp": 3447
+   },
+   {
+    "att": 1112,
+    "def": 374,
+    "hp": 3475
+   },
+   {
+    "att": 1121,
+    "def": 378,
+    "hp": 3504
+   },
+   {
+    "att": 1263,
+    "def": 430,
+    "hp": 3866
+   },
+   {
+    "att": 1270,
+    "def": 432,
+    "hp": 3887
+   },
+   {
+    "att": 1276,
+    "def": 435,
+    "hp": 3909
+   },
+   {
+    "att": 1283,
+    "def": 437,
+    "hp": 3931
+   },
+   {
+    "att": 1289,
+    "def": 440,
+    "hp": 3952
+   },
+   {
+    "att": 1296,
+    "def": 442,
+    "hp": 3974
+   },
+   {
+    "att": 1303,
+    "def": 444,
+    "hp": 3995
+   },
+   {
+    "att": 1309,
+    "def": 447,
+    "hp": 4017
+   },
+   {
+    "att": 1316,
+    "def": 449,
+    "hp": 4039
+   },
+   {
+    "att": 1322,
+    "def": 451,
+    "hp": 4060
+   },
+   {
+    "att": 1329,
+    "def": 454,
+    "hp": 4082
+   },
+   {
+    "att": 1336,
+    "def": 456,
+    "hp": 4104
+   },
+   {
+    "att": 1342,
+    "def": 459,
+    "hp": 4125
+   },
+   {
+    "att": 1349,
+    "def": 461,
+    "hp": 4147
+   },
+   {
+    "att": 1355,
+    "def": 463,
+    "hp": 4168
+   },
+   {
+    "att": 1362,
+    "def": 466,
+    "hp": 4190
+   },
+   {
+    "att": 1369,
+    "def": 468,
+    "hp": 4212
+   },
+   {
+    "att": 1375,
+    "def": 471,
+    "hp": 4233
+   },
+   {
+    "att": 1382,
+    "def": 473,
+    "hp": 4255
+   },
+   {
+    "att": 1388,
+    "def": 475,
+    "hp": 4276
+   },
+   {
+    "att": 1395,
+    "def": 478,
+    "hp": 4298
+   },
+   {
+    "att": 1402,
+    "def": 480,
+    "hp": 4320
+   },
+   {
+    "att": 1408,
+    "def": 482,
+    "hp": 4341
+   },
+   {
+    "att": 1415,
+    "def": 485,
+    "hp": 4363
+   },
+   {
+    "att": 1422,
+    "def": 487,
+    "hp": 4384
+   },
+   {
+    "att": 1428,
+    "def": 490,
+    "hp": 4406
+   },
+   {
+    "att": 1435,
+    "def": 492,
+    "hp": 4428
+   },
+   {
+    "att": 1441,
+    "def": 494,
+    "hp": 4449
+   },
+   {
+    "att": 1448,
+    "def": 497,
+    "hp": 4471
+   },
+   {
+    "att": 1455,
+    "def": 499,
+    "hp": 4493
+   },
+   {
+    "att": 1461,
+    "def": 502,
+    "hp": 4514
+   },
+   {
+    "att": 1468,
+    "def": 504,
+    "hp": 4536
+   },
+   {
+    "att": 1474,
+    "def": 506,
+    "hp": 4557
+   },
+   {
+    "att": 1481,
+    "def": 509,
+    "hp": 4579
+   },
+   {
+    "att": 1488,
+    "def": 511,
+    "hp": 4601
+   },
+   {
+    "att": 1494,
+    "def": 513,
+    "hp": 4622
+   },
+   {
+    "att": 1501,
+    "def": 516,
+    "hp": 4644
+   },
+   {
+    "att": 1507,
+    "def": 518,
+    "hp": 4665
+   },
+   {
+    "att": 1514,
+    "def": 521,
+    "hp": 4687
+   },
+   {
+    "att": 1521,
+    "def": 523,
+    "hp": 4709
+   },
+   {
+    "att": 1527,
+    "def": 525,
+    "hp": 4730
+   },
+   {
+    "att": 1534,
+    "def": 528,
+    "hp": 4752
+   },
+   {
+    "att": 1540,
+    "def": 530,
+    "hp": 4773
+   },
+   {
+    "att": 1547,
+    "def": 533,
+    "hp": 4795
+   },
+   {
+    "att": 1554,
+    "def": 535,
+    "hp": 4817
+   },
+   {
+    "att": 1560,
+    "def": 537,
+    "hp": 4838
+   },
+   {
+    "att": 1567,
+    "def": 540,
+    "hp": 4860
+   },
+   {
+    "att": 1574,
+    "def": 542,
+    "hp": 4881
+   },
+   {
+    "att": 1580,
+    "def": 544,
+    "hp": 4903
+   },
+   {
+    "att": 1587,
+    "def": 547,
+    "hp": 4925
+   },
+   {
+    "att": 1791,
+    "def": 613,
+    "hp": 5449
+   },
+   {
+    "att": 1796,
+    "def": 615,
+    "hp": 5463
+   },
+   {
+    "att": 1800,
+    "def": 617,
+    "hp": 5478
+   },
+   {
+    "att": 1804,
+    "def": 618,
+    "hp": 5492
+   },
+   {
+    "att": 1809,
+    "def": 620,
+    "hp": 5507
+   },
+   {
+    "att": 1813,
+    "def": 621,
+    "hp": 5521
+   },
+   {
+    "att": 1818,
+    "def": 623,
+    "hp": 5536
+   },
+   {
+    "att": 1822,
+    "def": 625,
+    "hp": 5550
+   },
+   {
+    "att": 1826,
+    "def": 626,
+    "hp": 5564
+   },
+   {
+    "att": 1831,
+    "def": 628,
+    "hp": 5579
+   },
+   {
+    "att": 1835,
+    "def": 629,
+    "hp": 5593
+   },
+   {
+    "att": 1840,
+    "def": 631,
+    "hp": 5608
+   },
+   {
+    "att": 1844,
+    "def": 633,
+    "hp": 5622
+   },
+   {
+    "att": 1848,
+    "def": 634,
+    "hp": 5636
+   },
+   {
+    "att": 1853,
+    "def": 636,
+    "hp": 5651
+   },
+   {
+    "att": 1857,
+    "def": 637,
+    "hp": 5665
+   },
+   {
+    "att": 1862,
+    "def": 639,
+    "hp": 5680
+   },
+   {
+    "att": 1866,
+    "def": 640,
+    "hp": 5694
+   },
+   {
+    "att": 1870,
+    "def": 642,
+    "hp": 5708
+   },
+   {
+    "att": 1875,
+    "def": 644,
+    "hp": 5723
+   },
+   {
+    "att": 1879,
+    "def": 645,
+    "hp": 5737
+   },
+   {
+    "att": 1884,
+    "def": 647,
+    "hp": 5752
+   },
+   {
+    "att": 1888,
+    "def": 648,
+    "hp": 5766
+   },
+   {
+    "att": 1893,
+    "def": 650,
+    "hp": 5780
+   },
+   {
+    "att": 1897,
+    "def": 652,
+    "hp": 5795
+   },
+   {
+    "att": 1901,
+    "def": 653,
+    "hp": 5809
+   },
+   {
+    "att": 1906,
+    "def": 655,
+    "hp": 5824
+   },
+   {
+    "att": 1910,
+    "def": 656,
+    "hp": 5838
+   },
+   {
+    "att": 1915,
+    "def": 658,
+    "hp": 5852
+   },
+   {
+    "att": 1919,
+    "def": 660,
+    "hp": 5867
+   },
+   {
+    "att": 1923,
+    "def": 661,
+    "hp": 5881
+   },
+   {
+    "att": 1928,
+    "def": 663,
+    "hp": 5896
+   },
+   {
+    "att": 1932,
+    "def": 664,
+    "hp": 5910
+   },
+   {
+    "att": 1937,
+    "def": 666,
+    "hp": 5924
+   },
+   {
+    "att": 1941,
+    "def": 668,
+    "hp": 5939
+   },
+   {
+    "att": 1945,
+    "def": 669,
+    "hp": 5953
+   },
+   {
+    "att": 1950,
+    "def": 671,
+    "hp": 5968
+   },
+   {
+    "att": 1954,
+    "def": 672,
+    "hp": 5982
+   },
+   {
+    "att": 1959,
+    "def": 674,
+    "hp": 5997
+   },
+   {
+    "att": 1963,
+    "def": 675,
+    "hp": 6011
+   },
+   {
+    "att": 1967,
+    "def": 677,
+    "hp": 6025
+   },
+   {
+    "att": 1972,
+    "def": 679,
+    "hp": 6040
+   },
+   {
+    "att": 1976,
+    "def": 680,
+    "hp": 6054
+   },
+   {
+    "att": 1981,
+    "def": 682,
+    "hp": 6069
+   },
+   {
+    "att": 1985,
+    "def": 683,
+    "hp": 6083
+   },
+   {
+    "att": 1989,
+    "def": 685,
+    "hp": 6097
+   },
+   {
+    "att": 1994,
+    "def": 687,
+    "hp": 6112
+   },
+   {
+    "att": 1998,
+    "def": 688,
+    "hp": 6126
+   },
+   {
+    "att": 2003,
+    "def": 690,
+    "hp": 6141
+   },
+   {
+    "att": 2007,
+    "def": 691,
+    "hp": 6155
+   },
+   {
+    "att": 2011,
+    "def": 693,
+    "hp": 6169
+   },
+   {
+    "att": 2016,
+    "def": 695,
+    "hp": 6184
+   },
+   {
+    "att": 2020,
+    "def": 696,
+    "hp": 6198
+   },
+   {
+    "att": 2025,
+    "def": 698,
+    "hp": 6213
+   },
+   {
+    "att": 2029,
+    "def": 699,
+    "hp": 6227
+   },
+   {
+    "att": 2034,
+    "def": 701,
+    "hp": 6241
+   },
+   {
+    "att": 2038,
+    "def": 702,
+    "hp": 6256
+   },
+   {
+    "att": 2042,
+    "def": 704,
+    "hp": 6270
+   },
+   {
+    "att": 2047,
+    "def": 706,
+    "hp": 6285
+   },
+   {
+    "att": 2051,
+    "def": 707,
+    "hp": 6299
+   },
+   {
+    "att": 2056,
+    "def": 709,
+    "hp": 6313
+   },
+   {
+    "att": 2060,
+    "def": 710,
+    "hp": 6328
+   },
+   {
+    "att": 2064,
+    "def": 712,
+    "hp": 6342
+   },
+   {
+    "att": 2069,
+    "def": 714,
+    "hp": 6357
+   },
+   {
+    "att": 2073,
+    "def": 715,
+    "hp": 6371
+   },
+   {
+    "att": 2078,
+    "def": 717,
+    "hp": 6385
+   },
+   {
+    "att": 2082,
+    "def": 718,
+    "hp": 6400
+   },
+   {
+    "att": 2086,
+    "def": 720,
+    "hp": 6414
+   },
+   {
+    "att": 2091,
+    "def": 722,
+    "hp": 6429
+   },
+   {
+    "att": 2095,
+    "def": 723,
+    "hp": 6443
+   },
+   {
+    "att": 2100,
+    "def": 725,
+    "hp": 6458
+   },
+   {
+    "att": 2104,
+    "def": 726,
+    "hp": 6472
+   },
+   {
+    "att": 2108,
+    "def": 728,
+    "hp": 6486
+   },
+   {
+    "att": 2113,
+    "def": 730,
+    "hp": 6501
+   },
+   {
+    "att": 2117,
+    "def": 731,
+    "hp": 6515
+   },
+   {
+    "att": 2122,
+    "def": 733,
+    "hp": 6530
+   },
+   {
+    "att": 2126,
+    "def": 734,
+    "hp": 6544
+   },
+   {
+    "att": 2130,
+    "def": 736,
+    "hp": 6558
+   },
+   {
+    "att": 2135,
+    "def": 737,
+    "hp": 6573
+   },
+   {
+    "att": 2139,
+    "def": 739,
+    "hp": 6587
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   },
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Gronru",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Gronru:",
+      "text": "How many more secrets are hidden within this Colossus..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "Powerful engines, the ability to fly, perfect exterior, and plenty of amenities within..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "I really want to know how the Colossus was designed and built."
+     },
+     {
+      "character": "Zoya:",
+      "text": "So Chief Gronru is also interested in the Colossus?"
+     },
+     {
+      "character": "Gronru:",
+      "text": "Oh? You too?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Y... yes! When I first boarded the Colossus. I became fascinated with it..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "It's a pity the others don't even realize how incredible it is..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "Oh, yeah!"
+     },
+     {
+      "character": "Gronru:",
+      "text": "All they do is waste time on snacks and naps."
+     },
+     {
+      "character": "Gronru:",
+      "text": "They don't know they are living in a miracle. The purpose of existence of this miracle is wasted on them."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Chief, by the purpose of existence of this miracle, you mean?"
+     },
+     {
+      "character": "Gronru:",
+      "text": "Well, we're supposed to take it apart and study it, of course!"
+     },
+     {
+      "character": "Gronru:",
+      "text": "You know what? Let's take it apart now! Help me!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yes!"
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Ms. Gronru requested to join our Expedition Team herself. To be honest, we would have refused her if it wasn't for the fact that we desired her combat power. As for our reason... generally speaking, we do everything that's best for the Colossus.On the first day that Ms. Gronru joined us, she kept requesting to help pilot the Colossus. I'm certain she only wants to do this because she thinks it'll be fun! If we really let her operate the Colossus, I'm sure we might end up crashing. Please don't get me wrong, as I'm not doubting Ms. Gronru's skills in gaming control\u2014I'm just worried that she will disregard safety precautions for more thrilling experiences... I'm afraid that she'll crash and say: \"One more time!\"\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Hey! Young operator of the Colossus, let's play a game! If I win, I'll take control of the Colossus, and if you win... I'll tell you a story! Look at my fists, scissors, and handblades. I let you win on purpose.As the person who is the most learned about machinery in Illumina, I'm most interested in ways to manipulate machinery and games. Let me tell you a secret: back then, I would even get my hands on some military weapons... Of course, this is out of line at Illumina, but it doesn't matter since it's all for serving Illumina, right? Once I entered the research institute, I was able to study them in broad daylight.By the way, Illumina wasn't as interesting as it is now. This is all due to the development of science and technology. You look puzzled when I say that, kid. I'm far older than you think!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Have you heard of the Illumina Emperor's Cup? That's how I got my title and the right to use the Throne! For some reason, the Emperor's Cup was only held once... so it was definitely the most limited edition of all. There were more than a thousand participants that year, and the rules of the tournament were simple: contestants would be matched randomly against one another, and the winner would enter the next round. I was already slightly famous in the preliminaries, since... I was the organizer of the tournament, which I held to encourage everyone to be more interested and enthusiastic about technology and research. I also offered the precious mecha I found, Throne, as the prize. Too bad no one could beat me!But! Those stubborn old men actually sealed Throne up, accusing me of ignoring the rules! How outrageous! As a result, I had to \"borrow\" some of the technology to make my Thunder Gauntlets."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "The accident that took place that year wasn't my fault!Undercity was under Eclipsites' attack at that time. As we didn't have enough armed forces available, we had to urgently activate Unit Spearhead, which was still under development. Hmm... Maybe Vice was too young, and I was over-confident about the situation back then. Either way, I think I owe Vice an apology for what happened. Fortunately, the outcome was still alright! As expected of someone I had my eyes on as a candidate for the position of Grand Marshal!Either way, it's those Eclipsites' fault for embarrassing me! They're just fodder, so they should act the part and let me kill them to gain experience!It's good that I'm invincible when I pilot my Throne! After that, I beat them until they were black and blue! I'm awesome, if I do say so myself!"
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "You're joking, right? Did you really take me for a daughter or granddaughter of some researcher?I'm no ordinary folk. You've heard something about me, right? Perhaps I really am a god! Hahahaha!As for how I remember, Throne is a product of an ancient civilization that is far more advanced than our modern civilization. Its creator back in that era must also be a supreme genius.Am I related to the creator of Throne? There is no information about this in my incomplete memories. Its power is incomprehensible to the people of this era. Perhaps the fact that I awakened in this era is some kind of prediction?I'm not interested in protecting anyone, but the game we're currently playing is quite fun! Why don't we clear this level?"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Illumina is researchers' paradise. We'll develop even more awesome stuffs. You'll see.",
+  "That Raphael Lumopolis sent is quite the researcher, but she's nowhere near my standard.",
+  "Splendor Illumina!",
+  "The extensive research into them is paused for the moment... I'll be more careful next time.",
+  "The current Grand Marshal is the best. Sometimes I even feel that she's more like a boss in a game.",
+  "Loser! That's quite a brag for someone so young. He's no match for me in terms of machine operation skills.",
+  "Things I like? Games, researches, old machineries, and the champion's throne.",
+  "I'm sure the world would be a very unpleasant place without fun games!",
+  "Mechanical technology, biotechnology, Aurorian technology... Perhaps the Colossus is the perfect creation.",
+  "Have you finally made up your mind? Can I play with your Colossus?",
+  "As a researcher, you should look more from the outside in. It might give you a different perspective.",
+  "Is there such a rule? Damn...",
+  "That was fun! Let's go again, let's go again!",
+  "Megashock!",
+  "Mecha skill!",
+  "Let me have some fun!",
+  "Cleared for a year, here comes another year!",
+  "There's such a huge score difference between the first and second place!",
+  "The supreme power of the Age of Fear is awake!",
+  "No one can drag me out of this throne!",
+  "Regret opposing me now!",
+  "Steadfast cavalry, unfallible tactics, raw military might! We shall fight on the beaches... Tsk, back to my bad habits again. Need to remember what age I am!",
+  "Cleared! Phew!",
+  "Alchemy Stars!",
+  "The ruined of the testing ground remind me of how extraordinary the results of that bygone era were. I have indeed made a mistake, but failure is the mother of success, isn't it?",
+  "The tragedies of the world are none of my business, and I don't want to fake sympathy. Illumina is actually quite fun, isn't it?",
+  "My vehicle is a relic from a long time ago, something that could only have been built with a complete disregard for process and cost. I've really hit the jackpot!",
+  "I'm not bound by rules! I bet my life as a researcher that I will find the answer!",
+  "Do you want to count my victories? You see, no matter the game, my score always tops the leaderboard.",
+  "The Throne is a relic of a distant age, and only those who \"first understood\" the secrets it contains are entitled to use it.",
+  "My job is to clear the stages, and nothing else has anything to do with me, right? After all, everyone has their own stages to clear.",
+  "The giant crater in that realm is a spectacle indeed. I wish I had time to go and have a look, but it looks like the place has been taken over by a bunch of hobos.",
+  "We are all children abandoned by civilization... You really don't know anything about that era? Oh well, it's not surprising. After all, none of those things are recorded in the literatures open to the public.",
+  "The games here aren't that bad either, like operating the Colossus... What? It's not a game?",
+  "It is truly amazing that, with a clear mind, one can make the outside world feel both strange and new again.",
+  "A dungeon in the \"World\" has been updated. Wanna take on the challenge?",
+  "Look who's here\u2014the loser!",
+  "No more talking and do the rock-paper-scissors! Ha, you lost!",
+  "So have you decided how you're gonna challenge me, loser?",
+  "Cheer up. To a researcher, the game has just begun!",
+  "You have an aura similar to mine. Have we met before? Or have you participated in the Emperor's Cup before? In that case, you must know me!",
+  "Let me guess. Is it a new game or an enhancement card?",
+  "Let me guess. You've come up with some new gameplay?",
+  "I've never seen anything so interesting at Illumina!",
+  "You know what I like to play!",
+  "Game start!",
+  "Wanna tap and try?",
+  "A new record is about to be made!",
+  "This power seemed to have failed to protect the era that created it, and now that I have rediscovered it, can it protect our era?",
+  "Perhaps one day this era will fall in the same way as those ancient empires, but these games will go on until the winner is determined.",
+  "My memory of the experiment is intact, but I don't want to share this useless knowledge with you. I can tell from your flabbergasted look that you are still at the inexperienced stage.",
+  "Game start! I'm with Illumina!"
+ ],
+ "skins": [],
+ "description": "A female pilot of the giant mecha and the current Tech Officer of the Illumina Federation. She's said to be a genius retired from the military... Although she isn't particularly interested in fighting, she's intensely passionate about studying and controlling giant machines, almost to the point of obsession.",
+ "realName": "Gronru",
+ "nickname": "Maidenly Throne",
+ "gender": "Female",
+ "height": "5'1\"",
+ "birthday": "June 3",
+ "birthplace": "Gannon City",
+ "style": "Thunder Gauntlet, Mecha"
 }

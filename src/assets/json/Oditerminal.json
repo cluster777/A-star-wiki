@@ -1,0 +1,444 @@
+[
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Navigator, bring me the Firefly that needs repairing. I'm in the lounge right now."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Alright! Thank you!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Are you sure it's no trouble?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Alright! Thank you!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Odi:",
+      "content": "It's nothing. I mean, after all, we've been through, I can't help but take things like this seriously."
+     },
+     {
+      "name": "Odi:",
+      "content": "The lounge, remember it's the lounge."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Are you sure it's no trouble?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Odi:",
+      "content": "Repairs like this are not a big deal."
+     },
+     {
+      "name": "Odi:",
+      "content": "The problem here should be those who didn't use their head and consider things were broken."
+     },
+     {
+      "name": "Odi:",
+      "content": "Ah... When a machine breaks down, most people just bang on it with their fists."
+     },
+     {
+      "name": "Odi:",
+      "content": "If only they could do the same to their own broken brains."
+     },
+     {
+      "name": "Odi:",
+      "content": "The lounge, remember it's the lounge."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Hey! Wanna see something cool?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Something cool? What is it?"
+   },
+   {
+    "name": "Odi:",
+    "content": "It's just the complete Illumina member roster, that's all! It even has the names of some secret squads outsiders have never heard of! How could anyone not find such a thing interesting!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "What? How did you get your hands on that?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Isn't it wrong to poke your nose into other people's secrets...?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "What? How did you get your hands on that?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Odi:",
+      "content": "I hacked into their system, of course!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "You've been hacking again? I heard Vice say that you were hacking only just last week..."
+     },
+     {
+      "name": "Odi:",
+      "content": "Last week was last week, this week is this week, so what's the problem? That's the thing about hacking\u2014it's always new!"
+     },
+     {
+      "name": "Odi:",
+      "content": "So, do you want to see it or not?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "We can't do that..."
+     },
+     {
+      "name": "Odi:",
+      "content": "We can't? Oh, I see\u2014the Colossus' power system isn't strong enough."
+     },
+     {
+      "name": "Odi:",
+      "content": "No worries! I'll help you to break through the security restrictions! One second and we'll be flying high!"
+     },
+     {
+      "name": "Odi:",
+      "content": "The Illumina Federation won't be able to lay a hand on us!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's clearly not what I meant!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Isn't it wrong to poke your nose into other people's secrets...?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Odi:",
+      "content": "What are you afraid of? Think they'll come looking for us? You have a Colossus! How can they get us when we're soaring through the clouds?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Wait a minute... How did you get your hands on that?"
+     },
+     {
+      "name": "Odi:",
+      "content": "I hacked into their system, of course!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why have you been hacking again? How many times did you go hacking last week?"
+     },
+     {
+      "name": "Odi:",
+      "content": "Don't worry about it! That's the thing about hacking\u2014it's always new!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "We can't do that..."
+     },
+     {
+      "name": "Odi:",
+      "content": "We can't? Oh, I see\u2014the Colossus' power system isn't strong enough."
+     },
+     {
+      "name": "Odi:",
+      "content": "No worries! I'll help you to break through the security restrictions! One second and we'll be flying high!"
+     },
+     {
+      "name": "Odi:",
+      "content": "The Illumina Federation won't be able to lay a hand on us!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's clearly not what I meant!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Hey, you have a pretty good communications system here!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Instant messaging\u2014it's so easy to send and receive messages!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Single line evaluations\u2014it's super easy to use!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm glad you like it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "If I'm not mistaken, you're the only one who's praised Soroz's communication system."
+   },
+   {
+    "name": "Odi:",
+    "content": "Of course! I can see how good it is at a single glance, not like the rest of those muscle heads!"
+   },
+   {
+    "name": "Odi:",
+    "content": "After all, I tried for half a day and didn't manage to hack it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What!? You tried to hack into Soroz?"
+   },
+   {
+    "name": "Odi:",
+    "content": "Of course! A huge thing like this... How could I resist!?"
+   },
+   {
+    "name": "Odi:",
+    "content": "Actually, I'm about to make it into the bridge."
+   },
+   {
+    "name": "Odi:",
+    "content": "But there are several areas I can't hack into..."
+   },
+   {
+    "name": "Odi:",
+    "content": "Can you give me a hint? Just a little hint should be enough for me to get in!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why would I give you a hint!?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Navigator, are you busy right now?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I've just had my lunch... What's up?"
+   },
+   {
+    "name": "Odi:",
+    "content": "Come assist me with something. I need your help!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You've come up against another obstacle, huh?"
+   },
+   {
+    "name": "Odi:",
+    "content": "It seems you know me too well... Well, I'll say no more."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What a hard life..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Geez, I haven't seen you in such a long time. No one bothers to come and see me!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "What a drag... Hey, why don't you take a nap first?"
+   },
+   {
+    "name": "Odi:",
+    "content": "..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, no. I seem to be getting something from the ellipsis."
+   },
+   {
+    "name": "Odi:",
+    "content": "Goodbye, Navigator, and goodbye lunch break."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Don't give up, Odi!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Hey! Wake up!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Odi. I haven't gone to bed yet, you know..."
+   },
+   {
+    "name": "Odi:",
+    "content": "Perfect. I lost a pair of glasses today!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Do you need me to help you search for them?"
+   },
+   {
+    "name": "Odi:",
+    "content": "Nope! I've already found them a while ago."
+   },
+   {
+    "name": "Odi:",
+    "content": "I just came to tell you, I installed a brand-new component on your Colossus!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Crap... Why do I have a bad feeling about this...?"
+   },
+   {
+    "name": "Odi:",
+    "content": "Seeing as how often I lose my glasses, I've installed devices in every corner of the Colossus to help me search for them."
+   },
+   {
+    "name": "Odi:",
+    "content": "They can tell me exactly where my glasses are the moment I lose them!"
+   },
+   {
+    "name": "Odi:",
+    "content": "The only problem is... They make a lot of noise when they're in standby mode..."
+   },
+   {
+    "name": "Odi:",
+    "content": "But the important thing is, I'll never have to worry about losing my glasses ever again!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Anyways, I just wanted to let you know about it. I'm off to bed now. Good night!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait a second! You better take all of them down tomorrow, you hear me?!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Odi:",
+    "content": "Heeheehee... It's gotten late."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Odi. You seem in pretty high spirits tonight?"
+   },
+   {
+    "name": "Odi:",
+    "content": "That's right! I managed to improve the comms in the Colossus today!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...The comms system? You mean Soroz's communications system?"
+   },
+   {
+    "name": "Odi:",
+    "content": "I noticed that you woke up late this morning, and you were muttering something to yourself about wishing you could eat breakfast in bed..."
+   },
+   {
+    "name": "Odi:",
+    "content": "And when you were in the training room, not only were you slacking off, you were also complaining about Vice's regiment being too harsh!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Hahahahaha! I have to say... I've really outdone myself this time! I'm a genius!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, no, no, you don't call that an improvement!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's just outright spying! Get rid of it this instant!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "If you don't do it, I'll have the Fireflies undo your improvements instead!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Makes no difference to me. At least I got to see a different, lazier side of you today!"
+   },
+   {
+    "name": "Odi:",
+    "content": "Heeheehee... I'm going to bed now!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

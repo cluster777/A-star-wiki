@@ -1,715 +1,812 @@
 {
-      "name": "Chainsaw Rick",
-      "faction": "Rediesel Wrench",
-      "element_main": "Fire",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Deals 300% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range and knocks enemies back.",
-                  "Deals 300% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range and knocks enemies back."
-            ]
-      },
-      "equip": {
-            "name": "Modified Power Saw",
-            "passive": "Rediesel Retrofit",
-            "description": [
-                  [
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 50%."
-                  ],
-                  [
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 20%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 30%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 40%.",
-                        "Increases Active Skill damage by 50%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape and knocks enemies back."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape and knocks enemies back."
-                        },
-                        {
-                              "cost": "7",
-                              "description": "Deals 175% damage to 12 tiles in a cross shape and knocks enemies back."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Fire Flare Silt",
-                        "Fire Essence",
-                        "Rediesel Extract",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Active Skill damage by 50%."
-            },
-            {
-                  "material": [
-                        "Fire Potion II",
-                        "Fire Crystal Shard",
-                        "Rediesel Concentrate",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "",
-                  "after": ""
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 541,
-                        "def": 212,
-                        "hp": 1603
-                  },
-                  {
-                        "att": 551,
-                        "def": 215,
-                        "hp": 1628
-                  },
-                  {
-                        "att": 561,
-                        "def": 219,
-                        "hp": 1653
-                  },
-                  {
-                        "att": 571,
-                        "def": 222,
-                        "hp": 1679
-                  },
-                  {
-                        "att": 581,
-                        "def": 226,
-                        "hp": 1704
-                  },
-                  {
-                        "att": 591,
-                        "def": 229,
-                        "hp": 1729
-                  },
-                  {
-                        "att": 601,
-                        "def": 233,
-                        "hp": 1754
-                  },
-                  {
-                        "att": 611,
-                        "def": 236,
-                        "hp": 1780
-                  },
-                  {
-                        "att": 621,
-                        "def": 240,
-                        "hp": 1805
-                  },
-                  {
-                        "att": 631,
-                        "def": 243,
-                        "hp": 1830
-                  },
-                  {
-                        "att": 641,
-                        "def": 246,
-                        "hp": 1855
-                  },
-                  {
-                        "att": 651,
-                        "def": 250,
-                        "hp": 1880
-                  },
-                  {
-                        "att": 661,
-                        "def": 253,
-                        "hp": 1906
-                  },
-                  {
-                        "att": 671,
-                        "def": 257,
-                        "hp": 1931
-                  },
-                  {
-                        "att": 680,
-                        "def": 260,
-                        "hp": 1956
-                  },
-                  {
-                        "att": 690,
-                        "def": 264,
-                        "hp": 1981
-                  },
-                  {
-                        "att": 700,
-                        "def": 267,
-                        "hp": 2007
-                  },
-                  {
-                        "att": 710,
-                        "def": 271,
-                        "hp": 2032
-                  },
-                  {
-                        "att": 720,
-                        "def": 274,
-                        "hp": 2057
-                  },
-                  {
-                        "att": 730,
-                        "def": 278,
-                        "hp": 2082
-                  },
-                  {
-                        "att": 740,
-                        "def": 281,
-                        "hp": 2107
-                  },
-                  {
-                        "att": 750,
-                        "def": 285,
-                        "hp": 2133
-                  },
-                  {
-                        "att": 760,
-                        "def": 288,
-                        "hp": 2158
-                  },
-                  {
-                        "att": 770,
-                        "def": 291,
-                        "hp": 2183
-                  },
-                  {
-                        "att": 780,
-                        "def": 295,
-                        "hp": 2208
-                  },
-                  {
-                        "att": 790,
-                        "def": 298,
-                        "hp": 2234
-                  },
-                  {
-                        "att": 800,
-                        "def": 302,
-                        "hp": 2259
-                  },
-                  {
-                        "att": 810,
-                        "def": 305,
-                        "hp": 2284
-                  },
-                  {
-                        "att": 820,
-                        "def": 309,
-                        "hp": 2309
-                  },
-                  {
-                        "att": 830,
-                        "def": 312,
-                        "hp": 2334
-                  },
-                  {
-                        "att": 932,
-                        "def": 347,
-                        "hp": 2606
-                  },
-                  {
-                        "att": 945,
-                        "def": 351,
-                        "hp": 2637
-                  },
-                  {
-                        "att": 957,
-                        "def": 355,
-                        "hp": 2669
-                  },
-                  {
-                        "att": 970,
-                        "def": 360,
-                        "hp": 2701
-                  },
-                  {
-                        "att": 982,
-                        "def": 364,
-                        "hp": 2732
-                  },
-                  {
-                        "att": 995,
-                        "def": 368,
-                        "hp": 2764
-                  },
-                  {
-                        "att": 1007,
-                        "def": 373,
-                        "hp": 2795
-                  },
-                  {
-                        "att": 1020,
-                        "def": 377,
-                        "hp": 2827
-                  },
-                  {
-                        "att": 1032,
-                        "def": 381,
-                        "hp": 2858
-                  },
-                  {
-                        "att": 1045,
-                        "def": 385,
-                        "hp": 2890
-                  },
-                  {
-                        "att": 1057,
-                        "def": 390,
-                        "hp": 2921
-                  },
-                  {
-                        "att": 1069,
-                        "def": 394,
-                        "hp": 2953
-                  },
-                  {
-                        "att": 1082,
-                        "def": 398,
-                        "hp": 2984
-                  },
-                  {
-                        "att": 1094,
-                        "def": 403,
-                        "hp": 3016
-                  },
-                  {
-                        "att": 1107,
-                        "def": 407,
-                        "hp": 3047
-                  },
-                  {
-                        "att": 1119,
-                        "def": 411,
-                        "hp": 3079
-                  },
-                  {
-                        "att": 1132,
-                        "def": 416,
-                        "hp": 3110
-                  },
-                  {
-                        "att": 1144,
-                        "def": 420,
-                        "hp": 3142
-                  },
-                  {
-                        "att": 1157,
-                        "def": 424,
-                        "hp": 3173
-                  },
-                  {
-                        "att": 1169,
-                        "def": 429,
-                        "hp": 3205
-                  },
-                  {
-                        "att": 1182,
-                        "def": 433,
-                        "hp": 3236
-                  },
-                  {
-                        "att": 1194,
-                        "def": 437,
-                        "hp": 3268
-                  },
-                  {
-                        "att": 1206,
-                        "def": 442,
-                        "hp": 3299
-                  },
-                  {
-                        "att": 1219,
-                        "def": 446,
-                        "hp": 3331
-                  },
-                  {
-                        "att": 1231,
-                        "def": 450,
-                        "hp": 3363
-                  },
-                  {
-                        "att": 1244,
-                        "def": 455,
-                        "hp": 3394
-                  },
-                  {
-                        "att": 1256,
-                        "def": 459,
-                        "hp": 3426
-                  },
-                  {
-                        "att": 1269,
-                        "def": 463,
-                        "hp": 3457
-                  },
-                  {
-                        "att": 1281,
-                        "def": 468,
-                        "hp": 3489
-                  },
-                  {
-                        "att": 1294,
-                        "def": 472,
-                        "hp": 3520
-                  },
-                  {
-                        "att": 1306,
-                        "def": 476,
-                        "hp": 3552
-                  },
-                  {
-                        "att": 1319,
-                        "def": 481,
-                        "hp": 3583
-                  },
-                  {
-                        "att": 1331,
-                        "def": 485,
-                        "hp": 3615
-                  },
-                  {
-                        "att": 1343,
-                        "def": 489,
-                        "hp": 3646
-                  },
-                  {
-                        "att": 1356,
-                        "def": 494,
-                        "hp": 3678
-                  },
-                  {
-                        "att": 1368,
-                        "def": 498,
-                        "hp": 3709
-                  },
-                  {
-                        "att": 1381,
-                        "def": 502,
-                        "hp": 3741
-                  },
-                  {
-                        "att": 1393,
-                        "def": 507,
-                        "hp": 3772
-                  },
-                  {
-                        "att": 1406,
-                        "def": 511,
-                        "hp": 3804
-                  },
-                  {
-                        "att": 1418,
-                        "def": 515,
-                        "hp": 3835
-                  },
-                  {
-                        "att": 1568,
-                        "def": 569,
-                        "hp": 4239
-                  },
-                  {
-                        "att": 1577,
-                        "def": 572,
-                        "hp": 4263
-                  },
-                  {
-                        "att": 1586,
-                        "def": 575,
-                        "hp": 4286
-                  },
-                  {
-                        "att": 1596,
-                        "def": 578,
-                        "hp": 4310
-                  },
-                  {
-                        "att": 1605,
-                        "def": 582,
-                        "hp": 4334
-                  },
-                  {
-                        "att": 1614,
-                        "def": 585,
-                        "hp": 4357
-                  },
-                  {
-                        "att": 1624,
-                        "def": 588,
-                        "hp": 4381
-                  },
-                  {
-                        "att": 1633,
-                        "def": 591,
-                        "hp": 4405
-                  },
-                  {
-                        "att": 1642,
-                        "def": 595,
-                        "hp": 4428
-                  },
-                  {
-                        "att": 1652,
-                        "def": 598,
-                        "hp": 4452
-                  },
-                  {
-                        "att": 1661,
-                        "def": 601,
-                        "hp": 4475
-                  },
-                  {
-                        "att": 1670,
-                        "def": 604,
-                        "hp": 4499
-                  },
-                  {
-                        "att": 1680,
-                        "def": 608,
-                        "hp": 4523
-                  },
-                  {
-                        "att": 1689,
-                        "def": 611,
-                        "hp": 4546
-                  },
-                  {
-                        "att": 1698,
-                        "def": 614,
-                        "hp": 4570
-                  },
-                  {
-                        "att": 1708,
-                        "def": 617,
-                        "hp": 4594
-                  },
-                  {
-                        "att": 1717,
-                        "def": 620,
-                        "hp": 4617
-                  },
-                  {
-                        "att": 1726,
-                        "def": 624,
-                        "hp": 4641
-                  },
-                  {
-                        "att": 1736,
-                        "def": 627,
-                        "hp": 4665
-                  },
-                  {
-                        "att": 1745,
-                        "def": 630,
-                        "hp": 4688
-                  },
-                  {
-                        "att": 1754,
-                        "def": 633,
-                        "hp": 4712
-                  },
-                  {
-                        "att": 1764,
-                        "def": 637,
-                        "hp": 4736
-                  },
-                  {
-                        "att": 1773,
-                        "def": 640,
-                        "hp": 4759
-                  },
-                  {
-                        "att": 1782,
-                        "def": 643,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1792,
-                        "def": 646,
-                        "hp": 4806
-                  },
-                  {
-                        "att": 1801,
-                        "def": 650,
-                        "hp": 4830
-                  },
-                  {
-                        "att": 1810,
-                        "def": 653,
-                        "hp": 4854
-                  },
-                  {
-                        "att": 1820,
-                        "def": 656,
-                        "hp": 4877
-                  },
-                  {
-                        "att": 1829,
-                        "def": 659,
-                        "hp": 4901
-                  },
-                  {
-                        "att": 1839,
-                        "def": 663,
-                        "hp": 4925
-                  },
-                  {
-                        "att": 1848,
-                        "def": 666,
-                        "hp": 4948
-                  },
-                  {
-                        "att": 1857,
-                        "def": 669,
-                        "hp": 4972
-                  },
-                  {
-                        "att": 1867,
-                        "def": 672,
-                        "hp": 4996
-                  },
-                  {
-                        "att": 1876,
-                        "def": 676,
-                        "hp": 5019
-                  },
-                  {
-                        "att": 1885,
-                        "def": 679,
-                        "hp": 5043
-                  },
-                  {
-                        "att": 1895,
-                        "def": 682,
-                        "hp": 5067
-                  },
-                  {
-                        "att": 1904,
-                        "def": 685,
-                        "hp": 5090
-                  },
-                  {
-                        "att": 1913,
-                        "def": 689,
-                        "hp": 5114
-                  },
-                  {
-                        "att": 1923,
-                        "def": 692,
-                        "hp": 5138
-                  },
-                  {
-                        "att": 1932,
-                        "def": 695,
-                        "hp": 5161
-                  },
-                  {
-                        "att": 1941,
-                        "def": 698,
-                        "hp": 5185
-                  },
-                  {
-                        "att": 1951,
-                        "def": 702,
-                        "hp": 5208
-                  },
-                  {
-                        "att": 1960,
-                        "def": 705,
-                        "hp": 5232
-                  },
-                  {
-                        "att": 1969,
-                        "def": 708,
-                        "hp": 5256
-                  },
-                  {
-                        "att": 1979,
-                        "def": 711,
-                        "hp": 5279
-                  },
-                  {
-                        "att": 1988,
-                        "def": 715,
-                        "hp": 5303
-                  },
-                  {
-                        "att": 1997,
-                        "def": 718,
-                        "hp": 5327
-                  },
-                  {
-                        "att": 2007,
-                        "def": 721,
-                        "hp": 5350
-                  },
-                  {
-                        "att": 2016,
-                        "def": 724,
-                        "hp": 5374
-                  },
-                  {
-                        "att": 2025,
-                        "def": 728,
-                        "hp": 5398
-                  }
-            ]
-      }
+ "name": "Chainsaw Rick",
+ "faction": "Rediesel Wrench",
+ "element_main": "Fire",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Support",
+ "skill": {
+  "name": "Raging Rampage",
+  "cd": "3 Turn",
+  "description": [
+   "Deals 300% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range and knocks enemies back.",
+   "Deals 300% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range and knocks enemies back."
+  ]
+ },
+ "equip": {
+  "name": "Modified Power Saw",
+  "passive": "Rediesel Retrofit",
+  "description": [
+   [
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 50%."
+   ],
+   [
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 20%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 30%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 40%.",
+    "Increases Active Skill damage by 50%."
+   ]
+  ],
+  "introduction": "Chainsaw Rick is known for starting up his electric saw and charging into the enemy, swinging indiscriminately at whoever or whatever stands in his way. As his saw's temperature rises, so does its power, and Chainsaw Rick needs to continually fill it up with diesel, while also guzzling it down himself. When his saw starts to overheat, Chainsaw Rick's combat power goes through the roof."
+ },
+ "chain": {
+  "name": "Diesel Storm",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape and knocks enemies back."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape and knocks enemies back."
+    },
+    {
+     "cost": "7",
+     "description": "Deals 175% damage to 12 tiles in a cross shape and knocks enemies back."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Fire Flare Silt",
+    "Fire Essence",
+    "Rediesel Extract",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Active Skill damage by 50%."
+  },
+  {
+   "material": [
+    "Fire Potion II",
+    "Fire Crystal Shard",
+    "Rediesel Concentrate",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "",
+   "after": ""
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 541,
+    "def": 212,
+    "hp": 1603
+   },
+   {
+    "att": 551,
+    "def": 215,
+    "hp": 1628
+   },
+   {
+    "att": 561,
+    "def": 219,
+    "hp": 1653
+   },
+   {
+    "att": 571,
+    "def": 222,
+    "hp": 1679
+   },
+   {
+    "att": 581,
+    "def": 226,
+    "hp": 1704
+   },
+   {
+    "att": 591,
+    "def": 229,
+    "hp": 1729
+   },
+   {
+    "att": 601,
+    "def": 233,
+    "hp": 1754
+   },
+   {
+    "att": 611,
+    "def": 236,
+    "hp": 1780
+   },
+   {
+    "att": 621,
+    "def": 240,
+    "hp": 1805
+   },
+   {
+    "att": 631,
+    "def": 243,
+    "hp": 1830
+   },
+   {
+    "att": 641,
+    "def": 246,
+    "hp": 1855
+   },
+   {
+    "att": 651,
+    "def": 250,
+    "hp": 1880
+   },
+   {
+    "att": 661,
+    "def": 253,
+    "hp": 1906
+   },
+   {
+    "att": 671,
+    "def": 257,
+    "hp": 1931
+   },
+   {
+    "att": 680,
+    "def": 260,
+    "hp": 1956
+   },
+   {
+    "att": 690,
+    "def": 264,
+    "hp": 1981
+   },
+   {
+    "att": 700,
+    "def": 267,
+    "hp": 2007
+   },
+   {
+    "att": 710,
+    "def": 271,
+    "hp": 2032
+   },
+   {
+    "att": 720,
+    "def": 274,
+    "hp": 2057
+   },
+   {
+    "att": 730,
+    "def": 278,
+    "hp": 2082
+   },
+   {
+    "att": 740,
+    "def": 281,
+    "hp": 2107
+   },
+   {
+    "att": 750,
+    "def": 285,
+    "hp": 2133
+   },
+   {
+    "att": 760,
+    "def": 288,
+    "hp": 2158
+   },
+   {
+    "att": 770,
+    "def": 291,
+    "hp": 2183
+   },
+   {
+    "att": 780,
+    "def": 295,
+    "hp": 2208
+   },
+   {
+    "att": 790,
+    "def": 298,
+    "hp": 2234
+   },
+   {
+    "att": 800,
+    "def": 302,
+    "hp": 2259
+   },
+   {
+    "att": 810,
+    "def": 305,
+    "hp": 2284
+   },
+   {
+    "att": 820,
+    "def": 309,
+    "hp": 2309
+   },
+   {
+    "att": 830,
+    "def": 312,
+    "hp": 2334
+   },
+   {
+    "att": 932,
+    "def": 347,
+    "hp": 2606
+   },
+   {
+    "att": 945,
+    "def": 351,
+    "hp": 2637
+   },
+   {
+    "att": 957,
+    "def": 355,
+    "hp": 2669
+   },
+   {
+    "att": 970,
+    "def": 360,
+    "hp": 2701
+   },
+   {
+    "att": 982,
+    "def": 364,
+    "hp": 2732
+   },
+   {
+    "att": 995,
+    "def": 368,
+    "hp": 2764
+   },
+   {
+    "att": 1007,
+    "def": 373,
+    "hp": 2795
+   },
+   {
+    "att": 1020,
+    "def": 377,
+    "hp": 2827
+   },
+   {
+    "att": 1032,
+    "def": 381,
+    "hp": 2858
+   },
+   {
+    "att": 1045,
+    "def": 385,
+    "hp": 2890
+   },
+   {
+    "att": 1057,
+    "def": 390,
+    "hp": 2921
+   },
+   {
+    "att": 1069,
+    "def": 394,
+    "hp": 2953
+   },
+   {
+    "att": 1082,
+    "def": 398,
+    "hp": 2984
+   },
+   {
+    "att": 1094,
+    "def": 403,
+    "hp": 3016
+   },
+   {
+    "att": 1107,
+    "def": 407,
+    "hp": 3047
+   },
+   {
+    "att": 1119,
+    "def": 411,
+    "hp": 3079
+   },
+   {
+    "att": 1132,
+    "def": 416,
+    "hp": 3110
+   },
+   {
+    "att": 1144,
+    "def": 420,
+    "hp": 3142
+   },
+   {
+    "att": 1157,
+    "def": 424,
+    "hp": 3173
+   },
+   {
+    "att": 1169,
+    "def": 429,
+    "hp": 3205
+   },
+   {
+    "att": 1182,
+    "def": 433,
+    "hp": 3236
+   },
+   {
+    "att": 1194,
+    "def": 437,
+    "hp": 3268
+   },
+   {
+    "att": 1206,
+    "def": 442,
+    "hp": 3299
+   },
+   {
+    "att": 1219,
+    "def": 446,
+    "hp": 3331
+   },
+   {
+    "att": 1231,
+    "def": 450,
+    "hp": 3363
+   },
+   {
+    "att": 1244,
+    "def": 455,
+    "hp": 3394
+   },
+   {
+    "att": 1256,
+    "def": 459,
+    "hp": 3426
+   },
+   {
+    "att": 1269,
+    "def": 463,
+    "hp": 3457
+   },
+   {
+    "att": 1281,
+    "def": 468,
+    "hp": 3489
+   },
+   {
+    "att": 1294,
+    "def": 472,
+    "hp": 3520
+   },
+   {
+    "att": 1306,
+    "def": 476,
+    "hp": 3552
+   },
+   {
+    "att": 1319,
+    "def": 481,
+    "hp": 3583
+   },
+   {
+    "att": 1331,
+    "def": 485,
+    "hp": 3615
+   },
+   {
+    "att": 1343,
+    "def": 489,
+    "hp": 3646
+   },
+   {
+    "att": 1356,
+    "def": 494,
+    "hp": 3678
+   },
+   {
+    "att": 1368,
+    "def": 498,
+    "hp": 3709
+   },
+   {
+    "att": 1381,
+    "def": 502,
+    "hp": 3741
+   },
+   {
+    "att": 1393,
+    "def": 507,
+    "hp": 3772
+   },
+   {
+    "att": 1406,
+    "def": 511,
+    "hp": 3804
+   },
+   {
+    "att": 1418,
+    "def": 515,
+    "hp": 3835
+   },
+   {
+    "att": 1568,
+    "def": 569,
+    "hp": 4239
+   },
+   {
+    "att": 1577,
+    "def": 572,
+    "hp": 4263
+   },
+   {
+    "att": 1586,
+    "def": 575,
+    "hp": 4286
+   },
+   {
+    "att": 1596,
+    "def": 578,
+    "hp": 4310
+   },
+   {
+    "att": 1605,
+    "def": 582,
+    "hp": 4334
+   },
+   {
+    "att": 1614,
+    "def": 585,
+    "hp": 4357
+   },
+   {
+    "att": 1624,
+    "def": 588,
+    "hp": 4381
+   },
+   {
+    "att": 1633,
+    "def": 591,
+    "hp": 4405
+   },
+   {
+    "att": 1642,
+    "def": 595,
+    "hp": 4428
+   },
+   {
+    "att": 1652,
+    "def": 598,
+    "hp": 4452
+   },
+   {
+    "att": 1661,
+    "def": 601,
+    "hp": 4475
+   },
+   {
+    "att": 1670,
+    "def": 604,
+    "hp": 4499
+   },
+   {
+    "att": 1680,
+    "def": 608,
+    "hp": 4523
+   },
+   {
+    "att": 1689,
+    "def": 611,
+    "hp": 4546
+   },
+   {
+    "att": 1698,
+    "def": 614,
+    "hp": 4570
+   },
+   {
+    "att": 1708,
+    "def": 617,
+    "hp": 4594
+   },
+   {
+    "att": 1717,
+    "def": 620,
+    "hp": 4617
+   },
+   {
+    "att": 1726,
+    "def": 624,
+    "hp": 4641
+   },
+   {
+    "att": 1736,
+    "def": 627,
+    "hp": 4665
+   },
+   {
+    "att": 1745,
+    "def": 630,
+    "hp": 4688
+   },
+   {
+    "att": 1754,
+    "def": 633,
+    "hp": 4712
+   },
+   {
+    "att": 1764,
+    "def": 637,
+    "hp": 4736
+   },
+   {
+    "att": 1773,
+    "def": 640,
+    "hp": 4759
+   },
+   {
+    "att": 1782,
+    "def": 643,
+    "hp": 4783
+   },
+   {
+    "att": 1792,
+    "def": 646,
+    "hp": 4806
+   },
+   {
+    "att": 1801,
+    "def": 650,
+    "hp": 4830
+   },
+   {
+    "att": 1810,
+    "def": 653,
+    "hp": 4854
+   },
+   {
+    "att": 1820,
+    "def": 656,
+    "hp": 4877
+   },
+   {
+    "att": 1829,
+    "def": 659,
+    "hp": 4901
+   },
+   {
+    "att": 1839,
+    "def": 663,
+    "hp": 4925
+   },
+   {
+    "att": 1848,
+    "def": 666,
+    "hp": 4948
+   },
+   {
+    "att": 1857,
+    "def": 669,
+    "hp": 4972
+   },
+   {
+    "att": 1867,
+    "def": 672,
+    "hp": 4996
+   },
+   {
+    "att": 1876,
+    "def": 676,
+    "hp": 5019
+   },
+   {
+    "att": 1885,
+    "def": 679,
+    "hp": 5043
+   },
+   {
+    "att": 1895,
+    "def": 682,
+    "hp": 5067
+   },
+   {
+    "att": 1904,
+    "def": 685,
+    "hp": 5090
+   },
+   {
+    "att": 1913,
+    "def": 689,
+    "hp": 5114
+   },
+   {
+    "att": 1923,
+    "def": 692,
+    "hp": 5138
+   },
+   {
+    "att": 1932,
+    "def": 695,
+    "hp": 5161
+   },
+   {
+    "att": 1941,
+    "def": 698,
+    "hp": 5185
+   },
+   {
+    "att": 1951,
+    "def": 702,
+    "hp": 5208
+   },
+   {
+    "att": 1960,
+    "def": 705,
+    "hp": 5232
+   },
+   {
+    "att": 1969,
+    "def": 708,
+    "hp": 5256
+   },
+   {
+    "att": 1979,
+    "def": 711,
+    "hp": 5279
+   },
+   {
+    "att": 1988,
+    "def": 715,
+    "hp": 5303
+   },
+   {
+    "att": 1997,
+    "def": 718,
+    "hp": 5327
+   },
+   {
+    "att": 2007,
+    "def": 721,
+    "hp": 5350
+   },
+   {
+    "att": 2016,
+    "def": 724,
+    "hp": 5374
+   },
+   {
+    "att": 2025,
+    "def": 728,
+    "hp": 5398
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Rediesel Wrench Aurorians",
+  "forthright Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "Are you talking about that rabbit... uh, Chainsaw Rick? He's just a child, both physically and mentally. He may seem noisy, but he has actually wanted to have a place to call home. You can tell from how he always proclaims his love for Rabbie... His love is essentially a brother's attachment to his sister. See, he's basically treated this place as his home ever since he got on board, and he has even decorated his room. As for Rediesel Wrench, maybe he'll only consider whether or not to go there after he remembers it. After all, this child is extremely ambitious and focused; once something catches his eye, he'll even forget what he's previously holding.\u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Diesel! Argh! The most disgusting drink, but I found it to be the best drink once I put it down the throat! And it saved my life! I was thrown into an underground boxing ring as soon as I learned how to walk... They said Chainsaw Rick owed them a ton of money! Are they kidding me? I couldn't even speak properly before I arrived there, how could I possibly borrow money from those old fogeys? They forced me to work for them as a sparring partner, and I was beaten like a punching bag by those boxers! They thought that suffering would make me yield. What a joke!The only delicacy there was diesel, which I drank on the sly! Hahaha! It's really strong stuff, and it sends a powerful hit straight to my head, just like the first time I saw Rabbie! Haha! So now you understand why my head is like how it is now? I'll make do for now, but I'll find a way to grow a rabbit head one day for Rabbie!"
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "Mother? What the heck is that! Oh! Are you asking about my ma? She should be dead! Although I'm not sure if that person was my mother, she was the most likely candidate I'd seen. After all, I had not met many adults back then! However, I only met her once and she fed me diesel! Diesel!Chainsaw Rick hasn't seen her ever since then, but she left me some diesel! It was my birthday gift. I had never received any birthday gifts before, but I knew it once I received it! As for my father... what is a father actually? My father couldn't possibly be that bunch of male adults, right? There were just too many of them, so I don't know which one you're asking about! If you're asking me which one of them is related to me, I have no idea! Maybe diesel is my father? Hahaha!"
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "In the end, I fought a match. The old-fogey of the underground fight club made me fight a really, really tall guy! Haha! They didn't know that Chainsaw Rick had some diesel! I sipped on my diesel while punching him! Hit him under the knees! I terrified them and they finally let me go!My face was all mangled up. But appearance means nothing to a man! Anyway, everyone saw my fists after that match!Later, I was caught when I tried to rob Rediesel Wrench, but when those bigwigs heard my story, they cried so hard and insisted that I had to join Rediesel Wrench! I don't like such a clingy atmosphere, but there are many strong people here, and I'll be invincible if I can become stronger!Anyway, I guess I now have a place to call home too."
+  }
+ ],
+ "voice": [
+  "Rediesel Wrench! A bunch of lunatics! But I love them, hahaha!",
+  "I hate those fuddy-duddies from Illumina, but their tech is on a different level. I heard that they've got powerful electric saws!",
+  "Hail Rabbie!",
+  "A bunch of blockheads even dumber than me!",
+  "Rabbie's drill pierced my heart! If she doesn't believe it, I'll cut it open with a saw to prove that! Oh, Rabbie...",
+  "Clover and I are former partners, that's all. But she is actually quite pitiful...",
+  "It's simple, I love Rabbie, and being with her makes me happy. I won't let anyone hurt her!",
+  "Weak legs on the battlefield are like wet firewood... Completely useless!",
+  "So big! Much stronger than our giant lizards...",
+  "Da dam! I need more diesel oil! Haha!",
+  "Just stand here? Is there absolutely nothing inside that needs to be sawn through?",
+  "Everybody back off! I'll hold them!",
+  "Can you see me now, Rabbie?",
+  "Come have a taste of my electric saw!",
+  "Whoo-wee!!",
+  "Don't even think about getting away!",
+  "Happy New Year! Da dam!",
+  "Count me in!",
+  "Spin on! Faster!",
+  "More diesel oil! More power!",
+  "I'm so sleepy. Oh, don't even think of taking my headgear off while I'm asleep...",
+  "I feel like my blood is burning!",
+  "Alchemy Stars!",
+  "Diesel oil... The older it is, the better it smells. Drink a bottle, and you'd want a second. Drink two, and you'd crave for a third.",
+  "The saw and I need to refuel. I wonder where we can get some diesel oil.",
+  "Phew, that was close. I almost lost my headgear. If people see my face, then...",
+  "I heard a familiar drilling sound... Rabbie! Is she here...?",
+  "Maybe I was feeble and small before, but now I drink diesel oil, and I have this saw to kill them all! All of them!",
+  "This special diesel oil blend tastes really good! Want some? Come on, really? Rabbie likes it a lot...",
+  "Hey, don't judge me by my stature! I could easily beat up a guy several times bigger than me! You can rely on me, no problemo!",
+  "It's so strange. Everything looks so different, but somehow it reminds me of Rediesel Wrench. Could it be that I... feel at home here?",
+  "Any stronghold you care about? Do you want me to recon before we start? Oh... not going to attack? What a pity...",
+  "This den is quite spacious and there are some warm blankets to sleep in. If only I could see Rabbie more often... Aaah, Rabbie... She's... Nothing!",
+  "Under the headgear? There's nothing worthy of note. There's no point in staring at it like that. I'm not taking it off! After all, I swore an oath...for Rabbie...",
+  "Chief, are rabbits popular for exhibitions now?",
+  "Chief! Did you get anything?",
+  "Chief! You're back! Let's do something big today!",
+  "A cup of diesel oil and some chopped rusk. My supper...",
+  "Tell me, who do you want me to split open? Whoever underestimates this saw and me will end up miserable!",
+  "What's the point of this thing?",
+  "It's worth a fortune! What do you want from me, huh?",
+  "For me? I've been looking for this for a long time...",
+  "Hey, chief how about a bit of diesel!",
+  "Saw it open, saw it!",
+  "I'll crush all of you!",
+  "Even my saw can't wait for this!",
+  "I am not a rabbit... I chose to become one for the sake of love! It's probably a little less unsettling when I'm of her species. Or maybe I'm just being foolish...",
+  "Parents... Have you met yours? I haven't. No...she wasn't my mother... just the person who sold me, that's all.",
+  "Heh-heh, I'm the chief now!"
+ ],
+ "skins": [],
+ "description": "The noisy and crazy short boy who never seems to stop and always has a bunny headgear on. He's constantly pushing his limits in battle and is often misunderstood as having a death wish. It's a miracle that he's still alive.",
+ "realName": "Chainsaw Rick",
+ "nickname": "Overheat",
+ "gender": "Male",
+ "height": "3'5\"",
+ "birthday": "Unknown",
+ "birthplace": "Unknown",
+ "style": "Rediesel Chainsaw"
 }

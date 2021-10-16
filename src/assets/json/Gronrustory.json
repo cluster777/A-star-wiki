@@ -1,0 +1,862 @@
+{
+ "title": "Gronru's Game",
+ "header": "Out of the blue, Gronru challenges you to a game. If you lose, she'll do something \"extraneous\" to the Colossus.",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Searching for information.",
+     "dialogue": "Hmm, I can't seem to find the information in the database no matter how I try."
+    },
+    {
+     "char": "Search failed.",
+     "dialogue": "But that's okay, I can still fix it. I'm one of Illumina's top scientific researchers after all."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "What do you mean when you say that you can't find the relevant information?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Say, I heard you're taking over the preparations on the Colossus?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Didn't someone say that it's best you don't get involved..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's because no one knows the Colossus better than I do, and I'm certified by Illumina! Let's get started."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, when I say let's start, I mean let's get started with Gronru's game!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ding-ding-ding, let's fight it out! Even though I beat you before, I'm still expecting that \"off-chance\" to happen!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hold on, it's not the time to play games."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "How can I focus if I'm not allowed to have some fun? Let's name the game,\n\"Stop Gronru from Fixing the Colossus\"!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm making the time to help you all, shouldn't you spend some time playing with me?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "If you don't say something that fits with what I have in mind \u2014"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Then I'll do unnecessary things to the Colossus. I'm sure you don't want that."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "If so, let's begin!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Even though I don't understand what you're talking about..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "I'd choose to say: \"Okay, then!\"",
+     "link": "1"
+    },
+    {
+     "text": "Verbal attack is probably not the best choice...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You've been recommended by Illumina, so I choose to believe in your abilities. If I accidentally lose to you somehow,\nyou can actually start fixing the Colossus right away."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm, so that's your answer huh?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Don't worry, I'm very reliable. Haven't you read the information I provided?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "It stated very clearly that I have superb driving skills!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "If you lose, I'll have to do more than just fixing."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? I think I heard something really interesting just now."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm, since you can't stop me from doing something to your Colossus, let's begin fixing the Colossus now!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "You'll have to stay and help ok?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what happened to \"stop you from fixing the Colossus\"? Why are you doing it now?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "That's because you didn't say what I wanted you to say. As a punishment, I'll start doing 20% of the work."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I choose to say: \"You may begin, but...\"",
+     "link": "4"
+    },
+    {
+     "text": "Using verbal attacks means nothing physical, since...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "After all, you look like an ordinary girl. Can you really fix the Colossus?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "That's pathetic. Do you think questioning my abilities will stop me?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Listen, don't judge a book by its cover. I'm the best in the Illumina Research Lab!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I came first in all of the games! Check out the rankings if you don't believe me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? I think I heard something really interesting just now."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm, since you can't stop me from doing something to your Colossus, let's begin fixing the Colossus now!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "You'll have to stay and help ok?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what happened to \"stop you from fixing the Colossus\"? Why are you doing it now?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "That's because you didn't say what I wanted you to say. As a punishment, I'll start doing 20% of the work."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I choose to say: \"You may begin, but...\"",
+     "link": "4"
+    },
+    {
+     "text": "Using verbal attacks means nothing physical, since...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh? I think I heard something really interesting just now."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm, since you can't stop me from doing something to your Colossus, let's begin fixing the Colossus now!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "You'll have to stay and help ok?!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what happened to \"stop you from fixing the Colossus\"? Why are you doing it now?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "That's because you didn't say what I wanted you to say. As a punishment, I'll start doing 20% of the work."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I choose to say: \"You may begin, but...\"",
+     "link": "4"
+    },
+    {
+     "text": "Using verbal attacks means nothing physical, since...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Why do you insist that I help? Since you're Illumina's Tech Personnel, I trust that you know what you're doing!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I didn't expect you to say that! Are you trying to move me with your trust?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "That's great! I was going to start anyway! Let's not waste any time, I'll show you how to dismantle the Colossus."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "For things like the Colossus, first you dismantle this, then this...then like that, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on! Please be gentler with my Colossus!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Are you trying to stop me with that gentle wave of yours? It won't work until you say the right thing!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Next, we do this! Then this!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ah, it vibrated. That means it agrees with what I'm doing."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "My choice: \"I'm not giving in!\"",
+     "link": "7"
+    },
+    {
+     "text": "My choice: \"I'm just going to let this go...\"",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You'll listen to me on my turf! You can be sure I'll be watching you and I'll stop you physically if I have to!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "What do you mean no? Why not?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Do you think you'll stop me just because you say you would? Don't forget that I'm one of the top fighters of Illumina!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh, I forgot to mention that I'm actually already half way through the dismantling."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Half way? Hold on, please give me some space..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a huge hole! Why did you take down the corners? Stop it!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hah! I'm sorry, even though you wanted to pounce on me to stop me, I saw right through it."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Next, we do this! Then this!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ah, it vibrated. That means it agrees with what I'm doing."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "My choice: \"I'm not giving in!\"",
+     "link": "7"
+    },
+    {
+     "text": "My choice: \"I'm just going to let this go...\"",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Next, we do this! Then this!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ah, it vibrated. That means it agrees with what I'm doing."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Ready? Go!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "My choice: \"I'm not giving in!\"",
+     "link": "7"
+    },
+    {
+     "text": "My choice: \"I'm just going to let this go...\"",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "How can you tell the Colossus is agreeing with you? It's resting now, even I can't sense it!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "This is called the intuition of a genius. Not to mention, Illumina has a bigger one like this, so do I at home."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I'll introduce them to you if we get a chance someday."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, it's because you took down its corner!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If this goes on, it will never wake up for real!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Look, the shaking stopped after a while. Let's continue!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm...I see, so that's what your Colossus looks like inside."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Do you want to connect this cable to the left or right?"
+    },
+    {
+     "char": "Ready? Go!",
+     "dialogue": "It's okay, don't worry. You weren't doing well just now. Step it up?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I...",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Haha, the Colossus is shaking even more now. Is it nodding frantically in agreement? Or is it shaking its head frantically because of your give up speech?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Yeah, I get it. Sometimes my throne nods, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait! The head shaking is not normal!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it going to break? Is it going to break?!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hah! What a shame! You need to work on your pounce."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Look, the shaking stopped after a while. Let's continue!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm...I see, so that's what your Colossus looks like inside."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Do you want to connect this cable to the left or right?"
+    },
+    {
+     "char": "Ready? Go!",
+     "dialogue": "It's okay, don't worry. You weren't doing well just now. Step it up?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I...",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Look, the shaking stopped after a while. Let's continue!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Hmm...I see, so that's what your Colossus looks like inside."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Do you want to connect this cable to the left or right?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I...",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Hold on, isn't it the same positioning on the left and the right?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "They have the same element. Either way is fine."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "By the way, I'm deducting 20% HP from you since you were too slow in making a decision!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Then I'll just connect it at random!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "By the way, this is round 5! You're down to 20% HP!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Attack with the truth: \"I'm actually feeling a bit dizzy...\"",
+     "link": "11"
+    },
+    {
+     "text": "Try another approach: \"I hope the Colossus is okay.\"",
+     "link": "12"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Including what you just said, I actually didn't get it. Can you give me more chances?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Of course I was talking about fixing the Colossus. I couldn't have been talking about gymnastics, could I?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "The dizziness must be related to motion sickness!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "It can't be because of my deducting your HP?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what did you say you're deducting from me?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "You... Lost..."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh? The lights are blinking? That's scary, haha."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what did you do to my Colossus?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I just moved some cables around since it was a mess in there. Now, let's send a notification out from the bridge."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Let them know that they should find a place to wait for us as we're preparing for a forced landing."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Genuine question: \"Why are we preparing for a forced landing?!\"",
+     "link": "14"
+    },
+    {
+     "text": "Is it over? Is it because I lost?",
+     "link": "15"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "For a genius like me, this kind of maintenance is really simple. It's just like a game!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I hope your Colossus is okay, but...that may not be the case if you lose."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I hope you are okay."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what does this have to do with me?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "You... Lost..."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh? The lights are blinking? That's scary, haha."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what did you do to my Colossus?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I just moved some cables around since it was a mess in there. Now, let's send a notification out from the bridge."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Let them know that they should find a place to wait for us as we're preparing for a forced landing."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Genuine question: \"Why are we preparing for a forced landing?!\"",
+     "link": "14"
+    },
+    {
+     "text": "Is it over? Is it because I lost?",
+     "link": "15"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "You... Lost..."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh? The lights are blinking? That's scary, haha."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, what did you do to my Colossus?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "I just moved some cables around since it was a mess in there. Now, let's send a notification out from the bridge."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Let them know that they should find a place to wait for us as we're preparing for a forced landing."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Genuine question: \"Why are we preparing for a forced landing?!\"",
+     "link": "14"
+    },
+    {
+     "text": "Is it over? Is it because I lost?",
+     "link": "15"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Hm, it's probably because of the engine system."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Since you don't seem to know what's going on, I bet you haven't been maintaining the Colossus properly."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Even though you've lost this time, I'll still play with you. Don't worry."
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "Navigator, what happened?! Why can't I sustain the flight?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry...even though you just woke up, I must apologize to you. I couldn't stop Gronru from working on you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Perhaps...we're going to crash..."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh! The forced landing was successful!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Just let me check if there are any other problems!"
+    },
+    {
+     "char": "Searching for information.",
+     "dialogue": "See! See! I told you I'd fix the Colossus' database!"
+    },
+    {
+     "char": "Search successful.",
+     "dialogue": "Hold on, you were fixing the database? Why would that lead to a forced landing? Can we still fly?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Of course we can, don't worry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I simply fixed the engine system as well. Don't sweat it."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Okay, so the game was just a joke. Got me there for a second."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Who said it was a joke? By the way, if you had won, we would have crashed!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? You mean...ouch, ouch, ouch?! Why am I hurting all over?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "It hurts... Navigator...what did you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I said I'd overhaul the Colossus, and since your HP is now 0, you get to restart fresh!"
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "Putting my honor as a genius researcher on the line, I vow that I will always win, no matter the game!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Gronru:",
+     "dialogue": "Yeah, you're still asking questions even though you lost already. But that's okay, I'll still play!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "A game won't be fun unless you unlock the next round."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Since you've completely lost, I'll give your Colossus a complete fix!"
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "Navigator, what happened?! Why can't I sustain the flight?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry...even though you just woke up, I must apologize to you. I couldn't stop Gronru from working on you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Perhaps...we're going to crash..."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Oh! The forced landing was successful!"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Just let me check if there are any other problems!"
+    },
+    {
+     "char": "Searching for information.",
+     "dialogue": "See! See! I told you I'd fix the Colossus' database!"
+    },
+    {
+     "char": "Search successful.",
+     "dialogue": "Hold on, you were fixing the database? Why would that lead to a forced landing? Can we still fly?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Of course we can, don't worry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I simply fixed the engine system as well. Don't sweat it."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Okay, so the game was just a joke. Got me there for a second."
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "Who said it was a joke? By the way, if you had won, we would have crashed!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? You mean...ouch, ouch, ouch?! Why am I hurting all over?"
+    },
+    {
+     "char": "Gronru:",
+     "dialogue": "It hurts... Navigator...what did you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I said I'd overhaul the Colossus, and since your HP is now 0, you get to restart fresh!"
+    },
+    {
+     "char": "Soroz:",
+     "dialogue": "Putting my honor as a genius researcher on the line, I vow that I will always win, no matter the game!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

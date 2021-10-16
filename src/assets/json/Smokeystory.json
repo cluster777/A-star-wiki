@@ -1,0 +1,1580 @@
+{
+ "title": "Negative Image",
+ "header": "People seem to form a bad impression of Smokey from the moment they meet her, and so a plan to improve her public image begins...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "(Tyrannical, cold, heartless, does whatever she wants without concern for others...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(You could write a novel with all the negative traits that describe her.)"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Ever since Smokey started living on the Colossus, everyone's opinion of her has gradually worsened."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "There has been a lot of complaints filed against her lately due to her hot temper."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're right, even Soroz has reported her for leaving charred footprints all over. It's been really hard for our dear Colossus, too."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "To address these issues, a few people have proposed a solution."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "T-That would be my suggestion... I call it \"Operation: Improve Smokey's Image\"!"
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "I-I'd be grateful for any help you can give me."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "Smokey may seem really mean, but she's actually a very nice person."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "That's why I want to help everyone understand her good qualities, too..."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "And maybe we could gently remind her to try getting along with everyone on the Colossus?"
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "I-I'm younger than her, so I don't think I have the right to do that! But since Navigator is in charge of the Colossus..."
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "In that case, it looks like this part of the mission falls to you, Navigator!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Areia and I will provide support secretly. Smokey should be in the Cafe. Go ahead!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? R-Right now? But I still don't know what I should do!"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "It's fine, we believe in you. Now go!"
+    },
+    {
+     "char": "Hiss... Hiss...",
+     "dialogue": "Not her again... Look, the floor is all burnt now..."
+    },
+    {
+     "char": "Crowd:",
+     "dialogue": "Move it! Unless you want to get burned under my feet, get out of my sight."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hey, what're you looking at, Navigator? Don't you have anything to do?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "N-Nothing, Smokey! Don't mind me, I'm just here to take a break..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem... Excuse me, Smokey? Could you please help me with something?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "(I get it... She's trying to show everyone how to approach Smokey!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(As long as she agrees to help, I can praise her for lending a hand! Then everyone should...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Nope."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Eh? Y-You can't? I mean, it's probably nothing too troublesome, so why not hear Vice out first?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then spit it out. I don't have all day."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "A-Actually, it's for Areia, not me. You two are pretty close, right?"
+    },
+    {
+     "char": "Vice:",
+     "dialogue": "Smokey? Could you please help me carry some flowers over to the lounge? I want to..."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "(Hang on... I see their strategy now! They're having her decorate the lounge with flowers under the pretext of helping!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Later, if someone asks about it, they'll know that it was Smokey who put them there!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(It's a little childish, true... But it has Areia's name written all over it. As long as Smokey agrees...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No. I've got other stuff to do, Areia."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ahem... I don't think Areia means to ask you to help now, but until you have some free time..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Since you have so much to say about it, Navigator, why don't you help them out? Delivering flowers isn't my thing."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That was a bit much, don't you think... How could someone be so cold..."
+    },
+    {
+     "char": "Crowd:",
+     "dialogue": "Shh, not so loudly! Come on, let's go..."
+    },
+    {
+     "char": "Crowd:",
+     "dialogue": "But you've been sitting in the Cafe for a long time already, Smokey. I just thought you weren't busy..."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "Don't assume."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "F-Fine. Sorry..."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "I won't bother you anymore, then... Good luck, Navigator. Bye..."
+    },
+    {
+     "char": "Areia:",
+     "dialogue": "..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "(I should just be honest with her about everything...)",
+     "link": "1"
+    },
+    {
+     "text": "(I should think of another approach...)",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Smokey... You scared everyone out of the Cafe. They're starting to complain about your behavior..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "To be honest, we were just trying to help you improve your image..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You really have nothing else to do, huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not that, I just happen to have some free time right now..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright, since you have nothing better to do, then come with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? But I'm not done talking... H-Hey! Let go of my collar! Where are we going?!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Umbraton! To hunt for treasure!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Cough* You... You nearly choked me to death..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Quit overreacting. Now catch your breath, and pull yourself together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I wouldn't have to catch my breath... if someone didn't strangle me the whole way here..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright already, sheesh. Feeling better yet? Think you can get to it now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I'm fine now... But can you tell me why you dragged me here, in the first place?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hold on."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What...? If you're gonna drag someone here, the least you could do is give a reason..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up. Just hold on a second."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Smokey! It's Smokey! What are you doing here?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Just passing by, that's all."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Look, Smokey! I picked some flowers earlier today! Here, have one!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't want any flowers."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Ah... O-Okay, then..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She looks hurt, Smokey... Why don't you just take it? It's just a flower..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Can't. I have other business to deal with. Come on, Navigator."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hey, don't stay out too late, or your mom will worry."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "O-Okay, Smokey. See you later!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "There should be a couple of Eclipsites lurking around here. Find them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Was I not clear? You have psychic abilities, right? Tell me, can you sense any Eclipsites nearby and, if so, where are they?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eclipsites... There seem to be quite a few in that direction."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, let's go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?! N-Not my collar, again!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just up ahead. We should be fine, as long as we don't charge right up to them."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, well done. As your reward, I'll let you tell me about what you three were plotting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That stunt back at the Cafe... What were you trying to tell me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you figured us out already, huh? Actually, ever since you came to the Colossus..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Most of the people on board have gotten a bad impression of you, but Areia insists that you're a good person."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She wanted everyone to realize it, too... So she asked Vice and I for help to improve your image."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah! Is being a good person that important to everyone? Fine, I won't be hard on them anymore."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We just wanted to help you get along with everybody..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hmph. At least I can tell the difference between being treated like a person and being treated like an Eclipsite."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What's that supposed to mean?! Everyone can make that distinction, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel like you're missing the point of Areia's idea..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "No, I understand it fine. I waited so long for you, but it turns out you were planning something like this all along?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... That doesn't look like the face of someone who understands..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, I don't remember ever agreeing to see you today."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You didn't. I came looking for you to bring you out for some Eclipsite hunting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You looked so busy, so I waited all day to catch you on a break."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Gaaah!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Since you found us, it looks like I'll have to put you all in your places! C'mere!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Tch... Not here, either."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "We're moving on to the next spot, Navigator. Where are the other Eclipsites?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What exactly are you up to, Smokey?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Looking for a necklace. Dropped the damn thing in a mob of Eclipsites!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looking for a necklace... Is that what you meant by having other stuff to do?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Now you're catching on. Come on, find our next stop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, alright! Just stop pulling me by the collar..."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't have all day, so come at me all at once."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "*Roar*"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up, already!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Ugh..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ugh, it isn't here, either!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're really strong...",
+     "link": "4"
+    },
+    {
+     "text": "Your shoes are on fire...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "You shouldn't have refused Areia like that, Smokey. I think you hurt her feelings..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You really have nothing else to do, huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not that, I just happen to have some free time right now..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright, since you have nothing better to do, then come with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? But I'm not done talking... H-Hey! Let go of my collar! Where are we going?!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Umbraton! To hunt for treasure!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Cough* You... You nearly choked me to death..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Quit overreacting. Now catch your breath, and pull yourself together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I wouldn't have to catch my breath... if someone didn't strangle me the whole way here..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright already, sheesh. Feeling better yet? Think you can get to it now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I'm fine now... But can you tell me why you dragged me here, in the first place?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hold on."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What...? If you're gonna drag someone here, the least you could do is give a reason..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up. Just hold on a second."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Smokey! It's Smokey! What are you doing here?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Just passing by, that's all."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Look, Smokey! I picked some flowers earlier today! Here, have one!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't want any flowers."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Ah... O-Okay, then..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She looks hurt, Smokey... Why don't you just take it? It's just a flower..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Can't. I have other business to deal with. Come on, Navigator."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hey, don't stay out too late, or your mom will worry."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "O-Okay, Smokey. See you later!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "There should be a couple of Eclipsites lurking around here. Find them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Was I not clear? You have psychic abilities, right? Tell me, can you sense any Eclipsites nearby and, if so, where are they?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eclipsites... There seem to be quite a few in that direction."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, let's go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?! N-Not my collar, again!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just up ahead. We should be fine, as long as we don't charge right up to them."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, well done. As your reward, I'll let you tell me about what you three were plotting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That stunt back at the Cafe... What were you trying to tell me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you figured us out already, huh? Actually, ever since you came to the Colossus..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Most of the people on board have gotten a bad impression of you, but Areia insists that you're a good person."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She wanted everyone to realize it, too... So she asked Vice and I for help to improve your image."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah! Is being a good person that important to everyone? Fine, I won't be hard on them anymore."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We just wanted to help you get along with everybody..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hmph. At least I can tell the difference between being treated like a person and being treated like an Eclipsite."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What's that supposed to mean?! Everyone can make that distinction, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel like you're missing the point of Areia's idea..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "No, I understand it fine. I waited so long for you, but it turns out you were planning something like this all along?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... That doesn't look like the face of someone who understands..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, I don't remember ever agreeing to see you today."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You didn't. I came looking for you to bring you out for some Eclipsite hunting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You looked so busy, so I waited all day to catch you on a break."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Gaaah!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Since you found us, it looks like I'll have to put you all in your places! C'mere!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Tch... Not here, either."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "We're moving on to the next spot, Navigator. Where are the other Eclipsites?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What exactly are you up to, Smokey?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Looking for a necklace. Dropped the damn thing in a mob of Eclipsites!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looking for a necklace... Is that what you meant by having other stuff to do?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Now you're catching on. Come on, find our next stop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, alright! Just stop pulling me by the collar..."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't have all day, so come at me all at once."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "*Roar*"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up, already!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Ugh..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ugh, it isn't here, either!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're really strong...",
+     "link": "4"
+    },
+    {
+     "text": "Your shoes are on fire...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "You really have nothing else to do, huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not that, I just happen to have some free time right now..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright, since you have nothing better to do, then come with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? But I'm not done talking... H-Hey! Let go of my collar! Where are we going?!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Umbraton! To hunt for treasure!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "*Cough* You... You nearly choked me to death..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Quit overreacting. Now catch your breath, and pull yourself together."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I... I wouldn't have to catch my breath... if someone didn't strangle me the whole way here..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Alright already, sheesh. Feeling better yet? Think you can get to it now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I'm fine now... But can you tell me why you dragged me here, in the first place?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hold on."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What...? If you're gonna drag someone here, the least you could do is give a reason..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up. Just hold on a second."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Smokey! It's Smokey! What are you doing here?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Just passing by, that's all."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Look, Smokey! I picked some flowers earlier today! Here, have one!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't want any flowers."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Ah... O-Okay, then..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She looks hurt, Smokey... Why don't you just take it? It's just a flower..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Can't. I have other business to deal with. Come on, Navigator."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hey, don't stay out too late, or your mom will worry."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "O-Okay, Smokey. See you later!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "There should be a couple of Eclipsites lurking around here. Find them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Was I not clear? You have psychic abilities, right? Tell me, can you sense any Eclipsites nearby and, if so, where are they?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eclipsites... There seem to be quite a few in that direction."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, let's go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh?! N-Not my collar, again!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're just up ahead. We should be fine, as long as we don't charge right up to them."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Good, well done. As your reward, I'll let you tell me about what you three were plotting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That stunt back at the Cafe... What were you trying to tell me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So you figured us out already, huh? Actually, ever since you came to the Colossus..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Most of the people on board have gotten a bad impression of you, but Areia insists that you're a good person."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She wanted everyone to realize it, too... So she asked Vice and I for help to improve your image."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah! Is being a good person that important to everyone? Fine, I won't be hard on them anymore."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We just wanted to help you get along with everybody..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hmph. At least I can tell the difference between being treated like a person and being treated like an Eclipsite."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-What's that supposed to mean?! Everyone can make that distinction, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I feel like you're missing the point of Areia's idea..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "No, I understand it fine. I waited so long for you, but it turns out you were planning something like this all along?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh... That doesn't look like the face of someone who understands..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, I don't remember ever agreeing to see you today."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You didn't. I came looking for you to bring you out for some Eclipsite hunting."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You looked so busy, so I waited all day to catch you on a break."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Gaaah!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Since you found us, it looks like I'll have to put you all in your places! C'mere!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Tch... Not here, either."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "We're moving on to the next spot, Navigator. Where are the other Eclipsites?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What exactly are you up to, Smokey?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Looking for a necklace. Dropped the damn thing in a mob of Eclipsites!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Looking for a necklace... Is that what you meant by having other stuff to do?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Now you're catching on. Come on, find our next stop!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, alright! Just stop pulling me by the collar..."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Graagh!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I don't have all day, so come at me all at once."
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "*Roar*"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Shut up, already!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "Ugh..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ugh, it isn't here, either!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're really strong...",
+     "link": "4"
+    },
+    {
+     "text": "Your shoes are on fire...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "What? You scared or something?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not at all! Actually, I feel really safe."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah, now that's an interesting thought. A shame other people don't feel the same, eh?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You think that's the reason I can't get along with the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Why do you ask that, all of a sudden?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You're thinking I might know the answer to that question, right?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Go ahead, tell me: why am I so hard to get along with?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "The biggest thing is your temper, you get heated way to easy!",
+     "link": "7"
+    },
+    {
+     "text": "The biggest thing is you aren't that approachable.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "What? Got a problem with that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, kind of... I heard you've been leaving scorched marks all over the Colossus..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are your shoes still okay?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah, now that's an interesting question. Relax, they're made of a special material."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You think that's the reason I can't get along with the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Why do you ask that, all of a sudden?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You're thinking I might know the answer to that question, right?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Go ahead, tell me: why am I so hard to get along with?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "The biggest thing is your temper, you get heated way to easy!",
+     "link": "7"
+    },
+    {
+     "text": "The biggest thing is you aren't that approachable.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "You think that's the reason I can't get along with the others?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W-Why do you ask that, all of a sudden?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You're thinking I might know the answer to that question, right?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Go ahead, tell me: why am I so hard to get along with?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "The biggest thing is your temper, you get heated way to easy!",
+     "link": "7"
+    },
+    {
+     "text": "The biggest thing is you aren't that approachable.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "Oh? You mean like THIS?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "F-Flames?!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Relax, it won't burn you! Get down!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "*Roaring*"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "A sneak attack, eh? No dice, you cowards."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-Sorry... I wasn't paying attention."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It's fine."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ha, found it!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Come on, let's head back."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Smokey? What are you doing here?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Here, this belongs to your mom. Take good care of it, and don't lose it again."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "This is... Mom's necklace! Smokey, how did you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Found it lying on the road."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Thank you so much, Smokey! But what should I give you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You had a flower for me earlier, right? Hand it over."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not only did you take the flower from before, but you also gave her an opportunity to repay a favor..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What you did was very considerate... But why are you asking for that flower like you're robbing her!?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It's how I do things."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Thank you so much, Smokey! Here, I picked this flower in the morning. It's not as fresh as before, but if you hold it really close, it smells amazing!"
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Won't you stay and have a drink of water?"
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Mom should be home soon, and I'm sure she'd love to thank you in person!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hold this, Navigator."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "We're leaving. See you."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Huh? Okay... Bye, Smokey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? W-Wait, Smokey! You can't just leave like that... Smokey?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't worry, little girl. She's not upset or anything, she just... has other things to do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It looks like we can't stay today, sorry."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Oh, that's okay! Smokey's always been like this, especially when it's time to leave."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "You'll help me take her flower to her, won't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure! Don't worry, I'll find a way to give it to her."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Bye!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait for me, Smokey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This flower... You should keep it."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Let me ask you something: do you think I'm strong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W... Why are you suddenly asking me that?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Just answer the question."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, you're strong. Incredibly strong, to be honest."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Do you think I'm unapproachable too?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you asking that because it bothers you?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah, do you really think I'd be bothered by that? Then I'll tell you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "*Exhales* What do you think? Hot, huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Y-Your breath... It's like steam! Why is it so hot?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I've been feeling off lately..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It has been tough for me to put out my body's flames."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "If you get too close to me, there's a chance your clothes will catch fire."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that the reason you refused to hold this flower?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Exactly. When you take that flower back, everything will be alright."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "A nice ending for everyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Areia was right all along, you ARE a good person."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still want to keep going with our plan to improve your image. I want everyone to know it, too..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Go back and tell Areia not to worry so much about my image. I don't care what other people think of me."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That goes for you, too. Find something else to do with your time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But everyone has the wrong idea about you! They all think you're a temperamental and indifferent person..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Well, they're right about one thing\u2014I DO have a bad temper. Besides, the people who ought to understand me already do."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I'd say your little \"plan\" was a success."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Or has my image not improved in your eyes yet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Smokey:",
+     "dialogue": "Oh? How about this? Still think I'm unapproachable?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "F-Flames?!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Relax, it won't burn you! Get down!"
+    },
+    {
+     "char": "Eclipsites:",
+     "dialogue": "*Roaring*"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "A sneak attack, eh? No dice, you cowards."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "S-Sorry... I wasn't paying attention."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It's fine."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Ha, found it!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Come on, let's head back."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Smokey? What are you doing here?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Here, this belongs to your mom. Take good care of it, and don't lose it again."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "This is... Mom's necklace! Smokey, how did you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Found it lying on the road."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Thank you so much, Smokey! But what should I give you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "You had a flower for me earlier, right? Hand it over."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Not only did you take the flower from before, but you also gave her an opportunity to repay a favor..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What you did was very considerate... But why are you asking for that flower like you're robbing her!?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It's how I do things."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Thank you so much, Smokey! Here, I picked this flower in the morning. It's not as fresh as before, but if you hold it really close, it smells amazing!"
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Won't you stay and have a drink of water?"
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Mom should be home soon, and I'm sure she'd love to thank you in person!"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hold this, Navigator."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "We're leaving. See you."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Huh? Okay... Bye, Smokey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Eh? W-Wait, Smokey! You can't just leave like that... Smokey?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Don't worry, little girl. She's not upset or anything, she just... has other things to do."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It looks like we can't stay today, sorry."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Oh, that's okay! Smokey's always been like this, especially when it's time to leave."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "You'll help me take her flower to her, won't you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure! Don't worry, I'll find a way to give it to her."
+    },
+    {
+     "char": "Little Umbraton Girl:",
+     "dialogue": "Bye!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait for me, Smokey!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This flower... You should keep it."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Let me ask you something: do you think I'm strong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "W... Why are you suddenly asking me that?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Just answer the question."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, you're strong. Incredibly strong, to be honest."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Do you think I'm unapproachable too?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are you asking that because it bothers you?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Hah, do you really think I'd be bothered by that? Then I'll tell you..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "*Exhales* What do you think? Hot, huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Y-Your breath... It's like steam! Why is it so hot?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I've been feeling off lately..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "It has been tough for me to put out my body's flames."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "If you get too close to me, there's a chance your clothes will catch fire."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that the reason you refused to hold this flower?"
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Exactly. When you take that flower back, everything will be alright."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "A nice ending for everyone."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Areia was right all along, you ARE a good person."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But I still want to keep going with our plan to improve your image. I want everyone to know it, too..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Go back and tell Areia not to worry so much about my image. I don't care what other people think of me."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "That goes for you, too. Find something else to do with your time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But everyone has the wrong idea about you! They all think you're a temperamental and indifferent person..."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Well, they're right about one thing\u2014I DO have a bad temper. Besides, the people who ought to understand me already do."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "I'd say your little \"plan\" was a success."
+    },
+    {
+     "char": "Smokey:",
+     "dialogue": "Or has my image not improved in your eyes yet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

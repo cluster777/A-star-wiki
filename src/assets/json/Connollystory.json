@@ -1,0 +1,864 @@
+{
+ "title": "The Call of a Friend",
+ "header": "You've been losing sleep and on edge from strange noises in your dream. Connolly offers a diagnosis based on her own experience, until the source emerges...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Connolly:",
+     "dialogue": "Well, actually, I thought you look exhausted today."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "So I wondered if you didn't rest well yesterday."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Actually, what happened was..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Navigator...\u25a0\u25a0 \u25a0"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Danger... in... she... Connolly... help"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...then I woke up from the nightmare."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I see, that's why you look so tired today."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I hope this coffee will help."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you, this will at least wake me up a little."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Such strong coffee... It's quite bitter..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I-it may be bitter, but I haven't been resting these few days. I'm relying on this special coffee to stay awake."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It really works!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "So, that..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I'm not sure how much I can be of help, but I think I can help you with that nightmare."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's okay, it's probably just a random nightmare."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If this becomes a recurring dream, I'll make an appointment with the psychologist."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Oh...you can't!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ms Connolly?! Are you okay? How did you trip on flat ground?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Oh, I'm okay... Just a little dizzy. Not to worry, not to worry..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a lot of not to worries."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Don't mind me, I was just a bit nervous."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahem, okay. Anyway, why did you say I can't?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Actually, do you know my friend Anton?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I do.",
+     "link": "1"
+    },
+    {
+     "text": "I don't.",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "I have psychic powers after all, so they'll come and chat with me sometimes."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "That's great, I'm usually with Anton. I think you should be able to sense that."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "The situation you described is particularly similar to when I first met Anton. That's why I think they must want to be your friend."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, that means it wasn't a nightmare but some sort of entity."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It appeared because it wanted to be my friend, just like Anton?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Yes, perhaps you can try to respond! Do give it a go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "O-okay, what should I do?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's simple. First, find a dark place..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Here, take this clarinet."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This environment...",
+     "link": "4"
+    },
+    {
+     "text": "And this clarinet...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Connolly:",
+     "dialogue": "Eh, eh? You don't? Oh no."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Anton is usually by my side, and will help me during battles sometimes."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Sometimes they're like a clarinet, sometimes their eyes are huge..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Hm, partner!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm just kidding."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "By your friend, Anton, you mean the tentacles that are usually around you, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think they've even introduced themselves to me before..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Yes! It may sound marvelous..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "But I think what you heard in your dream, they were calling your name because they wanted to be your friend."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Just like my friend Anton!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, that means it wasn't a nightmare but some sort of entity."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It appeared because it wanted to be my friend, just like Anton?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Yes, perhaps you can try to respond! Do give it a go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "O-okay, what should I do?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's simple. First, find a dark place..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Here, take this clarinet."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This environment...",
+     "link": "4"
+    },
+    {
+     "text": "And this clarinet...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, that means it wasn't a nightmare but some sort of entity."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It appeared because it wanted to be my friend, just like Anton?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Yes, perhaps you can try to respond! Do give it a go!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "O-okay, what should I do?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's simple. First, find a dark place..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Here, take this clarinet."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This environment...",
+     "link": "4"
+    },
+    {
+     "text": "And this clarinet...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Connolly:",
+     "dialogue": "Hm, it's easier for them to come out if you try to communicate with them in a dark place."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "That's how I met Anton when I was young."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "I was a little scared when they called out to me from a dark corner the first time."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But don't you think this brightness..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Now that you mentioned it, it's too bright indeed. Let's turn off all the lights!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This is too dark! I can't see anything..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, what you're suggesting doesn't sound reliable."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "While I'm not entirely sure, and maybe there are different ways to make friends,"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "This is something I've experienced before after all. That's how I did it, and so I'm recommending it to you."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If you're shy, you can just play a little..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If it doesn't work, we'll find another way. How about that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "No sound comes out.",
+     "dialogue": "Do I look silly making such horrible sounds while squatting in a dark corner?"
+    },
+    {
+     "char": "Horrible sounds come out.",
+     "dialogue": "Nothing changed in your surroundings."
+    },
+    {
+     "char": "Your mouth is very sore.",
+     "dialogue": "Please don't give up! I was the same way when I first started playing the clarinet!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, that's not what I meant. I'm saying there's no..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0...\u25a0\u25a0..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're really here!!!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-hold on... this... Agh..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Connolly?! What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Boo-hoo... I'm sorry, I got dizzy all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "???:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!!..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Repel them!",
+     "link": "7"
+    },
+    {
+     "text": "Protect Connolly!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Connolly:",
+     "dialogue": "Oh, please don't worry."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "This-this is a new one. I haven't used it before. It's brand new!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Anyway, just play it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Do I have to?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've never played an instrument before, unless you count the Colossus' Controller..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm sorry, what you're suggesting doesn't sound reliable."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "While I'm not entirely sure, and maybe there are different ways to make friends,"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "This is something I've experienced before after all. That's how I did it, and so I'm recommending it to you."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If you're shy, you can just play a little..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If it doesn't work, we'll find another way. How about that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "No sound comes out.",
+     "dialogue": "Do I look silly making such horrible sounds while squatting in a dark corner?"
+    },
+    {
+     "char": "Horrible sounds come out.",
+     "dialogue": "Nothing changed in your surroundings."
+    },
+    {
+     "char": "Your mouth is very sore.",
+     "dialogue": "Please don't give up! I was the same way when I first started playing the clarinet!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, that's not what I meant. I'm saying there's no..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0...\u25a0\u25a0..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're really here!!!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-hold on... this... Agh..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Connolly?! What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Boo-hoo... I'm sorry, I got dizzy all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "???:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!!..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Repel them!",
+     "link": "7"
+    },
+    {
+     "text": "Protect Connolly!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Connolly:",
+     "dialogue": "While I'm not entirely sure, and maybe there are different ways to make friends,"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "This is something I've experienced before after all. That's how I did it, and so I'm recommending it to you."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If you're shy, you can just play a little..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "If it doesn't work, we'll find another way. How about that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay."
+    },
+    {
+     "char": "No sound comes out.",
+     "dialogue": "Do I look silly making such horrible sounds while squatting in a dark corner?"
+    },
+    {
+     "char": "Horrible sounds come out.",
+     "dialogue": "Nothing changed in your surroundings."
+    },
+    {
+     "char": "Your mouth is very sore.",
+     "dialogue": "Please don't give up! I was the same way when I first started playing the clarinet!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, that's not what I meant. I'm saying there's no..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0...\u25a0\u25a0..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They're really here!!!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-hold on... this... Agh..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Connolly?! What's wrong?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Boo-hoo... I'm sorry, I got dizzy all of a sudden..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "lly...no...Con"
+    },
+    {
+     "char": "???:",
+     "dialogue": "\u25a0\u25a0\u25a0\u25a0! \u25a0\u25a0!!..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Repel them!",
+     "link": "7"
+    },
+    {
+     "text": "Protect Connolly!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "It's not working at all?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Be-be careful!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Hold on! They just want to be your friend!"
+    },
+    {
+     "char": "As Connolly reaches out a finger, the shadows in the dark actually quiet down.",
+     "dialogue": "Look, they've quieted down."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's just a misunderstanding. They must be Anton."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Meadow, Jeanne"
+    },
+    {
+     "char": "Anton B Minor:",
+     "dialogue": "\u25a0\u25a0!"
+    },
+    {
+     "char": "Anton C Major:",
+     "dialogue": "No, this sound..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this what you normally hear?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm...perhaps I'm too dizzy, I can't understand what they're saying at all..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Even Anton's shadow is getting fuzzy?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Connolly, do you have a fever?"
+    },
+    {
+     "char": "You suddenly sense that Connolly's temperature is a little too warm when you are close to her just now, and her face is very red...",
+     "dialogue": "Fe...fever? What's that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's an illness...it must be rare for a strong Aurorian like you to get this kind of illness."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "\u25a0\u25a0!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Danger... in... she... Connolly... help"
+    },
+    {
+     "char": "Anton C Major:",
+     "dialogue": "Oh, I get it now! Anton came to me so that I can warn you about this."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Putting it another way, they must be saying \"Help Connolly, she's in danger\"!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It must be because you haven't taken time off for days and only relied on coffee to stay awake. That's why you have a fever now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you haven't sensed it at all, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0\u25a0!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is... that so? That means... I'm the one giving you trouble..."
+    },
+    {
+     "char": "Anton A Major:",
+     "dialogue": "I-I'm sorry!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's okay. Anyway, you should rest...or else they're going to scare me to death."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "However, Anton really is a good friend. I can tell how much they care about you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They must have been worried that I couldn't hear them in my sleep when they came to me for help last night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They even left some weird text with black soil."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I have no choice but to rest now..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But Anton can't make black soil or leave any message, though."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Connolly! Watch out!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Hold on! They just want to be your friend!"
+    },
+    {
+     "char": "As Connolly reaches out a finger, the shadows in the dark actually quiet down.",
+     "dialogue": "Look, they've quieted down."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's just a misunderstanding. They must be Anton."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Meadow, Jeanne"
+    },
+    {
+     "char": "Anton B Minor:",
+     "dialogue": "\u25a0\u25a0!"
+    },
+    {
+     "char": "Anton C Major:",
+     "dialogue": "No, this sound..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this what you normally hear?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm...perhaps I'm too dizzy, I can't understand what they're saying at all..."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Even Anton's shadow is getting fuzzy?"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "Connolly, do you have a fever?"
+    },
+    {
+     "char": "You suddenly sense that Connolly's temperature is a little too warm when you are close to her just now, and her face is very red...",
+     "dialogue": "Fe...fever? What's that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's an illness...it must be rare for a strong Aurorian like you to get this kind of illness."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "\u25a0\u25a0!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Danger... in... she... Connolly... help"
+    },
+    {
+     "char": "Anton C Major:",
+     "dialogue": "Oh, I get it now! Anton came to me so that I can warn you about this."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Putting it another way, they must be saying \"Help Connolly, she's in danger\"!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It must be because you haven't taken time off for days and only relied on coffee to stay awake. That's why you have a fever now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you haven't sensed it at all, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\u25a0\u25a0\u25a0!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is... that so? That means... I'm the one giving you trouble..."
+    },
+    {
+     "char": "Anton A Major:",
+     "dialogue": "I-I'm sorry!"
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "It's okay. Anyway, you should rest...or else they're going to scare me to death."
+    },
+    {
+     "char": "Connolly:",
+     "dialogue": "However, Anton really is a good friend. I can tell how much they care about you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They must have been worried that I couldn't hear them in my sleep when they came to me for help last night."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They even left some weird text with black soil."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I have no choice but to rest now..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But Anton can't make black soil or leave any message, though."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

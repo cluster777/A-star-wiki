@@ -1,465 +1,564 @@
 {
-      "name": "Requiem",
-      "faction": "silent hunter",
-      "element_main": "Thunder",
-      "element_sub": "Thunder",
-      "rarity": "6",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "10 Vis",
-            "description": [
-                  "Costs 10 Vis and clears the remaining Vis to deal 150% damage to all enemies. The damage increases by 15% for every 1 Vis cleared."
-            ]
-      },
-      "equip": {
-            "name": "Banner of Discipline",
-            "passive": "Calming Roar",
-            "description": [
-                  [
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
-                        "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 160% damage to 12 tiles in a diamond shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 175% damage to 16 tiles in a radial shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
-                        },
-                        {
-                              "cost": "12",
-                              "description": "Deals 180% damage to 2 surrounding clusters. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 300.",
-            "DEF increased by 40.",
-            "Equipment Skill Enhancement: When an Active Skill kills 1 enemy, gains 2 Vis.",
-            "Increased by 300+5%Basic max HP.",
-            "Increased by 40+5%Basic DEF.",
-            "Active Skill Enhancement: For every 1 Vis cleared, this damage ignores 1% of the target's DEF."
-      ],
-      "ascension": [],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 2650,
-                        "def": 935,
-                        "hp": 7129
-                  },
-                  {
-                        "att": 2658,
-                        "def": 938,
-                        "hp": 7149
-                  },
-                  {
-                        "att": 2666,
-                        "def": 941,
-                        "hp": 7170
-                  },
-                  {
-                        "att": 2674,
-                        "def": 943,
-                        "hp": 7190
-                  },
-                  {
-                        "att": 2681,
-                        "def": 946,
-                        "hp": 7210
-                  },
-                  {
-                        "att": 2689,
-                        "def": 949,
-                        "hp": 7231
-                  },
-                  {
-                        "att": 2697,
-                        "def": 951,
-                        "hp": 7251
-                  },
-                  {
-                        "att": 2705,
-                        "def": 954,
-                        "hp": 7271
-                  },
-                  {
-                        "att": 2712,
-                        "def": 957,
-                        "hp": 7291
-                  },
-                  {
-                        "att": 2720,
-                        "def": 959,
-                        "hp": 7312
-                  },
-                  {
-                        "att": 2728,
-                        "def": 962,
-                        "hp": 7332
-                  },
-                  {
-                        "att": 2736,
-                        "def": 965,
-                        "hp": 7352
-                  },
-                  {
-                        "att": 2744,
-                        "def": 967,
-                        "hp": 7372
-                  },
-                  {
-                        "att": 2751,
-                        "def": 970,
-                        "hp": 7393
-                  },
-                  {
-                        "att": 2759,
-                        "def": 973,
-                        "hp": 7413
-                  },
-                  {
-                        "att": 2767,
-                        "def": 975,
-                        "hp": 7433
-                  },
-                  {
-                        "att": 2775,
-                        "def": 978,
-                        "hp": 7454
-                  },
-                  {
-                        "att": 2783,
-                        "def": 981,
-                        "hp": 7474
-                  },
-                  {
-                        "att": 2790,
-                        "def": 983,
-                        "hp": 7494
-                  },
-                  {
-                        "att": 2798,
-                        "def": 986,
-                        "hp": 7514
-                  },
-                  {
-                        "att": 2806,
-                        "def": 989,
-                        "hp": 7535
-                  },
-                  {
-                        "att": 2814,
-                        "def": 991,
-                        "hp": 7555
-                  },
-                  {
-                        "att": 2821,
-                        "def": 994,
-                        "hp": 7575
-                  },
-                  {
-                        "att": 2829,
-                        "def": 997,
-                        "hp": 7595
-                  },
-                  {
-                        "att": 2837,
-                        "def": 999,
-                        "hp": 7616
-                  },
-                  {
-                        "att": 2845,
-                        "def": 1002,
-                        "hp": 7636
-                  },
-                  {
-                        "att": 2853,
-                        "def": 1005,
-                        "hp": 7656
-                  },
-                  {
-                        "att": 2860,
-                        "def": 1007,
-                        "hp": 7677
-                  },
-                  {
-                        "att": 2868,
-                        "def": 1010,
-                        "hp": 7697
-                  },
-                  {
-                        "att": 2876,
-                        "def": 1013,
-                        "hp": 7717
-                  },
-                  {
-                        "att": 2884,
-                        "def": 1015,
-                        "hp": 7737
-                  },
-                  {
-                        "att": 2892,
-                        "def": 1018,
-                        "hp": 7758
-                  },
-                  {
-                        "att": 2899,
-                        "def": 1021,
-                        "hp": 7778
-                  },
-                  {
-                        "att": 2907,
-                        "def": 1023,
-                        "hp": 7798
-                  },
-                  {
-                        "att": 2915,
-                        "def": 1026,
-                        "hp": 7818
-                  },
-                  {
-                        "att": 2923,
-                        "def": 1029,
-                        "hp": 7839
-                  },
-                  {
-                        "att": 2931,
-                        "def": 1031,
-                        "hp": 7859
-                  },
-                  {
-                        "att": 2938,
-                        "def": 1034,
-                        "hp": 7879
-                  },
-                  {
-                        "att": 2946,
-                        "def": 1037,
-                        "hp": 7900
-                  },
-                  {
-                        "att": 2954,
-                        "def": 1039,
-                        "hp": 7920
-                  },
-                  {
-                        "att": 2962,
-                        "def": 1042,
-                        "hp": 7940
-                  },
-                  {
-                        "att": 2969,
-                        "def": 1045,
-                        "hp": 7960
-                  },
-                  {
-                        "att": 2977,
-                        "def": 1047,
-                        "hp": 7981
-                  },
-                  {
-                        "att": 2985,
-                        "def": 1050,
-                        "hp": 8001
-                  },
-                  {
-                        "att": 2993,
-                        "def": 1053,
-                        "hp": 8021
-                  },
-                  {
-                        "att": 3001,
-                        "def": 1055,
-                        "hp": 8041
-                  },
-                  {
-                        "att": 3008,
-                        "def": 1058,
-                        "hp": 8062
-                  },
-                  {
-                        "att": 3016,
-                        "def": 1061,
-                        "hp": 8082
-                  },
-                  {
-                        "att": 3024,
-                        "def": 1063,
-                        "hp": 8102
-                  },
-                  {
-                        "att": 3032,
-                        "def": 1066,
-                        "hp": 8123
-                  },
-                  {
-                        "att": 3040,
-                        "def": 1069,
-                        "hp": 8143
-                  },
-                  {
-                        "att": 3047,
-                        "def": 1071,
-                        "hp": 8163
-                  },
-                  {
-                        "att": 3055,
-                        "def": 1074,
-                        "hp": 8183
-                  },
-                  {
-                        "att": 3063,
-                        "def": 1077,
-                        "hp": 8204
-                  },
-                  {
-                        "att": 3071,
-                        "def": 1079,
-                        "hp": 8224
-                  },
-                  {
-                        "att": 3078,
-                        "def": 1082,
-                        "hp": 8244
-                  },
-                  {
-                        "att": 3086,
-                        "def": 1085,
-                        "hp": 8264
-                  },
-                  {
-                        "att": 3094,
-                        "def": 1087,
-                        "hp": 8285
-                  },
-                  {
-                        "att": 3102,
-                        "def": 1090,
-                        "hp": 8305
-                  },
-                  {
-                        "att": 3110,
-                        "def": 1093,
-                        "hp": 8325
-                  },
-                  {
-                        "att": 3117,
-                        "def": 1095,
-                        "hp": 8346
-                  },
-                  {
-                        "att": 3125,
-                        "def": 1098,
-                        "hp": 8366
-                  },
-                  {
-                        "att": 3133,
-                        "def": 1101,
-                        "hp": 8386
-                  },
-                  {
-                        "att": 3141,
-                        "def": 1103,
-                        "hp": 8406
-                  },
-                  {
-                        "att": 3149,
-                        "def": 1106,
-                        "hp": 8427
-                  },
-                  {
-                        "att": 3156,
-                        "def": 1109,
-                        "hp": 8447
-                  },
-                  {
-                        "att": 3164,
-                        "def": 1111,
-                        "hp": 8467
-                  },
-                  {
-                        "att": 3172,
-                        "def": 1114,
-                        "hp": 8487
-                  },
-                  {
-                        "att": 3180,
-                        "def": 1117,
-                        "hp": 8508
-                  },
-                  {
-                        "att": 3187,
-                        "def": 1119,
-                        "hp": 8528
-                  },
-                  {
-                        "att": 3195,
-                        "def": 1122,
-                        "hp": 8548
-                  },
-                  {
-                        "att": 3203,
-                        "def": 1125,
-                        "hp": 8569
-                  },
-                  {
-                        "att": 3211,
-                        "def": 1127,
-                        "hp": 8589
-                  },
-                  {
-                        "att": 3219,
-                        "def": 1130,
-                        "hp": 8609
-                  },
-                  {
-                        "att": 3226,
-                        "def": 1133,
-                        "hp": 8629
-                  },
-                  {
-                        "att": 3234,
-                        "def": 1135,
-                        "hp": 8650
-                  },
-                  {
-                        "att": 3242,
-                        "def": 1138,
-                        "hp": 8670
-                  },
-                  {
-                        "att": 3250,
-                        "def": 1141,
-                        "hp": 8690
-                  },
-                  {
-                        "att": 3258,
-                        "def": 1143,
-                        "hp": 8710
-                  },
-                  {
-                        "att": 3265,
-                        "def": 1146,
-                        "hp": 8731
-                  }
-            ]
-      }
+ "name": "Requiem",
+ "faction": "silent hunter",
+ "element_main": "Thunder",
+ "element_sub": "Thunder",
+ "rarity": "6",
+ "class": "Detonator",
+ "skill": {
+  "name": "No Mercy",
+  "cd": "10 Vis",
+  "description": [
+   "Costs 10 Vis and clears the remaining Vis to deal 150% damage to all enemies. The damage increases by 15% for every 1 Vis cleared."
+  ]
+ },
+ "equip": {
+  "name": "Banner of Discipline",
+  "passive": "Calming Roar",
+  "description": [
+   [
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy.",
+    "Gains 5 Vis at the start of every round. Normal attacks have a 30% chance to release 1 lightning strike to hit the farthest enemy."
+   ]
+  ],
+  "introduction": "A huge lance that has a complicated mechanical structure. A war-ravaged blue and white banner with a Star Crest on it flies in the air above it. This lance is a device that augments thunder magic, and it can be used as a melee weapon when enemies get close."
+ },
+ "chain": {
+  "name": "Smiting Lance",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 160% damage to 12 tiles in a diamond shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 175% damage to 16 tiles in a radial shape. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 180% damage to 2 surrounding clusters. If damage is dealt, launches 1 lightning strike at the farthest enemy, dealing the same amount of damage again."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Equipment Skill Enhancement: When an Active Skill kills 1 enemy, gains 2 Vis.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: For every 1 Vis cleared, this damage ignores 1% of the target's DEF."
+ ],
+ "ascension": [],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 2650,
+    "def": 935,
+    "hp": 7129
+   },
+   {
+    "att": 2658,
+    "def": 938,
+    "hp": 7149
+   },
+   {
+    "att": 2666,
+    "def": 941,
+    "hp": 7170
+   },
+   {
+    "att": 2674,
+    "def": 943,
+    "hp": 7190
+   },
+   {
+    "att": 2681,
+    "def": 946,
+    "hp": 7210
+   },
+   {
+    "att": 2689,
+    "def": 949,
+    "hp": 7231
+   },
+   {
+    "att": 2697,
+    "def": 951,
+    "hp": 7251
+   },
+   {
+    "att": 2705,
+    "def": 954,
+    "hp": 7271
+   },
+   {
+    "att": 2712,
+    "def": 957,
+    "hp": 7291
+   },
+   {
+    "att": 2720,
+    "def": 959,
+    "hp": 7312
+   },
+   {
+    "att": 2728,
+    "def": 962,
+    "hp": 7332
+   },
+   {
+    "att": 2736,
+    "def": 965,
+    "hp": 7352
+   },
+   {
+    "att": 2744,
+    "def": 967,
+    "hp": 7372
+   },
+   {
+    "att": 2751,
+    "def": 970,
+    "hp": 7393
+   },
+   {
+    "att": 2759,
+    "def": 973,
+    "hp": 7413
+   },
+   {
+    "att": 2767,
+    "def": 975,
+    "hp": 7433
+   },
+   {
+    "att": 2775,
+    "def": 978,
+    "hp": 7454
+   },
+   {
+    "att": 2783,
+    "def": 981,
+    "hp": 7474
+   },
+   {
+    "att": 2790,
+    "def": 983,
+    "hp": 7494
+   },
+   {
+    "att": 2798,
+    "def": 986,
+    "hp": 7514
+   },
+   {
+    "att": 2806,
+    "def": 989,
+    "hp": 7535
+   },
+   {
+    "att": 2814,
+    "def": 991,
+    "hp": 7555
+   },
+   {
+    "att": 2821,
+    "def": 994,
+    "hp": 7575
+   },
+   {
+    "att": 2829,
+    "def": 997,
+    "hp": 7595
+   },
+   {
+    "att": 2837,
+    "def": 999,
+    "hp": 7616
+   },
+   {
+    "att": 2845,
+    "def": 1002,
+    "hp": 7636
+   },
+   {
+    "att": 2853,
+    "def": 1005,
+    "hp": 7656
+   },
+   {
+    "att": 2860,
+    "def": 1007,
+    "hp": 7677
+   },
+   {
+    "att": 2868,
+    "def": 1010,
+    "hp": 7697
+   },
+   {
+    "att": 2876,
+    "def": 1013,
+    "hp": 7717
+   },
+   {
+    "att": 2884,
+    "def": 1015,
+    "hp": 7737
+   },
+   {
+    "att": 2892,
+    "def": 1018,
+    "hp": 7758
+   },
+   {
+    "att": 2899,
+    "def": 1021,
+    "hp": 7778
+   },
+   {
+    "att": 2907,
+    "def": 1023,
+    "hp": 7798
+   },
+   {
+    "att": 2915,
+    "def": 1026,
+    "hp": 7818
+   },
+   {
+    "att": 2923,
+    "def": 1029,
+    "hp": 7839
+   },
+   {
+    "att": 2931,
+    "def": 1031,
+    "hp": 7859
+   },
+   {
+    "att": 2938,
+    "def": 1034,
+    "hp": 7879
+   },
+   {
+    "att": 2946,
+    "def": 1037,
+    "hp": 7900
+   },
+   {
+    "att": 2954,
+    "def": 1039,
+    "hp": 7920
+   },
+   {
+    "att": 2962,
+    "def": 1042,
+    "hp": 7940
+   },
+   {
+    "att": 2969,
+    "def": 1045,
+    "hp": 7960
+   },
+   {
+    "att": 2977,
+    "def": 1047,
+    "hp": 7981
+   },
+   {
+    "att": 2985,
+    "def": 1050,
+    "hp": 8001
+   },
+   {
+    "att": 2993,
+    "def": 1053,
+    "hp": 8021
+   },
+   {
+    "att": 3001,
+    "def": 1055,
+    "hp": 8041
+   },
+   {
+    "att": 3008,
+    "def": 1058,
+    "hp": 8062
+   },
+   {
+    "att": 3016,
+    "def": 1061,
+    "hp": 8082
+   },
+   {
+    "att": 3024,
+    "def": 1063,
+    "hp": 8102
+   },
+   {
+    "att": 3032,
+    "def": 1066,
+    "hp": 8123
+   },
+   {
+    "att": 3040,
+    "def": 1069,
+    "hp": 8143
+   },
+   {
+    "att": 3047,
+    "def": 1071,
+    "hp": 8163
+   },
+   {
+    "att": 3055,
+    "def": 1074,
+    "hp": 8183
+   },
+   {
+    "att": 3063,
+    "def": 1077,
+    "hp": 8204
+   },
+   {
+    "att": 3071,
+    "def": 1079,
+    "hp": 8224
+   },
+   {
+    "att": 3078,
+    "def": 1082,
+    "hp": 8244
+   },
+   {
+    "att": 3086,
+    "def": 1085,
+    "hp": 8264
+   },
+   {
+    "att": 3094,
+    "def": 1087,
+    "hp": 8285
+   },
+   {
+    "att": 3102,
+    "def": 1090,
+    "hp": 8305
+   },
+   {
+    "att": 3110,
+    "def": 1093,
+    "hp": 8325
+   },
+   {
+    "att": 3117,
+    "def": 1095,
+    "hp": 8346
+   },
+   {
+    "att": 3125,
+    "def": 1098,
+    "hp": 8366
+   },
+   {
+    "att": 3133,
+    "def": 1101,
+    "hp": 8386
+   },
+   {
+    "att": 3141,
+    "def": 1103,
+    "hp": 8406
+   },
+   {
+    "att": 3149,
+    "def": 1106,
+    "hp": 8427
+   },
+   {
+    "att": 3156,
+    "def": 1109,
+    "hp": 8447
+   },
+   {
+    "att": 3164,
+    "def": 1111,
+    "hp": 8467
+   },
+   {
+    "att": 3172,
+    "def": 1114,
+    "hp": 8487
+   },
+   {
+    "att": 3180,
+    "def": 1117,
+    "hp": 8508
+   },
+   {
+    "att": 3187,
+    "def": 1119,
+    "hp": 8528
+   },
+   {
+    "att": 3195,
+    "def": 1122,
+    "hp": 8548
+   },
+   {
+    "att": 3203,
+    "def": 1125,
+    "hp": 8569
+   },
+   {
+    "att": 3211,
+    "def": 1127,
+    "hp": 8589
+   },
+   {
+    "att": 3219,
+    "def": 1130,
+    "hp": 8609
+   },
+   {
+    "att": 3226,
+    "def": 1133,
+    "hp": 8629
+   },
+   {
+    "att": 3234,
+    "def": 1135,
+    "hp": 8650
+   },
+   {
+    "att": 3242,
+    "def": 1138,
+    "hp": 8670
+   },
+   {
+    "att": 3250,
+    "def": 1141,
+    "hp": 8690
+   },
+   {
+    "att": 3258,
+    "def": 1143,
+    "hp": 8710
+   },
+   {
+    "att": 3265,
+    "def": 1146,
+    "hp": 8731
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "According to the records, \"Requiem\" ___ was born in a family of military nobles in the far north. As the only daughter of the family, she was spoiled since childhood, but at the same time, her parents instilled all kinds of dogmatic etiquette and rules in her. She neither resisted nor accepted her family education. Instead, she cleverly acted like the lady of a noble family in front of outsiders while secretly doing the things she liked. Fortunately, she had an extraordinary talent for martial arts and magic. Her excellent grades in the military academy and her feigned reserved manner won ___ many titles such as \"Silent Saint,\" \"________,\" \"____ Knight Drill Officer,\" etc.After repairing and compiling the information we collected, we finally managed to obtain this file. Part of the information is unreadable due to age or intentional damage. Although we won't be able to fully understand the past of this Aurorian... this will help us to gain a deeper understanding of these \"lost heroes.\""
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Just when everyone thought ___ would succeed ______ as the new general of the kingdom, a large number of Eclipsites attacked this peaceful land. Like Adras, the squad ___ was in was dispatched to the front lines to engage the Eclipsites. On the frontlines, ___ was dealt a huge blow when she learned that __ had died because of an Eclipsite attack. Her heart was filled not only with the pain of losing a loved one but also confusion caused by the loss of a person who guided and protected her. She had gained freedom for the first time, but she felt that the price of freedom was too heavy."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "After being freed from her shackles, ___ decided to accept Claymore's invitation. She raised the banner of her family once again, followed her family's past expectations for her, and fought for her country and people. Although ___ looked serious and stern on the surface, she was naive by nature. After receiving the __ of the \"Silent Hunters,\" her personality didn't change much, but her rude and willful side became increasingly obvious as her serious and stern facade was gradually worn away __. That being said, she always appears calm and efficient when she is on the hunt for Eclipsites. She always executes them with precision and would not torture or kill them brutally like ___, nor have any unnecessary empathy for them like ___.*Project \"Silent Hunters\" modified Aurorians to give them great power for a short period of time, making them the most powerful weapon against the Eclipsites."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Under the joint effort of \"Silent Hunters\", she and the other four members led the army to repel the invasion of the Eclipsites. They became heroes celebrated by the people. Freya was not at all surprised when she learned that the factions of the kingdom's nobles feared their power. It seems that she had already guessed what type of people these nobles were. They praised them as heroes when they needed them and abandoned them when the threat was eliminated. Freya had no intention to participate in this kind of boring court struggle because her only goal was to follow her parents' teachings and protect the people like a saint like she had been eulogized. When ___ launched a sneak attack against her, she already saw it coming and didn't even resist."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "Ah! I see, so it was Claymore who was observing and recording us. I have always been telling everyone that I could sense the fervent gaze of someone other than the Eclipsites on me on the battlefield! It doesn't matter though, since I'm everyone's saint, it's only natural for everyone to look up to and praise me... Huh? You read other stories about me in the file... Wait, what did you read?! I haven't given you permission to read whatever you fancy! Wait there and don't do a thing! I'll be there in a sec!!"
+  }
+ ],
+ "voice": [
+  "Let bygones be bygones! I've slept so much that the past feels so far away... But it is pretty fun loitering over here while searching for our next target.",
+  "Illumina and Lumopolis seem to be full of nothing but dullards... As for Northland... Make sure you take me with you next time!",
+  "We are the conciliators of borderlands!",
+  "Hate them, hate them very much.Even if I was not so righteous, I would still want to pound their ugly faces in.",
+  "Things used to be complicated between Friegson and Cynthia! I heard Friegson even attacked her once, but now they're on much better terms!",
+  "Adras is a beast, whether it's combat prowess or magic you're talking about! Wait, Navigator, are you jealous? You're kind of cute when you're like this...",
+  "Why can't I like chocolate and other sweets?! Everyone else likes them, too... Shut up, you, not a word!",
+  "I hate Eclipsites and you. Oops, don't cry! I'm sorry... If you must know, I do like you better!",
+  "No thoughts are other than living comfortably, sorry.",
+  "Huh? Have you come to thank me specifically?",
+  "Got it, got it! Leave it to the great Silent Saint and most powerful Freya, the \"Requiem\" from Silent Hunters, to help the useless Navigator! What, you're going to make me work? You mean it?",
+  "*Sobs* How could this happen? Sorry...",
+  "Of course. Just appreciate me with all your heart.",
+  "Forward and onward!",
+  "It's not over yet!",
+  "No survivors!",
+  "It's the New Year! Praise the time off!",
+  "Alright... Step aside and let me show you!",
+  "La-da-da... I could get used to this laid-back life. Since you don't have much going on now, how about I chill with you out of the goodness of my heart?",
+  "Wow! That's what I'm talking about!",
+  "Yeah, Alchemy Stars!",
+  "Regardless, I'm a decorated soldier who will follow your orders into battle. Nonetheless, let's not get carried away here!",
+  "I was often called a saint, but I don't handle confessions and atonements. You'll have to see someone else for that.",
+  "Huh? Where are you, Navigator? Oh, there you are! You sure blend into the crowd, just like a wallflower!",
+  "Why Requiem? Because I can see spirits, such as those behind you right now... Just kidding, ha-ha!",
+  "Hovering around me without any precaution... You might just end up getting yourself impaled, Navigator...",
+  "Say, go make yourself busy. No need to keep an eye on me; I'm not going anywhere.",
+  "How about sparring me if you got nothing better to do? Don't look at me that way. I killed a wolf with one punch before... It would take even less to deal with you, poor little Navigator.",
+  "No matter how you count it, I'm not 19 yet... Or are you just dying to find out what happens to people who grill me like this?",
+  "On second thought, you're a nice guy... How about letting me call you \"My dear\" out of appreciation? You would? I was just joking!",
+  "It's a scanty costume? Well, considering my spells can fry Eclipsites into a crisp from a mile away, I don't have to be fully loaded like Adras!",
+  "You want me to call out to you like a cat? Are you okay in the head? I'm now very concerned about your mental health.",
+  "If I had impaled the Navigator for touching me just now, maybe they'd start calling me the \"Untouchable Saint\"... That does sound appealing, no?",
+  "Any plans for the day? Nothing? Unbelievable... Want my input?",
+  "Morning! I thought you're going to sleep in till the afternoon. Anyway, good morning!",
+  "I've decided to schedule the Navigator's day! What?It's way past the time? Damn, just when I finally want to help!",
+  "Okay, I'm off now. You can take over the shift now, Navigator... What? No way? How could you say that!",
+  "Nice to meet you. I'm Requiem with the Silent Hunters. Anyway, let me do all the fighting and keep your klutzy self out of my way.",
+  "Hey, not bad.",
+  "Thanks... Stop looking at me!",
+  "This is unexpected. I'll take it!",
+  "Oh, this is... uh, thanks! I like it very much. You're so nice!",
+  "Ashes to ashes!",
+  "Die, fool!",
+  "The thunder roars.",
+  "Let me think. I'm pretty sure... I was born to a perfect family, so it makes sense for me to be this flawless, right?",
+  "It's a boring job whether I'm a military chaplain or a drill officer, having to nag people older than me about repentance and following the rules all day! I expect grown-ups to behave themselves!",
+  "Well, I don't know what was up with me. This is what I became after following the Claymore's advice. Still not bad though, right?",
+  "I promise to live up to your expectations."
+ ],
+ "description": "Banished ancient hero. Fighting Eclipsites at the frontline since childhood. A willful motormouth. Transformed but kept innocence.",
+ "realName": "Freya",
+ "gender": "Female",
+ "height": "5'3''",
+ "birthday": "December 1",
+ "birthplace": "Unknown",
+ "style": "Banner of Admonition"
 }

@@ -1,0 +1,992 @@
+{
+ "title": "Raindrop Healing",
+ "header": "Has Raphael discovered the secret of the Colossus? She wants to heal the Colossus? It turns out that Raphael once treated a friend similar to the Colossus in the past...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Why are you in such a hurry, Raphael?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I want to see you play the piano!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "All of a sudden? But it's not a piano!",
+     "link": "1"
+    },
+    {
+     "text": "I guess it's fine...",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "Eh? But it looks like a piano!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on, Raphael!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You can't just play it! It's an important control panel used to control the Colossus."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Is it used to control the Colossus? Strange..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "But it sounds just like a regular piano when you play it. The Colossus doesn't seem to react to it at all, either..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Raphael! Stop!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, okay. Vice said you lived here for 17 years."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You'd been playing it like an ordinary piano, and you never thought about activating it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come closer. I'm going to let you in on a secret..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gotcha!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Waaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Listen to me! That's the control panel, not a piano!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, I get it already! So can you tell me why I've never activated it before?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't want to admit it, but I was inadequate back then... And the Colossus was severely damaged!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Indeed. There are so many breaches on the Colossus. You've been treating him badly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Badly? Soroz? No, I haven't!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "He's probably telling you it hurts!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He? So you also know he's a sentient creature...?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I do. Is that a problem?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I feel sad for the Colossus. Come over here with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahh! Stop dragging me! Wait, I didn't know you have such strength!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Come! Look! Here it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, look a breach!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "A breach? Navigator, don't you care about him?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Maybe we've lived together for too long.",
+     "link": "4"
+    },
+    {
+     "text": "Of course I care. It's been 17 years.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "Hey, is that voice what Vice heard the other day?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "It sounds as ethereal as a living creature."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey! Raphael! What are you doing?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Let me play with you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Raphael! Stop!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, okay. Vice said you lived here for 17 years."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You'd been playing it like an ordinary piano, and you never thought about activating it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come closer. I'm going to let you in on a secret..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gotcha!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Waaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Listen to me! That's the control panel, not a piano!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, I get it already! So can you tell me why I've never activated it before?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't want to admit it, but I was inadequate back then... And the Colossus was severely damaged!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Indeed. There are so many breaches on the Colossus. You've been treating him badly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Badly? Soroz? No, I haven't!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "He's probably telling you it hurts!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He? So you also know he's a sentient creature...?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I do. Is that a problem?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I feel sad for the Colossus. Come over here with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahh! Stop dragging me! Wait, I didn't know you have such strength!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Come! Look! Here it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, look a breach!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "A breach? Navigator, don't you care about him?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Maybe we've lived together for too long.",
+     "link": "4"
+    },
+    {
+     "text": "Of course I care. It's been 17 years.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Raphael! Stop!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, okay. Vice said you lived here for 17 years."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You'd been playing it like an ordinary piano, and you never thought about activating it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Come closer. I'm going to let you in on a secret..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Gotcha!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Waaah!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Listen to me! That's the control panel, not a piano!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Okay, I get it already! So can you tell me why I've never activated it before?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I don't want to admit it, but I was inadequate back then... And the Colossus was severely damaged!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Indeed. There are so many breaches on the Colossus. You've been treating him badly."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Badly? Soroz? No, I haven't!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "He's probably telling you it hurts!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "He? So you also know he's a sentient creature...?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I do. Is that a problem?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I feel sad for the Colossus. Come over here with me!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ahh! Stop dragging me! Wait, I didn't know you have such strength!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Come! Look! Here it is!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, look a breach!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "A breach? Navigator, don't you care about him?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Maybe we've lived together for too long.",
+     "link": "4"
+    },
+    {
+     "text": "Of course I care. It's been 17 years.",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "So you got used to these?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah. I used to take the breaches here for granted..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You're so reckless... Or is it because you just don't know anything about it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you want to do?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Look at the breach here. It's very similar to human muscles..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I examined it carefully and found that although the structure of the Colossus is mechanical,"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Many of its parts are filled with biomaterials similar to muscles!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "We can say that he is a creature, not just something mechanical!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think that's way above my head."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are all of your flying vehicles mechanical?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The airships of Lumopolis are all magic-driven flying vehicles."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The Illumina Federation uses their self-developed devices for hovering..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I have probably said too much already. Anyway, the structure is both rare and problematic!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "And since he is a creature, there must be ways to treat him!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Treat\"?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Yes. I have seen bio-mechanical hybrids before."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Here. Check this ou-"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Don't stop me! You've known me for so long. Don't you know what I'm capable of?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you going to fire? Stop!",
+     "link": "7"
+    },
+    {
+     "text": "You want to fire that healing missile?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "Then how could you let it stay decrepit?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've been trying to fix it! But to be honest, that's not my strong suit..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I'll teach you then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you want to do?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Look at the breach here. It's very similar to human muscles..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I examined it carefully and found that although the structure of the Colossus is mechanical,"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Many of its parts are filled with biomaterials similar to muscles!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "We can say that he is a creature, not just something mechanical!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think that's way above my head."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are all of your flying vehicles mechanical?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The airships of Lumopolis are all magic-driven flying vehicles."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The Illumina Federation uses their self-developed devices for hovering..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I have probably said too much already. Anyway, the structure is both rare and problematic!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "And since he is a creature, there must be ways to treat him!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Treat\"?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Yes. I have seen bio-mechanical hybrids before."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Here. Check this ou-"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Don't stop me! You've known me for so long. Don't you know what I'm capable of?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you going to fire? Stop!",
+     "link": "7"
+    },
+    {
+     "text": "You want to fire that healing missile?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "What do you want to do?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Look at the breach here. It's very similar to human muscles..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I examined it carefully and found that although the structure of the Colossus is mechanical,"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Many of its parts are filled with biomaterials similar to muscles!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "We can say that he is a creature, not just something mechanical!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think that's way above my head."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Are all of your flying vehicles mechanical?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The airships of Lumopolis are all magic-driven flying vehicles."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "The Illumina Federation uses their self-developed devices for hovering..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I have probably said too much already. Anyway, the structure is both rare and problematic!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "And since he is a creature, there must be ways to treat him!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "\"Treat\"?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Yes. I have seen bio-mechanical hybrids before."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Here. Check this ou-"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No, no!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Don't stop me! You've known me for so long. Don't you know what I'm capable of?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "What are you going to fire? Stop!",
+     "link": "7"
+    },
+    {
+     "text": "You want to fire that healing missile?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "I'm treating him! Treating him!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's a really fast guided missile, though!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Just wait and see!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, the damaged part is\u2014"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "How's that? Now you no longer need to ask the Fireflies to fix it, do you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could you tell? And how did you put the healing missile together?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I've made similar ones before."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Similar? Have you seen a Colossus before? In Lumopolis?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Hey, personal space, please! No, not Colossus, a person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A human?... Could it be a Caelestite?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Stop shaking my shoulders! My head's about to come off!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You're completely wrong! It was Michael!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your partner?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Yeah, the one known as Thunder Angel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Indeed. Physically, she does have some prosthetics. I thought it was some sort of armor..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Ugh! Please don't let Michael know I told you about it even though I only told you because you forced it out of me."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "She may not express it, but she cares a lot about these kind of things."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that so... What do you mean you were forced?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Just don't let anyone know I told you about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I didn't force you... Wait, does it mean you healed Michael before?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I did. Michael changed a lot after she came back from Illumina Federation..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "And she often had problems with the coordination of her body and her prosthetics."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "So the Lumo Knights put me in charge of treating her."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "That's why when I saw that structure of the Colossus, I was pretty confident that I could treat it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Say, it feels like you're really close to Michael."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I am. She and I got into the Lumo Knights at the same time. But she didn't talk to anyone at first."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Not until..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Until?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Michael may look aloof, but she's actually really soft-hearted."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "She doesn't talk, but she actually remembers all the trust and kindness she receives."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "If you give her a present, she'll definitely remember you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, but you were saying not until something..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Oh, so you noticed. I cannot keep it a secret then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What was it?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "It was the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "That was when Michael finally accepted me, embraced the Angels and became an Angel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "About the Encounter of Angels..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Oh, I gotta blend the missiles for tomorrow. Ask someone else about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You owe me one for treating the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? So that's why you did it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Raphael!!!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Raphael:",
+     "dialogue": "Yes! This is my specially blended healing missile. As long as the target has a biological structure, it can be healed."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it going to work on the Colossus?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Don't worry!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, the damaged part is\u2014"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "How's that? Now you no longer need to ask the Fireflies to fix it, do you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "How could you tell? And how did you put the healing missile together?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I've made similar ones before."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Similar? Have you seen a Colossus before? In Lumopolis?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Hey, personal space, please! No, not Colossus, a person!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A human?... Could it be a Caelestite?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Stop shaking my shoulders! My head's about to come off!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You're completely wrong! It was Michael!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Your partner?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Yeah, the one known as Thunder Angel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Indeed. Physically, she does have some prosthetics. I thought it was some sort of armor..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Ugh! Please don't let Michael know I told you about it even though I only told you because you forced it out of me."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "She may not express it, but she cares a lot about these kind of things."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is that so... What do you mean you were forced?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Just don't let anyone know I told you about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-I didn't force you... Wait, does it mean you healed Michael before?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I did. Michael changed a lot after she came back from Illumina Federation..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "And she often had problems with the coordination of her body and her prosthetics."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "So the Lumo Knights put me in charge of treating her."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "That's why when I saw that structure of the Colossus, I was pretty confident that I could treat it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Say, it feels like you're really close to Michael."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "I am. She and I got into the Lumo Knights at the same time. But she didn't talk to anyone at first."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Not until..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Until?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Michael may look aloof, but she's actually really soft-hearted."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "She doesn't talk, but she actually remembers all the trust and kindness she receives."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "If you give her a present, she'll definitely remember you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Um, but you were saying not until something..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Oh, so you noticed. I cannot keep it a secret then."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What was it?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "It was the Encounter of Angels."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Encounter of Angels?"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "That was when Michael finally accepted me, embraced the Angels and became an Angel."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "About the Encounter of Angels..."
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "Oh, I gotta blend the missiles for tomorrow. Ask someone else about it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hold on!"
+    },
+    {
+     "char": "Raphael:",
+     "dialogue": "You owe me one for treating the Colossus!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? So that's why you did it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Raphael!!!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

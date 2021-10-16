@@ -1,1153 +1,1257 @@
 {
-      "name": "Sylva",
-      "faction": "Northland",
-      "element_main": "Forest",
-      "element_sub": "null",
-      "rarity": "4",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Selects one of the farthest tiles around the unit in all 8 directions and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
-                  "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
-                  "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles."
-            ]
-      },
-      "equip": {
-            "name": "Vine Blade",
-            "passive": "Woodland Current",
-            "description": [
-                  [
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
-                  ],
-                  [
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
-                  ],
-                  [
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
-                        "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "Increased by 25+5%Basic DEF.",
-            "Increased by 200+5%Basic max HP.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Forest Flare Silt",
-                        "Forest Crystal Dust",
-                        "Pine Dew",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
-            },
-            {
-                  "material": [
-                        "Forest Crystal",
-                        "Forest Potion I",
-                        "Pine Frost",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Selects one of the farthest tiles around the unit in all 8 directions and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
-                  "after": "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles."
-            },
-            {
-                  "material": [
-                        "Forest Potion III",
-                        "Forest Flare Rock",
-                        "Tear of Pine",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF.",
-                  "after": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 535,
-                        "def": 253,
-                        "hp": 1734
-                  },
-                  {
-                        "att": 546,
-                        "def": 257,
-                        "hp": 1763
-                  },
-                  {
-                        "att": 556,
-                        "def": 261,
-                        "hp": 1792
-                  },
-                  {
-                        "att": 566,
-                        "def": 265,
-                        "hp": 1821
-                  },
-                  {
-                        "att": 577,
-                        "def": 269,
-                        "hp": 1850
-                  },
-                  {
-                        "att": 587,
-                        "def": 273,
-                        "hp": 1879
-                  },
-                  {
-                        "att": 598,
-                        "def": 277,
-                        "hp": 1908
-                  },
-                  {
-                        "att": 608,
-                        "def": 281,
-                        "hp": 1937
-                  },
-                  {
-                        "att": 618,
-                        "def": 285,
-                        "hp": 1966
-                  },
-                  {
-                        "att": 629,
-                        "def": 289,
-                        "hp": 1995
-                  },
-                  {
-                        "att": 639,
-                        "def": 293,
-                        "hp": 2024
-                  },
-                  {
-                        "att": 649,
-                        "def": 297,
-                        "hp": 2053
-                  },
-                  {
-                        "att": 660,
-                        "def": 301,
-                        "hp": 2082
-                  },
-                  {
-                        "att": 670,
-                        "def": 305,
-                        "hp": 2111
-                  },
-                  {
-                        "att": 680,
-                        "def": 309,
-                        "hp": 2140
-                  },
-                  {
-                        "att": 691,
-                        "def": 312,
-                        "hp": 2169
-                  },
-                  {
-                        "att": 701,
-                        "def": 316,
-                        "hp": 2198
-                  },
-                  {
-                        "att": 711,
-                        "def": 320,
-                        "hp": 2227
-                  },
-                  {
-                        "att": 722,
-                        "def": 324,
-                        "hp": 2256
-                  },
-                  {
-                        "att": 732,
-                        "def": 328,
-                        "hp": 2285
-                  },
-                  {
-                        "att": 742,
-                        "def": 332,
-                        "hp": 2314
-                  },
-                  {
-                        "att": 753,
-                        "def": 336,
-                        "hp": 2343
-                  },
-                  {
-                        "att": 763,
-                        "def": 340,
-                        "hp": 2372
-                  },
-                  {
-                        "att": 774,
-                        "def": 344,
-                        "hp": 2401
-                  },
-                  {
-                        "att": 784,
-                        "def": 348,
-                        "hp": 2430
-                  },
-                  {
-                        "att": 794,
-                        "def": 352,
-                        "hp": 2459
-                  },
-                  {
-                        "att": 805,
-                        "def": 356,
-                        "hp": 2488
-                  },
-                  {
-                        "att": 815,
-                        "def": 360,
-                        "hp": 2517
-                  },
-                  {
-                        "att": 825,
-                        "def": 364,
-                        "hp": 2546
-                  },
-                  {
-                        "att": 836,
-                        "def": 368,
-                        "hp": 2575
-                  },
-                  {
-                        "att": 939,
-                        "def": 402,
-                        "hp": 2851
-                  },
-                  {
-                        "att": 952,
-                        "def": 407,
-                        "hp": 2887
-                  },
-                  {
-                        "att": 964,
-                        "def": 412,
-                        "hp": 2923
-                  },
-                  {
-                        "att": 977,
-                        "def": 417,
-                        "hp": 2960
-                  },
-                  {
-                        "att": 990,
-                        "def": 422,
-                        "hp": 2996
-                  },
-                  {
-                        "att": 1003,
-                        "def": 427,
-                        "hp": 3032
-                  },
-                  {
-                        "att": 1016,
-                        "def": 432,
-                        "hp": 3068
-                  },
-                  {
-                        "att": 1029,
-                        "def": 437,
-                        "hp": 3105
-                  },
-                  {
-                        "att": 1042,
-                        "def": 442,
-                        "hp": 3141
-                  },
-                  {
-                        "att": 1055,
-                        "def": 447,
-                        "hp": 3177
-                  },
-                  {
-                        "att": 1068,
-                        "def": 452,
-                        "hp": 3213
-                  },
-                  {
-                        "att": 1081,
-                        "def": 457,
-                        "hp": 3250
-                  },
-                  {
-                        "att": 1094,
-                        "def": 461,
-                        "hp": 3286
-                  },
-                  {
-                        "att": 1107,
-                        "def": 466,
-                        "hp": 3322
-                  },
-                  {
-                        "att": 1120,
-                        "def": 471,
-                        "hp": 3358
-                  },
-                  {
-                        "att": 1133,
-                        "def": 476,
-                        "hp": 3395
-                  },
-                  {
-                        "att": 1146,
-                        "def": 481,
-                        "hp": 3431
-                  },
-                  {
-                        "att": 1159,
-                        "def": 486,
-                        "hp": 3467
-                  },
-                  {
-                        "att": 1172,
-                        "def": 491,
-                        "hp": 3503
-                  },
-                  {
-                        "att": 1184,
-                        "def": 496,
-                        "hp": 3540
-                  },
-                  {
-                        "att": 1197,
-                        "def": 501,
-                        "hp": 3576
-                  },
-                  {
-                        "att": 1210,
-                        "def": 506,
-                        "hp": 3612
-                  },
-                  {
-                        "att": 1223,
-                        "def": 511,
-                        "hp": 3648
-                  },
-                  {
-                        "att": 1236,
-                        "def": 516,
-                        "hp": 3685
-                  },
-                  {
-                        "att": 1249,
-                        "def": 520,
-                        "hp": 3721
-                  },
-                  {
-                        "att": 1262,
-                        "def": 525,
-                        "hp": 3757
-                  },
-                  {
-                        "att": 1275,
-                        "def": 530,
-                        "hp": 3793
-                  },
-                  {
-                        "att": 1288,
-                        "def": 535,
-                        "hp": 3830
-                  },
-                  {
-                        "att": 1301,
-                        "def": 540,
-                        "hp": 3866
-                  },
-                  {
-                        "att": 1314,
-                        "def": 545,
-                        "hp": 3902
-                  },
-                  {
-                        "att": 1327,
-                        "def": 550,
-                        "hp": 3938
-                  },
-                  {
-                        "att": 1340,
-                        "def": 555,
-                        "hp": 3975
-                  },
-                  {
-                        "att": 1353,
-                        "def": 560,
-                        "hp": 4011
-                  },
-                  {
-                        "att": 1366,
-                        "def": 565,
-                        "hp": 4047
-                  },
-                  {
-                        "att": 1379,
-                        "def": 570,
-                        "hp": 4083
-                  },
-                  {
-                        "att": 1392,
-                        "def": 575,
-                        "hp": 4120
-                  },
-                  {
-                        "att": 1404,
-                        "def": 579,
-                        "hp": 4156
-                  },
-                  {
-                        "att": 1417,
-                        "def": 584,
-                        "hp": 4192
-                  },
-                  {
-                        "att": 1430,
-                        "def": 589,
-                        "hp": 4228
-                  },
-                  {
-                        "att": 1443,
-                        "def": 594,
-                        "hp": 4265
-                  },
-                  {
-                        "att": 1593,
-                        "def": 648,
-                        "hp": 4672
-                  },
-                  {
-                        "att": 1603,
-                        "def": 652,
-                        "hp": 4699
-                  },
-                  {
-                        "att": 1612,
-                        "def": 655,
-                        "hp": 4726
-                  },
-                  {
-                        "att": 1622,
-                        "def": 659,
-                        "hp": 4753
-                  },
-                  {
-                        "att": 1632,
-                        "def": 663,
-                        "hp": 4780
-                  },
-                  {
-                        "att": 1642,
-                        "def": 666,
-                        "hp": 4808
-                  },
-                  {
-                        "att": 1651,
-                        "def": 670,
-                        "hp": 4835
-                  },
-                  {
-                        "att": 1661,
-                        "def": 674,
-                        "hp": 4862
-                  },
-                  {
-                        "att": 1671,
-                        "def": 677,
-                        "hp": 4889
-                  },
-                  {
-                        "att": 1680,
-                        "def": 681,
-                        "hp": 4916
-                  },
-                  {
-                        "att": 1690,
-                        "def": 685,
-                        "hp": 4944
-                  },
-                  {
-                        "att": 1700,
-                        "def": 689,
-                        "hp": 4971
-                  },
-                  {
-                        "att": 1709,
-                        "def": 692,
-                        "hp": 4998
-                  },
-                  {
-                        "att": 1719,
-                        "def": 696,
-                        "hp": 5025
-                  },
-                  {
-                        "att": 1729,
-                        "def": 700,
-                        "hp": 5052
-                  },
-                  {
-                        "att": 1739,
-                        "def": 703,
-                        "hp": 5079
-                  },
-                  {
-                        "att": 1748,
-                        "def": 707,
-                        "hp": 5107
-                  },
-                  {
-                        "att": 1758,
-                        "def": 711,
-                        "hp": 5134
-                  },
-                  {
-                        "att": 1768,
-                        "def": 714,
-                        "hp": 5161
-                  },
-                  {
-                        "att": 1777,
-                        "def": 718,
-                        "hp": 5188
-                  },
-                  {
-                        "att": 1787,
-                        "def": 722,
-                        "hp": 5215
-                  },
-                  {
-                        "att": 1797,
-                        "def": 725,
-                        "hp": 5243
-                  },
-                  {
-                        "att": 1807,
-                        "def": 729,
-                        "hp": 5270
-                  },
-                  {
-                        "att": 1816,
-                        "def": 733,
-                        "hp": 5297
-                  },
-                  {
-                        "att": 1826,
-                        "def": 736,
-                        "hp": 5324
-                  },
-                  {
-                        "att": 1836,
-                        "def": 740,
-                        "hp": 5351
-                  },
-                  {
-                        "att": 1845,
-                        "def": 744,
-                        "hp": 5379
-                  },
-                  {
-                        "att": 1855,
-                        "def": 748,
-                        "hp": 5406
-                  },
-                  {
-                        "att": 1865,
-                        "def": 751,
-                        "hp": 5433
-                  },
-                  {
-                        "att": 1874,
-                        "def": 755,
-                        "hp": 5460
-                  },
-                  {
-                        "att": 1884,
-                        "def": 759,
-                        "hp": 5487
-                  },
-                  {
-                        "att": 1894,
-                        "def": 762,
-                        "hp": 5514
-                  },
-                  {
-                        "att": 1904,
-                        "def": 766,
-                        "hp": 5542
-                  },
-                  {
-                        "att": 1913,
-                        "def": 770,
-                        "hp": 5569
-                  },
-                  {
-                        "att": 1923,
-                        "def": 773,
-                        "hp": 5596
-                  },
-                  {
-                        "att": 1933,
-                        "def": 777,
-                        "hp": 5623
-                  },
-                  {
-                        "att": 1942,
-                        "def": 781,
-                        "hp": 5650
-                  },
-                  {
-                        "att": 1952,
-                        "def": 784,
-                        "hp": 5678
-                  },
-                  {
-                        "att": 1962,
-                        "def": 788,
-                        "hp": 5705
-                  },
-                  {
-                        "att": 1971,
-                        "def": 792,
-                        "hp": 5732
-                  },
-                  {
-                        "att": 1981,
-                        "def": 795,
-                        "hp": 5759
-                  },
-                  {
-                        "att": 1991,
-                        "def": 799,
-                        "hp": 5786
-                  },
-                  {
-                        "att": 2001,
-                        "def": 803,
-                        "hp": 5813
-                  },
-                  {
-                        "att": 2010,
-                        "def": 807,
-                        "hp": 5841
-                  },
-                  {
-                        "att": 2020,
-                        "def": 810,
-                        "hp": 5868
-                  },
-                  {
-                        "att": 2030,
-                        "def": 814,
-                        "hp": 5895
-                  },
-                  {
-                        "att": 2039,
-                        "def": 818,
-                        "hp": 5922
-                  },
-                  {
-                        "att": 2049,
-                        "def": 821,
-                        "hp": 5949
-                  },
-                  {
-                        "att": 2059,
-                        "def": 825,
-                        "hp": 5977
-                  },
-                  {
-                        "att": 2069,
-                        "def": 829,
-                        "hp": 6004
-                  },
-                  {
-                        "att": 2290,
-                        "def": 896,
-                        "hp": 6592
-                  },
-                  {
-                        "att": 2296,
-                        "def": 899,
-                        "hp": 6610
-                  },
-                  {
-                        "att": 2303,
-                        "def": 901,
-                        "hp": 6628
-                  },
-                  {
-                        "att": 2309,
-                        "def": 904,
-                        "hp": 6646
-                  },
-                  {
-                        "att": 2316,
-                        "def": 906,
-                        "hp": 6664
-                  },
-                  {
-                        "att": 2322,
-                        "def": 908,
-                        "hp": 6683
-                  },
-                  {
-                        "att": 2329,
-                        "def": 911,
-                        "hp": 6701
-                  },
-                  {
-                        "att": 2335,
-                        "def": 913,
-                        "hp": 6719
-                  },
-                  {
-                        "att": 2342,
-                        "def": 916,
-                        "hp": 6737
-                  },
-                  {
-                        "att": 2348,
-                        "def": 918,
-                        "hp": 6755
-                  },
-                  {
-                        "att": 2355,
-                        "def": 921,
-                        "hp": 6773
-                  },
-                  {
-                        "att": 2361,
-                        "def": 923,
-                        "hp": 6791
-                  },
-                  {
-                        "att": 2368,
-                        "def": 926,
-                        "hp": 6809
-                  },
-                  {
-                        "att": 2374,
-                        "def": 928,
-                        "hp": 6827
-                  },
-                  {
-                        "att": 2381,
-                        "def": 931,
-                        "hp": 6846
-                  },
-                  {
-                        "att": 2387,
-                        "def": 933,
-                        "hp": 6864
-                  },
-                  {
-                        "att": 2394,
-                        "def": 935,
-                        "hp": 6882
-                  },
-                  {
-                        "att": 2400,
-                        "def": 938,
-                        "hp": 6900
-                  },
-                  {
-                        "att": 2406,
-                        "def": 940,
-                        "hp": 6918
-                  },
-                  {
-                        "att": 2413,
-                        "def": 943,
-                        "hp": 6936
-                  },
-                  {
-                        "att": 2419,
-                        "def": 945,
-                        "hp": 6954
-                  },
-                  {
-                        "att": 2426,
-                        "def": 948,
-                        "hp": 6972
-                  },
-                  {
-                        "att": 2432,
-                        "def": 950,
-                        "hp": 6991
-                  },
-                  {
-                        "att": 2439,
-                        "def": 953,
-                        "hp": 7009
-                  },
-                  {
-                        "att": 2445,
-                        "def": 955,
-                        "hp": 7027
-                  },
-                  {
-                        "att": 2452,
-                        "def": 958,
-                        "hp": 7045
-                  },
-                  {
-                        "att": 2458,
-                        "def": 960,
-                        "hp": 7063
-                  },
-                  {
-                        "att": 2465,
-                        "def": 963,
-                        "hp": 7081
-                  },
-                  {
-                        "att": 2471,
-                        "def": 965,
-                        "hp": 7099
-                  },
-                  {
-                        "att": 2478,
-                        "def": 967,
-                        "hp": 7117
-                  },
-                  {
-                        "att": 2484,
-                        "def": 970,
-                        "hp": 7136
-                  },
-                  {
-                        "att": 2491,
-                        "def": 972,
-                        "hp": 7154
-                  },
-                  {
-                        "att": 2497,
-                        "def": 975,
-                        "hp": 7172
-                  },
-                  {
-                        "att": 2504,
-                        "def": 977,
-                        "hp": 7190
-                  },
-                  {
-                        "att": 2510,
-                        "def": 980,
-                        "hp": 7208
-                  },
-                  {
-                        "att": 2516,
-                        "def": 982,
-                        "hp": 7226
-                  },
-                  {
-                        "att": 2523,
-                        "def": 985,
-                        "hp": 7244
-                  },
-                  {
-                        "att": 2529,
-                        "def": 987,
-                        "hp": 7262
-                  },
-                  {
-                        "att": 2536,
-                        "def": 990,
-                        "hp": 7281
-                  },
-                  {
-                        "att": 2542,
-                        "def": 992,
-                        "hp": 7299
-                  },
-                  {
-                        "att": 2549,
-                        "def": 995,
-                        "hp": 7317
-                  },
-                  {
-                        "att": 2555,
-                        "def": 997,
-                        "hp": 7335
-                  },
-                  {
-                        "att": 2562,
-                        "def": 999,
-                        "hp": 7353
-                  },
-                  {
-                        "att": 2568,
-                        "def": 1002,
-                        "hp": 7371
-                  },
-                  {
-                        "att": 2575,
-                        "def": 1004,
-                        "hp": 7389
-                  },
-                  {
-                        "att": 2581,
-                        "def": 1007,
-                        "hp": 7407
-                  },
-                  {
-                        "att": 2588,
-                        "def": 1009,
-                        "hp": 7426
-                  },
-                  {
-                        "att": 2594,
-                        "def": 1012,
-                        "hp": 7444
-                  },
-                  {
-                        "att": 2601,
-                        "def": 1014,
-                        "hp": 7462
-                  },
-                  {
-                        "att": 2607,
-                        "def": 1017,
-                        "hp": 7480
-                  },
-                  {
-                        "att": 2614,
-                        "def": 1019,
-                        "hp": 7498
-                  },
-                  {
-                        "att": 2620,
-                        "def": 1022,
-                        "hp": 7516
-                  },
-                  {
-                        "att": 2626,
-                        "def": 1024,
-                        "hp": 7534
-                  },
-                  {
-                        "att": 2633,
-                        "def": 1026,
-                        "hp": 7552
-                  },
-                  {
-                        "att": 2639,
-                        "def": 1029,
-                        "hp": 7571
-                  },
-                  {
-                        "att": 2646,
-                        "def": 1031,
-                        "hp": 7589
-                  },
-                  {
-                        "att": 2652,
-                        "def": 1034,
-                        "hp": 7607
-                  },
-                  {
-                        "att": 2659,
-                        "def": 1036,
-                        "hp": 7625
-                  },
-                  {
-                        "att": 2665,
-                        "def": 1039,
-                        "hp": 7643
-                  },
-                  {
-                        "att": 2672,
-                        "def": 1041,
-                        "hp": 7661
-                  },
-                  {
-                        "att": 2678,
-                        "def": 1044,
-                        "hp": 7679
-                  },
-                  {
-                        "att": 2685,
-                        "def": 1046,
-                        "hp": 7697
-                  },
-                  {
-                        "att": 2691,
-                        "def": 1049,
-                        "hp": 7716
-                  },
-                  {
-                        "att": 2698,
-                        "def": 1051,
-                        "hp": 7734
-                  },
-                  {
-                        "att": 2704,
-                        "def": 1054,
-                        "hp": 7752
-                  },
-                  {
-                        "att": 2711,
-                        "def": 1056,
-                        "hp": 7770
-                  },
-                  {
-                        "att": 2717,
-                        "def": 1058,
-                        "hp": 7788
-                  },
-                  {
-                        "att": 2724,
-                        "def": 1061,
-                        "hp": 7806
-                  },
-                  {
-                        "att": 2730,
-                        "def": 1063,
-                        "hp": 7824
-                  },
-                  {
-                        "att": 2736,
-                        "def": 1066,
-                        "hp": 7842
-                  },
-                  {
-                        "att": 2743,
-                        "def": 1068,
-                        "hp": 7861
-                  },
-                  {
-                        "att": 2749,
-                        "def": 1071,
-                        "hp": 7879
-                  },
-                  {
-                        "att": 2756,
-                        "def": 1073,
-                        "hp": 7897
-                  },
-                  {
-                        "att": 2762,
-                        "def": 1076,
-                        "hp": 7915
-                  },
-                  {
-                        "att": 2769,
-                        "def": 1078,
-                        "hp": 7933
-                  },
-                  {
-                        "att": 2775,
-                        "def": 1081,
-                        "hp": 7951
-                  },
-                  {
-                        "att": 2782,
-                        "def": 1083,
-                        "hp": 7969
-                  },
-                  {
-                        "att": 2788,
-                        "def": 1086,
-                        "hp": 7987
-                  },
-                  {
-                        "att": 2795,
-                        "def": 1088,
-                        "hp": 8006
-                  },
-                  {
-                        "att": 2801,
-                        "def": 1090,
-                        "hp": 8024
-                  }
-            ]
-      }
+ "name": "Sylva",
+ "faction": "Northland",
+ "element_main": "Forest",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Detonator",
+ "skill": {
+  "name": "Storm Sprint",
+  "cd": "2 Turn",
+  "description": [
+   "Selects one of the farthest tiles around the unit in all 8 directions and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
+   "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
+   "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles."
+  ]
+ },
+ "equip": {
+  "name": "Vine Blade",
+  "passive": "Woodland Current",
+  "description": [
+   [
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
+   ],
+   [
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
+   ],
+   [
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 15% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 20% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 25% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect.",
+    "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect."
+   ]
+  ],
+  "introduction": "When Sylva first picked up fencing, his father gave him a vine and taught him to turn it into a rapier with his own power. Sylva has kept the vine ever since to commemorate his father."
+ },
+ "chain": {
+  "name": "Vine Thrash",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Crystal Dust",
+    "Pine Dew",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF."
+  },
+  {
+   "material": [
+    "Forest Crystal",
+    "Forest Potion I",
+    "Pine Frost",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Selects one of the farthest tiles around the unit in all 8 directions and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles.",
+   "after": "Selects one of the tiles at the edge of the battlefield and dashes to the selected location, dealing 220% damage to enemies along the way and on adjacent tiles."
+  },
+  {
+   "material": [
+    "Forest Potion III",
+    "Forest Flare Rock",
+    "Tear of Pine",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF.",
+   "after": "When a normal attack, Chain Combo, or Active Skill deals damage to only 1 enemy, this damage ignores 30% of the target's DEF. When there is only 1 enemy on the board, Forest Aurorians' Active Skills also gain this effect."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 535,
+    "def": 253,
+    "hp": 1734
+   },
+   {
+    "att": 546,
+    "def": 257,
+    "hp": 1763
+   },
+   {
+    "att": 556,
+    "def": 261,
+    "hp": 1792
+   },
+   {
+    "att": 566,
+    "def": 265,
+    "hp": 1821
+   },
+   {
+    "att": 577,
+    "def": 269,
+    "hp": 1850
+   },
+   {
+    "att": 587,
+    "def": 273,
+    "hp": 1879
+   },
+   {
+    "att": 598,
+    "def": 277,
+    "hp": 1908
+   },
+   {
+    "att": 608,
+    "def": 281,
+    "hp": 1937
+   },
+   {
+    "att": 618,
+    "def": 285,
+    "hp": 1966
+   },
+   {
+    "att": 629,
+    "def": 289,
+    "hp": 1995
+   },
+   {
+    "att": 639,
+    "def": 293,
+    "hp": 2024
+   },
+   {
+    "att": 649,
+    "def": 297,
+    "hp": 2053
+   },
+   {
+    "att": 660,
+    "def": 301,
+    "hp": 2082
+   },
+   {
+    "att": 670,
+    "def": 305,
+    "hp": 2111
+   },
+   {
+    "att": 680,
+    "def": 309,
+    "hp": 2140
+   },
+   {
+    "att": 691,
+    "def": 312,
+    "hp": 2169
+   },
+   {
+    "att": 701,
+    "def": 316,
+    "hp": 2198
+   },
+   {
+    "att": 711,
+    "def": 320,
+    "hp": 2227
+   },
+   {
+    "att": 722,
+    "def": 324,
+    "hp": 2256
+   },
+   {
+    "att": 732,
+    "def": 328,
+    "hp": 2285
+   },
+   {
+    "att": 742,
+    "def": 332,
+    "hp": 2314
+   },
+   {
+    "att": 753,
+    "def": 336,
+    "hp": 2343
+   },
+   {
+    "att": 763,
+    "def": 340,
+    "hp": 2372
+   },
+   {
+    "att": 774,
+    "def": 344,
+    "hp": 2401
+   },
+   {
+    "att": 784,
+    "def": 348,
+    "hp": 2430
+   },
+   {
+    "att": 794,
+    "def": 352,
+    "hp": 2459
+   },
+   {
+    "att": 805,
+    "def": 356,
+    "hp": 2488
+   },
+   {
+    "att": 815,
+    "def": 360,
+    "hp": 2517
+   },
+   {
+    "att": 825,
+    "def": 364,
+    "hp": 2546
+   },
+   {
+    "att": 836,
+    "def": 368,
+    "hp": 2575
+   },
+   {
+    "att": 939,
+    "def": 402,
+    "hp": 2851
+   },
+   {
+    "att": 952,
+    "def": 407,
+    "hp": 2887
+   },
+   {
+    "att": 964,
+    "def": 412,
+    "hp": 2923
+   },
+   {
+    "att": 977,
+    "def": 417,
+    "hp": 2960
+   },
+   {
+    "att": 990,
+    "def": 422,
+    "hp": 2996
+   },
+   {
+    "att": 1003,
+    "def": 427,
+    "hp": 3032
+   },
+   {
+    "att": 1016,
+    "def": 432,
+    "hp": 3068
+   },
+   {
+    "att": 1029,
+    "def": 437,
+    "hp": 3105
+   },
+   {
+    "att": 1042,
+    "def": 442,
+    "hp": 3141
+   },
+   {
+    "att": 1055,
+    "def": 447,
+    "hp": 3177
+   },
+   {
+    "att": 1068,
+    "def": 452,
+    "hp": 3213
+   },
+   {
+    "att": 1081,
+    "def": 457,
+    "hp": 3250
+   },
+   {
+    "att": 1094,
+    "def": 461,
+    "hp": 3286
+   },
+   {
+    "att": 1107,
+    "def": 466,
+    "hp": 3322
+   },
+   {
+    "att": 1120,
+    "def": 471,
+    "hp": 3358
+   },
+   {
+    "att": 1133,
+    "def": 476,
+    "hp": 3395
+   },
+   {
+    "att": 1146,
+    "def": 481,
+    "hp": 3431
+   },
+   {
+    "att": 1159,
+    "def": 486,
+    "hp": 3467
+   },
+   {
+    "att": 1172,
+    "def": 491,
+    "hp": 3503
+   },
+   {
+    "att": 1184,
+    "def": 496,
+    "hp": 3540
+   },
+   {
+    "att": 1197,
+    "def": 501,
+    "hp": 3576
+   },
+   {
+    "att": 1210,
+    "def": 506,
+    "hp": 3612
+   },
+   {
+    "att": 1223,
+    "def": 511,
+    "hp": 3648
+   },
+   {
+    "att": 1236,
+    "def": 516,
+    "hp": 3685
+   },
+   {
+    "att": 1249,
+    "def": 520,
+    "hp": 3721
+   },
+   {
+    "att": 1262,
+    "def": 525,
+    "hp": 3757
+   },
+   {
+    "att": 1275,
+    "def": 530,
+    "hp": 3793
+   },
+   {
+    "att": 1288,
+    "def": 535,
+    "hp": 3830
+   },
+   {
+    "att": 1301,
+    "def": 540,
+    "hp": 3866
+   },
+   {
+    "att": 1314,
+    "def": 545,
+    "hp": 3902
+   },
+   {
+    "att": 1327,
+    "def": 550,
+    "hp": 3938
+   },
+   {
+    "att": 1340,
+    "def": 555,
+    "hp": 3975
+   },
+   {
+    "att": 1353,
+    "def": 560,
+    "hp": 4011
+   },
+   {
+    "att": 1366,
+    "def": 565,
+    "hp": 4047
+   },
+   {
+    "att": 1379,
+    "def": 570,
+    "hp": 4083
+   },
+   {
+    "att": 1392,
+    "def": 575,
+    "hp": 4120
+   },
+   {
+    "att": 1404,
+    "def": 579,
+    "hp": 4156
+   },
+   {
+    "att": 1417,
+    "def": 584,
+    "hp": 4192
+   },
+   {
+    "att": 1430,
+    "def": 589,
+    "hp": 4228
+   },
+   {
+    "att": 1443,
+    "def": 594,
+    "hp": 4265
+   },
+   {
+    "att": 1593,
+    "def": 648,
+    "hp": 4672
+   },
+   {
+    "att": 1603,
+    "def": 652,
+    "hp": 4699
+   },
+   {
+    "att": 1612,
+    "def": 655,
+    "hp": 4726
+   },
+   {
+    "att": 1622,
+    "def": 659,
+    "hp": 4753
+   },
+   {
+    "att": 1632,
+    "def": 663,
+    "hp": 4780
+   },
+   {
+    "att": 1642,
+    "def": 666,
+    "hp": 4808
+   },
+   {
+    "att": 1651,
+    "def": 670,
+    "hp": 4835
+   },
+   {
+    "att": 1661,
+    "def": 674,
+    "hp": 4862
+   },
+   {
+    "att": 1671,
+    "def": 677,
+    "hp": 4889
+   },
+   {
+    "att": 1680,
+    "def": 681,
+    "hp": 4916
+   },
+   {
+    "att": 1690,
+    "def": 685,
+    "hp": 4944
+   },
+   {
+    "att": 1700,
+    "def": 689,
+    "hp": 4971
+   },
+   {
+    "att": 1709,
+    "def": 692,
+    "hp": 4998
+   },
+   {
+    "att": 1719,
+    "def": 696,
+    "hp": 5025
+   },
+   {
+    "att": 1729,
+    "def": 700,
+    "hp": 5052
+   },
+   {
+    "att": 1739,
+    "def": 703,
+    "hp": 5079
+   },
+   {
+    "att": 1748,
+    "def": 707,
+    "hp": 5107
+   },
+   {
+    "att": 1758,
+    "def": 711,
+    "hp": 5134
+   },
+   {
+    "att": 1768,
+    "def": 714,
+    "hp": 5161
+   },
+   {
+    "att": 1777,
+    "def": 718,
+    "hp": 5188
+   },
+   {
+    "att": 1787,
+    "def": 722,
+    "hp": 5215
+   },
+   {
+    "att": 1797,
+    "def": 725,
+    "hp": 5243
+   },
+   {
+    "att": 1807,
+    "def": 729,
+    "hp": 5270
+   },
+   {
+    "att": 1816,
+    "def": 733,
+    "hp": 5297
+   },
+   {
+    "att": 1826,
+    "def": 736,
+    "hp": 5324
+   },
+   {
+    "att": 1836,
+    "def": 740,
+    "hp": 5351
+   },
+   {
+    "att": 1845,
+    "def": 744,
+    "hp": 5379
+   },
+   {
+    "att": 1855,
+    "def": 748,
+    "hp": 5406
+   },
+   {
+    "att": 1865,
+    "def": 751,
+    "hp": 5433
+   },
+   {
+    "att": 1874,
+    "def": 755,
+    "hp": 5460
+   },
+   {
+    "att": 1884,
+    "def": 759,
+    "hp": 5487
+   },
+   {
+    "att": 1894,
+    "def": 762,
+    "hp": 5514
+   },
+   {
+    "att": 1904,
+    "def": 766,
+    "hp": 5542
+   },
+   {
+    "att": 1913,
+    "def": 770,
+    "hp": 5569
+   },
+   {
+    "att": 1923,
+    "def": 773,
+    "hp": 5596
+   },
+   {
+    "att": 1933,
+    "def": 777,
+    "hp": 5623
+   },
+   {
+    "att": 1942,
+    "def": 781,
+    "hp": 5650
+   },
+   {
+    "att": 1952,
+    "def": 784,
+    "hp": 5678
+   },
+   {
+    "att": 1962,
+    "def": 788,
+    "hp": 5705
+   },
+   {
+    "att": 1971,
+    "def": 792,
+    "hp": 5732
+   },
+   {
+    "att": 1981,
+    "def": 795,
+    "hp": 5759
+   },
+   {
+    "att": 1991,
+    "def": 799,
+    "hp": 5786
+   },
+   {
+    "att": 2001,
+    "def": 803,
+    "hp": 5813
+   },
+   {
+    "att": 2010,
+    "def": 807,
+    "hp": 5841
+   },
+   {
+    "att": 2020,
+    "def": 810,
+    "hp": 5868
+   },
+   {
+    "att": 2030,
+    "def": 814,
+    "hp": 5895
+   },
+   {
+    "att": 2039,
+    "def": 818,
+    "hp": 5922
+   },
+   {
+    "att": 2049,
+    "def": 821,
+    "hp": 5949
+   },
+   {
+    "att": 2059,
+    "def": 825,
+    "hp": 5977
+   },
+   {
+    "att": 2069,
+    "def": 829,
+    "hp": 6004
+   },
+   {
+    "att": 2290,
+    "def": 896,
+    "hp": 6592
+   },
+   {
+    "att": 2296,
+    "def": 899,
+    "hp": 6610
+   },
+   {
+    "att": 2303,
+    "def": 901,
+    "hp": 6628
+   },
+   {
+    "att": 2309,
+    "def": 904,
+    "hp": 6646
+   },
+   {
+    "att": 2316,
+    "def": 906,
+    "hp": 6664
+   },
+   {
+    "att": 2322,
+    "def": 908,
+    "hp": 6683
+   },
+   {
+    "att": 2329,
+    "def": 911,
+    "hp": 6701
+   },
+   {
+    "att": 2335,
+    "def": 913,
+    "hp": 6719
+   },
+   {
+    "att": 2342,
+    "def": 916,
+    "hp": 6737
+   },
+   {
+    "att": 2348,
+    "def": 918,
+    "hp": 6755
+   },
+   {
+    "att": 2355,
+    "def": 921,
+    "hp": 6773
+   },
+   {
+    "att": 2361,
+    "def": 923,
+    "hp": 6791
+   },
+   {
+    "att": 2368,
+    "def": 926,
+    "hp": 6809
+   },
+   {
+    "att": 2374,
+    "def": 928,
+    "hp": 6827
+   },
+   {
+    "att": 2381,
+    "def": 931,
+    "hp": 6846
+   },
+   {
+    "att": 2387,
+    "def": 933,
+    "hp": 6864
+   },
+   {
+    "att": 2394,
+    "def": 935,
+    "hp": 6882
+   },
+   {
+    "att": 2400,
+    "def": 938,
+    "hp": 6900
+   },
+   {
+    "att": 2406,
+    "def": 940,
+    "hp": 6918
+   },
+   {
+    "att": 2413,
+    "def": 943,
+    "hp": 6936
+   },
+   {
+    "att": 2419,
+    "def": 945,
+    "hp": 6954
+   },
+   {
+    "att": 2426,
+    "def": 948,
+    "hp": 6972
+   },
+   {
+    "att": 2432,
+    "def": 950,
+    "hp": 6991
+   },
+   {
+    "att": 2439,
+    "def": 953,
+    "hp": 7009
+   },
+   {
+    "att": 2445,
+    "def": 955,
+    "hp": 7027
+   },
+   {
+    "att": 2452,
+    "def": 958,
+    "hp": 7045
+   },
+   {
+    "att": 2458,
+    "def": 960,
+    "hp": 7063
+   },
+   {
+    "att": 2465,
+    "def": 963,
+    "hp": 7081
+   },
+   {
+    "att": 2471,
+    "def": 965,
+    "hp": 7099
+   },
+   {
+    "att": 2478,
+    "def": 967,
+    "hp": 7117
+   },
+   {
+    "att": 2484,
+    "def": 970,
+    "hp": 7136
+   },
+   {
+    "att": 2491,
+    "def": 972,
+    "hp": 7154
+   },
+   {
+    "att": 2497,
+    "def": 975,
+    "hp": 7172
+   },
+   {
+    "att": 2504,
+    "def": 977,
+    "hp": 7190
+   },
+   {
+    "att": 2510,
+    "def": 980,
+    "hp": 7208
+   },
+   {
+    "att": 2516,
+    "def": 982,
+    "hp": 7226
+   },
+   {
+    "att": 2523,
+    "def": 985,
+    "hp": 7244
+   },
+   {
+    "att": 2529,
+    "def": 987,
+    "hp": 7262
+   },
+   {
+    "att": 2536,
+    "def": 990,
+    "hp": 7281
+   },
+   {
+    "att": 2542,
+    "def": 992,
+    "hp": 7299
+   },
+   {
+    "att": 2549,
+    "def": 995,
+    "hp": 7317
+   },
+   {
+    "att": 2555,
+    "def": 997,
+    "hp": 7335
+   },
+   {
+    "att": 2562,
+    "def": 999,
+    "hp": 7353
+   },
+   {
+    "att": 2568,
+    "def": 1002,
+    "hp": 7371
+   },
+   {
+    "att": 2575,
+    "def": 1004,
+    "hp": 7389
+   },
+   {
+    "att": 2581,
+    "def": 1007,
+    "hp": 7407
+   },
+   {
+    "att": 2588,
+    "def": 1009,
+    "hp": 7426
+   },
+   {
+    "att": 2594,
+    "def": 1012,
+    "hp": 7444
+   },
+   {
+    "att": 2601,
+    "def": 1014,
+    "hp": 7462
+   },
+   {
+    "att": 2607,
+    "def": 1017,
+    "hp": 7480
+   },
+   {
+    "att": 2614,
+    "def": 1019,
+    "hp": 7498
+   },
+   {
+    "att": 2620,
+    "def": 1022,
+    "hp": 7516
+   },
+   {
+    "att": 2626,
+    "def": 1024,
+    "hp": 7534
+   },
+   {
+    "att": 2633,
+    "def": 1026,
+    "hp": 7552
+   },
+   {
+    "att": 2639,
+    "def": 1029,
+    "hp": 7571
+   },
+   {
+    "att": 2646,
+    "def": 1031,
+    "hp": 7589
+   },
+   {
+    "att": 2652,
+    "def": 1034,
+    "hp": 7607
+   },
+   {
+    "att": 2659,
+    "def": 1036,
+    "hp": 7625
+   },
+   {
+    "att": 2665,
+    "def": 1039,
+    "hp": 7643
+   },
+   {
+    "att": 2672,
+    "def": 1041,
+    "hp": 7661
+   },
+   {
+    "att": 2678,
+    "def": 1044,
+    "hp": 7679
+   },
+   {
+    "att": 2685,
+    "def": 1046,
+    "hp": 7697
+   },
+   {
+    "att": 2691,
+    "def": 1049,
+    "hp": 7716
+   },
+   {
+    "att": 2698,
+    "def": 1051,
+    "hp": 7734
+   },
+   {
+    "att": 2704,
+    "def": 1054,
+    "hp": 7752
+   },
+   {
+    "att": 2711,
+    "def": 1056,
+    "hp": 7770
+   },
+   {
+    "att": 2717,
+    "def": 1058,
+    "hp": 7788
+   },
+   {
+    "att": 2724,
+    "def": 1061,
+    "hp": 7806
+   },
+   {
+    "att": 2730,
+    "def": 1063,
+    "hp": 7824
+   },
+   {
+    "att": 2736,
+    "def": 1066,
+    "hp": 7842
+   },
+   {
+    "att": 2743,
+    "def": 1068,
+    "hp": 7861
+   },
+   {
+    "att": 2749,
+    "def": 1071,
+    "hp": 7879
+   },
+   {
+    "att": 2756,
+    "def": 1073,
+    "hp": 7897
+   },
+   {
+    "att": 2762,
+    "def": 1076,
+    "hp": 7915
+   },
+   {
+    "att": 2769,
+    "def": 1078,
+    "hp": 7933
+   },
+   {
+    "att": 2775,
+    "def": 1081,
+    "hp": 7951
+   },
+   {
+    "att": 2782,
+    "def": 1083,
+    "hp": 7969
+   },
+   {
+    "att": 2788,
+    "def": 1086,
+    "hp": 7987
+   },
+   {
+    "att": 2795,
+    "def": 1088,
+    "hp": 8006
+   },
+   {
+    "att": 2801,
+    "def": 1090,
+    "hp": 8024
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Northland Aurorians",
+  "Aurorians with childlike innocence"
+ ],
+ "files": [
+  {
+   "file_name": "His Experiences",
+   "files": "I feel embarrassed... about my meeting with Mr. Sylva, who came to the Colossus today. He was so delicate and slender that I thought he was an underweight girl at first. I kept yapping away and called him Ms. Sylva many times. It was only until he spoke that I realized he was actually a young man... Fortunately, he didn't mind, or I'd still be looking for a hole to hide in... Anyway, enough of that... %s just informed me that Mr. Sylva made a special request for his room to have more of a \"sense of nature.\" That sent a puzzled %s running to me for clarification... Problem is, I don't know what that means, either! From what I can guess, maybe I can put some potted plants in his room to create that \"sense of nature\"... Anyway, I will have to do that as an apology! \u2014Vice"
+  },
+  {
+   "file_name": "His Story (I)",
+   "files": "Here you are, Navigator of the Colossus. I believe we just met. I am Sylva. Hopefully you still remember. I'm the keeper of the Windward Forest in Northland. The forest is where I was born. Legend has it that Windward Forest is blessed by spring air and thus enjoys a moderate climate all year round, setting it apart from the rest of Northland. My father was a forest keeper, too, when he was still alive. I've been exploring the woods and practicing my swordsmanship since childhood. Life back then was simple, but also unforgettable to me... Yes, my father passed away and I succeeded him at a very young age. I did feel lost and often thought about abandoning my duties, but fortunately, thanks to her... Who is she? A... very important friend. Perhaps you know her?"
+  },
+  {
+   "file_name": "His Story (II)",
+   "files": "As for my father, I admired and revered him. He was practically a hero to me when I was young. In my eyes, he was a skilled swordsman and strong as an ox, capable of any feat. Maybe that's how others saw my father as well, I guess those qualities were why the Queen bestowed upon him such a key task... I still remember that time, when the Eclipsites were defeated and peace returned to Northland. Father, however, came home injured and succumbed to his wounds soon after. The grief overwhelmed my mother and she fell ill as well. She passed when I was still a child. As much as she was concerned about me, she couldn't do anything but keep telling me to \"take care of yourself and practice sword skills for defense...\" But other than crying, I couldn't do anything back then, either. Grievances? When I was young, probably, but now I know with clarity that it was my father's duty and the duty he wished to pass down to me."
+  },
+  {
+   "file_name": "His Story (III)",
+   "files": "After my parents were gone, I wandered the woods all day, crying and daydreaming with their picture in hand. Even though I still remembered my mother's dying words, every time I picked up the wooden sword I'd recall how my father died in pain and agony. I just couldn't face it... so I stopped training. I didn't want to leave the forest after losing my parents, since it was the only family I had left. Then I met Leah. I didn't want to see anybody at all back then, much less complete strangers, so I evaded her... But Leah was a peculiar one, she didn't try to talk to me, but camped by the door and enveloped the house with her Breath of Spring. I didn't want to admit it then, but it was very warm and comforting... I finally couldn't stand it and made the first move to talk to her. My life totally changed from that day on. Without her, I don't think you would ever see me here."
+  },
+  {
+   "file_name": "His Story (IV)",
+   "files": "Yes, Leah helped me leave the forest behind, and it wasn't until then that I found out my parents had asked the villagers to look after me, and that those kind people had been trying to track me down because of the promise. Out of guilt, or maybe something else, I thought I should protect the forest and the villages in my father's place. Thus, from that day on I began training with swords again and became stronger. As I grew, the villagers took great care of me and I'd do my best to protect them in return. I should be satisfied with how it turned out for me, right? Yet I always felt lonely and empty. I didn't find comfort until Leah showed up. I'm a little embarrassed about it, but I wanted to be closer to her so I'd go on patrol with her every day. In the meantime, though, I took the short-haired Leah for a dainty-looking boy, until several months later... Okay, I can tell you're trying too hard not to laugh, Navigator."
+  }
+ ],
+ "voice": [
+  "Northland... It is a place that doesn't get involved in the matters of the world, and the price paid is isolation.",
+  "I've heard about how free-spirited people of the Rediesel Wrench are.",
+  "For the North!",
+  "A bunch of pathetic and abhorrent creatures. They shouldn't even exist.",
+  "Her Majesty has an unparalleled bearing. She is the guardian of the Northland.",
+  "Leah... She's a very important friend to me in many ways.",
+  "To me, a friend who can be frank and honest with me is the best.",
+  "I wouldn't want to spend time with fakers and hypocrites.",
+  "The Colossus is indeed interesting. I totally want one, too... It's normal for me to feel this way, isn't it?",
+  "I don't know what I can do for you... How about if I give you some vines?",
+  "I'll do all I can.",
+  "I'm too inexperienced...",
+  "A precious victory.",
+  "The vine.",
+  "Sword wind.",
+  "I'm doing this!",
+  "Happy New Year. Time seems to have passed in a flash.",
+  "Leave it to me.",
+  "This is the fruit of my training.",
+  "Strive toward becoming mighty.",
+  "I'll protect everyone.",
+  "Your eyelids are like flowers at dusk, they look like they're about to close. Go get some sleep.",
+  "The power is emerging.",
+  "Alchemy Stars.",
+  "Every time I look out from the Colossus, I marvel at the vastness of the world, and it's all thanks to Leah.",
+  "I heard that this world is dozens of times bigger than the continents we can see. Is that true? What I wouldn't give to see what the rest of the world looks like.",
+  "Can I make changes to my room? I'm used to being surrounded by greenery.",
+  "These vines may have come from my power, but they've been with me for so long, there's nothing wrong if I actually call them my friends.",
+  "Is it strange to become strong in order to protect your friends? Why do you have that fatherly smile on your face... It's not like you're a lot older than me, is it?",
+  "My father was a great forest keeper. I hope I'll surpass him one day.",
+  "I suppose we're friends now, since we've been working together for so long.",
+  "I think there are a lot of similarities between us, like the position we're in... the people around us and the like...",
+  "It's an honor to have a friend like you. I'll introduce you to everyone in the Windward Forest when I get the chance.",
+  "This sword? It may be made of wood, but it's as sharp as iron.",
+  "Please stay away from me when I'm wielding my sword, in case you get entangled by the vines.",
+  "This kind of room's... a little difficult to adapt to in a short time. I'm sorry. This is a nice room. There's just no aura of nature here.",
+  "It's the most important time of the day. Exercise regularly and don't slack off.",
+  "Good morning. You look... kinda tired.",
+  "Good evening. The forest can be very dangerous at night. You'd better stay away from it.",
+  "I understand how you must be feeling, since there's never enough time to do everything. Still, it's important to get proper rest.",
+  "I am Sylva, the forest keeper of the Windward Forest. Nice to meet you.",
+  "This... Can I keep it?",
+  "Thank you... Navigator.",
+  "This stuff is interesting.",
+  "Ahem, it's so nice to have a friend like you!",
+  "Forest, summon the wind.",
+  "Wind, pierce my enemies.",
+  "What?",
+  "I look up to my father a lot, and it's actually because of him that I gradually mastered my sword-fighting skills. However, he left me too soon, and my mother found it too unbearable that she... Never mind. It's nothing.",
+  "The premature death of my parents gave me quite a blow as I was still a kid back then. It was Leah who helped me recover from the trauma. If it wasn't for her, I wouldn't be who I am now.",
+  "I always feel kind of ashamed every time this is brought up. For a very long time, I'd thought Leah was a boy. It always makes me feel like burying myself in the ground whenever I think back to the time I spent with her.",
+  "I'll do my part."
+ ],
+ "skins": [],
+ "description": "A forest keeper from Northland. A handsome young man with aloof demeanors but a heart of gold, who yearns for friendship. Still relatively young, he looks somewhat boyish.",
+ "realName": "Sylva",
+ "nickname": "Whisper of the Forest",
+ "gender": "Male",
+ "height": "5'5\"",
+ "birthday": "April 29",
+ "birthplace": "Windward Forest",
+ "style": "Vine Blade"
 }

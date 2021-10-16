@@ -1,0 +1,632 @@
+[
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Are you sure you're here for me and not Baba Yaga?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm here to see you, Mia."
+   },
+   {
+    "name": "Mia:",
+    "content": "Did something happen?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Did I do anything wrong recently?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Baba Yaga seems a little strange recently..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Did I do anything wrong recently?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "I don't know."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Could I have been mistaken?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Anyway... can we talk about it in person?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Okay, I'm at the Cafe."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll be right there!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Baba Yaga seems a little strange recently..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "Really...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Could I have been mistaken?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Anyway... can we talk about it in person?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Okay, I'm at the Cafe."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'll be right there!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "There's something I want to tell you, Navigator. Please don't be surprised!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Mia? There's something different about you today."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Anything that you're happy about?"
+   },
+   {
+    "name": "Mia:",
+    "content": "Yes, my girlfriend told me she's liking you more and more!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Your girlfriend? Could it be\u2014"
+   },
+   {
+    "name": "Mia:",
+    "content": "Yea, it's her!"
+   },
+   {
+    "name": "Mia:",
+    "content": "She said that we can play games that are of even more fun if we get the chance."
+   },
+   {
+    "name": "Mia:",
+    "content": "Is that all right?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Well, did she say what type of game?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Well, did she say what type of game?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "Hide and seek!"
+     },
+     {
+      "name": "Mia:",
+      "content": "We'll come to see you at the Colossus when we get the chance!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright."
+     },
+     {
+      "name": "Mia:",
+      "content": "Tee-hee, Navigator, there's no need to be shy."
+     },
+     {
+      "name": "Mia:",
+      "content": "Let's have a good time together!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I knew it."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Sure!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "We'll come to see you at the Colossus when we get the chance!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright."
+     },
+     {
+      "name": "Mia:",
+      "content": "Tee-hee, Navigator, there's no need to be shy."
+     },
+     {
+      "name": "Mia:",
+      "content": "Let's have a good time together!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I knew it."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Um, good day..."
+   },
+   {
+    "name": "Mia:",
+    "content": "I have something that I would like to discuss with you."
+   },
+   {
+    "name": "Mia:",
+    "content": "If you happen to see a shadow moving through the halls at night..."
+   },
+   {
+    "name": "Mia:",
+    "content": "Please don't be alarmed..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What? Weird figure at night...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait a minute, that sounds like some serious haunting. It has never happened before."
+   },
+   {
+    "name": "Mia:",
+    "content": "Perhaps there weren't any before, but after I arrived..."
+   },
+   {
+    "name": "Mia:",
+    "content": "Or rather, once Baba Yaga and I arrived, I believe this place became haunted..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You and... Baba Yaga? What do you mean...?"
+   },
+   {
+    "name": "Mia:",
+    "content": "Baba Yaga and I... Share the same body."
+   },
+   {
+    "name": "Mia:",
+    "content": "Though she is a bit different than I am. She enjoys making mischief... Especially scaring people."
+   },
+   {
+    "name": "Mia:",
+    "content": "So if you run into her in the halls at night, please don't be afraid. She means no harm."
+   },
+   {
+    "name": "Navigator:",
+    "content": "O-Okay... I understand."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Do you have some time, Navigator?"
+   },
+   {
+    "name": "Mia:",
+    "content": "If not, it's fine. Whenever you do... I'll... Find... You..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "M-Mia?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "\"Baba Yaga\"?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "M-Mia?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "Nice try, but no. When the clock strikes twelve, it's my turn to play!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Then you must be Baba Yaga."
+     },
+     {
+      "name": "Mia:",
+      "content": "I've been thinking about the best way... To make your soul happy."
+     },
+     {
+      "name": "Mia:",
+      "content": "Now that I'm stronger, I think I have an idea."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Well? Care to find out?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "To be honest? Not at all..."
+     },
+     {
+      "name": "Mia:",
+      "content": "What? This is not up to you!"
+     },
+     {
+      "name": "Mia:",
+      "content": "Just wait, you're in for a big surprise..."
+     },
+     {
+      "name": "Mia:",
+      "content": "In the dark of night, in your deepest dreams..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Really, I'd rather not..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "H-Huh? Baba Yaga... Where'd you go?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "At night, in my dreams... What the heck is she plotting?!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "\"Baba Yaga\"?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "Hmph, you got me."
+     },
+     {
+      "name": "Mia:",
+      "content": "Good, now I won't have to hide my next order of business..."
+     },
+     {
+      "name": "Mia:",
+      "content": "I've been thinking about the best way... To make your soul happy."
+     },
+     {
+      "name": "Mia:",
+      "content": "Now that I'm stronger, I think I have an idea."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Well? Care to find out?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "To be honest? Not at all..."
+     },
+     {
+      "name": "Mia:",
+      "content": "What? This is not up to you!"
+     },
+     {
+      "name": "Mia:",
+      "content": "Just wait, you're in for a big surprise..."
+     },
+     {
+      "name": "Mia:",
+      "content": "In the dark of night, in your deepest dreams..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Really, I'd rather not..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "H-Huh? Baba Yaga... Where'd you go?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "At night, in my dreams... What the heck is she plotting?!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Guess who!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're Baba Yaga. That wasn't hard at all."
+   },
+   {
+    "name": "Mia:",
+    "content": "Are you sure?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't think Mia would joke around like this..."
+   },
+   {
+    "name": "Mia:",
+    "content": "Um... Sorry, it's me. Baba Yaga told me to try doing this... Sorry for disturbing you..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sorry!!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Noon is my least favorite time of the day!"
+   },
+   {
+    "name": "Mia:",
+    "content": "She made me come here... Do you know what I'm talking about?"
+   },
+   {
+    "name": "Mia:",
+    "content": "Oh... I really do hate this time so..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good afternoon... You're..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Baba Yaga, right?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is that Mia?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Baba Yaga, right?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "Hah, you guessed it\u2014"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's Baba Yaga... Is something wrong?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Mia wanted me to come here and ask you something, our esteemed Caelestite\u2014"
+     },
+     {
+      "name": "Mia:",
+      "content": "Have you eaten your lunch yet, like a good little Navigator?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Heavens\u2014 A big boy like you still needs someone to tell him when to eat lunch!?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Uh... Please tell Mia that I've eaten."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Excuse me... Baba Yaga?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Well... Almost."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Is that Mia?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Mia:",
+      "content": "You are missing my sister?!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's Baba Yaga... Is something wrong?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Mia wanted me to come here and ask you something, our esteemed Caelestite\u2014"
+     },
+     {
+      "name": "Mia:",
+      "content": "Have you eaten your lunch yet, like a good little Navigator?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Heavens\u2014 A big boy like you still needs someone to tell him when to eat lunch!?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Uh... Please tell Mia that I've eaten."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Excuse me... Baba Yaga?"
+     },
+     {
+      "name": "Mia:",
+      "content": "Well... Almost."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Mia:",
+    "content": "Good, good, good evening...."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is that... Mia? Right?"
+   },
+   {
+    "name": "Mia:",
+    "content": "Right... It's me..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's late. Why aren't you sleeping?"
+   },
+   {
+    "name": "Mia:",
+    "content": "Oh... You recognized me..."
+   },
+   {
+    "name": "Mia:",
+    "content": "I drank a little more tea than usual, today..."
+   },
+   {
+    "name": "Mia:",
+    "content": "I had eight cups altogether... and now I can't sleep..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well... How about I tell you a story?"
+   },
+   {
+    "name": "Mia:",
+    "content": "R-Really? That'd be..."
+   },
+   {
+    "name": "Mia:",
+    "content": "That'd be fantastic..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

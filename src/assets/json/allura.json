@@ -1,1153 +1,1258 @@
 {
-      "name": "Allura",
-      "faction": "Umbraton",
-      "element_main": "Water",
-      "element_sub": "Thunder",
-      "rarity": "5",
-      "class": "Sniper",
-      "skill": {
-            "name": "",
-            "cd": "2 Turn",
-            "description": [
-                  "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile.",
-                  "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF.",
-                  "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF. When Blessing reaches 10 stacks, active skill range becomes the maximum radial-shaped span."
-            ]
-      },
-      "equip": {
-            "name": "Hera",
-            "passive": "Time's Blessing",
-            "description": [
-                  [
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
-                  ],
-                  [
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
-                  ],
-                  [
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
-                        "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "4",
-                              "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Clears damaged tile effects from tiles within the skill's range.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Crystal Shard",
-                        "Water Essence",
-                        "Destiny Champagne I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
-            },
-            {
-                  "material": [
-                        "Water Potion II",
-                        "Water Flare Silt",
-                        "Destiny Champagne II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile.",
-                  "after": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF."
-            },
-            {
-                  "material": [
-                        "Water Flare Tile",
-                        "Water Crystal",
-                        "Destiny Champagne III",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF.",
-                  "after": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF. When Blessing reaches 10 stacks, active skill range becomes the maximum radial-shaped span."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 538,
-                        "def": 190,
-                        "hp": 1534
-                  },
-                  {
-                        "att": 549,
-                        "def": 193,
-                        "hp": 1564
-                  },
-                  {
-                        "att": 560,
-                        "def": 197,
-                        "hp": 1593
-                  },
-                  {
-                        "att": 571,
-                        "def": 200,
-                        "hp": 1623
-                  },
-                  {
-                        "att": 581,
-                        "def": 204,
-                        "hp": 1652
-                  },
-                  {
-                        "att": 592,
-                        "def": 207,
-                        "hp": 1682
-                  },
-                  {
-                        "att": 603,
-                        "def": 211,
-                        "hp": 1711
-                  },
-                  {
-                        "att": 614,
-                        "def": 214,
-                        "hp": 1741
-                  },
-                  {
-                        "att": 625,
-                        "def": 217,
-                        "hp": 1770
-                  },
-                  {
-                        "att": 636,
-                        "def": 221,
-                        "hp": 1800
-                  },
-                  {
-                        "att": 646,
-                        "def": 224,
-                        "hp": 1829
-                  },
-                  {
-                        "att": 657,
-                        "def": 228,
-                        "hp": 1859
-                  },
-                  {
-                        "att": 668,
-                        "def": 231,
-                        "hp": 1888
-                  },
-                  {
-                        "att": 679,
-                        "def": 235,
-                        "hp": 1918
-                  },
-                  {
-                        "att": 690,
-                        "def": 238,
-                        "hp": 1947
-                  },
-                  {
-                        "att": 701,
-                        "def": 242,
-                        "hp": 1977
-                  },
-                  {
-                        "att": 712,
-                        "def": 245,
-                        "hp": 2006
-                  },
-                  {
-                        "att": 722,
-                        "def": 249,
-                        "hp": 2036
-                  },
-                  {
-                        "att": 733,
-                        "def": 252,
-                        "hp": 2065
-                  },
-                  {
-                        "att": 744,
-                        "def": 256,
-                        "hp": 2095
-                  },
-                  {
-                        "att": 755,
-                        "def": 259,
-                        "hp": 2124
-                  },
-                  {
-                        "att": 766,
-                        "def": 262,
-                        "hp": 2154
-                  },
-                  {
-                        "att": 777,
-                        "def": 266,
-                        "hp": 2183
-                  },
-                  {
-                        "att": 787,
-                        "def": 269,
-                        "hp": 2213
-                  },
-                  {
-                        "att": 798,
-                        "def": 273,
-                        "hp": 2242
-                  },
-                  {
-                        "att": 809,
-                        "def": 276,
-                        "hp": 2272
-                  },
-                  {
-                        "att": 820,
-                        "def": 280,
-                        "hp": 2301
-                  },
-                  {
-                        "att": 831,
-                        "def": 283,
-                        "hp": 2331
-                  },
-                  {
-                        "att": 842,
-                        "def": 287,
-                        "hp": 2360
-                  },
-                  {
-                        "att": 853,
-                        "def": 290,
-                        "hp": 2390
-                  },
-                  {
-                        "att": 956,
-                        "def": 324,
-                        "hp": 2647
-                  },
-                  {
-                        "att": 970,
-                        "def": 329,
-                        "hp": 2683
-                  },
-                  {
-                        "att": 983,
-                        "def": 333,
-                        "hp": 2720
-                  },
-                  {
-                        "att": 997,
-                        "def": 337,
-                        "hp": 2757
-                  },
-                  {
-                        "att": 1010,
-                        "def": 342,
-                        "hp": 2794
-                  },
-                  {
-                        "att": 1024,
-                        "def": 346,
-                        "hp": 2831
-                  },
-                  {
-                        "att": 1037,
-                        "def": 350,
-                        "hp": 2868
-                  },
-                  {
-                        "att": 1051,
-                        "def": 355,
-                        "hp": 2905
-                  },
-                  {
-                        "att": 1065,
-                        "def": 359,
-                        "hp": 2942
-                  },
-                  {
-                        "att": 1078,
-                        "def": 363,
-                        "hp": 2978
-                  },
-                  {
-                        "att": 1092,
-                        "def": 368,
-                        "hp": 3015
-                  },
-                  {
-                        "att": 1105,
-                        "def": 372,
-                        "hp": 3052
-                  },
-                  {
-                        "att": 1119,
-                        "def": 376,
-                        "hp": 3089
-                  },
-                  {
-                        "att": 1132,
-                        "def": 381,
-                        "hp": 3126
-                  },
-                  {
-                        "att": 1146,
-                        "def": 385,
-                        "hp": 3163
-                  },
-                  {
-                        "att": 1159,
-                        "def": 389,
-                        "hp": 3200
-                  },
-                  {
-                        "att": 1173,
-                        "def": 394,
-                        "hp": 3236
-                  },
-                  {
-                        "att": 1187,
-                        "def": 398,
-                        "hp": 3273
-                  },
-                  {
-                        "att": 1200,
-                        "def": 402,
-                        "hp": 3310
-                  },
-                  {
-                        "att": 1214,
-                        "def": 407,
-                        "hp": 3347
-                  },
-                  {
-                        "att": 1227,
-                        "def": 411,
-                        "hp": 3384
-                  },
-                  {
-                        "att": 1241,
-                        "def": 415,
-                        "hp": 3421
-                  },
-                  {
-                        "att": 1254,
-                        "def": 419,
-                        "hp": 3458
-                  },
-                  {
-                        "att": 1268,
-                        "def": 424,
-                        "hp": 3495
-                  },
-                  {
-                        "att": 1281,
-                        "def": 428,
-                        "hp": 3531
-                  },
-                  {
-                        "att": 1295,
-                        "def": 432,
-                        "hp": 3568
-                  },
-                  {
-                        "att": 1308,
-                        "def": 437,
-                        "hp": 3605
-                  },
-                  {
-                        "att": 1322,
-                        "def": 441,
-                        "hp": 3642
-                  },
-                  {
-                        "att": 1336,
-                        "def": 445,
-                        "hp": 3679
-                  },
-                  {
-                        "att": 1349,
-                        "def": 450,
-                        "hp": 3716
-                  },
-                  {
-                        "att": 1363,
-                        "def": 454,
-                        "hp": 3753
-                  },
-                  {
-                        "att": 1376,
-                        "def": 458,
-                        "hp": 3789
-                  },
-                  {
-                        "att": 1390,
-                        "def": 463,
-                        "hp": 3826
-                  },
-                  {
-                        "att": 1403,
-                        "def": 467,
-                        "hp": 3863
-                  },
-                  {
-                        "att": 1417,
-                        "def": 471,
-                        "hp": 3900
-                  },
-                  {
-                        "att": 1430,
-                        "def": 476,
-                        "hp": 3937
-                  },
-                  {
-                        "att": 1444,
-                        "def": 480,
-                        "hp": 3974
-                  },
-                  {
-                        "att": 1458,
-                        "def": 484,
-                        "hp": 4011
-                  },
-                  {
-                        "att": 1471,
-                        "def": 489,
-                        "hp": 4048
-                  },
-                  {
-                        "att": 1485,
-                        "def": 493,
-                        "hp": 4084
-                  },
-                  {
-                        "att": 1635,
-                        "def": 546,
-                        "hp": 4452
-                  },
-                  {
-                        "att": 1645,
-                        "def": 549,
-                        "hp": 4480
-                  },
-                  {
-                        "att": 1655,
-                        "def": 553,
-                        "hp": 4507
-                  },
-                  {
-                        "att": 1665,
-                        "def": 556,
-                        "hp": 4535
-                  },
-                  {
-                        "att": 1676,
-                        "def": 559,
-                        "hp": 4563
-                  },
-                  {
-                        "att": 1686,
-                        "def": 562,
-                        "hp": 4590
-                  },
-                  {
-                        "att": 1696,
-                        "def": 566,
-                        "hp": 4618
-                  },
-                  {
-                        "att": 1706,
-                        "def": 569,
-                        "hp": 4646
-                  },
-                  {
-                        "att": 1716,
-                        "def": 572,
-                        "hp": 4673
-                  },
-                  {
-                        "att": 1726,
-                        "def": 575,
-                        "hp": 4701
-                  },
-                  {
-                        "att": 1737,
-                        "def": 579,
-                        "hp": 4729
-                  },
-                  {
-                        "att": 1747,
-                        "def": 582,
-                        "hp": 4756
-                  },
-                  {
-                        "att": 1757,
-                        "def": 585,
-                        "hp": 4784
-                  },
-                  {
-                        "att": 1767,
-                        "def": 588,
-                        "hp": 4812
-                  },
-                  {
-                        "att": 1777,
-                        "def": 592,
-                        "hp": 4839
-                  },
-                  {
-                        "att": 1787,
-                        "def": 595,
-                        "hp": 4867
-                  },
-                  {
-                        "att": 1798,
-                        "def": 598,
-                        "hp": 4894
-                  },
-                  {
-                        "att": 1808,
-                        "def": 601,
-                        "hp": 4922
-                  },
-                  {
-                        "att": 1818,
-                        "def": 605,
-                        "hp": 4950
-                  },
-                  {
-                        "att": 1828,
-                        "def": 608,
-                        "hp": 4977
-                  },
-                  {
-                        "att": 1838,
-                        "def": 611,
-                        "hp": 5005
-                  },
-                  {
-                        "att": 1848,
-                        "def": 614,
-                        "hp": 5033
-                  },
-                  {
-                        "att": 1859,
-                        "def": 617,
-                        "hp": 5060
-                  },
-                  {
-                        "att": 1869,
-                        "def": 621,
-                        "hp": 5088
-                  },
-                  {
-                        "att": 1879,
-                        "def": 624,
-                        "hp": 5116
-                  },
-                  {
-                        "att": 1889,
-                        "def": 627,
-                        "hp": 5143
-                  },
-                  {
-                        "att": 1899,
-                        "def": 630,
-                        "hp": 5171
-                  },
-                  {
-                        "att": 1909,
-                        "def": 634,
-                        "hp": 5199
-                  },
-                  {
-                        "att": 1920,
-                        "def": 637,
-                        "hp": 5226
-                  },
-                  {
-                        "att": 1930,
-                        "def": 640,
-                        "hp": 5254
-                  },
-                  {
-                        "att": 1940,
-                        "def": 643,
-                        "hp": 5282
-                  },
-                  {
-                        "att": 1950,
-                        "def": 647,
-                        "hp": 5309
-                  },
-                  {
-                        "att": 1960,
-                        "def": 650,
-                        "hp": 5337
-                  },
-                  {
-                        "att": 1970,
-                        "def": 653,
-                        "hp": 5365
-                  },
-                  {
-                        "att": 1981,
-                        "def": 656,
-                        "hp": 5392
-                  },
-                  {
-                        "att": 1991,
-                        "def": 660,
-                        "hp": 5420
-                  },
-                  {
-                        "att": 2001,
-                        "def": 663,
-                        "hp": 5447
-                  },
-                  {
-                        "att": 2011,
-                        "def": 666,
-                        "hp": 5475
-                  },
-                  {
-                        "att": 2021,
-                        "def": 669,
-                        "hp": 5503
-                  },
-                  {
-                        "att": 2031,
-                        "def": 673,
-                        "hp": 5530
-                  },
-                  {
-                        "att": 2042,
-                        "def": 676,
-                        "hp": 5558
-                  },
-                  {
-                        "att": 2052,
-                        "def": 679,
-                        "hp": 5586
-                  },
-                  {
-                        "att": 2062,
-                        "def": 682,
-                        "hp": 5613
-                  },
-                  {
-                        "att": 2072,
-                        "def": 686,
-                        "hp": 5641
-                  },
-                  {
-                        "att": 2082,
-                        "def": 689,
-                        "hp": 5669
-                  },
-                  {
-                        "att": 2092,
-                        "def": 692,
-                        "hp": 5696
-                  },
-                  {
-                        "att": 2102,
-                        "def": 695,
-                        "hp": 5724
-                  },
-                  {
-                        "att": 2113,
-                        "def": 698,
-                        "hp": 5752
-                  },
-                  {
-                        "att": 2123,
-                        "def": 702,
-                        "hp": 5779
-                  },
-                  {
-                        "att": 2133,
-                        "def": 705,
-                        "hp": 5807
-                  },
-                  {
-                        "att": 2355,
-                        "def": 772,
-                        "hp": 6335
-                  },
-                  {
-                        "att": 2362,
-                        "def": 774,
-                        "hp": 6354
-                  },
-                  {
-                        "att": 2368,
-                        "def": 776,
-                        "hp": 6372
-                  },
-                  {
-                        "att": 2375,
-                        "def": 779,
-                        "hp": 6391
-                  },
-                  {
-                        "att": 2382,
-                        "def": 781,
-                        "hp": 6409
-                  },
-                  {
-                        "att": 2389,
-                        "def": 783,
-                        "hp": 6428
-                  },
-                  {
-                        "att": 2395,
-                        "def": 785,
-                        "hp": 6446
-                  },
-                  {
-                        "att": 2402,
-                        "def": 787,
-                        "hp": 6464
-                  },
-                  {
-                        "att": 2409,
-                        "def": 789,
-                        "hp": 6483
-                  },
-                  {
-                        "att": 2416,
-                        "def": 792,
-                        "hp": 6501
-                  },
-                  {
-                        "att": 2423,
-                        "def": 794,
-                        "hp": 6520
-                  },
-                  {
-                        "att": 2429,
-                        "def": 796,
-                        "hp": 6538
-                  },
-                  {
-                        "att": 2436,
-                        "def": 798,
-                        "hp": 6557
-                  },
-                  {
-                        "att": 2443,
-                        "def": 800,
-                        "hp": 6575
-                  },
-                  {
-                        "att": 2450,
-                        "def": 802,
-                        "hp": 6593
-                  },
-                  {
-                        "att": 2456,
-                        "def": 805,
-                        "hp": 6612
-                  },
-                  {
-                        "att": 2463,
-                        "def": 807,
-                        "hp": 6630
-                  },
-                  {
-                        "att": 2470,
-                        "def": 809,
-                        "hp": 6649
-                  },
-                  {
-                        "att": 2477,
-                        "def": 811,
-                        "hp": 6667
-                  },
-                  {
-                        "att": 2484,
-                        "def": 813,
-                        "hp": 6686
-                  },
-                  {
-                        "att": 2490,
-                        "def": 815,
-                        "hp": 6704
-                  },
-                  {
-                        "att": 2497,
-                        "def": 818,
-                        "hp": 6722
-                  },
-                  {
-                        "att": 2504,
-                        "def": 820,
-                        "hp": 6741
-                  },
-                  {
-                        "att": 2511,
-                        "def": 822,
-                        "hp": 6759
-                  },
-                  {
-                        "att": 2517,
-                        "def": 824,
-                        "hp": 6778
-                  },
-                  {
-                        "att": 2524,
-                        "def": 826,
-                        "hp": 6796
-                  },
-                  {
-                        "att": 2531,
-                        "def": 828,
-                        "hp": 6815
-                  },
-                  {
-                        "att": 2538,
-                        "def": 830,
-                        "hp": 6833
-                  },
-                  {
-                        "att": 2545,
-                        "def": 833,
-                        "hp": 6852
-                  },
-                  {
-                        "att": 2551,
-                        "def": 835,
-                        "hp": 6870
-                  },
-                  {
-                        "att": 2558,
-                        "def": 837,
-                        "hp": 6888
-                  },
-                  {
-                        "att": 2565,
-                        "def": 839,
-                        "hp": 6907
-                  },
-                  {
-                        "att": 2572,
-                        "def": 841,
-                        "hp": 6925
-                  },
-                  {
-                        "att": 2578,
-                        "def": 843,
-                        "hp": 6944
-                  },
-                  {
-                        "att": 2585,
-                        "def": 846,
-                        "hp": 6962
-                  },
-                  {
-                        "att": 2592,
-                        "def": 848,
-                        "hp": 6981
-                  },
-                  {
-                        "att": 2599,
-                        "def": 850,
-                        "hp": 6999
-                  },
-                  {
-                        "att": 2606,
-                        "def": 852,
-                        "hp": 7017
-                  },
-                  {
-                        "att": 2612,
-                        "def": 854,
-                        "hp": 7036
-                  },
-                  {
-                        "att": 2619,
-                        "def": 856,
-                        "hp": 7054
-                  },
-                  {
-                        "att": 2626,
-                        "def": 859,
-                        "hp": 7073
-                  },
-                  {
-                        "att": 2633,
-                        "def": 861,
-                        "hp": 7091
-                  },
-                  {
-                        "att": 2639,
-                        "def": 863,
-                        "hp": 7110
-                  },
-                  {
-                        "att": 2646,
-                        "def": 865,
-                        "hp": 7128
-                  },
-                  {
-                        "att": 2653,
-                        "def": 867,
-                        "hp": 7146
-                  },
-                  {
-                        "att": 2660,
-                        "def": 869,
-                        "hp": 7165
-                  },
-                  {
-                        "att": 2667,
-                        "def": 872,
-                        "hp": 7183
-                  },
-                  {
-                        "att": 2673,
-                        "def": 874,
-                        "hp": 7202
-                  },
-                  {
-                        "att": 2680,
-                        "def": 876,
-                        "hp": 7220
-                  },
-                  {
-                        "att": 2687,
-                        "def": 878,
-                        "hp": 7239
-                  },
-                  {
-                        "att": 2694,
-                        "def": 880,
-                        "hp": 7257
-                  },
-                  {
-                        "att": 2700,
-                        "def": 882,
-                        "hp": 7275
-                  },
-                  {
-                        "att": 2707,
-                        "def": 884,
-                        "hp": 7294
-                  },
-                  {
-                        "att": 2714,
-                        "def": 887,
-                        "hp": 7312
-                  },
-                  {
-                        "att": 2721,
-                        "def": 889,
-                        "hp": 7331
-                  },
-                  {
-                        "att": 2728,
-                        "def": 891,
-                        "hp": 7349
-                  },
-                  {
-                        "att": 2734,
-                        "def": 893,
-                        "hp": 7368
-                  },
-                  {
-                        "att": 2741,
-                        "def": 895,
-                        "hp": 7386
-                  },
-                  {
-                        "att": 2748,
-                        "def": 897,
-                        "hp": 7405
-                  },
-                  {
-                        "att": 2755,
-                        "def": 900,
-                        "hp": 7423
-                  },
-                  {
-                        "att": 2761,
-                        "def": 902,
-                        "hp": 7441
-                  },
-                  {
-                        "att": 2768,
-                        "def": 904,
-                        "hp": 7460
-                  },
-                  {
-                        "att": 2775,
-                        "def": 906,
-                        "hp": 7478
-                  },
-                  {
-                        "att": 2782,
-                        "def": 908,
-                        "hp": 7497
-                  },
-                  {
-                        "att": 2789,
-                        "def": 910,
-                        "hp": 7515
-                  },
-                  {
-                        "att": 2795,
-                        "def": 913,
-                        "hp": 7534
-                  },
-                  {
-                        "att": 2802,
-                        "def": 915,
-                        "hp": 7552
-                  },
-                  {
-                        "att": 2809,
-                        "def": 917,
-                        "hp": 7570
-                  },
-                  {
-                        "att": 2816,
-                        "def": 919,
-                        "hp": 7589
-                  },
-                  {
-                        "att": 2822,
-                        "def": 921,
-                        "hp": 7607
-                  },
-                  {
-                        "att": 2829,
-                        "def": 923,
-                        "hp": 7626
-                  },
-                  {
-                        "att": 2836,
-                        "def": 926,
-                        "hp": 7644
-                  },
-                  {
-                        "att": 2843,
-                        "def": 928,
-                        "hp": 7663
-                  },
-                  {
-                        "att": 2850,
-                        "def": 930,
-                        "hp": 7681
-                  },
-                  {
-                        "att": 2856,
-                        "def": 932,
-                        "hp": 7699
-                  },
-                  {
-                        "att": 2863,
-                        "def": 934,
-                        "hp": 7718
-                  },
-                  {
-                        "att": 2870,
-                        "def": 936,
-                        "hp": 7736
-                  },
-                  {
-                        "att": 2877,
-                        "def": 939,
-                        "hp": 7755
-                  },
-                  {
-                        "att": 2883,
-                        "def": 941,
-                        "hp": 7773
-                  },
-                  {
-                        "att": 2890,
-                        "def": 943,
-                        "hp": 7792
-                  }
-            ]
-      }
+ "name": "Allura",
+ "faction": "Umbraton",
+ "element_main": "Water",
+ "element_sub": "Thunder",
+ "rarity": "5",
+ "class": "Sniper",
+ "skill": {
+  "name": "Disillusioned",
+  "cd": "2 Turn",
+  "description": [
+   "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile.",
+   "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF.",
+   "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF. When Blessing reaches 10 stacks, active skill range becomes the maximum radial-shaped span."
+  ]
+ },
+ "equip": {
+  "name": "Hera",
+  "passive": "Time's Blessing",
+  "description": [
+   [
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
+   ],
+   [
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
+   ],
+   [
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 4%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 6%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 8%.",
+    "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
+   ]
+  ],
+  "introduction": "A name given to Allura's pocket watch and pistol. The pocket watch greatly amplifies Allura's senses, increases her accuracy and firepower when using her antique pistol. With these two in her possession, she soon gained widespread recognition as Umbraton's lady gunner."
+ },
+ "chain": {
+  "name": "No Escape",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 165% damage to 2 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 170% damage to 3 enemies within 3 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 175% damage to 4 enemies within 3 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Clears damaged tile effects from tiles within the skill's range.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Crystal Shard",
+    "Water Essence",
+    "Destiny Champagne I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Can obtain Blessing. Each Blessing stack increases Allura's Active Skill damage by 10%."
+  },
+  {
+   "material": [
+    "Water Potion II",
+    "Water Flare Silt",
+    "Destiny Champagne II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile.",
+   "after": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF."
+  },
+  {
+   "material": [
+    "Water Flare Tile",
+    "Water Crystal",
+    "Destiny Champagne III",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF.",
+   "after": "Deals 200% damage to 17 tiles in a radial shape centered on 1 selected tile. Damage dealt to the selected tile ignores DEF. When Blessing reaches 10 stacks, active skill range becomes the maximum radial-shaped span."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 538,
+    "def": 190,
+    "hp": 1534
+   },
+   {
+    "att": 549,
+    "def": 193,
+    "hp": 1564
+   },
+   {
+    "att": 560,
+    "def": 197,
+    "hp": 1593
+   },
+   {
+    "att": 571,
+    "def": 200,
+    "hp": 1623
+   },
+   {
+    "att": 581,
+    "def": 204,
+    "hp": 1652
+   },
+   {
+    "att": 592,
+    "def": 207,
+    "hp": 1682
+   },
+   {
+    "att": 603,
+    "def": 211,
+    "hp": 1711
+   },
+   {
+    "att": 614,
+    "def": 214,
+    "hp": 1741
+   },
+   {
+    "att": 625,
+    "def": 217,
+    "hp": 1770
+   },
+   {
+    "att": 636,
+    "def": 221,
+    "hp": 1800
+   },
+   {
+    "att": 646,
+    "def": 224,
+    "hp": 1829
+   },
+   {
+    "att": 657,
+    "def": 228,
+    "hp": 1859
+   },
+   {
+    "att": 668,
+    "def": 231,
+    "hp": 1888
+   },
+   {
+    "att": 679,
+    "def": 235,
+    "hp": 1918
+   },
+   {
+    "att": 690,
+    "def": 238,
+    "hp": 1947
+   },
+   {
+    "att": 701,
+    "def": 242,
+    "hp": 1977
+   },
+   {
+    "att": 712,
+    "def": 245,
+    "hp": 2006
+   },
+   {
+    "att": 722,
+    "def": 249,
+    "hp": 2036
+   },
+   {
+    "att": 733,
+    "def": 252,
+    "hp": 2065
+   },
+   {
+    "att": 744,
+    "def": 256,
+    "hp": 2095
+   },
+   {
+    "att": 755,
+    "def": 259,
+    "hp": 2124
+   },
+   {
+    "att": 766,
+    "def": 262,
+    "hp": 2154
+   },
+   {
+    "att": 777,
+    "def": 266,
+    "hp": 2183
+   },
+   {
+    "att": 787,
+    "def": 269,
+    "hp": 2213
+   },
+   {
+    "att": 798,
+    "def": 273,
+    "hp": 2242
+   },
+   {
+    "att": 809,
+    "def": 276,
+    "hp": 2272
+   },
+   {
+    "att": 820,
+    "def": 280,
+    "hp": 2301
+   },
+   {
+    "att": 831,
+    "def": 283,
+    "hp": 2331
+   },
+   {
+    "att": 842,
+    "def": 287,
+    "hp": 2360
+   },
+   {
+    "att": 853,
+    "def": 290,
+    "hp": 2390
+   },
+   {
+    "att": 956,
+    "def": 324,
+    "hp": 2647
+   },
+   {
+    "att": 970,
+    "def": 329,
+    "hp": 2683
+   },
+   {
+    "att": 983,
+    "def": 333,
+    "hp": 2720
+   },
+   {
+    "att": 997,
+    "def": 337,
+    "hp": 2757
+   },
+   {
+    "att": 1010,
+    "def": 342,
+    "hp": 2794
+   },
+   {
+    "att": 1024,
+    "def": 346,
+    "hp": 2831
+   },
+   {
+    "att": 1037,
+    "def": 350,
+    "hp": 2868
+   },
+   {
+    "att": 1051,
+    "def": 355,
+    "hp": 2905
+   },
+   {
+    "att": 1065,
+    "def": 359,
+    "hp": 2942
+   },
+   {
+    "att": 1078,
+    "def": 363,
+    "hp": 2978
+   },
+   {
+    "att": 1092,
+    "def": 368,
+    "hp": 3015
+   },
+   {
+    "att": 1105,
+    "def": 372,
+    "hp": 3052
+   },
+   {
+    "att": 1119,
+    "def": 376,
+    "hp": 3089
+   },
+   {
+    "att": 1132,
+    "def": 381,
+    "hp": 3126
+   },
+   {
+    "att": 1146,
+    "def": 385,
+    "hp": 3163
+   },
+   {
+    "att": 1159,
+    "def": 389,
+    "hp": 3200
+   },
+   {
+    "att": 1173,
+    "def": 394,
+    "hp": 3236
+   },
+   {
+    "att": 1187,
+    "def": 398,
+    "hp": 3273
+   },
+   {
+    "att": 1200,
+    "def": 402,
+    "hp": 3310
+   },
+   {
+    "att": 1214,
+    "def": 407,
+    "hp": 3347
+   },
+   {
+    "att": 1227,
+    "def": 411,
+    "hp": 3384
+   },
+   {
+    "att": 1241,
+    "def": 415,
+    "hp": 3421
+   },
+   {
+    "att": 1254,
+    "def": 419,
+    "hp": 3458
+   },
+   {
+    "att": 1268,
+    "def": 424,
+    "hp": 3495
+   },
+   {
+    "att": 1281,
+    "def": 428,
+    "hp": 3531
+   },
+   {
+    "att": 1295,
+    "def": 432,
+    "hp": 3568
+   },
+   {
+    "att": 1308,
+    "def": 437,
+    "hp": 3605
+   },
+   {
+    "att": 1322,
+    "def": 441,
+    "hp": 3642
+   },
+   {
+    "att": 1336,
+    "def": 445,
+    "hp": 3679
+   },
+   {
+    "att": 1349,
+    "def": 450,
+    "hp": 3716
+   },
+   {
+    "att": 1363,
+    "def": 454,
+    "hp": 3753
+   },
+   {
+    "att": 1376,
+    "def": 458,
+    "hp": 3789
+   },
+   {
+    "att": 1390,
+    "def": 463,
+    "hp": 3826
+   },
+   {
+    "att": 1403,
+    "def": 467,
+    "hp": 3863
+   },
+   {
+    "att": 1417,
+    "def": 471,
+    "hp": 3900
+   },
+   {
+    "att": 1430,
+    "def": 476,
+    "hp": 3937
+   },
+   {
+    "att": 1444,
+    "def": 480,
+    "hp": 3974
+   },
+   {
+    "att": 1458,
+    "def": 484,
+    "hp": 4011
+   },
+   {
+    "att": 1471,
+    "def": 489,
+    "hp": 4048
+   },
+   {
+    "att": 1485,
+    "def": 493,
+    "hp": 4084
+   },
+   {
+    "att": 1635,
+    "def": 546,
+    "hp": 4452
+   },
+   {
+    "att": 1645,
+    "def": 549,
+    "hp": 4480
+   },
+   {
+    "att": 1655,
+    "def": 553,
+    "hp": 4507
+   },
+   {
+    "att": 1665,
+    "def": 556,
+    "hp": 4535
+   },
+   {
+    "att": 1676,
+    "def": 559,
+    "hp": 4563
+   },
+   {
+    "att": 1686,
+    "def": 562,
+    "hp": 4590
+   },
+   {
+    "att": 1696,
+    "def": 566,
+    "hp": 4618
+   },
+   {
+    "att": 1706,
+    "def": 569,
+    "hp": 4646
+   },
+   {
+    "att": 1716,
+    "def": 572,
+    "hp": 4673
+   },
+   {
+    "att": 1726,
+    "def": 575,
+    "hp": 4701
+   },
+   {
+    "att": 1737,
+    "def": 579,
+    "hp": 4729
+   },
+   {
+    "att": 1747,
+    "def": 582,
+    "hp": 4756
+   },
+   {
+    "att": 1757,
+    "def": 585,
+    "hp": 4784
+   },
+   {
+    "att": 1767,
+    "def": 588,
+    "hp": 4812
+   },
+   {
+    "att": 1777,
+    "def": 592,
+    "hp": 4839
+   },
+   {
+    "att": 1787,
+    "def": 595,
+    "hp": 4867
+   },
+   {
+    "att": 1798,
+    "def": 598,
+    "hp": 4894
+   },
+   {
+    "att": 1808,
+    "def": 601,
+    "hp": 4922
+   },
+   {
+    "att": 1818,
+    "def": 605,
+    "hp": 4950
+   },
+   {
+    "att": 1828,
+    "def": 608,
+    "hp": 4977
+   },
+   {
+    "att": 1838,
+    "def": 611,
+    "hp": 5005
+   },
+   {
+    "att": 1848,
+    "def": 614,
+    "hp": 5033
+   },
+   {
+    "att": 1859,
+    "def": 617,
+    "hp": 5060
+   },
+   {
+    "att": 1869,
+    "def": 621,
+    "hp": 5088
+   },
+   {
+    "att": 1879,
+    "def": 624,
+    "hp": 5116
+   },
+   {
+    "att": 1889,
+    "def": 627,
+    "hp": 5143
+   },
+   {
+    "att": 1899,
+    "def": 630,
+    "hp": 5171
+   },
+   {
+    "att": 1909,
+    "def": 634,
+    "hp": 5199
+   },
+   {
+    "att": 1920,
+    "def": 637,
+    "hp": 5226
+   },
+   {
+    "att": 1930,
+    "def": 640,
+    "hp": 5254
+   },
+   {
+    "att": 1940,
+    "def": 643,
+    "hp": 5282
+   },
+   {
+    "att": 1950,
+    "def": 647,
+    "hp": 5309
+   },
+   {
+    "att": 1960,
+    "def": 650,
+    "hp": 5337
+   },
+   {
+    "att": 1970,
+    "def": 653,
+    "hp": 5365
+   },
+   {
+    "att": 1981,
+    "def": 656,
+    "hp": 5392
+   },
+   {
+    "att": 1991,
+    "def": 660,
+    "hp": 5420
+   },
+   {
+    "att": 2001,
+    "def": 663,
+    "hp": 5447
+   },
+   {
+    "att": 2011,
+    "def": 666,
+    "hp": 5475
+   },
+   {
+    "att": 2021,
+    "def": 669,
+    "hp": 5503
+   },
+   {
+    "att": 2031,
+    "def": 673,
+    "hp": 5530
+   },
+   {
+    "att": 2042,
+    "def": 676,
+    "hp": 5558
+   },
+   {
+    "att": 2052,
+    "def": 679,
+    "hp": 5586
+   },
+   {
+    "att": 2062,
+    "def": 682,
+    "hp": 5613
+   },
+   {
+    "att": 2072,
+    "def": 686,
+    "hp": 5641
+   },
+   {
+    "att": 2082,
+    "def": 689,
+    "hp": 5669
+   },
+   {
+    "att": 2092,
+    "def": 692,
+    "hp": 5696
+   },
+   {
+    "att": 2102,
+    "def": 695,
+    "hp": 5724
+   },
+   {
+    "att": 2113,
+    "def": 698,
+    "hp": 5752
+   },
+   {
+    "att": 2123,
+    "def": 702,
+    "hp": 5779
+   },
+   {
+    "att": 2133,
+    "def": 705,
+    "hp": 5807
+   },
+   {
+    "att": 2355,
+    "def": 772,
+    "hp": 6335
+   },
+   {
+    "att": 2362,
+    "def": 774,
+    "hp": 6354
+   },
+   {
+    "att": 2368,
+    "def": 776,
+    "hp": 6372
+   },
+   {
+    "att": 2375,
+    "def": 779,
+    "hp": 6391
+   },
+   {
+    "att": 2382,
+    "def": 781,
+    "hp": 6409
+   },
+   {
+    "att": 2389,
+    "def": 783,
+    "hp": 6428
+   },
+   {
+    "att": 2395,
+    "def": 785,
+    "hp": 6446
+   },
+   {
+    "att": 2402,
+    "def": 787,
+    "hp": 6464
+   },
+   {
+    "att": 2409,
+    "def": 789,
+    "hp": 6483
+   },
+   {
+    "att": 2416,
+    "def": 792,
+    "hp": 6501
+   },
+   {
+    "att": 2423,
+    "def": 794,
+    "hp": 6520
+   },
+   {
+    "att": 2429,
+    "def": 796,
+    "hp": 6538
+   },
+   {
+    "att": 2436,
+    "def": 798,
+    "hp": 6557
+   },
+   {
+    "att": 2443,
+    "def": 800,
+    "hp": 6575
+   },
+   {
+    "att": 2450,
+    "def": 802,
+    "hp": 6593
+   },
+   {
+    "att": 2456,
+    "def": 805,
+    "hp": 6612
+   },
+   {
+    "att": 2463,
+    "def": 807,
+    "hp": 6630
+   },
+   {
+    "att": 2470,
+    "def": 809,
+    "hp": 6649
+   },
+   {
+    "att": 2477,
+    "def": 811,
+    "hp": 6667
+   },
+   {
+    "att": 2484,
+    "def": 813,
+    "hp": 6686
+   },
+   {
+    "att": 2490,
+    "def": 815,
+    "hp": 6704
+   },
+   {
+    "att": 2497,
+    "def": 818,
+    "hp": 6722
+   },
+   {
+    "att": 2504,
+    "def": 820,
+    "hp": 6741
+   },
+   {
+    "att": 2511,
+    "def": 822,
+    "hp": 6759
+   },
+   {
+    "att": 2517,
+    "def": 824,
+    "hp": 6778
+   },
+   {
+    "att": 2524,
+    "def": 826,
+    "hp": 6796
+   },
+   {
+    "att": 2531,
+    "def": 828,
+    "hp": 6815
+   },
+   {
+    "att": 2538,
+    "def": 830,
+    "hp": 6833
+   },
+   {
+    "att": 2545,
+    "def": 833,
+    "hp": 6852
+   },
+   {
+    "att": 2551,
+    "def": 835,
+    "hp": 6870
+   },
+   {
+    "att": 2558,
+    "def": 837,
+    "hp": 6888
+   },
+   {
+    "att": 2565,
+    "def": 839,
+    "hp": 6907
+   },
+   {
+    "att": 2572,
+    "def": 841,
+    "hp": 6925
+   },
+   {
+    "att": 2578,
+    "def": 843,
+    "hp": 6944
+   },
+   {
+    "att": 2585,
+    "def": 846,
+    "hp": 6962
+   },
+   {
+    "att": 2592,
+    "def": 848,
+    "hp": 6981
+   },
+   {
+    "att": 2599,
+    "def": 850,
+    "hp": 6999
+   },
+   {
+    "att": 2606,
+    "def": 852,
+    "hp": 7017
+   },
+   {
+    "att": 2612,
+    "def": 854,
+    "hp": 7036
+   },
+   {
+    "att": 2619,
+    "def": 856,
+    "hp": 7054
+   },
+   {
+    "att": 2626,
+    "def": 859,
+    "hp": 7073
+   },
+   {
+    "att": 2633,
+    "def": 861,
+    "hp": 7091
+   },
+   {
+    "att": 2639,
+    "def": 863,
+    "hp": 7110
+   },
+   {
+    "att": 2646,
+    "def": 865,
+    "hp": 7128
+   },
+   {
+    "att": 2653,
+    "def": 867,
+    "hp": 7146
+   },
+   {
+    "att": 2660,
+    "def": 869,
+    "hp": 7165
+   },
+   {
+    "att": 2667,
+    "def": 872,
+    "hp": 7183
+   },
+   {
+    "att": 2673,
+    "def": 874,
+    "hp": 7202
+   },
+   {
+    "att": 2680,
+    "def": 876,
+    "hp": 7220
+   },
+   {
+    "att": 2687,
+    "def": 878,
+    "hp": 7239
+   },
+   {
+    "att": 2694,
+    "def": 880,
+    "hp": 7257
+   },
+   {
+    "att": 2700,
+    "def": 882,
+    "hp": 7275
+   },
+   {
+    "att": 2707,
+    "def": 884,
+    "hp": 7294
+   },
+   {
+    "att": 2714,
+    "def": 887,
+    "hp": 7312
+   },
+   {
+    "att": 2721,
+    "def": 889,
+    "hp": 7331
+   },
+   {
+    "att": 2728,
+    "def": 891,
+    "hp": 7349
+   },
+   {
+    "att": 2734,
+    "def": 893,
+    "hp": 7368
+   },
+   {
+    "att": 2741,
+    "def": 895,
+    "hp": 7386
+   },
+   {
+    "att": 2748,
+    "def": 897,
+    "hp": 7405
+   },
+   {
+    "att": 2755,
+    "def": 900,
+    "hp": 7423
+   },
+   {
+    "att": 2761,
+    "def": 902,
+    "hp": 7441
+   },
+   {
+    "att": 2768,
+    "def": 904,
+    "hp": 7460
+   },
+   {
+    "att": 2775,
+    "def": 906,
+    "hp": 7478
+   },
+   {
+    "att": 2782,
+    "def": 908,
+    "hp": 7497
+   },
+   {
+    "att": 2789,
+    "def": 910,
+    "hp": 7515
+   },
+   {
+    "att": 2795,
+    "def": 913,
+    "hp": 7534
+   },
+   {
+    "att": 2802,
+    "def": 915,
+    "hp": 7552
+   },
+   {
+    "att": 2809,
+    "def": 917,
+    "hp": 7570
+   },
+   {
+    "att": 2816,
+    "def": 919,
+    "hp": 7589
+   },
+   {
+    "att": 2822,
+    "def": 921,
+    "hp": 7607
+   },
+   {
+    "att": 2829,
+    "def": 923,
+    "hp": 7626
+   },
+   {
+    "att": 2836,
+    "def": 926,
+    "hp": 7644
+   },
+   {
+    "att": 2843,
+    "def": 928,
+    "hp": 7663
+   },
+   {
+    "att": 2850,
+    "def": 930,
+    "hp": 7681
+   },
+   {
+    "att": 2856,
+    "def": 932,
+    "hp": 7699
+   },
+   {
+    "att": 2863,
+    "def": 934,
+    "hp": 7718
+   },
+   {
+    "att": 2870,
+    "def": 936,
+    "hp": 7736
+   },
+   {
+    "att": 2877,
+    "def": 939,
+    "hp": 7755
+   },
+   {
+    "att": 2883,
+    "def": 941,
+    "hp": 7773
+   },
+   {
+    "att": 2890,
+    "def": 943,
+    "hp": 7792
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Backpacker",
+    "effect": "When deployed to the Resource Station, increases the Carrier's production efficiency by 10%."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Umbraton Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "One day, a sudden knock came at the gate of the Colossus. When %s and I opened the gate, we found an Aurorian standing there. Shiny pistol in hand and glasses perched on the tip of her nose, a disdainful face greeted us. I'll give her this, Allura really knows how to make an entrance. I couldn't help but feel on edge. Unexpectedly, she calmly took out her pocket watch, glanced at it, then told us that she had been waiting 330.6 seconds from the moment she knocked at the gate to the moment we opened it. She then proceeded to tell us that she could have completed eleven bounties and picked up eleven rewards during that time... but that she'd forgive us if we sold this big antique to her for 11 Nightium. After asking what she was talking about, %s and I realized that the big antique was the Colossus. I quickly told her that the Colossus wasn't for sale. She actually tried bargaining for a while before realizing that %s would never sell the Colossus, but when she heard that Aurorians lived here, she immediately decided to move in, saying, \"Living in this antique is the next best thing compared to buying it.\"I later found out that she tries her best to complete as many requests as she can every day, as she is saving up money to open a shop... Turns out we might actually have a lot in common when it comes to financial matters!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Oh, %s, it's you. No, it's nothing, I just don't have any quests scheduled for today, so I thought I'd come check out the furnishings around here. Those flying things... They're called Fireflies, right? I never thought I'd find so many little rare antiques in a big antique like this Colossus. I have to say, as collectors go, you have pretty good taste. Huh? Knowing about antiques is impressive, you say? I've always loved looking at them, ever since I was a child. I'd often sneak out of the house to go to antique stores and exhibitions. I thought this was just a hobby I'd slowly developed by myself, but I later learned that my biological parents were antique collectors. They died before I could remember their faces... I don't even know what they looked like.But blood doesn't lie, does it? My gift and passion for antiques come from them, so I don't feel sad that they're gone. In fact, I'm trying to save up enough money to open an antique shop to make them proud of having a daughter like me."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Opening an antique shop seems like a really distant dream for me... Why? Well, that's simple\u2014I don't have enough money. But that's not to say I'm going to give up just because my dream is far away. I've been training myself to become a mercenary over the years, and I've gotten pretty good at it. No matter how difficult a quest is, as long as the pay is good, I'll take it on. Why did I choose to become a mercenary? I didn't have any other choice, %s... My adoptive mother was a mercenary. She made enough money from it to raise me. Well, that's one reason. The other reason... I'll never forget the day Eclipsites raided my hometown, Maida Mesa... They killed my mother. When I realized that I was all alone in the world, something snapped in my brain. I stood up and remembered everything my mother had taught me, accepting quests and giving them my all. But back then, I had zero skills. I was living from job to job, but somehow, I survived. Now, there's nothing I fear more than having no money... Don't get me wrong, money's not all I care about. It's just that, what money can do... it appeals to me more than anything else in this world."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "After wandering around my hometown for a few years, I overheard a traveling merchant talking about how Umbraton had been rebuilt, and that there were more business opportunities there than anywhere else on the continent. So, I quietly followed the merchant and came to Umbraton. Sure enough, the streets of Umbraton were really busy, but I couldn't find any of these opportunities the merchant had been talking about. Things got really bad... sometimes I had to secretly steal other people's food, just so I wouldn't starve.Things continued like that until one day, when I was desperate and trying to steal some food once again, I suddenly saw a black feather floating before my eyes, and a little girl with wings flew and landed in front of me. She said that she remembered me... and I remembered her, too\u2014it was Eho. After my adoptive mother died, I collapsed in my house. It was Eho who woke me up with her wings. Back then, she was just an assistant, following behind her tutor. But now she has become a qualified courier.She told me that she sometimes did part-time surveillance work, and that she was on her way to monitor the area for thieves. She patted me with her wings and hurried off to work. Perhaps if Eho hadn't snapped me out of that rut I was in, I would've ended up getting arrested for thieving... or perhaps even worse."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "At first, I was only offered simple requests, and that was all I could handle at the time. Eventually, I earned the trust of the Courier Union and began to help them escort valuable goods all over the continent. I was really pleased with that job. After all, not only was I getting paid, I was also getting to practice my skills against the Eclipsites I ran into during my delivery requests. At first, I just wanted to take them down, but soon, it just became too easy. I started to set targets for myself, like telling myself that I had to hit a certain part of an Eclipsite to complete the challenge... Over time, the name Allura became synonymous with the word \"sharpshooter,\" and the requests started piling up. One day, I received a request from the Istvan Gang. The request was for me to join them. I'd long heard that the Istvan Gang was synonymous with \"money,\" so naturally, there was no way I'd pass up a chance like that. I still take on some part-time work from the Courier Union when I have time. Maybe soon, I'll finally have my own antique shop...All right, bring it over. Huh? The money, of course. You think I'd waste time standing around, telling stories for free?"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "You'll always be well-informed in Umbraton. Some secret missions pay more.",
+  "The Illumina Federation feels like a place built on faith...",
+  "Hera never closes its eyes.",
+  "Just as I thought... Worthless.",
+  "I hear Sheol started from scratch, too. Maybe we should talk...",
+  "Eho's cute... If only she wasn't always trying to sell me something.",
+  "The silent magic of antique clocks, ticking on though nobody's listening...",
+  "Pink? You're lucky that I was taught to be polite... Don't let me see this color again.",
+  "Can we shrink it down? It won't fit into my shop like this.",
+  "Stop staring at me! I need to select, identify, appraise... I'm busy! But that doesn't mean I can't stare at a treasure like you!",
+  "Did you post this mission? Even if it's you, you'll still need to pay me, but I'll only make you pay 97.6% of the price. How's that for a discount?",
+  "Was it all worth it...?",
+  "How much did we make?",
+  "Now, let me see...",
+  "You break it, you buy it!",
+  "Ready to appraise.",
+  "Happy New Year! I hope that, one day, we can all realize our dreams.",
+  "Oh, you chose me.",
+  "One step closer.",
+  "Success depends on careful calculation.",
+  "I'm not far from achieving my goal.",
+  "It's been 5 hours, 25 minutes, and 45 seconds since I received my last mission. Ah... Free time. It always seems slightly unreal to me.",
+  "Thanks. I'll add it to my collection.",
+  "Alchemy Stars.",
+  "A good hunter should be precise in all things, from missions to hobbies alike.",
+  "My glasses help me see more clearly, and clearer cognition leads to better results.",
+  "Are you curious about me? Want to know more? The secret of my marksmanship? Pay up, and I'll tell you everything you want to know.",
+  "Any more news? I'm all ears. If it's about antiques, even better.",
+  "The most precious treasures are often those hidden in the heart.",
+  "Hairline cracks, damaged enamel, an incomplete base... None of those can hide the real value of the rarest treasures. No matter what, they will always be priceless wonders.",
+  "I know everything. I've seen everything you've done and everything you're capable of. That's why I choose to stand here, among noble and rare people like you.",
+  "I'd like to share some of today's bounty with you... Not enough? Sorry, that's all I can spare.",
+  "I'm thinking about opening an antique shop. I'll consider giving you a discount if you come.",
+  "Think of me, when you need a job done.",
+  "Sorry for staring... I'm a sniper\u2014I can't help it!",
+  "Can you put the candles away? I'm not really a fan of fire.",
+  "Eyes open! This is the best time to take on a mission.",
+  "I'd be greeting my customers right now... if I had a shop...",
+  "I hear Umbraton's shops offer discounts around this time.",
+  "Listening to the ticking of the pocket watch during the silent night always makes me sleep sweet and sound.",
+  "How may I help? If it's high-risk, high-reward, Allura's your girl.",
+  "Thanks. How much did this thing set you back?",
+  "Ah, such a familiar feeling... Thank you very much.",
+  "I'll take good care of it.",
+  "Thank you. I think this may be the best piece I've ever received.",
+  "A true connoisseur!",
+  "Worthless fakes!",
+  "Life is to be treasured.",
+  "Why so obsessed with antiques? My parents were collectors before they died, so it is both a gift and my birthright. There's no need to comfort me\u2014I'm no longer sad for them.",
+  "Of course, I was full of resentment for everything when I was little, but the truth is... people will eventually learn what love is as life goes on. What? Surprised to hear me say such a thing?",
+  "Carrying on their love, reviving their desires to live, and repaying those who have helped me are the things that matter most to me. Well, that and making money.",
+  "This better be worth my time."
+ ],
+ "skins": [],
+ "description": "A hired gunner from Umbraton with exemplary shooting skills. Meticulous and budget-conscious, she is an avid antique collector and wishes to open her antique shop after procuring enough funds.",
+ "realName": "Allura",
+ "nickname": "All-seeing Eyes",
+ "gender": "Female",
+ "height": "5'6\"",
+ "birthday": "February 27",
+ "birthplace": "Maida Mesa",
+ "style": "All-seeing Shot"
 }

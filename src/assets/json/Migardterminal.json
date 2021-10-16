@@ -1,0 +1,787 @@
+[
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Looking for me?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "No."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Want to have a chat with you"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "No."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "But Gronru just came to me and told me..."
+     },
+     {
+      "name": "Migard:",
+      "content": "Something like \"The Navigator wants to talk to you in person.\""
+     },
+     {
+      "name": "Migard:",
+      "content": "I'm at the bridge. It's boring here. Come over quick if you got something to talk about."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay, I'll be right there."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Want to have a chat with you"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Is that so? Gronru did say..."
+     },
+     {
+      "name": "Migard:",
+      "content": "Something like \"The Navigator wants to talk to you in person.\""
+     },
+     {
+      "name": "Migard:",
+      "content": "I'm at the bridge. It's boring here. Come over quick if you got something to talk about."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay, I'll be right there."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Are you all right, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So what happened? And why am I in the lounge?"
+   },
+   {
+    "name": "Migard:",
+    "content": "I fell off the bridge into miles below."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Really?!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I believe it."
+   },
+   {
+    "name": "Migard:",
+    "content": "Just kidding. You slipped on the stairs, hit your head, and passed out."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I believe it."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "I think so too, since the news was especially depressing."
+     },
+     {
+      "name": "Migard:",
+      "content": "I don't think I can find out more from Gabriel."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why?"
+     },
+     {
+      "name": "Migard:",
+      "content": "According to the Shadowlord..."
+     },
+     {
+      "name": "Migard:",
+      "content": "Gabriel lost her memory."
+     },
+     {
+      "name": "Migard:",
+      "content": "She completely forgot what happened ten years ago."
+     }
+    ],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "This is straight out of a fiction."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I think I heard about it before."
+     }
+    ]
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "This is straight out of a fiction."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Sorry, I got to get to work. Two more tasks still await."
+     },
+     {
+      "name": "Migard:",
+      "content": "Goodbye. I shall strive to unearth the truth behind my grandfather's death!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "May luck be with you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I think I heard about it before."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Sorry, I got to get to work. Two more tasks still await."
+     },
+     {
+      "name": "Migard:",
+      "content": "Goodbye. I shall strive to unearth the truth behind my grandfather's death!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "May luck be with you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Migard:",
+      "content": "Just kidding. You slipped on the stairs, hit your head, and passed out."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Take it easy for now. We'll talk about the \"research subject\" when you're ready."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Can I say no?"
+     },
+     {
+      "name": "Migard:",
+      "content": "Gotta go, Vice wants me to write a report."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Are you the Colossus Navigator, kid?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes. Uh, how do you do?"
+   },
+   {
+    "name": "Migard:",
+    "content": "Why are you so nervous?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Well, I wouldn't call it nervous..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not, am I?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Well, I wouldn't call it nervous..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Then why do you stand so far away from me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is this far?"
+     },
+     {
+      "name": "Migard:",
+      "content": "Let me see... It's almost two meters."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't feel comfortable getting too close with that blade in your hand."
+     },
+     {
+      "name": "Migard:",
+      "content": "Don't worry about that. It's true that I really am interested in you..."
+     },
+     {
+      "name": "Migard:",
+      "content": "But I'm not in hurry to dissect you, either."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You really want to dissect me?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I'm not, am I?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Then why do you stand so far away from me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Is this far?"
+     },
+     {
+      "name": "Migard:",
+      "content": "Let me see... It's almost two meters."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I don't feel comfortable getting too close with that blade in your hand."
+     },
+     {
+      "name": "Migard:",
+      "content": "Don't worry about that. It's true that I really am interested in you..."
+     },
+     {
+      "name": "Migard:",
+      "content": "But I'm not in hurry to dissect you, either."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You really want to dissect me?"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Time for a nap."
+   },
+   {
+    "name": "Migard:",
+    "content": "Do you want to take a nap as well, my dear?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I was just on my way, yeah."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not today, I just had a cup of coffee."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I was just on my way, yeah."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Oho? Very good!"
+     },
+     {
+      "name": "Migard:",
+      "content": "Why don't you stop by my room and come see me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Why should I do that...?"
+     },
+     {
+      "name": "Migard:",
+      "content": "You said you wanted to take a nap with me, didn't you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I never agreed to anything like that!"
+     },
+     {
+      "name": "Migard:",
+      "content": "Oh, my young friend! Please don't be so resistance."
+     },
+     {
+      "name": "Migard:",
+      "content": "Although, I wouldn't mind waiting for you to fall asleep..."
+     },
+     {
+      "name": "Migard:",
+      "content": "To do a little research on the only Caelestite we have."
+     },
+     {
+      "name": "Navigator:",
+      "content": "S-Sorry, I just remembered I have more work to do! Have a nice day!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Not today, I just had a cup of coffee."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Ah, but it's such a leisurely day today..."
+     },
+     {
+      "name": "Migard:",
+      "content": "You don't have to overdo this, you know?"
+     },
+     {
+      "name": "Migard:",
+      "content": "Why don't you stop by my room and come see me?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Why should I do that...?"
+     },
+     {
+      "name": "Migard:",
+      "content": "You said you wanted to take a nap with me, didn't you?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I never agreed to anything like that!"
+     },
+     {
+      "name": "Migard:",
+      "content": "Oh, my young friend! Please don't be so resistance."
+     },
+     {
+      "name": "Migard:",
+      "content": "Although, I wouldn't mind waiting for you to fall asleep..."
+     },
+     {
+      "name": "Migard:",
+      "content": "To do a little research on the only Caelestite we have."
+     },
+     {
+      "name": "Navigator:",
+      "content": "S-Sorry, I just remembered I have more work to do! Have a nice day!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Can I ask you something, my dear?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure?"
+   },
+   {
+    "name": "Migard:",
+    "content": "Are your Fireflies capable of feeding people?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Theoretically... yes?"
+   },
+   {
+    "name": "Migard:",
+    "content": "Mmm... That's good to know."
+   },
+   {
+    "name": "Migard:",
+    "content": "I can use them as a temporary replacement for Lilliam."
+   },
+   {
+    "name": "Migard:",
+    "content": "Now, be a dear and reprogram them to feed me my lunch, would you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Are you injured or something?"
+   },
+   {
+    "name": "Migard:",
+    "content": "My heart broken, if you must ask."
+   },
+   {
+    "name": "Navigator:",
+    "content": "If you're not physically injured, then just let the Fireflies go."
+   },
+   {
+    "name": "Migard:",
+    "content": "*Sigh* Forget it. I won't trouble you with this anymore."
+   },
+   {
+    "name": "Migard:",
+    "content": "I could always find a way to reprogram the Fireflies myself."
+   },
+   {
+    "name": "Navigator:",
+    "content": "If you knew how to do that, you would have finished your lunch a long time ago..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Good morning, my dear."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning? It's already noon..."
+   },
+   {
+    "name": "Migard:",
+    "content": "Oh? I must have forgotten to look at the clock when I woke up."
+   },
+   {
+    "name": "Migard:",
+    "content": "No wonder I'm still so sleepy."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But you just woke up, didn't you?"
+   },
+   {
+    "name": "Migard:",
+    "content": "My biological clock doesn't lie, Navigator."
+   },
+   {
+    "name": "Migard:",
+    "content": "Which means... It's time for my afternoon nap!"
+   },
+   {
+    "name": "Migard:",
+    "content": "Have a nice afternoon, my dear."
+   },
+   {
+    "name": "Migard:",
+    "content": "Oh, and don't forget to have someone bring me my lunch!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Bye."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "It's time to go to bed."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I was just about to go to sleep."
+   },
+   {
+    "name": "Navigator:",
+    "content": "As soon as I finish reading this book."
+   },
+   {
+    "name": "Migard:",
+    "content": "Put the book down, Navigator. One should not continue hardworking this late, you know?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why does it seem like you never want to see me working hard?"
+   },
+   {
+    "name": "Migard:",
+    "content": "It seems like such a waste of time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, I can't just lie around and sleep in every day like someone I know..."
+   },
+   {
+    "name": "Migard:",
+    "content": "I can afford to sleep in because of my efficiency, thank you very much."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Efficiency...? I don't think I've ever seen you do any kind of work..."
+   },
+   {
+    "name": "Migard:",
+    "content": "I see... Well, why don't I go see you in your room..."
+   },
+   {
+    "name": "Migard:",
+    "content": "And show you my latest dissection methods?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "N-No thanks, I'll take your word for it! Good night!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Are you asleep, my dear?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "N-Not yet..."
+   },
+   {
+    "name": "Migard:",
+    "content": "Perfect! I wanted to ask you..."
+   },
+   {
+    "name": "Migard:",
+    "content": "Do you know the sex of this Colossus?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh?"
+   },
+   {
+    "name": "Migard:",
+    "content": "Well, considering that the Colossi are a fusion of biology and technology..."
+   },
+   {
+    "name": "Migard:",
+    "content": "It stands to reason that Soroz should have biologically assigned sex."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't really know if the Colossi have different sexes..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But I've always seen Soroz as a kind and dependable..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Big brother."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Big sister."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Big brother."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "An older male, eh? How disappointing."
+     },
+     {
+      "name": "Navigator:",
+      "content": "What's so disappointing about it...?"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Big sister."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Migard:",
+      "content": "Oho? How intriguing..."
+     },
+     {
+      "name": "Migard:",
+      "content": "I can't help but feel an uncontrollable desire to research this even further..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "There is way too weird."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Migard:",
+    "content": "Let me ask you something, my dear..."
+   },
+   {
+    "name": "Migard:",
+    "content": "When will we build a laboratory aboard the Colossus?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why does the Colossus need a laboratory...?"
+   },
+   {
+    "name": "Migard:",
+    "content": "How can I be expected to work without one?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...What kind of work are we talking about here?"
+   },
+   {
+    "name": "Migard:",
+    "content": "Eclipsite dissections, Caelestite dissections... I'm not picky, you know?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "...And I'm not in a hurry to build that laboratory, you know?"
+   },
+   {
+    "name": "Migard:",
+    "content": "So you don't want to let me work?"
+   },
+   {
+    "name": "Migard:",
+    "content": "*Sigh* I was just starting to feel guilty about all my freeloading..."
+   },
+   {
+    "name": "Migard:",
+    "content": "Ah well, time for bed! Good night!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ugh... Maybe I should think about it, after all..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

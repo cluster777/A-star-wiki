@@ -1,1153 +1,1258 @@
 {
-      "name": "Bonacie",
-      "faction": "True Order",
-      "element_main": "Thunder",
-      "element_sub": "Water",
-      "rarity": "5",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "4 Turn",
-            "description": [
-                  "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
-                  "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
-                  "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board. If the number of enemies hit is 2 or less, this skill will be cast 1 more time this round."
-            ]
-      },
-      "equip": {
-            "name": "Celestial Band",
-            "passive": "Harmonic Rhythm",
-            "description": [
-                  [
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP."
-                  ],
-                  [
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
-                  ],
-                  [
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
-                        "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Deals 130% damage to 1 row."
-                        },
-                        {
-                              "cost": "9",
-                              "description": "Deals 130% damage to 3 rows."
-                        },
-                        {
-                              "cost": "13",
-                              "description": "Deals 145% damage to 3 rows."
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 250.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "Increased by 250+5%Basic max HP.",
-            "Increased by 30+5%Basic DEF.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Flare Silt",
-                        "Thunder Essence",
-                        "Ancient Scroll",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP."
-            },
-            {
-                  "material": [
-                        "Thunder Potion II",
-                        "Thunder Crystal Shard",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP.",
-                  "after": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
-            },
-            {
-                  "material": [
-                        "Thunder Crystal Cluster",
-                        "Thunder Flare Rock",
-                        "Ancient Book",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
-                  "after": "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board. If the number of enemies hit is 2 or less, this skill will be cast 1 more time this round."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 495,
-                        "def": 195,
-                        "hp": 1657
-                  },
-                  {
-                        "att": 505,
-                        "def": 198,
-                        "hp": 1683
-                  },
-                  {
-                        "att": 514,
-                        "def": 201,
-                        "hp": 1709
-                  },
-                  {
-                        "att": 524,
-                        "def": 204,
-                        "hp": 1735
-                  },
-                  {
-                        "att": 533,
-                        "def": 207,
-                        "hp": 1761
-                  },
-                  {
-                        "att": 543,
-                        "def": 210,
-                        "hp": 1787
-                  },
-                  {
-                        "att": 552,
-                        "def": 213,
-                        "hp": 1814
-                  },
-                  {
-                        "att": 562,
-                        "def": 216,
-                        "hp": 1840
-                  },
-                  {
-                        "att": 571,
-                        "def": 218,
-                        "hp": 1866
-                  },
-                  {
-                        "att": 581,
-                        "def": 221,
-                        "hp": 1892
-                  },
-                  {
-                        "att": 590,
-                        "def": 224,
-                        "hp": 1918
-                  },
-                  {
-                        "att": 600,
-                        "def": 227,
-                        "hp": 1944
-                  },
-                  {
-                        "att": 609,
-                        "def": 230,
-                        "hp": 1970
-                  },
-                  {
-                        "att": 618,
-                        "def": 233,
-                        "hp": 1996
-                  },
-                  {
-                        "att": 628,
-                        "def": 236,
-                        "hp": 2022
-                  },
-                  {
-                        "att": 637,
-                        "def": 239,
-                        "hp": 2048
-                  },
-                  {
-                        "att": 647,
-                        "def": 242,
-                        "hp": 2074
-                  },
-                  {
-                        "att": 656,
-                        "def": 245,
-                        "hp": 2100
-                  },
-                  {
-                        "att": 666,
-                        "def": 248,
-                        "hp": 2126
-                  },
-                  {
-                        "att": 675,
-                        "def": 250,
-                        "hp": 2153
-                  },
-                  {
-                        "att": 685,
-                        "def": 253,
-                        "hp": 2179
-                  },
-                  {
-                        "att": 694,
-                        "def": 256,
-                        "hp": 2205
-                  },
-                  {
-                        "att": 704,
-                        "def": 259,
-                        "hp": 2231
-                  },
-                  {
-                        "att": 713,
-                        "def": 262,
-                        "hp": 2257
-                  },
-                  {
-                        "att": 723,
-                        "def": 265,
-                        "hp": 2283
-                  },
-                  {
-                        "att": 732,
-                        "def": 268,
-                        "hp": 2309
-                  },
-                  {
-                        "att": 742,
-                        "def": 271,
-                        "hp": 2335
-                  },
-                  {
-                        "att": 751,
-                        "def": 274,
-                        "hp": 2361
-                  },
-                  {
-                        "att": 761,
-                        "def": 277,
-                        "hp": 2387
-                  },
-                  {
-                        "att": 770,
-                        "def": 280,
-                        "hp": 2413
-                  },
-                  {
-                        "att": 872,
-                        "def": 313,
-                        "hp": 2696
-                  },
-                  {
-                        "att": 884,
-                        "def": 317,
-                        "hp": 2729
-                  },
-                  {
-                        "att": 896,
-                        "def": 320,
-                        "hp": 2761
-                  },
-                  {
-                        "att": 907,
-                        "def": 324,
-                        "hp": 2794
-                  },
-                  {
-                        "att": 919,
-                        "def": 328,
-                        "hp": 2826
-                  },
-                  {
-                        "att": 931,
-                        "def": 331,
-                        "hp": 2859
-                  },
-                  {
-                        "att": 943,
-                        "def": 335,
-                        "hp": 2892
-                  },
-                  {
-                        "att": 955,
-                        "def": 339,
-                        "hp": 2924
-                  },
-                  {
-                        "att": 967,
-                        "def": 342,
-                        "hp": 2957
-                  },
-                  {
-                        "att": 978,
-                        "def": 346,
-                        "hp": 2989
-                  },
-                  {
-                        "att": 990,
-                        "def": 350,
-                        "hp": 3022
-                  },
-                  {
-                        "att": 1002,
-                        "def": 353,
-                        "hp": 3055
-                  },
-                  {
-                        "att": 1014,
-                        "def": 357,
-                        "hp": 3087
-                  },
-                  {
-                        "att": 1026,
-                        "def": 360,
-                        "hp": 3120
-                  },
-                  {
-                        "att": 1038,
-                        "def": 364,
-                        "hp": 3152
-                  },
-                  {
-                        "att": 1049,
-                        "def": 368,
-                        "hp": 3185
-                  },
-                  {
-                        "att": 1061,
-                        "def": 371,
-                        "hp": 3218
-                  },
-                  {
-                        "att": 1073,
-                        "def": 375,
-                        "hp": 3250
-                  },
-                  {
-                        "att": 1085,
-                        "def": 379,
-                        "hp": 3283
-                  },
-                  {
-                        "att": 1097,
-                        "def": 382,
-                        "hp": 3315
-                  },
-                  {
-                        "att": 1109,
-                        "def": 386,
-                        "hp": 3348
-                  },
-                  {
-                        "att": 1120,
-                        "def": 390,
-                        "hp": 3380
-                  },
-                  {
-                        "att": 1132,
-                        "def": 393,
-                        "hp": 3413
-                  },
-                  {
-                        "att": 1144,
-                        "def": 397,
-                        "hp": 3446
-                  },
-                  {
-                        "att": 1156,
-                        "def": 400,
-                        "hp": 3478
-                  },
-                  {
-                        "att": 1168,
-                        "def": 404,
-                        "hp": 3511
-                  },
-                  {
-                        "att": 1180,
-                        "def": 408,
-                        "hp": 3543
-                  },
-                  {
-                        "att": 1192,
-                        "def": 411,
-                        "hp": 3576
-                  },
-                  {
-                        "att": 1203,
-                        "def": 415,
-                        "hp": 3609
-                  },
-                  {
-                        "att": 1215,
-                        "def": 419,
-                        "hp": 3641
-                  },
-                  {
-                        "att": 1227,
-                        "def": 422,
-                        "hp": 3674
-                  },
-                  {
-                        "att": 1239,
-                        "def": 426,
-                        "hp": 3706
-                  },
-                  {
-                        "att": 1251,
-                        "def": 430,
-                        "hp": 3739
-                  },
-                  {
-                        "att": 1263,
-                        "def": 433,
-                        "hp": 3772
-                  },
-                  {
-                        "att": 1274,
-                        "def": 437,
-                        "hp": 3804
-                  },
-                  {
-                        "att": 1286,
-                        "def": 440,
-                        "hp": 3837
-                  },
-                  {
-                        "att": 1298,
-                        "def": 444,
-                        "hp": 3869
-                  },
-                  {
-                        "att": 1310,
-                        "def": 448,
-                        "hp": 3902
-                  },
-                  {
-                        "att": 1322,
-                        "def": 451,
-                        "hp": 3935
-                  },
-                  {
-                        "att": 1334,
-                        "def": 455,
-                        "hp": 3967
-                  },
-                  {
-                        "att": 1492,
-                        "def": 508,
-                        "hp": 4392
-                  },
-                  {
-                        "att": 1501,
-                        "def": 510,
-                        "hp": 4416
-                  },
-                  {
-                        "att": 1510,
-                        "def": 513,
-                        "hp": 4441
-                  },
-                  {
-                        "att": 1519,
-                        "def": 516,
-                        "hp": 4465
-                  },
-                  {
-                        "att": 1528,
-                        "def": 519,
-                        "hp": 4489
-                  },
-                  {
-                        "att": 1537,
-                        "def": 521,
-                        "hp": 4514
-                  },
-                  {
-                        "att": 1546,
-                        "def": 524,
-                        "hp": 4538
-                  },
-                  {
-                        "att": 1555,
-                        "def": 527,
-                        "hp": 4563
-                  },
-                  {
-                        "att": 1563,
-                        "def": 530,
-                        "hp": 4587
-                  },
-                  {
-                        "att": 1572,
-                        "def": 532,
-                        "hp": 4612
-                  },
-                  {
-                        "att": 1581,
-                        "def": 535,
-                        "hp": 4636
-                  },
-                  {
-                        "att": 1590,
-                        "def": 538,
-                        "hp": 4661
-                  },
-                  {
-                        "att": 1599,
-                        "def": 540,
-                        "hp": 4685
-                  },
-                  {
-                        "att": 1608,
-                        "def": 543,
-                        "hp": 4710
-                  },
-                  {
-                        "att": 1617,
-                        "def": 546,
-                        "hp": 4734
-                  },
-                  {
-                        "att": 1626,
-                        "def": 549,
-                        "hp": 4758
-                  },
-                  {
-                        "att": 1635,
-                        "def": 551,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1643,
-                        "def": 554,
-                        "hp": 4807
-                  },
-                  {
-                        "att": 1652,
-                        "def": 557,
-                        "hp": 4832
-                  },
-                  {
-                        "att": 1661,
-                        "def": 560,
-                        "hp": 4856
-                  },
-                  {
-                        "att": 1670,
-                        "def": 562,
-                        "hp": 4881
-                  },
-                  {
-                        "att": 1679,
-                        "def": 565,
-                        "hp": 4905
-                  },
-                  {
-                        "att": 1688,
-                        "def": 568,
-                        "hp": 4930
-                  },
-                  {
-                        "att": 1697,
-                        "def": 571,
-                        "hp": 4954
-                  },
-                  {
-                        "att": 1706,
-                        "def": 573,
-                        "hp": 4978
-                  },
-                  {
-                        "att": 1714,
-                        "def": 576,
-                        "hp": 5003
-                  },
-                  {
-                        "att": 1723,
-                        "def": 579,
-                        "hp": 5027
-                  },
-                  {
-                        "att": 1732,
-                        "def": 581,
-                        "hp": 5052
-                  },
-                  {
-                        "att": 1741,
-                        "def": 584,
-                        "hp": 5076
-                  },
-                  {
-                        "att": 1750,
-                        "def": 587,
-                        "hp": 5101
-                  },
-                  {
-                        "att": 1759,
-                        "def": 590,
-                        "hp": 5125
-                  },
-                  {
-                        "att": 1768,
-                        "def": 592,
-                        "hp": 5150
-                  },
-                  {
-                        "att": 1777,
-                        "def": 595,
-                        "hp": 5174
-                  },
-                  {
-                        "att": 1785,
-                        "def": 598,
-                        "hp": 5198
-                  },
-                  {
-                        "att": 1794,
-                        "def": 601,
-                        "hp": 5223
-                  },
-                  {
-                        "att": 1803,
-                        "def": 603,
-                        "hp": 5247
-                  },
-                  {
-                        "att": 1812,
-                        "def": 606,
-                        "hp": 5272
-                  },
-                  {
-                        "att": 1821,
-                        "def": 609,
-                        "hp": 5296
-                  },
-                  {
-                        "att": 1830,
-                        "def": 611,
-                        "hp": 5321
-                  },
-                  {
-                        "att": 1839,
-                        "def": 614,
-                        "hp": 5345
-                  },
-                  {
-                        "att": 1848,
-                        "def": 617,
-                        "hp": 5370
-                  },
-                  {
-                        "att": 1857,
-                        "def": 620,
-                        "hp": 5394
-                  },
-                  {
-                        "att": 1865,
-                        "def": 622,
-                        "hp": 5419
-                  },
-                  {
-                        "att": 1874,
-                        "def": 625,
-                        "hp": 5443
-                  },
-                  {
-                        "att": 1883,
-                        "def": 628,
-                        "hp": 5467
-                  },
-                  {
-                        "att": 1892,
-                        "def": 631,
-                        "hp": 5492
-                  },
-                  {
-                        "att": 1901,
-                        "def": 633,
-                        "hp": 5516
-                  },
-                  {
-                        "att": 1910,
-                        "def": 636,
-                        "hp": 5541
-                  },
-                  {
-                        "att": 1919,
-                        "def": 639,
-                        "hp": 5565
-                  },
-                  {
-                        "att": 1928,
-                        "def": 641,
-                        "hp": 5590
-                  },
-                  {
-                        "att": 2158,
-                        "def": 713,
-                        "hp": 6206
-                  },
-                  {
-                        "att": 2164,
-                        "def": 715,
-                        "hp": 6222
-                  },
-                  {
-                        "att": 2170,
-                        "def": 717,
-                        "hp": 6239
-                  },
-                  {
-                        "att": 2176,
-                        "def": 719,
-                        "hp": 6255
-                  },
-                  {
-                        "att": 2182,
-                        "def": 721,
-                        "hp": 6271
-                  },
-                  {
-                        "att": 2188,
-                        "def": 722,
-                        "hp": 6287
-                  },
-                  {
-                        "att": 2194,
-                        "def": 724,
-                        "hp": 6304
-                  },
-                  {
-                        "att": 2200,
-                        "def": 726,
-                        "hp": 6320
-                  },
-                  {
-                        "att": 2206,
-                        "def": 728,
-                        "hp": 6336
-                  },
-                  {
-                        "att": 2212,
-                        "def": 730,
-                        "hp": 6353
-                  },
-                  {
-                        "att": 2218,
-                        "def": 731,
-                        "hp": 6369
-                  },
-                  {
-                        "att": 2224,
-                        "def": 733,
-                        "hp": 6385
-                  },
-                  {
-                        "att": 2230,
-                        "def": 735,
-                        "hp": 6402
-                  },
-                  {
-                        "att": 2235,
-                        "def": 737,
-                        "hp": 6418
-                  },
-                  {
-                        "att": 2241,
-                        "def": 739,
-                        "hp": 6434
-                  },
-                  {
-                        "att": 2247,
-                        "def": 741,
-                        "hp": 6450
-                  },
-                  {
-                        "att": 2253,
-                        "def": 742,
-                        "hp": 6467
-                  },
-                  {
-                        "att": 2259,
-                        "def": 744,
-                        "hp": 6483
-                  },
-                  {
-                        "att": 2265,
-                        "def": 746,
-                        "hp": 6499
-                  },
-                  {
-                        "att": 2271,
-                        "def": 748,
-                        "hp": 6516
-                  },
-                  {
-                        "att": 2277,
-                        "def": 750,
-                        "hp": 6532
-                  },
-                  {
-                        "att": 2283,
-                        "def": 751,
-                        "hp": 6548
-                  },
-                  {
-                        "att": 2289,
-                        "def": 753,
-                        "hp": 6565
-                  },
-                  {
-                        "att": 2295,
-                        "def": 755,
-                        "hp": 6581
-                  },
-                  {
-                        "att": 2301,
-                        "def": 757,
-                        "hp": 6597
-                  },
-                  {
-                        "att": 2306,
-                        "def": 759,
-                        "hp": 6613
-                  },
-                  {
-                        "att": 2312,
-                        "def": 761,
-                        "hp": 6630
-                  },
-                  {
-                        "att": 2318,
-                        "def": 762,
-                        "hp": 6646
-                  },
-                  {
-                        "att": 2324,
-                        "def": 764,
-                        "hp": 6662
-                  },
-                  {
-                        "att": 2330,
-                        "def": 766,
-                        "hp": 6679
-                  },
-                  {
-                        "att": 2336,
-                        "def": 768,
-                        "hp": 6695
-                  },
-                  {
-                        "att": 2342,
-                        "def": 770,
-                        "hp": 6711
-                  },
-                  {
-                        "att": 2348,
-                        "def": 771,
-                        "hp": 6727
-                  },
-                  {
-                        "att": 2354,
-                        "def": 773,
-                        "hp": 6744
-                  },
-                  {
-                        "att": 2360,
-                        "def": 775,
-                        "hp": 6760
-                  },
-                  {
-                        "att": 2366,
-                        "def": 777,
-                        "hp": 6776
-                  },
-                  {
-                        "att": 2372,
-                        "def": 779,
-                        "hp": 6793
-                  },
-                  {
-                        "att": 2377,
-                        "def": 781,
-                        "hp": 6809
-                  },
-                  {
-                        "att": 2383,
-                        "def": 782,
-                        "hp": 6825
-                  },
-                  {
-                        "att": 2389,
-                        "def": 784,
-                        "hp": 6842
-                  },
-                  {
-                        "att": 2395,
-                        "def": 786,
-                        "hp": 6858
-                  },
-                  {
-                        "att": 2401,
-                        "def": 788,
-                        "hp": 6874
-                  },
-                  {
-                        "att": 2407,
-                        "def": 790,
-                        "hp": 6890
-                  },
-                  {
-                        "att": 2413,
-                        "def": 791,
-                        "hp": 6907
-                  },
-                  {
-                        "att": 2419,
-                        "def": 793,
-                        "hp": 6923
-                  },
-                  {
-                        "att": 2425,
-                        "def": 795,
-                        "hp": 6939
-                  },
-                  {
-                        "att": 2431,
-                        "def": 797,
-                        "hp": 6956
-                  },
-                  {
-                        "att": 2437,
-                        "def": 799,
-                        "hp": 6972
-                  },
-                  {
-                        "att": 2443,
-                        "def": 801,
-                        "hp": 6988
-                  },
-                  {
-                        "att": 2449,
-                        "def": 802,
-                        "hp": 7005
-                  },
-                  {
-                        "att": 2454,
-                        "def": 804,
-                        "hp": 7021
-                  },
-                  {
-                        "att": 2460,
-                        "def": 806,
-                        "hp": 7037
-                  },
-                  {
-                        "att": 2466,
-                        "def": 808,
-                        "hp": 7053
-                  },
-                  {
-                        "att": 2472,
-                        "def": 810,
-                        "hp": 7070
-                  },
-                  {
-                        "att": 2478,
-                        "def": 811,
-                        "hp": 7086
-                  },
-                  {
-                        "att": 2484,
-                        "def": 813,
-                        "hp": 7102
-                  },
-                  {
-                        "att": 2490,
-                        "def": 815,
-                        "hp": 7119
-                  },
-                  {
-                        "att": 2496,
-                        "def": 817,
-                        "hp": 7135
-                  },
-                  {
-                        "att": 2502,
-                        "def": 819,
-                        "hp": 7151
-                  },
-                  {
-                        "att": 2508,
-                        "def": 821,
-                        "hp": 7168
-                  },
-                  {
-                        "att": 2514,
-                        "def": 822,
-                        "hp": 7184
-                  },
-                  {
-                        "att": 2520,
-                        "def": 824,
-                        "hp": 7200
-                  },
-                  {
-                        "att": 2525,
-                        "def": 826,
-                        "hp": 7216
-                  },
-                  {
-                        "att": 2531,
-                        "def": 828,
-                        "hp": 7233
-                  },
-                  {
-                        "att": 2537,
-                        "def": 830,
-                        "hp": 7249
-                  },
-                  {
-                        "att": 2543,
-                        "def": 831,
-                        "hp": 7265
-                  },
-                  {
-                        "att": 2549,
-                        "def": 833,
-                        "hp": 7282
-                  },
-                  {
-                        "att": 2555,
-                        "def": 835,
-                        "hp": 7298
-                  },
-                  {
-                        "att": 2561,
-                        "def": 837,
-                        "hp": 7314
-                  },
-                  {
-                        "att": 2567,
-                        "def": 839,
-                        "hp": 7331
-                  },
-                  {
-                        "att": 2573,
-                        "def": 841,
-                        "hp": 7347
-                  },
-                  {
-                        "att": 2579,
-                        "def": 842,
-                        "hp": 7363
-                  },
-                  {
-                        "att": 2585,
-                        "def": 844,
-                        "hp": 7379
-                  },
-                  {
-                        "att": 2591,
-                        "def": 846,
-                        "hp": 7396
-                  },
-                  {
-                        "att": 2597,
-                        "def": 848,
-                        "hp": 7412
-                  },
-                  {
-                        "att": 2602,
-                        "def": 850,
-                        "hp": 7428
-                  },
-                  {
-                        "att": 2608,
-                        "def": 851,
-                        "hp": 7445
-                  },
-                  {
-                        "att": 2614,
-                        "def": 853,
-                        "hp": 7461
-                  },
-                  {
-                        "att": 2620,
-                        "def": 855,
-                        "hp": 7477
-                  },
-                  {
-                        "att": 2626,
-                        "def": 857,
-                        "hp": 7494
-                  }
-            ]
-      }
+ "name": "Bonacie",
+ "faction": "True Order",
+ "element_main": "Thunder",
+ "element_sub": "Water",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Divine Resonance",
+  "cd": "4 Turn",
+  "description": [
+   "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
+   "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
+   "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board. If the number of enemies hit is 2 or less, this skill will be cast 1 more time this round."
+  ]
+ },
+ "equip": {
+  "name": "Celestial Band",
+  "passive": "Harmonic Rhythm",
+  "description": [
+   [
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP."
+   ],
+   [
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
+   ],
+   [
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 60%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 80%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 100%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%.",
+    "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
+   ]
+  ],
+  "introduction": "When the True Order discovered Bonacie's abilities, Victoria custom-ordered this silk ribbon baton so that Bonacie could control her \"Divine Intervention\" power and call forth her ensemble of Holy Avatars to summon meteorites."
+ },
+ "chain": {
+  "name": "Harmony",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Deals 130% damage to 1 row."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 130% damage to 3 rows."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 145% damage to 3 rows."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Flare Silt",
+    "Thunder Essence",
+    "Ancient Scroll",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP."
+  },
+  {
+   "material": [
+    "Thunder Potion II",
+    "Thunder Crystal Shard",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP.",
+   "after": "Gains a Divine Mark at the start of battle or upon using an Active Skill. While this mark exists, Bonacie's DEF increases by 120%. This mark disappears once Bonacie loses HP. When this mark exists, the Chain Combo damage dealt by Thunder Aurorians increases by 10%."
+  },
+  {
+   "material": [
+    "Thunder Crystal Cluster",
+    "Thunder Flare Rock",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board.",
+   "after": "Selects 1 of 4 directions around the unit and displaces all non-boss enemies who occupy a single tile in the selected direction, while dealing 250% damage to all enemies on the board. If the number of enemies hit is 2 or less, this skill will be cast 1 more time this round."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 495,
+    "def": 195,
+    "hp": 1657
+   },
+   {
+    "att": 505,
+    "def": 198,
+    "hp": 1683
+   },
+   {
+    "att": 514,
+    "def": 201,
+    "hp": 1709
+   },
+   {
+    "att": 524,
+    "def": 204,
+    "hp": 1735
+   },
+   {
+    "att": 533,
+    "def": 207,
+    "hp": 1761
+   },
+   {
+    "att": 543,
+    "def": 210,
+    "hp": 1787
+   },
+   {
+    "att": 552,
+    "def": 213,
+    "hp": 1814
+   },
+   {
+    "att": 562,
+    "def": 216,
+    "hp": 1840
+   },
+   {
+    "att": 571,
+    "def": 218,
+    "hp": 1866
+   },
+   {
+    "att": 581,
+    "def": 221,
+    "hp": 1892
+   },
+   {
+    "att": 590,
+    "def": 224,
+    "hp": 1918
+   },
+   {
+    "att": 600,
+    "def": 227,
+    "hp": 1944
+   },
+   {
+    "att": 609,
+    "def": 230,
+    "hp": 1970
+   },
+   {
+    "att": 618,
+    "def": 233,
+    "hp": 1996
+   },
+   {
+    "att": 628,
+    "def": 236,
+    "hp": 2022
+   },
+   {
+    "att": 637,
+    "def": 239,
+    "hp": 2048
+   },
+   {
+    "att": 647,
+    "def": 242,
+    "hp": 2074
+   },
+   {
+    "att": 656,
+    "def": 245,
+    "hp": 2100
+   },
+   {
+    "att": 666,
+    "def": 248,
+    "hp": 2126
+   },
+   {
+    "att": 675,
+    "def": 250,
+    "hp": 2153
+   },
+   {
+    "att": 685,
+    "def": 253,
+    "hp": 2179
+   },
+   {
+    "att": 694,
+    "def": 256,
+    "hp": 2205
+   },
+   {
+    "att": 704,
+    "def": 259,
+    "hp": 2231
+   },
+   {
+    "att": 713,
+    "def": 262,
+    "hp": 2257
+   },
+   {
+    "att": 723,
+    "def": 265,
+    "hp": 2283
+   },
+   {
+    "att": 732,
+    "def": 268,
+    "hp": 2309
+   },
+   {
+    "att": 742,
+    "def": 271,
+    "hp": 2335
+   },
+   {
+    "att": 751,
+    "def": 274,
+    "hp": 2361
+   },
+   {
+    "att": 761,
+    "def": 277,
+    "hp": 2387
+   },
+   {
+    "att": 770,
+    "def": 280,
+    "hp": 2413
+   },
+   {
+    "att": 872,
+    "def": 313,
+    "hp": 2696
+   },
+   {
+    "att": 884,
+    "def": 317,
+    "hp": 2729
+   },
+   {
+    "att": 896,
+    "def": 320,
+    "hp": 2761
+   },
+   {
+    "att": 907,
+    "def": 324,
+    "hp": 2794
+   },
+   {
+    "att": 919,
+    "def": 328,
+    "hp": 2826
+   },
+   {
+    "att": 931,
+    "def": 331,
+    "hp": 2859
+   },
+   {
+    "att": 943,
+    "def": 335,
+    "hp": 2892
+   },
+   {
+    "att": 955,
+    "def": 339,
+    "hp": 2924
+   },
+   {
+    "att": 967,
+    "def": 342,
+    "hp": 2957
+   },
+   {
+    "att": 978,
+    "def": 346,
+    "hp": 2989
+   },
+   {
+    "att": 990,
+    "def": 350,
+    "hp": 3022
+   },
+   {
+    "att": 1002,
+    "def": 353,
+    "hp": 3055
+   },
+   {
+    "att": 1014,
+    "def": 357,
+    "hp": 3087
+   },
+   {
+    "att": 1026,
+    "def": 360,
+    "hp": 3120
+   },
+   {
+    "att": 1038,
+    "def": 364,
+    "hp": 3152
+   },
+   {
+    "att": 1049,
+    "def": 368,
+    "hp": 3185
+   },
+   {
+    "att": 1061,
+    "def": 371,
+    "hp": 3218
+   },
+   {
+    "att": 1073,
+    "def": 375,
+    "hp": 3250
+   },
+   {
+    "att": 1085,
+    "def": 379,
+    "hp": 3283
+   },
+   {
+    "att": 1097,
+    "def": 382,
+    "hp": 3315
+   },
+   {
+    "att": 1109,
+    "def": 386,
+    "hp": 3348
+   },
+   {
+    "att": 1120,
+    "def": 390,
+    "hp": 3380
+   },
+   {
+    "att": 1132,
+    "def": 393,
+    "hp": 3413
+   },
+   {
+    "att": 1144,
+    "def": 397,
+    "hp": 3446
+   },
+   {
+    "att": 1156,
+    "def": 400,
+    "hp": 3478
+   },
+   {
+    "att": 1168,
+    "def": 404,
+    "hp": 3511
+   },
+   {
+    "att": 1180,
+    "def": 408,
+    "hp": 3543
+   },
+   {
+    "att": 1192,
+    "def": 411,
+    "hp": 3576
+   },
+   {
+    "att": 1203,
+    "def": 415,
+    "hp": 3609
+   },
+   {
+    "att": 1215,
+    "def": 419,
+    "hp": 3641
+   },
+   {
+    "att": 1227,
+    "def": 422,
+    "hp": 3674
+   },
+   {
+    "att": 1239,
+    "def": 426,
+    "hp": 3706
+   },
+   {
+    "att": 1251,
+    "def": 430,
+    "hp": 3739
+   },
+   {
+    "att": 1263,
+    "def": 433,
+    "hp": 3772
+   },
+   {
+    "att": 1274,
+    "def": 437,
+    "hp": 3804
+   },
+   {
+    "att": 1286,
+    "def": 440,
+    "hp": 3837
+   },
+   {
+    "att": 1298,
+    "def": 444,
+    "hp": 3869
+   },
+   {
+    "att": 1310,
+    "def": 448,
+    "hp": 3902
+   },
+   {
+    "att": 1322,
+    "def": 451,
+    "hp": 3935
+   },
+   {
+    "att": 1334,
+    "def": 455,
+    "hp": 3967
+   },
+   {
+    "att": 1492,
+    "def": 508,
+    "hp": 4392
+   },
+   {
+    "att": 1501,
+    "def": 510,
+    "hp": 4416
+   },
+   {
+    "att": 1510,
+    "def": 513,
+    "hp": 4441
+   },
+   {
+    "att": 1519,
+    "def": 516,
+    "hp": 4465
+   },
+   {
+    "att": 1528,
+    "def": 519,
+    "hp": 4489
+   },
+   {
+    "att": 1537,
+    "def": 521,
+    "hp": 4514
+   },
+   {
+    "att": 1546,
+    "def": 524,
+    "hp": 4538
+   },
+   {
+    "att": 1555,
+    "def": 527,
+    "hp": 4563
+   },
+   {
+    "att": 1563,
+    "def": 530,
+    "hp": 4587
+   },
+   {
+    "att": 1572,
+    "def": 532,
+    "hp": 4612
+   },
+   {
+    "att": 1581,
+    "def": 535,
+    "hp": 4636
+   },
+   {
+    "att": 1590,
+    "def": 538,
+    "hp": 4661
+   },
+   {
+    "att": 1599,
+    "def": 540,
+    "hp": 4685
+   },
+   {
+    "att": 1608,
+    "def": 543,
+    "hp": 4710
+   },
+   {
+    "att": 1617,
+    "def": 546,
+    "hp": 4734
+   },
+   {
+    "att": 1626,
+    "def": 549,
+    "hp": 4758
+   },
+   {
+    "att": 1635,
+    "def": 551,
+    "hp": 4783
+   },
+   {
+    "att": 1643,
+    "def": 554,
+    "hp": 4807
+   },
+   {
+    "att": 1652,
+    "def": 557,
+    "hp": 4832
+   },
+   {
+    "att": 1661,
+    "def": 560,
+    "hp": 4856
+   },
+   {
+    "att": 1670,
+    "def": 562,
+    "hp": 4881
+   },
+   {
+    "att": 1679,
+    "def": 565,
+    "hp": 4905
+   },
+   {
+    "att": 1688,
+    "def": 568,
+    "hp": 4930
+   },
+   {
+    "att": 1697,
+    "def": 571,
+    "hp": 4954
+   },
+   {
+    "att": 1706,
+    "def": 573,
+    "hp": 4978
+   },
+   {
+    "att": 1714,
+    "def": 576,
+    "hp": 5003
+   },
+   {
+    "att": 1723,
+    "def": 579,
+    "hp": 5027
+   },
+   {
+    "att": 1732,
+    "def": 581,
+    "hp": 5052
+   },
+   {
+    "att": 1741,
+    "def": 584,
+    "hp": 5076
+   },
+   {
+    "att": 1750,
+    "def": 587,
+    "hp": 5101
+   },
+   {
+    "att": 1759,
+    "def": 590,
+    "hp": 5125
+   },
+   {
+    "att": 1768,
+    "def": 592,
+    "hp": 5150
+   },
+   {
+    "att": 1777,
+    "def": 595,
+    "hp": 5174
+   },
+   {
+    "att": 1785,
+    "def": 598,
+    "hp": 5198
+   },
+   {
+    "att": 1794,
+    "def": 601,
+    "hp": 5223
+   },
+   {
+    "att": 1803,
+    "def": 603,
+    "hp": 5247
+   },
+   {
+    "att": 1812,
+    "def": 606,
+    "hp": 5272
+   },
+   {
+    "att": 1821,
+    "def": 609,
+    "hp": 5296
+   },
+   {
+    "att": 1830,
+    "def": 611,
+    "hp": 5321
+   },
+   {
+    "att": 1839,
+    "def": 614,
+    "hp": 5345
+   },
+   {
+    "att": 1848,
+    "def": 617,
+    "hp": 5370
+   },
+   {
+    "att": 1857,
+    "def": 620,
+    "hp": 5394
+   },
+   {
+    "att": 1865,
+    "def": 622,
+    "hp": 5419
+   },
+   {
+    "att": 1874,
+    "def": 625,
+    "hp": 5443
+   },
+   {
+    "att": 1883,
+    "def": 628,
+    "hp": 5467
+   },
+   {
+    "att": 1892,
+    "def": 631,
+    "hp": 5492
+   },
+   {
+    "att": 1901,
+    "def": 633,
+    "hp": 5516
+   },
+   {
+    "att": 1910,
+    "def": 636,
+    "hp": 5541
+   },
+   {
+    "att": 1919,
+    "def": 639,
+    "hp": 5565
+   },
+   {
+    "att": 1928,
+    "def": 641,
+    "hp": 5590
+   },
+   {
+    "att": 2158,
+    "def": 713,
+    "hp": 6206
+   },
+   {
+    "att": 2164,
+    "def": 715,
+    "hp": 6222
+   },
+   {
+    "att": 2170,
+    "def": 717,
+    "hp": 6239
+   },
+   {
+    "att": 2176,
+    "def": 719,
+    "hp": 6255
+   },
+   {
+    "att": 2182,
+    "def": 721,
+    "hp": 6271
+   },
+   {
+    "att": 2188,
+    "def": 722,
+    "hp": 6287
+   },
+   {
+    "att": 2194,
+    "def": 724,
+    "hp": 6304
+   },
+   {
+    "att": 2200,
+    "def": 726,
+    "hp": 6320
+   },
+   {
+    "att": 2206,
+    "def": 728,
+    "hp": 6336
+   },
+   {
+    "att": 2212,
+    "def": 730,
+    "hp": 6353
+   },
+   {
+    "att": 2218,
+    "def": 731,
+    "hp": 6369
+   },
+   {
+    "att": 2224,
+    "def": 733,
+    "hp": 6385
+   },
+   {
+    "att": 2230,
+    "def": 735,
+    "hp": 6402
+   },
+   {
+    "att": 2235,
+    "def": 737,
+    "hp": 6418
+   },
+   {
+    "att": 2241,
+    "def": 739,
+    "hp": 6434
+   },
+   {
+    "att": 2247,
+    "def": 741,
+    "hp": 6450
+   },
+   {
+    "att": 2253,
+    "def": 742,
+    "hp": 6467
+   },
+   {
+    "att": 2259,
+    "def": 744,
+    "hp": 6483
+   },
+   {
+    "att": 2265,
+    "def": 746,
+    "hp": 6499
+   },
+   {
+    "att": 2271,
+    "def": 748,
+    "hp": 6516
+   },
+   {
+    "att": 2277,
+    "def": 750,
+    "hp": 6532
+   },
+   {
+    "att": 2283,
+    "def": 751,
+    "hp": 6548
+   },
+   {
+    "att": 2289,
+    "def": 753,
+    "hp": 6565
+   },
+   {
+    "att": 2295,
+    "def": 755,
+    "hp": 6581
+   },
+   {
+    "att": 2301,
+    "def": 757,
+    "hp": 6597
+   },
+   {
+    "att": 2306,
+    "def": 759,
+    "hp": 6613
+   },
+   {
+    "att": 2312,
+    "def": 761,
+    "hp": 6630
+   },
+   {
+    "att": 2318,
+    "def": 762,
+    "hp": 6646
+   },
+   {
+    "att": 2324,
+    "def": 764,
+    "hp": 6662
+   },
+   {
+    "att": 2330,
+    "def": 766,
+    "hp": 6679
+   },
+   {
+    "att": 2336,
+    "def": 768,
+    "hp": 6695
+   },
+   {
+    "att": 2342,
+    "def": 770,
+    "hp": 6711
+   },
+   {
+    "att": 2348,
+    "def": 771,
+    "hp": 6727
+   },
+   {
+    "att": 2354,
+    "def": 773,
+    "hp": 6744
+   },
+   {
+    "att": 2360,
+    "def": 775,
+    "hp": 6760
+   },
+   {
+    "att": 2366,
+    "def": 777,
+    "hp": 6776
+   },
+   {
+    "att": 2372,
+    "def": 779,
+    "hp": 6793
+   },
+   {
+    "att": 2377,
+    "def": 781,
+    "hp": 6809
+   },
+   {
+    "att": 2383,
+    "def": 782,
+    "hp": 6825
+   },
+   {
+    "att": 2389,
+    "def": 784,
+    "hp": 6842
+   },
+   {
+    "att": 2395,
+    "def": 786,
+    "hp": 6858
+   },
+   {
+    "att": 2401,
+    "def": 788,
+    "hp": 6874
+   },
+   {
+    "att": 2407,
+    "def": 790,
+    "hp": 6890
+   },
+   {
+    "att": 2413,
+    "def": 791,
+    "hp": 6907
+   },
+   {
+    "att": 2419,
+    "def": 793,
+    "hp": 6923
+   },
+   {
+    "att": 2425,
+    "def": 795,
+    "hp": 6939
+   },
+   {
+    "att": 2431,
+    "def": 797,
+    "hp": 6956
+   },
+   {
+    "att": 2437,
+    "def": 799,
+    "hp": 6972
+   },
+   {
+    "att": 2443,
+    "def": 801,
+    "hp": 6988
+   },
+   {
+    "att": 2449,
+    "def": 802,
+    "hp": 7005
+   },
+   {
+    "att": 2454,
+    "def": 804,
+    "hp": 7021
+   },
+   {
+    "att": 2460,
+    "def": 806,
+    "hp": 7037
+   },
+   {
+    "att": 2466,
+    "def": 808,
+    "hp": 7053
+   },
+   {
+    "att": 2472,
+    "def": 810,
+    "hp": 7070
+   },
+   {
+    "att": 2478,
+    "def": 811,
+    "hp": 7086
+   },
+   {
+    "att": 2484,
+    "def": 813,
+    "hp": 7102
+   },
+   {
+    "att": 2490,
+    "def": 815,
+    "hp": 7119
+   },
+   {
+    "att": 2496,
+    "def": 817,
+    "hp": 7135
+   },
+   {
+    "att": 2502,
+    "def": 819,
+    "hp": 7151
+   },
+   {
+    "att": 2508,
+    "def": 821,
+    "hp": 7168
+   },
+   {
+    "att": 2514,
+    "def": 822,
+    "hp": 7184
+   },
+   {
+    "att": 2520,
+    "def": 824,
+    "hp": 7200
+   },
+   {
+    "att": 2525,
+    "def": 826,
+    "hp": 7216
+   },
+   {
+    "att": 2531,
+    "def": 828,
+    "hp": 7233
+   },
+   {
+    "att": 2537,
+    "def": 830,
+    "hp": 7249
+   },
+   {
+    "att": 2543,
+    "def": 831,
+    "hp": 7265
+   },
+   {
+    "att": 2549,
+    "def": 833,
+    "hp": 7282
+   },
+   {
+    "att": 2555,
+    "def": 835,
+    "hp": 7298
+   },
+   {
+    "att": 2561,
+    "def": 837,
+    "hp": 7314
+   },
+   {
+    "att": 2567,
+    "def": 839,
+    "hp": 7331
+   },
+   {
+    "att": 2573,
+    "def": 841,
+    "hp": 7347
+   },
+   {
+    "att": 2579,
+    "def": 842,
+    "hp": 7363
+   },
+   {
+    "att": 2585,
+    "def": 844,
+    "hp": 7379
+   },
+   {
+    "att": 2591,
+    "def": 846,
+    "hp": 7396
+   },
+   {
+    "att": 2597,
+    "def": 848,
+    "hp": 7412
+   },
+   {
+    "att": 2602,
+    "def": 850,
+    "hp": 7428
+   },
+   {
+    "att": 2608,
+    "def": 851,
+    "hp": 7445
+   },
+   {
+    "att": 2614,
+    "def": 853,
+    "hp": 7461
+   },
+   {
+    "att": 2620,
+    "def": 855,
+    "hp": 7477
+   },
+   {
+    "att": 2626,
+    "def": 857,
+    "hp": 7494
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   },
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "True Order Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "The story of Ms. Bonacie, much like her own personality, is full of drama and mystery.We were awakened by a sudden loud burst of music, only to see her standing there, waving her arms as she drew something in the air. Upon closer inspection, we could see vague figures behind her\u2014I later learned that these are what she calls her \"Holy Avatars,\" playing the music she conducted with her hands. She claimed that she was playing the \"Divine Music\" and asked to hold a concert aboard the Colossus.She is clearly a conductor, not a nun, but her every second word seems to be about the divine... Later, I learned that she is a member of the True Order, which makes sense, as they all seem to be like that.Although that religious stuff is all a bit mysterious (or rather utterly bizarre), Ms. Bonacie is actually a very nice person. Her Luminatics are very powerful and her wonderful music soothes the soul. As I could see no problem with having her around, I decided to let her come join us. Besides, this Colossus needs its own resident music composer!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Everyone says you have such amazing talent. Were you born with those psychic abilities? Is it true that all Caelestites have them, or is it just you? In any case, it seems that your situation is similar to mine.Strange sounds have filled my head since I was a child, undulating rhythmically, just like music. At first, my family thought I was ill, so they took me to see a doctor, more than once. However, they always came to the conclusion that everything was normal.This went on for a while, and the auditory illusions became more and more real. One day, several phantasmal figures appeared around me. Later, I learned that these were Holy Avatars. They allowed me to truly connect with music and guided me in my search for the Ultimate Movement. That's why I joined the True Order, because according to the clues Victoria has managed to gather, the \"Truth\" they are looking for is related to the \"Ultimate Movement,\" too."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "I was born in Gascogne, a town built on the crafting of musical instruments, which are mainly sold to Lumopolis. Coming from a family of scholars, I have been immersed in the world of music since childhood and was also taken to see the performances of various renowned orchestras. Becoming a conductor was almost a matter of course. See my glasses? I took to the stage when I was 7 years old and put these on so I'd look more like a conductor. I've been wearing them ever since.When I was a child, I was forced to practice music daily, for hours on end, and so I really hated music\u2014that was until I realized that the hallucinations I had been hearing and seeing were in fact a form of divine intervention, which would allow me to find a movement that contains all the music in the world and also represents the voice of the divine.Moreover, since it is a representation of the divine, this movement should also be able to answer the question that has always been in my heart: Why did this divine voice choose me?"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Everyone in Gascogne loves music, and my parents are no exception. When they saw my extraordinary musical talent shine through from such a young age, they forced me to endure painstaking training. Why was I forced into such training? Because that was the kind of training employed in Lumopolis, yet the voices in my mind told me: This is not right.Because Lumopolis knows nothing about music.Unfortunately, nobody in Jascony understood this, and they also taught me in the Lumopolis tradition. As a result, when Lumopolis came here to select up-and-coming talents, naturally, the mediocre candidates who were most in line with their tired standards were favored. Pfft...This inevitably aggravated me, in my young and immature state. I locked myself in my room and dedicated myself to music, vowing to compose a movement that would shock the world, but nothing came. It was all because my inspiration was stifled by the teaching methods of Lumopolis, which directly oppose the essence of music.I continued in this way for two years, until... that voice appeared, and I finally found my own way."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "As I told you before, I shut myself off from the world for two years, trying to write the perfect movement. But... I didn't write a single phrase.I finally realized the extent of my failure and realized the depth of my obsession with Lumopolis. I had intended on writing a musical score... In fact, all I did was write \"Lumopolis knows nothing about music\" repeatedly in one blank book after another until these books were all full and stacked in a heap.And then, one day, upon awakening, I heard that babble, that illusory voice that I had been hearing since I was a child\u2014but this time, what it said struck true. A score suddenly filled my heart, and my hand started moving, conducting as if it had a mind of its own. The spectral figure I had seen as a child appeared and watched my raised hand, then began to play the most wonderful music.With a deafening burst of sound, my house collapsed. My parents and neighbors said that it was hit by a meteorite, but what puzzled them most was that I crawled out of the rubble without a single scratch on me... Only I knew that this meteorite was summoned by my divine music, and was the embodiment of true inspiration's majesty.Thus, I embarked on my path to find the source of this divine music, and I believe that it can be found in the Ultimate Movement."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "The True Order is much better than Lumopolis. At least it admits that music comes in many different forms, no?",
+  "Lumopolis possesses elegance and tradition, but it knows nothing about music...",
+  "May the Truth bless you all, and may music bless you, too.",
+  "Poor things... If they don't know how to appreciate music, there's truly no hope for them...",
+  "Victoria knows a great deal about many things, no? That's why I decided to follow her in search of the ultimate movement.",
+  "If Sikare could free herself from the constraints of such rigid rules, her future would be limitless.",
+  "There must be a piece of music on the mainland that can represent the true sound of the divine. I know I will find it someday...",
+  "Rules and regulations can only produce mediocrity, such as the so-called musicians of Lumopolis, no?",
+  "I hear that a piano is controlling this... It appears that music is all-powerful, no?",
+  "Would you like to see how I conduct?",
+  "Well, this seems like a good time for my Holy Avatars to take the stage, no? It's too quiet here... I'll make them play a song to liven up the atmosphere.",
+  "Let my Holy Avatars cover our retreat...",
+  "Another perfect performance!",
+  "Feel the resonance of the infinite!",
+  "Let the divine move you!",
+  "Movement... complete.",
+  "Happy New Year! Are you ready for a festive performance?",
+  "The voice of the divine will guide us.",
+  "Listen! It's the voice of the divine!",
+  "Comet, heed my words!",
+  "Behold! I am the Divine Conductor!",
+  "Hmm... You don't like this song? Would you like to hear \"Home\", \"Return\", or perhaps \"Voyage\" instead?",
+  "This movement is getting divine.",
+  "Alchemy Stars.",
+  "There are plenty of musicians in Lumopolis, and they're good at playing all kinds of music, but that doesn't mean they understand music, no?",
+  "The voice from above is most divine, is it not? But only I am the one who can play it. I must share with the world.",
+  "The piano on the bridge is not half bad... Were you playing the piano on the Colossus for those seventeen years? I heard that you played a duet with Vice. It seems you have a good sense of music, no?",
+  "The servants I call the \"Holy Avatars\" were bestowed upon me. I can command them to play for you all night long...",
+  "I've heard that the psychic abilities of the Caelestites are very powerful. So you can feel the fluctuations of my music, no?",
+  "I heard the voice of the divine again\u2014it is more beautiful than any other music in the world. It shall guide me to find the ultimate movement, no?",
+  "My eyesight is just fine. I wear these glasses to make me feel more like a conductor!",
+  "Your psychic abilities are strong... Maybe you'd make a good conductor, too.",
+  "See the ribbon on my hand? It's a nice little bow, no? Would you like me to teach you how to tie a beautiful bow like this? I'm really good at it.",
+  "The rooms here are exceptional. They're spacious and full of light. The main thing is that the acoustics is excellent. They're perfect for practicing my compositions, no?",
+  "The ribbon on my hand? It's supposed to be attached to my baton; I just wrap it around my hand, like this.",
+  "Performance depends on talent, and a conductor not only needs to be proficient in music theory but must also have the ability to coordinate their musicians. This is why conductors are so rare.",
+  "Another carefree day... Let my Holy Avatars play a song for you!",
+  "Did you get up early to enjoy the morning sunshine, or perhaps to listen to nature's soothing song?",
+  "You must be tired after working so hard all day. You need a rest... Why don't you go to the bridge and play the piano? Relax, Navigator!",
+  "Inspiration comes to me late at night, so I usually embark on my compositions in the evening.",
+  "I will guide you! Let us revel in the music of the divine together!",
+  "Ah, thank you.",
+  "You got me another gift!",
+  "Wow, I really like this!",
+  "Let me compose a piece of music for you!",
+  "Divine Conductor!",
+  "Divine power, play on!",
+  "Holy Avatars! Prepare to perform!",
+  "An ultimate movement exists in this world. It represents the voice of the heavens, and I will not rest until I have found it.",
+  "On that day, the voice of the divine reverberated through my body, and a meteorite fell from the sky. For a moment, the ultimate movement flickered in my heart, and I began my journey to find it.",
+  "Lumopolis has never known what music is. This is the reason I was not selected to join them. So, I stayed in my hometown until I found my own path.",
+  "Everyone, follow my lead."
+ ],
+ "skins": [],
+ "description": "A musician and member of the True Order, she is very confident in her musical knowledge and despises the musical practices of Lumopolis.",
+ "realName": "Bonacie",
+ "nickname": "Divine Conductor",
+ "gender": "Female",
+ "height": "5'6\"",
+ "birthday": "June 7",
+ "birthplace": "Gascogne",
+ "style": "Divine Intervention"
 }

@@ -1,0 +1,1190 @@
+{
+ "title": "A Cryptic Story",
+ "header": "Sikare tells you a strange tale, but judging from both its contents and Sikare's attitude towards it, there seems to be more to the story than meets the eye...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? You called me?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm still getting used to being referred to as a simpleton..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's not a problem. You have a slightly larger brain than those paramecia, so I'm sure you'll get used to it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Could it be that maybe, possibly, perhaps you are praising me?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Of course. You're totally different from the others."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's why I wanted to talk with you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Alright, I'm okay with just talking."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you just said to tell a story... and I can't seem to think of a story of my own to tell."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Really? What a shame."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Let me tell you a story."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? A story about you? I'm all ears."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Well, it's a story about truth."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Wait... If it's just about truth, don't bother...",
+     "link": "1"
+    },
+    {
+     "text": "I am the truth!",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "Oh? So, you're not interested at all?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not that smart... If you're trying to teach me about truth, you may have your work cut out for you..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Alright, alright. I understand what you're trying to say."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Let's change the subject. What do you think of tombs and their treasures?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Treasure? That's more like it!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right, glittering and priceless..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Treasures hidden in ancient tombs may even be relics of ancient civilizations..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's not just you, my little simpleton. Many people are interested in such treasures."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I met such a person, who would sneak into these tombs to steal the treasures within them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? A tomb raider?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right. Sneaking around with a sack of goodies, trying to creep into tombs and make a clean sweep."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "When I ran into him, he was so scared he almost fainted."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For a thief, running into you is essentially like running into the police..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I didn't have time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just wanted him to tell me his tales for ten days and ten nights."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You had time to listen to his tales?",
+     "link": "4"
+    },
+    {
+     "text": "The two of you spent ten days and ten nights together in a tomb?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "You?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I see... I know Lady Victoria thinks you're something special, but you aren't exactly what I would call my ideal truth."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Maybe you're not looking carefully enough."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Forget it... Let's change the subject. What do you think of tombs and their treasures?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That sounds interesting!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right, glittering and priceless..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Treasures hidden in ancient tombs may even be relics of ancient civilizations..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's not just you, my little simpleton. Many people are interested in such treasures."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I met such a person, who would sneak into these tombs to steal the treasures within them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? A tomb raider?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right. Sneaking around with a sack of goodies, trying to creep into tombs and make a clean sweep."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "When I ran into him, he was so scared he almost fainted."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For a thief, running into you is essentially like running into the police..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I didn't have time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just wanted him to tell me his tales for ten days and ten nights."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You had time to listen to his tales?",
+     "link": "4"
+    },
+    {
+     "text": "The two of you spent ten days and ten nights together in a tomb?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right, glittering and priceless..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Treasures hidden in ancient tombs may even be relics of ancient civilizations..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's not just you, my little simpleton. Many people are interested in such treasures."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I met such a person, who would sneak into these tombs to steal the treasures within them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? A tomb raider?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That's right. Sneaking around with a sack of goodies, trying to creep into tombs and make a clean sweep."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "When I ran into him, he was so scared he almost fainted."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "For a thief, running into you is essentially like running into the police..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Arrest him?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I didn't have time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just wanted him to tell me his tales for ten days and ten nights."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You had time to listen to his tales?",
+     "link": "4"
+    },
+    {
+     "text": "The two of you spent ten days and ten nights together in a tomb?",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "It's not like I had anything else to do in that tomb."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I wanted to know more, about the outside world, the ever-changing sky, the trees that shed their leaves, and..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "The people who walk this land."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I wanted him to tell me about these things."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I suddenly feel Sikare Dantes' loneliness...)"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "What's wrong, my little simpleton? What's with that expression all of a sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, it's nothing... So, out of the stories you heard over those ten days and nights, which was your favorite?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Oh, there were so many!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "One of the stories was about a time he lost his way in Northland."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said he encountered a blizzard there."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "To get out of the snow, he walked on and on against the biting wind, and finally entered a forest."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He could not see the sky for the trees, and he could not identify one direction from the other, and so he marked the ground to avoid wandering aimlessly."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But after walking for a long time... He suddenly saw a mark he had made earlier on the path in front of him."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa! He started going in circles!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No... According to him, he didn't turn a single corner, and headed straight all the while."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "What's more, when he finally noticed, he discovered that there were more than just marks on the road in front of him... He found his marks to the left, right, and behind him, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's... so creepy!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Very much so. When I heard this, I was even too scared to let go of the skeleton in that tomb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Urgh... Try hugging something else next time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But then, he suddenly saw the tree in front of him shaking, and a small figure emerged."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He thought it was an Eclipsite... But he soon discovered that it was a child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "A lovely child with a red face, and big eyes that stared straight at him."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "The child asked him if he was lost."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said yes, and a look of sympathy spread across the child's face."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This kid is so... suspicious!",
+     "link": "7"
+    },
+    {
+     "text": "Was that kid... an illusion?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "Yes. It wasn't long enough."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "If he hadn't run out of things to say, I would've stayed for even longer."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Unfortunately, he finished all the stories he knew, and that was the end of that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You really love listening to people tell stories, don't you Sikare Dantes?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I suddenly feel Sikare Dantes' loneliness...)"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "What's wrong, my little simpleton? What's with that expression all of a sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, it's nothing... So, out of the stories you heard over those ten days and nights, which was your favorite?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Oh, there were so many!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "One of the stories was about a time he lost his way in Northland."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said he encountered a blizzard there."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "To get out of the snow, he walked on and on against the biting wind, and finally entered a forest."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He could not see the sky for the trees, and he could not identify one direction from the other, and so he marked the ground to avoid wandering aimlessly."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But after walking for a long time... He suddenly saw a mark he had made earlier on the path in front of him."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa! He started going in circles!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No... According to him, he didn't turn a single corner, and headed straight all the while."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "What's more, when he finally noticed, he discovered that there were more than just marks on the road in front of him... He found his marks to the left, right, and behind him, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's... so creepy!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Very much so. When I heard this, I was even too scared to let go of the skeleton in that tomb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Urgh... Try hugging something else next time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But then, he suddenly saw the tree in front of him shaking, and a small figure emerged."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He thought it was an Eclipsite... But he soon discovered that it was a child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "A lovely child with a red face, and big eyes that stared straight at him."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "The child asked him if he was lost."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said yes, and a look of sympathy spread across the child's face."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This kid is so... suspicious!",
+     "link": "7"
+    },
+    {
+     "text": "Was that kid... an illusion?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "What's wrong, my little simpleton? What's with that expression all of a sudden?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh, it's nothing... So, out of the stories you heard over those ten days and nights, which was your favorite?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Oh, there were so many!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "One of the stories was about a time he lost his way in Northland."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said he encountered a blizzard there."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "To get out of the snow, he walked on and on against the biting wind, and finally entered a forest."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He could not see the sky for the trees, and he could not identify one direction from the other, and so he marked the ground to avoid wandering aimlessly."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But after walking for a long time... He suddenly saw a mark he had made earlier on the path in front of him."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa! He started going in circles!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No... According to him, he didn't turn a single corner, and headed straight all the while."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "What's more, when he finally noticed, he discovered that there were more than just marks on the road in front of him... He found his marks to the left, right, and behind him, too."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's... so creepy!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Very much so. When I heard this, I was even too scared to let go of the skeleton in that tomb."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Urgh... Try hugging something else next time..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But then, he suddenly saw the tree in front of him shaking, and a small figure emerged."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He thought it was an Eclipsite... But he soon discovered that it was a child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "A lovely child with a red face, and big eyes that stared straight at him."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "The child asked him if he was lost."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He said yes, and a look of sympathy spread across the child's face."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "This kid is so... suspicious!",
+     "link": "7"
+    },
+    {
+     "text": "Was that kid... an illusion?",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "That's what I thought!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But he said that when the child heard he was lost, the child walked up to him and took his hand."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Then the child said to him, \"Come with me.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's shocking, I know!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But he didn't have any other options, so he followed the child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "After walking for about half an hour, the snow-white plains appeared before them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They made it out of the forest!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Yep!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He was very grateful and wanted to thank the child, but when he turned around, the child was nowhere to be seen."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "There was just the forest behind, the snow ahead, and only him, alone in that vast, frozen land."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What a strange story!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And it really wasn't an illusion?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Whether it was or not... I wasn't sure."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just knew that I really liked this story."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "In return, I gave him something he needed."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That means..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Treasure!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Right. Enough to keep him comfortable for the rest of his life."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No, not just to keep him comfortable. He may have now used this treasure to reach heights far greater than most people could ever dream of."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That much, huh!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I had known I could get such a huge reward by telling you a story, I would have told you one ages ago!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Regretting your foolishness, my little simpleton?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But you probably wouldn't want the treasure I gave him, my little simpleton."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? What kind of strange treasure did you give him?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, you mean, the treasure in the tomb was cursed, so..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Please, don't use that kind of simple reasoning, like common paramecia would."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him a treasure beyond money, beyond time, beyond the confines of civilization itself..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him the secrets of truth."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So, you preached to him?",
+     "link": "10"
+    },
+    {
+     "text": "So, you killed him?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "That's also what I thought."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But he said that when the child heard he was lost, the child walked up to him and took his hand."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Then the child said to him, \"Come with me.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's shocking, I know!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But he didn't have any other options, so he followed the child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "After walking for about half an hour, the snow-white plains appeared before them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They made it out of the forest!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Yep!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He was very grateful and wanted to thank the child, but when he turned around, the child was nowhere to be seen."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "There was just the forest behind, the snow ahead, and only him, alone in that vast, frozen land."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What a strange story!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And it really wasn't an illusion?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Whether it was or not... I wasn't sure."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just knew that I really liked this story."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "In return, I gave him something he needed."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That means..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Treasure!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Right. Enough to keep him comfortable for the rest of his life."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No, not just to keep him comfortable. He may have now used this treasure to reach heights far greater than most people could ever dream of."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That much, huh!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I had known I could get such a huge reward by telling you a story, I would have told you one ages ago!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Regretting your foolishness, my little simpleton?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But you probably wouldn't want the treasure I gave him, my little simpleton."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? What kind of strange treasure did you give him?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, you mean, the treasure in the tomb was cursed, so..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Please, don't use that kind of simple reasoning, like common paramecia would."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him a treasure beyond money, beyond time, beyond the confines of civilization itself..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him the secrets of truth."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So, you preached to him?",
+     "link": "10"
+    },
+    {
+     "text": "So, you killed him?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "But he said that when the child heard he was lost, the child walked up to him and took his hand."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Then the child said to him, \"Come with me.\""
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "It's shocking, I know!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But he didn't have any other options, so he followed the child."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "After walking for about half an hour, the snow-white plains appeared before them."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "They made it out of the forest!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Yep!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He was very grateful and wanted to thank the child, but when he turned around, the child was nowhere to be seen."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "There was just the forest behind, the snow ahead, and only him, alone in that vast, frozen land."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What a strange story!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And it really wasn't an illusion?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Whether it was or not... I wasn't sure."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I just knew that I really liked this story."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "In return, I gave him something he needed."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "That means..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Treasure!?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Right. Enough to keep him comfortable for the rest of his life."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "No, not just to keep him comfortable. He may have now used this treasure to reach heights far greater than most people could ever dream of."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That much, huh!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "If I had known I could get such a huge reward by telling you a story, I would have told you one ages ago!"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Regretting your foolishness, my little simpleton?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "But you probably wouldn't want the treasure I gave him, my little simpleton."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? What kind of strange treasure did you give him?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait, you mean, the treasure in the tomb was cursed, so..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Please, don't use that kind of simple reasoning, like common paramecia would."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him a treasure beyond money, beyond time, beyond the confines of civilization itself..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him the secrets of truth."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So, you preached to him?",
+     "link": "10"
+    },
+    {
+     "text": "So, you killed him?",
+     "link": "11"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "The truth should be gifted to the person who deserves it. And he is deserving."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him the sacred book of the True Order. Because he taught me about the world for ten days and ten nights, I taught him the truth for ten days and ten nights."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Listening to you talking about truth for ten days and ten nights... Is that guy still alive?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "As I just said, he must be living well."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Not only that, after accepting the truth after ten days and ten nights, he reached an epiphany."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "From then on, he became the disseminator of truth, delivering the gospel of truth to people all over Astra."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Besides, he is a very good storyteller..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure. After all, he told you stories for ten days and ten nights..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "This is why his interpretation of the truth has been praised by so many people."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He has received great support, and has been asked to spread the truth throughout the world. Of course, he has also been provided with food and accommodation in return."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "So now, he never has to worry about being comfortable again."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "As a disseminator of truth, he is far beyond the level of mere mortals and paramecia."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I suppose you did give him a very precious treasure..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Food, drink, and a place to sleep... There are many people who can only dream of such luxuries."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "My little simpleton, do you still insist on thinking like paramecia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I told you I'm not so smart..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Well, you can think about this point for the time being."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... What's with that sly smile of yours?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Sikare:",
+     "dialogue": "Death may have been a way for him to appreciate and become the truth, but he didn't need it then."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "I gave him the sacred book of the True Order. Because he taught me about the world for ten days and ten nights, I taught him the truth for ten days and ten nights."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Listening to you talking about truth for ten days and ten nights... Is that guy still alive?"
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "As I just said, he must be living well."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Not only that, after accepting the truth after ten days and ten nights, he reached an epiphany."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "From then on, he became the disseminator of truth, delivering the gospel of truth to people all over Astra."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Besides, he is a very good storyteller..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sure. After all, he told you stories for ten days and ten nights..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "This is why his interpretation of the truth has been praised by so many people."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "He has received great support, and has been asked to spread the truth throughout the world. Of course, he has also been provided with food and accommodation in return."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "So now, he never has to worry about being comfortable again."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "As a disseminator of truth, he is far beyond the level of mere mortals and paramecia."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well, I suppose you did give him a very precious treasure..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Food, drink, and a place to sleep... There are many people who can only dream of such luxuries."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "My little simpleton, do you still insist on thinking like paramecia?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Sorry, I told you I'm not so smart..."
+    },
+    {
+     "char": "Sikare:",
+     "dialogue": "Well, you can think about this point for the time being."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wait... What's with that sly smile of yours?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

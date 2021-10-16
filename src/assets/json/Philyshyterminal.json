@@ -1,0 +1,1104 @@
+[
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Navigator, are you there?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm resting. Do you need something?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Of course! Come to the bridge!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah... What? Now?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow, Philyshy is waiting for you at the bridge!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Huh? You've got some dried fish?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Dried fish? That's something cats love to eat, right?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Why are you talking about fish all of a sudden?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I remember you buying a big bag yesterday."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why are you talking about fish all of a sudden?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Meow! Because I'm a cat, of course!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh? Is that... Yumi?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, I remember you have loads of that stuff!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "I've already eaten them, meow! They were so delicious, meow!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Without dried fish, who knows what will become of Philyshy, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "G-Got it... I'll think of something..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But that was way too fast... Next time, should I get Philyshy to buy some gross dried fish?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Hey, I'm listening! Meow!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I remember you buying a big bag yesterday."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "It's all gone, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "What? That was such a big bag!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "It was so delicious so I finished it all! What's the problem, meow!?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "It was so delicious that I still want to eat more! That's why I came to you, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "G-Got it... I'll think of something..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But that was way too fast... Next time, should I get Philyshy to buy some gross dried fish?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Hey, I'm listening! Meow!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Ah, I'm sleepy, but I thought I'd come to say hello anyway!"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "But if I suddenly fall asleep, don't be surprised\u2014midday is the perfect time for sleeping!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I can't help but agree with the second half of that sentence..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Really? Well, I can't help but agree, too!"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "So does Yumi!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yumi? Who's Yumi?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Yumi is my cat, meow!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, it's your pet."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "It's me, meow!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "You see, Yumi is Philyshy, and Philyshy is Yumi. Our personalities may be a little different, but we both like to sleep!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait, you're both one person...? Or are you two people?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Philyshy... or is it Yumi? Are you asleep?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Waaah... Isn't there any way I can take my strength down a notch?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Huh? I've never heard anyone ask for something like that before..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Why would you possibly want to be weaker?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Huh? I've never heard anyone ask for something like that before..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "The less powerful you are, the less responsibility you're burdened with!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Ah... Really?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Really."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "If Philyshy grows weaker, there won't be so many people coming to Philyshy for help."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Then I can sleep in more!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So that's it..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But if you get stronger, Philyshy can protect everyone, right?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Huh... That makes sense!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right. You should be happy that you're growing stronger."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Alright then! Let's celebrate by taking a nap! Meow!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why would you possibly want to be weaker?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Because if I get stronger, I'll have fewer excuses for sleeping in."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Ah... Really?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Really."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "If Philyshy grows weaker, there won't be so many people coming to Philyshy for help."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Then I can sleep in more!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "So that's it..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But if you get stronger, Philyshy can protect everyone, right?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Huh?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Huh... That makes sense!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Right. You should be happy that you're growing stronger."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Alright then! Let's celebrate by taking a nap! Meow!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Meow, I'm sleepy..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning, Philyshy. I see you're the same as ever..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow... There's nothing \"good\" about the morning!"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "I'm going back to sleep."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sweet dreams."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Meow, there's nothing quite like milk for breakfast!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Do you like it? I'll bring some more next time."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow? Did you bring that for me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah... I'm in charge of the procurement today."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "In that case... I'm counting on you!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Morning...! The nightstands in the room are awfully hard, meow!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning, Philyshy..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's the first time I've ever heard that complaint..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Well, the first thing in the morning should always be to rub up against something, meow..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "But the nightstand... Meow! It's way too hard! Rubbing against it is so uncomfortable..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Do you want me to put a cushion on it?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Heehee, if it's not too much trouble, meow!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Boo-hoo... I was awakened, meow..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm? I haven't heard anything all morning..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "The sound of cooking, footsteps all over the place... And it sounded like some dumb Aurorian dropped a plate or two on the floor..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Philyshy can hear every noise in this place!!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I... I don't know if that's something we can really fix..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow... Looks like Philyshy will have to go all the way down, as far from everyone as possible, to get some sleep..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Meow! So annoying! Where on earth are you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "G-Good evening...? What's the matter?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "My fish jerky... Give back Philyshy's fish jerky!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You sound like you're starving... Did you not eat dinner today?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Save the talk and hand over the fish!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... Have you tried looking in the kitchen?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm not sure if we still have any fish jerky left, but if I remember correctly..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I think we managed to secure a few fresh fish today?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow? Fresh fish?!"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "You're a goner if I don't find any, you hear me?!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah... It's very late, but Philyshy doesn't seem very concerned with eating healthy, does she...?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Evening, Navigator. Do you dream in your sleep often?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, but most of the time I don't remember my dreams very well."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow? I see..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Then, what if you managed to remember a dream purrfectly?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, if I had a nightmare, I'd try my best to forget about it..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But if I had a nice dream, I'd try to remember it for as long as possible."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow... What if you couldn't tell if it was a good dream or a bad one?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm... I guess I'd leave it alone, and focus my attention on reality or something?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "But if I were you, Philyshy..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Meow?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I think eating a few extra sticks of fish jerky would be helpful to forget all about it. Don't you think?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Wow! That's a great idea!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Good evening... Meow, today was a real cat-astrophe..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What happened?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Commander Vivian, Commander Sharona, and Vice all got together today..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "They looked like they were talking about something really important..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "They all had their backs turned towards me..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "A fluffy, white tail... A long, slender tail... And a thick, black tail..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Waving nonstop all over the place! Meeeeooow!!!"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "I couldn't stop myself! Meow!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I-I see..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's fine. It's in your nature, after all..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Meow! Did you hear that ringing just now?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Philyshy... It's pretty late, you know..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Of course, meow. Philyshy knows it's late! It's so hard to sleep after hearing that ringing!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Then... What should we do?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Should I have the Fireflies go take a look?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Maybe I can help you look for it tomorrow?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Should I have the Fireflies go take a look?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Meow..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm? Philyshy? Did she fall asleep...?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Hah... Philyshy's got you now...!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Turns out, the ringing was coming from Philyshy's own room..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Was it a toy that you brought back with you?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Meow? No! Even Philyshy doesn't know how this got here!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Anyways, time for a nice, long catnap. Good night!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Maybe I can help you look for it tomorrow?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Meow..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm? Philyshy? Did she fall asleep...?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Hah... Philyshy's got you now...!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Turns out, the ringing was coming from Philyshy's own room..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Was it a toy that you brought back with you?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Meow? No! Even Philyshy doesn't know how this got here!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Anyways, time for a nice, long catnap. Good night!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Navigator, are you resting, meow?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hi, Philyshy. It's been a while."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Right. But Philyshy has been watching you all this time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What can I help you with today?"
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Philyshy wants to talk to you, Navigator... Is that okay, meow?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Of course you can. I couldn't get to sleep, anyway."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Philyshy saw the report Vice submitted."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "You've been really tired this whole time, meow!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Really, I'm actually fine."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, I've been a little tired..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Really, I'm actually fine."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "That's the spirit, Navigator!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Philyshy was really worried about you at first."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "But Philyshy is relieved to hear you're just fine."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "You're welcome, of course!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "The next time you come back to Illumina, I'll teach you some tips for getting to sleep quickly, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright. But..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It may be some time before I see you again."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Navigator, what are your plans now, meow?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I need to recover Soroz's consciousness as soon as possible!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "We'll it looks like you've found a way to fix the Echo Template, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yeah... But there's still one problem..."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "What is it, meow?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forsakin... We ran into Forsakin again, this time."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forsakin once served Illumina..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Her name was Denier back then."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Do you know anything about her?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "All Philyshy knows is that those who betray Illumina are stripped of their name."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Being forgotten by Illumina is the greatest punishment for a traitor."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "And Philyshy doesn't remember the name you mentioned just now, meow."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, you mean... Forsakin betrayed Illumina?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "And Illumina took away her name!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Philyshy didn't say that, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm... I think I understand."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Is that the time, meow!?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Philyshy won't keep you up any longer, Navigator! Have a good rest!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Have a good night's sleep and you'll have an even better day's work, tomorrow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay. Goodbye."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Bye!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Well, I've been a little tired..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Of course, after all, you've been through so much, and all at the same time..."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "But Philyshy knows that your hard work has been keeping everyone inspired, Navigator!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Thank you."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "You're welcome, of course!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "The next time you come back to Illumina, I'll teach you some tips for getting to sleep quickly, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright. But..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It may be some time before I see you again."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Navigator, what are your plans now, meow?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I need to recover Soroz's consciousness as soon as possible!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "We'll it looks like you've found a way to fix the Echo Template, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Yeah... But there's still one problem..."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "What is it, meow?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forsakin... We ran into Forsakin again, this time."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forsakin once served Illumina..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Her name was Denier back then."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Do you know anything about her?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "All Philyshy knows is that those who betray Illumina are stripped of their name."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Being forgotten by Illumina is the greatest punishment for a traitor."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "And Philyshy doesn't remember the name you mentioned just now, meow."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So, you mean... Forsakin betrayed Illumina?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "And Illumina took away her name!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Philyshy didn't say that, meow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Hmm... I think I understand."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Is that the time, meow!?"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Philyshy won't keep you up any longer, Navigator! Have a good rest!"
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Have a good night's sleep and you'll have an even better day's work, tomorrow!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay. Goodbye."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "Bye!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Philyshy:",
+    "content": "Navigator, you've caught up already, meow!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, Philyshy! So, you've heard..."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Uh-huh! After all, I am the Intel Chief!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Amazing... It's like you know everything."
+   },
+   {
+    "name": "Philyshy:",
+    "content": "Hmm... Even so, it's a shame that nobody's gonna give me any fish jerky for it, meow."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "N-No, don't worry! There will always be plenty of them waiting for you!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "A fine Intel Chief like you should have no problem on that."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "N-No, don't worry! There will always be plenty of them waiting for you!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "Really? Then Philyshy will have to gather a lot more intel..."
+     },
+     {
+      "name": "Philyshy:",
+      "content": "But Philyshy wants to sleep now, meow..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well... Go ahead."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "A fine Intel Chief like you should have no problem on that."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Philyshy:",
+      "content": "But Philyshy wants to sleep now, meow..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well... Go ahead."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

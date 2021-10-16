@@ -1,0 +1,690 @@
+[
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "Whether you saw it or not, you must follow my instructions."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Before the Shadow enshrouds this place, come see me at the Cafe."
+   },
+   {
+    "name": "Kleken:",
+    "content": "If you don't, I can't make any guarantees about what will happen."
+   },
+   {
+    "name": "Navigator:",
+    "content": "..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "Warrior, how did your conversation with Shadowlord go?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It was terrible. I stammered so much I could barely speak. Luckily, I managed to calm down in the end."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Did you say anything you shouldn't have?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Did you want me to say that I didn't know anything and didn't prepare anything because I was pranked by you?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I didn't dare to say anything of course!"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Why didn't you tell me Mr. Istvan was coming?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "You really made a fool of me."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why didn't you tell me Mr. Istvan was coming?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "The Shadowlord didn't want you to prepare for an overly grand reception."
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's not the issue. The problem is that I didn't prepare anything!"
+     },
+     {
+      "name": "Kleken:",
+      "content": "That's why I prepared everything for you."
+     },
+     {
+      "name": "Kleken:",
+      "content": "If my guess is correct, Shadowlord should be very satisfied with how you received him."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The Shadowlord may be satisfied..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But I was asked about the roses prepared..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "They were to make things more interesting, of course."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "You really made a fool of me."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "Why?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Because I wasn't mentally prepared to chat with Mr. Istvan."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Don't worry, the Shadowlord is a tolerant person."
+     },
+     {
+      "name": "Kleken:",
+      "content": "If my guess is correct, Shadowlord should be very satisfied with how you received him."
+     },
+     {
+      "name": "Navigator:",
+      "content": "The Shadowlord may be satisfied..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But I was asked about the roses prepared..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "They were to make things more interesting, of course."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "Navigator, please reply before the deep sea swallows this place again."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You're lying, aren't you? How can there be so many strange things that can submerge the Colossus..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "In that case, let me ask another question."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Your sentences don't make logical sense! Hey, you weren't asking a question before either!"
+   },
+   {
+    "name": "Kleken:",
+    "content": "If the Colossus sinks one day, what will you do?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I would try to think of a way to salvage it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I would choose to sink with the Colossus."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I would try to think of a way to salvage it."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "What if you then realized that you don't have the power to save it?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forget it, I realized I can't possibly answer your questions."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Just tell me what you want!"
+     },
+     {
+      "name": "Kleken:",
+      "content": "I'm just asking hypothetical questions. I'll come out with it then..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "The water supply system seems to be leaking..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "I can't fix it myself, and the others on the Colossus don't seem to have any intention of fixing it either."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh! Why didn't you say that in the first place!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I have to fix it now! Where is the leak?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Hmm, it's probably around the cafe."
+     },
+     {
+      "name": "Navigator:",
+      "content": "... The cafe?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Yes, the floor is covered in a lot of sweet-smelling brown liquid."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's probably just someone spilling their coffee! Tell me, is it you? Be honest!"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Of course not. I promise."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I would choose to sink with the Colossus."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "What a loyal and righteous person. What would you do if there are others on the Colossus then?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Forget it, I realized I can't possibly answer your questions."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Just tell me what you want!"
+     },
+     {
+      "name": "Kleken:",
+      "content": "I'm just asking hypothetical questions. I'll come out with it then..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "The water supply system seems to be leaking..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "I can't fix it myself, and the others on the Colossus don't seem to have any intention of fixing it either."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Oh! Why didn't you say that in the first place!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "I have to fix it now! Where is the leak?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Hmm, it's probably around the cafe."
+     },
+     {
+      "name": "Navigator:",
+      "content": "... The cafe?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Yes, the floor is covered in a lot of sweet-smelling brown liquid."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's probably just someone spilling their coffee! Tell me, is it you? Be honest!"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Of course not. I promise."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "Hello, may I ask you a question?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "If I told you everything I say is a lie, would you believe me?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Of course not, if it was a lie."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Then, if I told you I was lying when I said that... Would you believe me then?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "If you were lying when you said \"everything I say is a lie\"... I would believe you."
+   },
+   {
+    "name": "Kleken:",
+    "content": "But what is say IS a lie, so if I say \"everything I say is a lie\", then I'm lying twice."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Then I... Won't believe you?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "But if everything I say is a lie, and I say \"everything I say is a lie\", then is it still a lie?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I have no idea! Are you lying or not?!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "We keep circling the answer!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I have no idea! Are you lying or not?!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "Very good. You must know by now whether or not you can believe my words."
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, I don't!!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "We keep circling the answer!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Kleken:",
+      "content": "Very good. You must know by now whether or not you can believe my words."
+     },
+     {
+      "name": "Navigator:",
+      "content": "No, I don't!!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "Good morning, you must be awake by now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...It's already noon."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Oh? Is that so?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "Your Colossus looks so perfect... The facilities are excellent here..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "I wonder if it's suitable for deep-sea diving?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I haven't thought about it before... Probably not."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait... What's that sound?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "The fireflies are reporting a problem with the drainage system!"
+   },
+   {
+    "name": "Kleken:",
+    "content": "Hmm? That really sounds quite terrible."
+   },
+   {
+    "name": "Kleken:",
+    "content": "The Colossus must have encountered some trouble, eh? Now, we're all going to sink along with it..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...Kleken, you were trying to stall me just now?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Is that why you messaged me!?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Gah... I'd better solve this problem first."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Now, this is what mornings are made of... Hope you'll enjoy."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "The sun has just reached its zenith."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...You're actually right, for once."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Noble Navigator, did you know that I never eat lunch?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I didn't know that... This is just another lie, isn't it?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "Really! How could you suggest such a thing?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "You see, because I never eat exactly at lunchtime, it can't be called lunch."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...What kind of weird eating habits do you have, then!?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "The creature from the deep-sea is watching you..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Noble Navigator... Are you aware of the potential crisis brewing at this very moment?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Kleken..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What kind of wicked prank are you cooking up tonight?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "Noble Navigator, what I have in store for you tonight is far more terrifying than a prank..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "The dark, serene depths of the ocean... The most peaceful slumber..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Sleep... Sleep..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I haven't noticed anything suspicious today..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "That was actually just a lullaby, Brave Navigator."
+   },
+   {
+    "name": "Kleken:",
+    "content": "An excerpt from The Sailor's Adventures."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh... So, you were actually just saying good night?"
+   },
+   {
+    "name": "Kleken:",
+    "content": "Of course not."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Kleken:",
+    "content": "The sun is just rising."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...It's night time."
+   },
+   {
+    "name": "Kleken:",
+    "content": "The sun is rising..."
+   },
+   {
+    "name": "Kleken:",
+    "content": "It just needs a little more time."
+   },
+   {
+    "name": "Kleken:",
+    "content": "Do you consider this to be a lie?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Yes."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I guess it doesn't count."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yes."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "When it comes to time, accuracy is something you actually need to pay attention to..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Of course, Noble Navigator."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Perhaps this is, in fact, a great prophecy. Who can deny it to be true?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "And now, my second prophecy for tonight... I foretell that you will be going to sleep soon."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You call that a prophecy!?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Will my prophecy be proven wrong? Are you willing to deny its veracity?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "... Never mind. Your prophecy was right."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm going to bed. Good night, Kleken."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Good night, Noble Navigator. May the deep sea watch over you."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I guess it doesn't count."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Compared to your usual lies..."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Of course, Noble Navigator."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Perhaps this is, in fact, a great prophecy. Who can deny it to be true?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "And now, my second prophecy for tonight... I foretell that you will be going to sleep soon."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You call that a prophecy!?"
+     },
+     {
+      "name": "Kleken:",
+      "content": "Will my prophecy be proven wrong? Are you willing to deny its veracity?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "... Never mind. Your prophecy was right."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I'm going to bed. Good night, Kleken."
+     },
+     {
+      "name": "Kleken:",
+      "content": "Good night, Noble Navigator. May the deep sea watch over you."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

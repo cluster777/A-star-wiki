@@ -1,0 +1,570 @@
+[
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "Are you free right now? Am I bothering you?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I've got some free time."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Actually, right now I'm a bit..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I've got some free time."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Connolly:",
+      "content": "Great, I've prepared some refreshing coffee for you, the kind I'm good at making, a special blend. I hope you will enjoy it."
+     },
+     {
+      "name": "Connolly:",
+      "content": "Of course, if you're busy, it's fine..."
+     },
+     {
+      "name": "Connolly:",
+      "content": "But if you would like some, do meet me at the Cafe!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Actually, right now I'm a bit..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Connolly:",
+      "content": "Well, you seem a little down today, so I thought I should prepare you a nice cup of coffee."
+     },
+     {
+      "name": "Connolly:",
+      "content": "Of course, if you're busy, it's fine..."
+     },
+     {
+      "name": "Connolly:",
+      "content": "But if you would like some, do meet me at the Cafe!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "Navigator, about the silky smooth coffee..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I'm listening."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Oh, it's the new item I asked you to try earlier..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, I remember now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I've already tried it and evaluated it seriously."
+   },
+   {
+    "name": "Connolly:",
+    "content": "S-so? Do you have any suggestions?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'd say it tastes more like chocolate than coffee... I don't taste any coffee at all..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "C-chocolate?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Oh no... I didn't turn the lights on when I mixed the ingredients... I must have used cocoa powder instead of ground coffee..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Boo-hoo... I wanted to try a new recipe, but I ended up making something completely different..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "D-don't cry... Um... it was really smooth!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "... Huh? Really?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes! Although you can't add silky smooth coffee to the menu, you can add silky smooth hot chocolate instead!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "I-I see! You're so smart, Navigator..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Then... I'll add silky smooth chocolate to the menu..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Oh right... When the coffee is correctly made next time... Navigator, please taste it for me..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "No problem!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "G... Greetings..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "T-Thank you for having me aboard this Colossus..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "I... I like this place so much..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Ah, that's good to hear! Don't mention it!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "We're all good friends here, so please enjoy your time here with everyone!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "O... Okay..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "But... Um..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "E-Excuse me... Is it alright if... if I practice my clarinet?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Clarinet? Sure, no problem."
+   },
+   {
+    "name": "Navigator:",
+    "content": "As long as you're not disturbing others, it's fine!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Okay... I won't bother anyone..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "I-I'll find a somewhere to practice quietly..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "No problem! We'd love to hear you play, too!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Ah...! O-Okay, then..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "G... Greetings..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Um, I-I'm sorry... Uh..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Is something wrong?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Th-These spirits... There are more, again..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "They're so scary. I... I don't know what to do..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Spirits?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "It's fine, don't be scared!"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Spirits?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Spirits? You mean those things you summoned, Connolly?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "Y-yes..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Maybe you're just able to see more of them, now that you're stronger?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "R... Really...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's right! Besides..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You ought to be used to them by now, right? What about Anton?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "Anton... Is fine..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So just treat them the same way you would treat Anton, okay?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "O-Okay... Thank you..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "It's fine, don't be scared!"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "Don't be afraid! You can see more of them because you've gotten stronger!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's a good thing, I promise."
+     },
+     {
+      "name": "Connolly:",
+      "content": "R... Really...?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "That's right! Besides..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You ought to be used to them by now, right? What about Anton?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "Anton... Is fine..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So just treat them the same way you would treat Anton, okay?"
+     },
+     {
+      "name": "Connolly:",
+      "content": "O-Okay... Thank you..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "Good morning... Did you sleep well last night?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, for the most part. Just a little hungry."
+   },
+   {
+    "name": "Connolly:",
+    "content": "I-I could make you s-something to eat, then!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Really? That'd be great, thanks!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "I-It's nothing, don't mention it...!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "Good morning!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning, Connolly! You're up early today."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Um... There's something I'd like to ask you..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What is it?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Today, when I was making coffee in my room..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "I accidentally broke a whole bunch of cups!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "I've seen those Fireflies... fix things before... So, those... those broken cups..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Can I just... just ask them to help, directly...?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Don't worry... Tell them what you want them to do, you will be fine."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Ah... I've never spoken to them before..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Thank you... I'll try..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "Wo-would you like some milk?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Oh, I was just thinking of having some milk before going to bed. You're so thoughtful!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "Then... Please open the door..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That was fast!"
+   },
+   {
+    "name": "Connolly:",
+    "content": "I-it's because I just put the milk outside the room..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "You looked... A bit exhausted just now..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, I've been busy all morning..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "W-Would you like some coffee? It might help..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure, that sounds nice!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "G-Good evening..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Connolly. Are you getting ready to go to bed?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "T-Today was a good day..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What happened today?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "The lights in my room... They broke..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "My room... in the dark... for the whole day. Peaceful to stay."
+   },
+   {
+    "name": "Navigator:",
+    "content": "...I'll fix the lights tomorrow."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Is it... okay if you don't fix them?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "I'm pretty sure being in the dark all the time isn't good for your health..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Hmm... I knew I shouldn't have told you..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Connolly:",
+    "content": "It's pretty late... C-Can I ask... what are you doing right now?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hey, Connolly."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, it's pretty late..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I have a little more work to do... Why are you still up?"
+   },
+   {
+    "name": "Connolly:",
+    "content": "It... It seems like you haven't rested in so long..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "So, I'd like to give some chocolate pudding..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "If you want to work through the night, it boosts energy... I made it... just now."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Thank you so much! But, I..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't really have the time to come pick it up right now... Sorry."
+   },
+   {
+    "name": "Connolly:",
+    "content": "That's okay.. I'll put it in the fridge... You can come and get it when you're free..."
+   },
+   {
+    "name": "Connolly:",
+    "content": "Good night... I hope you get some good sleep after work..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You too. Good night, Connolly."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

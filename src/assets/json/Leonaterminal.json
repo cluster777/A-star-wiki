@@ -1,0 +1,418 @@
+[
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Navigator, have you lost anything recently?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Why do you ask?"
+   },
+   {
+    "name": "Leona:",
+    "content": "Well, I just saw you poking around like you're searching for something."
+   },
+   {
+    "name": "Navigator:",
+    "content": "N-No, it's okay."
+   },
+   {
+    "name": "Leona:",
+    "content": "Maybe I shouldn't have asked..."
+   },
+   {
+    "name": "Leona:",
+    "content": "Anyway, I might have a clue for you. Come and meet me at the bar."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Have you ever seen another dragon before, kiddo?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Another dragon? I remember explaining to you that Soroz isn't a dragon..."
+   },
+   {
+    "name": "Leona:",
+    "content": "No, I'm talking about my sister, Sharona. Another poor wretch tortured by hatred."
+   },
+   {
+    "name": "Leona:",
+    "content": "Like me, dragon blood flows through her veins, and like me, she is possessed by a pathetic enmity."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I see... You both have some kind of revenge to enact?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "A pathetic enmity?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I see... You both have some kind of revenge to enact?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Leona:",
+      "content": "That's right. Hopeless and miserable."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It seems we share a similar destiny."
+     },
+     {
+      "name": "Leona:",
+      "content": "Really? Kiddo, do you hold a hatred in your heart that must be resolved? Do you find yourself controlled by your wrath?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Controlled? Why would you use such a strange word?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Because the hatred in my heart often tries to control me."
+     },
+     {
+      "name": "Leona:",
+      "content": "It yearns to see me desperate to release my anger and destroy everything in sight. It's a pity that it cannot succeed."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, that's good... I wouldn't want you to destroy Soroz."
+     },
+     {
+      "name": "Leona:",
+      "content": "Oh? That's a shame... But if I wanted to, you wouldn't be able to stop me."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh!?..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "A pathetic enmity?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Leona:",
+      "content": "Right. That hopeless and miserable enmity."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Don't... Don't say that."
+     },
+     {
+      "name": "Leona:",
+      "content": "Oh? And why is that?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's something I must live with, too."
+     },
+     {
+      "name": "Leona:",
+      "content": "You live with it, too? Do you find yourself controlled by your hatred?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Controlled? Why would you use such a strange word?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Because the hatred in my heart often tries to control me."
+     },
+     {
+      "name": "Leona:",
+      "content": "It yearns to see me desperate to release my anger and destroy everything in sight. It's a pity that it cannot succeed."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well, that's good... I wouldn't want you to destroy Soroz."
+     },
+     {
+      "name": "Leona:",
+      "content": "Oh? That's a shame... But if I wanted to, you wouldn't be able to stop me."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Huh!?..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Kiddo, are you the one this white dragon follows?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "White dragon? You mean Soroz?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes, I'm the navigator."
+   },
+   {
+    "name": "Leona:",
+    "content": "Navigator? You mean, this dragon... lets you control it?"
+   },
+   {
+    "name": "Leona:",
+    "content": "Such a noble creature... and such an insignificant guy..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "H-Hold on... Creature? That's not it."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Soroz isn't a \"creature\" exactly... He's a Colossus, a symbiote of the machine and biological entity."
+   },
+   {
+    "name": "Leona:",
+    "content": "It's not a creature...? It's made of... machinery?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, he's half and half..."
+   },
+   {
+    "name": "Leona:",
+    "content": "Ah... I see."
+   },
+   {
+    "name": "Leona:",
+    "content": "Well, of course. How could a kid like you control a real dragon?"
+   },
+   {
+    "name": "Leona:",
+    "content": "I was over-thinking things."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't quite understand what you mean..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "But it's clear that you don't like me!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Oh... You've already had your meal, kiddo?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Uh-huh. What's up?"
+   },
+   {
+    "name": "Leona:",
+    "content": "Do you have anything for Sunstone to eat?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Erm... Maybe you can ask Vivian?"
+   },
+   {
+    "name": "Leona:",
+    "content": "Tsk, I only came to ask you because I didn't want to ask her!"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Alright... Let me have a look."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Remember to rest well during your lunch break, kiddo."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Understood..."
+   },
+   {
+    "name": "Leona:",
+    "content": "You seem a little reluctant..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, no, no... I'm just a little surprised..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Leona:",
+    "content": "Hey kid, if you're not asleep yet, why not chat with me for a bit?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Sure..."
+   },
+   {
+    "name": "Leona:",
+    "content": "Tell me, what are we living for?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's an awfully profound way to start up a conversation..."
+   },
+   {
+    "name": "Leona:",
+    "content": "Sounds like you don't have an answer for that, either."
+   },
+   {
+    "name": "Navigator:",
+    "content": "I don't think this question has a definite answer, to be honest."
+   },
+   {
+    "name": "Leona:",
+    "content": "So why don't you tell me a few answers, then?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "How about family?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "How about love?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "How about family?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Leona:",
+      "content": "Tch, what's the good of family if you can't choose them?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Ahem... What about friendship?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Please. I have no friends."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Then... if you aren't willing to live for other people..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You could always live for yourself, right?"
+     },
+     {
+      "name": "Leona:",
+      "content": "...Live for myself?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Looks like coming to you for a chat was the right choice, kiddo."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "How about love?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Leona:",
+      "content": "Oho? Such a brat like you knows a thing or two about this, huh?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "N-Not really..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Ahem... What about friendship?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Please. I have no friends."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Then... if you aren't willing to live for other people..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You could always live for yourself, right?"
+     },
+     {
+      "name": "Leona:",
+      "content": "...Live for myself?"
+     },
+     {
+      "name": "Leona:",
+      "content": "Looks like coming to you for a chat was the right choice, kiddo."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ }
+]

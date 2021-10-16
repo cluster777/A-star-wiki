@@ -1,6 +1,9 @@
 <template>
-  <div class="containerz"> 
-    <h2>{{chardata.name}}</h2>
+  <div class="containerz">
+    <div class="title-container">
+      <div class="codename"><h2>{{chardata.name}}</h2></div>
+      <div class="realname"><h3>{{chardata.realName}}</h3></div>
+    </div>
     <hr>
     <img v-show="this.faction!='silent hunter'" class="faction-icon" :src=charfaction />
 
@@ -27,7 +30,7 @@ export default {
   },
   data: function() {
     return {
-      description:"first",
+      description:this.chardata.description,
       faction:this.chardata.faction,
       charfaction:require('@/assets/universal/' + this.chardata.faction + '.png'),
       charclass:require('@/assets/universal/type_' + this.chardata.class + '.png'),
@@ -51,12 +54,23 @@ export default {
   margin-top:0px;
 }
 .containerz h2{
-  padding-top: 20px ;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.containerz h3{
+  color:rgb(168, 167, 167);
+  padding-top:5px;
   padding-left: 10px;
   margin-bottom: 0px;
 }
 .containerz hr{
   margin-top:30px;
+}
+.title-container{
+  padding:0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
 }
 .class-icon{
   position:absolute;
@@ -78,8 +92,8 @@ export default {
 }
 .content-description{
   padding-left:10px;
-  margin-top:5px;
-
+  margin-top:20px;
+  text-align: justify;
 }
 
 </style>

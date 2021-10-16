@@ -1,0 +1,654 @@
+[
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Are you busy, Navigator?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Not really. What's up?"
+   },
+   {
+    "name": "Michael:",
+    "content": "Would you please go to the bridge and open Soroz's doors a little wider?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "Why? What's going on?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Open the doors wider? No problem..."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Why? What's going on?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michael:",
+      "content": "I... can't get in."
+     },
+     {
+      "name": "Navigator:",
+      "content": "You can't get in?"
+     },
+     {
+      "name": "Michael:",
+      "content": "I... I'm stuck in the doorway."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay... Wait... You're stuck in the doorway?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why... Why are you stuck in the doorway?"
+     },
+     {
+      "name": "Michael:",
+      "content": "I've... brought an old train carriage back."
+     },
+     {
+      "name": "Michael:",
+      "content": "Because I'm carrying this carriage, I need a little extra width."
+     },
+     {
+      "name": "Michael:",
+      "content": "So basically, I can't get in right now."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why would you bring that kind of thing back!?"
+     },
+     {
+      "name": "Michael:",
+      "content": "..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright, alright... I'll open the door for you... Wait, no!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why don't you just bring it in vertically? I'm sure it'll fit."
+     },
+     {
+      "name": "Michael:",
+      "content": "So that's it..."
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Open the doors wider? No problem..."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michael:",
+      "content": "That's great..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "But why do you want me to open the doors wider?"
+     },
+     {
+      "name": "Michael:",
+      "content": "I... I'm stuck in the doorway."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Okay... Wait... You're stuck in the doorway?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why... Why are you stuck in the doorway?"
+     },
+     {
+      "name": "Michael:",
+      "content": "I've... brought an old train carriage back."
+     },
+     {
+      "name": "Michael:",
+      "content": "Because I'm carrying this carriage, I need a little extra width."
+     },
+     {
+      "name": "Michael:",
+      "content": "So basically, I can't get in right now."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why would you bring that kind of thing back!?"
+     },
+     {
+      "name": "Michael:",
+      "content": "..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Alright, alright... I'll open the door for you... Wait, no!"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why don't you just bring it in vertically? I'm sure it'll fit."
+     },
+     {
+      "name": "Michael:",
+      "content": "So that's it..."
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Hello, are you the Navigator of the Colossus?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "That's me. Welcome to..."
+   },
+   {
+    "name": "Michael:",
+    "content": "Please remember, this Colossus is huge. Please don't land just anywhere."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh?"
+   },
+   {
+    "name": "Michael:",
+    "content": "When flying through the air, please make sure you obey the traffic laws."
+   },
+   {
+    "name": "Michael:",
+    "content": "Don't accelerate, stop, turn, or carry out any other dangerous maneuvers too suddenly."
+   },
+   {
+    "name": "Michael:",
+    "content": "Otherwise you might have an accident."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Erm... What\u2014!?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "So... Are there a lot of traffic laws in the sky?"
+   },
+   {
+    "name": "Michael:",
+    "content": "You need to wait patiently whenever you're in a traffic jam."
+   },
+   {
+    "name": "Michael:",
+    "content": "Follow the vehicle ahead of you, slowly and orderly."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Right, okay..."
+   },
+   {
+    "name": "Michael:",
+    "content": "That's all for the traffic laws."
+   },
+   {
+    "name": "Michael:",
+    "content": "Please remember them. Goodbye."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Sure... Wait, are there traffic laws for the skies?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Navigator, can I ask you something?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Michael? I haven't seen you in a while."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Please go ahead. I'll help if I can."
+   },
+   {
+    "name": "Michael:",
+    "content": "It's nothing special, though."
+   },
+   {
+    "name": "Michael:",
+    "content": "It's just... Do we have any records of our strength enhancements?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well... Records..."
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "I don't think we do."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Do you need me to write you out a copy?"
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "I don't think we do."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "What...? Do you need a file? Do you want to submit it to Lumopolis?"
+     },
+     {
+      "name": "Michael:",
+      "content": "No, I'm just... curious."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Curious?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Yes, I want a copy to add to my collection."
+     },
+     {
+      "name": "Navigator:",
+      "content": "To add to your collection...? Wait, Michael, do you mean..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "All the leaflets, old machine parts, old teddy bears, and Eclipsite corpses in your room you've collected from who knows where?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Yes."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well... Since it's for your collection, I'll ask Vice to write out a file and send it to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Also, about the Eclipsite corpses... Don't keep them in Soroz!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Do you need me to write you out a copy?"
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Navigator:",
+      "content": "What...? Do you need a file? Do you want to submit it to Lumopolis?"
+     },
+     {
+      "name": "Michael:",
+      "content": "No, I'm just... curious."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Curious?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Yes, I want a copy to add to my collection."
+     },
+     {
+      "name": "Navigator:",
+      "content": "To add to your collection...? Wait, Michael, do you mean..."
+     },
+     {
+      "name": "Navigator:",
+      "content": "All the leaflets, old machine parts, old teddy bears, and Eclipsite corpses in your room you've collected from who knows where?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Yes."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Well... Since it's for your collection, I'll ask Vice to write out a file and send it to you."
+     },
+     {
+      "name": "Navigator:",
+      "content": "Also, about the Eclipsite corpses... Don't keep them in Soroz!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Good morning."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good morning, Michael."
+   },
+   {
+    "name": "Michael:",
+    "content": "Breakfast was pretty good today."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Huh? Hmm... Why did it take two hours to say that?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Thunder... Did you hear that?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yes, that was thunder. It'll probably rain today."
+   },
+   {
+    "name": "Michael:",
+    "content": "Do you need me to fight back with the thunder?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, no, no! Why would you say that!?"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Good morning. Your Colossus is really something, you know?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Morning, Michael. What do you mean by that?"
+   },
+   {
+    "name": "Michael:",
+    "content": "These little guys, flying all over the place... They're really fun to play with."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Wait, you don't mean...?"
+   },
+   {
+    "name": "Michael:",
+    "content": "I grabbed one of them, and the rest of them started buzzing and flying all around me."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You added a Firefly to your collection?"
+   },
+   {
+    "name": "Michael:",
+    "content": "That's right. A perfect start to a happy morning."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Well, it looks like there's no helping that poor Firefly now..."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "It's late... You need to rest."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Hmm, thank you. I'll go to bed when I finish what I'm working on."
+   },
+   {
+    "name": "Michael:",
+    "content": "If you don't sleep, tomorrow, I will..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "You will what? Don't just drop off halfway through a sentence! It's infuriating!"
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "Planning on going to bed soon?"
+   }
+  ],
+  "branch": [
+   {
+    "name": "Navigator:",
+    "content": "In a few minutes."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Yeah, right now actually."
+   }
+  ],
+  "chatlist": [
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "In a few minutes."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michael:",
+      "content": "Since you're still on the job, can I ask you something? Where do you keep the cleaning supplies on the Colossus?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Cleaning supplies?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why would you ask that late at night?"
+     },
+     {
+      "name": "Michael:",
+      "content": "There are some water stains in the hallway, but I don't see the Fireflies taking care of it."
+     },
+     {
+      "name": "Michael:",
+      "content": "I have no idea who dripped water all over, but the mess is making it impossible for me to sleep."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So... you want to clean it up yourself?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Correct. The spots are about the size of a person's hand. Just tell me where the supplies are, and I'll handle it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-It's okay, let the Fireflies take care of it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's possible they haven't detected the mess yet."
+     },
+     {
+      "name": "Michael:",
+      "content": "In that case, I'll just use my clothes to mop it up."
+     },
+     {
+      "name": "Navigator:",
+      "content": "W-Wait! I'll call the Fireflies! Right now!"
+     }
+    ],
+    "branch": []
+   },
+   {
+    "start": [],
+    "branch": [
+     {
+      "name": "Navigator:",
+      "content": "Yeah, right now actually."
+     }
+    ]
+   },
+   {
+    "start": [
+     {
+      "name": "Michael:",
+      "content": "Since you're still on the job, can I ask you something? Where do you keep the cleaning supplies on the Colossus?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "...Cleaning supplies?"
+     },
+     {
+      "name": "Navigator:",
+      "content": "Why would you ask that late at night?"
+     },
+     {
+      "name": "Michael:",
+      "content": "There are some water stains in the hallway, but I don't see the Fireflies taking care of it."
+     },
+     {
+      "name": "Michael:",
+      "content": "I have no idea who dripped water all over, but the mess is making it impossible for me to sleep."
+     },
+     {
+      "name": "Navigator:",
+      "content": "So... you want to clean it up yourself?"
+     },
+     {
+      "name": "Michael:",
+      "content": "Correct. The spots are about the size of a person's hand. Just tell me where the supplies are, and I'll handle it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "I-It's okay, let the Fireflies take care of it."
+     },
+     {
+      "name": "Navigator:",
+      "content": "It's possible they haven't detected the mess yet."
+     },
+     {
+      "name": "Michael:",
+      "content": "In that case, I'll just use my clothes to mop it up."
+     },
+     {
+      "name": "Navigator:",
+      "content": "W-Wait! I'll call the Fireflies! Right now!"
+     }
+    ],
+    "branch": []
+   }
+  ]
+ },
+ {
+  "start": [
+   {
+    "name": "Michael:",
+    "content": "It's late... Do you ever have insomnia?"
+   },
+   {
+    "name": "Navigator:",
+    "content": "Good evening, Michael..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "No, I usually sleep just fine."
+   },
+   {
+    "name": "Michael:",
+    "content": "I see."
+   },
+   {
+    "name": "Navigator:",
+    "content": "What's the matter? Can't sleep?"
+   },
+   {
+    "name": "Michael:",
+    "content": "Mmm. I'm still thinking about things."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Nothing too troublesome, I hope?"
+   },
+   {
+    "name": "Michael:",
+    "content": "No, I just can't remember where I put that leaf I collected before."
+   },
+   {
+    "name": "Navigator:",
+    "content": "Losing sleep over a leaf..."
+   },
+   {
+    "name": "Navigator:",
+    "content": "That sounds a lot like you, Michael."
+   }
+  ],
+  "branch": [],
+  "chatlist": []
+ }
+]

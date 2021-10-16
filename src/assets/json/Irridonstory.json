@@ -1,0 +1,1108 @@
+{
+ "title": "Imposing Justice",
+ "header": "Something big must be up with the Colossus for the Chief Judge of Lumopolis to show up in person! What is going on?",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "The Chief Judge... What an imposing figure..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "She has come to the Colossus on public business."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But she isn't much of a talker. Even when everyone chats and socializes, she's dead silent..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Such a pretty lady... I bet her smile is even prettier."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No no no..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No matter how you look at it, the Chief Judge is too serious and official of a person to think about like that!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whoa!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Chief Judge! H-How do you do?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Please, just call me Irridon. We're working together now, no need to be so formal."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I heard you commenting on my appearance, and I've been standing here since."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Oh man, just punish me and spare me this public shaming...!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "P-Please forgive me!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "No need to apologize, not for something like this."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It was a compliment by any measure. I should be flattered."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Irridon... You're not exactly what I thought you'd be like."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Oh? I'm interested... What should I be like to you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Er... Well, it's just... Uh..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-It doesn't matter! Besides, I almost forgot I had something important to discuss with you!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Yes, I just heard it from Carleen... Strange happenings on the Colossus, correct?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Our food has been disappearing from the kitchen, and strange tracks were left..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Even though it was just some awful dishes Vice made that no one would miss..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But then... We started hearing strange footsteps outside our quarters at night..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But when I checked those footprints in the morning, they didn't resemble an Aurorian's at all."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So I thought maybe it was an unknown enemy..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Hmm... Strange, indeed."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Has the Colossus been to any strange places lately? Or have you seen any suspicious people?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No one I would call suspicious, no."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "As for strange places..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not sure if it counts, but when the Colossus had to make an emergency landing a while back, we stopped by some ruins."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But it was just for a few minutes."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Hmm... I see. Have you started a formal investigation yet?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I... I can't...",
+     "link": "1"
+    },
+    {
+     "text": "I... I think I have?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Well... I can't actually use Lumina, so..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I understand. I can handle it from here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait, she's actually taking the case?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could whatever's happening on Colossus... be about Lumopolis' great secret?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean it's all taken care of now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's incredible, Irridon... So, what was behind those tracks and the missing food?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Just as you suspected, a high-level Eclipsite snuck onboard when you stopped in those ruins."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "And you dealt with it alone?! Are you okay?!",
+     "link": "4"
+    },
+    {
+     "text": "A high-level Eclipsite! Did it escape?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "It doesn't seem like it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You really don't pull any punches..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I understand. I can handle it from here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait, she's actually taking the case?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could whatever's happening on Colossus... be about Lumopolis' great secret?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean it's all taken care of now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's incredible, Irridon... So, what was behind those tracks and the missing food?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Just as you suspected, a high-level Eclipsite snuck onboard when you stopped in those ruins."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "And you dealt with it alone?! Are you okay?!",
+     "link": "4"
+    },
+    {
+     "text": "A high-level Eclipsite! Did it escape?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I understand. I can handle it from here."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Wait, she's actually taking the case?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Could whatever's happening on Colossus... be about Lumopolis' great secret?!)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You mean it's all taken care of now?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That's incredible, Irridon... So, what was behind those tracks and the missing food?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Just as you suspected, a high-level Eclipsite snuck onboard when you stopped in those ruins."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "And you dealt with it alone?! Are you okay?!",
+     "link": "4"
+    },
+    {
+     "text": "A high-level Eclipsite! Did it escape?!",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "I'm... not sure it was quite what you expected."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I didn't have to battle with it, I simply interrogated it."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But rest assured, it is no longer on the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So then... What happened?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You don't remember? You told me yourself, the Colossus stopped in some ruins previously."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I remember it clearly... then was that when..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It snuck onboard, yes."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But it didn't attack any Aurorians, nor did it steal any intel from the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Now, tell me what you're doing here or answer to my sword."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eep..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Talk!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "No, please... Uh..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "No blood or signs of combat... Are you not here to ambush the crew?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I noticed that one of the pantries had been destroyed..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "*Roars*"
+    },
+    {
+     "char": "???:",
+     "dialogue": "M-Me... Hungry... Look for... Food... Hungry!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "So... Can... Eat more...?"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Aurorian food... Mmm... Tasty..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Me... No hurt... No hurt Aurorian!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(A high-level Eclipsite... that hadn't hurt anyone?)"
+    },
+    {
+     "char": "???:",
+     "dialogue": "You... Eat? Here... Good..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(It's... sharing its food? This isn't normal Eclipsite behavior...)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(I have seen these special types of Eclipsites before\u2014kind, peaceful beings that can understand humans, and even Aurorians.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(If it is one of them... perhaps it's better to leave it here for observation.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It is my understanding..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That even an Eclipsite deserves a fair trial. You have hurt no one, so I have no reason to eradicate you."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eh?! Boo-hoo..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But food theft is a punishable offense... And the Colossus could do with more cleaners."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "If you insist on eating their food, then clean this place up!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-Huh?!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "In the course of my interrogation, I also learned\u2014"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That it only snuck onboard the Colossus and risked its life out of its dire need for food."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Its behavior is nothing like regular Eclipsites, so I gave it a simple test, to clean up the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "And it did so without hesitation."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "An Eclipsite that enjoys eating Aurorian food... That's incredible."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So... You didn't kill it?",
+     "link": "7"
+    },
+    {
+     "text": "But it was still an Eclipsite!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "It didn't escape, no."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But rest assured, it is no longer on the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So then... What happened?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You don't remember? You told me yourself, the Colossus stopped in some ruins previously."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I remember it clearly... then was that when..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It snuck onboard, yes."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But it didn't attack any Aurorians, nor did it steal any intel from the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Now, tell me what you're doing here or answer to my sword."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eep..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Talk!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "No, please... Uh..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "No blood or signs of combat... Are you not here to ambush the crew?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I noticed that one of the pantries had been destroyed..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "*Roars*"
+    },
+    {
+     "char": "???:",
+     "dialogue": "M-Me... Hungry... Look for... Food... Hungry!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "So... Can... Eat more...?"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Aurorian food... Mmm... Tasty..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Me... No hurt... No hurt Aurorian!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(A high-level Eclipsite... that hadn't hurt anyone?)"
+    },
+    {
+     "char": "???:",
+     "dialogue": "You... Eat? Here... Good..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(It's... sharing its food? This isn't normal Eclipsite behavior...)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(I have seen these special types of Eclipsites before\u2014kind, peaceful beings that can understand humans, and even Aurorians.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(If it is one of them... perhaps it's better to leave it here for observation.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It is my understanding..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That even an Eclipsite deserves a fair trial. You have hurt no one, so I have no reason to eradicate you."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eh?! Boo-hoo..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But food theft is a punishable offense... And the Colossus could do with more cleaners."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "If you insist on eating their food, then clean this place up!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-Huh?!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "In the course of my interrogation, I also learned\u2014"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That it only snuck onboard the Colossus and risked its life out of its dire need for food."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Its behavior is nothing like regular Eclipsites, so I gave it a simple test, to clean up the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "And it did so without hesitation."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "An Eclipsite that enjoys eating Aurorian food... That's incredible."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So... You didn't kill it?",
+     "link": "7"
+    },
+    {
+     "text": "But it was still an Eclipsite!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "But rest assured, it is no longer on the Colossus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So then... What happened?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You don't remember? You told me yourself, the Colossus stopped in some ruins previously."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes, I remember it clearly... then was that when..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It snuck onboard, yes."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But it didn't attack any Aurorians, nor did it steal any intel from the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Now, tell me what you're doing here or answer to my sword."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eep..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Talk!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "No, please... Uh..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "No blood or signs of combat... Are you not here to ambush the crew?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I noticed that one of the pantries had been destroyed..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "*Roars*"
+    },
+    {
+     "char": "???:",
+     "dialogue": "M-Me... Hungry... Look for... Food... Hungry!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "So... Can... Eat more...?"
+    },
+    {
+     "char": "???:",
+     "dialogue": "Aurorian food... Mmm... Tasty..."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Me... No hurt... No hurt Aurorian!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(A high-level Eclipsite... that hadn't hurt anyone?)"
+    },
+    {
+     "char": "???:",
+     "dialogue": "You... Eat? Here... Good..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(It's... sharing its food? This isn't normal Eclipsite behavior...)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(I have seen these special types of Eclipsites before\u2014kind, peaceful beings that can understand humans, and even Aurorians.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "(If it is one of them... perhaps it's better to leave it here for observation.)"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "It is my understanding..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That even an Eclipsite deserves a fair trial. You have hurt no one, so I have no reason to eradicate you."
+    },
+    {
+     "char": "???:",
+     "dialogue": "Eh?! Boo-hoo..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "But food theft is a punishable offense... And the Colossus could do with more cleaners."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "If you insist on eating their food, then clean this place up!"
+    },
+    {
+     "char": "???:",
+     "dialogue": "H-Huh?!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "In the course of my interrogation, I also learned\u2014"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That it only snuck onboard the Colossus and risked its life out of its dire need for food."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Its behavior is nothing like regular Eclipsites, so I gave it a simple test, to clean up the Colossus."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "And it did so without hesitation."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "An Eclipsite that enjoys eating Aurorian food... That's incredible."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "So... You didn't kill it?",
+     "link": "7"
+    },
+    {
+     "text": "But it was still an Eclipsite!",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "I gave it some food, and sent it on its way."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "The Sword of Borrowing will not slay the innocent... So I showed it pity."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It... actually likes Vice's weird food?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Octopus stewed in milk... Can you even call that food? What a disturbing preference..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Never mind, I'm just glad no one was hurt."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So everything's okay now?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "As you said, no one was hurt and nothing was damaged."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So all these strange occurrences... were because of that Eclipsite?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That appears to be the case."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Th-There's really nothing else going on?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I conducted a full search of the Colossus as well and found nothing out of the ordinary."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-Is that so... That's good."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This whole time, I thought maybe it had to do with some deep, dark secrets of Lumopolis... I haven't slept for days."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Why would you think that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "When I told Carleen about it, she sat thinking for a long time before she said she would find someone to handle it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Carleen's has on a... serious look."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought maybe she knew something, and that she couldn't deal with it herself... So she requested someone as capable as you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whatever the truth was... I couldn't shake the feeling that it was tied to Lumopolis somehow!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You have quite the imagination."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "There is nothing wrong with being cautious, but the matter has been resolved. You can rest easy now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I wonder why Carleen's expression was so grim, then..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You might be overthinking things."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I'm almost certain she was wondering who to call on for this matter."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "The Hall of Justice has been very busy lately, and I was on a long-overdue vacation."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I rarely take time off for myself, so I imagine she didn't want to disturb me."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "And it's not in my nature to turn away a person in need or a problem that needs solving."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Hall of Justice... is also not quite what I expected."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought everyone there spend their days reading documents, working on their matters with that serious look on their face..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But when I saw you and the others from the Hall of Justice, I realized that wasn't the case."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "So you still think I'm that kind of person? Serious and harsh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes... I mean no! Not at all! Not even a little!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, you're the Chief Judge of Lumopolis! I'd understand if you were like that, it's perfectly natural!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Don't worry, I'm not surprised that you think that way."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Maybe I do need to make some changes in life, too..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "What if... What if I try a different personality, starting tomorrow? Say, a funny type?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "H-Huh??? I-I mean, it doesn't have to be so sudden..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I don't want others to find me intimidating either, you know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you're just fine the way you are! Honestly!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Irridon:",
+     "dialogue": "Perhaps an evil Aurorian is much more dreadful than a harmless Eclipsite..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I would never let an Aurorian walk free if their hands were stained with blood... And I would never kill an Eclipsite that has done nothing wrong."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It... actually likes Vice's weird food?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Octopus stewed in milk... Can you even call that food? What a disturbing preference..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Never mind, I'm just glad no one was hurt."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So everything's okay now?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "As you said, no one was hurt and nothing was damaged."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So all these strange occurrences... were because of that Eclipsite?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "That appears to be the case."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Th-There's really nothing else going on?"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I conducted a full search of the Colossus as well and found nothing out of the ordinary."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I-Is that so... That's good."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This whole time, I thought maybe it had to do with some deep, dark secrets of Lumopolis... I haven't slept for days."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Why would you think that?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "When I told Carleen about it, she sat thinking for a long time before she said she would find someone to handle it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Carleen's has on a... serious look."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Hmm..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought maybe she knew something, and that she couldn't deal with it herself... So she requested someone as capable as you!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Whatever the truth was... I couldn't shake the feeling that it was tied to Lumopolis somehow!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You have quite the imagination."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "There is nothing wrong with being cautious, but the matter has been resolved. You can rest easy now."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I wonder why Carleen's expression was so grim, then..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "You might be overthinking things."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I'm almost certain she was wondering who to call on for this matter."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "The Hall of Justice has been very busy lately, and I was on a long-overdue vacation."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I rarely take time off for myself, so I imagine she didn't want to disturb me."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "And it's not in my nature to turn away a person in need or a problem that needs solving."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The Hall of Justice... is also not quite what I expected."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought everyone there spend their days reading documents, working on their matters with that serious look on their face..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But when I saw you and the others from the Hall of Justice, I realized that wasn't the case."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "So you still think I'm that kind of person? Serious and harsh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes... I mean no! Not at all! Not even a little!!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I mean, you're the Chief Judge of Lumopolis! I'd understand if you were like that, it's perfectly natural!"
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Don't worry, I'm not surprised that you think that way."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "Maybe I do need to make some changes in life, too..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "What if... What if I try a different personality, starting tomorrow? Say, a funny type?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "H-Huh??? I-I mean, it doesn't have to be so sudden..."
+    },
+    {
+     "char": "Irridon:",
+     "dialogue": "I don't want others to find me intimidating either, you know."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I understand, but..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But you're just fine the way you are! Honestly!"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

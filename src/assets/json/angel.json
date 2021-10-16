@@ -1,715 +1,866 @@
 {
-      "name": "Angel",
-      "faction": "Lumopolis",
-      "element_main": "Thunder",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Detonator",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Summons 12 lightning strikes, each dealing 180% damage to a random 2\u00d72 area on the field.",
-                  "Summons 12 lightning strikes, each dealing 180% damage to a random 2\u00d72 area on the field."
-            ]
-      },
-      "equip": {
-            "name": "Wing Feather",
-            "passive": "Feathery Landing",
-            "description": [
-                  [
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
-                  ],
-                  [
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
-                        "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 8 tiles in a cross shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "2",
-                              "description": "Deals 150% damage to 12 tiles in a diamond shape."
-                        },
-                        {
-                              "cost": "8",
-                              "description": "Deals 150% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Thunder Crystal Shard",
-                        "Thunder Flare Powder",
-                        "White Night Stone",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
-            },
-            {
-                  "material": [
-                        "Thunder Flare Rock",
-                        "Thunder Potion I",
-                        "Morning Stone",
-                        "Nightium"
-                  ],
-                  "type": "Chain Combo",
-                  "before": "Deals 150% damage to 8 tiles in a cross shape.",
-                  "after": "Deals 150% damage to 12 tiles in a diamond shape."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 555,
-                        "def": 207,
-                        "hp": 1632
-                  },
-                  {
-                        "att": 566,
-                        "def": 211,
-                        "hp": 1662
-                  },
-                  {
-                        "att": 577,
-                        "def": 214,
-                        "hp": 1692
-                  },
-                  {
-                        "att": 588,
-                        "def": 218,
-                        "hp": 1722
-                  },
-                  {
-                        "att": 599,
-                        "def": 222,
-                        "hp": 1752
-                  },
-                  {
-                        "att": 610,
-                        "def": 225,
-                        "hp": 1782
-                  },
-                  {
-                        "att": 621,
-                        "def": 229,
-                        "hp": 1812
-                  },
-                  {
-                        "att": 632,
-                        "def": 233,
-                        "hp": 1842
-                  },
-                  {
-                        "att": 644,
-                        "def": 236,
-                        "hp": 1872
-                  },
-                  {
-                        "att": 655,
-                        "def": 240,
-                        "hp": 1902
-                  },
-                  {
-                        "att": 666,
-                        "def": 243,
-                        "hp": 1931
-                  },
-                  {
-                        "att": 677,
-                        "def": 247,
-                        "hp": 1961
-                  },
-                  {
-                        "att": 688,
-                        "def": 251,
-                        "hp": 1991
-                  },
-                  {
-                        "att": 699,
-                        "def": 254,
-                        "hp": 2021
-                  },
-                  {
-                        "att": 710,
-                        "def": 258,
-                        "hp": 2051
-                  },
-                  {
-                        "att": 721,
-                        "def": 262,
-                        "hp": 2081
-                  },
-                  {
-                        "att": 732,
-                        "def": 265,
-                        "hp": 2111
-                  },
-                  {
-                        "att": 743,
-                        "def": 269,
-                        "hp": 2141
-                  },
-                  {
-                        "att": 754,
-                        "def": 273,
-                        "hp": 2171
-                  },
-                  {
-                        "att": 765,
-                        "def": 276,
-                        "hp": 2201
-                  },
-                  {
-                        "att": 776,
-                        "def": 280,
-                        "hp": 2231
-                  },
-                  {
-                        "att": 787,
-                        "def": 284,
-                        "hp": 2261
-                  },
-                  {
-                        "att": 798,
-                        "def": 287,
-                        "hp": 2291
-                  },
-                  {
-                        "att": 809,
-                        "def": 291,
-                        "hp": 2321
-                  },
-                  {
-                        "att": 820,
-                        "def": 294,
-                        "hp": 2351
-                  },
-                  {
-                        "att": 831,
-                        "def": 298,
-                        "hp": 2381
-                  },
-                  {
-                        "att": 842,
-                        "def": 302,
-                        "hp": 2411
-                  },
-                  {
-                        "att": 853,
-                        "def": 305,
-                        "hp": 2441
-                  },
-                  {
-                        "att": 864,
-                        "def": 309,
-                        "hp": 2471
-                  },
-                  {
-                        "att": 875,
-                        "def": 313,
-                        "hp": 2501
-                  },
-                  {
-                        "att": 969,
-                        "def": 347,
-                        "hp": 2758
-                  },
-                  {
-                        "att": 983,
-                        "def": 352,
-                        "hp": 2795
-                  },
-                  {
-                        "att": 996,
-                        "def": 356,
-                        "hp": 2833
-                  },
-                  {
-                        "att": 1010,
-                        "def": 361,
-                        "hp": 2870
-                  },
-                  {
-                        "att": 1024,
-                        "def": 365,
-                        "hp": 2908
-                  },
-                  {
-                        "att": 1038,
-                        "def": 370,
-                        "hp": 2945
-                  },
-                  {
-                        "att": 1052,
-                        "def": 375,
-                        "hp": 2983
-                  },
-                  {
-                        "att": 1065,
-                        "def": 379,
-                        "hp": 3020
-                  },
-                  {
-                        "att": 1079,
-                        "def": 384,
-                        "hp": 3057
-                  },
-                  {
-                        "att": 1093,
-                        "def": 388,
-                        "hp": 3095
-                  },
-                  {
-                        "att": 1107,
-                        "def": 393,
-                        "hp": 3132
-                  },
-                  {
-                        "att": 1121,
-                        "def": 397,
-                        "hp": 3170
-                  },
-                  {
-                        "att": 1134,
-                        "def": 402,
-                        "hp": 3207
-                  },
-                  {
-                        "att": 1148,
-                        "def": 406,
-                        "hp": 3245
-                  },
-                  {
-                        "att": 1162,
-                        "def": 411,
-                        "hp": 3282
-                  },
-                  {
-                        "att": 1176,
-                        "def": 416,
-                        "hp": 3320
-                  },
-                  {
-                        "att": 1189,
-                        "def": 420,
-                        "hp": 3357
-                  },
-                  {
-                        "att": 1203,
-                        "def": 425,
-                        "hp": 3394
-                  },
-                  {
-                        "att": 1217,
-                        "def": 429,
-                        "hp": 3432
-                  },
-                  {
-                        "att": 1231,
-                        "def": 434,
-                        "hp": 3469
-                  },
-                  {
-                        "att": 1245,
-                        "def": 438,
-                        "hp": 3507
-                  },
-                  {
-                        "att": 1258,
-                        "def": 443,
-                        "hp": 3544
-                  },
-                  {
-                        "att": 1272,
-                        "def": 447,
-                        "hp": 3582
-                  },
-                  {
-                        "att": 1286,
-                        "def": 452,
-                        "hp": 3619
-                  },
-                  {
-                        "att": 1300,
-                        "def": 457,
-                        "hp": 3657
-                  },
-                  {
-                        "att": 1313,
-                        "def": 461,
-                        "hp": 3694
-                  },
-                  {
-                        "att": 1327,
-                        "def": 466,
-                        "hp": 3731
-                  },
-                  {
-                        "att": 1341,
-                        "def": 470,
-                        "hp": 3769
-                  },
-                  {
-                        "att": 1355,
-                        "def": 475,
-                        "hp": 3806
-                  },
-                  {
-                        "att": 1369,
-                        "def": 479,
-                        "hp": 3844
-                  },
-                  {
-                        "att": 1382,
-                        "def": 484,
-                        "hp": 3881
-                  },
-                  {
-                        "att": 1396,
-                        "def": 488,
-                        "hp": 3919
-                  },
-                  {
-                        "att": 1410,
-                        "def": 493,
-                        "hp": 3956
-                  },
-                  {
-                        "att": 1424,
-                        "def": 498,
-                        "hp": 3993
-                  },
-                  {
-                        "att": 1438,
-                        "def": 502,
-                        "hp": 4031
-                  },
-                  {
-                        "att": 1451,
-                        "def": 507,
-                        "hp": 4068
-                  },
-                  {
-                        "att": 1465,
-                        "def": 511,
-                        "hp": 4106
-                  },
-                  {
-                        "att": 1479,
-                        "def": 516,
-                        "hp": 4143
-                  },
-                  {
-                        "att": 1493,
-                        "def": 520,
-                        "hp": 4181
-                  },
-                  {
-                        "att": 1506,
-                        "def": 525,
-                        "hp": 4218
-                  },
-                  {
-                        "att": 1647,
-                        "def": 573,
-                        "hp": 4586
-                  },
-                  {
-                        "att": 1657,
-                        "def": 577,
-                        "hp": 4614
-                  },
-                  {
-                        "att": 1667,
-                        "def": 580,
-                        "hp": 4642
-                  },
-                  {
-                        "att": 1678,
-                        "def": 584,
-                        "hp": 4670
-                  },
-                  {
-                        "att": 1688,
-                        "def": 587,
-                        "hp": 4699
-                  },
-                  {
-                        "att": 1698,
-                        "def": 590,
-                        "hp": 4727
-                  },
-                  {
-                        "att": 1709,
-                        "def": 594,
-                        "hp": 4755
-                  },
-                  {
-                        "att": 1719,
-                        "def": 597,
-                        "hp": 4783
-                  },
-                  {
-                        "att": 1730,
-                        "def": 601,
-                        "hp": 4811
-                  },
-                  {
-                        "att": 1740,
-                        "def": 604,
-                        "hp": 4839
-                  },
-                  {
-                        "att": 1750,
-                        "def": 607,
-                        "hp": 4867
-                  },
-                  {
-                        "att": 1761,
-                        "def": 611,
-                        "hp": 4895
-                  },
-                  {
-                        "att": 1771,
-                        "def": 614,
-                        "hp": 4923
-                  },
-                  {
-                        "att": 1781,
-                        "def": 618,
-                        "hp": 4951
-                  },
-                  {
-                        "att": 1792,
-                        "def": 621,
-                        "hp": 4979
-                  },
-                  {
-                        "att": 1802,
-                        "def": 625,
-                        "hp": 5007
-                  },
-                  {
-                        "att": 1812,
-                        "def": 628,
-                        "hp": 5035
-                  },
-                  {
-                        "att": 1823,
-                        "def": 631,
-                        "hp": 5064
-                  },
-                  {
-                        "att": 1833,
-                        "def": 635,
-                        "hp": 5092
-                  },
-                  {
-                        "att": 1843,
-                        "def": 638,
-                        "hp": 5120
-                  },
-                  {
-                        "att": 1854,
-                        "def": 642,
-                        "hp": 5148
-                  },
-                  {
-                        "att": 1864,
-                        "def": 645,
-                        "hp": 5176
-                  },
-                  {
-                        "att": 1874,
-                        "def": 648,
-                        "hp": 5204
-                  },
-                  {
-                        "att": 1885,
-                        "def": 652,
-                        "hp": 5232
-                  },
-                  {
-                        "att": 1895,
-                        "def": 655,
-                        "hp": 5260
-                  },
-                  {
-                        "att": 1905,
-                        "def": 659,
-                        "hp": 5288
-                  },
-                  {
-                        "att": 1916,
-                        "def": 662,
-                        "hp": 5316
-                  },
-                  {
-                        "att": 1926,
-                        "def": 666,
-                        "hp": 5344
-                  },
-                  {
-                        "att": 1936,
-                        "def": 669,
-                        "hp": 5372
-                  },
-                  {
-                        "att": 1947,
-                        "def": 672,
-                        "hp": 5400
-                  },
-                  {
-                        "att": 1957,
-                        "def": 676,
-                        "hp": 5429
-                  },
-                  {
-                        "att": 1967,
-                        "def": 679,
-                        "hp": 5457
-                  },
-                  {
-                        "att": 1978,
-                        "def": 683,
-                        "hp": 5485
-                  },
-                  {
-                        "att": 1988,
-                        "def": 686,
-                        "hp": 5513
-                  },
-                  {
-                        "att": 1998,
-                        "def": 689,
-                        "hp": 5541
-                  },
-                  {
-                        "att": 2009,
-                        "def": 693,
-                        "hp": 5569
-                  },
-                  {
-                        "att": 2019,
-                        "def": 696,
-                        "hp": 5597
-                  },
-                  {
-                        "att": 2029,
-                        "def": 700,
-                        "hp": 5625
-                  },
-                  {
-                        "att": 2040,
-                        "def": 703,
-                        "hp": 5653
-                  },
-                  {
-                        "att": 2050,
-                        "def": 707,
-                        "hp": 5681
-                  },
-                  {
-                        "att": 2060,
-                        "def": 710,
-                        "hp": 5709
-                  },
-                  {
-                        "att": 2071,
-                        "def": 713,
-                        "hp": 5737
-                  },
-                  {
-                        "att": 2081,
-                        "def": 717,
-                        "hp": 5766
-                  },
-                  {
-                        "att": 2091,
-                        "def": 720,
-                        "hp": 5794
-                  },
-                  {
-                        "att": 2102,
-                        "def": 724,
-                        "hp": 5822
-                  },
-                  {
-                        "att": 2112,
-                        "def": 727,
-                        "hp": 5850
-                  },
-                  {
-                        "att": 2122,
-                        "def": 730,
-                        "hp": 5878
-                  },
-                  {
-                        "att": 2133,
-                        "def": 734,
-                        "hp": 5906
-                  },
-                  {
-                        "att": 2143,
-                        "def": 737,
-                        "hp": 5934
-                  },
-                  {
-                        "att": 2153,
-                        "def": 741,
-                        "hp": 5962
-                  }
-            ]
-      }
+ "name": "Angel",
+ "faction": "Lumopolis",
+ "element_main": "Thunder",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Detonator",
+ "skill": {
+  "name": "Celestial Judgment",
+  "cd": "3 Turn",
+  "description": [
+   "Summons 12 lightning strikes, each dealing 180% damage to a random 2\u00d72 area on the field.",
+   "Summons 12 lightning strikes, each dealing 180% damage to a random 2\u00d72 area on the field."
+  ]
+ },
+ "equip": {
+  "name": "Wing Feather",
+  "passive": "Feathery Landing",
+  "description": [
+   [
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
+   ],
+   [
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 40% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 60% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 80% damage.",
+    "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
+   ]
+  ],
+  "introduction": "Angel was born with a pair of beautiful wings, however, one of them was permanently damaged in an Eclipsite attack, leaving only a cluster of feathers. Angel carries these feathers with her, hoping to one day restore her damaged wing."
+ },
+ "chain": {
+  "name": "Feather Dance",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 8 tiles in a cross shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to enemies in a cross shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 150% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Thunder Crystal Shard",
+    "Thunder Flare Powder",
+    "White Night Stone",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Each of the Active Skill's flashes of lightning has a 15% chance to deal 100% damage."
+  },
+  {
+   "material": [
+    "Thunder Flare Rock",
+    "Thunder Potion I",
+    "Morning Stone",
+    "Nightium"
+   ],
+   "type": "Chain Combo",
+   "before": "Deals 150% damage to 8 tiles in a cross shape.",
+   "after": "Deals 150% damage to 12 tiles in a diamond shape."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 555,
+    "def": 207,
+    "hp": 1632
+   },
+   {
+    "att": 566,
+    "def": 211,
+    "hp": 1662
+   },
+   {
+    "att": 577,
+    "def": 214,
+    "hp": 1692
+   },
+   {
+    "att": 588,
+    "def": 218,
+    "hp": 1722
+   },
+   {
+    "att": 599,
+    "def": 222,
+    "hp": 1752
+   },
+   {
+    "att": 610,
+    "def": 225,
+    "hp": 1782
+   },
+   {
+    "att": 621,
+    "def": 229,
+    "hp": 1812
+   },
+   {
+    "att": 632,
+    "def": 233,
+    "hp": 1842
+   },
+   {
+    "att": 644,
+    "def": 236,
+    "hp": 1872
+   },
+   {
+    "att": 655,
+    "def": 240,
+    "hp": 1902
+   },
+   {
+    "att": 666,
+    "def": 243,
+    "hp": 1931
+   },
+   {
+    "att": 677,
+    "def": 247,
+    "hp": 1961
+   },
+   {
+    "att": 688,
+    "def": 251,
+    "hp": 1991
+   },
+   {
+    "att": 699,
+    "def": 254,
+    "hp": 2021
+   },
+   {
+    "att": 710,
+    "def": 258,
+    "hp": 2051
+   },
+   {
+    "att": 721,
+    "def": 262,
+    "hp": 2081
+   },
+   {
+    "att": 732,
+    "def": 265,
+    "hp": 2111
+   },
+   {
+    "att": 743,
+    "def": 269,
+    "hp": 2141
+   },
+   {
+    "att": 754,
+    "def": 273,
+    "hp": 2171
+   },
+   {
+    "att": 765,
+    "def": 276,
+    "hp": 2201
+   },
+   {
+    "att": 776,
+    "def": 280,
+    "hp": 2231
+   },
+   {
+    "att": 787,
+    "def": 284,
+    "hp": 2261
+   },
+   {
+    "att": 798,
+    "def": 287,
+    "hp": 2291
+   },
+   {
+    "att": 809,
+    "def": 291,
+    "hp": 2321
+   },
+   {
+    "att": 820,
+    "def": 294,
+    "hp": 2351
+   },
+   {
+    "att": 831,
+    "def": 298,
+    "hp": 2381
+   },
+   {
+    "att": 842,
+    "def": 302,
+    "hp": 2411
+   },
+   {
+    "att": 853,
+    "def": 305,
+    "hp": 2441
+   },
+   {
+    "att": 864,
+    "def": 309,
+    "hp": 2471
+   },
+   {
+    "att": 875,
+    "def": 313,
+    "hp": 2501
+   },
+   {
+    "att": 969,
+    "def": 347,
+    "hp": 2758
+   },
+   {
+    "att": 983,
+    "def": 352,
+    "hp": 2795
+   },
+   {
+    "att": 996,
+    "def": 356,
+    "hp": 2833
+   },
+   {
+    "att": 1010,
+    "def": 361,
+    "hp": 2870
+   },
+   {
+    "att": 1024,
+    "def": 365,
+    "hp": 2908
+   },
+   {
+    "att": 1038,
+    "def": 370,
+    "hp": 2945
+   },
+   {
+    "att": 1052,
+    "def": 375,
+    "hp": 2983
+   },
+   {
+    "att": 1065,
+    "def": 379,
+    "hp": 3020
+   },
+   {
+    "att": 1079,
+    "def": 384,
+    "hp": 3057
+   },
+   {
+    "att": 1093,
+    "def": 388,
+    "hp": 3095
+   },
+   {
+    "att": 1107,
+    "def": 393,
+    "hp": 3132
+   },
+   {
+    "att": 1121,
+    "def": 397,
+    "hp": 3170
+   },
+   {
+    "att": 1134,
+    "def": 402,
+    "hp": 3207
+   },
+   {
+    "att": 1148,
+    "def": 406,
+    "hp": 3245
+   },
+   {
+    "att": 1162,
+    "def": 411,
+    "hp": 3282
+   },
+   {
+    "att": 1176,
+    "def": 416,
+    "hp": 3320
+   },
+   {
+    "att": 1189,
+    "def": 420,
+    "hp": 3357
+   },
+   {
+    "att": 1203,
+    "def": 425,
+    "hp": 3394
+   },
+   {
+    "att": 1217,
+    "def": 429,
+    "hp": 3432
+   },
+   {
+    "att": 1231,
+    "def": 434,
+    "hp": 3469
+   },
+   {
+    "att": 1245,
+    "def": 438,
+    "hp": 3507
+   },
+   {
+    "att": 1258,
+    "def": 443,
+    "hp": 3544
+   },
+   {
+    "att": 1272,
+    "def": 447,
+    "hp": 3582
+   },
+   {
+    "att": 1286,
+    "def": 452,
+    "hp": 3619
+   },
+   {
+    "att": 1300,
+    "def": 457,
+    "hp": 3657
+   },
+   {
+    "att": 1313,
+    "def": 461,
+    "hp": 3694
+   },
+   {
+    "att": 1327,
+    "def": 466,
+    "hp": 3731
+   },
+   {
+    "att": 1341,
+    "def": 470,
+    "hp": 3769
+   },
+   {
+    "att": 1355,
+    "def": 475,
+    "hp": 3806
+   },
+   {
+    "att": 1369,
+    "def": 479,
+    "hp": 3844
+   },
+   {
+    "att": 1382,
+    "def": 484,
+    "hp": 3881
+   },
+   {
+    "att": 1396,
+    "def": 488,
+    "hp": 3919
+   },
+   {
+    "att": 1410,
+    "def": 493,
+    "hp": 3956
+   },
+   {
+    "att": 1424,
+    "def": 498,
+    "hp": 3993
+   },
+   {
+    "att": 1438,
+    "def": 502,
+    "hp": 4031
+   },
+   {
+    "att": 1451,
+    "def": 507,
+    "hp": 4068
+   },
+   {
+    "att": 1465,
+    "def": 511,
+    "hp": 4106
+   },
+   {
+    "att": 1479,
+    "def": 516,
+    "hp": 4143
+   },
+   {
+    "att": 1493,
+    "def": 520,
+    "hp": 4181
+   },
+   {
+    "att": 1506,
+    "def": 525,
+    "hp": 4218
+   },
+   {
+    "att": 1647,
+    "def": 573,
+    "hp": 4586
+   },
+   {
+    "att": 1657,
+    "def": 577,
+    "hp": 4614
+   },
+   {
+    "att": 1667,
+    "def": 580,
+    "hp": 4642
+   },
+   {
+    "att": 1678,
+    "def": 584,
+    "hp": 4670
+   },
+   {
+    "att": 1688,
+    "def": 587,
+    "hp": 4699
+   },
+   {
+    "att": 1698,
+    "def": 590,
+    "hp": 4727
+   },
+   {
+    "att": 1709,
+    "def": 594,
+    "hp": 4755
+   },
+   {
+    "att": 1719,
+    "def": 597,
+    "hp": 4783
+   },
+   {
+    "att": 1730,
+    "def": 601,
+    "hp": 4811
+   },
+   {
+    "att": 1740,
+    "def": 604,
+    "hp": 4839
+   },
+   {
+    "att": 1750,
+    "def": 607,
+    "hp": 4867
+   },
+   {
+    "att": 1761,
+    "def": 611,
+    "hp": 4895
+   },
+   {
+    "att": 1771,
+    "def": 614,
+    "hp": 4923
+   },
+   {
+    "att": 1781,
+    "def": 618,
+    "hp": 4951
+   },
+   {
+    "att": 1792,
+    "def": 621,
+    "hp": 4979
+   },
+   {
+    "att": 1802,
+    "def": 625,
+    "hp": 5007
+   },
+   {
+    "att": 1812,
+    "def": 628,
+    "hp": 5035
+   },
+   {
+    "att": 1823,
+    "def": 631,
+    "hp": 5064
+   },
+   {
+    "att": 1833,
+    "def": 635,
+    "hp": 5092
+   },
+   {
+    "att": 1843,
+    "def": 638,
+    "hp": 5120
+   },
+   {
+    "att": 1854,
+    "def": 642,
+    "hp": 5148
+   },
+   {
+    "att": 1864,
+    "def": 645,
+    "hp": 5176
+   },
+   {
+    "att": 1874,
+    "def": 648,
+    "hp": 5204
+   },
+   {
+    "att": 1885,
+    "def": 652,
+    "hp": 5232
+   },
+   {
+    "att": 1895,
+    "def": 655,
+    "hp": 5260
+   },
+   {
+    "att": 1905,
+    "def": 659,
+    "hp": 5288
+   },
+   {
+    "att": 1916,
+    "def": 662,
+    "hp": 5316
+   },
+   {
+    "att": 1926,
+    "def": 666,
+    "hp": 5344
+   },
+   {
+    "att": 1936,
+    "def": 669,
+    "hp": 5372
+   },
+   {
+    "att": 1947,
+    "def": 672,
+    "hp": 5400
+   },
+   {
+    "att": 1957,
+    "def": 676,
+    "hp": 5429
+   },
+   {
+    "att": 1967,
+    "def": 679,
+    "hp": 5457
+   },
+   {
+    "att": 1978,
+    "def": 683,
+    "hp": 5485
+   },
+   {
+    "att": 1988,
+    "def": 686,
+    "hp": 5513
+   },
+   {
+    "att": 1998,
+    "def": 689,
+    "hp": 5541
+   },
+   {
+    "att": 2009,
+    "def": 693,
+    "hp": 5569
+   },
+   {
+    "att": 2019,
+    "def": 696,
+    "hp": 5597
+   },
+   {
+    "att": 2029,
+    "def": 700,
+    "hp": 5625
+   },
+   {
+    "att": 2040,
+    "def": 703,
+    "hp": 5653
+   },
+   {
+    "att": 2050,
+    "def": 707,
+    "hp": 5681
+   },
+   {
+    "att": 2060,
+    "def": 710,
+    "hp": 5709
+   },
+   {
+    "att": 2071,
+    "def": 713,
+    "hp": 5737
+   },
+   {
+    "att": 2081,
+    "def": 717,
+    "hp": 5766
+   },
+   {
+    "att": 2091,
+    "def": 720,
+    "hp": 5794
+   },
+   {
+    "att": 2102,
+    "def": 724,
+    "hp": 5822
+   },
+   {
+    "att": 2112,
+    "def": 727,
+    "hp": 5850
+   },
+   {
+    "att": 2122,
+    "def": 730,
+    "hp": 5878
+   },
+   {
+    "att": 2133,
+    "def": 734,
+    "hp": 5906
+   },
+   {
+    "att": 2143,
+    "def": 737,
+    "hp": 5934
+   },
+   {
+    "att": 2153,
+    "def": 741,
+    "hp": 5962
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Prism Focus",
+    "effect": "When deployed to the Prism Pillar, the extra Prism recovery rate +20% per hour."
+   },
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Irridon",
+     "Angel"
+    ],
+    "chat": [
+     {
+      "character": "Irridon:",
+      "text": "Did you read the textbook I gave you?"
+     },
+     {
+      "character": "Angel:",
+      "text": "I've just been studying up on trials and punishments for criminal acts."
+     },
+     {
+      "character": "Irridon:",
+      "text": "The relationship between injury and death is very important in a trial."
+     },
+     {
+      "character": "Angel:",
+      "text": "I know about all that."
+     },
+     {
+      "character": "Irridon:",
+      "text": "Then let me test you. Suppose an Eclipsite seriously injures an Aurorian."
+     },
+     {
+      "character": "Angel:",
+      "text": "An Eclipsite injures an Aurorian..."
+     },
+     {
+      "character": "Irridon:",
+      "text": "The medical team comes to the rescue. They attempt to use a healing bullet, but use a missile by mistake."
+     },
+     {
+      "character": "Angel:",
+      "text": "The medical team... screwed up?"
+     },
+     {
+      "character": "Irridon:",
+      "text": "In the end, the Aurorian dies of heart failure. Now, how should the Eclipsite be judged?"
+     },
+     {
+      "character": "Angel:",
+      "text": "Although I can't really give a definitive answer immediately, I'd say the medical team is\u2014"
+     },
+     {
+      "character": "Angel:",
+      "text": "Lord Raphael..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Lumopolis Aurorians",
+  "noble Aurorians"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I don't doubt that Angel is a very special angel. When I first met her, I was instantly attracted by her lovely partial wing.She would describe her Lumopolis sermons to us when she was on the Expedition Team. She was a little uncomfortable at first, folding her wing close to her, even losing a few feathers. Later, she strived to learn and get accustomed to doing the tasks until she could face them calmly and efficiently. Maybe that's why she came off more mature than her peers. Before she joined, I had reservations on whether the \"Angel from Lumopolis\" could work with everyone. But then I discovered she would listen to discussions patiently and make analyses and conclusions. She also is efficient, responsible, and a remarkable fighter. All in all, a very dependable teammate!\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "I'm a member of the Lumo Hall of Justice and the preaching representative of the Dawn Academy. I am already used to having these two jobs and identities... I'm also a member of the joint expedition, although that doesn't quite match up to my other titles.While there's the word, \"Intern\", \"Judge\" is one of the titles I'm proud of. It represents Lord Irridon's recognition of me, while the position of Academy Advocate enables me to promote Lumopolis. After all, we are the heirs and propagators of civilization.You must know that there will always be difficulties and obstacles in any new role, which is also the case in the operation team. Despite our combined power, the Eclipsites still managed to chase after me and Vice everywhere. However, the final outcome proved that we can take on anything as long as we work hard\u2014for example, we managed to find you."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "My wings are what makes me special...These white wings have accompanied me since I was born. Every person who met me told me that my wings are proof of the legitimism and purity of Lumopolis, so I joined the academy without any hesitation after the battle. I cherish them and am grateful to them for bringing me closer to the right path. I will use them to prove to the whole world that Lumopolis loves and guides all living beings.I believe that everyone is born with their own mission, and it is my mission to have these pure wings and prove the value of their existence, even though my two wings had become one. It was damage caused by the Eclipsites and is a mark of my battles against evil. When my wings were struck, leaving me with only one wing, I accepted this change in my heart.From now on, I will only have one wing. Everything is predestined."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Light and darkness are equal and one and the same. Only those who are stuck between light and darkness are obsessed with the distinction between them. This is a famous saying I use when I preach. Remember it well.When I preached on behalf of the Academy, I represented the beliefs and thoughts of Lumopolis, so that the oppressed would take some comfort from my existence. This is very important because suffering and poverty are difficult to stamp out. The most important thing is to give people faith and reverence so that they may live better lives. I don't care what people say about me since they can only see what's on the surface. I decided my own path in life a long time ago, and will lead the way so that glory and guidance fall on every believer fairly. Although I still have my own worries and fears, and the injuries on my remaining wing ache at times, I have decided that I will never cower.I have told you my thoughts and experiences because I want you to understand me better. After all, it is now one of my duties to help you."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "The numerous determined hearts are what bring prosperity to Lumopolis.",
+  "Without faith, the Illumina Federation can never become what it is.",
+  "White Night up high.",
+  "The Eclipse must be destroyed.",
+  "As a representative of the Hall of Justice, Master Irridon was born to protect the honor of Lumopolis.",
+  "Master Pittman's heart of justice isn't the result of his personality but his faith.",
+  "Faith purifies everything and brings new life to the world.",
+  "Let me know if you need someone to apprehend the Defilers, I'd love to be part of it.",
+  "But the old, advanced civilization supposedly vanished due to loss of faith too...",
+  "My wing? Sure, you can take a look. But please don't touch it.",
+  "You have high hopes for me... That's okay, I can manage, and I surely won't let you down!",
+  "This is the will of fate...",
+  "Everything turned out as faith foretold.",
+  "Feathered wing!",
+  "Purify!",
+  "I'll use the power of my faith.",
+  "Happy New Year. My faith remains immutable this year.",
+  "New job?",
+  "I will take up more responsibilities.",
+  "I'll become... the spokesperson of faith!",
+  "It's not here either? I definitely left it here that time...",
+  "I can fly towards wider skies now.",
+  "Alchemy Stars.",
+  "Feel free to let me know if you have any problems. It's my job to assist you.",
+  "I'm a member of the Hall of Justice, even though I don't make the final verdict... It's okay, I don't mind. So long as I get to work for my faith.",
+  "As I've mentioned before, please don't stare at my single wing. Your gaze feels too intense and I don't know what to do about it...",
+  "The fuller the feathers are, the more important it is to be restrained. I have to be more careful to protect it from harm.",
+  "Faith makes my eyes brighter. Things that are neglected by the common folk are so obvious to me.",
+  "You seem to only do things that you believe in, not bounded by those covenants and restrictions... I'm envious of your determination.",
+  "Your instructions are clear and simple, just like those given by Master Pittman... I'm not offended though. On the contrary, I admire that.",
+  "I have a little question, nothing worrying. I was just wondering if you would invite me to join you? I mean, when everything's over, will I be one of your partners?",
+  "Candies and poison are the same.",
+  "My single wing is a symbol of my mission. It's a gift my faith granted me.",
+  "For those who have faith, suffering is only temporary.",
+  "Welcome, partner in faith.",
+  "Skeptics shall ultimately be led by faith.",
+  "You don't have to check on me so often. It's unnecessary, got it?",
+  "There is no order of priority between light and darkness. Only those caught in between are obsessed with the distinction.",
+  "Greetings. Please don't keep staring at my single wing... it's a little shy.",
+  "I don't want you to waste your energy on this.",
+  "I appreciate the thoughts you've put into this. Thank you for the gift.",
+  "Ah, this brings me peace. Thank you.",
+  "This is exactly what I've been praying for! Bless you!",
+  "Use the power of faith...",
+  "Spread out! Scatter!",
+  "Watch out.",
+  "The suffering of believers is over. It's the Defilers' turn now. Mr. Pittman, I definitely won't back down even if my single wing still aches.",
+  "During that Darkover crisis, I lost my family and my wing. It's faith that has carried me on to this day.",
+  "Let the judgment begin!"
+ ],
+ "skins": [],
+ "description": "A Lumo Hall of Justice staff and a one-winged angel. She is sensitive and has a strong sense of pride. Despite her age, Angel has lived through the war.",
+ "realName": "Angel",
+ "nickname": "Secular Angel",
+ "gender": "Female",
+ "height": "5'1\"",
+ "birthday": "October 3",
+ "birthplace": "Lumopolis",
+ "style": "Sacred Mark of Light"
 }

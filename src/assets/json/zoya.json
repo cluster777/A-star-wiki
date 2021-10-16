@@ -1,715 +1,1118 @@
 {
-      "name": "Zoya",
-      "faction": "Illumina Federation",
-      "element_main": "Water",
-      "element_sub": "null",
-      "rarity": "3",
-      "class": "Support",
-      "skill": {
-            "name": "",
-            "cd": "3 Turn",
-            "description": [
-                  "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 5%.",
-                  "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 8%."
-            ]
-      },
-      "equip": {
-            "name": "Quarkium: Zerozone",
-            "passive": "Field-Zero Snow",
-            "description": [
-                  [
-                        "Increases Chain Combo Healing Factor by 10%.",
-                        "Increases Chain Combo Healing Factor by 10%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 40%."
-                  ],
-                  [
-                        "Increases Chain Combo Healing Factor by 10%.",
-                        "Increases Chain Combo Healing Factor by 10%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 20%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 30%.",
-                        "Increases Chain Combo Healing Factor by 40%."
-                  ]
-            ]
-      },
-      "chain": {
-            "name": "",
-            "detail": [
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Recovers the team's HP by 160% of Zoya's ATK."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ],
-                  [
-                        {
-                              "cost": "5",
-                              "description": "Recovers the team's HP by 160% of Zoya's ATK."
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        },
-                        {
-                              "cost": null,
-                              "description": ""
-                        }
-                  ]
-            ]
-      },
-      "breaktrought": [
-            "HP increased by 200.",
-            "DEF increased by 25.",
-            "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
-            "",
-            "",
-            ""
-      ],
-      "ascension": [
-            {
-                  "material": [
-                        "Water Crystal Shard",
-                        "Water Flare Powder",
-                        "Battle Archive I",
-                        "Nightium"
-                  ],
-                  "type": "Equipment",
-                  "before": "",
-                  "after": "Increases Chain Combo Healing Factor by 40%."
-            },
-            {
-                  "material": [
-                        "Water Flare Rock",
-                        "Water Potion I",
-                        "Battle Archive II",
-                        "Nightium"
-                  ],
-                  "type": "Active Skill",
-                  "before": "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 5%.",
-                  "after": "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 8%."
-            }
-      ],
-      "base_stat": {
-            "stat": [
-                  {
-                        "att": 507,
-                        "def": 233,
-                        "hp": 1808
-                  },
-                  {
-                        "att": 517,
-                        "def": 237,
-                        "hp": 1833
-                  },
-                  {
-                        "att": 526,
-                        "def": 240,
-                        "hp": 1858
-                  },
-                  {
-                        "att": 535,
-                        "def": 244,
-                        "hp": 1883
-                  },
-                  {
-                        "att": 545,
-                        "def": 247,
-                        "hp": 1908
-                  },
-                  {
-                        "att": 554,
-                        "def": 251,
-                        "hp": 1934
-                  },
-                  {
-                        "att": 563,
-                        "def": 255,
-                        "hp": 1959
-                  },
-                  {
-                        "att": 573,
-                        "def": 258,
-                        "hp": 1984
-                  },
-                  {
-                        "att": 582,
-                        "def": 262,
-                        "hp": 2009
-                  },
-                  {
-                        "att": 591,
-                        "def": 265,
-                        "hp": 2034
-                  },
-                  {
-                        "att": 601,
-                        "def": 269,
-                        "hp": 2059
-                  },
-                  {
-                        "att": 610,
-                        "def": 272,
-                        "hp": 2084
-                  },
-                  {
-                        "att": 619,
-                        "def": 276,
-                        "hp": 2110
-                  },
-                  {
-                        "att": 629,
-                        "def": 280,
-                        "hp": 2135
-                  },
-                  {
-                        "att": 638,
-                        "def": 283,
-                        "hp": 2160
-                  },
-                  {
-                        "att": 647,
-                        "def": 287,
-                        "hp": 2185
-                  },
-                  {
-                        "att": 657,
-                        "def": 290,
-                        "hp": 2210
-                  },
-                  {
-                        "att": 666,
-                        "def": 294,
-                        "hp": 2235
-                  },
-                  {
-                        "att": 675,
-                        "def": 298,
-                        "hp": 2260
-                  },
-                  {
-                        "att": 685,
-                        "def": 301,
-                        "hp": 2286
-                  },
-                  {
-                        "att": 694,
-                        "def": 305,
-                        "hp": 2311
-                  },
-                  {
-                        "att": 703,
-                        "def": 308,
-                        "hp": 2336
-                  },
-                  {
-                        "att": 713,
-                        "def": 312,
-                        "hp": 2361
-                  },
-                  {
-                        "att": 722,
-                        "def": 316,
-                        "hp": 2386
-                  },
-                  {
-                        "att": 731,
-                        "def": 319,
-                        "hp": 2411
-                  },
-                  {
-                        "att": 741,
-                        "def": 323,
-                        "hp": 2436
-                  },
-                  {
-                        "att": 750,
-                        "def": 326,
-                        "hp": 2462
-                  },
-                  {
-                        "att": 759,
-                        "def": 330,
-                        "hp": 2487
-                  },
-                  {
-                        "att": 769,
-                        "def": 333,
-                        "hp": 2512
-                  },
-                  {
-                        "att": 778,
-                        "def": 337,
-                        "hp": 2537
-                  },
-                  {
-                        "att": 880,
-                        "def": 372,
-                        "hp": 2818
-                  },
-                  {
-                        "att": 892,
-                        "def": 376,
-                        "hp": 2850
-                  },
-                  {
-                        "att": 903,
-                        "def": 381,
-                        "hp": 2881
-                  },
-                  {
-                        "att": 915,
-                        "def": 385,
-                        "hp": 2913
-                  },
-                  {
-                        "att": 927,
-                        "def": 389,
-                        "hp": 2944
-                  },
-                  {
-                        "att": 938,
-                        "def": 394,
-                        "hp": 2976
-                  },
-                  {
-                        "att": 950,
-                        "def": 398,
-                        "hp": 3007
-                  },
-                  {
-                        "att": 962,
-                        "def": 403,
-                        "hp": 3038
-                  },
-                  {
-                        "att": 973,
-                        "def": 407,
-                        "hp": 3070
-                  },
-                  {
-                        "att": 985,
-                        "def": 412,
-                        "hp": 3101
-                  },
-                  {
-                        "att": 997,
-                        "def": 416,
-                        "hp": 3133
-                  },
-                  {
-                        "att": 1008,
-                        "def": 421,
-                        "hp": 3164
-                  },
-                  {
-                        "att": 1020,
-                        "def": 425,
-                        "hp": 3196
-                  },
-                  {
-                        "att": 1032,
-                        "def": 430,
-                        "hp": 3227
-                  },
-                  {
-                        "att": 1043,
-                        "def": 434,
-                        "hp": 3258
-                  },
-                  {
-                        "att": 1055,
-                        "def": 439,
-                        "hp": 3290
-                  },
-                  {
-                        "att": 1067,
-                        "def": 443,
-                        "hp": 3321
-                  },
-                  {
-                        "att": 1078,
-                        "def": 448,
-                        "hp": 3353
-                  },
-                  {
-                        "att": 1090,
-                        "def": 452,
-                        "hp": 3384
-                  },
-                  {
-                        "att": 1102,
-                        "def": 457,
-                        "hp": 3416
-                  },
-                  {
-                        "att": 1113,
-                        "def": 461,
-                        "hp": 3447
-                  },
-                  {
-                        "att": 1125,
-                        "def": 466,
-                        "hp": 3478
-                  },
-                  {
-                        "att": 1137,
-                        "def": 470,
-                        "hp": 3510
-                  },
-                  {
-                        "att": 1149,
-                        "def": 475,
-                        "hp": 3541
-                  },
-                  {
-                        "att": 1160,
-                        "def": 479,
-                        "hp": 3573
-                  },
-                  {
-                        "att": 1172,
-                        "def": 484,
-                        "hp": 3604
-                  },
-                  {
-                        "att": 1184,
-                        "def": 488,
-                        "hp": 3636
-                  },
-                  {
-                        "att": 1195,
-                        "def": 493,
-                        "hp": 3667
-                  },
-                  {
-                        "att": 1207,
-                        "def": 497,
-                        "hp": 3698
-                  },
-                  {
-                        "att": 1219,
-                        "def": 502,
-                        "hp": 3730
-                  },
-                  {
-                        "att": 1230,
-                        "def": 506,
-                        "hp": 3761
-                  },
-                  {
-                        "att": 1242,
-                        "def": 511,
-                        "hp": 3793
-                  },
-                  {
-                        "att": 1254,
-                        "def": 515,
-                        "hp": 3824
-                  },
-                  {
-                        "att": 1265,
-                        "def": 520,
-                        "hp": 3856
-                  },
-                  {
-                        "att": 1277,
-                        "def": 524,
-                        "hp": 3887
-                  },
-                  {
-                        "att": 1289,
-                        "def": 529,
-                        "hp": 3918
-                  },
-                  {
-                        "att": 1300,
-                        "def": 533,
-                        "hp": 3950
-                  },
-                  {
-                        "att": 1312,
-                        "def": 538,
-                        "hp": 3981
-                  },
-                  {
-                        "att": 1324,
-                        "def": 542,
-                        "hp": 4013
-                  },
-                  {
-                        "att": 1335,
-                        "def": 546,
-                        "hp": 4044
-                  },
-                  {
-                        "att": 1484,
-                        "def": 595,
-                        "hp": 4468
-                  },
-                  {
-                        "att": 1493,
-                        "def": 598,
-                        "hp": 4491
-                  },
-                  {
-                        "att": 1502,
-                        "def": 602,
-                        "hp": 4515
-                  },
-                  {
-                        "att": 1510,
-                        "def": 605,
-                        "hp": 4538
-                  },
-                  {
-                        "att": 1519,
-                        "def": 608,
-                        "hp": 4562
-                  },
-                  {
-                        "att": 1528,
-                        "def": 612,
-                        "hp": 4586
-                  },
-                  {
-                        "att": 1537,
-                        "def": 615,
-                        "hp": 4609
-                  },
-                  {
-                        "att": 1546,
-                        "def": 618,
-                        "hp": 4633
-                  },
-                  {
-                        "att": 1554,
-                        "def": 622,
-                        "hp": 4656
-                  },
-                  {
-                        "att": 1563,
-                        "def": 625,
-                        "hp": 4680
-                  },
-                  {
-                        "att": 1572,
-                        "def": 629,
-                        "hp": 4703
-                  },
-                  {
-                        "att": 1581,
-                        "def": 632,
-                        "hp": 4727
-                  },
-                  {
-                        "att": 1589,
-                        "def": 635,
-                        "hp": 4751
-                  },
-                  {
-                        "att": 1598,
-                        "def": 639,
-                        "hp": 4774
-                  },
-                  {
-                        "att": 1607,
-                        "def": 642,
-                        "hp": 4798
-                  },
-                  {
-                        "att": 1616,
-                        "def": 645,
-                        "hp": 4821
-                  },
-                  {
-                        "att": 1624,
-                        "def": 649,
-                        "hp": 4845
-                  },
-                  {
-                        "att": 1633,
-                        "def": 652,
-                        "hp": 4868
-                  },
-                  {
-                        "att": 1642,
-                        "def": 655,
-                        "hp": 4892
-                  },
-                  {
-                        "att": 1651,
-                        "def": 659,
-                        "hp": 4916
-                  },
-                  {
-                        "att": 1659,
-                        "def": 662,
-                        "hp": 4939
-                  },
-                  {
-                        "att": 1668,
-                        "def": 666,
-                        "hp": 4963
-                  },
-                  {
-                        "att": 1677,
-                        "def": 669,
-                        "hp": 4986
-                  },
-                  {
-                        "att": 1686,
-                        "def": 672,
-                        "hp": 5010
-                  },
-                  {
-                        "att": 1694,
-                        "def": 676,
-                        "hp": 5033
-                  },
-                  {
-                        "att": 1703,
-                        "def": 679,
-                        "hp": 5057
-                  },
-                  {
-                        "att": 1712,
-                        "def": 682,
-                        "hp": 5081
-                  },
-                  {
-                        "att": 1721,
-                        "def": 686,
-                        "hp": 5104
-                  },
-                  {
-                        "att": 1729,
-                        "def": 689,
-                        "hp": 5128
-                  },
-                  {
-                        "att": 1738,
-                        "def": 692,
-                        "hp": 5151
-                  },
-                  {
-                        "att": 1747,
-                        "def": 696,
-                        "hp": 5175
-                  },
-                  {
-                        "att": 1756,
-                        "def": 699,
-                        "hp": 5198
-                  },
-                  {
-                        "att": 1765,
-                        "def": 703,
-                        "hp": 5222
-                  },
-                  {
-                        "att": 1773,
-                        "def": 706,
-                        "hp": 5246
-                  },
-                  {
-                        "att": 1782,
-                        "def": 709,
-                        "hp": 5269
-                  },
-                  {
-                        "att": 1791,
-                        "def": 713,
-                        "hp": 5293
-                  },
-                  {
-                        "att": 1800,
-                        "def": 716,
-                        "hp": 5316
-                  },
-                  {
-                        "att": 1808,
-                        "def": 719,
-                        "hp": 5340
-                  },
-                  {
-                        "att": 1817,
-                        "def": 723,
-                        "hp": 5363
-                  },
-                  {
-                        "att": 1826,
-                        "def": 726,
-                        "hp": 5387
-                  },
-                  {
-                        "att": 1835,
-                        "def": 729,
-                        "hp": 5411
-                  },
-                  {
-                        "att": 1843,
-                        "def": 733,
-                        "hp": 5434
-                  },
-                  {
-                        "att": 1852,
-                        "def": 736,
-                        "hp": 5458
-                  },
-                  {
-                        "att": 1861,
-                        "def": 740,
-                        "hp": 5481
-                  },
-                  {
-                        "att": 1870,
-                        "def": 743,
-                        "hp": 5505
-                  },
-                  {
-                        "att": 1878,
-                        "def": 746,
-                        "hp": 5528
-                  },
-                  {
-                        "att": 1887,
-                        "def": 750,
-                        "hp": 5552
-                  },
-                  {
-                        "att": 1896,
-                        "def": 753,
-                        "hp": 5576
-                  },
-                  {
-                        "att": 1905,
-                        "def": 756,
-                        "hp": 5599
-                  },
-                  {
-                        "att": 1913,
-                        "def": 760,
-                        "hp": 5623
-                  }
-            ]
-      }
+ "name": "Zoya",
+ "faction": "Illumina Federation",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "3",
+ "class": "Support",
+ "skill": {
+  "name": "Anticipation of Love",
+  "cd": "3 Turn",
+  "description": [
+   "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 5%.",
+   "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 8%."
+  ]
+ },
+ "equip": {
+  "name": "Quarkium: Zerozone",
+  "passive": "Field-Zero Snow",
+  "description": [
+   [
+    "Increases Chain Combo Healing Factor by 10%.",
+    "Increases Chain Combo Healing Factor by 10%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 40%."
+   ],
+   [
+    "Increases Chain Combo Healing Factor by 10%.",
+    "Increases Chain Combo Healing Factor by 10%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 20%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 30%.",
+    "Increases Chain Combo Healing Factor by 40%."
+   ]
+  ],
+  "introduction": "When Zoya traveled to the Nether Sea, the Quarkium there had a mysterious effect on her, and she fell into a deep slumber. After leaving the Nether Sea, Zoya obtained part of a Quarkium crystal, and learned to utilize its power. She inlaid it on her ice staff, greatly improving her strength in combat."
+ },
+ "chain": {
+  "name": "Nether Sea",
+  "detail": [
+   [
+    {
+     "cost": "5",
+     "description": "Recovers the team's HP by 160% of Zoya's ATK."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "5",
+     "description": "Recovers the team's HP by 160% of Zoya's ATK."
+    },
+    {
+     "cost": null,
+     "description": ""
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "DEF increased by 25.",
+  "Active Skill Enhancement: Reduces skill cooldown by 1 round.",
+  "",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Crystal Shard",
+    "Water Flare Powder",
+    "Battle Archive I",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Increases Chain Combo Healing Factor by 40%."
+  },
+  {
+   "material": [
+    "Water Flare Rock",
+    "Water Potion I",
+    "Battle Archive II",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 5%.",
+   "after": "Recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 8%."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 507,
+    "def": 233,
+    "hp": 1808
+   },
+   {
+    "att": 517,
+    "def": 237,
+    "hp": 1833
+   },
+   {
+    "att": 526,
+    "def": 240,
+    "hp": 1858
+   },
+   {
+    "att": 535,
+    "def": 244,
+    "hp": 1883
+   },
+   {
+    "att": 545,
+    "def": 247,
+    "hp": 1908
+   },
+   {
+    "att": 554,
+    "def": 251,
+    "hp": 1934
+   },
+   {
+    "att": 563,
+    "def": 255,
+    "hp": 1959
+   },
+   {
+    "att": 573,
+    "def": 258,
+    "hp": 1984
+   },
+   {
+    "att": 582,
+    "def": 262,
+    "hp": 2009
+   },
+   {
+    "att": 591,
+    "def": 265,
+    "hp": 2034
+   },
+   {
+    "att": 601,
+    "def": 269,
+    "hp": 2059
+   },
+   {
+    "att": 610,
+    "def": 272,
+    "hp": 2084
+   },
+   {
+    "att": 619,
+    "def": 276,
+    "hp": 2110
+   },
+   {
+    "att": 629,
+    "def": 280,
+    "hp": 2135
+   },
+   {
+    "att": 638,
+    "def": 283,
+    "hp": 2160
+   },
+   {
+    "att": 647,
+    "def": 287,
+    "hp": 2185
+   },
+   {
+    "att": 657,
+    "def": 290,
+    "hp": 2210
+   },
+   {
+    "att": 666,
+    "def": 294,
+    "hp": 2235
+   },
+   {
+    "att": 675,
+    "def": 298,
+    "hp": 2260
+   },
+   {
+    "att": 685,
+    "def": 301,
+    "hp": 2286
+   },
+   {
+    "att": 694,
+    "def": 305,
+    "hp": 2311
+   },
+   {
+    "att": 703,
+    "def": 308,
+    "hp": 2336
+   },
+   {
+    "att": 713,
+    "def": 312,
+    "hp": 2361
+   },
+   {
+    "att": 722,
+    "def": 316,
+    "hp": 2386
+   },
+   {
+    "att": 731,
+    "def": 319,
+    "hp": 2411
+   },
+   {
+    "att": 741,
+    "def": 323,
+    "hp": 2436
+   },
+   {
+    "att": 750,
+    "def": 326,
+    "hp": 2462
+   },
+   {
+    "att": 759,
+    "def": 330,
+    "hp": 2487
+   },
+   {
+    "att": 769,
+    "def": 333,
+    "hp": 2512
+   },
+   {
+    "att": 778,
+    "def": 337,
+    "hp": 2537
+   },
+   {
+    "att": 880,
+    "def": 372,
+    "hp": 2818
+   },
+   {
+    "att": 892,
+    "def": 376,
+    "hp": 2850
+   },
+   {
+    "att": 903,
+    "def": 381,
+    "hp": 2881
+   },
+   {
+    "att": 915,
+    "def": 385,
+    "hp": 2913
+   },
+   {
+    "att": 927,
+    "def": 389,
+    "hp": 2944
+   },
+   {
+    "att": 938,
+    "def": 394,
+    "hp": 2976
+   },
+   {
+    "att": 950,
+    "def": 398,
+    "hp": 3007
+   },
+   {
+    "att": 962,
+    "def": 403,
+    "hp": 3038
+   },
+   {
+    "att": 973,
+    "def": 407,
+    "hp": 3070
+   },
+   {
+    "att": 985,
+    "def": 412,
+    "hp": 3101
+   },
+   {
+    "att": 997,
+    "def": 416,
+    "hp": 3133
+   },
+   {
+    "att": 1008,
+    "def": 421,
+    "hp": 3164
+   },
+   {
+    "att": 1020,
+    "def": 425,
+    "hp": 3196
+   },
+   {
+    "att": 1032,
+    "def": 430,
+    "hp": 3227
+   },
+   {
+    "att": 1043,
+    "def": 434,
+    "hp": 3258
+   },
+   {
+    "att": 1055,
+    "def": 439,
+    "hp": 3290
+   },
+   {
+    "att": 1067,
+    "def": 443,
+    "hp": 3321
+   },
+   {
+    "att": 1078,
+    "def": 448,
+    "hp": 3353
+   },
+   {
+    "att": 1090,
+    "def": 452,
+    "hp": 3384
+   },
+   {
+    "att": 1102,
+    "def": 457,
+    "hp": 3416
+   },
+   {
+    "att": 1113,
+    "def": 461,
+    "hp": 3447
+   },
+   {
+    "att": 1125,
+    "def": 466,
+    "hp": 3478
+   },
+   {
+    "att": 1137,
+    "def": 470,
+    "hp": 3510
+   },
+   {
+    "att": 1149,
+    "def": 475,
+    "hp": 3541
+   },
+   {
+    "att": 1160,
+    "def": 479,
+    "hp": 3573
+   },
+   {
+    "att": 1172,
+    "def": 484,
+    "hp": 3604
+   },
+   {
+    "att": 1184,
+    "def": 488,
+    "hp": 3636
+   },
+   {
+    "att": 1195,
+    "def": 493,
+    "hp": 3667
+   },
+   {
+    "att": 1207,
+    "def": 497,
+    "hp": 3698
+   },
+   {
+    "att": 1219,
+    "def": 502,
+    "hp": 3730
+   },
+   {
+    "att": 1230,
+    "def": 506,
+    "hp": 3761
+   },
+   {
+    "att": 1242,
+    "def": 511,
+    "hp": 3793
+   },
+   {
+    "att": 1254,
+    "def": 515,
+    "hp": 3824
+   },
+   {
+    "att": 1265,
+    "def": 520,
+    "hp": 3856
+   },
+   {
+    "att": 1277,
+    "def": 524,
+    "hp": 3887
+   },
+   {
+    "att": 1289,
+    "def": 529,
+    "hp": 3918
+   },
+   {
+    "att": 1300,
+    "def": 533,
+    "hp": 3950
+   },
+   {
+    "att": 1312,
+    "def": 538,
+    "hp": 3981
+   },
+   {
+    "att": 1324,
+    "def": 542,
+    "hp": 4013
+   },
+   {
+    "att": 1335,
+    "def": 546,
+    "hp": 4044
+   },
+   {
+    "att": 1484,
+    "def": 595,
+    "hp": 4468
+   },
+   {
+    "att": 1493,
+    "def": 598,
+    "hp": 4491
+   },
+   {
+    "att": 1502,
+    "def": 602,
+    "hp": 4515
+   },
+   {
+    "att": 1510,
+    "def": 605,
+    "hp": 4538
+   },
+   {
+    "att": 1519,
+    "def": 608,
+    "hp": 4562
+   },
+   {
+    "att": 1528,
+    "def": 612,
+    "hp": 4586
+   },
+   {
+    "att": 1537,
+    "def": 615,
+    "hp": 4609
+   },
+   {
+    "att": 1546,
+    "def": 618,
+    "hp": 4633
+   },
+   {
+    "att": 1554,
+    "def": 622,
+    "hp": 4656
+   },
+   {
+    "att": 1563,
+    "def": 625,
+    "hp": 4680
+   },
+   {
+    "att": 1572,
+    "def": 629,
+    "hp": 4703
+   },
+   {
+    "att": 1581,
+    "def": 632,
+    "hp": 4727
+   },
+   {
+    "att": 1589,
+    "def": 635,
+    "hp": 4751
+   },
+   {
+    "att": 1598,
+    "def": 639,
+    "hp": 4774
+   },
+   {
+    "att": 1607,
+    "def": 642,
+    "hp": 4798
+   },
+   {
+    "att": 1616,
+    "def": 645,
+    "hp": 4821
+   },
+   {
+    "att": 1624,
+    "def": 649,
+    "hp": 4845
+   },
+   {
+    "att": 1633,
+    "def": 652,
+    "hp": 4868
+   },
+   {
+    "att": 1642,
+    "def": 655,
+    "hp": 4892
+   },
+   {
+    "att": 1651,
+    "def": 659,
+    "hp": 4916
+   },
+   {
+    "att": 1659,
+    "def": 662,
+    "hp": 4939
+   },
+   {
+    "att": 1668,
+    "def": 666,
+    "hp": 4963
+   },
+   {
+    "att": 1677,
+    "def": 669,
+    "hp": 4986
+   },
+   {
+    "att": 1686,
+    "def": 672,
+    "hp": 5010
+   },
+   {
+    "att": 1694,
+    "def": 676,
+    "hp": 5033
+   },
+   {
+    "att": 1703,
+    "def": 679,
+    "hp": 5057
+   },
+   {
+    "att": 1712,
+    "def": 682,
+    "hp": 5081
+   },
+   {
+    "att": 1721,
+    "def": 686,
+    "hp": 5104
+   },
+   {
+    "att": 1729,
+    "def": 689,
+    "hp": 5128
+   },
+   {
+    "att": 1738,
+    "def": 692,
+    "hp": 5151
+   },
+   {
+    "att": 1747,
+    "def": 696,
+    "hp": 5175
+   },
+   {
+    "att": 1756,
+    "def": 699,
+    "hp": 5198
+   },
+   {
+    "att": 1765,
+    "def": 703,
+    "hp": 5222
+   },
+   {
+    "att": 1773,
+    "def": 706,
+    "hp": 5246
+   },
+   {
+    "att": 1782,
+    "def": 709,
+    "hp": 5269
+   },
+   {
+    "att": 1791,
+    "def": 713,
+    "hp": 5293
+   },
+   {
+    "att": 1800,
+    "def": 716,
+    "hp": 5316
+   },
+   {
+    "att": 1808,
+    "def": 719,
+    "hp": 5340
+   },
+   {
+    "att": 1817,
+    "def": 723,
+    "hp": 5363
+   },
+   {
+    "att": 1826,
+    "def": 726,
+    "hp": 5387
+   },
+   {
+    "att": 1835,
+    "def": 729,
+    "hp": 5411
+   },
+   {
+    "att": 1843,
+    "def": 733,
+    "hp": 5434
+   },
+   {
+    "att": 1852,
+    "def": 736,
+    "hp": 5458
+   },
+   {
+    "att": 1861,
+    "def": 740,
+    "hp": 5481
+   },
+   {
+    "att": 1870,
+    "def": 743,
+    "hp": 5505
+   },
+   {
+    "att": 1878,
+    "def": 746,
+    "hp": 5528
+   },
+   {
+    "att": 1887,
+    "def": 750,
+    "hp": 5552
+   },
+   {
+    "att": 1896,
+    "def": 753,
+    "hp": 5576
+   },
+   {
+    "att": 1905,
+    "def": 756,
+    "hp": 5599
+   },
+   {
+    "att": 1913,
+    "def": 760,
+    "hp": 5623
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Dispatch Boost",
+    "effect": "-1 hour to regain dispatch when deployed to the Dispatch Office."
+   },
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   }
+  ],
+  "conversation": [
+   {
+    "character": [
+     "Keating",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Keating:",
+      "text": "Don't you think it's strange? Yeah, you think it's strange, too\u266a"
+     },
+     {
+      "character": "Keating:",
+      "text": "Clearly just a child, try as you might\u266a"
+     },
+     {
+      "character": "Keating:",
+      "text": "Sometimes disrespectful, sometimes impolite\u266a"
+     },
+     {
+      "character": "Zoya:",
+      "text": "... Are you talking about me?"
+     },
+     {
+      "character": "Keating:",
+      "text": "If I were, would you be angry?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "I knew it."
+     },
+     {
+      "character": "Zoya:",
+      "text": "One could easily say the same about you."
+     },
+     {
+      "character": "Zoya:",
+      "text": "You really think you're hot stuff, don't you?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Do you really think that people find you cute?"
+     },
+     {
+      "character": "Keating:",
+      "text": "Are you anxious? I get the feeling you're anxious right now."
+     },
+     {
+      "character": "Zoya:",
+      "text": "You're the legendary choir, aren't you? Why don't you sing something for me?"
+     },
+     {
+      "character": "Keating:",
+      "text": "You want us to sing!? But we don't want to sing!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Your sentences are all mixed up and muddled!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Huh! Flustered. You are flustered as well!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Gronru",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Gronru:",
+      "text": "How many more secrets are hidden within this Colossus..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "Powerful engines, the ability to fly, perfect exterior, and plenty of amenities within..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "I really want to know how the Colossus was designed and built."
+     },
+     {
+      "character": "Zoya:",
+      "text": "So Chief Gronru is also interested in the Colossus?"
+     },
+     {
+      "character": "Gronru:",
+      "text": "Oh? You too?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Y... yes! When I first boarded the Colossus. I became fascinated with it..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "It's a pity the others don't even realize how incredible it is..."
+     },
+     {
+      "character": "Gronru:",
+      "text": "Oh, yeah!"
+     },
+     {
+      "character": "Gronru:",
+      "text": "All they do is waste time on snacks and naps."
+     },
+     {
+      "character": "Gronru:",
+      "text": "They don't know they are living in a miracle. The purpose of existence of this miracle is wasted on them."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Chief, by the purpose of existence of this miracle, you mean?"
+     },
+     {
+      "character": "Gronru:",
+      "text": "Well, we're supposed to take it apart and study it, of course!"
+     },
+     {
+      "character": "Gronru:",
+      "text": "You know what? Let's take it apart now! Help me!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yes!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Joanie Boom",
+     "Zoya"
+    ],
+    "chat": [
+     {
+      "character": "Joanie Boom:",
+      "text": "Bang bang bang bang!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Shut up! Can you quiet down? Can't you see I'm doing research?"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Doing research? What about? Explosives?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yes! Researching how to blow you up into the sky!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Hahahaha! Then there's no need for you to research. I can do that myself!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "A lunatic, then. Whatever, it's a waste of time talking to you."
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "As long as my nitric acid explosives are used, with the right equivalent..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "... Nitric acid? Equivalent? Sounds professional."
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "And some lovely candies..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Candies? What are those? They don't look like candies! Is it some kind of synthetic thing I haven't seen before?"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Then light the fuse..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Wait! Don't light it yet. Tell me what it's made of, I need to study it!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "Bang, and into the sky I go!"
+     },
+     {
+      "character": "Joanie Boom:",
+      "text": "*Bang!*"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Hey! Don't bang into the sky yet! Tell me what that candy thing is!"
+     }
+    ]
+   },
+   {
+    "character": [
+     "Zoya",
+     "Odi"
+    ],
+    "chat": [
+     {
+      "character": "Zoya:",
+      "text": "\"Snarky Specter\"?"
+     },
+     {
+      "character": "Odi:",
+      "text": "\"Master Hiiro's the Best\"?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "So YOU'RE that foul-mouthed voice that's been clogging Illumina's comm channels with ads?"
+     },
+     {
+      "character": "Odi:",
+      "text": "And aren't YOU the one who forces everyone on comms to listen to how much you love your Legion Commander?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "I-It's only because you lot are so blind, that I have to try and teach you about Master Hiiro's greatness!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "The Rediesel Wrench, Umbraton, even Lumopolis... Everyone must know!"
+     },
+     {
+      "character": "Odi:",
+      "text": "Puh-lease, no one cares about your legion commander."
+     },
+     {
+      "character": "Odi:",
+      "text": "... Hang on, you've also broken into Lumopolis' comms channels?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Yeah, you too?"
+     },
+     {
+      "character": "Odi:",
+      "text": "I just sent them a long message full of so many prohibited words, that it crashed the comms channel. They're probably scrambling to fix it right about now."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Hmm, at least we have this in common with each other..."
+     }
+    ]
+   },
+   {
+    "character": [
+     "Zoya",
+     "Nikinis"
+    ],
+    "chat": [
+     {
+      "character": "Zoya:",
+      "text": "Hey, you! Hold it right there!"
+     },
+     {
+      "character": "Zoya:",
+      "text": "The sea in that mirror... Could it be...?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "The Ocean?"
+     },
+     {
+      "character": "Nikinis:",
+      "text": "You mean... Lake Mirror in Northland?"
+     },
+     {
+      "character": "Zoya:",
+      "text": "Lake? No, that's no lake..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "That's a big, beautiful ocean, with a trail of jet-black snow on top..."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "I have no idea what you're talking about..."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "But that's Lake Mirror right there, and that black part is my sister's shadow."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "We're always together, day and night."
+     },
+     {
+      "character": "Nikinis:",
+      "text": "Even if all of Northland melted, we could never be apart."
+     },
+     {
+      "character": "Zoya:",
+      "text": "I see..."
+     },
+     {
+      "character": "Zoya:",
+      "text": "Then that ocean... Maybe I'm just seeing things because I'm so tired..."
+     }
+    ]
+   }
+  ],
+  "furniture": []
+ },
+ "gift": [
+  "Illumina Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Although Ms. Zoya is a scholar Gannon City sent for friendly communication, we don't really know how to get along with her. Sometimes you will see her pondering alone, but when you try to talk to her or want to consult her on something important, she will turn her head slowly, and her beautiful color-changing eyes will turn to dead-fish eyes. She will glare at you and refuse you with a very impatient tone.However, recently, after persistent efforts in engaging her in conversations, we seemed to have discovered another side of Ms. Zoya. Although she usually seems so indifferent, when it comes to matters she cares about, she has passionate courage, ready to face anything that stands in her way. After all, she is a member of the Illumina.What we care about the most is her extraordinary respect and admiration for Ms. Hiiro\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "As a true scholar, research is the most important thing to me. I initially joined the research institute in Gannon City for the exceptional research materials and environment. You must understand that I have come here just to conduct my research and because my organization sent me here. Don't think that I should work for you simply because I've come to this Colossus. Even if I'm an amazing fighter, it is only out of our diplomatic friendship that I am willing to fight for you. To me, studying and learning are much more important than dealing with our relationship.So, don't bother me when I am doing research or studying and don't try to find out too much about me, or else don't blame me for being rude."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "I guess it's okay if I tell you a bit about my abilities. I secretly captured an unmeltable Quarkium crystal in the dark and spent countless hours trying to prove that it can open a portal to the Nether Sea. I entered it and obtained knowledge about Blacksnow.The ultra-low temperature and low-pressure atmosphere dealt me severe frostbite, until I saw the pink dragon, followed its shadow out of the dream and regained consciousness... Even though I spent a long time before recovering, I felt there were more things out to corrupt me. I still see that Quarkium and Blacksnow occasionally, so I'm determined to find the whereabouts of the Nether Sea..."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Friends? You know I'm a scholar, right? I don't need that sort of things.Since my parents died, research and books have occupied most of my life. They're much more reliable than friends. No living being can escape death. Instead of building bonds that are difficult to maintain, isn't it better to just accept this reality? Compared to the pain of separation... it's better to enjoy loneliness. You'll get used to it anyway.W-what! Master Hiiro... She saved me twice, so of course she receives my special treatment! *blush*"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "We believe that what Illumina is doing is the right thing for the humanity.",
+  "Rediesel Wrench... We have nothing to do with them. At least, that's what the Legion Commander said.",
+  "Splendor Illumina!",
+  "They're very dangerous, but the Quarkium doesn't care at all. It'll just bury them all.",
+  "Are you saying that Hiiro... that the Legion Commander treats her subordinates... Ouch! My cheeks are burning!",
+  "Vice will never do anything that disappoints us.",
+  "She is very strict, but can be gentle at times... What? Weren't you asking me about Master Hiiro?",
+  "Don't go around inquiring about Vice and Umbraton No. 3. The Legion Commander will get angry if she finds out.",
+  "Do we have a new power we can rely on?",
+  "Did these people choose the Colossus, or did they choose you?",
+  "I've never done this before, but I'll try my best.",
+  "As expected, I failed to live up to her expectations...",
+  "Phew, is Master Hiiro watching?",
+  "Quarkium!",
+  "Blacksnow!",
+  "The Quarkium is fully charged!",
+  "Fine. Happy New Year!",
+  "Is everyone ready?",
+  "The door to the Nether Sea has opened.",
+  "I will assume the burden of the Quarkium. I will take control of them!",
+  "Sometimes I am fascinated by the milky way. Maybe other Quarkiums will streak through.",
+  "I can sense a new Black Nova!",
+  "Alchemy\u2014Stars.",
+  "Master Hiiro was right. You actually WOULD came to a place like this in person!",
+  "The Legion Commander once said that you are a gentle person. No, it can't possibly be Master Hiiro. I don't believe it... Haha... Ahem, I'm sorry...",
+  "The Quarkium is something that didn't originally belong to this world, much like a pearl that has been washed ashore by waves.",
+  "I can feel restlessness on the other side of the door... Very well, I can make use of them.",
+  "Am I finally going to make it a part of me? The Quarkium is ready, but I...",
+  "What are you expecting? Perhaps I can help... If not, maybe I can ask Vivian for help?",
+  "I know how you feel now, and after today, everything will go back to normal. But! I will never give up!",
+  "After returning to this world, I realized that I was no longer the same... The way the Grand Marshal looked at me had become a little strange...",
+  "Research and battles are often connected. Oops! ...I forgot that you can't fight.",
+  "Don't touch this because it's really easy to lose control of the Quarkium. If it begins to stir because of you...",
+  "Although I'm no expert when it comes to the Colossus, are you sure the circuit is connected properly here?",
+  "Do you have any research tasks to assign today? It'll be perfect if they're related to the Legion Commander.",
+  "Just woke up? Or have you not gone to bed yet?",
+  "Anyone who is still working at this hour is a good comrade of the Illumina! Go away if you're not working...",
+  "Are you here to see the stars? They're nothing compared to my Quarkium!",
+  "Is there anything worth studying here? It doesn't make sense for the Illumina to send me here... u-unless Master Hiiro is also here...",
+  "Zoya appreciates your gift. It looks like something you chose randomly.",
+  "Yes, you're such a kind and generous person.",
+  "I can give this to Master Hiiro\u2014she'll love it!!",
+  "Oh, I wasn't expecting this... th-thank you.",
+  "Quarkium, bless our companions!",
+  "Melt the attacks of the era of darkness!",
+  "My power is needed now!!",
+  "The Nether Sea is beautiful, but it is a lonely place. If it wasn't for Hiiro, I might have continued to soak there for all eternity until I drowned to death. She is like a bright light that illuminates the dark night, or like a cherry blossom that blooms in the middle of winter...",
+  "If it's possible, I want to explore the secrets of the Netherworld with the Quarkium as that lifeless world was once the same as ours. Maybe the singing that can be heard from the clouds is our only remaining clue.",
+  "The Quarkium is guiding us!"
+ ],
+ "skins": [],
+ "description": "A genius researcher of the Illumina Federation whose hunger for knowledge takes up all her attention... That, and a certain Legion Commander. Although she seems quiet, approaching her in haste will likely invite ridicule. For everyone's sake, it would be better not to disturb her too often.",
+ "realName": "Zoya",
+ "nickname": "Snow Maiden of Netherworld",
+ "gender": "Female",
+ "height": "5'0\"",
+ "birthday": "November 23",
+ "birthplace": "Gannon City",
+ "style": "Field-Zero Quarkium"
 }

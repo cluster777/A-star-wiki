@@ -1,0 +1,1732 @@
+{
+ "title": "Lover",
+ "header": "At 8:30 tonight, at the Cadenza Concert Hall, you will witness the most mysterious, beautiful, and greatest symphony the world has ever seen!",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "Lumopolis Courtyard, Cadenza Concert Hall."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Tonight at 8:30, at the Hidden Pleasures masquerade symphony concert."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The famous noble musician, Ms. Shona Grandi, will perform on the stage."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "I said that right, no?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "That was pretty impressive!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Carleen gave me two tickets for the concert, but she's been too busy patrolling to go with me."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm still trying to figure out what to do. After all, I've never been to a symphony concert."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And you are looking forward to it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah... After all, music is quite a big deal in Lumopolis, isn't it?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Known as the \"seat of all music\"\u2014elegant, atmospheric, dignified, profound..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "A live performance will be out of this world!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "I didn't know you had such a high opinion of Lumopolis' music, Navigator."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "So, you're the same as me, no?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Uh, sorry, what?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What I mean is, do you really know how to enjoy a symphony concert, Navigator?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "I know.",
+     "link": "1"
+    },
+    {
+     "text": "Is there anything else I need to know?",
+     "link": "4"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "Oh? Confident, are you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I read about it in the database!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Well then, I will ask you a question: what should one do between movements?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Applaud.",
+     "link": "2"
+    },
+    {
+     "text": "Cough.",
+     "link": "3"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "If you really were to applaud, you would be ridiculed by everyone around you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh!?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "It seems you don't know as much as you think you do, Navigator."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The end of a movement does not signify the end of the whole piece. Only amateurs and imbeciles clap between movements."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But coughing is acceptable. You can even hear a wave of coughs, rippling one after another."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "In addition, one mustn't be late, make any noise, stand wherever one wishes, be a general nuisance, and so on."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And you can sleep, but you mustn't snore."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You are also required to wear formal attire and a mask to attend this concert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I had no idea!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What would I have done without you, Bonacie?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Indeed. And as this is the case, you should invite me, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "After all, I am very interested in the music of Lumopolis and this particular musician."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've been trying to snag my ticket from the start, haven't you?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "This is a possibility, yes."
+    },
+    {
+     "char": "Cadenza Concert Hall",
+     "dialogue": "*Snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Damn... Phantoms..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Always sleeping at the concerts... *snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, wake up."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "*Snores louder*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "He's sleeping like a log."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's probably another dream about Phantoms hacking into the Comm Channel and wreaking havoc all night..."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Hmph... This guy sleeps every time he's running security at one of these concerts."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's like casting musical pearls before a snoring pig."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Now, let's welcome our star for the evening."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "The famous musician\u2014Ms. Shona Grandi!"
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "I didn't expect it to be so formal."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Oh, yeah... I shouldn't speak.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Elegant, poignant, with a touch of the divine. What delightful music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But I'm starting to feel a little sleepy...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She's a famous musician, but her fingers seem a little stiff.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess I just prefer Caelestite music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well... I'll keep listening, anyway, and try to make the most of the performance.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Wait a minute... Why are Bonacie's fists clenched like that?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knew it... Absolutely hopeless. Just listen to this."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This soulless racket is bruising my ears!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You... Why are you standing up!? Sit down, quickly! Everyone's staring at us!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, wake up!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Huh...? Whazzit?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Look at the weirdo standing up over there. Is she... writing something in the air?"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "She's writing..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Lumopolites... Musical... Neanderthals!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "This woman... couldn't play to save her life?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Well, that makes sense... Why else would I have fallen asleep?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Makes sense, my ass!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Get up! Grab that troublemaker!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Oh, right!"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, what are you doing!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "What's going on?"
+    },
+    {
+     "char": "Clang\u2014!!!",
+     "dialogue": "Who hit the lights!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "I can't see anything!"
+    },
+    {
+     "char": "Audience A:",
+     "dialogue": "Don't worry, everyone. The intermission's over."
+    },
+    {
+     "char": "Audience B:",
+     "dialogue": "Your snoring companions, you may wake them up now."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Meaningless notes, piled on top one another, no emotion... I cannot stand it!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Although the first movement was truly dull, the real performance is about to begin."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What in the world is going on!? Guards\u2026 where are the guards?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Hush, now."
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "How dare you break the noble rules of our fine city's musical tradition!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Who cares about the rules?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "A melody should flow like the sea\u2014like rolling waves and falling rain."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "One moment, loud and clear\u2014the next moment, sad and low."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And a flood of emotion will soon fill this hall with its glory!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Listen. Even a musical nincompoop like you will find something to enjoy."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Bonacie's holy avatar is playing!)"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(This music...)"
+    },
+    {
+     "char": "Dun\u2014",
+     "dialogue": "Who is this girl?"
+    },
+    {
+     "char": "Dun, dun\u2014dun\u2014dun!",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fin."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We can leave now."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "Huh? How are we going to get out of here?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "You hijacked the concert, and now the guards are after us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Just hold your head up high and walk out with some grace. They're all still completely immersed in my music."
+    },
+    {
+     "char": "Entranced by the lingering charm of her melody, not even a single breath can be heard throughout the entire venue, not even a cough.",
+     "dialogue": "No one tried to stop us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Even the guards at the door looked dazed, as if they've been hypnotized."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Truly good music should possess such charm."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie, when I saw you writing in the air just now, I realized..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're not a fan of that musician at all!",
+     "link": "6"
+    },
+    {
+     "text": "You don't even like Lumopolis' music, do you!",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "That's right. You are showing you actually understand, Navigator."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... I don't understand. What's the point of coughing between movements?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Because it's impolite to cough during the actual performance, of course."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "It is also said that a loud cough is a sign of respect to the conductor and the members of the orchestra."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But most people just can't help it. Once one person coughs, others are sure to follow."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Coughs eventually emerge, one after another."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "In addition, one mustn't be late, make any noise, stand wherever one wishes, be a general nuisance, and so on."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And you can sleep, but you mustn't snore."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You are also required to wear formal attire and a mask to attend this concert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I had no idea!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What would I have done without you, Bonacie?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Indeed. And as this is the case, you should invite me, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "After all, I am very interested in the music of Lumopolis and this particular musician."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've been trying to snag my ticket from the start, haven't you?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "This is a possibility, yes."
+    },
+    {
+     "char": "Cadenza Concert Hall",
+     "dialogue": "*Snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Damn... Phantoms..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Always sleeping at the concerts... *snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, wake up."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "*Snores louder*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "He's sleeping like a log."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's probably another dream about Phantoms hacking into the Comm Channel and wreaking havoc all night..."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Hmph... This guy sleeps every time he's running security at one of these concerts."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's like casting musical pearls before a snoring pig."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Now, let's welcome our star for the evening."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "The famous musician\u2014Ms. Shona Grandi!"
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "I didn't expect it to be so formal."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Oh, yeah... I shouldn't speak.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Elegant, poignant, with a touch of the divine. What delightful music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But I'm starting to feel a little sleepy...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She's a famous musician, but her fingers seem a little stiff.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess I just prefer Caelestite music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well... I'll keep listening, anyway, and try to make the most of the performance.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Wait a minute... Why are Bonacie's fists clenched like that?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knew it... Absolutely hopeless. Just listen to this."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This soulless racket is bruising my ears!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You... Why are you standing up!? Sit down, quickly! Everyone's staring at us!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, wake up!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Huh...? Whazzit?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Look at the weirdo standing up over there. Is she... writing something in the air?"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "She's writing..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Lumopolites... Musical... Neanderthals!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "This woman... couldn't play to save her life?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Well, that makes sense... Why else would I have fallen asleep?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Makes sense, my ass!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Get up! Grab that troublemaker!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Oh, right!"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, what are you doing!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "What's going on?"
+    },
+    {
+     "char": "Clang\u2014!!!",
+     "dialogue": "Who hit the lights!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "I can't see anything!"
+    },
+    {
+     "char": "Audience A:",
+     "dialogue": "Don't worry, everyone. The intermission's over."
+    },
+    {
+     "char": "Audience B:",
+     "dialogue": "Your snoring companions, you may wake them up now."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Meaningless notes, piled on top one another, no emotion... I cannot stand it!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Although the first movement was truly dull, the real performance is about to begin."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What in the world is going on!? Guards\u2026 where are the guards?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Hush, now."
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "How dare you break the noble rules of our fine city's musical tradition!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Who cares about the rules?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "A melody should flow like the sea\u2014like rolling waves and falling rain."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "One moment, loud and clear\u2014the next moment, sad and low."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And a flood of emotion will soon fill this hall with its glory!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Listen. Even a musical nincompoop like you will find something to enjoy."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Bonacie's holy avatar is playing!)"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(This music...)"
+    },
+    {
+     "char": "Dun\u2014",
+     "dialogue": "Who is this girl?"
+    },
+    {
+     "char": "Dun, dun\u2014dun\u2014dun!",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fin."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We can leave now."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "Huh? How are we going to get out of here?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "You hijacked the concert, and now the guards are after us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Just hold your head up high and walk out with some grace. They're all still completely immersed in my music."
+    },
+    {
+     "char": "Entranced by the lingering charm of her melody, not even a single breath can be heard throughout the entire venue, not even a cough.",
+     "dialogue": "No one tried to stop us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Even the guards at the door looked dazed, as if they've been hypnotized."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Truly good music should possess such charm."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie, when I saw you writing in the air just now, I realized..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're not a fan of that musician at all!",
+     "link": "6"
+    },
+    {
+     "text": "You don't even like Lumopolis' music, do you!",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "You can't clap between movements, but you can cough."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What kind of strange rule is that?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The end of a movement does not signify the end of the whole piece. Only amateurs and imbeciles clap between movements."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But, as some say, to cough is human, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "After all, having endured an entire movement, the audience should also be tolerated to resolve their own... personal discomforts."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "In addition, one mustn't be late, make any noise, stand wherever one wishes, be a general nuisance, and so on."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And you can sleep, but you mustn't snore."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You are also required to wear formal attire and a mask to attend this concert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I had no idea!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What would I have done without you, Bonacie?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Indeed. And as this is the case, you should invite me, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "After all, I am very interested in the music of Lumopolis and this particular musician."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've been trying to snag my ticket from the start, haven't you?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "This is a possibility, yes."
+    },
+    {
+     "char": "Cadenza Concert Hall",
+     "dialogue": "*Snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Damn... Phantoms..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Always sleeping at the concerts... *snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, wake up."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "*Snores louder*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "He's sleeping like a log."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's probably another dream about Phantoms hacking into the Comm Channel and wreaking havoc all night..."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Hmph... This guy sleeps every time he's running security at one of these concerts."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's like casting musical pearls before a snoring pig."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Now, let's welcome our star for the evening."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "The famous musician\u2014Ms. Shona Grandi!"
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "I didn't expect it to be so formal."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Oh, yeah... I shouldn't speak.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Elegant, poignant, with a touch of the divine. What delightful music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But I'm starting to feel a little sleepy...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She's a famous musician, but her fingers seem a little stiff.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess I just prefer Caelestite music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well... I'll keep listening, anyway, and try to make the most of the performance.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Wait a minute... Why are Bonacie's fists clenched like that?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knew it... Absolutely hopeless. Just listen to this."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This soulless racket is bruising my ears!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You... Why are you standing up!? Sit down, quickly! Everyone's staring at us!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, wake up!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Huh...? Whazzit?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Look at the weirdo standing up over there. Is she... writing something in the air?"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "She's writing..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Lumopolites... Musical... Neanderthals!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "This woman... couldn't play to save her life?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Well, that makes sense... Why else would I have fallen asleep?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Makes sense, my ass!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Get up! Grab that troublemaker!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Oh, right!"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, what are you doing!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "What's going on?"
+    },
+    {
+     "char": "Clang\u2014!!!",
+     "dialogue": "Who hit the lights!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "I can't see anything!"
+    },
+    {
+     "char": "Audience A:",
+     "dialogue": "Don't worry, everyone. The intermission's over."
+    },
+    {
+     "char": "Audience B:",
+     "dialogue": "Your snoring companions, you may wake them up now."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Meaningless notes, piled on top one another, no emotion... I cannot stand it!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Although the first movement was truly dull, the real performance is about to begin."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What in the world is going on!? Guards\u2026 where are the guards?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Hush, now."
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "How dare you break the noble rules of our fine city's musical tradition!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Who cares about the rules?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "A melody should flow like the sea\u2014like rolling waves and falling rain."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "One moment, loud and clear\u2014the next moment, sad and low."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And a flood of emotion will soon fill this hall with its glory!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Listen. Even a musical nincompoop like you will find something to enjoy."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Bonacie's holy avatar is playing!)"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(This music...)"
+    },
+    {
+     "char": "Dun\u2014",
+     "dialogue": "Who is this girl?"
+    },
+    {
+     "char": "Dun, dun\u2014dun\u2014dun!",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fin."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We can leave now."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "Huh? How are we going to get out of here?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "You hijacked the concert, and now the guards are after us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Just hold your head up high and walk out with some grace. They're all still completely immersed in my music."
+    },
+    {
+     "char": "Entranced by the lingering charm of her melody, not even a single breath can be heard throughout the entire venue, not even a cough.",
+     "dialogue": "No one tried to stop us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Even the guards at the door looked dazed, as if they've been hypnotized."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Truly good music should possess such charm."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie, when I saw you writing in the air just now, I realized..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're not a fan of that musician at all!",
+     "link": "6"
+    },
+    {
+     "text": "You don't even like Lumopolis' music, do you!",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "In addition, one mustn't be late, make any noise, stand wherever one wishes, be a general nuisance, and so on."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And you can sleep, but you mustn't snore."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You are also required to wear formal attire and a mask to attend this concert."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Oh... I had no idea!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What would I have done without you, Bonacie?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Indeed. And as this is the case, you should invite me, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "After all, I am very interested in the music of Lumopolis and this particular musician."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You've been trying to snag my ticket from the start, haven't you?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "This is a possibility, yes."
+    },
+    {
+     "char": "Cadenza Concert Hall",
+     "dialogue": "*Snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Damn... Phantoms..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Always sleeping at the concerts... *snores*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, wake up."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "*Snores louder*"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "He's sleeping like a log."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's probably another dream about Phantoms hacking into the Comm Channel and wreaking havoc all night..."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Hmph... This guy sleeps every time he's running security at one of these concerts."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "It's like casting musical pearls before a snoring pig."
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Now, let's welcome our star for the evening."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "The famous musician\u2014Ms. Shona Grandi!"
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "I didn't expect it to be so formal."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Oh, yeah... I shouldn't speak.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Elegant, poignant, with a touch of the divine. What delightful music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(But I'm starting to feel a little sleepy...)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(She's a famous musician, but her fingers seem a little stiff.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(I guess I just prefer Caelestite music.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "(Well... I'll keep listening, anyway, and try to make the most of the performance.)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Wait a minute... Why are Bonacie's fists clenched like that?)"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I knew it... Absolutely hopeless. Just listen to this."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Huh?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "This soulless racket is bruising my ears!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You... Why are you standing up!? Sit down, quickly! Everyone's staring at us!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hey, wake up!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Huh...? Whazzit?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Look at the weirdo standing up over there. Is she... writing something in the air?"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "She's writing..."
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Lumopolites... Musical... Neanderthals!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "This woman... couldn't play to save her life?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Well, that makes sense... Why else would I have fallen asleep?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Makes sense, my ass!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Get up! Grab that troublemaker!"
+    },
+    {
+     "char": "Lumo Guard B:",
+     "dialogue": "Oh, right!"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "Hey, what are you doing!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "What's going on?"
+    },
+    {
+     "char": "Clang\u2014!!!",
+     "dialogue": "Who hit the lights!?"
+    },
+    {
+     "char": "Lumo Guard A:",
+     "dialogue": "I can't see anything!"
+    },
+    {
+     "char": "Audience A:",
+     "dialogue": "Don't worry, everyone. The intermission's over."
+    },
+    {
+     "char": "Audience B:",
+     "dialogue": "Your snoring companions, you may wake them up now."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Meaningless notes, piled on top one another, no emotion... I cannot stand it!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Although the first movement was truly dull, the real performance is about to begin."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What in the world is going on!? Guards\u2026 where are the guards?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Hush, now."
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "How dare you break the noble rules of our fine city's musical tradition!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Who cares about the rules?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "A melody should flow like the sea\u2014like rolling waves and falling rain."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "One moment, loud and clear\u2014the next moment, sad and low."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And a flood of emotion will soon fill this hall with its glory!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Listen. Even a musical nincompoop like you will find something to enjoy."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(Bonacie's holy avatar is playing!)"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "(This music...)"
+    },
+    {
+     "char": "Dun\u2014",
+     "dialogue": "Who is this girl?"
+    },
+    {
+     "char": "Dun, dun\u2014dun\u2014dun!",
+     "dialogue": "..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Fin."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "We can leave now."
+    },
+    {
+     "char": "Protagonist:",
+     "dialogue": "Huh? How are we going to get out of here?"
+    },
+    {
+     "char": "Pianist:",
+     "dialogue": "You hijacked the concert, and now the guards are after us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Just hold your head up high and walk out with some grace. They're all still completely immersed in my music."
+    },
+    {
+     "char": "Entranced by the lingering charm of her melody, not even a single breath can be heard throughout the entire venue, not even a cough.",
+     "dialogue": "No one tried to stop us..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Even the guards at the door looked dazed, as if they've been hypnotized."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Truly good music should possess such charm."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Bonacie, when I saw you writing in the air just now, I realized..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "You're not a fan of that musician at all!",
+     "link": "6"
+    },
+    {
+     "text": "You don't even like Lumopolis' music, do you!",
+     "link": "7"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "Her fingers were so stiff, like a tree, just mechanical tap-tap-tapping away on the piano."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "There was no emotion there at all. Well, maybe a little narcissism."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Her appeal, her effect on the audience\u2014all zero."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "How could anyone be a fan of such a person!?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you just had to come to the concert with me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you come just to make fun of Lumopolis' music in front of me?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Yes, that is right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You admitted it with pride..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "I was not mocking the music of Lumopolis per se, but those who lack the ability to play music."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The music itself is innocent, a casualty of the musician, but I cannot stand that kind of soulless performance, trampling all over the very concept of music!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "We must not tolerate those who only seek fame by virtue of their aristocratic status."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take it easy there, Bonacie! The pianist wasn't too great, I'll give you that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... aren't you going a little too far? After all, it seemed like she was trying her best."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Navigator, you still don't understand, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What is music to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a source of pleasure.",
+     "link": "9"
+    },
+    {
+     "text": "It's a companion.",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Bonacie:",
+     "dialogue": "Lumopolis is known as the \"seat of all music.\""
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But in the vast sea of music, it is just a drop in the ocean."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "It's not that I dislike the music of Lumopolis. It is elegant, poignant in its own right. There is a little charm."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But, when an unqualified musical bumpkin plays for an expectant audience, it becomes completely vacuous."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "And you just had to come to the concert with me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you come just to make fun of Lumopolis' music in front of me?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Yes, that is right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You admitted it with pride..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "I was not mocking the music of Lumopolis per se, but those who lack the ability to play music."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The music itself is innocent, a casualty of the musician, but I cannot stand that kind of soulless performance, trampling all over the very concept of music!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "We must not tolerate those who only seek fame by virtue of their aristocratic status."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take it easy there, Bonacie! The pianist wasn't too great, I'll give you that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... aren't you going a little too far? After all, it seemed like she was trying her best."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Navigator, you still don't understand, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What is music to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a source of pleasure.",
+     "link": "9"
+    },
+    {
+     "text": "It's a companion.",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "And you just had to come to the concert with me..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Did you come just to make fun of Lumopolis' music in front of me?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Yes, that is right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You admitted it with pride..."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "I was not mocking the music of Lumopolis per se, but those who lack the ability to play music."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "The music itself is innocent, a casualty of the musician, but I cannot stand that kind of soulless performance, trampling all over the very concept of music!"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "We must not tolerate those who only seek fame by virtue of their aristocratic status."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Take it easy there, Bonacie! The pianist wasn't too great, I'll give you that."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... aren't you going a little too far? After all, it seemed like she was trying her best."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Navigator, you still don't understand, no?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "What is music to you?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "It's a source of pleasure.",
+     "link": "9"
+    },
+    {
+     "text": "It's a companion.",
+     "link": "10"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Especially Caelestite music\u2014it totally relaxes my body and mind."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "But that's just not enough, Navigator."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "You need to develop a deeper understanding, yes?"
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "If a person is deeply in love with music, even when surrounded by silence, a melody will continue to reverberate through their ears."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And this melody does not tolerate unwanted noise."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Music is my true love, and our love is blind, and it is selfish."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "For the sake of music, I will do whatever I can."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Although I'm not that good with actual musical theory..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've had some practice while navigating the Colossus and operating the music score."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, music is more like a companion to me."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Yes! I can feel your love in that word\u2014\"companion.\""
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "However, it is still not enough."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "If a person is deeply in love with music, even when surrounded by silence, a melody will continue to reverberate through their ears."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "And this melody does not tolerate unwanted noise."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "Music is my true love, and our love is blind, and it is selfish."
+    },
+    {
+     "char": "Bonacie:",
+     "dialogue": "For the sake of music, I will do whatever I can."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}
