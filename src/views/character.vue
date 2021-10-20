@@ -8,7 +8,8 @@
     <div class=sidebar>
       
       <Characterdash :chardata=state.test :key=state.test />
-      
+      <colosus :chardata=state.test :key=state.test />
+      <gift :chardata=state.test :key=state.test />
       <ActiveSkill :chardata=state.test :key=state.test />
       
       <chain-combo :chardata=state.test :key=state.test />
@@ -34,7 +35,8 @@ import CharSelector from '../components/character selector.vue'
 import Characterdash from '../components/Character_dash.vue'
 import CharacterImage from '../components/character image.vue'
 import equipment from '../components/equipment.vue'
-
+import colosus from '../components/colosus.vue'
+import gift from '../components/gift.vue'
 import { useRoute } from 'vue-router'
 import {  onMounted,  reactive, watch } from '@vue/runtime-core'
 
@@ -83,7 +85,9 @@ export default {
     CharSelector,
     Characterdash,
     ActiveSkill,
-    equipment
+    equipment,
+    colosus,
+    gift
   },
   methods:{
     ActiveChange(){ 

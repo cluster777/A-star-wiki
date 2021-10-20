@@ -145,6 +145,7 @@ export default {
       this.filter_faction=''
       this.filter_sub=''
       this.filter_main=''
+      this.name_filter=''
       this.filter()
     },
     goto(name){
@@ -252,6 +253,7 @@ export default {
   display: table;
 }
 .active{
+    background-color: rgb(209, 100, 28);
     border-bottom-color: rgb(208, 255, 0);
 }
 .inactive{

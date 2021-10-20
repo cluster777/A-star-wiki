@@ -18,6 +18,12 @@
         v-on:click="ascensionChange(3)"
         :class="{active :this.ascension==3, inactive:this.ascension!=3}"/>
       </div>
+      <div>
+        INGFO
+      </div>
+      <div>
+        Interaction
+      </div>
     </div>
     <div class="selector" v-else>
       <div>
@@ -92,6 +98,8 @@ export default {
   top:50%;
   left:0px;
   background-color: rgb(48, 44, 44);
+  display: flex;
+  flex-direction: column;
 }
 .selector img{
   width: 50px;
