@@ -92,6 +92,7 @@ export default {
 }
 .content-description{
   padding-left:10px;
+  padding-right: 20px;
   margin-top:20px;
   text-align: justify;
 }

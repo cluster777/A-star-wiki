@@ -1,23 +1,24 @@
 <template>
   <div class="containerz">
-    Skill
-    <hr>
+     <h3>Collosus Skill</h3>
+
     <div>
-      <div>{{skill[0].name}}</div>
-      <div>{{skill[0].effect}}</div>
-      <div>{{skill[1].name}}</div>
-      <div>{{skill[1].effect}}</div>
+      <item :itemName="skill[0].name" :value="0" :description="skill[0].effect"/>
+      <item :itemName="skill[1].name" :value="0" :description="skill[1].effect"/>
     </div>
     
   </div>
 </template>
 
 <script>
-
+import item from '@/components/item.vue'
 export default {
   name: 'collosus',
   props: {
     chardata: Object
+  },
+  components:{
+    item
   },
   data: function(){
     return{
@@ -29,7 +30,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h3{
+  margin:0 0 0 15px;
 
+}
 .containerz{
   position:relative;
   background-color: rgb(48, 44, 44);
@@ -40,12 +44,6 @@ export default {
   margin-top:0px;
 }
 .containerz h2{
-  padding-left: 10px;
-  margin-bottom: 0px;
-}
-.containerz h3{
-  color:rgb(168, 167, 167);
-  padding-top:5px;
   padding-left: 10px;
   margin-bottom: 0px;
 }

@@ -1,7 +1,6 @@
 <template>
   <div class="containerz">
-    Gift
-    <hr>
+    <h3>Gift</h3>
     <div v-if="this.state.ready">
       <giftitem :itemName="this.state.gift1[0].name" :value="10" :description="this.state.gift1[0].description" />
       <giftitem :itemName="this.state.gift1[1].name" :value="50" :description="this.state.gift1[1].description" />
@@ -14,7 +13,7 @@
 <script>
 import { reactive } from '@vue/reactivity';
 import { onMounted } from '@vue/runtime-core';
-import giftitem from './GiftItem.vue'
+import giftitem from './item.vue'
 
 export default {
   setup(props){
@@ -52,7 +51,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+h3{
+  margin: 0 0 0 15px;
+}
 .containerz{
   position:relative;
   background-color: rgb(48, 44, 44);

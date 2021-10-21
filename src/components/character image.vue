@@ -18,12 +18,10 @@
         v-on:click="ascensionChange(3)"
         :class="{active :this.ascension==3, inactive:this.ascension!=3}"/>
       </div>
-      <div>
-        INGFO
+      <div v-on:click="infoChange()">
+        <img :src="require('@/assets/universal/file.png')">
       </div>
-      <div>
-        Interaction
-      </div>
+      <infoPage v-show="this.infoActive" :chardata=chardata />
     </div>
     <div class="selector" v-else>
       <div>
@@ -37,6 +35,7 @@
 
 <script>
 //need character symbol
+import infoPage from '@/components/InfoPage.vue'
 
 export default {
   name: 'CharImage',
@@ -48,9 +47,13 @@ export default {
       ascension:0,
       charimage:require('@/assets/character/' + this.chardata.name.toLowerCase() + '.png'),
       charsymbol:require('@/assets/icon/' + this.chardata.name.toLowerCase() + '.png'),
-
+      infoActive:false,
+      terminalActive:false
     }
 
+  },
+  components:{
+    infoPage
   },
   methods:{
     imageupdate(value){
@@ -60,6 +63,9 @@ export default {
       })
     this.charimage=require('@/assets/character/' + value + '.png')
     this.charsymbol=require('@/assets/universal/type_' + 'Detonator' + '.png')
+    },
+    infoChange(){
+      this.infoActive=!this.infoActive
     },
     ascensionChange(value){
       this.ascension=value

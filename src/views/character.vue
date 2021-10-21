@@ -26,17 +26,17 @@
 </template>
 
 <script>
-import Footer from '../components/footer.vue'
-import Header from '../components/Header.vue'
-import LV from '../components/LV UI.vue'
-import ChainCombo from '../components/Chain Combo.vue'
-import ActiveSkill from '../components/ActiveSkill.vue'
-import CharSelector from '../components/character selector.vue'
-import Characterdash from '../components/Character_dash.vue'
-import CharacterImage from '../components/character image.vue'
-import equipment from '../components/equipment.vue'
-import colosus from '../components/colosus.vue'
-import gift from '../components/gift.vue'
+import Footer from '@/components/footer.vue'
+import Header from '@/components/Header.vue'
+import LV from '@/components/LV UI.vue'
+import ChainCombo from '@/components/Chain Combo.vue'
+import ActiveSkill from '@/components/ActiveSkill.vue'
+import CharSelector from '@/components/character selector.vue'
+import Characterdash from '@/components/Character_dash.vue'
+import CharacterImage from '@/components/character image.vue'
+import equipment from '@/components/equipment.vue'
+import colosus from '@/components/colosus.vue'
+import gift from '@/components/gift.vue'
 import { useRoute } from 'vue-router'
 import {  onMounted,  reactive, watch } from '@vue/runtime-core'
 
