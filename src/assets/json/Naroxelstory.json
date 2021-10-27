@@ -1,0 +1,1312 @@
+{
+ "title": "Distress Signal",
+ "header": "Naroxel brings an assortment of potted plants to the Colossus. You pick out a cactus and place it in your bedroom, but something strange happens a few days later...",
+ "chat": [
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "I'm sorry for calling you here like this all of a sudden."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There's no need to be so formal, Naroxel."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Thank you, Navigator. I've looked around all the Colossus rooms over the past few days."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I see that you've managed to keep the interior of the Colossus very clean and tidy."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "It just seems to lack that certain... essence of nature."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Essence of nature...? Do we really need anything like that on the Colossus?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Of course. A touch of natural vitality can work wonders on one's constitution."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Do you often feel tired but can't seem to sleep, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "All the time!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Do you sometimes feel upset for no reason at all, or find yourself burdened with headaches that just seem to come out of the blue?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yeah, I can think of several instances..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "All creatures of this the world are born from nature."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Without the nourishing presence of natural air, one's body is prone to such ailments."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is it really that serious...!? What should I do!?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not\u2014I brought some plants here with me. They're guaranteed to create a more natural atmosphere on the Colossus."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Please come and have a look."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Wow... The unique atmosphere hit me as soon as I walked in..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "There are so many plants in this room, Naroxel!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "That's right."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Can you feel the fresh air soothing your lungs?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I can!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Do you feel euphoric and refreshed?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Yes! Yes, I do!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "This is the power of nature."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I see..."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Thank you for bringing nature to the Colossus.",
+     "link": "1"
+    },
+    {
+     "text": "Is it really that miraculous?",
+     "link": "2"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "There is no need to thank me. It's only natural."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's great having you here, Naroxel. Maybe one day, we can transform the Colossus into a place like Eraveil..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Be careful! Sorry, I forgot to mention that there are several cactus plants here."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Did one of them prick you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. I just bumped into it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen these plants a few times in the Rediesel Desert, but I didn't realize you could get them in pots, too."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I chose them specifically."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Some people can't stand cacti, but I think they're quite charming."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I believe their sharp thorns actually serve to protect their soft hearts."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "And unlike other plants, cacti emit their natural essence at night."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "By placing cacti with other plants, we can enjoy the scent of nature all day long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, if I place a cactus in my room, I'll finally be able to sleep better..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Indeed. That's exactly right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well... Can I take one and put it in my room, then?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Of course you can, but you must take good care of it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I will!"
+    },
+    {
+     "char": "A few days later.",
+     "dialogue": "Hmm... It seems to be coming from the Navigator's room."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Naroxel... Is something wrong?"
+    },
+    {
+     "char": "Knock, knock.",
+     "dialogue": "There seems to be a... distress signal coming from your room."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, I thought I'd come and see what the matter is."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "A distress signal? But I'm fine, and I haven't sent any kind of signal..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "If it's not too much of an inconvenience, could I possibly come in and take a look?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Sure.",
+     "link": "4"
+    },
+    {
+     "text": "Erm...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "Have you never experienced anything similar while exploring outside the Colossus?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "You must have noticed the difference between a dry, stifling town and a humid, invigorating forest?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's true. I am ashamed to admit it, but although I'm a Caelestite, my understanding of nature..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Be careful! Sorry, I forgot to mention that there are several cactus plants here."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Did one of them prick you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. I just bumped into it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen these plants a few times in the Rediesel Desert, but I didn't realize you could get them in pots, too."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I chose them specifically."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Some people can't stand cacti, but I think they're quite charming."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I believe their sharp thorns actually serve to protect their soft hearts."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "And unlike other plants, cacti emit their natural essence at night."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "By placing cacti with other plants, we can enjoy the scent of nature all day long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, if I place a cactus in my room, I'll finally be able to sleep better..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Indeed. That's exactly right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well... Can I take one and put it in my room, then?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Of course you can, but you must take good care of it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I will!"
+    },
+    {
+     "char": "A few days later.",
+     "dialogue": "Hmm... It seems to be coming from the Navigator's room."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Naroxel... Is something wrong?"
+    },
+    {
+     "char": "Knock, knock.",
+     "dialogue": "There seems to be a... distress signal coming from your room."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, I thought I'd come and see what the matter is."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "A distress signal? But I'm fine, and I haven't sent any kind of signal..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "If it's not too much of an inconvenience, could I possibly come in and take a look?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Sure.",
+     "link": "4"
+    },
+    {
+     "text": "Erm...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "Ah!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Be careful! Sorry, I forgot to mention that there are several cactus plants here."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Did one of them prick you?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's all right. I just bumped into it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen these plants a few times in the Rediesel Desert, but I didn't realize you could get them in pots, too."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I chose them specifically."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Some people can't stand cacti, but I think they're quite charming."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I believe their sharp thorns actually serve to protect their soft hearts."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "And unlike other plants, cacti emit their natural essence at night."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "By placing cacti with other plants, we can enjoy the scent of nature all day long."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, if I place a cactus in my room, I'll finally be able to sleep better..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Indeed. That's exactly right."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Well... Can I take one and put it in my room, then?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Of course you can, but you must take good care of it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I will!"
+    },
+    {
+     "char": "A few days later.",
+     "dialogue": "Hmm... It seems to be coming from the Navigator's room."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Naroxel... Is something wrong?"
+    },
+    {
+     "char": "Knock, knock.",
+     "dialogue": "There seems to be a... distress signal coming from your room."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, I thought I'd come and see what the matter is."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "A distress signal? But I'm fine, and I haven't sent any kind of signal..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "If it's not too much of an inconvenience, could I possibly come in and take a look?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "Sure.",
+     "link": "4"
+    },
+    {
+     "text": "Erm...",
+     "link": "5"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "Thank you very much. Now, let's see..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Come in."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes, the signal is getting stronger. It's coming from..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "From here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The cactus is sending out a distress signal?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes. This cactus is dying... We must find a way to save it at once!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "We mustn't delay\u2014do you have a shovel and some scissors?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... I'll go find some!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do now?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Wait."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just... wait?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I removed a rotten segment of the cactus' roots, just now."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Now, we need to wait for nature to summon the wind and sunshine to dry the soil in the flowerpot."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then, when the soil dries out, can I put the cactus back in the flowerpot?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Correct."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, let me make a note. How did this even happen?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, you said you heard the cactus' distress signal just now, but... how?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "In my opinion, although plants do not possess the same intelligence as we Aurorians and Caelestites..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "But they also age, wither, and die\u2014as well as respond to external stimuli."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Plants have their own way of expressing themselves."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I'm just a little more sensitive to them than most, so I can detect the pheromones they release."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're just a little more sensitive...?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I thought you might be able to sense these signals, too\u2014using your Caelestite psychic abilities, of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not very good at using my abilities on plants yet..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not. Even if you cannot sense their thoughts, you can understand their needs if you observe them carefully enough."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Take this cactus, for example. As you know, it originally lived in the desert."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "How did you feel when you went to the desert?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I felt... thirsty?",
+     "link": "7"
+    },
+    {
+     "text": "I felt tired.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not, I merely wish to confirm the source of the signal."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... Come in."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes, the signal is getting stronger. It's coming from..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "From here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The cactus is sending out a distress signal?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes. This cactus is dying... We must find a way to save it at once!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "We mustn't delay\u2014do you have a shovel and some scissors?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... I'll go find some!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do now?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Wait."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just... wait?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I removed a rotten segment of the cactus' roots, just now."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Now, we need to wait for nature to summon the wind and sunshine to dry the soil in the flowerpot."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then, when the soil dries out, can I put the cactus back in the flowerpot?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Correct."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, let me make a note. How did this even happen?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, you said you heard the cactus' distress signal just now, but... how?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "In my opinion, although plants do not possess the same intelligence as we Aurorians and Caelestites..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "But they also age, wither, and die\u2014as well as respond to external stimuli."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Plants have their own way of expressing themselves."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I'm just a little more sensitive to them than most, so I can detect the pheromones they release."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're just a little more sensitive...?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I thought you might be able to sense these signals, too\u2014using your Caelestite psychic abilities, of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not very good at using my abilities on plants yet..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not. Even if you cannot sense their thoughts, you can understand their needs if you observe them carefully enough."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Take this cactus, for example. As you know, it originally lived in the desert."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "How did you feel when you went to the desert?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I felt... thirsty?",
+     "link": "7"
+    },
+    {
+     "text": "I felt tired.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Navigator:",
+     "dialogue": "... Come in."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes, the signal is getting stronger. It's coming from..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "From here!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "The cactus is sending out a distress signal?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes. This cactus is dying... We must find a way to save it at once!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "We mustn't delay\u2014do you have a shovel and some scissors?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "... I'll go find some!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "What should I do now?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Wait."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Just... wait?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I removed a rotten segment of the cactus' roots, just now."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Now, we need to wait for nature to summon the wind and sunshine to dry the soil in the flowerpot."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Then, when the soil dries out, can I put the cactus back in the flowerpot?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Correct."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Okay, let me make a note. How did this even happen?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Also, you said you heard the cactus' distress signal just now, but... how?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "In my opinion, although plants do not possess the same intelligence as we Aurorians and Caelestites..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "But they also age, wither, and die\u2014as well as respond to external stimuli."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Plants have their own way of expressing themselves."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I'm just a little more sensitive to them than most, so I can detect the pheromones they release."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "You're just a little more sensitive...?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "I thought you might be able to sense these signals, too\u2014using your Caelestite psychic abilities, of course."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm not very good at using my abilities on plants yet..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not. Even if you cannot sense their thoughts, you can understand their needs if you observe them carefully enough."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Take this cactus, for example. As you know, it originally lived in the desert."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "How did you feel when you went to the desert?"
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    },
+    {
+     "text": "I felt... thirsty?",
+     "link": "7"
+    },
+    {
+     "text": "I felt tired.",
+     "link": "8"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "That's right. And the plants there feel the same way."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Cacti have succeeded in adapting to life in the desert."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "To reduce the amount of water they lose, they grow sharp, thin thorns."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "To store more water, they grow strong, sturdy stems."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "And thus, we can say that the cactus has adapted perfectly to its environment."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Adapted perfectly to its environment..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, you mean, cacti don't need too much water?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes. Aren't they remarkably resilient?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought giving it lots of water and nourishment was the best way to take care of it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I watered it every morning and evening... But it looks like I was causing it harm..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, sometimes, if you don't understand the needs of those around you, there is a chance you may inadvertently cause more harm than good..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "This particular situation is not very serious, so there's no need to blame yourself too much..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you show me the right way to take care of it, Naroxel?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I promise to take good care of it this time!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Certainly. It's quite moving to see such determination."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Nature will certainly come to you and show you the way."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Maybe it's time I give it to you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? What do you mean?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Oh, don't mind me. I was just talking to myself."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Now, allow me to tell you how to take care of this cactus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm all ears!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Navigator, I'm back to disturb you, once again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Naroxel, you're not here to see if I've been taking good care of the cactus, are you?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, now that you mention it, a tiny peek wouldn't hurt."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "But I can already sense, even from standing here at the door, that the cactus has fully recovered."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Really? I've been worrying about it non-stop recently. I was afraid I might harm it again..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, I'm glad to say that there are no withered or rotten patches to speak of."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So... What kind of pheromone is the cactus emitting now?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Do you really wish to know, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I do... I don't know why, but recently, this cactus has me constantly thinking of the Rediesel Wrench..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was worried that a cactus from the desert might be as short-tempered as those guys..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Your concern is not an unreasonable one. After all, environment plays a significant part in one's development."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "At this current moment, the cactus is... complaining that you almost killed it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Haha, I jest, I jest."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not, Navigator. I can now sense that it is releasing pleasant pheromones."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really wasn't expecting you to make a joke like that..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Here's something else you were not expecting."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this... a new potted plant\u2014for me?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "If you can correctly tell me how to take care of this plant, I'll give it to you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No problem!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... From the look of it, I'd say it's the type of plant that needs to be watered regularly, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Because its leaves are completely different from the ones on the cactus... I guess... I should try to keep the soil moist."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right now, it seems to be in... is this called the flowering phase? So, I may need to add some fertilizer..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Basically, I think I'll have to experiment a little before I know for sure."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, I believe you have learned to understand this plant's demands purely through the art of observation."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "This is for you. From it, I hope you gain something you truly cherish."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you. I'll take good care of it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... What kind of flower is this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Naroxel's already left..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Worry not! Even if I don't know your name, I'll give you a pleasant environment!"
+    },
+    {
+     "char": "A few days later.",
+     "dialogue": "That's strange... I can suddenly sense... happiness in the air."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyway... Little friend, how much water would you like to drink today?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh...? What is that white fluffy stuff?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a dandelion!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen this before, in an image from the past. These plants once grew in Eraveil..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I hope you gain something you truly cherish."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Naroxel..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  },
+  {
+   "chat": [
+    {
+     "char": "Naroxel:",
+     "dialogue": "It's really very difficult living in the desert, due to the hot weather and general scarcity of water."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Cacti have succeeded in adapting to life in the desert."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "To reduce the amount of water they lose, they grow sharp, thin thorns."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "To store more water, they grow strong, sturdy stems."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "And thus, we can say that the cactus has adapted perfectly to its environment."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Adapted perfectly to its environment..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So, you mean, cacti don't need too much water?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Yes. Aren't they remarkably resilient?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I thought giving it lots of water and nourishment was the best way to take care of it..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I watered it every morning and evening... But it looks like I was causing it harm..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, sometimes, if you don't understand the needs of those around you, there is a chance you may inadvertently cause more harm than good..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "This particular situation is not very serious, so there's no need to blame yourself too much..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Can you show me the right way to take care of it, Naroxel?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I promise to take good care of it this time!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Certainly. It's quite moving to see such determination."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Nature will certainly come to you and show you the way."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Maybe it's time I give it to you..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh? What do you mean?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Oh, don't mind me. I was just talking to myself."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Now, allow me to tell you how to take care of this cactus."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I'm all ears!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Navigator, I'm back to disturb you, once again."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Naroxel, you're not here to see if I've been taking good care of the cactus, are you?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, now that you mention it, a tiny peek wouldn't hurt."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "But I can already sense, even from standing here at the door, that the cactus has fully recovered."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Really? I've been worrying about it non-stop recently. I was afraid I might harm it again..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, I'm glad to say that there are no withered or rotten patches to speak of."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "So... What kind of pheromone is the cactus emitting now?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Do you really wish to know, Navigator?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I think I do... I don't know why, but recently, this cactus has me constantly thinking of the Rediesel Wrench..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I was worried that a cactus from the desert might be as short-tempered as those guys..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Your concern is not an unreasonable one. After all, environment plays a significant part in one's development."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "At this current moment, the cactus is... complaining that you almost killed it."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "...!"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Haha, I jest, I jest."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Worry not, Navigator. I can now sense that it is releasing pleasant pheromones."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I really wasn't expecting you to make a joke like that..."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Here's something else you were not expecting."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Is this... a new potted plant\u2014for me?"
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "If you can correctly tell me how to take care of this plant, I'll give it to you."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "No problem!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Hmm... From the look of it, I'd say it's the type of plant that needs to be watered regularly, right?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Because its leaves are completely different from the ones on the cactus... I guess... I should try to keep the soil moist."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Right now, it seems to be in... is this called the flowering phase? So, I may need to add some fertilizer..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Basically, I think I'll have to experiment a little before I know for sure."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Well, I believe you have learned to understand this plant's demands purely through the art of observation."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "This is for you. From it, I hope you gain something you truly cherish."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you. I'll take good care of it!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "But... What kind of flower is this?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Naroxel's already left..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Worry not! Even if I don't know your name, I'll give you a pleasant environment!"
+    },
+    {
+     "char": "A few days later.",
+     "dialogue": "That's strange... I can suddenly sense... happiness in the air."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Anyway... Little friend, how much water would you like to drink today?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Huh...? What is that white fluffy stuff?"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "It's a dandelion!"
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I've seen this before, in an image from the past. These plants once grew in Eraveil..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "I hope you gain something you truly cherish."
+    },
+    {
+     "char": "Naroxel:",
+     "dialogue": "Naroxel..."
+    },
+    {
+     "char": "Navigator:",
+     "dialogue": "Thank you."
+    }
+   ],
+   "branch": [
+    {
+     "text": "Restart Story",
+     "link": "0"
+    }
+   ]
+  }
+ ]
+}

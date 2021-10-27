@@ -1,0 +1,1258 @@
+{
+ "name": "Tweety",
+ "faction": "Independent",
+ "element_main": "Water",
+ "element_sub": "null",
+ "rarity": "4",
+ "class": "Converter",
+ "skill": {
+  "name": "Snow Angel",
+  "cd": "2 Turn",
+  "description": [
+   "Teleports to any tile within 2 surrounding clusters or any Blue tile on the battlefield.",
+   "Teleports to any tile within 2 surrounding clusters or any Blue tile on the battlefield.",
+   "Teleports to any tile within 2 surrounding clusters or any Blue tile on the battlefield. Can cast 1 more time after entering Aurora Time."
+  ]
+ },
+ "equip": {
+  "name": "Chickadee Cap",
+  "passive": "Thawed Heart",
+  "description": [
+   [
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 20%. The mark disappears at the end of the round."
+   ],
+   [
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 20%. The mark disappears at the end of the round."
+   ],
+   [
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 10%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 12%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 15%. The mark disappears at the end of the round.",
+    "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 20%. The mark disappears at the end of the round."
+   ]
+  ],
+  "introduction": "After becoming a courier, Tweety carefully sewed a feather of her own inside the cylindrical cap, which soon became her trademark. Wearing it gives Tweety an enormous boost to her liveliness."
+ },
+ "chain": {
+  "name": "Snowfall",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": null,
+     "description": ""
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 160% damage to all enemies within 3 surrounding clusters."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 140% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "9",
+     "description": "Deals 160% damage to all enemies within 2 surrounding clusters."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 160% damage to all enemies within 3 surrounding clusters."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 200.",
+  "Increased by 25+5%Basic DEF.",
+  "Increased by 200+5%Basic max HP.",
+  "Active Skill Enhancement: Changes Active Skill to a Preemptive Strike skill, making it available upon entering combat.",
+  "",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Water Potion I",
+    "Water Crystal Dust",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Each Chain Combo hit grants 1 stack of Snowpuff Mark. Each stack increases DEF by 20%. The mark disappears at the end of the round."
+  },
+  {
+   "material": [
+    "Water Crystal",
+    "Water Flare Silt",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Keyword",
+   "before": "",
+   "after": ""
+  },
+  {
+   "material": [
+    "Water Flare Tile",
+    "Water Potion II",
+    "Survivalpedia",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to any tile within 2 surrounding clusters or any Blue tile on the battlefield.",
+   "after": "Teleports to any tile within 2 surrounding clusters or any Blue tile on the battlefield. Can cast 1 more time after entering Aurora Time."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 522,
+    "def": 218,
+    "hp": 1694
+   },
+   {
+    "att": 531,
+    "def": 221,
+    "hp": 1716
+   },
+   {
+    "att": 540,
+    "def": 224,
+    "hp": 1739
+   },
+   {
+    "att": 549,
+    "def": 227,
+    "hp": 1761
+   },
+   {
+    "att": 558,
+    "def": 230,
+    "hp": 1784
+   },
+   {
+    "att": 567,
+    "def": 233,
+    "hp": 1806
+   },
+   {
+    "att": 576,
+    "def": 236,
+    "hp": 1829
+   },
+   {
+    "att": 585,
+    "def": 238,
+    "hp": 1852
+   },
+   {
+    "att": 594,
+    "def": 241,
+    "hp": 1874
+   },
+   {
+    "att": 604,
+    "def": 244,
+    "hp": 1897
+   },
+   {
+    "att": 613,
+    "def": 247,
+    "hp": 1919
+   },
+   {
+    "att": 622,
+    "def": 250,
+    "hp": 1942
+   },
+   {
+    "att": 631,
+    "def": 253,
+    "hp": 1964
+   },
+   {
+    "att": 640,
+    "def": 256,
+    "hp": 1987
+   },
+   {
+    "att": 649,
+    "def": 259,
+    "hp": 2010
+   },
+   {
+    "att": 658,
+    "def": 262,
+    "hp": 2032
+   },
+   {
+    "att": 667,
+    "def": 264,
+    "hp": 2055
+   },
+   {
+    "att": 676,
+    "def": 267,
+    "hp": 2077
+   },
+   {
+    "att": 685,
+    "def": 270,
+    "hp": 2100
+   },
+   {
+    "att": 694,
+    "def": 273,
+    "hp": 2122
+   },
+   {
+    "att": 703,
+    "def": 276,
+    "hp": 2145
+   },
+   {
+    "att": 712,
+    "def": 279,
+    "hp": 2167
+   },
+   {
+    "att": 722,
+    "def": 282,
+    "hp": 2190
+   },
+   {
+    "att": 731,
+    "def": 285,
+    "hp": 2213
+   },
+   {
+    "att": 740,
+    "def": 288,
+    "hp": 2235
+   },
+   {
+    "att": 749,
+    "def": 291,
+    "hp": 2258
+   },
+   {
+    "att": 758,
+    "def": 293,
+    "hp": 2280
+   },
+   {
+    "att": 767,
+    "def": 296,
+    "hp": 2303
+   },
+   {
+    "att": 776,
+    "def": 299,
+    "hp": 2325
+   },
+   {
+    "att": 785,
+    "def": 302,
+    "hp": 2348
+   },
+   {
+    "att": 886,
+    "def": 336,
+    "hp": 2616
+   },
+   {
+    "att": 898,
+    "def": 339,
+    "hp": 2644
+   },
+   {
+    "att": 909,
+    "def": 343,
+    "hp": 2672
+   },
+   {
+    "att": 920,
+    "def": 347,
+    "hp": 2701
+   },
+   {
+    "att": 932,
+    "def": 350,
+    "hp": 2729
+   },
+   {
+    "att": 943,
+    "def": 354,
+    "hp": 2757
+   },
+   {
+    "att": 954,
+    "def": 358,
+    "hp": 2785
+   },
+   {
+    "att": 966,
+    "def": 361,
+    "hp": 2813
+   },
+   {
+    "att": 977,
+    "def": 365,
+    "hp": 2842
+   },
+   {
+    "att": 989,
+    "def": 368,
+    "hp": 2870
+   },
+   {
+    "att": 1000,
+    "def": 372,
+    "hp": 2898
+   },
+   {
+    "att": 1011,
+    "def": 376,
+    "hp": 2926
+   },
+   {
+    "att": 1023,
+    "def": 379,
+    "hp": 2954
+   },
+   {
+    "att": 1034,
+    "def": 383,
+    "hp": 2983
+   },
+   {
+    "att": 1045,
+    "def": 387,
+    "hp": 3011
+   },
+   {
+    "att": 1057,
+    "def": 390,
+    "hp": 3039
+   },
+   {
+    "att": 1068,
+    "def": 394,
+    "hp": 3067
+   },
+   {
+    "att": 1079,
+    "def": 397,
+    "hp": 3095
+   },
+   {
+    "att": 1091,
+    "def": 401,
+    "hp": 3124
+   },
+   {
+    "att": 1102,
+    "def": 405,
+    "hp": 3152
+   },
+   {
+    "att": 1113,
+    "def": 408,
+    "hp": 3180
+   },
+   {
+    "att": 1125,
+    "def": 412,
+    "hp": 3208
+   },
+   {
+    "att": 1136,
+    "def": 415,
+    "hp": 3236
+   },
+   {
+    "att": 1147,
+    "def": 419,
+    "hp": 3265
+   },
+   {
+    "att": 1159,
+    "def": 423,
+    "hp": 3293
+   },
+   {
+    "att": 1170,
+    "def": 426,
+    "hp": 3321
+   },
+   {
+    "att": 1181,
+    "def": 430,
+    "hp": 3349
+   },
+   {
+    "att": 1193,
+    "def": 434,
+    "hp": 3377
+   },
+   {
+    "att": 1204,
+    "def": 437,
+    "hp": 3406
+   },
+   {
+    "att": 1215,
+    "def": 441,
+    "hp": 3434
+   },
+   {
+    "att": 1227,
+    "def": 444,
+    "hp": 3462
+   },
+   {
+    "att": 1238,
+    "def": 448,
+    "hp": 3490
+   },
+   {
+    "att": 1249,
+    "def": 452,
+    "hp": 3518
+   },
+   {
+    "att": 1261,
+    "def": 455,
+    "hp": 3547
+   },
+   {
+    "att": 1272,
+    "def": 459,
+    "hp": 3575
+   },
+   {
+    "att": 1283,
+    "def": 463,
+    "hp": 3603
+   },
+   {
+    "att": 1295,
+    "def": 466,
+    "hp": 3631
+   },
+   {
+    "att": 1306,
+    "def": 470,
+    "hp": 3659
+   },
+   {
+    "att": 1318,
+    "def": 473,
+    "hp": 3688
+   },
+   {
+    "att": 1329,
+    "def": 477,
+    "hp": 3716
+   },
+   {
+    "att": 1477,
+    "def": 530,
+    "hp": 4117
+   },
+   {
+    "att": 1486,
+    "def": 533,
+    "hp": 4138
+   },
+   {
+    "att": 1494,
+    "def": 535,
+    "hp": 4159
+   },
+   {
+    "att": 1503,
+    "def": 538,
+    "hp": 4180
+   },
+   {
+    "att": 1511,
+    "def": 541,
+    "hp": 4202
+   },
+   {
+    "att": 1520,
+    "def": 543,
+    "hp": 4223
+   },
+   {
+    "att": 1528,
+    "def": 546,
+    "hp": 4244
+   },
+   {
+    "att": 1537,
+    "def": 549,
+    "hp": 4265
+   },
+   {
+    "att": 1545,
+    "def": 552,
+    "hp": 4286
+   },
+   {
+    "att": 1554,
+    "def": 554,
+    "hp": 4307
+   },
+   {
+    "att": 1562,
+    "def": 557,
+    "hp": 4328
+   },
+   {
+    "att": 1571,
+    "def": 560,
+    "hp": 4350
+   },
+   {
+    "att": 1580,
+    "def": 562,
+    "hp": 4371
+   },
+   {
+    "att": 1588,
+    "def": 565,
+    "hp": 4392
+   },
+   {
+    "att": 1597,
+    "def": 568,
+    "hp": 4413
+   },
+   {
+    "att": 1605,
+    "def": 571,
+    "hp": 4434
+   },
+   {
+    "att": 1614,
+    "def": 573,
+    "hp": 4455
+   },
+   {
+    "att": 1622,
+    "def": 576,
+    "hp": 4476
+   },
+   {
+    "att": 1631,
+    "def": 579,
+    "hp": 4498
+   },
+   {
+    "att": 1639,
+    "def": 581,
+    "hp": 4519
+   },
+   {
+    "att": 1648,
+    "def": 584,
+    "hp": 4540
+   },
+   {
+    "att": 1656,
+    "def": 587,
+    "hp": 4561
+   },
+   {
+    "att": 1665,
+    "def": 590,
+    "hp": 4582
+   },
+   {
+    "att": 1673,
+    "def": 592,
+    "hp": 4603
+   },
+   {
+    "att": 1682,
+    "def": 595,
+    "hp": 4625
+   },
+   {
+    "att": 1690,
+    "def": 598,
+    "hp": 4646
+   },
+   {
+    "att": 1699,
+    "def": 600,
+    "hp": 4667
+   },
+   {
+    "att": 1707,
+    "def": 603,
+    "hp": 4688
+   },
+   {
+    "att": 1716,
+    "def": 606,
+    "hp": 4709
+   },
+   {
+    "att": 1724,
+    "def": 609,
+    "hp": 4730
+   },
+   {
+    "att": 1733,
+    "def": 611,
+    "hp": 4751
+   },
+   {
+    "att": 1741,
+    "def": 614,
+    "hp": 4773
+   },
+   {
+    "att": 1750,
+    "def": 617,
+    "hp": 4794
+   },
+   {
+    "att": 1758,
+    "def": 619,
+    "hp": 4815
+   },
+   {
+    "att": 1767,
+    "def": 622,
+    "hp": 4836
+   },
+   {
+    "att": 1775,
+    "def": 625,
+    "hp": 4857
+   },
+   {
+    "att": 1784,
+    "def": 628,
+    "hp": 4878
+   },
+   {
+    "att": 1792,
+    "def": 630,
+    "hp": 4899
+   },
+   {
+    "att": 1801,
+    "def": 633,
+    "hp": 4921
+   },
+   {
+    "att": 1809,
+    "def": 636,
+    "hp": 4942
+   },
+   {
+    "att": 1818,
+    "def": 638,
+    "hp": 4963
+   },
+   {
+    "att": 1826,
+    "def": 641,
+    "hp": 4984
+   },
+   {
+    "att": 1835,
+    "def": 644,
+    "hp": 5005
+   },
+   {
+    "att": 1843,
+    "def": 647,
+    "hp": 5026
+   },
+   {
+    "att": 1852,
+    "def": 649,
+    "hp": 5047
+   },
+   {
+    "att": 1860,
+    "def": 652,
+    "hp": 5069
+   },
+   {
+    "att": 1869,
+    "def": 655,
+    "hp": 5090
+   },
+   {
+    "att": 1877,
+    "def": 657,
+    "hp": 5111
+   },
+   {
+    "att": 1886,
+    "def": 660,
+    "hp": 5132
+   },
+   {
+    "att": 1894,
+    "def": 663,
+    "hp": 5153
+   },
+   {
+    "att": 2115,
+    "def": 730,
+    "hp": 5737
+   },
+   {
+    "att": 2121,
+    "def": 732,
+    "hp": 5751
+   },
+   {
+    "att": 2126,
+    "def": 733,
+    "hp": 5766
+   },
+   {
+    "att": 2132,
+    "def": 735,
+    "hp": 5780
+   },
+   {
+    "att": 2138,
+    "def": 737,
+    "hp": 5794
+   },
+   {
+    "att": 2143,
+    "def": 739,
+    "hp": 5808
+   },
+   {
+    "att": 2149,
+    "def": 741,
+    "hp": 5822
+   },
+   {
+    "att": 2155,
+    "def": 742,
+    "hp": 5836
+   },
+   {
+    "att": 2160,
+    "def": 744,
+    "hp": 5850
+   },
+   {
+    "att": 2166,
+    "def": 746,
+    "hp": 5864
+   },
+   {
+    "att": 2172,
+    "def": 748,
+    "hp": 5878
+   },
+   {
+    "att": 2177,
+    "def": 750,
+    "hp": 5892
+   },
+   {
+    "att": 2183,
+    "def": 751,
+    "hp": 5907
+   },
+   {
+    "att": 2189,
+    "def": 753,
+    "hp": 5921
+   },
+   {
+    "att": 2194,
+    "def": 755,
+    "hp": 5935
+   },
+   {
+    "att": 2200,
+    "def": 757,
+    "hp": 5949
+   },
+   {
+    "att": 2206,
+    "def": 759,
+    "hp": 5963
+   },
+   {
+    "att": 2211,
+    "def": 761,
+    "hp": 5977
+   },
+   {
+    "att": 2217,
+    "def": 762,
+    "hp": 5991
+   },
+   {
+    "att": 2223,
+    "def": 764,
+    "hp": 6005
+   },
+   {
+    "att": 2228,
+    "def": 766,
+    "hp": 6019
+   },
+   {
+    "att": 2234,
+    "def": 768,
+    "hp": 6033
+   },
+   {
+    "att": 2240,
+    "def": 770,
+    "hp": 6048
+   },
+   {
+    "att": 2245,
+    "def": 771,
+    "hp": 6062
+   },
+   {
+    "att": 2251,
+    "def": 773,
+    "hp": 6076
+   },
+   {
+    "att": 2257,
+    "def": 775,
+    "hp": 6090
+   },
+   {
+    "att": 2263,
+    "def": 777,
+    "hp": 6104
+   },
+   {
+    "att": 2268,
+    "def": 779,
+    "hp": 6118
+   },
+   {
+    "att": 2274,
+    "def": 780,
+    "hp": 6132
+   },
+   {
+    "att": 2280,
+    "def": 782,
+    "hp": 6146
+   },
+   {
+    "att": 2285,
+    "def": 784,
+    "hp": 6160
+   },
+   {
+    "att": 2291,
+    "def": 786,
+    "hp": 6174
+   },
+   {
+    "att": 2297,
+    "def": 788,
+    "hp": 6188
+   },
+   {
+    "att": 2302,
+    "def": 790,
+    "hp": 6203
+   },
+   {
+    "att": 2308,
+    "def": 791,
+    "hp": 6217
+   },
+   {
+    "att": 2314,
+    "def": 793,
+    "hp": 6231
+   },
+   {
+    "att": 2319,
+    "def": 795,
+    "hp": 6245
+   },
+   {
+    "att": 2325,
+    "def": 797,
+    "hp": 6259
+   },
+   {
+    "att": 2331,
+    "def": 799,
+    "hp": 6273
+   },
+   {
+    "att": 2336,
+    "def": 800,
+    "hp": 6287
+   },
+   {
+    "att": 2342,
+    "def": 802,
+    "hp": 6301
+   },
+   {
+    "att": 2348,
+    "def": 804,
+    "hp": 6315
+   },
+   {
+    "att": 2353,
+    "def": 806,
+    "hp": 6329
+   },
+   {
+    "att": 2359,
+    "def": 808,
+    "hp": 6344
+   },
+   {
+    "att": 2365,
+    "def": 809,
+    "hp": 6358
+   },
+   {
+    "att": 2370,
+    "def": 811,
+    "hp": 6372
+   },
+   {
+    "att": 2376,
+    "def": 813,
+    "hp": 6386
+   },
+   {
+    "att": 2382,
+    "def": 815,
+    "hp": 6400
+   },
+   {
+    "att": 2387,
+    "def": 817,
+    "hp": 6414
+   },
+   {
+    "att": 2393,
+    "def": 818,
+    "hp": 6428
+   },
+   {
+    "att": 2399,
+    "def": 820,
+    "hp": 6442
+   },
+   {
+    "att": 2404,
+    "def": 822,
+    "hp": 6456
+   },
+   {
+    "att": 2410,
+    "def": 824,
+    "hp": 6470
+   },
+   {
+    "att": 2416,
+    "def": 826,
+    "hp": 6485
+   },
+   {
+    "att": 2421,
+    "def": 828,
+    "hp": 6499
+   },
+   {
+    "att": 2427,
+    "def": 829,
+    "hp": 6513
+   },
+   {
+    "att": 2433,
+    "def": 831,
+    "hp": 6527
+   },
+   {
+    "att": 2438,
+    "def": 833,
+    "hp": 6541
+   },
+   {
+    "att": 2444,
+    "def": 835,
+    "hp": 6555
+   },
+   {
+    "att": 2450,
+    "def": 837,
+    "hp": 6569
+   },
+   {
+    "att": 2455,
+    "def": 838,
+    "hp": 6583
+   },
+   {
+    "att": 2461,
+    "def": 840,
+    "hp": 6597
+   },
+   {
+    "att": 2467,
+    "def": 842,
+    "hp": 6611
+   },
+   {
+    "att": 2472,
+    "def": 844,
+    "hp": 6626
+   },
+   {
+    "att": 2478,
+    "def": 846,
+    "hp": 6640
+   },
+   {
+    "att": 2484,
+    "def": 847,
+    "hp": 6654
+   },
+   {
+    "att": 2489,
+    "def": 849,
+    "hp": 6668
+   },
+   {
+    "att": 2495,
+    "def": 851,
+    "hp": 6682
+   },
+   {
+    "att": 2501,
+    "def": 853,
+    "hp": 6696
+   },
+   {
+    "att": 2506,
+    "def": 855,
+    "hp": 6710
+   },
+   {
+    "att": 2512,
+    "def": 857,
+    "hp": 6724
+   },
+   {
+    "att": 2518,
+    "def": 858,
+    "hp": 6738
+   },
+   {
+    "att": 2523,
+    "def": 860,
+    "hp": 6752
+   },
+   {
+    "att": 2529,
+    "def": 862,
+    "hp": 6767
+   },
+   {
+    "att": 2535,
+    "def": 864,
+    "hp": 6781
+   },
+   {
+    "att": 2540,
+    "def": 866,
+    "hp": 6795
+   },
+   {
+    "att": 2546,
+    "def": 867,
+    "hp": 6809
+   },
+   {
+    "att": 2552,
+    "def": 869,
+    "hp": 6823
+   },
+   {
+    "att": 2557,
+    "def": 871,
+    "hp": 6837
+   },
+   {
+    "att": 2563,
+    "def": 873,
+    "hp": 6851
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Starlight Omniscience",
+    "effect": "When deployed to the Starlight Chamber, increases Heartstone production efficiency by 10%."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "noble Aurorians"
+ ],
+ "description": "The Courier Union member in charge of Northland deliveries. An energetic, albeit somewhat clumsy courier, her appearance and unique accent make her seem cute and innocent.",
+ "realName": "Tweety",
+ "nickname": "Snowpuff",
+ "gender": "Female",
+ "height": "4'3\"",
+ "birthday": "25 June",
+ "birthplace": "Far East",
+ "style": "Snowball Storm",
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Tweety, like Commander Hiiro, hails from Cloud Mountain in the Far East and currently works for the Northland Division of the Courier Union. However, unlike Hiiro, Tweety is a pure, adorable, and enthusiastic little girl. Ah! I didn't mean to say that Commander Hiiro isn't cute, of course...<br><br>Anyway, upon first meeting Tweety, you may find it difficult to understand her accent. But her optimism is infectious, and she is sure to win you over. After a while, you might even find yourself unconsciouswy imitating her accent... Ahem... All in all, Tweety loves the snow, but she's like a warm ray of sunshine, bringing joy to everyone around her... And if she asks you to have a snowball fight with her, think twice before saying yes!<br><br> \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "Navi-Navi-Navigator! Wanna hear my special intwoduction to Cwoud Mountain? Leave it aww to me\u2014a native Cwoud Mountainer, thwough and thwough! <br><br>Located in the Far East is a place knews as a hidden tweasure of Eastern wisdom\u2014my hometown, Cwoud Mountain! It's the best! Why? Because the gods protect this place! You can tell 'cos you warely see any Eclipsites on Cwoud Mountain! Awesome, wight? Cwoud Mountain has the puwest snow and the most beautiful Cwoud Bwossom imaginable. I absowutely love Cwoud Bwossom! Cwoud Bwossom is a flower unique to Cwoud Mountain, and awthough it's always snowing on Cwoud Mountain, our hearts are warm, all year round! That's wight! And we have the best hot spwings! After a busy day's works, soak in the hot spwings, and look up at the dewicate snow and Cwoud Bwossom dancing in the air... It's comfy enough to bwing anyone to tears!<br><br> I'm going to tell you a secwet, %s... If you wanna see the pwetty views I just said, come and stay at the Cwoud Bwossom Hotel! I'm not saying that 'cos I work there, weally!"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "My pawents twavels awound a lot to make ends meet, so they leaves me with Gwammy. Thanks to Gwammy, I gwew up healthy and happy. Although Gwammy's just a neighbor, not my welative, she is iwwepwaceable in my heart, so I go back to Cwoud Mountain evewy holiday to help Gwammy look after the hotel. Yeah\u2014the Cwoud Bwossom Hotel!<br><br>I'm pwomoting the hotel again? Okay, okay, sowwy, %s\u2014but I do hope more Aurorians visit Cwoud Bwossom Hotel... Ah, but then Gwammy might get too busy... But that's awwight! If that happens, I can go back and help! But if I ask for leave to go back, maybe Gwammy will compwain about me not being wesponsible for my work... It's hard to make a decision! What do you think, %s?"
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Huh? How did I end up here? Actuawwy, my pawents cames here to work for the Couwier Union when I was weally little. My pawents felts they shouldn't keep bothewing Gwammy to look after me, so they gots me a job with the Couwier Union's Northwand Division. Although living with Gwammy is the best, I didn't want to cause Gwammy any more twouble... So, that's why I came here.<br><br>But I quickwy made a lot of good fwiends at the Couwier Union! I study, eat, and sleep with aww those new fwiends evewy day. Those will always be my most pwecious memowies. But back then, I still didn't know why evewyone there wanted to become a couwier. One day, a senior couwier named Nawoxel came to the Northwand Division and shared wonderful stowies about the couwier life. I looked at the senior couwier and said to myself, \"One day, I will be an awesome couwier, too!\""
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I was excited about the idea of becoming a couwier and began to study hard, too. My talented fwends passed the exam and became couwiers weally quick, while I tried nearwy thwee years and still couldn't pass! One weason I couldn't pass was my accent, I guess. I'm working hard evewy day to fix my accent, but why doesn't it seem to be impwoving? Each time I take an exam, I say one word and evewyone waughs. However, I bewieve a couwier not only should deliver letters, but happiness. If evewyone is happy, I feel happy. Later, the senior couwier tolds me that a bwilliant couwier shouldn't let their dweam die just because of their accent. After that, I passed the exam and became a weal couwier! But I can't stop there. I can't let the senior couwier and evewyone else down... So, %s\u2014can you pwease help to cowwect my accent?"
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Making money isn't aww I care about\u2014I want to wearn fwom our most awesome senior couwier!",
+  "I wike Northwand! It's just wike Cwoud Mountain, my hometown.",
+  "You can always twust in the Couwier Union to dewiver!",
+  "Ecwipsites are awful... But if you want to fight them, you can ask me to hewp!",
+  "Nawoxel? I absowutewy adore her! I hope I can be just wike her when I gwow up!",
+  "Pepi is just gweat, and is always wooking out for us!",
+  "Soaking in a hot spwing while thwowing snowballs and watching the chewwy bwossoms... Of course I can do them all at the same time!",
+  "Sending this mail to the Wediesel Wench? Actually... I can't stand pwaces that are too hot.",
+  "Wow! Will my chickadees ever gwow that big?",
+  "Navi-Navi-Navigator! I have a special Couwier Union survey for you! Do you have time to fiww it in?",
+  "I'm here! Wow! What a perfect pwace for a snowbaww fight!",
+  "I thought I could hewp...",
+  "It's aww part of the job! Heehee!",
+  "Let's have a baww!",
+  "Snowball Storm!",
+  "Get weady, snowman!",
+  "Even in the new year, thwowing snowbawws never gets old!",
+  "I'm here to hewp!",
+  "Snowbawws, snowbawws, snowbawws!",
+  "My snowbawws are getting bigger!",
+  "I bewive my accent is starting to fade!",
+  "Navigator, have you finished wwiting your wetter? I'll dewiver it for you, and it'll get to where it's going in no time.",
+  "Wow! I didn't know I could fwy so high!",
+  "Awchemy Stars!",
+  "Wewcome! Ah, no, this isn't Cwoud Bwossom Hotel! Huh? Does that not weally matter?",
+  "Do you wike snow? Come and have a snowball fight with me! Don't wowwy, I have a whole wot of them!",
+  "Navigator, I'm here to dewiver a gift to you! Oh... I put it in my hat! Where did it go?",
+  "Ah, I'm sowwy! Did I fwighten you? This white ball is my wittle chickadee, not a snowball!",
+  "My snowball skills are even better now! I'm gonna make a big snowman that wooks just wike you!",
+  "Do you wike bwossoms, Navigator? I wikes them vewy much. Especially snow bwossoms and chewwy bwossoms... They're bwooming beautiful!",
+  "Navi-Navi-Navigator! I wanna fix the way I tawk. Can you hewp me out?",
+  "If you're ever in twouble, tell me, and I'll be happy to share the burden!",
+  "Navigator, when you come stay on Cwoud Mountain, wemember to teww me! I'll ask for bweak and be your host.",
+  "What was that? There's a wetter in my tail...? Wow, you're cowwect! Thank you, Navigator!",
+  "My chickadees say they miss the chewwy bwossoms of Cwoud Mountain.",
+  "Navigator, where can I take a dip in a hot spwing awound here?",
+  "Alwight, alweady! I'm coming! Phew! Your mail is here. Pwease sign here!",
+  "Good morning! Navigator, are you stiww sleeping? I'm alweady out of bed!",
+  "Busy, busy, always busy... This time evewy day, I weally wanna soak in a hot spwing.",
+  "You're stiww up, Navigator? I can't keep my eyes open. Good... night... Zzzzz...",
+  "Hi, Navigator! Wemember me? I'm Tweety. Let me know if you needs anything!",
+  "Is this... reawwy for me?",
+  "Navigator, you're the gweatest!",
+  "Wow! I want to go back and show this to Gwammy!",
+  "Woo-hoo! This is the gwreatest gift I've ever weceived!",
+  "Hewe the snowman comes!",
+  "Snowman Surge!",
+  "I'm weady for action!",
+  "In the far east, there is a beautiful pwace called Cwoud Mountain, where the snowfwakes dance in the air with the chewwy bwossoms. Wow, I miss home now...",
+  "Gwammy has been taking care of me since I was wittle. I need to work my hardest to become an amazing couwier and make her pwoud!",
+  "I may speak funny, but I have a lot of good fwiends on the mainwand. Huh? Yeah, of couwse you're one of my good fwiends too, Navigator!",
+  "Let me twy!"
+ ],
+ "skins": []
+}

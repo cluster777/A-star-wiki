@@ -1,0 +1,1258 @@
+{
+ "name": "Paloma",
+ "faction": "True Order",
+ "element_main": "Forest",
+ "element_sub": "Forest",
+ "rarity": "6",
+ "class": "Sniper",
+ "skill": {
+  "name": "Rebirth",
+  "cd": "3 Turn",
+  "description": [
+   "Select 1 tile, then with this tile as the center, select 1 direction in which to extend a vine that creeps to the edge of the battlefield and deals 360% damage within this range, while converting the front 2 tiles to Enhanced Tiles. For each 1 tile the vine extends across, damage increases by 10%.",
+   "Select 1 tile, then with this tile as the center, select 1 direction in which to extend a vine that creeps to the edge of the battlefield and deals 360% damage within this range, while converting the front 2 tiles to Enhanced Tiles. Vines extend 3 tiles in a cross-shape after dealing damage. This extension effect can trigger only 1 time for each enemy hit. For each 1 tile the vine extends across, damage increases by 10%.",
+   "Select 1 tile, then with this tile as the center, select 1 direction in which to extend a vine that creeps to the edge of the battlefield and deals 360% damage within this range, while converting the front 2 tiles to Enhanced Tiles. Vines extend 3 tiles in a cross-shape after dealing damage. This extension effect can trigger only 1 time for each enemy hit. For each 1 tile the vine extends across, damage increases by 10%."
+  ]
+ },
+ "equip": {
+  "name": "Paloma's Coin",
+  "passive": "Emblem Power",
+  "description": [
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 10%. Retains 50% of stacks at the end of the round."
+   ],
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 10%. Retains 50% of stacks at the end of the round."
+   ],
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 4%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 6%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 8%. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 10%. Retains 50% of stacks at the end of the round."
+   ]
+  ],
+  "introduction": "Originally a holy emblem from the Temple of Lumopolis, the engraving changed after Paloma witnessed the death of her parents. It symbolizes her disillusionment with her faith and her decision to follow her heart and her own path."
+ },
+ "chain": {
+  "name": "Prickly End",
+  "detail": [
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 160% damage to the 4 nearest enemies."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 160% damage to the 4 nearest enemies."
+    }
+   ],
+   [
+    {
+     "cost": "4",
+     "description": "Deals 150% damage to the 2 nearest enemies."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to the 3 nearest enemies."
+    },
+    {
+     "cost": "12",
+     "description": "Deals 160% damage to the 4 nearest enemies."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 300.",
+  "DEF increased by 40.",
+  "Active Skill Enhancement: Changes Active Skill to a Preemptive Strike skill, making it available upon entering combat.",
+  "Increased by 300+5%Basic max HP.",
+  "Increased by 40+5%Basic DEF.",
+  "Active Skill Enhancement: The first 3 tiles in damage range become  Enhanced Tiles . For every 1 tile extended, damage increases by 15%."
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Flare Silt",
+    "Forest Crystal Dust",
+    "Ancient Scroll",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 10%. Retains 50% of stacks at the end of the round."
+  },
+  {
+   "material": [
+    "Forest Crystal",
+    "Forest Potion I",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Select 1 tile, then with this tile as the center, select 1 direction in which to extend a vine that creeps to the edge of the battlefield and deals 360% damage within this range, while converting the front 2 tiles to Enhanced Tiles. For each 1 tile the vine extends across, damage increases by 10%.",
+   "after": "Select 1 tile, then with this tile as the center, select 1 direction in which to extend a vine that creeps to the edge of the battlefield and deals 360% damage within this range, while converting the front 2 tiles to Enhanced Tiles. Vines extend 3 tiles in a cross-shape after dealing damage. This extension effect can trigger only 1 time for each enemy hit. For each 1 tile the vine extends across, damage increases by 10%."
+  },
+  {
+   "material": [
+    "Forest Potion III",
+    "Forest Flare Rock",
+    "Ancient Book",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases chain damage by 10%. Retains 50% of stacks at the end of the round.",
+   "after": "Whenever passing through an Enhanced Tile, gains 1 stack of Barbed Mark. Each stack increases Chain Combo and Normal Attack damage by 10%. Retains 50% of stacks at the end of the round."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 599,
+    "def": 202,
+    "hp": 1698
+   },
+   {
+    "att": 612,
+    "def": 205,
+    "hp": 1727
+   },
+   {
+    "att": 625,
+    "def": 209,
+    "hp": 1755
+   },
+   {
+    "att": 639,
+    "def": 212,
+    "hp": 1784
+   },
+   {
+    "att": 652,
+    "def": 215,
+    "hp": 1812
+   },
+   {
+    "att": 665,
+    "def": 218,
+    "hp": 1841
+   },
+   {
+    "att": 678,
+    "def": 221,
+    "hp": 1869
+   },
+   {
+    "att": 692,
+    "def": 224,
+    "hp": 1898
+   },
+   {
+    "att": 705,
+    "def": 227,
+    "hp": 1926
+   },
+   {
+    "att": 718,
+    "def": 230,
+    "hp": 1955
+   },
+   {
+    "att": 731,
+    "def": 233,
+    "hp": 1983
+   },
+   {
+    "att": 744,
+    "def": 237,
+    "hp": 2012
+   },
+   {
+    "att": 758,
+    "def": 240,
+    "hp": 2040
+   },
+   {
+    "att": 771,
+    "def": 243,
+    "hp": 2069
+   },
+   {
+    "att": 784,
+    "def": 246,
+    "hp": 2097
+   },
+   {
+    "att": 797,
+    "def": 249,
+    "hp": 2126
+   },
+   {
+    "att": 810,
+    "def": 252,
+    "hp": 2154
+   },
+   {
+    "att": 824,
+    "def": 255,
+    "hp": 2183
+   },
+   {
+    "att": 837,
+    "def": 258,
+    "hp": 2211
+   },
+   {
+    "att": 850,
+    "def": 261,
+    "hp": 2240
+   },
+   {
+    "att": 863,
+    "def": 264,
+    "hp": 2268
+   },
+   {
+    "att": 877,
+    "def": 268,
+    "hp": 2297
+   },
+   {
+    "att": 890,
+    "def": 271,
+    "hp": 2325
+   },
+   {
+    "att": 903,
+    "def": 274,
+    "hp": 2354
+   },
+   {
+    "att": 916,
+    "def": 277,
+    "hp": 2382
+   },
+   {
+    "att": 929,
+    "def": 280,
+    "hp": 2411
+   },
+   {
+    "att": 943,
+    "def": 283,
+    "hp": 2439
+   },
+   {
+    "att": 956,
+    "def": 286,
+    "hp": 2468
+   },
+   {
+    "att": 969,
+    "def": 289,
+    "hp": 2496
+   },
+   {
+    "att": 982,
+    "def": 292,
+    "hp": 2525
+   },
+   {
+    "att": 1089,
+    "def": 326,
+    "hp": 2780
+   },
+   {
+    "att": 1105,
+    "def": 330,
+    "hp": 2816
+   },
+   {
+    "att": 1122,
+    "def": 334,
+    "hp": 2851
+   },
+   {
+    "att": 1138,
+    "def": 338,
+    "hp": 2887
+   },
+   {
+    "att": 1155,
+    "def": 342,
+    "hp": 2923
+   },
+   {
+    "att": 1171,
+    "def": 346,
+    "hp": 2958
+   },
+   {
+    "att": 1188,
+    "def": 350,
+    "hp": 2994
+   },
+   {
+    "att": 1204,
+    "def": 353,
+    "hp": 3030
+   },
+   {
+    "att": 1221,
+    "def": 357,
+    "hp": 3065
+   },
+   {
+    "att": 1237,
+    "def": 361,
+    "hp": 3101
+   },
+   {
+    "att": 1254,
+    "def": 365,
+    "hp": 3136
+   },
+   {
+    "att": 1270,
+    "def": 369,
+    "hp": 3172
+   },
+   {
+    "att": 1287,
+    "def": 373,
+    "hp": 3208
+   },
+   {
+    "att": 1303,
+    "def": 377,
+    "hp": 3243
+   },
+   {
+    "att": 1320,
+    "def": 381,
+    "hp": 3279
+   },
+   {
+    "att": 1336,
+    "def": 384,
+    "hp": 3315
+   },
+   {
+    "att": 1353,
+    "def": 388,
+    "hp": 3350
+   },
+   {
+    "att": 1370,
+    "def": 392,
+    "hp": 3386
+   },
+   {
+    "att": 1386,
+    "def": 396,
+    "hp": 3421
+   },
+   {
+    "att": 1403,
+    "def": 400,
+    "hp": 3457
+   },
+   {
+    "att": 1419,
+    "def": 404,
+    "hp": 3493
+   },
+   {
+    "att": 1436,
+    "def": 408,
+    "hp": 3528
+   },
+   {
+    "att": 1452,
+    "def": 412,
+    "hp": 3564
+   },
+   {
+    "att": 1469,
+    "def": 415,
+    "hp": 3600
+   },
+   {
+    "att": 1485,
+    "def": 419,
+    "hp": 3635
+   },
+   {
+    "att": 1502,
+    "def": 423,
+    "hp": 3671
+   },
+   {
+    "att": 1518,
+    "def": 427,
+    "hp": 3706
+   },
+   {
+    "att": 1535,
+    "def": 431,
+    "hp": 3742
+   },
+   {
+    "att": 1551,
+    "def": 435,
+    "hp": 3778
+   },
+   {
+    "att": 1568,
+    "def": 439,
+    "hp": 3813
+   },
+   {
+    "att": 1584,
+    "def": 443,
+    "hp": 3849
+   },
+   {
+    "att": 1601,
+    "def": 447,
+    "hp": 3884
+   },
+   {
+    "att": 1617,
+    "def": 450,
+    "hp": 3920
+   },
+   {
+    "att": 1634,
+    "def": 454,
+    "hp": 3956
+   },
+   {
+    "att": 1650,
+    "def": 458,
+    "hp": 3991
+   },
+   {
+    "att": 1667,
+    "def": 462,
+    "hp": 4027
+   },
+   {
+    "att": 1683,
+    "def": 466,
+    "hp": 4063
+   },
+   {
+    "att": 1700,
+    "def": 470,
+    "hp": 4098
+   },
+   {
+    "att": 1716,
+    "def": 474,
+    "hp": 4134
+   },
+   {
+    "att": 1733,
+    "def": 478,
+    "hp": 4169
+   },
+   {
+    "att": 1885,
+    "def": 530,
+    "hp": 4536
+   },
+   {
+    "att": 1898,
+    "def": 533,
+    "hp": 4563
+   },
+   {
+    "att": 1910,
+    "def": 536,
+    "hp": 4590
+   },
+   {
+    "att": 1922,
+    "def": 539,
+    "hp": 4616
+   },
+   {
+    "att": 1935,
+    "def": 542,
+    "hp": 4643
+   },
+   {
+    "att": 1947,
+    "def": 545,
+    "hp": 4670
+   },
+   {
+    "att": 1960,
+    "def": 548,
+    "hp": 4696
+   },
+   {
+    "att": 1972,
+    "def": 551,
+    "hp": 4723
+   },
+   {
+    "att": 1984,
+    "def": 554,
+    "hp": 4750
+   },
+   {
+    "att": 1997,
+    "def": 557,
+    "hp": 4777
+   },
+   {
+    "att": 2009,
+    "def": 560,
+    "hp": 4803
+   },
+   {
+    "att": 2022,
+    "def": 562,
+    "hp": 4830
+   },
+   {
+    "att": 2034,
+    "def": 565,
+    "hp": 4857
+   },
+   {
+    "att": 2046,
+    "def": 568,
+    "hp": 4884
+   },
+   {
+    "att": 2059,
+    "def": 571,
+    "hp": 4910
+   },
+   {
+    "att": 2071,
+    "def": 574,
+    "hp": 4937
+   },
+   {
+    "att": 2084,
+    "def": 577,
+    "hp": 4964
+   },
+   {
+    "att": 2096,
+    "def": 580,
+    "hp": 4990
+   },
+   {
+    "att": 2108,
+    "def": 583,
+    "hp": 5017
+   },
+   {
+    "att": 2121,
+    "def": 586,
+    "hp": 5044
+   },
+   {
+    "att": 2133,
+    "def": 589,
+    "hp": 5071
+   },
+   {
+    "att": 2145,
+    "def": 592,
+    "hp": 5097
+   },
+   {
+    "att": 2158,
+    "def": 594,
+    "hp": 5124
+   },
+   {
+    "att": 2170,
+    "def": 597,
+    "hp": 5151
+   },
+   {
+    "att": 2183,
+    "def": 600,
+    "hp": 5177
+   },
+   {
+    "att": 2195,
+    "def": 603,
+    "hp": 5204
+   },
+   {
+    "att": 2207,
+    "def": 606,
+    "hp": 5231
+   },
+   {
+    "att": 2220,
+    "def": 609,
+    "hp": 5258
+   },
+   {
+    "att": 2232,
+    "def": 612,
+    "hp": 5284
+   },
+   {
+    "att": 2245,
+    "def": 615,
+    "hp": 5311
+   },
+   {
+    "att": 2257,
+    "def": 618,
+    "hp": 5338
+   },
+   {
+    "att": 2269,
+    "def": 621,
+    "hp": 5364
+   },
+   {
+    "att": 2282,
+    "def": 624,
+    "hp": 5391
+   },
+   {
+    "att": 2294,
+    "def": 626,
+    "hp": 5418
+   },
+   {
+    "att": 2306,
+    "def": 629,
+    "hp": 5445
+   },
+   {
+    "att": 2319,
+    "def": 632,
+    "hp": 5471
+   },
+   {
+    "att": 2331,
+    "def": 635,
+    "hp": 5498
+   },
+   {
+    "att": 2344,
+    "def": 638,
+    "hp": 5525
+   },
+   {
+    "att": 2356,
+    "def": 641,
+    "hp": 5551
+   },
+   {
+    "att": 2368,
+    "def": 644,
+    "hp": 5578
+   },
+   {
+    "att": 2381,
+    "def": 647,
+    "hp": 5605
+   },
+   {
+    "att": 2393,
+    "def": 650,
+    "hp": 5632
+   },
+   {
+    "att": 2406,
+    "def": 653,
+    "hp": 5658
+   },
+   {
+    "att": 2418,
+    "def": 656,
+    "hp": 5685
+   },
+   {
+    "att": 2430,
+    "def": 658,
+    "hp": 5712
+   },
+   {
+    "att": 2443,
+    "def": 661,
+    "hp": 5738
+   },
+   {
+    "att": 2455,
+    "def": 664,
+    "hp": 5765
+   },
+   {
+    "att": 2468,
+    "def": 667,
+    "hp": 5792
+   },
+   {
+    "att": 2480,
+    "def": 670,
+    "hp": 5819
+   },
+   {
+    "att": 2492,
+    "def": 673,
+    "hp": 5845
+   },
+   {
+    "att": 2716,
+    "def": 740,
+    "hp": 6373
+   },
+   {
+    "att": 2724,
+    "def": 742,
+    "hp": 6391
+   },
+   {
+    "att": 2732,
+    "def": 744,
+    "hp": 6409
+   },
+   {
+    "att": 2740,
+    "def": 746,
+    "hp": 6427
+   },
+   {
+    "att": 2749,
+    "def": 748,
+    "hp": 6444
+   },
+   {
+    "att": 2757,
+    "def": 750,
+    "hp": 6462
+   },
+   {
+    "att": 2765,
+    "def": 752,
+    "hp": 6480
+   },
+   {
+    "att": 2773,
+    "def": 754,
+    "hp": 6498
+   },
+   {
+    "att": 2782,
+    "def": 756,
+    "hp": 6516
+   },
+   {
+    "att": 2790,
+    "def": 757,
+    "hp": 6533
+   },
+   {
+    "att": 2798,
+    "def": 759,
+    "hp": 6551
+   },
+   {
+    "att": 2806,
+    "def": 761,
+    "hp": 6569
+   },
+   {
+    "att": 2815,
+    "def": 763,
+    "hp": 6587
+   },
+   {
+    "att": 2823,
+    "def": 765,
+    "hp": 6605
+   },
+   {
+    "att": 2831,
+    "def": 767,
+    "hp": 6623
+   },
+   {
+    "att": 2839,
+    "def": 769,
+    "hp": 6640
+   },
+   {
+    "att": 2848,
+    "def": 771,
+    "hp": 6658
+   },
+   {
+    "att": 2856,
+    "def": 773,
+    "hp": 6676
+   },
+   {
+    "att": 2864,
+    "def": 775,
+    "hp": 6694
+   },
+   {
+    "att": 2872,
+    "def": 777,
+    "hp": 6712
+   },
+   {
+    "att": 2881,
+    "def": 779,
+    "hp": 6729
+   },
+   {
+    "att": 2889,
+    "def": 781,
+    "hp": 6747
+   },
+   {
+    "att": 2897,
+    "def": 783,
+    "hp": 6765
+   },
+   {
+    "att": 2906,
+    "def": 785,
+    "hp": 6783
+   },
+   {
+    "att": 2914,
+    "def": 787,
+    "hp": 6801
+   },
+   {
+    "att": 2922,
+    "def": 788,
+    "hp": 6818
+   },
+   {
+    "att": 2930,
+    "def": 790,
+    "hp": 6836
+   },
+   {
+    "att": 2939,
+    "def": 792,
+    "hp": 6854
+   },
+   {
+    "att": 2947,
+    "def": 794,
+    "hp": 6872
+   },
+   {
+    "att": 2955,
+    "def": 796,
+    "hp": 6890
+   },
+   {
+    "att": 2963,
+    "def": 798,
+    "hp": 6907
+   },
+   {
+    "att": 2972,
+    "def": 800,
+    "hp": 6925
+   },
+   {
+    "att": 2980,
+    "def": 802,
+    "hp": 6943
+   },
+   {
+    "att": 2988,
+    "def": 804,
+    "hp": 6961
+   },
+   {
+    "att": 2996,
+    "def": 806,
+    "hp": 6979
+   },
+   {
+    "att": 3005,
+    "def": 808,
+    "hp": 6997
+   },
+   {
+    "att": 3013,
+    "def": 810,
+    "hp": 7014
+   },
+   {
+    "att": 3021,
+    "def": 812,
+    "hp": 7032
+   },
+   {
+    "att": 3029,
+    "def": 814,
+    "hp": 7050
+   },
+   {
+    "att": 3038,
+    "def": 816,
+    "hp": 7068
+   },
+   {
+    "att": 3046,
+    "def": 818,
+    "hp": 7086
+   },
+   {
+    "att": 3054,
+    "def": 820,
+    "hp": 7103
+   },
+   {
+    "att": 3062,
+    "def": 821,
+    "hp": 7121
+   },
+   {
+    "att": 3071,
+    "def": 823,
+    "hp": 7139
+   },
+   {
+    "att": 3079,
+    "def": 825,
+    "hp": 7157
+   },
+   {
+    "att": 3087,
+    "def": 827,
+    "hp": 7175
+   },
+   {
+    "att": 3095,
+    "def": 829,
+    "hp": 7192
+   },
+   {
+    "att": 3104,
+    "def": 831,
+    "hp": 7210
+   },
+   {
+    "att": 3112,
+    "def": 833,
+    "hp": 7228
+   },
+   {
+    "att": 3120,
+    "def": 835,
+    "hp": 7246
+   },
+   {
+    "att": 3129,
+    "def": 837,
+    "hp": 7264
+   },
+   {
+    "att": 3137,
+    "def": 839,
+    "hp": 7282
+   },
+   {
+    "att": 3145,
+    "def": 841,
+    "hp": 7299
+   },
+   {
+    "att": 3153,
+    "def": 843,
+    "hp": 7317
+   },
+   {
+    "att": 3162,
+    "def": 845,
+    "hp": 7335
+   },
+   {
+    "att": 3170,
+    "def": 847,
+    "hp": 7353
+   },
+   {
+    "att": 3178,
+    "def": 849,
+    "hp": 7371
+   },
+   {
+    "att": 3186,
+    "def": 851,
+    "hp": 7388
+   },
+   {
+    "att": 3195,
+    "def": 852,
+    "hp": 7406
+   },
+   {
+    "att": 3203,
+    "def": 854,
+    "hp": 7424
+   },
+   {
+    "att": 3211,
+    "def": 856,
+    "hp": 7442
+   },
+   {
+    "att": 3219,
+    "def": 858,
+    "hp": 7460
+   },
+   {
+    "att": 3228,
+    "def": 860,
+    "hp": 7477
+   },
+   {
+    "att": 3236,
+    "def": 862,
+    "hp": 7495
+   },
+   {
+    "att": 3244,
+    "def": 864,
+    "hp": 7513
+   },
+   {
+    "att": 3252,
+    "def": 866,
+    "hp": 7531
+   },
+   {
+    "att": 3261,
+    "def": 868,
+    "hp": 7549
+   },
+   {
+    "att": 3269,
+    "def": 870,
+    "hp": 7567
+   },
+   {
+    "att": 3277,
+    "def": 872,
+    "hp": 7584
+   },
+   {
+    "att": 3285,
+    "def": 874,
+    "hp": 7602
+   },
+   {
+    "att": 3294,
+    "def": 876,
+    "hp": 7620
+   },
+   {
+    "att": 3302,
+    "def": 878,
+    "hp": 7638
+   },
+   {
+    "att": 3310,
+    "def": 880,
+    "hp": 7656
+   },
+   {
+    "att": 3318,
+    "def": 882,
+    "hp": 7673
+   },
+   {
+    "att": 3327,
+    "def": 884,
+    "hp": 7691
+   },
+   {
+    "att": 3335,
+    "def": 885,
+    "hp": 7709
+   },
+   {
+    "att": 3343,
+    "def": 887,
+    "hp": 7727
+   },
+   {
+    "att": 3351,
+    "def": 889,
+    "hp": 7745
+   },
+   {
+    "att": 3360,
+    "def": 891,
+    "hp": 7762
+   },
+   {
+    "att": 3368,
+    "def": 893,
+    "hp": 7780
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Firefly Keeper",
+    "effect": "When deployed to the Lumina Grid, the recovery rate of Fireflies +5% per hour."
+   },
+   {
+    "name": "Explorer",
+    "effect": "When deployed to the Exploration Office, increases MS readings recovery rate by 10%."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "True Order Aurorians",
+  "Aurorians into esoterica"
+ ],
+ "description": "A member of the True Order. Rebellious, rational, and committed to exposing the hypocrisies of Lumopolis.",
+ "realName": "Paloma",
+ "nickname": "Thistle and Thorn",
+ "gender": "Female",
+ "height": "5'7''",
+ "birthday": "30 September",
+ "birthplace": "Lumopolis",
+ "style": "Bloodthorn",
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "Paloma has a very interesting way of speaking. She always says something seriously, often using formal, even aristocratic language... and then her following sentence is entirely the opposite\u2014colloquial, and sometimes even downright rude! I'd really like to know what she's been through, causing such a habit to develop.<br><br>Everyone says Paloma used to be some kind of minor aristocrat in Lumopolis. Maybe that's where her formal affectations come from. However, unlike most other members of the True Order, she seems to have joined only because she's had enough of Lumopolis, or rather, she can't stand Lumopolis. In her eyes, the True Order has always opposed Lumopolis, which is good enough for her.<br><br>Something just occurred to me\u2014if you get used to Paloma's way of speaking, you start to see the logic behind her reasoning. Have a chat with her and see for yourself.<br><br> \u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "White Night up high, and Paloma down below... Just savor it for a moment, and you'll find it seems pretty appropriate.<br><br>Don't look at me like that\u2014I used to live in Lumopolis, you know... Although my family's status was only marginally superior to that of the civilian class, at least we were still counted among the nobility. If I hadn't left that place, you would have had to kneel when passing me in the street... or at least take the initiative to salute. What a strange social code, don't you think?<br><br>Although, there was always a bigger fish out there, waiting to gobble you up. When I encountered those high and mighty nobles, it was my turn to humble myself. Think about it\u2014this is also quite just, don't you think? You kneel down to me, and I salute them. They cannot abide me, so yell at me, and I feel bad and become angry with you. Everyone is like this.<br><br>Perhaps my father wasn't satisfied with this situation. Perhaps that's why he sent me to the Dawn Academy to learn the ways of the temple\u2014why he tried to make me into a nun. After all, what better place is there to hide away from the secular world than in the academy?"
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Lumopolis protects its people. I couldn't go a single day without hearing that when I lived there. I could even hear that inane phrase haunting my dreams at night. Yes, compared with other places on the continent, the people in Lumopolis need not worry about having sufficient food or clothing, but it is far from paradise. If you violate the laws of Lumopolis\u2014hah, \"laws\"\u2014you will be made to suffer.<br><br>Just like that day.<br><br>I had just finished my afternoon prayers when a unit of Lumo Guards came to the academy to inform me that my family was to be punished and exiled to Lower Lumopolis. This sudden news left me at a loss for words\u2014I couldn't believe the reality I had been presented with. However, the banishment order they carried with them was clear. I lost the ability to use Lumina at that moment, and I could no longer become a nun.<br><br>For a while after that, I insisted on praying to the God of Light. I memorized many prayers during that time\u2014prayers I will never be able to forget, yet have never been compelled to utter since."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Soon after my family was banished to Lower Lumopolis, our true judgment began. We were given the unique opportunity to witness the rapid and accurate efficiency of Lumopolis firsthand. I suppose this is what the ruling class calls justice.<br><br>I remember it was a hot afternoon. I was praying in my tiny room in Lower Lumopolis\u2014for my parents, my family, and myself to one day return to the temple and become a nun once more. However, after a sudden knock at the door, my fantasy came to an end.<br><br>Throughout the entire scene, I remember that I didn't blink once. I only saw a team of Lumo Guards show my parents an arrest warrant and claim that we were rebels. Rebels? My father was just an insignificant member of our humble family, with no power. He was a simple man with simple ambitions, and my mother lived a life of quiet seclusion... The very idea of them rebelling against anything was preposterous.<br><br>But Lumopolis is a land of justice. Hah\u2014justice! I watched my parents as they were put in restraints. They didn't resist and simply asked the guards to spare me. However, the guards treated us fairly, and when they came to restrain me, my parents finally resisted... I watched the guards cut them down with my own eyes. Their last words to me were\u2014run."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "I can't remember how I escaped from Lumopolis exactly. I only remember someone helping me along the way. When I woke up, I was lying on the ground in the wilderness. What brought me to my senses was a pain in my hand.<br><br>It turns out that I had been holding an emblem from the temple since the moment I saw my parents arrested. It was given to me when I entered the academy\u2014it was a gift the temple gives each student who dreams of becoming a nun and represents their faith in the temple's teachings. Therefore, after I was expelled from the temple, I held onto it because, at that time, I thought that I would one day return there and achieve my dream of becoming a nun.<br><br>Looking at the emblem in my hand, dripping with blood because of how tightly I had clutched it, I knew I could never return to Lumopolis. The emblem seemed to reflect my mentality at that moment perfectly. Originally, the insignia on it belonged to Lumopolis Temple. Now, it had become an insignia I didn't know, but one that undoubtedly belonged to me and not Lumopolis. On that night, my hair turned white. Since then, I have understood that I am innately different from all Lumopolis stands for and will never become a nun."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "There is no real truth in this world. Its specter exists only on the tongues of the treacherous.",
+  "The priests of Lumopolis say that faith drives people onward, but it doesn't fill their stomachs.",
+  "May the truth bless you, if it even exists.",
+  "If the God of Light created all things, did he also create the Eclipsites?",
+  "The only thing Pact and I have in common is our thorns and nothing else.",
+  "Never surrender\u2014this is Wayne's mantra. It is the principle by which he lives, and the source of his \"happiness\".",
+  "They say that bramble flowers symbolize fate's torment, but I believe they represent the soul's resilience.",
+  "False beliefs tend to attract the fanatical. The more outlandish they are, the more fervent the zealotry they evoke.",
+  "It looks so big from the outside, but the interior is not particularly spacious. The fact that it can fly is interesting, though.",
+  "Is this thing really... such a big deal?",
+  "The scenery here is quite pleasant. It fills my mind with countless thoughts... about how to deal with those Lumopolis brutes...",
+  "Run like the wind!",
+  "Well... We won, anyway.",
+  "Writhe in brambles...",
+  "Despair in thorns!",
+  "It is time to be reborn.",
+  "Happy New Year. I hope something truly wonderful comes our way.",
+  "Is it my turn?",
+  "My emblem... It has grown new thorns...",
+  "The path of thorns has revealed itself to me.",
+  "My fragmented... past.",
+  "I prefer being idle to being busy. Letting my mind wander... Looking at my coin, feeling the thorns...",
+  "My power to resist grows stronger.",
+  "Alchemy Stars.",
+  "Thorns do not hurt people\u2014they just stand there in peace. People's words, however, can stab in your back like the sharpest knife. So, which is more terrible...?",
+  "I think, therefore I am. So, if I do not think, I shall no longer exist. I'm not thinking right now, Navigator. Can you still see me?",
+  "Justice may be delayed, but never denied. Oh... But sometimes it is so late that I think it may be absent...",
+  "You wish to see the coin hanging from my neck? Go ahead\u2014just don't try to bite it.",
+  "Faith provides the most powerful support imaginable. Oh, but houses, bridges, and temples all require considerably solid stone foundations, too.",
+  "Do you see that short-haired girl? Oh, I'm all too familiar with her...",
+  "Judgment will eventually come to all. Oh, but what if the wicked pass away before their judgment arrives? Does that mean they get a pass?",
+  "The priests of Lumopolis say that those without faith are no better than beasts. I, however, believe that every beast has its day...",
+  "Have you ever been to Lumopolis? Have you witnessed the nobility and staunchness of the people there? Oh, it really is quite amusing...",
+  "In the eyes of the God of Light, all people are equal. Oh, it's just that some people are more equal than others.",
+  "Even the sharpest thorns are accompanied by beautiful flowers. Take a look for yourself...",
+  "Our determination pushes us forward... But if we go the wrong way from the very beginning, won't we stray further from our true course?",
+  "Another ordinary day begins. Oh, if it were not ordinary, we wouldn't be here, would we?",
+  "Navigator, why do people always say good morning? What if it is a bad morning?",
+  "After I finish my work, my evenings are for resting. People who work overtime are so pathetic.",
+  "The still of night... perhaps it makes it easier for one to contemplate. Oh, it can also make it easier for one to fall asleep.",
+  "I am Paloma. Fate has brought us together, but if you really think about it, perhaps this was all just a coincidence. Anyway, hello.",
+  "Oh? This is not bad at all.",
+  "Consider this my thanks.",
+  "Interesting. Very interesting...",
+  "It's so beautiful... Ah, thank you!",
+  "Break it up!",
+  "Break from the past!",
+  "The rebirth awaits.",
+  "White Night up high... You shouldn't be so surprised to hear me say such words. I was a nun before, after all. Hard to imagine, isn't it?",
+  "Lumopolis shelters its people. Ah... So, why did they let my parents die before my eyes? Was this the fair judgment of Lumopolis? This expression can rot in hell, for all I care...",
+  "The glamorous life of a Lumopolis noble everyone envies... If I could choose again, I'd rather have been a commoner.",
+  "You want me to lead? Follow your hearts."
+ ],
+ "skins": []
+}

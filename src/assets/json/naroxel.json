@@ -1,0 +1,1258 @@
+{
+ "name": "Naroxel",
+ "faction": "Independent",
+ "element_main": "Forest",
+ "element_sub": "Water",
+ "rarity": "5",
+ "class": "Support",
+ "skill": {
+  "name": "Dance of the Stag",
+  "cd": "3 Turn",
+  "description": [
+   "Teleports to a selected location and purifies tiles within 2 surrounding clusters and additionally other tiles at random. 3 tiles within the purification range are converted to Enhanced Tiles.",
+   "Teleports to a selected location and purifies tiles within 3 surrounding clusters and additionally other tiles at random. 4 tiles within the purification range are converted to Enhanced Tiles.",
+   "Teleports to a selected location and purifies tiles within 3 surrounding clusters and additionally other tiles at random. 4 tiles within the purification range are converted to Enhanced Tiles."
+  ]
+ },
+ "equip": {
+  "name": "Firefly Satchel",
+  "passive": "Firefly Spirit",
+  "description": [
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round."
+   ],
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round."
+   ],
+   [
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.5% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.6% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 0.8% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+    "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round."
+   ]
+  ],
+  "introduction": "Naroxel shares a bizarre spiritual resonance with the Fireflies, allowing her to command these tiny, glowing insects to attack her foes. This gold-lined satchel made of transparent gauze is where she keeps her little allies."
+ },
+ "chain": {
+  "name": "Woodland Glow",
+  "detail": [
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 155% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 155% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ],
+   [
+    {
+     "cost": "2",
+     "description": "Deals 150% damage to 1 surrounding cluster."
+    },
+    {
+     "cost": "8",
+     "description": "Deals 155% damage to 12 tiles in a diamond shape."
+    },
+    {
+     "cost": "13",
+     "description": "Deals 155% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range."
+    }
+   ]
+  ]
+ },
+ "breaktrought": [
+  "HP increased by 250.",
+  "Active Skill Enhancement: Changes Active Skill to a Preemptive Strike skill, making it available upon entering combat.",
+  "Increased by 250+5%Basic max HP.",
+  "Increased by 30+5%Basic DEF.",
+  "Active Skill Enhancement: An additional 1 tile within purification range is converted to an Enhanced Tile.",
+  ""
+ ],
+ "ascension": [
+  {
+   "material": [
+    "Forest Potion I",
+    "Forest Crystal Dust",
+    "Tales of Survival",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "",
+   "after": "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round."
+  },
+  {
+   "material": [
+    "Forest Crystal",
+    "Forest Flare Silt",
+    "Survival 101",
+    "Nightium"
+   ],
+   "type": "Active Skill",
+   "before": "Teleports to a selected location and purifies tiles within 2 surrounding clusters and additionally other tiles at random. 3 tiles within the purification range are converted to Enhanced Tiles.",
+   "after": "Teleports to a selected location and purifies tiles within 3 surrounding clusters and additionally other tiles at random. 4 tiles within the purification range are converted to Enhanced Tiles."
+  },
+  {
+   "material": [
+    "Forest Flare Tile",
+    "Forest Potion II",
+    "Survivalpedia",
+    "Nightium"
+   ],
+   "type": "Equipment",
+   "before": "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round.",
+   "after": "Whenever passing through an Enhanced Tile, gains 1 stack of Emerald Mark. Each stack grants your entire team 1% of Naroxel's basic ATK. Retains 50% of stacks at the end of the round."
+  }
+ ],
+ "base_stat": {
+  "stat": [
+   {
+    "att": 524,
+    "def": 205,
+    "hp": 1641
+   },
+   {
+    "att": 532,
+    "def": 208,
+    "hp": 1666
+   },
+   {
+    "att": 540,
+    "def": 210,
+    "hp": 1691
+   },
+   {
+    "att": 549,
+    "def": 213,
+    "hp": 1716
+   },
+   {
+    "att": 557,
+    "def": 216,
+    "hp": 1741
+   },
+   {
+    "att": 565,
+    "def": 219,
+    "hp": 1766
+   },
+   {
+    "att": 574,
+    "def": 221,
+    "hp": 1791
+   },
+   {
+    "att": 582,
+    "def": 224,
+    "hp": 1816
+   },
+   {
+    "att": 590,
+    "def": 227,
+    "hp": 1840
+   },
+   {
+    "att": 599,
+    "def": 230,
+    "hp": 1865
+   },
+   {
+    "att": 607,
+    "def": 232,
+    "hp": 1890
+   },
+   {
+    "att": 615,
+    "def": 235,
+    "hp": 1915
+   },
+   {
+    "att": 624,
+    "def": 238,
+    "hp": 1940
+   },
+   {
+    "att": 632,
+    "def": 240,
+    "hp": 1965
+   },
+   {
+    "att": 640,
+    "def": 243,
+    "hp": 1990
+   },
+   {
+    "att": 648,
+    "def": 246,
+    "hp": 2015
+   },
+   {
+    "att": 657,
+    "def": 249,
+    "hp": 2040
+   },
+   {
+    "att": 665,
+    "def": 251,
+    "hp": 2065
+   },
+   {
+    "att": 673,
+    "def": 254,
+    "hp": 2090
+   },
+   {
+    "att": 682,
+    "def": 257,
+    "hp": 2115
+   },
+   {
+    "att": 690,
+    "def": 260,
+    "hp": 2140
+   },
+   {
+    "att": 698,
+    "def": 262,
+    "hp": 2165
+   },
+   {
+    "att": 707,
+    "def": 265,
+    "hp": 2190
+   },
+   {
+    "att": 715,
+    "def": 268,
+    "hp": 2215
+   },
+   {
+    "att": 723,
+    "def": 271,
+    "hp": 2240
+   },
+   {
+    "att": 732,
+    "def": 273,
+    "hp": 2265
+   },
+   {
+    "att": 740,
+    "def": 276,
+    "hp": 2290
+   },
+   {
+    "att": 748,
+    "def": 279,
+    "hp": 2315
+   },
+   {
+    "att": 756,
+    "def": 282,
+    "hp": 2340
+   },
+   {
+    "att": 765,
+    "def": 284,
+    "hp": 2365
+   },
+   {
+    "att": 865,
+    "def": 318,
+    "hp": 2646
+   },
+   {
+    "att": 876,
+    "def": 321,
+    "hp": 2677
+   },
+   {
+    "att": 886,
+    "def": 324,
+    "hp": 2709
+   },
+   {
+    "att": 896,
+    "def": 328,
+    "hp": 2740
+   },
+   {
+    "att": 907,
+    "def": 331,
+    "hp": 2771
+   },
+   {
+    "att": 917,
+    "def": 335,
+    "hp": 2802
+   },
+   {
+    "att": 927,
+    "def": 338,
+    "hp": 2833
+   },
+   {
+    "att": 938,
+    "def": 342,
+    "hp": 2865
+   },
+   {
+    "att": 948,
+    "def": 345,
+    "hp": 2896
+   },
+   {
+    "att": 959,
+    "def": 348,
+    "hp": 2927
+   },
+   {
+    "att": 969,
+    "def": 352,
+    "hp": 2958
+   },
+   {
+    "att": 979,
+    "def": 355,
+    "hp": 2989
+   },
+   {
+    "att": 990,
+    "def": 359,
+    "hp": 3021
+   },
+   {
+    "att": 1000,
+    "def": 362,
+    "hp": 3052
+   },
+   {
+    "att": 1011,
+    "def": 366,
+    "hp": 3083
+   },
+   {
+    "att": 1021,
+    "def": 369,
+    "hp": 3114
+   },
+   {
+    "att": 1031,
+    "def": 372,
+    "hp": 3145
+   },
+   {
+    "att": 1042,
+    "def": 376,
+    "hp": 3177
+   },
+   {
+    "att": 1052,
+    "def": 379,
+    "hp": 3208
+   },
+   {
+    "att": 1062,
+    "def": 383,
+    "hp": 3239
+   },
+   {
+    "att": 1073,
+    "def": 386,
+    "hp": 3270
+   },
+   {
+    "att": 1083,
+    "def": 389,
+    "hp": 3302
+   },
+   {
+    "att": 1094,
+    "def": 393,
+    "hp": 3333
+   },
+   {
+    "att": 1104,
+    "def": 396,
+    "hp": 3364
+   },
+   {
+    "att": 1114,
+    "def": 400,
+    "hp": 3395
+   },
+   {
+    "att": 1125,
+    "def": 403,
+    "hp": 3426
+   },
+   {
+    "att": 1135,
+    "def": 407,
+    "hp": 3458
+   },
+   {
+    "att": 1146,
+    "def": 410,
+    "hp": 3489
+   },
+   {
+    "att": 1156,
+    "def": 413,
+    "hp": 3520
+   },
+   {
+    "att": 1166,
+    "def": 417,
+    "hp": 3551
+   },
+   {
+    "att": 1177,
+    "def": 420,
+    "hp": 3582
+   },
+   {
+    "att": 1187,
+    "def": 424,
+    "hp": 3614
+   },
+   {
+    "att": 1197,
+    "def": 427,
+    "hp": 3645
+   },
+   {
+    "att": 1208,
+    "def": 430,
+    "hp": 3676
+   },
+   {
+    "att": 1218,
+    "def": 434,
+    "hp": 3707
+   },
+   {
+    "att": 1229,
+    "def": 437,
+    "hp": 3739
+   },
+   {
+    "att": 1239,
+    "def": 441,
+    "hp": 3770
+   },
+   {
+    "att": 1249,
+    "def": 444,
+    "hp": 3801
+   },
+   {
+    "att": 1260,
+    "def": 448,
+    "hp": 3832
+   },
+   {
+    "att": 1270,
+    "def": 451,
+    "hp": 3863
+   },
+   {
+    "att": 1428,
+    "def": 504,
+    "hp": 4287
+   },
+   {
+    "att": 1436,
+    "def": 506,
+    "hp": 4310
+   },
+   {
+    "att": 1444,
+    "def": 509,
+    "hp": 4334
+   },
+   {
+    "att": 1451,
+    "def": 511,
+    "hp": 4357
+   },
+   {
+    "att": 1459,
+    "def": 514,
+    "hp": 4380
+   },
+   {
+    "att": 1467,
+    "def": 516,
+    "hp": 4404
+   },
+   {
+    "att": 1475,
+    "def": 519,
+    "hp": 4427
+   },
+   {
+    "att": 1482,
+    "def": 522,
+    "hp": 4451
+   },
+   {
+    "att": 1490,
+    "def": 524,
+    "hp": 4474
+   },
+   {
+    "att": 1498,
+    "def": 527,
+    "hp": 4498
+   },
+   {
+    "att": 1506,
+    "def": 529,
+    "hp": 4521
+   },
+   {
+    "att": 1514,
+    "def": 532,
+    "hp": 4544
+   },
+   {
+    "att": 1521,
+    "def": 534,
+    "hp": 4568
+   },
+   {
+    "att": 1529,
+    "def": 537,
+    "hp": 4591
+   },
+   {
+    "att": 1537,
+    "def": 539,
+    "hp": 4615
+   },
+   {
+    "att": 1545,
+    "def": 542,
+    "hp": 4638
+   },
+   {
+    "att": 1553,
+    "def": 545,
+    "hp": 4661
+   },
+   {
+    "att": 1560,
+    "def": 547,
+    "hp": 4685
+   },
+   {
+    "att": 1568,
+    "def": 550,
+    "hp": 4708
+   },
+   {
+    "att": 1576,
+    "def": 552,
+    "hp": 4732
+   },
+   {
+    "att": 1584,
+    "def": 555,
+    "hp": 4755
+   },
+   {
+    "att": 1592,
+    "def": 557,
+    "hp": 4778
+   },
+   {
+    "att": 1599,
+    "def": 560,
+    "hp": 4802
+   },
+   {
+    "att": 1607,
+    "def": 563,
+    "hp": 4825
+   },
+   {
+    "att": 1615,
+    "def": 565,
+    "hp": 4849
+   },
+   {
+    "att": 1623,
+    "def": 568,
+    "hp": 4872
+   },
+   {
+    "att": 1630,
+    "def": 570,
+    "hp": 4895
+   },
+   {
+    "att": 1638,
+    "def": 573,
+    "hp": 4919
+   },
+   {
+    "att": 1646,
+    "def": 575,
+    "hp": 4942
+   },
+   {
+    "att": 1654,
+    "def": 578,
+    "hp": 4966
+   },
+   {
+    "att": 1662,
+    "def": 580,
+    "hp": 4989
+   },
+   {
+    "att": 1669,
+    "def": 583,
+    "hp": 5013
+   },
+   {
+    "att": 1677,
+    "def": 586,
+    "hp": 5036
+   },
+   {
+    "att": 1685,
+    "def": 588,
+    "hp": 5059
+   },
+   {
+    "att": 1693,
+    "def": 591,
+    "hp": 5083
+   },
+   {
+    "att": 1701,
+    "def": 593,
+    "hp": 5106
+   },
+   {
+    "att": 1708,
+    "def": 596,
+    "hp": 5130
+   },
+   {
+    "att": 1716,
+    "def": 598,
+    "hp": 5153
+   },
+   {
+    "att": 1724,
+    "def": 601,
+    "hp": 5176
+   },
+   {
+    "att": 1732,
+    "def": 604,
+    "hp": 5200
+   },
+   {
+    "att": 1739,
+    "def": 606,
+    "hp": 5223
+   },
+   {
+    "att": 1747,
+    "def": 609,
+    "hp": 5247
+   },
+   {
+    "att": 1755,
+    "def": 611,
+    "hp": 5270
+   },
+   {
+    "att": 1763,
+    "def": 614,
+    "hp": 5293
+   },
+   {
+    "att": 1771,
+    "def": 616,
+    "hp": 5317
+   },
+   {
+    "att": 1778,
+    "def": 619,
+    "hp": 5340
+   },
+   {
+    "att": 1786,
+    "def": 622,
+    "hp": 5364
+   },
+   {
+    "att": 1794,
+    "def": 624,
+    "hp": 5387
+   },
+   {
+    "att": 1802,
+    "def": 627,
+    "hp": 5410
+   },
+   {
+    "att": 1810,
+    "def": 629,
+    "hp": 5434
+   },
+   {
+    "att": 2040,
+    "def": 701,
+    "hp": 6050
+   },
+   {
+    "att": 2045,
+    "def": 703,
+    "hp": 6065
+   },
+   {
+    "att": 2050,
+    "def": 704,
+    "hp": 6081
+   },
+   {
+    "att": 2055,
+    "def": 706,
+    "hp": 6096
+   },
+   {
+    "att": 2061,
+    "def": 708,
+    "hp": 6112
+   },
+   {
+    "att": 2066,
+    "def": 709,
+    "hp": 6128
+   },
+   {
+    "att": 2071,
+    "def": 711,
+    "hp": 6143
+   },
+   {
+    "att": 2076,
+    "def": 713,
+    "hp": 6159
+   },
+   {
+    "att": 2081,
+    "def": 715,
+    "hp": 6174
+   },
+   {
+    "att": 2086,
+    "def": 716,
+    "hp": 6190
+   },
+   {
+    "att": 2092,
+    "def": 718,
+    "hp": 6206
+   },
+   {
+    "att": 2097,
+    "def": 720,
+    "hp": 6221
+   },
+   {
+    "att": 2102,
+    "def": 721,
+    "hp": 6237
+   },
+   {
+    "att": 2107,
+    "def": 723,
+    "hp": 6252
+   },
+   {
+    "att": 2112,
+    "def": 725,
+    "hp": 6268
+   },
+   {
+    "att": 2118,
+    "def": 727,
+    "hp": 6284
+   },
+   {
+    "att": 2123,
+    "def": 728,
+    "hp": 6299
+   },
+   {
+    "att": 2128,
+    "def": 730,
+    "hp": 6315
+   },
+   {
+    "att": 2133,
+    "def": 732,
+    "hp": 6330
+   },
+   {
+    "att": 2138,
+    "def": 733,
+    "hp": 6346
+   },
+   {
+    "att": 2144,
+    "def": 735,
+    "hp": 6362
+   },
+   {
+    "att": 2149,
+    "def": 737,
+    "hp": 6377
+   },
+   {
+    "att": 2154,
+    "def": 739,
+    "hp": 6393
+   },
+   {
+    "att": 2159,
+    "def": 740,
+    "hp": 6408
+   },
+   {
+    "att": 2164,
+    "def": 742,
+    "hp": 6424
+   },
+   {
+    "att": 2170,
+    "def": 744,
+    "hp": 6440
+   },
+   {
+    "att": 2175,
+    "def": 745,
+    "hp": 6455
+   },
+   {
+    "att": 2180,
+    "def": 747,
+    "hp": 6471
+   },
+   {
+    "att": 2185,
+    "def": 749,
+    "hp": 6486
+   },
+   {
+    "att": 2190,
+    "def": 750,
+    "hp": 6502
+   },
+   {
+    "att": 2196,
+    "def": 752,
+    "hp": 6518
+   },
+   {
+    "att": 2201,
+    "def": 754,
+    "hp": 6533
+   },
+   {
+    "att": 2206,
+    "def": 756,
+    "hp": 6549
+   },
+   {
+    "att": 2211,
+    "def": 757,
+    "hp": 6565
+   },
+   {
+    "att": 2216,
+    "def": 759,
+    "hp": 6580
+   },
+   {
+    "att": 2221,
+    "def": 761,
+    "hp": 6596
+   },
+   {
+    "att": 2227,
+    "def": 762,
+    "hp": 6611
+   },
+   {
+    "att": 2232,
+    "def": 764,
+    "hp": 6627
+   },
+   {
+    "att": 2237,
+    "def": 766,
+    "hp": 6643
+   },
+   {
+    "att": 2242,
+    "def": 768,
+    "hp": 6658
+   },
+   {
+    "att": 2247,
+    "def": 769,
+    "hp": 6674
+   },
+   {
+    "att": 2253,
+    "def": 771,
+    "hp": 6689
+   },
+   {
+    "att": 2258,
+    "def": 773,
+    "hp": 6705
+   },
+   {
+    "att": 2263,
+    "def": 774,
+    "hp": 6721
+   },
+   {
+    "att": 2268,
+    "def": 776,
+    "hp": 6736
+   },
+   {
+    "att": 2273,
+    "def": 778,
+    "hp": 6752
+   },
+   {
+    "att": 2279,
+    "def": 780,
+    "hp": 6767
+   },
+   {
+    "att": 2284,
+    "def": 781,
+    "hp": 6783
+   },
+   {
+    "att": 2289,
+    "def": 783,
+    "hp": 6799
+   },
+   {
+    "att": 2294,
+    "def": 785,
+    "hp": 6814
+   },
+   {
+    "att": 2299,
+    "def": 786,
+    "hp": 6830
+   },
+   {
+    "att": 2305,
+    "def": 788,
+    "hp": 6845
+   },
+   {
+    "att": 2310,
+    "def": 790,
+    "hp": 6861
+   },
+   {
+    "att": 2315,
+    "def": 792,
+    "hp": 6877
+   },
+   {
+    "att": 2320,
+    "def": 793,
+    "hp": 6892
+   },
+   {
+    "att": 2325,
+    "def": 795,
+    "hp": 6908
+   },
+   {
+    "att": 2331,
+    "def": 797,
+    "hp": 6923
+   },
+   {
+    "att": 2336,
+    "def": 798,
+    "hp": 6939
+   },
+   {
+    "att": 2341,
+    "def": 800,
+    "hp": 6955
+   },
+   {
+    "att": 2346,
+    "def": 802,
+    "hp": 6970
+   },
+   {
+    "att": 2351,
+    "def": 803,
+    "hp": 6986
+   },
+   {
+    "att": 2356,
+    "def": 805,
+    "hp": 7002
+   },
+   {
+    "att": 2362,
+    "def": 807,
+    "hp": 7017
+   },
+   {
+    "att": 2367,
+    "def": 809,
+    "hp": 7033
+   },
+   {
+    "att": 2372,
+    "def": 810,
+    "hp": 7048
+   },
+   {
+    "att": 2377,
+    "def": 812,
+    "hp": 7064
+   },
+   {
+    "att": 2382,
+    "def": 814,
+    "hp": 7080
+   },
+   {
+    "att": 2388,
+    "def": 815,
+    "hp": 7095
+   },
+   {
+    "att": 2393,
+    "def": 817,
+    "hp": 7111
+   },
+   {
+    "att": 2398,
+    "def": 819,
+    "hp": 7126
+   },
+   {
+    "att": 2403,
+    "def": 821,
+    "hp": 7142
+   },
+   {
+    "att": 2408,
+    "def": 822,
+    "hp": 7158
+   },
+   {
+    "att": 2414,
+    "def": 824,
+    "hp": 7173
+   },
+   {
+    "att": 2419,
+    "def": 826,
+    "hp": 7189
+   },
+   {
+    "att": 2424,
+    "def": 827,
+    "hp": 7204
+   },
+   {
+    "att": 2429,
+    "def": 829,
+    "hp": 7220
+   },
+   {
+    "att": 2434,
+    "def": 831,
+    "hp": 7236
+   },
+   {
+    "att": 2440,
+    "def": 833,
+    "hp": 7251
+   },
+   {
+    "att": 2445,
+    "def": 834,
+    "hp": 7267
+   },
+   {
+    "att": 2450,
+    "def": 836,
+    "hp": 7282
+   }
+  ]
+ },
+ "collosus": {
+  "skill": [
+   {
+    "name": "Space Design",
+    "effect": "When deployed to the Bridge, furniture increases Mood by an extra 2%."
+   },
+   {
+    "name": "Mastery: Crafting",
+    "effect": "-5% Atomic Reagent cost when deployed in Workshop."
+   }
+  ],
+  "conversation": [],
+  "furniture": []
+ },
+ "gift": [
+  "Independent Aurorians",
+  "noble Aurorians"
+ ],
+ "description": "A member of the Courier Union, specifically tasked with Lumopolis' deliveries. Elegant and composed, she possesses a mysterious power that allows her to communicate with plants and animals.",
+ "realName": "Naroxel",
+ "nickname": "Emerald Sage",
+ "gender": "Female",
+ "height": "5'6\"",
+ "birthday": "30 September",
+ "birthplace": "Northland",
+ "style": "Firefly Satchel, Divine Deer Hoof",
+ "files": [
+  {
+   "file_name": "Her Experiences",
+   "files": "I met Naroxel when I was studying in Lumopolis. A senior member of the Lumopolis Division of the Courier Union, she is calm, beautiful, humble, and kind... Even when sitting quietly in the corner, her elegant gestures never fail to attract the attention of her surroundings. With a smile as tranquil as a deep lake and her demeanor as refreshing as a gentle breeze, Naroxel makes an unforgettable impression on everyone she meets.<br><br>I've heard that many people in Lumopolis hope that Naroxel will deliver their mails to them herself. However, as a senior member of the Courier Union, Naroxel is mainly responsible for management duties and rarely delivers letters... Over time, an urban legend began to circulate Lumopolis that if you were lucky enough to see the beautiful Naroxel, you would be blessed with good luck for the rest of the day.<br><br>Although I know this is only a rumor, I hope I can see Naroxel every day\u2014she has this grassy smell about her, which is relaxing...<br><br>\u2014Vice"
+  },
+  {
+   "file_name": "Her Story (I)",
+   "files": "I'm very sorry, %s. They didn't scare you, did they? That's good... They are a little naughty, sometimes. Thank you for your kindness. In that case, why don't I formally introduce my friends to you?<br><br>The two spirit cuckoos appeared just now are Olive and Palm. As you can see, they very much enjoy singing. The green spirit deer beside me is named Bessie, and there's nothing it likes more than walking around with me. Oh, and there are also these little fireflies resting in my satchel. It seems that they also want to fly out and say hello to you.<br><br>I met them when I was very young in Windward Forest. The moment I met them, I suddenly understood who I really was... Since then, we have never been apart. They are more than friends to me... they are my family."
+  },
+  {
+   "file_name": "Her Story (II)",
+   "files": "Who am I? %s, that really is a good question.<br><br>Before the age of four, all I knew was that my name was Naroxel and that I lived with my parents at the foot of the Winter Palace in Northland. My parents loved me very much, but I always found myself somewhat different from the surrounding people. Though I was from Northland, I was particularly averse to the cold and enjoyed talking to animals and plants. More importantly, I had a feathered tail... Although I was not too fond of the cold, I always wanted to be outside. My parents couldn't bear to see me suffer, so they took me on a trip to the warm Windward Forest. It was there that I met Bessie, Olive, and Palm.<br><br>Yes, it was through Bessie that I came to understand my place in the world. It turned out that my biological parents were Aurorians possessing demi-human ancestry and had been living a life of seclusion in Windward Forest. One day, they saved a dying Aurorian in the forest. After regained consciousness, that Aurorian, however, killed my mother and father. Bessie and the others followed the Aurorian for a long time and finally discovered that the Aurorian was a traitor bewitched by the Eclipsites... It was then that my current parents found me as an infant, all alone in the forest."
+  },
+  {
+   "file_name": "Her Story (III)",
+   "files": "Do you want to hear more? I have never talked about my past with anyone before...<br><br>Bessie, Olive, and Palm were once my parents' Speakers, so of course, I wanted to stay in Windward Forest with them. But I couldn't do that to my adoptive parents, so I took Bessie and the others back to the village at the foot of the Winter Palace to live with me there.<br><br>Her Majesty soon noticed me during a visit to the village and offered to be my mentor. In my time at Her Majesty's side, I learned how to use Lumina and absorbed a wealth of knowledge from her... But in my heart, there was always a voice calling to me\u2014calling for me to go forth and see the world.<br><br>Seemed to perceive the conflict within my mind, Her Majesty recommended me to the upper echelons of the Courier Union. It so happened that they were looking for a full-time courier at that time, so I took it upon myself to apply. Although I experienced a few setbacks along the way, in the end, I was sent to work in the Lumopolis Division of the Courier Union."
+  },
+  {
+   "file_name": "Her Story (IV)",
+   "files": "After learning that I was leaving for Lumopolis, my mother closed her door and refused to talk to me. I thought that she was perhaps angry with me. From the moment they found me, my parents had always loved me as their own child. Knew that I couldn't stand the cold, my mother would make thick winter clothes for me every year. Father would defend me with a fierce passion so that no one dared make fun of my feathered tail. However, I had decided to leave them... I knocked at the door, but my father told me not to disturb my mother.<br><br>Unexpectedly, the day before my departure, my mother finally opened the door and handed me a dress crafted in a classic Lumopolis style, along with a cold-resistant shawl and gloves... It turned out that she was worried that I would feel inferior to the locals upon arriving in Lumopolis, so she had devoted every waking moment to making these clothes for me.<br><br>To this day, my mother still sends me clothes from time to time. Although many people see Lumopolis as a place where they can purchase the world's most magnificent garments, in my heart, the clothes sent to me by my mother are the most precious and comfortable garments."
+  }
+ ],
+ "story": [],
+ "voice": [
+  "Here in the realm of nature, we are free to convey our love and hopes however we so desire.",
+  "One day, I will return to Northland... Back to that warm forest. One day...",
+  "You must have faith that the Courier Union will always deliver.",
+  "Chaos and disorder... I am certain they are not products of nature.",
+  "Her Majesty is the envoy of nature's power, guiding the way for every lost child.",
+  "The snowman with wings? That's Tweety. She is a simple and kind child.",
+  "Every creature in this world was born by the will of nature, and each is beautiful in its own way.",
+  "The warmth my mother brought me can be found in this cape. It protects me from the cold.",
+  "My fireflies and your fireflies, Caelestites and Aurorians, the Colossus and nature... We live in a wonderful world.",
+  "Have you heard the call of nature?",
+  "The environment here is more agreeable than expected, and I am pleased to accept this mission from nature. I hope my arrival will not disappoint you.",
+  "Maybe this is also nature's plan...",
+  "This is nature's praise for us.",
+  "Dance upon the wind.",
+  "Firefly Forest!",
+  "Let's go, Bessie.",
+  "The new year brings new life, which is always worth welcoming.",
+  "Follow your heart.",
+  "Hear the song of the wind...",
+  "Witness the dance of water...",
+  "Feel the breath of freedom...",
+  "I see a light in your eyes that is different from any Aurorian's. May I guess what's on your mind?",
+  "I can hear it... The call of nature.",
+  "Alchemy Stars.",
+  "You ask me what freedom is? This is a good question. But before I give you my reply, wouldn't you rather find your own answers?",
+  "Please forgive me\u2014introductions are in order. Bessie is my deer, and Olive and Palm are my cuckoos. They are not only my Speakers, they are also my most sincere friends.",
+  "These little things glowing in my bag are fireflies, but they're not like the ones on the Colossus. They have been with me ever since we were in Windward Forest.",
+  "The moment I serenely accepted my fate, I saw time flowing and space expanding, and I knew that freedom had opened its doors to me.",
+  "Seeing me brings good luck...? Does such a rumor really exist? On the off chance it is true, I'd like to pass this luck on to you.",
+  "Yes, I can communicate with animals and plants, just as you can connect with others telepathically. These are our natural gifts.",
+  "If you wish to see me, please whisper my name in your heart. Nature will guide me to your side again.",
+  "I asked Bessie to go for a walk with me and we unexpectedly ran into you. Perhaps that was Bessie's intention\u2014she does like you very much, after all.",
+  "Olive and Palm are singing a song about you. Who would have guessed you would make such a deep impression on the both of them?",
+  "Perhaps you never noticed, but the power of nature was always by your side, guiding you.",
+  "The wind tells the clouds, the clouds tell the rain, the rain tells the earth, and the earth tells the wind... All things will eventually find an answer.",
+  "How do you do? Any mail for Lumopolis?",
+  "I sometimes need to deal with urgent Courier Union matters, but nothing too difficult. How about you?",
+  "Sorry, Olive and Palm always sing like this when they wake up. Did they disturb you?",
+  "Shall we go for a walk? Let's take Bessie with us. We can get some rest in the forest depths.",
+  "I unexpectedly met you in my dreams... Perhaps you will be the one to guide me onward...",
+  "I have been waiting to meet you for so long. Now, the power of nature has finally guided me to you. It's a pleasure to meet you. I am Naroxel.",
+  "Thank you. You needn't have troubled yourself.",
+  "It has a natural smell. I like it.",
+  "Thank you for your kindness. I will accept it.",
+  "How do you know exactly what I like...? Is nature guiding you?",
+  "Let nature take its course.",
+  "Go with nature!",
+  "I await your guidance.",
+  "When I was very young, I met Bessie, Olive, Palm, and these fireflies in Windward Forest. Since then, we have never been apart.",
+  "Bessie helped me to realize my place and mission in this world. I must follow the guidance of nature and continue to move forward to complete my reincarnation in the natural realm.",
+  "My parents loved me as if I were their own daughter. Although there are many luxurious clothes in the stores of Lumopolis, I feel the homemade clothes sent to me by my mother are the most comfortable there are.",
+  "Come with me."
+ ],
+ "skins": []
+}
